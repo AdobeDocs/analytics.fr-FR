@@ -3,7 +3,7 @@ title: Ordre de traitement des données dans Adobe Analytics
 description: Découvrez l’ordre des composants et services qui traitent les données dans Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 91%
@@ -33,9 +33,9 @@ Une fois les données envoyées à Adobe Analytics, les fonctionnalités suivant
 1. **Tables de recherche** : dimensions qui reposent sur des tables de recherche interne Adobe (par exemple, la dimension [Navigateur](/help/components/dimensions/browser.md)) sont mises en correspondance avec la valeur associée.
 2. [**Variables dynamiques**](/help/implement/vars/page-vars/dynamic-variables.md) : si une variable dynamique est vue dans une partie d’une demande d’image, la valeur sera copiée et traitée comme une valeur indépendante à l’avenir.
 3. [**Règles de robots**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) : appliquez un filtrage de robots standard ou personnalisé pour exclure ces données des rapports.
-4. [**Règles de traitement**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) : règles personnalisées appliquées à vos données par votre organisation. Inclut le mappage de [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) à leur variable respective.
+4. [**Règles de traitement**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) : règles personnalisées appliquées à vos données par votre organisation. Inclut le mappage de [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) à leur variable respective.
 5. **Règles VISTA** : règles flexibles personnalisées appliquées à vos données par un consultant Adobe. Les règles VISTA peuvent éventuellement s’exécuter avant ou après les règles de traitement, selon les besoins de votre entreprise. La plupart des règles VISTA s’exécutent généralement après les règles de traitement, mais chaque organisation est configurée différemment. Pour plus d’informations sur les règles VISTA existantes, contactez l’équipe chargée de votre compte Adobe.
-6. [**Règles de traitement des canaux marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) : vous pouvez utiliser les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour préparer les données à utiliser dans les règles de traitement des canaux marketing.
+6. [**Règles de traitement des canaux marketing**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) : vous pouvez utiliser les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) pour préparer les données à utiliser dans les règles de traitement des canaux marketing.
 7. **Données de géolocalisation** : les dimensions reposant sur la recherche d’adresses IP (par exemple, la dimension [Pays](/help/components/dimensions/countries.md)) sont renseignées.
 8. [**Dissimulation d’adresses IP**](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) : si votre entreprise a choisi de dissimuler les adresses IP dans les données brutes, cela s’effectue une fois toutes les autres fonctions de traitement terminées.
 

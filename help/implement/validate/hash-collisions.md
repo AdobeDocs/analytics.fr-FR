@@ -4,7 +4,7 @@ description: Décrit ce qu’est une collision de hachage et de quelle façon el
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 6%
@@ -28,7 +28,7 @@ Adobe Analytics utilise des hachages 32 bits pour la plupart des dimensions, ce 
 
 | Valeurs uniques | Odds |
 | --- | --- |
-| 1,000 | 0,01 % |
+| 1 000 | 0,01 % |
 | 10 000 | 1 % |
 | 50 000 | 26 % |
 | 100 000 | 71 % |
@@ -42,6 +42,6 @@ Tout comme le [paradoxe d’anniversaire](https://en.wikipedia.org/wiki/Birthday
 La plupart des collisions de hachage se produisent avec deux valeurs peu courantes, qui n’ont aucun impact significatif sur les rapports. Même si un hachage entre en conflit avec une valeur commune et peu commune, le résultat est négligeable. Cependant, dans les rares cas où deux valeurs populaires subissent une collision de hachage, il est possible de voir clairement son effet. Adobe recommande ce qui suit pour réduire son effet dans les rapports :
 
 * **Modifier la période** : les tableaux de hachage changent tous les mois. Si la période s’étend sur un autre mois, chaque valeur peut avoir des hachages différents qui ne sont pas en conflit.
-* **Réduire le nombre de valeurs uniques** : vous pouvez ajuster votre implémentation ou utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) pour réduire le nombre de valeurs uniques qu’une dimension collecte. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer les chaînes de requête ou le protocole.
+* **Réduire le nombre de valeurs uniques** : vous pouvez ajuster votre implémentation ou utiliser les [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) pour réduire le nombre de valeurs uniques qu’une dimension collecte. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer les chaînes de requête ou le protocole.
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
