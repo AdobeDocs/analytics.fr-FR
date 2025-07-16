@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 00d716f12a7372ca94f09ddfddd7ffb55d4b1dd2
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 78%
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Ces notes de mise à jour couvrent la période du 7 juillet au 15 août 2025. Le
 
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Champs TNT en direct avec algorithmes** | Livestream est en cours de renouvellement pour s&#39;assurer que la technologie continue d&#39;être moderne et stable. Dans le cadre de cette actualisation, si votre champ TNT contient un algorithme, nous commencerons à incorporer le champ TNT dans la sortie Livestream. Toutefois, seuls les éléments précédemment pris en charge sont concernés : `campaignId`, `recipeId`, `trafficType`, `actionId` et `actionName`. Le schéma TNT global pour Livestream reste inchangé. |   | Juillet 7,2025 |
+| **Champs TNT Livestream avec algorithmes** | Livestream est en cours de renouvellement pour s’assurer que la technologie continue d’être moderne et stable. Dans le cadre de cette actualisation, si votre champ TNT contient un algorithme, nous commencerons à incorporer le champ TNT dans la sortie Livestream. Toutefois, seuls les éléments précédemment pris en charge sont concernés : `campaignId`, `recipeId`, `trafficType`, `actionId` et `actionName`. Le schéma TNT global pour Livestream reste inchangé. |   | 7 juillet 2025 |
 | **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface d’utilisation des attributs du client ou de la cliente est désormais accessible directement depuis le sélecteur d’applications dans Adobe Experience Cloud. | mercredi 1 juillet 2025 | À confirmer |
 | **Médias en streaming : prise en charge des données de planning** | Vous pouvez désormais charger des données planifiées antérieures de contenu de médias en streaming et en direct afin de suivre l’audience plus facilement et avec plus de précision. Les éléments suivants sont des exemples de contenu en direct qui sont pris en charge avec le chargement de données de planning :<ul><li>Plateformes FAST (Free Ad Supported TV)</li><li>Flux locaux</li><li>Sports en direct</li></ul>Le chargement des données de planning vous permet de suivre les audiences des programmes individuels qui ont été diffusés pendant la période que vous avez indiquée dans le fichier de chargement. Vous pouvez même recueillir des données d’audience pour des sujets ou des segments de programme spécifiques. Ces fonctionnalités sont disponibles quelle que soit la manière dont vous avez mis en œuvre Streaming Media Collection.<p>Auparavant, il était difficile de relier avec précision une session donnée à des programmes spécifiques lors de l’analyse du contenu en direct, et il n’était pas possible de relier une session donnée à des sujets individuels ou à des segments de programmes. En savoir plus |  | 25 juin 2025 |
 
