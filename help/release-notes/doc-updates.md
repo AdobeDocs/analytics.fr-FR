@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a0b2fba6696b7caec510be30909cfbb4b5618521
+source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
 workflow-type: tm+mt
-source-wordcount: '6443'
+source-wordcount: '6466'
 ht-degree: 99%
 
 ---
@@ -26,8 +26,9 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2025** | |
-| Débogueur | Nouvel article sur comment activer, utiliser et désactiver le débogueur de projet dans Analysis Workspace. |
-| Révision et mises à jour | Consultez et mettez à jour la documentation d’Analysis Workspace. Le cas échéant, la documentation est désormais synchronisée avec la documentation de Customer Journey Analytics sur Analysis Workspace. |
+| Débogueur | Nouvel article sur l’activation, l’utilisation et la désactivation du débogueur de projet dans Analysis Workspace. |
+| Recommandation de performances pour la visualisation de flux | Ajout d’informations indiquant que le fait de laisser plus de 10 nœuds développés dans une seule visualisation de flux peut affecter le temps de création de rapports. |
+| Examen et mises à jour | Examen et mise à jour de la documentation d’Analysis Workspace. Le cas échéant, la documentation est désormais synchronisée avec la documentation de Customer Journey Analytics sur Analysis Workspace. |
 | **Juin 2025** | |
 | Nouvelles actions de raccourci | Les nouveaux raccourcis clavier d’Analysis Workspace permettent désormais de [déplacer les panneaux Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) vers le haut et vers le bas dans un projet. |
 | **Mars 2025** |  |
@@ -98,7 +99,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Amélioration de la documentation sur les règles de robots. | Mise à jour des informations dans [Comprendre et configurer des règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) afin d’améliorer la clarté.<p>Les améliorations sont les suivantes :</p> <ul><li>Mise à jour du titre de l’article afin qu’il soit plus explicite.</li><li>Amélioration de l’organisation des informations</li><li>Ajout d’étapes indiquant des informations basées sur des tâches</li><li>Ajout d’informations supplémentaires sur les exigences de fichier CSV lors du téléchargement de règles de robots.</li></ul> |
 | Nouvelle section Rapports | Ajout d’une nouvelle section Rapports qui contient des informations sur l’[utilisation de modèles](/help/analyze/analysis-workspace/templates/use-templates.md) et la [création de modèles d’entreprise](/help/analyze/analysis-workspace/templates/create-templates.md). |
 | Mises à jour de la documentation Détection des anomalies et Analyse des contributions | La documentation relative à la détection des anomalies et à l’analyse des contributions se trouvait auparavant dans une section sur Virtual Analyst. Les modifications suivantes ont été apportées : <ul><li>Le terme Virtual Analyst a été supprimé de la documentation.</li><li>La section sur la [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) a été déplacée directement sous la section Analysis Workspace.</li><li>La documentation sur l’analyse des contributions a été fusionnée dans la documentation sur la détection des anomalies.</li></ul> |
-| « Attribution IQ » remplacé par « Attribution » | Changement de toutes les occurrences d’« Attribution IQ » en « [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) » dans la documentation. |
+| « Attribution IQ » a été remplacé par « Attribution » | Changement de toutes les occurrences d’« Attribution IQ » en « [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) » dans la documentation. |
 | **Novembre 2023** | |
 | Mises à jour de la rubrique Activation de l’Activity Map | Ajout du contenu [SDK web](/help/analyze/activity-map/getting-started.md) (à la fois manuellement et via l’extension de balises Adobe Experience Platform). |
 | **Octobre 2023** | |
@@ -133,7 +134,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Documentation concernant la mise à jour de l’écran d’accueil pour l’application de tableaux de bord Analytics (application mobile) | Le nouvel écran d’accueil mis à jour vous permet d’afficher toutes vos cartes de performances dans une seule liste consolidée. [En savoir plus](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Icônes de spectre | Remplacement des captures d’écran des icônes de l’interface utilisateur dans la documentation par leurs homologues du [Système de conception du spectre d’Adobe](https://spectrum.adobe.com/page/icons/). |
 | Gestionnaire des activités de rapport | Mise à jour de la documentation Beta, en particulier la section sur l’[Affichage de l’activité de création de rapports pour les suites de rapports individuelles](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=fr#view-reporting-activity-for-individual-report-suites). |
-| Aperçu d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
+| Vue d’ensemble d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
 | Créer des projets | Création d’un article qui explique en détail comment [créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |
 | Tri des composants dans le rail de gauche | Ajout d’informations sur le tri de la liste des composants dans le rail de gauche. Voir la section « Recherche, filtrage et tri de la liste des composants » dans [Vue d’ensemble des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
 | Suppression de lignes contenant des dimensions dynamiques d’un tableau à structure libre | Ajout d’informations sur la suppression rapide de lignes spécifiques contenant des dimensions dynamiques à l’aide de l’icône x. Consultez la section « Exclure rapidement des lignes spécifiques d’un tableau » dans l’article [Filtrer et trier les tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
@@ -329,7 +330,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 1er octobre 2019 | Nouvel article sur les [Totaux Espace de travail](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html?lang=fr#cja-workspace). |
 | 28 septembre 2019 | Nouveaux articles sur [les variables de configuration pour l’implémentation JavaScript](/help/implement/vars/config-vars/configuration-variables.md). |
 | 19 septembre 2019 | Révision de la documentation sur la segmentation afin d’expliquer les [conteneurs Groupe logique](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=fr#logic-group-containers). |
-| 12 septembre 2019 | Nouvelle documentation pour [ Analyses entre appareils ](/help/components/cda/overview.md) |
+| 12 septembre 2019 | Nouvelle documentation pour [Analyses sur plusieurs appareils](/help/components/cda/overview.md) |
 | 12 septembre 2019 | Mise à jour du document sur les [Totaux des mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=fr). |
 | 28 août 2019 | Nouvel article sur [les applications web progressives (PWA) pour Analytics](/help/technotes/pwa.md). |
 | 8 août 2019 | Nouvel article sur les [totaux des mesures calculées](/help/components/c-calcmetrics/cm-totals.md). |
