@@ -92,7 +92,7 @@ Les événements peuvent être définis en fonction de n’importe quelle condit
 
 | Ensemble de règles | Valeur |
 | --- | --- |
-| Condition | Si [!UICONTROL  Nom De La Page ] Est Égal À « Présentation Du Produit » |
+| Condition | Si [!UICONTROL &#x200B; Nom De La Page &#x200B;] Est Égal À « Présentation Du Produit » |
 | Action | [!UICONTROL Définir l’événement] [!UICONTROL Consultations de produit] sur [!UICONTROL Valeur personnalisée] `1` |
 
 ![Capture d’écran de l’interface des règles de traitement affichant un événement défini de manière conditionnelle](assets/set-product-view-event.png)
