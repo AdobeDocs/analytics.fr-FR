@@ -1,20 +1,20 @@
 ---
 description: Découvrez l’extension Activity Map et comment naviguer dans son interface.
-title: Interface d’extension Activity Map
+title: Interface de l’extension Activity Map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
-# Interface d’extension Activity Map
+# Interface de l’extension Activity Map
 
-L’interface d’extension Activity Map se compose de deux parties :
+L’interface de l’extension Activity Map se compose de deux parties :
 
 * Un panneau supérieur qui vous permet de configurer l’extension et les rapports
 * Recouvrement qui affiche les liens les plus populaires
@@ -30,7 +30,7 @@ Il propose les paramètres suivants :
 
 * **Affichage standard/en direct** : permet de basculer entre les affichages standard et en direct.
    * Vue standard : affiche la superposition en fonction des données historiques.
-   * Vue dynamique : affiche la superposition en fonction des données dynamiques. Le sélecteur de date se transforme en liste déroulante, ce qui vous permet de modifier la granularité des données actives.
+   * Vue dynamique : affiche la superposition en fonction des données dynamiques. Le sélecteur de date se transforme en menu déroulant qui vous permet de modifier la granularité des données actives.
 * **Sélecteur de mesure** : permet de modifier la mesure signalée par le recouvrement. Seuls les [!UICONTROL clics sur les liens] sont disponibles si la vue active est sélectionnée.
 * **Sélecteur de segment** : vous permet de sélectionner un [segment](/help/components/segmentation/seg-overview.md), en affichant un sous-ensemble de données dans votre recouvrement. Les segments ne sont pas disponibles dans la vue active.
 * **Type de visualisation de recouvrement** : permet de modifier la manière dont le recouvrement visualise le classement des liens.
@@ -46,10 +46,10 @@ L’en-tête de ce panneau contient les paramètres suivants :
 * **[!UICONTROL Afficher les paramètres]** : ouvre un menu pour les paramètres que vous pouvez modifier (icône d’engrenage) :
    * **[!UICONTROL Settings]** : ouvre le [Settings](settings.md) de l’extension.
    * **[!UICONTROL Aide]** : ouvre la documentation sur Experience League (cette page).
-   * **[!UICONTROL Communauté d’Adobes]** : ouvre la [communauté d’Experience League ](https://experienceleaguecommunities.adobe.com/?profile.language=fr).
+   * **[!UICONTROL Communauté Adobe]** : ouvre la [communauté Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=fr).
    * **[!UICONTROL À propos]** : affiche la version de l’extension.
    * **[!UICONTROL Déconnexion]** : vous déconnecte de l’extension, ce qui vous oblige à vous reconnecter.
-* **[!UICONTROL Quitter l’Activity Map]** : ferme tous les recouvrements de l’extension (icône X).
+* **[!UICONTROL Quitter Activity Map]** : ferme tous les recouvrements de l’extension (icône X).
 
 ## Recouvrement de page
 
@@ -72,7 +72,7 @@ Le panneau inférieur affiche une vue agrégée des liens affichés sur le recou
 
 Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de travail de base avec les paramètres suivants :
 
-* La dimension [lien Activity Map ](/help/components/dimensions/activity-map-link.md)
+* La dimension [Lien Activity Map](/help/components/dimensions/activity-map-link.md)
 * La mesure [Occurrences](/help/components/metrics/occurrences.md) (libellée **[!UICONTROL Clics sur les liens]**)
 * Valeur actuelle [Page](/help/components/dimensions/page.md) appliquée en tant que segment
 
@@ -81,7 +81,7 @@ Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de t
 Le rapport **[!UICONTROL Détails de la page]** affiche une visualisation [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) à l’aide de la dimension [Page](/help/components/dimensions/page.md), en se concentrant sur la page active. Les mesures suivantes pour la page active sont affichées à gauche :
 
 * Total [pages vues](/help/components/metrics/page-views.md)
-* [!UICONTROL &#x200B; % de toutes les pages vues]
+* [!UICONTROL  % de toutes les pages vues]
 * [Entrée](/help/components/metrics/entries.md) nombre
 * Nombre de [Sorties](/help/components/metrics/exits.md)
 * [Visites de page unique](/help/components/metrics/single-page-visits.md)

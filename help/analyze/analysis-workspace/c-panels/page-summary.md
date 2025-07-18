@@ -4,10 +4,10 @@ title: Panneau Résumé de la page
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '642'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panneau Synthèse de la page"
->abstract="Passez rapidement en revue certaines des mesures de haut niveau ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un élément de dimension de page** : ouvrez le rail du composant, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
+>abstract="Passez rapidement en revue certaines des mesures de haut niveau ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail du composant, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Synthèse de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Synthèse de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe pas de panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Vous pouvez configurer le panneau [!UICONTROL Synthèse de la page] à l’aide 
 
 | Entrée | Description |
 | --- | --- |
-| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. |
+| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. Par exemple, **[!UICONTROL accueil]** pour explorer les statistiques de la page d’accueil. Utilisez le menu déroulant pour sélectionner une page ou commencez à saisir (par exemple, `home`) pour rechercher rapidement des pages. |
 
 {style="table-layout:auto"}
 
