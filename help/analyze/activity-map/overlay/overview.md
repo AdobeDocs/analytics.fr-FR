@@ -81,7 +81,7 @@ Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de t
 Le rapport **[!UICONTROL Détails de la page]** affiche une visualisation [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) à l’aide de la dimension [Page](/help/components/dimensions/page.md), en se concentrant sur la page active. Les mesures suivantes pour la page active sont affichées à gauche :
 
 * Total [pages vues](/help/components/metrics/page-views.md)
-* [!UICONTROL  % de toutes les pages vues]
+* [!UICONTROL &#x200B; % de toutes les pages vues]
 * [Entrée](/help/components/metrics/entries.md) nombre
 * Nombre de [Sorties](/help/components/metrics/exits.md)
 * [Visites de page unique](/help/components/metrics/single-page-visits.md)
