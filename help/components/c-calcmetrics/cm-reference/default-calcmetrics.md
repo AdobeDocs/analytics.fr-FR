@@ -3,10 +3,10 @@ description: Adobe propose différentes mesures calculées que vous pouvez utili
 title: Mesures calculées par défaut
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,13 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 >
 > * Ajouter des mesures calculées par défaut pour Streaming Media Collection, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=fr).
 > * Créer des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans la section [Mesures calculées et avancées](/help/components/c-calcmetrics/cm-overview.md).
+>
+
+>[!TIP]
+>
+>Utilisez le [dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) pour examiner plus en détail la définition d’une mesure calculée par défaut et les composants individuels qui constituent cette définition.
+>
+
 
 
 | Nom de la mesure calculée | Fonction | Formule |
