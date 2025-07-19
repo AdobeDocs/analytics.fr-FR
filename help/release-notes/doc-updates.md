@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: afcf2b454bb0ffecb123661e6bcef126a3f16e17
 workflow-type: tm+mt
-source-wordcount: '6466'
+source-wordcount: '6487'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Juillet 2025** | |
+| Règles de traitement | La documentation relative aux règles de traitement a été entièrement repensée, fournissant plus de détails sur l’interface et les cas d’utilisation actuels. |
 | Débogueur | Nouvel article sur l’activation, l’utilisation et la désactivation du débogueur de projet dans Analysis Workspace. |
 | Recommandation de performances pour la visualisation de flux | Ajout d’informations indiquant que le fait de laisser plus de 10 nœuds développés dans une seule visualisation de flux peut affecter le temps de création de rapports. |
 | Examen et mises à jour | Examen et mise à jour de la documentation d’Analysis Workspace. Le cas échéant, la documentation est désormais synchronisée avec la documentation de Customer Journey Analytics sur Analysis Workspace. |
