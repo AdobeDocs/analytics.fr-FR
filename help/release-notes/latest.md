@@ -3,16 +3,16 @@ title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ebe6716a3dde89d7212385c25044fb533d7737c2
+source-git-commit: 698b8f6cb9529f9742c2e3d9f1556b7913ebf0bb
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 84%
+source-wordcount: '652'
+ht-degree: 77%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (version de juillet 2025)
 
-**Dernière mise à jour** : jeudi 16 juillet 2025
+**Dernière mise à jour** : jeudi 30 juillet 2025
 
 Ces notes de mise à jour couvrent la période du 7 juillet au 15 août 2025. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -21,7 +21,7 @@ Ces notes de mise à jour couvrent la période du 7 juillet au 15 août 2025. Le
 | Fonctionnalité | Description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **Champs TNT Livestream avec algorithmes** | Livestream est en cours de renouvellement pour s’assurer que la technologie continue d’être moderne et stable. Dans le cadre de cette actualisation, si votre champ TNT contient un algorithme, nous commencerons à incorporer le champ TNT dans la sortie Livestream. Toutefois, seuls les éléments précédemment pris en charge sont concernés : `campaignId`, `recipeId`, `trafficType`, `actionId` et `actionName`. Le schéma TNT global pour Livestream reste inchangé. |   | 7 juillet 2025 |
-| **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface d’utilisation des attributs du client ou de la cliente est désormais accessible directement depuis le sélecteur d’applications dans Adobe Experience Cloud. | mercredi 1 juillet 2025 | À confirmer |
+| **Mise à jour de la navigation vers l’interface d’utilisation des attributs du client ou de la cliente** | L’interface utilisateur Attributs du client est désormais accessible directement à partir du sélecteur d’applications dans Adobe Experience Cloud. Sélectionnez **[!UICONTROL Attributs du client]** dans le menu déroulant (au lieu d’accéder à [!UICONTROL Personnes] > [!UICONTROL Attributs du client]) et mettez à jour vos signets.  La mise à jour comprend quelques améliorations de l’interface utilisateur. | mercredi 1 juillet 2025 | vendredi 31 juillet 2025 |
 
 ## Correctifs dans Adobe Analytics
 
