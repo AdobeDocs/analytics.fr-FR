@@ -4,51 +4,75 @@ description: Présentation de l’utilisation des données XDM d’Experience P
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 73%
+source-wordcount: '476'
+ht-degree: 17%
 
 ---
 
 # Mettre en œuvre Adobe Analytics avec le réseau Edge d&#39;Adobe Experience Platform
 
-Le réseau Edge d&#39;Adobe Experience Platform vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Le réseau Edge transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts de mise en œuvre, en particulier sur plusieurs solutions de données.
-
-Adobe propose trois méthodes principales pour envoyer des données au réseau Edge :
-
-* **[SDK Web Adobe Experience Platform](web-sdk/overview.md)** : utilisez l’extension SDK Web dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
-* **[SDK Mobile Adobe Experience Platform](mobile-sdk/overview.md)** : utilisez l’extension SDK Mobile dans la collecte de données Adobe Experience Platform pour envoyer des données à Edge.
-* **[API Adobe Experience Platform Edge Network](api/overview.md)** : envoyez directement des données à Edge Network à l’aide d’une API.
+Le réseau Edge d&#39;Adobe Experience Platform vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Le réseau Edge transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts d’implémentation, en particulier sur plusieurs solutions de données. Adobe Analytics est l’un des produits auxquels vous pouvez envoyer des données à l’aide d’Edge Network.
 
 ## Comment Adobe Analytics gère les données du réseau Edge
 
-Les données envoyées au réseau Edge d’Adobe Experience Platform peuvent avoir deux formats :
+Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre trois formats : **objet XDM**, **objet de données** et **données contextuelles**. Lorsqu’un flux de données transfère des données vers Adobe Analytics, elles sont traduites dans un format qu’Adobe Analytics peut gérer.
 
-* Objet XDM : conforme aux schémas basés sur [XDM (modèle de données d’expérience)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=fr). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Au moment où les événements atteignent Adobe Analytics, ils sont traduits dans un format qu’Adobe Analytics peut traiter.
-* Objet de données : envoyez des données au réseau Edge à l’aide de champs spécifiques mappés à Adobe Analytics. Le réseau Edge détecte la présence de ces champs et les transfère vers Adobe Analytics sans avoir à se conformer à un schéma.
+## objet `xdm`
 
-Edge Network utilise la logique suivante pour déterminer les pages vues Adobe Analytics et les événements de lien :
+Respectez les schémas que vous créez en fonction de [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le groupe de champs de schéma [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK Web pour envoyer des données à une suite de rapports. Lorsque les données arrivent à l’Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
 
-| La payload XDM contient... | Adobe Analytics... |
-|---|---|
-| `xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.URL` et pas `xdm.web.webInteraction.type` | considère que la payload est une **page vue** |
-| `xdm.eventType = web.webPageDetails.pageViews` | considère que la payload est une **page vue** |
-| `xdm.web.webInteraction.type` et (`xdm.web.webInteraction.name` ou `xdm.web.webInteraction.url`) | considère que la payload est un **événement de lien** |
-| `xdm.web.webInteraction.type` et (`xdm.web.webPageDetails.name` ou `xdm.web.webPageDetails.url`) | considère la payload comme un **événement de lien** <br/> définit également `xdm.web.webPageDetails.name` et `xdm.web.webPageDetails.URL` sur `null` |
-| pas `xdm.web.webInteraction.type` et (pas `xdm.webPageDetails.name` et pas `xdm.web.webPageDetails.URL`) | supprime la payload et ignore les données |
+Consultez [Mappage des variables d’objet XDM à Adobe Analytics](xdm-var-mapping.md) pour obtenir une référence complète des champs XDM et de leur mappage aux variables Analytics.
 
-{style="table-layout:auto"}
+>[!TIP]
+>
+>Si vous prévoyez de migrer vers [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) à l’avenir, Adobe vous déconseille d’utiliser le groupe de champs de schéma Adobe Analytics. Adobe recommande plutôt de [créer votre propre schéma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) et d’utiliser le mappage de flux de données pour renseigner les variables Analytics souhaitées. Cette stratégie ne vous verrouille pas sur un schéma de props et d’eVars lorsque vous êtes prêt à passer à Customer Journey Analytics.
 
-En plus de différencier les pages vues et les clics sur les liens, la logique suivante est en place pour déterminer si certains événements sont classés A4T ou sont ignorés.
+## objet `data`
 
-| La payload XDM contient... | Adobe Analytics... |
-| --- | --- |
-| `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` et `xdm._experience.decisioning` | considère la payload comme un appel **A4T**. |
-| `xdm.eventType = display` ou <br/>`xdm.eventType = decisioning.propositionDisplay` ou <br/>`xdm.eventType = personalization.request` ou <br/>`xdm.eventType = decisioning.propositionFetch` et aucune `xdm._experience.decisioning` | supprime la payload et ignore les données |
-| `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` et `xdm._experience.decisioning` et pas de `web.webInteraction.type` | considère la payload comme un appel **A4T**. |
-| `xdm.eventType = click` ou `xdm.eventType = decisioning.propositionInteract` et pas de `xdm._experience.decisioning` et pas de `web.webInteraction.type` | supprime la payload et ignore les données. |
+Au lieu d’utiliser l’objet `xdm`, vous pouvez utiliser l’objet `data` à la place. L’objet de données est destiné aux implémentations qui utilisent actuellement AppMeasurement, ce qui facilite considérablement la mise à niveau vers le SDK Web. Edge Network détecte la présence de champs spécifiques à Adobe Analytics sans avoir besoin de se conformer à un schéma.
 
-{style="table-layout:auto"}
+Consultez [Mappage des variables d’objet de données à Adobe Analytics](data-var-mapping.md) pour consulter une référence complète des champs d’objet de données et de la manière dont ils sont mappés aux variables Analytics.
 
-Pour plus d’informations, voir [Groupe de champs du schéma d’extension complète Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/event/analytics-full-extension.html?lang=fr).
+## Variables de données contextuelles
+
+Envoyez les données à Edge Network dans le format de votre choix. Tous les champs qui ne sont pas automatiquement mappés à des champs d’objet `xdm` ou `data` sont inclus en tant que [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) lors du transfert vers Adobe Analytics. Vous devez ensuite utiliser [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) pour mapper les champs souhaités à leurs variables Analytics respectives.
+
+Par exemple, si vous disposiez d’un schéma XDM personnalisé qui ressemblait à ce qui suit :
+
+```json
+{
+  "xdm": {
+    "key": "value",
+    "animal": {
+      "species": "Raven",
+      "size": "13 inches"
+    },
+    "array": [
+      "v0",
+      "v1",
+      "v2"
+    ],
+    "objectArray":[{
+      "ad1": "300x200",
+      "ad2": "60x240",
+      "ad3": "600x50"
+    }]
+  }
+}
+```
+
+Ces champs sont alors les clés de données contextuelles disponibles dans l’interface des Règles de traitement :
+
+```javascript
+a.x.key // value
+a.x.animal.species // Raven
+a.x.animal.size // 13 inches
+a.x.array.0 // v0
+a.x.array.1 // v1
+a.x.array.2 // v2
+a.x.objectarray.0.ad1 // 300x200
+a.x.objectarray.1.ad2 // 60x240
+a.x.objectarray.2.ad3 // 600x50
+```
