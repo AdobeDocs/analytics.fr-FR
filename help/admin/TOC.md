@@ -5,9 +5,9 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 0bed2622f54bf2f46aa57dbfad7bd55a61d6c7d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 + [Guide de lʼadministrateur dʼAnalytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
 + Adobe Admin Console {#admin-console}
-   + [Vue d’ensemble](admin-console/home.md)
+   + [Présentation](admin-console/home.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Résumé des autorisations pour les outils Analytics {#permissions}
@@ -32,7 +32,7 @@ ht-degree: 98%
    + [Exclure par adresse IP](admin/exclude-ip.md)
    + [Journaux](admin/logs.md)
    + Gestionnaire des activités de rapport {#reporting-activity-manager}
-      + [Vue d’ensemble](admin/reporting-activity-manager/reporting-activity-overview.md)
+      + [Présentation](admin/reporting-activity-manager/reporting-activity-overview.md)
       + [Afficher l’activité de rapport](admin//reporting-activity-manager/reporting-activity.md)
       + [Annuler des demandes de création de rapports](admin/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migration des composants {#component-migration}
@@ -48,10 +48,10 @@ ht-degree: 98%
                + [Détection de référencement payant - Aperçu](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
             + Règles de traitement {#processing-rules}
-               + [Vue d’ensemble](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
+               + [Présentation](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
                + [Interface](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-interface.md)
                + [Afficher l’historique](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-view-history.md)
-               + [Copier les règles](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
+               + [Copier des règles](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-copy.md)
                + [Dimensions et mesures disponibles](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-variables.md)
                + [Cas d’utilisation](admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-use-cases.md)
             + Règles de robots {#bot-removal}
@@ -89,7 +89,7 @@ ht-degree: 98%
             + [Classifications de canaux marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [Expiration du canal marketing](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + Gestion du trafic {#traffic-management}
-            + [Vue d’ensemble](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [Présentation](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [Mesures par défaut](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
