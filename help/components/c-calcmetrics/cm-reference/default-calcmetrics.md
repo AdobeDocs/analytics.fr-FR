@@ -4,9 +4,9 @@ title: Mesures calculées par défaut
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
 source-git-commit: c132b21229aebea8121b156e1f4302a26b483ef5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
