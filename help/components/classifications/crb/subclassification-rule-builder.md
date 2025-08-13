@@ -63,7 +63,7 @@ Exemples d’étapes décrivant comment charger des sous-classifications à l’
 
    Exemple :
 
-   | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
+   | Clé | Canal | Code de campagne large | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marque | Suzanne |  |
    | &#42; |  | 222 | Marque | Frank |  |
