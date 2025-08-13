@@ -3,7 +3,7 @@ description: Description de la procédure de suppression des données de classif
 title: Suppression des données de classification
 feature: Classifications
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 96%
@@ -11,6 +11,8 @@ ht-degree: 96%
 ---
 
 # Suppression des données de classification
+
+{{classification-importer-deprecation}}
 
 Il est parfois nécessaire de supprimer les données de classification une fois chargées. Utilisez soit `~empty~` ou `~deletekey~`, en fonction de ce que vous souhaitez supprimer.
 

@@ -3,7 +3,7 @@ description: Utilisez l’importateur pour télécharger vos classifications dan
 title: Importateur de classifications - Aperçu
 feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 92%
@@ -11,6 +11,8 @@ ht-degree: 92%
 ---
 
 # Présentation de l’importateur de classifications (hérité)
+
+{{classification-importer-deprecation}}
 
 Utilisez l’importateur pour télécharger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation.
 

@@ -3,7 +3,7 @@ title: Exportation des données de classification via FTP
 description: L’exportation FTP offre plus de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données à partir de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données comportant plus de 50 000 lignes de données.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 99%
@@ -11,6 +11,8 @@ ht-degree: 99%
 ---
 
 # Exportation FTP (héritée)
+
+{{classification-importer-deprecation}}
 
 L’option FTP offre davantage de souplesse lors du téléchargement des jeux de données. Elle permet notamment de télécharger des données provenant de plusieurs suites de rapports et des fichiers de jeu de données contenant plus de 50 000 lignes. Avant de télécharger des données de classification via FTP, vous devez créer un compte FTP.
 
@@ -39,7 +41,7 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | Élément | Descriptions |
 | --- | --- |
 | [!UICONTROL Sélectionner une suite de rapports] | Sélectionnez la suite de rapports à partir de laquelle vous souhaitez exporter les données de rapport. |
-| [!UICONTROL Données à classer &#x200B;] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
+| [!UICONTROL Données à classer ] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
 | [!UICONTROL Sélectionner le nombre de lignes] | Indiquez le nombre de lignes de données à exporter.<ul><li>Sélectionnez **[!UICONTROL Tous]** pour télécharger toutes les données de rapport.</li><li>Sélectionnez **[!UICONTROL Limiter les lignes de données à]** si vous voulez indiquer un nombre spécifique de lignes à télécharger.</li></ul> |
 | [!UICONTROL Filtrer par date de réception] | (Facultatif) Filtrez les données en fonction de la date de réception. Spécifiez, dans ce cas, la plage de dates pour laquelle vous voulez télécharger les données. |
 | [!UICONTROL Appliquer un filtre de données] | (Facultatif) Filtrez le jeu de données selon certains critères. Vous pouvez filtrer le téléchargement pour inclure des lignes de données contenant une valeur spécifique ou des valeurs de colonnes non attribuées (classification). |

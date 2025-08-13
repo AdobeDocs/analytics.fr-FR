@@ -3,7 +3,7 @@ description: Utilisez des sous-classifications avec le créateur de règles de c
 title: Sous-classifications et Créateur de règles
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -11,6 +11,8 @@ ht-degree: 66%
 ---
 
 # Sous-classifications et créateur de règles (hérité)
+
+{{classification-rulebuilder-deprecation}}
 
 Vous pouvez combiner le Créateur de règles de classification avec des sous-classifications si vous vous assurez que chaque sous-classification comporte une valeur parente.
 
@@ -61,7 +63,7 @@ Exemples d’étapes décrivant comment charger des sous-classifications à l’
 
    Exemple :
 
-   | Clé | Canal | Code de campagne large | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
+   | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marque | Suzanne |  |
    | &#42; |  | 222 | Marque | Frank |  |

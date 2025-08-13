@@ -3,7 +3,7 @@ title: Temps de traitement de l’importateur de classifications
 description: Comprenez la période pendant laquelle Adobe traite les fichiers de classification et comment réduire le temps de traitement.
 feature: Classifications
 exl-id: 6b8b87f1-5dbc-46b8-9912-0e3086ff4b2a
-source-git-commit: a83195c7805ff1bfb854b3c2714857f437cf8955
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
@@ -11,6 +11,8 @@ ht-degree: 100%
 ---
 
 # Temps de traitement de l’importateur de classifications
+
+{{classification-importer-deprecation}}
 
 Le temps de traitement d’un fichier de classification varie en fonction de la taille du fichier et du nombre total de fichiers traités par Adobe. Les classifications ne durent généralement pas plus de 24 heures. Cependant, les périodes de classification intensive chez les organisations utilisant Adobe Analytics peuvent entraîner un temps de traitement supérieur à 24 heures. Adobe a remarqué une utilisation intensive de la classification dans les mois précédant la période des fêtes.
 

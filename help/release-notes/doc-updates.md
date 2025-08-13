@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: afcf2b454bb0ffecb123661e6bcef126a3f16e17
-workflow-type: ht
-source-wordcount: '6487'
-ht-degree: 100%
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+workflow-type: tm+mt
+source-wordcount: '6505'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Août 2025** | |
+| Avertissements d’obsolescence | Ajout d’avertissements d’obsolescence aux articles dans les sections [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md) et [Importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md). |
 | **Juillet 2025** | |
 | Règles de traitement | La documentation relative aux règles de traitement a été entièrement repensée, fournissant plus de détails sur l’interface et les cas d’utilisation actuels. |
 | Débogueur | Nouvel article sur l’activation, l’utilisation et la désactivation du débogueur de projet dans Analysis Workspace. |

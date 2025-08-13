@@ -3,7 +3,7 @@ description: Définition des éléments d’interface sur les pages du créateur
 title: Règles de classification – Définitions
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 94%
@@ -11,6 +11,8 @@ ht-degree: 94%
 ---
 
 # Définitions de règles de classification (héritées)
+
+{{classification-rulebuilder-deprecation}}
 
 Définition des éléments d’interface sur les pages du créateur de règles de classification.
 
@@ -84,7 +86,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> #</span> </td> 
-   <td colname="col2"> <p>Numéro de rôle. </p> <p>Pour plus d’informations</a> consultez <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > de traitement des règles . </p> </td> 
+   <td colname="col2"> <p>Numéro de rôle. </p> <p>Pour plus d’informations<a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > consultez </a> de traitement des règles . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 

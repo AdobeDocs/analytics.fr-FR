@@ -3,7 +3,7 @@ description: Un jeu de règles est un groupe de règles de classification relati
 title: Jeux de règles de classification
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 89%
@@ -11,6 +11,8 @@ ht-degree: 89%
 ---
 
 # Jeux de règles de classification (hérités)
+
+{{classification-rulebuilder-deprecation}}
 
 *Cette page explique les jeux de règles de classification dans le cadre du [Créateur de règles de classification](classification-rule-builder.md). Voir [Ensembles de classifications](../sets/overview.md) pour connaître la méthode actuelle de classification des données dans Adobe Analytics.*
 
