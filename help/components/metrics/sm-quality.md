@@ -1,6 +1,6 @@
 ---
 title: Mesures de qualité des services de streaming multimédia
-description: Mesures disponibles lorsque vous activez [!UICONTROL  Qualité du média ] pour une suite de rapports.
+description: Mesures disponibles lorsque vous activez [!UICONTROL &#x200B; Qualité du média &#x200B;] pour une suite de rapports.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295

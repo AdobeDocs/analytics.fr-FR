@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Observateurs et observatrices simultanés de médias dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Panneau Observateurs et observatrices simultanés de médias](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Observateurs et observatrices simultanés de médias dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Observateurs et observatrices simultanés de médias](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -131,8 +131,8 @@ Un tableau à structure libre n’est pas disponible dans cet affichage. Pour af
 >[!MORELIKETHIS]
 >
 >[Créer un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Panneau Temps de lecture de média](media-playback-time-spent.md)
->>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
+>&#x200B;>[Panneau Temps de lecture de média](media-playback-time-spent.md)
+>&#x200B;>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
