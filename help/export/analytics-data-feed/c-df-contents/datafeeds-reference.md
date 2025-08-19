@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3686'
 ht-degree: 66%
 
 ---
@@ -193,50 +193,50 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`va_finder_id`** | Identifiant numérique qui identifie la dimension [canal Première touche](/help/components/dimensions/first-touch-channel.md). La recherche de cet identifiant se trouve dans le Gestionnaire de canaux marketing. | tinyint sans signe |
 | **`va_instance_event`** | Indicateur qui identifie le canal marketing [instances](/help/components/metrics/instances.md). | tinyint sans signe |
 | **`va_new_engagement`** | Indicateur qui identifie le canal marketing [nouveaux engagements](/help/components/metrics/new-engagements.md). | tinyint sans signe |
-| **`video`** | La dimension [Contenu](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
-| **`videoad`** | La dimension [Annonce publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoadinpod`** | La dimension [Annonce publicitaire dans la capsule](/help/components/dimensions/sm-ads.md) Médias en flux continu. | varchar(255) |
-| **`videoadlength`** | La dimension [Longueur de l’annonce publicitaire (variable)](/help/components/dimensions/sm-ads.md) Médias en flux continu . | entier |
-| **`videoadload`** | La dimension [Chargement de l’annonce publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoadname`** | La dimension [Nom de l’annonce publicitaire (variable)](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoadplayername`** | La dimension [Nom du lecteur publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu. | varchar(255) |
-| **`videoadpod`** | La dimension [capsule publicitaire](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoadvertiser`** | La dimension [Annonceur](/help/components/dimensions/sm-ads.md) Médias en flux continu . | varchar(255) |
-| **`videoaudioalbum`** | La dimension [Album](/help/components/dimensions/sm-audio-metadata.md) Streaming Media . | varchar(255) |
-| **`videoaudioartist`** | La dimension [Artiste](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoaudioauthor`** | La dimension [Auteur](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoaudiolabel`** | La dimension [Libellé](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoaudiopublisher`** | La dimension [Éditeur](/help/components/dimensions/sm-audio-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoaudiostation`** | La dimension [Station](/help/components/dimensions/sm-audio-metadata.md) Streaming Media . | varchar(255) |
-| **`videocampaign`** | La dimension [Identifiant de campagne](/help/components/dimensions/sm-ads.md) Médias en flux continu. | varchar(255) |
-| **`videochannel`** | La dimension [Canal de contenu](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
-| **`videochapter`** | La dimension [Chapitre](/help/components/dimensions/sm-chapters.md) Médias en flux continu . | varchar(255) |
-| **`videocontenttype`** | La dimension [Type de contenu](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
-| **`videodaypart`** | La dimension [Partie jour](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoepisode`** | La dimension [Épisode](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videofeedtype`** | La dimension [Type de flux multimédia](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videogenre`** | La dimension [Genre](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . Cette dimension autorise plusieurs valeurs dans le même accès, délimitées par une virgule. | text |
-| **`videolength`** | La dimension [Longueur du contenu (variable)](/help/components/dimensions/sm-core.md) Médias en flux continu . | entier |
-| **`videomvpd`** | La dimension [MVPD](/help/components/dimensions/sm-video-metadata.md) Streaming Media . | varchar(255) |
-| **`videoname`** | La dimension [Nom du contenu (variable)](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
-| **`videonetwork`** | La dimension [Réseau](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videopath`** | La dimension [Chemin d’accès aux médias](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(100) |
-| **`videoplayername`** | La dimension [Nom du lecteur de contenu](/help/components/dimensions/sm-core.md) Média en flux continu. | varchar(255) |
-| **`videotime`** | La mesure [Temps passé sur le contenu](/help/components/metrics/sm-core.md) Médias en flux continu . | entier |
-| **`videoqoebitrateaverageevar`** | La dimension [Débit moyen](/help/components/dimensions/sm-quality.md) Médias en flux continu. | varchar(255) |
-| **`videoqoebitratechangecountevar`** | La dimension [Modification du débit](/help/components/dimensions/sm-quality.md) Médias en flux continu . | varchar(255) |
-| **`videoqoebuffercountevar`** | La dimension [Événements de mémoire tampon](/help/components/dimensions/sm-quality.md) Médias en flux continu . | varchar(255) |
-| **`videoqoebuffertimeevar`** | La dimension [Durée totale de la mémoire tampon](/help/components/dimensions/sm-quality.md) Médias en flux continu . | varchar(255) |
-| **`videoqoedroppedframecountevar`** | La dimension [Images perdues](/help/components/dimensions/sm-quality.md) Médias en flux continu. | varchar(255) |
-| **`videoqoeerrorcountevar`** | La dimension [Erreurs](/help/components/dimensions/sm-quality.md) Streaming Media . | varchar(255) |
-| **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](/help/components/dimensions/sm-quality.md) Médias en flux continu. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
-| **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](/help/components/dimensions/sm-quality.md) Médias en flux continu. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
-| **`videoqoetimetostartevar`** | La dimension [Heure de début](/help/components/dimensions/sm-quality.md) Médias en flux continu . | varchar(255) |
-| **`videoseason`** | La dimension [Saison](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videosegment`** | La dimension [Segment de contenu](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
-| **`videoshow`** | La dimension [Afficher](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videoshowtype`** | La dimension [Type d’affichage](/help/components/dimensions/sm-video-metadata.md) Médias en flux continu . | varchar(255) |
-| **`videostreamtype`** | La dimension [Type de diffusion](/help/components/dimensions/sm-core.md) Médias en flux continu . | varchar(255) |
+| **`video`** | La dimension [Contenu](/help/components/dimensions/sm-core.md) des services de streaming multimédia. | varchar(255) |
+| **`videoad`** | La dimension [Annonce](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
+| **`videoadinpod`** | La dimension [Annonce publicitaire dans la capsule](/help/components/dimensions/sm-ads.md) services de streaming multimédia. | varchar(255) |
+| **`videoadlength`** | La dimension [Longueur de l’annonce publicitaire (variable)](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | entier |
+| **`videoadload`** | La dimension [Chargement de l’annonce publicitaire](/help/components/dimensions/sm-ads.md) Services de streaming multimédia . | varchar(255) |
+| **`videoadname`** | La dimension [Nom de l’annonce publicitaire (variable)](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
+| **`videoadplayername`** | La dimension [Nom du lecteur publicitaire](/help/components/dimensions/sm-ads.md) Services de streaming multimédia. | varchar(255) |
+| **`videoadpod`** | La dimension [capsule publicitaire](/help/components/dimensions/sm-ads.md) services de streaming multimédia. | varchar(255) |
+| **`videoadvertiser`** | La dimension [Annonceur](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
+| **`videoaudioalbum`** | La dimension [Album](/help/components/dimensions/sm-audio-metadata.md) services de streaming multimédia. | varchar(255) |
+| **`videoaudioartist`** | La dimension [Artiste](/help/components/dimensions/sm-audio-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoaudioauthor`** | La dimension [Auteur](/help/components/dimensions/sm-audio-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoaudiolabel`** | La dimension [Libellé](/help/components/dimensions/sm-audio-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoaudiopublisher`** | La dimension [Éditeur](/help/components/dimensions/sm-audio-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoaudiostation`** | La dimension [Station](/help/components/dimensions/sm-audio-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videocampaign`** | La dimension [Identifiant de campagne](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
+| **`videochannel`** | La dimension [Canal de contenu](/help/components/dimensions/sm-core.md) des services de streaming multimédia. | varchar(255) |
+| **`videochapter`** | La dimension [Chapitre](/help/components/dimensions/sm-chapters.md) Services de streaming multimédia. | varchar(255) |
+| **`videocontenttype`** | La dimension [Type de contenu](/help/components/dimensions/sm-core.md) services de streaming multimédia. | varchar(255) |
+| **`videodaypart`** | La dimension [Partie jour](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoepisode`** | La dimension [Épisode](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videofeedtype`** | La dimension [Type de flux multimédia](/help/components/dimensions/sm-video-metadata.md) Services de streaming multimédia. | varchar(255) |
+| **`videogenre`** | La dimension [Genre](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès, délimitées par une virgule. | text |
+| **`videolength`** | La dimension [Longueur du contenu (variable)](/help/components/dimensions/sm-core.md) des services de médias en flux continu. | entier |
+| **`videomvpd`** | La dimension [MVPD](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoname`** | La dimension [Nom du contenu (variable)](/help/components/dimensions/sm-core.md) des services de streaming multimédia. | varchar(255) |
+| **`videonetwork`** | La dimension [Réseau](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videopath`** | La dimension [Chemin d’accès aux médias](/help/components/dimensions/sm-core.md) services de streaming multimédia. | varchar(100) |
+| **`videoplayername`** | La dimension [Nom du lecteur de contenu](/help/components/dimensions/sm-core.md) Services de streaming multimédia. | varchar(255) |
+| **`videotime`** | La mesure [Temps passé sur le contenu](/help/components/metrics/sm-core.md) Services de médias en flux continu . | entier |
+| **`videoqoebitrateaverageevar`** | La dimension [Débit moyen](/help/components/dimensions/sm-quality.md) des services de médias en flux continu. | varchar(255) |
+| **`videoqoebitratechangecountevar`** | La dimension [Modification du débit](/help/components/dimensions/sm-quality.md) Services de streaming multimédia. | varchar(255) |
+| **`videoqoebuffercountevar`** | La dimension [Événements de mémoire tampon](/help/components/dimensions/sm-quality.md) des services de streaming multimédia. | varchar(255) |
+| **`videoqoebuffertimeevar`** | La dimension [Durée totale de la mémoire tampon](/help/components/dimensions/sm-quality.md) Services de médias en flux continu. | varchar(255) |
+| **`videoqoedroppedframecountevar`** | La dimension [Images perdues](/help/components/dimensions/sm-quality.md) des services de streaming multimédia. | varchar(255) |
+| **`videoqoeerrorcountevar`** | La dimension [Erreurs](/help/components/dimensions/sm-quality.md) des services de streaming multimédia. | varchar(255) |
+| **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](/help/components/dimensions/sm-quality.md) Services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
+| **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](/help/components/dimensions/sm-quality.md) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
+| **`videoqoetimetostartevar`** | La dimension [Heure de démarrage](/help/components/dimensions/sm-quality.md) Services de médias en flux continu . | varchar(255) |
+| **`videoseason`** | La dimension [Saison](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videosegment`** | La dimension [Segment de contenu](/help/components/dimensions/sm-core.md) Services de médias en flux continu . | varchar(255) |
+| **`videoshow`** | La dimension [Afficher](/help/components/dimensions/sm-video-metadata.md) des services de streaming multimédia. | varchar(255) |
+| **`videoshowtype`** | La dimension [Type d’affichage](/help/components/dimensions/sm-video-metadata.md) Services de streaming multimédia. | varchar(255) |
+| **`videostreamtype`** | La dimension [Type de flux](/help/components/dimensions/sm-core.md) Services de médias en flux continu . | varchar(255) |
 | **`visid_high`** | Utilisé en combinaison avec `visid_low` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
 | **`visid_low`** | Utilisé en combinaison avec `visid_high` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
 | **`visid_new`** | Indicateur qui détermine si l’accès contient un identifiant visiteur nouvellement généré. | char(1) |
@@ -410,4 +410,4 @@ Les colonnes de la liste suivante sont inutilisées, supprimées ou ne contienne
 >[!MORELIKETHIS]
 >
 >[Mappage de variables d’objet XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Mappage des variables d’objet de données](/help/implement/aep-edge/data-var-mapping.md)
+>>[Mappage des variables d’objet de données](/help/implement/aep-edge/data-var-mapping.md)

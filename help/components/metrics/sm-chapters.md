@@ -1,20 +1,20 @@
 ---
-title: Mesures de chapitre sur le streaming multimédia
+title: Mesures de chapitre sur les services de streaming multimédia
 description: Mesures disponibles lorsque vous activez [!UICONTROL Chapitres de médias] pour une suite de rapports.
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '142'
 ht-degree: 5%
 
 ---
 
-# Mesures de chapitre sur le streaming multimédia
+# Mesures de chapitre sur les services de streaming multimédia
 
-*Cette page décrit les mesures disponibles lorsque vous activez [!UICONTROL Chapitres multimédia] pour une suite de rapports. Voir [Dimensions du chapitre Streaming Media](../dimensions/sm-chapters.md) pour connaître les dimensions disponibles.*
+*Cette page décrit les mesures disponibles lorsque vous activez [!UICONTROL Chapitres multimédia] pour une suite de rapports. Voir [Dimensions du chapitre sur les services de streaming multimédia](../dimensions/sm-chapters.md) pour connaître les dimensions disponibles.*
 
-Les mesures de chapitre sur les médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces mesures nécessite la **[!UICONTROL collection Streaming Media Adobe]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les mesures de chapitre sur les services de streaming multimédia fournissent des fonctionnalités de reporting supplémentaires à la collecte de données par le biais des bibliothèques de collecte de services de streaming multimédia. L’utilisation de ces mesures nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Chapitres multimédia]** sous [Création de rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les mesures suivantes sont disponibles :
 

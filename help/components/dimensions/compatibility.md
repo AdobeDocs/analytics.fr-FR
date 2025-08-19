@@ -3,9 +3,9 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: fd26afc166ada6b1bc1890cbcf1406345c275765
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 60%
 
 ---
@@ -130,7 +130,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Protocoles de réseau mobile](mobile-dimensions.md) | `mobilenetprotocols` |
 | [Mobile Push To Talk](mobile-dimensions.md) | `mobilepushtotalk` |
 | [Mois](month.md) | `daterangemonth` |
-| [ Mois de l’année ](month-of-year.md) | `timepartmonthofyear` |
+| [Mois de l’année](month-of-year.md) | `timepartmonthofyear` |
 | [Types de systèmes d’exploitation](operating-system-types.md) | `operatingsystemgroup` |
 | [Recherche payante](paid-search.md) | `paidsearch` |
 | [Prise en charge des cookies persistants](persistent-cookie-support.md) | `persistentcookie` |
@@ -157,7 +157,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 
 ## Dimensions basées sur le contenu prises en charge par Analysis Workspace
 
-### Vidéo (la collection Streaming Media)
+### Vidéo (services de médias en flux continu)
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
@@ -209,7 +209,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 
 ### Adobe Social
 
-Adobe Social a été retiré.
+Adobe Social a été mis hors service.
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
@@ -280,13 +280,13 @@ Adobe Social a été retiré.
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | [Lien Activity Map Par Région](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Région Activity Map ](activity-map-region.md) | `clickmapregion` |
-| [Lien Activity Map ](activity-map-link.md) | `clickmaplink` |
-| [Page Activity Map ](activity-map-page.md) | `clickmappage` |
+| [Région Activity Map](activity-map-region.md) | `clickmapregion` |
+| [Lien Activity Map](activity-map-link.md) | `clickmaplink` |
+| [Page Activity Map](activity-map-page.md) | `clickmappage` |
 
 ### Intégration Nielsen
 
-Pour plus d’informations sur la mise en œuvre de cette intégration, consultez l’extension [Nielsen](https://exchange.adobe.com/apps/ec/101361) à l’Adobe Exchange.
+Pour plus d’informations sur la mise en œuvre de cette intégration, consultez la section [Extension Nielsen](https://exchange.adobe.com/apps/ec/101361) sur Adobe Exchange.
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |

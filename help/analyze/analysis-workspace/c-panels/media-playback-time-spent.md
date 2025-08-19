@@ -4,10 +4,10 @@ description: Découvrez comment utiliser et interpréter le panneau Durée de le
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 98%
+source-wordcount: '1167'
+ht-degree: 90%
 
 ---
 
@@ -34,22 +34,23 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent)) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Le panneau d’audience moyenne par minute de média est disponible uniquement pour les clientes et clients qui ont acheté le module complémentaire Streaming Media Collection pour Adobe Analytics.
->&#x200B;>Pour plus d’informations, contactez votre représentant ou représentante du service commercial Adobe ou l’équipe Adobe en charge des comptes.
+>Le panneau d’audience moyenne par minute de média est disponible uniquement pour les clients qui ont acheté le module complémentaire Adobe Analytics for Streaming Media.
+>
+>Pour plus d’informations, contactez votre représentant ou représentante du service commercial Adobe ou l’équipe Adobe en charge des comptes.
 >
 
 Le panneau **[!UICONTROL Temps de lecture de média]** permet dʼanalyser la lecture au fil du temps. Il fournit également des informations détaillées sur le pic dʼaccès simultanés et la possibilité de ventiler et de comparer.
 
 Dans Analysis Workspace, le temps de lecture de média représente le temps de visionnage de vos flux multimédias à un moment précis. Il comprend les pauses, la mise en mémoire tampon et le temps de démarrage.
 
-Les clientes et clients qui ont acheté le module complémentaire Streaming Media Collection peuvent analyser le temps de lecture pour obtenir des informations précieuses sur la qualité du contenu et l’engagement des visiteurs et visiteuses. Et pour vous aider lors du dépannage ou de la planification du volume ou de l’échelle.
+Les clients qui ont acheté le module complémentaire Adobe Analytics for Streaming Media peuvent analyser le temps de lecture passé pour obtenir un précieux insight sur la qualité du contenu et l’engagement des observateurs. Et pour vous aider lors du dépannage ou de la planification du volume ou de l’échelle.
 
 Le temps de lecture peut vous aider à comprendre les éléments suivants :
 
@@ -59,7 +60,7 @@ Le temps de lecture peut vous aider à comprendre les éléments suivants :
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Temps de lecture de média](https://video.tv.adobe.com/v/3446702?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Temps de lecture de média](https://video.tv.adobe.com/v/338699?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -69,7 +70,7 @@ Pour utiliser un panneau **[!UICONTROL Temps de lecture de média]**, procédez 
 
 1. Créez un panneau **[!UICONTROL Temps de lecture de média]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](panels.md#create-a-panel).
 
-1. Veillez à sélectionner une vue de données pour le panneau dont les composants sont configurés à partir de la collection de Straming Media Collection.
+1. Veillez à sélectionner une vue de données pour le panneau dont les composants sont configurés à partir du module complémentaire Adobe Analytics for Streaming Media.
 
 1. Spécifiez l’[entrée](#panel-input) du panneau.
 
@@ -87,7 +88,7 @@ Vous pouvez configurer le panneau Durée de lecture des médias à lʼaide des p
 | Synthèse des chiffres des panneaux | Pour afficher les détails de date ou dʼheure relatifs à la durée de la lecture, une synthèse des chiffres est disponible. La valeur maximale affiche les détails concernant le pic d’accès simultanés. La valeur minimale affiche les détails du creux. La somme additionne la durée de lecture totale de la sélection. Le panneau nʼindique par défaut que la valeur maximale, mais vous pouvez modifier cette valeur par défaut et afficher la valeur minimale, la valeur totale ou une combinaison des trois valeurs.<br>Si vous utilisez des répartitions, une synthèse des chiffres s’affiche pour chacune d’elles. |
 | Répartition de la série | Vous pouvez éventuellement ventiler votre visualisation par filtres, dimensions, éléments de dimension ou périodes.<p>- Vous pouvez afficher jusqu’à 10 lignes à la fois. Les répartitions sont limitées à un seul niveau.</p><p>- Lorsque vous faites glisser une dimension, les principaux éléments de dimension sont automatiquement sélectionnés en fonction de la période du panneau sélectionnée.</p>- Pour comparer des périodes, faites glisser deux périodes ou plus dans le filtre de répartition de la série. |
 | Format de l’heure | Vous pouvez afficher le temps de lecture en `Hours:Minutes:Seconds` (par défaut) ou en `Minutes` (sʼaffiche en nombres entiers, arrondis à 0,5 vers le haut). |
-| Affichage de la séquence de dates | Si vous avez placé au moins deux filtres de période en tant que répartitions de série, lʼoption permettant de sélectionner superposition (par défaut) ou séquentiel sʼaffiche. La superposition affiche les lignes avec un point de départ commun sur lʼaxe X afin quʼelles se déroulent en parallèle. Séquentiel affiche les lignes avec leur point de départ spécifique sur lʼaxe X. Si les données se suivent (par exemple, le filtre 1 se termine à 20 h 44 et le filtre 2 à 20 h 45), les lignes sʼaffichent de manière séquentielle. |
+| Affichage de la séquence de dates | Si vous avez placé au moins deux filtres de période en tant que répartitions de série, lʼoption permettant de sélectionner superposition (par défaut) ou séquentiel sʼaffiche. La superposition affiche les lignes avec un point de départ commun sur lʼaxe X afin quʼelles se déroulent en parallèle. Séquentiel affiche les lignes avec leur point de départ spécifique sur lʼaxe X. Si les données s’alignent (par exemple, le filtre 1 se termine à 20 :44 et le filtre 2 commence à 20 :45), les lignes s’affichent dans l’ordre. |
 
 
 ![Vue par défaut du temps de lecture du playbook multimédia.](assets/mpts_default_view.png)
@@ -125,8 +126,8 @@ La seule mesure pouvant être utilisée dans ce panneau est Durée de la lecture
 >[!MORELIKETHIS]
 >
 >[Créer un panneau](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
->&#x200B;>[Panneau Visiteurs et visiteuses simultanés de médias](media-concurrent-viewers.md)
+>>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
+>>[Panneau Visiteurs et visiteuses simultanés de médias](media-concurrent-viewers.md)
 >
 
 <!--
@@ -146,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446702?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/338699)
 
 ## Use the Media Playback Time Spent panel
 

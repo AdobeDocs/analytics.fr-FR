@@ -1,18 +1,18 @@
 ---
-title: Dimensions des métadonnées audio du streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées audio &#x200B;] pour une suite de rapports.
+title: Dimensions des métadonnées audio des services de streaming multimédia
+description: Dimensions disponibles lorsque vous activez [!UICONTROL  Métadonnées audio ] pour une suite de rapports.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '148'
 ht-degree: 8%
 
 ---
 
-# Dimensions des métadonnées audio du streaming multimédia
+# Dimensions des métadonnées audio des services de streaming multimédia
 
-Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions et services Streaming Media fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques Streaming Media Services. L’utilisation de ces dimensions nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Métadonnées audio]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 

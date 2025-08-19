@@ -1,18 +1,18 @@
 ---
-title: Mesures de suivi de l’état du lecteur Streaming Media
+title: Mesures de suivi de l’état du lecteur des services de streaming multimédia
 description: Mesures disponibles lorsque vous activez le [!UICONTROL suivi de l’état du lecteur] pour une suite de rapports.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '376'
 ht-degree: 1%
 
 ---
 
-# Mesures de suivi de l’état du lecteur Streaming Media
+# Mesures de suivi de l’état du lecteur des services de streaming multimédia
 
-Les mesures de suivi de l’état du lecteur Streaming Media fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces mesures nécessite la **[!UICONTROL collection Streaming Media Adobe]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les mesures de suivi de l’état du lecteur des services de streaming multimédia fournissent une fonctionnalité de création de rapports supplémentaire à la collecte de données par le biais des bibliothèques de services de streaming multimédia. L’utilisation de ces mesures nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez le **[!UICONTROL suivi de l’état du lecteur]** sous [rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les mesures suivantes sont disponibles :
 

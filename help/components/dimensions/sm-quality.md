@@ -1,24 +1,24 @@
 ---
-title: Dimensions de qualité du streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Qualité du média &#x200B;] pour une suite de rapports.
+title: Dimensions de qualité des services de streaming multimédia
+description: Dimensions disponibles lorsque vous activez [!UICONTROL  Qualité du média ] pour une suite de rapports.
 feature: Dimensions
 exl-id: e3794d8c-3c03-425d-850c-a735b579324b
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
 
-# Dimensions de qualité du streaming multimédia
+# Dimensions de qualité des services de streaming multimédia
 
-*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Qualité du média] pour une suite de rapports. Voir [Mesures de qualité des médias en flux continu](../metrics/sm-quality.md) pour connaître les mesures disponibles.*
+*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Qualité du média] pour une suite de rapports. Voir [Mesures de qualité des services de streaming multimédia](../metrics/sm-quality.md) pour les mesures disponibles.*
 
-Les dimensions Qualité du streaming multimédia fournissent des rapports liés à la qualité du contenu utilisé par le visiteur. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe . Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions de qualité des services de streaming multimédia fournissent des rapports liés à la qualité du contenu utilisé par le visiteur. L’utilisation de ces dimensions nécessite le module complémentaire [!UICONTROL Adobe Analytics for Streaming Media]. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Qualité du média]** sous [Création de rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 
-| Nom des Dimensions | Description | Envoyé avec | Variable de données contextuelles |
+| Nom des dimensions | Description | Envoyé avec | Variable de données contextuelles |
 | --- | --- | --- | --- |
 | Débit moyen | Débit moyen, dans des intervalles de compartiment de 100 KBPS. Il est calculé comme la moyenne pondérée de toutes les valeurs de débit par rapport à la durée de lecture pour une session de lecture donnée. | Fermeture du média | `a.media.qoe.bitrateAverageBucket` |
 | Changements de débit | Nombre de changements de débit qui se sont produits au cours d’une session de lecture. | Fermeture du média | `a.media.qoe.bitrateChangeCount` |

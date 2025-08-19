@@ -4,7 +4,7 @@ title: Gestion des médias
 feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 23%
@@ -21,7 +21,7 @@ Les options de gestion des médias suivantes sont disponibles lors de la modific
 
 * [!UICONTROL **Rapports multimédia**]
 
-  Utilisez ces cases à cocher pour activer les dimensions et les mesures spécifiques à la collection de médias en flux continu.
+  Utilisez ces cases à cocher pour activer les dimensions et les mesures spécifiques aux services de médias en flux continu.
 
    * [Dimensions principales des médias](/help/components/dimensions/sm-core.md)
    * [Mesures principales des médias](/help/components/metrics/sm-core.md)
@@ -38,6 +38,6 @@ Les options de gestion des médias suivantes sont disponibles lors de la modific
 
 * [!UICONTROL **Classifications multimédia**]
 
-  Les classifications spécifiques aux dimensions Collection de médias en flux continu sont disponibles sur la page [!UICONTROL Classifications de médias]. Ils fonctionnent de la même manière que les [classifications de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibles pour les variables de conversion. L’activation de certains composants sous [!UICONTROL Rapports multimédia] crée automatiquement des dimensions de classification pour vous. Vous pouvez utiliser cette interface pour créer vos propres dimensions de classification ou charger des données de classification.
+  Les classifications spécifiques aux dimensions de services de streaming multimédia sont disponibles sur la page [!UICONTROL Classifications multimédia]. Ils fonctionnent de la même manière que les [classifications de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md) disponibles pour les variables de conversion. L’activation de certains composants sous [!UICONTROL Rapports multimédia] crée automatiquement des dimensions de classification pour vous. Vous pouvez utiliser cette interface pour créer vos propres dimensions de classification ou charger des données de classification.
 
-Pour obtenir des informations générales sur l’incorporation de données de médias en flux continu dans Adobe Analytics, consultez le [ Guide de collecte de médias en flux continu ](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
+Pour obtenir des informations générales sur l’incorporation de données de médias en flux continu dans Adobe Analytics, consultez la [présentation des services de médias en flux continu Adobe](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).

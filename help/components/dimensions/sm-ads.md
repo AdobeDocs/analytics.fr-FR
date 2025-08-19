@@ -1,20 +1,20 @@
 ---
-title: Dimensions et médias en continu
+title: Dimensions et services de streaming multimédia
 description: Dimensions disponibles lorsque vous activez [!UICONTROL Publicités multimédia] pour une suite de rapports.
 feature: Dimensions
 exl-id: 3f17bacc-8c36-499a-a863-9298e2d54370
-source-git-commit: fdd66c9558f070cd760f37a39e5911f0dac22612
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 15%
 
 ---
 
-# Dimensions et médias en continu
+# Dimensions et services de streaming multimédia
 
 *Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL Publicités multimédia] pour une suite de rapports. Voir [Mesures publicitaires des médias en flux continu](../metrics/sm-ads.md) pour connaître les mesures disponibles.*
 
-Les dimensions et médias en flux continu fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de collecte de médias en flux continu. L’utilisation de ces dimensions nécessite la collection Streaming Media d’Adobe **&#x200B;**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Les dimensions et services Streaming Media fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques Streaming Media Services. L’utilisation de ces dimensions nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
 Lorsque vous activez **[!UICONTROL Publicités multimédia]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les dimensions suivantes sont disponibles :
 

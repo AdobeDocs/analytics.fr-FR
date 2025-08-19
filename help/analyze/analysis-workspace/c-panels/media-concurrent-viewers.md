@@ -4,10 +4,10 @@ description: Découvrez comment utiliser et interpréter le panneau d’observat
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 98%
+source-wordcount: '1241'
+ht-degree: 95%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Observateurs et observatrices simultanés de médias dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Observateurs et observatrices simultanés de médias](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Observateurs et observatrices simultanés de médias dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Panneau Observateurs et observatrices simultanés de médias](https://experienceleague.adobe.com/fr/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Le panneau d’audience moyenne par minute de média est disponible uniquement pour les clientes et clients qui ont acheté le module complémentaire Streaming Media Collection pour Adobe Analytics.
+>Le panneau d’audience moyenne par minute de média est disponible uniquement pour les clients qui ont acheté le module complémentaire Adobe Analytics for Streaming Media.
 >
 >Pour plus d’informations, contactez votre représentant ou représentante du service commercial Adobe ou l’équipe Adobe en charge des comptes.
 >
@@ -56,7 +56,7 @@ Dans Analysis Workspace, les visiteurs et visiteuses simultanés représentent 
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Visiteurs et visiteuses simultanés de médias](https://video.tv.adobe.com/v/342836?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Visiteurs et visiteuses simultanés de médias](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Pour utiliser un panneau **[!UICONTROL Visiteurs et visiteuses simultanés de m�
 
 1. Créez un panneau **[!UICONTROL Visiteurs et visiteuses simultanés de médias]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](panels.md#create-a-panel).
 
-1. Veillez à sélectionner une vue de données pour le panneau dont les composants sont configurés à partir de la collection de Straming Media Collection.
+1. Veillez à sélectionner une vue de données pour le panneau dont les composants sont configurés à partir du module complémentaire Adobe Analytics for Streaming Media.
 
 1. Spécifiez l’[entrée](#panel-input) du panneau.
 
@@ -131,8 +131,8 @@ Un tableau à structure libre n’est pas disponible dans cet affichage. Pour af
 >[!MORELIKETHIS]
 >
 >[Créer un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Panneau Temps de lecture de média](media-playback-time-spent.md)
->&#x200B;>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
+>>[Panneau Temps de lecture de média](media-playback-time-spent.md)
+>>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342836/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 
