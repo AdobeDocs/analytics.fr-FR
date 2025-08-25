@@ -4,10 +4,10 @@ title: Totaux
 feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8d9323be962b85a278a61be34f176c82e3f9b1c4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 81%
+source-wordcount: '496'
+ht-degree: 78%
 
 ---
 
@@ -33,7 +33,7 @@ Dans les tableaux à structure libre, une ligne de total s’affiche à chaque n
 Sous ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres de colonne]**, vous pouvez trouver les options **[!UICONTROL Afficher les totaux]** et **[!UICONTROL Afficher le total général]**. Si ces paramètres ne sont pas cochés, les totaux sont supprimés du tableau, ce qui peut être souhaitable dans les cas où les totaux n’ont pas de sens.
 
 
-Les totaux de [ligne statique](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md) se comportent différemment et peuvent être contrôlés avec ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres de la ligne]**.
+Dans un tableau à structure libre contenant des [lignes statiques](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md), les totaux se comportent différemment. Et sont contrôlés à l’aide de ![Paramètres](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres de ligne]**.
 
 | Option | Description |
 |---|---|
