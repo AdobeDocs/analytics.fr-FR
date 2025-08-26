@@ -3,9 +3,9 @@ description: Découvrez comment gérer les projets planifiés.
 title: Projets planifiés
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '795'
 ht-degree: 41%
 
 ---
@@ -59,7 +59,7 @@ Voici des actions courantes du gestionnaire de projets planifiés : Vous pouvez
 | Icône | Action | Description |
 |:---:|---|---|
 | ![Fermer](/help/assets/icons/Close.svg) | **[!UICONTROL *x *sélectionné]** | Sélectionnez pour désélectionner les projets planifiés sélectionnés. |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimer les projets planifiés sélectionnés pour le projet ; les projets ne sont pas supprimés. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimer les projets planifiés sélectionnés pour le projet ; les projets ne sont pas supprimés. <p>Pour plus d’informations sur la suppression d’un projet, voir [Présentation des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).</p> |
 | ![Étiquettes](/help/assets/icons/Labels.svg) | **[!UICONTROL Étiquette]** | Balisez les projets planifiés sélectionnés. Dans les **[!UICONTROL Projets planifiés de balises]** sélectionnez des balises et sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Valider les projets planifiés sélectionnés. |
 | ![Fichier CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exporter dans un fichier CSV]** | Exportez les projets planifiés sélectionnés vers un fichier nommé `Export Scheduled Projects List.csv`. |
