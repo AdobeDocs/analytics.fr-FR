@@ -4,14 +4,14 @@ description: Permet d’activer ou de désactiver le suivi automatique des liens
 feature: Appmeasurement Implementation
 exl-id: d92f722b-d605-40ad-bb55-ec71219a47e3
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '336'
+ht-degree: 50%
 
 ---
 
-# trackDownLoadLinks
+# trackDownloadLinks
 
 Adobe offre la possibilité de suivre les liens de téléchargement sans définir manuellement la méthode [`tl()`](../functions/tl-method.md) de chaque lien de téléchargement. Activez cette variable si vous souhaitez utiliser le suivi automatique des liens pour les liens de téléchargement.
 
@@ -28,7 +28,7 @@ Utilisez la case à cocher [!UICONTROL Activer la collecte de données de clics]
 
 ## Activer ou désactiver la collecte de clics implémentant manuellement le SDK Web
 
-Configurez le SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=fr#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens de téléchargement et de sortie.
+Configurez le SDK à l’aide de [`clickCollectionEnabled`](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html#clickCollectionEnabled). Le champ est une valeur booléenne qui détermine si les données associées aux clics sur les liens sont automatiquement collectées. Sa valeur par défaut est `true`. Définissez cette valeur sur `false` si vous souhaitez désactiver le suivi automatique des liens. Ce paramètre gère le suivi automatique des liens de téléchargement et de sortie.
 
 ```json
 alloy("configure", {
@@ -49,7 +49,7 @@ Cochez la case pour activer le suivi automatique des liens de téléchargement.
 
 ## s.trackDownloadLinks dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-`s.trackDownloadLinks` est d’une valeur booléenne qui active ou désactive le suivi automatique des liens de téléchargement. Si vous ne souhaitez pas suivre les liens de téléchargement ou si vous préférez appeler manuellement la méthode `tl()` pour effectuer le suivi des téléchargements, définissez cette variable sur `false`.
+`s.trackDownloadLinks` est d’une valeur booléenne qui active ou désactive le suivi automatique des liens de téléchargement. Si vous ne souhaitez pas effectuer le suivi des liens de téléchargement ou si vous préférez appeler manuellement la méthode `tl()` pour effectuer le suivi des téléchargements, définissez cette variable sur `false`. La variable [linkDownloadFileTypes](linkdownloadfiletypes.md) doit également être définie pour que le suivi automatique des liens de téléchargement fonctionne.
 
 ```js
 s.trackDownloadLinks = true;

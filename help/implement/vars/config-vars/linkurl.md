@@ -4,18 +4,18 @@ description: Permet de remplacer l’URL de lien générée automatiquement util
 feature: Appmeasurement Implementation
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 7176e068dd05c5589d741f3194d2ad5d795e017d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 65%
+source-wordcount: '190'
+ht-degree: 37%
 
 ---
 
 # linkURL
 
-Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, les serveurs de collecte de données détectent automatiquement l’URL. Utilisez la variable `linkURL` pour remplacer l’URL détectée.
+Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, AppMeasurement détecte l’URL sur laquelle l’utilisateur a cliqué. Cette URL permet de déterminer le type de lien, tel que les liens de téléchargement et les liens de sortie. Utilisez la variable `linkURL` pour remplacer l’URL détectée.
 
-Aucune dimension dans Analysis Workspace ne génère de rapport sur cette variable. Elle renseigne la colonne `page_event_var1` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md).
+Aucune dimension dans Analysis Workspace ne génère de rapport sur cette variable. Elle renseigne la colonne `page_event_var1` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md). Si vous souhaitez suivre l’URL d’un lien cliqué, Adobe recommande d’utiliser une variable personnalisée, telle qu’une [Prop](../page-vars/prop.md).
 
 ## URL du lien à l’aide du SDK Web
 
@@ -30,7 +30,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.linkURL dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.linkURL` est une chaîne contenant l’URL du navigateur lorsque l’utilisateur a cliqué sur le lien. Cette variable ne renseigne aucune dimension disponible dans les rapports.
+La variable `s.linkURL` est une chaîne contenant l’URL complète du lien sur lequel l’utilisateur a cliqué. Cette variable ne renseigne aucune dimension disponible dans les rapports.
 
 ```js
 s.linkURL = "https://example.com";
