@@ -7,7 +7,7 @@ exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
@@ -40,7 +40,7 @@ L’objectif de l’inventaire Analytics est de vous aider à répondre aux ques
 
 ## Autorisations
 
-Analytics Inventory est disponible pour les utilisateurs disposant de privilèges d&#39;administrateur de produit Adobe Analytics dans [Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-console/admin-roles-in-analytics).
+Analytics Inventory est disponible pour les utilisateurs disposant de privilèges d&#39;administrateur de produit Adobe Analytics dans [Adobe Admin Console](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-console/admin-roles-in-analytics).
 
 ## Accéder à l’inventaire Analytics
 
@@ -81,7 +81,7 @@ Dans cette version initiale, vous pouvez voir des chiffres d’inventaire récap
 >[!CONTEXTUALHELP]
 >id="analytics-inventory-data-config"
 >title="Configuration et collecte de données"
->abstract="Cette section indique le nombre de suites de rapports dans votre environnement Adobe Analytics, ainsi que votre accès aux services de médias en flux continu."
+>abstract="Cette section indique le nombre de suites de rapports dans votre environnement Adobe Analytics, ainsi que votre accès aux services de médias en streaming."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -112,10 +112,10 @@ Les réponses à ces questions vous donneront une idée précise des suites de r
    | Occurrences (90 derniers jours) | La mesure « Occurrences » indique le nombre d’accès pour lesquels une dimension donnée a été définie ou conservée. Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
    | Mesures | Combien de mesures sont définies dans cette suite de rapports ? |
    | Dimensions | Combien de dimensions sont définies dans cette suite de rapports ? |
-   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t) ? |
+   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
    | Canaux marketing activés | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Canaux marketing](https://experienceleague.adobe.com/fr/docs/analytics/components/marketing-channels/c-getting-started-mchannel) ? |
    | Connecteur source activé | Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
-   | Type de calendrier | [Masqué par défaut] Pour plus d&#39;informations, consultez la section [Calendriers personnalisés](https://experienceleague.adobe.com/fr/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
+   | Type de calendrier | [Masqué par défaut] Pour plus d&#39;informations, consultez la section [Calendriers personnalisés](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/custom-calendar#) |
 
 #### Analyse des dimensions
 
