@@ -3,10 +3,10 @@ title: Créer un flux de données
 description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '4129'
-ht-degree: 54%
+source-wordcount: '4128'
+ht-degree: 53%
 
 ---
 
@@ -33,7 +33,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom**] | Nom du flux de données. Doit être unique au sein de la suite de rapports sélectionnée et peut comporter jusqu’à 255 caractères. |
+   | [!UICONTROL **Nom**] | Nom du flux de données. Doit être unique dans la suite de rapports sélectionnée et peut contenir jusqu’à 255 caractères. [En savoir plus](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique) |
    | [!UICONTROL **Suite de rapports**] | Suite de rapports sur laquelle est basé le flux de données. Si plusieurs flux de données sont créés pour une même suite de rapports, ils doivent avoir des définitions de colonne différentes. Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge. |
    | [!UICONTROL **Envoyer par e-mail une fois terminé**] | Adresse e-mail à laquelle envoyer une notification lorsqu’un flux se termine. L’adresse e-mail doit être correctement formatée. |
    | [!UICONTROL **Intervalle de flux**] | Sélectionnez **Quotidien** pour le renvoi ou les données historiques. Les flux quotidiens contiennent l’équivalent d’une journée complète de données, de minuit à minuit dans le fuseau horaire de la suite de rapports. Sélectionnez **Horaire** pour les données continues (Quotidien est également disponible pour les flux continus). Les flux horaires contiennent l’équivalent d’une heure de données. |
@@ -136,7 +136,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    +++
 
-   +++Azure RBAC
+   +++RBAC Azure
 
    Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification RBAC. Ce type de destination nécessite un ID d’application, un ID client et un secret.
 
@@ -144,7 +144,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    1. Si ce n’est pas déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification, puis accordez des autorisations d’accès dans le contrôle d’accès (IAM).
 
-      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[.](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 
    1. Dans l’Admin Console d’Adobe Analytics, dans la section [!UICONTROL **Destination**], dans le menu déroulant [!UICONTROL **Type**], sélectionnez [!UICONTROL **Azure RBAC**].
 
@@ -210,7 +210,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    +++
 
-   +++Azure SAS
+   +++SAS Azure
 
    Vous pouvez envoyer des flux directement à un conteneur Azure à l’aide de l’authentification SAS. Ce type de destination nécessite un ID d’application, un ID client, un URI de coffre de clés, un nom secret de coffre de clés et un secret.
 
@@ -218,7 +218,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 
    1. Si ce n’est pas déjà fait, créez une application Azure qu’Adobe Analytics peut utiliser pour l’authentification.
 
-      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[&#128279;](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal).
+      Pour plus d&#39;informations, reportez-vous à la documentation de Microsoft Azure sur la création d&#39;une application Azure Active Directory[.](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal)
 
    1. Dans l’Admin Console d’Adobe Analytics, dans la section [!UICONTROL **Destination**], sélectionnez [!UICONTROL **Azure SAS**].
 

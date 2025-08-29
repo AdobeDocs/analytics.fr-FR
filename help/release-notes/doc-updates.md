@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: ht
-source-wordcount: '6506'
-ht-degree: 100%
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+workflow-type: tm+mt
+source-wordcount: '6520'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Août 2025** | |
+| Les noms des flux de données doivent être uniques. | Clarification de la raison pour laquelle [les noms des flux de données doivent être uniques](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Avertissements d’obsolescence | Ajout d’avertissements d’obsolescence aux articles dans les sections [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md) et [Importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md). |
 | **Juillet 2025** | |
 | Règles de traitement | La documentation relative aux règles de traitement a été entièrement repensée, fournissant plus de détails sur l’interface et les cas d’utilisation actuels. |

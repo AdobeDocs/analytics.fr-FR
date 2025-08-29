@@ -4,10 +4,10 @@ keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sen
 title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1463'
+ht-degree: 84%
 
 ---
 
@@ -17,9 +17,19 @@ Questions fréquentes sur les flux de données.
 
 ## Les noms de flux doivent-ils être uniques ? {#unique}
 
-Les noms de fichiers des flux de données se composent de l’identifiant de la suite de rapports et de la date. Si deux flux sont configurés avec le même identifiant de suite de rapports et la ou les mêmes dates, ils auront le même nom de fichier. Si ces deux flux sont diffusés au même endroit, un fichier remplacera l’autre. Pour éviter que cela ne se produise, vous ne pouvez pas créer de flux qui puisse potentiellement remplacer un flux existant situé au même endroit.
+Adobe Analytics n’empêche pas le remplacement des fichiers de flux de données.
 
-Lorsque vous essayez de créer un flux alors qu’un autre flux doté du même nom de fichier existe déjà, un message d’erreur s’affiche. Prenons les exemples de solution suivants :
+Pour éviter que les fichiers de flux de données ne soient écrasés, nous vous recommandons d’attribuer des noms de fichiers uniques à tous les fichiers de flux de données envoyés au même emplacement.
+
+Les noms de fichier des flux de données se composent des caractéristiques de flux de données suivantes :
+
+* Identifiant de la suite de rapports (RSID)
+
+* Date d’export
+
+Deux flux configurés pour le même RSID et les mêmes dates portent le même nom de fichier. Si ces flux sont diffusés au même emplacement, un fichier remplace l’autre.
+
+Pour éviter le remplacement d’un fichier, tenez compte des solutions suivantes :
 
 * Modifier le chemin de diffusion
 * Si possible, modifiez les dates
@@ -67,11 +77,11 @@ Exemple : un nouveau flux de données est créé le 9 mars 2021 et les donné
 
 ## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#dst}
 
-Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si, en revanche, le passage à l’heure d’été est appliqué, la remise des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02 h 00).
+Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 2:00 heures).
 
-Lors d’un changement d’heure STD (heure standard) > DST (heure d’été) (« Bond en avant »), le client ne reçoit que 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si le changement d’heure est effectué à 02 h 00, le client reçoit un fichier pour 01 h 00 et un autre pour 03 h 00. Il n’y aura pas de fichier pour 02 h 00, étant donné qu’à 02 h 00 STD, il sera 03 h 00 DST.
+Lors d’un changement d’heure STD (heure standard) > DST (heure d’été) (« Bond en avant »), le client ne reçoit que 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, ils reçoivent un fichier pendant 1:00 heure et un fichier pendant 3:00 heures. Il n&#39;y a pas de fichier 2:00 car, à 2:00 STD, il devient 3:00 DST.
 
-Lors d’une transition DST > STD, (« Retour en arrière »), le client reçoit 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02 h 00, le fichier correspondant à 01 h 00 est retardé d’une heure, mais il contient l’équivalent de 2 heures de données. Il contient les données entre 01 h 00 DST et 02 h 00 STD, qui aurait normalement été 03 h 00 DST. Le fichier suivant commence à 02 h 00 STD.
+Lors d’une transition DST > STD, (« Retour en arrière »), le client reçoit 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si la transition a lieu à 2:00 du matin, le fichier de 1:00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données allant de 1:00 DST à 2:00 STD (ce qui aurait été 3:00 DST). Le fichier suivant commence à 2:00 STD.
 
 ## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
 
