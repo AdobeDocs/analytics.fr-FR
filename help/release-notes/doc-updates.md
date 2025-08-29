@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6506'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 2019.
 
 * Pour plus d’informations sur [!UICONTROL Customer Journey Analytics], rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr).
-* Pour plus d’informations sur les services de streaming multimédia d’Adobe, voir [Mesures audio et vidéo dans Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
+* Pour plus d’informations sur les services de médias en streaming Adobe, consultez [Mesurer le son et la vidéo dans Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Détails sur les mises à jour majeures de la documentation
 
@@ -67,7 +67,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour de la documentation pour la gestion des flux de données | Mise à jour des informations dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md) afin d’en améliorer la clarté. <p>Les mises à jour comprennent les éléments suivants :</p><ul><li>Création de sections distinctes pour différentes tâches afin de faciliter l’analyse et la consommation des informations.</li><li>Ajout d’informations sur les modifications du comportement des flux actifs qui sont réactivés. Ces modifications sont actuellement en disponibilité limitée et ne sont pas encore disponibles pour l’ensemble de la clientèle.</li><li>Ajout d’informations stipulant que les flux de données doivent avoir l’état Actif avant de pouvoir être supprimés.</li> |
 | Mise à jour des messages d’erreur courants | Des mises à jour mineures ont été apportées aux [messages d’erreur courants](/help/analyze/analysis-workspace/workspace-faq/error-messages.md). |
 | **Juin 2024** | |
-| Nom du produit mis à jour qui fait référence aux fonctionnalités des services de streaming multimédia | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » et « Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
+| Mise à jour du nom du produit faisant référence aux fonctionnalités des services de médias en streaming | Remplacement des instances de « Media Analytics » et « Streaming Media » par le nom de « Module complémentaire Streaming Media Collection » et « Streaming Media Collection » lorsqu’elles font référence à l’ensemble de fonctionnalités de médias en streaming qui collectent les données de médias en streaming et les font apparaître dans Analysis Workspace. <p>Ces mises à jour sont disponibles dans l’ensemble de la documentation d’Adobe Analytics, ainsi que dans la [documentation du module complémentaire Streaming Media Collection](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).</p> |
 | Amélioration de la documentation sur les alertes | Mise à jour et amélioration de la documentation sur les alertes. Ces mises à jour incluent des informations sur la [création des alertes](/help/components/c-alerts/alert-builder.md), la [gestion des alertes](/help/components/c-alerts/alert-manager.md), et des [informations de vue d’ensemble](/help/components/c-alerts/intellligent-alerts.md). |
 | `cookieDomainPeriods` obsolète | Maintenant qu’AppMeasurement détecte automatiquement le domaine correct sur lequel les cookies doivent être définis, la variable [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) est obsolète. |
 | Retrait de la documentation de Data Connectors | Déplacement de la page de fin de vie de Data Connectors vers [Produits arrêtés](https://experienceleague.adobe.com/fr/docs/discontinued/using/data-connectors). |
