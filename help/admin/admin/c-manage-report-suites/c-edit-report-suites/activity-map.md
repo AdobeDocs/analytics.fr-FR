@@ -1,33 +1,32 @@
 ---
-description: Vous pouvez afficher les données d’Activity Map dans Adobe Analytics.
-title: Afficher les données d’Activity Map dans Adobe Analytics
+description: Activez les dimensions afin qu’Activity Map puisse collecter des données.
+title: Rapports d’Activity Map
 feature: Admin Tools
 exl-id: 9300c12e-3ade-4850-8a22-cba61b35ca67
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
+source-git-commit: 24101efe2b860734c9d176ba8be8f17e26429442
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
-# Afficher les données d’Activity Map dans Adobe Analytics
+# Rapports d’Activity Map
 
-Cette rubrique décrit les étapes d’administration pour activer la création de rapports d’Activity Map dans Analytics.
+Permet d’activer des dimensions à utiliser avec [Activity Map](/help/analyze/activity-map/overview.md).
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **`<select report suite>`** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Compte rendu des performances d’Activity Map]**
+**[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > Sélectionner une suite de rapports > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Rapports Activity Map]**
 
-Permet à Analytics de collecter l’activité de l’utilisateur fournie par Activity Map (précédemment ClickMap). Cette intégration :
+Cette section de la documentation porte sur l’activation des dimensions utilisées par Activity Map. Consultez [Présentation d’Activity Map](/help/analyze/activity-map/overview.md) pour plus d’informations sur le recouvrement, les variables d’implémentation et les dimensions.
 
-* Permet l’activation de la création de rapports dans Analytics.
-* Ajoute de nouveaux rapports dans **[!UICONTROL Afficher tous les rapports]** > **[!UICONTROL Activity Map :]**
+Lorsque vous cliquez sur le bouton **[!UICONTROL Activer les rapports Activity Map]**, les dimensions suivantes sont créées :
 
-  | Rapport | Description |
-  |---|---|
-  | Page d’Activity Map | Répertorie les pages contenant un lien qui a fait l’objet d’un clic. |
-  | Région d’Activity Map | Répertorie toutes les régions de lien collectées sur l’ensemble du site web. Notez que si une région apparaît sur plusieurs pages, la mesure sera intégrée à chacune d’entre elles. |
-  | Liens d’Activity Map | Répertorie tous les liens collectés sur l’ensemble du site web. |
-  | Liens et région d’Activity Map | Répertorie tous les liens collectés avec leur région sur l’ensemble du site web. |
+* [[!UICONTROL Lien Activity Map ]](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
+* [[!UICONTROL Région Activity Map ]](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
+* [[!UICONTROL Page Activity Map ]](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
+* [[!UICONTROL Lien Activity Map par région ]](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
 
-Pour que les données soient renseignées, reportez-vous à la [documentation d’Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=fr) afin d’obtenir des instructions d’implémentation complètes.
+Une fois activée, votre implémentation peut commencer à envoyer des données à ces dimensions pour les utiliser dans [Analysis Workspace](/help/analyze/analysis-workspace/home.md) et la superposition de l’extension de navigateur [Browser](/help/analyze/activity-map/overlay/overview.md).
 
-<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->
+>[!NOTE]
+>
+>Lorsque vous activez Activity Map pour une suite de rapports, il est activé de manière permanente sans aucun moyen de le désactiver à l’avenir.

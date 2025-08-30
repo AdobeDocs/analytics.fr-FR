@@ -5,16 +5,20 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: 19c2c1abd7f1799598597c0e696d0b001c1ef0ea
+source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '679'
 ht-degree: 1%
 
 ---
 
 # Interface de l’extension Activity Map
 
-L’interface de l’extension Activity Map se compose de deux parties :
+L’extension Activity Map vous permet d’afficher les données de clics superposées sur votre site web. Vous pouvez télécharger l’extension en accédant à la page suivante, qui fournit un lien vers la boutique en ligne :
+
+**[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Télécharger Activity Map]**
+
+Une fois installée et activée, l’interface se compose de plusieurs parties :
 
 * Un panneau supérieur qui vous permet de configurer l’extension et les rapports
 * Recouvrement qui affiche les liens les plus populaires
@@ -81,7 +85,7 @@ Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de t
 Le rapport **[!UICONTROL Détails de la page]** affiche une visualisation [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) à l’aide de la dimension [Page](/help/components/dimensions/page.md), en se concentrant sur la page active. Les mesures suivantes pour la page active sont affichées à gauche :
 
 * Total [pages vues](/help/components/metrics/page-views.md)
-* [!UICONTROL &#x200B; % de toutes les pages vues]
+* [!UICONTROL  % de toutes les pages vues]
 * [Entrée](/help/components/metrics/entries.md) nombre
 * Nombre de [Sorties](/help/components/metrics/exits.md)
 * [Visites de page unique](/help/components/metrics/single-page-visits.md)
