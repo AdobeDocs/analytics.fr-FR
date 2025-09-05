@@ -3,10 +3,10 @@ title: Mesures - Aperçu
 description: Consultez le nombre de données ou d’éléments de dimension au fil du temps.
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 89%
 
 Les mesures vous permettent de quantifier les éléments de dimension, par exemple pour identifier les pages de votre site qui présentent le plus de vues. Vous pouvez également établir des tendances dans le temps, par exemple pour déterminer le nombre de commandes passées par les visiteurs sur votre site chaque jour. Un rapport de base présente des lignes de valeurs de chaîne (dimension) en fonction d’une colonne de valeurs numériques (mesure).
 
-Par exemple, si vous combinez la dimension **[!UICONTROL Page]** avec la mesure **[!UICONTROL Visites]**, vous obtenez un rapport avec classement présentant les pages les plus visitées :
+Par exemple, si vous combinez la dimension **[!UICONTROL Page]** à la mesure **[!UICONTROL Visites]**, vous obtenez un rapport classant les pages les plus visitées :
 
 | Page | Visites |
 | --- | ---: |
@@ -24,7 +24,7 @@ Par exemple, si vous combinez la dimension **[!UICONTROL Page]** avec la mesure 
 
 {style="table-layout:fixed"}
 
-Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit probablement d’un [événement personnalisé](custom-events.md) ou d’une [mesure calculée](../c-calcmetrics/cm-overview.md).
+Si vous ne trouvez pas de page d’aide sur une mesure donnée, il s’agit probablement d’un [événement personnalisé](custom-events.md) ou d’une [mesure calculée](../calculated-metrics/cm-overview.md).
 
 * Si la mesure est un événement personnalisé, contactez un administrateur Analytics au sein de votre organisation ou le [document de conception de solution](/help/implement/prepare/solution-design.md) de la suite de rapports.
 * Si la mesure est une mesure calculée, cliquez sur l’icône d’informations pour en déterminer la formule.

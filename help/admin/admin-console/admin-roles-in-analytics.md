@@ -4,7 +4,7 @@ description: Découvrez comment faire vos premiers pas avec Adobe Analytics, les
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a7cc0efe42ff7dc4aacc841156e25e3cab6b82f4
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 96%
@@ -26,9 +26,9 @@ Tenez compte des rôles clés suivants lors de l’utilisation d’Adobe Analyti
 
 * **Administrateurs Adobe Analytics complets :** ces utilisateurs disposent d’un accès complet à toutes les fonctionnalités d’Adobe Analytics, y compris les paramètres de la suite de rapports et les autorisations utilisateur. Selon la structure de votre entreprise, différentes personnes ou équipes peuvent être responsables de différentes facettes de l’administration d’Analytics. Par exemple, une personne est responsable de la désignation des variables à utiliser dans une implémentation. Une autre personne peut être chargée de permettre aux utilisateurs d’extraire correctement des rapports en s’assurant que chacun dispose des autorisations appropriées. Identifiez au moins un utilisateur qui peut assumer la responsabilité des paramètres de la suite de rapports Analytics et des autorisations d’utilisateur. Il peut y inviter d’autres administrateurs Analytics.
 * **Administrateurs de collecte de données :** ces utilisateurs disposent d’un accès complet à toutes les fonctionnalités de la collecte de données Adobe Experience Platform, y compris les autorisations de publication, la création de conteneurs et les autorisations utilisateur. Ces utilisateurs ne sont pas nécessairement des programmeurs, mais une connaissance de base du code HTML, CSS et JavaScript est un plus. Il leur incombe de travailler avec les propriétaires du site Web de votre organisation pour que les balises soient implémentées sur votre site. Identifiez au moins un utilisateur responsable de l’implémentation de votre organisation et qui peut y inviter d’autres administrateurs de la collecte de données.
-* **Administrateur de produit :** un administrateur de produit gère un produit dans Admin Console, ainsi que les droits utilisateur sur ce produit.
+* **Administrateur de produit :** un administrateur de produit gère un produit dans Admin Console, ainsi que les droits des utilisateurs sur ce produit.
 * **Administrateurs de profil de produit :** ces utilisateurs peuvent ajouter des utilisateurs à un profil de produit ou en supprimer, ajuster les éléments d’autorisation dans leur profil de produit et affecter des profils de produit à des groupes d’utilisateurs ou en supprimer. Les administrateurs de profil de produit ne disposent pas d’un accès complet à Adobe Analytics. Toutefois, ils sont parfaits pour les chefs dʼéquipe ou les gestionnaires qui doivent octroyer et gérer lʼaccès à Adobe Analytics pour leur équipe. Pour plus d’informations sur les profils de produit, consultez [Profils de produit pour Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md).
-* **Administrateur de l’assistance** : également appelé utilisateurs pris en charge, ils ne disposent d’aucun privilège supplémentaire dans l’interface d’Analytics. Au lieu de cela, ils bénéficient de privilèges supplémentaires lorsqu’ils communiquent avec l’assistance clientèle d’Adobe. Généralement, ces utilisateurs sont également des administrateurs Analytics, car ils aident l’assistance clientèle à résoudre les problèmes rencontrés. Identifiez au moins un administrateur Analytics chargé de faciliter les interactions entre les utilisateurs finaux et l’assistance clientèle d’Adobe.
+* **Administrateur d’assistance** : également appelés utilisateurs pris en charge, ils ne disposent d’aucun privilège supplémentaire dans l’interface Analytics. Au lieu de cela, ils bénéficient de privilèges supplémentaires lorsqu’ils communiquent avec l’assistance clientèle d’Adobe. Généralement, ces utilisateurs sont également des administrateurs Analytics, car ils aident l’assistance clientèle à résoudre les problèmes rencontrés. Identifiez au moins un administrateur Analytics chargé de faciliter les interactions entre les utilisateurs finaux et l’assistance clientèle d’Adobe.
 * **Propriétaires de site web :** ces personnes ou ces équipes sont responsables du codage et du développement de votre site web. Elles n’ont pas besoin de comptes, mais travailler avec les administrateurs de la collecte de données leur permettra d’obtenir le code des balises afin de l’implémenter sur votre site Web.
 * **Utilisateurs finaux :** ces utilisateurs consultent généralement des rapports et recherchent des réponses aux questions opérationnelles. Les administrateurs Analytics accordent à ces utilisateurs l’autorisation de travailler au sein du produit.
 
@@ -72,7 +72,7 @@ Pour plus d’informations sur l’affectation d’utilisateurs en tant qu’adm
 
 ## Étapes suivantes
 
-[Créer une suite de rapports](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md) : demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
+[Créer une suite de rapports](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md) : demandez à votre administrateur Analytics de se connecter à l’outil et de créer une suite de rapports pour la collecte de données.
 
 [Créer une propriété de balise Analytics](/help/implement/launch/create-analytics-property.md) : demandez à l’administrateur de la collecte de données de se connecter à l’outil et de créer une propriété à implémenter sur votre site.
 
@@ -84,7 +84,7 @@ Une fois le contrat signé
 
 1. L’équipe d’attribution des privilèges d’accès d’Adobe se prépare à créer le compte.
 
-1. Le premier administrateur reçoit un courrier électronique contenant les informations de connexion avant la date d’entrée en vigueur du contrat.
+1. La première personne en charge de l’administration reçoit un e-mail contenant les informations de connexion avant la date de début du contrat.
 
 >[!IMPORTANT]
 >

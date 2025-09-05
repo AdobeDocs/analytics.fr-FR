@@ -1,13 +1,13 @@
 ---
-description: Découvrez les fonctionnalités de prise en charge de l’accessibilité dans Analysis Workspace.
-title: Accessibilité Dans Analysis Workspace
+description: Découvrez les fonctionnalités de prise en charge de l’accessibilité dans Analysis Workspace.
+title: Accessibilité dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '546'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ L’accessibilité consiste à rendre les produits utilisables pour les personne
 La navigation dans [!UICONTROL Analysis Workspace] s’effectue de haut en bas et de gauche à droite. Les éléments de navigation suivants facilitent l’accessibilité :
 
 * La touche **[!UICONTROL Tab]** active des raccourcis de repère, pour se déplacer entre des sections plus grandes dans Workspace. Dans le panneau de gauche, la touche **[!UICONTROL Tab]** vous permet également de passer d’une option déplaçable à la suivante.
-* Les ◀︎ et ▶︎ se déplacent entre des éléments individuels une fois que la touche **[!UICONTROL Tab]** a mis en surbrillance un élément.
+* Les touches ◀ et ▶ permettent de se déplacer entre les éléments individuels après que la touche **[!UICONTROL Tab]** a mis en surbrillance un élément.
 * La touche **[!UICONTROL F6]** permet d’accéder au premier panneau du projet et de se déplacer parmi les visualisations de ce panneau. Puis, il passe au panneau suivant du projet et répète la même opération.
 * Des indicateurs d’élément actif sont présents afin que les utilisateurs et les utilisatrices malvoyants disposent d’une indication claire mettant en évidence l’élément de l’interface utilisateur actuellement actif. L’indicateur est une bordure bleue pour le panneau actif. Et un arrière-plan gris pour la fonctionnalité sélectionnée récemment et la sélection dans la fonctionnalité. Dans cet exemple, [!UICONTROL Composants] et la dimension Page ont été récemment sélectionnés.
 
@@ -55,7 +55,7 @@ La navigation dans [!UICONTROL Analysis Workspace] s’effectue de haut en bas e
 
 ### Raccourcis clavier (touches de raccourci)
 
-[!UICONTROL Analysis Workspace] offre un ensemble riche de [raccourcis clavier (touches d’accès rapide)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) pour un workflow plus transparent.
+[!UICONTROL Analysis Workspace] offre un vaste ensemble de [raccourcis clavier (touches de raccourci)](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) pour un workflow plus fluide.
 
 ## Prise en charge des lecteurs d’écran et des loupes
 
@@ -118,7 +118,7 @@ Navigation in [!UICONTROL Analysis Workspace] works top > down, and left > right
 
 ### Keyboard shortcuts (hotkeys) 
 
-[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=fr) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
+[!UICONTROL Analysis Workspace] offers a rich set of [keyboard shortcuts](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for a more seamless workflow. Some common shortcuts for navigation, analysis creation, and insight democratization are listed below. 
 
 #### Navigation
 
@@ -160,7 +160,7 @@ A screen reader reads text that appears on the computer screen. It also reads no
 
 [!UICONTROL Analysis Workspace] strives for WCAG 2.1 AA conformance, including requirements for color contrast. 
 
-In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=fr). 
+In addition, users can set their own preferred color palette for a project under **[!UICONTROL Project]** > **[!UICONTROL Project settings]** > [Project color palette](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md). 
 
 ## Required field validation in component builders 
 

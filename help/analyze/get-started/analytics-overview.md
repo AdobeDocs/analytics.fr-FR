@@ -4,9 +4,9 @@ short-description: Découvrez les fonctionnalités clés, les cas d’utilisatio
 title: Vue d’ensemble d’Adobe Analytics
 feature: Analytics Basics
 exl-id: ac8c00a7-3652-4ac4-a294-5b626472215c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Utilisez les ressources suivantes pour découvrir les principes de base d’Adob
 
 ## Vue d’ensemble en vidéo
 
-Pour en savoir plus sur les principes de base d’Adobe Analytics, regardez la vidéo *Présentation d’Adobe Analytics - webinaire de développement des compétences*. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données et de fournir des informations exploitables et des recommandations en fonction des données collectées.
+Pour en savoir plus sur les principes de base d’Adobe Analytics, regardez la vidéo *Présentation d’Adobe Analytics - Webinaire de développement des compétences*. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données et de fournir des informations exploitables et des recommandations en fonction des données collectées.
 
 
 >[!BEGINSHADEBOX]
@@ -41,7 +41,7 @@ Voir la vidéo de webinaire ![VideoCheckedOut](/help/assets/icons/VideoCheckedOu
 >[!ENDSHADEBOX]
 
 
-Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/which-analytics-tool.html?lang=fr).
+Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Aller plus loin avec Customer Journey Analytics
 

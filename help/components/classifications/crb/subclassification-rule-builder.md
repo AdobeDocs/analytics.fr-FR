@@ -3,7 +3,7 @@ description: Utilisez des sous-classifications avec le créateur de règles de c
 title: Sous-classifications et Créateur de règles
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 66%
@@ -42,7 +42,7 @@ Exemples d’étapes décrivant comment charger des sous-classifications à l’
 
    Exemple :
 
-   ![Infos sur l’étape](/help/admin/admin/assets/sub_class_create.png)
+   ![Infos sur l’étape](/help/admin/tools/assets/sub_class_create.png)
 
 1. Dans le [créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md), classifiez la clé de sous-classification à partir du code de suivi d’origine.
 
@@ -63,7 +63,7 @@ Exemples d’étapes décrivant comment charger des sous-classifications à l’
 
    Exemple :
 
-   | Clé | Canal | Code de campagne large | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
+   | Clé | Canal | Code de campagne large | Broad Campaign code&amp;Hat;Campaign type | Broad Campaign code&amp;Hat;Campaign Director | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Marque | Suzanne |  |
    | &#42; |  | 222 | Marque | Frank |  |

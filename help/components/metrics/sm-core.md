@@ -1,9 +1,9 @@
 ---
 title: Mesures principales des services de streaming multimédia
-description: Mesures disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core &#x200B;] pour une suite de rapports.
+description: Mesures disponibles lorsque vous activez [!UICONTROL  Media Core ] pour une suite de rapports.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Les mesures principales des services de streaming multimédia fournissent une fonctionnalité de création de rapports de base aux données collectées via les bibliothèques de collecte des services de streaming multimédia. L’utilisation de ces mesures nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
-Lorsque vous activez **[!UICONTROL Media Core]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les mesures suivantes sont disponibles :
+Lorsque vous activez **[!UICONTROL Media Core]** sous [Rapports multimédia](/help/admin/tools/manage-rs/edit-settings/media-management.md), les mesures suivantes sont disponibles :
 
 | Nom de la mesure | Description | Envoyé avec | Variable de données contextuelles |
 | --- | --- | --- | --- |

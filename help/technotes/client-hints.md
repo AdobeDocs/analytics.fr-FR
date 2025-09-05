@@ -4,9 +4,9 @@ description: Découvrez comment les indications du client remplaceront progressi
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 73c0210ac931f3e7f823e033a3bffdc22e159ddb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1174'
 ht-degree: 84%
 
 ---
@@ -25,13 +25,13 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium ont commencé à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les appareils de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les appareils.
 
-Les indications du client seront intégrées au processus de recherche d’appareils Analytics à partir du 27 février 2023 et jusqu’au 2 mars 2023. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
+Les indications du client seront intégrées au processus de recherche d’appareils Analytics à partir du 27 février 2023 et jusqu’au 2 mars 2023. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](/help/components/dimensions/operating-systems.md)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
 
 >[!NOTE]
 >
-> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr) pour plus d’informations.
+> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](/help/components/dimensions/operating-systems.md) pour plus d’informations.
 
-Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 ## Questions fréquentes
 
@@ -43,7 +43,7 @@ Cet [article de blog Google](https://web.dev/user-agent-client-hints/) est une b
 
 +++**Comment activer la collecte des indications du client ?**
 
-Les indications à faible entropie sont automatiquement fournies par le navigateur et ingérées pour la dérivation des informations sur l’appareil et le navigateur. Les nouvelles versions du SDK Web (à partir de 2.12.0) et de AppMeasurement (à partir de 2.23.0) peuvent être configurées pour collecter des indications à entropie élevée via leurs extensions Balises respectives ou directement via une option de configuration. Consultez les instructions pour le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr#enabling-high-entropy-client-hints) et [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=fr).
+Les indications à faible entropie sont automatiquement fournies par le navigateur et ingérées pour la dérivation des informations sur l’appareil et le navigateur. Les nouvelles versions du SDK Web (à partir de 2.12.0) et de AppMeasurement (à partir de 2.23.0) peuvent être configurées pour collecter des indications à entropie élevée via leurs extensions Balises respectives ou directement via une option de configuration. Consultez les instructions pour le [SDK Web](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr#enabling-high-entropy-client-hints) et [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Pour les deux bibliothèques, la collecte d’indications à entropie élevée est **désactivée par défaut**.
 
@@ -91,15 +91,15 @@ Les champs d’appareil disponibles pour la création de rapports ne changeront 
 
 Ces champs sont directement dérivés de la chaîne Agent-utilisateur, mais celle-ci peut être utilisée pour dériver des valeurs pour d’autres champs liés à l’appareil, en fonction de ses informations.
 
-* [Navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=fr)
-* [Type de navigateur](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=fr)
-* [Système d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=fr)
-* [Types de systèmes d’exploitation](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=fr)
-* [Appareils mobiles et type d’appareils mobiles](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=fr)
+* [Navigateur](/help/components/dimensions/browser.md)
+* [Type de navigateur](/help/components/dimensions/browser-type.md)
+* [Système d’exploitation](/help/components/dimensions/operating-systems.md)
+* [Types de systèmes d’exploitation](/help/components/dimensions/operating-system-types.md)
+* [Appareil mobile et type d’appareil mobile](/help/components/dimensions/mobile-dimensions.md)
 
 +++
 
-+++**Quelles parties de la chaîne Agent-utilisateur sont « figées » et quand ?**
++++**Quelles parties de la chaîne Agent-utilisateur sont « figées » et quand ?** 
 
 Voir [la chronologie publiée par Google](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html). Elle peut être sujette à des modifications.
 
@@ -157,8 +157,8 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++
 
-+++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?**
++++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?** 
 
-Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=fr) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++

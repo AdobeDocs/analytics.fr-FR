@@ -5,9 +5,9 @@ title: Horodatages facultatifs
 topic-fix: Developer and implementation
 feature: Implementation Basics
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 59757bf8953c9cd7bc8dff89f29c13396b70696d
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 96%
 
 ---
@@ -20,7 +20,7 @@ Découvrez-en plus sur les avantages et les contraintes liés à l’utilisation
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/3418613?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Timestamps Optional](https://video.tv.adobe.com/v/335740?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 -->
@@ -36,7 +36,7 @@ Le paramètre Horodatages (facultatif) est défini par défaut pour toutes les n
 >
 >Le paramètre Horodatages (facultatif) est le paramètre par défaut pour toutes les nouvelles suites de rapports générées à partir d’un modèle. Les nouvelles suites de rapports copiées à partir d’une suite de rapports existante héritent des paramètres de la suite de rapports d’origine.
 
-Voir [Horodatages (facultatif)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html?lang=fr) pour en savoir plus sur la configuration.
+Voir [Horodatages (facultatif)](/help/technotes/timestamps-optional.md) pour en savoir plus sur la configuration.
 
 ## Horodatages (facultatif) : intégrez des données horodatées et non horodatées {#integrate}
 

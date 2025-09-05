@@ -3,7 +3,7 @@ title: Personnalisation des rapports dans Adobe Analytics
 description: Découvrez comment personnaliser des rapports dans Adobe Analytics
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 94%
@@ -30,7 +30,7 @@ Tous les widgets de Google Analytics sont disponibles dans [!UICONTROL Analysis 
 
 * Le **widget Mesure** est à peu près équivalent à la visualisation [!UICONTROL Synthèse des chiffres].
 * Le **widget Chronologie** est à peu près équivalent à la visualisation [!UICONTROL Ligne].
-* Le **widget Geomap** est à peu près équivalent à la visualisation [!UICONTROL Carte].
+*  Le **widget Geomap** est à peu près équivalent à la visualisation [!UICONTROL Carte].
 * Le **widget Tableau** est à peu près équivalent à la visualisation [!UICONTROL Tableau à structure libre].
 * Le **widget circulaire** est à peu près équivalent à la visualisation [!UICONTROL Anneau].
 * Le **widget Barre** est peu près équivalent à la visualisation [!UICONTROL Barre].
@@ -64,12 +64,12 @@ Pour créer une mesure calculée :
 
 1. Cliquez sur l’icône **+** près de la liste des mesures pour ouvrir le [!UICONTROL créateur de mesures calculées].
 2. Attribuez un nom à votre mesure calculée et spécifiez un format.
-3. Faites glisser des composants de mesure vers la zone de définition et utilisez les listes déroulantes entre chaque composant pour désigner un opérateur.
+3. Faites glisser les composants de mesure vers dans la zone de définition, puis utilisez les listes déroulantes entre chaque composant pour désigner un opérateur.
 4. Une fois que la mesure calculée contient la formule souhaitée, cliquez sur Enregistrer pour revenir à votre espace de travail.
 5. Faites glisser la mesure calculée nouvellement définie sur l’espace de travail.
 
-   Pour en savoir plus sur les [mesures calculées](/help/components/c-calcmetrics/cm-overview.md), voir le guide d’utilisation des composants.
+   Pour en savoir plus sur les [mesures calculées](/help/components/calculated-metrics/cm-overview.md), voir le guide d’utilisation des composants.
 
 ## Alertes personnalisées
 
-Les alertes sont disponibles sur les deux plateformes. Dans Adobe Analytics, utilisez le menu de navigation de l’en-tête et accédez à *[!UICONTROL Composants]* > *[!UICONTROL Alertes]*. Pour plus d’informations, voir [Présentation des alertes](/help/components/c-alerts/intellligent-alerts.md) dans le Guide de l’utilisateur des composants.
+Les alertes sont disponibles sur les deux plateformes. Dans Adobe Analytics, utilisez le menu de navigation de l’en-tête et accédez à *[!UICONTROL Composants]* > *[!UICONTROL Alertes]*. Voir [Présentation des alertes](/help/components/alerts/alerts-overview.md) dans le Guide de l’utilisateur des composants pour plus d’informations.

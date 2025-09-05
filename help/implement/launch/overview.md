@@ -4,26 +4,26 @@ description: Découvrez comment implémenter Adobe Analytics à l’aide de bal
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: 43c39b99cbae3e714b7f017dec14dd02fa350790
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
 # Implémenter Adobe Analytics à l’aide de l’extension Analytics
 
-Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour implémenter le code sur votre site à des fins de collecte de données. La méthode actuellement recommandée par l’Adobe est [Balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
+Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs méthodes différentes pour implémenter le code sur votre site à des fins de collecte de données. La méthode actuellement recommandée par Adobe est d’utiliser [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
 
 Les balises dans Adobe Experience Platform représentent une solution de gestion des balises qui vous permet de déployer le code Analytics parallèlement à d’autres exigences de balisage. Adobe propose des intégrations à d’autres solutions et produits et vous permet de déployer du code personnalisé. Toutes ces tâches peuvent être effectuées sans faire appel aux équipes de développement de votre entreprise pour mettre à jour le code de votre site.
 
-Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent utiliser des balises. Si vous ne savez pas si vous y avez accès, contactez l’administration système Experience Cloud de votre organisation.
+Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent utiliser les balises. Si vous ne savez pas si vous y avez accès, contactez l’administration système Experience Cloud de votre organisation.
 
 Présentation générale des tâches d’implémentation :
 
 
 
-![Comment mettre en oeuvre Adobe Analytics à l’aide du workflow d’extension Analytics, comme décrit dans cette section.](../assets/analytics-extension-annotated.png)
+![Comment mettre en œuvre Adobe Analytics à l’aide du workflow d’extension Analytics, comme décrit dans cette section.](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -34,7 +34,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td> 1</td>
 <td>Vérifiez que vous avez <b>défini une suite de rapports</b>.</td>
-<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+<td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
 </tr>
 
 <tr>
@@ -47,7 +47,7 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>3</td>
-<td><b><b>Créez une propriété de balise</b>. Les propriétés sont des conteneurs globaux utilisés pour référencer les données de la gestion des balises.</td>
+<td><b><b>Créer une propriété de balise</b>. Les propriétés sont des conteneurs globaux utilisés pour référencer les données de la gestion des balises.</td>
 <td><a href="../launch/create-analytics-property.md">Créer une propriété de balise Adobe Analytics</a></td>
 </tr>
 
@@ -64,8 +64,8 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>6</td> 
-<td><b>Validez et publiez en production</b>. Incorporez le code pour inclure votre propriété de balise aux pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=fr#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Valider une mise en oeuvre de développement et publier en production</a></td>
+<td><b>Validez et publiez en production</b>. Code incorporé permettant d’inclure la propriété de balise dans les pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validez une implémentation de développement et publiez-la en production</a></td>
 </tr>
 
 </table>

@@ -3,7 +3,7 @@ title: Services et mesures de streaming multimédia
 description: Mesures disponibles lorsque vous activez [!UICONTROL Media Ads] pour une suite de rapports.
 feature: Metrics
 exl-id: f0ddf3e0-ab55-4a05-a8ae-f040ba26e704
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Les services et mesures de streaming multimédia fournissent des fonctionnalités de création de rapports supplémentaires à la collecte de données par le biais des bibliothèques de services de streaming multimédia. L’utilisation de ces mesures nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
-Lorsque vous activez **[!UICONTROL Publicités multimédia]** sous [Rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les mesures suivantes sont disponibles :
+Lorsque vous activez **[!UICONTROL Publicités multimédia]** sous [Rapports multimédia](/help/admin/tools/manage-rs/edit-settings/media-management.md), les mesures suivantes sont disponibles :
 
 | Nom de la mesure | Description | Envoyé avec | Variable de données contextuelles |
 | --- | --- | --- | --- |

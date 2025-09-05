@@ -4,7 +4,7 @@ keywords: Mise en œuvre d’Analytics
 title: Redirections et alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 99%
@@ -32,7 +32,7 @@ Il existe uniquement deux types de redirection, mais elles peuvent être implém
 Prenons l’hypothèse suivante, selon laquelle aucune redirection ne se présente à l’utilisateur :
 
 1. L’utilisateur pointe son navigateur vers `www.google.com` et saisit « billets d’avion réduits » (discount airline tickets) dans le champ de recherche, puis clique sur le bouton **[!UICONTROL Recherche]**.
-1. Le navigateur affiche les résultats de la recherche, notamment un lien vers votre site [!DNL https://www.example.com/]. Après avoir affiché les résultats de la recherche, la barre d’adresse du navigateur affiche les termes recherchés entrés par l’utilisateur dans le champ de recherche ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Notez que les termes recherchés sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit `https://www.google.com/search?`.
+1. Le navigateur affiche les résultats de la recherche, notamment un lien vers votre site [!DNL https://www.example.com/]. Après avoir affiché les résultats de la recherche, la barre d’adresse du navigateur affiche les termes de recherche saisis par l’utilisateur ou l’utilisatrice dans le champ de recherche ( `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`). Notez que les termes de recherche sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit `https://www.google.com/search?`.
 1. L’utilisateur clique sur le lien vers votre site hypothétique [!DNL https://www.example.com/]. Lorsque l’utilisateur clique sur ce lien et arrive sur le site web [!DNL example.com], [!DNL Analytics] utilise JavaScript pour collecter l’URL de référence (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) ainsi que l’URL active (`https://www.example.com/`).
 1. [!DNL Analytics] rapporte les informations collectées durant cette interaction dans divers rapports, tels que [!UICONTROL Domaines référents], [!UICONTROL Moteurs de recherche] et [!DNL Search Keywords].
 
@@ -41,8 +41,8 @@ Prenons l’hypothèse suivante, selon laquelle aucune redirection ne se présen
 En raison des redirections, le navigateur peut masquer la véritable URL de référence. Prenons l’exemple suivant :
 
 1. L’utilisateur pointe son navigateur vers `https://www.google.com` et saisit *billets d’avion réduits* (discount airline tickets) dans le champ de recherche, puis clique sur le bouton **[!UICONTROL Recherche]**.
-1. La barre d’adresse du navigateur affiche les termes recherchés entrés par l’utilisateur dans le champ de recherche `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notez que les termes recherchés sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit `https://www.google.com/search?`. Le navigateur affiche également une page qui contient les résultats de recherche, y compris un lien vers l’un de vos noms de domaine : [!DNL https://www.flytohawaiiforfree.com/]. Ce domaine *de redirection vers un microsite* est configuré pour rediriger l’utilisateur vers `https://www.example.com/`.
-1. L’utilisateur clique sur le lien `https://www.flytohawaiiforfree.com/` et est redirigé par le serveur vers votre site principal, `https://www.example.com`. Au moment de la redirection, les données importantes pour la collecte de données [!DNL Analytics] sont perdues puisque le navigateur efface l’URL de référence. En conséquence, les informations de la recherche d’origine utilisées dans les rapports [!DNL Analytics] (par exemple, [!UICONTROL Domaines référents], [!UICONTROL Moteurs de recherche], [!UICONTROL Mots-clés de la recherche]) sont perdues.
+1. La barre d’adresse du navigateur affiche les termes de recherche saisis par l’utilisateur ou l’utilisatrice dans le champ de recherche `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`. Notez que les termes de recherche sont inclus dans les paramètres de la chaîne de requête de l’URL qui suit .`https://www.google.com/search?` Le navigateur affiche également une page qui contient les résultats de recherche, y compris un lien vers l’un de vos noms de domaine : [!DNL https://www.flytohawaii.example/]. Ce domaine *de redirection vers un microsite* est configuré pour rediriger l’utilisateur vers `https://www.example.com/`.
+1. L’utilisateur clique sur le lien `https://www.flytohawaii.example/` et est redirigé par le serveur vers votre site principal, `https://www.example.com`. Au moment de la redirection, les données importantes pour la collecte de données [!DNL Analytics] sont perdues puisque le navigateur efface l’URL de référence. En conséquence, les informations de la recherche d’origine utilisées dans les rapports [!DNL Analytics] (par exemple, [!UICONTROL Domaines référents], [!UICONTROL Moteurs de recherche], [!UICONTROL Mots-clés de la recherche]) sont perdues.
 
 ## Implémentation des redirections {#implement}
 
@@ -52,7 +52,7 @@ Suivez la procédure suivante pour conserver les informations que le référent 
 
 ## Configuration du code JavaScript de remplacement du référent {#override}
 
-Le fragment de code ci-dessous présente deux variables JavaScript, *`s_referrer`* et *`s_pageURL`*. Ce code est placé sur la page de destination finale de la redirection.
+Le fragment de code ci-dessous présente deux variables JavaScript, `s.referrer` et `s.pageURL`. Ce code est placé sur la page de destination finale de la redirection.
 
 ```js
 <script language="JavaScript" src="//INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
@@ -101,7 +101,7 @@ En règle générale, [!DNL Analytics] obtient l’URL de référence auprès de
 En conséquence, la version finale de la page de destination doit contenir le code suivant pour corriger les problèmes introduits dans le scénario « billets d’avion réduits ».
 
 ```js
-<script language="JavaScript" src="https://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/AppMeasurement.js"></script> 
+<script language="JavaScript" src="AppMeasurement.js"></script> 
 <script language="JavaScript"><!-- 
 /* You may give each page an identifying name, server, and channel on 
 the next lines. */ 
@@ -110,7 +110,7 @@ s.server=""
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
 // Setting the s.pageURL variable is optional.
-s.pageURL="https://www.flytohawaiiforfree.com"
+s.pageURL="https://www.flytohawaii.example"
 ```
 
 ## Vérification du référent à l’aide de l’Adobe Debugger {#verify}
@@ -135,8 +135,8 @@ Ces variables seront représentées comme les paramètres suivants dans le [déb
   </tr> 
   <tr> 
    <td> <p>URL de la page </p> </td> 
-   <td> <p> <span class="filepath">https://www.flytohawaiiforfree.com</span> </p> </td> 
-   <td> <p> <span class="filepath"> g=https://www.flytohawaiiforfree.com </span> </p> <p>Cette valeur apparaît dans le débogueur DigitalPulse si la variable <span class="varname"> pageURL </span> est utilisée. </p> </td> 
+   <td> <p> <span class="filepath"> https://www.flytohawaii.example </span> </p> </td> 
+   <td> <p> <span class="filepath"> g=https://www.flytohawaii.example </span> </p> <p>Cette valeur apparaît dans le débogueur DigitalPulse si la variable <span class="varname"> pageURL </span> est utilisée. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>URL de page de destination finale </p> </td> 
@@ -157,7 +157,7 @@ t=4/8/20XX 13:34:28 4 360
 pageName=Welcome to example.com 
 r=https://ref=www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets 
 cc=USD 
-g=https://www.flytohawaiiforfree.com 
+g=https://www.flytohawaii.example 
 s=1280x1024 
 c=32 
 j=1.3 
@@ -170,4 +170,4 @@ hp=N
 [AQE]
 ```
 
-Après avoir vérifié que l’Adobe [!UICONTROL Debugger] affiche ces variables, il s’avère toujours utile de confirmer que les termes recherchés et le domaine référent d’origine (avant la redirection) enregistrent le trafic dans les rapports.
+Après avoir vérifié qu’Adobe [!UICONTROL Debugger] affiche ces variables, il s’avère toujours utile de confirmer que les termes de recherche et le domaine référent d’origine (avant la redirection) enregistrent le trafic dans les rapports.

@@ -4,18 +4,18 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: a515927313fdc6025fb3ff8eaedf0b3742bede70
-workflow-type: ht
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 
 # Guide de mise en œuvre Adobe Analytics {#implementation}
 
-+ [Mise en œuvre d’Adobe Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
++ [Guide de mise en œuvre Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + [Notes de mise à jour d’AppMeasurement](appmeasurement-updates.md)
 + Variables, fonctions et méthodes Analytics {#vars}
    + [Vue d’ensemble](vars/overview.md)

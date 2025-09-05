@@ -3,9 +3,9 @@ title: Bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analy
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 16fdad50b9d63bc6db07347c6ec91fb0d2df5722
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '587'
 ht-degree: 97%
 
 ---
@@ -28,13 +28,13 @@ Nous vous recommandons d’utiliser [Attribution](/help/analyze/analysis-workspa
 
 * La configuration des dimensions Canal marketing et Détails du canal marketing établit les points de contact à évaluer, en fonction de chaque instance du canal marketing.
 * Pour l’analyse des mesures, votre organisation doit s’aligner sur un ou plusieurs modèles d’attribution. Enregistrez les mesures personnalisées avec ce modèle pour une réutilisation facile.
-* Par défaut, les données sont attribuées à l’aide de la Dernière touche et du paramètre de la période d’engagement des visiteurs. Les modèles de mesure Attribution offrent un meilleur contrôle sur les intervalles de recherche en amont et une plus grande variété, y compris l’[attribution algorithmique](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=fr#analysis-workspace).
+* Par défaut, les données sont attribuées à l’aide de la Dernière touche et du paramètre de la période d’engagement des visiteurs. Les modèles de mesure Attribution offrent un meilleur contrôle sur les intervalles de recherche en amont et une plus grande variété, y compris l’[attribution algorithmique](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Bonne pratique n° 2 : aucune définition des canaux Direct et Actualisation de session
 
 Les canaux Direct et Interne/Actualisation de session ne sont pas recommandés pour une utilisation avec des modèles d’attribution personnalisés.
 
-Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution que si ces canaux n’avaient jamais été configurés.
+Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution que si ces canaux n’avaient jamais été configurés.
 
 ![](assets/direct-session-refresh.png)
 

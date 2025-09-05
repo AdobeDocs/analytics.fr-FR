@@ -4,7 +4,7 @@ description: Utilisez l’extension SDK Mobile dans la collecte de données Adob
 exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8b585a1a05b5fcabd343da52a4b6f05fea8fd86f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 99%
@@ -34,7 +34,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>1</td>
 <td>Vérifiez que vous avez <b>défini une suite de rapports</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
 </tr>
 
 <tr>
@@ -45,7 +45,7 @@ Présentation générale des tâches d’implémentation :
 
 <td>3</td>
 <td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 
 <tr>
@@ -95,7 +95,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>1</td>
 <td>Vérifiez que vous avez <b>défini une suite de rapports</b>.</td>
-<td><a href="../../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+<td><a href="../../../admin/tools/manage-rs/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
 </tr>
 
 <tr>

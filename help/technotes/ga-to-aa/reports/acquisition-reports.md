@@ -3,7 +3,7 @@ title: Rapports d’acquisition dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur l’acquisition à l’aide d’Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -127,7 +127,7 @@ Il est possible de collecter des paramètres UTM dans Adobe Analytics à l’aid
 
 ## Campagnes - Mots-clés payants
 
-Le rapport Mots-clés payants montre la façon dont chaque mot-clé se comporte après qu’un visiteur a cliqué sur un lien de référencement payant à partir d’un moteur de recherche. La dimension **Mots-clés de recherche - Payée** est disponible dans Analysis Workspace, mais nécessite une configuration unique de la détection de référencement payant pour collecter les données. Pour plus d’informations sur la configuration, voir [Détection de référencement payant](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md) dans le guide d’utilisation destiné à l’administrateur.
+Le rapport Mots-clés payants montre la façon dont chaque mot-clé se comporte après qu’un visiteur a cliqué sur un lien de référencement payant à partir d’un moteur de recherche. La dimension **Mots-clés de recherche - Payée** est disponible dans Analysis Workspace, mais nécessite une configuration unique de la détection de référencement payant pour collecter les données. Pour plus d’informations sur la configuration, voir [Détection de référencement payant](/help/admin/tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md) dans le guide d’utilisation destiné à l’administrateur.
 
 1. Dans le menu Composants, recherchez la dimension **Mots-clés de recherche - Payée** et faites-la glisser sur la grande zone de tableau à structure libre intitulée « Déposer une dimension ici ».
 2. Faites glisser les mesures de votre choix sur l’espace de travail à côté de la mesure **Occurrences** créée automatiquement. Pour en savoir plus sur la manière d’obtenir chaque mesure respective, voir le [guide de traduction des mesures](common-metrics.md).
@@ -141,4 +141,4 @@ Le rapport Mots-clés organiques montre la façon dont chaque mot-clé se compor
 
 ## Analyse des coûts
 
-Ce rapport présente les données sur les visites, les coûts et les recettes pour vos canaux marketing payants. Adobe fournit un produit dédié appelé Adobe Advertising Cloud. Si votre entreprise souhaite utiliser ce produit, contactez votre équipe de compte d’Adobe.
+Ce rapport présente les données sur les visites, les coûts et les recettes pour vos canaux marketing payants. Adobe fournit un produit dédié appelé Adobe Advertising Cloud. Si votre entreprise souhaite utiliser ce produit, contactez l’équipe chargée de votre compte Adobe.

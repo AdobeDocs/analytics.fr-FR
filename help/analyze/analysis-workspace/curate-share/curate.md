@@ -1,20 +1,20 @@
 ---
-description: Découvrez comment traiter des projets dans Analysis Workspace. Le traitement limite l’accès aux composants avant le partage d’un projet.
-keywords: Traitement d’Analysis Workspace
-title: Traitement des projets
+description: Découvrez comment traiter les projets dans Analysis Workspace. Le traitement limite l’accès aux composants avant le partage d’un projet.
+keywords: Traitement d’Analysis Workspace
+title: Traiter des projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 60%
+source-wordcount: '531'
+ht-degree: 80%
 
 ---
 
 # Traitement des projets
 
-Le traitement vous permet de limiter les composants (dimensions, mesures, segments, périodes) avant de partager un projet. Lorsqu’un destinataire ouvre le projet, il voit un ensemble limité de composants que vous avez traités pour lui. Le traitement est une étape facultative mais recommandée avant de partager un projet.
+Le traitement vous permet de limiter les composants (dimensions, mesures, segments, périodes) avant de partager un projet. Lorsqu’une personne destinataire ouvre le projet, elle voit un ensemble limité de composants que vous avez traités à sa place. Le traitement est une étape facultative mais recommandée avant de partager un projet.
 
 >[!NOTE]
 > Les profils de produit constituent le principal mécanisme contrôlant ce que voit un utilisateur. Ils sont gérés via l’Admin Console pour Adobe Experience Cloud. Le traitement est un filtre secondaire.
@@ -22,36 +22,36 @@ Le traitement vous permet de limiter les composants (dimensions, mesures, segmen
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des projets](https://video.tv.adobe.com/v/328084?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des projets](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
-## Application du traitement du projet
+## Appliquer le traitement du projet
 
-1. Sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
+1. Sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
 Les composants utilisés dans le projet sont automatiquement ajoutés.
 Si un projet comporte plusieurs suites de rapports, une cible de dépôt de traitement s’affiche pour chaque suite de rapports du projet.
-1. (Facultatif) Pour ajouter d’autres composants, faites glisser les composants à partager du panneau de gauche vers la zone de dépôt **[!UICONTROL Traiter les composants]** pour la vue de données.
+1. (Facultatif) Pour ajouter d’autres composants, faites glisser ceux que vous souhaitez partager du panneau de gauche vers la zone de dépôt **[!UICONTROL Traiter les composants]** pour la vue de données.
 1. Sélectionnez **[!UICONTROL Terminé]**.
 
 
 ![](assets/curation-field.png)
 
-Lorsqu’un destinataire ouvre un projet traité, il ne voit que l’ensemble de composants traités que vous avez définis :
+Lorsqu’une personne destinataire ouvre un projet traité, elle ne voit que l’ensemble de composants traités que vous avez définis :
 
 
 ## Suppression du traitement du projet
 
 Pour supprimer le traitement du projet et restaurer l’ensemble complet des composants dans le rail de gauche :
 
-1. Sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
+1. Sélectionnez **[!UICONTROL Partager]** > **[!UICONTROL Traiter les données du projet]**.
 1. Sélectionnez **[!UICONTROL Supprimer le traitement]**.
 1. Sélectionnez **[!UICONTROL Terminé]**.
 
 ## Traitement des suites de rapports virtuelles
 
-Pour appliquer un traitement au niveau d’une suite de rapports, de sorte qu’il s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](https://experienceleague.adobe.com/fr/docs/analytics/components/virtual-report-suites/vrs-components).
+Pour appliquer un traitement au niveau d’une suite de rapports, de sorte qu’il s’applique simultanément à de nombreux projets, vous pouvez [traiter des composants dans une suite de rapports virtuelle](/help/components/vrs/vrs-components.md).
 
 >[!NOTE]
 >

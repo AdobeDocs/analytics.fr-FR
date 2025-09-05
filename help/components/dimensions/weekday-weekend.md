@@ -3,7 +3,7 @@ title: Jour ouvrable/week-end
 description: Détermine si l’accès s’est produit pendant un jour ouvrable ou le week-end.
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # Jour ouvrable/week-end
 
-La [dimension](overview.md) &quot;Jour ouvrable/week-end&quot; permet de savoir si l’accès s’est produit au cours d’un jour ouvrable (du lundi au vendredi) ou d’un week-end (du samedi au dimanche). L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md).
+La [dimension](overview.md) Jour de la semaine/week-end indique si l’accès a eu lieu un jour de la semaine (lundi à vendredi) ou un week-end (samedi à dimanche) dans insight. L’heure de l’accès est basée sur le [fuseau horaire de la suite de rapports](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md).
 
 ## Renseignement de cette dimension avec des données
 

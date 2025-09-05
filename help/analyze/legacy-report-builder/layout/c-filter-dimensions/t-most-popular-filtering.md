@@ -5,7 +5,7 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 89%
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
 
-Les filtres de type « Le plus populaire » sont des filtres d’expression configurés à l’aide d’une logique booléenne avec des conditions ET/OU, tels que [!UICONTROL La page ne contient pas &#x200B;]*`<product name>`*, accompagnés de conditions ou de groupes de conditions comme [!UICONTROL Inclut tout], [!UICONTROL Inclut n’importe quel] ou [!UICONTROL Exclut tout]. Vous pouvez [enregistrer](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) ces expressions pour une autre requête dans ce classeur ou dans d’autres classeurs.
+Les filtres de type « Le plus populaire » sont des filtres d’expression configurés à l’aide d’une logique booléenne avec des conditions ET/OU, tels que [!UICONTROL La page ne contient pas ]*`<product name>`*, accompagnés de conditions ou de groupes de conditions comme [!UICONTROL Inclut tout], [!UICONTROL Inclut n’importe quel] ou [!UICONTROL Exclut tout]. Vous pouvez [enregistrer](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) ces expressions pour une autre requête dans ce classeur ou dans d’autres classeurs.
 
 **Pour créer un filtre de type « Le plus populaire »**
 
@@ -26,7 +26,7 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 2], cliquez sur le lien en regard de la dimension dans la grille, puis sélectionnez **[!UICONTROL Filtrer]**.
 
-   ![Capture d&#39;écran montrant la boîte de dialogue Définir un filtre avec les options de filtrage par application, utilisateur et projet.](/help/admin/admin/assets/filter.png)
+   ![Capture d’écran montrant la boîte de dialogue Définir un filtre avec des options pour filtrer par application, utilisateur et projet.](/help/admin/tools/assets/filter.png)
 
 1. Activez l’option [!UICONTROL Le plus populaire] dans le formulaire **[!UICONTROL Sélectionner les pages]**, puis configurez les options suivantes :
 
@@ -45,15 +45,15 @@ Les filtres de type « Le plus populaire » sont des filtres d’expression co
 1. Dans le formulaire [!UICONTROL Définir un filtre], configurez les conditions adaptées à vos besoins.
 
 
-   ![Capture d&#39;écran montrant la boîte de dialogue Définir un filtre.](assets/expressions_define_filter.png)
+   ![Capture d’écran affichant la boîte de dialogue Définir un filtre.](assets/expressions_define_filter.png)
 
-   L’icône de cellule de sélection permet de localiser une condition définie dans la valeur d’une cellule. ![Icône de cellule de sélection.](assets/select_cell_icon.png)
+   L’icône Sélectionner une cellule permet de localiser une condition définie dans la valeur d’une cellule. ![Icône Sélectionner une cellule.](assets/select_cell_icon.png)
 
    Le lien **Ajouter une condition** permet d’ajouter une condition à l’expression. Le nombre de conditions qu’il est possible d’ajouter est illimité.
 
 1. Cliquez sur **[!UICONTROL OK]**.
 
-   ![Capture d&#39;écran de la boîte de dialogue Définir un filtre avec le bouton OK en bas à droite.](assets/choose_page_02.png)
+   ![Copie d’écran de la boîte de dialogue Définir le filtre avec le bouton OK en bas à droite.](assets/choose_page_02.png)
 
 1. Dans le formulaire [!UICONTROL Sélectionner les pages], cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer l’expression.
 1. Cliquez sur **[!UICONTROL OK]**.

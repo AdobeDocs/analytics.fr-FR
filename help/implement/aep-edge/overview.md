@@ -4,7 +4,7 @@ description: Présentation de l’utilisation des données XDM d’Experience P
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 0ea86e7628e3cebe6f5fe1c4f584da1186b8cb83
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 16%
@@ -23,13 +23,13 @@ Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre 
 
 ## objet `xdm`
 
-Respectez les schémas que vous créez en fonction de [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le groupe de champs de schéma [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK Web pour envoyer des données à une suite de rapports. Lorsque les données arrivent à l’Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
+Respectez les schémas que vous créez en fonction de [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le groupe de champs de schéma [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK Web pour envoyer des données à une suite de rapports. Lorsque les données arrivent à l’Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
 
 Consultez [Mappage des variables d’objet XDM à Adobe Analytics](xdm-var-mapping.md) pour obtenir une référence complète des champs XDM et de leur mappage aux variables Analytics.
 
 >[!TIP]
 >
->Si vous prévoyez de migrer vers [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) à l’avenir, Adobe vous déconseille d’utiliser le groupe de champs de schéma Adobe Analytics. Adobe recommande plutôt de [créer votre propre schéma](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) et d’utiliser le mappage de flux de données pour renseigner les variables Analytics souhaitées. Cette stratégie ne vous verrouille pas sur un schéma de props et d’eVars lorsque vous êtes prêt à passer à Customer Journey Analytics.
+>Si vous prévoyez de migrer vers [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) à l’avenir, Adobe vous déconseille d’utiliser le groupe de champs de schéma Adobe Analytics. Adobe recommande plutôt de [créer votre propre schéma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) et d’utiliser le mappage de flux de données pour renseigner les variables Analytics souhaitées. Cette stratégie ne vous verrouille pas sur un schéma de props et d’eVars lorsque vous êtes prêt à passer à Customer Journey Analytics.
 
 ## objet `data`
 
@@ -39,7 +39,7 @@ Consultez [Mappage des variables d’objet de données à Adobe Analytics](data-
 
 ## Variables de données contextuelles
 
-Envoyez les données à Edge Network dans le format de votre choix. Tous les champs qui ne sont pas automatiquement mappés à des champs d’objet `xdm` ou `data` sont inclus en tant que [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) lors du transfert vers Adobe Analytics. Vous devez ensuite utiliser [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) pour mapper les champs souhaités à leurs variables Analytics respectives.
+Envoyez les données à Edge Network dans le format de votre choix. Tous les champs qui ne sont pas automatiquement mappés à des champs d’objet `xdm` ou `data` sont inclus en tant que [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) lors du transfert vers Adobe Analytics. Vous devez ensuite utiliser [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour mapper les champs souhaités à leurs variables Analytics respectives.
 
 Par exemple, si vous disposiez d’un schéma XDM personnalisé qui ressemblait à ce qui suit :
 

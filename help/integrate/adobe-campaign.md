@@ -4,9 +4,9 @@ title: Comment intégrer le compte rendu des performances Adobe Campaign Stand
 feature: Admin Tools
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 role: Admin
-source-git-commit: a1eea822b197c830abf524555b0dc2746f67c53a
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '511'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 Pour plus d’informations sur la configuration de cette intégration, aller à la [documentation d’Adobe Campaign](https://helpx.adobe.com/fr/campaign/standard/integrating/using/about-campaign-analytics-integration.html).
 
 >[!IMPORTANT]
->Cet article s’applique au compte rendu des performances Adobe Campaign **Standard** uniquement. Voir [ici](https://experienceleague.adobe.com/docs/analytics/integration/analytics-to-campaign-classic.html?lang=fr) pour ajouter le compte rendu des performances Adobe Campaign **Classic**.
+>Cet article s’applique au compte rendu des performances Adobe Campaign **Standard** uniquement. Voir [ici](/help/integrate/analytics-to-campaign-classic.md) pour ajouter le compte rendu des performances Adobe Campaign **Classic**.
 
 Cette intégration entre Adobe Analytics et Adobe Campaign Standard :
 
@@ -80,5 +80,5 @@ Les **dimensions** suivantes sont disponibles depuis Campaign dans les suites de
 | Libellé de la campagne | Libellés des ID de campagne |
 | Identifiant de la diffusion | Identifiant de toutes les diffusions pour lesquelles des IPC ont été envoyés pendant la durée. Inclut également les identifiants des diffusions maîtres de la diffusion récurrente et de la diffusion des transactions. Exemple : une diffusion récurrente DM1 était planifiée et DM2, DM3, DM4 et DM5 étaient des diffusions enfants de la diffusion récurrente.  L’identifiant de la diffusion affiche les résultats pour toutes les diffusions, de DM1 à DM5. |
 | Libellé de diffusion | Libellés des identifiants de diffusion |
-| Libellé de la diffusion exécutée | Identifiants des diffusions exécutées uniquement. Aucun identifiant de diffusion maître récurrente/de transactions. Exemple : une diffusion récurrente DM1 était planifiée et DM2, DM3, DM4 et DM5 étaient des diffusions enfants de la diffusion récurrente. L’identifiant Diffusion exécutée affiche les résultats pour toutes les diffusions, de DM2 à DM5, c’est-à-dire les diffusions qui ont été effectivement exécutées. |
+| Libellé de la diffusion exécutée | Identifiants des diffusions exécutées uniquement. Aucun identifiant de diffusion principale récurrente/transactionnelle. Exemple : une diffusion récurrente DM1 était planifiée et DM2, DM3, DM4 et DM5 étaient des diffusions enfants de la diffusion récurrente. L’identifiant Diffusion exécutée affiche les résultats pour toutes les diffusions, de DM2 à DM5, c’est-à-dire les diffusions qui ont été effectivement exécutées. |
 | Libellé de la diffusion exécutée | Libellés des identifiants Diffusion exécutée |

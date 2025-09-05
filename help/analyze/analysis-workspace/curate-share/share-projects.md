@@ -1,22 +1,22 @@
 ---
 description: Découvrez comment partager des rôles de projet et dans Workspace
-keywords: Partage de projets Analysis Workspace
-title: Partage de projets
+keywords: Partage Analysis Workspace
+title: Partager des projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 41d067ab852f4eb5c4a1368ade364fdb706bb9d9
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1974'
 ht-degree: 96%
 
 ---
 
-# Partage de projets {#share-projects}
+# Partager des projets {#share-projects}
 
 >[!CONTEXTUALHELP]
 >id="workspace_shareprojects"
->title="Partage de projets"
+>title="Partager des projets"
 >abstract="Vous pouvez partager l’un de ces rôles de projet avec d’autres utilisateurs et utilisatrices de votre entreprise."
 
 
@@ -41,12 +41,12 @@ Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsq
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/40030?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://video.tv.adobe.com/v/36207?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
-## Partager avec des utilisateurs et des groupes de votre organisation {#Add}
+## Partager avec des utilisateurs, des utilisatrices et des groupes de votre organisation {#Add}
 
 Vous pouvez partager un projet avec des utilisateurs, des utilisatrices ou des groupes Analysis Workspace existants de votre organisation. Les utilisateurs et utilisatrices avec lesquels vous partagez le projet doivent disposer au préalable d’un accès à Adobe Analytics.
 
@@ -107,7 +107,7 @@ Si des modifications n’ont pas enregistrées, on vous invite d’abord à enre
 
    Ou
 
-   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traitement et mise à jour]**.) En savoir plus sur le [traitement du projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
+   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traitement et mise à jour]**.) En savoir plus sur le [traitement du projet](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Partager un lien vers un projet
 
@@ -115,7 +115,7 @@ Lorsque vous partagez un lien comme décrit dans cette section, tenez compte des
 
 * Les destinataires qui utilisent le lien doivent se connecter à Adobe Analytics avant d’accéder au projet.
 
-* Si la personne destinataire ne se voit pas attribuer un rôle et reçoit un [lien partageable](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=fr) vers le projet, elle se verra attribuer un rôle par défaut. Les personnes chargées de l’administration reçoivent **[!UICONTROL Modifier l’original]** et les autres reçoivent **[!UICONTROL Modifier la copie]**.
+* Si la personne destinataire ne se voit pas attribuer un rôle et reçoit un [lien partageable](/help/analyze/analysis-workspace/curate-share/shareable-links.md) vers le projet, elle se verra attribuer un rôle par défaut. Les personnes chargées de l’administration reçoivent **[!UICONTROL Modifier l’original]** et les autres reçoivent **[!UICONTROL Modifier la copie]**.
 
 Pour partager le lien du projet avec les utilisateurs et utilisatrices de votre organisation, procédez comme suit :
 
@@ -157,7 +157,7 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3452452?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://video.tv.adobe.com/v/3420093?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -176,7 +176,7 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
    Cette option crée un lien vers le projet qui peut être partagé avec tout le monde. Vous pouvez désactiver l’accès au projet à tout moment en désactivant cette option.
 
-   La personne propriétaire du projet est également propriétaire de ce lien. La propriété du lien ne peut être transférée à une autre personne que lorsque la propriété du projet est transférée, comme décrit dans la section [Transférer les ressources utilisateur ou définir l’expiration du compte](/help/admin/admin/user-management2/users-assets.md) dans le guide d’administration d’Analytics.
+   La personne propriétaire du projet est également propriétaire de ce lien. La propriété du lien ne peut être transférée à une autre personne que lorsque la propriété du projet est transférée, comme décrit dans la section [Transférer les ressources utilisateur ou définir l’expiration du compte](/help/admin/tools/user-management/users-assets.md) dans le guide d’administration d’Analytics.
 
 1. Indiquez si l’option de sécurité suivante doit être activée (cette option peut être contrôlée par votre administrateur ou administratrice Analytics) :
 
@@ -212,7 +212,7 @@ Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/327496?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

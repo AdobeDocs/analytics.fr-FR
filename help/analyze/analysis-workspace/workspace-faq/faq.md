@@ -1,19 +1,19 @@
 ---
-description: Obtenez des réponses aux questions courantes sur Analysis Workspace.
-title: 'Questions fréquentes '
+description: Obtenez des réponses à des questions courantes sur Analysis Workspace.
+title: Questions fréquentes
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '552'
+ht-degree: 93%
 
 ---
 
 # Questions fréquentes
 
-+++Quelles sont les conditions préalables à l’utilisation d’Analysis Workspace ?
++++Quelles sont les conditions préalables à l’utilisation d’Analysis Workspace ?
 [Envoyer des données à Adobe Analytics à l’aide de l’extension Adobe Analytics](/help/implement/launch/validate-publish-prod.md) : l’utilisation d’Analysis Workspace nécessite une implémentation fonctionnelle. Assurez-vous que votre entreprise envoie les données à Adobe avant d’utiliser l’outil. D’autres implémentations, telles que les implémentations manuelles héritées, peuvent également fonctionner.
 +++
 
@@ -21,12 +21,12 @@ ht-degree: 98%
 Consultez la page [Exigences en matière d’administration](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++L’utilisation d’Analysis Workspace aura-t-elle une incidence sur la collecte de données ?
++++L’utilisation d’Analysis Workspace aura-t-elle une incidence sur la collecte des données ?
 Analysis Workspace étant un outil de reporting, il n’a aucun impact sur la collecte de données. Il n’y a aucune répercussion si vous faites glisser sans distinction des composants dans un projet pour voir ce qui fonctionne. Faites glisser différentes combinaisons de dimensions et de mesures dans votre projet Workspace pour voir ce qui est mis à votre disposition. Si vous faites glisser accidentellement un composant non valide vers votre projet Workspace ou souhaitez revenir en arrière d’une étape, appuyez sur ctrl + Z (Windows) ou sur cmd + Z (Mac) pour annuler la dernière action effectuée. Vous pouvez également commencer à zéro en cliquant sur **[!UICONTROL Projet]** > **[!UICONTROL Nouveau]** dans le menu supérieur gauche.
 +++
 
 +++Combien peut-on afficher de suites de rapports dans un projet Analysis Workspace ?
-Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de données provenant de [plusieurs suites de rapports](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=fr).
+Vous pouvez désormais créer des projets dans Analysis Workspace à l’aide de données provenant de [plusieurs suites de rapports](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md).
 +++
 
 +++Comment mettre en œuvre Analysis Workspace ?
@@ -37,15 +37,15 @@ Aucune mise en œuvre spéciale n’est requise. Analysis Workspace est mis à 
 Analysis Workspace n’est pas recommandé pour l’exportation en masse de données. Il s’agit d’un espace de travail de visualisation destiné à la création de projets d’analyse du style tableau de bord.
 +++
 
-+++Comment optimiser les performances d’Analysis Workspace ?
++++Comment optimiser les performances d’Analysis Workspace ?
 
-Consultez la page [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
+Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md).
 
 +++
 
-+++Comment les données sont-elles intégrées à un projet Analysis Workspace ?
++++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/33610?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 +++
 
@@ -55,13 +55,13 @@ Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des 
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
++++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
 
 Le message Données incorrectes signifie qu’Adobe ne peut pas renvoyer de données à l’aide de la combinaison de dimensions et de mesures utilisée dans le rapport. Par exemple, deux mesures empilées les unes sur les autres ne peuvent pas être renvoyées sous forme de données, car il n’est pas possible d’afficher deux mesures de cette manière. Placez plutôt les mesures côte à côte.
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée à proprement dit, seulement des zéros. Comment résoudre ce problème ?
++++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée, seulement des zéros. Comment résoudre ce problème ?
 
 Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant aucune donnée, vous pouvez effectuer quelques vérifications :
 
@@ -73,6 +73,6 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 
 +++
 
-+++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
++++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
 Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires peuvent uniquement modifier le menu déroulant pour appliquer un filtre au panneau d’une manière prédéfinie.
 +++

@@ -3,9 +3,9 @@ description: Les règles de classification recherchent régulièrement des terme
 title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1970'
 ht-degree: 89%
 
 ---
@@ -58,8 +58,6 @@ about_classification_rules.xml
 >Le [!UICONTROL Créateur de règles] ne prend pas en charge les classifications Numérique 2.
 
 ## Informations importantes concernant les règles
-
-* Spécifiez les [autorisations de groupe](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=fr) pour les classifications dans [!UICONTROL Outils d’administration].
 
 * **Expressions régulières** : une aide est disponible sous [Expressions régulières dans des règles de classification](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -135,7 +133,7 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
-| Expression régulière | &Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
+| Expression régulière | &amp;Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
 
 **Syntaxe**
 

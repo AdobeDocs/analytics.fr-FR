@@ -3,7 +3,7 @@ title: Prise en charge des composants dans Data Warehouse
 description: Découvrez quelles sont les dimensions et les mesures supplémentaires disponibles dans Data Warehouse et celles qui ne sont pas prises en charge.
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 527a9d5cdcb1ceb32073e2d444b892c0183394c1
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 45%
@@ -67,7 +67,7 @@ Certaines dimensions et mesures ne sont pas prises en charge dans Data Warehouse
    * Actualisations
    * Accès unique
    * Mesures de « durée de la visite »
-* Mesures de participation (comme décrit dans la section [Créer une mesure de « participation »](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
+* Mesures de participation (comme décrit dans la section [Créer une mesure de « participation »](/help/components/calculated-metrics/workflow/c-build-metrics/participation-metric.md))
 
 ### Dimensions prises en charge d’une autre manière (formatage de date non standard)
 

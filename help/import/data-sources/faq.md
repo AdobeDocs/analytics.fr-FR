@@ -4,7 +4,7 @@ description: Questions fréquentes sur les sources de données.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: 667870f9575bbc03a72738771f34bf1718725d6c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -30,8 +30,8 @@ Les données chargées par le biais des sources de données n’ont aucune incid
 +++Les données chargées par le biais de sources de données sont-elles traitées de manière supplémentaire, comme les règles de traitement ?
 Non. Données chargées par le biais des sources de données :
 
-* Ne passe pas par [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md)
-* Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+* Ne passe pas par [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+* Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
 * ne passe pas par les [ règles VISTA ](/help/technotes/vista.md)
 +++
 

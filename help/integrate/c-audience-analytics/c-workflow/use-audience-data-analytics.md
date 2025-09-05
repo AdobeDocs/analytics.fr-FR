@@ -1,19 +1,19 @@
 ---
-description: Vous pouvez utiliser les dimensions d’audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience
+description: Vous pouvez utiliser les dimensions Audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience
 solution: Experience Cloud
 title: Utilisation des données d’audience dans Analytics
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '568'
 ht-degree: 89%
 
 ---
 
 # Utilisation des données d’audience dans Analytics
 
-Vous pouvez utiliser les dimensions d’audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
+Vous pouvez utiliser les dimensions Audience Adobe Audience Manager dans Analytics. Les segments intégrés sont de nouvelles dimensions Analytics appelées ID d’audience et Nom d’audience. Celles-ci peuvent être utilisées de la même façon que toutes les autres dimensions collectées par Analytics. Dans les flux de données, les ID d’audience sont stockés dans la colonne « mc_audiences ». Ces dimensions ne sont actuellement pas disponibles dans Data Workbench ou Livestream. Voici quelques exemples d’utilisation des dimensions d’audience :
 
 ## Analysis Workspace {#workspace}
 
@@ -26,7 +26,7 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
 ## Comparaison des segments  {#compare}
 
-[Comparaison des segments](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=fr) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
+[Comparaison des segments](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) détecte les différences les plus importantes sur le plan statistique entre deux segments. Les données d’audience peuvent être utilisées dans Comparaison des segments de deux façons : 1) sous la forme des 2 segments comparés et 2) sous la forme des éléments du tableau « Principaux éléments de dimension ».
 
 1. Accédez à **[!UICONTROL Workspace]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
 
@@ -43,21 +43,21 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
 ## Parcours client (flux) dans Analysis Workspace {#flow}
 
-Les données de segment Adobe Audience Manager sont transmises à Analytics accès par accès et représentent l’appartenance à l’audience d’un visiteur à ce moment précis. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
+Les données de segment Adobe Audience Manager sont transmises à Analytics sur une base d’accès par accès et représentent l’appartenance à l’audience d’un visiteur à ce moment-là. Cela signifie qu’un visiteur peut appartenir à un segment (p. ex. « Sensibilisation »), puis répondre aux conditions d’un segment plus qualifié ultérieurement (p. ex. « Considération »). Vous pouvez utiliser [Flux](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) dans Analysis Workspace pour visualiser le parcours d’un visiteur entre les audiences.
 
 1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation **[!UICONTROL Flux]** dans le rail de gauche.
 
 1. Faites glisser la dimension [!UICONTROL Nom d’audience] dans le générateur de flux.
 1. Cliquez sur **[!UICONTROL Créer]**.
-1. (Facultatif) : Faites glisser les dimensions de votre choix dans la visualisation Flux pour créer un [Flux interdimensionnel](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html?lang=fr).
+1. (Facultatif) : Faites glisser les dimensions de votre choix dans la visualisation Flux pour créer un [Flux interdimensionnel](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md).
 
 ![](assets/flow-aamaudiences.png)
 
-Les audiences peuvent également être utilisées dans les [Visualisations des abandons](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=fr).
+Les audiences peuvent également être utilisées dans les [Visualisations des abandons](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
 
 ## Visualisation de Venn dans Analysis Workspace  {#venn}
 
-Les [visualisations de Venn](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html?lang=fr) affichent l’intersection entre 3 segments maximum.
+Les [visualisations de Venn](/help/analyze/analysis-workspace/visualizations/venn.md) affichent l’intersection entre 3 segments maximum.
 
 1. Accédez à **[!UICONTROL Workspace]** et sélectionnez la visualisation de **[!UICONTROL Venn]** dans le rail de gauche.
 

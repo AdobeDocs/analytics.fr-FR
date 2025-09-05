@@ -3,7 +3,7 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 825cded49c0ff456925e522ae2d0660b09ea6edd
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 96%
@@ -16,7 +16,7 @@ La [dimension](overview.md) « Type de référent » indique les canaux généri
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
+Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
 
 ## Éléments de dimension
 
@@ -35,7 +35,7 @@ La liste suivante fait référence à la table de recherche « Réseaux sociaux
 
 >[!NOTE]
 >
->Cette liste est différente de la liste par défaut des réseaux sociaux des [règles de traitement des canaux marketing](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md).
+>Cette liste est différente de la liste par défaut des réseaux sociaux des [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
 
 * `12seconds.tv`
 * `4travel.jp`

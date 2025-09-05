@@ -3,7 +3,7 @@ title: Règles VISTA dans Adobe Analytics
 description: En savoir plus sur les règles VISTA et leurs fonctionnalités.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 81%
@@ -17,12 +17,12 @@ Les règles VISTA sont une autre forme de modification des données personnalis�
 Voici quelques cas d’utilisation courants des règles VISTA :
 
 * Copier un accès Analytics d’une suite de rapports vers une autre, en modifiant éventuellement les données dans la suite de rapports copiée.
-* Exclusion d’adresse IP personnalisée qui dépasse les cas d’utilisation proposés par [Exclure par adresse IP](/help/admin/admin/exclude-ip.md).
+* Exclusion d’adresse IP personnalisée qui dépasse les cas d’utilisation proposés par [Exclure par adresse IP](/help/admin/tools/exclude-ip.md).
 * Modifier de manière conditionnelle ou globale toute valeur de variable.
 * Dupliquer des valeurs de variable vers d’autres variables.
 * Télécharger des fichiers sur un site FTP Adobe pouvant avoir un impact sur les valeurs de variable.
 
-De nombreux cas d’utilisation des règles VISTA sont déjà proposés par [Règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md), [Règles de robots](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md), [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md) ou simplement en mettant à jour votre implémentation Adobe Analytics. Adobe ne recommande les règles VISTA qu’en dernier recours.
+De nombreux cas d’utilisation des règles VISTA sont déjà proposés par [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md), [Règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md), [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md) ou simplement en mettant à jour votre implémentation Adobe Analytics. Adobe ne recommande les règles VISTA qu’en dernier recours.
 
 >[!IMPORTANT]
 >

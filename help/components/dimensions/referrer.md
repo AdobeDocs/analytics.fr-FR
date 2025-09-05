@@ -3,7 +3,7 @@ title: Référent
 description: L’URL sur laquelle un visiteur se trouvait avant d’effectuer un clic pour accéder à votre site.
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 96%
@@ -12,11 +12,11 @@ ht-degree: 96%
 
 # Référent
 
-La [dimension](overview.md) &quot;Référent&quot; indique les URL sur lesquelles se trouvaient les visiteurs lorsqu’ils cliquaient pour accéder à votre site. Cette dimension est utile pour identifier les adresses URL spécifiques qui génèrent le plus de trafic sur votre site. Un lien doit exister sur l’URL externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
+La [dimension](overview.md) « Référent » indique les URL sur lesquelles les visiteurs ont cliqué pour accéder à votre site. Cette dimension est utile pour identifier les adresses URL spécifiques qui génèrent le plus de trafic sur votre site. Un lien doit exister sur l’URL externe et un visiteur doit cliquer sur celui-ci pour afficher l’élément de dimension.
 
 >[!IMPORTANT]
 >
->Vous devez configurer les [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports pour utiliser cette dimension. Si vous ne configurez pas les filtres d’URL internes, il est possible que des adresses URL internes soient incluses ou que des adresses URL externes ne s’affichent pas.
+>Vous devez configurer les [filtres d’URL internes](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) de votre suite de rapports pour utiliser cette dimension. Si vous ne configurez pas les filtres d’URL internes, il est possible que des adresses URL internes soient incluses ou que des adresses URL externes ne s’affichent pas.
 
 Le même rapport peut montrer des résultats différents entre Analysis Workspace et Data Warehouse. Analysis Workspace indique le référent de chaque page, à l’exception des valeurs qui correspondent aux filtres d’URL internes. Data Warehouse indique uniquement le premier référent de la visite et ignore les filtres d’URL internes.
 
@@ -25,7 +25,7 @@ Le même rapport peut montrer des résultats différents entre Analysis Workspac
 Cette dimension nécessite une configuration dans l’interface d’Analytics et la présence de données dans les demandes d’image.
 
 * Dans votre implémentation, cette dimension récupère les données de la chaîne de requête [`r`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable JavaScript `document.referrer` dans le navigateur. Vous pouvez utiliser la substitution de variable [`referrer`](/help/implement/vars/page-vars/referrer.md) pour la définir manuellement. Si vous utilisez une bibliothèque AppMeasurement (par le biais des balises dans Adobe Experience Platform, par exemple), cette dimension est prête à l’emploi. Si vous utilisez une méthode de collecte de données en dehors d’AppMeasurement (via l’API, par exemple), veillez à inclure le paramètre de chaîne de requête `r` dans les demandes d’image.
-* Dans l’interface d’Analytics, vous devez configurer les [filtres d’URL internes](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md) de votre suite de rapports. Si vous ne configurez pas les filtres d’URL internes, il est possible que des adresses URL internes soient incluses ou que des adresses URL externes ne s’affichent pas.
+* Dans l’interface d’Analytics, vous devez configurer les [filtres d’URL internes](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) de votre suite de rapports. Si vous ne configurez pas les filtres d’URL internes, il est possible que des adresses URL internes soient incluses ou que des adresses URL externes ne s’affichent pas.
 
 ## Éléments de dimension
 

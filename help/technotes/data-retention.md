@@ -3,10 +3,10 @@ title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: e937b63c9409d75875e3d0c8b46a89024c093ebe
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ Le délai prévu par votre politique de conservation des données dépassé, Ado
 
 ## Afficher/gérer la politique actuelle de conservation des données
 
-La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation Experience Cloud, et si une politique de conservation des données est en place pour cette suite de rapports. [Plus d’informations](/help/admin/admin/c-data-governance/an-gdpr-workflow.md)
+La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation Experience Cloud et si une politique de conservation des données est en place pour cette suite de rapports.
 
 ## Questions fréquentes
 

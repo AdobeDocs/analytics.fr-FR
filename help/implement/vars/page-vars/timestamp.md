@@ -4,9 +4,9 @@ description: Permet de définir manuellement l’horodatage de l’accès.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '266'
 ht-degree: 81%
 
 ---
@@ -21,7 +21,7 @@ La variable `timestamp` définit manuellement l’horodatage de l’accès pour 
 
 ## Horodatage à l’aide de Web SDK
 
-La date et l’heure sont [mappées pour Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/xdm-var-mapping.html?lang=fr) sous le `xdm.timestamp` de champ XDM. Ce champ prend uniquement en charge l’heure Unix.
+La date et l’heure sont [mappées pour Adobe Analytics](/help/implement/aep-edge/xdm-var-mapping.md) sous le `xdm.timestamp` de champ XDM. Ce champ prend uniquement en charge l’heure Unix.
 
 ## Horodatage à l’aide de l’extension Adobe Analytics
 

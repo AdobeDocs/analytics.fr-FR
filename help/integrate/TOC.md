@@ -4,19 +4,19 @@ audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
 user-guide-description: Configurez les intégrations à d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager et Advertising Cloud.
-source-git-commit: f0d12c4a9462b6a8c5ba47944854164bb4f0d908
-workflow-type: ht
-source-wordcount: '151'
-ht-degree: 100%
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 96%
 
 ---
 
 
 # Guide d’intégration d’Adobe Analytics {#integration}
 
-+ [Intégration d’Analytics](home.md)
-+ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=fr)
-+ Audience Analytics {#audience-analytics}
++ [Guide d’intégration d’Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
++ Audience Analytics {#audience-analytics}
    + [Audience Analytics - Aperçu](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
       + [Workflow - Aperçu](c-audience-analytics/c-workflow/audiences-workflow.md)
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [Présentation des segments dans Analytics et Audience Manager](c-audience-analytics/aam-analytics-segments.md)
 + Advertising Analytics {#advertising-analytics}
    + [Advertising Analytics - Aperçu](c-advertising-analytics/overview.md)
-   + Processus de configuration d’Advertising Analytics {#advertising-analytics-workflow}
+   + Processus de configuration d’Advertising Analytics {#advertising-analytics-workflow}
       + [Workflow - Aperçu](c-advertising-analytics/c-adanalytics-workflow/aa-workflow.md)
       + [Activation de la suite de rapports pour Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
       + [Configuration d’un compte Advertising](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)

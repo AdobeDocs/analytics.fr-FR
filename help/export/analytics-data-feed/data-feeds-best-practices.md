@@ -1,10 +1,10 @@
 ---
-description: Découvrez les bonnes pratiques en matière de traitement et de diffusion des flux de données dans Analytics.
+description: Découvrez les bonnes pratiques relatives au traitement et à la diffusion des flux de données dans Analytics.
 keywords: Flux de données;bonnes pratiques;pic de trafic;horaire;ftp
 title: Bonnes pratiques et informations générales
 feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et la diffusion des flux de données.
 
-* Veillez à communiquer les pics de trafic anticipés à l’avance. La latence affecte directement les temps de traitement des flux de données. Consultez [Prévision d’un pic de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) dans le guide de l’utilisateur d’administration.
+* Veillez à communiquer les pics de trafic anticipés à l’avance. La latence affecte directement les temps de traitement des flux de données. Consultez [Prévision d’un pic de trafic](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) dans le guide de l’utilisateur d’administration.
 
 * Les flux de données ne contiennent pas de contrat de niveau de service sauf lorsque cela est indiqué de manière explicite dans votre contrat avec Adobe. Les flux sont généralement diffusés quelques heures après que la fenêtre de création de rapports est passée, bien que cela puisse prendre de temps en temps jusqu’à 12 heures ou plus.
 
@@ -27,4 +27,4 @@ Vous trouverez ci-dessous quelques bonnes pratiques concernant le traitement et 
 
 * Si vous utilisez le protocole FTP (non recommandé), assurez-vous de disposer de suffisamment d’espace sur votre site FTP. Supprimez régulièrement les fichiers de la destination de manière à ne pas manque d’espace par inadvertance.
 
-* Si vous utilisez sFTP (non recommandé), ne lisez pas ou ne supprimez pas les fichiers portant le suffixe `.part`. Le suffixe `.part` indique que le fichier a été transféré en partie. Une fois le fichier transféré, le suffixe `.part` disparaît.
+* Si vous utilisez le protocole sFTP (non recommandé), ne lisez ou ne supprimez pas les fichiers comportant un suffixe `.part`. Le suffixe `.part` indique que le fichier a été transféré en partie. Une fois le fichier transféré, le suffixe `.part` disparaît.

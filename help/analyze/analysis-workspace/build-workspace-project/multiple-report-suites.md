@@ -4,9 +4,9 @@ description: Découvrez comment utiliser plusieurs suites de rapports dans un se
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Cette fonctionnalité est utile si vous souhaitez :
 
 >[!BEGINSHADEBOX]
 
-Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/36931?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/32843?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -71,6 +71,6 @@ Le panneau actif est reconnaissable par la bordure bleue claire qui l’entoure.
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais un libellé de suite de rapports indiquant :
 
-   * Où un segment sera créé : [Créateur de segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=fr).
-   * Où une mesure calculée sera créée : [Créateur de mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr).
-   * Où une alerte sera créée : [Générateur d’alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=fr).
+   * Où un segment sera créé : [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md).
+   * Où une mesure calculée sera créée : [Créateur de mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md).
+   * Où une alerte sera créée : [Générateur d’alertes](/help/components/alerts/alert-builder.md).

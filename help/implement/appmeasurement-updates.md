@@ -4,9 +4,9 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: 886c6070936275cf1df269a951b87d041fcf7b8c
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2729'
 ht-degree: 86%
 
 ---
@@ -71,7 +71,7 @@ Date de publication : **11 octobre 2021**
 
 Date de publication : **7 septembre 2021**
 
-* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Pour plus d’informations, consultez la section [Compte rendu des performances sur la confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) dans le guide d’utilisation destiné à l’administrateur.
+* Cette mise à jour entraîne toujours l’inclusion de `opt.dmp` et `opt.sell` lors du suivi des liens. Pour plus d’informations, consultez la section [Compte rendu des performances sur la confidentialité](/help/admin/tools/manage-rs/edit-settings/privacy-reporting.md) dans le guide d’utilisation destiné à l’administrateur.
 
 ## Version 2.22.1
 
@@ -313,7 +313,7 @@ Date de publication : **21 juillet 2016**
 
 * Inclusion de l’API visiteur version 1.6.0.
 * Correction d’un problème en raison duquel [!DNL AppMeasurement] appelait la méthode d’obscurcissement incorrecte dans l’API visiteur. (AN-126006)
-* Correction d’un problème provoquant l’erreur [!DNL JavaScript] : « Attribute only valid on v:image » (attribut valide seulement sur v:image). (AN-124009)
+* Correction d’un problème qui provoquait l’erreur [!DNL JavaScript] : « Attribut uniquement valide sur la version :image ». (AN-124009)
 
 ## Version 1.6.1
 

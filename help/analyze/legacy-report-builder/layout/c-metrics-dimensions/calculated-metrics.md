@@ -4,9 +4,9 @@ title: Mesures calculées
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -15,25 +15,25 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Report Builder 5.2 et versions ultérieures prend en charge les mesures calculées Adobe Analytics. Toutes les mesures calculées disposent désormais d’un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
+Report Builder 5.2 et versions ultérieures prennent en charge les mesures calculées Adobe Analytics. Toutes les mesures calculées possèdent désormais un identifiant global ; elles ne sont plus limitées à une seule suite de rapports.
 
 >[!NOTE]
 >
 >Il est possible que les classeurs existants pointent vers des demandes avec des identifiants de mesure hérités. Lorsque vous utilisez la version 5.2 du Report Builder, ces identifiants de mesure hérités sont convertis en nouvel identifiant global. Si vous partagez ce classeur avec un utilisateur de la version 5.1 ou antérieure du Report Builder, il ne verra pas les mesures calculées.
 
-Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=fr).
+Pour en savoir plus sur la manière de créer et de gérer des mesures calculées à l’aide du nouveau créateur et gestionnaire de mesures calculées, reportez-vous au guide des [mesures calculées](/help/components/calculated-metrics/cm-overview.md).
 
 À la deuxième étape de l’Assistant Requête, vous pouvez filtrer et appliquer les mesures calculées.
 
 ## Filtrer des mesures calculées {#section_376E986D3E684999A7CDB08E53854159}
 
-**Filtrez** les mesures calculées en cliquant sur l’icône Filtrer : ![Capture d’écran des options de filtrage affichant les champs Application, Utilisateur, Projet.](/help/admin/admin/assets/filter.png)
+**Filtrer** les mesures calculées en cliquant sur l’icône Filtrer : ![Copie d’écran des options de filtre affichant les champs Application, Utilisateur, Projet](/help/admin/tools/assets/filter.png).
 
 La boîte de dialogue Filtres avancés est renseignée avec les mesures standard et calculées.
 
 Les filtres disponibles incluent :
 
-![Capture d&#39;écran montrant les options des filtres avancés décrites dans le tableau suivant.](assets/advanced_filters.png)
+![Capture d’écran affichant les options des filtres avancés décrites dans le tableau suivant.](assets/advanced_filters.png)
 
 | Nom du filtre | Description |
 |---|---|
@@ -49,4 +49,4 @@ Les filtres disponibles incluent :
 
 Après avoir sélectionné les filtres, cliquez sur **[!UICONTROL Appliquer]** pour les appliquer à votre demande. Les mesures sélectionnées sont maintenant ajoutées à la disposition des rapports.
 
-![Capture d’écran montrant l’Assistant Requête : Étape 2 - Totaux du site pointant vers la fenêtre Filtres avancés et mesures de rapport appliquées.](assets/filtering_for_metric.png)
+![Capture d’écran montrant l’étape 2 de l’Assistant Requête - Totaux du site pointant vers la fenêtre Filtres avancés et les mesures de rapport appliquées.](assets/filtering_for_metric.png)

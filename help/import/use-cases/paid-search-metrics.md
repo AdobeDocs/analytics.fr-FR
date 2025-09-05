@@ -3,9 +3,9 @@ title: Importer des mesures de référencement payant
 description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google Ads, Microsoft Advertising, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1204'
 ht-degree: 90%
 
 ---
@@ -49,7 +49,7 @@ Vous devriez recevoir un message indiquant que vos enregistrements ont été app
 
 ## Configurer les sources de données
 
-Les [!UICONTROL sources de données] vous permettent de partager des données hors parcours de navigation avec Adobe Analytics. Dans ce cas, nous utilisons Adobe Analytics pour effectuer le suivi des mesures de référencement payant. Nous utilisons le code de suivi comme clé pour lier les deux éléments de données (mesures de référencement payant et mesures Adobe Analytics).
+Les [!UICONTROL sources de données] vous permettent de partager des données hors du flux de clics avec Adobe Analytics. Dans ce cas, nous utilisons Adobe Analytics pour effectuer le suivi des mesures de référencement payant. Nous utilisons le code de suivi comme clé pour lier les deux éléments de données (mesures de référencement payant et mesures Adobe Analytics).
 
 1. Accédez à **[!UICONTROL Adobe Analytics > Admin > Tous les administrateurs > Sources de données]**.
 1. Sélectionnez l’onglet **[!UICONTROL Créer]** pour commencer à activer de nouvelles sources de données.
@@ -66,7 +66,7 @@ L’[!UICONTROL Assistant d’activation des sources de données] affiche :
 1. Cliquez sur **[!UICONTROL Suivant]** et attribuez un nom à votre source de données. Ce nom figurera dans le Gestionnaire de sources de données.
 1. Acceptez le contrat de service et cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez les trois mesures standard : [!UICONTROL Impressions], [!UICONTROL Clics] et [!UICONTROL Coût total] et cliquez sur **[!UICONTROL Suivant]**.
-1. Maintenant, « mappez » cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Événements de succès](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md).
+1. Maintenant, « mappez » cette nouvelle source de données aux événements personnalisés que nous avons créés dans [Événements de succès](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md).
 
    ![Mappage](assets/data-source-mapping.png)
 
@@ -118,7 +118,7 @@ Revenez à l’assistant de source de données pour obtenir des instructions et 
 
 Lʼajout de mesures calculées sʼavèrera précieux lors de la prise de décisions concernant le paiement par clic.
 
-Vous pouvez, par exemple, ajouter ces [mesures calculées](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=fr#calculated-metrics) :
+Vous pouvez, par exemple, ajouter ces [mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md#calculated-metrics) :
 
 | Nom | Formule | Type de mesure | Description |
 | --- | --- | --- | --- |

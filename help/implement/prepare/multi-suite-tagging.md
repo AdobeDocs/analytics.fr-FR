@@ -4,7 +4,7 @@ title: Implémentation du balisage multisuite
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 93%
@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # Implémentation du balisage multisuite
 
-[Le balisage multisuite](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md) permet dʼenvoyer des demandes dʼimage non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin de pouvoir fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux.
+[Le balisage multisuite](/help/admin/tools/manage-rs/rollup-report-suite.md) permet dʼenvoyer des demandes dʼimage non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles, afin de pouvoir fournir des sous-ensembles de données de la suite de rapports globale de votre entreprise à différents utilisateurs finaux.
 
 Pour implémenter le balisage multisuite, vous devez inclure lʼidentifiant de suite de rapports (RSID) pour la suite de rapports globale, ainsi que les RSID pour les suites de rapports enfants applicables dans le code de suivi de vos pages web et applications.
 
@@ -37,4 +37,4 @@ Le balisage multisuite entraîne plusieurs appels au serveur pour chaque demande
 
 Il est recommandé dʼutiliser les suites de rapports virtuelles au lieu du balisage multisuite, mais ce sont les besoins de votre entreprise qui détermineront la suite de rapports à adopter.
 
-Pour savoir si les suites de rapports virtuelles constituent lʼoption la plus adaptée à vos besoins, consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) ». Voir aussi &quot;[Suites de rapports virtuelles par rapport à ,balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot; pour une comparaison du balisage multisuite et de la fonctionnalité des suites de rapports virtuelles.
+Pour savoir si les suites de rapports virtuelles constituent lʼoption la plus adaptée à vos besoins, consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) ». Consultez également la section « [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78) » pour une comparaison des fonctionnalités de balisage multisuite et de suite de rapports virtuelle.

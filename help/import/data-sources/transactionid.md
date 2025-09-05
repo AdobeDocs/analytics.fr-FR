@@ -4,7 +4,7 @@ description: Utilisez les valeurs stockées d’un accès en ligne pour enrichir
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 role: Admin
-source-git-commit: 0a65114d598b7c6d2871a2446ad4d574b9ca44bb
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 8%
@@ -17,7 +17,7 @@ Les sources de données d’ID de transaction sont une variante des sources de d
 
 >[!NOTE]
 >
->Avant d’utiliser les sources de données d’ID de transaction, vous devez d’abord l’activer dans [Paramètres généraux du compte](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) pour la suite de rapports souhaitée.
+>Avant d’utiliser les sources de données d’ID de transaction, vous devez d’abord l’activer dans [Paramètres généraux du compte](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) pour la suite de rapports souhaitée.
 
 ## Fonctionnement
 
@@ -32,7 +32,7 @@ Lorsque vous envoyez un accès en ligne contenant la variable d’implémentatio
 * [Jours avant le premier achat](/help/components/dimensions/days-before-first-purchase.md)
 * [Jours depuis le dernier achat](/help/components/dimensions/days-since-last-purchase.md)
 * [eVars 1-250](/help/components/dimensions/evar.md)
-* Dimensions spécifiques aux fonctionnalités activées dans [paramètres de la suite de rapports](/help/admin/admin/c-manage-report-suites/report-suites-admin.md) qui se comportent de la même manière que les eVars. Les cotes spécifiques aux fonctionnalités qui se comportent de la même manière que les props ne sont pas incluses.
+* Dimensions spécifiques aux fonctionnalités activées dans [paramètres de la suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) qui se comportent de la même manière que les eVars. Les cotes spécifiques aux fonctionnalités qui se comportent de la même manière que les props ne sont pas incluses.
 * [Variables de liste](/help/implement/vars/page-vars/list.md)
 * [Canal marketing](/help/components/dimensions/marketing-channel.md)
 * [Détail des canaux marketing](/help/components/dimensions/marketing-detail.md)

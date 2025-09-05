@@ -4,7 +4,7 @@ description: Permet la déduplication des mesures sur votre site.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -21,7 +21,7 @@ La sérialisation des événements est le processus consistant à implémenter d
 
 ## Configuration de la sérialisation des événements
 
-Vous devez d’abord définir l’[!UICONTROL enregistrement d’événements uniques] d’un événement pour [!UICONTROL utiliser l’identifiant d’événement] dans les paramètres de la suite de rapports. Voir [Événements de réussite](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md) dans le guide d’utilisation destiné à l’administrateur.
+Vous devez d’abord définir l’[!UICONTROL enregistrement d’événements uniques] d’un événement pour [!UICONTROL utiliser l’identifiant d’événement] dans les paramètres de la suite de rapports. Voir [Événements de réussite](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) dans le guide d’utilisation destiné à l’administrateur.
 
 Lors de l’utilisation des identifiants d’événement, la déduplication se produit aux niveaux suivants :
 

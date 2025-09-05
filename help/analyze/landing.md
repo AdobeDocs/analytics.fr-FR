@@ -4,9 +4,9 @@ title: Page de destination dʼAdobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: d5bbba7518529befabb8815ac657336326562fd1
-workflow-type: ht
-source-wordcount: '1463'
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+workflow-type: tm+mt
+source-wordcount: '1460'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ La page de destination dʼAdobe Analytics rassemble [!DNL Analysis Workspace] e
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://video.tv.adobe.com/v/346463/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -74,8 +74,8 @@ Les colonnes disponibles sont les suivantes :
 | Modifier les préférences | Permet dʼ[!UICONTROL afficher les tutoriels] et de [Modifier les préférences utilisateur](/help/analyze/analysis-workspace/user-preferences.md). |
 | [!UICONTROL Créer] | Ouvre la fenêtre modale du projet dans laquelle vous pouvez créer un projet Workspace ou une carte de performance mobile ou ouvrir un modèle d’entreprise. |
 | [!UICONTROL Afficher moins<br> Afficher plus] | Active/désactive lʼaffichage de la ![bannière supérieure](assets/top-banner.png). |
-| [!UICONTROL Projet Espace de travail] | Crée un [projet Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=fr) vierge que vous pouvez concevoir et développer. |
-| [!UICONTROL Carte de performance mobile] | Crée une [carte de performance mobile](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=fr) vierge que vous pouvez concevoir et développer. |
+| [!UICONTROL Projet Espace de travail] | Crée un [projet Workspace](/help/analyze/analysis-workspace/home.md) vierge que vous pouvez concevoir et développer. |
+| [!UICONTROL Carte de performance mobile] | Crée une [carte de performance mobile](/help/analyze/mobile-app/curator.md) vierge que vous pouvez concevoir et développer. |
 | [!UICONTROL Ouvrir le tutoriel de formation] | Ouvre le tutoriel de formation Workspace qui vous guide tout au long du processus de création d’un projet de démarrage dans un tutoriel détaillé. |
 | [!UICONTROL Ouvrir les notes de mise à jour] | Affiche la section Adobe Analytics des dernières notes de mise à jour dʼAdobe Experience Cloud. |
 | Icône Filtrer | Filtre par balises, suites de rapports, propriétaires, types et autres filtres (À moi, Partagés avec moi, Favoris et Approuvés). |
@@ -84,7 +84,7 @@ Les colonnes disponibles sont les suivantes :
 | [!UICONTROL Favoris] | Ajoute une étoile en regard d’un projet ou d’un dossier favori pouvant être utilisé comme filtre. |
 | [!UICONTROL Nom] | Indique le nom du projet. |
 | Icône Épingler | Épingle les éléments afin qu’ils apparaissent toujours en haut de la liste. Vous pouvez toutefois modifier l’ordre en les déplaçant vers le haut ou le bas de la liste. Utilisez le menu d’option représenté par des points de suspension et sélectionnez **Déplacer vers le haut** ou **Déplacer vers le bas** dans la liste. |
-| Icône Infos (i) | Affiche les informations suivantes sur un projet : Type, Rôle de projet, Propriétaire, Description et avec qui il est partagé. Cette icône indique également qui peut [modifier ou dupliquer](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=fr) ce projet. |
+| Icône Infos (i) | Affiche les informations suivantes sur un projet : Type, Rôle de projet, Propriétaire, Description et avec qui il est partagé. Cette icône indique également qui peut [modifier ou dupliquer](/help/analyze/analysis-workspace/curate-share/share-projects.md) ce projet. |
 | Points de suspension (…) | Affiche les actions de gestion de projet que vous pouvez effectuer : **Supprimer**, **Partager**, **Renommer**, **Copier**, **Désépingler**, **Déplacer vers le haut**, **Déplacer vers le bas**, **Balise**, **Approuver**, **Exporter au format CSV** et **Déplacer vers**. Vous ne disposez peut-être pas des autorisations nécessaires pour effectuer toutes les actions répertoriées. |
 | AFFICHER : Dossiers et projets ou Tous les projets | Modifie le paramètre d’affichage du tableau pour afficher les dossiers et les projets en fonction de l’organisation des dossiers **ou** affiche tous les projets dans une liste non organisée. |
 | &lt; (bouton Précédent) | Vous renvoie à la configuration de page de destination la plus récente dans un projet Workspace ou un rapport. La configuration de page que vous aviez lorsque vous avez quitté la page de destination persiste à votre retour. |
@@ -93,7 +93,7 @@ Les colonnes disponibles sont les suivantes :
 
 Pour plus d’informations sur l’utilisation de modèles dans Adobe Analytics, consultez les ressources suivantes :
 
-* [Utiliser les modèles](/help/analyze/analysis-workspace/templates/use-templates.md)
+* [Utiliser des modèles](/help/analyze/analysis-workspace/templates/use-templates.md)
 
 * [Créer et gérer des modèles](/help/analyze/analysis-workspace/templates/create-templates.md)
 

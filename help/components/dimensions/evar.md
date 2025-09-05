@@ -3,7 +3,7 @@ title: eVar (dimension)
 description: Une dimension personnalisée que vous pouvez utiliser dans les rapports.
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 77%
@@ -16,7 +16,7 @@ ht-degree: 77%
 
 Les eVars sont des [dimensions](overview.md) personnalisées que vous pouvez utiliser à votre guise. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent sous la forme d’[!UICONTROL eVars].
 
-Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance d’eVar sur l’architecture d’Adobe. Vous pouvez activer, désactiver ou personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions eVar dans l’interface des variables de conversion :
+Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance d’eVar sur l’architecture d’Adobe. Vous pouvez activer, désactiver ou personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions eVar dans l’interface des variables de conversion :
 
 ![Exemples d’eVar](assets/evars-sample.png)
 
@@ -90,7 +90,7 @@ Comme l’attribution et l’expiration déterminent quelles valeurs persistent,
 * Par défaut, une eVar utilise la dernière attribution. Les nouvelles valeurs remplacent les valeurs conservées.
 * Par défaut, une eVar utilise une expiration de visite. Une fois la visite terminée, les valeurs ne sont plus copiées d’une ligne à l’autre dans la colonne `post_evar`.
 
-Vous pouvez modifier l’attribution et l’expiration des eVars sous [Variables de conversion](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports.
+Vous pouvez modifier l’attribution et l’expiration des eVars sous [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans les paramètres de la suite de rapports.
 
 ## Valeur des eVars par rapport aux props
 

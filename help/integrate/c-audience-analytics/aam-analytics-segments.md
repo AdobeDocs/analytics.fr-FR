@@ -3,9 +3,9 @@ description: Analytics et Audience Manager utilisent tous deux les segments. Ce
 title: Présentation des segments dans Analytics et Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: c947de8eaa4e4dc3a0c10989ef6ae450cebc1f3e
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '720'
+source-wordcount: '719'
 ht-degree: 91%
 
 ---
@@ -16,14 +16,14 @@ Analytics et Audience Manager utilisent tous deux les segments. Cependant, un s
 
 ## Segments Audience Manager {#aam-segments}
 
-Un segment d’Audience Manager est un groupe de visiteurs (identifiants d’utilisateur) qui remplissent les critères d’un ensemble de caractéristiques définies unies par des règles logiques. Quatre critères déterminent si un visiteur (ID d’utilisateur) appartient à un segment dans Audience Manager :
+Un segment Audience Manager est un groupe de visiteurs (identifiants d’utilisateur) qui remplissent les critères d’un ensemble de caractéristiques définies reliées par des règles logiques. Quatre critères déterminent si un visiteur (ID d’utilisateur) appartient à un segment dans Audience Manager :
 
 * Règles définies sur les segments proprement dits et sur les caractéristiques qui constituent chaque segment. Ces règles définissent les conditions auxquelles un ID d’utilisateur doit satisfaire pour être admissible pour un segment.
 * La modélisation algorithmique. Les utilisateurs qui répondent aux critères d’admission pour un segment particulier peuvent être admissibles pour d’autres segments sur la base de l’analyse et de la modélisation algorithmique.
-* Intervalles de durée de vie (TTL). L’appartenance aux segments peut expirer après un intervalle défini ou persister indéfiniment.
+* Intervalles de durée de vie (TTL). L’appartenance à un segment peut expirer après un intervalle défini ou persister indéfiniment.
 * Récence et fréquence. La définition du moment et de la fréquence à laquelle les utilisateurs ont une interaction (réalisation d’une caractéristique) peut permettre de créer des segments en fonction du niveau d’intérêt réel (ou perçu) pour un site, une section ou une création publicitaire particulière.
 
-L’appartenance aux segments Audience Manager est fluctuante. Les utilisateurs peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné. Cela signifie que la population d’un segment Audience Manager peut augmenter ou diminuer au fil du temps.
+L’appartenance à un segment Audience Manager est fluctuant. Les utilisateurs peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné. Cela signifie que la population d’un segment Audience Manager peut augmenter ou diminuer au fil du temps.
 
 Un segment Audience Manager est désigné en tant qu’audience dans Analytics.
 
@@ -39,10 +39,10 @@ Un segment Analytics est un mécanisme de filtrage des données de vos rapports.
 
   Par exemple, si eVar = bleu et est défini pour ne jamais expirer dans Analytics, tous les segments assortis du critère « eVar = bleu » dans Analytics incluront toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
 
-* Les segments Analytics ont plus de fonctionnalités que les segments Adobe Audience Manager. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
+* Les segments Analytics disposent de davantage de fonctionnalités que les segments Adobe Audience Manager. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
 
 * Comme mentionné précédemment, les visiteurs Audience Manager peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné.
 
-  À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans Adobe Audience Manager, ce visiteur sera inclus dans un segment &quot;acheteur&quot;, quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
+  À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans Adobe Audience Manager, ce visiteur serait inclus dans un segment « acheteur », quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
 
-Pour plus d’informations, voir le [Guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
+Pour plus d’informations, voir le [Guide de segmentation d’Analytics](/help/components/segmentation/seg-home.md).

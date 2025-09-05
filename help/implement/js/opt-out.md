@@ -6,7 +6,7 @@ exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 hidefromtoc: true
 role: Developer
-source-git-commit: 48f1974a0c379a4e619d9a04ae80e43cce9527c1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 67%
@@ -17,18 +17,18 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Cet article fournit aux clients **Adobe Analytics qui (prévoient) de mettre en oeuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens d’exclusion. <p><p>
-> Si vous **consultez un site web qui a mis en oeuvre Adobe Analytics** et que vous souhaitez vous exclure, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Pour contrôler la manière dont Adobe utilise vos informations, reportez-vous à la section [Choix de confidentialité de l’Adobe](https://www.adobe.com/privacy/opt-out.html).
+> Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>
+<p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité Adobe](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
 
-Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe offre la possibilité de fournir aux visiteurs de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
+Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe permet de fournir aux visiteurs et visiteuses de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
-Les liens d’exclusion permettent aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens sont limités aux mises en oeuvre d’AppMeasurement ; Adobe recommande d’utiliser le [service d’opt-in Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr) à la place. Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe Experience Cloud, y compris Adobe Analytics et AppMeasurement.
+Les liens d’exclusion sont un moyen de permettre aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens se limitent aux implémentations d’AppMeasurement ; Adobe recommande d’utiliser plutôt le service d’accord préalable [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr). Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe Experience Cloud, y compris Adobe Analytics et AppMeasurement.
 
-Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un suivi et qu’un cookie d’exclusion est défini, AppMeasurement continue d’envoyer des données à Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
+Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un tracking et qu’un cookie d’exclusion est défini, AppMeasurement continue à envoyer des données à Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
 
 >[!TIP]
 >
->Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md) dans le guide d’utilisation destiné à l’administrateur.
+>Adobe propose également des paramètres de confidentialité par suite de rapports. Voir [Paramètres de confidentialité](/help/admin/tools/manage-rs/edit-settings/general/privacy-settings.md) dans le guide d’utilisation destiné à l’administrateur.
 
 ## URL d’exclusion
 
@@ -44,7 +44,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
    1. Notez la valeur de la variable `trackingServer`.
 
-* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
+* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
    1. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
    1. Notez la valeur [!UICONTROL Request URL - Hostname].
@@ -62,22 +62,22 @@ Il existe des paramètres que vous pouvez charger automatiquement sur cette page
 
 Changer automatiquement la langue de la page d’exclusion en incluant le paramètre de chaîne de requête `locale`. Attribuez ce paramètre de chaîne de requête à l’une des valeurs suivantes :
 
-* `en_US` (anglais, valeur par défaut)
+* `en_US` (anglais, par défaut)
 * `bg_BG` (bulgare)
 * `zh_CN` (chinois simplifié)
 * `zh_TW` (chinois traditionnel)
 * `cs_CZ` (tchèque)
-* `da_NK` (danois)
+* `da_NK` (Danois)
 * `nl_NL` (néerlandais)
-* `et_EE` (estonien)
-* `fi_FI` (finnois)
-* `fr_FR` (français)
+* `et_EE` (Estonien)
+* `fi_FI` (finlandais)
+* `fr_FR` (Français)
 * `de_DE` (allemand)
-* `el_GR` (grec)
+* `el_GR` (Grec)
 * `it_IT` (italien)
 * `jp_JP` (japonais)
 * `ko_KR` (coréen)
-* `lv_LV` (letton)
+* `lv_LV` (Letton)
 * `lt_LT` (lituanien)
 * `nb_NO` (norvégien)
 * `pl_PL` (polonais)

@@ -4,7 +4,7 @@ keywords: Suite de rapports virtuelle
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 Les suites de rapports virtuelles vous permettent d’afficher les données d’une suite de rapports qui collecte des données de vos propriétés numériques, mais avec un segment appliqué de manière permanente.
 
-Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/admin/c-server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
+Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/tools/server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
 
 Le remplacement du balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation d’Adobe Analytics et de réduire la consommation d’appels au serveur. Cette pratique est recommandée. Cependant, il existe certaines limites importantes à prendre en compte dans les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
 

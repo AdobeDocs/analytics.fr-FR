@@ -1,12 +1,12 @@
 ---
-description: Découvrez comment créer des segments à l’aide d’un glisser-déposer de mesures, dimensions, segments et événements. Découvrez comment créer et enregistrer des segments simples ou complexes qui identifient les attributs et les actions des visiteurs sur les visites et les accès aux pages.
+description: Découvrez comment créer des segments en faisant glisser et en déposant des mesures, des dimensions, des segments et des événements. Découvrez comment créer et enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs et visiteuses entre les visites et accès aux pages.
 title: Créer des segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
 source-wordcount: '1847'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Prévisualisation des données"
->abstract="Compare les données de ce segment aux données de la suite de rapports. Le pourcentage de prévisualisation est basé sur le nombre total lors des **90 derniers jours**.<br><br/>Si la prévisualisation ne se charge pas, il se peut que votre connexion soit encore en train de remplir les données."
+>abstract="Compare les données de ce segment aux données de la suite de rapports. Le pourcentage de prévisualisation est basé sur le nombre total des **90 derniers jours**.<br><br/>Si la prévisualisation ne se charge pas, il se peut que votre connexion soit encore en train de remplir les données."
 
 
 La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer ou de modifier des segments existants. La boîte de dialogue s’intitule **[!UICONTROL Nouveau segment]** ou **[!UICONTROL Modifier le segment]** pour les segments que vous créez ou gérez à partir du [[!UICONTROL gestionnaire de segments]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -47,7 +47,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    | Élément | Description |
    | --- | --- |
    | **[!UICONTROL Suite de rapports]** | Vous pouvez sélectionner la suite de rapports du segment. |
-   | **[!UICONTROL Segment de projet uniquement]** | Une zone d’informations expliquant que le segment n’est visible que dans le projet dans lequel il est créé. Et que le segment n’est pas ajouté à votre liste de composants. Activez **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]** pour modifier ce paramètre. Cette zone d’informations n’est visible que lorsque vous créez un [segment rapide](seg-quick.md) et transformez le segment rapide en segment standard à l’aide de l’option **[!UICONTROL Ouvrir le créateur]** dans l’interface [!UICONTROL Segment rapide]. |
+   | **[!UICONTROL Segment de projet uniquement]** | Zone d’informations expliquant que le segment n’est visible que dans le projet dans lequel il est créé. Et que le segment n’est pas ajouté à votre liste de composants. Activez **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]** pour modifier ce paramètre. Cette zone d’informations n’est visible que lorsque vous créez un [segment rapide](seg-quick.md) et transformez le segment rapide en segment standard à l’aide de l’option **[!UICONTROL Ouvrir le créateur]** dans l’interface [!UICONTROL Segment rapide]. |
    | **[!UICONTROL Titre]** ![Requis](/help/assets/icons/Required.svg) | Nommez le segment, par exemple `Last month mobile visitors`. |
    | **[!UICONTROL Description]** | Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`. |
    | **[!UICONTROL Balises]** | Organisez le segment en créant ou en appliquant une ou plusieurs balises. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
@@ -185,7 +185,7 @@ Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de
 
 ### Exemple
 
-Dans le cadre d’une définition de segment, vous avez spécifié la condition suivante : Nom de page est égal à Femmes. Similaire à l’exemple ci-dessus. Vous répétez cette définition de segment à l’aide des deux autres modèles d’attribution. Vous disposez donc de trois segments ayant chacun leur propre modèle d’attribution :
+Dans le cadre d’une définition de segment, vous avez spécifié la condition suivante : Nom de page est égal à Femmes. Similaire à l’exemple ci-dessus. Vous répétez cette définition de segment à l’aide des deux autres modèles d’attribution. Vous disposez donc de trois segments ayant chacun leur propre modèle d’attribution :
 
 * Page Femmes - Attribution - Répétition (par défaut)
 * Page Femmes - Attribution - Instance
@@ -215,7 +215,7 @@ There are several ways to access the Segment builder:
 
 * **Analytics top navigation**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 * **[!UICONTROL Analysis Workspace]**: Click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, open a project and click **[!UICONTROL + New]** > **[!UICONTROL Create Segment]**.
-* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](https://experienceleague.adobe.com/fr/docs/analytics/analyze/report-builder/work-with-segments).
+* **[!UICONTROL Report Builder]**: [Add or edit segments in Report Builder](/help/analyze/report-builder/work-with-segments.md).
 
 ## Builder criteria {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -258,7 +258,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL Experience Cloud publishing]**: Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -362,9 +362,9 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Modèles de segment {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Des modèles de segment sont fournis pour les cas d’utilisation de segmentation courants, tels que **[!UICONTROL Premières visites]** ou **[!UICONTROL Visites à partir d’appareils mobiles]**. Ils sont disponibles dans les projets Workspace et dans le Créateur de segments en tant que blocs de création pour les nouveaux segments.
+Les modèles de segment sont fournis pour les cas d’utilisation courants de segmentation, tels que **[!UICONTROL Premières visites]** ou **[!UICONTROL Visites depuis des appareils mobiles]**. Ils sont disponibles dans les projets Workspace et dans le Créateur de segments en tant que blocs de création pour les nouveaux segments.
 
-Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie les modèles. Voici un exemple des modèles disponibles :
+Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie les modèles. Vous trouverez ci-dessous un exemple des modèles disponibles :
 
 <table id="table_98B87D807E9344C9BEBF072C65D87B1B"> 
  <thead> 
@@ -383,72 +383,72 @@ Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie
    <td colname="col2">Affiche des données concernant les visiteurs qui ont visité le site au maximum une [1] fois. Dans la définition de segment, le conteneur est Visite. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Non-acheteurs </td> 
-   <td colname="col2">Affichez les données pour les visiteurs qui n’ont pas participé à un événement de commande. </td> 
+   <td colname="col1"> Personnes n’effectuant pas d’achat </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui n’ont pas participé à un événement commande. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites Qui Ne Sont Pas Sur Une Seule Page (Pas De Rebonds) </td> 
-   <td colname="col2">Affichez les données pour les visiteurs qui ont consulté plusieurs fois.</p> </td> 
+   <td colname="col1"> Hors visites sur une seule page (sans rebonds) </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont effectué plus d’une visite.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Référencement payant </td> 
-   <td colname="col2">Affichez les données des visiteurs provenant d’un référencement payant.  </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant d’une recherche payante.  </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Acheteurs </td> 
-   <td colname="col2">Affichez les données pour les visiteurs et visiteuses qui ont participé à un événement de commande.  </td> 
+   <td colname="col1"> Acheteurs et acheteuses </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont participé à un événement commande.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites renouvelées </td> 
-   <td colname="col2">Affichez les données des visiteurs qui ont visité au moins une fois.  </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont effectué au moins une visite.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites de page unique </td> 
-   <td colname="col2"> Affiche les données provenant de visites dans lesquelles vous consultez une seule valeur de page, même si vous pouvez soumettre plusieurs pages vues au cours de cette visite. Les visites d’une seule page avec des événements de lien de sortie sont incluses dans le segment.  </td> 
+   <td colname="col2"> Affiche les données provenant de visites dans lesquelles vous consultez une seule valeur de page, même si vous pouvez soumettre plusieurs pages vues au cours de cette visite. Les visites de page unique avec des événements de lien de sortie sont incluses dans le segment.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produit affiché non ajouté au panier </td> 
-   <td colname="col2">Affichez les données pour les visiteurs qui ont consulté des produits mais n’ont pas effectué d’ajouts au panier.  </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont affiché des produits mais sans les ajouter au panier.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de la campagne </td> 
-   <td colname="col2">Affichez les données des visiteurs référencés par les campagnes. </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant des campagnes. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites depuis des appareils mobiles </td> 
-   <td colname="col2">Affichez les données des visiteurs à l’aide d’appareils mobiles. </td> 
+   <td colname="col1"> Visites issues d’appareils mobiles </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des appareils mobiles. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites depuis la recherche naturelle </td> 
-   <td colname="col2">Affichez les données des visiteurs qui ne proviennent pas d’un référencement payant.  </td> 
+   <td colname="col1"> Visites issues d’une recherche naturelle </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses ne provenant pas d’un référencement payant.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir d’appareils non mobiles </td> 
-   <td colname="col2">Affichez les données des visiteurs qui n’utilisent pas d’appareils mobiles. </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses n’utilisant pas d’appareils mobiles. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de téléphones </td> 
-   <td colname="col2">Affichez les données des visiteurs utilisant des téléphones.  </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des téléphones.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de moteurs de recherche </td> 
-   <td colname="col2">Affichez les données des visiteurs référencés par les moteurs de recherche.</td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant des moteurs de recherche.</td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites depuis les sites sociaux </td> 
-   <td colname="col2">Affichez les données des visiteurs référencés par les sites sociaux.</td> 
+   <td colname="col1"> Visites issues des réseaux sociaux </td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant des réseaux sociaux.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de tablettes </td> 
-   <td colname="col2">Affichez les données des visiteurs à l’aide de tablettes.</td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des tablettes.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites avec cookie d’identifiant visiteur </td> 
-   <td colname="col2">Affichez les données des visiteurs et visiteuses de votre site, où un cookie persistant est requis.</td> 
+   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses de votre site, où un cookie persistant est requis.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Pour afficher la définition de chaque segment, utilisez ![ InfoOutline ](/help/assets/icons/InfoOutline.svg). Par exemple, pour le modèle **[!UICONTROL iOS]** :
+Pour afficher la définition de chaque segment, utilisez ![InfoOutline](/help/assets/icons/InfoOutline.svg). Par exemple, pour le modèle **[!UICONTROL iOS]** :
 
 ![Définition du segment de modèle Adobe](assets/adobe-template-definition.png)

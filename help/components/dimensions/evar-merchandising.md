@@ -3,18 +3,18 @@ title: eVar (dimension de marchandisage)
 description: Variables personnalisées liées à la dimension des produits.
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '437'
 ht-degree: 92%
 
 ---
 
 # eVar (marchandisage)
 
-*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que [dimension](overview.md). Pour plus d’informations sur la mise en oeuvre des eVars de marchandisage, voir [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide de l’utilisateur de mise en oeuvre.*
+*Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que [dimension](overview.md). Pour plus d’informations sur l’implémentation des eVars de marchandisage, consultez [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
 
-Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=fr).
+Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
 Lorsque vous mesurez le succès de termes de recherche ou de campagnes externes, vous voulez généralement qu’une seule valeur reçoive du crédit pour tout événement de succès qui se produit. Par exemple, si un client clique sur un lien d’une campagne par e-mail pour visiter votre site Web, tous les achats effectués par ce biais doivent être crédités à cette campagne.
 

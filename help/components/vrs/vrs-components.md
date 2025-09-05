@@ -3,9 +3,9 @@ description: Les suites de rapports virtuelles peuvent être traitées de maniè
 title: Traitement des composants des suites de rapports virtuelles
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '414'
 ht-degree: 92%
 
 ---
@@ -17,7 +17,7 @@ Les suites de rapports virtuelles peuvent être traitées de manière à inclure
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des composants](https://video.tv.adobe.com/v/3425531?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des composants](https://video.tv.adobe.com/v/23544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -77,4 +77,4 @@ Utilisez les groupes de composants pour ajouter des composants en vrac à la sui
 
 ## Comportement de Workspace  {#section_6C32F8B642804C0097FCB14E21028D4A}
 
-Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=fr).
+Pour plus d’informations sur le traitement dans Analysis Workspace, voir [Traitement et partage d’un projet](/help/analyze/analysis-workspace/curate-share/curate.md).

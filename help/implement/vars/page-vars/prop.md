@@ -4,7 +4,7 @@ description: Variables personnalisées que vous pouvez utiliser dans votre mise 
 feature: Appmeasurement Implementation
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 85%
@@ -57,7 +57,7 @@ Les props de liste désignent un paramètre appliqué aux props qui permet à la
 
 ### Configuration des props de liste
 
-Activez les props de liste dans [Variables de trafic](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) sous les paramètres de la suite de rapports. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
+Activez les props de liste dans [Variables de trafic](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) sous les paramètres de la suite de rapports. Assurez-vous que le délimiteur souhaité est correctement configuré. Adobe ne fournit pas de délimiteur par défaut.
 
 >[!TIP]
 >

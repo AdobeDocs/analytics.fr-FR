@@ -4,10 +4,10 @@ title: Mesures
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
 source-wordcount: '847'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe propose plusieurs types de mesures à utiliser dans Analysis Workspace :
 
 * **Mesures standard** : la plupart des mesures que vous utilisez dans les projets sont des mesures standard. Exemples : [Pages vues](/help/components/metrics/page-views.md), [Revenu](/help/components/metrics/revenue.md)ou [Événements personnalisés](/help/components/metrics/custom-events.md). Pour plus d’informations, consultez la section [Vue d’ensemble des mesures](/help/components/metrics/overview.md) du guide d’utilisation des composants.
 
-* **Mesures calculées** ![Calculateur](/help/assets/icons/Calculator.svg) : mesures définies par l’utilisateur ou l’utilisatrice et basées sur des mesures standard, des nombres statiques ou des fonctions algorithmiques. Les mesures calculées définies par l’utilisateur ou l’utilisatrice affichent une icône de calculateur dans la liste des composants disponibles. Pour plus d’informations, consultez la section [Vue d’ensemble des mesures calculées](/help/components/c-calcmetrics/cm-overview.md) du guide d’utilisation des composants.
+* **Mesures calculées** ![Calculateur](/help/assets/icons/Calculator.svg) : mesures définies par l’utilisateur ou l’utilisatrice et basées sur des mesures standard, des nombres statiques ou des fonctions algorithmiques. Les mesures calculées définies par l’utilisateur ou l’utilisatrice affichent une icône de calculateur dans la liste des composants disponibles. Pour plus d’informations, consultez la section [Vue d’ensemble des mesures calculées](/help/components/calculated-metrics/cm-overview.md) du guide d’utilisation des composants.
 
 * **Modèles de mesures calculées** ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) : mesures définies par Adobe qui se comportent de la même manière que les mesures calculées. Vous pouvez les utiliser tels quels dans les projets Workspace ou enregistrer une copie pour personnaliser sa logique. Les modèles de mesures calculées affichent une icône Adobe dans la liste des composants disponibles.
 
@@ -41,7 +41,7 @@ Les mesures peuvent être utilisées de différentes manières dans Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/328563?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Use metrics](https://video.tv.adobe.com/v/40817?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ Il existe plusieurs façons de créer des mesures calculées. La méthode que vo
 
 ### Création de mesures calculées pour tous les projets
 
-Vous pouvez utiliser le [créateur de mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) pour [créer des mesures calculées](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md). Ainsi créées, les mesures calculées sont disponibles dans la liste des composants et peuvent être utilisées dans les projets de l’ensemble de votre organisation.
+Vous pouvez utiliser le [créateur de mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) pour [créer des mesures calculées](/help/components/calculated-metrics/workflow/cm-workflow.md). Ainsi créées, les mesures calculées sont disponibles dans la liste des composants et peuvent être utilisées dans les projets de l’ensemble de votre organisation.
 
 
 ### Création de mesures calculées pour un seul projet
@@ -79,15 +79,15 @@ Pour créer une mesure calculée pour un seul projet :
 
    Lorsqu’une seule colonne est sélectionnée, les options suivantes sont disponibles :
 
-   * [!UICONTROL **Moyenne**] : crée une colonne qui affiche la valeur moyenne dans l’ensemble des éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Mean](/help/components/c-calcmetrics/cm-reference/cm-functions.md#mean).
+   * [!UICONTROL **Moyenne**] : crée une colonne qui affiche la valeur moyenne dans l’ensemble des éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Mean](/help/components/calculated-metrics/cm-reference/cm-functions.md#mean).
 
-   * [!UICONTROL **Médiane**] : crée une colonne qui affiche la valeur médiane dans le jeu d’éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Médiane](/help/components/c-calcmetrics/cm-reference/cm-functions.md#median).
+   * [!UICONTROL **Médiane**] : crée une colonne qui affiche la valeur médiane dans le jeu d’éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Médiane](/help/components/calculated-metrics/cm-reference/cm-functions.md#median).
 
-   * [!UICONTROL **Colonne max**] : crée une colonne qui affiche la plus grande valeur de l’ensemble des éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Max. colonne](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-maximum).
+   * [!UICONTROL **Colonne max**] : crée une colonne qui affiche la plus grande valeur de l’ensemble des éléments de dimension de la colonne. Les valeurs de colonne utilisent la fonction [Max. colonne](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-maximum).
 
-   * [!UICONTROL **Colonne min**] : crée une colonne qui affiche la plus petite valeur du jeu d’éléments de dimension pour la colonne. Les valeurs de colonne utilisent la fonction [Column Minimum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-minimum).
+   * [!UICONTROL **Colonne min**] : crée une colonne qui affiche la plus petite valeur du jeu d’éléments de dimension pour la colonne. Les valeurs de colonne utilisent la fonction [Column Minimum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-minimum).
 
-   * [!UICONTROL **Somme des colonnes**] : crée une colonne qui ajoute toutes les valeurs numériques d’une mesure dans une colonne (sur l’ensemble des éléments d’une dimension). Les valeurs de colonne utilisent la fonction [Column Sum](/help/components/c-calcmetrics/cm-reference/cm-functions.md#column-sum).
+   * [!UICONTROL **Somme des colonnes**] : crée une colonne qui ajoute toutes les valeurs numériques d’une mesure dans une colonne (sur l’ensemble des éléments d’une dimension). Les valeurs de colonne utilisent la fonction [Column Sum](/help/components/calculated-metrics/cm-reference/cm-functions.md#column-sum).
 
    Lorsque deux colonnes sont sélectionnées, les options suivantes sont disponibles :
 
@@ -101,7 +101,7 @@ Pour créer une mesure calculée pour un seul projet :
 
    * [!UICONTROL **Changement en pourcentage**] : crée une colonne qui affiche le changement en pourcentage entre les deux colonnes sélectionnées.
 
-[Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparaison de mesures avec différents modèles d’attribution
@@ -119,7 +119,7 @@ Regardez une vidéo sur ce sujet :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Moyenne cumulée](https://video.tv.adobe.com/v/35044?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Moyenne cumulée](https://video.tv.adobe.com/v/27068?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

@@ -4,9 +4,9 @@ title: 'Requêtes de données - Assistant Requête : Étape 1'
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 91%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 91%
 
 Le formulaire Assistant Requête : Étape 1 vous permet de sélectionner la suite de rapports, le type de rapport, des segments, ainsi que de configurer des dates.
 
-![Capture d’écran montrant le formulaire Assistant Requête : Étape 1.](assets/rw1_overview.png)
+![Capture d’écran affichant l’Assistant Requête : formulaire de l’étape 1.](assets/rw1_overview.png)
 
 1. **[!UICONTROL Suite de rapports]** : liste des suites de rapports mises à votre disposition sur la base des vos identifiants de connexion. Voir [Sélectionner des suites de rapports](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
 1. **Sélecteur de plage** : permet de sélectionner un identifiant de suite de rapports à partir d’une cellule dans Excel. Voir [Sélectionner des suites de rapports](/help/analyze/legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md).
 
-1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=fr).
+1. **Segment** : les segments sont des sous-ensembles personnalisés de données ou des données filtrées selon des règles que vous créez. Les segments dépendent des accès, des visites et des visiteurs. Pour plus d’informations sur les segments, voir le [guide de segmentation d’Analytics](/help/components/segmentation/seg-home.md).
 
    Vous pouvez, par exemple, exécuter un [!UICONTROL rapport Pages], puis appliquer un segment Premières visites.
 
-1. **Autoriser le remplacement de la liste de publication** : les listes de publication étaient une fonctionnalité de Reports &amp; Analytics, qui était [en fin de vie](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
+1. **Autoriser le remplacement de la liste de publication** : les listes de publication étaient une fonctionnalité de Reports &amp; Analytics, en [fin de vie](https://new.express.adobe.com/webpage/WFCyq7w8kijmB?).
 
 1. **Type de rapport** : indique le rapport de base à exécuter dans votre requête de données. Un seul rapport est exécuté par requête. Ce rapport peut contenir des dimensions et des mesures de type « un à plusieurs ». Les mesures et dimensions affectées à un type de rapport sont affichées dans l’interface [!UICONTROL Assistant Requête : Étape 2]. Voir [Sélection des types de rapports](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 

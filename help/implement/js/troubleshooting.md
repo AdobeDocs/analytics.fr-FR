@@ -4,7 +4,7 @@ description: Découvrez les problèmes courants et les bonnes pratiques pour ré
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 role: Developer
-source-git-commit: c2adf6d2e328378332cc290ba2dfd75ee6587ef6
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 97%
@@ -88,7 +88,7 @@ Ces deux valeurs de variable sont considérées comme distinctes dans Adobe Anal
 Les implémentations qui renseignent de nombreuses variables avec des valeurs longues rencontrent parfois des demandes d’image tronquées. Certains navigateurs plus anciens, comme Internet Explorer, imposent une limite de 2 083 caractères aux URL de demande d’image. Si votre entreprise fait face à de très longues demandes d’image, essayez les méthodes suivantes :
 
 * **Utilisez le service Experience Cloud ID** : les bibliothèques AppMeasurement 1.4.1 et ultérieures envoient automatiquement des demandes d’image POST HTTP lorsqu’elles sont trop longues. Les données envoyées à l’aide de cette méthode ne sont pas tronquées, quelle que soit leur longueur. Pour plus d’informations, consultez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
-* **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/processing-rules/pr-overview.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
+* **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
 
   Exécutez :<br>
 Remplacer la valeur de prop1 par eVar1<br>

@@ -3,9 +3,9 @@ description: Définition des éléments d’interface sur les pages du créateur
 title: Règles de classification – Définitions
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '860'
 ht-degree: 94%
 
 ---
@@ -34,7 +34,7 @@ Cette page affiche les règles d’un jeu.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Sélection de suites de rapports et de variables </p> </td> 
-   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=fr"  >Classifications de trafic</a> et <a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=fr"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
+   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Classifications de trafic</a> et <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activer</span> </p> </td> 

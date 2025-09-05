@@ -4,16 +4,16 @@ description: Passez votre implémentation en revue tous les 6 mois pour vous ass
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 role: Admin, Leader
-source-git-commit: 815e50e30fa6a0bce1bf78f33843070f96f52de8
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '382'
 ht-degree: 80%
 
 ---
 
 # Révision intégrale (pour une révision semestrielle de l’implémentation)
 
-Pourquoi devriez-vous passer votre implémentation en revue tous les 6 mois ? Pour vous assurer que cette implémentation reste en phase avec les besoins de votre société ! Vous souhaitez également résoudre tous les problèmes liés à la qualité des données lorsqu’ils sont petits et avant qu’ils ne se transforment en problèmes majeurs de données susceptibles d’éroder la confiance des parties prenantes. Outre ces révisions intégrales conduites tous les 6 mois, vous devriez également effectuer des [révisions ciblées](/help/implement/review/focused-review.md) après chaque mise à jour de site web.
+Pourquoi devriez-vous passer votre implémentation en revue tous les 6 mois ? Pour vous assurer que cette implémentation reste en phase avec les besoins de votre société ! Il faut aussi s&#39;attaquer aux problèmes de qualité des données avant qu&#39;ils ne deviennent des problèmes majeurs qui pourraient miner la confiance des intervenants. Outre ces révisions intégrales conduites tous les 6 mois, vous devriez également effectuer des [révisions ciblées](/help/implement/review/focused-review.md) après chaque mise à jour de site web.
 
 ## 1. Assurez-vous que l’implémentation est toujours en phase avec les besoins de votre société
 
@@ -21,12 +21,12 @@ Rencontrez le propriétaire de l’entreprise et/ou les analystes pour passer en
 
 ## 2. Assurez-vous que vos mesures et vos variables fonctionnent toujours correctement
 
-Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Démarrez par les mesures et variables les plus importantes : celles qui sont associées à vos [5 principaux indicateurs clés de performance](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=fr#review). Pour ce faire :
+Passez brièvement en revue toutes vos mesures et variables selon leur ordre d’importance pour l’entreprise afin de vous assurer que les données sont collectées correctement. Démarrez par les mesures et variables les plus importantes : celles qui sont associées à vos [5 principaux indicateurs clés de performance](/help/implement/review/define-kpis.md#review). Pour ce faire :
 
-* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des [alertes](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=fr) pour chacune) afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
+* Créez des tableaux de bord pour afficher les vues de tendances mensuelles de vos mesures et variables (ou définissez des [alertes](/help/components/alerts/alerts-overview.md) pour chacune) afin de vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Si vous constatez des incohérences, passez en revue la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://assets.adobe.com/public/8ff304bb-18e0-434b-54d1-39199422ba1c) pour surveiller les tendances générales de vos mesures et variables.
 
-Ne laissez pas votre implémentation gonflée par les mesures et variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou qu’elle n’utilise plus. Vous voudrez peut-être les supprimer ou les réutiliser ultérieurement.
+Ne laissez pas votre implémentation se surcharger de mesures et de variables dont vous n’avez pas besoin. Désactivez les mesures ou variables dont l’entreprise n’a plus besoin ou qu’elle n’utilise plus. Vous voudrez peut-être les supprimer ou les réutiliser ultérieurement.
 
 ## 3. Actualisez vos indicateurs clés de performance
 

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant Analytics spécifique.
-source-git-commit: 5ac6da2eb53d2748e8838ef2c6334a771abc26c9
+source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 90%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Notes techniques d’Analytics {#technotes}
 
 + [Notes techniques d’Analytics](home.md)
++ [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + Adobe Analytics pour les utilisateurs de Google Analytics {#ga-to-aa}
    + [Aide Adobe Analytics pour les utilisateurs de Google Analytics](ga-to-aa/home.md)
    + [Comptes et suites de rapports](ga-to-aa/accounts.md)
@@ -49,7 +50,13 @@ ht-degree: 100%
 + [Valeur de faible trafic](low-traffic.md)
 + [Migration des règles de traitement Mobile Services vers Adobe Analytics](migrate-mobile.md)
 + [Prise en charge multidevise](multicurrency.md)
-+ [Confidentialité - Présentation](privacy-overview.md)
++ Confidentialité {#privacy}
+   + [Confidentialité - Présentation](privacy/privacy-overview.md)
+   + [Processus de confidentialité](privacy/privacy-workflow.md)
+   + [Analytics et le règlement général sur la protection des données (RGPD)](privacy/gdpr.md)
+   + [Analytics et CCPA](privacy/ccpa.md)
+   + [Exemption de consentement pour Analytics et la CNIL](privacy/cnil-consent-exemption.md)
+   + [FAQ sur la confidentialité](privacy/faq.md)
 + [Ordre de traitement](processing-order.md)
 + [Applications web progressives](pwa.md)
 + [Redirections et alias](redirects.md)

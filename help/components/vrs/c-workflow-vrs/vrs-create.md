@@ -4,9 +4,9 @@ keywords: Suite de rapports virtuelle
 title: Création des suites de rapports virtuelles
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '674'
 ht-degree: 62%
 
 ---
@@ -46,7 +46,7 @@ Dans l’onglet [!UICONTROL Définition de visite], définissez les paramètres,
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une définition de visite](https://video.tv.adobe.com/v/3428473?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une définition de visite](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -65,7 +65,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une dé
 ![](assets/components.png)
 
 1. Dans l’onglet [!UICONTROL Composants], cochez la case pour appliquer le traitement afin d’inclure, d’exclure et de renommer les composants de cette suite de rapports virtuelle dans Analysis Workspace.
-Pour plus d’informations sur le traitement des composants des suites de rapports virtuelles, consultez [Traitement des composants des suites de rapports virtuelles](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=fr#virtual-report-suites).
+Pour plus d’informations sur le traitement des composants des suites de rapports virtuelles, consultez [Traitement des composants des suites de rapports virtuelles](/help/components/vrs/vrs-components.md).
 
 1. Faites glisser les composants (dimensions, mesures, segments ou périodes) que vous souhaitez inclure dans la suite de rapports virtuelle dans la section [!UICONTROL Composants inclus].
 

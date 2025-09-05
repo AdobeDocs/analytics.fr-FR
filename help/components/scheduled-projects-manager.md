@@ -3,7 +3,7 @@ description: Découvrez comment gérer les projets planifiés.
 title: Projets planifiés
 feature: Admin Tools
 exl-id: 8bc8d983-f680-48fa-8483-694c87a9ae4c
-source-git-commit: 968560f8901bc593ef946278a460e502102f9f55
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 41%
@@ -35,8 +35,8 @@ La liste Projets planifiés affiche ➊ des colonnes pour :
 | **[!UICONTROL Fréquence]** | Fréquence à laquelle vous souhaitez envoyer ce projet planifié à un ou plusieurs destinataires. |
 | **[!UICONTROL Heure d’exécution]** | Heure à laquelle ce projet planifié est envoyé. |
 | **[!UICONTROL Nombre de requêtes]** | Nombre de requêtes concernant ce projet. |
-| **[!UICONTROL Période la plus longue]** | Période la plus longue définie pour le projet planifié. Cette valeur peut être pertinente pour examiner les problèmes de performances. Voir [Gestionnaire des activités de rapport](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) pour plus d’informations. |
-| **[!UICONTROL Nombre de requêtes]** | Nombre de requêtes exécutées pour le projet planifié. Cette valeur peut être pertinente pour examiner les problèmes de performances. Voir [Gestionnaire des activités de rapport](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md) pour plus d’informations. |
+| **[!UICONTROL Période la plus longue]** | Période la plus longue définie pour le projet planifié. Cette valeur peut être pertinente pour examiner les problèmes de performances. Voir [Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) pour plus d’informations. |
+| **[!UICONTROL Nombre de requêtes]** | Nombre de requêtes exécutées pour le projet planifié. Cette valeur peut être pertinente pour examiner les problèmes de performances. Voir [Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md) pour plus d’informations. |
 
 
 Vous pouvez utiliser ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour configurer les colonnes à afficher.

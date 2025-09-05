@@ -1,23 +1,23 @@
 ---
-title: Mise en oeuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
+title: Mise en œuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
 description: Découvrez comment mettre en œuvre Adobe Analytics à l’aide de JavaScript sans système de gestion des balises.
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 42%
 
 ---
 
-# Mise en oeuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
+# Mise en œuvre d’Adobe Analytics avec AppMeasurement pour JavaScript
 
 AppMeasurement pour JavaScript a toujours été une méthode courante de mise en œuvre d’Adobe Analytics. Toutefois, avec la popularité croissante des systèmes de Tag Management, il est recommandé d’utiliser les [balises dans Adobe Experience Platform](../launch/overview.md).
 
 Présentation générale des tâches d’implémentation :
 
-![Comment mettre en oeuvre Adobe Analytics avec AppMeasurement pour JavaScript, comme décrit dans cette section.](../assets/appmeasurement-annotated.png)
+![Comment mettre en œuvre Adobe Analytics avec AppMeasurement pour JavaScript, comme décrit dans cette section.](../assets/appmeasurement-annotated.png)
 
 <table>
 
@@ -26,15 +26,15 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <tr>
-<td>1</td><td>Vérifiez que vous avez <b>défini une suite de rapports</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
+<td>1</td><td>Vérifiez que vous avez <b>défini une suite de rapports</b></td><td><a href="../../admin/tools/manage-rs/report-suites-admin.md">Gestionnaire de suites de rapports</a></td>
 </tr>
 
 <tr>
-<td>2</td><td><b>Téléchargez le code JavaScript requis pour l’AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier.</td><td><a href="../../admin/admin/code-manager-admin.md">Gestionnaire de code</a></td>
+<td>2</td><td><b>Téléchargez le code JavaScript requis pour AppMeasurement</b> à partir du Gestionnaire de code. Décompressez le fichier .</td><td><a href="../../admin/tools/code-manager-admin.md">Gestionnaire de code</a></td>
 </tr>
 
 <tr>
-<td>3</td><td><b>Ajoutez <code>AppMeasurement.js</code> au fichier de modèle de votre site web</b>. Le code contient les bibliothèques requises pour envoyer des données à Adobe.
+<td>3</td><td><b>Ajoutez des <code>AppMeasurement.js</code> au fichier de modèle de votre site web</b>. Le code contient les bibliothèques requises pour envoyer des données à Adobe.
 
 ```html
 <head>
@@ -47,7 +47,7 @@ Présentation générale des tâches d’implémentation :
 </tr>
 
 <tr>
-<td>4</td><td><b>Définissez des variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est appelé, ces variables garantissent que les paramètres de collecte de données sont corrects.
+<td>4</td><td><b>Définissez des variables de configuration dans <code>AppMeasurement.js</code></b>. Lorsque l’objet Analytics est instancié, ces variables s’assurent que les paramètres de collecte de données sont corrects.
 
 ```JavaScript
 // Instantiate the Analytics tracking object with report suite ID
@@ -62,7 +62,7 @@ s.trackingServer = "example.data.adobedc.net";
 </tr>
 
 <tr>
-<td>5</td><td><b>Définissez des variables de niveau page dans le code de page de votre site </b>. Ces variables déterminent des dimensions et des mesures spécifiques envoyées à Adobe.
+<td>5</td><td><b>Définissez des variables au niveau de la page dans le code de page de votre site</b>. Ces variables déterminent la dimension et les mesures spécifiques envoyées à Adobe.
 
 ```js
 s.pageName = "Example page";
@@ -74,13 +74,13 @@ s.events = "event1";
 </tr>
 
 <tr>
-<td>6</td><td><b>Envoyez les données à Adobe à l’aide de la méthode <code>t()</code></b>, lorsque toutes les variables de page sont définies.
+<td>6</td><td><b>Envoyez les données à Adobe à l’aide de la méthode <code>t()</code> , lorsque toutes les variables de page sont définies</b>.
 
 ```js
 s.t();
 ```
 
-</td><td><a href="../vars/functions/t-method.md">méthode t()</a></td>
+</td><td><a href="../vars/functions/t-method.md">Méthode t()</a></td>
 </tr>
 
 <tr>

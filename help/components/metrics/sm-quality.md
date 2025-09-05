@@ -1,9 +1,9 @@
 ---
 title: Mesures de qualité des services de streaming multimédia
-description: Mesures disponibles lorsque vous activez [!UICONTROL &#x200B; Qualité du média &#x200B;] pour une suite de rapports.
+description: Mesures disponibles lorsque vous activez [!UICONTROL  Qualité du média ] pour une suite de rapports.
 feature: Metrics
 exl-id: a64829b5-d45b-44c6-80c3-5acf1a6d9919
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Les mesures de qualité des services de streaming multimédia fournissent des fonctionnalités de reporting supplémentaires à la collecte de données par le biais des bibliothèques de services de streaming multimédia. L’utilisation de ces mesures nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
-Lorsque vous activez **[!UICONTROL Qualité du média]** sous [Création de rapports multimédia](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/media-management.md), les mesures suivantes sont disponibles :
+Lorsque vous activez **[!UICONTROL Qualité du média]** sous [Création de rapports multimédia](/help/admin/tools/manage-rs/edit-settings/media-management.md), les mesures suivantes sont disponibles :
 
 | Nom de la mesure | Description | Envoyé avec | Variable de données contextuelles |
 | --- | --- | --- | --- |

@@ -3,7 +3,7 @@ title: Visiteurs avec un Experience Cloud ID
 description: Le nombre de visiteurs uniques utilisant le service Adobe Experience Cloud ID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 325a42c080290509309e90c9127138800d5ac496
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Visiteurs avec un Experience Cloud ID
 
-La [mesure](overview.md) &quot;Visiteurs avec un ID Experience Cloud&quot; indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du [service d’ID Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
+La mesure « Visiteurs avec un Experience Cloud ID » [](overview.md) indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Faites glisser « Visiteurs avec un Experience Cloud ID » à côté des visit
 
 ![Comparaison avec les visiteurs uniques](assets/metric-mcvid1.png)
 
-Dans cet exemple, chaque page comporte le même nombre de « Visiteurs uniques » que de « Visiteurs avec un Experience Cloud ID ». Néanmoins, le nombre total de visiteurs uniques est supérieur au nombre total de visiteurs avec un Experience Cloud ID. Vous pouvez créer une [mesure calculée](../c-calcmetrics/cm-overview.md) pour déterminer les pages qui ne définissent pas le service d’ID. Vous pouvez utiliser la définition suivante :
+Dans cet exemple, chaque page comporte le même nombre de « Visiteurs uniques » que de « Visiteurs avec un Experience Cloud ID ». Néanmoins, le nombre total de visiteurs uniques est supérieur au nombre total de visiteurs avec un Experience Cloud ID. Vous pouvez créer une [mesure calculée](../calculated-metrics/cm-overview.md) pour déterminer les pages qui ne définissent pas le service d’ID. Vous pouvez utiliser la définition suivante :
 
 ![Définition de la mesure calculée](assets/metric-mcvid2.png)
 

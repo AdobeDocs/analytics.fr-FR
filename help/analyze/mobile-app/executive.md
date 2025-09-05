@@ -4,7 +4,7 @@ title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e07af0882cf4dcf6675f28a0007defe617e7ae2e
+source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
 workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 92%
@@ -58,20 +58,20 @@ Pour utiliser les tableaux de bord :
 
 1. Choisissez une entreprise. Lorsque vous êtes connecté aux tableaux de bord, lʼécran **[!UICONTROL Choisir une entreprise]** apparaît. Cet écran répertorie les entreprises connectées auxquelles vous appartenez. Appuyez sur le nom de l’entreprise associé à la fiche d’évaluation partagée avec vous.
 
-   La liste de Fiche d’évaluation affiche toutes les Fiches d’évaluation qui sont partagées avec vous.
+   La liste des cartes de performance affiche toutes les cartes de performance qui sont partagées avec vous.
 
-1. Appuyez sur la fiche d’évaluation que vous souhaitez afficher.
+1. Appuyez sur la carte de performance à afficher.
 
-   Si vous avez accès à plusieurs organisations sous une seule connexion, l’écran d’accueil affiche toutes les fiches d’évaluation de toutes les entreprises disponibles au même endroit.
+   Si vous avez accès à plusieurs organisations sous une seule connexion, l’écran d’accueil affiche toutes les cartes de performance de toutes les sociétés disponibles au même endroit.
 
-   Vous pouvez trier la liste de la Fiche d’évaluation en fonction du titre de la Fiche d’évaluation, du nom de l’organisation ou du dernier affichage. Vous pouvez même rechercher une fiche d’évaluation spécifique.
+   Vous pouvez trier la liste des cartes de performance en fonction de leur titre, du nom de leur organisation ou de la date la plus récente. Vous pouvez même rechercher une carte de performance spécifique.
 
    ![Choisissez une entreprise](assets/mobile-home-screen.png)
 
    Si vous vous connectez et que vous voyez un message indiquant que rien n’a été partagé, vérifiez les éléments suivants avec votre curateur :
 
    * Vous pouvez vous connecter à la bonne instance Analytics.
-   * La fiche d’évaluation a été partagée avec vous.
+   * La carte de performance a été partagée avec vous
 
    ![Rien n’a été partagé](assets/nothing.png)
 
@@ -108,9 +108,9 @@ Pour utiliser les tableaux de bord :
 
    * Selon l’intervalle sur lequel vous appuyez (**Jour**, **Semaine**, **Mois** ou **Année**), deux options de période s’affichent : soit la période actuelle, soit celle qui la précède immédiatement. Appuyez sur l’une de ces deux options pour sélectionner la première période. Dans la liste **[!UICONTROL COMPARER À]**, appuyez sur l’une des options qui s’affiche pour comparer les données de cette période avec la première période que vous avez sélectionnée. Appuyez sur **[!UICONTROL Terminé]** en haut à droite de l’écran. Le champ **[!UICONTROL Périodes]** et les mosaïques de la Fiche d’évaluation sont mis à jour avec les nouvelles données de comparaison des périodes que vous venez de sélectionner.
 
-1. Pour appliquer un filtre de segment à votre Fiche d’évaluation, appuyez sur la liste déroulante de filtrage et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de l’application fonctionnent de la même manière que dans Analytics Workspace.
+1. Pour appliquer un filtre de segments à votre carte de performance, appuyez sur le menu déroulant Filtre et sélectionnez un segment qui a été configuré par votre curateur. Les [filtres](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=fr) de l’application fonctionnent de la même manière que dans Analytics Workspace.
 
-   ![Filtre de segments](/help/admin/admin/assets/filter.png)
+   ![Filtre de segments](/help/admin/tools/assets/filter.png)
 
 1. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les répartitions qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la fiche mise à jour, vous pouvez tirer sur la fiche à l’écran pour l’actualiser et charger les données récemment ajoutées.
 
