@@ -101,7 +101,7 @@ Pour créer une mesure calculée pour un seul projet :
 
    * [!UICONTROL **Changement en pourcentage**] : crée une colonne qui affiche le changement en pourcentage entre les deux colonnes sélectionnées.
 
-[Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Mesures calculées : mesures sans implémentation](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Comparaison de mesures avec différents modèles d’attribution

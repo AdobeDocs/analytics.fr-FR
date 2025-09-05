@@ -127,14 +127,14 @@ Les captures d’écran suivantes vous montrent comment récupérer l’UUID Ado
 
 1. Lancer Chrome Developer Tools avant le chargement d’une page
 1. Chargez la page et cochez Applications > Cookies. L’UUID Adobe Audience Manager doit être défini dans le tiers
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
 dans le navigateur (`35721780439475290181087231320657663953` dans l’exemple ci-dessous).
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Utiliser la [!UICONTROL visionneuse du profil du visiteur] d’Audience Manager
 
-L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
+L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
 
 ## Afficher les caractéristiques du segment dans [!DNL Audience Manager]
 

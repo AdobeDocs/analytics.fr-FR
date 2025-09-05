@@ -26,7 +26,7 @@ Rappelez-vous qu’au fil du temps, les mises à jour du code peuvent avoir des 
 * Créez des tableaux de bord pour afficher les vues de tendances horaires de ces mesures et variables importantes (ou définissez des [alertes](/help/components/alerts/alerts-overview.md) pour chaque mesure). Ensuite, surveillez-les pendant un jour ou deux pour vous assurer que vous obtenez les données attendues et que celles-ci sont correctes. Recherchez les points d’inflexion. Soyez prêt à résoudre immédiatement les problèmes critiques. Si vous constatez des incohérences, consultez la couche de données, les règles du gestionnaire de balises et les règles de traitement pour en savoir plus.
 * Exécutez à nouveau [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) pour surveiller les tendances générales des mesures et variables de vos indicateurs clés de performance.
 
-*Pour plus d’informations concernant les manières de vous assurer que vos mesures et variables fonctionnent correctement, [consultez les conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) de Sarah Owen, Adobe Analytics Champion.*
+*Pour plus d’informations concernant les manières de vous assurer que vos mesures et variables fonctionnent correctement, [consultez les conseils](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=fr) de Sarah Owen, Adobe Analytics Champion.*
 
 ## &#x200B;3. Examinez attentivement les données de la section mise à jour de votre site
 

@@ -15,4 +15,4 @@ ht-degree: 97%
 
 L’authentification unique dans Adobe Experience Cloud est mise en œuvre par l’intermédiaire d’Admin Console.
 
-Voir [Guide d’utilisation de l’administrateur](https://www.adobe.com/go/analytics_sso_en) pour obtenir de l’aide.
+Voir [Guide d’utilisation de l’administrateur](https://www.adobe.com/go/analytics_sso_fr) pour obtenir de l’aide.
