@@ -82,7 +82,7 @@ Le paramètre de configuration **[!UICONTROL Utiliser Activity Map]** gère la c
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Si nécessaire, apportez vos modifications à une bibliothèque et publiez-les en production.
 
-Voir la présentation de l’extension Adobe Analytics [](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) pour plus d’informations.
+Voir la présentation de l’extension Adobe Analytics [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) pour plus d’informations.
 
 +++
 

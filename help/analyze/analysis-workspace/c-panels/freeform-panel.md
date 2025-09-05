@@ -15,7 +15,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Cet article documente le panneau à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Panneau à structure libre](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article documente le panneau à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau à structure libre](/help/analyze/analysis-workspace/c-panels/freeform-panel.md) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -36,6 +36,6 @@ Pour utiliser un **[!UICONTROL Panneau à structure libre]**, procédez comme su
 >[!MORELIKETHIS]
 >
 >[Créer un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Guide des composants d’Analytics](/help/components/home.md)
->>[Visualisation Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
+>&#x200B;>[Guide des composants d’Analytics](/help/components/home.md)
+>&#x200B;>[Visualisation Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)
 >

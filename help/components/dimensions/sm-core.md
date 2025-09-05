@@ -1,6 +1,6 @@
 ---
 title: Dimensions principales des services de streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Media Core ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Dimensions principales des services de streaming multimédia
 
-*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL  Media Core] pour une suite de rapports. Voir [Mesures principales des services de streaming multimédia](../metrics/sm-core.md) pour connaître les mesures disponibles.*
+*Cette page décrit les dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core] pour une suite de rapports. Voir [Mesures principales des services de streaming multimédia](../metrics/sm-core.md) pour connaître les mesures disponibles.*
 
 Les dimensions principales des services de streaming multimédia fournissent une fonctionnalité de création de rapports de base aux données collectées via les bibliothèques de services de streaming multimédia. L’utilisation de ces dimensions nécessite le module complémentaire **[!UICONTROL Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 

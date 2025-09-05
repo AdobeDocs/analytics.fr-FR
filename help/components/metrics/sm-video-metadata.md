@@ -1,6 +1,6 @@
 ---
 title: Mesures de métadonnées vidéo des services de streaming multimédia
-description: Mesures disponibles lorsque vous activez [!UICONTROL  Métadonnées vidéo ] pour une suite de rapports.
+description: Mesures disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées vidéo &#x200B;] pour une suite de rapports.
 feature: Metrics
 exl-id: b2f60a34-e139-4498-bf71-74d291759ef2
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e

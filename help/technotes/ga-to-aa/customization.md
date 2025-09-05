@@ -30,7 +30,7 @@ Tous les widgets de Google Analytics sont disponibles dans [!UICONTROL Analysis 
 
 * Le **widget Mesure** est à peu près équivalent à la visualisation [!UICONTROL Synthèse des chiffres].
 * Le **widget Chronologie** est à peu près équivalent à la visualisation [!UICONTROL Ligne].
-*  Le **widget Geomap** est à peu près équivalent à la visualisation [!UICONTROL Carte].
+* Le **widget Geomap** est à peu près équivalent à la visualisation [!UICONTROL Carte].
 * Le **widget Tableau** est à peu près équivalent à la visualisation [!UICONTROL Tableau à structure libre].
 * Le **widget circulaire** est à peu près équivalent à la visualisation [!UICONTROL Anneau].
 * Le **widget Barre** est peu près équivalent à la visualisation [!UICONTROL Barre].
