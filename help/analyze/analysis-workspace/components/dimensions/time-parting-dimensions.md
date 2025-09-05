@@ -18,7 +18,7 @@ La répartition temporelle utilise l’horodatage des accès collectés et les v
 
 >[!BEGINSHADEBOX]
 
-Consultez la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensions de répartition du temps](https://video.tv.adobe.com/v/23727?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensions de répartition du temps](https://video.tv.adobe.com/v/41456?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
