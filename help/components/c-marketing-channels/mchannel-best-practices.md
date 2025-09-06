@@ -3,10 +3,10 @@ title: Bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analy
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 97%
+source-wordcount: '653'
+ht-degree: 81%
 
 ---
 
@@ -34,9 +34,13 @@ Nous vous recommandons d’utiliser [Attribution](/help/analyze/analysis-workspa
 
 Les canaux Direct et Interne/Actualisation de session ne sont pas recommandés pour une utilisation avec des modèles d’attribution personnalisés.
 
-Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, nous vous recommandons de [créer une classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée produira les mêmes résultats Attribution que si ces canaux n’avaient jamais été configurés.
+Que se passe-t-il si Direct et Actualisation de session sont déjà configurés pour votre organisation ? Dans ce cas, Adobe vous recommande de [créer une classification](/help/admin/tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md) pour Première touche/Dernière touche et de ne pas classer les canaux Direct et Actualisation de session. La dimension classifiée génère des résultats d’attribution similaires au cas où ces canaux n’auraient jamais été configurés.
 
 ![](assets/direct-session-refresh.png)
+
+Si vous désactivez ces canaux et supprimez leurs règles de traitement des canaux marketing, les résultats diffèrent légèrement de l’approche de classification. La valeur `None` représente les visites qui ne correspondaient à aucune règle de traitement des canaux marketing. Des différences peuvent apparaître lorsqu’une visite qui ne correspond à aucun canal suit une visite qui correspond à un canal.
+
+Vous pouvez toujours utiliser des modèles d’attribution personnalisés pour appliquer des intervalles de recherche en amont et des modèles d’attribution dans les deux cas.
 
 ## Bonne pratique n° 3 : activer Remplacer le canal Dernière touche pour tous les canaux.
 
