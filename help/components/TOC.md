@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: edc64aeef6eb987c5533f6a14d95aca6ff29a467
+source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 99%
 
 ---
@@ -263,6 +263,7 @@ ht-degree: 99%
    + [Vue d’ensemble des classifications](classifications/classifications-overview.md)
    + Jeux de classifications {#sets}
       + [Vue d’ensemble](classifications/sets/overview.md)
+      + [Fichiers de données](classifications/sets/data-files.md)
       + Gérer des jeux de classifications {#manage}
          + [Gestionnaire des jeux de classificactions](classifications/sets/manage/set-manager.md)
          + [Créer un jeu de classifications](classifications/sets/manage/create.md)
