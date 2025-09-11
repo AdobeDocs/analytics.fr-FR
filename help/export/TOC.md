@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
-user-guide-description: Découvrez comment utiliser les Flux de données et Data Warehouse pour récupérer la sortie des données.
+user-guide-description: Découvrez comment utiliser les flux de données et Data Warehouse pour récupérer la sortie des données.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
