@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configuration des comptes d’import et d’export cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5c02b46a7757e07a23505dc8e3dc21b6353aa9e2
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1489'
 ht-degree: 56%
 
 ---
@@ -61,7 +61,9 @@ Pour configurer un compte d’import ou d’export cloud :
 
    **Types de compte**
 
-   ARN du rôle S3 d’Amazon
+   +++Amazon S3 Role ARN
+
+   **REMARQUE :** lors de l’utilisation d’Amazon S3 avec des flux de données et Data Warehouse, seul le chiffrement SSE-S3 est pris en charge.
 
    Pour configurer un compte ARN de rôle Amazon S3, spécifiez les informations suivantes :
 
@@ -71,7 +73,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-+++
+   +++
 
    +++Google Cloud Platform
 
@@ -85,7 +87,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    +++
 
-   +++Azure SAS
+   +++SAS Azure
 
    Pour configurer un compte Azure SAS, spécifiez les informations suivantes :
 
@@ -99,9 +101,9 @@ Pour configurer un compte d’import ou d’export cloud :
 
    {style="table-layout:auto"}
 
-   +++
+   +++   
 
-   +++Azure RBAC
+   +++RBAC Azure
 
    Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
@@ -115,7 +117,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    +++
 
-   +++E-mail
+   +++Adresse électronique
 
    >[!NOTE]
    >

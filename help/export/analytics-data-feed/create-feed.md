@@ -3,9 +3,9 @@ title: Créer un flux de données
 description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: bac8d17de1d442484ae1cf8c038ad853343ddb6b
+source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
 workflow-type: tm+mt
-source-wordcount: '4128'
+source-wordcount: '4140'
 ht-degree: 53%
 
 ---
@@ -69,6 +69,8 @@ Avant de créer un flux de données, il est important de comprendre les bases de
    Il est possible d’envoyer des flux directement vers des compartiments Amazon S3. Ce type de destination nécessite uniquement votre compte Amazon S3 et l’emplacement (compartiment).
 
    Adobe Analytics utilise l’authentification entre comptes pour charger des fichiers d’Adobe Analytics vers l’emplacement spécifié dans votre instance Amazon S3.
+
+   Lors de l’utilisation d’Amazon S3 avec des flux de données, seul le chiffrement SSE-S3 est pris en charge.
 
    Pour configurer un compartiment Amazon S3 comme destination d’un flux de données :
 
