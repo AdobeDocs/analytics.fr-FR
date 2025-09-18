@@ -5,16 +5,16 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# [!DNL Adobe Analytics] Guide des composants {#components}
+# Guide des composants d’[!DNL Adobe Analytics] {#components}
 
-+ [Guide des composants Analytics](home.md)
++ [Guide des composants d’Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + Dimensions {#dimensions}
    + [Vue d’ensemble des dimensions](dimensions/overview.md)
@@ -204,7 +204,7 @@ ht-degree: 99%
    + [Questions fréquentes sur les segments hérités](segmentation/seg-transition.md)
    + [Bonnes pratiques](segmentation/best-practices.md)
 + Mesures calculées {#calculated-metrics}
-   + [Présentation](calculated-metrics/cm-overview.md)
+   + [Vue d’ensemble](calculated-metrics/cm-overview.md)
    + [Vidéos pratiques](calculated-metrics/cm-videos.md)
    + Workflow {#calcmetric-workflow}
       + [Créer des mesures calculées](calculated-metrics/workflow/cm-workflow.md)

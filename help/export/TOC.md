@@ -5,16 +5,16 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données et Data Warehouse pour récupérer la sortie des données.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Guide d’exportation dʼAdobe Analytics {#export}
+# Guide d’export dʼAdobe Analytics {#export}
 
-+ [Guide d’exportation Analytics](home.md)
++ [Guide d’export d’Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + Flux de données Analytics {#analytics-data-feed}
    + [Vue d’ensemble des flux de données](analytics-data-feed/data-feed-overview.md)
@@ -73,4 +73,4 @@ ht-degree: 98%
       + [Envoi de données Adobe vers un compte FTP externe par SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Envoi de requêtes Data Warehouse vers les serveurs SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connexion à Adobe via SFTP sans mot de passe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [ API Adobe Analytics ](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [API Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr)

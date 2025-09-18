@@ -5,15 +5,15 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Guide sur les outils Adobe Analytics {#analyze}
 
-+ [Guide des outils Analytics](home.md)
++ [Guide sur les outils Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + Commencer avec Adobe Analytics {#admin-overview}
    + [Vue d’ensemble d’Analytics](get-started/analytics-overview.md)
@@ -27,14 +27,14 @@ ht-degree: 99%
 + Analysis Workspace {#analysis-workspace}
    + [Vue d’ensemble d’Analysis Workspace](analysis-workspace/home.md)
    + Projets {#build-workspace-project}
-      + [Présentation](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [Vue d’ensemble](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [Démarrer rapidement des projets](analysis-workspace/build-workspace-project/starter-projects.md)
       + [Créer des projets](analysis-workspace/build-workspace-project/create-projects.md)
       + [Ouvrir des projets](analysis-workspace/build-workspace-project/open-projects.md)
       + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
       + [Table des matières](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
       + Dossiers dans Workspace {#workspace-folders}
-         + [Présentation](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [Vue d’ensemble](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
          + [Créer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [Gérer des dossiers](analysis-workspace/build-workspace-project/workspace-folders/manage-folders.md)
          + [Ajouter ou déplacer des projets](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
@@ -47,11 +47,11 @@ ht-degree: 99%
       + [Utiliser des modèles](analysis-workspace/templates/use-templates.md)
       + [Créer et gérer des modèles](analysis-workspace/templates/create-templates.md)
    + Composants {#components}
-      + [Présentation](analysis-workspace/components/analysis-workspace-components.md)
+      + [Vue d’ensemble](analysis-workspace/components/analysis-workspace-components.md)
       + [Utiliser les composants](analysis-workspace/components/use-components-in-workspace.md)
       + [Ajouter des descriptions des composants](analysis-workspace/components/add-component-descriptions.md)
       + Annotations {#annotations}
-         + [Présentation](analysis-workspace/components/annotations/overview.md)
+         + [Vue d’ensemble](analysis-workspace/components/annotations/overview.md)
          + [Création d’annotations](analysis-workspace/components/annotations/create-annotations.md)
          + [Gestion des annotations](analysis-workspace/components/annotations/manage-annotations.md)
          + [Affichage des annotations](analysis-workspace/components/annotations/view-annotations.md)
@@ -62,10 +62,10 @@ ht-degree: 99%
          + [Dimensions de répartition du temps](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [Mesures](analysis-workspace/components/apply-create-metrics.md)
       + Segments {#segments}
-         + [Présentation](analysis-workspace/components/segments/t-freeform-project-segment.md)
+         + [Vue d’ensemble](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [Segments rapides](analysis-workspace/components/segments/quick-segments.md)
       + Périodes {#calendar-date-ranges}
-         + [Présentation](analysis-workspace/components/calendar-date-ranges/calendar.md)
+         + [Vue d’ensemble](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [Créer des périodes](analysis-workspace/components/calendar-date-ranges/create.md)
          + [Gérer des périodes](analysis-workspace/components/calendar-date-ranges/manage.md)
          + [Comparaison des dates](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
@@ -76,10 +76,10 @@ ht-degree: 99%
          + [Modifier les entrées de composant dans le dictionnaire de données](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [Surveiller l’intégrité du dictionnaire de données](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + Visualisations {#visualizations}
-      + [Présentation](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
+      + [Vue d’ensemble](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [Gérer des sources de données](analysis-workspace/visualizations/t-sync-visualization.md)
       + Tableau à structure libre {#freeform-table}
-         + [Présentation](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + [Vue d’ensemble](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Créer des liens hypertextes](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
          + Paramètres des colonnes et des lignes {#column-row-settings}
             + [Paramètres des colonnes](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
@@ -88,16 +88,16 @@ ht-degree: 99%
          + [Filtrer et trier](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totaux](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Table de cohortes {#cohort-table}
-         + [Présentation](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [Vue d’ensemble](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurer](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [Cas d’utilisation](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + Abandon {#fallout}
-         + [Présentation](analysis-workspace/visualizations/fallout/fallout-flow.md)
+         + [Vue d’ensemble](analysis-workspace/visualizations/fallout/fallout-flow.md)
          + [Configurer](analysis-workspace/visualizations/fallout/configuring-fallout.md)
          + [Abandons interdimensionnels](analysis-workspace/visualizations/fallout/configuring-interdimensional-fallout.md)
          + [Appliquer des segments](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + Flux {#flow}
-         + [Présentation](analysis-workspace/visualizations/c-flow/flow.md)
+         + [Vue d’ensemble](analysis-workspace/visualizations/c-flow/flow.md)
          + [Configurer](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [Flux interdimensionnels](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [Aires (empilées)](analysis-workspace/visualizations/area.md)
@@ -117,7 +117,7 @@ ht-degree: 99%
       + [Plan en arborescence](analysis-workspace/visualizations/treemap.md)
       + [Venn](analysis-workspace/visualizations/venn.md)
    + Panneaux {#panels}
-      + [Présentation](analysis-workspace/c-panels/panels.md)
+      + [Vue d’ensemble](analysis-workspace/c-panels/panels.md)
       + [Panneau vierge](analysis-workspace/c-panels/blank-panel.md)
       + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
       + [Attribution](analysis-workspace/c-panels/attribution.md)
@@ -133,7 +133,7 @@ ht-degree: 99%
          + [Cas d’utilisation](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [Tests statistiques utilisés](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + Traiter et partager {#curate-share}
-      + [Présentation](analysis-workspace/curate-share/send-schedule-files.md)
+      + [Vue d’ensemble](analysis-workspace/curate-share/send-schedule-files.md)
       + [Traitement des projets](analysis-workspace/curate-share/curate.md)
       + [Partager des projets](analysis-workspace/curate-share/share-projects.md)
       + [Création de liens partageables](analysis-workspace/curate-share/shareable-links.md)
@@ -149,7 +149,7 @@ ht-degree: 99%
    + [Gestion des parcours](analysis-workspace/journey-iq.md)
    + [Comparaison des segments](analysis-workspace/segment-iq.md)
    + Détection des anomalies {#anomaly-detection}
-      + [Présentation](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
+      + [Vue d’ensemble](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Afficher les anomalies](analysis-workspace/c-anomaly-detection/view-anomalies.md)
       + [Exécuter l’analyse des contributions](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Techniques statistiques](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)

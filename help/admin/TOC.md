@@ -5,19 +5,19 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Guide de lʼadministrateur d’Adobe Analytics {#admin}
 
-+ [Guide de l’administrateur Analytics](home.md)
++ [Guide d’administration d’Analytics](home.md)
 + [Notes de mise à jour d’Analytics](https://experienceleague.adobe.com/fr/docs/analytics/release-notes/latest)
 + Adobe Admin Console {#admin-console}
-   + [Présentation](admin-console/home.md)
+   + [Vue d’ensemble](admin-console/home.md)
    + [Guide Adobe Analytics pour le premier administrateur](admin-console/first-admin-guide.md)
    + [Rôles d’administrateur dans Adobe Analytics](admin-console/admin-roles-in-analytics.md)
    + Résumé des autorisations pour les outils Analytics {#permissions}
@@ -32,7 +32,7 @@ ht-degree: 99%
    + [Exclure par adresse IP](tools/exclude-ip.md)
    + [Journaux](tools/logs.md)
    + Gestionnaire des activités de rapport {#reporting-activity-manager}
-      + [Présentation](tools/reporting-activity-manager/reporting-activity-overview.md)
+      + [Vue d’ensemble](tools/reporting-activity-manager/reporting-activity-overview.md)
       + [Afficher l’activité de rapport](tools//reporting-activity-manager/reporting-activity.md)
       + [Annuler des demandes de création de rapports](tools/reporting-activity-manager/reporting-activity-cancel-requests.md)
    + Migration des composants {#component-migration}
@@ -48,7 +48,7 @@ ht-degree: 99%
                + [Détection de référencement payant - Aperçu](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
                + [Configuration de la détection de référencement payant](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
             + Règles de traitement {#processing-rules}
-               + [Présentation](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+               + [Vue d’ensemble](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
                + [Interface](tools/manage-rs/edit-settings/general/processing-rules/pr-interface.md)
                + [Afficher l’historique](tools/manage-rs/edit-settings/general/processing-rules/pr-view-history.md)
                + [Copier des règles](tools/manage-rs/edit-settings/general/processing-rules/pr-copy.md)
@@ -89,7 +89,7 @@ ht-degree: 99%
             + [Classifications de canaux marketing](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [Expiration du canal marketing](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + Gestion du trafic {#traffic-management}
-            + [Présentation](tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
+            + [Vue d’ensemble](tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md)
             + [Prévoir les pics](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md)
             + [Trafic permanent](tools/manage-rs/edit-settings/c-traffic-management/t-traffic-permanent.md)
          + [Mesures par défaut](tools/manage-rs/edit-settings/default-metrics.md)
@@ -139,7 +139,7 @@ ht-degree: 99%
       + [Actions en attente](tools/company/pending-actions-admin.md)
       + [Niveaux d’accès aux fonctions](tools/company/feature-access-levels.md)
    + Étiquetage de confidentialité {#privacy-labeling}
-      + [Présentation](tools/privacy-labeling/labeling-overview.md)
+      + [Vue d’ensemble](tools/privacy-labeling/labeling-overview.md)
       + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](tools/privacy-labeling/labels.md)
       + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](tools/privacy-labeling/view-settings.md)
       + [Bonnes pratiques en matière d’étiquetage](tools/privacy-labeling/best-practices.md)

@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Le guide des outils Analytics contient des informations sur les fonctionnalités
 | **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement de l’audience de vos pages web. <br>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients et des clientes, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.&quot; |
 | **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | Le nouveau module complémentaire Report Builder pour Microsoft Excel est pris en charge par Mac, Windows et les navigateurs web. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. |
 | **[Report Builder hérité](/help/analyze/legacy-report-builder/home.md)** | Le Report Builder hérité est un module complémentaire pour Microsoft Excel, pris en charge uniquement par Microsoft Windows. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. |
-| **[API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/)** | Les API Analytics vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur. Vous pouvez créer des rapports pour explorer vos données, obtenir des informations ou répondre à des questions importantes à leur sujet. Vous pouvez également gérer les composants d’Adobe Analytics, tels que la création de segments ou de mesures calculées. |
+| **[API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr)** | Les API Analytics vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur. Vous pouvez créer des rapports pour explorer vos données, obtenir des informations ou répondre à des questions importantes à leur sujet. Vous pouvez également gérer les composants d’Adobe Analytics, tels que la création de segments ou de mesures calculées. |
 
 Pour en savoir plus sur les principes de base d’Adobe Analytics, consultez la vidéo *Présentation d’Adobe Analytics - Webinaire de développement des compétences* ci-dessous. La vidéo vous guide tout au long des principes de base de la capture des données, de la manière dont les données sont envoyées à Adobe Analytics et des fonctionnalités de visualisation que vous pouvez utiliser dans Adobe Analytics. La vidéo fournit une base vous permettant de créer, déployer, collecter et interpréter les données, etc. et de fournir des informations exploitables et des recommandations en fonction des données collectées.
 
@@ -43,7 +43,7 @@ Pour plus d’informations sur les fonctionnalités d’Adobe Analytics et leur 
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
 * [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/fr)

@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-
 
 +++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/33610?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/31072?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 +++
 
@@ -55,13 +55,13 @@ Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des 
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, un message indique « Données non valides ». Comment résoudre ce problème ?
++++Lorsque je fais dépose une mesure, un message indique « Données non valides ». Comment résoudre ce problème ?
 
 Le message Données incorrectes signifie qu’Adobe ne peut pas renvoyer de données à l’aide de la combinaison de dimensions et de mesures utilisée dans le rapport. Par exemple, deux mesures empilées les unes sur les autres ne peuvent pas être renvoyées sous forme de données, car il n’est pas possible d’afficher deux mesures de cette manière. Placez plutôt les mesures côte à côte.
 
 +++
 
-+++Lorsque je fais glisser une mesure sur l’écran, je ne vois aucune donnée, seulement des zéros. Comment résoudre ce problème ?
++++Lorsque je dépose une mesure, je ne vois aucune donnée, seulement des zéros. Comment résoudre ce problème ?
 
 Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant aucune donnée, vous pouvez effectuer quelques vérifications :
 
@@ -73,6 +73,6 @@ Si vous êtes parvenu à créer un rapport Workspace, qui ne comporte cependant 
 
 +++
 
-+++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
++++En tant qu’utilisateur ou utilisatrice en lecture seule, quelles actions puis-je effectuer dans Analysis Workspace ?
 Lorsqu’un projet est partagé en lecture seule, toutes les fonctions et fonctionnalités d’édition sont complètement désactivées et les destinataires peuvent uniquement modifier le menu déroulant pour appliquer un filtre au panneau d’une manière prédéfinie.
 +++
