@@ -48,7 +48,7 @@ alloy("configure", {
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Sélectionnez la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL  Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+1. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi SSL].
 
 Si ce champ n’est pas renseigné, la valeur par défaut est celle indiquée dans [!UICONTROL Serveur de suivi]. Si [!UICONTROL Serveur de suivi SSL] et [!UICONTROL Serveur de suivi] sont tous deux vides, la valeur par défaut est `[rsid].data.adobedc.net`.
@@ -69,7 +69,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de plusieurs facteurs :
 
-* Votre participation au programme de certificat géré par Adobe [](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
+* Votre participation au programme de certificat géré par Adobe [&#128279;](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert)
 * Si le service d’identités [Adobe Experience Cloud est implémenté et correctement configuré](https://experienceleague.adobe.com/en/docs/id-service/using/home)
 
 **Si votre entreprise participe au programme de certificat géré par Adobe**, définissez la valeur sur le domaine propriétaire sélectionné lors de la configuration du certificat. En règle générale, cette valeur est un sous-domaine détenu par votre organisation. Par exemple : `data.example.com`. Les enregistrements CNAME de votre organisation redirigent ces données vers Adobe.
