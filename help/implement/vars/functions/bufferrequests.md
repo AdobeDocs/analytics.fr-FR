@@ -4,7 +4,7 @@ description: Améliorez la fiabilité de la capture des requêtes de suivi des l
 feature: Appmeasurement Implementation
 exl-id: f103deb4-f449-4325-b1a0-23e58a3c9ba0
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 325c035c0b5a9cc828be22ef7781d3b67f104476
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 6%
@@ -19,7 +19,7 @@ Lorsque vous appelez [`t()`](t-method.md) ou [`tl()`](tl-method.md) sur une page
 
 >[!TIP]
 >
->La date et l’heure des requêtes mises en mémoire tampon sont partagées avec la page d’envoi des données. Si vous souhaitez plus de précision à la seconde exacte où une requête mise en mémoire tampon est enregistrée, vous pouvez définir la variable de page [`timestamp`](../page-vars/timestamp.md) avant de mettre la requête en mémoire tampon. Si vous utilisez cette variable, assurez-vous que la variable [Horodatages facultatifs](/help/technotes/timestamps-optional.md) est activée. Si ce n’est pas le cas, tous les accès horodatés sont définitivement perdus.
+>La date et l’heure des requêtes mises en mémoire tampon sont partagées avec la page d’envoi des données. Si vous souhaitez plus de précision à la seconde exacte où une requête mise en mémoire tampon est enregistrée, vous pouvez définir la variable de page [`timestamp`](../page-vars/timestamp.md) avant de mettre la requête en mémoire tampon. Si vous utilisez cette variable, assurez-vous que la variable [Horodatages facultatifs](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md) est activée. Si ce n’est pas le cas, tous les accès horodatés sont définitivement perdus.
 
 ## Limites
 

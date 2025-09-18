@@ -4,9 +4,9 @@ title: Étiquettes relatives à la confidentialité des données pour les variab
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '3760'
+source-wordcount: '3758'
 ht-degree: 100%
 
 ---
@@ -128,7 +128,7 @@ Autre exemple, vous pouvez avoir un ID de gestion de la relation client qui est 
 
 >[!CAUTION]
 >
->Les espaces de noms « visitorId » et « customVisitorId » sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant visiteur du client Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
+>Les espaces de noms `visitorId` et `customVisitorId` sont réservés à l’identification du cookie de suivi hérité d’Analytics et de l’identifiant de visite du client ou de la cliente Analytics. N’utilisez pas ces espaces de noms pour les variables de trafic ou de conversion personnalisées.
 
 ## Types de variables et les étiquettes de confidentialité des données prises en charge {#variable-types}
 

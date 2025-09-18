@@ -4,10 +4,10 @@ description: Découvrez les avantages et les conditions requises pour utiliser u
 feature: Implementation Basics
 exl-id: fa949b1e-80bd-41cf-a294-c840503b568f
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 96%
 
 ---
 
@@ -44,7 +44,7 @@ Suivez les instructions générales suivantes pour comprendre le processus de mi
    >Assurez-vous que toute variable personnalisée donnée est utilisée de manière similaire dans les domaines. N’utilisez pas la même eVar ou le même événement à des fins différentes sur vos sites.
 1. Assurez-vous que chaque domaine comporte une couche de données pour simplifier la collecte des données. Les données peuvent toujours être collectées sans couche de données, mais la fiabilité et la longévité de votre mise en œuvre diminuent, en particulier lors de la refonte de votre site.
 1. Utilisez des balises dans Adobe Experience Platform pour implémenter Analytics. Les différents sites nécessiteront probablement différents éléments de données. Utilisez des règles spécifiques à chaque domaine pour vous assurer que chaque élément de données est correctement renseigné, puis affectez ces éléments de données à leurs eVars et événements respectifs. Reportez-vous à la [présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
-1. Incluez le [service Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et utilisez la fonction [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=fr). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs effectuent des clics d’un domaine à un autre.
+1. Incluez le service [Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) et utilisez la fonction [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=fr). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs effectuent des clics d’un domaine à un autre.
 
 ## Modification d’une mise en œuvre existante avec une suite de rapports globale
 
@@ -55,7 +55,7 @@ Le processus de transfert d’une mise en œuvre existante sur plusieurs sites v
 3. Suivez les étapes ci-dessus (créez une suite de rapports, rassemblez les exigences de création de rapports dans un document de conception de solution et établissez une couche de données sur chaque site). Lors de l’implémentation de balises dans Adobe Experience Platform, validez votre implémentation à l’aide d’une version de développement de votre site web.
 4. Une fois que vous avez confirmé que votre implémentation fonctionne en développement, poussez votre implémentation de balises en direct à la date de basculement.
 
-## Pages connexes
-
-[Passage du balisage multisuite à une suite de rapports globale et à des suites de rapports virtuelles](../../components/vrs/vrs-considerations.md)
-[Comparaison des cumuls et des suites de rapports globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[!MORELIKETHIS]
+>
+>[Balisage multisuite remplacé par une suite de rapports globale et des suites de rapports virtuelles](../../components/vrs/vrs-considerations.md)
+>>[Comparaison des cumuls et des suites de rapports globales](../../admin/tools/manage-rs/rollup-report-suite.md)

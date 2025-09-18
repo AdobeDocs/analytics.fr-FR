@@ -1,14 +1,14 @@
 ---
-description: L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils. La fonction d’identification des visiteurs sur plusieurs appareils utilise la variable d’identifiant visiteur, s.visitorID, pour associer des visiteurs.
+description: L’identification des visiteurs sur plusieurs appareils vous aide à connecter des visiteurs sur plusieurs appareils.
 keywords: Mise en œuvre d’Analytics
 subtopic: Visitors
 title: Connexion des utilisateurs à l’ensemble des appareils
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '383'
 ht-degree: 95%
 
 ---
@@ -32,4 +32,4 @@ Une fois que le client s’est connecté à partir de chaque appareil, il est li
 L’utilisation de votre propre identifiant visiteur personnalisé vous permet de mieux contrôler la manière dont les visiteurs sont identifiés, mais ses limites s’appliquent.
 
 * **La déduplication des visiteurs n’est pas rétroactive** : si un visiteur accède à votre site pour la première fois, puis s’authentifie, deux visiteurs uniques sont comptabilisés. Un visiteur unique compte pour l’identifiant Analytics générique généré automatiquement et un autre compte pour l’identifiant visiteur personnalisé lorsqu’il se connecte. Cette duplication des visiteurs uniques est présente à chaque fois qu’un visiteur utilise un nouvel appareil ou efface ses cookies.
-* **Incompatibilité avec le service Experience Cloud ID :** depuis l’introduction de l’identification des visiteurs sur plusieurs appareils, Adobe a publié des méthodes plus puissantes et plus fiables pour suivre les visiteurs sur différents appareils. Ces nouvelles méthodes d’identification ne sont pas compatibles avec le remplacement de l’identifiant visiteur personnalisé. Si vous prévoyez d’utiliser le service d’ID ou Analytics sur l’ensemble des appareils (CDA), Adobe recommande vivement de ne pas utiliser la variable `visitorID`.
+* **Incompatibilité avec le service Experience Cloud ID :** depuis l’introduction de l’identification des visiteurs sur plusieurs appareils, Adobe a publié des méthodes plus puissantes et plus fiables pour suivre les visiteurs sur différents appareils. Ces nouvelles méthodes d’identification ne sont pas compatibles avec le remplacement de l’identifiant visiteur personnalisé. Si vous prévoyez d’utiliser le service d’ID ou les analyses entre appareils (CDA), Adobe recommande vivement de ne pas utiliser la variable `visitorID`.

@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
-workflow-type: ht
+source-git-commit: 35675c2e65456a175d1516dd421b80d2af809286
+workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
                + [Signatures de robots courantes](tools/manage-rs/edit-settings/general/bot-removal/bot-signatures.md)
                + [Méthodes d’exclusion de robots](tools/manage-rs/edit-settings/general/bot-removal/bot-exclusion-methods.md)
             + [Paramètres de confidentialité](tools/manage-rs/edit-settings/general/privacy-settings.md)
-            + [Configuration des horodatages](tools/manage-rs/edit-settings/general/timestamp-optional.md)
+            + [Configuration des horodatages](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
             + Transfert côté serveur {#server-side-forwarding}
                + [Transfert côté serveur - Aperçu](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
                + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)

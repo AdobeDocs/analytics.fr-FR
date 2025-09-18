@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
-workflow-type: ht
-source-wordcount: '6461'
-ht-degree: 100%
+source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+workflow-type: tm+mt
+source-wordcount: '6482'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Septembre 2025** | |
+| Améliorations de l’identification des visiteurs | Clarification des bonnes pratiques relatives à l’identification des visiteurs, en se concentrant sur l’objectif des variables [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) et [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) dans AppMeasurement. |
 | **Août 2025** | |
 | Les noms des flux de données doivent être uniques. | Clarification de la raison pour laquelle [les noms des flux de données doivent être uniques](/help/export/analytics-data-feed/df-faq.md#must-feed-names-be-unique). |
 | Avertissements d’obsolescence | Ajout d’avertissements d’obsolescence aux articles dans les sections [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md) et [Importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md). |
@@ -338,7 +340,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 12 septembre 2019 | Mise à jour du document sur les [Totaux des mesures calculées](/help/components/calculated-metrics/cm-totals.md). |
 | 28 août 2019 | Nouvel article sur [les applications web progressives (PWA) pour Analytics](/help/technotes/pwa.md). |
 | 8 août 2019 | Nouvel article sur les [totaux des mesures calculées](/help/components/calculated-metrics/cm-totals.md). |
-| 8 août 2019 | Clarification des [données de session horodatées](/help/admin/tools/manage-rs/edit-settings/general/timestamp-optional.md). |
+| 8 août 2019 | Clarification des [données de session horodatées](/help/admin/tools/manage-rs/edit-settings/general/timestamp-configuration.md). |
 | 8 août 2019 | Dans Workspace, Adobe a augmenté la limite des éléments pouvant être placés dans un filtre déroulant statique de 50 à 200. Cette amélioration prend en charge divers cas d’utilisation, tels que l’ajout à un filtre de tous les pays (195) ou de tous les États et provinces (52). |
 | 2 août 2019 | Mise à jour majeure du [glossaire Analytics](/help/technotes/terms.md). |
 | 22 juillet 2019 | Ajout du modèle Magento : Marketing et Commerce à la documentation sur les [modèles Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). |

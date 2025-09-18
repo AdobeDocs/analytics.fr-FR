@@ -3,10 +3,10 @@ title: Visiteurs uniques
 description: Nombre d’ID de visiteur ou de visiteuse uniques.
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 93099d36a65ca2bf16fbd6342f01bfecdc8c798e
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ Cette mesure comptabilise le nombre d’ID de visiteur unique pour un élément 
 | --- | --- | --- |
 | 1 | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
 | 2 | `aid` | Le visiteur a un cookie [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
-| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) existant. Défini lors de l’implémentation, à l’aide du service [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). |
+| 3 | `mid` | Le visiteur a un cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) existant. Définissez sur les implémentations à l’aide du service d’identités Adobe Experience Cloud [](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Adobe recommande d’utiliser le service d’ID pour toutes les implémentations lorsque cela est possible. |
 | 4 | `fid` | Le visiteur a un cookie [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) existant, ou `aid` et `mid` ne peuvent être définis pour aucune raison. |
 | 5 | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. |
 

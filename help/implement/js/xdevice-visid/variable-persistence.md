@@ -5,10 +5,10 @@ title: Attribution et persistance
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
-* Lorsque la variable `s.visitorID` est définie et envoyée sur un accès, Adobe recherche les autres profils du visiteur ayant un identifiant visiteur correspondant.
+* Lorsque la variable `visitorID` est définie et envoyée sur un accès, Adobe recherche tout autre profil de visiteur avec un identifiant visiteur correspondant.
 * Si un profil existe, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
 * Si aucun identifiant visiteur correspondant n’est trouvé, un nouveau profil est créé.
 
@@ -33,12 +33,12 @@ L’exemple ci-dessous explique comment les données sont envoyées à Adobe Ana
 * `eVar16` expire au bout d’1 jour et `evar17` expire à la fin de la visite.
 * La colonne `post_visitor_id` représente le profil stocké par Adobe Analytics. Les colonnes de publication sont généralement affichées dans les flux de données. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation Exportation.
 * Les colonnes `post_evar16` et `post_evar17` affichent la persistance des eVars.
-* `cust_visid` représente un jeu de valeurs dans `s.visitorID`.
+* `cust_visid` représente un jeu de valeurs dans `visitorID`.
 * Chaque ligne correspond à un « accès », une seule demande envoyée aux serveurs de collecte de données d’Adobe Analytics.
 
 ![Exemple 1 sur plusieurs appareils](assets/xdevice_first.jpg)
 
-Lors de la première connexion de données contenant une valeur `s.visitorID` précédemment non reconnue (`u999` ci-dessus), un nouveau profil est créé. Les valeurs persistantes du profil précédent sont transférées vers le nouveau profil.
+Lors de la première connexion de données contenant une valeur `visitorID` précédemment non reconnue (`u999` ci-dessus), un nouveau profil est créé. Les valeurs persistantes du profil précédent sont transférées vers le nouveau profil.
 
 * Les eVars définies pour expirer à la fin de la visite ne sont pas copiées vers le profil authentifié. Notez que la valeur `car` ci-dessus n’est pas conservée.
 * Les eVars définies pour expirer selon d’autres mesures sont copiées vers le profil authentifié. Notez que la valeur `apple` n’est pas conservée.
