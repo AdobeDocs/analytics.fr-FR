@@ -5,18 +5,22 @@ title: Envoyer Et Planifier Des Projets
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: e478da9ae80e5534fcfd77ced3864d7f31ef748d
+source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 28%
+source-wordcount: '498'
+ht-degree: 25%
 
 ---
 
 # Envoyer et planifier des projets
 
-Vous pouvez envoyer des projets Adobe Analytics sous forme de fichiers à des utilisateurs sélectionnés par e-mail. Vous pouvez envoyer des fichiers ad hoc ou configurer les fichiers à envoyer selon un planning. Les fichiers peuvent être envoyés au format CSV ou PDF.
+Vous pouvez envoyer des projets Adobe Analytics sous forme de fichiers à des utilisateurs sélectionnés par e-mail. Vous pouvez envoyer des fichiers ad hoc ou configurer les fichiers à envoyer selon un planning.
 
-Toutes les balises appliquées au projet sont automatiquement appliquées à l’export.
+Tenez compte des points suivants lors de l’envoi de fichiers :
+
+* Les fichiers peuvent être envoyés au format CSV ou PDF.
+
+* Toutes les balises appliquées au projet sont automatiquement appliquées à l’export.
 
 D’autres méthodes d’exportation des données Adobe Analytics sont également disponibles, comme décrit dans la section [Présentation de l’exportation](/help/export/home.md).
 
@@ -38,7 +42,7 @@ Pour envoyer un fichier ad hoc aux destinataires par e-mail :
 
 ## Planifier l’export de fichier {#schedule}
 
-Pour envoyer un fichier selon un planning aux destinataires par e-mail
+Pour envoyer un fichier selon un planning aux destinataires par e-mail :
 
 1. Sélectionnez **[!UICONTROL Partager] > [!UICONTROL Planifier l’exportation de fichier]**.
 1. Spécifiez le type de fichier :
