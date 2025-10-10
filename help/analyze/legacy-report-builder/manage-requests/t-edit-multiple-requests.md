@@ -49,4 +49,4 @@ Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite
 
 Regardez cette vidéo pour découvrir le processus :
 
-https://video.tv.adobe.com/v/25445/?quality=12
+https://video.tv.adobe.com/v/40101/?quality=12&captions=fre_fr

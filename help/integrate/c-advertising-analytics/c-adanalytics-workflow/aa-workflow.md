@@ -15,7 +15,7 @@ ht-degree: 41%
 Le workflow de configuration d’Advertising Analytics comprend les étapes suivantes :
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/39123/?quality=12&captions=fre_fr)
 -->
 
 1. [Activation du reporting Advertising Analytics par suite de rapports](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Active le compte rendu des performances [!UICONTROL Advertising Analytics] pour les suites de rapports activées avec Experience Cloud.

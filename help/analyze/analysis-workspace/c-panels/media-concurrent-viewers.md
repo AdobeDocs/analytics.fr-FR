@@ -56,7 +56,7 @@ Dans Analysis Workspace, les visiteurs et visiteuses simultanés représentent 
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Visiteurs et visiteuses simultanés de médias](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panneau Visiteurs et visiteuses simultanés de médias](https://video.tv.adobe.com/v/342836?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342836/?quality=12&captions=fre_fr)
 
 ## Panel Inputs {#Input}
 

@@ -36,7 +36,7 @@ Les ressources suivantes vous aident à comprendre le workflow de base de l’ob
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigation dans l’interface du flux de données](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigation dans l’interface du flux de données](https://video.tv.adobe.com/v/3428562?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigation dans
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rechercher votre identifiant de flux de données](https://video.tv.adobe.com/v/335747?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rechercher votre identifiant de flux de données](https://video.tv.adobe.com/v/3418480?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]

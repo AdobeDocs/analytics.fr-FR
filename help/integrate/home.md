@@ -21,7 +21,7 @@ Ce guide porte sur l’intégration de plusieurs solutions Adobe Experience Clo
 
 >[!BEGINSHADEBOX]
 
-Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics pour Advertising Cloud](https://video.tv.adobe.com/v/27237?quality=12&learn=on){target="_blank"}.
+Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics pour Advertising Cloud](https://video.tv.adobe.com/v/327663?quality=12&learn=on&captions=fre_fr){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

@@ -58,7 +58,7 @@ Les lignes dynamiques et statiques se comportent différemment dans la ligne de 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Réorganiser des lignes statiques](https://video.tv.adobe.com/v/31319?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Réorganiser des lignes statiques](https://video.tv.adobe.com/v/33606?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

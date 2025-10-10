@@ -25,7 +25,7 @@ Les informations suivantes indiquent aux éditeurs et éditrices des données Ad
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance](https://video.tv.adobe.com/v/38073?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -130,7 +130,7 @@ Le paramètre est *activé* par défaut. Désélectionnez l’option si vous ne 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisations](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisations](https://video.tv.adobe.com/v/3445768?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Les diapositives détaillées personnalisées vous permettent d’être encore p
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vues détaillées personnalisées](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vues détaillées personnalisées](https://video.tv.adobe.com/v/3413787?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Si, par exemple, vous cherchez à augmenter votre trafic web, la mesure la plus 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer des histoires de données](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer des histoires de données](https://video.tv.adobe.com/v/3420560?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

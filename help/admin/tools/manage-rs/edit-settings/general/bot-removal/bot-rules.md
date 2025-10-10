@@ -34,7 +34,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct p
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurer des règles de robots](https://video.tv.adobe.com/v/335738/?quality=12){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurer des règles de robots](https://video.tv.adobe.com/v/3418508/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

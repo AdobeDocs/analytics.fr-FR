@@ -18,7 +18,7 @@ Dans un flux interdimensionnel, vous pouvez examiner le cheminement des utilisat
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flux interdimensionnels](https://video.tv.adobe.com/v/24041?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Flux interdimensionnels](https://video.tv.adobe.com/v/327470?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
