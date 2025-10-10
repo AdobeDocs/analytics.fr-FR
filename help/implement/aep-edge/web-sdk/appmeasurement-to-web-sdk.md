@@ -81,7 +81,7 @@ Vous pouvez éventuellement définir d’autres propriétés dans la commande [`
 
 +++**4. Mettez à jour la logique de code pour utiliser une payload JSON**
 
-Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [ couche de données ](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
+Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [&#x200B; couche de données &#x200B;](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
 
 Pour envoyer des données à Adobe Analytics, la payload de Web SDK doit utiliser `data.__adobe.analytics` avec toutes les variables d’analyse définies dans cet objet. Les variables au sein de cet objet partagent des noms et des formats identiques à leurs équivalents de variables AppMeasurement. Par exemple, si vous définissez la variable `products`, ne la divisez pas en objets individuels comme vous le feriez avec XDM. Au lieu de cela, incluez-le en tant que chaîne, exactement comme si vous définissiez la variable `s.products` :
 

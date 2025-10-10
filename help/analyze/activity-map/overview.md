@@ -26,10 +26,10 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Région Activity Map .
 * **Recouvrement** : extension de navigateur qui vous permet d’afficher les données de clic superposées sur votre site web. Voir [Interface de l’extension Activity Map](overlay/overview.md) pour plus d’informations.
 * **Dimensions** : en plus de l’extension de recouvrement, Activity Map fournit plusieurs dimensions que vous pouvez utiliser dans Analysis Workspace.
-   * [Lien Activity Map ](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
-   * [Région Activity Map ](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
-   * [Page Activity Map ](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
-   * [Lien Activity Map par région ](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
+   * [Lien Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
+   * [Région Activity Map &#x200B;](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
+   * [Page Activity Map &#x200B;](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
+   * [Lien Activity Map par région &#x200B;](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
 
 ## Fonctionnalités et avantages
 

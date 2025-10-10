@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Pour configurer les dates de requête en temps réel :
 
-1. Assurez-vous que la création de rapports en temps réel est activée dans les [ Outils d’administration ](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
+1. Assurez-vous que la création de rapports en temps réel est activée dans les [&#x200B; Outils d’administration &#x200B;](/help/admin/tools/manage-rs/edit-settings/realtime/t-realtime-admin.md).
 1. Dans l’[!UICONTROL Assistant Requête : Étape 1], cliquez sur **[!UICONTROL Rapport en temps réel]** > **[!UICONTROL `<report type>`]**
 
    Par exemple, sélectionnez un rapport de trafic. Lorsque vous sélectionnez un type de rapport en temps réel, les options [!UICONTROL de sélection de la plage de temps] s’affichent.

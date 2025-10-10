@@ -29,7 +29,7 @@ Vous renseignez la variable de données contextuelles avec les valeurs appropri�
 * `ad_user_data` (1er caractère) et
 * `ad_personalization` (2e caractère).
 
-Voir [ Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) pour plus d’informations.
+Voir [&#x200B; Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) pour plus d’informations.
 
 Les valeurs possibles pour chacun de ces champs peuvent être :
 

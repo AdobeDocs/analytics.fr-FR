@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Dimensions de l’analyse vocale
 
-Lorsque vous activez [!UICONTROL Voix et robots de conversation] dans [[!UICONTROL Rapports d’application]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md), les dimensions (et [mesures](../metrics/voice-metrics.md) suivantes sont créées. Vous pouvez utiliser des [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) pour les définir sur la valeur de chaîne souhaitée. Lorsqu’elles sont activées dans les paramètres de la suite de rapports, les [ Règles de traitement ](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) sont automatiquement créées pour mapper les dimensions d’analyse vocale à la variable de données contextuelles qui leur est associée.
+Lorsque vous activez [!UICONTROL Voix et robots de conversation] dans [[!UICONTROL Rapports d’application]](/help/admin/tools/manage-rs/edit-settings/app-reporting.md), les dimensions (et [mesures](../metrics/voice-metrics.md) suivantes sont créées. Vous pouvez utiliser des [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) pour les définir sur la valeur de chaîne souhaitée. Lorsqu’elles sont activées dans les paramètres de la suite de rapports, les [&#x200B; Règles de traitement &#x200B;](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) sont automatiquement créées pour mapper les dimensions d’analyse vocale à la variable de données contextuelles qui leur est associée.
 
 | Nom de la dimension | Description | Variable de données contextuelles |
 | --- | --- | --- |

@@ -38,7 +38,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
 1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
 
-   ![Capture d’écran de l’étape 1 de l’Assistant Requête mettant en surbrillance l’icône Paramètres de contrôle. ](assets/date_range_control.png)
+   ![Capture d’écran de l’étape 1 de l’Assistant Requête mettant en surbrillance l’icône Paramètres de contrôle. &#x200B;](assets/date_range_control.png)
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez tous les éléments de la période que vous souhaitez afficher dans le contrôle interactif. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 

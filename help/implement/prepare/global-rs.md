@@ -58,4 +58,4 @@ Le processus de transfert d’une mise en œuvre existante sur plusieurs sites v
 >[!MORELIKETHIS]
 >
 >[Balisage multisuite remplacé par une suite de rapports globale et des suites de rapports virtuelles](../../components/vrs/vrs-considerations.md)
->>[Comparaison des cumuls et des suites de rapports globales](../../admin/tools/manage-rs/rollup-report-suite.md)
+>&#x200B;>[Comparaison des cumuls et des suites de rapports globales](../../admin/tools/manage-rs/rollup-report-suite.md)

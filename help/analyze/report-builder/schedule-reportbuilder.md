@@ -87,7 +87,7 @@ Utilisez le bouton Planifier dans le hub Report Builder pour créer rapidement u
 
 ## Planifier un classeur converti {#converted}
 
-1. Planifiez un classeur hérité [ converti ](/help/analyze/report-builder/convert-workbooks.md).
+1. Planifiez un classeur hérité [&#x200B; converti &#x200B;](/help/analyze/report-builder/convert-workbooks.md).
 
    Une fenêtre contextuelle s’affiche, vous demandant si vous souhaitez utiliser les métadonnées de planification de l’ancien classeur pour créer une nouvelle tâche planifiée.
 
@@ -110,4 +110,4 @@ Vous pouvez également envoyer le classeur une seule fois.
 
 ## Gérer les classeurs planifiés
 
-Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [ Gérer les classeurs planifiés ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
+Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [&#x200B; Gérer les classeurs planifiés &#x200B;](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

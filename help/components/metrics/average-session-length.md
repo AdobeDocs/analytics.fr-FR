@@ -16,4 +16,4 @@ La mesure « Durée de session moyenne (mobile) » [mobile](overview.md) indique
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est calculée à l’aide du [ ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)Mesures de cycle de vie`'Total Session length' / ('Launches' - 'First launches'`.
+Cette mesure est calculée à l’aide du [&#x200B; &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)Mesures de cycle de vie`'Total Session length' / ('Launches' - 'First launches'`.

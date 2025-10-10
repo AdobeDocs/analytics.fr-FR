@@ -22,7 +22,7 @@ Affichez les détails du statut d’une demande et utilisez la description des c
 
 Le [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée du statut de toutes les requêtes que vous avez créées pour toutes les feuilles ou pour une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit sur une cellule disponible dans la feuille de calcul Excel qui contient les requêtes précédentes.
 
-Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur le **** Gérer![](assets/edit_request.gif) de la barre d’outils de Report Builder.
+Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur le **&#x200B;**&#x200B;Gérer![](assets/edit_request.gif) de la barre d’outils de Report Builder.
 
 >[!NOTE]
 >

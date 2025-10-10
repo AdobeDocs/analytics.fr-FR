@@ -26,7 +26,7 @@ La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la 
 
 ## Renseignement des eVars avec des données
 
-Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` ](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `v1` collecte des données pour eVar1, tandis que le paramètre de chaîne de requête `v222` collecte des données pour eVar222.
+Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `v1` collecte des données pour eVar1, tandis que le paramètre de chaîne de requête `v222` collecte des données pour eVar222.
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `eVar1` - `eVar250`. Consultez [eVar](/help/implement/vars/page-vars/evar.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 

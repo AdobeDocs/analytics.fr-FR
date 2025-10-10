@@ -30,17 +30,17 @@ Les mises à jour précédentes de ce tableau se trouvent dans l’historique [c
 | Chemin du champ de l’objet de données | Variable et description Analytics |
 | --- | --- |
 | `data.__adobe.analytics.browserHeight` | La dimension [Hauteur du navigateur](../../components/dimensions/browser-height.md). Le `data.__adobe.analytics.bh` de champs abrégé est également pris en charge. |
-| `data.__adobe.analytics.browserWidth` | La dimension [ Largeur du navigateur ](../../components/dimensions/browser-width.md). Le `data.__adobe.analytics.bw` de champs abrégé est également pris en charge. |
+| `data.__adobe.analytics.browserWidth` | La dimension [&#x200B; Largeur du navigateur &#x200B;](../../components/dimensions/browser-width.md). Le `data.__adobe.analytics.bw` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.campaign` | La dimension [Code de suivi](../../components/dimensions/tracking-code.md). Le `data.__adobe.analytics.v0` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.channel` | La dimension [Section du site](../../components/dimensions/site-section.md). Le `data.__adobe.analytics.ch` de champs abrégé est également pris en charge. |
-| `data.__adobe.analytics.colorDepth` | La dimension [ Profondeur de la couleur ](../../components/dimensions/color-depth.md). Le `data.__adobe.analytics.c` de champs abrégé est également pris en charge. |
+| `data.__adobe.analytics.colorDepth` | La dimension [&#x200B; Profondeur de la couleur &#x200B;](../../components/dimensions/color-depth.md). Le `data.__adobe.analytics.c` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.connectionType` | La dimension [Type de connexion](../../components/dimensions/connection-type.md). Le `data.__adobe.analytics.ct` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.contextData` | [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md). |
 | `data.__adobe.analytics.cookiesEnabled` | La dimension [Prise en charge des cookies](../../components/dimensions/cookie-support.md). Le `data.__adobe.analytics.k` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.currencyCode` | Variable d’implémentation [`currencyCode`](../vars/config-vars/currencycode.md). Le `data.__adobe.analytics.cc` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.dynamicVariablePrefix` | Variable d’implémentation [`dynamicVariablePrefix`](../vars/config-vars/dynamicvariableprefix.md). |
 | `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` | [dimensions eVar](../../components/dimensions/evar.md). Les champs courts `data.__adobe.analytics.v1` - `data.__adobe.analytics.v250` sont également pris en charge. |
-| `data.__adobe.analytics.events` | [ Événements personnalisés ](../../components/metrics/custom-events.md). Le format de ce champ est similaire à celui de la variable d’implémentation [`events`](../vars/page-vars/events/events-overview.md). |
+| `data.__adobe.analytics.events` | [&#x200B; Événements personnalisés &#x200B;](../../components/metrics/custom-events.md). Le format de ce champ est similaire à celui de la variable d’implémentation [`events`](../vars/page-vars/events/events-overview.md). |
 | `data.__adobe.analytics.javaEnabled` | La dimension [Compatible Java](../../components/dimensions/java-enabled.md). Le `data.__adobe.analytics.v` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.latitude` | Permet de définir les dimensions du cycle de vie mobile [Emplacement](../../components/dimensions/lifecycle-dimensions.md). Le `data.__adobe.analytics.lat` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.linkName` | La dimension [Lien personnalisé](../../components/dimensions/custom-link.md), [Lien de téléchargement](../../components/dimensions/download-link.md) ou [Lien de sortie](../../components/dimensions/exit-link.md) selon la valeur dans `data.__adobe.analytics.linkType`. Le `data.__adobe.analytics.pev2` de champs abrégé est également pris en charge. |
@@ -55,9 +55,9 @@ Les mises à jour précédentes de ce tableau se trouvent dans l’historique [c
 | `data.__adobe.analytics.purchaseID` | Variable d’implémentation [`purchaseID`](../vars/page-vars/purchaseid.md). |
 | `data.__adobe.analytics.products` | Variable d’implémentation [`products`](../vars/page-vars/products.md), avec une mise en forme similaire. |
 | `data.__adobe.analytics.referrer` | La dimension [Référent](/help/components/dimensions/referrer.md). |
-| `data.__adobe.analytics.resolution` | La dimension [ Résolution du moniteur ](../../components/dimensions/monitor-resolution.md). Le `data.__adobe.analytics.s` de champs abrégé est également pris en charge. |
+| `data.__adobe.analytics.resolution` | La dimension [&#x200B; Résolution du moniteur &#x200B;](../../components/dimensions/monitor-resolution.md). Le `data.__adobe.analytics.s` de champs abrégé est également pris en charge. |
 | `data.__adobe.analytics.server` | La dimension [Serveur](/help/components/dimensions/server.md). |
 | `data.__adobe.analytics.transactionID` | Variable d’implémentation [`transactionID`](../vars/page-vars/transactionid.md). Le `data.__adobe.analytics.xact` de champs abrégé est également pris en charge. |
-| `data.__adobe.analytics.zip` | La dimension [ Code postal ](../../components/dimensions/zip-code.md). |
+| `data.__adobe.analytics.zip` | La dimension [&#x200B; Code postal &#x200B;](../../components/dimensions/zip-code.md). |
 
 {style="table-layout:auto"}

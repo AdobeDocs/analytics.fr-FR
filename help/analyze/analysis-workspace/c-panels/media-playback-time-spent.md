@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -126,8 +126,8 @@ La seule mesure pouvant être utilisée dans ce panneau est Durée de la lecture
 >[!MORELIKETHIS]
 >
 >[Créer un panneau](/help//analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
->>[Panneau Visiteurs et visiteuses simultanés de médias](media-concurrent-viewers.md)
+>&#x200B;>[Panneau Audience moyenne par minute de média](average-minute-audience-panel.md)
+>&#x200B;>[Panneau Visiteurs et visiteuses simultanés de médias](media-concurrent-viewers.md)
 >
 
 <!--

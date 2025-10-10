@@ -33,7 +33,7 @@ Les colonnes suivantes sont disponibles dans le gestionnaire des ensembles de cl
 * **[!UICONTROL Ensemble de classifications]** : le nom de l’ensemble de classifications. Cliquez sur le nom d’un ensemble de classifications pour modifier ses [paramètres](settings.md).
 * **[!UICONTROL Abonnements]** : le nombre d’abonnements auxquels cet ensemble de classifications s’applique.
 * **[!UICONTROL Classifications]** : le nombre de dimensions de classification que l’ensemble de classifications contient.
-* **[!UICONTROL Automatisé]** : détermine si l’ensemble de classifications est configuré pour importer automatiquement les données d’un emplacement cloud. L’automatisation peut être configurée dans le [ schéma ](schema.md) de l’ensemble de classifications.
+* **[!UICONTROL Automatisé]** : détermine si l’ensemble de classifications est configuré pour importer automatiquement les données d’un emplacement cloud. L’automatisation peut être configurée dans le [&#x200B; schéma &#x200B;](schema.md) de l’ensemble de classifications.
 * **[!UICONTROL Dernière modification]** : date et heure de la dernière modification de l’ensemble de classifications.
 
 ## Créer ou modifier des options

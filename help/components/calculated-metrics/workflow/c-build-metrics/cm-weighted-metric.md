@@ -18,7 +18,7 @@ Cet article présente des exemples de mesures filtrées et pondérées.
 
 Cette mesure filtrée simple affiche le taux de rebond, uniquement pour les pages comportant plus de 100 visites :
 
-![ Taux de rebond filtré ](assets/filtered-bounce-rate.png){zoomable="yes"}
+![&#x200B; Taux de rebond filtré &#x200B;](assets/filtered-bounce-rate.png){zoomable="yes"}
 
 Gardez à l’esprit que cette formule dépend d’une période cohérente. Si vous exécutez un rapport pour un seul jour, toute page comportant plus de 20 visiteurs présente un vif intérêt. Si vous exécutez pour un mois, vous souhaitez sans doute que le filtre inclut plus de visites.
 

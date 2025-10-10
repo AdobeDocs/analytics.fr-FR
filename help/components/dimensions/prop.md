@@ -24,7 +24,7 @@ Si vous disposez d’un [document de conception de solution](/help/implement/pre
 
 ## Renseignement des props avec des données
 
-Chaque prop collecte des données de la chaîne de requête [`c1` - `c75` ](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `c1` collecte des données pour prop1, tandis que le paramètre de chaîne de requête `c68` collecte des données pour prop68.
+Chaque prop collecte des données de la chaîne de requête [`c1` - `c75` &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `c1` collecte des données pour prop1, tandis que le paramètre de chaîne de requête `c68` collecte des données pour prop68.
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `prop1` - `prop75`. Consultez [prop](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 

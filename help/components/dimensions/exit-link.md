@@ -16,7 +16,7 @@ La [dimension](overview.md) « Lien de sortie » indique les noms des liens de s
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension collecte les données de la [`pev2` chaîne de requête ](/help/implement/validate/query-parameters.md) dans les demandes d’image pour les accès qui contiennent également la chaîne de requête `pe` avec la valeur `lnk_e`. Si la chaîne de requête `pe` a une valeur différente dans l’accès, cette dimension ne collecte pas de données. La longueur maximale de cette dimension est de 100 octets.
+Cette dimension collecte les données de la [`pev2` chaîne de requête &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image pour les accès qui contiennent également la chaîne de requête `pe` avec la valeur `lnk_e`. Si la chaîne de requête `pe` a une valeur différente dans l’accès, cette dimension ne collecte pas de données. La longueur maximale de cette dimension est de 100 octets.
 
 Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMeasurement, envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md) avec un argument de type de lien `"e"`. Renseignez l’argument du nom de lien avec la valeur souhaitée.
 

@@ -1,6 +1,6 @@
 ---
 title: Dimensions des métadonnées vidéo des services de streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Métadonnées vidéo ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées vidéo &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e

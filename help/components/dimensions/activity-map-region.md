@@ -17,7 +17,7 @@ La [dimension](overview.md) « Région Activity Map » affiche les régions de v
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données du [ ](/help/implement/vars/page-vars/contextdata.md)Variable de données contextuelles`c.a.activitymap.region`. Si votre implémentation utilise [Activity Map](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données du [&#x200B; &#x200B;](/help/implement/vars/page-vars/contextdata.md)Variable de données contextuelles`c.a.activitymap.region`. Si votre implémentation utilise [Activity Map](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
 
 Pour un lien donné sur lequel l’utilisateur a cliqué, vérifiez les éléments suivants dans l’élément DOM parent (dans l’ordre) :
 

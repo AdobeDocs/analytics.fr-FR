@@ -12,7 +12,7 @@ ht-degree: 81%
 
 # Largeur du navigateur
 
-La dimension « Largeur du navigateur - compartimenté »[](overview.md) affiche la largeur de la fenêtre du navigateur, classée dans des groupes prédéfinis. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. Comprendre la largeur sur laquelle votre contenu est généralement affiché peut vous permettre d’optimiser ce contenu.
+La dimension « Largeur du navigateur - compartimenté »[&#128279;](overview.md) affiche la largeur de la fenêtre du navigateur, classée dans des groupes prédéfinis. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. Comprendre la largeur sur laquelle votre contenu est généralement affiché peut vous permettre d’optimiser ce contenu.
 
 Cette dimension est différente de la largeur d’écran. La largeur du navigateur correspond au nombre de pixels dans l’espace du navigateur consultable, tandis que la largeur d’écran correspond à la largeur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 

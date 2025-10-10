@@ -12,7 +12,7 @@ ht-degree: 60%
 
 # Pays
 
-La dimension « Pays »[ indique ](overview.md) pays d’où provient l’accès. Cette dimension est utile pour déterminer les pays les plus fréquents depuis lesquels les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour vous concentrer sur les efforts de marketing dans ces pays ou vous assurer que l’expérience de votre site est optimale dans les pays qui ont des langues principales différentes.
+La dimension « Pays »[&#x200B; indique &#x200B;](overview.md) pays d’où provient l’accès. Cette dimension est utile pour déterminer les pays les plus fréquents depuis lesquels les visiteurs accèdent à votre site. Vous pouvez utiliser ces données pour vous concentrer sur les efforts de marketing dans ces pays ou vous assurer que l’expérience de votre site est optimale dans les pays qui ont des langues principales différentes.
 
 ## Renseignement de cette dimension avec des données
 

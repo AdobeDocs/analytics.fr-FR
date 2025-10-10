@@ -17,10 +17,10 @@ Vous pouvez utiliser le [SDK Web Adobe Experience Platform](https://experienc
 
 | | **Migration depuis AppMeasurement** | **Implémentation de Clean Web SDK** |
 | --- | --- | --- |
-| **Utiliser les balises** | [ Migration de l’extension Analytics vers l’extension Web SDK ](analytics-extension-to-web-sdk.md) | [Envoyer des données à Adobe Analytics à l’aide de l’extension Web SDK](web-sdk-tag-extension.md) |
+| **Utiliser les balises** | [&#x200B; Migration de l’extension Analytics vers l’extension Web SDK &#x200B;](analytics-extension-to-web-sdk.md) | [Envoyer des données à Adobe Analytics à l’aide de l’extension Web SDK](web-sdk-tag-extension.md) |
 | **Utiliser JavaScript** | [Migration d’AppMeasurement vers la bibliothèque JavaScript Web SDK](appmeasurement-to-web-sdk.md) | [Envoyer des données à Adobe Analytics à l’aide de la bibliothèque JavaScript Web SDK](web-sdk-javascript-library.md) |
 
-Si votre entreprise a besoin d’une nouvelle mise en œuvre de Web SDK et prévoit d’utiliser Customer Journey Analytics à l’avenir, Adobe recommande une mise en œuvre de Web SDK propre et utilisant votre propre schéma. Voir [ Ingestion de données via Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
+Si votre entreprise a besoin d’une nouvelle mise en œuvre de Web SDK et prévoit d’utiliser Customer Journey Analytics à l’avenir, Adobe recommande une mise en œuvre de Web SDK propre et utilisant votre propre schéma. Voir [&#x200B; Ingestion de données via Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
 
 ## Ressources supplémentaires
 

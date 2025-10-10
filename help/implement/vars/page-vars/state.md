@@ -15,7 +15,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Cette variable a été abandonnée et n’est pas une dimension disponible dans Analysis Workspace. Utilisez plutôt la dimension [ États américains ](/help/components/dimensions/us-states.md) , qu’AppMeasurement collecte automatiquement en fonction de la localisation du visiteur.
+>Cette variable a été abandonnée et n’est pas une dimension disponible dans Analysis Workspace. Utilisez plutôt la dimension [&#x200B; États américains &#x200B;](/help/components/dimensions/us-states.md) , qu’AppMeasurement collecte automatiquement en fonction de la localisation du visiteur.
 
 Dans les versions précédentes d’Adobe Analytics, la variable `state` était utilisée lorsque les visiteurs renseignaient les informations d’expédition sur les sites de vente au détail. Elle est fonctionnellement identique à une prop, mais n’est pas disponible dans Analysis Workspace.
 

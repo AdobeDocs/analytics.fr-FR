@@ -36,7 +36,7 @@ Pour créer une mesure calculée estimée pour la période concernée :
 
 7. Application côte à côte de la mesure « corrigée » dans un tableau à structure libre à tendance. Tous les jours en dehors de l’événement reflètent leur nombre de mesures normal, tandis que tous les jours affectés utilisent le décalage multiplicateur.
 
-   ![ Mesure corrigée ](assets/event_corrected.png)
+   ![&#x200B; Mesure corrigée &#x200B;](assets/event_corrected.png)
 
 8. Affichez les données dans une visualisation en ligne pour voir l’effet de la mesure corrigée.
 

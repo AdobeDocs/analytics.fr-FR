@@ -31,7 +31,7 @@ Les ressources suivantes vous aident à comprendre le workflow de base de l’ob
 * [Bonnes pratiques relatives aux flux de données](/help/export/analytics-data-feed/data-feeds-best-practices.md) : bonnes pratiques pour la création et la gestion des flux de données.
 * [Créer un flux de données](create-feed.md) : informations techniques relatives à la création d’un flux de données, expliquant les champs individuels de manière plus détaillée
 * [Gérer les flux de données](df-manage-feeds.md) : découvrez-en plus sur la navigation dans l’interface des flux de données
-* [Contenu du flux de données ](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le <!-- Is this still the output users can download from the destination? I aske Jun. --> de fichiers compressés.
+* [Contenu du flux de données &#x200B;](c-df-contents/datafeeds-contents.md) : comprendre ce qui se trouve dans le <!-- Is this still the output users can download from the destination? I aske Jun. --> de fichiers compressés.
 * [Définitions des colonnes de données](c-df-contents/datafeeds-reference.md) : une liste complète de l’ensemble des colonnes disponibles.
 
 >[!BEGINSHADEBOX]

@@ -26,7 +26,7 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Tableau à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Tableau à structure libre](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Tableau à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau à structure libre](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Le moyen le plus rapide de créer un tableau consiste à déposer les composants
 
 Si vous préférez d’abord ajouter plusieurs composants à votre tableau, puis effectuer le rendu des données, vous pouvez **[!UICONTROL activer le créateur de tableau]**. Une fois le créateur activé, vous pouvez faire glisser et déposer des dimensions, répartitions, mesures et filtres afin de créer des tableaux qui répondent à des problématiques plus complexes. Les données sont mises à jour une fois que vous avez sélectionné **[!UICONTROL Créer]**.
 
-![Créateur de tableau à structure libre affichant ](assets/table-builder.png)
+![Créateur de tableau à structure libre affichant &#x200B;](assets/table-builder.png)
 
 ## Interactions
 
@@ -135,8 +135,8 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totaux de table
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>&#x200B;>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>&#x200B;>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 

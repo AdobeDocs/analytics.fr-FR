@@ -98,7 +98,7 @@ La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est aff
 
 >[!IMPORTANT]
 >
->La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
+>La valeur _`<Advertising Analytics ID>`_(en **gras**&#x200B;ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
 
 **Chaîne de suivi pour les campagnes :**
 

@@ -28,7 +28,7 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | Attribut | Statut en lecture/écriture | Description |
 | --- | --- | --- |
 | **URL de la page** | Lecture + écriture | La dimension [URL de la page](/help/components/dimensions/page-url.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
-| **Nom de la page** | Lecture + écriture | La dimension [ Page ](/help/components/dimensions/page.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
+| **Nom de la page** | Lecture + écriture | La dimension [&#x200B; Page &#x200B;](/help/components/dimensions/page.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
 | **Identifiant de suite de rapports** | Lecture seule | Suite de rapports sur laquelle la règle de traitement est exécutée. Cette suite de rapports peut être différente de la suite de rapports initialement envoyée via AppMeasurement, par exemple lors de l’utilisation de règles VISTA. |
 | **Version du code AppMeasurement** | Lecture seule | Version de la bibliothèque AppMeasurement utilisée pour générer la demande d’image. |
 | **adresse IP** | Lecture seule | Adresse IP du visiteur. |
@@ -53,7 +53,7 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | **Campagne** | Lecture + écriture | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
 | **ID d’achat** | Lecture + écriture | Variable d’implémentation [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
 | **État** | Lecture + écriture | (Retiré) Variable d’implémentation [`state`](/help/implement/vars/page-vars/state.md). |
-| **Zip** | Lecture + écriture | La dimension [ Code postal ](/help/components/dimensions/zip-code.md). |
+| **Zip** | Lecture + écriture | La dimension [&#x200B; Code postal &#x200B;](/help/components/dimensions/zip-code.md). |
 | **Code de devise** | Lecture + écriture | Variable d’implémentation [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
 | **ID de transaction** | Lecture + écriture | Variable d’implémentation [`transactionID`](/help/import/data-sources/transactionid.md). |
 
@@ -71,7 +71,7 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 
 ## Variables contextuelles
 
-Toutes les [ variables de données contextuelles ](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
+Toutes les [&#x200B; variables de données contextuelles &#x200B;](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
 
 >[!IMPORTANT]
 >
@@ -86,8 +86,8 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | **Commandes** | En écriture seule | La mesure [Commandes](/help/components/metrics/orders.md). |
 | **Paniers** | En écriture seule | La mesure [Paniers](/help/components/metrics/carts.md). |
 | **Consultations du panier** | En écriture seule | La mesure [Vues du panier](/help/components/metrics/cart-views.md). |
-| **Passages en caisse** | En écriture seule | La mesure [ Passages en caisse ](/help/components/metrics/checkouts.md). |
+| **Passages en caisse** | En écriture seule | La mesure [&#x200B; Passages en caisse &#x200B;](/help/components/metrics/checkouts.md). |
 | **Ajouts au panier** | En écriture seule | La mesure [Ajouts au panier](/help/components/metrics/cart-additions.md). |
 | **Retraits du panier** | En écriture seule | La mesure [Retraits du panier](/help/components/metrics/cart-removals.md). |
-| **Événement 1-1000** | En écriture seule | [ Événements personnalisés ](/help/components/metrics/custom-events.md). |
+| **Événement 1-1000** | En écriture seule | [&#x200B; Événements personnalisés &#x200B;](/help/components/metrics/custom-events.md). |
 | **Consultations produits** | En écriture seule | La mesure [Vues des produits](/help/components/metrics/product-views.md). |

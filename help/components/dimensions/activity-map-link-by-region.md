@@ -17,7 +17,7 @@ La [dimension](overview.md) « Lien Activity Map par région » affiche une conc
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données des [ et ](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`Variables de données contextuelles`c.a.activitymap.region`. Ces deux valeurs sont concaténées et séparées par une barre verticale (`|`). Si votre implémentation utilise [Activity Map](/help/analyze/activity-map/overview.md), ces variables de données contextuelles collectent automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données des [&#x200B; et &#x200B;](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`Variables de données contextuelles`c.a.activitymap.region`. Ces deux valeurs sont concaténées et séparées par une barre verticale (`|`). Si votre implémentation utilise [Activity Map](/help/analyze/activity-map/overview.md), ces variables de données contextuelles collectent automatiquement les données lorsque l’utilisateur clique sur les liens.
 
 ## Éléments de dimension
 

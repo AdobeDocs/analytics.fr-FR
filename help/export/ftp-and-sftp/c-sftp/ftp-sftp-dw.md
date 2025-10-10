@@ -29,4 +29,4 @@ Pour envoyer une requête Data Warehouse par SFTP :
 1. Connectez-vous au site SFTP avec les mêmes informations d’identification que celles utilisées pour la requête Data Warehouse.
 1. Dans le répertoire racine, naviguez jusqu’au dossier nommé `.ssh` (s’il n’existe pas, créez-le) et placez-y le fichier `authorized_keys`.
 
-1. Complétez la requête Data Warehouse si vous ne l’avez pas déjà fait, comme décrit dans la section [ Configurer une destination de rapport pour une requête Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Complétez la requête Data Warehouse si vous ne l’avez pas déjà fait, comme décrit dans la section [&#x200B; Configurer une destination de rapport pour une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).

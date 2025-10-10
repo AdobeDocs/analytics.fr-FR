@@ -20,10 +20,10 @@ Cette section de la documentation porte sur l’activation des dimensions utilis
 
 Lorsque vous cliquez sur le bouton **[!UICONTROL Activer les rapports Activity Map]**, les dimensions suivantes sont créées :
 
-* [[!UICONTROL Lien Activity Map ]](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
-* [[!UICONTROL Région Activity Map ]](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
-* [[!UICONTROL Page Activity Map ]](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
-* [[!UICONTROL Lien Activity Map par région ]](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
+* [[!UICONTROL Lien Activity Map &#x200B;]](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
+* [[!UICONTROL Région Activity Map &#x200B;]](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
+* [[!UICONTROL Page Activity Map &#x200B;]](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
+* [[!UICONTROL Lien Activity Map par région &#x200B;]](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
 
 Une fois activée, votre implémentation peut commencer à envoyer des données à ces dimensions pour les utiliser dans [Analysis Workspace](/help/analyze/analysis-workspace/home.md) et la superposition de l’extension de navigateur [Browser](/help/analyze/activity-map/overlay/overview.md).
 

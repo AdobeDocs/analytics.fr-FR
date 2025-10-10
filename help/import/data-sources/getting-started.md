@@ -65,7 +65,7 @@ Vous pouvez suivre les étapes suivantes pour charger facilement des données d�
 1. Accédez à Analysis Workspace et créez un projet.
 1. Faites glisser eVar1 en tant que dimension vers la zone de travail de l’espace de travail et l’événement 1 en tant que mesure. Assurez-vous que la période Workspace inclut les dates que vous avez fournies dans la source de données.
 
-   ![ Exemple de rapport ](assets/success-report.png)
+   ![&#x200B; Exemple de rapport &#x200B;](assets/success-report.png)
 
 ## Étapes suivantes
 

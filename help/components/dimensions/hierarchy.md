@@ -20,7 +20,7 @@ Les hiérarchies sont des variables personnalisées que vous pouvez utiliser com
 
 ## Renseigner les hiérarchies avec des données
 
-Chaque hiérarchie collecte des données de la chaîne de requête [`h1` - `h5` ](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `h1` collecte des données pour Hiérarchie 1, tandis que le paramètre de chaîne de requête `h4` collecte des données pour Hiérarchie 4.
+Chaque hiérarchie collecte des données de la chaîne de requête [`h1` - `h5` &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `h1` collecte des données pour Hiérarchie 1, tandis que le paramètre de chaîne de requête `h4` collecte des données pour Hiérarchie 4.
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `hier1` - `hier5`. Consultez la section [hier](/help/implement/vars/page-vars/hier.md) dans le guide d’utilisation de l’implémentation pour obtenir des instructions de mise en œuvre.
 

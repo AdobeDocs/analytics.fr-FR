@@ -32,7 +32,7 @@ Les dimensions et mesures [!UICONTROL Rapports d’application] sont utilisées 
 
 Lorsque vous activez [!UICONTROL Rapports d’application], les dimensions suivantes sont disponibles :
 
-* [!UICONTROL  Nom de l’action ] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
+* [!UICONTROL &#x200B; Nom de l’action &#x200B;] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL ID de l’application]
 * [!UICONTROL Contenu d’acquisition]
 * [!UICONTROL Medium d’acquisition]
@@ -73,7 +73,7 @@ Lorsque vous activez le [!UICONTROL suivi de l’emplacement], les dimensions su
 
 * [!UICONTROL Balise principale] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Balise mineure] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
-* [!UICONTROL  Proximité de la balise ] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
+* [!UICONTROL &#x200B; Proximité de la balise &#x200B;] (avec les dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL UUID de balise] (avec dimensions [Entrée](/help/components/dimensions/entry-dimensions.md) et [Sortie](/help/components/dimensions/exit-dimensions.md))
 * [!UICONTROL Lieu (jusqu’à 10 km)]
 * [!UICONTROL Lieu (jusqu’à 100 m)]

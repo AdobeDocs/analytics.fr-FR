@@ -14,7 +14,7 @@ ht-degree: 19%
 
 La mesure calculée « Vitesse du contenu » vous permet de mesurer la manière dont une dimension (généralement [[!UICONTROL Page]](/help/components/dimensions/page.md)) contribue à ce que les utilisateurs passent du temps sur votre site web ou votre application.
 
-Cette mesure utilise l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation aux visites, chaque fois qu’une page est consultée, toutes les pages précédemment consultées au cours de la même visite sont également créditées pour la page vue. Cette formule signifie généralement que plus une page est consultée tôt au cours d’une visite, plus elle reçoit de crédit. (Voir [ Pages vues (Participation) | Visite) ou « Participation aux visites »](#page-views-participation--visit-or-visit-participation) pour plus d&#39;informations.)
+Cette mesure utilise l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation aux visites, chaque fois qu’une page est consultée, toutes les pages précédemment consultées au cours de la même visite sont également créditées pour la page vue. Cette formule signifie généralement que plus une page est consultée tôt au cours d’une visite, plus elle reçoit de crédit. (Voir [&#x200B; Pages vues (Participation) | Visite) ou « Participation aux visites »](#page-views-participation--visit-or-visit-participation) pour plus d&#39;informations.)
 
 ## Calcul
 

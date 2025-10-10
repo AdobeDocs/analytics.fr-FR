@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # Suivi du motif d’exclusion
 
-*Cette page fait référence à la [dimension](overview.md) qui vous permet de voir l’impact potentiel des données provenant de l’activation de certains paramètres de la suite de rapports. Il n&#39;est pas lié au service Opt-in de l&#39;ID Adobe Experience Cloud [](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr).*
+*Cette page fait référence à la [dimension](overview.md) qui vous permet de voir l’impact potentiel des données provenant de l’activation de certains paramètres de la suite de rapports. Il n&#39;est pas lié au service Opt-in de l&#39;ID Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr).*
 
 La dimension « Raison du désabonnement du suivi » sert d’aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation subirait un impact négatif si vous activiez [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) sous Paramètres de la suite de rapports.
 

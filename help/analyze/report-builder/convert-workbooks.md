@@ -49,7 +49,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workboo
 
 1. Un avertissement s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
 
-   ![ avertissement de mise à niveau ](assets/upgrade_warning.png)
+   ![&#x200B; avertissement de mise à niveau &#x200B;](assets/upgrade_warning.png)
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour poursuivre la mise à niveau.
 

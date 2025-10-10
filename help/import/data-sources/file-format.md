@@ -43,7 +43,7 @@ Lors du chargement de fichiers de source de données, des en-têtes de colonne s
 | --- | --- |
 | [Catégorie](/help/components/dimensions/category.md) | `Category` |
 | [eVar1 - eVar250](/help/components/dimensions/evar.md) | `Evar 1` - `Evar 250` |
-| [ Canal marketing ](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
+| [&#x200B; Canal marketing &#x200B;](/help/components/dimensions/marketing-channel.md) | `Marketing Channel` |
 | [Détails du canal marketing](/help/components/dimensions/marketing-detail.md) | `Marketing Channel Detail` |
 | [Produit](/help/components/dimensions/product.md) | `Product` |
 | [Code de suivi](/help/components/dimensions/tracking-code.md) | `Tracking Code` |

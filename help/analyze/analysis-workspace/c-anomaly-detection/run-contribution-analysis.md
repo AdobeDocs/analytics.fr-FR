@@ -39,13 +39,13 @@ Pour exécuter l’analyse des contributions, procédez comme suit :
 
 1. Sélectionnez **[!UICONTROL Exécuter l’analyse des contributions]**.
 
-1. Patientez pendant le traitement de l’analyse des contributions. Le traitement peut prendre un temps considérable, selon la taille de votre suite de rapports et le nombre de dimensions. L’analyse des contributions effectue une analyse sur les 50 000 premiers éléments par dimension. Vous êtes également averti du nombre de [ jetons d’analyse de contribution](anomaly-detection.md#contribution-analysis-tokens) restants.
+1. Patientez pendant le traitement de l’analyse des contributions. Le traitement peut prendre un temps considérable, selon la taille de votre suite de rapports et le nombre de dimensions. L’analyse des contributions effectue une analyse sur les 50 000 premiers éléments par dimension. Vous êtes également averti du nombre de [&#x200B; jetons d’analyse de contribution](anomaly-detection.md#contribution-analysis-tokens) restants.
 
    ![Analyse des contributions en cours d’exécution](assets/contribution-analysis-executing.png)
 
 1. Analysis Workspace charge un nouveau panneau **[!UICONTROL Analyse des contributions]** directement dans ce projet.
 
-   ![Panneau Analyse des contributions ](assets/contribution-analysis.png)
+   ![Panneau Analyse des contributions &#x200B;](assets/contribution-analysis.png)
 
    * Une visualisation [synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md).
    * Une visualisation [ligne](/help/analyze/analysis-workspace/visualizations/line.md) des tendances mensuelles.

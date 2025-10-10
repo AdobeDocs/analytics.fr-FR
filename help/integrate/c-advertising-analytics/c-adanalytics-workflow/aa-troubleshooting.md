@@ -12,7 +12,7 @@ ht-degree: 18%
 
 # Résolution des problèmes d’Advertising Analytics
 
-* [ Je ne vois pas ma suite de rapports dans la section Mappage ](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
+* [&#x200B; Je ne vois pas ma suite de rapports dans la section Mappage &#x200B;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [Une erreur se produit lors de l’authentification au compte Google Ads...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
 
 ## Je ne vois pas ma suite de rapports dans la section Mappage {#section_9CAACDE6445C492DBAE542BA74DE6316}

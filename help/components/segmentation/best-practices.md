@@ -16,13 +16,13 @@ Des segments complexes sont souvent nécessaires pour obtenir les données souha
 
 ## N’utilisez l’opérateur `Contains` qu’en dernier recours
 
-L’opérateur [**[!UICONTROL Contains ]**](/help/components/segmentation/seg-reference/seg-operators.md) est l’une des fonctionnalités de segmentation les plus gourmandes en traitement, dans la mesure où l’opérateur doit analyser l’intégralité du contenu de chaque valeur. Pensez à utiliser d’autres opérateurs tels que**[!UICONTROL  Commence par ]**ou**[!UICONTROL  Se termine par ]**si les valeurs souhaitées se trouvent au début ou à la fin d’une chaîne.
+L’opérateur [**[!UICONTROL Contains &#x200B;]**](/help/components/segmentation/seg-reference/seg-operators.md) est l’une des fonctionnalités de segmentation les plus gourmandes en traitement, dans la mesure où l’opérateur doit analyser l’intégralité du contenu de chaque valeur. Pensez à utiliser d’autres opérateurs tels que&#x200B;**[!UICONTROL &#x200B; Commence par &#x200B;]**&#x200B;ou&#x200B;**[!UICONTROL &#x200B; Se termine par &#x200B;]**&#x200B;si les valeurs souhaitées se trouvent au début ou à la fin d’une chaîne.
 
 Si un opérateur **[!UICONTROL Contient]** dans un segment renvoie un grand nombre de résultats, le rapport expire généralement. Par exemple, si vous avez créé un segment où **[!UICONTROL Référent]** **[!UICONTROL égal]** `"."`, le segment recherche dans le contenu de chaque valeur. Envisagez plutôt l’utilisation de l’opérateur **[!UICONTROL Exists]**.
 
 ## Utilisez des classifications pour regrouper des éléments de dimension
 
-Si vous avez de nombreuses conditions de segment, elles peuvent rapidement dégrader les performances des segments. Par exemple, **[!UICONTROL Page]** **[!UICONTROL est égal à]** `X` **[!UICONTROL OU]** **[!UICONTROL Page]** **[!UICONTROL est égal à]** `Y`OR **[!UICONTROL Page]**&#x200B;égal **** **** `Z` répété avec des centaines de valeurs différentes. Au lieu d’écrire ces centaines de conditions, classifiez toutes les valeurs souhaitées dans un segment, puis utilisez la valeur classifiée dans un segment.
+Si vous avez de nombreuses conditions de segment, elles peuvent rapidement dégrader les performances des segments. Par exemple, **[!UICONTROL Page]** **[!UICONTROL est égal à]** `X` **[!UICONTROL OU]** **[!UICONTROL Page]** **[!UICONTROL est égal à]** `Y`OR **[!UICONTROL Page]**&#x200B;égal **&#x200B;**&#x200B;**&#x200B;** `Z` répété avec des centaines de valeurs différentes. Au lieu d’écrire ces centaines de conditions, classifiez toutes les valeurs souhaitées dans un segment, puis utilisez la valeur classifiée dans un segment.
 
 1. Créez une classification pour la variable que vous utilisez.
 2. Téléchargez le modèle de classification et ouvrez-le dans la feuille de calcul ou l’éditeur de texte de votre choix.

@@ -68,7 +68,7 @@ Les mesures vous permettent de quantifier les points de données dans Analysis W
 
 Pour ajouter une mesure à un projet dans Analysis Workspace :
 
-1. Commencez à ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [ Ajouter des composants à un projet ](#add-components-to-a-project).
+1. Commencez à ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [&#x200B; Ajouter des composants à un projet &#x200B;](#add-components-to-a-project).
 
 
 

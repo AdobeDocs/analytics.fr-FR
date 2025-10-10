@@ -26,7 +26,7 @@ Les principaux avantages de l’utilisation des appels au serveur sont les suiva
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Autorisations :** pour accéder au tableau de bord d’utilisation des appels au serveur et au créateur d’alertes ou au gestionnaire d’alertes, vous devez être administrateur Adobe Analytics.
-* **Autorisations :** les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [ Autorisation d’utilisation des appels au serveur ](#server-call-usage-permission).
+* **Autorisations :** les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [&#x200B; Autorisation d’utilisation des appels au serveur &#x200B;](#server-call-usage-permission).
 
 ## Terminologie importante {#terminology}
 

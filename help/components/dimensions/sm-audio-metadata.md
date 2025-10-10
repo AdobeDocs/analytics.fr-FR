@@ -1,6 +1,6 @@
 ---
 title: Dimensions des métadonnées audio des services de streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Métadonnées audio ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées audio &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: 2e4dc1e9-267b-47a2-b791-23d1e754a2c1
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e

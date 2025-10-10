@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Commandes
 
-La mesure « Commandes »[](overview.md) indique le nombre total d’événements d’achat effectués sur votre site. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez combiner cette mesure avec n’importe quelle dimension pour déterminer les éléments de dimension ayant contribué à une commande. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec [eVar](../dimensions/evar.md)) ayant contribué aux achats.
+La mesure « Commandes »[&#128279;](overview.md) indique le nombre total d’événements d’achat effectués sur votre site. Cette mesure est essentielle pour les sites d’e-commerce, car elle permet de mesurer la conversion. Vous pouvez combiner cette mesure avec n’importe quelle dimension pour déterminer les éléments de dimension ayant contribué à une commande. Par exemple, vous pouvez afficher les principales campagnes (à l’aide de la dimension [Code de suivi](../dimensions/tracking-code.md)) ou les principaux termes de recherche interne (avec [eVar](../dimensions/evar.md)) ayant contribué aux achats.
 
 ## Méthode de calcul de cette mesure
 

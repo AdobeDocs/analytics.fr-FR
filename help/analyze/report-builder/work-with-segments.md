@@ -41,7 +41,7 @@ Pour modifier des segments à l’aide du panneau Modification rapide
 
 1. Cliquez sur le lien situé sous **[!UICONTROL Segments]** pour lancer le panneau Modification rapide - Filtres.
 
-   ![le panneau Segments affichant le champ Ajouter des segments et les listes Segments appliqués ](./assets/quick_edit_filters.png).
+   ![le panneau Segments affichant le champ Ajouter des segments et les listes Segments appliqués &#x200B;](./assets/quick_edit_filters.png).
 
 ### Ajout ou suppression d’un segment
 

@@ -51,9 +51,9 @@ Pour toute visualisation des tendances dans Workspace, vous pouvez ajouter dans 
 
 1. Cliquez sur l’icône d’engrenage des paramètres de colonne pour votre mesure calculée, puis activez **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]**.
 
-   ![ Paramètres des mesures calculées ](assets/calcmetric_zero_no_value.png)
+   ![&#x200B; Paramètres des mesures calculées &#x200B;](assets/calcmetric_zero_no_value.png)
 
 1. Ajoutez une visualisation Ligne . Les jours concernés sont représentés avec une couleur différente. Les utilisateurs peuvent également cliquer sur l’icône « Infos » dans la mesure calculée pour obtenir plus d’informations.
 
-   ![ Icône Infos ](assets/calcmetric_infoicon.png)
+   ![&#x200B; Icône Infos &#x200B;](assets/calcmetric_infoicon.png)
 

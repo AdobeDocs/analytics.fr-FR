@@ -59,7 +59,7 @@ Pour modifier une demande planifiée :
 
 1. Modifiez la requête selon vos besoins. Les options de configuration estompées ne peuvent pas être modifiées.
 
-   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 
@@ -121,7 +121,7 @@ Lorsque vous copiez une demande, toutes les options de configuration sont copié
 
 1. Mettez à jour toutes les options de configuration associées à la requête.
 
-   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 

@@ -13,7 +13,7 @@ ht-degree: 6%
 
 Ce chemin d’implémentation implique une approche de migration méthodique pour passer de l’extension de balise Adobe Analytics à l’extension de balise Web SDK. D’autres chemins d’implémentation sont abordés sur des pages distinctes :
 
-* [Bibliothèque JavaScript AppMeasurement vers Web SDK ](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous supprimez manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacez par la bibliothèque JavaScript Web SDK (`alloy.js`).
+* [Bibliothèque JavaScript AppMeasurement vers Web SDK &#x200B;](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous supprimez manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacez par la bibliothèque JavaScript Web SDK (`alloy.js`).
 * [Extension de balise Web SDK](web-sdk-tag-extension.md) : nouvelle installation de Web SDK dans laquelle vous gérez l’implémentation à l’aide de balises dans la collecte de données Adobe Experience Platform. Le groupe de champs Adobe Analytics ExperienceEvent, qui comprend des variables Analytics standard à inclure dans votre schéma XDM, est nécessaire.
 * [Bibliothèque Web SDK JavaScript](web-sdk-javascript-library.md) : nouvelle installation de Web SDK à l’aide de la bibliothèque Web SDK JavaScript (`alloy.js`). Gérez la mise en œuvre vous-même au lieu d’utiliser l’interface utilisateur des balises. Le groupe de champs Adobe Analytics ExperienceEvent, qui comprend des variables Analytics standard à inclure dans votre schéma XDM, est nécessaire.
 
@@ -127,7 +127,7 @@ Les étapes ci-dessus s’appliquent uniquement aux règles qui définissent des
 1. Sur la droite, modifiez les paramètres d’action comme suit :
    * [!UICONTROL Type] : par `s.t()`, utilisez **[!UICONTROL Pages vues de détails sur la page web]**. Par `s.tl()`, utilisez **[!UICONTROL Clics sur les liens d’interaction web]**. Si vous utilisez [`s.tl()`](../../vars/functions/tl-method.md), vous devez également inclure les champs suivants dans votre objet de données. Ces champs sont répertoriés sous [!UICONTROL Propriétés supplémentaires] lors de l’exécution de la configuration d’action [!UICONTROL Mettre à jour la variable] :
       * [Nom du lien](../../vars/functions/tl-method.md)
-      * [Type de lien  ](../../vars/functions/tl-method.md)
+      * [Type de lien  &#x200B;](../../vars/functions/tl-method.md)
       * [URL du lien](../../vars/config-vars/linkurl.md)
 1. Sélectionnez **[!UICONTROL Conserver les modifications]**.
 1. Répétez ces étapes pour chaque configuration d’action qui utilise Adobe Analytics pour envoyer une balise.
