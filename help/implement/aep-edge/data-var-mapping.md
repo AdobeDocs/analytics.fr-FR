@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Le tableau ci-dessous présente les variables d’objet de données que Adobe Experience Platform Edge Network mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ d’objet de données, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics.
 
-L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Customer Journey Analytics à l’avenir. Cette méthode de mise en œuvre permet à votre entreprise d’envoyer des données à Adobe à l’aide de Web SDK sans se conformer à un schéma XDM. Lorsque votre organisation est prête à envoyer des données à Adobe Experience Platform, vous pouvez utiliser [mappage de flux de données](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) pour pointer les champs d’objet de données vers leurs champs XDM respectifs.
+L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Customer Journey Analytics à l’avenir. Cette méthode de mise en œuvre permet à votre entreprise d’envoyer des données à Adobe à l’aide de Web SDK sans se conformer à un schéma XDM. Lorsque votre organisation est prête à envoyer des données à Adobe Experience Platform, vous pouvez utiliser [mappage de flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/data-prep#mapping) pour pointer les champs d’objet de données vers leurs champs XDM respectifs.
 
 ## Priorités des valeurs
 

@@ -29,10 +29,10 @@ Certaines configurations de pare-feu bloquent les domaines sur lesquels Adobe An
 
 ## Domaines Adobe Experience Cloud
 
-En plus des domaines ci-dessus, le Adobe Experience Cloud s’appuie sur plusieurs domaines pour la collecte de données et l’exportation de rapports. Voir [Domaines utilisés par le Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains) pour cette liste de domaines.
+En plus des domaines ci-dessus, le Adobe Experience Cloud s’appuie sur plusieurs domaines pour la collecte de données et l’exportation de rapports. Voir [Domaines utilisés par le Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/domains) pour cette liste de domaines.
 
 >[!MORELIKETHIS]
 >
 >[Adresses IP utilisées par Adobe Analytics](ip-addresses.md)
 >
->[Domaines utilisés par le Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Domaines utilisés par le Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/domains)

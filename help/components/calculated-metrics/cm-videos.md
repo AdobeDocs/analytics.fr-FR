@@ -18,17 +18,17 @@ Ces courtes vidéos présentent un aperçu de la manière d’optimiser l’util
 
 >[!BEGINSHADEBOX]
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées rapides dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées rapides dans Analysis Workspace](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=fr){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [créateur de mesures](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [créateur de mesures](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-metric-builder.html?lang=fr){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures segmentées](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics.html?lang=fr){target="_blank"}
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures sans implémentation](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=fr){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Functions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Functions](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-functions.html?lang=fr){target="_blank"}
 
-![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer vos mesures calculées](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html){target="_blank"}
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer vos mesures calculées](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/manage-your-calculated-metrics.html?lang=fr){target="_blank"}
 
 
 >[!ENDSHADEBOX]

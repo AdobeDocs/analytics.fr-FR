@@ -21,7 +21,7 @@ Lorsque l’option **[!UICONTROL Activer la collecte de données de clic]** est 
 
 ## Attribut ID de région dans la bibliothèque JavaScript de Web SDK
 
-Lorsque [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activé, utilisez le rappel `filterClickDetails` dans l’objet `clickCollection`. Dans ce rappel, vous pouvez vérifier la valeur de `clickedElement` et personnaliser la logique de la région collectée.
+Lorsque [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activé, utilisez le rappel `filterClickDetails` dans l’objet `clickCollection`. Dans ce rappel, vous pouvez vérifier la valeur de `clickedElement` et personnaliser la logique de la région collectée.
 
 ```js
 alloy("configure", {

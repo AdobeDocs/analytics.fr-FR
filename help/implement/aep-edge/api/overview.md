@@ -48,7 +48,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>4</td>
 <td><b>Implémentez et testez la collecte de données</b> à l’aide des API de collecte de données d’événements uniques et par lots.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr">Collecte de données d’événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html">Collecte de données d’événement par lots</a>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=fr">Collecte de données d’événement unique</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/non-interactive-data-collection.html?lang=fr">Collecte de données d’événement par lots</a>
 </tr>
 
 <td>5</td>

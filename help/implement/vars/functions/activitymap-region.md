@@ -20,7 +20,7 @@ La variable `ActivityMap.region` vous permet de remplacer la logique utilisée p
 
 ## Remplacement des valeurs de zone géographique à l’aide de Web SDK
 
-Vous pouvez utiliser [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) rappel pour modifier la payload de Web SDK ou abandonner l’envoi de données.
+Vous pouvez utiliser [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) rappel pour modifier la payload de Web SDK ou abandonner l’envoi de données.
 
 ## Remplacement de zone géographique à l’aide de l’extension Adobe Analytics
 

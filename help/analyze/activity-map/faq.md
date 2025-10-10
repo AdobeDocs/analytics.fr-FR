@@ -138,7 +138,7 @@ Oui. Cependant, en raison des limitations des suites de rapports virtuelles, le 
 La méthode de désactivation d’Activity Map dépend de votre type d’implémentation :
 
 * **Extension Web SDK** : dans les paramètres de configuration de l’extension, décochez les cases **[!UICONTROL Collecter les clics sur les liens internes]**, **[!UICONTROL Collecter les clics sur les liens externes]** et **[!UICONTROL Collecter les clics sur les liens de téléchargement]**.
-* **Bibliothèque JavaScript Web SDK** : définissez [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) sur `false`.
+* **Bibliothèque JavaScript Web SDK** : définissez [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) sur `false`.
 * **Extension Analytics** : dans les paramètres de configuration de l’extension, décochez la case intitulée **[!UICONTROL Utiliser Activity Map]**.
 * **AppMeasurement**: supprimez ou commentez le module Activity Map dans `AppMeasurement.js`, ou remplacez l&#39;appel de fonction de module par un corps vide :
 
