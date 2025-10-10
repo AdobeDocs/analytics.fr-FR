@@ -15,7 +15,7 @@ ht-degree: 40%
 
 En supposant que le navigateur/l’extension idoine ait été [installé(e)](../getting-started.md), vous pouvez lancer Activity Map directement depuis votre page web.
 
-**Google Chrome** est le seul navigateur qui prend en charge la version actuelle d&#39;Activity Map. La prise en charge d’autres navigateurs est prévue.
+**Google Chrome** est le seul navigateur qui prend en charge la version actuelle d’Activity Map. La prise en charge d’autres navigateurs est prévue.
 
 >[!IMPORTANT]
 >Assurez-vous que la dernière version de l’extension est installée. Les versions précédentes de l’extension ne fonctionnent plus en raison de modifications de la politique d’extension du navigateur.

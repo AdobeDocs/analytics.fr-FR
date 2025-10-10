@@ -20,4 +20,4 @@ Les listes suivantes sont des variables fréquemment utilisées dans les implém
 * [`pageName`](pagename.md) : Nom de la page.
 * [`campaign`](campaign.md) : Définissez cette variable sur un paramètre de chaîne de requête pour le suivi de campagne.
 * [`events`](events/events-overview.md) : Renseignez les mesures à utiliser dans les rapports.
-* [`products`](products.md) : Si vous disposez d’un site d’e-commerce, définissez cette variable lorsqu’un visiteur consulte ou achète un produit.
+* [`products`](products.md) : si vous disposez d’un site d’e-commerce, définissez cette variable lorsqu’un visiteur ou une visiteuse consulte ou achète un produit.

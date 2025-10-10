@@ -40,7 +40,7 @@ Si nous sommes aujourd’hui le lundi 10 novembre 2011, prenez la date actuell
 
 Ajoutez quatre mois au début de l’année (le mois de janvier) afin d’obtenir le mois de mai ; ajoutez deux jours au premier jour du mois pour obtenir le troisième jour du mois.
 
-## Remarques sur la syntaxe {#section_555D6563B2D94FA3BDD801DC0B8C289D}
+## Notes de syntaxe {#section_555D6563B2D94FA3BDD801DC0B8C289D}
 
 Il est possible de créer des expressions personnalisées couvrant la plupart des périodes en liant deux termes à l’aide d’un opérateur. Un terme est la combinaison d’un multiplicateur entier et d’une abréviation de période. Exemple de terme : 18d ; exemple d’opérateur : +.
 

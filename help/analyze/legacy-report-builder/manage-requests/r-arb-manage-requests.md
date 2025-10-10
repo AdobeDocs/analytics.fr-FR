@@ -1,5 +1,5 @@
 ---
-description: Découvrez les descriptions de champ de la fonction Gérer les requêtes dans Report Builder.
+description: Découvrez la description des champs de la section Gestion des requêtes dans Report Builder.
 title: Gestion des requêtes dans Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
@@ -16,17 +16,17 @@ ht-degree: 74%
 
 {{legacy-arb}}
 
-Affichez les détails de l’état d’une requête et utilisez les descriptions de champ pour gérer les requêtes dans Report Builder.
+Affichez les détails du statut d’une demande et utilisez la description des champs pour gérer les demandes dans Report Builder.
 
 ## Vue d’ensemble {#section_75C288C945FA4781A4EDF806711A5660}
 
-Le [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée de l’état de toutes les requêtes que vous avez créées pour toutes les feuilles ou une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit de la souris sur une cellule disponible dans la feuille de calcul Excel qui contient les requêtes précédentes.
+Le [!UICONTROL Gestionnaire de requêtes] fournit une vue détaillée du statut de toutes les requêtes que vous avez créées pour toutes les feuilles ou pour une seule feuille du classeur actif. Vous pouvez également ajouter, modifier, actualiser et supprimer une requête. Ces fonctions sont généralement associées à l’[!UICONTROL Assistant Requête] et au [!UICONTROL Gestionnaire de requêtes] lorsque vous cliquez avec le bouton droit sur une cellule disponible dans la feuille de calcul Excel qui contient les requêtes précédentes.
 
-Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur **[!UICONTROL Gérer]** ![](assets/edit_request.gif) dans la barre d’outils de Report Builder.
+Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur le **** Gérer![](assets/edit_request.gif) de la barre d’outils de Report Builder.
 
 >[!NOTE]
 >
->Adobe Report Builder applique les dépendances de requête uniquement dans la même feuille de calcul, et non entre plusieurs feuilles de calcul. Restreindre aux dépendances dans une seule feuille de calcul garantit la rapidité d’exécution.
+>Adobe Report Builder applique les dépendances de requête uniquement dans la même feuille de calcul, et non entre les feuilles de calcul. Le fait de se limiter aux dépendances dans une seule feuille de calcul garantit la rapidité d’exécution.
 
 ## Définitions {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -64,7 +64,7 @@ Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ajouter </p> </td> 
-   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Voir <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Création d’une requête de données </a>. </p> </td> 
+   <td colname="col2"> <p>Affiche la boîte de dialogue Assistant Requête. Voir <a href="/help/analyze/legacy-report-builder/data-requests/t-create-a-data-request.md"   > Créer une demande de données</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modifier </p> </td> 
@@ -84,7 +84,7 @@ Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur *
   </tr> 
   <tr> 
    <td colname="col1"> <p> Actualiser </p> </td> 
-   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Voir <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > Actualisation d’une requête</a>.) </p> </td> 
+   <td colname="col2"> <p>Actualise une ou plusieurs requêtes sélectionnées. (Voir <a href="/help/analyze/legacy-report-builder/manage-requests/t-refresh-a-request.md"   > une demande</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Réactualiser la liste </p> </td> 

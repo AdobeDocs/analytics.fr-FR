@@ -6,8 +6,8 @@ exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 role: Developer
 source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 98%
+source-wordcount: '1256'
+ht-degree: 97%
 
 ---
 
@@ -93,9 +93,9 @@ Les assistants numériques étant conversationnels, ils font souvent appel au co
 
 **Google :** « Bien sûr, pour quelle heure ? ».
 
-**Consommateur :** « 20 h 30 »
+**Consommateur :** « 8 :30pm »
 
-**Google :** « Très bien. Le taxi sera là à 20 h 30. »
+**Google:** « Cela semble correct, le pilote sera là à 8 heures:30pm »
 
 Les sessions sont importantes pour garder le contexte et pour aider à collecter plus de détails afin de rendre l’assistant numérique plus naturel. Lorsque vous mettez Analytics en œuvre sur une conversation, vous devriez effectuer deux actions au démarrage d’une nouvelle session :
 
@@ -112,7 +112,7 @@ Cache-Control: no-cache
 
 Chacun des assistants numériques possède des algorithmes qui détectent les intentions et les transmettent ensuite à l’application afin qu’elle sache quoi faire. Ces intentions constituent une représentation succincte de la demande.
 
-Par exemple, si un utilisateur dit &quot;Siri, envoie 20 $ à John pour le dîner d’hier soir avec mon application bancaire&quot;, l’intention peut être du type *sendMoney*.
+Par exemple, si un utilisateur dit « Siri, envoie 20 $ à John pour le dîner d’hier soir à partir de mon application bancaire », l’intention peut être du type *sendMoney*.
 
 En envoyant chacune de ces demandes sous la forme d’une eVar, vous pourrez exécuter des rapports de cheminement sur chaque intention pour les applications conversationnelles. Assurez-vous que votre application peut également traiter les requêtes sans intention. Adobe conseille de transmettre la variable « Aucun mode spécifié » à la variable de données contextuelles dʼintention, plutôt que de la supprimer.
 

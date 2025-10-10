@@ -1,6 +1,6 @@
 ---
 title: Résolution des problèmes liés aux flux de données
-description: Découvrez les raisons pour lesquelles une tâche de flux de données peut échouer au traitement ou à la diffusion des données. Résolvez les problèmes potentiels liés aux flux de données.
+description: Découvrez les raisons pour lesquelles une tâche de flux de données peut ne pas traiter ou diffuser les données. Résolvez les problèmes potentiels liés aux flux de données.
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
@@ -23,7 +23,7 @@ Si votre flux de données ne fonctionne plus correctement ces derniers temps, al
 * S’il n’existe aucun problème connu et que le site FTP dispose de suffisamment d’espace disque, vous pouvez envoyer à nouveau le flux de données.
 
    1. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Admin]** > **[!UICONTROL Flux de données]**.
-   2. Recherchez le ou les flux de données de votre choix, puis cochez la case en regard de chacun des flux que vous souhaitez réexécuter.
+   2. Recherchez le ou les flux de données de votre choix, puis cochez la case en regard de chacun des flux que vous souhaitez exécuter à nouveau.
    3. Cliquez sur **[!UICONTROL Réexécuter]**.
 
   ![Réexécution](assets/rerun.png)

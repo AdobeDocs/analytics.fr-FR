@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Durée totale en secondes
 
-La [mesure](overview.md) &quot;Durée totale en secondes&quot; indique le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez connaître le temps brut passé sur un élément de dimension donné, et non pas des moyennes comme le proposent d’autres mesures de durée.
+La [mesure « Durée totale en secondes » indique le nombre agrégé de secondes passées par un visiteur sur un élément de dimension donné](overview.md) Cette mesure s’avère utile lorsque vous souhaitez connaître le temps brut passé sur un élément de dimension donné, et non pas des moyennes comme le proposent d’autres mesures de durée.
 
 Dans Report Builder, cette mesure est intitulée « Durée totale de la visite ».
 

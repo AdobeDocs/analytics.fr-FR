@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment la Disposition personnalisée offre les fonctionnalités et la flexibilité de la Disposition croisée dynamique, comme l’ajout de ventilations et de micrographiques.
+description: Découvrez comment la disposition personnalisée offre les fonctionnalités et la flexibilité de la disposition du pivot, telles que l’ajout de répartitions et de micrographiques.
 title: Configuration d’une disposition personnalisée dans Adobe Analytics
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder

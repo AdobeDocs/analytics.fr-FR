@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Retours
 
-La [mesure](overview.md) &quot;Rebonds&quot; indique le nombre de visites qui contenaient exactement un accès. Vous pouvez utiliser cette mesure pour comprendre le rapport entre le trafic de rebond et le trafic sans rebond que vous obtenez, pour afficher les principales pages d’accès qui provoquent le rebond des visiteurs ou pour consulter l’évolution du nombre total de rebonds au fil du temps.
+La mesure « Bounces » [bounces](overview.md) indique le nombre de visites contenant exactement un accès. Vous pouvez utiliser cette mesure pour comprendre le rapport entre le trafic de rebond et le trafic sans rebond que vous obtenez, pour afficher les principales pages d’accès qui provoquent le rebond des visiteurs ou pour consulter l’évolution du nombre total de rebonds au fil du temps.
 
 ## Méthode de calcul de cette mesure
 

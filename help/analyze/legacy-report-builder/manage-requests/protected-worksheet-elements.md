@@ -16,6 +16,6 @@ ht-degree: 15%
 
 {{legacy-arb}}
 
-Lorsque vous verrouillez des cellules pour protéger votre feuille de calcul, vous ne pouvez pas créer, modifier ou actualiser des requêtes. Retirez toutes les protections de la feuille de calcul avant de commencer à utiliser le Gestionnaire de requêtes.
+Lorsque vous verrouillez des cellules pour protéger votre feuille de calcul, vous ne pouvez pas créer, modifier ou actualiser les demandes. Retirez toutes les protections de la feuille de calcul avant de commencer à utiliser le Gestionnaire de requêtes.
 
-Si vous actualisez la requête et tentez de modifier une cellule au cours du processus d’actualisation, un toast Excel s’affiche pour indiquer que la feuille de calcul est actuellement protégée. Une fois le processus d’actualisation terminé, vous pouvez accéder à la feuille de calcul et supprimer la protection temporaire.
+Si vous actualisez la demande et tentez de modifier une cellule pendant le processus de demande d’actualisation, un toast Excel s’affiche pour indiquer que la feuille de calcul est actuellement protégée. Une fois le processus de demande d&#39;actualisation terminé, vous pouvez accéder à la feuille de calcul et la protection temporaire de la feuille de calcul est supprimée.

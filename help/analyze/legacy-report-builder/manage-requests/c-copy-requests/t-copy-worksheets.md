@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment copier une feuille de calcul dans une autre dans le même classeur.
+description: Découvrez comment copier une feuille de calcul dans une autre du même classeur.
 title: Comment copier des feuilles de calcul dans Report Builder
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder

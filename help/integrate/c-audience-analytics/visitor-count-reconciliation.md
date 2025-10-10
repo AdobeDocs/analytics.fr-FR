@@ -25,11 +25,11 @@ Les mesures des visiteurs sont :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : Population totale du segment</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population totale de segments</a> </p> </td> 
    <td colname="col3"> <p>Nombre d’appareils (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population de segments en temps réel </a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population de segments en temps réel</a> </p> </td> 
    <td colname="col3"> <p>Nombre de périphériques (Experience Cloud ID) qui étaient membres de votre segment et ont atteint vos propriétés pendant la période de recherche en amont. </p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +43,7 @@ Les mesures des visiteurs sont :
  </tbody> 
 </table>
 
-La population des segments en temps réel de Adobe Audience Manager et les visiteurs Analytics avec un ID d’Experience Cloud utilisé dans les rapports d’Audience Analytics seront les plus similaires. À court terme cependant, elles présenteront de légères différences en raison de plusieurs facteurs, à savoir :
+La population de segments en temps réel de Adobe Audience Manager et les visiteurs Analytics avec l’Experience Cloud ID utilisé dans les rapports Audience Analytics seront les plus similaires. À court terme cependant, elles présenteront de légères différences en raison de plusieurs facteurs, à savoir :
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 

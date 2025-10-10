@@ -16,7 +16,7 @@ Ce guide présente les types de rapports courants qui vous aident à découvrir 
 
 Google Analytics et Adobe Analytics sont de puissantes plateformes qui permettent d’obtenir des informations précieuses sur les performances de votre site web. Chacune possède sa propre architecture de traitement et sa propre interface utilisateur, ce qui lui confère des avantages uniques. Ce guide a pour but d’aider un utilisateur qui a de l’expérience avec Google Analytics à se familiariser avec Adobe Analytics.
 
-Dans Adobe Analytics, la méthode principale pour extraire des rapports de base après connexion à Adobe Experience Cloud consiste à utiliser **Analysis Workspace**. Le menu de gauche permet à l’utilisateur de glisser et déposer des composants pour créer son propre rapport. Il offre davantage de liberté pour répondre aux besoins exacts en matière de rapports. Les utilisateurs qui ont l’habitude de créer des tableaux de bord et des rapports personnalisés Google Analytics trouveront sûrement cette disposition familière.
+Dans Adobe Analytics, la principale façon d’extraire des rapports de base après s’être connecté à Adobe Experience Cloud est d’utiliser **Analysis Workspace**. Le menu de gauche permet à l’utilisateur de glisser et déposer des composants pour créer son propre rapport. Il offre plus de liberté pour répondre aux besoins exacts en matière de création de rapports. Les utilisateurs qui ont l’habitude de créer des tableaux de bord et des rapports personnalisés Google Analytics trouveront sûrement cette disposition familière.
 
 ## Parcours d’apprentissage recommandé
 
@@ -27,7 +27,7 @@ Adobe recommande de commencer par les principes de base absolus de l’obtention
 Une fois que vous connaissez les composants d’[!UICONTROL Analysis Workspace], vous pouvez apprendre à recréer la plupart des rapports à l’aide des composants appropriés.
 
 * [Création de rapports en temps réel dans Adobe Analytics](reports/realtime-reports.md)
-* [Création de rapports Audience dans Adobe Analytics](reports/audience-reports.md)
+* [Création de rapports d’audience dans Adobe Analytics](reports/audience-reports.md)
 * [Création de rapports d’acquisition dans Adobe Analytics](reports/acquisition-reports.md)
 * [Création de rapports de comportement dans Adobe Analytics](reports/behavior-reports.md)
 * [Création de rapports de conversion dans Adobe Analytics](reports/conversions-reports.md)

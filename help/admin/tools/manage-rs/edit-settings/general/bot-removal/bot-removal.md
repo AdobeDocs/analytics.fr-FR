@@ -87,7 +87,7 @@ Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux r
 
 >[!MORELIKETHIS]
 >
->* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=fr)
->* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=fr)
->* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=fr)
+>* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

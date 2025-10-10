@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Durée par visiteur (secondes)
 
-La [!UICONTROL durée par visiteur (secondes)] [mesure](overview.md) indique la durée moyenne d’interaction des visiteurs avec un élément de dimension donné pendant toute la durée de vie d’un visiteur.
+La [!UICONTROL mesure Temps passé par visiteur (secondes)] [mesure](overview.md) indique le temps moyen que les visiteurs et visiteuses passent à interagir avec un élément de dimension donné au cours de la durée de vie complète d’un visiteur.
 
 Cette mesure n’est pas disponible dans Data Warehouse en raison de sa différence d’architecture de traitement.
 

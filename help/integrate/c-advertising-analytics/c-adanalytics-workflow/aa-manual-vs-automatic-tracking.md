@@ -18,7 +18,7 @@ Le type de suivi détermine la manière dont l’implémentation d’Adobe Analy
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/39105/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 -->
 
@@ -37,7 +37,7 @@ Notez que pour configurer un compte de moteur de recherche avec le type **[!UICO
 
 >[!IMPORTANT]
 >
->Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/fr/docs/id-service/using/reference/csp).
+>Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Suivi manuel {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est aff
 
 >[!IMPORTANT]
 >
->La valeur _`<Advertising Analytics ID>`_(en **gras**&#x200B;ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
+>La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
 
 **Chaîne de suivi pour les campagnes :**
 

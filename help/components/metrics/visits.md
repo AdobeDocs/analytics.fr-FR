@@ -1,12 +1,12 @@
 ---
 title: Visites
-description: Découvrez la mesure Visites dans Analytics. Découvrez comment elle est calculée, les comportements qui l’affectent, comment modifier sa définition, etc.
+description: Découvrez la mesure Visites dans Analytics. Découvrez comment il est calculé, les comportements qui l’affectent, comment modifier sa définition, etc.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 85%
+source-wordcount: '712'
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ Une visite ne coïncide pas nécessairement avec une session de navigateur en ra
 
 Une nouvelle visite commence si le visiteur :
 
-* Supprime leurs cookies en milieu de session et continue à parcourir votre site.
+* Supprime ses cookies en milieu de session et continue à parcourir votre site
 * Laisse votre site ouvert dans un onglet pendant plus de 30 minutes, puis poursuit la navigation.
 * Ouvre un autre navigateur et accède à votre site depuis le même ordinateur.
 * Consulte votre site depuis un autre appareil
@@ -45,12 +45,12 @@ Tant qu’il s’écoule moins de 30 minutes entre les accès consécutifs, une
 
 Vous pouvez modifier le délai de 30 minutes dans la définition d’une visite.
 
-* Pour les [suites de rapports virtuelles](../vrs/vrs-about.md), vous pouvez modifier le délai de visite (délai entre les accès qui entraîne le démarrage d’une nouvelle visite) à l’aide de la liste déroulante [!UICONTROL Délai de visite]. Vous pouvez définir le délai d’expiration de la visite sur n’importe quelle valeur raisonnable.
-* Pour les suites de rapports standard, contactez l’assistance clientèle pour demander que le délai de visite (délai entre les accès qui entraîne le démarrage d’une nouvelle visite) soit raccourci pour une suite de rapports donnée. Le délai d’expiration des visites pour les suites de rapports standard ne peut pas dépasser 30 minutes. Vous ne pouvez donc que le raccourcir.
+* Pour les [suites de rapports virtuelles](../vrs/vrs-about.md), vous pouvez modifier le délai de visite (temps écoulé entre les accès, ce qui entraîne le démarrage d’une nouvelle visite) à l’aide de la liste déroulante [!UICONTROL Délai de visite]. Vous pouvez définir le délai d’expiration de la visite sur n’importe quelle valeur raisonnable.
+* Pour les suites de rapports standard, contactez l’assistance clientèle pour demander que le délai de visite (délai entre les accès qui entraîne le démarrage d’une nouvelle visite) soit raccourci pour une suite de rapports donnée. Le délai d’expiration des visites pour les suites de rapports standard ne peut pas dépasser 30 minutes. Vous pouvez donc le raccourcir.
 
 ## Visites s’étendant au-delà d’une limite de date
 
-Une visite compte pour chaque période impliquée. Par exemple, si un visiteur commence la navigation sur votre site le lundi à 23 h 45, puis envoie sa dernière demande d’image le mardi à 00 h 10, une visite est comptabilisée le lundi et une autre le mardi. Cependant, la mesure du total de visites est dédupliquée, n’affichant qu’une visite pour la période du projet.
+Une visite compte pour chaque période impliquée. Par exemple, si un visiteur commence à naviguer sur votre site le lundi à 23 :45, puis envoie sa dernière demande d’image le mardi à 12 :10, une visite est attribuée à la fois au lundi et au mardi. Cependant, la mesure du total de visites est dédupliquée, n’affichant qu’une visite pour la période du projet.
 
 ## Visites sur une dimension par rapport au nombre total de visites
 

@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment modifier plusieurs requêtes simultanément.
-title: Comment modifier plusieurs requêtes
+description: Découvrez comment modifier plusieurs requêtes en même temps.
+title: Modification de plusieurs requêtes
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
@@ -47,6 +47,6 @@ Vous pouvez modifier simultanément plusieurs requêtes, en fonction de la suite
 
 ## Ajout de segments à plusieurs requêtes à la fois
 
-Voici une vidéo montrant le processus :
+Regardez cette vidéo pour découvrir le processus :
 
-https://video.tv.adobe.com/v/40101/?quality=12&captions=fre_fr
+https://video.tv.adobe.com/v/25445/?quality=12

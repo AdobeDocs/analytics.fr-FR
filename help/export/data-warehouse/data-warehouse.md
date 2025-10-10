@@ -1,6 +1,6 @@
 ---
-description: Découvrez Data Warehouse et comment filtrer les données, en vous permettant de créer et d’exécuter des rapports personnalisés.
-title: Présentation du Data Warehouse
+description: Découvrez Data Warehouse et comment filtrer les données, ce qui vous permet de créer et d’exécuter des rapports personnalisés.
+title: Présentation de Data Warehouse
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
@@ -35,7 +35,7 @@ Data Warehouse compresse automatiquement les fichiers de plus de 1 Mo. La tail
 
 ## Accéder à
 
-Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Il peut être activé pour les suites de rapports globales et secondaires, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs qui ne sont pas administrateurs.
+Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Elle peut être activée pour les suites de rapports globales et enfants, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs n’appartenant pas au niveau administrateur.
 
 Consultez [Gestion des autorisations Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

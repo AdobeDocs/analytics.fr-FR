@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Section du site
 
-La [dimension](overview.md) de la &quot;section du site&quot; liste les noms des sections de votre site. Pour les sites volumineux, il est utile de regrouper les pages en sections. Cette dimension est utile pour afficher les sections du site les plus consultées ou les plus performantes.
+La [dimension](overview.md) « Section du site » répertorie les noms des sections du site. Pour les sites volumineux, il est utile de regrouper les pages en sections. Cette dimension est utile pour afficher les sections du site les plus consultées ou les plus performantes.
 
 Cette dimension est liée aux dimensions [Page](page.md) et [Serveur](server.md). Page est la dimension la plus granulaire, Serveur est la moins granulaire et Section du site est comprise entre les deux.
 

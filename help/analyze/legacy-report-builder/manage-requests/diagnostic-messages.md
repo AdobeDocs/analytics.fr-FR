@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment les messages de diagnostic vous fournissent des informations sur l’état de la requête.
-title: A propos des messages de diagnostic
+description: Découvrez comment les messages de diagnostic vous fournissent des informations sur le statut de la demande.
+title: À propos des messages de diagnostic
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 feature: Report Builder
 role: User, Admin
@@ -18,6 +18,6 @@ ht-degree: 48%
 
 Les messages de diagnostic fournissent des informations sur l’état de la requête actualisée.
 
-![Icône de coche verte indiquant que la requête a été actualisée avec succès.](assets/icon_notice_success.gif) Indique que la requête a été actualisée avec succès depuis l’ouverture de ce classeur. La colonne de diagnostic présente d’autres informations sur la requête, notamment le temps utilisé par la requête, le temps écoulé pour mettre la requête en correspondance et si la requête utilise des informations précédemment mises en cache.
+![ Icône de coche verte indiquant que la demande a été actualisée avec succès.](assets/icon_notice_success.gif) Indique que la demande a été actualisée avec succès depuis l&#39;ouverture de ce classeur. La colonne de diagnostic présente d’autres informations sur la requête, notamment le temps utilisé par la requête, le temps écoulé pour mettre la requête en correspondance et si la requête utilise des informations précédemment mises en cache.
 
-![Icône de triangle rouge avec point d’exclamation indiquant que l’actualisation de la requête a échoué.](assets/icon_notice_warn.gif) Cette alerte s’affiche lorsqu’une requête ne s’actualise pas correctement. L’erreur indiquée dans la colonne de diagnostic permet d’en identifier la cause probable. Consultez la [section de dépannage](/help/analyze/legacy-report-builder/troubleshoot.md) pour obtenir de l’aide sur les messages d’échec sélectionnés.
+![ Icône de triangle rouge avec point d’exclamation indiquant l’échec de l’actualisation de la requête.](assets/icon_notice_warn.gif) Cette alerte s’affiche lorsqu’une requête ne parvient pas à s’actualiser avec succès. L’erreur indiquée dans la colonne de diagnostic permet d’en identifier la cause probable. Consultez la [section de dépannage](/help/analyze/legacy-report-builder/troubleshoot.md) pour obtenir de l’aide sur les messages d’échec sélectionnés.

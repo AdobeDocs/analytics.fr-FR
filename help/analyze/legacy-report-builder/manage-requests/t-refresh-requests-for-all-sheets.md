@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment actualiser les requêtes pour toutes les feuilles ou pour plusieurs requêtes.
-title: Comment actualiser les requêtes pour toutes les feuilles
+description: Découvrez comment actualiser les requêtes de toutes les feuilles ou de plusieurs requêtes.
+title: Actualisation des requêtes pour toutes les feuilles
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
 feature: Report Builder
 role: User, Admin
@@ -22,7 +22,7 @@ Pour actualiser toutes les requêtes, vous devez avoir accès à toutes les suit
 
 Lorsque vous actualisez plusieurs requêtes, le système les rassemble et leur attribue une priorité selon qu’il s’agit d’une requête originale ou d’une requête dépendante. Il affiche également des messages relatifs à l’avancement de la procédure d’actualisation. Cette procédure peut prendre plusieurs minutes en fonction de la quantité de données demandées.
 
-Pour actualiser les requêtes de toutes les feuilles
+Pour actualiser les demandes de toutes les feuilles
 
 1. Cliquez sur **[!UICONTROL Gérer]**.
 1. Activez l’option **[!UICONTROL Toutes les feuilles]**.

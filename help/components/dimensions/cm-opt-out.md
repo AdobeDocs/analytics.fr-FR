@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Droit d’opposition de gestion du consentement
 
-La dimension « Droit d’opposition de gestion du consentement » [&#128279;](overview.md) affiche les paramètres de confidentialité auxquels un visiteur s’est explicitement opposé. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
+La dimension « Droit d’opposition de gestion du consentement » [](overview.md) affiche les paramètres de confidentialité auxquels un visiteur s’est explicitement opposé. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’opposition les plus courantes.
 
 ## Renseigner cette dimension avec des données
 

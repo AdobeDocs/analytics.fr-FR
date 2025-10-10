@@ -38,7 +38,7 @@ Le tableau se compose des colonnes suivantes :
    - Sélectionnez les colonnes à afficher.
    - Sélectionnez **[!UICONTROL Appliquer]**.
 
-Lorsque vous sélectionnez un ou plusieurs comptes publicitaires, une barre d’actions bleue, basée sur le statut des comptes sélectionnés, vous permet d’![Modifier](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renommer]**, ![Actualiser](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapper des suites de rapports]**, ![Lire](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg)Activer **[!UICONTROL ou]** Pause![Pause](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **&#x200B;**&#x200B;vos comptes publicitaires.
+Lorsque vous sélectionnez un ou plusieurs comptes publicitaires, une barre d’actions bleue, basée sur le statut des comptes sélectionnés, vous permet d’![Modifier](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renommer]**, ![Actualiser](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapper des suites de rapports]**, ![Lire](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg)Activer **[!UICONTROL ou]** Pause![Pause](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **** vos comptes publicitaires.
 
 ## Créer un compte publicitaire
 

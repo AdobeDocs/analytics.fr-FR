@@ -20,4 +20,4 @@ Cette procédure explique comment masquer ou afficher des en-têtes.
 
 Cliquez sur **[!UICONTROL Masquer/Afficher]** dans la sortie [!UICONTROL Disposition croisée dynamique] ou [!UICONTROL Disposition personnalisée] du formulaire [!UICONTROL Assistant Requête : Étape 2].
 
-![Capture d&#39;écran montrant l&#39;icône Masquer/Afficher pour les en-têtes de mesure.](assets/hide_show_header.png)
+![Capture d’écran affichant l’icône Masquer/Afficher pour les en-têtes de mesure.](assets/hide_show_header.png)

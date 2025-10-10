@@ -16,4 +16,4 @@ ht-degree: 44%
 >
 >Cette mesure a été désactivée en septembre 2017. Elle ne renvoie pas de données.
 
-Si vous souhaitez une [mesure](overview.md) qui mesure le trafic provenant des appareils mobiles, Adobe recommande d’utiliser le segment &quot;Visites issues d’appareils mobiles&quot; dans un projet ou une mesure calculée.
+Si vous souhaitez une [mesure](overview.md) qui mesure le trafic provenant des appareils mobiles, Adobe vous recommande d’utiliser le segment « Visites à partir d’appareils mobiles » dans un projet ou une mesure calculée.

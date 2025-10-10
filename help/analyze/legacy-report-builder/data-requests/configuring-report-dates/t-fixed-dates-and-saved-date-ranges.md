@@ -1,5 +1,5 @@
 ---
-description: Lorsque vous définissez une période ou une période fixe, Report Builder affiche le calendrier des rapports, qui vous permet de sélectionner une date, une plage de dates ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
+description: Lorsque vous spécifiez une date fixe ou une période, Report Builder affiche le calendrier de création de rapports, ce qui vous permet de sélectionner une date, une période ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
 title: Dates fixes et périodes enregistrées
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 65%
 
 {{legacy-arb}}
 
-Lorsque vous définissez une période ou une période fixe, Report Builder affiche le calendrier des rapports, qui vous permet de sélectionner une date, une plage de dates ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
+Lorsque vous spécifiez une date fixe ou une période, Report Builder affiche le calendrier de création de rapports, ce qui vous permet de sélectionner une date, une période ou une date prédéfinie. Vous pouvez également enregistrer une date fixe à utiliser comme modèle et indiquer si les dates enregistrées doivent être disponibles pour la suite de rapports en cours ou pour l’ensemble des suites de rapports.
 
 1. Sélectionnez **[!UICONTROL Dates fixes]** dans le formulaire Assistant Requête : Étape 1.
 1. Cliquez sur le lien de la date.

@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Hauteur du navigateur
 
-La &quot;hauteur du navigateur - regroupée&quot; [dimension](overview.md) indique la hauteur de la fenêtre du navigateur, classée en groupes prédéfinis. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
+La dimension « Hauteur du navigateur - regroupé »[](overview.md) affiche la hauteur de la fenêtre du navigateur, classée en groupes prédéfinis. Cette dimension est utile pour comprendre où se trouve le « pli » de votre site pour les visiteurs. Identifier l’emplacement du pli peut vous permettre d’optimiser l’affichage du contenu.
 
 Cette dimension est différente de la hauteur d’écran. La hauteur du navigateur correspond au nombre de pixels dans l’espace consultable du navigateur, tandis que la hauteur d’écran correspond à la hauteur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 
@@ -30,4 +30,4 @@ Adobe conserve la hauteur du navigateur pour une visite. Si la hauteur du naviga
 
 ## Éléments de dimension
 
-Les éléments de Dimension incluent toutes les hauteurs de navigateur collectées, classées en groupes prédéfinis. Par exemple, si la hauteur du navigateur d’un accès correspond à `720`, elle est classée dans l’élément de dimension `700 to 799`.
+Les éléments Dimension incluent toutes les hauteurs de navigateur collectées, classées dans des groupes prédéfinis. Par exemple, si la hauteur du navigateur d’un accès correspond à `720`, elle est classée dans l’élément de dimension `700 to 799`.

@@ -10,19 +10,19 @@ ht-degree: 33%
 
 ---
 
-# Configuration des options de planification pour une requête de Data Warehouse
+# Configuration des options de planification pour une requête Data Warehouse
 
 Plusieurs options de configuration sont disponibles lors de la création d’une requête Data Warehouse. Les informations suivantes décrivent comment configurer les options de planification pour la requête.
 
 Pour plus d’informations sur la façon de commencer à créer une requête, ainsi que des liens vers d’autres options de configuration importantes, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-Pour configurer les options de planification d’une requête de Data Warehouse :
+Pour configurer les options de planification d’une requête Data Warehouse :
 
 1. Si vous ne l’avez pas déjà fait, commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
 
    Pour plus d’informations, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Sur la page Nouvelle requête de Data Warehouse, sélectionnez l’onglet [!UICONTROL **Options de planification**] .
+1. Sur la page Nouvelle requête Data Warehouse , sélectionnez l’onglet [!UICONTROL **Options de planification**].
 
    ![Onglet Destination du rapport](assets/dw-scheduling-options.png) <!-- update screenshot -->
 
@@ -30,13 +30,13 @@ Pour configurer les options de planification d’une requête de Data Warehouse 
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Envoyer le rapport maintenant**] | Envoie le rapport sous la forme d’un rapport unique. Lorsque cette option est sélectionnée, toutes les options de planification sont masquées. |
-   | [!UICONTROL **Planifier pour plus tard**] | Fournit des options pour planifier la remise des rapports. Toutes les options sont décrites ci-dessous. |
-   | [!UICONTROL **Fréquence des rapports**] | Fréquence de remise des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>[!UICONTROL **Horaire**] n’est disponible que lorsque l’option [!UICONTROL **Plages de dates**] de l’onglet [!UICONTROL **Paramètres généraux**] est définie sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul><p>D&#39;autres options s&#39;affichent en fonction de la fréquence sélectionnée.</p> |
-   | [!UICONTROL **Démarrage le**] | Date à laquelle le nouveau planning doit commencer. |
-   | [!UICONTROL **Heure de la journée**] | Heure de la journée d’envoi du rapport. |
-   | [!UICONTROL **Options de remise de fin**] | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais se terminer, de ne pas terminer après un nombre spécifique d’occurrences ou de terminer à une date spécifique. |
+   | [!UICONTROL **Envoyer le rapport maintenant**] | Envoie le rapport en tant que rapport unique. Lorsque cette option est sélectionnée, toutes les options de planification sont masquées. |
+   | [!UICONTROL **Planifier pour plus tard**] | Fournit des options pour planifier la diffusion de rapports. Toutes les options sont décrites ci-dessous. |
+   | [!UICONTROL **Fréquence des rapports**] | Fréquence de diffusion des rapports. <p>Les options disponibles sont les suivantes :</p><ul><li>Toutes les heures</li><p>Le paramètre [!UICONTROL **Horaire**] n’est disponible que lorsque l’option [!UICONTROL **Périodes**] de l’onglet [!UICONTROL **Paramètres généraux**] est définie sur [!UICONTROL **Dernière heure**].</p><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Annuel</li></ul><p>D’autres options s’affichent selon la fréquence sélectionnée.</p> |
+   | [!UICONTROL **À partir du**] | Date à laquelle la nouvelle planification doit commencer. |
+   | [!UICONTROL **Heure de la journée**] | Heure à laquelle le rapport doit être envoyé. |
+   | [!UICONTROL **Options de diffusion de fin**] | Choisissez quand terminer les diffusions planifiées. Vous pouvez choisir de ne jamais terminer, de se terminer après un nombre spécifique d’occurrences ou de se terminer à une date spécifique. |
 
    {style="table-layout:auto"}
 
-1. Continuez à configurer votre demande de Data Warehouse sur l’onglet [!UICONTROL **Notification par e-mail**] . Pour plus d’informations, voir [Configuration d’un email de notification pour une demande de Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).
+1. Continuez à configurer votre requête Data Warehouse dans l’onglet [!UICONTROL **E-mail de notification**]. Pour plus d’informations, voir [Configuration d’un e-mail de notification pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-email.md).

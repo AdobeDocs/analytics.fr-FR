@@ -12,13 +12,13 @@ ht-degree: 19%
 
 # Vitesse du contenu
 
-La mesure calculée &quot;Vitesse du contenu&quot; vous aide à mesurer la contribution d’une dimension (généralement [[!UICONTROL Page]](/help/components/dimensions/page.md)) aux utilisateurs qui passent du temps sur votre site web ou votre application.
+La mesure calculée « Vitesse du contenu » vous permet de mesurer la manière dont une dimension (généralement [[!UICONTROL Page]](/help/components/dimensions/page.md)) contribue à ce que les utilisateurs passent du temps sur votre site web ou votre application.
 
-Cette mesure utilise l’ [attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation à la visite, chaque fois qu’une page est atteinte, toutes les pages qui ont été consultées au cours de la même visite reçoivent également du crédit pour la page vue. Cette formule signifie généralement que plus une page est atteinte au cours d’une visite, plus elle reçoit de crédit. (Voir [ Pages vues (Participation) | Visite) ou &quot;Participation des visites&quot;](#page-views-participation--visit-or-visit-participation) pour plus d’informations.)
+Cette mesure utilise l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation aux visites, chaque fois qu’une page est consultée, toutes les pages précédemment consultées au cours de la même visite sont également créditées pour la page vue. Cette formule signifie généralement que plus une page est consultée tôt au cours d’une visite, plus elle reçoit de crédit. (Voir [ Pages vues (Participation) | Visite) ou « Participation aux visites »](#page-views-participation--visit-or-visit-participation) pour plus d&#39;informations.)
 
 ## Calcul
 
-&#39;Vitesse du contenu&#39; est une [mesure](overview.md) calculée par défaut qui utilise la formule `Page views (Visit participation)` divisée par `Visits`.
+« Vitesse du contenu » est une [mesure](overview.md) calculée par défaut qui utilise la formule `Page views (Visit participation)` divisée par `Visits`.
 
 ![](assets/cont-velo-1.png)
 
@@ -30,22 +30,22 @@ La [!UICONTROL vitesse du contenu] est généralement utilisée dans l’analyse
 
 ## Exemple
 
-L’exemple suivant ventile les deux parties de la vitesse du contenu : &quot;Pages vues (Participation) | Visite)&quot; et &quot;Visites&quot;.
+L’exemple suivant répartit les 2 parties de la vitesse du contenu : « Pages vues (participation) | « Visite » et « Visites ».
 
-### Pages vues (Participation) | Visite) ou &quot;Participation de visite&quot;
+### Pages vues (participation) | Visite) ou « Participation aux visites »
 
-Examinez l’exemple suivant sur la manière dont la participation à la visite affecte l’attribution :
+Prenons l’exemple suivant de la manière dont la participation aux visites affecte l’attribution :
 
-Sur un site web, un utilisateur consulte les pages suivantes dans cet ordre :
+Sur un site web, un utilisateur visite les pages suivantes dans cet ordre :
 
 * Page A
 * Page B
 * Page C
 * Page D
 
-Dans l’exemple ci-dessus, la page A recevra du crédit pour 4 accès, la page B pour 3 accès, la page C pour 2 accès et la page D pour 1 accès.
+Dans l’exemple ci-dessus, la page A est créditée pour 4 accès, la page B pour 3 accès, la page C pour 2 accès et la page D pour 1 accès.
 
-L’exemple suivant illustre le même principe, mais certaines pages sont visitées plus d’une fois.
+L’exemple suivant illustre le même principe, mais certaines pages étant visitées plus d’une fois.
 
 * Page A
 * Page B
@@ -54,8 +54,8 @@ L’exemple suivant illustre le même principe, mais certaines pages sont visit�
 * Page D
 * Page A
 
-Dans l’exemple ci-dessus, la page A recevra du crédit pour 7 accès, la page B pour 8 accès, la page C pour 4 accès et la page D pour 2 accès.
+Dans l’exemple ci-dessus, la page A est créditée pour 7 accès, la page B pour 8 accès, la page C pour 4 accès et la page D pour 2 accès.
 
 ### Visites
 
-Une fois la participation à la visite calculée, le résultat est divisé par le nombre de visites.
+Une fois la participation aux visites calculée, le résultat est divisé par le nombre de visites.

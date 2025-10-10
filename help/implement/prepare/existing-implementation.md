@@ -19,12 +19,12 @@ Vous prenez la main sur une implémentation Adobe Analytics gérée par le préc
 
 ![Manuel](assets/inherited-impl-playbook.png)
 
-Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est championne d’Adobe Analytics et partage des idées sur l’utilisation du manuel Hérité de l’implémentation pour prendre en charge une implémentation existante :
+Consultez les conseils de Sarah Owen, qui est également propriétaire technique. Sarah est championne d’Adobe Analytics et partage des idées sur l’utilisation du manuel Hérité de l’implémentation pour prendre en charge une implémentation existante :
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/3438738?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # État identifié
 
-L’&#39;état identifié&#39; [dimension](overview.md) est spécifique aux [ suites de rapports virtuelles  Analytics sur l’ensemble des appareils ](../cda/overview.md). Il indique si les accès sont identifiés (regroupés) ou non par le système au moment de l’exécution du rapport. Cette dimension permet de comprendre comment Analytics sur l’ensemble des appareils assemble ou « compresse » les données.
+La [dimension](overview.md) « État identifié » est spécifique aux suites de rapports virtuelles [Analyses entre appareils](../cda/overview.md). Il indique si les accès sont identifiés (regroupés) ou non par le système au moment de l’exécution du rapport. Cette dimension permet de comprendre comment Analytics sur l’ensemble des appareils assemble ou « compresse » les données.
 
 ## Renseignement de cette dimension avec des données
 

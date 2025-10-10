@@ -12,13 +12,13 @@ ht-degree: 16%
 
 # Prise en charge multidevise
 
-Adobe offre plusieurs niveaux de conversion de devise afin que votre entreprise puisse obtenir la devise souhaitée dans de nombreux rapports. La conversion se produit à trois niveaux :
+Adobe propose plusieurs niveaux de conversion de devise afin que votre entreprise puisse atteindre la devise souhaitée dans de nombreux rapports. La conversion se produit à trois niveaux :
 
 ## Niveau de page
 
-Vous pouvez utiliser la variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) pour définir la devise souhaitée sur chaque page. Si la devise de la page ne correspond pas à la devise de la suite de rapports de destination, Adobe effectue une conversion de devise vers la devise de la suite de rapports en fonction du taux d’exchange du jour en cours. La devise convertie est enregistrée.
+Vous pouvez utiliser la variable [`currencyCode`](/help/implement/vars/config-vars/currencycode.md) pour définir la devise souhaitée sur chaque page. Si la devise sur la page ne correspond pas à la devise de la suite de rapports de destination, Adobe effectue une conversion de devise dans la devise de la suite de rapports en fonction du taux de change du jour en cours. La devise convertie est enregistrée.
 
 ## Niveau de la suite de rapports
 
-Chaque suite de rapports possède une **devise de base**. Cette devise détermine le contexte de toutes les mesures de devise (telles que [Recettes](/help/components/metrics/revenue.md)). Toutes les données de devise stockées se trouvent dans la devise de base de la suite de rapports.
+Chaque suite de rapports a une **devise de base**. Cette devise détermine le contexte de toutes les mesures de devise (telles que [Chiffre d’affaires](/help/components/metrics/revenue.md)). Toutes les données de devise stockées sont dans la devise de base de la suite de rapports.
 

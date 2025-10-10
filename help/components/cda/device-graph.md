@@ -16,11 +16,11 @@ ht-degree: 60%
 
 {{available-existing-customers}}
 
-Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareils hachés propres à votre entreprise. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
+Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareil hachés, spécifique à votre organisation. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
 
 ## Conditions préalables spécifiques au graphique d’appareil
 
-Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l’aide de la méthode de graphique d’appareil, les conditions suivantes doivent être remplies. Collaborez avec les équipes de votre entreprise et votre équipe de compte d’Adobe pour vous assurer que vous remplissez toutes les conditions suivantes.
+Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l’aide de la méthode de graphique d’appareil, les conditions suivantes doivent être remplies. Collaborez avec les équipes de votre entreprise et de votre compte Adobe pour vous assurer de respecter toutes les conditions suivantes.
 
 >[!WARNING]
 >
@@ -28,8 +28,8 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 >
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre entreprise doit utiliser le [graphique privé du service Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Voir également la [page d’accueil](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr) dans le guide d’utilisation d’Identity Service.
-* Votre mise en oeuvre doit utiliser la dernière version du service d’ID Experience Cloud (ECID). Voir la [page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) dans le guide d’utilisation du service d’ID. Le service d’ID est probablement déjà déployé pour la plupart des implémentations qui utilisent [Balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
+* Votre organisation doit utiliser le [graphique privé du service d’identités Adobe Experience Platform](https://business.adobe.com/products/experience-platform/identity-service.html). Consultez également la section [Page d’accueil](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr) dans le guide d’utilisation d’Identity Service.
+* Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID (ECID). Voir [Page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) dans le guide d’utilisation d’ID Service. Il est probable que le service d’ID soit déjà déployé pour la plupart des implémentations utilisant [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
 * Votre implémentation doit appeler la fonction `setCustomerIDs` (ou SDK équivalent) chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=fr) dans le guide d’utilisation du service d’ID.
 
 ## Limites spécifiques au graphique d’appareil

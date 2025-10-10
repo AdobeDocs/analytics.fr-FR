@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment les tests statistiques sont utilisés dans la comparaison de segments.
-keywords: Analysis Workspace ; Segment IQ
+keywords: Analysis Workspace ; Segment IQ
 title: Tests Statistiques Utilisés Dans La Comparaison De Segments
 feature: Segmentation
 role: User, Admin

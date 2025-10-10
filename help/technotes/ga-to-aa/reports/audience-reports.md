@@ -6,7 +6,7 @@ exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1720'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ Pour obtenir un graphique linéaire des visiteurs uniques, suivez les étapes ci
 
 1. Cliquez sur l’icône Visualisations à gauche, puis faites glisser la visualisation de ligne sur l’espace de travail situé au-dessus du tableau à structure libre vide.
 2. Cliquez sur l’icône Composants à gauche, puis faites glisser la mesure **Visiteurs uniques** sur le petit espace « Déposer une mesure ici ».
-3. Si vous souhaitez une granularité différente, faites glisser la période souhaitée (par exemple **Jour**, **Semaine**, **Mois**, etc.) au-dessus de l’en-tête de dimension de date existant.
+3. Si une granularité différente est souhaitée, faites glisser la période souhaitée (par exemple **Jour**, **Semaine**, **Mois**, etc.) en haut de l’en-tête de dimension de date existant.
 
 Voir [Visiteurs uniques](/help/components/metrics/unique-visitors.md) dans le guide d’utilisation des composants pour plus de détails sur la manière dont Adobe calcule les visiteurs uniques.
 
@@ -59,7 +59,7 @@ Le rapport d’explorateur d’utilisateurs permet à un analyste d’afficher d
 
 Les données de démographie et d’intérêt fournissent des informations sur l’âge, le sexe et les intérêts des utilisateurs du site. Ces données sont collectées par Google via ses fonctionnalités de suivi inter-sites.
 
-Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Cependant, si votre entreprise obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité de la plateforme Adobe Experience Cloud. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
+Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Cependant, si votre organisation obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité de la plateforme Adobe Experience Cloud. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
 
 Pour plus d’informations, voir l’aide Attributs du client .
 

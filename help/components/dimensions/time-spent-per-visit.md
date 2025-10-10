@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Durée de la visite
 
-*Cette page d’aide décrit le fonctionnement de la &quot;Durée de la visite&quot; en tant que [dimensions](overview.md) respectives. Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
+*Cette page d’aide décrit le fonctionnement de « Durée de la visite » en tant que [dimensions](overview.md) respectives. Pour plus d’informations, consultez la mesure [Durée de la visite](../metrics/time-spent-per-visit.md).*
 
 Les dimensions « Durée de la visite » enregistrent le temps passé par un visiteur pendant l’intégralité de la visite. Elle utilise les étapes suivantes pour mesurer le calcul :
 
@@ -39,6 +39,6 @@ Ces dimensions sont prêtes à l’emploi pour toutes les implémentations. Si u
 La durée de la visite comporte plusieurs dimensions :
 
 * **Durée de la visite - regroupée** : la durée est regroupée. Les éléments de dimension sont compris entre `"Less than 1 minute"` et `"More than 15 hours"`. En règle générale, les visites ne durent pas plus de 12 heures. Toutefois, les visites peuvent dépasser 12 heures si vous utilisez des accès horodatés ou des sources de données.
-* **Durée de la visite - granulaire** : chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible en Data Warehouse.
+* **Durée de la visite - granulaire** : chaque nombre de secondes est un élément de dimension unique. Cette dimension n’est pas disponible dans Data Warehouse.
 
 Consultez [Présentation de la durée de consultation](../metrics/time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.

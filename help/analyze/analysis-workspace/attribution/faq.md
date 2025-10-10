@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 85%
+source-wordcount: '1192'
+ht-degree: 72%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 85%
 
 Vous trouverez ici les réponses aux questions les plus fréquemment posées sur l’attribution.
 
-+++## Quel est l’élément de ligne **[!UICONTROL Aucun]** lors de l’utilisation de l’attribution ?
++++## Quel est l&#39;élément de ligne **[!UICONTROL Aucun]** lors de l&#39;utilisation de l&#39;attribution ?
 
 L’élément de ligne « Aucun » est un élement fourre-tout qui représente toutes les conversions survenues sans points de contact dans l’intervalle de recherche en amont. Pour réduire le nombre de conversions attribuées à l’élément de ligne « Aucune », essayez d’utiliser un intervalle de recherche en amont personnalisé avec une période de recherche en amont plus longue.
 
 +++
 
 
-+++## Pourquoi est-ce que je vois parfois des dates hors de mon créneau de rapport lors de l’utilisation de modèles d’attribution ?
++++## Pourquoi est-ce que je vois parfois des dates en dehors de ma fenêtre de compte rendu des performances lorsque j&#39;utilise des modèles d&#39;attribution ?
 
 Certaines mesures basées sur les visites, telles que les [entrées](/help/components/metrics/entries.md) ou le [taux de rebond](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à la date de début du reporting. Cette situation est due aux modèles d’attribution qui utilisent une période de recherche arrière, ce qui détermine jusqu’où l’attribution doit remonter pour créditer les mesures. Le scénario le plus courant se produit lorsque les visites englobent minuit. Par exemple :
 
-1. Un utilisateur visite votre page d’accueil le 7 septembre à 23 h 55.
-1. Il consulte plusieurs pages, et la dernière consultation a lieu le 8 septembre à 00 h 05.
+1. Un utilisateur visite votre page d’accueil à 23 :55, le 7 septembre.
+1. Ils visitent plusieurs pages, la dernière ayant eu lieu à minuit:05 le 8 septembre.
 1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 8 au 14 septembre.
 
 Les mesures basées sur les accès, telles que les [pages vues](/help/components/metrics/page-views.md), produiraient la sortie attendue : les tendances de données quotidiennes du 8 au 14 septembre. Cependant, les mesures basées sur les visites afficheraient également la visite du 7 septembre ci-dessus. L’entrée attribuée à la visite s’est produite le 7 septembre et la période de recherche arrière est, par défaut, comprise entre le 1er et le 31 septembre.
@@ -36,8 +36,8 @@ Dans cet exemple, le taux de rebond affiche toujours 0 % le 7 septembre. Cette
 
 Prenons un autre exemple semblable. La seule différence entre l’exemple suivant et celui ci-dessus se trouve au niveau des dates :
 
-1. Un utilisateur visite votre page d’accueil le 31 août à 23 h 55.
-1. Il consulte plusieurs pages, et la dernière consultation a lieu le 1er septembre à 00 h 05.
+1. Un utilisateur visite votre page d’accueil à 23 :55, le 31 août.
+1. Ils visitent plusieurs pages, la dernière ayant eu lieu à minuit:05 le 1er septembre.
 1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 1er au 7 septembre.
 
 Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les données du 31 août. La période de recherche arrière et le créneau du compte rendu des performances démarrent tous les deux le 1er septembre, de sorte que les données ne peuvent pas être attribuées à partir du 31 août.
@@ -53,28 +53,28 @@ The choice of attribution lookback depends on your use case. If conversions typi
 +++
 -->
 
-+++## Comment les props et les eVars se comparent-ils lors de l’utilisation de l’attribution ?
++++## Comment se comparent les props et les eVars lors de l’utilisation de l’attribution ?
 
 L’attribution est recalculée au moment de l’exécution du rapport. Il n’y a donc aucune différence entre prop et eVar (ou toute autre dimension) pour la modélisation d’attribution. Les props peuvent persister à l’aide de n’importe quel intervalle de recherche en amont ou modèle d’attribution, et les paramètres d’attribution/expiration des eVars sont ignorés.
 
 +++
 
 
-+++## Les modèles d’attribution sont-ils disponibles dans d’autres fonctionnalités d’Analytics, telles que les flux de données ou Data Warehouse ?
++++## Les modèles d’attribution sont-ils disponibles dans d’autres fonctionnalités d’Analytics, telles que les flux de données ou Data Warehouse ?
 
 Non. Les modèles d’attribution utilisent le traitement de la période de rapport, disponible uniquement dans Analysis Workspace. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
 +++
 
 
-+++## Les modèles d’attribution ne sont-ils disponibles que si j’utilise une suite de rapports virtuelle avec le traitement de la période de rapport activé ?
++++## Les modèles d&#39;attribution sont-ils disponibles uniquement si j&#39;utilise une suite de rapports virtuelle avec le traitement de la période de rapport activé ?
 
 Les modèles d’attribution sont disponibles en dehors des suites de rapports virtuelles. Bien qu’ils utilisent le traitement de la période de rapport sur le serveur principal, les modèles d’attribution sont disponibles pour les suites de rapports standard et les suites de rapports virtuelles.
 
 +++
 
 
-+++## Quelles sont les dimensions et les mesures non prises en charge ?
++++## Quelles dimensions et mesures ne sont pas prises en charge ?
 
 Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesures non prises en charge :
 
@@ -97,14 +97,14 @@ Le panneau d’attribution prend en charge toutes les dimensions. Voici les mesu
 +++
 
 
-+++## L’attribution fonctionne-t-elle avec des classifications ?
++++## L’attribution fonctionne-t-elle avec les classifications ?
 
 Oui, les classifications sont entièrement prises en charge.
 
 +++
 
 
-+++## L’attribution fonctionne-t-elle avec des sources de données ?
++++## L’attribution fonctionne-t-elle avec les sources de données ?
 
 Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur ou visiteuse Analytics.
 
@@ -119,14 +119,14 @@ Lorsque cela n’est pas possible, l’attribution utilise la valeur MID dans l�
 +++
 
 
-+++## L’attribution fonctionne-t-elle avec l’intégration d’Advertising Analytics ?
++++## L’attribution fonctionne-t-elle avec l’intégration d’Advertising Analytics ?
 
 Les dimensions des métadonnées, telles que le type de correspondance et le mot-clé, fonctionnent avec l’attribution. Cependant, les mesures (y compris les impressions, le coût, les clics, la position moyenne et la note de qualité moyenne) utilisent des sources de données de niveau résumé et sont donc incompatibles.
 
 +++
 
 
-+++## Comment l’attribution fonctionne-t-elle avec les canaux marketing ?
++++## Comment l’attribution fonctionne-t-elle avec les canaux marketing ?
 
 Lorsque les canaux marketing ont été introduits pour la première fois, ils ne disposaient que des dimensions Première touche et Dernière touche. Les dimensions Première touche/Dernière touche explicites ne sont plus nécessaires avec la version actuelle de l’attribution. Adobe fournit des dimensions [!UICONTROL Canal marketing] et [!UICONTROL Détails sur les canaux marketing] génériques afin que vous puissiez les utiliser avec le modèle d’attribution de votre choix. Ces dimensions génériques se comportent de la même manière que les dimensions de [!UICONTROL canal Dernière touche], mais sont étiquetées différemment pour éviter toute confusion lors de l’utilisation de canaux marketing avec un modèle d’attribution différent.
 
@@ -135,7 +135,7 @@ Lorsque les canaux marketing ont été introduits pour la première fois, ils ne
 +++
 
 
-+++## Comment l’attribution fonctionne-t-elle avec les variables à plusieurs valeurs, telles que les variables de liste ?
++++## Comment l’attribution fonctionne-t-elle avec les variables à plusieurs valeurs, telles que les variables de liste ?
 
 Certaines dimensions d’Analytics peuvent contenir plusieurs valeurs sur un seul accès. Les variables de liste et la variable Products sont des exemples courants.
 
@@ -144,7 +144,7 @@ Lorsque l’attribution est appliquée à des accès à plusieurs valeurs, toute
 +++
 
 
-+++## Comment l’attribution fonctionne-t-elle avec la segmentation ?
++++## Comment l’attribution fonctionne-t-elle avec la segmentation ?
 
 L’attribution s’exécute toujours avant la segmentation et la segmentation s’exécute avant l’application des filtres de rapport. Ce concept s’applique également aux suites de rapports virtuelles utilisant des segments.
 

@@ -15,4 +15,4 @@ ht-degree: 85%
 
 Les modes FTP actif et passif contrôlent le mode de connexion des ports ; le choix du mode a des répercussions sur le pare-feu.
 
-Adobe utilise le mode FTP passif ; il s’agit d’un transfert de données plus sécurisé, où le flux de données est configuré et initié par le client FTP (logiciel de transfert de fichiers) plutôt que par le serveur FTP. Si vous rencontrez des difficultés pour vous connecter à Adobe FTP, veillez à utiliser le mode passif.
+Adobe utilise le mode FTP passif ; il s’agit d’un transfert de données plus sécurisé, où le flux de données est configuré et initié par le client FTP (logiciel de transfert de fichiers) plutôt que par le serveur FTP. Si vous avez des difficultés à vous connecter au FTP Adobe, veillez à utiliser le mode passif.

@@ -1,6 +1,6 @@
 ---
-description: Découvrez la planification de classeurs prenant en charge les macros.
-title: À propos de la planification de classeurs prenant en charge les macros
+description: Découvrez comment planifier des classeurs prenant en charge les macros.
+title: À propos de la planification des classeurs prenant en charge les macros
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
 role: User, Admin

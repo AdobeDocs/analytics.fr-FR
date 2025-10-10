@@ -1,12 +1,12 @@
 ---
-title: Présentation des dimensions
+title: Vue d’ensemble des dimensions
 description: Découvrez les dimensions et leur utilisation dans Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 77%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 77%
 
 Les dimensions sont des variables d’Adobe Analytics qui contiennent généralement des valeurs de chaîne. Les dimensions courantes comprennent [Page](page.md), [Domaine référent](referring-domain.md) ou une [eVar](evar.md). En revanche, les [mesures](../metrics/overview.md) contiennent des valeurs numériques liées à une dimension. Un rapport de base présente des lignes de valeurs de chaîne (dimension) en fonction d’une colonne de valeurs numériques (mesure).
 
-Par exemple, si vous combinez la dimension **[!UICONTROL Page]** avec la mesure **[!UICONTROL Visites]**, vous obtenez un rapport avec classement présentant les pages les plus visitées :
+Par exemple, si vous combinez la dimension **[!UICONTROL Page]** à la mesure **[!UICONTROL Visites]**, vous obtenez un rapport classant les pages les plus visitées :
 
 | Page | Visites |
 | --- | ---: |

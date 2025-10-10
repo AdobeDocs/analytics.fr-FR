@@ -1,6 +1,6 @@
 ---
-description: Découvrez la détection des anomalies et comment elle est calculée.
-title: Utilisation de la détection des anomalies pour rechercher automatiquement des tendances
+description: Découvrez la détection des anomalies et son calcul.
+title: Utilisation de la détection des anomalies pour détecter automatiquement les tendances
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
 role: User, Admin
@@ -58,11 +58,11 @@ La détection des anomalies ajoute de nouvelles valeurs de mesures pour chaque m
  </tbody> 
 </table>
 
-Le Créateur de rapports applique ces valeurs aux mesures sélectionnées. Par exemple, si vous sélectionnez une mesure Pages vues et appliquez une détection des anomalies, une mesure *`Page Views Lower Bound`* est utilisée.
+Le Créateur de rapports applique ces valeurs aux mesures sélectionnées. Par exemple, si vous sélectionnez une mesure Pages vues et appliquez la détection des anomalies, une mesure *`Page Views Lower Bound`* est utilisée.
 
 **Comment la détection des anomalies est calculée**
 
-La détection des anomalies utilise une période de formation pour calculer, apprendre et rapporter les données de l’intervalle de prédiction par jour. La période de formation est la période historique qui identifie ce qui est normal par rapport à ce qui est anormal, et applique ce qui est appris à la période de création de rapports. Dans les rapports marketing, des périodes de 30, 60 et 90 jours sont disponibles. Par Report Builder, 30 jours sont disponibles.
+La détection des anomalies utilise une période de formation pour calculer, apprendre et rapporter les données de l’intervalle de prédiction par jour. La période de formation est la période historique qui identifie ce qui est normal par rapport à ce qui est anormal, et applique ce qui est appris à la période de création de rapports. Dans les rapports marketing, des périodes de 30, 60 et 90 jours sont disponibles. Dans Report Builder, 30 jours sont disponibles.
 
 La période de formation n’est pas nécessairement la même que la période de création de rapports sélectionnée. Un graphique de rapport affiche la période de la plage de données que vous indiquée dans le calendrier.
 

@@ -1,5 +1,5 @@
 ---
-description: Les flux de données constituent une exportation des données de parcours de navigation reçues par Adobe, pour des flux de données standard et personnalisés.
+description: Les flux de données constituent un export des données de flux de clics reçues par Adobe, pour des flux de données standard et personnalisés.
 keywords: ftp;sftp
 title: Flux de données
 feature: FTP Export
@@ -15,9 +15,9 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->Les informations suivantes concernent les types de destinations FTP et SFTP. FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud plus sécurisé. Pour plus d’informations sur la configuration des types de destination cloud pour un flux de données, voir [Création d’un flux de données](/help/export/analytics-data-feed/create-feed.md).
+>Les informations suivantes concernent les types de destinations FTP et SFTP. Les FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud , qui est plus sécurisé. Pour plus d’informations sur la configuration des types de destinations cloud pour un flux de données, voir [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).
 
-Les flux de données constituent une exportation des données de parcours de navigation reçues par Adobe, pour des [flux de données](/help/export/analytics-data-feed/data-feed-overview.md) standard et personnalisés.
+Les flux de données constituent un export des données de flux de clics reçues par Adobe, pour des [flux de données](/help/export/analytics-data-feed/data-feed-overview.md) standard et personnalisés.
 
 Si vous avez acheté Adobe Data Warehouse ou les [!UICONTROL flux de données standard], vous pouvez configurer vos propres flux de données Analytics. Ils peuvent être envoyés vers un compte FTP (configuré par Adobe ou un FTP externe). Les services techniques Adobe Engineering Services proposent des [!UICONTROL flux de données] personnalisés qui peuvent être envoyés par n’importe quel moyen ou presque.
 

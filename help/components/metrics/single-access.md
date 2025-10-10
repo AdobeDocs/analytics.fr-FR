@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Accès unique
 
-La [mesure](overview.md) &quot;Accès unique&quot; indique le nombre de visites pour lesquelles l’élément de dimension ne contenait qu’une valeur unique pour l’intégralité de la visite. Cette mesure s’avère utile pour les dimensions dans lesquelles vous souhaitez identifier les éléments de dimension stagnants au cours d’une visite.
+La [mesure](overview.md) « Accès unique » indique le nombre de visites pour lesquelles l’élément de dimension ne contenait qu’une valeur unique pour l’ensemble de la visite. Cette mesure s’avère utile pour les dimensions dans lesquelles vous souhaitez identifier les éléments de dimension stagnants au cours d’une visite.
 
 ## Méthode de calcul de cette mesure
 

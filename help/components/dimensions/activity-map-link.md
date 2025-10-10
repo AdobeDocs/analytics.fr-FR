@@ -14,23 +14,23 @@ ht-degree: 8%
 
 # Lien d’Activity Map
 
-La [dimension](overview.md) &quot;Lien Activity Map&quot; affiche les liens les plus populaires sur lesquels l’utilisateur a cliqué. Vous pouvez utiliser cette dimension pour comparer les liens de votre site les plus utilisés, quel que soit l’endroit où vous avez cliqué sur ces liens.
+La dimension [Lien Activity Map](overview.md) affiche les liens les plus populaires sur lesquels l’utilisateur a cliqué. Vous pouvez utiliser cette dimension pour comparer les liens de votre site les plus utilisés, quel que soit l’endroit où les visiteurs ont cliqué sur les liens.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données de la [variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md) `c.a.activitymap.link`. Si votre mise en oeuvre utilise [Activity Map](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement des données lorsque l’utilisateur clique sur des liens.
+Cette dimension récupère les données du [ ](/help/implement/vars/page-vars/contextdata.md)Variable de données contextuelles`c.a.activitymap.link`. Si votre implémentation utilise [Activity Map](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
 
-Pour un lien donné sur lequel l’utilisateur a cliqué, l’Activity Map recherche les éléments suivants (dans l’ordre) :
+Pour un lien donné sur lequel l’utilisateur a cliqué, Activity Map recherche ce qui suit (dans l’ordre) :
 
 1. La variable `s_objectID`
 1. Texte interne du lien
-1. L’attribut `alt` pour les images
+1. Attribut `alt` pour les images
 1. Attribut `title`
-1. L’attribut `src` pour les images
-1. L’attribut `action` pour les formulaires
+1. Attribut `src` pour les images
+1. Attribut `action` pour les formulaires
 
-Si l’élément sur lequel l’utilisateur a cliqué ne contient aucun des critères ci-dessus, l’Activity Map ne collecte pas de données pour ce clic.
+Si l’élément sur lequel l’utilisateur a cliqué ne contient aucun des critères ci-dessus, Activity Map ne collecte pas de données pour ce clic.
 
 ## Éléments de dimension
 
-Les éléments de Dimension incluent le texte du lien ou d’autres attributs de lien sur lesquels les visiteurs cliquent. La structure et l’implémentation du site de votre entreprise déterminent les valeurs exactes collectées.
+Les éléments Dimension incluent le texte du lien ou d’autres attributs de lien sur lesquels les visiteurs cliquent. La structure et l’implémentation du site de votre entreprise déterminent les valeurs exactes collectées.

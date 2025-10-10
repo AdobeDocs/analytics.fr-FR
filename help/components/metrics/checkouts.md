@@ -1,5 +1,5 @@
 ---
-title: Achats
+title: Passages en caisse
 description: Le nombre d’accès pendant lesquels un visiteur a démarré le processus de passage en caisse.
 feature: Metrics
 exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
@@ -10,9 +10,9 @@ ht-degree: 80%
 
 ---
 
-# Achats
+# Passages en caisse
 
-La mesure [Passages en caisse](overview.md) indique le nombre de fois où un visiteur a démarré le processus de passage en caisse. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients disposent d’un panier de produits et sont prêts à les acheter.
+La mesure « Passages en caisse [mesure](overview.md) indique le nombre de fois qu’un visiteur a démarré le processus de passage en caisse. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients disposent d’un panier de produits et sont prêts à les acheter.
 
 ## Méthode de calcul de cette mesure
 

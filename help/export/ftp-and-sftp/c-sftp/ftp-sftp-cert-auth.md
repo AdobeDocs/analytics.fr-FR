@@ -25,7 +25,7 @@ Lors de l’utilisation du protocole SFTP, il est possible, dans certains cas, d
 
 1. Compte FTP créé (Adobe).
 
-   Un représentant Adobe peut créer un compte FTP si vous n’en avez pas déjà un. Contactez votre équipe de compte d’Adobe ou l’assistance clientèle d’Adobe pour qu’un compte soit créé.
+   Un représentant Adobe peut créer un compte FTP si vous n’en avez pas déjà un. Contactez l’équipe chargée de votre compte Adobe ou l’assistance clientèle Adobe pour créer un compte.
 1. Création de clés publique/privée (client).
 
    Créez une combinaison de clés publique/privée. La clé privée est un fichier privé qui réside sur votre ordinateur ou serveur et qui y est propre. Le fichier de clé publique doit être chargé sur le compte Adobe. Avec cette méthode, vous pouvez vous connecter sans authentification par mot de passe. Le fichier de clé publique côté Adobe correspond au fichier de clé privée sur votre ordinateur/serveur et s’authentifie de cette façon.

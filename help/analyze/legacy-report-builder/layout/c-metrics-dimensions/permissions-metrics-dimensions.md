@@ -20,9 +20,9 @@ Adobe Report Builder propose des paramètres d’autorisation similaires à ceux
 
 En tant qu’utilisateur non administrateur, vous avez peut-être créé antérieurement des classeurs avec des requêtes pointant vers des dimensions et des mesures auxquelles vous n’avez pas accès. Ces autorisations sont maintenant appliquées.
 
-Par exemple, si vous actualisez une requête qui inclut des dimensions ou des mesures auxquelles vous n’avez pas accès, vous obtenez une erreur d’autorisation limitée (Restricted Permission Error). Le message d’erreur indique qu’une demande n’est pas disponible pour votre compte utilisateur en raison des autorisations d’administration.
+Par exemple, si vous actualisez une demande qui inclut des dimensions ou des mesures auxquelles vous n’avez pas accès, vous obtiendrez une erreur d’autorisation restreinte. Le message d’erreur indique qu’une demande n’est pas disponible pour votre compte utilisateur en raison de droits d’administration.
 
-![Capture d&#39;écran montrant le message d&#39;erreur d&#39;autorisation limitée (Restricted Permission Error).](assets/arb_restrc_perm.png)
+![Capture d’écran affichant le message d’erreur d’autorisation restreinte.](assets/arb_restrc_perm.png)
 
 Suivez ces instructions pour **chaque** classeur du Report Builder que vous conservez :
 

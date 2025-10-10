@@ -1,6 +1,6 @@
 ---
-title: Filtrage des dimensions dans le Report Builder
-description: Décrit comment utiliser des dimensions de filtre dans le Report Builder
+title: Filtrage des dimensions dans Report Builder
+description: Décrit comment utiliser des dimensions de filtre dans Report Builder
 role: User
 feature: Report Builder
 type: Documentation
@@ -25,7 +25,7 @@ Pour modifier les éléments de dimension renvoyés pour chaque dimension :
 
 1. Cliquez sur **[!UICONTROL Modifier le bloc de données]** dans le panneau COMMANDES.
 
-1. Cliquez sur **[!UICONTROL Suivant]** pour afficher l’onglet Dimensions .
+1. Cliquez sur **[!UICONTROL Suivant]** pour afficher l’onglet Dimensions.
 
 1. Cliquez sur l’icône **...** en regard d’un nom de composant dans le tableau.
 
@@ -51,7 +51,7 @@ Il existe deux manières de filtrer les éléments de dimension : Les plus popu
 
 ## Les plus populaires
 
-L’option [!UICONTROL &#x200B; Les plus populaires &#x200B;] vous permet de filtrer les éléments de dimension de manière dynamique en fonction de valeurs de mesure. [!UICONTROL Les plus populaires] le filtrage renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
+L’option [!UICONTROL  Les plus populaires ] vous permet de filtrer les éléments de dimension de manière dynamique en fonction de valeurs de mesure. [!UICONTROL Les plus populaires] le filtrage renvoie les éléments de dimension avec le meilleur classement en fonction des valeurs de mesure. Par défaut, les 10 premiers éléments de dimension sont répertoriés. Ils sont triés en fonction de la première mesure ajoutée au bloc de données.
 
 ![L&#39;option la plus populaire.](./assets/image29.png)
 

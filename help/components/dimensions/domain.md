@@ -12,14 +12,14 @@ ht-degree: 52%
 
 # Domaine
 
-La [dimension](overview.md) de &quot;domaine&quot; indique les points d’accès que les visiteurs utilisent pour accéder à Internet.
+La [dimension](overview.md) « Domaine » indique les points d’accès utilisés par les visiteurs pour accéder à Internet.
 
 ## Renseignement de cette dimension avec des données
 
-Adobe s’associe à [Digital Element](https://www.digitalelement.com/) pour déterminer le domaine du point d’accès. Plusieurs méthodes sont utilisées pour déterminer le domaine du point d’accès, dont la recherche DNS inversée. Elle ne nécessite aucune configuration et ne comporte pas de variable à renseigner.
+Adobe s’associe à [Digital Element](https://www.digitalelement.com/) pour déterminer le domaine du point d’accès. Plusieurs méthodes sont utilisées pour déterminer le domaine du point d’accès, dont la recherche DNS inversée. Il ne nécessite aucune configuration et ne dispose pas d’une variable à remplir.
 
-* Pour les implémentations AppMeasurement, cette dimension est prête à l’emploi.
-* Pour les implémentations de SDK Web, activez [!UICONTROL Recherche réseau] lors de la [ configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
+* Pour les implémentations d’AppMeasurement, cette dimension est prête à l’emploi.
+* Pour les implémentations de Web SDK, activez [!UICONTROL Recherche réseau] lors de la [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
 
 ## Éléments de dimension
 

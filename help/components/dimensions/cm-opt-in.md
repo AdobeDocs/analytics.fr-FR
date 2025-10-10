@@ -12,7 +12,7 @@ ht-degree: 91%
 
 # Accord préalable de gestion du consentement
 
-La [dimension](overview.md) de &quot;souscription à la gestion du consentement&quot; affiche les paramètres de confidentialité auxquels un visiteur a donné son accord. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’accord préalable les plus courantes.
+La dimension « Accord préalable de gestion du consentement » [](overview.md) affiche les paramètres de confidentialité qu’un visiteur a acceptés. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les raisons d’accord préalable les plus courantes.
 
 ## Renseigner cette dimension avec des données
 

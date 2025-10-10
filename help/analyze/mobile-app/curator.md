@@ -1,5 +1,5 @@
 ---
-description: Que sont les cartes de performance et
+description: Que sont les cartes de performance de tableau de bord et
 title: Guide du curateur des tableaux de bord Adobe Analytics
 feature: Analytics Dashboards
 role: User, Admin

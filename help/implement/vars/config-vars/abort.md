@@ -31,7 +31,7 @@ return false;
 
 ## Annuler l’envoi d’un événement implémentant manuellement le Web SDK
 
-Utilisez le rappel `onBeforeEventSend` et renvoyez `false`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
+Utilisez le rappel `onBeforeEventSend` et renvoyez `false`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ```js
 alloy("configure"), {

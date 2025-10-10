@@ -20,7 +20,7 @@ Les ensembles de classifications se composent d’**abonnements** (combinaisons 
 
 ## Filtrer des ensembles de classifications
 
-Le côté gauche du gestionnaire des ensembles de classifications fournit des paramètres de filtre pour localiser l’ensemble de classifications souhaité. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les ensembles de classifications par **[!UICONTROL Balises]** ou **[!UICONTROL Suite de rapports]**.
+Le côté gauche du gestionnaire des ensembles de classifications fournit des paramètres de filtre pour localiser l’ensemble de classifications souhaité. Cliquez sur l’icône de filtre pour afficher ou masquer les paramètres de filtre. Vous pouvez filtrer les ensembles de classifications par **[!UICONTROL Balises]** ou **[!UICONTROL Suite de rapports]**.
 
 ![Filtres des ensembles de classifications](../../assets/classification-set-filters.png)
 

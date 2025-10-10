@@ -1,6 +1,6 @@
 ---
 description: Découvrez les étapes à suivre pour ajouter des mesures et des dimensions à une requête.
-title: Ajout de mesures et de dimensions
+title: Comment ajouter des mesures et des dimensions
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
@@ -18,10 +18,10 @@ ht-degree: 38%
 
 Procédure d’ajout de mesures et de dimensions à une requête.
 
-1. Utilisez le formulaire [!UICONTROL Assistant Requête : Étape 1] pour [Créer la requête de données](/help/analyze/legacy-report-builder/data-requests/data-requests.md), puis cliquez sur **[!UICONTROL Suivant]**.
-1. Dans le formulaire [!UICONTROL Assistant Requête : Étape 2], double-cliquez sur les mesures ou faites-les glisser vers l’emplacement de votre choix.
+1. Utilisez le formulaire [!UICONTROL Assistant Requête : étape 1] pour [Créer la requête de données](/help/analyze/legacy-report-builder/data-requests/data-requests.md) puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans le formulaire [!UICONTROL Assistant Requête : étape 2], double-cliquez sur les mesures ou faites-les glisser à l’emplacement souhaité.
 
-   ![Capture d’écran montrant l’Assistant Requête : Étape 2 avec une flèche pointant vers la section de page vue souhaitée depuis la liste des mesures.](assets/adding_metrics.png)
+   ![Capture d’écran affichant l’Assistant Requête : étape 2 avec une flèche pointant de la liste des mesures vers la section de page vue souhaitée.](assets/adding_metrics.png)
 
    Les mesures que vous ajoutez ne sont pas supprimées de l’onglet [!UICONTROL Valeurs de mesure], car vous pouvez les afficher plusieurs fois dans une requête. Vous pouvez, par exemple, afficher le sous-total de la mesure en plus de chaque valeur. Cependant, la liste des mesures disponibles est modifiée chaque fois que vous ajoutez ou supprimez une dimension.
 
@@ -29,24 +29,24 @@ Procédure d’ajout de mesures et de dimensions à une requête.
 
    Une barre de recherche s’affiche sur l’onglet Mesures, juste au-dessus de la liste Mesure.
 
-   ![Capture d&#39;écran montrant la barre de recherche Mesures.](assets/search_bar_metric.png)
+   ![Capture d’écran affichant la barre de recherche des mesures.](assets/search_bar_metric.png)
 
 ## Instructions
 
-Tenez compte des recommandations suivantes lorsque vous ajoutez des mesures et des dimensions.
+Tenez compte des instructions suivantes lorsque vous ajoutez des mesures et des dimensions.
 
-* Lorsque vous entrez un terme de recherche, la liste se met automatiquement à jour afin d’afficher les mesures dont les libellés correspondent au terme de recherche.
-* La correspondance n’est pas sensible à la casse et équivaut à une recherche *contient*.
-* Recherches de mots complets et autres indicateurs de recherche (commence par, se termine par, AND, OR, etc.) ne sont pas prises en charge.
+* Lorsque vous saisissez un terme de recherche, la liste est automatiquement mise à jour afin d’afficher les mesures dont les libellés correspondent au terme de recherche.
+* La correspondance ne respecte pas la casse et équivaut à une recherche *contient*.
+* Les recherches de mots entiers et d’autres indicateurs de recherche spéciaux (commence par, se termine par, ET, OU, etc.) ne sont pas pris en charge.
 
-Le terme recherché est effacé si vous quittez l’Assistant Requête lorsque vous cliquez sur [!UICONTROL Terminer] ou [!UICONTROL Annuler], lorsque vous revenez à l’Étape 1 de l’Assistant Requête ou modifiez la catégorie Mesure.
+Le terme de recherche est effacé si vous quittez l’Assistant Requête lorsque vous cliquez sur [!UICONTROL Terminer] ou [!UICONTROL Annuler], revenez à l’étape 1 de l’Assistant Requête ou modifiez la catégorie de mesure.
 
-Le terme recherché n’est pas effacé :
+Le terme de recherche n’est pas effacé :
 
-* Lorsque vous faites glisser et déposez (ou double-cliquez) un élément de mesure de la liste afin qu’il soit ajouté au panneau Mesures Disposition croisée dynamique/Disposition personnalisée .
-* Lorsque vous supprimez un ou plusieurs éléments de mesure du panneau Mesures Disposition croisée dynamique/Disposition personnalisée.
-* Lorsque vous cliquez sur l’onglet Dimension , revenez à l’onglet Mesure .
-* Lorsque vous appelez d’autres formulaires secondaires (modaux ou sans mode) qui, à la fermeture, retournent à l’étape 2 de l’Assistant Requête. Exemple de ces formulaires :
+* Lorsque vous faites glisser et déposez (ou double-cliquez) un élément de mesure de la liste afin qu’il soit ajouté au panneau Mesures de la disposition du tableau croisé dynamique/disposition personnalisée .
+* Lorsque vous supprimez un ou plusieurs éléments de mesure du panneau de mesures Disposition du tableau croisé dynamique/Disposition personnalisée.
+* Lorsque vous cliquez sur l’onglet Dimension , puis revenez à l’onglet Mesures .
+* Lorsque vous appelez d’autres sous-formulaires (modaux ou non) qui, à la sortie, reviennent à l’étape 2 de l’Assistant Requête. Exemple de ces formulaires :
 
    * Formulaires de filtre de dimension
    * Formulaires de mise en forme de la plage de sortie
@@ -54,16 +54,16 @@ Le terme recherché n’est pas effacé :
    * Formulaire Ajouter un texte en préfixe/suffixe
    * Formulaire d’emplacement de la plage de sortie
 
-## Tri d’une requête par mesure
+## Trier une demande par mesure
 
-Vous pouvez éventuellement trier une requête par mesure.
+Vous pouvez éventuellement trier une demande par mesure.
 
-Pour trier une requête par mesure
+Pour trier une demande par mesure
 
 1. Cliquez sur le libellé de la mesure.
-1. Ajouter des dimensions. Ajoutez des dimensions de la même manière que vous ajoutez des mesures. Voir les étapes 1 et 2 ci-dessus.
+1. Ajoutez des dimensions. Ajoutez des dimensions de la même manière que vous ajoutez des mesures. Voir les étapes 1 et 2 ci-dessus.
 
-   Sur l’onglet [!UICONTROL Dimensions] , le système affiche les dimensions qui ventilent tout rapport de base sélectionné dans [!UICONTROL Assistant Requête : Étape 1] ou qui en sont une classification, et sur la configuration de la suite de rapports. Lorsque vous déposez une dimension sur les grilles de disposition, elle est supprimée de l’arborescence et elle recalcule la liste des dimensions restantes disponibles.
+   Dans l’onglet [!UICONTROL Dimensions], le système affiche les dimensions qui répartissent ou constituent une classification de tout rapport de base que vous sélectionnez dans [!UICONTROL Assistant Requête : étape 1] et dans la configuration de la suite de rapports. Lorsque vous déposez une dimension dans les grilles de mise en page, elle est supprimée de l’arborescence et la liste des dimensions restantes est recalculée.
 
    La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. Les valeurs valides sont :
 
@@ -76,6 +76,6 @@ Pour trier une requête par mesure
 
 1. Modifiez les mesures et les dimensions en configurant les [options de format](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md) et les filtres.
 1. Cliquez sur **[!UICONTROL Terminer]**.
-Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. La dimension [!UICONTROL Domaine référent] crée un rapport de ventilation entre [!UICONTROL Page] et [!UICONTROL Domaine référent]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de répartition.
+Dans l’exemple suivant, des dimensions sont en relation avec la mesure [!UICONTROL Page]. La dimension [!UICONTROL Domaine référent] crée un rapport de répartition entre [!UICONTROL Page] et [!UICONTROL Domaine référent]. L’onglet [!UICONTROL Dimension] est mis à jour avec les seules dimensions que vous pouvez ajouter à un rapport de répartition.
 
-   ![Capture d&#39;écran montrant les dimensions qui se rapportent à la mesure.](assets/page_pageview_02.png)
+   ![Capture d’écran affichant les dimensions liées à la mesure.](assets/page_pageview_02.png)

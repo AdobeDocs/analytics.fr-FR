@@ -21,6 +21,6 @@ Pour personnaliser une date flottante pour votre requête :
 1. Dans la fenêtre [!UICONTROL Assistant Requête : Étape 1], sélectionnez **[!UICONTROL Dates roulantes]**.
 1. Cliquez sur le lien **[!UICONTROL Variable]** pour choisir le type de roulement, puis utilisez les liens de date pour configurer les dates roulantes.
 
-   Les paramètres disponibles pour l’option [!UICONTROL Dates roulantes] varient en fonction des sélections. Par exemple, lorsque vous sélectionnez [!UICONTROL Hebdomadaire variable], Report Builder fournit des paramètres spécifiques à la semaine que vous pouvez sélectionner comme modèle de roulement.
+   Les paramètres disponibles pour l’option [!UICONTROL Dates roulantes] varient en fonction des sélections. Par exemple, lorsque vous sélectionnez [!UICONTROL Lancement hebdomadaire], Report Builder fournit des paramètres spécifiques à la semaine que vous pouvez sélectionner comme modèle de lancement.
 
 1. Configurez les options avancées suivant vos besoins.

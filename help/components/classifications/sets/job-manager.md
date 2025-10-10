@@ -1,6 +1,6 @@
 ---
 title: Gestionnaire des tâches de jeux de classifications
-description: Affichez les tâches de classification actuelles et terminées générées à partir de jeux de classifications.
+description: Affichez les tâches de classification en cours et terminées, générées par des ensembles de classifications.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
@@ -12,30 +12,30 @@ ht-degree: 51%
 
 # Gestionnaire des tâches de jeux de classifications
 
-Le gestionnaire des tâches des jeux de classifications vous permet d’afficher les tâches de classification en cours et terminées qui ont été générées à partir de jeux de classifications. Vous pouvez également utiliser cette interface pour télécharger des données ou des modèles de classification pour une tâche spécifique, ou pour charger des données supplémentaires dans une tâche.
+Le gestionnaire des tâches des ensembles de classifications vous permet d’afficher les tâches de classification en cours et terminées qui ont été générées à partir d’ensembles de classifications. Vous pouvez également utiliser cette interface pour télécharger des données ou des modèles de classification pour une tâche spécifique, ou pour charger des données supplémentaires dans une tâche.
 
 **[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Tâches]**
 
-Vous ne pouvez pas créer de tâches à partir de cette interface. Créez des tâches en chargeant des données dans un jeu de classifications (manuellement ou via un emplacement externe configuré), en demandant un fichier de téléchargement ou en demandant un fichier de modèle.
+Impossible de créer des tâches à partir de cette interface. Créez des tâches en chargeant des données dans un ensemble de classifications (manuellement ou par l’intermédiaire d’un emplacement externe configuré), en demandant un fichier de téléchargement ou un fichier modèle.
 
-## Filtrage des jeux de classifications
+## Filtrer des ensembles de classifications
 
-Le côté gauche du gestionnaire de tâches du jeu de classifications fournit des paramètres de filtre pour localiser la tâche souhaitée. Cliquez sur l’icône de filtre pour faire apparaître les paramètres de filtre. Vous pouvez filtrer les ensembles de classifications par **[!UICONTROL jeu de classifications]**, **[!UICONTROL heure d’achèvement]**, **[!UICONTROL état]**, **[!UICONTROL type de tâche]** ou **[!UICONTROL Source]**.
+Le côté gauche du gestionnaire des tâches des ensembles de classifications fournit des paramètres de filtre pour localiser la tâche souhaitée. Cliquez sur l’icône de filtre pour afficher ou masquer les paramètres de filtre. Vous pouvez filtrer les ensembles de classifications par **[!UICONTROL Ensemble de classifications]**, **[!UICONTROL Heure de fin]**, **[!UICONTROL Statut]**, **[!UICONTROL Type de tâche]** ou **[!UICONTROL Source]**.
 
-![Filtres de tâche de jeu de classifications](../assets/classification-set-job-filters.png)
+![Filtres de tâche des ensembles de classifications](../assets/classification-set-job-filters.png)
 
-D’autres options de filtre sont disponibles au-dessus des colonnes du gestionnaire de tâches du jeu de classifications :
+D’autres options de filtre sont disponibles au-dessus des colonnes du gestionnaire des tâches des ensembles de classifications :
 
 * **[!UICONTROL Recherche par titre]** : recherchez des tâches par nom de fichier.
-* **[!UICONTROL Charger plus]** : le gestionnaire de tâches du jeu de classifications affiche initialement jusqu’à 1 000 tâches. Si d’autres tâches existent, cliquez sur ce bouton pour charger 1 000 autres tâches.
-* **Afficher/masquer les colonnes** : activez la visibilité de n’importe quelle colonne, à l’exception de [!UICONTROL Nom de fichier] et de [!UICONTROL Heure de fin].
+* **[!UICONTROL Charger plus]** : le gestionnaire des tâches des ensembles de classifications affiche initialement jusqu’à 1 000 tâches. S’il existe d’autres traitements, cliquez sur ce bouton pour charger 1 000 traitements supplémentaires.
+* **Afficher/masquer les colonnes** : activez ou désactivez la visibilité de n’importe quelle colonne, à l’exception de [!UICONTROL Nom de fichier] et de [!UICONTROL Heure de fin].
 
-## Colonnes du gestionnaire de tâches du jeu de classifications
+## Colonnes du gestionnaire de tâches des ensembles de classifications
 
-Les colonnes suivantes sont disponibles dans le gestionnaire de tâches du jeu de classifications :
+Les colonnes suivantes sont disponibles dans le gestionnaire des tâches des ensembles de classifications :
 
 * **[!UICONTROL Nom de fichier]** : le nom du fichier à charger ou à télécharger.
-* **[!UICONTROL Jeu de classifications]** : nom du jeu de classifications auquel s’applique le fichier. Vous pouvez cliquer sur le nom du jeu de classifications pour accéder aux [Paramètres](manage/settings.md) du jeu de classifications.
+* **[!UICONTROL Ensemble de classifications]** : le nom de l’ensemble de classifications auquel le fichier s’applique. Vous pouvez cliquer sur le nom de l’ensemble de classifications pour accéder à ses [Paramètres](manage/settings.md).
 * **[!UICONTROL Taille]** : la taille du fichier.
 * **[!UICONTROL Statut]** : le statut de la tâche qui traite le fichier.
    * **[!UICONTROL Créé]** : la tâche a été envoyée.
@@ -46,7 +46,7 @@ Les colonnes suivantes sont disponibles dans le gestionnaire de tâches du jeu d
    * **[!UICONTROL Échec du traitement]** : le traitement du fichier a échoué.
    * **[!UICONTROL Terminé]** : le traitement est terminé. Les données de classification sont visibles dans les rapports.
    * **[!UICONTROL Échec]** : échec générique non lié à la validation ou au traitement.
-* **[!UICONTROL Type de tâche]** : type de tâche.
+* **[!UICONTROL Type de tâche]** : le type de tâche.
 * **[!UICONTROL Source]** : source de la tâche.
 * **[!UICONTROL Téléchargement de fichier]** : s’applique uniquement aux tâches de téléchargement, telles que le téléchargement de données de classification ou le téléchargement de modèles. Lorsqu’un téléchargement est prêt, cette colonne fournit un lien de téléchargement.
 * **[!UICONTROL Lignes modifiées]** : nombre de lignes modifiées.

@@ -16,8 +16,8 @@ ht-degree: 44%
 
 {{legacy-arb}}
 
-Vous pouvez combiner des types de mesures de trafic et de commerce dans une seule requête au lieu de créer des requêtes distinctes.
+Vous pouvez combiner des types de mesures de trafic et de commerce dans une seule demande au lieu de créer des demandes distinctes.
 
-Les mesures de trafic et de commerce s’affichent dans la même catégorie de mesures dans le formulaire Assistant Requête : Étape 2. La catégorie regroupée est intitulée **[!UICONTROL Standard]**.
+Les mesures Trafic et Commerce sont affichées dans la même catégorie de mesures dans l’Assistant Requête : Étape 2. La catégorie groupée est intitulée **[!UICONTROL Standard]**.
 
-![Capture d’écran de la liste des mesures standard de l’Assistant Requête : Étape 2.](assets/standard_metrics.png)
+![Capture d’écran de l’Assistant Requête : étape 2 Liste des mesures standard.](assets/standard_metrics.png)

@@ -1,5 +1,5 @@
 ---
-title: Comment créer un bloc de données à l’aide de Report Builder
+title: Création d’un bloc de données à l’aide de Report Builder
 description: Décrit comment créer un bloc de données.
 role: User
 feature: Report Builder
@@ -19,11 +19,11 @@ Un *bloc de données* est le tableau de données créé par une requête de donn
 
 ## Configuration du bloc de données
 
-Configurez les paramètres de bloc de données initiaux pour l’emplacement du bloc de données, la suite de rapports et une période.
+Configurez les paramètres initiaux du bloc de données : son emplacement, la suite de rapports et une période.
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
-   ![Capture d&#39;écran montrant l&#39;option Créer un bloc de données.](./assets/create_db.png)
+   ![Capture d’écran affichant l’option Créer un bloc de données.](./assets/create_db.png)
 
 1. Définissez lʼ&#x200B;**[!UICONTROL Emplacement du bloc de données]**.
 
@@ -31,7 +31,7 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
    Pour spécifier l’emplacement du bloc de données, sélectionnez une seule cellule dans la feuille de calcul et cliquez sur l’icône en regard de **[!UICONTROL Emplacement du bloc de données]** :
 
-   Vous pouvez également saisir une adresse de cellule telle que a3, \\\$a3, a\\\$3 ou sheet1!a2. La cellule spécifiée marque le coin supérieur gauche du bloc de données lors de la récupération des données.
+   Vous pouvez également saisir une adresse de cellule telle que a3, \\\$a3, a\\$3 ou sheet1!a2. La cellule spécifiée marque le coin supérieur gauche du bloc de données lors de la récupération des données.
 
 1. Choisissez une **suite de rapports**.
 
@@ -43,17 +43,17 @@ Configurez les paramètres de bloc de données initiaux pour l’emplacement du 
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-   ![Capture d&#39;écran montrant l&#39;option de période et le bouton Suivant actif.](./assets/choose_date_report_suite.png)
+   ![Capture d’écran affichant l’option de période et le bouton Suivant actif.](./assets/choose_date_report_suite.png)
 
-   Une fois le bloc de données configuré, vous pouvez sélectionner des dimensions, des mesures et des segments pour le créer. Les onglets Dimensions, Mesures et Filtres sʼaffichent au-dessus du volet Générateur de tableaux.
+   Une fois le bloc de données configuré, sélectionnez des dimensions, des mesures et des segments pour le créer. Les onglets Dimensions, Mesures et Filtres sʼaffichent au-dessus du volet Générateur de tableaux.
 
 ## Création du bloc de données
 
 Pour créer le bloc de données, sélectionnez les composants du rapport et personnalisez leur disposition.
 
-1. Ajout de Dimensions, de mesures et de segments.
+1. Ajoutez des dimensions, des mesures et des segments.
 
-   Faites défiler la liste des composants ou utilisez le champ **[!UICONTROL Rechercher]** pour localiser les composants. Faites glisser et déposez les composants dans le volet Tableau ou double-cliquez sur le nom dʼun composant dans la liste pour lʼajouter automatiquement au volet Tableau.
+   Faites défiler les listes de composants ou utilisez le champ **[!UICONTROL Rechercher]** pour localiser les composants. Faites glisser et déposez les composants dans le volet Tableau ou double-cliquez sur le nom dʼun composant dans la liste pour lʼajouter automatiquement au volet Tableau.
 
    Double-cliquez sur un composant pour lʼajouter à une section par défaut du tableau.
 
@@ -63,9 +63,9 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
    **Date de début en tant que Dimension**
 
-   Définissez la **[!UICONTROL date de début]** comme dimension pour identifier clairement la date de début de votre bloc de données. Cela s’avère utile si vous disposez d’un rapport régulièrement planifié avec une plage de dates variable ou si vous disposez d’une plage de dates non conventionnelle et que vous devez être clair à la date de début.
+   Définissez la **[!UICONTROL Date de début]** comme dimension pour identifier clairement la date de début de votre bloc de données. Cela s’avère utile si vous disposez d’un rapport planifié régulièrement avec une période flottante ou si vous disposez d’une période non conventionnelle et que vous devez indiquer clairement la date de début.
 
-   ![Capture d&#39;écran montrant la date de début dans la liste des dimensions.](./assets/start-date-dimension.png){width="30%"}
+   ![Capture d’écran affichant la date de début dans la liste des dimensions.](./assets/start-date-dimension.png){width="30%"}
 
 1. Organisez les éléments dans le volet Tableau pour personnaliser la disposition de votre bloc de données.
 
@@ -73,23 +73,23 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
    Lorsque vous ajoutez des composants au tableau, une prévisualisation du bloc de données sʼaffiche à lʼemplacement du bloc de données dans la feuille de calcul. La disposition de la prévisualisation du bloc de données est automatiquement mise à jour lorsque vous ajoutez, déplacez ou supprimez des éléments du tableau.
 
-   ![Capture d&#39;écran montrant les composants ajoutés et la feuille de calcul mise à jour.](./assets/image10.png)
+   ![Capture d’écran montrant les composants ajoutés et la feuille de calcul mise à jour.](./assets/image10.png)
 
-   **Afficher ou masquer les en-têtes de lignes et de colonnes**
+   **Afficher ou masquer les en-têtes de ligne et de colonne**
 
-1. Cliquez sur l&#39;icône **[!UICONTROL Paramètres de table]** .
+1. Cliquez sur l’icône **[!UICONTROL Paramètres du tableau]**.
 
-   ![Capture d&#39;écran montrant l&#39;option Paramètres du tableau.](./assets/table-settings.png){width="35%"}
+   ![Capture d’écran affichant l’option Paramètres du tableau.](./assets/table-settings.png){width="35%"}
 
-1. Cochez ou décochez l’option Afficher les en-têtes de ligne et de colonne . Les en-têtes sont affichés par défaut.
+1. Cochez ou désélectionnez l’option Afficher les en-têtes de ligne et de colonne . Les en-têtes s’affichent par défaut.
 
-   **Masquer ou afficher les étiquettes de dimension et les en-têtes de mesure**
+   **Masquer ou afficher les libellés de dimension et les en-têtes de mesure**
 
-1. Cliquez sur l’icône représentant des points de suspension sur les dimensions ou les en-têtes de colonne pour afficher les paramètres.
+1. Cliquez sur l’icône représentant des points de suspension au niveau des dimensions ou des en-têtes de colonne pour afficher les paramètres.
 
    ![Icône représentant des points de suspension dans la section Ligne.](./assets/row-heading.png){width="35%"}
 
-1. Cliquez sur Masquer ou Afficher pour activer/désactiver les libellés de dimension ou les en-têtes de colonne. Toutes les étiquettes sont affichées par défaut.
+1. Cliquez sur Masquer ou Afficher pour activer/désactiver les libellés de dimension ou les en-têtes de colonne. Tous les libellés sont affichés par défaut.
 
 1. Cliquez sur **[!UICONTROL Terminer]**.
 

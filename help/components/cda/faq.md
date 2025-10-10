@@ -100,7 +100,7 @@ Voir la rubrique [Appareils uniques](/help/components/metrics/unique-devices.md)
 
 +++
 
-+++ Puis-je inclure des mesures des Analyses entre appareils à l’aide de l’API Adobe Analytics 2.0 ?
++++ Puis-je inclure des mesures Analytics sur l’ensemble des appareils à l’aide de l’API Adobe Analytics 2.0 ?
 
 Oui. Analysis Workspace utilise l’API 2.0 pour demander des données aux serveurs Adobe et vous pouvez afficher les appels d’API qu’Adobe utilise pour créer vos propres rapports :
 
@@ -139,7 +139,7 @@ Les analyses entre appareils extraient les éléments de dimension des variables
 
 +++ Combien de suites de rapports de mon entreprise peuvent être activées pour Analytics sur l’ensemble des appareils ?
 
-À compter du 1er mai 2022, toute nouvelle implémentation d’Analytics sur l’ensemble des appareils sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour les analyses entre appareils doit être de nature multi-appareils (contenant des données provenant de plusieurs surfaces telles que le web pour ordinateur, le web mobile, l’application mobile, etc.).
+À compter du 1er mai 2022, toute nouvelle implémentation d’Analytics sur l’ensemble des appareils sera limitée à un maximum de trois identifiants de suite de rapports (RSID) par client. Les analyses entre appareils ne fusionnent pas les suites de rapports. Chaque suite de rapports activée pour Analytics sur l’ensemble des appareils doit être entre appareils par nature (contenant des données provenant de plusieurs surfaces telles que le Web bureau, le Web mobile, l’application mobile, etc.).
 
 +++
 

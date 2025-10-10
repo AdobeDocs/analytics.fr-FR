@@ -1,6 +1,6 @@
 ---
-title: Comment sélectionner une plage de données dans le Report Builder dans Adobe Analytics
-description: Décrit comment utiliser le calendrier, les dates flottantes et les expressions personnalisées en Report Builder pour Adobe Analytics
+title: Sélection d’une plage de données dans Report Builder dans Adobe Analytics
+description: Décrit comment utiliser le calendrier, les dates flottantes et les expressions personnalisées dans Report Builder pour Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
@@ -36,7 +36,7 @@ L’option **[!UICONTROL À partir de la cellule]** vous permet de référencer 
 
 Vous avez la possibilité dʼexclure la date dʼaujourdʼhui pour nʼimporte quelle période sélectionnée.
 
-![Volet de modification rapide de Report Builder avec calendrier sélectionné et Exclure aujourd’hui sélectionné.](./assets/image17.png)
+![Volet Modification rapide de Report Builder avec calendrier sélectionné et Exclure aujourd’hui sélectionné.](./assets/image17.png)
 
 ## Utilisation du calendrier
 
@@ -62,7 +62,7 @@ Pour sélectionner des dates à lʼaide du calendrier, procédez comme suit :
 
 Pour définir une période en sens inverse, cliquez dʼabord sur la date de fin, puis sur la date de début.
 
-![Report Builder volet de périodes affichant le calendrier, la date de fin et la date de début sélectionnés.](./assets/image18.png)
+![volet de période Report Builder affichant le calendrier, la date de fin et la date de début sélectionnés.](./assets/image18.png)
 
 ### Menu déroulant Paramètre prédéfini
 
@@ -76,7 +76,7 @@ Lʼoption Dates roulantes vous permet de sélectionner une période à lʼaide d
 
 1. Sélectionnez une expression variable pour les dates de début et/ou de fin.
 
-   ![Report Builder volet de période affichant Utiliser les dates flottantes sélectionnées et l&#39;expression flottante.](./assets/image19.png)
+   ![volet de période Report Builder affichant Utiliser les dates flottantes sélectionnées et l’expression flottante.](./assets/image19.png)
 
    **Début du** - Permet de sélectionner le début dʼun jour, dʼune semaine, dʼun mois, dʼun trimestre ou dʼune année.
 
@@ -86,11 +86,11 @@ Lʼoption Dates roulantes vous permet de sélectionner une période à lʼaide d
 
 1. Sélectionnez la période roulante : jour, semaine, mois, trimestre ou année.
 
-   ![Report Builder volet de période affichant le jour sélectionné.](./assets/image20.png)
+   ![volet de période Report Builder affichant le jour sélectionné.](./assets/image20.png)
 
 1. Ajoutez ou enlevez des jours, semaines, mois, trimestres ou années à votre date roulante.
 
-   ![Report Builder volet de période affichant le jour en cours plus les 14 jours sélectionnés.](./assets/image21.png)
+   ![volet de période Report Builder affichant le jour en cours plus les 14 jours sélectionnés.](./assets/image21.png)
 
 1. Cliquez sur Suivant pour définir la période.
 

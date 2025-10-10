@@ -1,5 +1,5 @@
 ---
-description: Découvrez les recommandations et la configuration système requise pour le Report Builder.
+description: Découvrez les recommandations système et les conditions préalables requises pour Report Builder.
 title: À propos de la configuration requise pour Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder

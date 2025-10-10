@@ -12,7 +12,7 @@ ht-degree: 90%
 
 # Prise en charge des cookies persistants
 
-La [dimension](overview.md) de la &quot;prise en charge des cookies persistants&quot; indique si l’accès a utilisé un identifiant visiteur provenant d’une source persistante. La source persistante la plus courante provient dʼun cookie, mais peut également utiliser des en-têtes mobiles et dʼautres sources.
+La « Prise en charge des cookies persistants » [dimension](overview.md) indique si l’accès a utilisé un identifiant visiteur provenant d’une source persistante. La source persistante la plus courante provient dʼun cookie, mais peut également utiliser des en-têtes mobiles et dʼautres sources.
 
 ## Renseignement de cette dimension avec des données
 

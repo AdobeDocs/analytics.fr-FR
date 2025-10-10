@@ -19,9 +19,9 @@ Les attributs du client sont stockés dans un nouveau type d’élément appelé
 
 Pour obtenir des informations plus détaillées sur le chargement des attributs du client, reportez-vous à l’[aide d’Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr).
 
-* S’il est configuré en tant que mesure, VisAttr est exposé en tant que mesure et &quot;dimension&quot;.
+* S’il est configuré en tant que mesure, VisAttr est exposé à la fois en tant que mesure et « dimension ».
 
-  ![Capture d’écran montrant les attributs du client de mesure et de dimension.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
+  ![Capture d’écran affichant la mesure et la dimension Attributs du client.](assets/ca_metrics.png) ![](assets/ca_dimension.png)
 
 * Il prend en charge la même répartition qu’une eVar (tout peut être réparti par tout).
 * VisAttr prend en charge toutes les mesures d’eVar.

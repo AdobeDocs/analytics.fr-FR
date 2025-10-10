@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment planifier des requêtes de rapport, définir des options de remise avancées, spécifier des destinataires et afficher l’historique de planification.
-title: À propos des requêtes de rapport planifiées
+description: Découvrez comment planifier des demandes de rapport, spécifier des options de diffusion avancées, spécifier des destinataires et afficher l’historique de planification.
+title: À propos des demandes de rapports planifiées
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
 role: User, Admin

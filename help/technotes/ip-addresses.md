@@ -14,15 +14,15 @@ ht-degree: 35%
 
 Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
 
-Toutes les adresses IP utilisées par Adobe Analytics font partie des [adresses IP utilisées par Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/ip-addresses), à l’exception du module complémentaire China Performance Optimization.
+Toutes les adresses IP utilisées par Adobe Analytics font partie des adresses [IP utilisées par Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), à l’exception du package complémentaire Optimisation des performances pour la Chine .
 
-## Adresses IP d’optimisation des performances de la Chine
+## Adresses IP d’optimisation des performances pour la Chine
 
-Le module complémentaire d’optimisation des performances en Chine est un service payant supplémentaire qui améliore les performances de collecte de données d’AppMeasurement pour les visiteurs en Chine. Contactez votre équipe de compte d’Adobe pour en savoir plus sur l’utilisation de cette fonctionnalité.
+Le package de modules complémentaires Optimisation des performances en Chine est un service payant supplémentaire qui améliore les performances de la collecte de données AppMeasurement pour les visiteurs en Chine. Pour en savoir plus sur l’utilisation de cette fonctionnalité, contactez l’équipe chargée de votre compte Adobe.
 
 >[!IMPORTANT]
 >
->La collecte de données régionale pour la Chine n’est pas disponible pour la collecte de données du SDK Web. Ces serveurs s’appliquent uniquement aux bibliothèques AppMeasurement.
+>RDC Chine n’est pas disponible pour la collecte de données Web SDK. Ces serveurs s’appliquent uniquement aux bibliothèques AppMeasurement.
 
 Les serveurs de collecte de données régionaux en Chine utilisent les adresses IP suivantes :
 
@@ -36,6 +36,6 @@ Les serveurs de collecte de données régionaux en Chine utilisent les adresses 
 
 >[!MORELIKETHIS]
 >
->[Adresses IP utilisées par Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/ip-addresses)
+>[Adresses IP utilisées par le Adobe Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Domaines utilisés par Adobe Analytics](domains.md)

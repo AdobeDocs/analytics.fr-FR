@@ -1,5 +1,5 @@
 ---
-description: Dans les requêtes de type Disposition croisée dynamique et Disposition personnalisée, apprenez à ajouter des chaînes ou des caractères en suffixe ou en préfixe dans des cellules.
+description: Dans les requêtes de disposition pivot et personnalisée, apprenez à ajouter des chaînes ou des caractères aux cellules avec un préfixe ou une date.
 title: Ajout de texte en préfixe ou en suffixe à des cellules
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
@@ -18,7 +18,7 @@ ht-degree: 59%
 
 Dans des requêtes de type Disposition croisée dynamique et Disposition personnalisée, vous pouvez, pour des valeurs de chaîne ou numériques, ajouter des chaînes ou des caractères en suffixe ou en préfixe dans des cellules.
 
-Cette option est disponible dans la fenêtre [!UICONTROL Assistant Requête : Étape 2] .
+Cette option est disponible dans la fenêtre [!UICONTROL Assistant Requête : Etape 2].
 
 **Ajouter un texte en préfixe** : ajoute, à la cellule, un préfixe de valeurs numériques ou de chaîne.
 

@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment configurer la mise en page d’un rapport, la mise en forme de l’en-tête et le filtrage des dimensions en vue de la sortie.
-title: Comment configurer la disposition d'un rapport
+description: Découvrez comment configurer la disposition d’un rapport, le formatage des en-têtes et le filtrage des dimensions pour la sortie.
+title: Configuration d’une disposition de rapport
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
 role: User, Admin
@@ -12,7 +12,7 @@ ht-degree: 76%
 
 ---
 
-# Disposition - Assistant Requête : Étape 2
+# Mise en page - Assistant Requête : Étape 2
 
 {{legacy-arb}}
 

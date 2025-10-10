@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment créer plusieurs copies d’une requête.
-title: Comment créer plusieurs copies d’une requête
+title: Création de plusieurs copies d’une requête
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
 role: User, Admin

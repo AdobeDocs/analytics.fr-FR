@@ -8,12 +8,12 @@ exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
 
-# Annotations des cartes de performance mobiles
+# Annotations de carte de performance mobile
 
 Vous pouvez afficher les annotations créées dans Analysis Workspace dans les cartes de performance mobiles. Les annotations dans les cartes de performance mobiles vous permettent de partager les nuances et informations des données contextuelles de votre organisation et de vos campagnes.
 

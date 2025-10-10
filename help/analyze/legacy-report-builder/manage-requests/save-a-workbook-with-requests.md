@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment enregistrer des rapports avec des requêtes incorporées.
-title: À propos de l’enregistrement d’un classeur avec requêtes
+title: À propos de l’enregistrement d’un classeur avec des requêtes
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 {{legacy-arb}}
 
-Lorsque vous créez des rapports avec des requêtes incorporées, vous pouvez les enregistrer à l’aide de **Fichier** > **Enregistrer** ou **Fichier** > **Enregistrer sous** dans Excel. Report Builder détecte si le rapport contient des requêtes. Lorsque vous sélectionnez l’une des options d’enregistrement, remplissez le formulaire **Enregistrer le classeur sous**.
+Lorsque vous créez des rapports avec des demandes incorporées, vous pouvez les enregistrer à l’aide de **Fichier** > **Enregistrer** ou **Fichier** > **Enregistrer sous** dans Excel. Report Builder détecte si le rapport contient des requêtes. Lorsque vous sélectionnez l’une des options d’enregistrement, complétez le formulaire **Enregistrer le classeur sous**.
 
 * Lorsque vous réalisez des travaux de grande envergure dans des applications Windows, Adobe conseille d’enregistrer fréquemment vos requêtes dans la feuille de calcul et ce, afin d’éviter toute perte de données.
 * Lorsque vous attribuez un nom à votre classeur, pensez à inclure le numéro de version dans le nom de fichier, de manière à conserver un historique des travaux. Par exemple, nommez votre premier classeur [!DNL web_forecast_01_01.xlsx].
@@ -28,7 +28,7 @@ Le formulaire [!UICONTROL Enregistrement du modèle] présente des fonctions ide
 
 Un nom de fichier peut contenir, au maximum, 255 caractères. Les caractères suivants ne sont pas autorisés :
 
-\ ? | > &lt; : / &#42; &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; « 
 
 Ajoutons encore que vous ne pouvez pas utiliser de caractères Unicode en dehors du jeu des caractères ASCII étendus.
 

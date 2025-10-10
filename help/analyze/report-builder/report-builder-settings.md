@@ -25,7 +25,7 @@ Pour modifier les paramètres de Report Builder
 
 1. Cliquez sur **Appliquer**.
 
-   ![Paramètres de Report Builder.](./assets/image38.png)
+   ![Paramètres Report Builder.](./assets/image38.png)
 
 ## Mode hors ligne
 
@@ -51,7 +51,7 @@ Pour sélectionner la langue utilisée dans l’interface utilisateur de Report 
 
 1. Sélectionnez une langue dans le menu déroulant **[!UICONTROL Langue]**.
 
-   ![Report Builder volet de périodes affichant la liste des langues avec l&#39;anglais sélectionné.](./assets/image39.png)
+   ![Volet de périodes Report Builder affichant la liste des langues avec l&#39;anglais sélectionné.](./assets/image39.png)
 
 1. Cliquez sur **[!UICONTROL Appliquer].**
 

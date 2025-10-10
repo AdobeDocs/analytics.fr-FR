@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Les comptes dynamiques sont uniquement pris en charge à l’aide des mises en œuvre JavaScript héritées (code H). Ces variables ne sont pas prises en charge dans les bibliothèques d’AppMeasurements actuelles ou dans la collecte de données Adobe Experience Platform.
+>Les comptes dynamiques sont uniquement pris en charge à l’aide des mises en œuvre JavaScript héritées (code H). Ces variables ne sont actuellement pas prises en charge dans les bibliothèques AppMeasurement ou la collecte de données Adobe Experience Platform.
 
 La variable `s.dynamicAccountList` détermine dynamiquement la valeur de `s_account`. Si `dynamicAccountSelection` est défini sur `true`, la variable `dynamicAccountMatch` est comparée à `dynamicAccountList`. Si une correspondance est trouvée, l’identifiant de suite de rapports correspondant est utilisé.
 

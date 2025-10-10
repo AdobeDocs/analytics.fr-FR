@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment copier et coller des cellules mappées à plusieurs requêtes.
-title: Présentation de la copie des requêtes
+description: Découvrez comment copier et coller des cellules mappées avec plusieurs requêtes.
+title: Présentation de la copie de requêtes
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 feature: Report Builder
 role: User, Admin

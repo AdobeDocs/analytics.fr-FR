@@ -12,7 +12,7 @@ ht-degree: 81%
 
 # Largeur du navigateur
 
-La &quot;Largeur du navigateur - regroupée&quot; [dimension](overview.md) affiche la largeur de la fenêtre du navigateur, classée en groupes prédéfinis. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. La compréhension de la largeur généralement affichée dans votre contenu peut vous permettre d’optimiser ce contenu.
+La dimension « Largeur du navigateur - compartimenté »[](overview.md) affiche la largeur de la fenêtre du navigateur, classée dans des groupes prédéfinis. Cette dimension s’avère utile lorsque vous souhaitez déterminer la largeur d’affichage dont bénéficie votre contenu auprès des visiteurs. Comprendre la largeur sur laquelle votre contenu est généralement affiché peut vous permettre d’optimiser ce contenu.
 
 Cette dimension est différente de la largeur d’écran. La largeur du navigateur correspond au nombre de pixels dans l’espace du navigateur consultable, tandis que la largeur d’écran correspond à la largeur de l’ensemble du moniteur en pixels. Si vous souhaitez voir la différence entre ces deux variables sur votre propre ordinateur, ouvrez la console du navigateur (F12 sur la plupart des navigateurs) et effectuez un copier-coller du code suivant dans la console :
 
@@ -30,4 +30,4 @@ Adobe conserve la largeur du navigateur pour une visite. Si la largeur du naviga
 
 ## Éléments de dimension
 
-Les éléments de Dimension incluent toutes les largeurs de navigateur collectées, classées en groupes prédéfinis. Par exemple, si la largeur du navigateur d’un accès correspond à `1280`, elle est classée dans l’élément de dimension `1200 to 1299`.
+Les éléments Dimension incluent toutes les largeurs de navigateur collectées, classées dans des groupes prédéfinis. Par exemple, si la largeur du navigateur d’un accès correspond à `1280`, elle est classée dans l’élément de dimension `1200 to 1299`.

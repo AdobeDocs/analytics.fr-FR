@@ -62,9 +62,9 @@ L’exemple de code HTML ci-dessous peut servir à capturer les statistiques dep
 </html>
 ```
 
-### Étape 2 : hébergez la page `stats.html` sur votre serveur web
+### Étape 2 : hébergez la page `stats.html` sur votre serveur web
 
-Adobe conseille d’héberger votre page `stats.html` avec la dernière version de `AppMeasurement.js` et `VisitorAPI.js`. Contactez les équipes d’ingénieurs appropriées de votre entreprise pour héberger ce fichier au bon endroit.
+Adobe conseille d’héberger votre page `stats.html` avec la dernière version de `AppMeasurement.js` et `VisitorAPI.js`. Contactez les équipes techniques appropriées de votre entreprise pour héberger ce fichier au bon endroit.
 
 ### Étape 3 : référencez `stats.html` sur chaque page Instant Article de Facebook
 

@@ -1,6 +1,6 @@
 ---
 title: Recherches dynamiques
-description: Découvrez les recherches dynamiques et comment les activer. Inclut les opérateurs, les attributs mobiles et les types de système d’exploitation.
+description: Découvrez ce que sont les recherches dynamiques et comment les activer. Inclut les opérateurs, les attributs mobiles et les types de système d’exploitation.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
@@ -12,32 +12,32 @@ ht-degree: 1%
 
 # Recherches dynamiques
 
-Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données, sinon ils ne sont pas disponibles. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
+Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données qui ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
 
 * **Nom de l’opérateur** : fournit un contexte supplémentaire pour la colonne `carrier`. Le nom de fichier inclus est `carrier.tsv`.
 * **Attributs mobiles** : fournit un contexte supplémentaire pour la colonne `mobile_id`, y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
-* **Type de système d’exploitation** : fournit un autre contexte pour la colonne `os`. `operating_systems.tsv` et `operating_system_type.tsv` utilisent tous les deux la colonne `os` comme clé, mais seul `operating_system_type.tsv` est une recherche dynamique.
+* **Type de système d’exploitation** : fournit un autre contexte pour la colonne `os`. `operating_systems.tsv` et `operating_system_type.tsv` utilisent tous deux la colonne `os` comme clé, mais seule `operating_system_type.tsv` est une recherche dynamique.
 
-## Activation des recherches dynamiques
+## Activer les recherches dynamiques
 
-Si vous souhaitez recevoir les fichiers de recherche mentionnés, vous devez respecter toutes les conditions préalables suivantes :
+Si vous souhaitez recevoir les fichiers Lookup mentionnés, vous devez remplir toutes les conditions préalables suivantes :
 
 * La colonne clé doit être incluse dans le flux de données.
-   * Pour `carrier.tsv`, vous devez inclure `carrier`.
-   * Pour `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
-   * Pour `operating_system_type.tsv`, vous devez inclure `os`.
-* Les colonnes suivantes doivent être **excluded**. Si l’une de ces colonnes est incluse dans le flux de données, la recherche dynamique `mobile_attributes.tsv` n’est pas incluse.
+   * Par `carrier.tsv`, vous devez inclure `carrier`.
+   * Par `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
+   * Par `operating_system_type.tsv`, vous devez inclure `os`.
+* Les colonnes suivantes doivent être **exclues**. Si l’une de ces colonnes est incluse dans le flux de données, la recherche dynamique `mobile_attributes.tsv` n’est pas incluse.
    * `user_agent`
    * `ch_hdr`
    * `ch_js`
 
-Une fois que votre flux de données répond aux exigences d’inclusion et d’exclusion des colonnes, contactez l’assistance clientèle avec l’identifiant du flux de données et demandez-en d’activer les recherches dynamiques.
+Une fois que votre flux de données répond aux exigences d’inclusion et d’exclusion des colonnes, contactez l’assistance clientèle en indiquant l’identifiant du flux de données et en demandant l’activation des recherches dynamiques.
 
-## Référence de l’en-tête de recherche
+## Référence d’en-tête de recherche
 
 Les en-têtes de colonne de ces fichiers de recherche ne changent pas au fil du temps. Par conséquent, les en-têtes ne sont pas inclus dans chaque fichier de flux de données. Utilisez ces en-têtes de colonne comme référence ou téléchargez leur fichier `.tsv` respectif.
 
-+++**Nom de l’opérateur**
++++**Nom du transporteur**
 Téléchargez [carrier_headers.tsv](assets/carrier_headers.tsv) ou référencez les en-têtes ci-dessous.
 
 `carrier`
@@ -100,7 +100,7 @@ Téléchargez [mobile_attributes_headers.tsv](assets/mobile_attributes_headers.t
 +++
 
 +++**Type de système d’exploitation**
-Téléchargez [operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou référencez les en-têtes ci-dessous.
+Téléchargez [Operating_system_type_headers.tsv](assets/operating_system_type_headers.tsv) ou référencez les en-têtes ci-dessous.
 
 `os`
 `Operating System Type`

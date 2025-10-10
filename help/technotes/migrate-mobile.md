@@ -6,7 +6,7 @@ exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
 source-wordcount: '687'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -26,11 +26,11 @@ Cependant, si vous configurez des règles de traitement supplémentaires dans l�
 
 1. Connectez-vous à `experience.adobe.com` et accédez à Mobile Services.
 1. Cliquez sur l’icône d’engrenage d’une application mobile pour laquelle vous souhaitez déplacer les correspondances de variables contextuelles vers Adobe Analytics.
-1. Cliquez sur l’élément de menu **[!UICONTROL Gérer les variables et les mesures]**, puis sur l’onglet **[!UICONTROL Variables personnalisées]**. Là, vous pouvez voir quelles correspondances de variables contextuelles (données contextuelles) ont été ajoutés à la configuration. Notez ces configurations (ou faites une copie d’écran). Exemple :
+1. Cliquez sur l’élément de menu **[!UICONTROL Gérer les variables et les mesures]**, puis sur l’onglet **[!UICONTROL Variables personnalisées]**. Là, vous pouvez voir quelles correspondances de variables contextuelles (données contextuelles) ont été ajoutés à la configuration. Notez ces configurations (ou faites une capture d’écran). Exemple :
 
    ![Variable contextuelle](assets/context-var.png)
 
-1. Dans Experience Cloud, passez à Adobe Analytics et vérifiez que vous vous trouvez dans la même suite de rapports mobile que celle que vous avez consultée dans Mobile Services.
+1. Dans Experience Cloud, passez à Adobe Analytics et assurez-vous que vous êtes dans la même suite de rapports mobile que celle que vous recherchiez dans Mobile Services.
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Règles de traitement]**.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]**.
 1. Ignorez les conditions et continuez à ajouter la ou les même(s) variable(s) contextuelle(s) existant dans Mobile Services.
@@ -59,7 +59,7 @@ Voici un extrait du modèle d’utilisation des applications mobiles :
 Pour accéder aux modèles :
 
 1. Connectez-vous à `experience.adobe.com` et sélectionnez Analytics.
-1. Assurez-vous que vous vous trouvez dans une suite de rapports activée pour Mobile Services.
+1. Assurez-vous d’être dans une suite de rapports activée pour Mobile Services.
 1. Cliquez sur l’onglet **[!UICONTROL Workspace]**.
 1. Cliquez sur **[!UICONTROL Créer un projet]**.
 1. Sélectionnez l’un des modèles mobiles et cliquez sur **[!UICONTROL Créer]**.
@@ -77,4 +77,4 @@ Si vous utilisez Mobile Services pour les fonctionnalités payantes, vous n’av
 
 * Pour les liens d’acquisition, nous pouvons vous diriger vers des partenaires d’Adobe qui pourront répondre à vos besoins.
 * Les messageries push et in-app sont disponibles dans Adobe Campaign Standard et Adobe Campaign Classic (push uniquement). Cependant, le jeu de données sous-jacent utilisé pour le ciblage est différent. Nous vous suggérons de travailler avec l’équipe qui se charge de vos comptes Adobe afin de déterminer les options de migration pour les données de messagerie.
-* Pour la fonctionnalité de position, nous vous recommandons d’adopter le nouveau [service de localisation Adobe Experience Platform](https://www.adobe.com/fr/experience-platform/location-service.html), qui est gratuit pour tous les clients Adobe Experience Platform.
+* Pour la fonctionnalité de localisation, nous vous recommandons d’adopter le nouveau service [Adobe Experience Platform Location Service](https://www.adobe.com/fr/experience-platform/location-service.html), gratuit pour tous les clients Adobe Experience Platform.

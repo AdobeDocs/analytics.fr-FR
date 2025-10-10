@@ -12,7 +12,7 @@ ht-degree: 89%
 
 # Profondeur de visite
 
-La [dimension](overview.md) de &quot;profondeur de visite&quot; indique le nombre de pages vues par le visiteur au cours de toute la visite. La profondeur de visite augmente uniquement si l’accès est une page vue et si la dimension [Page](page.md) n’est pas la même que celle de l’élément de dimension de la dernière page vue. Il s’agit d’une dimension basée sur les visites, ce qui signifie qu’elle contient la même valeur pour toute la visite. Cette variable est définie pour tous les accès d’une visite une fois la visite terminée.
+La [dimension](overview.md) « Profondeur de la visite » indique le nombre de pages vues par le visiteur au cours de la visite complète. La profondeur de visite augmente uniquement si l’accès est une page vue et si la dimension [Page](page.md) n’est pas la même que celle de l’élément de dimension de la dernière page vue. Il s’agit d’une dimension basée sur les visites, ce qui signifie qu’elle contient la même valeur pour toute la visite. Cette variable est définie pour tous les accès d’une visite une fois la visite terminée.
 
 ## Renseignement de cette dimension avec des données
 

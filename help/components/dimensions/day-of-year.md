@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Jour de l’année
 
-La [dimension](overview.md) &quot;Jour de l’année&quot; indique le jour numérique d’une année donnée comme élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par jour de l’année, mais ne souhaitez pas d’une date statique comme élément de dimension.
+La [dimension](overview.md) « Jour de l’année » indique le jour numérique d’une année donnée en tant qu’élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par jour de l’année, mais ne souhaitez pas d’une date statique comme élément de dimension.
 
 ## Renseignement de cette dimension avec des données
 

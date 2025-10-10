@@ -1,5 +1,5 @@
 ---
-title: Comment convertir vos classeurs de Report Builder hérités en blocs de données
+title: Comment convertir vos classeurs Report Builder hérités en blocs de données
 description: Décrit comment convertir vos requêtes héritées en blocs de données
 role: User
 feature: Report Builder
@@ -9,13 +9,13 @@ exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
-# Conversion des classeurs de Report Builder hérités en blocs de données
+# Conversion des classeurs Report Builder hérités en blocs de données
 
-Dans le cadre de la transition vers une nouvelle technologie de Report Builder, vous pouvez rapidement convertir vos classeurs hérités actuels en classeurs basés sur JavaScript.
+Dans le cadre de la transition vers une nouvelle technologie Report Builder, vous pouvez rapidement convertir vos classeurs hérités actuels en classeurs basés sur JavaScript.
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ Dans le cadre de la transition vers une nouvelle technologie de Report Builder, 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446184?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workboo
 
 1. Ouvrez Excel et cliquez sur l’icône Adobe Report Builder en haut à droite.
 
-1. Cliquez sur **[!UICONTROL Connexion]** et connectez-vous au Report Builder.
+1. Cliquez sur **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
 
-1. Le complément Report Builder détecte si ce classeur contient des demandes [Report Builder hérité](/help/analyze/legacy-report-builder/home.md).
+1. Le complément Report Builder détecte si ce classeur contient des requêtes [Report Builder héritées](/help/analyze/legacy-report-builder/home.md).
 
    ![invite de mise à niveau du classeur](assets/upgrade_workbook.png)
 
@@ -62,9 +62,9 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workboo
 Vous pouvez désormais [gérer le bloc de données](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Fonctionnalités de Report Builder héritées non prises en charge dans le nouveau Report Builder {#unsupported}
+## Fonctionnalités héritées de Report Builder non prises en charge dans la nouvelle version de Report Builder {#unsupported}
 
-Lorsque vous comparez la fonctionnalité du Report Builder hérité au nouveau complément de Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
+Lorsque vous comparez la fonctionnalité de la version héritée de Report Builder au nouveau complément Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
 
 - Requêtes en temps réel
 
@@ -72,7 +72,7 @@ Lorsque vous comparez la fonctionnalité du Report Builder hérité au nouveau c
 
 - Option FTP pour les rapports planifiés
 
-- Mesures Visiteurs. Les mesures suivantes seront toutes converties en « visiteurs uniques », même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+- Mesures Visiteurs et visiteuses. Les mesures suivantes seront toutes converties en « visiteurs et visiteuses uniques », même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
 
 ## Planifier un classeur converti {#schedule}
 

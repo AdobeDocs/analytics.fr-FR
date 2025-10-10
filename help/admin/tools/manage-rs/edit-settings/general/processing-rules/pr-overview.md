@@ -67,4 +67,4 @@ Lors de la création ou de la modification des règles de traitement, tenez comp
 
 >[!MORELIKETHIS]
 >
->![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mappez les variables de données contextuelles en props et eVars avec des règles de traitement](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}
+>![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mappez les variables de données contextuelles en props et eVars avec des règles de traitement](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/implementation/implementation-basics/map-contextdata-variables-into-props-and-evars-with-processing-rules){target="_blank"}

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Visiteurs avec un Experience Cloud ID
 
-La mesure « Visiteurs avec un Experience Cloud ID » [&#128279;](overview.md) indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
+La mesure « Visiteurs avec un Experience Cloud ID » [](overview.md) indique le nombre de visiteurs uniques qui ont été identifiés par Adobe à l’aide du service [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Cette dimension est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise le service d’identifiant. Si une grande partie des visiteurs n’utilisent pas les cookies du service d’ID, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >

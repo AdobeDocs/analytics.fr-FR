@@ -17,8 +17,8 @@ ht-degree: 55%
 
 Vous pouvez sélectionner le type de rapport de base à affecter à votre requête de données, tel que Mesures du site, Contenu du site ou encore Vidéo.
 
-Vous ne pouvez choisir qu’un seul type de rapport de base pour une plage de cellules de feuille de calcul. Si vous modifiez une requête créée précédemment, vous pouvez modifier le type de rapport dans la fenêtre [!UICONTROL Assistant Requête : Étape 1] sans reconfigurer d’autres paramètres de la requête.
+Vous ne pouvez choisir qu’un seul type de rapport de base pour une plage de cellules de feuille de calcul. Si vous modifiez une demande créée précédemment, vous pouvez modifier le type de rapport dans la fenêtre [!UICONTROL Assistant Requête : Étape 1] sans reconfigurer les autres paramètres de la demande.
 
-Vous pouvez rechercher des rapports à l’aide de la barre de recherche à saisie semi-automatique. Après avoir sélectionné un rapport à partir de ce contrôle, l’arborescence sélectionne automatiquement le noeud correspondant.
+Vous pouvez rechercher des rapports à l’aide de la barre de recherche à saisie semi-automatique. Après avoir sélectionné un rapport dans ce contrôle, l&#39;arborescence sélectionne automatiquement le nœud correspondant.
 
-![Capture d&#39;écran montrant l&#39;arborescence de la suite de rapports et le noeud correspondant sélectionné.](assets/search_reports.png)
+![Capture d’écran affichant l’arborescence de la suite de rapports et le nœud correspondant sélectionné.](assets/search_reports.png)

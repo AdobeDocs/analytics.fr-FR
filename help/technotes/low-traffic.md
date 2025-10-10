@@ -10,7 +10,7 @@ ht-degree: 8%
 
 ---
 
-# Valeur [!UICONTROL &#x200B; Faible trafic &#x200B;] dans Adobe Analytics
+# Valeur [!UICONTROL  Faible trafic ] dans Adobe Analytics
 
 Lorsqu’une dimension contient des millions de valeurs uniques, Adobe fournit des fonctionnalités permettant de s’assurer que les valeurs les plus importantes apparaissent dans votre rapport en temps voulu. Les valeurs uniques collectées au-delà d’un certain seuil sont répertoriées sous un élément de dimension intitulé **[!UICONTROL Faible trafic]**.
 
@@ -51,21 +51,21 @@ Les limites de seuil peuvent parfois être modifiées par dimension. Contactez l
 * l’identifiant de la suite de rapports ;
 * La dimension pour laquelle vous souhaitez augmenter le seuil
 * Les premier et deuxième seuils souhaités :
-   * Le premier seuil (regroupement initial) est défini sur 2 000 000 **&#x200B;**&#x200B;par défaut.
-   * Le deuxième seuil (filtrage plus agressif) est défini sur 2 100 000 **&#x200B;**&#x200B;par défaut.
+   * Le premier seuil (regroupement initial) est défini sur 2 000 000 **** par défaut.
+   * Le deuxième seuil (filtrage plus agressif) est défini sur 2 100 000 **** par défaut.
 
 >[!IMPORTANT]
 >
 >Les modifications de seuils peuvent avoir un impact sur les performances des rapports. Adobe recommande vivement de faire preuve de bon sens lorsque vous demandez une augmentation des valeurs uniques pour une dimension. Augmentez uniquement les limites uniques pour les dimensions qui sont essentielles aux besoins de création de rapports de votre organisation.
 
-Les seuils [!UICONTROL &#x200B; Faible trafic &#x200B;] ne sont pas visibles dans l’interface utilisateur d’Analytics. Contactez l’assistance clientèle d’Adobe si vous souhaitez plus d’informations sur les seuils existants.
+Les seuils [!UICONTROL  Faible trafic ] ne sont pas visibles dans l’interface utilisateur d’Analytics. Contactez l’assistance clientèle d’Adobe si vous souhaitez plus d’informations sur les seuils existants.
 
 ## Interactions avec d’autres fonctionnalités
 
 Différentes fonctionnalités traitent les valeurs [!UICONTROL Faible trafic] de différentes manières.
 
-* **Data Warehouse:** Dans la plupart des cas, le nombre de valeurs uniques dans les rapports Data Warehouse n’est pas limité. Son architecture unique permet la création de rapports pour un nombre illimité de valeurs uniques. Cependant, les valeurs [!UICONTROL &#x200B; Faible trafic &#x200B;] peuvent toujours apparaître dans certains scénarios limités. Il s’agit par exemple des variables de liste, des props de liste, des eVars de marchandisage et des dimensions détaillées des canaux marketing.
+* **Data Warehouse:** Dans la plupart des cas, le nombre de valeurs uniques dans les rapports Data Warehouse n’est pas limité. Son architecture unique permet la création de rapports pour un nombre illimité de valeurs uniques. Cependant, les valeurs [!UICONTROL  Faible trafic ] peuvent toujours apparaître dans certains scénarios limités. Il s’agit par exemple des variables de liste, des props de liste, des eVars de marchandisage et des dimensions détaillées des canaux marketing.
 * **Segmentation :** si le critère de segment comprend une dimension avec un grand nombre de valeurs uniques, les valeurs capturées sous [!UICONTROL Faible trafic] ne sont pas incluses.
 * **Classifications :** les rapports de classification sont également soumis à des limites uniques. Si l’élément de dimension parent d’une classification est inclus sous [!UICONTROL Faible trafic], la valeur n’est pas classée.
-   * Les valeurs [!UICONTROL &#x200B; Faible trafic &#x200B;] classées par l’intermédiaire de l’importateur sont visibles dans Data Warehouse. <!-- AN-115871 -->
+   * Les valeurs [!UICONTROL  Faible trafic ] classées par l’intermédiaire de l’importateur sont visibles dans Data Warehouse. <!-- AN-115871 -->
    * [!UICONTROL Faible trafic] les valeurs classées par le créateur de règles *ne peuvent pas* être affichées dans Data Warehouse. <!-- AN-122872 -->

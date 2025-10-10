@@ -36,7 +36,7 @@ Non. Données chargées par le biais des sources de données :
 +++
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?
-Oui. Vous pouvez supprimer ces données à l’aide de l’[API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe recommande vivement de charger les données des sources de données dans une suite de rapports de test avant de les charger dans une suite de rapports de production afin de réduire la nécessité de supprimer les données.
+Oui. Vous pouvez supprimer ces données à l’aide de l’[API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/?lang=fr). Adobe recommande vivement de charger les données des sources de données dans une suite de rapports de test avant de les charger dans une suite de rapports de production afin de réduire la nécessité de supprimer les données.
 +++
 
 +++Combien de données puis-je importer en même temps ? 

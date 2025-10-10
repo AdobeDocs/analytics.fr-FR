@@ -1,11 +1,12 @@
 ---
-title: Configuration du Report Builder dans Adobe Analytics
+title: Configuration de Report Builder dans Adobe Analytics
 description: Décrit comment configurer Report Builder dans Adobe Analytics
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
-source-git-commit: eedabc6295f9b918e1e00b93993680e676c216c3
+exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
+source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 68%
@@ -14,11 +15,11 @@ ht-degree: 68%
 
 # Configuration de Report Builder
 
-Vous pouvez accéder rapidement au Report Builder à l’aide du menu Complément d’Excel.
+Vous pouvez accéder rapidement à Report Builder à l’aide du menu Complément Excel .
 
-## Configuration requise
+## Exigences
 
-Report Builder pour Adobe Analytics est pris en charge sur les systèmes d’exploitation et navigateurs web suivants.
+Report Builder pour Adobe Analytics est pris en charge dans les systèmes d’exploitation et navigateurs web ci-après.
 
 ### macOS
 
@@ -43,7 +44,7 @@ Report Builder pour Adobe Analytics est pris en charge sur les systèmes d’exp
 
 ## Complément Excel pour Report Builder
 
-Vous devez installer le module complémentaire Excel Report Builder pour utiliser Report Builder pour Adobe Analytics. Une fois le complément Excel pour Report Builder installé, vous pouvez accéder à Report Builder à partir dʼun classeur Excel ouvert.
+Vous devez installer le complément Report Builder Excel pour utiliser Report Builder pour Adobe Analytics. Une fois le complément Excel pour Report Builder installé, vous pouvez accéder à Report Builder à partir dʼun classeur Excel ouvert.
 
 ### Téléchargement et installation du complément Report Builder
 
@@ -51,13 +52,13 @@ Pour télécharger et installer le complément Report Builder
 
 1. Lancez Excel et ouvrez un nouveau classeur.
 
-1. Sélectionnez **[!UICONTROL Insérer]** > **[!UICONTROL Obtenir les modules complémentaires]**.
+1. Sélectionnez **[!UICONTROL Insérer]** > **[!UICONTROL Obtenir les compléments]**.
 
 1. Dans la boîte de dialogue Compléments Office, sélectionnez lʼonglet Boutique.
 
-1. Recherchez &quot;Report Builder&quot; et cliquez sur **[!UICONTROL Ajouter]**.
+1. Recherchez « Report Builder » et cliquez sur **[!UICONTROL Ajouter]**.
 
-1. Dans la boîte de dialogue Conditions de licence et politique de confidentialité, cliquez sur **[!UICONTROL Continuer]**.
+1. Dans la boîte de dialogue Termes de licence et politique de confidentialité, cliquez sur **[!UICONTROL Continuer]**.
 
 **Si lʼonglet Boutique nʼest pas affiché**
 
@@ -65,13 +66,13 @@ Pour télécharger et installer le complément Report Builder
 
 1. Cochez la case en regard de l’option « Activer les expériences connectées facultatives ».
 
-1. Relancez Excel.
+1. Redémarrez Excel.
 
 **Si votre organisation bloque lʼaccès au Microsoft Store**
 
 Contactez votre spécialiste en informatique ou en sécurité pour lui demander lʼapprobation du complément Report Builder. Une fois lʼapprobation accordée, sélectionnez lʼonglet Géré par lʼadministrateur dans la boîte de dialogue Compléments Office.
 
-![Onglet Administrateur géré dans la boîte de dialogue Compléments Office.](./assets/image1.png)
+![Onglet Géré par l&#39;administrateur dans la boîte de dialogue Compléments Office.](./assets/image1.png)
 
 Dès lʼinstallation du complément Report Builder terminée, lʼicône Report Builder sʼaffiche dans le ruban Excel, sous lʼonglet Accueil.
 
@@ -91,9 +92,9 @@ Une fois lʼinstallation du complément Report Builder for Excel sur votre syst�
 
 1. Entrez les informations correspondant à votre compte Adobe Experience ID. Les informations de votre compte doivent correspondre à vos informations d’identification Adobe Analytics.
 
-   ![ Icône de connexion et organisation.](./assets/image4.png)
+   ![Votre icône de connexion et votre organisation.](./assets/image4.png)
 
-Une fois connecté, l’icône et l’organisation de connexion s’affichent dans la partie supérieure du panneau.
+Une fois la connexion effectuée, l’icône et l’organisation de connexion s’affichent en haut du panneau
 
 ## Changement dʼorganisation
 
@@ -113,6 +114,6 @@ Vous pouvez vous déconnecter de Report Builder à partir du profil utilisateur.
 
 1. Cliquez sur lʼicône dʼavatar pour afficher votre profil utilisateur.
 
-   ![L’avatar de votre profil utilisateur et le bouton Se déconnecter.](./assets/image6.png)
+   ![L’avatar de votre profil utilisateur et le bouton de déconnexion.](./assets/image6.png)
 
 1. Cliquez sur **Se déconnecter**.

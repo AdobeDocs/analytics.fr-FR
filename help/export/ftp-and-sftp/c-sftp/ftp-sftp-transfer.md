@@ -15,8 +15,8 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->Les informations suivantes concernent les types de destinations FTP et SFTP. FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud plus sécurisé. Pour plus d’informations sur la configuration des types de destination cloud pour un flux de données, voir [Création d’un flux de données](/help/export/analytics-data-feed/create-feed.md).
+>Les informations suivantes concernent les types de destinations FTP et SFTP. Les FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud , qui est plus sécurisé. Pour plus d’informations sur la configuration des types de destinations cloud pour un flux de données, voir [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).
 
-Vous pouvez configurer les données d’Adobe à envoyer à un compte FTP externe à l’aide de SFTP.
+Vous pouvez configurer les données Adobe à envoyer à un compte FTP externe à l’aide du protocole SFTP.
 
-Pour plus d’informations, voir [Création d’un flux de données](/help/export/analytics-data-feed/create-feed.md).
+Pour plus d’informations, voir [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).

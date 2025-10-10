@@ -1,6 +1,6 @@
 ---
 description: Description de la procédure de création d’une requête Data Warehouse.
-title: Création d’un rapport pour une demande de Data Warehouse
+title: Création d’un rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: 34e84e39-e3b1-4184-898a-3fd222ff4d38
 source-git-commit: 6a7bbf5103eb6e7f8a3738d27d1fbb189d951a99
@@ -10,31 +10,31 @@ ht-degree: 42%
 
 ---
 
-# Création d’un rapport pour une demande de Data Warehouse
+# Création d’un rapport pour une requête Data Warehouse
 
-Plusieurs options de configuration sont disponibles lors de la création d’une requête Data Warehouse. Les informations suivantes expliquent comment créer un rapport pour la requête.
+Plusieurs options de configuration sont disponibles lors de la création d’une requête Data Warehouse. Les informations suivantes décrivent comment créer un rapport pour la requête.
 
 Pour plus d’informations sur la façon de commencer à créer une requête, ainsi que des liens vers d’autres options de configuration importantes, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-Pour créer un rapport pour une demande de Data Warehouse :
+Pour créer un rapport pour une requête Data Warehouse :
 
 1. Si vous ne l’avez pas déjà fait, commencez à créer une requête dans Adobe Analytics en sélectionnant **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]** > [!UICONTROL **Ajouter**].
 
    Pour plus d’informations, voir [Créer une requête Data Warehouse](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
-1. Sur la page de demande Nouveau Data Warehouse, sélectionnez l’onglet [!UICONTROL **Créer votre rapport**] .
+1. Sur la page Nouvelle requête Data Warehouse , sélectionnez l’onglet [!UICONTROL **Créer votre rapport**].
 
-   ![Créer l’onglet de rapport](assets/build-report.png)
+   ![Onglet Créer un rapport](assets/build-report.png)
 
-1. Dans le coin supérieur gauche, sélectionnez la suite de rapports à utiliser lors de la création de votre rapport de Data Warehouse.
+1. Dans le coin supérieur gauche, choisissez la suite de rapports à utiliser lors de la création de votre rapport Data Warehouse.
 
    Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec Data Warehouse. Une erreur s’affiche si vous choisissez une suite de rapports virtuelle contenant des segments incompatibles.
 
-   Pour obtenir la liste des fonctions prises en charge dans un segment, reportez-vous à la section [Compatibilité des segments de Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Pour obtenir la liste des fonctions prises en charge dans un segment, consultez [Compatibilité des segments Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
 
-1. Faites glisser des segments, des mesures et des dimensions dans le créateur. Le rapport que vous créez détermine les données qui sont incluses dans la requête du Data Warehouse.
+1. Faites glisser des segments, des mesures et des dimensions dans le créateur. Le rapport que vous créez détermine les données incluses dans la requête Data Warehouse.
 
-1. Continuez à configurer votre requête de Data Warehouse sur l’onglet [!UICONTROL **Destination du rapport**]. Pour plus d’informations, voir [Configuration d’une destination de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Continuez à configurer votre requête Data Warehouse dans l’onglet [!UICONTROL **Destination du rapport**]. Pour plus d’informations, voir [Configuration d’une destination de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 
 <!--
 

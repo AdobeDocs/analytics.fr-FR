@@ -13,22 +13,22 @@ ht-degree: 0%
 
 # Présentation des sources de données
 
-Les sources de données Adobe Analytics vous permettent d’importer des données en ligne ou hors ligne supplémentaires pour la création de rapports. Elles s’avèrent utiles pour comprendre les facettes de votre entreprise en dehors de votre site web et la manière dont elles interagissent avec votre site. Le workflow général d’utilisation des sources de données comprend les étapes suivantes :
+Les sources de données Adobe Analytics vous permettent d’importer des données en ligne ou hors ligne supplémentaires pour la création de rapports. Ils sont précieux pour aider à comprendre les aspects de votre entreprise en dehors de votre site web et la manière dont ils interagissent avec votre site. Le workflow général d’utilisation des sources de données comprend les étapes suivantes :
 
-1. Votre entreprise collecte des données à partir d’autres sources. Par exemple, les données de pré-clic, les données du centre d’appel ou les informations sur les transactions qui se sont produites en dehors de votre site.
-1. Les données sont formatées de manière à ce qu’Adobe Analytics comprenne l’utilisation d’un fichier texte délimité par des tabulations.
-1. Vous téléchargez le fichier texte sur un Adobe de site FTP fourni, ainsi qu’un fichier `.fin` associé.
+1. Votre entreprise collecte des données à partir d’autres sources. Il s’agit par exemple des données de pré-clic, des données du centre d’appels ou des informations sur les transactions effectuées en dehors de votre site.
+1. Les données sont formatées de manière à ce qu’Adobe Analytics puisse les comprendre à l’aide d’un fichier texte délimité par des tabulations.
+1. Vous téléchargez le fichier texte sur un site FTP fourni par Adobe, ainsi qu’un fichier `.fin` associé.
 1. Adobe ingère le fichier texte et affiche ces données avec les dimensions et les mesures collectées sur votre site.
 
-Il existe deux types généraux de sources de données qui Adobe les offres. Tous les modèles de source de données sont basés sur l’un de ces deux types :
+Adobe propose deux types généraux de sources de données. Tous les modèles de source de données sont basés sur l’un de ces deux types :
 
-* **Source de données récapitulatives** : permet d’importer facilement des données de haut niveau dans Adobe Analytics. Vous spécifiez l’horodatage, la valeur de variable et les mesures associées. Ces mesures pour chaque élément de dimension sont alors augmentées en conséquence. Il est utile si vous souhaitez voir les données hors ligne et en ligne côte à côte. Cependant, il ne lie pas les données en ligne et hors ligne.
-* **Source de données ID de transaction** : si un accès envoyé par AppMeasurement et une ligne de sources de données contiennent des ID de transaction correspondants, la dimension et les valeurs de mesure de la source de données sont ajoutées à cet accès.
+* **Source de données de résumé** : permet d’importer facilement des données de haut niveau dans Adobe Analytics. Vous spécifiez la date et l’heure, la valeur de la variable et les mesures associées. Ces mesures pour chaque élément de dimension sont ensuite augmentées en conséquence. Il s’avère utile si vous souhaitez afficher côte à côte des données hors ligne et en ligne. Cependant, il ne lie pas les données en ligne et hors ligne.
+* **Source de données ID de transaction** : si un accès envoyé par AppMeasurement et une ligne de sources de données contiennent des ID de transaction correspondants, les valeurs de dimension et de mesure de la source de données s’ajoutent à cet accès.
 
-**Les sources de données à traitement complet** ne sont plus proposées en tant que type de source de données à compter du 25 mars 2021. Pour plus d’informations, consultez l’ [annonce de fin de vie](full-processing-eol.md) .
+**Les sources de données à traitement complet** ne sont plus proposées en tant que type de source de données à compter du 25 mars 2021. Consultez l’[annonce de fin de vie](full-processing-eol.md) pour plus d’informations.
 
-Adobe propose également l’ [API Sources de données](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), qui vous permet de créer des sources de données et de transférer des données sans utiliser l’interface utilisateur du produit ou un emplacement FTP.
+Adobe propose également l’[API Data sources](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-sources/), qui vous permet de créer des sources de données et de charger des données sans utiliser l’interface utilisateur du produit ou un emplacement FTP.
 
 ## Étapes suivantes
 
-[Prise en main des sources de données](getting-started.md) : téléchargez une source de données simple vers une suite de rapports de développement.
+[Prise en main des sources de données](getting-started.md) : chargez une source de données simple vers une suite de rapports de développement.

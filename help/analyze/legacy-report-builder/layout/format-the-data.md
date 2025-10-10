@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment appliquer une mise en forme standard et limitée à des plages de cellules.
-title: Comment formater la date en Report Builder
+description: Découvrez comment appliquer une mise en forme standard et limitée aux plages de cellules.
+title: Comment formater la date dans Report Builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 {{legacy-arb}}
 
-Outre les options de mise en forme de cellules standard disponibles via la fonction Format > Cellules (Ctrl+1) d’Excel, vous pouvez appliquer une mise en forme limitée à des plages de cellules avec Report Builder. Ces options dépendent, en fait, de la mesure choisie.
+Outre les choix de mise en forme de cellule standard disponibles dans la fonction Format > Cellules (Ctrl+1) d&#39;Excel, vous pouvez appliquer une mise en forme limitée aux plages de cellules à l&#39;aide de Report Builder. Ces options dépendent, en fait, de la mesure choisie.
 
 Après avoir [ajouté des dimensions](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) à la grille Libellés de lignes, cliquez sur **[!UICONTROL Format]**.
 
@@ -24,7 +24,7 @@ Dans le menu **[!UICONTROL Format]**, cliquez sur **[!UICONTROL Format personnal
 
 Le tableau suivant décrit l’utilisation des abréviations de date dans le champ [!UICONTROL Format personnalisé] :
 
-| Abréviation | Signification | Exemple   utilisant le mercredi 14 mars 2012 |
+| Abréviation | Signification | Exemple   le mercredi 14 mars 2012 |
 |--- |--- |--- |
 | jj/MM/aaa | Date numérique complète | 03/14/2012 |
 | M | Numéro du mois | 3 |

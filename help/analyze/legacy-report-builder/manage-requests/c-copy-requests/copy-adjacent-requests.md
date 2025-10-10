@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment copier, coller et déplacer des requêtes vers une autre partie de la feuille de calcul.
-title: Comment copier des requêtes adjacentes
+title: Copie de requêtes adjacentes
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 feature: Report Builder
 role: User, Admin
@@ -22,8 +22,8 @@ Lorsque vous coupez une requête, elle est supprimée de son emplacement d’ori
 
 >[!NOTE]
 >
->Le Créateur de rapports ne prend pas en charge la commande Annuler d’Excel lorsque vous coupez ou collez des requêtes.
+>Report Builder ne prend pas en charge la commande Annuler d’Excel pour couper ou coller des requêtes.
 
-Vous n’êtes pas limité à la copie et au collage dans la même feuille du classeur. Vous pouvez copier une requête dans une feuille et la coller dans une autre feuille du même classeur.
+Vous ne pouvez pas vous limiter à copier et coller dans la même feuille du classeur. Vous pouvez copier une demande dans une feuille et la coller à un emplacement dans une autre feuille du même classeur.
 
-Vous ne vous limitez pas à copier et coller une requête à la fois. Vous pouvez sélectionner plusieurs requêtes dans la feuille de calcul, puis les coller dans une région vide de la feuille de calcul. De même que lorsque vous copiez et collez une seule requête, veillez à ce que la région de collage ne contienne aucune cellule avec des requêtes, afin de ne pas remplacer ces dernières. Si le système détecte que la région de collage cible contient déjà une ou plusieurs requêtes, Report Builder n’affiche pas le menu [!UICONTROL Coller les requêtes] pour les requêtes copiées ou coupées. Vous devez sélectionner une autre cellule comme destination de l’opération de collage, de sorte que les requêtes ne se chevauchent pas.
+Vous n’êtes pas limité à copier et coller une demande à la fois. Vous pouvez sélectionner plusieurs requêtes dans la feuille de calcul, puis les coller dans une région vide de la feuille de calcul. De même que lorsque vous copiez et collez une seule requête, veillez à ce que la région de collage ne contienne aucune cellule avec des requêtes, afin de ne pas remplacer ces dernières. Si le système trouve que la région de collage cible contient déjà une ou plusieurs requêtes, Report Builder n’affiche pas le menu [!UICONTROL Coller les requêtes] pour les requêtes copiées ou coupées. Vous devez sélectionner une autre cellule comme destination de l’opération de collage, de sorte que les requêtes ne se chevauchent pas.

@@ -14,7 +14,7 @@ ht-degree: 4%
 
 # Paramétrage d’Activity Map
 
-Le panneau de paramétrage Activity Map permet de modifier les paramètres et les propriétés de tous les types de visualisation de recouvrement.
+Le panneau des paramètres d’Activity Map vous permet de modifier les paramètres et les propriétés de tous les types de visualisations de recouvrement.
 
 **[!UICONTROL Superposition Activity Map]** > **Afficher les paramètres (icône d’engrenage)** > **[!UICONTROL Paramètres]**
 
@@ -25,7 +25,7 @@ Modifiez les paramètres généraux de l’extension et des recouvrements.
 * **[!UICONTROL Entreprises]** : affiche l’organisation Analytics actuelle à laquelle vous êtes connecté.
 * **[!UICONTROL Nom de la page]** : affiche le nom de la page active.
 * **[!UICONTROL Langue]** : modifie la langue des libellés d’extension Activity Map. Ce paramètre ne modifie pas le contenu de votre site web ni les noms de liens dans les rapports. Les langues prises en charge sont l’anglais, le français, le chinois (simplifié), le chinois (traditionnel), l’allemand, le japonais, le coréen, l’espagnol et le portugais.
-* **[!UICONTROL Recouvrements de libellés avec]** : détermine ce qu’est le texte de bulle ou de gradient. Le paramètre par défaut est [!UICONTROL Rang]. Les options incluent : 
+* **[!UICONTROL Recouvrements de libellés avec]** : détermine ce qu’est le texte de bulle ou de gradient. Le paramètre par défaut est [!UICONTROL Rang]. Les options incluent ce qui suit :
    * **[!UICONTROL Pas de libellé]** : pas de texte dans les libellés, ce qui en fait des zones colorées
    * **[!UICONTROL Valeur]** : affiche le nombre de clics sur les liens ([Occurrences](/help/components/metrics/occurrences.md))
    * **[!UICONTROL Pourcentage]** : affiche la proportion de clics sur les liens par rapport au nombre total de clics sur les liens de la page.

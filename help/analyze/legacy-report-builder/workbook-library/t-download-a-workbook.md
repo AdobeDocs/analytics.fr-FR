@@ -16,12 +16,12 @@ ht-degree: 62%
 
 {{legacy-arb}}
 
-Vous pouvez télécharger et modifier des classeurs partagés. Si vous êtes propriétaire d’un classeur, vous pouvez le supprimer.
+Vous pouvez télécharger et modifier des classeurs partagés. Si vous êtes propriétaire d’un classeur, vous pouvez supprimer le classeur.
 
 1. Dans Excel, cliquez sur **[!UICONTROL Partager]**.
 1. Sélectionnez le classeur sous **[!UICONTROL Classeurs chargés]** et cliquez ensuite sur **[!UICONTROL Télécharger]**.
 1. Enregistrez le fichier.
->Les options suivantes sont disponibles uniquement pour les propriétaires de classeurs :
+>Les options suivantes ne sont disponibles que pour les propriétaires de classeur :
 >
 >* **Modifier** : télécharge et ouvre un classeur en vue de le modifier. Si vous souhaitez transférer un classeur téléchargé à des fins d’édition, vous devez effectuer cette opération manuellement.
 >* **Supprimer** : cette option permet de supprimer un classeur que vous avez chargé. Notez toutefois que cela n’est possible que si vous en êtes le propriétaire.

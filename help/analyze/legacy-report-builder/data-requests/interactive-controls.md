@@ -1,5 +1,5 @@
 ---
-description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous disposez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes de Report Builder.
+description: Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous bénéficiez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes Report Builder.
 title: Contrôles interactifs
 feature: Report Builder
 role: User, Admin
@@ -7,7 +7,7 @@ exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
 source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 72%
+ht-degree: 71%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous disposez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes de Report Builder.
+Les contrôles interactifs vous permettent de modifier des segments et des périodes pour une ou plusieurs requêtes directement depuis la feuille de calcul. Vous bénéficiez ainsi d’une plus grande flexibilité lors de la mise à jour des requêtes Report Builder.
 
-Les contrôles interactifs ont été créés en réponse à un processus courant dans lequel les analystes créent des classeurs et partagent ces classeurs avec l’entité marketing. Les contrôles interactifs permettent aux marketeurs de modifier et d’actualiser des requêtes sans avoir à posséder une connaissance approfondie du fonctionnement du Report Builder. (Notez que pour actualiser une requête, le destinataire du classeur doit être un utilisateur Report Builder.) Ces contrôles fonctionnent dans des classeurs planifiés. Deux types de contrôles interactifs sont actuellement disponibles :
+Les contrôles interactifs ont été créés en réponse à un processus courant dans lequel les analystes créent des classeurs et partagent ces classeurs avec l’entité marketing. Les contrôles interactifs permettent aux spécialistes marketing de modifier et d’actualiser les requêtes sans avoir à connaître en profondeur le fonctionnement de Report Builder. (Notez que pour actualiser une demande, le destinataire du classeur doit être un utilisateur Report Builder.) Ces commandes fonctionnent dans les classeurs planifiés. Deux types de contrôles interactifs sont actuellement disponibles :
 
 * Période variable
 * Segments
@@ -25,7 +25,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 >[!IMPORTANT]
 >
 >La version 5.0 du Report Builder doit être installée pour que les contrôles interactifs fonctionnent. >
->* Si vous exécutez Microsoft Excel sous Windows mais exécutez une version inférieure de Report Builder, ou si vous n’avez pas installé Report Builder : vous pouvez modifier la valeur du contrôle interactif, mais cela n’actualisera pas la requête associée, ni ne mettra à jour les paramètres associés à la requête.
+>* Si vous exécutez Microsoft Excel sous Windows, mais que vous utilisez une version antérieure de Report Builder, ou si Report Builder n’est pas installé : vous pouvez modifier la valeur dans le contrôle interactif, mais cela n’actualisera pas la requête associée, ni ne mettra à jour les paramètres associés à la requête.
 >* Si vous exécutez Excel sous Mac, la modification de la valeur dans le contrôle déclenche l’affichage du message suivant : « Macro ’Adobe.ReportBuilder.Bridge.FormControlClick.Event&#39;. »
 >
 
@@ -38,11 +38,11 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 1. À la première étape de l’Assistant Requête, sélectionnez, par exemple, le rapport **[!UICONTROL Page]**.
 1. En regard du menu déroulant **[!UICONTROL Dates courantes]**, cliquez sur l’icône **[!UICONTROL Paramètres de commande]** :
 
-   ![Capture d’écran de l’Assistant Requête : Étape 1 mettant en surbrillance l’icône Paramètres de contrôle. ](assets/date_range_control.png)
+   ![Capture d’écran de l’étape 1 de l’Assistant Requête mettant en surbrillance l’icône Paramètres de contrôle. ](assets/date_range_control.png)
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez tous les éléments de la période que vous souhaitez afficher dans le contrôle interactif. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 
-   ![Capture d&#39;écran montrant les éléments de période sélectionnés et l&#39;emplacement de la cellule supérieure gauche.](assets/control_settings.png)
+   ![Capture d’écran affichant les éléments de période sélectionnés et l’emplacement de la cellule supérieure gauche.](assets/control_settings.png)
 
 1. Notez l’option permettant d’« Actualiser automatiquement les requêtes liées lors de la sélection ».
 
@@ -53,7 +53,7 @@ Les contrôles interactifs ont été créés en réponse à un processus courant
 
 1. Vous pouvez à présent modifier la période et la requête s’actualise avec cette période.
 
-   ![Capture d&#39;écran montrant la période sélectionnée.](assets/date_range_control_interactive.png)
+   ![Capture d’écran affichant la période sélectionnée.](assets/date_range_control_interactive.png)
 
 1. Vous pouvez également copier la requête et cliquer avec le bouton droit afin d’utiliser une des deux options Coller la requête :
 
@@ -75,8 +75,8 @@ L’implémentation du contrôle interactif de segments est similaire à l’imp
 
 1. Dans la boîte de dialogue Paramètres de commande, sélectionnez les segments que vous souhaitez inclure dans la liste déroulante. En outre, indiquez l’emplacement de la cellule supérieure gauche du contrôle.
 
-   ![Capture d’écran montrant les paramètres de contrôle des segments avec les segments sélectionnés et l’emplacement de la cellule.](assets/segment_drop_down_properties.png)
+   ![Capture d’écran affichant les paramètres de contrôle des segments avec les segments sélectionnés et l’emplacement de la cellule.](assets/segment_drop_down_properties.png)
 
 1. Le nouveau contrôle interactif s’affiche à présent dans le classeur :
 
-   ![Capture d&#39;écran montrant le nouveau contrôle interactif sélectionné.](assets/segment_interactive_3.png)
+   ![Capture d&#39;écran affichant le nouveau contrôle interactif sélectionné.](assets/segment_interactive_3.png)

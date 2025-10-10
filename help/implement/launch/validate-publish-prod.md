@@ -21,25 +21,25 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 ## Validez votre mise en œuvre de développement à l’aide du débogueur Experience Cloud.
 
-Le débogueur Experience Cloud est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
+Experience Cloud debugger est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
 
 1. Installez l’extension pour [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
-3. Cliquez sur l’icône du débogueur Adobe Experience Cloud dans votre navigateur.
-4. Si tout est correctement mis en oeuvre, le contenu doit s’afficher dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
+3. Cliquez sur l’icône Adobe Experience Cloud debugger dans votre navigateur.
+4. Si tout est correctement implémenté, vous devriez voir le contenu dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
 
 ## Déployez votre mise en œuvre de développement vers l’évaluation/la production
 
-Une fois que vous avez validé l’affichage des données, vous pouvez transmettre votre mise en oeuvre à la version en ligne de votre site.
+Une fois que vous avez validé que vous voyez des données, vous pouvez pousser votre implémentation vers la version active de votre site.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous prévoyez d’implémenter sur votre site.
 1. Cliquez sur l’onglet **[!UICONTROL Publication]** et recherchez votre bibliothèque dans la colonne de développement.
-1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Submit for Approval]** (Envoyer pour approbation). Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
+1. Cliquez sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Envoyer pour approbation]**. Cliquez sur **[!UICONTROL Envoyer]** dans la fenêtre modale.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne Envoyé), puis sélectionnez **[!UICONTROL Créer pour l’évaluation]**.
 1. Après quelques instants, la lumière jaune de la bibliothèque devient verte, ce qui indique une création réussie.
-1. Cliquez à nouveau dans la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
-1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (maintenant dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et Publish en production]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque, puis sélectionnez **[!UICONTROL Approuver pour publication]**.
+1. Cliquez à nouveau sur la liste déroulante de la bibliothèque (à présent dans la colonne [!UICONTROL Approuvé]), puis sélectionnez **[!UICONTROL Créer et publier en production]**.
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
 1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 
@@ -59,7 +59,7 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 * Il n’y a aucune erreur JavaScript dans la console. Consultez les propriétaires du site web de votre organisation pour vous assurer que toutes les erreurs JS sont résolues.
 * Le code d’en-tête est correctement mis en œuvre : assurez-vous que le code d’en-tête se trouve à l’intérieur de la balise `<head>` et que le fichier existe.
 * La bibliothèque AppMeasurement existe : accédez directement à la source JS pour vous assurer que le fichier JS contient du code. Dans le cas contraire, assurez-vous que chaque environnement est créé et que la bibliothèque est publiée dans son environnement respectif.
-* Interfération d’extensions : certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
+* Extensions interférentes : certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
 
 ## Étapes suivantes
 

@@ -40,7 +40,7 @@ Cette pause a pour but de gérer et de gérer efficacement notre base de donnée
 | --- | --- |
 | **[!UICONTROL Onglet Rapports planifiés]** | |
 | [!UICONTROL Nom de rapport] | Indique le nom de la tâche planifiée. |
-| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous avez sélectionné Courriel, les rapports de plus de 1 Mo sont automatiquement joints sous forme de fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
+| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous avez sélectionné Courriel, les rapports de plus de 1 Mo sont automatiquement joints sous forme de fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
 | [!UICONTROL Options de publication] | Cette colonne répertorie Power BI si l’une des [options de publication Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) est sélectionnée. |
 | [!UICONTROL Planifier] | Type de la remise planifiée. |
 | [!UICONTROL Format de fichier] | Format de remise du rapport, tel que Excel, PDF, HTML, etc. |
@@ -53,5 +53,5 @@ Cette pause a pour but de gérer et de gérer efficacement notre base de donnée
 | [!UICONTROL Nom du fichier] | Indique le nom de la tâche planifiée. |
 | [!UICONTROL Date] | Date et heure auxquelles le rapport a été envoyé en dernier. |
 | [!UICONTROL Statut] | L’état indique si le rapport a été Envoyé ou Pas envoyé. |
-| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire du rapport. |
+| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire du rapport. |
 | [!UICONTROL Format de fichier] | Format de remise du rapport, tel que Excel, PDF, HTML, etc. |

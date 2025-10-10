@@ -22,7 +22,7 @@ Répertorie les mesures et les dimensions prises en charge par les rapports Temp
 * Unités
 * Paniers
 * Consultations du panier
-* Achats
+* Passages en caisse
 * Ajouts au panier
 * Retraits du panier
 * Instances

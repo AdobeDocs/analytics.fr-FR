@@ -1,12 +1,12 @@
 ---
 title: Gestion des tâches relatives aux flux de données
-description: Découvrez comment gérer des tâches individuelles dans les flux de données. Naviguez dans l’interface, utilisez des filtres et des recherches, puis recherchez des définitions de colonne.
+description: Découvrez comment gérer les tâches individuelles dans les flux de données. Naviguez dans l’interface, utilisez des filtres et des recherches, et recherchez des définitions de colonne.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: 0eef1b1269dcfbc7648127602bdfe24d4789f4b7
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 90%
 
 ---
 
@@ -65,4 +65,4 @@ Chaque tâche affiche plusieurs colonnes fournissant des informations la concern
    * En attente d’exportation : les données de la fenêtre de création de rapports n’ont pas encore été entièrement traitées.
    * Aucune donnée : il n’y a pas de données dans la suite de rapport pour la fenêtre de création de rapports demandée.
 * **Heure de fin** : l’heure à laquelle la tâche s’est terminée. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports en tenant compte du décalage par rapport à GMT.
-* **Date demandée** : la fenêtre de création de rapports du fichier. Les flux quotidiens affichent en général 00:00 - 23:59 en tenant compte du décalage par rapport à GMT, ce qui indique une journée complète basée sur le fuseau horaire de la suite de rapports. Les flux horaires affichent l’heure individuelle concernée par la tâche.
+* **Date demandée** : la fenêtre de création de rapports du fichier. Les flux quotidiens affichent généralement entre 00 :00 et 23 :59 avec un décalage GMT, indiquant une journée complète en fonction du fuseau horaire de la suite de rapports. Les flux horaires affichent l’heure individuelle concernée par la tâche.

@@ -12,7 +12,7 @@ ht-degree: 72%
 
 # Consultations du panier
 
-La [mesure](overview.md) &quot;Consultations du panier&quot; indique le nombre de fois où un visiteur a consulté son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients consultent le contenu de leur panier.
+La [mesure Vues du panier](overview.md) indique le nombre de fois qu’un visiteur a consulté son panier. Cette mesure s’avère utile lorsque vous souhaitez comprendre la partie de l’entonnoir de conversion dans laquelle les clients consultent le contenu de leur panier.
 
 ## Méthode de calcul de cette mesure
 

@@ -16,15 +16,15 @@ Les jeux de classifications fournissent une interface unique pour gérer les cla
 
 **[!UICONTROL Composants]** > **[!UICONTROL Jeux de classifications]**
 
-Vous devez être administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] pour afficher cet élément de menu. Notez que même si les interfaces précédentes de gestion des classifications se trouvent sous le menu [!UICONTROL Admin], les jeux de classifications se trouvent sous le menu [!UICONTROL Composants] .
+Vous devez être un administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] pour afficher cet élément de menu. Notez que tandis que les interfaces de gestion des classifications précédentes se trouvent sous le menu [!UICONTROL Admin], les ensembles de classifications se trouvent sous le menu [!UICONTROL Composants].
 
 ## Améliorations
 
 L’architecture backend publiée avec les jeux de classifications contient plusieurs améliorations notables :
 
 * Réduction du temps de traitement (72 heures → 24 heures)
-* Interface utilisateur repensée pour la gestion des classifications
-* Option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications)
+* Une interface utilisateur repensée pour gérer les classifications
+* Option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications notables :
 

@@ -5,7 +5,7 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: d7a6867796f97f8a14cd8a3cfad115923b329c7c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Les informations suivantes indiquent aux éditeurs et éditrices des données Ad
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance](https://video.tv.adobe.com/v/38073?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de cartes de performance](https://video.tv.adobe.com/v/34544?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ Une carte de performance Adobe Analytics affiche les visualisations de données 
 
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
-En tant qu’éditeur ou éditrice de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les vignettes qui apparaissent sur la carte de performance du cadre ou de la cadre. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les vignettes. L’interface du Créateur de cartes de performance est illustrée ci-dessous :
+En tant qu’éditeur ou éditrice de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les vignettes qui apparaissent sur la carte de performance du cadre ou de la cadre. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du Créateur de cartes de performance est illustrée ci-dessous :
 
 ![Créateur de cartes de performance](assets/scorecard_builder.png)
 
@@ -130,7 +130,7 @@ Le paramètre est *activé* par défaut. Désélectionnez l’option si vous ne 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisations](https://video.tv.adobe.com/v/3445768?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisations](https://video.tv.adobe.com/v/337570?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -206,7 +206,7 @@ Les diapositives détaillées personnalisées vous permettent d’être encore p
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vues détaillées personnalisées](https://video.tv.adobe.com/v/3413787?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vues détaillées personnalisées](https://video.tv.adobe.com/v/3410002?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -248,7 +248,7 @@ Si, par exemple, vous cherchez à augmenter votre trafic web, la mesure la plus 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer des histoires de données](https://video.tv.adobe.com/v/3420560?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créer des histoires de données](https://video.tv.adobe.com/v/3416392?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -296,7 +296,7 @@ Les histoires de données vous permettent de personnaliser chaque élément, afi
    ![Création d’une histoire de données](assets/data-story4.png)
 
 >[!NOTE]
->Les diapositives héritent des composants de la vignette, mais l’inverse n’est pas vrai.
+>Les diapositives héritent des composants de la tuile, mais l’inverse n’est pas vrai.
 
 **Pour personnaliser des diapositives individuelles**
 
@@ -361,17 +361,17 @@ Pour partager la carte de performance avec un cadre ou une cadre, procédez comm
 
 ![Share_Scorecards](assets/new_share.png)
 
-Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la carte de performance dans le Créateur de cartes de performance, celles-ci seront mises à jour automatiquement dans la carte de performance que vous avez partagée. Les cadres pourront accéder aux changements en actualisant la carte de performance sur leur application.
+Après avoir partagé une carte de performance, vos destinataires peuvent y accéder depuis leurs tableaux de bord Analytics. Si, par la suite, vous apportez des modifications à la carte de performance dans le créateur de carte de performance, celles-ci seront mises à jour automatiquement dans la carte de performance que vous avez partagée. Les utilisateurs et utilisatrices en charge de l’exécution pourront accéder aux changements en actualisant la carte de performance sur leur application.
 
-Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous souhaiterez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que les cadres ont accès à ces modifications.
+Si vous mettez à jour la carte de performance en ajoutant de nouveaux composants, vous voudrez peut-être à nouveau la partager (et cocher lʼoption **[!UICONTROL Partager les composants incorporés]**) afin de vous assurer que vos utilisateurs en charge de lʼexécution ont accès à ces modifications.
 
 ### Partager des cartes de performance à l’aide d’un lien partageable {#shareable-link}
 
-L’utilisation d’un lien partageable facilite le partage d’une carte de performance dans un e-mail, un document ou une application de messagerie. Le lien partageable permet aux destinataires d’ouvrir la carte de performance sur leur bureau ou dans l’application mobile des tableaux de bord. Les liens profonds partageables facilitent encore plus le partage de projets et stimulent l’engagement avec vos parties prenantes.
+L’utilisation d’un lien partageable facilite le partage d’une carte de performance dans un e-mail, un document ou une application de messagerie texte. Le lien partageable permet aux destinataires d’ouvrir la carte de performance sur leur bureau ou dans l’application mobile des tableaux de bord. Les liens profonds partageables facilitent encore davantage le partage de projets et stimulent l’engagement avec vos parties prenantes.
 
-Partager une carte de performance à l’aide d’un lien partageable
+Pour partager une carte de performance à l’aide d’un lien partageable, procédez comme suit :
 
-1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la carte de performance]**.
+1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
 
    ![Share_Scorecards](assets/share-scorecard.png)
 

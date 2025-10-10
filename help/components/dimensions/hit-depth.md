@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Profondeur d’accès
 
-La [dimension](overview.md) &quot;Profondeur d’accès&quot; indique le niveau d’un accès donné lors d’une visite. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès compte tous les types d’accès, y compris les vues de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La [dimension](overview.md) « Profondeur de l’accès » indique la durée d’une visite pour un accès donné. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès compte tous les types d’accès, y compris les vues de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Renseignement de cette dimension avec des données
 
@@ -29,10 +29,10 @@ La profondeur d’accès compte tous les types d’accès, y compris les vues de
 | Séquence de page | Profondeur d’accès | Compte dans la profondeur de visite ? | Profondeur de visite |
 | --- | --- | --- | --- |
 | Page d’accueil | 1 | Oui | 4 |
-| Page de produit | 2 | Oui | 4 |
+| Page produit | 2 | Oui | 4 |
 | Page d’accueil | 3 | Oui | 4 |
 | Clic sur lien personnalisé | 4 | Non (lien personnalisé) | 4 |
 | Clic sur lien personnalisé | 5 | Non (lien personnalisé) | 4 |
-| Page de produit | 6 | Oui | 4 |
+| Page produit | 6 | Oui | 4 |
 | Clic sur lien personnalisé | 7 | Non (lien personnalisé) | 4 |
-| Page de produit | 8 | Non (identique à la page précédente) | 4 |
+| Page produit | 8 | Non (identique à la page précédente) | 4 |

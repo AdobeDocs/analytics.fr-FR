@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment Adobe Analytics vous permet de créer, gérer, partager et appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités d’Analytics, de Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés.
+description: Découvrez comment Adobe Analytics permet de créer, gérer, partager et appliquer des segments d’audience puissants et ciblés aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés.
 keywords: segmentation ; segments
-title: Présentation de la segmentation
+title: Vue d’ensemble de la segmentation
 feature: Segmentation
 exl-id: e8adafc2-1d25-47ba-80e8-5b5c8d54567d
 source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 

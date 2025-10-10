@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Régions
 
-La [dimension](overview.md) de &quot;régions&quot; indique la région géographique du visiteur. Il s’agit d’une zone géographique plus petite qu’un pays, mais plus grande qu’une ville. Dans certains pays, une région est un état, une province ou une préfecture. Dans d’autres, il peut s’agir d’un pays constitutif, d’un département ou d’une région métropolitaine. L’utilisation de cette dimension est utile si vous souhaitez obtenir des informations plus granulaires que les [pays](countries.md), mais pas aussi granulaires que les [villes](cities.md).
+La [dimension](overview.md) « Régions » indique la région géographique du visiteur. Il s’agit d’une zone géographique plus petite qu’un pays, mais plus grande qu’une ville. Dans certains pays, une région est un état, une province ou une préfecture. Dans d’autres, il peut s’agir d’un pays constitutif, d’un département ou d’une région métropolitaine. L’utilisation de cette dimension est utile si vous souhaitez obtenir des informations plus granulaires que les [pays](countries.md), mais pas aussi granulaires que les [villes](cities.md).
 
 ## Renseignement de cette dimension avec des données
 
@@ -32,4 +32,4 @@ Dans la mesure où cette dimension est basée sur l’adresse IP, certains scén
 * **Adresses IP de mobiles** : le ciblage des adresses IP de mobiles fonctionne à différents niveaux en fonction de l’emplacement et du réseau. Plusieurs opérateurs renvoient le trafic IP via des points de présence centralisés ou régionaux.
 * **Utilisateurs de FAI par satellite** : identifier l’emplacement spécifique de ces utilisateurs s’avère difficile, dans la mesure où ils semblent généralement provenir de l’emplacement de la liaison montante.
 * **Adresses IP militaires et gouvernementales** : cette catégorie englobe généralement les membres du personnel qui voyagent autour du globe et accèdent aux sites par le biais de leur point d’origine, plutôt qu’au départ de la base ou du bureau où ils se trouvent actuellement.
-* **Les proxies qui obscurcissent les adresses IP pour des raisons de confidentialité** : des services comme Apple Private Relay masquent la véritable adresse IP en envoyant aléatoirement des données par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une autre adresse IP avant le transfert vers Adobe.
+* **Proxys qui obscurcissent les adresses IP pour des raisons de confidentialité** : des services comme Apple Private Relay masquent l’adresse IP réelle en envoyant des données de manière aléatoire par le biais d’un intermédiaire ou d’un proxy. Ce proxy remplace ensuite une adresse IP différente avant le transfert vers Adobe.

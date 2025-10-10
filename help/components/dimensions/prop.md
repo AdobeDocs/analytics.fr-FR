@@ -30,13 +30,13 @@ AppMeasurement, qui compile les variables JavaScript en une demande d’image po
 
 ## Éléments de dimension
 
-Étant donné que les props contiennent des chaînes personnalisées dans votre mise en œuvre, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque prop et les éléments de dimension standard dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
+Étant donné que les props contiennent des chaînes personnalisées dans votre mise en œuvre, votre organisation détermine les éléments de dimension de chaque prop. Veillez à enregistrer l’objectif de chaque prop et des éléments de dimension standard dans un [document de conception de solution](/help/implement/prepare/solution-design.md).
 
 ## Respect de la casse
 
 Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
 
-Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop où il est activé. Contactez l’assistance clientèle d’Adobe avec l’identifiant de suite de rapports et les variables souhaitées pour inverser le respect de la casse.
+Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop où il est activé. Contactez l’assistance clientèle d’Adobe avec l’identifiant de suite de rapports et les variables souhaitées pour activer ou désactiver le respect de la casse.
 
 >[!WARNING]
 >

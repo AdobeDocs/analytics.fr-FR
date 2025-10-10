@@ -12,7 +12,7 @@ ht-degree: 88%
 
 # Fidélité de la clientèle
 
-La [dimension](overview.md) de &quot;fidélité de la clientèle&quot; indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou 3 achats précédents ou plus. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
+La [dimension](overview.md) « Fidélisation des clients » indique le nombre de visiteurs de votre site qui ont effectué 0 achat précédent, 1 achat précédent, 2 achats précédents ou plus de 3 achats précédents. Cette dimension est utile pour comprendre la façon dont votre site affecte le comportement d’achat. Vous pouvez également utiliser cette dimension dans un segment pour vous concentrer sur les visiteurs qui reviennent effectuer un achat, afin d’encourager un comportement similaire chez les nouveaux visiteurs.
 
 ## Renseignement de cette dimension avec des données
 

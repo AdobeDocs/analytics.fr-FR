@@ -16,19 +16,19 @@ ht-degree: 69%
 
 Les sections suivantes décrivent comment accéder aux fichiers trouvés dans une diffusion de flux de données et les comprendre.
 
-## Accès au contenu des flux de données
+## Accès au contenu du flux de données
 
 Pour accéder au contenu d’un flux de données :
 
-1. Connectez-vous au site de destination des flux de données.
+1. Connectez-vous au site de destination des flux de données .
 
-   Il s’agit du site de destination que vous configurez lors de la création du flux de données, par exemple un compartiment Amazon S3 ou Google Cloud Platform.
+   Il s’agit du site de destination que vous configurez lors de la création du flux de données, tel qu’un compartiment Amazon S3 ou Google Cloud Platform.
 
 1. Téléchargez le fichier de flux de données compressé sur votre machine locale.
 
 1. Décompressez le fichier comprimé à l’aide d’un programme qui prend en charge les extensions de fichier `.tar.gz`.
 
-1. Ouvrez le fichier `hit_data.tsv` dans votre application de tableur ou de base de données de votre choix pour afficher les données brutes pour cette journée. —>
+1. Ouvrez le fichier `hit_data.tsv` dans votre feuille de calcul ou l’application de base de données de votre choix pour afficher les données brutes de ce jour. —>
 
 ## Fichier de manifeste {#feed-manifest}
 
@@ -67,7 +67,7 @@ Datafeed-Manifest-Version: 1.0
 
 Chaque fichier de manifeste contient un en-tête qui indique le nombre total de fichiers de recherche et de fichiers de données, ainsi que le total des enregistrements dans tous les fichiers de données. Cet en-tête est suivi de plusieurs sections qui contiennent des informations pour chaque fichier inclus dans la remise du flux de données.
 
-Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. `.fin` indique que le chargement est terminé, mais que les métadonnées qu’il contient sont dans un format plus ancien.
+Certains flux sont configurés en vue de recevoir un fichier `.fin` plutôt qu’un manifeste `.txt`. Le `.fin` indique que le chargement est terminé, mais que les métadonnées qu’il contient sont dans un format plus ancien.
 
 ## Fichiers de recherche
 
@@ -81,20 +81,20 @@ La remise des fichiers de recherche s’effectue dans une archive .zip compress�
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* **`column_headers.tsv`** : une seule ligne contenant les en-têtes de colonne pour `hit_data.tsv`.
+* **`column_headers.tsv`** : une seule ligne contenant les en-têtes de colonne pour les `hit_data.tsv`.
 * **`browser.tsv`** : mappe l’identifiant du navigateur (la colonne de flux `browser`) au nom convivial du navigateur.
-* **`browser_type.tsv`** : mappe l’ID de navigateur (la colonne de flux `browser`) au type de navigateur.
-* **`color_depth.tsv`** : mappe l’identifiant de profondeur de couleur (colonne de flux `color`) à l’intensité de couleur.
-* **`connection_type.tsv`** : mappe l’ID de type de connexion (colonne de flux `connection_type`) au type de connexion.
-* **`country.tsv`** : mappe l’ID de pays (la colonne de flux `country`) au nom du pays.
-* **`javascript_version.tsv`** : mappe l’ID de version JavaScript (colonne de flux `javascript`) à la version JavaScript.
+* **`browser_type.tsv`** : mappe l’identifiant du navigateur (la colonne de flux `browser`) au type de navigateur.
+* **`color_depth.tsv`** : permet de mapper l’ID de profondeur de couleur (la colonne de flux `color`) à la profondeur de couleur.
+* **`connection_type.tsv`** : mappe l’identifiant de type de connexion (la colonne de flux `connection_type`) au type de connexion.
+* **`country.tsv`** : associe l’ID de pays (la colonne de flux `country`) au nom du pays.
+* **`javascript_version.tsv`** : mappe l’identifiant de version JavaScript (la colonne de flux `javascript`) à la version JavaScript.
 * **`languages.tsv`** : mappe l’ID de langue (la colonne de flux `language`) à la langue.
 * **`operating_systems.tsv`** : mappe l’identifiant du système d’exploitation (la colonne de flux `os`) au nom du système d’exploitation.
-* **`plugins.tsv`** : mappe les identifiants du module externe (la colonne de flux `plugin`) à chaque nom de module externe respectif.
-* **`resolution.tsv`** : mappe l’ID de résolution (colonne de flux `resolution`) à la résolution de l’écran.
-* **`referrer_type.tsv`** : mappe l’ID de type de référent (colonne de flux `ref_type`) au type de référent.
-* **`search_engines.tsv`** : associe l’identifiant du moteur de recherche (la colonne de flux `search_engine`) au nom du moteur de recherche.
-* **`event.tsv`** : associe chaque ID d’événement (la colonne de flux `event_list`) à son nom d’événement respectif.
+* **`plugins.tsv`** : mappe les identifiants des modules externes (la colonne de flux `plugin`) à chaque nom de module externe correspondant.
+* **`resolution.tsv`** : mappe l’identifiant de résolution (la colonne de flux `resolution`) à la résolution du moniteur.
+* **`referrer_type.tsv`** : mappe l’identifiant de type référent (la colonne de flux `ref_type`) sur le type de référent.
+* **`search_engines.tsv`** : mappe l’identifiant du moteur de recherche (la colonne de flux `search_engine`) au nom du moteur de recherche.
+* **`event.tsv`** : mappe chaque identifiant d’événement (la colonne de flux `event_list`) à son nom d’événement respectif.
 
 ## Fichiers de données d’accès
 
@@ -107,7 +107,7 @@ Les fichiers livrés par Adobe dépendent du type de flux de données que vous a
 * `[YYYY-mm-dd]` fait référence à la date de départ relative au flux de données.
 * `[HHMMSS]` n’est utilisé que dans les flux horaires et fait référence à l’heure de départ du flux de données.
 * `[compression_suffix]` fait référence au type de compression utilisé. En règle générale, les flux de données sont compressés en fichiers `tar.gz` ou `zip`.
-* `[format_suffix]` fait référence au type de format de fichier. En règle générale, le format de fichier de flux de données est `.tsv`.
+* `[format_suffix]` fait référence au type de format de fichier. En règle générale, le format de fichier du flux de données est `.tsv`.
 
 ### Quotidien, un seul fichier
 
@@ -139,7 +139,7 @@ Lorsque les données sont collectées pour une heure, vous recevez un ou plusieu
 
 `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix].[compression_suffix]`
 
-Une fois extrait, chaque fichier de données contient un seul fichier `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` contenant environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes demandées.
+Une fois extrait, chaque fichier de données contient un seul fichier `[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[format_suffix]` contenant environ 2 Go de données non compressées, ainsi que des fichiers de recherche pour toutes les colonnes requises.
 
 ## Taille du fichier de données
 

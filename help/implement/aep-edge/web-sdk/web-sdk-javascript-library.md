@@ -66,7 +66,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td> 4</td>
 <td><b>Installez la version autonome prédéfinie</b>. Vous pouvez référencer la bibliothèque (<code>alloy.js</code>) sur le CDN directement sur votre page ou la télécharger et l’héberger sur votre propre infrastructure. Vous pouvez également utiliser le package NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=fr">Installer la version autonome prédéfinie</a> et <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=fr">utiliser le package NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installer la version autonome prédéfinie</a> et <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">utiliser le package NPM</a></td>
 </tr>
 
 <tr>
@@ -77,20 +77,20 @@ Présentation générale des tâches d’implémentation :
 
 <td>6</td>
 <td><b>Ajoutez un service Adobe Analytics</b> à votre flux de données. Ce service contrôle si et comment les données sont envoyées à Adobe Analytics et à quelle(s) suite(s) de rapports spécifique(s).</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=fr#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Ajoutez un service Adobe Analytics à un flux de données.</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configurez le SDK Web</b>. Assurez-vous que la bibliothèque que vous avez installée à l’étape 4 est correctement configurée avec l’identifiant du flux de données (anciennement appelé identifiant de configuration Edge (<code>datastreamId</code>)), l’identifiant de l’organisation (<code>orgId</code>) et les autres options disponibles. Assurez-vous que le mappage des variables est correct. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=fr">Configurer le mappage des variables d’objet Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configurer le mappage des variables d’objet Web SDK</a><br/><a href="../xdm-var-mapping.md">XDM</a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Exécutez les commandes</b> et/ou <b>suivez des événements</b>. Une fois le code de base implémenté sur votre page web, vous pouvez commencer à exécuter des commandes et à suivre des évènements à l’aide du SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=fr">Envoi d’événements</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Envoi d’événements</a></td>
 </tr>
 
 <tr>

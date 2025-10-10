@@ -1,6 +1,6 @@
 ---
 description: Découvrez comment trier les requêtes répertoriées dans le Gestionnaire de requêtes par ordre croissant ou décroissant.
-title: Comment trier les requêtes ascendantes ou descendantes
+title: Comment trier les demandes par ordre croissant ou décroissant
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 feature: Report Builder
 role: User, Admin

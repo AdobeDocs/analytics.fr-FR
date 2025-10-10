@@ -31,7 +31,7 @@ Vous pouvez ajouter des descriptions aux composants dans une suite de rapports.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://video.tv.adobe.com/v/39718?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://video.tv.adobe.com/v/25453?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Pour obtenir des informations générales sur le dictionnaire de données, voir 
 >[!MORELIKETHIS]
 >
 >[Paramètres des composants de rapport](/help/components/vrs/vrs-components.md)
->&#x200B;>[Entrées du composant Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>>[Entrées du composant Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

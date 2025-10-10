@@ -90,7 +90,8 @@ Les segments existants qui utilisent une logique modifiée comme décrit dans ce
 
 +++
 
-+++ **Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ?** Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. notamment :
++++ **Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ?** 
+Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. notamment :
 
 * renommer les segments portant le même nom mais ayant des définitions différentes, ou
 * supprimer les segments qui ne sont plus utiles.
@@ -165,7 +166,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 | DRM mobile | type de connexion | région géo |
 | protocoles Net mobile | opérateur de téléphonie mobile | ville géo |
 | SE Mobile | cookie | DMA géo |
-| java VM de mobile | fidélisation des clients | cookie persistant |
+| java VM de mobile | fidélisation de la clientèle | cookie persistant |
 | longueur du signet du périphérique mobile | compatible java | référencement payant |
 | longueur de l’URL du périphérique mobile | langue |  |
 

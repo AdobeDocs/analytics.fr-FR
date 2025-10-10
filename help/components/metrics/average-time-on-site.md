@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Temps moyen passé sur le site
 
-La [mesure ](overview.md) &quot;Durée moyenne de la visite du site&quot; indique le temps écoulé entre les accès pour un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez déterminer le temps moyen passé pour des éléments de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour observer l’évolution du temps passé global. Cette mesure s’affiche au format `HH:MM:SS`.
+La [mesure](overview.md) « Temps moyen passé sur le site » indique le temps écoulé entre les accès pour un élément de dimension donné. Cette mesure s’avère utile lorsque vous souhaitez déterminer le temps moyen passé pour des éléments de dimension spécifiques. Vous pouvez également suivre la tendance de cette mesure au fil du temps pour observer l’évolution du temps passé global. Cette mesure s’affiche au format `HH:MM:SS`.
 
 Cette mesure est liée à la dimension [Durée de la visite](../dimensions/time-spent-per-visit.md).
 
@@ -81,6 +81,6 @@ Comme la dimension de répartition ne comportait qu’une seule séquence, elle 
 
 ## Pourcentages supérieurs à 100 %
 
-Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond au temps moyen passé sur le site de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension. Si la durée moyenne de la visite du site de l’ensemble de la dimension est inférieure à celle de l’élément de dimension donné, les pourcentages sont supérieurs à 100 %. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie du temps moyen passé sur le site, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
+Cette mesure contient souvent des pourcentages supérieurs à 100 %. Le dénominateur correspond au temps moyen passé sur le site de l’ensemble de la dimension et le numérateur à celle de l’élément de dimension. Si le temps moyen passé sur le site par la dimension entière est inférieur au temps moyen passé sur le site par un élément de dimension donné, des pourcentages supérieurs à 100 % s’affichent. Le tri des rapports de classement en fonction de cette mesure affiche les valeurs d’anomalie du temps moyen passé sur le site, qui sont généralement inutiles. Adobe recommande de trier selon une autre mesure, telle que [Visites](visits.md), dans les rapports de classement.
 
 Consultez [Présentation de la durée de consultation](time-spent.md) pour obtenir des informations plus générales sur la durée de consultation.

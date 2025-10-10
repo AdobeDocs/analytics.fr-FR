@@ -28,7 +28,7 @@ Cette option permet de sélectionner des dates courantes ou des dates que vous a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dates courantes </p> </td> 
-   <td colname="col2"> <p>Ce paramètre affiche les plages de dates (périodes) les plus utilisées. Il est activé par défaut lors de la création d’une requête. Si le classeur contient au moins une requête, Report Builder utilise la date de la requête existante comme paramètre par défaut. </p> </td> 
+   <td colname="col2"> <p>Ce paramètre affiche les plages de dates (périodes) les plus utilisées. Il est activé par défaut lors de la création d’une requête. S’il existe au moins une demande dans le classeur, Report Builder utilise la date de la demande existante comme paramètre par défaut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Modèles de dates enregistrées </p> </td> 

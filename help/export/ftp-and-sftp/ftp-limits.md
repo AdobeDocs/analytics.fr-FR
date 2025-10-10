@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # Limitations du FTP et conservation des données
 
-Pour tous les comptes FTP Adobe, le stockage des données est limité à 100 Go. Les fichiers sont conservés sur ces comptes FTP pendant 90 jours.
+Tous les comptes FTP Adobe ont une limite de stockage des données de 100 Go. Les fichiers sont conservés sur ces comptes FTP pendant 90 jours.
 
 ## Limites des connexions simultanées
 

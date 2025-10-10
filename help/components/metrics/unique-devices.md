@@ -12,19 +12,19 @@ ht-degree: 73%
 
 # Appareils uniques
 
-La [mesure](overview.md) &quot;Appareils uniques&quot; est une mesure [Analyse entre appareils](../cda/overview.md) qui comptabilise le nombre d’appareils non identifiés uniques et d’appareils virtuels uniques. Les appareils non identifiés sont des appareils qui ont généré des accès anonymes. Les appareils virtuels uniques sont des personnes distinctes identifiées par appareil.
+La [mesure](overview.md) « Appareils uniques » est une mesure [Analyses entre appareils](../cda/overview.md) qui comptabilise le nombre d’appareils non identifiés uniques et d’appareils virtuels uniques. Les appareils non identifiés sont des appareils qui ont généré des accès anonymes. Les appareils virtuels uniques sont des personnes distinctes identifiées par appareil.
 
 ## Méthode de calcul de cette mesure
 
 Pour chaque appareil, additionnez toutes les personnes distinctes qui lui sont liées (y compris les personnes anonymes si l’appareil contient des accès non groupés).
 
-Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors.md) dans les suites de rapports autres que les analyses entre appareils. Par exemple, un appareil est partagé par 3 comptes différents. Si les 3 comptes visitent votre site dans une fenêtre de création de rapports, le rapport résultant affiche 3 périphériques uniques dans les analyses entre appareils. Les mêmes données en dehors des analyses entre appareils afficheraient 1 visiteur unique.
+Notez que cette mesure n’est pas égale à [Visiteurs uniques](unique-visitors.md) dans les suites de rapports autres que les analyses entre appareils. Par exemple, un appareil est partagé par 3 comptes différents. Si les 3 comptes visitent votre site dans une fenêtre de création de rapports, le rapport qui en résulte affiche 3 appareils uniques dans les analyses entre appareils. Les mêmes données en dehors des analyses entre appareils afficheraient 1 visiteur unique.
 
 ## Exemple
 
-1. Sally arrive sur votre site par téléphone via une publicité, mais n’est pas connecté.
+1. Sally arrive sur votre site par téléphone via une publicité, mais n’est pas connectée.
 1. Sally veut faire un achat, mais elle préférerait le faire sur l’ordinateur familial parce quʼelle y est déjà connectée. Sur l’ordinateur familial, elle effectue un achat.
-1. Le lendemain, elle vérifie sa commande sur son téléphone et s&#39;y authentifie.
+1. Le lendemain, elle vérifie sa commande sur son téléphone et s’y authentifie.
 1. Alice, la femme de Bob, navigue sur votre site en se connectant à son compte sur l’ordinateur familial.
 1. Le frère de Bob, Charles, navigue également sur votre site en se connectant à son compte sur l’ordinateur familial.
 

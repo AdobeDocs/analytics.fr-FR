@@ -5,8 +5,8 @@ feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 100%
+source-wordcount: '501'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ Pour plus d’informations sur la mesure [Taux de rebond](/help/components/metri
 
 [!UICONTROL Une visite] (appelée session dans Google Analytics) est un groupe de pages vues par le même utilisateur sur un court laps de temps. Sur les deux plateformes, une [!UICONTROL visite] expire généralement après 30 minutes d’inactivité. Les deux plateformes permettent la personnalisation de lʼexpiration dʼune [!UICONTROL visite]. Plusieurs scénarios peuvent provoquer des différences entre les plateformes.
 
-* **Fin de journée :** toutes les sessions de Google Analytics expirent après 23 h 59. Si l’utilisateur est toujours actif sur votre site après minuit, une nouvelle session est créée. Adobe Analytics compte une visite qui se poursuit sur le jour suivant comme une seule visite.
+* **Fin de journée :** toutes les sessions dans Google Analytics expirent après 23 :59 un jour donné. Si l’utilisateur est toujours actif sur votre site après minuit, une nouvelle session est créée. Adobe Analytics compte une visite qui se poursuit sur le jour suivant comme une seule visite.
 * **Campagnes différentes :** dans Google Analytics, une nouvelle session commence si la source de campagne d’un utilisateur change. Dans Adobe Analytics, en cas dʼune nouvelle valeur de [!UICONTROL code de suivi], elle est considérée comme faisant partie de la même visite.
 * **Remplacement manuel de session :** dans Google Analytics, une nouvelle session commence si vous utilisez `sessionControl` pour démarrer ou terminer une session manuellement. [!UICONTROL Dans Adobe Analytics, ce n’est pas possible de terminer une visite manuellement.]
 * **Détection des visites aberrantes dans Adobe Analytics :** dans Adobe Analytics, une nouvelle [!UICONTROL visite] démarre automatiquement si un utilisateur atteint 12 heures dʼactivité continue, 2 500 accès ou 100 accès en 100 secondes. Ces comportements indiquent généralement l’activité de robots.

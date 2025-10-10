@@ -12,7 +12,7 @@ ht-degree: 84%
 
 # Durée avant événement
 
-La [dimension](overview.md) &quot;Durée avant événement&quot; indique le temps écoulé entre le premier accès de la visite et la mesure souhaitée. Cette dimension permet de déterminer le temps nécessaire pour accéder à un événement de succès, tel qu’un envoi de formulaire ou un achat.
+La dimension « Temps avant événement » [Time before event](overview.md) indique le temps écoulé entre le premier accès de la visite et la mesure souhaitée. Cette dimension permet de déterminer le temps nécessaire pour accéder à un événement de succès, tel qu’un envoi de formulaire ou un achat.
 
 ## Renseignement de cette dimension avec des données
 

@@ -12,7 +12,7 @@ ht-degree: 85%
 
 # Durée de consultation de la page
 
-La [dimension](overview.md) &quot;Durée de consultation de la page&quot; enregistre le temps passé par un visiteur sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
+La dimension « Durée de consultation de la page [dimension](overview.md) enregistre la durée passée par un visiteur ou une visiteuse sur la page. Elle utilise les étapes suivantes pour mesurer le calcul :
 
 1. Pour un accès donné, consultez la date et l’heure.
 2. Comparez cet accès à l’horodatage du prochain accès de la visite. L’accès de suivi des pages vues et des liens est important.

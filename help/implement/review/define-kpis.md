@@ -13,15 +13,15 @@ ht-degree: 80%
 
 # Définir les 5 principaux indicateurs clés de performance
 
-Vous ne pouvez tout simplement pas tout mesurer et votre implémentation d’Adobe Analytics sera la plus performante si vous donnez la priorité à la mesure des éléments les plus importants pour l’entreprise. Contactez les dirigeants de votre entreprise pour définir les indicateurs clés de performance (KPI) qui ont le plus d’impact sur votre activité. Ensuite, concentrez vos efforts sur les mesures et les variables qui prennent en charge ces KPI.
+Vous ne pouvez tout simplement pas tout mesurer. En outre, votre implémentation d’Adobe Analytics sera la plus réussie si vous donnez la priorité à la mesure de ce qui est le plus important pour l’entreprise. Contactez les dirigeants de votre entreprise pour définir les indicateurs clés de performance (KPI) qui ont le plus d’impact sur votre activité. Ensuite, concentrez vos efforts sur les mesures et les variables qui prennent en charge ces KPI.
 
 ## 1. Familiarisez-vous avec les objectifs de votre entreprise
 
-Commencez par vous familiariser avec les objectifs de votre entreprise afin de choisir les 5 KPI les plus importants pour votre activité. Ces KPI peuvent être des mesures comme le chiffre d’affaires ou des mesures calculées comme les revenus par visite. Les mesures peuvent également comporter des variables. Ne copiez PAS des indicateurs de performance clés aléatoires d’autres entreprises ou normes du secteur ; ils ne correspondent probablement pas à VOS objectifs commerciaux.
+Commencez par vous familiariser avec les objectifs de votre entreprise afin de choisir les 5 KPI les plus importants pour votre activité. Ces KPI peuvent être des mesures comme le chiffre d’affaires ou des mesures calculées comme les revenus par visite. Les mesures peuvent également comporter des variables. NE copiez PAS de KPI aléatoires provenant d’autres entreprises ou normes du secteur ; il est peu probable qu’ils correspondent aux objectifs de VOTRE entreprise.
 
 ## 2. Posez-vous une question cruciale
 
-Posez-vous la question suivante : si ma PDG était coincée sur une île déserte et que je ne pouvais lui communiquer que 5 informations concernant la santé de l’entreprise, qu’est-ce que je lui dirais ? Si vous lui aviez dit que le temps moyen passé sur une page était de 1:30, cela ne l&#39;aiderait pas du tout. Cependant, lui dire que les recettes moyennes par visite sont de 2 $ et que vous avez eu 2 millions de visites lui donnera une véritable indication du succès de l’entreprise.
+Posez-vous la question suivante : si ma PDG était coincée sur une île déserte et que je ne pouvais lui communiquer que 5 informations concernant la santé de l’entreprise, qu’est-ce que je lui dirais ? Si vous lui disiez que le temps moyen passé sur une page était de 1:30, cela ne l&#39;aiderait pas du tout. Cependant, lui dire que les recettes moyennes par visite sont de 2 $ et que vous avez eu 2 millions de visites lui donnera une véritable indication du succès de l’entreprise.
 
 ## 3. Rappelez-vous ce que sont les KPI, et ce qu’ils ne sont pas
 

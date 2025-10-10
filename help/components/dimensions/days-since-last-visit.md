@@ -12,11 +12,11 @@ ht-degree: 83%
 
 # Jours depuis la dernière visite
 
-La [dimension](overview.md) &quot;Jours depuis la dernière visite&quot; mesure le temps écoulé entre l’accès actif du visiteur et sa visite précédente (le cas échéant). Cette dimension vous aide à comprendre le comportement des visiteurs après avoir visité votre site. Par exemple :
+La dimension « Jours depuis la dernière visite »[s](overview.md) mesure le temps écoulé entre l’accès actuel du visiteur et sa visite précédente (le cas échéant). Cette dimension vous aide à comprendre le comportement des visiteurs après avoir visité votre site. Par exemple :
 
 * À quelle fréquence les utilisateurs reviennent-ils sur le site ?
 * Quelle relation existe-t-il entre la fréquence des retours et les conversions ? Les acheteurs réguliers effectuent-ils des visites fréquentes ou espacées ?
-* Les utilisateurs qui arrivent sur le site par le biais des campagnes publicitaires y reviennent-ils souvent ?
+* Est-ce que les personnes qui arrivent sur le site par le biais des campagnes publicitaires y reviennent souvent ?
 
 Les nouveaux visiteurs ne sont pas inclus dans cette dimension.
 

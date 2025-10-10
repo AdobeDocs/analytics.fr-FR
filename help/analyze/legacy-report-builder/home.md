@@ -1,5 +1,5 @@
 ---
-title: À propos du Report Builder hérité pour Adobe Analytics
+title: À propos de l’ancien Report Builder pour Adobe Analytics
 description: Découvrez Report Builder et exportez vos données Adobe Analytics directement dans Microsoft Excel.
 feature: Workspace Basics
 role: User, Admin
@@ -11,7 +11,7 @@ ht-degree: 90%
 
 ---
 
-# Qu’est-ce que le Report Builder hérité ?
+# Qu’est-ce que l’ancien Report Builder ?
 
 {{legacy-arb}}
 

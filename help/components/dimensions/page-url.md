@@ -12,7 +12,7 @@ ht-degree: 95%
 
 # URL de la page
 
-L’&#39;URL de page&#39; [dimension](overview.md) répertorie les URL de votre site.
+La [dimension](overview.md) « URL de la page » répertorie les URL de votre site.
 
 >[!IMPORTANT]
 >

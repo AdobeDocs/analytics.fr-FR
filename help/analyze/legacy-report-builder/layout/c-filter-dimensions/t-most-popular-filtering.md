@@ -18,7 +18,7 @@ ht-degree: 89%
 
 Classement et filtres conditionnels pouvant être configurés à l’aide d’une logique booléenne et d’expressions de recherche ET/OU.
 
-Les filtres de type « Le plus populaire » sont des filtres d’expression configurés à l’aide d’une logique booléenne avec des conditions ET/OU, tels que [!UICONTROL La page ne contient pas &#x200B;]*`<product name>`*, accompagnés de conditions ou de groupes de conditions comme [!UICONTROL Inclut tout], [!UICONTROL Inclut n’importe quel] ou [!UICONTROL Exclut tout]. Vous pouvez [enregistrer](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) ces expressions pour une autre requête dans ce classeur ou dans d’autres classeurs.
+Les filtres de type « Le plus populaire » sont des filtres d’expression configurés à l’aide d’une logique booléenne avec des conditions ET/OU, tels que [!UICONTROL La page ne contient pas ]*`<product name>`*, accompagnés de conditions ou de groupes de conditions comme [!UICONTROL Inclut tout], [!UICONTROL Inclut n’importe quel] ou [!UICONTROL Exclut tout]. Vous pouvez [enregistrer](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/saved-filters.md) ces expressions pour une autre requête dans ce classeur ou dans d’autres classeurs.
 
 **Pour créer un filtre de type « Le plus populaire »**
 

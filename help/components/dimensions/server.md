@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Serveur
 
-Le &quot;serveur&quot; [dimension](overview.md) répertorie généralement le nom d’hôte du site. Pour les suites de rapports combinant plusieurs domaines ou sous-domaines, cette dimension est utile pour identifier les domaines ou sous-domaines les plus performants.
+La dimension [Serveur](overview.md) répertorie généralement le nom d’hôte du site. Pour les suites de rapports combinant plusieurs domaines ou sous-domaines, cette dimension est utile pour identifier les domaines ou sous-domaines les plus performants.
 
 Cette dimension est liée aux dimensions [Page](page.md) et [Section du site](site-section.md). Page est la dimension la plus granulaire, Serveur est la moins granulaire et Section du site est comprise entre les deux.
 

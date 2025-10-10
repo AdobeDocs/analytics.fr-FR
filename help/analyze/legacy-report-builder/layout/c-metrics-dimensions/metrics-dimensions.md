@@ -16,7 +16,7 @@ ht-degree: 91%
 
 {{legacy-arb}}
 
-Ajoutez des mesures et des dimensions dans l’Assistant Requête : Étape 2 pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du Report Builder est conforme à la disposition de menu affichée dans les Reports and Analytics.
+Ajout de mesures et de dimensions dans l’Assistant Requête : étape 2 pour définir la disposition Analytics des données de votre requête. La liste des mesures et des dimensions du Report Builder est conforme à la disposition de menu affichée dans les Reports and Analytics.
 
 Les mesures sont des valeurs numériques. Elles se composent d’informations quantitatives sur l’activité de votre site Web, telles que [!UICONTROL Pages vues], [!UICONTROL Profil du visiteur], [!UICONTROL Clics publicitaires], [!UICONTROL Rechargements], [!UICONTROL Durée moyenne de la visite], [!UICONTROL Date], [!UICONTROL Unités], etc. Le Report Builder classe les mesures dans plusieurs groupes, conformes au regroupement standard utilisé dans Analytics :
 

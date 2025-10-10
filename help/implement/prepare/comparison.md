@@ -31,10 +31,10 @@ Comparez chaque méthode d’implémentation d’Adobe Analytics. Vous pouvez ut
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Consultez la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=fr) pour plus d’informations.
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Consultez la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) pour plus d’informations.
 
 
-| | [SDK Mobile](/help/implement/aep-edge/mobile-sdk/overview.md) | [API Edge Network](/help/implement/aep-edge/api/overview.md) |
+| | [SDK mobile](/help/implement/aep-edge/mobile-sdk/overview.md) | [API Edge Network](/help/implement/aep-edge/api/overview.md) |
 | --- | --- | --- |
 | Exigences d’implémentation | Référencez la balise de chargement dans l’application, puis utilisez des appels ou des règles d’API directs dans l’interface utilisateur de collecte de données pour composer des objets XDM et envoyer les données de votre choix à l’aide d’Edge Network à Adobe Analytics | Utilisez l’API Edge Network pour composer des objets XDM et envoyer les données de votre choix à l’aide d’Edge Network vers Adobe Analytics |
 | Destination des données | Envoyées à Adobe Experience Platform Edge, qui transfère les données à Adobe Analytics | Envoyées à Adobe Experience Platform Edge, qui transfère les données à Adobe Analytics |

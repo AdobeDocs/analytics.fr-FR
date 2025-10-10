@@ -12,7 +12,7 @@ ht-degree: 87%
 
 # Jour du mois
 
-La [dimension](overview.md) &quot;Jour du mois&quot; indique le jour numérique d’un mois donné comme élément de dimension. Si, par exemple, vous disposez d’un rapport couvrant la période du 1er janvier au 31 mars, le premier de chaque mois est placé dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par jour, mais ne souhaitez pas une date statique comme élément de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
+La [dimension](overview.md) « Jour du mois » indique le jour numérique d’un mois donné en tant qu’élément de dimension. Si, par exemple, vous disposez d’un rapport couvrant la période du 1er janvier au 31 mars, le premier de chaque mois est placé dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par jour, mais ne souhaitez pas une date statique comme élément de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
 
 ## Renseignement de cette dimension avec des données
 

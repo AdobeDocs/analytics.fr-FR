@@ -15,4 +15,4 @@ ht-degree: 63%
 
 Les données qui ont été supprimées d’un compte FTP ne peuvent plus être restaurées par Adobe.
 
-Si un compte FTP que vous aviez l’intention d’utiliser a été désactivé, contactez votre équipe de compte d’Adobe, qui pourra discuter d’autres options avec vous.
+Si un compte FTP que vous aviez l’intention d’utiliser a été désactivé, contactez l’équipe chargée de votre compte Adobe, qui pourra discuter des autres options avec vous.

@@ -13,15 +13,15 @@ ht-degree: 58%
 
 # Connexion à un compte FTP par SFTP
 
-Pour configurer le transfert sécurisé par FTP :
+Pour configurer un transfert sécurisé avec FTP :
 
-1. (Conditionnel) Si vous souhaitez configurer un transfert sécurisé avec des serveurs FTP Adobes :
+1. (Conditionnel) Si vous souhaitez configurer un transfert sécurisé avec des serveurs FTP Adobe :
 
    1. Demandez un compte FTP hébergé par Adobe (quota de 50 Mo).
 
-   1. Créez des clés RSA publique/privée.
+   1. Créez des clés RSA publiques/privées.
 
-      * Dans un environnement Linux, exécutez :
+      * Dans l’environnement Linux, exécutez :
 
         ```
         ssh-keygen -t rsa
@@ -29,7 +29,7 @@ Pour configurer le transfert sécurisé par FTP :
 
       * Dans un environnement Windows, utilisez puttyGen.
 
-1. (Conditionnel) Si vous souhaitez configurer un transfert sécurisé avec votre propre emplacement FTP, vous devez disposer d’un hôte SFTP, d’un nom d’utilisateur et d’un site de destination contenant une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+1. (Conditionnel) Si vous souhaitez configurer un transfert sécurisé avec votre propre emplacement FTP, vous devez disposer d’un hôte SFTP, d’un nom d’utilisateur et du site de destination contenant une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
 
 1. Créez un fichier nommé [!DNL authorized_keys] (sans extension).
 

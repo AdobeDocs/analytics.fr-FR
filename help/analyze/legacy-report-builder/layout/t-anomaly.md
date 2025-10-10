@@ -16,7 +16,7 @@ ht-degree: 72%
 
 {{legacy-arb}}
 
-Pour créer une requête de détection des anomalies dans Report Builder :
+Création d’une requête de détection des anomalies dans Report Builder :
 
 1. Sélectionnez un rapport de tendance, par exemple sur un rapport **[!UICONTROL Mesures du site]** > **[!UICONTROL Trafic]**.
 1. Dans le menu [!UICONTROL Appliquer la granularité], sélectionnez **[!UICONTROL Jour]**.
@@ -31,11 +31,11 @@ Pour créer une requête de détection des anomalies dans Report Builder :
 
    Pour la mesure ajoutée, cliquez sur le lien **[!UICONTROL Aucun]**.
 
-   ![Capture d&#39;écran montrant la détection des anomalies, puis Insérer et insérer des options pour la limite inférieure et supérieure et attendue.](assets/anomaly_select.png)
+   ![Capture d’écran affichant la détection des anomalies, puis les options Insérer et Insérer pour les limites inférieure et supérieure et attendue.](assets/anomaly_select.png)
 
 1. Sélectionnez **[!UICONTROL Détection des anomalies]** > **[!UICONTROL `<selection>`]**.
 
-   ![Capture d’écran montrant l’Assistant Requête : Étape 2 - Rapport de trafic.](assets/anomaly_visit.png)
+   ![Capture d’écran affichant l’étape 2 de l’assistant Requête - Rapport de trafic.](assets/anomaly_visit.png)
 
    Lorsque vous sélectionnez l’une de ces options, le système crée des copies Détection des anomalies de la mesure d’origine. Par exemple, pour la mesure Visite, une mesure Limite inférieure - Visite est ajoutée au groupe [!UICONTROL Mesure].
 1. Cliquez sur **[!UICONTROL Terminer]** et sélectionnez la cellule pour la sortie vers Excel.

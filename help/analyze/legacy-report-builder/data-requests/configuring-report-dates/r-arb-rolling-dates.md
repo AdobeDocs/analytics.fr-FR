@@ -1,5 +1,5 @@
 ---
-description: Définitions de champ pour les dates roulantes en Report Builder.
+description: Définitions de champ pour les dates flottantes dans Report Builder.
 title: Définitions de l’Assistant Requête - Dates roulantes
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
@@ -16,7 +16,7 @@ ht-degree: 73%
 
 {{legacy-arb}}
 
-Définitions de champ pour les dates roulantes en Report Builder.
+Définitions de champ pour les dates flottantes dans Report Builder.
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
@@ -28,7 +28,7 @@ Définitions de champ pour les dates roulantes en Report Builder.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Expression personnalisée </p> </td> 
-   <td colname="col2"> <p>Voir <a href="/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > Expressions de dates personnalisées </a>. </p> </td> 
+   <td colname="col2"> <p>Voir <a href="/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > des expressions de date personnalisées</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> À partir de la date </p> </td> 

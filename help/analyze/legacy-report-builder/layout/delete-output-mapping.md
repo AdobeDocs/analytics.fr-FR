@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment modifier un classeur pour libérer de l’espace pour de nouvelles requêtes en supprimant des requêtes.
-title: Suppression du mapping de sortie
+description: Découvrez comment modifier un classeur pour libérer de l’espace pour de nouvelles requêtes en les supprimant.
+title: Comment supprimer le mappage de sortie
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin

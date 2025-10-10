@@ -1,6 +1,6 @@
 ---
-description: Découvrez comment télécharger un classeur Excel Report Builder que vous souhaitez partager.
-title: Comment charger un classeur
+description: Découvrez comment télécharger un classeur Report Builder Excel que vous souhaitez partager.
+title: Comment télécharger un classeur
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 feature: Report Builder
 role: User, Admin
@@ -22,7 +22,7 @@ La [!UICONTROL Bibliothèque des classeurs] vous permet de charger un classeur E
 
 >[!NOTE]
 >
->Seuls les classeurs contenant des demandes de Report Builder peuvent être transférés. Vous pouvez également distribuer des rapports du Report Builder aux personnes qui n’utilisent pas ce complément. (Les utilisateurs ne sont pas obligés de se connecter pour consulter les données.)
+>Seuls les classeurs contenant des requêtes Report Builder peuvent être chargés. Vous pouvez également distribuer des rapports du Report Builder aux personnes qui n’utilisent pas ce complément. (Les utilisateurs ne sont pas obligés de se connecter pour consulter les données.)
 
 1. Créez et exécutez une requête.
 1. Après avoir enregistré le rapport, cliquez sur **[!UICONTROL Partager]**.

@@ -21,4 +21,4 @@ Vous pouvez utiliser le protocole FTP avec les solutions et les produits Adobe d
 * Chargement des attributs du client vers Experience Cloud pour les utiliser dans les solutions.
 * Utilisez Analytics pour créer et gérer des sources de données basées sur un FTP qui importent des données hors ligne ou historiques dans [!UICONTROL Experience Cloud] au moyen du transfert de fichiers par FTP.
 
-Ces articles ne vous expliquent pas nécessairement comment utiliser le protocole FTP avec chaque produit. Il recommande plutôt les bonnes pratiques à suivre pour utiliser le protocole FTP avec Adobe.
+Ces articles ne vous guident pas nécessairement tout au long des étapes nécessaires à l’utilisation du protocole FTP avec chaque produit. Il recommande plutôt les bonnes pratiques à suivre pour utiliser le protocole FTP avec Adobe.

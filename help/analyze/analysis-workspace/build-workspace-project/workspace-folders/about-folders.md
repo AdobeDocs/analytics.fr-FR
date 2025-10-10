@@ -1,17 +1,17 @@
 ---
-description: Découvrez comment organiser vos projets dans des dossiers dans Analysis Workspace.
+description: Découvrez comment organiser vos projets dans des dossiers dans Analysis Workspace.
 keywords: Analysis Workspace
-title: Présentation des dossiers
+title: Vue d’ensemble des dossiers
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
-# Présentation des dossiers
+# Vue d’ensemble des dossiers
 
 Les dossiers dans Workspace vous aident à organiser et à classer vos projets. La fonctionnalité Dossiers vous permet de créer des dossiers et des sous-dossiers pour gérer vos projets.
 

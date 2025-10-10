@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment modifier une colonne de mesures en graphique à barres avec une valeur de pourcentage correspondante ou en valeur de pourcentage avec un graphique à barres correspondant.
+description: Découvrez comment modifier une colonne de mesures en un graphique à barres avec une valeur de pourcentage correspondante ou une valeur de pourcentage avec un graphique à barres correspondant.
 title: Comment créer un micrographique
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
@@ -22,4 +22,4 @@ Dans la Disposition personnalisée, vous pouvez convertir une colonne de valeurs
 1. Cliquez avec le bouton droit sur une colonne de valeurs de mesure.
 1. Sélectionnez l’option **[!UICONTROL Modifier l’affichage de la sortie]**, puis précisez le type de micrographique et la présentation du pourcentage.
 
-   Report Builder modifie l’affichage dans la colonne en fonction de votre sélection.
+   Report Builder modifie l’affichage de la colonne en fonction de votre sélection.

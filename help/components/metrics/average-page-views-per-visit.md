@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # Moyenne de pages vues par visite
 
-La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Cette [mesure](overview.md) s’avère utile pour comprendre la fréquence d’affichage des éléments de dimension lors d’une visite.
+La dimension « Moyenne de pages vues par visite » indique le nombre moyen de pages vues en fonction de la dimension souhaitée. Pour les dimensions temporelles, vous pouvez suivre l’évolution du nombre moyen de pages vues au cours d’une visite et au fil du temps. Cette [mesure](overview.md) est utile lorsque vous souhaitez comprendre la fréquence d’affichage des éléments de dimension au cours d’une visite.
 
 >[!TIP]
 >

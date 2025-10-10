@@ -12,7 +12,7 @@ ht-degree: 70%
 
 # Personnes non identifiées
 
-La [mesure ](overview.md) &quot;Personnes non identifiées&quot; est une mesure [Analyse entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs que les Analyses entre appareils n’ont pas pu identifier.
+La mesure « Personnes non identifiées » [mesure](overview.md) est une mesure [Analyses entre appareils](../cda/overview.md) qui comptabilise le nombre de visiteurs que les analyses entre appareils n’ont pas pu identifier.
 
 ## Méthode de calcul de cette mesure
 

@@ -6,13 +6,13 @@ exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
 workflow-type: tm+mt
 source-wordcount: '1655'
-ht-degree: 64%
+ht-degree: 65%
 
 ---
 
 # Présentation de la durée de la visite
 
-Diverses [mesures](overview.md) et dimensions [!UICONTROL &#39;] de temps passé sont proposées dans les produits Adobe Analytics. Cette page peut vous aider à distinguer la dimension ou la mesure souhaitée que vous recherchez.
+Diverses [!UICONTROL mesures] et dimensions [&#39;](overview.md) de temps passé sont proposées dans les produits Adobe Analytics. Cette page peut vous aider à distinguer la dimension ou la mesure souhaitée que vous recherchez.
 
 ## Mesures de « durée de la visite »
 
@@ -53,7 +53,7 @@ Le **dénominateur** n’est pas disponible comme mesure distincte dans Adobe An
 
 ## Questions fréquentes
 
-+++Toutes les mesures « Temps passé » peuvent-elles être appliquées à une dimension ?
++++Toutes les mesures « Durée de la visite » peuvent-elles être appliquées à une dimension ?
 
 Les mesures « Temps passé » qui peuvent être appliquées à n’importe quelle dimension sont les suivantes :
 
@@ -67,7 +67,7 @@ Les mesures « Temps passé » qui peuvent être appliquées à n’importe quel
 
 +++
 
-+++Quelle dimension « Temps passé » est la mieux utilisée dans les répartitions avec d’autres dimensions ?
++++Quelle dimension de durée de la visite est la plus appropriée pour une utilisation dans les ventilations avec d’autres dimensions ?
 
 La dimension [[!UICONTROL Temps passé sur la page - granulaire]](../dimensions/time-spent-on-page.md) est une dimension de niveau accès. La répartition de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de répartition était également présente.
 Dans l’exemple ci-dessous, le terme de recherche « classifieds » est associé à des temps d’accès de 54 secondes, 59 secondes, etc., ce qui indique peut-être que les visiteurs passent du temps à lire le contenu renvoyé pour ce terme.
@@ -76,7 +76,7 @@ Dans l’exemple ci-dessous, le terme de recherche « classifieds » est associ�
 
 +++
 
-+++Quelle mesure est appropriée par rapport à la dimension de [!UICONTROL Temps passé sur la page - granulaire] ?
++++Quelle mesure est appropriée par rapport à la dimension [!UICONTROL Temps passé sur la page - granulaire] ?
 
 N’importe quelle mesure. La dimension indiquera la durée de la visite sur l’accès exact où l’événement s’est produit. Une durée plus longue de la visite signifie qu’un visiteur est resté plus longtemps sur une page (accès) où l’événement s’est produit.
 
@@ -84,7 +84,7 @@ Rapport Workspace ![présentant une mesure personnalisée utilisée avec une dim
 
 +++
 
-+++En quoi [!UICONTROL Temps moyen passé sur le site] diffère-t-il de [!UICONTROL Temps passé par visite] ?
++++En quoi la [!UICONTROL Durée moyenne de la visite du site] diffère-t-elle de la [!UICONTROL Durée de la visite] ?
 
 La différence est le dénominateur de la mesure :
 

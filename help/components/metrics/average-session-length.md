@@ -12,8 +12,8 @@ ht-degree: 29%
 
 # Durée de session moyenne (mobile)
 
-La [mesure](overview.md) de &quot;Durée de session moyenne (mobile)&quot; indique la durée moyenne de présence d’un élément de dimension donné par élément de dimension. Elle est similaire à la mesure [[!UICONTROL Durée de la visite (secondes)]](time-spent-per-visit.md), sauf que cette mesure utilise des composants spécifiques au SDK mobile dans le cadre de son calcul.
+La mesure « Durée de session moyenne (mobile) » [mobile](overview.md) indique la durée moyenne de présence d’un élément de dimension donné par élément de dimension. Elle est similaire à la mesure [[!UICONTROL Temps passé par visite (secondes)]](time-spent-per-visit.md), à la différence que cette mesure utilise des composants spécifiques à SDK mobile dans le cadre de son calcul.
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est calculée à l’aide des [mesures de cycle de vie](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/) `'Total Session length' / ('Launches' - 'First launches'`.
+Cette mesure est calculée à l’aide du [ ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/metrics/)Mesures de cycle de vie`'Total Session length' / ('Launches' - 'First launches'`.

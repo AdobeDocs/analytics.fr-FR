@@ -5,16 +5,16 @@ feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 95%
+source-wordcount: '360'
+ht-degree: 82%
 
 ---
 
 # Heure de la journée
 
-La [dimension](overview.md) &quot;Heure de la journée&quot; indique l’heure numérique d’un jour donné comme élément de dimension. Par exemple, si vous disposez d’un rapport qui s’étend du 1er au 7 janvier, la première heure de chaque jour est regroupée dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par heure de la journée, mais ne souhaitez pas d’heures statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
+La [dimension](overview.md) « Heure du jour » indique l’heure numérique d’un jour donné en tant qu’élément de dimension. Par exemple, si vous disposez d’un rapport qui s’étend du 1er au 7 janvier, la première heure de chaque jour est regroupée dans le même élément de dimension. Ce rapport est utile si vous souhaitez un rapport divisé par heure de la journée, mais ne souhaitez pas d’heures statiques comme éléments de dimension. Il s’avère particulièrement utile comme dimension dans les rapports planifiés, dans la mesure où cette dimension s’étend sur la période sélectionnée.
 
-Cette dimension est basée sur le fuseau horaire de la suite de rapports, et non sur celui du visiteur. Par exemple, si votre suite de rapports est à l’heure des Rocheuses et qu’un visiteur en Californie se rend sur votre site à 10 h (heure du Pacifique), les groupes d’accès se trouvent sous l’élément de dimension `11:00 AM`. Si vous souhaitez une dimension qui enregistre l’heure locale du visiteur, Adobe recommande d’utiliser le plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Cette dimension est basée sur le fuseau horaire de la suite de rapports, et non sur celui du visiteur. Par exemple, si votre suite de rapports est à l’heure des montagnes Rocheuses et qu’un visiteur en Californie visite votre site à 10 :00, heure du Pacifique, les accès sont regroupés sous l’élément de dimension `11:00 AM` . Si vous souhaitez une dimension qui enregistre l’heure locale du visiteur, Adobe recommande d’utiliser le plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Renseignement de cette dimension avec des données
 
@@ -22,7 +22,7 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 ## Éléments de dimension
 
-Les éléments de dimension vont de `12:00 AM` à `11:00 PM`, ce qui représente l’heure de la journée où l’accès a eu lieu (arrondie à l’unité inférieure). Par exemple, si un accès a été généré à 15 h 58, il est regroupé sous l’élément de dimension `3:00 PM`.
+Les éléments de dimension vont de `12:00 AM` à `11:00 PM`, ce qui représente l’heure de la journée où l’accès a eu lieu (arrondie à l’unité inférieure). Par exemple, si un accès a été généré à 15 :58, il est regroupé sous l’élément de dimension de `3:00 PM`.
 
 ## Heure d’été
 

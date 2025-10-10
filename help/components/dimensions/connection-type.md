@@ -12,7 +12,7 @@ ht-degree: 94%
 
 # Type de connexion
 
-La [dimension](overview.md) &quot;Type de connexion&quot; indique comment le visiteur s’est connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
+La [dimension](overview.md) « Type de connexion » indique comment le visiteur s’est connecté à Internet. Cette dimension est utile pour déterminer la méthode de connexion à Internet utilisée par les visiteurs pour parcourir votre site. Vous pouvez lʼutiliser pour optimiser le contenu du site en fonction de la vitesse de connexion des visiteurs.
 
 ## Renseignement de cette dimension avec des données
 
@@ -28,7 +28,7 @@ Cette dimension utilise à la fois la [`ct` chaîne de requête](/help/implement
 
 Les éléments de dimension comprennent `LAN/Wifi`, `Mobile Carrier`, `Modem` et `Not Specified`.
 
-* **`LAN/Wifi`** : le visiteur sʼest connecté à Internet par le biais dʼune ligne fixe ou dʼun point dʼaccès Wi-Fi.
+* **`LAN/Wifi`** : la connexion à Internet a été établie par le biais dʼune ligne fixe ou dʼun point dʼaccès Wi-Fi.
 * **`Mobile Carrier`** : le visiteur sʼest connecté à Internet par le biais dʼun opérateur de téléphonie mobile.
 * **`Modem`** : le visiteur sʼest connecté à Internet par lʼintermédiaire dʼun modem avec un navigateur Internet Explorer non pris en charge.
 * **`Not Specified`** : lʼaccès ne présentait pas de type de connexion.

@@ -23,13 +23,13 @@ Cet exemple affiche le rapport Page - Abandon.
 1. Sélectionnez la suite de rapports appropriée.
 1. Dans l’arborescence de gauche, sélectionnez **[!UICONTROL Chemins]** > **[!UICONTROL Page]** > **[!UICONTROL Page - Abandon]**.
 
-   ![Capture d’écran présentant l’arborescence Windows du répertoire de Report Builder. L’option Page Fallout est sélectionnée.](assets/page_fallout.png)
+   ![Capture d’écran affichant l’arborescence Windows pour le répertoire Report Builder. L’option Abandon de page est sélectionnée.](assets/page_fallout.png)
 
 1. Configurez les [périodes](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) appropriées.
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. À l’étape 2 de l’Assistant, sous **[!UICONTROL Libellés de lignes]**, cliquez sur le lien **[!UICONTROL Définir les points de contrôle]**. (Dans un rapport d’abandon, vous devez toujours définir des éléments de chemin, à la différence d’un rapport de cheminement où un modèle est pré-appliqué.)
 
-   ![Capture d&#39;écran montrant le lien Définir les points de contrôle.](assets/define_checkpoints.png)
+   ![Capture d’écran affichant le lien Définir des points de contrôle.](assets/define_checkpoints.png)
 
 1. Sélectionnez l’option **[!UICONTROL Filtrer]**.
 
@@ -37,9 +37,9 @@ Cet exemple affiche le rapport Page - Abandon.
 1. Choisissez d’effectuer la sélection depuis une plage de cellules ou depuis une liste.
 1. Si vous sélectionnez depuis une liste, cliquez sur **[!UICONTROL Ajouter]** pour sélectionner des points de contrôle à ajouter au chemin d’abandon. Vous pouvez définir entre 3 et 8 points de contrôle. (Recherchez des éléments disponibles en cliquant sur **[!UICONTROL Plus]**.)
 
-   Pour plus d’informations sur l’affinage du filtre, voir [Dimensions de filtrage](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
+   Pour plus d’informations sur l’affinement du filtre, voir [Dimensions du filtre](/help/analyze/legacy-report-builder/layout/c-filter-dimensions/filter-dimensions.md).
 
-1. Déplacez les **[!UICONTROL éléments disponibles]** de la colonne de gauche à celle de droite en les sélectionnant et en cliquant sur la flèche orange.
+1. Déplacez **[!UICONTROL Éléments disponibles]** de la colonne de gauche vers la droite en les sélectionnant et en cliquant sur la flèche orange.
 1. Cliquez à trois reprises sur **[!UICONTROL OK]**, puis cliquez sur **[!UICONTROL Terminer]**.
 
    Le rapport devrait à présent s’actualiser.
