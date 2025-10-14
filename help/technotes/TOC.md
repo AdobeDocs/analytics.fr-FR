@@ -33,7 +33,7 @@ ht-degree: 98%
    + [Comparaison des données avec des produits tiers](ga-to-aa/compare-data.md)
 + [Analyse du trafic d’IA](/help/technotes/ai-traffic.md)
 + Analyse des données affectées par les événements {#event}
-   + [Analyse des données affectées par les événements - présentation ](event/overview.md)
+   + [Analyse des données affectées par les événements - présentation &#x200B;](event/overview.md)
    + [Résolution des problèmes liés aux pics/baisses de données](event/spikes-drops.md)
    + [Exclusion de dates spécifiques dans l’analyse](event/segments.md)
    + [Comparaison de dates aux plages précédentes](event/compare-dates.md)

@@ -50,9 +50,9 @@ Vous pouvez utiliser la dimension de type Référent dans Analysis Workspace pou
 
 * Workflows de l’agence
 
-La dimension Type de référent comprend l’élément de dimension [ Outils d’IA dédiée à la conversation ](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension comprend une liste prédéfinie de chatbots d’IA.
+La dimension Type de référent comprend l’élément de dimension [&#x200B; Outils d’IA dédiée à la conversation &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension comprend une liste prédéfinie de chatbots d’IA.
 
-Pour plus d’informations, voir [ Type de référent ](/help/components/dimensions/referrer-type.md).
+Pour plus d’informations, voir [&#x200B; Type de référent &#x200B;](/help/components/dimensions/referrer-type.md).
 
 ### Analyse du trafic d’IA à l’aide de la détection des robots
 
