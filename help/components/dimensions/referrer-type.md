@@ -3,10 +3,10 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 400f0170f13e95c401f3c4c329d23d63dcd70443
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 96%
+source-wordcount: '500'
+ht-degree: 88%
 
 ---
 
@@ -24,10 +24,34 @@ Les éléments de dimension comprennent le type de référent de l’accès. Les
 
 * **Tapé/Marqué d’un signet** : l’accès ne contient aucune donnée de référent.
 * **Moteurs de recherche** : le référent provient d’un moteur de recherche reconnu comprenant une chaîne de requête de mot-clé.
+* **Outils d’IA conversationnelle** : le référent provient d’un outil d’IA conversationnelle reconnu.
 * **Réseaux sociaux** : les données de référent appartiennent à un réseau social reconnu par Adobe.
 * **Autres sites Web** : les données de référent n’appartiennent pas à un moteur de recherche ou à un réseau social reconnu par Adobe.
+* **Pas de JavaScript** : le référent provient d’un navigateur dans lequel JavaScript n’est pas activé.
 * **Disque dur** : le référent est issu d’une copie locale d’une page Web sur le disque dur du visiteur.
 * **E-mail** : le référent est issu d’une URL avec un protocole `imap://` ou `mail://`. Ne comprend pas les services de messagerie en ligne, car ils utilisent généralement le protocole `https://`.
+
+### Outils d’IA dédiée à la conversation
+
+La liste suivante fait référence à la table de recherche « Outils d’IA dédiée aux conversations » utilisée par Adobe. Adobe fournit cette liste aux clients d’Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué d’assistance de votre entreprise de contacter l’assistance clientèle.
+
+* `https://chatgpt.com`
+* `https://chat.com`
+* `https://chat.openai.com`
+* `https://gemini.google.com`
+* `https://copilot.microsoft.com`
+* `https://m365.cloud.microsoft`
+* `https://perplexity.ai`
+* `https://labs.perplexity.ai`
+* `https://playground.perplexity.ai`
+* `https://claude.ai`
+* `https://grok.com`
+* `https://komo.ai`
+* `https://phind.com`
+* `https://poe.com`
+* `https://blackbox.ai`
+* `https://chat.mistral.ai`
+* `https://meta.ai`
 
 ### Réseaux sociaux
 
