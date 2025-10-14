@@ -4,17 +4,16 @@ title: Filtrer Et Trier
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 3daac356a1d3f90572ab8b627dfeedfc6575cbbc
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 98%
+source-wordcount: '1123'
+ht-degree: 72%
 
 ---
 
 # Filtrer et trier
 
 Les tableaux à structure libre dans Analysis Workspace sont la base de l’analyse de données interactive. Ils peuvent donc contenir des milliers de lignes d’informations. Le filtrage et le tri des données peuvent constituer des éléments essentiels à l’amélioration de l’affichage des informations les plus importantes.
-
 
 ## Filtrer des tableaux
 
@@ -26,9 +25,9 @@ Les filtres dans Analysis Workspace vous aident à afficher les informations le
 
 Vous pouvez utiliser plusieurs méthodes pour filtrer les lignes d’un tableau à structure libre.
 
-- Exclure des lignes spécifiques d’un tableau
-- Appliquer des filtres à un tableau
-- Utiliser les filtres d’audience
+* Exclure des lignes spécifiques d’un tableau
+* Appliquer des filtres à un tableau
+* Utiliser les filtres de segment
 
 Veillez à lire comment chaque méthode affecte les [totaux des tableaux à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
@@ -90,6 +89,38 @@ Pour filtrer les données dans les tableaux à structure libre :
    | [!UICONTROL **Toujours exclure les éléments**] | Indiquez le nom des éléments que vous souhaitez exclure des données filtrées. |
 
 1. Sélectionnez **[!UICONTROL Appliquer]** pour filtrer les données. Sélectionnez **[!UICONTROL Effacer]** pour effacer toutes les saisies. Sélectionnez **[!UICONTROL Annuler]** pour annuler et fermer la boîte de dialogue  <br/>Une icône colorée ![Filtre](/help/assets/icons/FilterColored.svg) **Filtre** indique et affiche les détails lorsqu’un filtre est appliqué au tableau.
+
+### Incluez des critères de filtre dans les données de tendance dans les graphiques sparkline et en ligne {#include-filter-criteria}
+
+Tous les critères de filtre de recherche appliqués à la dimension du tableau à structure libre sont toujours inclus dans les graphiques sparkline.
+
+Outre les graphiques sparkline, vous pouvez configurer des critères de filtre à inclure dans les visualisations lignes connectées. (Par défaut, les critères de filtre ne sont pas inclus dans les visualisations en ligne. Les visualisations en ligne affichent les données de la ligne sélectionnée dans le tableau connecté. Si aucune ligne n&#39;est sélectionnée, seules les données de la première dimension du tableau connecté sont affichées.)
+
+Pour plus d’informations sur les graphiques sparkline et les visualisations en ligne, voir [Affichage des données de tendances pour un tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md).
+
+#### Configuration des visualisations en ligne pour inclure des critères de filtre
+
+1. Sélectionnez le graphique sparkline dans l’en-tête de colonne de mesures.
+
+   Lorsque la cellule du graphique sparkline est sélectionnée, elle s’affiche en gris foncé. Cela indique que les critères de filtre sont inclus dans la visualisation Ligne connectée. Le critère de filtre est appliqué sous la forme d’un segment sur la colonne. <!--show how to see it? Show what the segment looks like when it's applied? -->
+
+   ![graphique sparkline sélectionné](assets/table-sparkline-selected.png)
+
+#### Comprendre quand les totaux des colonnes peuvent être inexacts
+
+Les totaux des colonnes peuvent ne pas être exacts dans les scénarios suivants :
+
+* Lorsque des composants statiques sont utilisés dans la colonne de gauche et que [les totaux des colonnes sont calculés comme la somme des lignes](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+
+  Si des éléments de ligne contiennent des données qui se chevauchent dans ce scénario, les totaux des colonnes seront inexacts.
+
+  Par exemple, si vous ajoutez des segments statiques à la colonne de gauche, puis que vous ajoutez des utilisateurs en tant que mesure dans la colonne de droite, certains de ces utilisateurs peuvent faire partie de plusieurs segments statiques. Dans ce cas, Workspace ne déduplique pas les utilisateurs pour chaque segment statique. Cela peut entraîner un nombre total d’utilisateurs plus élevé, car certains utilisateurs peuvent être comptabilisés plus d’une fois.
+
+* Lors de l’utilisation de dimensions à plusieurs valeurs
+
+>[!NOTE]
+>
+>Le graphique en graphiques sparkline et en courbes reflète toujours les totaux exacts dans ces scénarios.
 
 
 ## Trier des tableaux

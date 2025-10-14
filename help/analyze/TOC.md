@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 99%
 
 ---
 
@@ -81,12 +81,13 @@ ht-degree: 100%
       + Tableau à structure libre {#freeform-table}
          + [Vue d’ensemble](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Créer des liens hypertextes](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
+         + [Afficher les données de tendance](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Filtrer et trier](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [Totaux](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Paramètres des colonnes et des lignes {#column-row-settings}
             + [Paramètres des colonnes](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [Paramètres des lignes](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [Éléments dynamiques et statiques](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [Filtrer et trier](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
-         + [Totaux](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + Table de cohortes {#cohort-table}
          + [Vue d’ensemble](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [Configurer](analysis-workspace/visualizations/cohort-table/t-cohort.md)
