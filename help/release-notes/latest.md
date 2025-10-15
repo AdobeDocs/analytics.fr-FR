@@ -60,4 +60,4 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement, re
 * [Notes de mise à jour précédentes pour 2025](/help/release-notes/2025.md)
 * [Notes de mise à jour de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr)
 * [Notes de mise à jour des services de médias en streaming](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=fr)
-* Dernières mises à jour des [produits Adobe Experience Cloud](https://business.adobe.com/products/adobe-experience-cloud-products.html?lang=fr)
+* Dernières mises à jour des [produits Adobe Experience Cloud](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html?lang=fr)

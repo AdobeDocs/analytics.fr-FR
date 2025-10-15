@@ -20,7 +20,7 @@ Si votre entreprise souhaite suivre les performances et le taux de clics publici
 1. [Configurer ou ajuster votre mise en œuvre Adobe Analytics pour inclure des données de code de suivi](#include-campaign-variables-in-your-implementation)
 1. [Afficher les rappports dans Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html) peut simplifier chacune de ces étapes afin de tirer le meilleur parti de vos efforts marketing. Pour plus dʼinformations, contactez votre personne représentante commerciale Adobe.
+[Adobe Campaign](https://business.adobe.com/fr/products/campaign/adobe-campaign.html) peut simplifier chacune de ces étapes afin de tirer le meilleur parti de vos efforts marketing. Pour plus dʼinformations, contactez votre personne représentante commerciale Adobe.
 
 ## Établir un processus de génération de code de suivi
 
