@@ -3,7 +3,7 @@ description: Les règles de classification recherchent régulièrement des terme
 title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 89%
@@ -133,14 +133,14 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
-| Expression régulière | &Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
+| Expression régulière | &amp;Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
 
 **Syntaxe**
 
 | Expression régulière | Résultat de la chaîne ou de la correspondance | Groupes correspondants |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0` : `em:JuneSale:20XX0601` `$1` : em `$2` : JuneSale `$3` : 20XX0601 |
-| Création de la syntaxe | `^` = début d’une ligne ()= regroupe les caractères et vous permet d’extraire les caractères correspondants entre parenthèses.  `(.+)` = Capture un caractère ( . ) caractère et ( + ) en plus \ = début d’une chaîne.  `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. |
+| Création de la syntaxe | `^` = début d’une ligne ()= regroupe les caractères et vous permet d’extraire les caractères correspondants entre parenthèses.  `(.+)` = Capture un caractère ( . ) caractère et ( + ) en plus \ = début d’une chaîne.  `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. | |
 
 Pour en savoir plus sur la signification des caractères d’une expression régulière, reportez-vous à la section [Expressions régulières – Tableau de références](/help/components/classifications/crb/classification-quickstart-rules.md).
 
