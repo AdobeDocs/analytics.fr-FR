@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+source-git-commit: 1aa23ebe6adf01798e172563993df107789520ae
 workflow-type: tm+mt
-source-wordcount: '6482'
-ht-degree: 100%
+source-wordcount: '6504'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Octobre 2025** | |
+| Améliorations supplémentaires de l’identification des visiteurs | Ajout de la section [Identification des visiteurs](/help/implement/id/overview.md), décrivant la méthode recommandée pour identifier les visiteurs dans tous les types d’implémentation. |
 | **Septembre 2025** | |
 | Améliorations de l’identification des visiteurs et visiteuses | Clarification des bonnes pratiques relatives à l’identification des visiteurs et visiteuses, avec l’accent sur l’objectif des variables [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) et [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) dans AppMeasurement. |
 | **Août 2025** | |
@@ -163,7 +165,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Calendriers et périodes de Workspace | Contenu mis à jour pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’IU du calendrier. Voir [À propos des périodes relatives du panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans Customer Journey Analytics. |
 | API 1.4 | L’[API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a été complètement réécrite et est désormais publiée sur Adobe Developer. |
-| Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/use-cases/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
+| Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/id/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
 | **Janvier 2023** | |
 | Filtrer et trier des tableaux | Contenu mis à jour (y compris l’ajout de procédures et l’explication des options disponibles) dans l’article [Filtrer et trier des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Cet article a été renommé à partir de « Pagination, filtrer et trier des tableaux ». |
 | Dossiers | Pages dédiées à la [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

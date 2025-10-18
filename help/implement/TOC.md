@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,14 @@ ht-degree: 100%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module Integrate](vars/integrate.md)
++ Identification des visiteurs {#id}
+   + [Vue d’ensemble](id/overview.md)
+   + [Utilisation d’AppMeasurement](id/appmeasurement.md)
+   + [Utilisation de l’extension Analytics](id/analytics-extension.md)
+   + [Utilisation de Web SDK (Alloy)](id/alloy.md)
+   + [Utilisation de l’extension Web SDK](id/web-sdk-extension.md)
+   + [Migration vers le service d’identification des visiteurs](id/migration.md)
+   + [Suivi sur plusieurs types d’implémentation](id/cross-type-implementation.md)
 + Préparer la mise en œuvre d’Adobe Analytics {#prepare}
    + [Créer une couche de données](prepare/data-layer.md)
    + [Comparer les méthodes d’implémentation](prepare/comparison.md)
@@ -188,8 +196,7 @@ ht-degree: 100%
 + [Mise en œuvre d’Analytics sur des appareils mobiles](mobile-device-sdk.md)
 + Cas d’utilisation de mise en œuvre {#use-cases}
    + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
-   + [Suivi sur différents types de mises en œuvre](use-cases/cross-type-implementation.md)
-   + [Workflow du suivi des campagnes](use-cases/campaign-tracking.md)
+   + [Workflow du suivi de campagne](use-cases/campaign-tracking.md)
 + Valider votre mise en œuvre {#validate}
    + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
