@@ -24,9 +24,9 @@ Lorsqu’Adobe reçoit un accès, les vérifications suivantes sont effectuées 
 | Ordre utilisé | Paramètre de requête | Présent quand |
 |---|---|---|
 | **<sup>er</sup>** | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
-| **2<sup>ème</sup>** | `aid` | Le visiteur possède un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
-| **3<sup>ème</sup>** | `mid` | Le visiteur possède un cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant. Définissez sur les implémentations à l’aide du service d’identités Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Adobe recommande d’utiliser le service d’ID pour toutes les implémentations lorsque cela est possible. |
-| **4<sup>ème</sup>** | `fid` | Le visiteur possède un cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant ou si `aid` et `mid` n’ont pu être définis pour une raison quelconque. |
+| **2<sup>ème</sup>** | `aid` | Le visiteur possède un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
+| **3<sup>ème</sup>** | `mid` | Le visiteur possède un cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant. Définissez sur les implémentations à l’aide du service d’identités Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Adobe recommande d’utiliser le service d’ID pour toutes les implémentations lorsque cela est possible. |
+| **4<sup>ème</sup>** | `fid` | Le visiteur possède un cookie [`s_fid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant ou si `aid` et `mid` n’ont pu être définis pour une raison quelconque. |
 | **5<sup>ème</sup>** | Adresse IP, Agent utilisateur, Adresse IP de passerelle | Utilisé en dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. |
 
 ## Comportement affectant le nombre de visiteurs uniques
