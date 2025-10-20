@@ -1,7 +1,7 @@
 ---
 title: Considérations relatives à la migration du service d’identification des visiteurs pour Adobe Analytics
 description: Présentation de l’interface d’Adobe Analytics avec le service d’identification des visiteurs.
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Si vous coordonnez le déploiement du service d’identification des visiteurs d
 
 ## Suivi inter-domaines
 
-Certaines implémentations d’identifiant visiteur Analytics héritées peuvent utiliser des « cookies tiers conviviaux », où deux domaines partagent le même cookie visiteur sur un domaine commun tel que `data.example.com`. Comme les cookies tiers conviviaux sont toujours des cookies tiers, la plupart des navigateurs modernes les rejettent, ce qui fait qu’Analytics s’appuie sur un identifiant de secours (`fid`) pour l’identification des visiteurs. Le passage au service d’ID permet à tous les domaines de définir le cookie `AMCV` dans un contexte propriétaire, ce qui augmente leur viabilité pour conserver un identifiant visiteur.
+Certaines implémentations d’identifiant visiteur Analytics héritées peuvent utiliser des « cookies tiers conviviaux », où deux domaines partagent le même cookie visiteur sur un domaine commun tel que `data.example.com`. Comme les cookies tiers conviviaux sont toujours des cookies tiers, de nombreux navigateurs modernes les rejettent, ce qui fait qu’Analytics s’appuie sur un identifiant de secours (`fid`) pour l’identification des visiteurs. Le passage au service d’ID permet à tous les domaines de définir le cookie `AMCV` dans un contexte propriétaire, ce qui augmente leur viabilité pour conserver un identifiant visiteur.
 
-Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie [`demdex`](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/cookies)), il est souvent rejeté par la plupart des navigateurs modernes. Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre les Experience Cloud ID entre les domaines que vous possédez.
+Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie [`demdex`](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), il est souvent rejeté par les navigateurs modernes. Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre l’Experience Cloud ID (`mid`) d’un visiteur entre les domaines que vous possédez.
 
 ## Tracking côté serveur
 
-Vous pouvez appeler [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/getmcvid) pour obtenir l’Experience Cloud ID (`mid`) et [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) pour obtenir l’Analytics ID hérité (`aid`). Adobe recommande de vérifier les deux pour conserver la logique d’identification des visiteurs.
+Vous pouvez appeler [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) pour obtenir l’Experience Cloud ID (`mid`) et [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) pour obtenir l’Analytics ID hérité (`aid`). Adobe recommande de vérifier les deux pour conserver la logique d’identification des visiteurs.

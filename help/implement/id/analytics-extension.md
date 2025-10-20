@@ -1,7 +1,7 @@
 ---
 title: Identification des visiteurs à l’aide de l’extension de balise Adobe Analytics
 description: Identifier correctement les visiteurs lors de l’implémentation de l’extension de balise Adobe Analytics.
-source-git-commit: 5bd1914dc52c664348f30793761f0fc347343156
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -30,10 +30,10 @@ L’extension de balise obtient automatiquement votre identifiant d’organisati
 >
 >Adobe déconseille d&#39;utiliser cette méthode pour identifier les visiteurs.
 
-Si votre organisation n’utilise pas l’extension de balise du service d’identification des visiteurs, l’extension de balise Adobe Analytics utilise sa propre forme d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, l’extension recherche un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à **[!UICONTROL Serveur de suivi SSL]** (pour HTTPS) ou **[!UICONTROL Serveur de suivi]** (pour HTTP) lors de la [configuration de l’extension de balise](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview).
+Si votre organisation n’utilise pas l’extension de balise du service d’identification des visiteurs, l’extension de balise Adobe Analytics utilise sa propre forme d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, l’extension recherche un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à **[!UICONTROL Serveur de suivi SSL]** (pour HTTPS) ou **[!UICONTROL Serveur de suivi]** (pour HTTP) lors de la [configuration de l’extension de balise](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
-* Si vous participez au [programme de certificat géré](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert), votre serveur de suivi est généralement un domaine propriétaire, ce qui rend les cookies `s_vi` propriétaires.
-* Si vous ne participez pas au programme de certificat géré, le serveur de suivi est généralement un sous-domaine de `adobedc.net`, `omtrdc.net` ou `2o7.net`, ce qui fait du cookie `s_vi` un cookie tiers. En raison des pratiques modernes de confidentialité des navigateurs, les cookies tiers sont rejetés par la plupart des navigateurs. Une fois rejeté, AppMeasurement tente de définir un cookie de secours propriétaire (`fid`) à la place.
+* Si vous participez au [programme de certificat géré](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), votre serveur de suivi est généralement un domaine propriétaire, ce qui rend les cookies `s_vi` propriétaires.
+* Si vous ne participez pas au programme de certificat géré, le serveur de suivi est généralement un sous-domaine de `adobedc.net`, `omtrdc.net` ou `2o7.net`, ce qui fait du cookie `s_vi` un cookie tiers. En raison des normes modernes de confidentialité des navigateurs, les cookies tiers sont rejetés par la plupart des navigateurs. Une fois rejeté, AppMeasurement tente de définir un cookie de secours propriétaire (`fid`) à la place.
 
 Si vous définissez correctement [!UICONTROL Serveur de suivi SSL], aucune autre mesure d’identification des visiteurs n’est requise.
 
