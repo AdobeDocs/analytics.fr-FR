@@ -3,10 +3,10 @@ description: Les sessions contextuelles dans les suites de rapports virtuelles m
 title: Sessions contextuelles
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
+source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ Vous pouvez définir une visite comme vous le souhaitez sans modifier les donné
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessions contextuelles](https://video.tv.adobe.com/v/3428473?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessions contextuelles](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Cependant, si *t1* et *t2* sont postérieurs au délai de visite configuré de l
 
 ![](assets/nogoodexample3-2.jpg)
 
-De même (comme dans nos exemples précédents), si *t1* est antérieur au délai de visite et *t2* également, l’accès en arrière-plan est inclus dans la première visite :
+De même (comme dans nos exemples précédents), si *t1* est inférieur à la temporisation et *t2* est supérieur à la temporisation, l’accès en arrière-plan est inclus dans la première visite :
 
 ![](assets/nogoodexample3-3.jpg)
 
