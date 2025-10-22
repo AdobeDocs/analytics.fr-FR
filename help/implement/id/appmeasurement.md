@@ -1,9 +1,9 @@
 ---
 title: Identification des visiteurs à l’aide d’AppMeasurement
 description: Identifier correctement les visiteurs et visiteuses lors de l’implémentation d’Adobe Analytics avec AppMeasurement.
-source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,9 @@ Une fois que vous disposez des ressources ci-dessus, la page d’exemple de base
 >
 >Adobe déconseille d&#39;utiliser cette méthode pour identifier les visiteurs.
 
-Si votre entreprise n’utilise pas le service d’identification des visiteurs, AppMeasurement utilise sa propre forme d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, la bibliothèque recherche un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (pour HTTPS) ou [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (pour HTTP).
+Si votre entreprise n’utilise pas le service d’identification des visiteurs, AppMeasurement utilise sa propre forme d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, la bibliothèque recherche un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (pour HTTPS) ou [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (pour HTTP).
 
-* Si vous participez au [programme de certificat géré](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert), votre serveur de suivi est généralement un domaine propriétaire, ce qui rend les cookies `s_vi` propriétaires.
+* Si vous participez au [programme de certificat géré](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), votre serveur de suivi est généralement un domaine propriétaire, ce qui rend les cookies `s_vi` propriétaires.
 * Si vous ne participez pas au programme de certificat géré, le serveur de suivi est généralement un sous-domaine de `adobedc.net`, `omtrdc.net` ou `2o7.net`, ce qui fait du cookie `s_vi` un cookie tiers. En raison des normes modernes de confidentialité des navigateurs, les cookies tiers sont rejetés par la plupart des navigateurs. Une fois rejeté, AppMeasurement tente de définir un cookie de secours propriétaire (`fid`) à la place.
 
 Si vous définissez correctement `trackingServerSecure`, aucune autre mesure d’identification des visiteurs n’est requise.
@@ -82,7 +82,7 @@ L’utilisation de la variable [`visitorID`](/help/implement/vars/config-vars/vi
 * Chaque accès doit contenir la même valeur `visitorID` pour être comptabilisé comme un seul visiteur.
    * Tous les accès qui omettent `visitorID` tentent automatiquement d’utiliser une autre méthode d’identification des visiteurs, en les traitant comme un visiteur distinct.
    * Tous les accès contenant une valeur de `visitorID` différente d’un accès précédent sont traités comme un visiteur distinct.
-   * Adobe n’offre aucun moyen d’assembler des accès à l’aide de différents identifiants visiteur.
+   * Adobe ne permet pas d’assembler des accès à l’aide de différents identifiants visiteur dans Adobe Analytics.
 * Les audiences partagées, Analytics for Target et les attributs du client ne sont pas pris en charge avec les visiteurs identifiés à l’aide de `visitorID`.
 
 Voir [`visitorID`](/help/implement/vars/config-vars/visitorid.md) pour obtenir des instructions d’implémentation à l’aide de cette variable.

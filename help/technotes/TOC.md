@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant Analytics spécifique.
-source-git-commit: f6007b40ebd7ec681a340d1005149e8bd0a89742
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 98%
+source-wordcount: '205'
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 98%
    + [Questions fréquentes](ga-to-aa/faq.md)
    + [Traitement des différences entre plateformes](ga-to-aa/processing-differences.md)
    + [Comparaison des données avec des produits tiers](ga-to-aa/compare-data.md)
-+ [Analyse du trafic d’IA](/help/technotes/ai-traffic.md)
++ [Analyser le trafic d’IA](/help/technotes/ai-traffic.md)
 + Analyse des données affectées par les événements {#event}
-   + [Analyse des données affectées par les événements - présentation &#x200B;](event/overview.md)
+   + [Analyse des données affectées par les événements - présentation](event/overview.md)
    + [Résolution des problèmes liés aux pics/baisses de données](event/spikes-drops.md)
    + [Exclusion de dates spécifiques dans l’analyse](event/segments.md)
    + [Comparaison de dates aux plages précédentes](event/compare-dates.md)
@@ -66,5 +66,4 @@ ht-degree: 98%
 + [Résolution des problèmes de connexion](troubleshoot-login.md)
 + [Résolution des problèmes de déconnexion](troubleshoot-sessions.md)
 + [Non spécifié, Autre et Inconnu](unspecified.md)
-+ [Migration des visiteurs](visitor-migration.md)
 + [Règles VISTA](vista.md)
