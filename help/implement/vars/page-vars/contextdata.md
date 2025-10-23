@@ -4,10 +4,10 @@ description: Les variables de données contextuelles vous permettent de définir
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 68%
+source-wordcount: '595'
+ht-degree: 64%
 
 ---
 
@@ -17,9 +17,11 @@ Les variables de données contextuelles vous permettent de définir des variable
 
 Les variables de données contextuelles permettent aux équipes de développement de collecter des données dans des éléments nommés plutôt que dans des variables numérotées. Par exemple, au lieu de demander aux équipes de développement d’affecter l’auteur de la page à `eVar10`, vous pouvez demander à ce qu’elles l’affectent à `s.contextData["author"]` à la place. Un administrateur Analytics de votre entreprise peut alors créer des règles de traitement pour mapper des variables de données contextuelles dans des variables d’analyse pour la création de rapports. En fin de compte, les équipes de développement se préoccupent uniquement des variables de données contextuelles, plutôt que des nombreuses variables de page proposées par Adobe.
 
+La taille maximale de toutes les variables de données contextuelles combinées (y compris les clés et les valeurs) est de 32 Ko.
+
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne sont pas mappés à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez également définir explicitement des données contextuelles à l’aide de l’objet XDM. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.  Voir [&#x200B; Mappage d’autres champs XDM aux variables Analytics &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) pour plus d’informations.
+Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne sont pas mappés à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez également définir explicitement des données contextuelles à l’aide de l’objet XDM. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.  Voir [ Mappage d’autres champs XDM aux variables Analytics ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) pour plus d’informations.
 
 Si vous utilisez l’objet [**data**](/help/implement/aep-edge/data-var-mapping.md), toutes les variables de données contextuelles résident dans `data.__adobe.analytics.contextData` en tant que paires clé-valeur :
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Les variables de données contextuelles valides contiennent uniquement des caractères alphanumériques, des traits de soulignement et des points. Adobe ne garantit pas la collecte de données dans les règles de traitement si vous incluez d’autres caractères, tels que des tirets.
-* Ne commencez pas les variables de données contextuelles par `"a."`. Ce préfixe est réservé et utilisé par Adobe. Par exemple, n’utilisez pas `s.contextData["a.InstallEvent"]`.
+* Ne démarrez pas les variables de données contextuelles avec le préfixe `"a."`. Ce préfixe est réservé et utilisé par Adobe. Par exemple, n’utilisez pas `s.contextData["a.InstallEvent"]`.
 * Les variables de données contextuelles ne sont pas sensibles à la casse. Les variables `s.contextData["example"]` et `s.contextData["EXAMPLE"]` sont identiques.
 * Une clé unique ne peut pas contenir plusieurs valeurs. Si vous souhaitez utiliser des variables de données contextuelles pour des variables à plusieurs valeurs, concaténez toutes les valeurs à l’aide d’un délimiteur (généralement une virgule) et transmettez-les dans une [prop de liste](prop.md#list-props) ou une [variable de liste](list.md) à l’aide de règles de traitement.
 

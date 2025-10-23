@@ -4,10 +4,10 @@ description: Présentation de l’utilisation des données XDM d’Experience P
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 16%
+source-wordcount: '550'
+ht-degree: 15%
 
 ---
 
@@ -23,13 +23,13 @@ Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre 
 
 ## objet `xdm`
 
-Respectez les schémas que vous créez en fonction de [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le groupe de champs de schéma [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK Web pour envoyer des données à une suite de rapports. Lorsque les données arrivent à l’Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
+Respectez les schémas que vous créez en fonction de [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le groupe de champs de schéma [Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK Web pour envoyer des données à une suite de rapports. Lorsque les données arrivent à l’Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
 
 Consultez [Mappage des variables d’objet XDM à Adobe Analytics](xdm-var-mapping.md) pour obtenir une référence complète des champs XDM et de leur mappage aux variables Analytics.
 
 >[!TIP]
 >
->Si vous prévoyez de migrer vers [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) à l’avenir, Adobe vous déconseille d’utiliser le groupe de champs de schéma Adobe Analytics. Adobe recommande plutôt de [créer votre propre schéma](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) et d’utiliser le mappage de flux de données pour renseigner les variables Analytics souhaitées. Cette stratégie ne vous verrouille pas sur un schéma de props et d’eVars lorsque vous êtes prêt à passer à Customer Journey Analytics.
+>Si vous prévoyez de migrer vers [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-landing) à l’avenir, Adobe vous déconseille d’utiliser le groupe de champs de schéma Adobe Analytics. Adobe recommande plutôt de [créer votre propre schéma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) et d’utiliser le mappage de flux de données pour renseigner les variables Analytics souhaitées. Cette stratégie ne vous verrouille pas sur un schéma de props et d’eVars lorsque vous êtes prêt à passer à Customer Journey Analytics.
 
 ## objet `data`
 
@@ -78,3 +78,5 @@ a.x.objectarray.0.ad1 // 300x200
 a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
+
+La taille maximale d’une payload de variable de données contextuelles donnée (y compris les clés et les valeurs) est de 32 Ko. Vous pouvez réduire la taille de cette payload en ajustant les champs pertinents afin qu’ils soient reconnus par Adobe Analytics dans les objets [`xdm`](xdm-var-mapping.md) ou [`data`](data-var-mapping.md).
