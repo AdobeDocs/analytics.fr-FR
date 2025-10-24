@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->&#x200B;>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
+>>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -113,9 +113,9 @@ Selon votre modèle d’attribution, le conteneur et les canaux reçoivent un cr
 
 | Modèle | Conteneur | Intervalle de recherche en amont | Explication |
 |---|---|---|---|
-| Première touche | Visite | 30 jours | L’attribution ne s’intéresse qu’à la troisième visite. Entre l’e-mail et l’affichage, l’e-mail était le premier. Dès lors, il reçoit 100 % du crédit pour l’achat de 50 $. |
+| Première touche | Visite | Intervalle de rapport | L’attribution ne s’intéresse qu’à la troisième visite. Entre l’e-mail et l’affichage, l’e-mail était le premier. Dès lors, il reçoit 100 % du crédit pour l’achat de 50 $. |
 | Première touche | Visiteur | 30 jours | L’attribution examine les trois visites. Le référencement payant a été le premier. Il obtient donc un crédit de 100 % pour l’achat de 50 $. |
-| Linéaire | Visite | 30 jours | Le crédit est divisé entre l’e-mail et l’affichage. Ces deux canaux reçoivent chacun un crédit de 25 $. |
+| Linéaire | Visite | Intervalle de rapport | Le crédit est divisé entre l’e-mail et l’affichage. Ces deux canaux reçoivent chacun un crédit de 25 $. |
 | Linéaire | Visiteur | 30 jours | Le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage. Chaque canal reçoit un crédit de 12,50 $ pour cet achat. |
 | En forme de J | Visiteur | 30 jours | Le crédit est divisé entre le référencement payant, les réseaux sociaux, les e-mails et l’affichage.<ul><li>Un crédit de 60 % est accordé à l’affichage, pour un montant de 30 $.</li><li>Un crédit de 20 % est accordé au référencement payant, pour un montant de 10 $.</li><li>Les 20 % restants sont répartis entre les réseaux sociaux et le courrier électronique, soit 5 $ à chacun.</li></ul> |
 | Atténuation temporelle | Visiteur | 30 jours | <ul><li>Intervalle de zéro jour entre le point de contact de l’affichage et la conversion. `2^(-0/7) = 1`</li><li>Intervalle de zéro jour entre le point de contact de l’e-mail et la conversion. `2^(-0/7) = 1`</li><li>Intervalle de six jours entre le point de contact de réseaux sociaux et la conversion. `2^(-6/7) = 0.552`</li><li>Intervalle de neuf jours entre le point de contact du référencement payant et la conversion. `2^(-9/7) = 0.41`</li>La normalisation de ces valeurs entraîne les résultats suivants :<ul><li>Affichage : 33,8 %, gain de 16,88 $</li><li>Courrier électronique : 33,8 %, gain de 16,88 $</li><li>Réseaux sociaux : 18,6 %, gain de 9,32 $</li><li>Référencement payant : 13,8 %, gain de 6,92 $</li></ul></li></ul> |
