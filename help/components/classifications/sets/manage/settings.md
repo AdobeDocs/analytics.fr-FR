@@ -31,7 +31,7 @@ Pour modifier les paramètres d’un ensemble de classifications :
       * Vous pouvez définir plusieurs combinaisons **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension]** pour un ensemble de classifications.
       * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.
 
-      Voir [ Création d’un ensemble de classifications ](create.md) pour plus d’informations.
+      Voir [&#x200B; Création d’un ensemble de classifications &#x200B;](create.md) pour plus d’informations.
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les paramètres. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
