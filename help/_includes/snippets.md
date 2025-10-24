@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2962'
-ht-degree: 88%
+source-wordcount: '2997'
+ht-degree: 87%
 
 ---
 # Extraits
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->&#x200B;>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
+>>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ Un modèle d’attribution détermine les éléments de dimension crédités pou
 
 Un conteneur d’attribution définit la portée souhaitée pour l’attribution. Les options possibles sont les suivantes :
 
-* **Visite** : examine les conversions à partir de la portée du conteneur de visites.
+* **Visite** : examine les conversions à partir de la portée du conteneur de visites. Lorsque **[!UICONTROL Visite]** est sélectionné, l’intervalle de recherche en amont [Attribution](#atribution-lookback-window) est automatiquement défini sur **[!UICONTROL Intervalle de création de rapports]** et ne peut pas être modifié.
 * **Visiteur** : examine les conversions à partir de la portée du conteneur de visiteurs.
 
 ## Intervalle de recherche en amont des attributions {#attribution-lookback-window}
 
 Un intervalle de recherche en amont est la durée pendant laquelle une conversion doit faire une recherche en amont pour inclure des points de contact. Si un élément de dimension est défini en dehors de l’intervalle de recherche en amont, la valeur n’est incluse dans aucun calcul d’attribution.
 
+* **[!UICONTROL Intervalle de création de rapports]** : remonte au début de l’intervalle de création de rapports à partir du moment où la conversion a eu lieu.
 * **14 jours** : remonte jusqu’à 14 jours en arrière à partir du moment où la conversion a eu lieu.
 * **30 jours** : remonte jusqu’à 30 jours en arrière à partir du moment où la conversion a eu lieu.
 * **60 jours** : remonte jusqu’à 60 jours en arrière à partir du moment où la conversion a eu lieu.
