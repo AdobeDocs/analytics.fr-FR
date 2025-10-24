@@ -42,7 +42,7 @@ Le panneau Comparaison des segments détecte les différences les plus important
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://video.tv.adobe.com/v/37598?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
