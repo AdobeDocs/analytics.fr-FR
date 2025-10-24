@@ -1,71 +1,247 @@
 ---
-title: Schéma du jeu de classifications
-description: Affichez et modifiez le schéma d’un ensemble de classifications individuel.
+title: Schéma de l’ensemble de classifications
+description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: a2a5e29eee46840d894ebf8d6184f8d6af9eee29
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 36%
+source-wordcount: '1285'
+ht-degree: 4%
 
 ---
 
-# Schéma
+# Schéma du jeu de classifications
 
-Affichez les dimensions de classification actuellement configurées pour cet ensemble de classifications.
+Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si vous avez défini produit comme dimension clé et que ce champ contient un SKU de produit, vous utilisez le schéma pour ajouter des classifications telles que le nom du produit, la couleur du produit, la taille du produit, etc.
 
-**[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]** > Cliquez sur le nom de l’ensemble de classifications souhaité > **[!UICONTROL Schéma]**
+Pour définir le schéma d’un ensemble de classifications :
 
-![interface utilisateur du schéma du jeu de classifications](../../assets/classification-set-schema.png)
+1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’ensemble de classifications pour lequel vous souhaitez modifier le schéma.
+1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _ensemble de classifications_]**, sélectionnez l’onglet Schéma . Cet onglet se compose des éléments d’interface suivants :
 
-Les boutons suivants sont disponibles :
+   ![Jeux de classifications - schéma](assets/classification-sets-schema.png)
 
-<!--* **[!UICONTROL Add]**: Adds an empty row so that you can add a classification dimension to the schema.-->
-* **[!UICONTROL Charger]** : chargez manuellement des données de classification pour des dimensions de classification. `JSON` fichiers `CSV`, `TSV` et `TAB` sont pris en charge. Le chargement d’un fichier valide affiche un aperçu sous forme de tableau des données à classer.
-   * **[!UICONTROL Encodage du fichier]** : sélectionnez l’encodage du fichier approprié à l’aide de cette liste déroulante. Les options valides comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1].
-   * **[!UICONTROL Délimiteur de liste]** : sélectionnez le délimiteur de liste approprié. Si vous utilisez un fichier téléchargé ou un fichier modèle, assurez-vous que le [!UICONTROL Délimiteur de liste] correspond au [!UICONTROL Délimiteur de liste] utilisé lors du téléchargement du fichier.
-   * **[!UICONTROL Appliquer]** : enregistrez les données de classification chargées dans l’ensemble de classifications.
+   * [Liste des classifications](#classification-list)
+   * [Recherche](#search)
+   * [Actions](#actions)
+   * [Barre d’actions](#action-bar)
 
-  ![Chargement de l’ensemble de classifications](../../assets/classification-set-upload.png)
+## Liste des classifications
 
-* **[!UICONTROL Télécharger]** : téléchargez les valeurs clés et leurs colonnes de classification.
-   * **[!UICONTROL Lignes]** : le nombre maximum de lignes à inclure dans le fichier de téléchargement.
-   * **[!UICONTROL Télécharger les lignes reçues entre]** : sélecteur de date de calendrier qui vous permet de filtrer les valeurs clés en fonction du moment où elles apparaissent dans les rapports. Si une valeur de clé n’a pas été collectée au cours de cette période, elle n’apparaît pas dans le fichier téléchargé.
-   * **[!UICONTROL Données renvoyées]** : liste déroulante qui vous permet de filtrer les valeurs clés incluses dans le fichier téléchargé en fonction des données de classification qui leur sont associées.
-      * **[!UICONTROL Toutes les valeurs classées]** : inclut les lignes où les données de classifications sont incluses dans au moins une colonne.
-      * **[!UICONTROL Toutes les valeurs non classées]** : inclut les lignes où il manque des données de classifications dans au moins une colonne.
-   * **[!UICONTROL Format du fichier]** : liste déroulante qui détermine le format de fichier dans lequel se trouve le fichier de téléchargement. Les options incluent [!UICONTROL JSON], les [!UICONTROL valeurs séparées par des virgules] et les [!UICONTROL valeurs séparées par des tabulations Excel].
-   * **[!UICONTROL Encodage du fichier]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
+La liste des classifications comporte les colonnes suivantes :
 
-  ![Téléchargement du jeu de classifications](../../assets/classification-set-download.png)
+| Colonne | Description |
+|---|---|
+| **[!UICONTROL Nom de la classification]** | Nom que vous avez fourni pour la classification. |
+| **[!UICONTROL Nom de l’identité]** | Nom dérivé par le système pour la classification. |
+| **[!UICONTROL Classé par]** | S’il est utilisé, un lien vers l’ensemble de classifications de recherche utilisé pour classer cette classification. |
 
-* **[!UICONTROL Modèle]** : téléchargez un fichier modèle. Ce fichier est similaire au bouton [!UICONTROL Télécharger], sauf qu’il ne contient pas de données de classification ni de valeurs clés.
-   * **[!UICONTROL Format de fichier]** : liste déroulante qui détermine le format de fichier du fichier modèle. Les options comprennent les [!UICONTROL valeurs séparées par des virgules] et les [!UICONTROL valeurs séparées par des tabulations Excel].
-   * **[!UICONTROL Encodage du fichier]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
-   * **[!UICONTROL Délimiteurs de liste]** : liste déroulante qui détermine le délimiteur de liste séparant les colonnes de classification de chaque ligne.
 
-  ![Modèle d’ensemble de classifications](../../assets/classification-set-template.png)
+## Recherche
 
-* **[!UICONTROL Historique des tâches]** : un lien de raccourci qui vous mène au [Gestionnaire des tâches](../job-manager.md), affichant les tâches uniquement pour cet ensemble de classifications.
-* **[!UICONTROL Automatiser]** : ingérer automatiquement des données à partir d’emplacements de stockage externes.
-   * **[!UICONTROL Compte d’emplacement]** : liste déroulante affichant les comptes d’emplacement existants que votre organisation a configurés. Si votre organisation n’a pas encore configuré de compte d’emplacement, vous pouvez en configurer un en sélectionnant [!UICONTROL **Créer un compte**].
+Vous pouvez rechercher rapidement ![Rechercher](/help/assets/icons/Search.svg) une ou plusieurs classifications. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour effacer la recherche.
 
-     Pour plus d’informations sur la configuration du compte d’emplacement, voir [Configuration des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md).
+## Actions
 
-   * **[!UICONTROL Emplacement]** : liste déroulante affichant les emplacements existants configurés par votre organisation. Si votre organisation n’a pas encore configuré d’emplacement, vous pouvez en configurer un en sélectionnant [!UICONTROL **Créer un emplacement**].
+Les actions suivantes sont disponibles sous forme de boutons en haut de la liste des classifications :
 
-     Pour plus d’informations sur la configuration d’un emplacement, voir [Configuration des emplacements d’importation et d’exportation cloud](/help/components/locations/configure-import-locations.md).
+| Icône | Action | Description |
+|---|---|---|
+| ![Ajouter](/help/assets/icons/Add.svg) | **[!UICONTROL Ajouter]** | [Ajoutez une classification](#add) à la liste. |
+| ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) | **[!UICONTROL Charger]** | [Chargez un fichier JSON, CSV, TSV ou TAB](#upload). |
+| ![Télécharger](/help/assets/icons/Download.svg) | **[!UICONTROL Télécharger]** | [Télécharger des données de classification](#download). |
+| ![Fragment de document](/help/assets/icons/DocumentFragment.svg) | **[!UICONTROL Modèle]** | [Téléchargez un modèle](#template) pour les données de classification. |
+| ![Historique](/help/assets/icons/History.svg) | **[!UICONTROL Historique des tâches]** | Affichez le [gestionnaire des tâches des ensembles de classifications](/help/components/classifications/sets/job-manager.md), filtré pour l’ensemble de classifications sélectionné. |
+| ![Engrenage](/help/assets/icons/Gear.svg) | **[!UICONTROL Automatiser]** | [Automatisez l’ingestion des données de classification](#automate) grâce à l’utilisation d’un emplacement cloud. |
 
-   * **[!UICONTROL Délimiteur]** : délimiteur de colonne pour les fichiers chargés. Les options incluent [!UICONTROL virgule], [!UICONTROL point-virgule], [!UICONTROL deux-points], [!UICONTROL barre verticale], [!UICONTROL espace], [!UICONTROL Barre oblique], [!UICONTROL Barre oblique], [!UICONTROL Dash] ou [!UICONTROL Underscore].
 
-   * **[!UICONTROL Encodage]** : liste déroulante qui détermine l’encodage du fichier. Les options comprennent [!UICONTROL UTF-8] et [!UICONTROL Latin1]. UTF-8 est recommandé.
+### Ajouter
 
-Les actions suivantes ne sont disponibles qu’après la sélection d’une classification.
+Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/icons/Add.svg) **[!UICONTROL Ajouter]**.
 
-* **Ajouter une recherche** : une table de choix est une classification d’une classification. Il s’agit de métadonnées sur une valeur de classification, plutôt que sur la variable elle-même. Par exemple, la variable Product peut avoir une classification de « code couleur ». Une table de recherche de « nom de la couleur » peut être jointe au « code de couleur » pour expliquer les couleurs.
+![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
-  ![Joindre la table de choix](../../assets/lookup.png)
+Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
 
-* **Renommer** : permet de renommer la classification.
 
-* **Supprimer** : permet de supprimer la classification.
+
+### Charger
+
+Pour importer des données de classification dans le schéma d’une classification, sélectionnez ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) **[!UICONTROL Upload]**.
+
+
+![Ensembles de classifications - Le schéma télécharge un fichier](assets/classification-sets-schema-upload-file.png)
+
+1. Dans la boîte de dialogue **[!UICONTROL Ajouter de nouvelles classifications]** :
+
+   * Faites glisser un fichier contenant des données de classification et déposez-le sur **[!UICONTROL Glisser-déposer ici]**.
+   * Sélectionnez **[!UICONTROL Parcourir]** et choisissez un fichier sur votre ordinateur ou votre réseau.
+
+   Un **[!UICONTROL Aperçu du schéma]** du contenu du fichier s’affiche. L’aperçu affiche les colonnes de données du fichier. Pour redimensionner une colonne, sélectionnez ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) et sélectionnez **[!UICONTROL Redimensionner la colonne]**. Une poignée s’affiche pour vous permettre de redimensionner la colonne.
+
+   Lorsqu’aucune classification n’est définie dans le jeu de classifications pour une colonne, une alerte ![Alert](/help/assets/icons/Alert.svg) s’affiche. L’alerte explique qu’une classification n’est pas présente dans l’ensemble de schémas de classification existant et sera créée lors de l’importation.
+
+1. Sélectionnez **[!UICONTROL Remplacer les données en cas de conflit ?]** si vous souhaitez remplacer les données de classification actuelles par les nouvelles données importées. Par exemple :
+
+   | | Clé | Couleur actuelle du produit | Importer un fichier | Nouvelle couleur du produit |
+   |---|---|---|---|---|
+   | ![SelectBox](/help/assets/icons/SelectBox.svg) **[!UICONTROL Remplacer les données en cas de conflit ?]** | 1234 | vert | bleu | bleu |
+   | ![Carré](/help/assets/icons2/Square.svg) **[!UICONTROL Écraser les données en cas de conflit ?]** | 1234 | vert | bleu | vert |
+
+1. Sélectionnez **[!UICONTROL Appliquer]**. Une alerte s’affiche si les colonnes ne sont pas présentes en tant que classifications dans le jeu de schémas existant. Ces colonnes sont ajoutées en tant que nouvelles classifications lorsque vous confirmez le chargement.
+
+   ![Ensemble de classifications - Télécharger l’alerte de classifications](assets/classification-sets-schema-upload-file-preview-alert.png)
+
+   Sélectionnez **[!UICONTROL Confirmer le chargement]** pour confirmer le chargement. Sélectionnez **[!UICONTROL Annuler le chargement]** pour annuler le chargement.
+
+
+### Télécharger
+
+Pour télécharger des données de classification, sélectionnez ![Télécharger](/help/assets/icons/Download.svg) **[!UICONTROL Télécharger]**.
+
+![Jeux de classifications - Téléchargement de schéma de données de classification](assets/classification-sets-schema-download-file.png)
+
+Dans la boîte de dialogue **[!UICONTROL Télécharger les données pour _jeu de classifications_]**:
+
+1. Saisissez le nombre de **[!UICONTROL Lignes]** à télécharger. Par exemple : `10000`.
+1. Pour sélectionner la période pendant laquelle vous souhaitez télécharger des lignes de données de classification, saisissez des données de début et de fin pour **[!UICONTROL Télécharger les lignes reçues entre]**. Ou utilisez ![Calendrier](/help/assets/icons/Calendar.svg) pour utiliser une fenêtre contextuelle de calendrier afin de sélectionner la période.
+1. Pour sélectionner les données à renvoyer, sélectionnez une option dans **[!UICONTROL Données renvoyées]**.
+
+   * **[!UICONTROL Toutes les valeurs]** renvoie toutes les valeurs des données de classification actives.
+   * **[!UICONTROL Toute colonne vide]** renvoie une colonne avec des valeurs de clé pour les données de classification existantes. Et les colonnes sans valeur pour les données de classification pour lesquelles il n’existe aucune valeur.
+   * **[!UICONTROL Toutes les colonnes vides]** renvoie une colonne clé avec des valeurs pour les données de classification existantes. Et des colonnes sans valeur pour les données de classification.
+1. Pour sélectionner le [format de fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) des données de classification téléchargées, sélectionnez une option dans le menu déroulant **[!UICONTROL Format de fichier]**. Les options sont les suivantes :
+
+   * **[!UICONTROL JSON]**
+   * **[!UICONTROL valeurs séparées par des virgules]** (CSV).
+   * **[!UICONTROL Valeurs séparées par des tabulations Excel]** (TSV ou TAB).
+
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage de fichier. Les options sont les suivantes :
+
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+
+1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger les données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Le fichier est intitulé <code><i>Ensemble de classifications</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.<br/>Si vous avez spécifié des options qui ne renvoient aucune donnée, une boîte de dialogue **[!UICONTROL Remarque]** s’affiche pour vous informer de modifier les options de période et de données renvoyées.
+
+
+### Modèle
+
+Pour télécharger un modèle pour les données de classification, sélectionnez ![DocumentFragment](/help/assets/icons/DocumentFragment.svg) **[!UICONTROL Modèle]**.
+
+![Schéma des ensembles de classifications - Modèle de téléchargement](assets/classification-sets-schema-download-template.png)
+
+Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _jeu de classifications_]**:
+
+1. Pour sélectionner le [format de fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) des données de classification téléchargées, sélectionnez une option dans le menu déroulant **[!UICONTROL Format de fichier]**. Les options sont les suivantes :
+
+   * **[!UICONTROL Valeurs séparées par des virgules]**.
+   * **[!UICONTROL Valeurs séparées par des tabulations Excel]**.
+
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage de fichier. Les options sont les suivantes :
+
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger le modèle de données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Il est intitulé <code><i>Ensemble de classifications</i>.<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.
+
+
+### Automatiser
+
+Pour automatiser l’ingestion des classifications, sélectionnez ![Engrenage](/help/assets/icons/Gear.svg) **[!UICONTROL Automatiser]**.
+
+![Schéma des ensembles de classifications - Automatiser](assets/classification-sets-schema-automate.png)
+
+Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplacement d’ingestion pour _jeu de classifications_]**:
+
+1. Pour sélectionner un emplacement cloud, sélectionnez une option dans **[!UICONTROL Compte d’emplacement]**. Seuls les comptes [d’emplacement des types de compte pris en charge qui permettent l’importation de données de classification](https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-accounts) s’affichent. Pour créer un compte, sélectionnez **[!UICONTROL Nouveau compte]**.
+1. Pour sélectionner un emplacement, sélectionnez une option dans **[!UICONTROL Emplacement]**. Seuls les emplacements des types de compte sélectionnés pour l’importation des données de classification s’affichent. Pour créer un emplacement, sélectionnez **[!UICONTROL Nouvel emplacement]**.
+1. Pour sélectionner un délimiteur, sélectionnez une option dans **[!UICONTROL Délimiteur de liste]**. Les options sont les suivantes :
+   * **[!UICONTROL Virgule ,]**
+   * **[!UICONTROL Point-virgule ;]**
+   * **[!UICONTROL Deux-points :]**
+   * **[!UICONTROL Barre verticale |]**
+   * **[!UICONTROL Espace]**
+   * **[!UICONTROL Tabulation]**
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Codage du fichier]**. Les options sont les suivantes :
+
+   * **[!UICONTROL UTF-8]**.
+   * **[!UICONTROL Latin-1]**.
+
+1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
+1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée.
+1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez**[!UICONTROL  Enregistrer ]**si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez**[!UICONTROL  Mettre à jour ]**. Ou sélectionnez**[!UICONTROL  Annuler ]**pour annuler la configuration de l’emplacement du cloud.
+
+
+## Barre d’actions
+
+La barre d’actions affiche les actions disponibles pour l’ensemble de classifications sélectionné. Les options disponibles sont les suivantes :
+
+| Icône | Action | Description |
+|---|---|---|
+| ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
+| ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications. La boîte de dialogue **[!UICONTROL Supprimer _classification_]**s’affiche. Sélectionnez **[!UICONTROL Supprimer]**pour supprimer l’ensemble de classifications. |
+
+
+<!--
+
+View currently configured classification dimensions for this classification set.
+
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Schema]**
+
+![classification set schema UI](../../assets/classification-set-schema.png)
+
+The following buttons are available:
+
+
+* **[!UICONTROL Upload]**: Manually upload classification data for a classification dimensions. `JSON`, `CSV`, `TSV`, and `TAB` files are supported. Uploading a valid file shows a table preview of data to classify.
+  * **[!UICONTROL File encoding]**: Select the correct file encoding using this drop-down. Valid options include [!UICONTROL UTF-8] and [!UICONTROL Latin1].
+  * **[!UICONTROL List delimiter]**: Select the correct list delimiter. If using a downloaded file or template file, make sure that the [!UICONTROL List delimiter] here matches the [!UICONTROL List delimiter] when the file was downloaded.
+  * **[!UICONTROL Apply]**: Save the uploaded classification data to the classification set.
+
+  ![Classification set upload](../../assets/classification-set-upload.png)
+
+* **[!UICONTROL Download]**: Download key values and their classification columns.
+  * **[!UICONTROL Rows]**: The maximum number of rows to include in the download file.
+  * **[!UICONTROL Download rows received between]**: A calendar date picker that allows you to filter key values by when they appear in reporting. If a key value was not collected in this date range, it does not appear in the downloaded file.
+  * **[!UICONTROL Data returned]**: A drop-down list that lets you filter key values included in the downloaded file based on their associated classification data.
+    * **[!UICONTROL All classified values]**: Includes rows where classification data is included in at least one column.
+    * **[!UICONTROL All unclassified values]**: Includes rows where classification data is missing in at least one column.
+  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the download file is in. Options include [!UICONTROL JSON], [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
+  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
+
+  ![Classification set download](../../assets/classification-set-download.png)
+
+* **[!UICONTROL Template]**: Download a template file. This file is similar to the [!UICONTROL Download] button, except it does not contain any classification data or key values.
+  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the template file is in. Options include [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
+  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
+  * **[!UICONTROL List delimiters]**: A drop-down list that determines the list delimiter separating classification columns on each row.
+
+  ![Classification set template](../../assets/classification-set-template.png)
+
+* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](../job-manager.md), showing jobs only for this classification set.
+* **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
+  * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. If your organization hasn't already configured a location account, you can configure one by selecting [!UICONTROL **Create a new account**].
+    
+    For information about configuring the location account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
+
+  * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. If your organization hasn't already configured a location, you can configure one by selecting [!UICONTROL **Create a new location**]. 
+
+    For information about configuring a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). 
+
+  * **[!UICONTROL Delimiter]**: The column delimiter for uploaded files. Options include [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], or [!UICONTROL Underscore].
+
+  * **[!UICONTROL Encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
+
+The following actions are available only after selecting a classification.
+
+* **Add lookup**: A lookup table is a classification of a classification. It is metadata about a classification value, rather than the variable itself. For example, the Product variable might have a classification of "color code". A lookup table of "color name" might be attached to "color code" to explain what the colors are.
+
+  ![Attach lookup table](../../assets/lookup.png)
+
+* **Rename**: Lets you rename the classification.
+
+* **Delete**: Lets you delete the classification.
+-->

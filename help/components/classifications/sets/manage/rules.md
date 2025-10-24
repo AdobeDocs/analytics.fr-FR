@@ -1,51 +1,60 @@
 ---
-title: Règles de jeu de classifications
-description: Affichez et modifiez les règles d’un ensemble de classifications individuel.
+title: Règles des ensembles de classifications
+description: Découvrez comment afficher et modifier des règles pour un ensemble de classifications.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: de12253f6db798f49d0cae34bf9cb6b7a3de17db
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 1%
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
 # Règles de jeu de classifications
 
-Les règles des ensembles de classifications vous permettent de classer automatiquement les valeurs en fonction de la valeur sur laquelle la variable est définie. Ces règles s’appliquent à toutes les valeurs de variable entrantes pour tous les abonnements de l’ensemble de classifications.
+>[!IMPORTANT]
+>
+>Les ensembles de classifications ne prennent pas encore en charge les règles. La fonctionnalité Règles est ajoutée à l’interface des jeux de classifications avant que la fonctionnalité du créateur de règles hérité ne soit indisponible.
+>>Si vous avez besoin de règles pour les classifications, continuez à utiliser le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md).
 
-**[!UICONTROL Composants]** > **[!UICONTROL Ensembles de classifications]** > **[!UICONTROL Ensembles]** > Cliquez sur le nom de l’ensemble de classifications de votre choix > **[!UICONTROL Règles]**
 
-![interface utilisateur des règles des jeux de classifications](../../assets/csets-rules.png)
+<!--
+Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
 
-## Paramètres des règles
+**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Rules]**
 
-Paramètres qui s’appliquent à l’ensemble des règles.
+![classification set rules UI](../../assets/csets-rules.png)
 
-* **[!UICONTROL Remplacement des règles]** : détermine le comportement de toutes les règles dans les cas où il existe une valeur de classification.
-   * **[!UICONTROL Appliquer à toutes les valeurs]** : si une règle correspond, remplacez toujours la valeur de classification.
-   * **[!UICONTROL Appliquer uniquement aux valeurs non définies]** : si une règle correspond, n’écrivez la valeur de classification que si elle est vide. S’il existe une valeur de classification, ne rien faire.
-* **[!UICONTROL Intervalle de recherche en amont]** : lorsque cette règle est activée, toutes les règles s’exécutent sur toutes les valeurs uniques affichées dans l’intervalle de recherche en amont défini ici.
+## Rule settings
 
-## Règles
+Settings that apply to the entire set of rules.
 
-Liste des règles exécutées pour chaque valeur unique.
+* **[!UICONTROL Rules overwrite]**: Determines the behavior of all rules in cases where a classification value exists.
+  * **[!UICONTROL Apply to all values]**: If a rule matches, always overwrite the classification value.
+  * **[!UICONTROL Apply only to unset values]**: If a rule matches, only write the classification value if it is blank. If a classification value exists, do nothing.
+* **[!UICONTROL Lookback window]**: When this rule is activated, all rules run against all unique values seen within the lookback window set here.
 
-* **[!UICONTROL Recherche]** : zone de recherche qui vous permet de filtrer les règles en fonction des critères de correspondance.
-* **[!UICONTROL Ajouter une règle]** : ajoute une ligne vide au tableau des règles.
-* **[!UICONTROL Jeu de règles de test]** : affiche une interface utilisateur de test qui vous permet de valider vos règles. Sur la gauche, vous pouvez saisir manuellement des valeurs clés ou faire glisser et déposer un fichier de classification pour importer de nombreuses valeurs en fonction desquelles effectuer un test. À droite se trouve un tableau qui montre les résultats préliminaires de ce à quoi les valeurs classées ressembleraient si l’ensemble de règles était activé. Comme cette interface est uniquement destinée à la validation, aucune valeur n’est classée.
+## Rules
 
-Sélectionnez une ou plusieurs règles en cochant la case en regard de la règle souhaitée. La sélection d’une règle affiche les options suivantes :
+A list of rules that run for each unique value.
 
-* **[!UICONTROL Supprimer]** : supprime la ligne de la table des règles.
-* **[!UICONTROL Dupliquer]** : copie les lignes sélectionnées dans de nouvelles lignes du tableau de règles.
+* **[!UICONTROL Search]**: A search box that allows you to filter rules by match criteria.
+* **[!UICONTROL Add rule]**: Adds a blank row to the rule table.
+* **[!UICONTROL Test rule set]**: Brings up a test UI that allows you to validate your rules. On the left, you can manually type key values, or you can drag and drop a classification file to import many values to test against. On the right is a table that shows preliminary results of what classified values would look like if the rule set was activated. Since this interface is only for validation, no values are classified.
 
-## Table des règles
+Select one or more rules by clicking the checkbox next to the desired rule. Selecting a rule reveals the following options:
 
-Le tableau des règles est séparé verticalement en deux parties principales : la condition correspondante et l’action de classification. Chaque ligne (une règle individuelle) contient une condition correspondante et une action de classification.
+* **[!UICONTROL Delete]**: Deletes the row from the rule table.
+* **[!UICONTROL Duplicate]**: Copies the selected rows to new rows in the rule table.
 
-* **Numéro de règle** : les règles s’exécutent dans l’ordre dans lequel vous configurez la table des règles. Si l’option [!UICONTROL Remplacer les règles] est définie sur [!UICONTROL Appliquer à toutes les valeurs], la dernière règle correspondante remplace toutes les règles précédentes pour la même dimension de classification. Si [!UICONTROL Remplacement des règles] est défini sur [!UICONTROL Appliquer uniquement aux valeurs non définies], la première règle qui définit une valeur de classification s’applique.
-* **[!UICONTROL Sélectionner le type de règle]** : les critères de la règle. Les options incluent [!UICONTROL Contient], [!UICONTROL Se termine par], [!UICONTROL Expression régulière], [!UICONTROL Expression régulière] et [!UICONTROL Commence par].
-* **[!UICONTROL Saisir les critères de correspondance]** : chaîne de texte à faire correspondre. Si vous sélectionnez [!UICONTROL Expression régulière] comme type de règle, un recouvrement s’affiche, vous permettant de saisir la valeur, de tester l’expression régulière et de fournir un exemple de syntaxe.
-* **[!UICONTROL Définir la classification]** : une liste déroulante qui définit la dimension de classification à laquelle vous souhaitez affecter une valeur. Les options valides incluent des éléments dans votre [schéma](schema.md).
-* **[!UICONTROL To]** : chaîne de texte sur laquelle définir la valeur classée. Si le type de règle est [!UICONTROL Expression régulière], vous pouvez inclure une combinaison de texte et de groupes de correspondances.
+## Rule table
+
+The rule table is separated vertically into two main parts: matching condition and classification action. Each row (an individual rule) contains a matching condition and a classification action.
+
+* **Rule number**: Rules run in the same order that you configure the rule table. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to all values], the last matching rule overwrites any previous rules for the same classification dimension. If [!UICONTROL Rules overwrite] is set to [!UICONTROL Apply to only unset values], the first rule that sets a classification value applies.
+* **[!UICONTROL Select rule type]**: The rule criteria. Options include [!UICONTROL Contains], [!UICONTROL Ends with], [!UICONTROL Regular expression], [!UICONTROL Regular expression], and [!UICONTROL Starts with].
+* **[!UICONTROL Enter match criteria]**: The text string to match. If you select [!UICONTROL Regular expression] as the rule type, an overlay appears that lets you enter the value, test the regular expression, and provides sample syntax.
+* **[!UICONTROL Set classification]**: A drop-down list that sets the classification dimension that you want to assign a value to. Valid options include elements in your [schema](schema.md).
+* **[!UICONTROL To]**: The text string to set the classified value to. If the rule type is [!UICONTROL Regular expression], you can include a combination of text and match groups.
+
+-->

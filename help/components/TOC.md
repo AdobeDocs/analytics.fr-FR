@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '748'
+ht-degree: 98%
 
 ---
 
@@ -264,16 +264,16 @@ ht-degree: 100%
    + Jeux de classifications {#sets}
       + [Vue d’ensemble](classifications/sets/overview.md)
       + [Fichiers de données](classifications/sets/data-files.md)
-      + Gérer des jeux de classifications {#manage}
-         + [Gestionnaire des jeux de classificactions](classifications/sets/manage/set-manager.md)
-         + [Créer un jeu de classifications](classifications/sets/manage/create.md)
-         + [Paramètres des jeux de classifications](classifications/sets/manage/settings.md)
-         + [Schéma du jeu de classifications](classifications/sets/manage/schema.md)
-         + [Règles de jeu de classifications](classifications/sets/manage/rules.md)
-      + [Gestionnaire des tâches de jeux de classifications](classifications/sets/job-manager.md)
-      + Consolidations des jeux de classifications {#consolidations}
-         + [Gestionnaire de consolidations](classifications/sets/consolidations/manage.md)
-         + [Processus des consolidations](classifications/sets/consolidations/process.md)
+      + Jeux de classifications {#manage}
+         + [Gérer](classifications/sets/manage/set-manager.md)
+         + [Créer et modifier](classifications/sets/manage/create.md)
+         + [Paramètres](classifications/sets/manage/settings.md)
+         + [Schéma](classifications/sets/manage/schema.md)
+         + [Règles](classifications/sets/manage/rules.md)
+      + [Traitements de classification](classifications/sets/job-manager.md)
+      + Consolidations de classification {#consolidations}
+         + [Gérer](classifications/sets/consolidations/manage.md)
+         + [Créer et modifier](classifications/sets/consolidations/process.md)
    + Créateur de règles de classification (hérité){#classifications-rulebuilder}
       + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)
       + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
