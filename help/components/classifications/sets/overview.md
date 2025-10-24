@@ -94,7 +94,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 
