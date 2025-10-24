@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Les ensembles de classifications ne prennent pas encore en charge les règles. La fonctionnalité Règles est ajoutée à l’interface des jeux de classifications avant que la fonctionnalité du créateur de règles hérité ne soit indisponible.
->>Si vous avez besoin de règles pour les classifications, continuez à utiliser le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md).
+>&#x200B;>Si vous avez besoin de règles pour les classifications, continuez à utiliser le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md).
 
 
 <!--
