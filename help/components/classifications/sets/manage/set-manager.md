@@ -3,7 +3,7 @@ title: Gérer les ensembles de classifications
 description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 5%
@@ -23,7 +23,7 @@ Pour gérer les ensembles de classifications :
 
 Le gestionnaire **[!UICONTROL Ensembles de classifications]** comporte les éléments d’interface suivants :
 
-![&#x200B; Gestionnaire des ensembles de classifications &#x200B;](assets/classification-sets-manage.png)
+![ Gestionnaire des ensembles de classifications ](assets/classification-sets-manage.png)
 
 
 ### Liste des ensembles de classifications
@@ -32,7 +32,7 @@ La **[!UICONTROL de liste]** Ensembles de classifications➊ affiche tous les en
 
 | Colonne | Description |
 |---|---|
-| **[!UICONTROL Ensemble de classifications]** | Titre de l’ensemble de classifications. Sélectionnez le titre [modifier l’ensemble de classifications](create.md#edit-a-classification-set). |
+| **[!UICONTROL Ensemble de classifications]** | Nom de l’ensemble de classifications. Sélectionnez le nom [modifier l’ensemble de classifications](create.md#edit-a-classification-set). |
 | **[!UICONTROL Abonnements]** | Le nombre d’abonnements auxquels l’ensemble de classifications s’applique. |
 | **[!UICONTROL Classifications]** | Le nombre de dimensions de classification que l’ensemble de classifications contient. |
 | **[!UICONTROL Automatisé]** | L’ensemble de classifications est-il configuré pour importer automatiquement des données d’un emplacement cloud ou non ? Cette automatisation peut être configurée dans le cadre du [schéma des ensembles de classifications](schema.md). |
@@ -65,10 +65,10 @@ Lorsque vous sélectionnez un ou plusieurs ensembles de classifications dans la 
 | Icône | Action | Description |
 |---|---|---|
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Modifier]** | [Modifiez l’ensemble de classifications](create.md#edit-a-classification-set) dans le créateur d’ensembles de classifications. |
-| ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez un ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Renommer : _ensemble de classifications_]**&#x200B;saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
+| ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez un ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Renommer : _ensemble de classifications_]**saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
 | ![Merge](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolider]** | [Consolidez les ensembles de classifications](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications.<br/>Le **[!UICONTROL Supprimer _jeu de classifications_ ?]** boîte de dialogue s’affiche. La suppression d’un ensemble de classifications ne peut pas être annulée. Tous les projets planifiés ou toutes les consolidations qui utilisent cet ensemble de classifications continuent à utiliser la définition de cet ensemble de classifications jusqu’à ce que vous réenregistriez les projets planifiés ou que vous validiez à nouveau les consolidations planifiées. Sélectionnez **[!UICONTROL Supprimer]** pour supprimer l’ensemble de classifications. |
-| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Balisez l’ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Balise : _jeu de classifications_]**, sélectionnez une ou plusieurs balises dans le menu déroulant **[!UICONTROL Balises]**&#x200B;pour ajouter des balises. Vous pouvez également saisir une ou plusieurs nouvelles balises. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise. <br/>Sélectionnez **[!UICONTROL Enregistrer]**&#x200B;pour enregistrer les balises. |
+| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Balisez l’ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Balise : _jeu de classifications_]**, sélectionnez une ou plusieurs balises dans le menu déroulant **[!UICONTROL Balises]**pour ajouter des balises. Vous pouvez également saisir une ou plusieurs nouvelles balises. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise. <br/>Sélectionnez **[!UICONTROL Enregistrer]**pour enregistrer les balises. |
 
 
 ### Panneau Filtrer

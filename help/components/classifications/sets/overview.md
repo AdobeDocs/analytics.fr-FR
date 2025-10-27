@@ -3,9 +3,9 @@ title: Présentation des ensembles de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Comprenez en quoi les ensembles de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '800'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ Dans les classifications héritées, chaque classification est directement liée
 
 ![Classification héritée](manage/assets/classifications-legacy.svg)
 
-Dans les ensembles de classifications, vous définissez les abonnements aux suites de rapports et aux combinaisons de dimensions clés. Par exemple, une classification de catalogue de produits applicable à plusieurs suites de rapports que vous ne devez définir qu’une seule fois en tant qu’ensemble de classifications. Et au sein de cet ensemble de classifications, vous configurez plusieurs suites de rapports et combinaisons de dimensions clés pour vous abonner à cet ensemble de classifications.
+Dans les ensembles de classifications, vous définissez les abonnements aux suites de rapports et aux combinaisons de dimensions clés. Par exemple, une classification de catalogue de produits applicable à plusieurs suites de rapports et basée sur une dimension de produit (SKU) que vous ne devez définir qu’une seule fois en tant que jeu de classifications. Et au sein de cet ensemble de classifications, vous configurez plusieurs suites de rapports et combinaisons de dimensions clés pour vous abonner à cet ensemble de classifications.
 
 ![Jeux de classifications](manage/assets/classifications-sets.svg)
 
@@ -42,7 +42,7 @@ Les ensembles de classifications se composent de trois domaines fonctionnels :
 Le workflow des ensembles de classifications implique généralement les étapes suivantes :
 
 1. Déterminez les combinaisons de suite de rapports et de dimension pour lesquelles vous souhaitez créer un ensemble de classifications. Par exemple, définissez un ensemble de classifications de produits que vous créez pour toute suite de rapports pour laquelle vous souhaitez classer les produits avec plus de détails. Par exemple, les détails tels que la catégorie et la couleur.
-1. [Créez un ensemble de classifications](/help/components/classifications/sets/manage/create.md) avec des abonnements à une ou plusieurs suites de rapports et combinaisons de dimensions qui identifient les produits. Par exemple :
+1. [Créez un ensemble de classifications](/help/components/classifications/sets/manage/create.md) avec des abonnements à une ou plusieurs suites de rapports et combinaisons de dimensions clés qui identifient les produits. Par exemple :
 
    | Suite de rapports | Dimension clé |
    |---|---|
@@ -77,13 +77,15 @@ Le workflow des ensembles de classifications implique généralement les étapes
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+Dans le fichier de données de classification, vous faites référence à la dimension clé de chaque suite de rapports (par exemple : **[!UICONTROL Identifiant du produit]** et **[!UICONTROL SKU du produit]**) à l’aide de `Key`. Vous faites également référence à chaque classification à l’aide du **[!UICONTROL Nom de la classification]** (par exemple `Category` ou `Color`).
+
 1. [Chargez](/help/components/classifications/sets/manage/schema.md#upload) le fichier qui contient les données de classification dans le schéma de l’ensemble de classifications.
 
 1. [Automatiser](/help/components/classifications/sets/manage/schema.md#automate) processus de mises à jour de votre catalogue de produits que vous souhaitez voir répercuter dans les données de classification à l’aide d’un emplacement cloud.
 
 1. [Télécharger](/help/components/classifications/sets/manage/schema.md#download) vos données de classification pour valider le contenu.
 
-1. [Examinez l’historique des tâches](/help/components/classifications/sets/job-manager.md) pour afficher les actions (importation, exportation, etc.) effectuées sur les classifications.
+1. [Examinez l’historique des tâches](/help/components/classifications/sets/job-manager.md) pour afficher les résultats de vos actions (chargement, téléchargement, modèle, etc.) sur les classifications.
 1. Si plusieurs ensembles de classifications similaires résultent d’une migration depuis la fonctionnalité de classification héritée, [consolidez](consolidations/manage.md) ces ensembles de classifications.
 
 
@@ -94,7 +96,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 
