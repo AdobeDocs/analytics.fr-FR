@@ -64,7 +64,7 @@ Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/
 
 ![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
-Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
+Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**&#x200B;et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
 
 
 
@@ -179,7 +179,7 @@ Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplaceme
 
 1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
 1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée.
-1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez**[!UICONTROL  Enregistrer ]**si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez**[!UICONTROL  Mettre à jour ]**. Ou sélectionnez**[!UICONTROL  Annuler ]**pour annuler la configuration de l’emplacement du cloud.
+1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
 
 Lorsque vous chargez des fichiers vers l’emplacement cloud, dans les 15 minutes, le fichier est détecté et envoyé en tant que tâche d’importation. Le résultat de cette tâche d’importation est indiqué dans le [Gestionnaire des tâches de classifications](/help/components/classifications/sets/job-manager.md). Si vous êtes ajouté à la liste des utilisateurs à avertir de la fin des tâches d’ingestion, vous recevez également des e-mails.
 
@@ -197,7 +197,7 @@ La barre d’actions affiche les actions disponibles pour l’ensemble de classi
 | ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications. La boîte de dialogue **[!UICONTROL Supprimer _classification_]**s’affiche. Sélectionnez **[!UICONTROL Supprimer]**pour supprimer l’ensemble de classifications. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications. La boîte de dialogue **[!UICONTROL Supprimer _classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer l’ensemble de classifications. |
 
 
 <!--
