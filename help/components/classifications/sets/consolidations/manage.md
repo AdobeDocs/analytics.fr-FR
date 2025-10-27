@@ -3,9 +3,9 @@ title: Gérer les consolidations des ensembles de classifications
 description: Découvrez comment consolider un ou plusieurs ensembles de classifications en un seul ensemble.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Vous devez disposer d’un accès administrateur de produit pour Adobe Analytics
 
 Pour gérer les consolidations de classification :
 
-1. Sélectionnez **[!UICONTROL Composants]** dans l’interface principale, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 
 
@@ -40,7 +40,7 @@ La liste ➊ affiche les consolidations de classification créées et validées,
 |---|---|
 | **[!UICONTROL Nom de la consolidation]** | Nom de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Tâche actuelle]** | Tâche associée à la consolidation des ensembles de classifications. |
-| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** **&#x200B;**. |
+| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** ****. |
 | **[!UICONTROL Heure de création]** | Heure de création de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Heure de fin]** | Heure d’achèvement des consolidations de classification. |
 

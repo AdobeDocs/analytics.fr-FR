@@ -3,9 +3,9 @@ title: Gestionnaire des tâches de classification
 description: Découvrez comment afficher les tâches de classification en cours et terminées, générées à partir d’ensembles de classifications.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,8 @@ Le gestionnaire des tâches de classification affiche les tâches de classificat
 
 Pour afficher et agir sur les tâches de classification, procédez comme suit :
 
-1. Sélectionnez **[!UICONTROL Composants]** dans l’interface principale, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
+
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Tâches]**.
 
 ## Gestionnaire des tâches de classification
@@ -36,7 +37,7 @@ La liste **[!UICONTROL Tâches de classification]** affiche ➊ les tâches de c
 | **[!UICONTROL Identifiant de tâche]** | Identifiant de la tâche de classification. |
 | **[!UICONTROL Ensemble de classifications]** | L’ensemble de classifications associé à la tâche de classification. |
 | **[!UICONTROL Taille]** | Taille du fichier qui a été exporté ou importé dans le cadre de la tâche de classification. |
-| **[!UICONTROL Statut]** | Statut de la tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** ou **[!UICONTROL Progress]**. |
+| **[!UICONTROL Statut]** | Statut de la tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]** ou **[!UICONTROL Progress]**. Le cas échéant, passez la souris sur l’alerte ![Alert](/help/assets/icons/Alert.svg) pour afficher des informations supplémentaires. |
 | **[!UICONTROL Nom du fichier]** | Identifie le nom ou la fonctionnalité utilisée pour importer ou exporter le fichier dans le cadre de la tâche de classification. Les valeurs possibles sont les suivantes : <ul><li>*aucune valeur*</li><li>Nom du fichier qui est traité dans le cadre de la tâche de classification.</li><li>**[!UICONTROL Exportation SAINT]** : la tâche est une exportation à partir de l’interface [héritée Classifications](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export pour _jeu de classifications_ à _horodatage_]**: la tâche est un téléchargement depuis l’interface [schéma](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Type de tâche]** | Type de tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL Importer]** ou **[!UICONTROL Exporter]**. |
 | **[!UICONTROL Source]** | Source de la tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL API Web]**, **[!UICONTROL Chargement direct de l’API]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** ou **[!UICONTROL Inconnu]**. |

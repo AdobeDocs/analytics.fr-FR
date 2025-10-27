@@ -3,9 +3,9 @@ title: Créer des ensembles de classifications
 description: Découvrez comment accéder aux champs et descriptions disponibles lors de la création d’un ensemble de classifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,9 @@ Vous [créez](#create-a-classification-set) et [modifiez](#edit-a-classification
 
 ## Créer un jeu de classifications
 
-Pour créer un ensemble de classifications, dans l’interface principale :
+Pour créer un ensemble de classifications, procédez comme suit :
 
-1. Sélectionnez **[!UICONTROL Composants]** dans l’interface principale, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Ensembles de classifications]**.
 1. Sélectionnez ![AjouterCercle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Nouveau]**.
 1. Dans la boîte de dialogue **[!UICONTROL Ajouter un nouvel ensemble de classifications]** :
@@ -37,14 +37,14 @@ Pour créer un ensemble de classifications, dans l’interface principale :
         Si vous ajoutez une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** qui existe déjà dans un autre ensemble de classifications, une alerte rouge s’affiche sous la combinaison. Vous pouvez sélectionner **[!UICONTROL Ajouter à l’existant]** pour ouvrir l’autre ensemble de classifications et [ajouter des classifications au schéma](schema.md) pour cet autre ensemble de classifications, ou modifier la dimension.
       * **[!UICONTROL Recherche]**. Généralement appelée ‘classifications enfants’ ou ‘sous-classifications’, une table de recherche est une classification d’une classification principale. Une recherche correspond à des métadonnées sur une valeur de classification, plutôt que sur la dimension d’origine. Par exemple, une dimension *Produit* peut avoir une classification principale de *Code couleur*. Une table de recherche de *nom de la couleur* peut ensuite être jointe au *code de couleur* pour expliquer chaque code de couleur.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
-1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
+1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications
 
-Pour modifier un ensemble de classifications, dans l’interface principale :
+Pour modifier un ensemble de classifications, procédez comme suit :
 
-1. Sélectionnez **[!UICONTROL Composants]** dans l’interface principale, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Ensembles de classifications]**.
 1. Sélectionnez le titre de votre ensemble de classifications.
 1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _titre de l’ensemble de classifications_]**, vous pouvez définir les [paramètres](settings.md) et le [schéma](schema.md) de l’ensemble de classifications.

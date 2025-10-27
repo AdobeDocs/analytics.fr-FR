@@ -3,9 +3,9 @@ title: Paramètres des ensembles de classifications
 description: Découvrez comment créer ou modifier un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,9 @@ Vous pouvez modifier les paramètres initiaux d’un ensemble de classifications
 
 Pour modifier les paramètres d’un ensemble de classifications :
 
+
+1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
+1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Ensembles de classifications]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’ensemble de classifications pour lequel vous souhaitez modifier le schéma.
 1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _ensemble de classifications_]**, sélectionnez l’onglet **[!UICONTROL Paramètres]**.
 
@@ -31,7 +34,7 @@ Pour modifier les paramètres d’un ensemble de classifications :
       * Vous pouvez définir plusieurs combinaisons **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension]** pour un ensemble de classifications.
       * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.
 
-      Voir [&#x200B; Création d’un ensemble de classifications &#x200B;](create.md) pour plus d’informations.
+      Voir [ Création d’un ensemble de classifications ](create.md) pour plus d’informations.
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les paramètres. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
