@@ -27,7 +27,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Octobre 2025** | |
 | Configuration de l’attribution | Mises à jour supplémentaires pour refléter les nouvelles options de configuration de l’attribution pour le modèle, le conteneur et l’intervalle de recherche en amont. |
-| Améliorations supplémentaires de l’identification des visiteurs | Ajout de la section [Identification des visiteurs](/help/implement/id/overview.md), décrivant la méthode recommandée pour identifier les visiteurs dans tous les types d’implémentation. |
+| Améliorations supplémentaires de l’identification des visiteurs et visiteuses | Ajout de la section [Identification des visiteurs et visiteuses](/help/implement/id/overview.md), décrivant la méthode recommandée pour identifier les visiteurs et visiteuses dans tous les types d’implémentation. |
 | **Septembre 2025** | |
 | Améliorations de l’identification des visiteurs et visiteuses | Clarification des bonnes pratiques relatives à l’identification des visiteurs et visiteuses, avec l’accent sur l’objectif des variables [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) et [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) dans AppMeasurement. |
 | **Août 2025** | |

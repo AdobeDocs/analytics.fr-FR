@@ -7,7 +7,7 @@ user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Per
 source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -131,14 +131,14 @@ ht-degree: 95%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Module Integrate](vars/integrate.md)
-+ Identification des visiteurs {#id}
++ Identification des visiteurs et visiteuses {#id}
    + [Vue d’ensemble](id/overview.md)
-   + [Utilisation de l’extension Web SDK](id/web-sdk-extension.md)
-   + [Utilisation de Web SDK (Alloy)](id/alloy.md)
+   + [Utilisation de l’extension du SDK web](id/web-sdk-extension.md)
+   + [Utilisation du SDK web (Alloy)](id/alloy.md)
    + [Utilisation de l’extension Analytics](id/analytics-extension.md)
    + [Utilisation d’AppMeasurement](id/appmeasurement.md)
-   + [Migration vers le service d’identification des visiteurs](id/migration.md)
-   + [Suivi sur plusieurs types d’implémentation](id/cross-type-implementation.md)
+   + [Migration vers le service d’identifiant des visiteurs et visiteuses](id/migration.md)
+   + [Suivre sur différents types de mises en œuvre](id/cross-type-implementation.md)
 + Préparer la mise en œuvre d’Adobe Analytics {#prepare}
    + [Créer une couche de données](prepare/data-layer.md)
    + [Comparer les méthodes d’implémentation](prepare/comparison.md)
