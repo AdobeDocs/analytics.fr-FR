@@ -18,7 +18,7 @@ ht-degree: 55%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
 
 Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareil hachés, spécifique à votre organisation. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.

@@ -17,7 +17,7 @@ ht-degree: 57%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer toute suite de rapports virtuelle actuellement activée pour le graphique d’appareil vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer toute suite de rapports virtuelle actuellement activée pour le graphique d’appareil vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
 
 
