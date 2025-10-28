@@ -4,10 +4,10 @@ description: Découvrez les conditions préalables et les limites du regroupemen
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '322'
+ht-degree: 55%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 60%
 # Graphique d’appareil
 
 {{available-existing-customers}}
+
+>[!WARNING]
+>
+>Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
+>
 
 Les analyses entre appareils peuvent utiliser le graphique privé pour regrouper les données. Le graphique privé est un référentiel d’identifiants d’appareil hachés, spécifique à votre organisation. Les analyses entre appareils communiquent régulièrement avec le graphique d’appareil pour relier les appareils.
 
@@ -28,7 +33,7 @@ Si vous avez l’intention de mettre en œuvre des analyses entre appareils à l
 >
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
-* Votre organisation doit utiliser le [graphique privé du service d’identités Adobe Experience Platform](https://business.adobe.com/fr/products/experience-platform/identity-service.html). Consultez également la section [Page d’accueil](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr) dans le guide d’utilisation d’Identity Service.
+* Votre organisation doit utiliser le [graphique privé du service d’identités Adobe Experience Platform](https://business.adobe.com/products/experience-platform/identity-service.html). Consultez également la section [Page d’accueil](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=fr) dans le guide d’utilisation d’Identity Service.
 * Votre mise en œuvre doit utiliser la dernière version du service Experience Cloud ID (ECID). Voir [Page d’accueil](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) dans le guide d’utilisation d’ID Service. Il est probable que le service d’ID soit déjà déployé pour la plupart des implémentations utilisant [Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans Adobe Experience Platform.
 * Votre implémentation doit appeler la fonction `setCustomerIDs` (ou SDK équivalent) chaque fois qu’une personne peut être identifiée, par exemple lorsqu’un utilisateur se connecte ou ouvre un courrier électronique. Cette exigence s’applique à toutes les plates-formes, y compris les applications mobiles si elles sont utilisées. Voir [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=fr) dans le guide d’utilisation du service d’ID.
 
