@@ -4,10 +4,10 @@ title: Comparaison des dates
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 3d15bd941cb8eaf20b8ae9f1ffa1dbfd403b2bfa
+source-git-commit: 27ec105290ea4d093251fc6cf537d57a94015403
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,11 @@ Dans Analysis Workspace, appliquez une comparaison de dates commune à partir d
 Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question *Dans quelle mesure votre situation est-elle meilleure ou pire qu’à la même époque l’année dernière ?* est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne *différence*, qui présente le pourcentage de changement par rapport à une période donnée.
 
 1. Créez un [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), avec les dimensions et mesures à comparer sur une certaine période.
+1. Définissez la période sur le panneau ou la colonne pour déterminer la période de comparaison, et s’il s’agit d’une comparaison de temps fixe ou variable.
+
+   Pour créer une comparaison des heures flottante, définissez la période du panneau ou de la colonne sur une période flottante (par exemple, **[!UICONTROL 7 derniers jours]**, **[!UICONTROL 30 derniers jours]**, etc.).
+
+   Pour créer une comparaison d’heures fixe, définissez la période du panneau ou de la colonne sur une période personnalisée.
 1. Ouvrez le menu contextuel d’une ligne de tableau et sélectionnez **[!UICONTROL Comparer des périodes]**.
 
    ![Ligne de tableau avec l’option Comparer des périodes sélectionnée](assets/compare-time.png)
@@ -101,7 +106,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/33636?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://video.tv.adobe.com/v/30753?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
