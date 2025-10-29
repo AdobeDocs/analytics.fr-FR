@@ -32,7 +32,7 @@ Non. Données chargées par le biais des sources de données :
 
 * Ne passe pas par [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 * Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
-* ne passe pas par les [ règles VISTA ](/help/technotes/vista.md)
+* ne passe pas par les [&#x200B; règles VISTA &#x200B;](/help/technotes/vista.md)
 +++
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?
