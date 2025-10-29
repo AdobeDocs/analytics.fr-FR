@@ -3,7 +3,7 @@ title: Détails du canal Première touche
 description: Détails du premier canal marketing dans l’expiration de l’engagement du visiteur.
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 83%
@@ -16,7 +16,7 @@ La [dimension](overview.md) « Détails du canal Première touche » fournit des
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension copie les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Lorsqu’un accès correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle.
+Cette dimension copie les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Lorsqu’un accès correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle.
 
 Pour définir une valeur spécifique sur cette dimension, procédez comme suit :
 

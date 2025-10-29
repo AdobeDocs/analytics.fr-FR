@@ -3,7 +3,7 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '2580'
 ht-degree: 89%
@@ -85,7 +85,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Premier appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, la première suite de rapports est un premier appel au serveur, tandis que les autres sont des deuxièmes appels au serveur. Cette règle s’applique à tous les types d’accès, y compris au suivi des pages vues et des liens. Voir aussi Deuxièmes appels au serveur.
 * **Règles de traitement :** peut faire référence :
    * Aux règles de traitement, une manière de modifier la collecte de données à l’aide de certaines règles dans l’Admin Console. Voir [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dans le guide d’utilisation destiné à l’administrateur.
-   * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) dans le guide d’utilisation destiné à l’administrateur.
+   * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Prop :** voir Variable de trafic.
 * **Rapport de classement :** format de rapport dans lequel une dimension est généralement suivie d’une mesure. Ce type de rapport permet de voir les éléments principaux, tels que les pages les plus consultées sur votre site. Voir aussi Rapport de tendances.
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.

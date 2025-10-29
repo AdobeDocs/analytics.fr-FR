@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
@@ -85,7 +85,7 @@ ht-degree: 100%
             + [eVars de marchandisage](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + Canaux marketing {#marketing-channels}
             + [Gestionnaire de canaux marketing](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [Règles de traitement des canaux marketing](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [Règles de traitement des canaux marketing](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [Classifications de canaux marketing](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [Expiration du canal marketing](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + Gestion du trafic {#traffic-management}
@@ -160,4 +160,4 @@ ht-degree: 100%
          + [Migration de comptes d’utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](tools/user-management/user-migration/migrate-enterprise.md)
          + [Désactiver les comptes hérités](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [API affectées par la migration](tools/user-management/user-migration/developer.md)
-+ [API d’administration](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr)
++ [API Admin](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr)

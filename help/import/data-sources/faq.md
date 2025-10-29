@@ -4,7 +4,7 @@ description: Questions fréquentes sur les sources de données.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 7%
@@ -31,8 +31,8 @@ Les données chargées par le biais des sources de données n’ont aucune incid
 Non. Données chargées par le biais des sources de données :
 
 * Ne passe pas par [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
-* ne passe pas par les [&#x200B; règles VISTA &#x200B;](/help/technotes/vista.md)
+* Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
+* ne passe pas par les [ règles VISTA ](/help/technotes/vista.md)
 +++
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?

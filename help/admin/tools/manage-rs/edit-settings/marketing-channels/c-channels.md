@@ -5,7 +5,7 @@ title: Gestion des canaux marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 Ajoutez ou activez des canaux marketing dans le Gestionnaire de canaux marketing. Dans le cas des suites de rapports sans canaux marketing, une configuration automatique vous permet de créer plusieurs canaux, ainsi que leurs règles. Vous pouvez modifier les canaux prédéfinis en fonction de vos besoins, ou créer vos propres canaux (avec un maximum de 25 canaux).
 
-L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de la création de règles sur la page [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Vous associez des règles aux canaux lors de la création de règles.
+L’ajout de canaux à la page [!UICONTROL Canaux marketing] est indépendant de la création de règles sur la page [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Vous associez des règles aux canaux lors de la création de règles.
 
 Voici quelques consignes concernant la création de canaux :
 
 * Planifiez en dressant la liste de tous vos canaux afin que tous les accès des visiteurs soient classés dans le canal approprié.
-* Incluez les canaux dans les catégories d’accès [internes](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+* Incluez les canaux dans les catégories d’accès [internes](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 * Incluez un canal fourre-tout « Autres campagnes », à placer après les canaux payants et avant les canaux organiques.
 
 
@@ -65,7 +65,7 @@ Ajoutez des canaux marketing dans le Gestionnaire de canaux marketing.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Pour configurer les règles pour le canal, cliquez sur **[!UICONTROL Règles de traitement des canaux marketing]**.
 
-   Reportez-vous à la section [Création de règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+   Reportez-vous à la section [Création de règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 ## Application des paramètres de canal {#mktg-channel-mgr}
 
@@ -89,7 +89,7 @@ Il est recommandé de désélectionner l’option de remplacement de Dernière t
 
 Avant de pouvoir afficher les canaux et leurs données dans le rapport, créez les canaux et les règles sous-jacentes qui traitent les données. Vous pouvez également spécifier la [durée d’engagement du visiteur](/help/admin/tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md).
 
-Lors d’une [configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md), Adobe fournit plusieurs canaux prédéfinis que vous pouvez modifier en fonction de vos besoins. De plus, vous pouvez modifier cette configuration et définir des règles personnalisées dans les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+Lors d’une [configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md), Adobe fournit plusieurs canaux prédéfinis que vous pouvez modifier en fonction de vos besoins. De plus, vous pouvez modifier cette configuration et définir des règles personnalisées dans les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 >[!NOTE]
 >

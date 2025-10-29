@@ -4,7 +4,7 @@ title: Filtres URL internes
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 31%
@@ -20,7 +20,7 @@ Les filtres d’URL internes vous permettent d’identifier les référents que 
 
 Un référent, ou une page référente, est habituellement la page à partir de laquelle un visiteur arrive sur votre site. Pour éviter de biaiser les données, vous pouvez filtrer les référents. Les dimensions qui reposent sur des filtres d’URL internes incluent [Référent](/help/components/dimensions/referrer.md), [Domaine référent](/help/components/dimensions/referring-domain.md), [Canaux marketing](/help/components/dimensions/marketing-channel.md) et d’autres dimensions de source de trafic.
 
-[Règles de traitement des canaux marketing](../marketing-channels/c-rules.md) indiquez « [!UICONTROL Correspond aux filtres d’URL internes] » comme critères possibles de la règle.
+[Règles de traitement des canaux marketing](../marketing-channels/mc-proc-rules.md) indiquez « [!UICONTROL Correspond aux filtres d’URL internes] » comme critères possibles de la règle.
 
 >[!IMPORTANT]
 >
