@@ -186,7 +186,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Data Workbench | [Annonce de fin de vie](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=fr) |
 | Indications du client ou de la cliente | Nouvelles [vue d’ensemble et FAQ](/help/technotes/client-hints.md). |
 | Résumé des mesures clés | Nouvelle rubrique sur la visualisation du [résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md). |
-| Ensembles de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](/help/components/classifications/sets/overview.md) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
+| Jeux de classifications | La nouvelle expérience utilisateur [Ensembles de classifications](/help/components/classifications/sets/overview.md) fournit une interface unique pour gérer les classifications et les règles et améliorer la visibilité des données de classification détenues par le client. |
 | Application mobile : vues détaillées personnalisées | Nouvelle rubrique sur les [vues détaillées personnalisées](/help/analyze/mobile-app/create-scorecard.md). |
 | VISTA | Nouvelle page expliquant les principes de base des [règles VISTA](/help/technotes/vista.md). |
 | **Septembre 2022** | |
