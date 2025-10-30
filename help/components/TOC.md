@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
