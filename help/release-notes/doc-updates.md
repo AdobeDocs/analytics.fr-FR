@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 662019f091208c63ea2e0ee613b3d639ed6bfe36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6529'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Octobre 2025** | |
-| Jeux de classifications | Mises à jour de la documentation [Ensembles de classifications](/help/components/classifications/sets/overview.md). |
+| Jeux de classifications | Mises à jour de la documentation [Jeux de classifications](/help/components/classifications/sets/overview.md). |
 | Configuration de l’attribution | Mises à jour supplémentaires pour refléter les nouvelles options de configuration de l’attribution pour le modèle, le conteneur et l’intervalle de recherche en amont. |
 | Améliorations supplémentaires de l’identification des visiteurs et visiteuses | Ajout de la section [Identification des visiteurs et visiteuses](/help/implement/id/overview.md), décrivant la méthode recommandée pour identifier les visiteurs et visiteuses dans tous les types d’implémentation. |
 | **Septembre 2025** | |
