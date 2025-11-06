@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3680'
-ht-degree: 65%
+source-wordcount: '3690'
+ht-degree: 64%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 >
 >La plupart des colonnes contiennent une colonne similaire avec un préfixe `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. Pour plus d’informations, consultez la [FAQ sur les flux de données](../df-faq.md).
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
 
 | Nom de la colonne | Description de la colonne | Type de données |
 | --- | --- | --- |
@@ -36,8 +36,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`aemassetsource`** | Identifie la source de l’événement de ressources. Utilisée dans Adobe Experience Manager. | varchar(255) |
 | **`aemclickedassetid`** | ID de ressource d’une ressource Adobe Experience Manager. Incrémente l’événement Click. | varchar(255) |
 | **`browser`** | Identifiant numérique qui représente le navigateur. Fait référence à la table de recherche `browser.tsv`. | int sans signe |
-| **`browser_height`** | La dimension [&#x200B; Hauteur du navigateur &#x200B;](/help/components/dimensions/browser-height.md). | smallint sans signe |
-| **`browser_width`** | La [&#x200B; Largeur Du Navigateur &#x200B;](/help/components/dimensions/browser-width.md) | smallint sans signe |
+| **`browser_height`** | La dimension [ Hauteur du navigateur ](/help/components/dimensions/browser-height.md). | smallint sans signe |
+| **`browser_width`** | La [ Largeur Du Navigateur ](/help/components/dimensions/browser-width.md) | smallint sans signe |
 | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
 | **`campaign`** | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). | varchar(255) |
 | **`carrier`** | Variable d’intégration Adobe Advertising. Définit l’opérateur de téléphonie mobile. Valeur de clé pour la [recherche dynamique](dynamic-lookups.md) `carrier.tsv`. | varchar(100) |
@@ -61,8 +61,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`cust_visid`** | L’identifiant visiteur personnalisé, s’il est défini à l’aide de [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
 | **`customer_perspective`** | Détermine si l’accès est un accès en arrière-plan mobile. Voir [Sessions contextuelles](/help/components/vrs/vrs-mobile-visit-processing.md) pour plus d’informations. | tinyint sans signe |
 | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien. | tinyint sans signe |
-| **`dataprivacyconsentoptin`** | La dimension [&#x200B; Accord préalable de gestion du consentement &#x200B;](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | La dimension [&#x200B; Droit d’opposition de gestion du consentement &#x200B;](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | La dimension [ Accord préalable de gestion du consentement ](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptout`** | La dimension [ Droit d’opposition de gestion du consentement ](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
 | **`dataprivacydmaconsent`** | Valeur qui identifie si le consentement est obtenu pour l’envoi de données depuis Adobe Analytics via Adobe Advertising à des fournisseurs publicitaires tiers (tels que Google). Pour plus d’informations, voir [Consentement pour la publicité](/help/components/dimensions/ad-consent.md). | varchar(100) |
 | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | **`domain`** | La dimension [Domaine](/help/components/dimensions/domain.md). En fonction du point d’accès Internet du visiteur. | varchar(100) |
@@ -153,7 +153,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`page_event_var2`** | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. Définit le [Lien personnalisé](/help/components/dimensions/custom-link.md), le [Lien de téléchargement](/help/components/dimensions/download-link.md) ou le [Lien de sortie](/help/components/dimensions/exit-link.md) en fonction de la valeur dans `page_event`. | varchar(100) |
 | **`page_type`** | La dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md), généralement utilisée pour les pages 404. | char(20) |
 | **`page_url`** | URL de l’accès à la Notez que `post_page_url` est supprimé pour les demandes d’image de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)) et utilise un type de données varchar(255). | text |
-| **`pagename`** | La dimension [&#x200B; Page &#x200B;](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
+| **`pagename`** | La dimension [ Page ](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
 | **`pagename_no_url`** | Similaire à `pagename`, sauf qu’il ne retourne pas à `page_url`. Seule la colonne `post` est disponible. | varchar(100) |
 | **`paid_search`** | Indicateur qui détermine si l’accès correspond à la détection de référencement payant. | tinyint sans signe |
 | **`persistent_cookie`** | Utilisé dans la dimension [Prise en charge des cookies persistants](/help/components/dimensions/persistent-cookie-support.md). Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque accès. | char(1) |
@@ -165,12 +165,12 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`purchaseid`** | Identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilisé par la colonne `duplicate_purchase`. | char(20) |
 | **`quarterly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse trimestrielle. | tinyint sans signe |
 | **`ref_domain`** | La dimension [Domaine référent](/help/components/dimensions/referring-domain.md). En fonction de la colonne `referrer`. | varchar(100) |
-| **`ref_type`** | Identifiant numérique qui représente le type de référence pour l’accès. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). <ul><li>À l’intérieur du site</li><li>Autres sites web</li> <li>Moteurs de recherche</li> <li> Outils d’IA dédiée à la conversation</li><li>Disque dur</li> <li>USENET</li> <li>Typed/Bookmarked (pas de référent)</li> <li>Adresse électronique</li> <li>Aucun JavaScript</li> <li>Réseaux sociaux  </li></ul> | tinyint sans signe |
+| **`ref_type`** | Identifiant numérique qui représente le type de référence pour l’accès. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md). <p>1 : à l’intérieur de votre site</p><p>2 : Autres sites web</p> <p>3 : Moteurs de recherche</p> <p>4 : Disque dur</p> <p>5 : USENET</p> <p>6 : dactylographié/mis en signet (pas de référent)</p> <p>7 : E-mail</p> <p>8 : pas de JavaScript</p> <p>9 : Réseaux sociaux</p><p>10 : Outils d’IA dédiée à la conversation</p> | tinyint sans signe |
 | **`referrer`** | La dimension [Référent](/help/components/dimensions/referrer.md). Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255) |
 | **`resolution`** | Identifiant numérique qui représente la résolution du moniteur. Utilisé dans la dimension [Résolution d’écran](/help/components/dimensions/monitor-resolution.md). Utilise la table de recherche `resolution.tsv`. | smallint sans signe |
 | **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising. | varchar(255) |
 | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
-| **`search_engine`** | Identifiant numérique qui représente le moteur de recherche ayant référencé le visiteur sur votre site. Utilisé dans les dimensions [&#x200B; Moteur de recherche &#x200B;](/help/components/dimensions/search-engine.md). Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
+| **`search_engine`** | Identifiant numérique qui représente le moteur de recherche ayant référencé le visiteur sur votre site. Utilisé dans les dimensions [ Moteur de recherche ](/help/components/dimensions/search-engine.md). Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
 | **`search_page_num`** | Utilisé par la dimension [Tout le classement des pages de recherche](/help/components/dimensions/all-search-page-rank.md). Indique sur quelle page de résultats de recherche votre site est apparu avant que l’utilisateur ou l’utilisatrice ne clique sur votre site. | smallint sans signe |
 | **`secondary_hit`** | Indicateur qui détermine si l’accès est un accès secondaire. Cet indicateur provient généralement du balisage multisuite et des règles VISTA qui copient les accès. | tinyint sans signe |
 | **`sourceid`** | ID Source | int sans signe |
@@ -244,7 +244,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`visid_type`** | Uniquement destinée à un usage interne. Utilisée en interne par Adobe pour les optimisations de traitement. Identifiant numérique qui représente la méthode utilisée pour identifier le visiteur.<br>`0` : identifiant visiteur personnalisé ou inconnu/non applicable <br>`1` : solution de secours de l’IP et de l’agent utilisateur <br>`2` : en-tête de l’abonné mobile HTTP <br>`3` : valeur du cookie hérité (`s_vi`) <br>`4` : valeur du cookie de secours (`s_fid`) <br>`5` : Service d’identités | tinyint sans signe |
 | **`visit_keywords`** | La dimension [Mot-clé de recherche](/help/components/dimensions/search-keyword.md). Cette colonne utilise une limite de caractères non standard pour varchar(244) pour s’adapter à la logique de back-end utilisée par Adobe. | varchar(244) |
 | **`visit_num`** | La dimension [Nombre de visites](/help/components/dimensions/visit-number.md) Commence à 1, et est incrémentée chaque fois qu’une nouvelle visite commence par visiteur. | int sans signe |
-| **`visit_page_num`** | La dimension [&#x200B; Profondeur de l’accès &#x200B;](/help/components/dimensions/hit-depth.md). Augmente de 1 pour chaque accès généré par le visiteur. Réinitialise chaque visite. | int sans signe |
+| **`visit_page_num`** | La dimension [ Profondeur de l’accès ](/help/components/dimensions/hit-depth.md). Augmente de 1 pour chaque accès généré par le visiteur. Réinitialise chaque visite. | int sans signe |
 | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | **`visit_ref_type`** | Identifiant numérique qui représente le type de référent du premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | **`visit_referrer`** | Premier référent de la visite. | varchar(255) |

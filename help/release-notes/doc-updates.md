@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '6543'
+source-wordcount: '6565'
 ht-degree: 99%
 
 ---
@@ -27,6 +27,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Novembre 2025** | |
 | Considérations importantes concernant les règles VISTA | Mise à jour des points importants concernant les [règles Vista](/help/technotes/vista.md). |
+| Ajout de l’identifiant de colonne de données pour les outils d’IA conversationnelle | Ajout de l’[ID de référence de colonne de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) pour les outils d’IA conversationnelle dans la colonne ref_type. |
 | **Octobre 2025** | |
 | Jeux de classifications | Mises à jour de la documentation [Jeux de classifications](/help/components/classifications/sets/overview.md). |
 | Configuration de l’attribution | Mises à jour supplémentaires pour refléter les nouvelles options de configuration de l’attribution pour le modèle, le conteneur et l’intervalle de recherche en amont. |
