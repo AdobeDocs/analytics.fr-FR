@@ -3,10 +3,10 @@ title: Règles VISTA dans Adobe Analytics
 description: En savoir plus sur les règles VISTA et leurs fonctionnalités.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 81%
+source-wordcount: '354'
+ht-degree: 57%
 
 ---
 
@@ -26,7 +26,13 @@ De nombreux cas d’utilisation des règles VISTA sont déjà proposés par [Rè
 
 >[!IMPORTANT]
 >
->Les règles VISTA nécessitent un accord payant entre votre entreprise et Adobe Professional Services. Contactez l’équipe chargée de votre compte Adobe si vous souhaitez créer ou mettre à jour une règle VISTA.
+>L’implémentation et la configuration des règles VISTA nécessitent un accord payant entre votre entreprise et Adobe Professional Services. Contactez l’équipe chargée de votre compte Adobe si vous souhaitez créer ou mettre à jour une règle VISTA.
+>
+>Remarque :
+>
+>* La création de règles VISTA inclut uniquement l’implémentation initiale. La maintenance continue ou les mises à jour des règles VISTA nécessitent un engagement payant distinct.
+>
+>* Les règles VISTA reposent sur des conditions spécifiques dans vos données. Par exemple, des modifications apportées à votre implémentation Adobe Analytics, aux types de données ou à la longueur des chaînes collectées, aux tables utilisées pour DB VISTA ou à d’autres modifications apportées aux modèles de données d’entrée peuvent entraîner l’arrêt prévu d’une règle VISTA. Adobe recommande de consulter régulièrement vos règles VISTA pour déterminer si des mises à jour ou des suppressions sont nécessaires.
 
 ## Créer une règle VISTA {#create}
 
