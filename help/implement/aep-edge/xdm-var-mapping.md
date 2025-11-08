@@ -23,7 +23,7 @@ La plupart des champs d’objet XDM de ce tableau correspondent à un [champ d�
 
 ## Mappage de champs d’objet XDM
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md) de cette page.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/implement/aep-edge/xdm-var-mapping.md) de cette page.
 
 | Chemin d’accès au champ XDM | Variable et description Analytics |
 | --- | --- |

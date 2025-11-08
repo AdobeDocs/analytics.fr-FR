@@ -25,7 +25,7 @@ Certains champs d’objet de données prennent également en charge leur [valeur
 
 ## Mappage des champs de l’objet de données
 
-Les mises à jour précédentes de ce tableau se trouvent dans l’historique [commit) de cette page sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
+Les mises à jour précédentes de ce tableau se trouvent dans l’historique [commit) de cette page sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/implement/aep-edge/data-var-mapping.md). Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
 
 | Chemin du champ de l’objet de données | Variable et description Analytics |
 | --- | --- |
