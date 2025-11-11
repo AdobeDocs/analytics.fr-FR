@@ -26,7 +26,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Novembre 2025** | |
-| Considérations importantes concernant les règles VISTA | Mise à jour des points importants concernant les [règles Vista](/help/technotes/vista.md). |
+| Considérations importantes concernant les règles VISTA | Mise à jour des considérations importantes concernant les [règles Vista](/help/technotes/vista.md). |
 | Ajout de l’identifiant de colonne de données pour les outils d’IA conversationnelle | Ajout de l’[ID de référence de colonne de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) pour les outils d’IA conversationnelle dans la colonne ref_type. |
 | **Octobre 2025** | |
 | Jeux de classifications | Mises à jour de la documentation [Jeux de classifications](/help/components/classifications/sets/overview.md). |
