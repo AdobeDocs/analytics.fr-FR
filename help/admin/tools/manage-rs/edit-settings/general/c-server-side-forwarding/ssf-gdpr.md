@@ -4,7 +4,7 @@ title: Conformité au RGPD et à la directive vie privée et communications éle
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 55%
@@ -29,8 +29,8 @@ Selon votre méthode de mise en œuvre, procédez comme suit.
 
 | Méthode de mise en œuvre | Étapes |
 |--- |--- |
-| Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
-| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js : <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
+| Balises dans Adobe Experience Platform | En supposant que l’extension Adobe Analytics soit installée, ajoutez la définition de variable de données contextuelles suivante à l’éditeur de code personnalisé dans la configuration Action d’une règle : <br/>`s.contextData['cm.ssf'] = '1'` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez la variable `contextdata` sur *0* pour les clients qui ont consenti au marketing ciblé. |
+| AppMeasurement | Ajoutez la définition de la variable de données contextuelles au fichier AppMeasurement.js : <br/>`s.contextData['cm.ssf'] = '1'` <br/>Remarque : définissez la variable contextdata sur 1 si un client ne consent pas au marketing ciblé. Définissez-la sur 0 pour les clients qui ont consenti au marketing ciblé. |
 
 ## Reporting (facultatif) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 

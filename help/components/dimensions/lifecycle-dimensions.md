@@ -3,10 +3,10 @@ title: Dimensions du cycle de vie mobile
 description: Dimensions basées sur les données collectées à l’aide de Mobile SDK.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 26%
+source-wordcount: '177'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 | Nom de la dimension du cycle de vie | Description | Variable de données contextuelles |
 | --- | --- | --- |
-| [!UICONTROL Première date de lancement] | | À confirmer |
+| [!UICONTROL Première date de lancement] | | |
 | [!UICONTROL Nom de l’appareil (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Version du système d’exploitation (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Résolution (SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 26%
 | [!UICONTROL Distance jusqu’au centre du point ciblé] | | `a.loc.dist` |
 | [!UICONTROL Numéro de lancement] | | `a.Launches` |
 | [!UICONTROL Jours depuis la première utilisation] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL Nom de l’action] | | À confirmer |
+| [!UICONTROL Nom de l’action] | | |
 | [!UICONTROL Valeur de durée de vie (evar)] | | `a.ltv.amount` |
-| [!UICONTROL Balise principale] | | À confirmer |
-| [!UICONTROL Balise mineure] | | À confirmer |
-| [!UICONTROL UUID de balise] | | À confirmer |
-| [!UICONTROL Proximité de la balise] | | À confirmer |
+| [!UICONTROL Balise principale] | | |
+| [!UICONTROL Balise mineure] | | |
+| [!UICONTROL UUID de balise] | | |
+| [!UICONTROL Proximité de la balise] | | |
 | [!UICONTROL Jours depuis la dernière utilisation] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Heure de la journée (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Jour de la semaine (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL ID du point ciblé] | | À confirmer |
+| [!UICONTROL ID du point ciblé] | | |
 
 {style="table-layout:auto"}
 

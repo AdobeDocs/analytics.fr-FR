@@ -3,10 +3,10 @@ description: Analytics et Audience Manager utilisent tous deux les segments. Ce
 title: Présentation des segments dans Analytics et Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Un segment Audience Manager est un groupe de visiteurs (identifiants d’utilisa
 * Intervalles de durée de vie (TTL). L’appartenance à un segment peut expirer après un intervalle défini ou persister indéfiniment.
 * Récence et fréquence. La définition du moment et de la fréquence à laquelle les utilisateurs ont une interaction (réalisation d’une caractéristique) peut permettre de créer des segments en fonction du niveau d’intérêt réel (ou perçu) pour un site, une section ou une création publicitaire particulière.
 
-L’appartenance à un segment Audience Manager est fluctuant. Les utilisateurs peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné. Cela signifie que la population d’un segment Audience Manager peut augmenter ou diminuer au fil du temps.
+L’appartenance à un segment Audience Manager est fluctuant. Les utilisateurs peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné. Cela signifie que la population d’un segment Audience Manager peut augmenter ou diminuer au fil du temps.
 
 Un segment Audience Manager est désigné en tant qu’audience dans Analytics.
 

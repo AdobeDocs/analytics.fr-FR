@@ -3,9 +3,9 @@ name: Mobile lifecycle metrics
 description: Mesures basées sur les données collectées à l’aide du SDK Mobile.
 feature: Metrics
 exl-id: 64af4942-d249-47a5-a62f-6051f4c44ee3
-source-git-commit: 9f70dbeb9dfe54897915213480f05cbdfaf920ef
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '37'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 | Mises à niveau | | `a.UpgradeEvent` |
 | Lancements | | `a.LaunchEvent` |
 | Blocages | | `a.CrashEvent` |
-| Durée totale de la session | | À confirmer |
+| Durée totale de la session | | |
 | Durée totale de l’action | | `a.action.time.total` |
 | Durée de l’action dans l’application | | `a.action.time.inapp` |
 | Valeur de durée de vie (événement) | | `a.ltv.amount` |

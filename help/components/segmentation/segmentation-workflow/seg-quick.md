@@ -4,7 +4,7 @@ title: Segments rapides
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 21%
@@ -20,7 +20,7 @@ Les segments rapides vous permettent d’explorer rapidement les données d’un
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments rapides dans Analysis Workspace](https://video.tv.adobe.com/v/345337/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments rapides dans Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +85,7 @@ La zone de condition spécifie les conditions (trois au maximum). Pour chaque co
 
 | Élément | Description |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Mesure]**<br/>**[!UICONTROL Période]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) choisissez si vous souhaitez spécifier une condition pour une dimension, une mesure ou une période. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) choisissez si vous souhaitez spécifier une condition pour une dimension, une mesure ou une période. |
 | **[!UICONTROL *Composant *]** | Champ de composant de la condition. Vous pouvez [!UICONTROL *Saisir pour ajouter*] un composant, sélectionner un composant dans la liste ou faire glisser et déposer un composant depuis le panneau des composants. Vous pouvez uniquement déposer des composants similaires dans le champ de composant de la condition. Par exemple, vous pouvez uniquement déposer un composant de dimension à partir du panneau des composants sur une condition de dimension. <br/>Vous pouvez également effectuer un glisser-déposer pour remplacer un composant existant.<br/>Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer le composant du champ de composant. |
 | **[!UICONTROL *Opérateur *]** | Opérateur du composant. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour plus d’informations. Disponible uniquement pour les dimensions et les mesures. |
 | **[!UICONTROL *value *]** | Valeur de la condition. Selon l’opérateur sélectionné, la valeur peut être sélectionnée dans une liste ou vous pouvez saisir une valeur. |
@@ -98,7 +98,7 @@ La zone de condition spécifie les conditions (trois au maximum). Pour chaque co
 | **[!UICONTROL ET]**<br/>**[!UICONTROL OU]** | Disponible uniquement lorsque vous définissez plusieurs conditions. Faites votre choix dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) entre les conditions. La sélection détermine la logique booléenne du segment rapide. Il n’est pas possible de mélanger la logique avec trois conditions. La logique booléenne est soit **[!UICONTROL ET]** soit **[!UICONTROL OU]**. |
 | ![Cercle d’ajout](/help/assets/icons/AddCircle.svg) | Ajoute une autre condition à votre segment rapide. Ce bouton n’est disponible que lorsque vous avez défini une ou deux conditions pour le segment rapide. |
 | **[!UICONTROL Appliquer]** | Appliquez les modifications au segment rapide. |
-| **[!UICONTROL Ouvrir le créateur]** | Vous recevez une invitation à confirmer l’opération à l’aide d’une boîte de dialogue **[!UICONTROL En êtes-vous sûr(e) ?]**. Si vous sélectionnez **[!UICONTROL OK]**, vous ne pouvez plus modifier votre segment dans le [Créateur de segments rapides](#quick-segment-builder) Votre segment rapide est renommé **[!UICONTROL Segment]** et se compose désormais d’une fine barre de gauche bleu foncé.<br/>[&#x200B; Le créateur de segments](seg-build.md) classique s’ouvre avec la possibilité de **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]**. <ul><li>Si vous sélectionnez cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment est ajouté à la liste de composants ![Segment](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dans le panneau des composants.</li><li>Si vous ne sélectionnez pas cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment reste un segment de projet uniquement Workspace.</li></ul> |
+| **[!UICONTROL Ouvrir le créateur]** | Vous recevez une invitation à confirmer l’opération à l’aide d’une boîte de dialogue **[!UICONTROL En êtes-vous sûr(e) ?]**. Si vous sélectionnez **[!UICONTROL OK]**, vous ne pouvez plus modifier votre segment dans le [Créateur de segments rapides](#quick-segment-builder) Votre segment rapide est renommé **[!UICONTROL Segment]** et se compose désormais d’une fine barre de gauche bleu foncé.<br/>[ Le créateur de segments](seg-build.md) classique s’ouvre avec la possibilité de **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]**. <ul><li>Si vous sélectionnez cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment est ajouté à la liste de composants ![Segment](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dans le panneau des composants.</li><li>Si vous ne sélectionnez pas cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment reste un segment de projet uniquement Workspace.</li></ul> |
 | **[!UICONTROL Annuler]** | Sélectionnez cette option pour annuler la création ou la modification d’un segment rapide. |
 
 ## Segments rapides ou segments
