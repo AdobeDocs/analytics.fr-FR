@@ -16,7 +16,7 @@ ht-degree: 51%
 
 Les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si une personne achète un article, l’achat peut être considéré comme un événement de succès.
 
-Pour obtenir un aperçu vidéo des événements de succès, voir [Présentation des événements de conversion](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) dans le guide des tutoriels Analytics.
+Pour obtenir un aperçu vidéo des événements de succès, voir [Présentation des événements de conversion](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) dans le guide des tutoriels Analytics.
 
 ## Exemples d’événements de succès
 
