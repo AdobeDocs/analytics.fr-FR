@@ -27,7 +27,7 @@ Vous pouvez [partager](t-seg-share.md), [segment](t-seg-filter.md), [balise](seg
 
 Le gestionnaire de segments comporte les éléments d’interface suivants :
 
-![ Interface des segments ](assets/segments-manager.png)
+![&#x200B; Interface des segments &#x200B;](assets/segments-manager.png)
 
 ### Liste des segments
 
@@ -68,7 +68,7 @@ La barre de filtrage affiche ➌ les segments actifs appliqués à partir du pan
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer la liste des segments à l’aide du ![ du panneau de gauche ](/help/assets/icons/Filter.svg)Filtrer **** Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
+Vous pouvez filtrer la liste des segments à l’aide du ![&#x200B; du panneau de gauche &#x200B;](/help/assets/icons/Filter.svg)Filtrer **&#x200B;**&#x200B;Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
 
 Voir [Filtrer la liste des segments](t-seg-filter.md) pour plus d’informations.
 

@@ -76,7 +76,7 @@ Pour configurer un emplacement ARN de rôle Amazon S3, spécifiez les informatio
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [&#x200B; Flux de données &#x200B;](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
@@ -100,7 +100,7 @@ Pour configurer un emplacement Google Cloud Platform, spécifiez les information
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [&#x200B; Flux de données &#x200B;](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
@@ -124,7 +124,7 @@ Pour configurer un emplacement Azure SAS, spécifiez les informations suivantes�
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [&#x200B; Flux de données &#x200B;](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 
@@ -149,7 +149,7 @@ Pour configurer un emplacement Azure RBAC, spécifiez les informations suivantes
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [ Flux de données ](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
+   Vous pouvez désormais importer ou exporter des données vers ou à partir du compte et de l’emplacement que vous avez configurés. Pour exporter des données, utilisez [&#x200B; Flux de données &#x200B;](/help/export/analytics-data-feed/create-feed.md) ou [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Pour importer des données, utilisez [Jeux de classifications](/help/components/classifications/sets/overview.md).
 
    Les données importées ne sont pas supprimées de la destination cloud après leur importation.
 

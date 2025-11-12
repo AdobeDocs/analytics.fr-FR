@@ -22,14 +22,14 @@ Avant que vos projets et leurs composants associés ne soient prêts à migrer, 
 
    >[!NOTE]
    >
-   >  Lorsque vous utilisez le SDK Web pour ingérer des données, tous les champs de schéma doivent être mappés manuellement. (Pour plus d’informations sur le processus de mappage, voir [ Migration de composants et de projets d’Adobe Analytics vers Customer Journey Analytics ](/help/admin/tools/component-migration/component-migration.md))
+   >  Lorsque vous utilisez le SDK Web pour ingérer des données, tous les champs de schéma doivent être mappés manuellement. (Pour plus d’informations sur le processus de mappage, voir [&#x200B; Migration de composants et de projets d’Adobe Analytics vers Customer Journey Analytics &#x200B;](/help/admin/tools/component-migration/component-migration.md))
 
 
    * Pour utiliser le connecteur source Adobe Analytics, vous devez effectuer les opérations suivantes :
 
       1. [Configurer des suites de rapports pour l’ingestion dans Adobe Experience Platform et Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-      1. [ Ingérer et utiliser les données ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=fr)
+      1. [&#x200B; Ingérer et utiliser les données &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=fr)
 
    * Pour utiliser le SDK Web, vous devez effectuer les opérations suivantes :
 

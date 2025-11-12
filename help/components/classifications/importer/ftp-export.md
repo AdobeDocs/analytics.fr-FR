@@ -41,7 +41,7 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | Élément | Descriptions |
 | --- | --- |
 | [!UICONTROL Sélectionner une suite de rapports] | Sélectionnez la suite de rapports à partir de laquelle vous souhaitez exporter les données de rapport. |
-| [!UICONTROL Données à classer ] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
+| [!UICONTROL Données à classer &#x200B;] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
 | [!UICONTROL Sélectionner le nombre de lignes] | Indiquez le nombre de lignes de données à exporter.<ul><li>Sélectionnez **[!UICONTROL Tous]** pour télécharger toutes les données de rapport.</li><li>Sélectionnez **[!UICONTROL Limiter les lignes de données à]** si vous voulez indiquer un nombre spécifique de lignes à télécharger.</li></ul> |
 | [!UICONTROL Filtrer par date de réception] | (Facultatif) Filtrez les données selon la date de réception. Indiquez la période pour laquelle vous souhaitez télécharger les données. |
 | [!UICONTROL Appliquer un filtre de données] | (Facultatif) Filtrez le jeu de données selon des critères de données. Vous pouvez filtrer le téléchargement pour inclure des lignes de données contenant une valeur spécifique ou des valeurs de colonnes non attribuées (classification). |
