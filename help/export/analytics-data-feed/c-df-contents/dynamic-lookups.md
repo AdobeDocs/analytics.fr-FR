@@ -3,10 +3,10 @@ title: Recherches dynamiques
 description: Découvrez ce que sont les recherches dynamiques et comment les activer. Inclut les opérateurs, les attributs mobiles et les types de système d’exploitation.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 1%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,16 @@ Les recherches dynamiques vous permettent de recevoir des fichiers de recherche 
 * **Attributs mobiles** : fournit un contexte supplémentaire pour la colonne `mobile_id`, y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
 * **Type de système d’exploitation** : fournit un autre contexte pour la colonne `os`. `operating_systems.tsv` et `operating_system_type.tsv` utilisent tous deux la colonne `os` comme clé, mais seule `operating_system_type.tsv` est une recherche dynamique.
 
-## Activer les recherches dynamiques
+## Activer les recherches dynamiques {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="Activer les recherches dynamiques"
+>abstract="Sélectionnez cette option pour recevoir des fichiers de recherche supplémentaires dans votre flux de données, car ils ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :<ul><li>Nom de l’opérateur</li><li>Attributs mobiles</li><li>Type de système d’exploitation</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 Si vous souhaitez recevoir les fichiers Lookup mentionnés, vous devez remplir toutes les conditions préalables suivantes :
 
