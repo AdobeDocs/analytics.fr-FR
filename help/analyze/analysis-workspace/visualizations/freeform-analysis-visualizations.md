@@ -5,7 +5,7 @@ title: Aperçu des visualisations
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1707'
 ht-degree: 88%
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # Visualisations - Aperçu
 
-Workspace offre une variété de visualisations pour créer des représentations visuelles de vos données. Par exemple, des graphiques à barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des nuages de points, etc.
+Workspace offre une variété de visualisations pour créer des représentations visuelles de vos données. Par exemple, des graphiques en barres, des graphiques en anneau, des histogrammes, des graphiques en courbes, des cartes, des nuages de points, etc.
 
 ## Types
 
@@ -22,10 +22,10 @@ Voici les types de visualisation disponibles dans Analysis Workspace :
 
 
 | Icône | Nom | Description |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Surface](/help/analyze/analysis-workspace/visualizations/area.md) | Visualisation sous forme de graphique de surface. Semblable à un graphique linéaire, mais avec une zone colorée sous la ligne. Utilisez un diagramme de surface si vous avez plusieurs mesures et souhaitez visualiser la zone exprimée par l’intersection de plusieurs mesures. |
-| ![Graphique à barres verticales](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Visualisation Graphique à barre avec des barres verticales représentant plusieurs valeurs pour une ou plusieurs mesures. |
-| ![Graphique à barres verticales](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barres empilées](/help/analyze/analysis-workspace/visualizations/bar.md) | Visualisation Graphique à barres empilées avec des barres verticales représentant plusieurs valeurs pour une ou plusieurs mesures. |
+| ![Graphique à barres verticales](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | Visualisation Graphique en barres avec des barres verticales représentant plusieurs valeurs pour une ou plusieurs mesures. |
+| ![Graphique à barres verticales](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barres empilées](/help/analyze/analysis-workspace/visualizations/bar.md) | Visualisation Graphique en barres empilées avec des barres verticales représentant plusieurs valeurs pour une ou plusieurs mesures. |
 | ![Graphique à puces](/help/assets/icons/GraphBullet.svg)</p> | [Puces](/help/analyze/analysis-workspace/visualizations/bullet-graph.md) | Visualisation Graphique à puces affichant comment comparer ou mesurer une valeur qui vous intéresse par rapport à d’autres plages de performances (objectifs). |
 | ![ChiffresTexte](/help/assets/icons/TextNumbered.svg) | [Table de cohorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Une visualisation Cohorte est un groupe de personnes partageant des caractéristiques communes au cours d’une période spécifique. Une table de cohorte est utile pour les analyses de la rétention, de lʼattrition ou de la latence. |
 | ![Combo](/help/assets/icons/ComboChart.svg) | [Combo](combo-charts.md) | Une visualisation Graphique combo facilite la création rapide d’une visualisation de comparaison sans qu’il soit nécessaire de créer un tableau au préalable. |
@@ -38,7 +38,7 @@ Voici les types de visualisation disponibles dans Analysis Workspace :
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barres empilées horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Visualisation Barres horizontales empilées affichant des barres horizontales représentant plusieurs valeurs pour une ou plusieurs mesures. |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Une visualisation Résumé des mesures clés combine les visualisations Ligne, Synthèse des modifications et Synthèse des chiffres. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Une visualisation Ligne représente les mesures sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en courbes utilise le temps le long de lʼaxe X. |
-| ![&#x200B; Globe &#x200B;](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
+| ![ Globe ](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
 | ![Nuage de points](/help/assets/icons/GraphScatter.svg) | [Dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Une visualisation Graphique de dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [En-tête de section](section-header.md) | Pour identifier et articuler des sections dans un panneau. |
 | ![DéplacementHautBas](/help/assets/icons/MoveUpDown.svg) | [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Une visualisation Synthèse des modifications affiche la modification entre les cellules sélectionnées sous la forme d’un grand nombre ou d’un pourcentage. |
@@ -105,7 +105,7 @@ Vous pouvez gérer une visualisation en pointant la souris sur la visualisation 
 * Pour afficher une visualisation réduite, sélectionnez ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
 * Pour supprimer une visualisation, sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg). Pour annuler, sélectionnez **[!UICONTROL Modifier]** > **[!UICONTROL Annuler]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Pour rétablir la hauteur par défaut d’une visualisation, sélectionnez ![ImageResize](/help/assets/icons/Resize.svg).
-* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![&#x200B; Déplacer &#x200B;](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
+* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![ Déplacer ](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
 
 
 ## Légende
@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/41446/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

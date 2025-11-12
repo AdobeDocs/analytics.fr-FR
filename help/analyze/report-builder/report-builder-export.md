@@ -6,7 +6,7 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: ecb08c3d9dfe7394ecff5415c08be7a38b0cba6a
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 30%
@@ -17,11 +17,11 @@ ht-degree: 30%
 
 Vous pouvez exporter des classeurs Adobe Analytics de Report Builder vers des fournisseurs cloud tels que Google, Azure et Amazon.
 
-Vous pouvez également partager des classeurs avec d’autres utilisateurs par e-mail, comme décrit dans la section [&#x200B; Planifier le partage de classeurs par e-mail](/help/analyze/report-builder/schedule-reportbuilder.md).
+Vous pouvez également partager des classeurs avec d’autres utilisateurs par e-mail, comme décrit dans la section [ Planifier le partage de classeurs par e-mail](/help/analyze/report-builder/schedule-reportbuilder.md).
 
 [Les avantages de l’exportation des rapports de Report Builder vers le cloud](#advantages-of-exporting-to-the-cloud) incluent la possibilité d’utiliser des rapports dans des outils tiers ou de les combiner avec des données externes.
 
-Avant d’exporter des classeurs de Report Builder vers une destination cloud, assurez-vous que vos blocs de données, votre environnement et vos autorisations répondent aux [&#x200B; exigences d’exportation &#x200B;](#export-requirements).
+Avant d’exporter des classeurs de Report Builder vers une destination cloud, assurez-vous que vos blocs de données, votre environnement et vos autorisations répondent aux [ exigences d’exportation ](#export-requirements).
 
 ## Comprendre le processus d’exportation
 
@@ -124,4 +124,4 @@ After data is exported from Analysis Workspace, you can edit, re-export, duplica
 
 ## Gérer les classeurs planifiés
 
-Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [&#x200B; Gérer les classeurs planifiés &#x200B;](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
+Pour plus d’informations sur la gestion des classeurs déjà planifiés, voir [ Gérer les classeurs planifiés ](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

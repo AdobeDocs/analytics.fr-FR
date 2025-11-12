@@ -5,7 +5,7 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 82%
@@ -54,7 +54,7 @@ Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut r
   | Paramètre | Plus rapide | Plus lent |
   |--- |--- |--- |
   | Répartitions et ordre de répartition | Peu | Beaucoup |
-  |  | Exemple : si vous ventilez A par Z, le nombre d’éléments d’A doit être toujours inférieur à celui de Z. Dans le cas contraire, la durée de la requête peut augmenter de façon significative. |
+  |  | Exemple : si vous ventilez A par Z, le nombre d’éléments d’A doit être toujours inférieur à celui de Z. Dans le cas contraire, la durée de la requête peut augmenter de façon significative. |  |
   | Période | Courte période | Longue période |
   | Filtrage | Filtrage spécifique | Filtrage de type « Le plus populaire » |
   | Granularité | Agrégé | Toutes les heures<ul><li>Quotidien</li><li>Hebdomadaire</li><li>Mensuel</li><li>Trimestriel</li><li>Annuel</li></ul> |

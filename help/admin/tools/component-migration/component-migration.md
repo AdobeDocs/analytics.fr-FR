@@ -3,7 +3,7 @@ description: Explique comment migrer des composants et des projets d’Adobe Ana
 title: Migration de composants et de projets d’Adobe Analytics vers Customer Journey Analytics
 feature: Admin Tools
 exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
-source-git-commit: ec4475cdd8f0c3e89f528bd60155caa1ca3f0645
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1641'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Le processus de migration comprend :
 
 ## Préparation à une migration
 
-Avant de migrer des projets vers Customer Journey Analytics, apprenez-en davantage sur la migration des projets dans la section [&#x200B; Préparer la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
+Avant de migrer des projets vers Customer Journey Analytics, apprenez-en davantage sur la migration des projets dans la section [ Préparer la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
 
 Effectuez également un [inventaire Adobe Analytics](/help/admin/tools/analytics-inventory.md) à l’aide de l’outil disponible pour les administrateurs et administratrices Analytics.
 
@@ -41,7 +41,7 @@ Effectuez également un [inventaire Adobe Analytics](/help/admin/tools/analytics
 
 >[!NOTE]
 >
->Avant de migrer des projets vers Customer Journey Analytics comme décrit dans cette section, pour en savoir plus sur la migration des projets, reportez-vous à la section [&#x200B; Préparer la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics &#x200B;](/help/admin/tools/component-migration/prepare-component-migration.md).
+>Avant de migrer des projets vers Customer Journey Analytics comme décrit dans cette section, pour en savoir plus sur la migration des projets, reportez-vous à la section [ Préparer la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics ](/help/admin/tools/component-migration/prepare-component-migration.md).
 >
 >**Toutes les dimensions ou mesures que vous mappez s’appliquent à ce projet et à tous les projets futurs dans l’ensemble de votre organisation IMS, quel que soit l’utilisateur ou l’utilisatrice qui effectue la migration. Ces mappages peuvent être mis à jour lors de la migration de projets futurs.**
 

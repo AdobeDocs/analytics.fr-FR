@@ -4,10 +4,10 @@ title: Gestion des segments (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '957'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
@@ -52,7 +52,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 1. Revenez à Report Builder et cliquez sur l’icône Actualiser pour actualiser la liste des segments.
 1. Vous êtes à présent prêt à appliquer ce segment.
 
-## Recherche et application de segments {#search}
+## Recherche et application de segments
 
 Tous les segments qui ont été créés dans Reports &amp; Analytics (désormais en fin de vie), Report Builder ou Data Warehouse apparaissent dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
@@ -80,9 +80,9 @@ Les filtres disponibles incluent :
 | Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
 | Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « *uniquement le nom de la suite de rapports »* dans le créateur de segments d’Adobe Analytics, puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affichera uniquement le segment de la suite de rapports sélectionnée. |
 | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
-| Autres filtres > Partagés avec moi | Affiche tous les segments que les autres ont partagés avec vous. |
+| Autres filtres > Partagés avec moi | Affiche tous les segments que d’autres ont partagés avec vous. |
 | Autres filtres > Favoris | Affiche tous les segments que vous avez marqués comme Favoris. |
-| Autres filtres > Approuvés | Affiche tous les segments officiellement acceptés. |
+| Autres filtres > Approuvés | Affiche tous les segments officiellement approuvés. |
 
 ## Ajouter un contrôle de segments à un classeur {#segment-control}
 

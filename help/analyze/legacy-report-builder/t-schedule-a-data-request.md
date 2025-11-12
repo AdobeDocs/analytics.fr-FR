@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 96%
@@ -27,7 +27,7 @@ Ainsi, vous pouvez planifier la remise immédiate des classeurs ou leur diffusio
 >[!NOTE]
 >
 >La valeur « Heure de remise »/« Heure de la journée » entrée par l’utilisateur indique l’heure à laquelle le classeur doit commencer le traitement, et non l’heure à laquelle il sera réellement remis. Le temps réel de remise du classeur dépend principalement du temps nécessaire au traitement (le traitement des classeurs complexes et volumineux prend plus de temps que celui des classeurs plus simples). Si, par exemple, le traitement d’un classeur prend 15 minutes, le temps de remise réel est au moins de 15 minutes après le délai de remise initialement spécifié.
->&#x200B;>En outre, un certain nombre d’autres facteurs peuvent allonger le délai de remise du classeur :
+>En outre, un certain nombre d’autres facteurs peuvent allonger le délai de remise du classeur :
 >
 > * **L’exécution simultanée de plusieurs planifications différentes du même type** peut entraîner une surcharge du système. Le système de planification ne permet l’exécution simultanée que de quelques classeurs (5 à 10) de n’importe quel type. Par conséquent, lorsque plus de 5 à 10 classeurs sont programmés à la fois, certains devront attendre que d’autres classeurs soient terminés avant de pouvoir commencer le traitement. Ce problème peut être réglé en planifiant les classeurs d’une entreprise à des heures décalées tout au long de la journée ou étalés sur une heure, plutôt que de tout lancer en même temps.
 > * Outre leur type, les classeurs se mettent également en file d’attente si l’entreprise dispose de **plus de 15 à 20 classeurs planifiés simultanément, quel que soit leur type**. Ceci peut être évité en échelonnant les heures de planification au lieu d’avoir plusieurs lancements en même temps.

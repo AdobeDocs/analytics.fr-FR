@@ -5,7 +5,7 @@ title: Touches de raccourci
 feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 89%
@@ -18,16 +18,16 @@ Des touches de raccourci (raccourcis clavier) sont disponibles dans Analysis Wor
 
 Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 
-- **⇧** pour **[!UICONTROL **&#x200B; Maj &#x200B;**]**.
-- **⌘** pour **[!UICONTROL **&#x200B; cmd &#x200B;**]** (commande).
-- **⌃** pour **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (contrôle).
-- **⌥** pour **[!UICONTROL **&#x200B; opt &#x200B;**]** (option).
-- **⎇** pour **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternative).
+- **⇧** pour **[!UICONTROL ** Maj **]**.
+- **⌘** pour **[!UICONTROL ** cmd **]** (commande).
+- **⌃** pour **[!UICONTROL ** ctrl **]** (contrôle).
+- **⌥** pour **[!UICONTROL ** opt **]** (option).
+- **⎇** pour **[!UICONTROL ** alt **]** (alternative).
 
 ## Actions de navigation
 
 | Action | Raccourci Mac | Raccourci Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Création d’un projet | **[!UICONTROL *Cmd+Maj+p *]** | **[!UICONTROL *Ctrl+Maj+p *]** |
 | Ouverture du projet existant | **[!UICONTROL *Cmd+o *]** | **[!UICONTROL *Ctrl+o *]** |
 | Accès au volet Panneaux | **[!UICONTROL *Opt+Maj+1 *]** | **[!UICONTROL *Alt+Maj+1 *]** |
@@ -41,7 +41,7 @@ Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 ## Actions d’analyse
 
 | Action | Raccourci Mac | Raccourci Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Recherche dans le panneau de gauche | **[!UICONTROL *Cmd+/*]** | **[!UICONTROL *Ctrl+/*]** |
 | Création d’une alerte | **[!UICONTROL *Cmd+Maj+a *]** | **[!UICONTROL *Ctrl+Maj+a *]** |
 | Création d’une mesure calculée | **[!UICONTROL *Cmd+Maj+c *]** | **[!UICONTROL *Ctrl+Maj+c *]** |
@@ -58,27 +58,27 @@ Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 ## Ajouter des panneaux et des actions de visualisation
 
 | Action | Raccourci Mac | Raccourci Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Nouveau panneau d’attribution | **[!UICONTROL *Opt+E *]** | **[!UICONTROL *Alt+E *]** |
 | Nouveau panneau vierge | **[!UICONTROL *Opt+B *]** | **[!UICONTROL *Alt+B *]** |
 | Nouveau panneau à structure libre | **[!UICONTROL *Opt+A *]** | **[!UICONTROL *Alt+A *]** |
 | Nouveau panneau Aperçu rapide | **[!UICONTROL *Opt+F *]** | **[!UICONTROL *Alt+F *]** |
 | Nouveau tableau à structure libre | **[!UICONTROL *Opt+1 *]** | **[!UICONTROL *Alt + 1 *]** |
 | Nouveau graphique linéaire | **[!UICONTROL *Opt+2 *]** | **[!UICONTROL *Alt+2 *]** |
-| Nouveau graphique à barres | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** |
+| Nouveau graphique en barres | **[!UICONTROL *Opt+3 *]** | **[!UICONTROL *Alt+3 *]** |
 | Nouveau graphique combiné | **[!UICONTROL *Opt+4 *]** | **[!UICONTROL *Alt+4 *]** |
 
 ## Déplacer les actions du panneau
 
 | Action | Raccourci Mac | Raccourci Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Déplacer le panneau vers le haut | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Haut *]** |
 | Déplacer le panneau vers le bas | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt+Ctrl+Bas *]** |
 
 ## Actions de démocratisation
 
 | Action | Raccourci Mac | Raccourci Windows |
-| --- | --- | --- | 
+| --- | --- | --- |
 | Enregistrer le projet | **[!UICONTROL *Cmd+S *]** | **[!UICONTROL *Ctrl+S *]** |
 | Enregistrer le projet sous | **[!UICONTROL *Cmd+Maj+S *]** | **[!UICONTROL *Ctrl+Maj+S *]** |
 | Enregistrer en tant que modèle | **[!UICONTROL *Opt+T *]** | **[!UICONTROL *Alt+T *]** |

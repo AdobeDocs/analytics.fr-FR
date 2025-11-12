@@ -3,7 +3,7 @@ title: Créer un flux de données
 description: Découvrez comment créer un flux de données et les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '4227'
 ht-degree: 52%
@@ -17,7 +17,7 @@ Lors de la création d’un flux de données, vous fournissez à Adobe les élé
 * Informations sur la destination vers laquelle vous souhaitez envoyer les fichiers de données brutes
 * Données à inclure dans chaque fichier
 
-Avant de créer un flux de données, il est important de comprendre les bases des flux de données et de vous assurer que vous remplissez toutes les conditions préalables. Pour plus d’informations, voir [&#x200B; Présentation des flux de données &#x200B;](data-feed-overview.md).
+Avant de créer un flux de données, il est important de comprendre les bases des flux de données et de vous assurer que vous remplissez toutes les conditions préalables. Pour plus d’informations, voir [ Présentation des flux de données ](data-feed-overview.md).
 
 ## Créer et configurer un flux de données {#create-and-configure-data-feed}
 
@@ -430,7 +430,7 @@ L’utilisateur pour lequel vous chargez des flux de données doit disposer des 
 
   >[!NOTE]
   >
-  >Pour chaque chargement vers un compartiment Amazon S3, [!DNL Analytics] ajoute le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl, que le compartiment ait ou non une politique qui le requiert. Pour plus d’informations, voir « [&#x200B; Quel paramètre BucketOwnerFullControl pour les flux de données Amazon S3 &#x200B;](df-faq.md#BucketOwnerFullControl) ».
+  >Pour chaque chargement vers un compartiment Amazon S3, [!DNL Analytics] ajoute le propriétaire du compartiment à la liste de contrôle d’accès BucketOwnerFullControl, que le compartiment ait ou non une politique qui le requiert. Pour plus d’informations, voir « [ Quel paramètre BucketOwnerFullControl pour les flux de données Amazon S3 ](df-faq.md#BucketOwnerFullControl) ».
 
 Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’algorithme de signature approprié si nécessaire) :
 

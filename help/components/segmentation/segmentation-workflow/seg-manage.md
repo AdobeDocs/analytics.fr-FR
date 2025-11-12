@@ -3,7 +3,7 @@ description: Découvrez comment utiliser le gestionnaire de segments pour gérer
 title: Gestion des segments
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 16%
@@ -27,14 +27,14 @@ Vous pouvez [partager](t-seg-share.md), [segment](t-seg-filter.md), [balise](seg
 
 Le gestionnaire de segments comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des segments &#x200B;](assets/segments-manager.png)
+![ Interface des segments ](assets/segments-manager.png)
 
 ### Liste des segments
 
 La liste des segments affiche ➊ tous les segments que vous possédez, les segments qui ont été étendus à tous vos projets et les segments qui ont été partagés avec vous. La liste comporte les colonnes suivantes :
 
 | Colonne | Description |
-| --- | --- | 
+| --- | --- |
 | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) | Sélectionnez pour favoriser ![Étoile](/help/assets/icons/Star.svg) ou annuler la préférence ![ÉtoileContour](/help/assets/icons/StarOutline.svg) un segment. Voir [Marquer le segment comme favori](t-seg-favorite.md) |
 | **[!UICONTROL Titre et description]** | Pour modifier le segment, sélectionnez le lien de titre, qui ouvre le [créateur de segments](seg-build.md). Un segment partagé est indiqué par la mention ![Partager](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Suites de rapports]** | Suite de rapports à laquelle ce segment s’applique. |
@@ -68,7 +68,7 @@ La barre de filtrage affiche ➌ les segments actifs appliqués à partir du pan
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer la liste des segments à l’aide du ![&#x200B; du panneau de gauche &#x200B;](/help/assets/icons/Filter.svg)Filtrer **&#x200B;**&#x200B;Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
+Vous pouvez filtrer la liste des segments à l’aide du ![ du panneau de gauche ](/help/assets/icons/Filter.svg)Filtrer **** Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
 
 Voir [Filtrer la liste des segments](t-seg-filter.md) pour plus d’informations.
 
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=fr) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

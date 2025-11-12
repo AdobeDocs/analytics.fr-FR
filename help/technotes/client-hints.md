@@ -4,10 +4,10 @@ description: Découvrez comment les indications du client remplaceront progressi
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,7 @@ Les indications du client seront intégrées au processus de recherche d’appar
 >
 > Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](/help/components/dimensions/operating-systems.md) pour plus d’informations.
 
-Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 ## Questions fréquentes
 
@@ -64,14 +64,14 @@ Notez que fullVersionList n’est actuellement pas collecté, car la version maj
 Le tableau ci-dessous décrit les indications du client depuis octobre 2022.
 
 | Indication | Description | Entropie élevée ou faible | Exemple |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | Navigateur et version significative | Faible | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Appareil mobile (true ou false) | Faible | `true` |
 | Sec-CH-UA-Platform | Système d’exploitation/plateforme | Faible | `"Android"` |
 | architecture | Architecture du site | Élevé | `"arm"` |
 | agressivité | Bitness d’architecture | Élevé | `"64"` |
 | fullVersionList | Liste des marques avec leur version | Élevé | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| model | Modèle d’appareil | Élevé | `"Pixel 3"` |
+| modèle | Modèle d’appareil | Élevé | `"Pixel 3"` |
 | platformVersion | Version du système d’exploitation/de la plateforme | Élevé | `"10"` |
 
 * Les indications à faible entropie sont collectées via l’en-tête de la requête.
@@ -159,6 +159,6 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?** 
 
-Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++

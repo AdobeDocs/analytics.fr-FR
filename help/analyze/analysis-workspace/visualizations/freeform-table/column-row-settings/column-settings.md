@@ -5,7 +5,7 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '865'
 ht-degree: 98%
@@ -20,7 +20,7 @@ Grâce aux [!UICONTROL paramètres des colonnes], vous pouvez configurer la mise
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres des lignes et des colonnes dans un tableau à structure libre](https://video.tv.adobe.com/v/328500/?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres des lignes et des colonnes dans un tableau à structure libre](https://video.tv.adobe.com/v/40382/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,13 @@ Vous pouvez modifier les paramètres pour plusieurs colonnes à la fois. Sélect
 | **[!UICONTROL Afficher le total général]** | Affichez une somme côté serveur de la colonne. Le total général déduplique les mesures telles que les sessions ou les personnes. |
 | **[!UICONTROL Afficher les graphiques sparkline]** | Affichez un graphique en courbes dans l’en-tête des colonnes. |
 | **[!UICONTROL Nombre]** | Déterminez si une cellule affiche/masque la valeur numérique pour la mesure. Par exemple, si la mesure est Pages vues, la valeur numérique correspond au nombre de pages vues pour l’élément de ligne. |
-| **[!UICONTROL Pour cent]** | Déterminez si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne. Remarque : des pourcentages supérieurs à 100 % sont possibles pour garantir l’exactitude. La limite supérieure peut passer à 1 000 % pour éviter que la largeur des colonnes ne devienne trop grande. |
+| **[!UICONTROL Pourcentage]** | Déterminez si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne. Remarque : des pourcentages supérieurs à 100 % sont possibles pour garantir l’exactitude. La limite supérieure peut passer à 1 000 % pour éviter que la largeur des colonnes ne devienne trop grande. |
 | **[!UICONTROL Afficher les anomalies]** | Déterminez si la détection des anomalies est exécutée sur les valeurs de cette colonne. |
 | **[!UICONTROL Afficher la prévision]** | Déterminez si les valeurs de prévision sont affichées dans cette colonne. |
 | **[!UICONTROL Renvoyer à la ligne le texte d’en-tête]** | Renvoyez à la ligne le texte de l’en-tête dans les tableaux à structure libre afin de rendre les en-têtes plus lisibles et les tableaux plus faciles à partager. Le renvoi à la ligne est utile pour le rendu PDF et pour les mesures dont le nom est long. Activé par défaut. |
 | **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]** | Pour les cellules dont la valeur est 0, déterminez s’il convient d’afficher un 0 ou une cellule vierge. Ce paramètre est utile lorsque vous examinez les données pour chaque jour d’un mois et que certains jours n’ont pas encore eu lieu. Des cellules vierges peuvent être affichées au lieu de 0 pour les dates futures. Les graphiques respectent également ce paramètre (en d’autres termes, ils n’affichent pas de ligne ou de barre avec des valeurs 0). |
-| **[!UICONTROL Arrière-plan]** | Déterminez si une cellule affiche/masque toute la mise en forme de cellule, y compris le graphique à barres et la mise en forme conditionnelle. |
-| **[!UICONTROL Graphique à barres]** | Affichez un graphique à barres horizontales représentant la valeur de la cellule par rapport au total de la colonne. |
+| **[!UICONTROL Arrière-plan]** | Déterminez si une cellule affiche/masque toute la mise en forme de cellule, y compris le graphique en barres et la mise en forme conditionnelle. |
+| **[!UICONTROL Graphique en barres]** | Affichez un graphique en barres horizontales représentant la valeur de la cellule par rapport au total de la colonne. |
 | **[!UICONTROL Mise en forme conditionnelle]** | Utilisez la mise en forme conditionnelle. Voir la [section](#conditional-formatting) ci-dessous. |
 | **[!UICONTROL Aperçu des cellules de tableau]** | Aperçu de l’aspect de chaque cellule après application des options de mise en forme actuellement sélectionnées. |
 | **[!UICONTROL Utiliser le modèle d’attribution différent du modèle par défaut]** | Utilisez un modèle d’attribution différent du modèle par défaut. Voir la [section](#use-non-default-attribution-model) ci-dessous. |
@@ -130,7 +130,7 @@ Pour utiliser un modèle d’attribution autre que celui par défaut pour une me
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/39117?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

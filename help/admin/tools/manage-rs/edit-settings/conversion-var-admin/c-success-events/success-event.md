@@ -5,10 +5,10 @@ title: Événements de succès - Présentation
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '937'
-ht-degree: 54%
+ht-degree: 51%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 54%
 
 Les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si une personne achète un article, l’achat peut être considéré comme un événement de succès.
 
-Pour obtenir un aperçu vidéo des événements de succès, voir [Présentation des événements de conversion](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) dans le guide des tutoriels Analytics.
+Pour obtenir un aperçu vidéo des événements de succès, voir [Présentation des événements de conversion](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) dans le guide des tutoriels Analytics.
 
 ## Exemples d’événements de succès
 
@@ -56,7 +56,7 @@ Pour configurer des événements de succès :
    >
    >Tenez compte des points suivants lors de la modification du type d’événement :<ul><li>Vous pouvez changer le type d’événement entre compteur et numérique sans perdre l’accès aux données capturées précédemment.</li><li>Lorsque vous modifiez les types d’événement en devise ou à partir d’un événement de devise, un message s’affiche indiquant que les données historiques ne sont pas disponibles dans les rapports. Les différents types d’événement utilisent des tableaux de données distincts, et ne peuvent pas être utilisés simultanément. Certaines données historiques peuvent être restaurées si l’utilisateur rétablit le type d’événement. Toutefois, les données collectées après la modification initiale ne sont pas disponibles.</li></ul>
 
-   Le type que vous sélectionnez détermine s’il s’agit d’un événement de compteur (standard), numérique ou monétaire. <p>Les événements de compteur sont utilisés pour enregistrer un événement dans le temps.</p><p>Les événements numériques servent à générer des rapports sur les numéros qui ne sont pas des numéros de devise, tels que le nombre de coupons utilisés dans une commande.</p> <p>Les événements de devise enregistrent un nombre décimal, comme les taxes ou les frais d’expédition. La valeur transmise aux événements de devise est convertie depuis la devise de la page vers la devise de base de la suite de rapports dès réception. Les événements monétaires sont utilisés pour le suivi des impôts et des frais d’expédition. Pour plus d’informations sur l’utilisation d’événements de devise, contactez un représentant Adobe.<p>Les événements numériques et monétaires vous permettent d’incrémenter les mesures de plus d’une unité.</p><p>Les événements utilisés dans le type standard de Sources de données doivent être numériques ou monétaires.</p>
+   Le type que vous sélectionnez détermine s’il s’agit d’un événement de compteur (standard), numérique ou monétaire. <p>Les événements de compteur sont utilisés pour enregistrer un événement dans le temps.</p><p>Les événements numériques servent à générer des rapports sur les numéros qui ne sont pas des numéros de devise, tels que le nombre de coupons utilisés dans une commande.</p> <p>Les événements de devise enregistrent un nombre décimal, comme les taxes ou les frais d’expédition. La valeur transmise aux événements de devise est convertie depuis la devise de la page vers la devise de base de la suite de rapports dès réception. Les événements monétaires sont utilisés pour le suivi des impôts et des frais d’expédition. Pour plus d’informations sur l’utilisation des événements de devise, contactez un représentant Adobe.<p>Les événements numériques et monétaires vous permettent d’incrémenter les mesures de plusieurs éléments.</p><p>Les événements utilisés dans le type standard de Sources de données doivent être numériques ou monétaires.</p>
 
 1. Dans la colonne **[!UICONTROL Polarité]**, cochez la case, puis choisissez dans le menu déroulant si une tendance à la hausse de cette mesure est bonne ou mauvaise.
 
@@ -68,10 +68,10 @@ Pour configurer des événements de succès :
 
    Les paramètres suivants sont disponibles :
 
-   | Paramètre | Visible dans | Masqué dans |
+   | Paramètre | Visible dans | Non visible dans |
    |---------|----------|---------|
    | [!UICONTROL **Visible partout**] | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
-   | [!UICONTROL **Créateurs**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Builders**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
 
 1. Dans la colonne [!UICONTROL **Description**], cochez la case, puis fournissez une description.

@@ -3,7 +3,7 @@ description: Découvrez le créateur de mesures calculées qui fournit une zone 
 title: Créer des mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 100%
@@ -186,7 +186,7 @@ Pour supprimer un conteneur, sélectionnez ![Fermer](/help/assets/icons/Close.sv
 >[!MORELIKETHIS]
 >
 >[Utilisation des fonctions](cm-using-functions.md)
->>[Segments](/help/components/segmentation/seg-overview.md)
+>[Segments](/help/components/segmentation/seg-overview.md)
 >
 
 

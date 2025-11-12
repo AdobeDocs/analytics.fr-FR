@@ -1,12 +1,12 @@
 ---
 description: Découvrez comment partager, filtrer, baliser, approuver, copier, supprimer des mesures calculées et les marquer comme favoris.
-title: Gérer les mesures calculées
+title: Gestion des mesures calculées
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 29%
+ht-degree: 28%
 
 ---
 
@@ -32,7 +32,7 @@ La liste des mesures calculées ➊ affiche toutes les mesures calculées que vo
 <!-- I think this table incorrectly talks about quick calculated metrics -->
 
 | Colonne | Description |
-| --- | --- | 
+| --- | --- |
 | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) | Sélectionnez pour favoriser ![Étoile](/help/assets/icons/Star.svg) ou annuler l’avantage ![ÉtoileContour](/help/assets/icons/StarOutline.svg) une mesure calculée. Voir [Marquer la mesure calculée comme favori](cm-favorite.md) |
 | **[!UICONTROL Titre et description]** | Pour modifier la mesure calculée, sélectionnez le lien du titre, qui ouvre le [créateur de mesures calculées](c-build-metrics/cm-build-metrics.md). Une mesure calculée partagée est indiquée par ![Partager](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Suite de rapports]** | Suites de rapports auxquelles cette mesure calculée s’applique. |
@@ -59,7 +59,7 @@ Vous pouvez agir sur les filtres à l’aide de la barre d’actions ➋. La bar
 | ![Partager](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Partager]** | Partagez les mesures calculées sélectionnées. Dans la boîte de dialogue **[!UICONTROL Partager les mesures calculées]**, vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des individus ou des groupes* ou sélectionner **[!UICONTROL Organisation]** ou **[!UICONTROL Groupes]**. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les détails de partage pour les mesures calculées sélectionnées. Voir [Partage de mesures calculées](cm-sharing.md) pour plus d’informations. |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez les mesures calculées sélectionnées. Il vous est demandé de confirmer. |
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Renommer]** | Renommez une mesure calculée sélectionnée unique. Lorsque cette option est sélectionnée, vous pouvez renommer la mesure calculée en ligne. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Approuver les mesures calculées sélectionnées. Voir [&#x200B; Approuver les mesures calculées &#x200B;](cm-approving.md). |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Approuver les mesures calculées sélectionnées. Voir [ Approuver les mesures calculées ](cm-approving.md). |
 | ![Copier](/help/assets/icons/Copy.svg) | **[!UICONTROL Copier]** | Copiez les mesures calculées sélectionnées. De nouvelles mesures calculées sont créées avec le même nom et le même suffixe `(Copy)` |
 | ![Fichier CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exporter dans un fichier CSV]** | Exportez les mesures calculées dans un fichier `Calculated  metric List.csv`. |
 
@@ -69,7 +69,7 @@ La barre de filtrage affiche ➌ les filtres actifs appliqués à partir du pann
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer la liste des mesures calculées à l’aide du ![&#x200B; du panneau de gauche &#x200B;](/help/assets/icons/Filter.svg)Filtrer **&#x200B;**&#x200B;Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de mesures calculées qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
+Vous pouvez filtrer la liste des mesures calculées à l’aide du ![ du panneau de gauche ](/help/assets/icons/Filter.svg)Filtrer **** Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de mesures calculées qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
 
 Voir [Filtrer la liste des mesures calculées](cm-filter.md) pour plus d’informations.
 

@@ -4,7 +4,7 @@ description: Comprenez chaque élément d’autorisation sous Outils de suites d
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: 1dba07de2836699ceaad31b4bd3149c169c51211
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 78%
@@ -43,10 +43,10 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | [!UICONTROL Recherche payante] | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Règles de traitement] | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
-| [!UICONTROL &#x200B; Rapport en temps réel &#x200B;] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
+| [!UICONTROL  Rapport en temps réel ] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
 | [!UICONTROL Administrateurs du gestionnaire des activités de rapport] | Inutilisé. |
 | [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
-| [!UICONTROL &#x200B; Gestion des suites de rapports &#x200B;] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
+| [!UICONTROL  Gestion des suites de rapports ] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
 | [!UICONTROL Visites renouvelées] | Inutilisé. |
 | [!UICONTROL Petit rapport Résumé de l’entreprise du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport externe Tableau de bord R&amp;A] | Inutilisé. |

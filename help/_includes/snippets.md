@@ -1,5 +1,5 @@
 ---
-source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '2999'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
->&#x200B;>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
+>Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -94,7 +94,7 @@ Un conteneur d’attribution définit la portée souhaitée pour l’attribution
 
 Un intervalle de recherche en amont est la durée pendant laquelle une conversion doit faire une recherche en amont pour inclure des points de contact. Si un élément de dimension est défini en dehors de l’intervalle de recherche en amont, la valeur n’est incluse dans aucun calcul d’attribution.
 
-* **[!UICONTROL Intervalle de création de rapports]** : remonte au début de l’intervalle de création de rapports à partir du moment où la conversion a eu lieu.
+* **[!UICONTROL Intervalle de rapport]** : remonte au début de l’intervalle de rapport, à partir du moment où la conversion a eu lieu.
 * **14 jours** : remonte jusqu’à 14 jours en arrière à partir du moment où la conversion a eu lieu.
 * **30 jours** : remonte jusqu’à 30 jours en arrière à partir du moment où la conversion a eu lieu.
 * **60 jours** : remonte jusqu’à 60 jours en arrière à partir du moment où la conversion a eu lieu.

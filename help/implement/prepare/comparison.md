@@ -4,10 +4,10 @@ description: Découvrez les avantages de chaque méthode d’envoi de données �
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 41%
+ht-degree: 40%
 
 ---
 
@@ -31,7 +31,7 @@ Comparez chaque méthode d’implémentation d’Adobe Analytics. Vous pouvez ut
 
 >[!CAUTION]
 >
->La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Consultez la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=fr) pour plus d’informations.
+>La prise en charge des SDK mobiles version 4 a pris fin le 31 août 2021. Consultez la [FAQ sur la fin de vie d’Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html) pour plus d’informations.
 
 
 | | [SDK mobile](/help/implement/aep-edge/mobile-sdk/overview.md) | [API Edge Network](/help/implement/aep-edge/api/overview.md) |

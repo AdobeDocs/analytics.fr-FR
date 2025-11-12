@@ -4,7 +4,7 @@ title: Exemples dʼétiquetage
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -42,12 +42,13 @@ Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valeurs de l’API</th>
-    <th rowspan="2"><br/>Type de fichier<br/> récapitulatif renvoyé</th>
+    <th><br/>Type de fichier<br/> récapitulatif renvoyé</th>
     <th colspan="5" style="text-align:center">Données du fichier d’accès récapitulatif</th>
   </tr>
   <tr>
     <th>Espace de noms/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>Identifiant visiteur</th>
     <th>MyEvar1</th>

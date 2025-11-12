@@ -1,13 +1,13 @@
 ---
-title: Gérer les plages de dates
+title: Gérer les périodes
 description: Découvrez comment gérer les périodes dans Analysis Workspace.
 feature: Date Ranges
 role: User
 exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
-source-git-commit: ff38740116ac6f12033ebdc17cffa3250a30f3f7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -23,14 +23,14 @@ Vous pouvez partager, filtrer, baliser, approuver, copier, partager et supprimer
 
 Le gestionnaire de périodes comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des périodes &#x200B;](assets/date-ranges-manager.png)
+![ Interface des périodes ](assets/date-ranges-manager.png)
 
 ### Liste des périodes
 
 La liste des périodes affiche ➊ toutes les périodes. La liste comporte les colonnes suivantes :
 
 | Colonne | Description |
-| --- | --- | 
+| --- | --- |
 | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) | Sélectionnez pour privilégier ![Étoile](/help/assets/icons/Star.svg) ou ne pas privilégier ![ÉtoileContour](/help/assets/icons/StarOutline.svg) une période. |
 | **[!UICONTROL Titre et description]** | Pour modifier le titre et la description, sélectionnez le lien du titre, qui ouvre le [créateur de périodes](create.md#date-range-builder). |
 | **[!UICONTROL Propriétaire]** | Propriétaire de la période. |
@@ -92,7 +92,7 @@ Vous pouvez modifier une période de deux manières :
 
 * Dans un projet Workspace, utilisez l’icône [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info).
 
-* Dans la liste [[!UICONTROL Périodes] , choisissez &#x200B;](#date-ranges-list) titre de la période.
+* Dans la liste [[!UICONTROL Périodes] , choisissez ](#date-ranges-list) titre de la période.
 
 Vous utilisez le [créateur de périodes](create.md#date-range-builder) pour modifier la période.
 

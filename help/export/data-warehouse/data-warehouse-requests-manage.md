@@ -4,7 +4,7 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 4%
@@ -59,7 +59,7 @@ Pour modifier une demande planifiée :
 
 1. Modifiez la requête selon vos besoins. Les options de configuration estompées ne peuvent pas être modifiées.
 
-   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 
@@ -121,7 +121,7 @@ Lorsque vous copiez une demande, toutes les options de configuration sont copié
 
 1. Mettez à jour toutes les options de configuration associées à la requête.
 
-   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 
