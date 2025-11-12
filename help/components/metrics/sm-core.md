@@ -1,6 +1,6 @@
 ---
 title: Mesures principales des services de streaming multimédia
-description: Mesures disponibles lorsque vous activez [!UICONTROL  Media Core ] pour une suite de rapports.
+description: Mesures disponibles lorsque vous activez [!UICONTROL &#x200B; Media Core &#x200B;] pour une suite de rapports.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
 source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
