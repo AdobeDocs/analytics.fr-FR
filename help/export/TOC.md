@@ -59,7 +59,7 @@ ht-degree: 100%
       + [Flux de données](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Rapports distribués sur Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Rapports distribués sur le Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
-      + [Contrats de services techniques Adobe Engineering Services à l’aide du FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
+      + [Engagements de services techniques Adobe Engineering Services avec FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [Limitations du FTP et conservation des données](ftp-and-sftp/ftp-limits.md)
    + [Suppression des données et des comptes liés au FTP](ftp-and-sftp/ftp-delete.md)
    + [Restauration des données et des comptes FTP supprimés](ftp-and-sftp/ftp-restore.md)

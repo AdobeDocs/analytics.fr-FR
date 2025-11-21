@@ -6,8 +6,8 @@ breadcrumb-title: Guide d’import
 user-guide-description: Insérez des données dans Adobe Analytics à partir des sources externes, en bloc ou en temps réel.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
