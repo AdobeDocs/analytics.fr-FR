@@ -3,18 +3,25 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 2%
+source-wordcount: '981'
+ht-degree: 1%
 
 ---
 
 # Créer et modifier des consolidations de classification
 
-Les consolidations des jeux de classifications vous permettent de prendre des classifications à partir de plusieurs jeux de données et de les combiner en un seul. Utilisez cette interface pour créer une consolidation d’ensemble de classifications du début à la fin. Cette interface est particulièrement utile pour les organisations qui passent des classifications héritées à des ensembles de classifications. La plupart des organisations qui utilisent déjà des ensembles de classifications n’ont probablement pas besoin d’utiliser ce workflow de consolidation.
+Une consolidation d’ensembles de classifications vous permet de prendre des classifications provenant de plusieurs ensembles de classifications et de les combiner en un seul. Utilisez cette interface pour créer une consolidation d’ensemble de classifications du début à la fin. Cette interface est particulièrement utile pour les organisations qui passent des classifications héritées aux ensembles de classifications. Les organisations qui utilisent déjà des ensembles de classifications n’ont pas besoin d’utiliser ce workflow de consolidation.
 
-## Création d’une consolidation
+## Création d’une consolidation {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="Priorité du jeu de classifications"
+>abstract="Le ![Clé](/help/assets/icons/Key.svg) *ensemble de classifications* est l’ensemble de classifications de base et définit le schéma global ; il est prioritaire dans tous les conflits de fusion. Les autres ensembles de classifications sont appliqués dans l’ordre de haut en bas."
+
 
 Pour créer une consolidation des classifications, dans l’interface principale d’Adobe Analytics :
 
@@ -29,11 +36,13 @@ Pour créer une consolidation des classifications, dans l’interface principale
    1. Saisissez une ou plusieurs adresses e-mail (séparées par des virgules) dans **[!UICONTROL Notifier les problèmes]**. Des notifications par e-mail sont envoyées à ces utilisateurs pour les informer de problèmes éventuels.
    1. Sélectionnez un ensemble de classifications dans le menu déroulant **[!UICONTROL Ensemble de classifications à faire correspondre]**.
 
-      La liste de gauche **[!UICONTROL Ensemble de classifications Source]** est remplie avec des ensembles de classifications similaires à la liste de classifications sélectionnée et disponibles pour la consolidation.
+      La liste de gauche **[!UICONTROL Ensemble de classifications Source]** est remplie avec des ensembles de classifications similaires à la liste de classifications sélectionnée et disponibles pour la consolidation. La liste de droite est automatiquement renseignée avec l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) sélectionné. Cet ensemble de base a défini le schéma global et est toujours prioritaire en cas de conflit de fusion.
 
-   1. Sélectionnez les ensembles de classifications à consolider dans la liste de gauche, puis déposez les ensembles sélectionnés dans la liste de droite, sous l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) **[!UICONTROL _sélectionné_]**.
+   1. Sélectionnez les ensembles de classifications à consolider dans la liste de gauche, puis déposez les ensembles sélectionnés dans la liste de droite, sous l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) de base **[!UICONTROL _sélectionné_]**.
 
-      Vous pouvez déplacer des ensembles de classifications individuels et sélectionnés dans la liste. Vous pouvez également remplacer la ![Clé](/help/assets/icons/Key.svg) **[!UICONTROL _ensemble de classifications_]** par un ensemble de classifications sélectionné par un glisser-déposer.
+      Les ensembles de classifications supplémentaires sont consolidés par ordre croissant lorsque vous exécutez la consolidation. Si une clé existe dans plusieurs ensembles supplémentaires, la valeur de la clé de l’ensemble de classifications le plus élevé est prise. Si une clé existe à la fois dans le jeu de base ![Key](/help/assets/icons/Key.svg) et dans tout jeu supplémentaire, la valeur du jeu de base est utilisée.
+
+      Pour gérer les valeurs des clés utilisées, déplacez les ensembles de classifications individuels et sélectionnés dans la liste par glisser-déposer. Vous pouvez également remplacer la ![Clé](/help/assets/icons/Key.svg) **[!UICONTROL _ensemble de classifications_]** par un ensemble de classifications sélectionné par un glisser-déposer.
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la consolidation de classification. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
@@ -75,7 +84,7 @@ Pour modifier une consolidation de classification, dans l’interface principale
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|
@@ -96,7 +105,7 @@ Pour valider à nouveau la consolidation de classification :
 
 1. Reconfigurez la consolidation à l’aide de la même interface de glisser-déposer que celle utilisée pour créer la consolidation.
 1. Sélectionnez ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Revalider]**. La validation garantit que chaque ensemble de classifications individuel est valide pour cette consolidation. En cas de réussite, un message de toast s’affiche : ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Consolidation soumise avec succès pour validation !]**
-1. Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour fermer la boîte de dialogue. Vous pouvez également sélectionner ![Lire](/help/assets/icons/Play.svg) Exécuter pour exécuter la consolidation ou ![Annuler](/help/assets/icons/Cancel.svg) Annuler pour annuler la classification.
+1. Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour fermer la boîte de dialogue. Vous pouvez également sélectionner ![Lire](/help/assets/icons/Play.svg) **[!UICONTROL Exécuter]** pour exécuter la consolidation ou ![Annuler](/help/assets/icons/Cancel.svg) **[!UICONTROL Annuler]** pour annuler la classification.
 
 
 
@@ -115,9 +124,20 @@ Pour exécuter une consolidation de classification, procédez comme suit :
 1. Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour fermer la boîte de dialogue.
 
 
-### Approuver
+### Approuver {#approve}
 
-Une fois qu’une consolidation de classification a été exécutée avec succès, le statut de consolidation est **[!UICONTROL En attente d’approbation]**. L’approbation d’une consolidation de classification remplace les ensembles de classifications individuels par l’ensemble de classifications consolidé et les ensembles de classifications individuels sont supprimés.
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Discordance"
+>abstract="Pourcentage d’incohérences clés lorsque la valeur de l’ensemble de classifications consolidé ne correspond pas à l’ensemble de classifications source."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Absent"
+>abstract="Le pourcentage de clés dans l’ensemble de classifications consolidé, mais pas dans l’ensemble de classifications source."
+
+Une fois qu’une consolidation de classification a été exécutée avec succès, le statut de consolidation est ![StatutOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL En attente d’approbation]**. L’approbation d’une consolidation de classification remplace les ensembles de classifications individuels par l’ensemble de classifications consolidé et les ensembles de classifications individuels sont supprimés.
 
 ![Jeux de classifications - Consolidation en attente d’approbation](assets/classifications-sets-consolidations-waitingforapproval.png)
 

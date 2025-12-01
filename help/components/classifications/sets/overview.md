@@ -3,10 +3,10 @@ title: Présentation des ensembles de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Comprenez en quoi les ensembles de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 11%
+source-wordcount: '950'
+ht-degree: 9%
 
 ---
 
@@ -17,15 +17,28 @@ Les jeux de classifications fournissent une interface unique pour gérer les cla
 
 ## Jeux de classifications et classifications héritées
 
-La principale différence entre les ensembles de classifications et les classifications héritées réside dans la relation entre les classifications et une suite de rapports.
+La principale différence entre les ensembles de classifications et les classifications héritées réside dans le fait que les ensembles de classifications combinent toutes les fonctionnalités dans une seule interface où les classifications héritées reposent sur trois interfaces.
 
-Dans les classifications héritées, chaque classification est directement liée à une suite de rapports. Des classifications très similaires (par exemple, pour un catalogue de produits) sont répliquées lorsqu’elles sont utilisées dans plusieurs suites de rapports.
+### Classifications héritées
 
-![Classification héritée](manage/assets/classifications-legacy.svg)
+![Classification héritée](./assets/classifications-legacy.svg)
 
-Dans les ensembles de classifications, vous définissez les abonnements aux suites de rapports et aux combinaisons de dimensions clés. Par exemple, une classification de catalogue de produits applicable à plusieurs suites de rapports et basée sur une dimension de produit (SKU) que vous ne devez définir qu’une seule fois en tant que jeu de classifications. Et au sein de cet ensemble de classifications, vous configurez plusieurs suites de rapports et combinaisons de dimensions clés pour vous abonner à cet ensemble de classifications.
+Dans les classifications héritées, les classifications ![Schéma](/help/assets/icons2/Schema.svg) (comme pour le trafic, les conversions, les canaux marketing, etc.) ont chacune leur propre dimension (clé ![clé](/help/assets/icons2/Key.svg)). Vous définissez ces classifications dans le cadre de vos [paramètres de suite de rapports](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
-![Jeux de classifications](manage/assets/classifications-sets.svg)
+Vous définissez les règles ![BidRule](/help/assets/icons/BidRule.svg) séparément dans les jeux de règles au sein de l’interface [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md). Dans cette interface, vous associez un jeu de règles à une ou plusieurs suites de rapports.
+
+Utilisez l’[importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour télécharger un modèle ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), importer des classifications ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) ou exporter des classifications ![Télécharger](/help/assets/icons/Download.svg) à partir d’une suite de rapports - combinaison clé (jeu de données).
+
+
+### Jeux de classifications
+
+![Jeux de classifications](./assets/classifications-sets.svg)
+
+Les ensembles de classifications combinent toutes les interfaces de classification héritées en une seule. Chaque ensemble de classifications définit :
+
+* Un ou plusieurs abonnements, qui sont la combinaison d’une suite de rapports ![Données](/help/assets/icons2/Data.svg) et de la dimension ![Clé](/help/assets/icons2/Key.svg) (clé), que vous souhaitez classer. Si vous souhaitez classer les produits en fonction d’un SKU de produit, vous pouvez définir toutes les suites de rapports avec une dimension de SKU de produit applicable. De plus, vous n’avez pas à répliquer les classifications entre les suites de rapports comme dans l’interface des classifications héritées.
+* Une liste de classifications ![Schéma](/help/assets/icons2/Schema.svg) (schéma) pour la clé. Par exemple, pour les classifications de produits, vous pouvez spécifier la catégorie, la couleur, la taille, le genre, etc. Une fois vos classifications définies, vous pouvez télécharger un modèle ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), charger des données de classification ![UploadToCloud](/help/assets/icons/UploadToCloud.svg), télécharger des données de classification ![Download](/help/assets/icons/Download.svg), etc.
+* Une ou plusieurs règles ![BidRule](/help/assets/icons/BidRule.svg) pour prendre en charge les classifications.
 
 
 Pour accéder au menu **[!UICONTROL Ensembles de classifications]** à partir du menu **[!UICONTROL Composants]** dans l’interface d’Adobe Analytics, vous devez être un administrateur de produit ou appartenir à un profil de produit contenant l’élément d’autorisation [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications] . Notez que les interfaces de gestion des classifications héritées sont disponibles à partir du menu **[!UICONTROL Admin]**.
@@ -81,6 +94,8 @@ Le workflow des ensembles de classifications implique généralement les étapes
 
 1. [Chargez](/help/components/classifications/sets/manage/schema.md#upload) le fichier qui contient les données de classification dans le schéma de l’ensemble de classifications.
 
+1. Configurez [règles](manage/rules.md) pour classer automatiquement les données entrantes et les données du passé.
+
 1. [Automatiser](/help/components/classifications/sets/manage/schema.md#automate) processus de mises à jour de votre catalogue de produits que vous souhaitez voir répercuter dans les données de classification à l’aide d’un emplacement cloud.
 
 1. [Télécharger](/help/components/classifications/sets/manage/schema.md#download) vos données de classification pour valider le contenu.
@@ -96,7 +111,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 

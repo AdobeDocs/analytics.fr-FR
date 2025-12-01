@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: c21fb7162a99bc09456e15ff0f1a7a0d2f386098
+source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 99%
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -270,7 +270,7 @@ ht-degree: 99%
          + [Paramètres](classifications/sets/manage/settings.md)
          + [Schéma](classifications/sets/manage/schema.md)
          + [Règles](classifications/sets/manage/rules.md)
-         + [Règles nouvelles](classifications/set/manage/../../sets/manage/rules-new.md)
+         + [Règles nouvelles](classifications/sets/manage/rules-new.md)
       + [Traitements de classification](classifications/sets/job-manager.md)
       + Consolidations de classification {#consolidations}
          + [Gérer](classifications/sets/consolidations/manage.md)
