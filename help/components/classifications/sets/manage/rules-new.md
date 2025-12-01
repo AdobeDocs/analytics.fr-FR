@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: bccb3409875336a092ab641ad69b866b43621984
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 13%
@@ -67,7 +67,7 @@ Lorsque vous créez ou modifiez des règles, vous utilisez l’interface d’ens
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -135,7 +135,7 @@ Saisissez une valeur pour **[!UICONTROL Contient]**. Par exemple : `2025`.
 
 Vous souhaitez définir une règle pour affecter automatiquement des `2025` en tant que valeur à la classification **[!UICONTROL Année]** lorsque la valeur de la dimension clé Campagne interne se termine par `2025` (par exemple : `em:FY2025:Summer Sale`).
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 +++
 
@@ -173,7 +173,7 @@ Saisissez une valeur pour **[!UICONTROL Expression régulière]**. Par exemple 
 
 Vous souhaitez définir une règle pour affecter automatiquement des valeurs aux classifications **[!UICONTROL Canal]**, **[!UICONTROL Type]** et **[!UICONTROL Année]** en appliquant le `^(.+)\:(.+)\:(.+)$` d’expression régulière et en utilisant des groupes de correspondance (`$1`, `$2` et `$3`) aux valeurs de la dimension clé Campagne interne.
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 
 #### Tableau de référence {#section_0211DCB1760042099CCD3ED7A665D716}
@@ -221,9 +221,9 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération Défin
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
-* Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys vs. Broncos`, `Team` est classé comme **[!UICONTROL Type]**.
+* Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys vs. Broncos`, `Team` est classé comme **[!UICONTROL Type]**.
 

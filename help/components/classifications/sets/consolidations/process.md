@@ -3,9 +3,9 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '982'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Une consolidation d’ensembles de classifications vous permet de prendre des cl
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorité du jeu de classifications"
->abstract="Le ![Clé](/help/assets/icons/Key.svg) *ensemble de classifications* est l’ensemble de classifications de base et définit le schéma global ; il est prioritaire dans tous les conflits de fusion. Les autres ensembles de classifications sont appliqués dans l’ordre de haut en bas."
+>abstract="Le ![Clé](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *ensemble de classifications* est l’ensemble de classifications de base et définit le schéma global ; il est prioritaire dans tous les conflits de fusion. Les autres ensembles de classifications sont appliqués dans l’ordre de haut en bas."
 
 
 Pour créer une consolidation des classifications, dans l’interface principale d’Adobe Analytics :
@@ -84,7 +84,7 @@ Pour modifier une consolidation de classification, dans l’interface principale
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|
