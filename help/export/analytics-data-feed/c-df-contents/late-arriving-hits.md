@@ -3,14 +3,23 @@ title: Accès tardifs
 description: Découvrez comment les flux de données traitent les accès tardifs.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 85%
+source-wordcount: '363'
+ht-degree: 70%
 
 ---
 
-# Accès tardifs
+# Accès tardifs {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Autoriser les accès en retard"
+>abstract="Sélectionnez cette option pour inclure les données arrivées une fois que la tâche de flux de données a terminé le traitement des données dans la fréquence de création de rapports définie (tous les jours, toutes les heures ou toutes les 15 minutes). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il examine les accès tardifs arrivés et les transfère par lots avec le fichier de flux de données suivant envoyé."
+
+<!-- markdownlint-enable MD034 -->
 
 Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données. Adobe fournit les accès tardifs en tant que paramètre de personnalisation du serveur principal pour aider à inclure ces données dans les flux de données.
 
