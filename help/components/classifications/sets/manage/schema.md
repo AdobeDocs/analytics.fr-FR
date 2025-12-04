@@ -156,14 +156,14 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
 >id="classificationsets_schema_automate_locationaccount"
 >title="Emplacement du compte"
 >abstract="Liste des comptes d’emplacement des types de compte qui prennent en charge l’importation des données de classification. Sélectionnez **[!UICONTROL Nouveau compte]** pour créer un compte d’emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configuration des comptes d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=fr" text="Configuration des comptes d’import et d’export cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Emplacement"
 >abstract="Liste des emplacements du compte d’emplacement sélectionné qui prennent en charge l’importation de données de classification. Sélectionnez **[!UICONTROL Nouvel emplacement]** pour créer un emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configuration des emplacements d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=fr" text="Configuration des emplacements d’import et d’export cloud"
 
 
 Pour automatiser l’ingestion des classifications, sélectionnez ![Engrenage](/help/assets/icons/Gear.svg) **[!UICONTROL Automatiser]**.
