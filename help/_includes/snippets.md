@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '2999'
+source-wordcount: '2991'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
 >Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 >[!WARNING]
 >
->L’importateur de classifications est obsolète et ne sera plus accessible après le **31 août 2026**. Passez à l’expérience [Ensembles de classifications](/help/components/classifications/sets/overview.md) pour garantir la continuité des fonctionnalités.
+>L’importateur de classifications sera abandonné le **31 août 2026**. Passez à l’expérience [Ensembles de classifications](/help/components/classifications/sets/overview.md) pour garantir la continuité des fonctionnalités.
 >
 
 
@@ -203,6 +203,6 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 >[!WARNING]
 >
->Le créateur de règles de classification est obsolète et ne sera plus accessible après le **31 août 2026**. Passez à l’expérience [Ensembles de classifications](/help/components/classifications/sets/overview.md), une fois disponible, pour assurer la continuité des fonctionnalités.
+>Le créateur de règles de classification sera abandonné le **31 août 2026**. Passez à l’expérience [Règles des ensembles de classifications](/help/components/classifications/sets/manage/rules.md) une fois disponible, pour assurer la continuité des fonctionnalités.
 >
 

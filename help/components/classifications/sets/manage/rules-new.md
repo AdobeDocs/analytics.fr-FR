@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 13%
+source-wordcount: '1578'
+ht-degree: 12%
 
 ---
 
@@ -67,7 +67,7 @@ Lorsque vous créez ou modifiez des règles, vous utilisez l’interface d’ens
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -96,7 +96,17 @@ Saisissez une valeur pour **[!UICONTROL Commence par]**. Par exemple : `em`.
 
 Vous souhaitez définir une règle pour affecter automatiquement des `Email` en tant que valeur à la classification **[!UICONTROL Canal]** lorsque la valeur de la dimension clé Campagne interne commence par `em` (par exemple : `em:FY2025:Summer Sale`).
 
+>[!BEGINTABS]
+
+>[!TAB Règle ]
+
 ![Règle - Commence Par](assets/rule-startswith.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Commence Par Les Résultats Du Test](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ Définit une classification basée sur une valeur spécifique à laquelle se ter
 
 #### Entrée requise
 
-Saisissez une valeur pour **[!UICONTROL Se termine par]**. Par exemple : `Sale`.
+Saisissez une valeur pour **[!UICONTROL Se termine par]**. Par exemple : `2025`.
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter automatiquement des `Sale` en tant que valeur à la classification **[!UICONTROL Type]** lorsque la valeur de la dimension clé Campagne interne contient des `Sale` (par exemple : `em:FY2025:Summer Sale`).
+Vous souhaitez définir une règle pour affecter automatiquement des `2025` en tant que valeur à la classification **[!UICONTROL Année]** lorsque la valeur de la dimension clé Campagne interne contient des `2025` (par exemple : `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB Règle ]
 
 ![Règle - Se Termine Par](assets/rule-endswith.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Se Termine Par Les Résultats Du Test](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ Définit une classification en fonction d’une valeur spécifique que la dimens
 
 #### Entrée requise
 
-Saisissez une valeur pour **[!UICONTROL Contient]**. Par exemple : `2025`.
+Saisissez une valeur pour **[!UICONTROL Contient]**. Par exemple : `Winter`.
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter automatiquement des `2025` en tant que valeur à la classification **[!UICONTROL Année]** lorsque la valeur de la dimension clé Campagne interne se termine par `2025` (par exemple : `em:FY2025:Summer Sale`).
+Vous souhaitez définir une règle pour affecter automatiquement des `Winter Sale` en tant que valeur à la classification **[!UICONTROL Type]** lorsque la valeur de la dimension clé que contient Internal Campaign est `Winter` (par exemple : `fb:Winter:FY2024`).
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+
+>[!BEGINTABS]
+
+>[!TAB Règle ]
+
+![ Règle - Contient ](assets/rule-contains.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Contient Des Résultats](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ Saisissez une valeur pour **[!UICONTROL Correspondance]**. Par exemple : `em:FY
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter automatiquement des `2025 Summer Email` en tant que valeur à la classification **[!UICONTROL Type]** lorsque la valeur de la dimension clé Campagne interne correspond `em:FY2025:Summer`.
+Vous souhaitez définir une règle pour affecter automatiquement des `Email` en tant que valeur à la classification **[!UICONTROL Canal]**, `Summer Sale`en tant que valeur à la classification **[!UICONTROL Type]** et `2025` à la classification **[!UICONTROL Année]** lorsque la valeur de la dimension clé Campagne interne correspond à `em:FY2025:Summer`.
+
+
+>[!BEGINTABS]
+
+>[!TAB Règle ]
 
 ![Règle - Correspond](assets/rule-match.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Correspond](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ Définit une ou plusieurs classifications en fonction d’une expression réguli
 
 #### Entrée requise
 
-Saisissez une valeur pour **[!UICONTROL Expression régulière]**. Par exemple : `^(.+)\:(.+)\:(.+)$`.
+Saisissez une valeur pour **[!UICONTROL Expression régulière]**. Par exemple : `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter automatiquement des valeurs aux classifications **[!UICONTROL Canal]**, **[!UICONTROL Type]** et **[!UICONTROL Année]** en appliquant le `^(.+)\:(.+)\:(.+)$` d’expression régulière et en utilisant des groupes de correspondance (`$1`, `$2` et `$3`) aux valeurs de la dimension clé Campagne interne.
+Vous souhaitez définir une règle pour affecter automatiquement des valeurs aux classifications **[!UICONTROL Canal]**, **[!UICONTROL Type]** et **[!UICONTROL Année]** en appliquant le `^(.+)\:(.+)\:FY(.+)$` d’expression régulière et en utilisant des groupes de correspondance (`$1`, `$2` et `$3`) aux valeurs de la dimension clé Campagne interne.
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+>[!BEGINTABS]
+
+>[!TAB Règle ]
+
+![Règle - Expression régulière ](assets/rule-regex.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Résultats du test d’expression régulière](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### Tableau de référence {#section_0211DCB1760042099CCD3ED7A665D716}
@@ -221,7 +273,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération Défin
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
