@@ -67,7 +67,7 @@ Lorsque vous créez ou modifiez des règles, vous utilisez l’interface d’ens
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![ Interface des règles ](assets/rule-ui.png)
+![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -160,7 +160,7 @@ Vous souhaitez définir une règle pour affecter automatiquement des `Winter Sal
 
 >[!TAB Règle ]
 
-![ Règle - Contient ](assets/rule-contains.png)
+![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -219,7 +219,7 @@ Vous souhaitez définir une règle pour affecter automatiquement des valeurs aux
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière ](assets/rule-regex.png)
+![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -273,7 +273,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération Défin
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![ Priorité des règles ](assets/rule-priority.png)
+![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
