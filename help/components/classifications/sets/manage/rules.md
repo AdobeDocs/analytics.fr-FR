@@ -3,7 +3,7 @@ title: Règles des ensembles de classifications
 description: Découvrez comment afficher et modifier des règles pour un ensemble de classifications.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >Les ensembles de classifications ne prennent pas encore en charge les règles. La fonctionnalité Règles est ajoutée à l’interface des jeux de classifications avant que la fonctionnalité du créateur de règles hérité ne soit indisponible.
->&#x200B;>Si vous avez besoin de règles pour les classifications, continuez à utiliser le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md).
-
+>Si vous avez besoin de règles pour les classifications, continuez à utiliser le [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md).
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
