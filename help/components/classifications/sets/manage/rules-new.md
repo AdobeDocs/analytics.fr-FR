@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1673'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -233,10 +233,14 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!ENDTABS]
 
++++
+
 
 ### Partage
 
 Divise la valeur de la dimension clé, en fonction d’un jeton, en une ou plusieurs classifications.
+
++++ Détails
 
 #### Entrée requise
 
@@ -257,6 +261,8 @@ Vous souhaitez définir une règle qui fractionne les valeurs de la dimension cl
 ![Règle - Fractionner les résultats du test](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### Tableau de référence {#section_0211DCB1760042099CCD3ED7A665D716}
@@ -309,7 +315,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
