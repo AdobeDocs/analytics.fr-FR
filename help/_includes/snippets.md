@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
 workflow-type: tm+mt
-source-wordcount: '2991'
+source-wordcount: '2992'
 ht-degree: 87%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 87%
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
 >Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 >[!WARNING]
 >
->Le créateur de règles de classification sera abandonné le **31 août 2026**. Passez à l’expérience [Règles des ensembles de classifications](/help/components/classifications/sets/manage/rules.md) une fois disponible, pour assurer la continuité des fonctionnalités.
+>Le créateur de règles de classification sera abandonné le **31 août 2026**. Passez à l’expérience [Règles des ensembles de classifications](/help/components/classifications/sets/manage/rules.md), une fois disponible, pour assurer la continuité des fonctionnalités.
 >
 
