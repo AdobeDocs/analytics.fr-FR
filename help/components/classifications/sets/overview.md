@@ -3,7 +3,7 @@ title: Présentation des ensembles de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Comprenez en quoi les ensembles de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
+source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -21,13 +21,14 @@ La principale différence entre les ensembles de classifications et les classifi
 
 ### Classifications héritées
 
-![Classification héritée](./assets/classifications-legacy.svg)
+![Classification héritée](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 Dans les classifications héritées, les classifications ![Schéma](/help/assets/icons2/Schema.svg) (comme pour le trafic, les conversions, les canaux marketing, etc.) ont chacune leur propre dimension (clé ![clé](/help/assets/icons2/Key.svg)). Vous définissez ces classifications dans le cadre de vos [paramètres de suite de rapports](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
 Vous définissez les règles ![BidRule](/help/assets/icons/BidRule.svg) séparément dans les jeux de règles au sein de l’interface [Créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md). Dans cette interface, vous associez un jeu de règles à une ou plusieurs suites de rapports.
 
 Utilisez l’[importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) pour télécharger un modèle ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), importer des classifications ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) ou exporter des classifications ![Télécharger](/help/assets/icons/Download.svg) à partir d’une suite de rapports - combinaison clé (jeu de données).
+
 
 
 ### Jeux de classifications
@@ -111,7 +112,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 
