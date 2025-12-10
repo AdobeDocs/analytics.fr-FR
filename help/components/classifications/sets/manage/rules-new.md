@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![ Interface des règles ](assets/rule-ui.png)
+![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![ Règle - Contient ](assets/rule-contains.png)
+![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière ](assets/rule-regex.png)
+![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -321,7 +321,7 @@ Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière 
 
 >[!TAB Règle ]
 
-![Règle - Priorité ](assets/rule-priority.png)
+![Règle - Priorité &#x200B;](assets/rule-priority.png)
 
 >[!TAB Résultats du test]
 
