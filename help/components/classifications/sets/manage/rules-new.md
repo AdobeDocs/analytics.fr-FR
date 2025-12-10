@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1661'
 ht-degree: 10%
 
 ---
@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -296,7 +296,6 @@ Vous souhaitez définir une règle qui fractionne les valeurs de la dimension cl
 | `a{3,}` | 3 ou plus de : a |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
-+++
 
 
 ## Priorité de la règle
@@ -313,11 +312,22 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 ### Exemple
 
-Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
+Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent une équipe, un type générique ou un lecteur à l’aide de la chaîne de recherche comme dimension clé. Par exemple, grâce à l’utilisation de cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
++++ Détails
 
-* Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
-* Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
-* Lorsqu’un utilisateur ou une utilisatrice recherche `Cowboys vs. Broncos`, `Team` est classé comme **[!UICONTROL Type]**.
+
+>[!BEGINTABS]
+
+>[!TAB Règle ]
+
+![Règle - Priorité ](assets/rule-priority.png)
+
+>[!TAB Résultats du test]
+
+![Règle - Résultats des tests de priorité](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
