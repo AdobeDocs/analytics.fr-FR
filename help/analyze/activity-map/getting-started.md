@@ -4,9 +4,9 @@ description: Commencez à utiliser la superposition et les dimensions Activity M
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Activity Map dans Adobe Analytics comprend quatre éléments principaux :
 * **Paramètre de la suite de rapports** : vous devez activer Activity Map dans les paramètres de la suite de rapports. Lorsqu’elle est activée, la suite de rapports crée plusieurs variables réservées pour les dimensions et mesures Activity Map.
 * **Implémentation** : collectez les données Activity Map sur votre site web ou votre propriété. La personnalisation de la manière dont les données sont collectées peut améliorer la qualité et l’expérience des rapports.
 * **Dimensions et mesures Workspace** : lorsque votre implémentation est correctement configurée, vous pouvez utiliser les dimensions et mesures Activity Map dans Analysis Workspace.
-* **Recouvrement** : Adobe propose une extension de navigateur pour afficher les données Activity Map dans le cadre de votre site web.
+* **Recouvrement** : Adobe propose une extension de navigateur pour afficher les données Activity Map dans le cadre de votre site web. Cette fonctionnalité n’est pas disponible pour les implémentations de Web SDK.
 
 ## Activer le paramètre de la suite de rapports
 
@@ -30,7 +30,7 @@ L’activation des rapports Activity Map crée plusieurs variables réservées d
 
 ## Installation du code
 
-Votre mise en œuvre doit être correctement configurée pour envoyer des données Activity Map à Adobe.
+Votre mise en œuvre doit être correctement configurée pour envoyer des données Activity Map à Adobe. L’extension de navigateur de recouvrement n’est pas disponible lorsqu’Adobe Analytics est implémenté avec le SDK Web.
 
 +++Extension de balises du SDK Web
 
@@ -48,7 +48,7 @@ Le paramètre de configuration **[!UICONTROL Collecte de données Click]** gère
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Si nécessaire, apportez vos modifications à une bibliothèque et publiez-les en production.
 
-Voir [Configurer l’extension de balise Web SDK](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) pour plus d’informations.
+Voir [Configurer l’extension de balise Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection) pour plus d’informations.
 
 +++
 
@@ -56,7 +56,7 @@ Voir [Configurer l’extension de balise Web SDK](https://experienceleague.adobe
 
 La collecte de données Activity Map nécessite la bibliothèque JavaScript Web SDK v2.20 ou une version ultérieure. Les versions de bibliothèque jusqu’à la version v2.15 ont une prise en charge limitée. Ces versions de bibliothèque précédentes envoient les données d’Activity Map dans un événement distinct du reste de vos données. Cet événement supplémentaire augmente le nombre d’accès que vous envoyez à Adobe Analytics ou Adobe Experience Platform.
 
-La variable de configuration Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gère la collecte automatique des données Activity Map. Elle est activée par défaut, sauf si elle est explicitement désactivée.
+La variable de configuration Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gère la collecte automatique des données Activity Map. Elle est activée par défaut, sauf si elle est explicitement désactivée.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ Le paramètre de configuration **[!UICONTROL Utiliser Activity Map]** gère la c
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Si nécessaire, apportez vos modifications à une bibliothèque et publiez-les en production.
 
-Voir la présentation de l’extension Adobe Analytics [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) pour plus d’informations.
+Voir la présentation de l’extension Adobe Analytics [](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview) pour plus d’informations.
 
 +++
 

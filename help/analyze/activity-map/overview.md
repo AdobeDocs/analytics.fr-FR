@@ -4,9 +4,9 @@ title: Activity Map - Aperçu
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,12 +24,12 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) : modifiez l’attribut qui renseigne la dimension Région d’Activity Map .
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Lien Activity Map .
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Région Activity Map .
-* **Recouvrement** : extension de navigateur qui vous permet d’afficher les données de clic superposées sur votre site web. Voir [Interface de l’extension Activity Map](overlay/overview.md) pour plus d’informations.
+* **Recouvrement** : extension de navigateur qui vous permet d’afficher les données de clic superposées sur votre site web. Voir [Interface de l’extension Activity Map](overlay/overview.md) pour plus d’informations. Cette fonctionnalité n’est pas disponible pour les implémentations de Web SDK.
 * **Dimensions** : en plus de l’extension de recouvrement, Activity Map fournit plusieurs dimensions que vous pouvez utiliser dans Analysis Workspace.
-   * [Lien Activity Map &#x200B;](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
-   * [Région Activity Map &#x200B;](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
-   * [Page Activity Map &#x200B;](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
-   * [Lien Activity Map par région &#x200B;](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
+   * [Lien Activity Map ](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel l&#39;utilisateur a cliqué.
+   * [Région Activity Map ](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle l’utilisateur a cliqué.
+   * [Page Activity Map ](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où l’utilisateur a cliqué sur le lien.
+   * [Lien Activity Map par région ](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
 
 ## Fonctionnalités et avantages
 
@@ -37,7 +37,7 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
 
 * **Cartes thermiques** : Activity Map génère des cartes thermiques qui affichent les zones les plus cliquées ou ayant le plus interagi sur une page web. Les cartes thermiques utilisent un codage par couleur pour représenter le niveau d’engagement, ce qui vous permet d’identifier les zones réactives et de donner la priorité aux zones à fort impact. Ces informations peuvent s’avérer utiles pour optimiser les boutons, les liens, les formulaires ou tout autre élément interactif de call-to-action.
 
-* **Rapports de recouvrement** : les rapports de recouvrement dans Activity Map fournissent des mesures de clics détaillées pour des éléments spécifiques d’une page web. En comprenant les taux de clics publicitaires et les niveaux d’engagement de chaque élément, vous pouvez affiner votre conception et vos stratégies de contenu pour améliorer les expériences utilisateur.
+* **Rapports de recouvrement** : les rapports de recouvrement dans Activity Map fournissent des mesures de clics détaillées pour des éléments spécifiques d’une page web. En comprenant les taux de clics publicitaires et les niveaux d’engagement de chaque élément, vous pouvez affiner votre conception et vos stratégies de contenu pour améliorer les expériences utilisateur. Cette fonctionnalité n’est pas disponible pour les implémentations de Web SDK.
 
 * **Analyse des segments** : vous pouvez analyser le comportement des utilisateurs et utilisatrices en fonction de différents segments, tels que les sources de trafic, les données démographiques ou les rôles. En segmentant les données, vous pouvez découvrir de précieuses informations sur des groupes d’utilisateurs spécifiques, ce qui permet d’offrir des expériences personnalisées et des stratégies marketing ciblées.
 
