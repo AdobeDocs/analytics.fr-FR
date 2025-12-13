@@ -3,10 +3,10 @@ title: Canal Dernière touche
 description: Canal marketing le plus récent dans l’expiration de l’engagement du visiteur.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 90%
+source-wordcount: '336'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +25,10 @@ Pour définir une valeur spécifique sur cette dimension, procédez comme suit 
 * Définissez l’élément de dimension de votre choix comme canal dans le gestionnaire de canaux marketing, sous Paramètres de la suite de rapports.
 * Définissez une règle de traitement des canaux marketing qui contient les critères de votre choix pour l’accès.
 * L’accès du visiteur à votre site doit correspondre aux critères décrits dans la règle de traitement des canaux marketing.
+
+>[!TIP]
+>
+>L’utilisation de cette dimension avec des mesures qui utilisent l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) peut attribuer du crédit à des `None` lorsque d’autres modèles d’attribution ne le font pas. Les mesures de participation nécessitent un canal marketing [instance](../metrics/instances.md) dans la fenêtre de création de rapports pour recevoir du crédit. Si le canal marketing a été initialement défini en dehors de la fenêtre de création de rapports et que seule la valeur persistante existe dans la fenêtre de création de rapports, les mesures de participation attribuent du crédit à `None`. D’autres modèles d’attribution attribuent du crédit à la valeur persistante. Si vous souhaitez éviter l’attribution aux `None` dans ce scénario, pensez à utiliser un modèle d’attribution de non-participation.
 
 ## Éléments de dimension
 
