@@ -40,7 +40,7 @@ Vous pouvez :
          * Remplacez **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** par une combinaison qui n’est pas déjà abonnée à un autre ensemble de classifications.
       * **[!UICONTROL Recherche]**. Généralement appelée ‘classifications enfants’ ou ‘sous-classifications’, une table de recherche est une classification d’une classification principale. Une recherche correspond à des métadonnées sur une valeur de classification, plutôt que sur la dimension d’origine. Par exemple, une dimension *Produit* peut avoir une classification principale de *Code couleur*. Une table de recherche de *nom de la couleur* peut ensuite être jointe au *code de couleur* pour expliquer chaque code de couleur.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
-1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
+1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications
