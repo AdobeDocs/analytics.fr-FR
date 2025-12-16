@@ -3,9 +3,9 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1494'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ La liste des classifications comporte les colonnes suivantes :
 | Colonne | Description |
 |---|---|
 | **[!UICONTROL Nom de la classification]** | Nom que vous avez fourni pour la classification. |
-| **[!UICONTROL Nom de l’identité]** | Nom dérivé par le système pour la classification. Il s’agit d’une valeur en lecture seule que vous pouvez utiliser comme nom d’identité |
+| **[!UICONTROL Nom de l’identité]** | Nom dérivé par le système pour la classification. Ce nom est une valeur en lecture seule que vous pouvez utiliser comme nom d’identité |
 | **[!UICONTROL Classé par]** | S’il est utilisé, un lien vers l’ensemble de classifications de recherche utilisé pour classer cette classification. |
 
 
@@ -64,7 +64,7 @@ Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/
 
 ![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
-Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**&#x200B;et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
+Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
 
 
 
@@ -82,7 +82,7 @@ Pour importer des données de classification dans le schéma d’une classificat
 
    Un **[!UICONTROL Aperçu du schéma]** du contenu du fichier s’affiche. L’aperçu affiche les colonnes de données du fichier. Pour redimensionner une colonne, sélectionnez ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) et sélectionnez **[!UICONTROL Redimensionner la colonne]**. Une poignée s’affiche pour vous permettre de redimensionner la colonne.
 
-   Lorsqu’aucune classification n’est définie dans le jeu de classifications pour une colonne, une alerte ![Alert](/help/assets/icons/Alert.svg) s’affiche. L’alerte explique qu’une classification n’est pas présente dans l’ensemble de schémas de classification existant et sera créée lors de l’importation.
+   Lorsqu’aucune classification n’est définie dans le jeu de classifications pour une colonne, une alerte ![Alert](/help/assets/icons/Alert.svg) s’affiche. L’alerte explique qu’une classification n’est pas présente dans le jeu de schémas de classification existant et est créée lors de l’importation.
 
 1. Sélectionnez **[!UICONTROL Remplacer les données en cas de conflit ?]** si vous souhaitez remplacer les données de classification actuelles par les nouvelles données importées. Par exemple :
 
@@ -156,14 +156,14 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
 >id="classificationsets_schema_automate_locationaccount"
 >title="Emplacement du compte"
 >abstract="Liste des comptes d’emplacement des types de compte qui prennent en charge l’importation des données de classification. Sélectionnez **[!UICONTROL Nouveau compte]** pour créer un compte d’emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=fr" text="Configuration des comptes d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configuration des comptes d’import et d’export cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Emplacement"
 >abstract="Liste des emplacements du compte d’emplacement sélectionné qui prennent en charge l’importation de données de classification. Sélectionnez **[!UICONTROL Nouvel emplacement]** pour créer un emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=fr" text="Configuration des emplacements d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configuration des emplacements d’import et d’export cloud"
 
 
 Pour automatiser l’ingestion des classifications, sélectionnez ![Engrenage](/help/assets/icons/Gear.svg) **[!UICONTROL Automatiser]**.
@@ -194,7 +194,7 @@ Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplaceme
 
 1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
 1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée.
-1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
+1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez**[!UICONTROL  Enregistrer ]**si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez**[!UICONTROL  Mettre à jour ]**. Ou sélectionnez**[!UICONTROL  Annuler ]**pour annuler la configuration de l’emplacement du cloud.
 
 Lorsque vous chargez des fichiers vers l’emplacement cloud, dans les 15 minutes, le fichier est détecté et envoyé en tant que tâche d’importation. Le résultat de cette tâche d’importation est indiqué dans le [Gestionnaire des tâches de classifications](/help/components/classifications/sets/job-manager.md). Si vous êtes ajouté à la liste des utilisateurs à avertir de la fin des tâches d’ingestion, vous recevez également des e-mails.
 
@@ -212,7 +212,7 @@ La barre d’actions affiche les actions disponibles pour la classification sél
 | ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez le **[!UICONTROL nom de la classification]** d’une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _nom de la classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer la classification. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**s’affiche. Sélectionnez **[!UICONTROL Supprimer]**pour supprimer la classification. |
 
 
 <!--

@@ -3,7 +3,7 @@ title: Présentation des ensembles de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Comprenez en quoi les ensembles de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Vue d’ensemble des jeux de classifications
 
-Les jeux de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow combine la création de classifications dans les paramètres de la suite de rapports avec l’[importateur de classifications](/help/components/classifications/sets/manage/set-manager.md). Le résultat est une interface intuitive unique pour créer et gérer des données de classification.
+Les jeux de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow combine la création de classifications dans [Paramètres de la suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) avec l’[Importateur de classifications](/help/components/classifications/sets/manage/set-manager.md). Le résultat est une interface intuitive unique pour créer et gérer des données de classification.
 
 
 ## Jeux de classifications et classifications héritées
@@ -112,7 +112,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 

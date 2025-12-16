@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1662'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,11 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’ensemble de classifications pour lequel vous souhaitez définir les règles.
 1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _nom de l’ensemble de classifications_]**, sélectionnez l’onglet **[!UICONTROL Règles]**.
 
-   * Si vous accédez à l’interface **[!UICONTROL Rules]** pour la première fois pour un ensemble de classifications, ou si vous avez décidé jusqu’à présent de continuer à utiliser l’interface du créateur de règles héritée, une boîte de dialogue s’affiche et vous permet de sélectionner comment commencer. Les options sont les suivantes :
+   * Si vous accédez à l’interface **[!UICONTROL Rules]** pour la première fois pour un ensemble de classifications, ou que vous avez décidé jusqu’à présent de continuer à utiliser l’interface héritée du créateur de règles, une boîte de dialogue s’affiche et vous permet de sélectionner comment commencer.
+
+     ![ Migration des règles ](assets/rules-migration.png)
+
+     Les options sont les suivantes :
 
       * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
          * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
@@ -73,7 +77,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +170,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +229,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -321,7 +325,7 @@ Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière 
 
 >[!TAB Règle ]
 
-![Règle - Priorité &#x200B;](assets/rule-priority.png)
+![Règle - Priorité ](assets/rule-priority.png)
 
 >[!TAB Résultats du test]
 

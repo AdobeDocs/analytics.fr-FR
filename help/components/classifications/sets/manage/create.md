@@ -3,9 +3,9 @@ title: Créer des ensembles de classifications
 description: Découvrez comment accéder aux champs et descriptions disponibles lors de la création d’un ensemble de classifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '439'
 ht-degree: 3%
 
 ---
@@ -34,13 +34,13 @@ Pour créer un ensemble de classifications, procédez comme suit :
 
          * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.
 
-        Si vous ajoutez une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** qui existe déjà dans un autre ensemble de classifications, un message de couleur rouge s’affiche sous la combinaison.
+        Si vous ajoutez une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** qui existe déjà dans un autre ensemble de classifications, un message de couleur rouge s’affiche.
 Vous pouvez :
          * Sélectionnez **[!UICONTROL Ajouter à l’existant]** pour ouvrir l’autre ensemble de classifications et [ajouter des classifications au schéma](schema.md) pour cet autre ensemble de classifications.
          * Remplacez **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** par une combinaison qui n’est pas déjà abonnée à un autre ensemble de classifications.
       * **[!UICONTROL Recherche]**. Généralement appelée ‘classifications enfants’ ou ‘sous-classifications’, une table de recherche est une classification d’une classification principale. Une recherche correspond à des métadonnées sur une valeur de classification, plutôt que sur la dimension d’origine. Par exemple, une dimension *Produit* peut avoir une classification principale de *Code couleur*. Une table de recherche de *nom de la couleur* peut ensuite être jointe au *code de couleur* pour expliquer chaque code de couleur.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
-1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
+1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications

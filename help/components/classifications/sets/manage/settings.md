@@ -3,9 +3,9 @@ title: Paramètres des ensembles de classifications
 description: Découvrez comment créer ou modifier un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 3%
 
 ---
@@ -28,13 +28,13 @@ Pour modifier les paramètres d’un ensemble de classifications :
 
    1. Modifiez le **[!UICONTROL Nom]**.
    1. Modifiez une **[!UICONTROL Description (facultatif)]**.
-   1. Modifiez la liste des adresses e-mail (séparées par des virgules) dans **[!UICONTROL Notifier les problèmes]**. Ces utilisateurs sont avertis par e-mail de tout problème.
+   1. Modifiez la liste des adresses e-mail (séparées par des virgules) dans **[!UICONTROL Notifier les problèmes]**. Ces utilisateurs reçoivent un e-mail lorsqu’un ou plusieurs problèmes se produisent.
    1. Ajoutez une ou plusieurs **[!UICONTROL Balises (facultatives)]** au jeu de classifications. Sélectionnez une balise existante dans le menu déroulant **[!UICONTROL Balises]** ou saisissez-en une nouvelle. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise.
    1. Modifiez le **[!UICONTROL Abonnements]**.
       * Vous pouvez définir plusieurs combinaisons **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension]** pour un ensemble de classifications.
       * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.
 
-      Voir [&#x200B; Création d’un ensemble de classifications &#x200B;](create.md) pour plus d’informations.
+      Voir [Créer un ensemble de classifications](create.md) pour plus d’informations.
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les paramètres. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 

@@ -3,9 +3,9 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
+source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ Pour modifier une consolidation de classification, dans l’interface principale
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|
@@ -143,7 +143,7 @@ Une fois qu’une consolidation de classification a été exécutée avec succè
 
 Pour approuver une consolidation d&#39;ensemble de classifications :
 
-1. Utilisez les **[!UICONTROL rapports de similarité]** pour passer en revue la consolidation. Ce rapport présente un tableau avec les colonnes suivantes :
+1. Utilisez le rapport **[!UICONTROL Rapports de similarité]** pour consulter la consolidation. Ce rapport présente un tableau avec les colonnes suivantes :
 
    * **[!UICONTROL Nom de l’ensemble de classifications]** : le nom de l’ensemble de classifications.
    * **[!UICONTROL Discordance]** : pourcentage de lignes dont les valeurs de clé ne correspondent pas à l’ensemble de classifications source. Si le pourcentage d’incohérence est élevé, l’incohérence peut indiquer que les données de classification sont trop différentes. Vérifiez et assurez-vous que les ensembles de classifications sélectionnés ont des données de classification similaires.
