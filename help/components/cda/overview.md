@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans les analyses entre appareils est [obsolète](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans les analyses entre appareils est [obsolète](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
 
 
@@ -41,7 +41,7 @@ Consultez la [page Spark d’analyses entre appareils](https://express.adobe.com
 
 ## Conditions préalables
 
-L’utilisation d’Analytics sur l’ensemble des appareils nécessite [ groupement basé sur les champs ](field-based-stitching.md).
+L’utilisation d’Analytics sur l’ensemble des appareils nécessite [&#x200B; groupement basé sur les champs &#x200B;](field-based-stitching.md).
 
 * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
 * Votre entreprise choisit les suites de rapports à activer pour CDA. Adobe recommande les suites de rapports qui contiennent des données multi-appareils, c’est-à-dire des données provenant de plusieurs types d’appareils/navigateurs/applications. Certaines organisations font référence à ce concept en tant que suite de rapports « globale », bien qu’il ne soit pas obligatoire que les analyses entre appareils soient globales d’un point de vue géographique.
