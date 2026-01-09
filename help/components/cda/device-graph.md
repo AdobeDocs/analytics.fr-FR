@@ -16,5 +16,5 @@ ht-degree: 35%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans Analytics sur l’ensemble des appareils est [arrêté](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et n’est plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans Analytics sur l’ensemble des appareils est [arrêté](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et n’est plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
