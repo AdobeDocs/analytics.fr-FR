@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 0c34f756c72f3c07637370fb19b531301a508d19
 workflow-type: tm+mt
-source-wordcount: '6565'
+source-wordcount: '6581'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 * Pour plus d’informations sur les services de médias en streaming Adobe, consultez [Mesurer le son et la vidéo dans Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Détails sur les mises à jour majeures de la documentation
+
+### 2026 {#year2026}
+
+| Fonctionnalité | Description |
+| --- | --- |
+| **Janvier 2026** | |
+| Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 

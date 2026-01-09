@@ -4,10 +4,10 @@ description: Configurez une suite de rapports virtuelle pour activer les analyse
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 87%
+source-wordcount: '525'
+ht-degree: 84%
 
 ---
 
@@ -19,7 +19,7 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 
 >[!IMPORTANT]
 >
->Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Pour connaître les conditions préalables et les limites, consultez la [page d’aperçu](overview.md) et la méthode de regroupement souhaitée ([Regroupement basé sur les champs](field-based-stitching.md) ou [Graphique d’appareil](device-graph.md), respectivement).
+>Toutes les conditions préalables doivent être remplies avant de suivre cette procédure. Si toutes les conditions préalables ne sont pas remplies, la fonction n’est pas disponible ou ne fonctionne pas. Consultez la [page d’aperçu](overview.md) et la méthode de groupement souhaitée ([Groupement basé sur les champs](field-based-stitching.md) ) pour connaître les conditions préalables et les limites.
 
 ## &#x200B;1. Ouvrez un ticket auprès de l’assistance clientèle pour que les analyses entre appareils soient configurées sur votre suite de rapports entre appareils
 
@@ -27,7 +27,7 @@ Les analyses entre appareils sont configurées sur votre suite de rapports conte
 
 * Votre identifiant d’organisation Adobe Experience Cloud (chaîne alphanumérique se terminant par @AdobeOrg)
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
-* Quelle méthode d’analyse entre appareils vous souhaitez utiliser (groupement basé sur les champs ou graphique d’appareil Adobe) ?
+* Quelle méthode d’analyse entre appareils souhaitez-vous utiliser (groupement basé sur les champs) ?
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
 * Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
 La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).

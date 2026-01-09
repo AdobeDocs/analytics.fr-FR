@@ -4,10 +4,10 @@ description: Comprendre le concept de « relecture » dans les analyses entre 
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '491'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,7 @@ Analytics sur l’ensemble des appareils effectue deux transitions de données d
 
 ## Exemple de tableau
 
-Les tableaux suivants illustrent la façon dont les deux méthodes d’analyse entre appareils ([groupement basé sur les champs](field-based-stitching.md) et [graphique d’appareil](device-graph.md)) calculent le nombre de personnes uniques :
+Les tableaux suivants illustrent comment le ([groupement basé sur les champs](field-based-stitching.md) calcule le nombre de personnes uniques :
 
 ### Groupement en direct
 
@@ -30,27 +30,19 @@ Dès qu’un accès est collecté, l’analyse entre appareils tente de le group
 
 *Données telles qu’elles apparaissent le jour de leur collecte :*
 
-| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) | `1` (246) |
-| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (246) | `2` (246 et Bob) |
+| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulative) à l’aide du groupement basé sur les champs |
+| --- | --- | --- | --- | --- | 
+| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) |
+| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `2` (246 et Bob) |
 | `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
-| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `3` (246, Bob et 3579) |
+| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | | `3` (246, Bob et 3579) |
+| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `3` (246, Bob et 3579) |
+| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `3` (246, Bob et 3579) |
+| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `3` (246, Bob et 3579) |
 
-Les accès authentifiés et non authentifiés sur les nouveaux appareils sont (temporairement) comptabilisés comme des personnes distinctes.
-
-* **Si vous utilisez le graphique d’appareil**, les accès non authentifiés sur les appareils reconnus sont groupés en direct une fois qu’une grappe est publiée par le graphique d’appareil. La publication d’une grappe prend entre trois heures et deux semaines.
-
-  Lorsqu’une grappe est publiée, une troisième personne cumulative est également ajoutée. Cette troisième personne représente la grappe elle-même, en plus des différents appareils. Cette troisième « personne » reste jusqu’à la relecture des données.
-
-  L’attribution ne fonctionne pas sur tous les appareils tant qu’une grappe n’a pas été publiée et, même en cas de publication, elle ne fonctionne qu’à partir de ce moment-là. Dans l’exemple ci-dessus, aucun accès n’a été groupé sur les appareils. L’attribution entre appareils sur les accès existants ne fonctionne qu’après le groupement de relecture.
-* **Si vous utilisez le groupement basé sur les champs**, les accès non authentifiés sur des appareils reconnus sont groupés en direct à partir de ce moment-là.
-
-  L’attribution fonctionne dès que la variable personnalisée d’identification est liée à un appareil. Dans l’exemple ci-dessus, tous les accès sauf l’accès 1 et l’accès 3 sont groupés en direct (ils utilisent tous l’identifiant `Bob`). L’attribution fonctionne sur les accès 1 et 3 après le groupement de relecture.
+Les accès authentifiés et non authentifiés sur les nouveaux appareils sont comptabilisés comme des personnes distinctes (temporairement).
+Les accès non authentifiés sur les appareils reconnus sont assemblés en direct à partir de ce moment. L’attribution fonctionne dès que la variable personnalisée d’identification est liée à un appareil. Dans l’exemple ci-dessus, tous les accès sauf l’accès 1 et l’accès 3 sont groupés en direct (ils utilisent tous l’identifiant `Bob`). L’attribution fonctionne sur les accès 1 et 3 après le groupement de relecture.
 
 >[!NOTE]
 >
@@ -67,13 +59,13 @@ Si un appareil envoie des données alors qu’il n’est pas authentifié, puis 
 
 *Les mêmes données après relecture :*
 
-| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure « Personnes » (cumulée) à l’aide du graphique d’appareil | Mesure « Personnes » (cumulée) à l’aide du groupement basé sur les champs |
-| --- | --- | --- | --- | --- | --- |
-| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (grappe 1) | `1` (Bob) |
-| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
-| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `1` (grappe 1) | `1` (Bob) |
-| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `1` (grappe 1) | `1` (Bob) |
-| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `1` (grappe 1) | `1` (Bob) |
-| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `1` (grappe 1) | `1` (Bob) |
-| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `1` (grappe 1) | `1` (Bob) |
-| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `1` (grappe 1) | `1` (Bob) |
+| Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulative) à l’aide du groupement basé sur les champs |
+| --- | --- | --- | --- | --- |
+| `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (Bob) |
+| `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `1` (Bob) |
+| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `1` (Bob) |
+| `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `1` (Bob) |
+| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `1` (Bob) |
+| `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `1` (Bob) |
+| `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `1` (Bob) |
+| `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `1` (Bob) |

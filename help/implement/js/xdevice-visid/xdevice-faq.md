@@ -4,10 +4,10 @@ description: Questions fréquentes sur l’identification des visiteurs sur plus
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 90%
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Questions fréquentes sur l’identification des visiteurs sur plusieurs apparei
 +++Quelle est la différence entre l’identification des visiteurs sur plusieurs appareils et Analytics sur l’ensemble des appareils ?
 L’identification des visiteurs sur plusieurs appareils utilise la variable `visitorID` pour relier les appareils, avec plusieurs limitations majeures. L’une des plus grandes limites de cette méthode d’identification est que les accès non authentifiés sont isolés, sauf si l’appareil a déjà été reconnu. Ces accès non authentifiés peuvent gonfler le nombre de visiteurs uniques.
 
-Analytics sur l’ensemble des appareils est la dernière méthode d’identification des visiteurs sur plusieurs appareils d’Adobe. Il utilise le service Experience Cloud ID et le graphique d’appareils pour assembler rétroactivement les visites de différents appareils. CDA exige l’utilisation de la fonction `setCustomerIDs` pour déterminer les appareils utilisés par le même visiteur.
+Analytics sur l’ensemble des appareils est la dernière méthode d’identification des visiteurs sur plusieurs appareils d’Adobe. Il utilise le service Experience Cloud ID et le groupement basé sur les champs pour regrouper rétroactivement les visites de différents appareils. CDA exige l’utilisation de la fonction `setCustomerIDs` pour déterminer les appareils utilisés par le même visiteur.
 +++
 
 +++Comment l’identification des visiteurs sur plusieurs appareils gère-t-elle les segments ?

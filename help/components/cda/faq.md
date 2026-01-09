@@ -4,10 +4,10 @@ description: Questions fréquentes sur les analyses entre appareils
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '1953'
-ht-degree: 98%
+source-wordcount: '1699'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,6 @@ Lʼassemblage entre appareils des analyses entre appareils (CDA) se produit dans
 
 * Le second processus est nommé « relecture ». Au cours de la relecture, les CDA remontent dans le temps et retraitent les données historiques, si possible, au cours dʼun intervalle de recherche en amont spécifié. Cet intervalle de recherche en amont est soit de 1 jour, soit de 7 jours, selon la configuration choisie pour les CDA. Au cours de la relecture, les CDA tentent de retraiter les accès où la personne était précédemment inconnue.
 
-* **Si vous utilisez un graphique de l’appareil**, Adobe conserve les mappages du graphique de l’appareil pendant environ 6 mois. Un ECID sans activité depuis plus de six mois est supprimé du graphique. Les données déjà recoupées dans CDA ne sont pas affectées, mais les accès ultérieurs pour cet ECID sont considérés comme une nouvelle personne.
 
 +++
 
@@ -65,20 +64,12 @@ Les clients qui utilisent déjà un identifiant visiteur personnalisé peuvent e
 
 +++
 
-+++ De quelle manière le graphique d’appareil gère-t-il les appareils partagés ?
 
-Dans certains cas, il est possible que plusieurs personnes se connectent à partir du même appareil. Par exemple, un appareil partagé à la maison, des ordinateurs partagés dans une bibliothèque ou un kiosque dans un magasin de vente au détail.
-
-* **Si vous utilisez un graphique d’appareil**, votre capacité à gérer les appareils partagés est limitée. Le graphique d’appareil utilise un algorithme pour déterminer la propriété d’une « grappe » et peut changer chaque fois que cette grappe est publiée. Les utilisateurs de l’appareil partagé dépendent de la grappe à laquelle ils appartiennent.
-* **Si vous utilisez le groupement basé sur les champs**, la prop ou l’eVar que vous choisissez pour identifier les utilisateurs connectés remplace d’autres identifiants. Les appareils partagés sont considérés comme des personnes distinctes, même s’ils proviennent du même appareil.
-
-+++
 
 +++ Comment les analyses entre appareils gèrent-ils les situations où une seule personne a BEAUCOUP d’appareils/d’ECID ?
 
 Dans certains cas, un utilisateur individuel peut s’associer à un grand nombre d’ECID. Cela peut se produire s’il utilise un grand nombre de navigateurs ou d’applications et peut être exacerbé s’il lui arrive régulièrement de supprimer les cookies ou d’utiliser le mode de navigation privé ou incognito du navigateur.
 
-* **Si vous utilisez un graphique d’appareil**, les analyses entre appareils limitent à 50 le nombre d’ECID liés à un identifiant utilisateur donné. Si un identifiant utilisateur est associé à un trop grand nombre d’ECID, le graphique d’appareil suppose que l’identifiant utilisateur n’est pas valide et supprime la grappe qui lui est associée. L’identifiant utilisateur est ensuite ajouté à une liste bloquée afin d’éviter qu’il ne soit ajouté à d’autres grappes à l’avenir. Par conséquent, l’identifiant utilisateur n’est pas regroupé sur plusieurs appareils.
 * **Si vous utilisez le groupement basé sur les champs**, le nombre d’appareils est sans importance par rapport à la prop/l’eVar que vous choisissez pour identifier les utilisateurs connectés. Un utilisateur unique peut appartenir à un nombre indéfini d’appareils sans que cela ait d’incidence sur la capacité de groupement sur plusieurs appareils des analyses entre appareils.
 
 +++

@@ -4,10 +4,10 @@ description: Découvrez comment remplacer vos données axées sur l’appareil p
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 57%
+source-wordcount: '773'
+ht-degree: 56%
 
 ---
 
@@ -17,16 +17,13 @@ ht-degree: 57%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans les analyses entre appareils ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans les analyses entre appareils est [obsolète](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [ basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
 
 
-Analytics sur l’ensemble des appareils (CDA) est une fonctionnalité qui transforme Analytics, en passant d’une vue centrée sur l’appareil à une vue centrée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge deux workflows globaux pour lier les données des appareils :
-
-* [Groupement basé sur les champs](field-based-stitching.md) : option de regroupement recommandée, car elle utilise uniquement une correspondance déterministe pour relier les appareils.
+Analytics sur l’ensemble des appareils (CDA) est une fonctionnalité qui transforme Analytics, en passant d’une vue centrée sur l’appareil à une vue centrée sur la personne. Dès lors, les analystes peuvent comprendre le comportement des utilisateurs qui s’étend sur plusieurs navigateurs, appareils ou applications. Adobe prend en charge le [groupement basé sur les champs](field-based-stitching.md) qui utilise uniquement une correspondance déterministe pour lier les appareils.
 Le groupement basé sur les champs vous permet de choisir une variable Analytics comme base pour le groupement entre appareils dans une suite de rapports virtuelle.
 
-* [Graphique d’appareil](device-graph.md) : Analytics sur l’ensemble des appareils communique avec un graphique privé pour regrouper les appareils.
 
 Les analyses entre appareils vous permettent de répondre à des questions telles que :
 
@@ -38,27 +35,27 @@ Les analyses entre appareils vous permettent de répondre à des questions telle
 
 Lorsque des appareils sont regroupés, la persistance de variable est réalisée sur plusieurs appareils. Par exemple, un utilisateur consulte votre site pour la première fois par le biais d’une publicité reçue sur son ordinateur de bureau. Cet utilisateur trouve votre application mobile, l’installe et effectue un achat sur son appareil mobile. Grâce aux analyses entre appareils, le chiffre d’affaires de l’appareil mobile peut être attribué à l’annonce publicitaire sur laquelle un clic a été effectué sur le poste de travail.
 
-Microsoft Azure est utilisé pour les analyses entre appareils. Adobe utilise Azure pour stocker les données graphiques des appareils et effectuer le regroupement entre appareils. Ainsi, les données Adobe Analytics sont transmises entre le centre de traitement des données d’Adobe et les instances configurées d’Adobe de Microsoft Azure.
+
 
 Consultez la [page Spark d’analyses entre appareils](https://express.adobe.com/page/8ZpjsX6Lp5XTM/) pour en savoir plus sur les fonctionnalités d’Analytics sur l’ensemble des appareils.
 
 ## Conditions préalables
 
-L’utilisation d’Analytics sur l’ensemble des appareils nécessite des méthodes [Assemblage basé sur les champs](field-based-stitching.md) et [graphique d’appareil](device-graph.md) et toutes deux ont leurs propres conditions préalables spécifiques.
+L’utilisation d’Analytics sur l’ensemble des appareils nécessite [ groupement basé sur les champs ](field-based-stitching.md).
 
 * Un contrat doit être signé avec Adobe et inclure Adobe Analytics Ultimate.
 * Votre entreprise choisit les suites de rapports à activer pour CDA. Adobe recommande les suites de rapports qui contiennent des données multi-appareils, c’est-à-dire des données provenant de plusieurs types d’appareils/navigateurs/applications. Certaines organisations font référence à ce concept en tant que suite de rapports « globale », bien qu’il ne soit pas obligatoire que les analyses entre appareils soient globales d’un point de vue géographique.
 
 ## Limites
 
-Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais leur utilisation a ses limites. Les méthodes [Groupement basé sur les champs](field-based-stitching.md) et [Graphique d’appareil](device-graph.md) présentent également leurs propres limites.
+Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais leur utilisation a ses limites. Le [groupement basé sur les champs](field-based-stitching.md) a également ses propres limites spécifiques.
 
 * Les analyses entre appareils ne sont disponibles que via Analysis Workspace.
 * Les analyses entre appareils ne fonctionnent pas entre les suites de rapports et ne combinent pas non plus les données de plusieurs suites de rapports.
 * Les suites de rapports d’Adobe Analytics ne peuvent pas mapper plus d’une ID d’organisation. Comme Analytics sur l’ensemble des appareils regroupe des appareils dans une suite de rapports donnée, il n’est pas possible d’utiliser Analytics sur l’ensemble des appareils pour regrouper des données sur plusieurs ID d’organisation.
 * Les analyses entre appareils utilisent un pipeline de traitement complexe, avec plusieurs composants dépendants. Ce pipeline s’exécute en parallèle du workflow de création de rapports Analytics de base. Vous pouvez vous attendre à une incohérence des données d’environ 1 % pour le nombre total d’accès entre la suite de rapports d’origine et la suite de rapports virtuelle Analytics sur l’ensemble des appareils.
 * Les analyses entre appareils utilisent une suite de rapport virtuelle et untraitement du temps de la période de rapport, qui ont leurs propres limites. Par exemple, ils ne prennent actuellement pas en charge les variables de canaux marketing. Voir [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md) et [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
-* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) dans Experience Cloud et Adobe Analytics. Cependant, les suites de rapports virtuelles Analytics sur l’ensemble des appareils (qu’elles soient basées sur un graphique privé ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles Analytics sur l’ensemble des appareils.
+* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) dans Experience Cloud et Adobe Analytics. Cependant, les suites de rapports virtuelles Analytics sur l’ensemble des appareils (qu’elles soient basées sur un graphique privé ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles Analytics sur l’ensemble des appareils.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec A4T.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * La surveillance active par Adobe du processus d’assemblage des analyses entre appareils se limite uniquement aux suites de rapports de production.
