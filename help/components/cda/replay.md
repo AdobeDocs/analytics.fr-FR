@@ -4,9 +4,9 @@ description: Comprendre le concept de « relecture » dans les analyses entre 
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 89%
 
 ---
@@ -34,9 +34,9 @@ Dès qu’un accès est collecté, l’analyse entre appareils tente de le group
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) |
 | `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `2` (246 et Bob) |
-| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `2` (246 et 3579) | `3` (246, Bob et 3579) |
+| `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `3` (246, Bob et 3579) |
 | `4` | `3579` | `Bob` | Bob se connecte sur son appareil mobile | `3` (246, Bob et 3579) |
-| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | | `3` (246, Bob et 3579) |
+| `5` | `246` | - | Bob accède à nouveau à votre site depuis son ordinateur de bureau, sans authentification | `3` (246, Bob et 3579) |
 | `6` | `246` | `Bob` | Bob se connecte à nouveau sur son ordinateur de bureau | `3` (246, Bob et 3579) |
 | `7` | `3579` | - | Bob accède à nouveau à votre site depuis son appareil mobile | `3` (246, Bob et 3579) |
 | `8` | `3579` | `Bob` | Bob se connecte à nouveau sur son appareil mobile | `3` (246, Bob et 3579) |

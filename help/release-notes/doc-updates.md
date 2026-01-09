@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0c34f756c72f3c07637370fb19b531301a508d19
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '6581'
+source-wordcount: '6584'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 2019.
 
-* Pour plus d’informations sur [!UICONTROL Customer Journey Analytics], rendez-vous [ici](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr).
+* Pour plus d&#39;informations sur [!UICONTROL Customer Journey Analytics], voir [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr).
 * Pour plus d’informations sur les services de médias en streaming Adobe, consultez [Mesurer le son et la vidéo dans Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr).
 
 ## Détails sur les mises à jour majeures de la documentation
@@ -58,7 +58,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour des informations sur les exclusions d’adresses IP | Ajout d’informations expliquant que les [exclusions d’adresses IP](/help/admin/tools/exclude-ip.md) peuvent prendre jusqu’à 5 minutes avant d’être prises en compte et que les modifications ne s’appliquent qu’aux nouveaux accès (les données capturées avant que l’exclusion ne soit définie ne sont pas affectées). <p>Mise à jour de la disposition du contenu pour améliorer la lisibilité.</p> |
 | **Février 2025** |  |
 | Mise à jour des informations sur la suspension et la réactivation d’un flux de données | Lors de la [suspension et réactivation d’un flux de données](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), le comportement des flux actifs a été clarifié. Le traitement des données ne se produit pas entre le moment où le flux est mis en pause et celui où il est réactivé. |
-| Modification de la période de conservation de l’ID de transaction | La période de conservation de l’ID de transaction de 90 jours a été étendue à 25 mois. La variable transactionID identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via la fonctionnalité Sources de données. Pour en savoir plus, cliquez [ici](/help/implement/vars/page-vars/transactionid.md) et [ici](/help/import/data-sources/transactionid.md). |
+| Modification de la période de conservation de l’ID de transaction | La période de conservation de l’ID de transaction de 90 jours a été étendue à 25 mois. La variable transactionID identifie de manière unique une transaction afin que l’accès puisse être lié aux données chargées via la fonctionnalité Sources de données. Voir [variables de page](/help/implement/vars/page-vars/transactionid.md) et [sources de données](/help/import/data-sources/transactionid.md). |
 | API Livestream - Implémentation de la clientèle | Utilisez l’[implémentation du client Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) pour utiliser les données Livestream. |
 | Mise à jour de l’API Classifications | Vous pouvez désormais [supprimer des champs ou des clés de classification individuels du serveur](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Cela fournit une alternative à la suppression d’un jeu de données de classification entier avec la méthode DELETE. |
 | **Janvier 2025** |  |
@@ -251,7 +251,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page de destination d’Adobe Analytics](/help/analyze/landing.md). |
 | **Juin 2021** |  |
 | 15 juin 2021 | Mise à jour des [Bonnes pratiques relatives aux canaux marketing](/help/components/c-marketing-channels/mchannel-best-practices.md). |
-| 3 juin 2021 | Mise à jour de la documentation destinée à mieux expliquer la [mise en œuvre des flux de données](/help/export/analytics-data-feed/create-feed.md) et [ici](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
+| 3 juin 2021 | Mise à jour de la documentation pour mieux expliquer [Implémentation des flux de données](/help/export/analytics-data-feed/create-feed.md) et [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
 | 25 mai 2021 | Mise à jour de la documentation sur le [respect de la casse des eVar dans le compte rendu des performances](/help/components/dimensions/evar.md). |
 | 13 mai 2021 | Mises à jour des [requêtes API Data Warehouse](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Elles prennent désormais en charge les « Heures ». |
 | **Mars 2021** | |
