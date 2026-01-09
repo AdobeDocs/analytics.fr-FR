@@ -4,10 +4,10 @@ description: Découvrez comment créer des liens hypertexte pour les éléments 
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1596'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Cette fonctionnalité est particulièrement utile lors de la création de liens 
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks pour la dimension](https://video.tv.adobe.com/v/3445782?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Hyperlinks pour la dimension](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Tenez compte des points suivants lorsque vous créez des liens hypertextes pour 
 
 * Les liens hypertextes créés sont stockés dans le tableau à structure libre du projet Analysis Workspace. Les liens hypertextes ne sont pas conservés lorsque vous utilisez la même dimension ou les mêmes éléments de dimension dans un autre tableau ou dans un autre projet.
 
-* Si vous modifiez la vue de données du tableau à structure libre, tous les liens hypertextes créés pour les dimensions ou les éléments de dimension du tableau restent disponibles. Cette fonctionnalité suppose que la dimension existe toujours dans la vue de données.
+* Si vous modifiez la suite de rapports du tableau à structure libre, tous les liens hypertexte créés pour les dimensions ou les éléments de dimension du tableau restent disponibles. Cette fonctionnalité suppose que la dimension existe toujours dans la suite de rapports.
 
 * La validité des URL n’est pas vérifiée lors de la création du lien hypertexte. Si vous
 

@@ -3,10 +3,10 @@ description: Découvrez comment utiliser les alertes pour un contrôle granulair
 title: Vue d’ensemble des alertes
 feature: Alerts
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 96%
+source-wordcount: '422'
+ht-degree: 54%
 
 ---
 
@@ -14,22 +14,28 @@ ht-degree: 96%
 
 Les alertes dans Journey Analytics envoient un avertissement en fonction des modifications de pourcentages ou de points de données spécifiques.
 
-Selon votre package Adobe Analytics, vous pouvez également déclencher des alertes en fonction des seuils d’anomalie. Ces alertes, également appelées « alertes intelligentes », fournissent des contrôles granulaires qui s’intègrent à la [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) et se déclenchent lorsque vous en avez le plus besoin.
+Selon votre package Adobe Analytics, vous pouvez également déclencher des alertes en fonction des seuils d’anomalie. Ces alertes (également appelées *Alertes intelligentes*) fournissent des commandes granulaires qui s’intègrent à la [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) et se déclenchent lorsque vous en avez le plus besoin.
 
 Grâce aux alertes, vous pouvez effectuer ce qui suit :
 
-* prévisualiser le nombre de fois où une alerte sera déclenchée ;
-* envoyer des alertes par courrier électronique ou par SMS, avec des liens vers des projets Analysis Workspace générés automatiquement ;
-* créer des alertes « empilées » qui présentent plusieurs mesures dans une seule alerte
-* Créer des alertes en fonction des anomalies (seuils de 90 %, 95 %, 99 %, 99,75 % et 99,9 % ; pourcentage de modification ; supérieur/inférieur) (disponible uniquement pour les clientes et clients Adobe Analytics avec un forfait Select, Prime ou Ultimate)
+* Prévisualisez la fréquence de déclenchement d’une alerte.
+* Envoyer des alertes par e-mail ou par SMS, avec des liens pour générer automatiquement les projets Analysis Workspace.
+* Créez des alertes *empilées* qui capturent plusieurs mesures dans une seule alerte.
+* Créer des alertes en fonction de :
+   * Anomalies des mesures qui existent, sont supérieures ou inférieures aux valeurs de seuil attendues.
 
-Le tutoriel vidéo suivant présente un aperçu de base des alertes : [Alertes](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=fr) (5:34)
+     [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) crée une valeur attendue ainsi qu’une limite supérieure et inférieure à l’aide des données historiques. Si la valeur de la mesure réelle dépasse la limite supérieure ou est inférieure à la limite inférieure définie comme valeur de seuil, cet événement est considéré comme une anomalie au niveau de confiance du seuil et déclenche l’alerte. Un seuil plus élevé (par exemple : 99 % ou 99,9 %) implique une bande plus large, ce qui entraîne moins d’alertes provoquées par des anomalies plus extrêmes. Un seuil inférieur (par exemple : 90 %) implique une bande plus étroite, ce qui entraîne plus d’alertes provoquées par des anomalies moins extrêmes.
+   * Modification des mesures selon un pourcentage spécifique.
+   * Mesures supérieures, inférieures ou égales à une valeur spécifique. (disponible uniquement pour les clients Adobe Analytics avec un package Select, Prime ou Ultimate)
+
+Ce [tutoriel vidéo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/intelligent-alerts) fournit un aperçu de base des alertes.
+
 
 ## Recherche en amont des alertes par anomalies
 
 >[!NOTE]
 >
->L’utilisation d’alertes avec détection des anomalies (également appelées _Alertes intelligentes_) n’est disponible que pour les organisations qui disposent d’un forfait Adobe Analytics Prime ou Ultimate.
+>L’utilisation d’alertes avec détection des anomalies (également appelées _Alertes intelligentes_) n’est disponible que pour les organisations qui disposent d’un package Adobe Analytics Prime ou Ultimate.
 
 Si une alerte utilise la détection des anomalies, la période de formation varie en fonction de la granularité sélectionnée pour l’alerte.
 
