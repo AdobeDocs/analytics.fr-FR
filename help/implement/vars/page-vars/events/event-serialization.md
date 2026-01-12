@@ -4,7 +4,7 @@ description: Permet la déduplication des mesures sur votre site.
 feature: Appmeasurement Implementation
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 7cd930ac63e0c02dbc7df2b6114d523f5ac91064
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 83%
@@ -37,7 +37,7 @@ Lors de l’utilisation des identifiants d’événement, la déduplication se p
 
 Si vous utilisez l’[**objet XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sérialisation des événements utilise le `id` de champ XDM de l’événement souhaité. Le chemin XDM complet dépend de l’événement que vous souhaitez sérialiser.
 
-Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez `xdm.commerce.productListAdds.id` sur la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez `xdm._experience.analytics.event1to100.event20` sur la valeur de sérialisation souhaitée.
+Par exemple, si vous souhaitez sérialiser la mesure Ajouts au panier, définissez `xdm.commerce.productListAdds.id` sur la valeur de sérialisation souhaitée. Si vous souhaitez sérialiser l’événement personnalisé 20, définissez `xdm._experience.analytics.event1to100.event20.id` sur la valeur de sérialisation souhaitée.
 
 Si vous utilisez l’objet [**data**](/help/implement/aep-edge/data-var-mapping.md), la sérialisation des événements utilise `data.__adobe.analytics.events`, en suivant la syntaxe de chaîne AppMeasurement.
 
