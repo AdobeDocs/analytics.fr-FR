@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
 workflow-type: tm+mt
-source-wordcount: '6584'
-ht-degree: 99%
+source-wordcount: '6626'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Janvier 2026** | |
+| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
 | **Novembre 2025** | |
 | Considérations importantes concernant les règles VISTA | Mise à jour des considérations importantes concernant les [règles Vista](/help/technotes/vista.md). |
 | Ajout de l’identifiant de colonne de données pour les outils d’IA conversationnelle | Ajout de l’[ID de référence de colonne de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) pour les outils d’IA conversationnelle dans la colonne ref_type. |
