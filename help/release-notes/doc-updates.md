@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d9fbc4a69030f9633046920f023473261cea6f28
+source-git-commit: af4a592d4c73d000d1fede72148dc1617de52fec
 workflow-type: tm+mt
-source-wordcount: '6626'
+source-wordcount: '6624'
 ht-degree: 98%
 
 ---
@@ -26,14 +26,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Janvier 2026** | |
+| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
 | Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
 | Fonctionnalité | Description |
 | --- | --- |
-| **Janvier 2026** | |
-| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
 | **Novembre 2025** | |
 | Considérations importantes concernant les règles VISTA | Mise à jour des considérations importantes concernant les [règles Vista](/help/technotes/vista.md). |
 | Ajout de l’identifiant de colonne de données pour les outils d’IA conversationnelle | Ajout de l’[ID de référence de colonne de données](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) pour les outils d’IA conversationnelle dans la colonne ref_type. |
