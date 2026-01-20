@@ -100,7 +100,7 @@ Cliquez sur les titres des préférences liées pour plus d’informations et de
 
 >[!IMPORTANT]
 >
->Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté.
+>Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté.
 >
 
 | Section | Préférence | Options |
