@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: af4a592d4c73d000d1fede72148dc1617de52fec
+source-git-commit: 58098a24e826161bbd7aadb98abe050fd944791e
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6639'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Janvier 2026** | |
-| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
+| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
 | Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}

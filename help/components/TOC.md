@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 99%
+source-wordcount: '748'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -179,7 +179,7 @@ ht-degree: 99%
    + [À propos des segments](segmentation/seg-overview.md)
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Workflow {#segmentation-workflow}
+   + Processus {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
       + [Créer des segments](segmentation/segmentation-workflow/seg-create.md)
@@ -206,7 +206,7 @@ ht-degree: 99%
 + Mesures calculées {#calculated-metrics}
    + [Vue d’ensemble](calculated-metrics/cm-overview.md)
    + [Vidéos pratiques](calculated-metrics/cm-videos.md)
-   + Workflow {#calcmetric-workflow}
+   + Processus {#calcmetric-workflow}
       + [Créer des mesures calculées](calculated-metrics/workflow/cm-workflow.md)
       + [Rechercher des mesures](calculated-metrics/workflow/cm-finding.md)
       + [Créer des mesures calculées](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
@@ -240,7 +240,7 @@ ht-degree: 99%
    + [Remarques concernant A4T](vrs/vrs-a4t.md)
    + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Suites de rapports virtuelles et balisage global/multisuite - Remarques](vrs/vrs-considerations.md)
-   + Workflow {#vrs-workflow}
+   + Processus {#vrs-workflow}
       + [Workflow des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Création des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
@@ -270,7 +270,6 @@ ht-degree: 99%
          + [Paramètres](classifications/sets/manage/settings.md)
          + [Schéma](classifications/sets/manage/schema.md)
          + [Règles](classifications/sets/manage/rules.md)
-         + [Règles nouvelles](classifications/sets/manage/rules-new.md)
       + [Traitements de classification](classifications/sets/job-manager.md)
       + Consolidations de classification {#consolidations}
          + [Gérer](classifications/sets/consolidations/manage.md)
