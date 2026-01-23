@@ -2,9 +2,9 @@
 title: Règles des ensembles de classifications
 description: Découvrez comment utiliser les règles des jeux de classifications pour définir des règles pour les données de classification.
 feature: Classifications
-source-git-commit: 685110ea30be8b87f63a8d944902669544516667
+source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1683'
 ht-degree: 13%
 
 ---
@@ -12,9 +12,11 @@ ht-degree: 13%
 
 # Règles des ensembles de classifications
 
-Vous utilisez des règles pour prendre en charge les classifications automatiques dans les scénarios où votre dimension clé change constamment. La mise à jour des classifications par chargement ou automatisation devient un processus laborieux ou prend du retard par rapport à la classification appropriée des nouvelles valeurs de dimension. Par exemple, les campagnes internes, les codes de suivi ou les SKU de produit. La dimension doit contenir des valeurs qui vous permettent d’appliquer une ou plusieurs règles afin que vous puissiez dériver des données de classification des valeurs.
+Vous utilisez des règles pour prendre en charge les classifications automatiques dans les scénarios où votre dimension clé change constamment. La mise à jour des classifications par le biais du [chargement](/help/components/classifications/sets/manage/schema.md#upload) ou de l’[automatisation](/help/components/classifications/sets/manage/schema.md#automate) devient un processus laborieux ou retarde la classification appropriée des nouvelles valeurs de dimension. Par exemple, les campagnes internes, les codes de suivi ou les SKU de produit.
 
-Vous définissez des règles dans le contexte d’un ensemble de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est quelque peu différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
+La dimension doit contenir des valeurs qui vous permettent d’appliquer une ou plusieurs règles afin que vous puissiez dériver des données de classification des valeurs de dimension.
+
+Vous définissez des règles dans le contexte d’un ensemble de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
 
 
 Pour définir un ensemble de règles pour un ensemble de classifications, procédez comme suit :
@@ -71,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -164,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -223,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -313,7 +315,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
