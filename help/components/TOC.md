@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
+source-git-commit: dd0bf6090f0886c770d39ec7c2b9f8f6f27577db
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -310,4 +310,3 @@ ht-degree: 99%
    + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
    + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)
    + [FAQ et exemples sur les canaux marketing](c-marketing-channels/c-faq.md)
-
