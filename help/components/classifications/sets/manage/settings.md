@@ -3,7 +3,7 @@ title: Paramètres des ensembles de classifications
 description: Découvrez comment créer ou modifier un ensemble de classifications.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: 7e966bc91bb774ade739bd27cfe04447f6542746
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Pour modifier les paramètres d’un ensemble de classifications :
       * Vous pouvez définir plusieurs combinaisons **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension]** pour un ensemble de classifications.
       * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.
 
-      Voir [Créer un ensemble de classifications](create.md) pour plus d’informations.
+      Voir [Créer un ensemble de classifications](/help/components/classifications/sets/create.md) pour plus d’informations.
 
    1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les paramètres. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 

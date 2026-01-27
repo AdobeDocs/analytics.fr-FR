@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -264,8 +264,8 @@ ht-degree: 99%
    + Jeux de classifications {#sets}
       + [Vue d’ensemble](classifications/sets/overview.md)
       + [Fichiers de données](classifications/sets/data-files.md)
-      + [Créer et modifier](classifications/sets/manage/create.md)
-      + [Gérer](classifications/sets/manage/set-manager.md)
+      + [Créer et modifier](classifications/sets/create.md)
+      + [Gérer](classifications/sets/set-manager.md)
       + Ensemble de classifications {#set}
          + [Paramètres](classifications/sets/manage/settings.md)
          + [Schéma](classifications/sets/manage/schema.md)

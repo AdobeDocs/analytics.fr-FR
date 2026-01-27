@@ -3,7 +3,7 @@ title: Présentation des ensembles de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Comprenez en quoi les ensembles de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 9%
@@ -12,7 +12,7 @@ ht-degree: 9%
 
 # Vue d’ensemble des jeux de classifications
 
-Les jeux de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow combine la création de classifications dans [Paramètres de la suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) avec l’[Importateur de classifications](/help/components/classifications/sets/manage/set-manager.md). Le résultat est une interface intuitive unique pour créer et gérer des données de classification.
+Les jeux de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow combine la création de classifications dans [Paramètres de la suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) avec l’[Importateur de classifications](/help/components/classifications/sets/set-manager.md). Le résultat est une interface intuitive unique pour créer et gérer des données de classification.
 
 
 ## Jeux de classifications et classifications héritées
@@ -46,17 +46,17 @@ Pour accéder au menu **[!UICONTROL Ensembles de classifications]** à partir du
 
 Les ensembles de classifications se composent de trois domaines fonctionnels :
 
-* [**[!UICONTROL Ensembles de classifications]**](manage/set-manager.md) : créez, modifiez et supprimez des ensembles de classifications.
+* [**[!UICONTROL Ensembles de classifications]**](set-manager.md) : créez, modifiez et supprimez des ensembles de classifications.
 * [**[!UICONTROL Tâches]**](job-manager.md) : affichez le statut des tâches des ensembles de classifications.
 * [**[!UICONTROL Consolidations]**](consolidations/manage.md) : combinez plusieurs ensembles de classifications en un seul ensemble.
 
 
-## Workflow
+## Processus
 
 Le workflow des ensembles de classifications implique généralement les étapes suivantes :
 
 1. Déterminez les combinaisons de suite de rapports et de dimension pour lesquelles vous souhaitez créer un ensemble de classifications. Par exemple, définissez un ensemble de classifications de produits que vous créez pour toute suite de rapports pour laquelle vous souhaitez classer les produits avec plus de détails. Par exemple, les détails tels que la catégorie et la couleur.
-1. [Créez un ensemble de classifications](/help/components/classifications/sets/manage/create.md) avec des abonnements à une ou plusieurs suites de rapports et combinaisons de dimensions clés qui identifient les produits. Par exemple :
+1. [Créez un ensemble de classifications](/help/components/classifications/sets/create.md) avec des abonnements à une ou plusieurs suites de rapports et combinaisons de dimensions clés qui identifient les produits. Par exemple :
 
    | Suite de rapports | Dimension clé |
    |---|---|
@@ -112,7 +112,7 @@ L’architecture backend publiée avec les jeux de classifications comporte plus
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
 * Une interface utilisateur repensée pour gérer les classifications.
-* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* L’option permettant d’utiliser les données de classification dans Adobe Experience Platform via le connecteur source [Adobe Analytics pour les données de classification](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 L’architecture backend publiée avec les jeux de classifications contient également plusieurs modifications :
 
