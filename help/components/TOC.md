@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 99%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -284,7 +284,7 @@ ht-degree: 99%
       + Importateur de classifications {#classifications-importer}
          + [Vue d’ensemble](classifications/importer/c-working-with-saint.md)
          + [Fichiers de données](classifications/importer/c-saint-data-files.md)
-         + [Suppression des données de classification](classifications/importer/t-delete-classification-data.md)
+         + [Supprimer les données](classifications/importer/t-delete-classification-data.md)
          + [Modèle](classifications/importer/c-download-saint-data.md)
          + [Import du navigateur](classifications/importer/browser-import.md)
          + [Exportation navigateur](classifications/importer/browser-export.md)
