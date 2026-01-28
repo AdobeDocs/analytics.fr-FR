@@ -3,7 +3,7 @@ title: Gérer les consolidations des ensembles de classifications
 description: Découvrez comment consolider un ou plusieurs ensembles de classifications en un seul ensemble.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 3%
@@ -40,7 +40,7 @@ La liste ➊ affiche les consolidations de classification créées et validées,
 |---|---|
 | **[!UICONTROL Nom de la consolidation]** | Nom de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Tâche actuelle]** | Tâche associée à la consolidation des ensembles de classifications. |
-| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** **&#x200B;**. |
+| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** ****. |
 | **[!UICONTROL Heure de création]** | Heure de création de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Heure de fin]** | Heure d’achèvement des consolidations de classification. |
 
@@ -86,33 +86,3 @@ Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher la ➍ du 
 Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Masquer les filtres]** pour masquer le panneau des filtres.
 
 Notez que les filtres affichés dans le panneau Filtres reflètent les options des consolidations de classification préchargées.
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
-
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
-
-## Filter classification sets
-
-The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
-
-![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
-
-Additional filter options are available above the Classification set consolidation manager columns:
-
-* **[!UICONTROL Search by title]**: Search for consolidations by name.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
-
-## Classification set consolidation manager columns
-
-The following columns are available in the Classification set consolidation manager:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Current job]**: The current job. 
-* **[!UICONTROL Status]**: The status of the consolidation. 
-* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
-* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
-
--->

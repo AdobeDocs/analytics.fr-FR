@@ -3,7 +3,7 @@ title: Créer des ensembles de classifications
 description: Découvrez comment accéder aux champs et descriptions disponibles lors de la création d’un ensemble de classifications.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 3%
@@ -40,7 +40,7 @@ Vous pouvez :
          * Remplacez **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** par une combinaison qui n’est pas déjà abonnée à un autre ensemble de classifications.
       * **[!UICONTROL Recherche]**. Généralement appelée ‘classifications enfants’ ou ‘sous-classifications’, une table de recherche est une classification d’une classification principale. Une recherche correspond à des métadonnées sur une valeur de classification, plutôt que sur la dimension d’origine. Par exemple, une dimension *Produit* peut avoir une classification principale de *Code couleur*. Une table de recherche de *nom de la couleur* peut ensuite être jointe au *code de couleur* pour expliquer chaque code de couleur.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
-1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
+1. Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications
@@ -52,34 +52,3 @@ Pour modifier un ensemble de classifications, procédez comme suit :
 1. Sélectionnez le nom de votre ensemble de classifications.
 1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _nom de l’ensemble de classifications_]**, vous pouvez définir les [paramètres](manage/settings.md) et le [schéma](manage/schema.md) de l’ensemble de classifications.
 1. Une fois que vous avez terminé, sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer vos modifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
-
-
-<!--
-
-
-### Schema
-
-In the Schema tab 
-
-
-
-
-
-You can use the Classification set manager to create a classification set.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
-
-When creating a classification set, the following fields are available.
-
-* **[!UICONTROL Name]**: A text field used to identify the classification set. This field cannot be edited upon creation, but can be renamed later.
-* **[!UICONTROL Column Name]**: The name of the first classification dimension that you want to create. This field is the dimension name used in Analysis Workspace, and the column name when exporting classification data. You can add more column names after the classification set is created.
-* **[!UICONTROL Type]**: Radio buttons that indicate the type of classification.
-  * **[!UICONTROL Primary]**: Apply to dimensions collected in Analytics. They are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to better understand themes in your search data.
-  * **[!UICONTROL Lookup]**: Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. It is metadata about a classification value, rather than the original dimension. For example, the Product variable might have a primary classification of 'Color code'. A lookup table of 'Color name' could then be attached to 'Color code' to further explain what each code means.
-* **[!UICONTROL Subscriptions]** The report suites and dimensions that this classification set applies to. You can add multiple report suite and dimension combinations to a classification set.
-
-![Create a Classification set](../../assets/classification-set-create.png)
-
-If a classification set exists for a given report suite + variable, the classification is added to the schema instead. A given report suite + variable combination cannot belong to multiple classification sets.
-
--->

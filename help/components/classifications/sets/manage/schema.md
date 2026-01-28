@@ -3,7 +3,7 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 4%
@@ -64,7 +64,7 @@ Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/
 
 ![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
-Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**&#x200B;et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
+Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
 
 
 
@@ -156,14 +156,14 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
 >id="classificationsets_schema_automate_locationaccount"
 >title="Emplacement du compte"
 >abstract="Liste des comptes d’emplacement des types de compte qui prennent en charge l’importation des données de classification. Sélectionnez **[!UICONTROL Nouveau compte]** pour créer un compte d’emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=fr" text="Configuration des comptes d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configuration des comptes d’import et d’export cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Emplacement"
 >abstract="Liste des emplacements du compte d’emplacement sélectionné qui prennent en charge l’importation de données de classification. Sélectionnez **[!UICONTROL Nouvel emplacement]** pour créer un emplacement."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=fr" text="Configuration des emplacements d’import et d’export cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configuration des emplacements d’import et d’export cloud"
 
 
 Pour automatiser l’ingestion des classifications, sélectionnez ![Engrenage](/help/assets/icons/Gear.svg) **[!UICONTROL Automatiser]**.
@@ -194,7 +194,7 @@ Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplaceme
 
 1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
 1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée.
-1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
+1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez**[!UICONTROL  Enregistrer ]**si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez**[!UICONTROL  Mettre à jour ]**. Ou sélectionnez**[!UICONTROL  Annuler ]**pour annuler la configuration de l’emplacement du cloud.
 
 Lorsque vous chargez des fichiers vers l’emplacement cloud, dans les 15 minutes, le fichier est détecté et envoyé en tant que tâche d’importation. Le résultat de cette tâche d’importation est indiqué dans le [Gestionnaire des tâches de classifications](/help/components/classifications/sets/job-manager.md). Si vous êtes ajouté à la liste des utilisateurs à avertir de la fin des tâches d’ingestion, vous recevez également des e-mails.
 
@@ -212,66 +212,4 @@ La barre d’actions affiche les actions disponibles pour la classification sél
 | ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez le **[!UICONTROL nom de la classification]** d’une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _nom de la classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer la classification. |
-
-
-<!--
-
-View currently configured classification dimensions for this classification set.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Schema]**
-
-![classification set schema UI](../../assets/classification-set-schema.png)
-
-The following buttons are available:
-
-
-* **[!UICONTROL Upload]**: Manually upload classification data for a classification dimensions. `JSON`, `CSV`, `TSV`, and `TAB` files are supported. Uploading a valid file shows a table preview of data to classify.
-  * **[!UICONTROL File encoding]**: Select the correct file encoding using this drop-down. Valid options include [!UICONTROL UTF-8] and [!UICONTROL Latin1].
-  * **[!UICONTROL List delimiter]**: Select the correct list delimiter. If using a downloaded file or template file, make sure that the [!UICONTROL List delimiter] here matches the [!UICONTROL List delimiter] when the file was downloaded.
-  * **[!UICONTROL Apply]**: Save the uploaded classification data to the classification set.
-
-  ![Classification set upload](../../assets/classification-set-upload.png)
-
-* **[!UICONTROL Download]**: Download key values and their classification columns.
-  * **[!UICONTROL Rows]**: The maximum number of rows to include in the download file.
-  * **[!UICONTROL Download rows received between]**: A calendar date picker that allows you to filter key values by when they appear in reporting. If a key value was not collected in this date range, it does not appear in the downloaded file.
-  * **[!UICONTROL Data returned]**: A drop-down list that lets you filter key values included in the downloaded file based on their associated classification data.
-    * **[!UICONTROL All classified values]**: Includes rows where classification data is included in at least one column.
-    * **[!UICONTROL All unclassified values]**: Includes rows where classification data is missing in at least one column.
-  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the download file is in. Options include [!UICONTROL JSON], [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
-  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-
-  ![Classification set download](../../assets/classification-set-download.png)
-
-* **[!UICONTROL Template]**: Download a template file. This file is similar to the [!UICONTROL Download] button, except it does not contain any classification data or key values.
-  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the template file is in. Options include [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
-  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-  * **[!UICONTROL List delimiters]**: A drop-down list that determines the list delimiter separating classification columns on each row.
-
-  ![Classification set template](../../assets/classification-set-template.png)
-
-* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](../job-manager.md), showing jobs only for this classification set.
-* **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
-  * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. If your organization hasn't already configured a location account, you can configure one by selecting [!UICONTROL **Create a new account**].
-    
-    For information about configuring the location account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
-
-  * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. If your organization hasn't already configured a location, you can configure one by selecting [!UICONTROL **Create a new location**]. 
-
-    For information about configuring a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). 
-
-  * **[!UICONTROL Delimiter]**: The column delimiter for uploaded files. Options include [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], or [!UICONTROL Underscore].
-
-  * **[!UICONTROL Encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-
-The following actions are available only after selecting a classification.
-
-* **Add lookup**: A lookup table is a classification of a classification. It is metadata about a classification value, rather than the variable itself. For example, the Product variable might have a classification of "color code". A lookup table of "color name" might be attached to "color code" to explain what the colors are.
-
-  ![Attach lookup table](../../assets/lookup.png)
-
-* **Rename**: Lets you rename the classification.
-
-* **Delete**: Lets you delete the classification.
--->
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**s’affiche. Sélectionnez **[!UICONTROL Supprimer]**pour supprimer la classification. |

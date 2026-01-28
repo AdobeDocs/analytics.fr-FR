@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '737'
 ht-degree: 99%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -277,15 +277,15 @@ ht-degree: 99%
    + Classifications héritées {#legacy-classifications}
       + Créateur de règles de classification {#classifications-rulebuilder}
          + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)
-         + [Jeux de règles de classification](classifications/crb/classification-rule-set.md)
-         + [Règles de classification](classifications/crb/classification-quickstart-rules.md)
-         + [Définitions des règles de classification](classifications/crb/classification-rule-definitions.md)
-         + [Les sous-classifications et le créateur de règles](classifications/crb/subclassification-rule-builder.md)
+         + [Jeux de règles](classifications/crb/classification-rule-set.md)
+         + [Règles](classifications/crb/classification-quickstart-rules.md)
+         + [Définitions de règle](classifications/crb/classification-rule-definitions.md)
+         + [Sous-classifications](classifications/crb/subclassification-rule-builder.md)
       + Importateur de classifications {#classifications-importer}
-         + [Vue d’ensemble de l’importateur de classifications](classifications/importer/c-working-with-saint.md)
-         + [Fichiers de données de classification](classifications/importer/c-saint-data-files.md)
+         + [Vue d’ensemble](classifications/importer/c-working-with-saint.md)
+         + [Fichiers de données](classifications/importer/c-saint-data-files.md)
          + [Suppression des données de classification](classifications/importer/t-delete-classification-data.md)
-         + [Modèle de classification](classifications/importer/c-download-saint-data.md)
+         + [Modèle](classifications/importer/c-download-saint-data.md)
          + [Import du navigateur](classifications/importer/browser-import.md)
          + [Exportation navigateur](classifications/importer/browser-export.md)
          + [Importation FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
@@ -310,3 +310,4 @@ ht-degree: 99%
    + [Analyse des canaux marketing](c-marketing-channels/analyze-mc.md)
    + [Autorisations des canaux marketing](c-marketing-channels/c-channel-report-access.md)
    + [FAQ et exemples sur les canaux marketing](c-marketing-channels/c-faq.md)
+
