@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 99%
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -272,8 +272,8 @@ ht-degree: 99%
          + [Règles](classifications/sets/manage/rules.md)
       + [Traitements de classification](classifications/sets/job-manager.md)
       + Consolidations de classification {#consolidations}
-         + [Gérer](classifications/sets/consolidations/manage.md)
          + [Créer et modifier](classifications/sets/consolidations/process.md)
+         + [Gérer](classifications/sets/consolidations/manage.md)
    + Classifications héritées {#legacy-classifications}
       + Créateur de règles de classification {#classifications-rulebuilder}
          + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)

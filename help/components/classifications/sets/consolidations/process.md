@@ -3,7 +3,7 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 1%
@@ -77,14 +77,24 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Modification d’une consolidation
+## Modification d’une consolidation {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Discordance"
+>abstract="Pourcentage d’incohérences clés lorsque la valeur de l’ensemble de classifications consolidé ne correspond pas à l’ensemble de classifications source."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Absent"
+>abstract="Le pourcentage de clés dans l’ensemble de classifications consolidé, mais pas dans l’ensemble de classifications source."
 
 Pour modifier une consolidation de classification, dans l’interface principale d’Adobe Analytics :
 
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|
@@ -124,18 +134,7 @@ Pour exécuter une consolidation de classification, procédez comme suit :
 1. Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour fermer la boîte de dialogue.
 
 
-### Approuver {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Discordance"
->abstract="Pourcentage d’incohérences clés lorsque la valeur de l’ensemble de classifications consolidé ne correspond pas à l’ensemble de classifications source."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Absent"
->abstract="Le pourcentage de clés dans l’ensemble de classifications consolidé, mais pas dans l’ensemble de classifications source."
+### Approuver
 
 Une fois qu’une consolidation de classification a été exécutée avec succès, le statut de consolidation est ![StatutOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL En attente d’approbation]**. L’approbation d’une consolidation de classification remplace les ensembles de classifications individuels par l’ensemble de classifications consolidé et les ensembles de classifications individuels sont supprimés.
 
