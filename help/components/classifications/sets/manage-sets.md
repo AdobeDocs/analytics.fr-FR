@@ -23,7 +23,7 @@ Pour gérer les ensembles de classifications :
 
 Le gestionnaire **[!UICONTROL Ensembles de classifications]** comporte les éléments d’interface suivants :
 
-![ Gestionnaire des ensembles de classifications ](assets/classification-sets-manage.png)
+![&#x200B; Gestionnaire des ensembles de classifications &#x200B;](assets/classification-sets-manage.png)
 
 
 ### Liste des ensembles de classifications
@@ -65,10 +65,10 @@ Lorsque vous sélectionnez un ou plusieurs ensembles de classifications dans la 
 | Icône | Action | Description |
 |---|---|---|
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Modifier]** | [Modifiez l’ensemble de classifications](create-set.md#edit-a-classification-set) dans le créateur d’ensembles de classifications. |
-| ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez un ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Renommer : _ensemble de classifications_]**saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
+| ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez un ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Renommer : _ensemble de classifications_]**&#x200B;saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
 | ![Fusionner](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolider]** | [Consolidez les ensembles de classifications](/help/components/classifications/sets/consolidations/manage.md). |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications.<br/>Le **[!UICONTROL Supprimer _jeu de classifications_ ?]** boîte de dialogue s’affiche. La suppression d’un ensemble de classifications ne peut pas être annulée. Tous les projets planifiés ou toutes les consolidations qui utilisent cet ensemble de classifications continuent à utiliser la définition de cet ensemble de classifications jusqu’à ce que vous réenregistriez les projets planifiés ou que vous validiez à nouveau les consolidations planifiées. Sélectionnez **[!UICONTROL Supprimer]** pour supprimer l’ensemble de classifications. |
-| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Balisez l’ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Balise : _jeu de classifications_]**, sélectionnez une ou plusieurs balises dans le menu déroulant **[!UICONTROL Balises]**pour ajouter des balises. Vous pouvez également saisir une ou plusieurs nouvelles balises. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise. <br/>Sélectionnez **[!UICONTROL Enregistrer]**pour enregistrer les balises. |
+| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Balisez l’ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Balise : _jeu de classifications_]**, sélectionnez une ou plusieurs balises dans le menu déroulant **[!UICONTROL Balises]**&#x200B;pour ajouter des balises. Vous pouvez également saisir une ou plusieurs nouvelles balises. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise. <br/>Sélectionnez **[!UICONTROL Enregistrer]**&#x200B;pour enregistrer les balises. |
 
 
 ### Panneau Filtrer
