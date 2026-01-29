@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
+source-git-commit: eb12185be8d6e2e6dc15df9da17ce34b5f6b9c80
 workflow-type: tm+mt
 source-wordcount: '6639'
 ht-degree: 98%
@@ -26,8 +26,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Janvier 2026** | |
-| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [&#x200B; Créateur de règles dans les ensembles de classifications &#x200B;](/help/components/classifications/sets/manage/rules.md). |
-| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/fr/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
+| Préférences utilisateur : format numérique | Vous ne pouvez plus définir le format des nombres dans la section **[!UICONTROL Projet et analyses]** > **[!UICONTROL Données]** des **[!UICONTROL Préférences utilisateur]**. Le format des nombres est automatiquement déterminé par la [langue par défaut configurée](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) pour l’utilisateur connecté. |
 | Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
@@ -98,7 +98,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Nouvelle documentation pour la mise à niveau d’Adobe Analytics vers Customer Journey Analytics | Pour les entreprises qui passent d’Adobe Analytics à Customer Journey Analytics, il existe plusieurs options de mise à niveau et de nombreux points à prendre en compte en fonction de la mise en œuvre actuelle d’Adobe Analytics et des objectifs à long terme de l’entreprise.<p>De nouvelles ressources documentaires sont désormais disponibles pour vous aider à mieux comprendre ce qui suit :</p><ul><li>Les différentes voies de mise à niveau existantes</li><li>Les voies de mise à niveau disponibles en fonction de l’implémentation actuelle d’Adobe Analytics par l’entreprise</li><li>Les avantages et les inconvénients de chaque voie de mise à niveau</li><li>Guide étape par étape pour chaque voie de mise à niveau</li><li>Considérations relatives au traitement des données historiques</li><li>Et bien plus encore.</li></ul><p>[Commencez avec la mise à niveau vers Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-getstarted).</p> |
 | Mise à jour de la documentation sur les périodes personnalisées | Mise à jour des captures d’écran et des procédures relatives à [la création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md), afin de correspondre aux fonctionnalités et à la conception actuelles du produit. |
 | **Avril 2024** | |
-| Suppression de la documentation relative à la « personne propriétaire » dans les jeux de classifications | Le filtre et la colonne « Personne propriétaire » ont été supprimés du [Gestionnaire de jeux de classifications](/help/components/classifications/sets/set-manager.md) et le champ « Personne propriétaire » a été supprimé des [Paramètres des jeux de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
+| Suppression de la documentation relative à la « personne propriétaire » dans les jeux de classifications | Le filtre et la colonne « Personne propriétaire » ont été supprimés du [Gestionnaire de jeux de classifications](/help/components/classifications/sets/manage-sets.md) et le champ « Personne propriétaire » a été supprimé des [Paramètres des jeux de classifications](/help/components/classifications/sets/manage/settings.md). <p>La documentation a été mise à jour afin de supprimer ce filtre, cette colonne et ce champ.</p> |
 | Suppression des sections rabattables dans la documentation sur la configuration des emplacements d’import et d’export dans le cloud | Suppression des sections rabattables sur [Configurer les emplacements d’import et d’export dans le cloud](/help/components/locations/configure-import-locations.md) pour les informations expliquant les types de comptes cloud. |
 | **Mars 2024** | |
 | Mise à jour d’AppMeasurements | [Notes de mise à jour](/help/implement/appmeasurement-updates.md) concernant la mise à jour d’AppMeasurement v2.26.0.<br/>Inclut la référence à et la mise à jour de la documentation sur les variables de configuration [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md). |

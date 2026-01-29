@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 5109dc297f1b930258e4cffa8ca4325cf369ca6e
+source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -169,7 +169,7 @@ ht-degree: 98%
    + [Durée totale en secondes](metrics/total-seconds-spent.md)
    + [Personnes non identifiées](metrics/unidentified-people.md)
    + [Appareils uniques](metrics/unique-devices.md)
-   + [Visiteurs uniques](metrics/unique-visitors.md)
+   + [Visiteurs et visiteuses uniques](metrics/unique-visitors.md)
    + [Unités](metrics/units.md)
    + [Mesures vocales](metrics/voice-metrics.md)
    + [Visiteurs avec un Experience Cloud ID](metrics/visitors-with-ecid.md)
@@ -179,7 +179,7 @@ ht-degree: 98%
    + [À propos des segments](segmentation/seg-overview.md)
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + Processus {#segmentation-workflow}
+   + Workflow {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
       + [Créer des segments](segmentation/segmentation-workflow/seg-create.md)
@@ -206,7 +206,7 @@ ht-degree: 98%
 + Mesures calculées {#calculated-metrics}
    + [Vue d’ensemble](calculated-metrics/cm-overview.md)
    + [Vidéos pratiques](calculated-metrics/cm-videos.md)
-   + Processus {#calcmetric-workflow}
+   + Workflow {#calcmetric-workflow}
       + [Créer des mesures calculées](calculated-metrics/workflow/cm-workflow.md)
       + [Rechercher des mesures](calculated-metrics/workflow/cm-finding.md)
       + [Créer des mesures calculées](calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
@@ -240,7 +240,7 @@ ht-degree: 98%
    + [Remarques concernant A4T](vrs/vrs-a4t.md)
    + [Questions fréquentes sur les suites de rapports virtuelles](vrs/vrs-faq.md)
    + [Suites de rapports virtuelles et balisage global/multisuite - Remarques](vrs/vrs-considerations.md)
-   + Processus {#vrs-workflow}
+   + Workflow {#vrs-workflow}
       + [Workflow des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-workflow.md)
       + [Création des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-create.md)
       + [Gestion des suites de rapports virtuelles](vrs/c-workflow-vrs/vrs-manage.md)
@@ -264,8 +264,8 @@ ht-degree: 98%
    + Jeux de classifications {#sets}
       + [Vue d’ensemble](classifications/sets/overview.md)
       + [Fichiers de données](classifications/sets/data-files.md)
-      + [Créer et modifier](/help/components/classifications/sets/create.md)
-      + [Gérer](/help/components/classifications/sets/set-manager.md)
+      + [Créer et modifier](/help/components/classifications/sets/create-set.md)
+      + [Gérer](/help/components/classifications/sets/manage-sets.md)
       + Ensemble de classifications {#set}
          + [Paramètres](classifications/sets/manage/settings.md)
          + [Schéma](classifications/sets/manage/schema.md)
