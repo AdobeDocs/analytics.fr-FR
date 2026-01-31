@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -148,8 +148,8 @@ ht-degree: 100%
    + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
 + Mettre en œuvre Analytics à l’aide d’Experience Platform Edge {#aep-edge}
    + [Présentation d’Experience Edge](aep-edge/overview.md)
-   + [Mappage des variables d’objet de données](aep-edge/data-var-mapping.md)
-   + [Mappage des variables d’objet XDM](aep-edge/xdm-var-mapping.md)
+   + [Mappage de champ d’objet de données](aep-edge/data-var-mapping.md)
+   + [Mappage des champs d’objet XDM](aep-edge/xdm-var-mapping.md)
    + [Types d’événements Edge Network](aep-edge/hit-types.md)
    + SDK Web {#web-sdk}
       + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
