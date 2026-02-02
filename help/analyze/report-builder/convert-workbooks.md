@@ -1,79 +1,125 @@
 ---
-title: Comment convertir vos classeurs Report Builder hérités en blocs de données
-description: Décrit comment convertir vos requêtes héritées en blocs de données
+title: Conversion De Vos Classeurs Report Builder Hérités
+description: Découvrez comment convertir vos classeurs Report Builder hérités pour utiliser le nouveau Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 22%
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
-# Conversion des classeurs Report Builder hérités en blocs de données
+# Conversion des classeurs Report Builder hérités
 
-Dans le cadre de la transition vers une nouvelle technologie Report Builder, vous pouvez rapidement convertir vos classeurs hérités actuels en classeurs basés sur JavaScript.
+Dans le cadre de la transition vers une nouvelle fonctionnalité Report Builder, vous pouvez rapidement convertir vos classeurs Report Builder hérités actuels (classeurs hérités) pour utiliser la nouvelle fonctionnalité Report Builder [blocs de données](create-a-data-block.md).
 
 >[!IMPORTANT]
 >
->Dupliquez chaque classeur et renommez une version avant de la convertir. De cette façon, vous disposez toujours d’une copie du classeur d’origine, si vous en avez besoin.
+>Dupliquez chaque classeur et renommez une version avant de convertir l’ancien classeur. Vous disposez ainsi toujours d’une copie du classeur hérité d’origine, si vous en avez besoin.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446184?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 
+>[!NOTE]
+>
+>Pour convertir des classeurs hérités, vous devez d’abord [configurer le nouveau Report Builder](/help/analyze/report-builder/report-builder-setup.md).
 
-1. Configurez le nouveau Report Builder en [suivant ces instructions](/help/analyze/report-builder/report-builder-setup.md).
 
-1. Ouvrez Excel et cliquez sur l’icône Adobe Report Builder en haut à droite.
+## Ouvrir un classeur hérité
 
-1. Cliquez sur **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+Pour ouvrir un classeur hérité, vous pouvez :
 
-1. Le complément Report Builder détecte si ce classeur contient des requêtes [Report Builder héritées](/help/analyze/legacy-report-builder/home.md).
+* Ouvrez un classeur hérité directement depuis votre ordinateur ou réseau local. Lorsque le classeur hérité est ouvert dans Excel :
 
-   ![invite de mise à niveau du classeur](assets/upgrade_workbook.png)
+   1. Sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
+   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+   1. Convertissez ensuite [ classeur hérité](#convert-a-workbook).
 
-1. Si une ou plusieurs requêtes héritées sont trouvées, cliquez sur **[!UICONTROL Mettre à niveau]** pour mettre à niveau un classeur.
+* Ouvrez un classeur hérité planifié dans l’onglet **[!UICONTROL Planifier]** du hub [Report Builder](report-builder-hub.md). Pour ce faire, procédez comme suit :
+
+   1. Ouvrez Excel et sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
+
+   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+
+   1. Sélectionnez **[!UICONTROL Planifier]** dans le hub [Report Builder](report-builder-hub.md).
+   1. Sélectionnez l’onglet **[!UICONTROL Hérité]**. Cet onglet répertorie les classeurs planifiés Report Builder hérités.
+
+      ![Classeurs hérités](assets/upgrade-legacy-schedule.png)
+
+   1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) le classeur planifié à convertir dans la liste, puis sélectionnez ![Télécharger](/help/assets/icons/Download.svg). Le classeur est téléchargé et s’ouvre dans une nouvelle fenêtre dans Excel. Vous pouvez désormais [convertir l’ancien classeur Report Builder](#convert-a--workbook).
+
+
+## Convertir un classeur hérité
+
+Pour convertir votre classeur hérité :
+
+1. Une fois que vous avez ouvert un classeur hérité, le nouveau Report Builder détecte si ce classeur contient des requêtes [Report Builder héritées](/help/analyze/legacy-report-builder/home.md).
+
+   ![invite de mise à niveau du classeur](assets/upgrade-workbook.png){zoomable="yes"}
+
+1. Si une ou plusieurs requêtes héritées sont trouvées, cliquez sur **[!UICONTROL Mettre à niveau]** dans la boîte de dialogue **[!UICONTROL Mettre à niveau le classeur]** pour mettre à niveau le classeur.
 
    >[!NOTE]
    >
    >Vous devez mettre à niveau chaque demande individuellement. La mise à niveau en bloc n’est pas prise en charge.
 
 
-1. Un avertissement s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
+1. Une boîte de dialogue **[!UICONTROL Avertissement]** s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
 
-   ![&#x200B; avertissement de mise à niveau &#x200B;](assets/upgrade_warning.png)
+   ![ avertissement de mise à niveau ](assets/upgrade-warning.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour poursuivre la mise à niveau.
 
-   Si la mise à niveau est réussie, l’avis d’achèvement suivant s’affiche :
+   Si la mise à niveau est réussie, une notification **[!UICONTROL La mise à niveau du classeur est maintenant terminée]** s’affiche.
 
-   ![mise à niveau terminée](assets/upgrade_complete.png)
+   ![mise à niveau terminée](assets/upgrade-complete.png)
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Télécharger le rapport de mise à niveau]**. Ce rapport contient le statut de chaque bloc de données mis à niveau.
+   * Sélectionnez **[!UICONTROL Fermer]** pour fermer la notification et continuer à travailler dans le classeur avec les demandes mises à jour pour le nouveau Report Builder.
+
+   * Sélectionnez **[!UICONTROL Télécharger le rapport de mise à niveau]** pour télécharger et ouvrir un nouveau classeur Excel qui affiche le résultat de la mise à niveau. Pour obtenir un exemple, reportez-vous à la section ci-dessous.
+
+     ![Classeur de rapports de mise à niveau d’Excel Report Builder](assets/upgrade-report.png)
 
 Vous pouvez désormais [gérer le bloc de données](/help/analyze/report-builder/manage-reportbuilder.md).
 
 
-## Fonctionnalités héritées de Report Builder non prises en charge dans la nouvelle version de Report Builder {#unsupported}
+## Planifier un classeur hérité converti
 
-Lorsque vous comparez la fonctionnalité de la version héritée de Report Builder au nouveau complément Report Builder, certaines fonctionnalités héritées ne sont plus disponibles :
+Vous avez la possibilité d’utiliser les détails de la planification du classeur hérité que vous avez téléchargé et ouvert à partir de l’onglet **[!UICONTROL Planification]** dans le hub Report Builder. Cette option n’est pas disponible pour les classeurs hérités avec les détails de planification que vous ouvrez depuis votre ordinateur ou réseau local.
 
-- Requêtes en temps réel
+1. Planifiez un classeur. Pour planifier un classeur hérité converti avec une planification héritée :
 
-- Rapports Chemin/Abandon
+   * Sélectionnez **[!UICONTROL Envoyer le classeur]** dans le hub Report Builder, ou
+   * Sélectionnez **[!UICONTROL Planifier le classeur]** dans l’onglet **[!UICONTROL Classeurs]** disponible dans l’onglet **[!UICONTROL Planifications]** de Report Builder.
 
-- Option FTP pour les rapports planifiés
+1. Vous pouvez utiliser les détails de planification du classeur hérité comme paramètres de planification par défaut.
 
-- Mesures Visiteurs et visiteuses. Les mesures suivantes seront toutes converties en « visiteurs et visiteuses uniques », même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cela s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+   ![Migrer le planning du classeur hérité](assets/upgrade-legacy-schedule-convert.png)
 
-## Planifier un classeur converti {#schedule}
+   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [ Envoyer le classeur ](schedule-reportbuilder.md#schedule-a-workbook).
+   * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
+   * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
-Voir [Planification d’un classeur converti](/help/analyze/report-builder/schedule-reportbuilder.md) dans l’article de planification.
+   Sélectionnez **[!UICONTROL Supprimer les métadonnées héritées d’une utilisation ultérieure]** pour ne plus utiliser les détails de la planification héritée de ce classeur à l’avenir.
+
+
+## Fonctionnalités Report Builder héritées non prises en charge {#unsupported}
+
+Certaines fonctionnalités Report Builder héritées ne sont plus disponibles dans le nouveau Report Builder
+
+* Requêtes en temps réel.
+
+* Rapports Chemin/Abandon.
+
+* Option FTP pour les rapports planifiés.
+
+* Mesures Visiteurs et visiteuses. Les mesures suivantes sont converties en *visiteurs uniques*, même si le résultat du compte rendu des performances peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cette conversion s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.

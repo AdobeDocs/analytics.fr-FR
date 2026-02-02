@@ -1,55 +1,57 @@
 ---
-title: Comment sélectionner une suite de rapports dans Report Builder
-description: Décrit comment sélectionner des suites de rapports dans Adobe Report Builder
+title: Sélectionner Une Suite De Rapports Dans Report Builder
+description: Découvrez comment sélectionner une suite de rapports dans Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 96e24d5d-78fb-4e5c-8513-c5fe221d0aeb
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: 6f7de360ac24261eabb46c6cfce99449261706de
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 2%
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
 # Sélectionnez une suite de rapports
 
-Vous pouvez sélectionner une suite de rapports dans la liste déroulante ou sélectionner une suite de rapports dans une cellule et mettre automatiquement à jour votre bloc de données avec une nouvelle suite de rapports.
+Vous pouvez sélectionner une suite de rapports dans le menu déroulant ou sélectionner une suite de rapports dans une cellule et mettre automatiquement à jour votre bloc de données avec une nouvelle suite de rapports.
 
-**Sélectionner une suite de rapports depuis la cellule**
+## Sélection d’une suite de rapports depuis une cellule
 
-La sélection d’une suite de rapports dans une cellule facilite l’actualisation des blocs de données à l’aide de différentes suites de rapports. Si votre organisation dispose de plusieurs suites de rapports de structure similaire ou identique, vous pouvez les actualiser avec une suite de rapports sélectionnée dans une cellule au lieu de créer des rapports entièrement nouveaux avec des blocs de données distincts. Cela s’avère également utile si vous disposez de formats de blocs de données complexes qui incluent des composants et des mises en page personnalisés.
+La sélection d’une suite de rapports dans une cellule facilite l’actualisation des blocs de données à l’aide de différentes suites de rapports. Au lieu de créer des rapports entièrement nouveaux avec des blocs de données distincts, vous pouvez actualiser les blocs de données avec une suite de rapports sélectionnée à partir d’une cellule.
 
-Pour sélectionner une suite de rapports dans une cellule, commencez par créer un bloc de données et affectez plusieurs suites de rapports à une cellule à l’extérieur de votre bloc de données. Ensuite, utilisez la suite de rapports du panneau Cellules pour actualiser vos blocs de données à partir de différentes suites de rapports.
+La sélection d’une suite de rapports dans une cellule s’avère utile lorsque vous disposez des éléments suivants :
 
-1. Créez un bloc de données.
-Pour plus d’informations sur la création d’un bloc de données, voir [Créer un bloc de données](/help/analyze/report-builder/create-a-data-block.md).
+* Plusieurs suites de rapports dont la structure est similaire ou identique.
+* Formats de blocs de données complexes comprenant des composants et des mises en page personnalisés.
 
-1. Cliquez sur l’*icône de cellule* dans la section **[!UICONTROL suites de rapports]**.
+Pour sélectionner une suite de rapports dans une cellule, commencez par créer un bloc de données et affectez plusieurs suites de rapports à une cellule à l’extérieur de votre bloc de données. Ensuite, utilisez le panneau **[!UICONTROL Suite de rapports depuis la cellule]** pour actualiser vos blocs de données à partir de différentes suites de rapports.
 
-1. Sélectionnez un emplacement de cellule pour ajouter les suites de rapports à la cellule sélectionnée.
+1. Créez un bloc de données. Pour plus d’informations sur la création d’un bloc de données, voir [Créer un bloc de données](/help/analyze/report-builder/create-a-data-block.md).
 
-   Vous pouvez sélectionner une cellule suffisamment éloignée de vos cellules de bloc de données pour qu’elles ne se chevauchent pas.
+1. Sélectionnez ![DataViewSelector](/help/assets/icons/DataViewSelector.svg) dans **[!UICONTROL Suites de rapports]**.
 
-1. Confirmez l’emplacement de la cellule sélectionnée.
+1. Sélectionnez une cellule à l’aide de ![DataBlockSelector](/help/assets/icons/DataBlockSelector.svg) en dehors du bloc de données.
 
-1. Sélectionnez les suites de rapports que vous souhaitez affecter à la cellule.
+1. Ajoutez une ou plusieurs suites de rapports à partir de la **[!UICONTROL Sélectionner les suites de rapports à ajouter à la suite de rapports à partir de la cellule]** en procédant par glisser-déposer. Vous pouvez également sélectionner deux fois une suite de rapports pour l’ajouter à la liste **[!UICONTROL Suites de rapports incluses]**.
 
-1. Cliquez sur **Appliquer**.
+   * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) **[!UICONTROL _Sélectionner des suites de rapports_]** pour rechercher des suites de rapports.
+   * Utilisez ![MoreSmall](/help/assets/icons/MoreSmall.svg) pour ouvrir un menu contextuel afin de déplacer les suites de rapports vers le haut ou vers le bas dans la liste **[!UICONTROL Suites de rapports incluses]**.
+   * Utilisez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une suite de rapports de la liste **[!UICONTROL Suites de rapports incluses]**.
 
-   Une fois le bloc de données terminé, vous pouvez l’actualiser à l’aide d’une autre suite de rapports à partir de la cellule sélectionnée.
+   ![Sélectionner une suite de rapports depuis une cellule](assets/dataviews-from-a-cell.png){zoomable="yes"}
 
-   **Modifier la suite de rapports depuis la cellule**
+1. Sélectionnez **[!UICONTROL Appliquer]** pour appliquer les suites de rapports sélectionnées à la cellule sélectionnée.
 
-1. Cliquez sur l’emplacement de la cellule de la suite de rapports que vous avez choisi à l’étape 3.
 
-   Un menu déroulant répertoriant les suites de rapports que vous avez sélectionnées précédemment à l’étape 5 s’affiche.
+## Modification de la suite de rapports à partir d’une cellule
 
-1. Sélectionnez une autre suite de rapports dans la liste déroulante.
+1. Sélectionnez l’emplacement de la cellule de la suite de rapports dans votre feuille.
+1. Dans le hub Report Builder, cliquez sur le lien **[!UICONTROL Suites de rapports à partir de la cellule]** dans **[!UICONTROL Modification rapide]**.
+1. Sélectionnez une suite de rapports dans le menu déroulant **[!UICONTROL Suite de rapports]**.
 
-1. (Facultatif) **Sélectionnez Actualiser le ou les blocs de données** lors de la modification.
+   ![Modifier la suite de rapports depuis une cellule](assets/change-data-view-from-cell.png){zoomable="yes"}
+1. Facultatif, sélectionnez **[!UICONTROL Actualiser le(s) bloc(s) de données lors de la modification]**.
 
-1. Cliquez sur **Appliquer**.
-
-   Report Builder actualise le bloc de données avec la suite de rapports choisie.
+1. Sélectionnez **[!UICONTROL Appliquer]**. Report Builder actualise le bloc de données en fonction de la suite de rapports sélectionnée.

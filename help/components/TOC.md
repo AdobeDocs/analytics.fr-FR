@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
+source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -296,8 +296,8 @@ ht-degree: 99%
          + [FAQ](classifications/importer/importer-faq.md)
 + Emplacements {#locations}
    + [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md)
-   + [Comptes d’importation dans le cloud](/help/components/locations/configure-import-accounts.md)
-   + [Emplacements d’importation dans le cloud](/help/components/locations/configure-import-locations.md)
+   + [Configuration des comptes cloud](/help/components/locations/configure-import-accounts.md)
+   + [Configuration des emplacements cloud](/help/components/locations/configure-import-locations.md)
 + [Projets planifiés](scheduled-projects-manager.md)
 + [File d’attente des rapports planifiés](scheduled-reports-admin.md)
 + Création de rapports en temps réel {#real-time-reporting}

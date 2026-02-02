@@ -1,21 +1,21 @@
 ---
-title: Configuration de Report Builder dans Adobe Analytics
-description: Décrit comment configurer Report Builder dans Adobe Analytics
+title: Configuration de Report Builder
+description: Décrit comment configurer Report Builder dans Adobe Analytics.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: c333a82848ed74a002a07f8c5e2857426a78425c
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '497'
+ht-degree: 67%
 
 ---
 
 # Configuration de Report Builder
 
-Vous pouvez accéder rapidement à Report Builder à l’aide du menu Complément Excel .
+Cet article décrit les conditions requises pour utiliser Report Builder pour Adobe Analytics dans Microsoft Excel. Découvrez également comment installer et configurer le complément.
 
 ## Exigences
 

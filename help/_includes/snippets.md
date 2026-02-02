@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '2992'
+source-wordcount: '3005'
 ht-degree: 87%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié a été publié le 16 octobre 2024. Il est pris en charge dans Mac, Windows et les navigateurs web.
+>Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web et peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
 >Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -150,7 +150,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 | Balises | Description |
 |---|---|
-| ![Étiquettes](/help/assets/filter-tag.png){width="300"} | La section **[!UICONTROL Balises]** permet de filtrer par balise. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour rechercher les balises que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionnez plusieurs balises. Les balises disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de balises sélectionnées (si une ou plusieurs balises sont sélectionnées).</li><li>**2︎⃣** : nombre de balises disponibles pour les éléments résultant du filtre actuel.</li><li>7︎⃣ : nombre d’éléments associés à la balise spécifique.</li></ul></li></ul> |
+| ![Balises](/help/assets/filter-tag.png){width="300"} | La section **[!UICONTROL Balises]** permet de filtrer par balise. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour rechercher les balises que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionnez plusieurs balises. Les balises disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de balises sélectionnées (si une ou plusieurs balises sont sélectionnées).</li><li>**2︎⃣** : nombre de balises disponibles pour les éléments résultant du filtre actuel.</li><li>7︎⃣ : nombre d’éléments associés à la balise spécifique.</li></ul></li></ul> |
 
 
 ## Section Filtre de suite de rapports {#reportsuitefiltersection}
