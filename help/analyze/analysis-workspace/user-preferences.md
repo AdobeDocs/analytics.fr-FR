@@ -18,7 +18,7 @@ Vous pouvez gérer les paramètres d’Analysis Workspace et ses composants conn
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://video.tv.adobe.com/v/3429992/?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
