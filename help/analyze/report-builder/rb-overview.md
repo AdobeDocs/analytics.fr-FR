@@ -76,7 +76,7 @@ Certaines [fonctionnalités de l’ancien Report Builder ne sont pas prises en c
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble de Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble de Report Builder](https://video.tv.adobe.com/v/3452582?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
