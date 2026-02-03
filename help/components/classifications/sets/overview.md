@@ -3,10 +3,10 @@ title: Vue d’ensemble des jeux de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Découvrez en quoi les jeux de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '895'
+ht-degree: 100%
 
 ---
 
@@ -123,8 +123,3 @@ L’architecture back-end publiée avec les jeux de classifications contient ég
 >[!IMPORTANT]
 >
 >Les performances des jeux de classifications dépendent principalement du nombre de valeurs de clés uniques qui contiennent des données. Faites preuve de prudence lorsque vous avez des variables qui contiennent un grand nombre de valeurs uniques. Cela s’applique tout particulièrement lorsque vous combinez des variables de plusieurs suites de rapports et dimensions dans un seul jeu de classifications.
-
-## Limites
-
-* Les jeux de classifications ne prennent pas encore en charge les règles. La fonctionnalité Règles est ajoutée à l’interface des jeux de classifications avant que la fonctionnalité [créateur de règles hérité](/help/components/classifications/crb/classification-rule-builder.md) ne devienne indisponible.
-* Il n’existe aucune migration des règles et configurations de classification héritées vers des jeux de classifications. Un utilitaire de migration est ajouté à l’interface des jeux de classifications avant que la fonctionnalité de classification héritée ne devienne indisponible.
