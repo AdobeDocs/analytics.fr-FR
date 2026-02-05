@@ -4,7 +4,7 @@ title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Les segments identifient :
 
 Les segments peuvent être basés sur les valeurs suivantes :
 
-- Visiteurs sur la base d’attributs : type de navigateur, appareil, nombre de visites, pays, sexe.
+- Visiteurs et visiteuses sur la base d’attributs : type de navigateur, appareil, nombre de visites, pays, genre.
 - Visiteurs sur la base d’interactions : campagnes, recherche par mots-clés, moteur de recherche.
 - Visiteurs sur la base des sorties et des entrées : visiteurs provenant de Facebook, d’une page de destination définie, d’un domaine référent.
 - Visiteurs sur la base de variables personnalisées : champ de formulaire, catégories définies, ID de client.
@@ -240,7 +240,7 @@ Cette vidéo montre brièvement ce que sont les conteneurs de segments et commen
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/3429099?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://video.tv.adobe.com/v/25401?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

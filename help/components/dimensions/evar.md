@@ -4,9 +4,9 @@ description: Une dimension personnalisée que vous pouvez utiliser dans les rapp
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -14,19 +14,19 @@ ht-degree: 77%
 
 *Cette page d’aide décrit le fonctionnement des eVars en tant que [dimension](overview.md). Pour plus d’informations sur la mise en œuvre des eVars, voir [eVars](/help/implement/vars/page-vars/evar.md) dans le Guide d’utilisation de mise en œuvre.*
 
-Les eVars sont des [dimensions](overview.md) personnalisées que vous pouvez utiliser à votre guise. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre organisation se présentent sous la forme d’[!UICONTROL eVars].
+Les eVars sont des [dimensions](overview.md) personnalisées que vous pouvez utiliser comme vous le souhaitez. Si vous disposez d’un [document de conception de solution](/help/implement/prepare/solution-design.md), la plupart des dimensions propres à votre entreprise se présentent sous la forme d’[!UICONTROL eVars].
 
-Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance d’eVar sur l’architecture d’Adobe. Vous pouvez activer, désactiver ou personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions eVar dans l’interface des variables de conversion :
+Par défaut, les eVars persistent au-delà de l’accès sur lequel elles sont définies. Consultez les sections [Fonctionnement des eVars](#how-evars-work) et [Liaison des eVars aux mesures](#how-evars-tie-to-metrics) ci-dessous pour plus d’informations sur le fonctionnement de la persistance des eVars sur l’architecture d’Adobe. Vous pouvez activer, désactiver ou personnaliser leur expiration et leur attribution sous [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans les [!UICONTROL Paramètres de la suite de rapports]. L’image suivante présente un exemple de définitions d’eVar dans l’interface des variables de conversion :
 
 ![Exemples d’eVar](assets/evars-sample.png)
 
 Le nombre d’eVars disponibles dépend de votre contrat avec Adobe. Si le contrat que vous avez conclu avec Adobe le prévoit, vous pouvez obtenir jusqu’à 250 eVar.
 
-La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la première valeur que vous envoyez au cours d’un mois calendaire donné. Le cas peut varier en fonction de la fenêtre de création de rapports et du cas d’une valeur eVar collectée en premier pendant cette période.
+La casse (majuscule ou minuscule) utilisée dans les rapports est basée sur la première valeur que vous envoyez au cours d’un mois calendaire donné. La casse peut varier en fonction de la fenêtre de création de rapports et de la casse d’une valeur d’eVar collectée en premier pendant cette période.
 
 ## Renseignement des eVars avec des données
 
-Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `v1` collecte des données pour eVar1, tandis que le paramètre de chaîne de requête `v222` collecte des données pour eVar222.
+Chaque eVar collecte des données de la chaîne de requête [`v1` - `v250` ](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `v1` collecte des données pour eVar1, tandis que le paramètre de chaîne de requête `v222` collecte des données pour eVar222.
 
 AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `eVar1` - `eVar250`. Consultez [eVar](/help/implement/vars/page-vars/evar.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
 
@@ -45,7 +45,7 @@ Dans la plupart des cas, la colonne `post_evar` est utilisée dans les rapports.
 
 ### Liaison des eVars aux mesures
 
-Les événements de succès et les eVars sont fréquemment définis à différents moments. La colonne `post_evar` permet aux valeurs eVar de se lier aux événements, affichant les données dans les rapports. Prenez par exemple la visite suivante :
+Les événements de succès et les eVars sont fréquemment définis à des moments différents. La colonne `post_evar` permet aux valeurs eVar de se lier aux événements, affichant les données dans les rapports. Prenez par exemple la visite suivante :
 
 1. Un visiteur arrive sur votre site sur votre page d’accueil.
 2. Il cherche le mot-clé « chats » en utilisant la recherche interne de votre site. Votre implémentation utilise eVar1 pour la recherche interne.
@@ -78,10 +78,10 @@ Les outils d’Adobe Analytics, tels que Analysis Workspace, exploitent ces do
 
 Analysis Workspace extrait ce rapport selon la logique suivante :
 
-* Parcourez toutes `event_list` valeurs et sélectionnez toutes les lignes contenant des `purchase`.
+* Examinez toutes les valeurs `event_list` et sélectionnez toutes les lignes qui contiennent `purchase`.
 * Sur ces lignes, affichez la valeur `post_evar1`.
 
-Le rapport qui en résulte affiche chaque valeur différente contenue dans `post_evar1` à gauche, ainsi que le nombre de commandes attribuées à cette valeur à droite.
+Le rapport qui en résulte affiche chaque valeur différente contenue dans `post_evar1` à gauche, ainsi que le nombre de commandes attribuées à cette valeur à droite.
 
 ### L’importance de l’attribution et de l’expiration
 

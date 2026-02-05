@@ -4,9 +4,9 @@ title: Configurer une destination de rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
 source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1980'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -66,26 +66,26 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
 1. (Le cas échéant) Si vous n’avez pas accès à un compte cloud déjà configuré dans Adobe Analytics, vous pouvez en configurer un :
 
-   1. Sélectionnez le menu déroulant [!UICONTROL **Compte**], puis sélectionnez [!UICONTROL **Ajouter un compte**].
+   1. Sélectionnez le menu déroulant [!UICONTROL **Compte**], puis [!UICONTROL **Ajouter un compte**].
 
-   1. Dans la boîte de dialogue Ajouter un compte , spécifiez les informations suivantes :
+   1. Dans la boîte de dialogue Ajouter un compte, spécifiez les informations suivantes :
 
       | Champ | Fonction |
       |---------|----------|
       | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte d’emplacement. Ce nom apparaît lors de la création d’un emplacement. |
-      | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-      | [!UICONTROL **Rendre le compte disponible pour tous les utilisateurs de votre organisation**] | Activez cette option pour permettre à d’autres utilisateurs de votre organisation d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par le propriétaire du compte.</li><li>Tout le monde peut créer un emplacement pour le compte partagé.</li></ul> |
-      | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs système peuvent limiter les types de compte que les utilisateurs peuvent créer, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</p> |
+      | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes de même type. |
+      | [!UICONTROL **Mettre le compte à la disposition de l’ensemble des utilisateurs et utilisatrices de votre organisation**] | Activez cette option pour permettre aux autres utilisateurs et utilisatrices de votre organisation d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par la personne propriétaire du compte.</li><li>N’importe qui peut créer un emplacement pour le compte partagé.</li></ul> |
+      | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs et administratrices système peuvent limiter les types de compte que les utilisateurs et utilisatrices peuvent créer, comme décrit dans la section [Configurer si les utilisateurs et utilisatrices peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur ou administratrice système.</p> |
 
-   1. Dans la section [!UICONTROL **Propriétés du compte**], spécifiez des informations spécifiques au type de compte que vous avez sélectionné.
+   1. Dans la section [!UICONTROL **Propriétés de compte**], indiquez les informations spécifiques au type de compte sélectionné.
 
-      Pour obtenir des instructions de configuration, développez la section ci-dessous qui correspond au [!UICONTROL **type de compte**] que vous avez sélectionné. (D’autres types de comptes hérités sont également disponibles, mais ne sont pas recommandés.)
+      Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond au [!UICONTROL **Type de compte**] que vous avez sélectionné. (Des types de compte hérités supplémentaires sont également disponibles, mais ne sont pas recommandés.)
 
       **Types de compte**
 
       +++Amazon S3 Role ARN
 
-      **REMARQUE :** lorsque vous utilisez Amazon S3 avec Data Warehouse, seul le chiffrement SSE-S3 est pris en charge.
+      **NOTE :** lorsque vous utilisez Amazon S3 avec Data Warehouse, seul le chiffrement SSE-S3 est pris en charge.
 
       Pour configurer un compte ARN de rôle Amazon S3, spécifiez les informations suivantes :
 
@@ -117,8 +117,8 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
       |---------|----------|
       | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
       | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, consultez la [documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
-      | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide d’Azure Key Vault. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI du coffre de clés créé, ajoutez une politique d’accès au coffre de clés pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Ou</p><p>Si vous souhaitez accorder un rôle d’accès directement sans créer de politique d’accès, consultez la documentation Azure [Microsoft sur l’attribution de rôles Azure à l’aide du portail Azure](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal). Cela ajoute l’affectation de rôle pour que l’ID d’application accède à l’URI de coffre de clés. </p> |
-      | [!UICONTROL **Nom secret du coffre de clés**] | Nom du secret que vous avez créé lors de l’ajout du secret au coffre de clés Azure. Dans Microsoft Azure, ces informations se trouvent dans le coffre Key Vault que vous avez créé, sur la page des paramètres **coffre Key Vault**. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+      | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer une SAS Azure (shared access signature), vous devez stocker un jeton SAS en tant que secret à l’aide d’Azure Key Vault. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI du coffre de clés créé, ajoutez une politique d’accès au coffre de clés pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p><p>Ou</p><p>Si vous souhaitez accorder un rôle d’accès directement sans créer de politique d’accès, consultez la [documentation Microsoft Azure sur l’attribution de rôles à l’aide du portail Azure](https://learn.microsoft.com/fr-fr/azure/role-based-access-control/role-assignments-portal). Cela ajoute l’affectation de rôle pour que l’ID d’application accède à l’URI de coffre de clés. </p> |
+      | [!UICONTROL **Nom secret de Key Vault**] | Le nom du secret que vous avez créé lors de l’ajout du secret à Azure Key Vault. Dans Microsoft Azure, ces informations se trouvent dans le coffre Key Vault que vous avez créé, sur la page de paramètres de **Key Vault**. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
       | [!UICONTROL **Secret du compte d’emplacement**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
 
       {style="table-layout:auto"}
@@ -139,11 +139,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       +++
 
-      +++Adresse électronique
+      +++E-mail
 
       >[!NOTE]
       >
-      >Les comptes de messagerie ne peuvent être utilisés qu’avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes de messagerie ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou [ensembles de classifications](/help/components/classifications/sets/overview.md)).
+      >Les comptes d’e-mail ne peuvent être utilisés qu’avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes d’e-mail ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou les [jeux de classifications](/help/components/classifications/sets/overview.md)).
 
       Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
@@ -157,7 +157,7 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
 1. Poursuivez la configuration de votre requête Data Warehouse sur l’onglet [!UICONTROL **Options de rapport**]. Pour plus d’informations, voir [Configurer des options de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-options.md).
 
-## Types de compte hérités
+## Types de comptes hérités
 
 >[!IMPORTANT]
 >

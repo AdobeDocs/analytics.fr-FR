@@ -5,7 +5,7 @@ user-guide-title: Guide d’exportation Analytics
 breadcrumb-title: Guide d’exportation
 user-guide-description: Découvrez comment utiliser les flux de données et Data Warehouse pour récupérer la sortie des données.
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
    + [FAQ sur les flux de données](analytics-data-feed/df-faq.md)
    + [Bonnes pratiques relatives aux flux de données](analytics-data-feed/data-feeds-best-practices.md)
    + [Résolution des problèmes liés aux flux de données](analytics-data-feed/troubleshooting.md)
-+ Data Warehouse {#data-warehouse}
++ Entrepôt de données {#data-warehouse}
    + [Data Warehouse - Aperçu](data-warehouse/data-warehouse.md)
    + [Ajouter un groupe d’utilisateurs dans Data Warehouse](data-warehouse/t-dw-group.md)
    + Créer une demande dans Data Warehouse {#dw-create-request}

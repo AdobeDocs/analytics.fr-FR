@@ -5,19 +5,19 @@ feature: Attribution
 role: User, Admin
 exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
 source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 15%
+ht-degree: 100%
 
 ---
 
 # Composants d’attribution
 
-Le concept d’attribution dans Adobe Analytics comprend trois composants :
+Le concept d’attribution dans Adobe Analytics implique trois composants :
 
-* **Modèle d’attribution :** le [modèle](#attribution-model) décrit la répartition des conversions en accès dans un groupe. Par exemple, Première touche ou Dernière touche.
-* **Conteneur** : le [conteneur](#container) définit la portée de l’attribution ou la manière de regrouper les accès pour chaque modèle.
-* **Intervalle de recherche en amont d’attribution :** l’[intervalle de recherche en amont](#lookback-window) décrit le nombre de jours à rechercher en amont pour le modèle sélectionné.
+* **Modèle d’attribution :** le [modèle](#attribution-model) décrit la distribution des conversions pour les accès dans un groupe. Par exemple, Première touche ou Dernière touche.
+* **Conteneur** : le [conteneur](#container) définit la portée de l’attribution ou la manière de regrouper les accès pour chaque modèle.
+* **Intervalle de recherche en amont d’attribution :** l’[intervalle de recherche en amont](#lookback-window) décrit le nombre de jours à rechercher en amont pour le modèle sélectionné.
 
 
 ## Modèle d’attribution
@@ -69,7 +69,7 @@ A lookback window is the amount of time a conversion should look back to include
 
 >[!BEGINSHADEBOX]
   
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/40038?quality=12&learn=on&captions=fre_fr){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Custom lookback window](https://video.tv.adobe.com/v/36204?quality=12&learn=on){target="_blank"} for a demo video.
   
 >[!ENDSHADEBOX]
 

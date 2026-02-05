@@ -5,9 +5,9 @@ title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
 source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 >[!NOTE]
 >
->Les accès normalement exclus d’Analysis Workspace sont inclus dans les flux de données. Envisagez d’ajouter les conditions suivantes à vos requêtes si elles sont pertinentes :
+>Les accès qui sont exclus d’Analysis Workspace en temps normal sont inclus dans les flux de données. Envisagez d’ajouter les conditions suivantes à vos requêtes si elles sont pertinentes :
 >
->* **`exclude_hit`** : Analysis Workspace inclut uniquement les données où `exclude_hit = 0`.
->* **`customer_perspective`** : Analysis Workspace inclut uniquement les données où `customer_perspective = 0`, sauf si vous utilisez une suite de rapports virtuelle qui inclut des accès en arrière-plan mobiles.
->* **`hit_source`** : les données provenant de sources de données peuvent contenir des différences entre les données brutes et Analysis Workspace. Si vous souhaitez exclure les accès des sources de données, excluez toutes les lignes où `hit_source = 5,7,8,9`.
+>* **`exclude_hit`** : Analysis Workspace inclut uniquement les données où `exclude_hit = 0`.
+>* **`customer_perspective`** : Analysis Workspace inclut uniquement les données où `customer_perspective = 0`, sauf si vous utilisez une suite de rapports virtuelle qui inclut des accès en arrière-plan mobiles.
+>* **`hit_source`** : les données provenant de sources de données peuvent contenir des différences entre les données brutes et Analysis Workspace. Si vous souhaitez exclure les accès des sources de données, excluez toutes les lignes où `hit_source = 5,7,8,9`.
 
 ## Pages vues
 
@@ -29,7 +29,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 ## Occurrences
 
-1. Compter le nombre total de lignes.
+1. Comptez le nombre total de lignes.
 
 ## Visites
 
@@ -38,11 +38,11 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 >[!TIP]
 >
->Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, utilisez `visit_start_time_gmt` lors du comptage des visites pour vous assurer que ces visites sont comptabilisées.
+>Les irrégularités Internet, les irrégularités système ou l’utilisation d’identifiants visiteur personnalisés peuvent rarement utiliser les mêmes valeurs `visit_num` pour des visites différentes. Bien que cela soit facultatif, lors du comptage des visites, utilisez `visit_start_time_gmt` pour vous assurer de la comptabilisation de ces visites.
 
 ## Visiteurs et visiteuses
 
-Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, service d’Experience Cloud ID, etc.) sont toutes calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
+Toutes les méthodes utilisées par Adobe pour identifier les visiteurs et visiteuses uniques (identifiant visiteur ou visiteuse personnalisé, service Experience Cloud ID, etc.) sont calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
 
 1. Concaténez `post_visid_high` et `post_visid_low`.
 2. Comptez le nombre unique de valeurs.

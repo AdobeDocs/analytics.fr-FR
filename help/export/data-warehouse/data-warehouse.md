@@ -1,17 +1,17 @@
 ---
-description: Découvrez Data Warehouse et comment filtrer les données, ce qui vous permet de créer et d’exécuter des rapports personnalisés.
-title: Présentation de Data Warehouse
+description: Découvrez Data Warehouse et comment filtrer les données, ce qui vous permet de créer et d’exécuter des rapports personnalisés.
+title: Data Warehouse - Vue d’ensemble
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
 source-git-commit: d929e97a9d9623a8255f16729177d812d59cec05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# Data Warehouse - Aperçu
+# Data Warehouse - Vue d’ensemble
 
 Data Warehouse vous permet de copier les données Adobe Analytics pour le stockage et la création de rapports personnalisés, que vous pouvez exécuter en filtrant les données.
 
@@ -35,7 +35,7 @@ Data Warehouse compresse automatiquement les fichiers de plus de 1 Mo. La tail
 
 ## Accéder à
 
-Adobe active Data Warehouse pour les seuls utilisateurs de niveau administrateur, et ce, pour des suites de rapports spécifiques. (Elle peut être activée pour les suites de rapports globales et enfants, mais pas pour les suites de rapports de cumul.) L’administrateur peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs n’appartenant pas au niveau administrateur.
+Adobe active Data Warehouse pour les seuls utilisateurs et utilisatrices de niveau administrateur, et ce, pour des suites de rapports spécifiques. (L’option peut être activée pour les suites de rapports globales et enfants, mais pas pour les suites de rapports agrégées.) L’administrateur ou l’administratrice peut créer un groupe ayant accès à Data Warehouse, puis y associer des utilisateurs et utilisatrices n’appartenant pas au niveau d’administration.
 
 Consultez [Gestion des autorisations Data Warehouse](/help/export/data-warehouse/t-dw-group.md).
 

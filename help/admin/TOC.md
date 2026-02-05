@@ -5,9 +5,9 @@ user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
 user-guide-description: Découvrez les tâches dʼadministration dans Analytics, qui vous permettent entre autres de gérer les utilisateurs et les produits dans Experience Cloud Admin Console, de configurer des suites de rapports et bien plus encore.
 source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '491'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
             + [Personnaliser le calendrier](tools/manage-rs/edit-settings/general/custom-calendar.md)
             + Détection de recherche payante {#paid-search-detection}
                + [Détection de référencement payant - Aperçu](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
-               + [Configuration de la détection de référencement payant](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
+               + [Configurer la détection de référencement payant](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
             + Règles de traitement {#processing-rules}
                + [Vue d’ensemble](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
                + [Interface](tools/manage-rs/edit-settings/general/processing-rules/pr-interface.md)
