@@ -3,10 +3,10 @@ title: Gestion des flux de données
 description: Découvrez comment naviguer dans l’interface du flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 21%
+source-wordcount: '1257'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ Le gestionnaire des flux de données vous permet de créer, de modifier et de su
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://video.tv.adobe.com/v/3428562?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -25,16 +25,16 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flu
 ## Affichage des flux de données
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
-1. Sélectionnez l’icône des 9 carrés dans le coin supérieur droit, puis sélectionnez [!UICONTROL **Analytics**].
+1. Sélectionnez l’icône des 9 carrés dans le coin supérieur droit, puis sélectionnez [!UICONTROL **Analytics**].
 1. Dans la barre de navigation supérieure, accédez à [!UICONTROL **Admin**] > [!UICONTROL **Flux de données**].
 
    Les flux de données de toutes les suites de rapports auxquelles vous avez accès s’affichent. Si aucun flux n’a été configuré, la page affiche également un bouton [!UICONTROL Créer un flux de données].
 
-   ![Flux de données](assets/feeds.png)
+   ![Gestionnaire des flux de données](assets/data-feed-manager.png)
 
 ## Créer un flux de données
 
-Le bouton [!UICONTROL Ajouter] permet de créer un flux. Voir [Créer un flux de données](create-feed.md) pour plus d’informations.
+Le bouton **[!UICONTROL Créer un flux de données]** vous permet de créer un flux. Voir [Créer un flux de données](create-feed.md) pour plus d’informations.
 
 ## Modification d’un flux de données
 
@@ -45,6 +45,8 @@ Le bouton [!UICONTROL Ajouter] permet de créer un flux. Voir [Créer un flux de
 1. Sélectionnez le flux de données dans la colonne [!UICONTROL **Nom du flux**].
 
 1. Apportez les modifications souhaitées au flux de données.
+
+   Pour plus d’informations sur les options des flux de données, voir [Créer et configurer un flux de données](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) dans [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).
 
    Lors de la mise à jour de la section [!UICONTROL **Destination**] pour un flux de données que vous modifiez, vous pouvez choisir un compte et un emplacement différents à utiliser pour le nouveau flux de données dans les champs déroulants [!UICONTROL **Compte**] et [!UICONTROL **Emplacement**].
 
@@ -62,9 +64,9 @@ Le bouton [!UICONTROL Ajouter] permet de créer un flux. Voir [Créer un flux de
 
    * Dans le champ de recherche, commencez à saisir le nom d’un flux. Seuls les flux qui correspondent s’affichent dans la liste des flux disponibles.
 
-   * Cliquez sur l’icône Filtrer située à l’extrême gauche pour afficher ou masquer les options de filtrage. Les filtres sont organisés par catégorie. Vous pouvez réduire ou développer des catégories de filtrage. Cochez la case en regard de tout filtre à appliquer.
+   * À l’extrême gauche, sélectionnez l’icône de filtre pour afficher ou masquer les options de filtrage. Les filtres sont organisés par catégorie, y compris **[!UICONTROL suites de rapports]**, **[!UICONTROL Propriétaire]**, **[!UICONTROL Statut]** et **[!UICONTROL Balises]**. Vous pouvez réduire ou développer des catégories de filtrage. Cochez la case en regard de tout filtre à appliquer.
 
-![Filtrer](assets/filters.png)
+     ![Filtrer](assets/filters.png)
 
 ## Affichage des tâches relatives aux flux de données
 
@@ -153,7 +155,7 @@ Les colonnes suivantes sont disponibles :
    * Supprimé : le flux est supprimé.
    * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
    * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-   * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
+   * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
 * **Dernière modification** : la date à laquelle le flux a été modifié pour la dernière fois. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
 * **Date de début** : la date de la première tâche pour ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
 * **Date de fin** : la date de la dernière tâche pour ce flux. Les flux de données continus ne possèdent pas de date de fin.

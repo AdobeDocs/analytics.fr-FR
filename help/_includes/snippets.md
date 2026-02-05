@@ -1,5 +1,5 @@
 ---
-source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
+source-git-commit: 611dedca3782ac0381a85230d72c2cfe0e4f67b8
 workflow-type: tm+mt
 source-wordcount: '3005'
 ht-degree: 87%
@@ -14,7 +14,7 @@ ht-degree: 87%
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web et peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
 >Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -205,4 +205,6 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 >
 >Le créateur de règles de classification sera abandonné le **31 août 2026**. Passez à l’expérience [Règles des ensembles de classifications](/help/components/classifications/sets/manage/rules.md), une fois disponible, pour assurer la continuité des fonctionnalités.
 >
+
+
 

@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configuration des comptes d’import et d’export cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 56%
+source-wordcount: '1583'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de la création et de la modification de comptes : <ul><li>Les administrateurs système peuvent empêcher les utilisateurs de créer des comptes, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</li><li>Un compte ne peut être modifié que par l’utilisateur qui l’a créé ou par un administrateur système.</li></ul>
+>Tenez compte des points suivants lors de la création et de la modification de comptes : <ul><li>Les administrateurs système peuvent empêcher les utilisateurs de créer des comptes, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur ou administratrice système.</li><li>Un compte ne peut être modifié que par l’utilisateur qui l’a créé ou par un administrateur système.</li></ul>
 
 Vous pouvez configurer un compte cloud utilisé à l’une ou à l’autre des fins suivantes, ou à toutes les fins suivantes :
 
@@ -30,7 +30,7 @@ Vous devez configurer Adobe Analytics avec les informations nécessaires pour ac
 
 Pour plus d’informations sur l’affichage et la suppression des comptes existants, voir [Gestionnaire d’emplacements](/help/components/locations/locations-manager.md).
 
-Pour configurer un compte d’import ou d’export cloud :
+## Commencer à créer ou modifier un compte à partir de la page des comptes
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Composants**] > [!UICONTROL **Emplacements**].
 1. Sur la page [!UICONTROL Emplacements], sélectionnez l’onglet [!UICONTROL **Comptes d’emplacement**].
@@ -46,18 +46,24 @@ Pour configurer un compte d’import ou d’export cloud :
 
    La boîte de dialogue [!UICONTROL **Ajouter un compte**] s’affiche.
 
+1. Continuez avec [Configuration d’un compte d’emplacement](#configure-a-location-account).
+
+## Configuration d’un compte d’emplacement
+
+Pour configurer un compte d’importation ou d’exportation cloud après avoir commencé à le créer ou à le modifier :
+
 1. Indiquez les informations suivantes :
 
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Nom du compte d’emplacement**] | Nom du compte d’emplacement. Ce nom apparaît lors de la création d’un emplacement. |
-   | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-   | [!UICONTROL **Rendre le compte disponible pour tous les utilisateurs de votre organisation**] | Activez cette option pour permettre à d’autres utilisateurs de votre organisation d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par le propriétaire du compte.</li><li>Tout le monde peut créer un emplacement pour le compte partagé.</li></ul> |
-   | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs système peuvent limiter les types de compte que les utilisateurs peuvent créer, comme décrit dans la section [Configurer si les utilisateurs peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur système.</p> |
+   | [!UICONTROL **Description du compte d’emplacement**] | Fournissez une brève description du compte pour le différencier des autres comptes de même type. |
+   | [!UICONTROL **Mettre le compte à la disposition de l’ensemble des utilisateurs et utilisatrices de votre organisation**] | Activez cette option pour permettre aux autres utilisateurs et utilisatrices de votre organisation d’utiliser le compte.<p>Tenez compte des points suivants lors du partage de comptes :</p><ul><li>Les comptes que vous partagez ne peuvent pas être annulés.</li><li>Les comptes partagés ne peuvent être modifiés que par la personne propriétaire du compte.</li><li>N’importe qui peut créer un emplacement pour le compte partagé.</li></ul> |
+   | [!UICONTROL **Type de compte**] | Sélectionnez le type de compte cloud. Nous vous recommandons de disposer d’un compte unique pour chaque type de compte, avec plusieurs emplacements selon les besoins dans ce compte.<p>Les administrateurs et administratrices système peuvent limiter les types de compte que les utilisateurs et utilisatrices peuvent créer, comme décrit dans la section [Configurer si les utilisateurs et utilisatrices peuvent créer des comptes](/help/components/locations/locations-manager.md#configure-whether-users-can-create-accounts). Si vous ne pouvez pas créer de comptes comme décrit dans cette section, contactez votre administrateur ou administratrice système.</p> |
 
-1. Dans la section [!UICONTROL **Propriétés du compte**], spécifiez des informations spécifiques au type de compte que vous avez sélectionné.
+1. Dans la section [!UICONTROL **Propriétés de compte**], indiquez les informations spécifiques au type de compte sélectionné.
 
-   Pour obtenir des instructions de configuration, développez la section ci-dessous qui correspond au [!UICONTROL **type de compte**] que vous avez sélectionné. (D’autres types de comptes hérités sont également disponibles, mais ne sont pas recommandés.)
+   Pour obtenir des instructions sur la configuration, développez la section ci-dessous qui correspond au [!UICONTROL **Type de compte**] que vous avez sélectionné. (Des types de compte hérités supplémentaires sont également disponibles, mais ne sont pas recommandés.)
 
    **Types de compte**
 
@@ -95,8 +101,8 @@ Pour configurer un compte d’import ou d’export cloud :
    |---------|----------|
    | [!UICONTROL **ID de l’application**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistreement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
    | [!UICONTROL **ID de cliente ou client**] | Copiez cet ID à partir de l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur la page **Vue d’ensemble** dans votre application. Pour plus d’informations, consultez la [documentation Microsoft Azure sur la façon d’enregistrer une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
-   | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer Azure SAS, vous devez stocker un jeton SAS en tant que secret à l’aide d’Azure Key Vault. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI du coffre de clés créé, ajoutez une politique d’accès au coffre de clés pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
-   | [!UICONTROL **Nom secret du coffre de clés**] | Nom du secret que vous avez créé lors de l’ajout du secret au coffre de clés Azure. Dans Microsoft Azure, ces informations se trouvent dans le coffre Key Vault que vous avez créé, sur la page des paramètres **coffre Key Vault**. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
+   | [!UICONTROL **URI du coffre de clés**] | <p>Chemin d’accès au jeton SAS dans Azure Key Vault.  Pour configurer une SAS Azure (shared access signature), vous devez stocker un jeton SAS en tant que secret à l’aide d’Azure Key Vault. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>Une fois l’URI du coffre de clés créé, ajoutez une politique d’accès au coffre de clés pour accorder l’autorisation à l’application Azure que vous avez créée. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’affectation d’une politique d’accès Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+   | [!UICONTROL **Nom secret du coffre de clés**] | Le nom du secret que vous avez créé lors de l’ajout du secret à Azure Key Vault. Dans Microsoft Azure, ces informations se trouvent dans le coffre Key Vault que vous avez créé, sur la page de paramètres de **Key Vault**. Pour plus d’informations, voir [Documentation de Microsoft Azure sur la définition et la récupération d’un secret à partir d’Azure Key Vault](https://learn.microsoft.com/fr-fr/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
    | [!UICONTROL **Secret du compte d’emplacement**] | Copiez le secret depuis l’application Azure que vous avez créée. Dans Microsoft Azure, ces informations sont situées sur l’onglet **Certificats et secrets** dans votre application. Pour plus d’informations, voir [Documentation de Microsoft Azure sur l’enregistrement d’une application avec la plateforme d’identité Microsoft](https://learn.microsoft.com/fr-fr/entra/identity-platform/quickstart-register-app). |
 
    {style="table-layout:auto"}
@@ -139,7 +145,7 @@ Pour configurer un compte d’import ou d’export cloud :
 
    +++FTP
 
-   Les données des flux de données peuvent être diffusées vers un emplacement Adobe ou FTP hébergé par le client. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
+   Les données de flux de données peuvent être distribuées vers un emplacement FTP hébergé par Adobe ou par le client ou la cliente. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
 
    | Champ | Fonction |
    |---------|----------|
@@ -154,7 +160,14 @@ Pour configurer un compte d’import ou d’export cloud :
 
    +++SFTP
 
-   La prise en charge SFTP des flux de données est disponible. Nécessite un hôte SFTP, un nom d’utilisateur et un site de destination contenant une clé publique RSA ou DSA. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+   La prise en charge SFTP des flux de données est disponible. Cela nécessite un hôte SFTP, un nom d’utilisateur et le site de destination pour contenir une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+
+   Lors du téléchargement de la clé publique RSA ou DSA pour les flux de données, effectuez l’une des opérations suivantes :
+
+   * Renommez le fichier de clé publique téléchargé en `authorized_keys`, puis chargez le fichier dans votre dossier `.ssh` sur votre serveur SFTP.
+
+   * Si vous disposez déjà d’un fichier `authorized_keys` contenant d’autres clés, ajoutez la clé fournie par Adobe à votre fichier `authorized_keys`, en veillant à ne pas remplacer les clés existantes.
+
 
    +++
 
