@@ -7,7 +7,7 @@ user-guide-description: Gérez les données à l’aide de composants tels que l
 source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -266,7 +266,7 @@ ht-degree: 98%
       + [Fichiers de données](classifications/sets/data-files.md)
       + [Créer et modifier](/help/components/classifications/sets/create-set.md)
       + [Gérer](/help/components/classifications/sets/manage-sets.md)
-      + Ensemble de classifications {#set}
+      + Jeu de classifications {#set}
          + [Paramètres](classifications/sets/manage/settings.md)
          + [Schéma](classifications/sets/manage/schema.md)
          + [Règles](classifications/sets/manage/rules.md)
@@ -279,7 +279,7 @@ ht-degree: 98%
          + [Vue d’ensemble](classifications/crb/classification-rule-builder.md)
          + [Jeux de règles](classifications/crb/classification-rule-set.md)
          + [Règles](classifications/crb/classification-quickstart-rules.md)
-         + [Définitions de règle](classifications/crb/classification-rule-definitions.md)
+         + [Définitions de règles](classifications/crb/classification-rule-definitions.md)
          + [Sous-classifications](classifications/crb/subclassification-rule-builder.md)
       + Importateur de classifications {#classifications-importer}
          + [Vue d’ensemble](classifications/importer/c-working-with-saint.md)
