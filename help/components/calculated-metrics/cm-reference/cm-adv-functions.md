@@ -4,9 +4,9 @@ description: Découvrez les fonctions de mesures calculées avancées.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: b04625391d5d0d6a6a8c7780115bf5b3029af3bb
 workflow-type: tm+mt
-source-wordcount: '5020'
+source-wordcount: '4807'
 ht-degree: 100%
 
 ---
@@ -228,29 +228,29 @@ CDF-Z(-3) ? 0.0013499
 | mesure | Mesure que vous souhaitez arrondir. |
 
 
-## Degré de confiance {#confidence}
+<!-- Only available in CJA 
 
-<!-- markdownlint-disable MD034 -->
+## Confidence {#confidence}
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-confidence"
->title="Degré de confiance"
->abstract="Calculez le degré de confiance valide à tout moment à l’aide de la méthode WASKR comme décrit dans [Théorie des limites centrales uniformes dans le temps et séquences de confiance asymptotiques](https://arxiv.org/pdf/2103.06476)."
+>title="Confidence"
+>abstract="Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476)."
 
-<!-- markdownlint-enable MD034 -->
+![Effect](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIDENCE(normalizing-container, success-metric, control, significance-treshold)]**
 
-![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL CONFIANCE(conteneur-normalisation, mesure-succès, contrôle, seuil-importance)]**
+Calculate the any-time-valid confidence using the WASKR method as described in [Time-uniform central limit theory and asymptotic confidence sequences](https://arxiv.org/pdf/2103.06476).
 
-Calculez le degré de confiance valide à tout moment à l’aide de la méthode WASKR comme décrit dans [Théorie des limites centrales uniformes dans le temps et séquences de confiance asymptotiques](https://arxiv.org/pdf/2103.06476).
-
-Le degré de confiance est une mesure probabiliste de l’ampleur des preuves sur le fait qu’une variante donnée est identique à la variante de contrôle. Un degré de confiance plus élevé indique moins de preuves relatives à l’hypothèse que la variante de contrôle et la variante de non-contrôle ont des performances similaires.
+Confidence is a probabilistic measure of how much evidence there is that a given variant is the same as the control variant. A higher confidence indicates less evidence for the assumption that control and non-control variant have equal performance. 
 
 | Argument | Description |
 | --- | --- |
-| conteneur-normalisation | La base (Personnes, Sessions ou Événements) sur laquelle un test est exécuté. |
-| mesure-succès | La mesure ou les mesures avec lesquelles une personne compare des variantes. |
-| contrôle | La variante avec laquelle sont comparées toutes les autres variantes de l’expérience. Saisissez le nom de l’élément de dimension de variante de contrôle. |
-| seuil-importance | Le seuil de cette fonction est défini sur une valeur par défaut de 95 %. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
+| significance-threshold | The threshold in this function is set to a default of 95%. |
+
+-->
 
 
 ## Confiance (inférieure) {#confidence-lower}
@@ -728,25 +728,24 @@ Inférieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 `Metric 1 <= Metric 2`
 
 
+<!-- Only available in CJA 
 
-## Effet élévateur (#lift)
+## Lift (#lift)
 
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="functions-waskr-lift"
->title="Effet élévateur"
->abstract="Effet élévateur du ratio par rapport à la valeur de contrôle."
+>title="Lift"
+>abstract="The lift of the ratio compared to the control value."
 
-<!-- markdownlint-enable MD034 -->
 
 | Argument | Description |
 | --- | --- |
-| conteneur-normalisation | La base (Personnes, Sessions ou Événements) sur laquelle un test est exécuté. |
-| mesure-succès | La mesure ou les mesures avec lesquelles une personne compare des variantes. |
-| contrôle | La variante avec laquelle sont comparées toutes les autres variantes de l’expérience. Saisissez le nom de l’élément de dimension de variante de contrôle. |
+| normalizing-container | The basis (People, Sessions, or Events) on which a test is run. |
+| success-metric | The metric or metrics that a user is comparing variants with. |
+| control | The variant that all other variants in the experiment are being compared with. Enter the name of the control variant dimension item. |
 
-
+-->
 
 ## Régression linéaire : coefficient de corrélation {#linear-regression-correlation-coefficient}
 
