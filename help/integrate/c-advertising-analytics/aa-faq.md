@@ -26,7 +26,7 @@ Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais
 
 Advertising Analytics est disponible pour Adobe Analytics
 
-* [ Sélectionner ](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
+* [&#x200B; Sélectionner &#x200B;](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
 
 * [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
 
