@@ -4,7 +4,7 @@ description: Comprendre le concept de « relecture » dans les analyses entre 
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 89%
@@ -31,7 +31,7 @@ Dès qu’un accès est collecté, l’analyse entre appareils tente de le group
 *Données telles qu’elles apparaissent le jour de leur collecte :*
 
 | Horodatage | ECID | eVar1 ou CustomerID | Explication de l’accès | Mesure Personnes (cumulative) à l’aide du groupement basé sur les champs |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sur son ordinateur de bureau, sans authentification | `1` (246) |
 | `2` | `246` | `Bob` | Bob se connecte sur son ordinateur de bureau | `2` (246 et Bob) |
 | `3` | `3579` | - | Bob sur son appareil mobile, sans authentification | `3` (246, Bob et 3579) |

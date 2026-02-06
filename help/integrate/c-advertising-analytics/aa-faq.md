@@ -3,10 +3,10 @@ description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes sur Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1300'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -26,7 +26,7 @@ Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais
 
 Advertising Analytics est disponible pour Adobe Analytics
 
-* [Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
+* [ Sélectionner ](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
 
 * [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
 
@@ -95,6 +95,8 @@ Vous obtiendrez
 
 Non, les données de recherche brutes seront entrées sous la forme d’un jeu de données indépendant. Cependant, il existe une version des Instances des données de clic qui peut être ventilée selon d’autres données Analytics.
 
++++
+
 +++ Quelle est la définition des différents indicateurs de statut de mes comptes (En attente, Actif, En pause, etc.) ? Chacun de ces indicateurs de statut identifie l’étape du cycle de vie de chaque compte de moteur de recherche. 
 
 * [!UICONTROL En attente]
@@ -122,7 +124,7 @@ Non, ils ne sont pas inclus dans le rapport Canaux marketing .
 
 +++
 
-+++ Q. : Quand les données de recherche sont-elles transférées dans Analytics ? 
++++ Quand les données de recherche sont-elles extraites dans Analytics ? 
 
 Les données de recherche sont extraites des moteurs de recherche vers 6 heures du matin (06:00) dans le fuseau horaire de votre centre de données Analytics. C’est à ce moment que les données AMO sont collectées et insérées dans la suite de rapports. Les données sont alors converties selon le fuseau horaire de la suite de rapports au cours de l’insertion des données dans Analytics.
 

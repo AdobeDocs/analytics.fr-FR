@@ -2,13 +2,13 @@
 title: Règles des ensembles de classifications
 description: Découvrez comment utiliser les règles des jeux de classifications pour définir des règles pour les données de classification.
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 13%
 
 ---
-
 
 # Règles des ensembles de classifications
 
@@ -16,7 +16,7 @@ Vous utilisez des règles pour prendre en charge les classifications automatique
 
 La dimension doit contenir des valeurs qui vous permettent d’appliquer une ou plusieurs règles afin que vous puissiez dériver des données de classification des valeurs de dimension.
 
-Vous définissez des règles dans le contexte d’un ensemble de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
+Vous définissez des règles dans le contexte d’un jeu de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
 
 
 Pour définir un ensemble de règles pour un ensemble de classifications, procédez comme suit :
@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -315,7 +315,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
