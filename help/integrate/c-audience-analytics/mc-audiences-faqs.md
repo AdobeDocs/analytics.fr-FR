@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Questions fréquentes sur Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ Elles ne s’appliquent pas à l’envoi de données Adobe Analytics à Adobe Au
 
 +++ Comment créer une destination Analytics dans Audience Manager ?
 
-Voir [&#x200B; Configuration d’une destination Analytics dans Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr) ».
+Voir [ Configuration d’une destination Analytics dans Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr) ».
 
 +++
 
@@ -49,11 +49,11 @@ Plusieurs heures peuvent s’écouler avant que les nouvelles données n’appar
 
 +++ J’ai créé une nouvelle destination Analytics, mais je ne la vois pas dans la section Mappages de destination de mes segments disponibles. Où est passée cette destination ou comment l&#39;ai-je trouvée ?
 
-Une destination Analytics disparaît de la section Mappages de destination d’un segment lorsque vous sélectionnez l’option **[!UICONTROL Mapper automatiquement tous les segments actuels et futurs]** dans **[!UICONTROL Mappages de segments]**. Pour éviter ceci, sélectionnez **[!UICONTROL Mapper les segments manuellement]** au lieu de l’option de mappage automatique.
+Une destination Analytics disparaît de la section Mappages de destination d’un segment lorsque vous sélectionnez l’option **[!UICONTROL Mapper automatiquement tous les segments actuels et futurs]** dans **[!UICONTROL Mappages de segments]**. Pour éviter cela, sélectionnez **[!UICONTROL Mapper manuellement les segments]** au lieu de l’option automatique.
 
 +++
 
-Cela me donnera-t-il toutes les informations de Adobe Audience Manager, dans Analytics ?
++++ Cela me donnera-t-il toutes les informations de Adobe Audience Manager, dans Analytics ?
 
 Non, seules les données relatives aux personnes qui consultent votre site pendant ou après l’activation d’audiences Audience Manager et pendant/après la qualification de segment sont incluses.
 
@@ -107,7 +107,7 @@ Les contrôles de confidentialité de Adobe Audience Manager entre la source de 
 
 +++ Pourquoi est-ce que je vois « Limite d’audience atteinte » dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et `::max_audiences_exceeded::` dans Data Warehouse)
 
-Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est qualifié, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les 150 segments qualifiés les plus récemment **&#x200B;**&#x200B;sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
+Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est qualifié, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les 150 segments qualifiés les plus récemment **** sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
 
 Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités :
 
@@ -143,7 +143,7 @@ Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redire
 
 +++ Pourquoi le nombre de visiteurs du segment est-il différent entre Audience Manager et Analytics ?
 
-Voir [&#x200B; Différences entre les nombres de visiteurs &#x200B;](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+Voir [ Différences entre les nombres de visiteurs ](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
 
 +++
 
