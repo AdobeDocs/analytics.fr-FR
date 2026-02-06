@@ -3,9 +3,9 @@ title: Créer un flux de données
 description: Apprenez comment créer un flux de données et découvrez les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2137'
 ht-degree: 26%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 26%
 Lors de la création d’un flux de données, vous fournissez à Adobe les éléments suivants :
 
 * Informations sur la destination vers laquelle envoyer les fichiers de données brutes
+
 * Les données à inclure dans chaque fichier
+
+* La fréquence d’envoi du flux de données (y compris l’intervalle de recherche en amont si vous choisissez d’inclure les accès arrivant tard)
 
 Avant de créer un flux de données, il est important de comprendre les bases des flux de données et de vous assurer que vous remplissez toutes les conditions préalables. Consultez la [vue d’ensemble des flux de données](data-feed-overview.md) pour en savoir plus.
 
@@ -80,8 +83,8 @@ Avant de créer un flux de données, il est important de comprendre les bases de
    | [!UICONTROL **Envoyer le manifeste même en l’absence de données**] | Indique si Adobe doit ou non livrer un [fichier de manifeste](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Remplacer les chaînes du système d’exploitation**] | Lors de la collecte de données, certains caractères (tels que les nouvelles lignes) peuvent entraîner des problèmes. Sélectionnez cette option pour supprimer ces caractères des fichiers de flux.<p>Cette option détecte les séquences de chaînes suivantes incorporées dans les données client et les remplace par un espace :</p> <ul><li>**Windows:** CRLF, CR ou TAB</li><li>**Mac et Linux :** \n, \r ou \t</li></ul> |
    | [!UICONTROL **Activer les recherches dynamiques**] | Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données qui ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :<ul><li> **Nom du transporteur**</li><li>**Attributs mobiles**</li><li>**Type de système d’exploitation**</li></ul><p>Pour plus d’informations, voir [Recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **Autoriser les accès en retard** | Les données historiques peuvent arriver une fois qu’une tâche de flux de données a terminé le traitement pendant une heure ou une journée donnée, par exemple par le biais d’accès horodatés ou de sources de données.<p>Sélectionnez cette option pour inclure les données arrivées une fois que la tâche de flux de données a terminé le traitement des données dans la fréquence de création de rapports définie (généralement quotidienne ou horaire). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il examine les accès tardifs arrivés et les transfère par lots avec le fichier de flux de données suivant envoyé.</p><p>Pour plus d’informations, voir [&#x200B; Accès en retard &#x200B;](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
-   | **Intervalle de recherche en amont** (pour les accès arrivés en retard) | Cette option s’affiche lorsque l’option **[!UICONTROL Autoriser les accès à diffusion tardive]** est activée. Sélectionnez l’intervalle de recherche en amont pour limiter la période des accès tardifs inclus. Sélectionnez **[!UICONTROL Illimité]** si vous souhaitez autoriser tous les accès arrivant en retard, quelle que soit leur date de retard. Vous pouvez choisir un intervalle prédéfini, tel que **[!UICONTROL 1 heure]**, **[!UICONTROL 2 heures]**, **[!UICONTROL 1 semaine]**, **[!UICONTROL 2 semaines]** etc. Vous pouvez également sélectionner **[!UICONTROL Intervalle de recherche en amont personnalisé]** puis, dans le champ **[!UICONTROL Recherche en amont personnalisée]** spécifier un intervalle de recherche en amont allant jusqu’à 26 280 heures. |
+   | **Autoriser les accès en retard** | Les données historiques peuvent arriver une fois qu’une tâche de flux de données a terminé le traitement pendant une heure ou une journée donnée, par exemple par le biais d’accès horodatés ou de sources de données.<p>Sélectionnez cette option pour inclure les données arrivées une fois que la tâche de flux de données a terminé le traitement des données dans la fréquence de création de rapports définie (généralement quotidienne ou horaire). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il examine les accès tardifs arrivés et les transfère par lots avec le fichier de flux de données suivant envoyé.</p><p>Pour plus d’informations, voir [ Accès en retard ](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Intervalle de recherche en amont** (pour les accès arrivés en retard) | Cette option s’affiche lorsque l’option **[!UICONTROL Autoriser les accès en retard]** est activée. Sélectionnez l’intervalle de recherche en amont pour limiter la période des accès tardifs inclus. Sélectionnez **[!UICONTROL Illimité]** si vous souhaitez autoriser tous les accès arrivant en retard, quelle que soit leur date de retard. Vous pouvez choisir un intervalle prédéfini, tel que **[!UICONTROL 1 heure]**, **[!UICONTROL 2 heures]**, **[!UICONTROL 1 semaine]**, **[!UICONTROL 2 semaines]** etc. Vous pouvez également sélectionner **[!UICONTROL Intervalle de recherche en amont personnalisé]** puis, dans le champ **[!UICONTROL Recherche en amont personnalisée]** spécifier un intervalle de recherche en amont allant jusqu’à 26 280 heures. |
 
 1. Dans la section [!UICONTROL **Structure de données**], dans le champ **[!UICONTROL Suite de rapports]**, sélectionnez la suite de rapports source qui contient les données à exporter. <p>Tenez compte des points suivants lors de la sélection d’une suite de rapports :</p> <ul><li>Si plusieurs flux de données sont créés pour la même suite de rapports, chaque flux de données doit avoir des définitions de colonne différentes.</li><li>Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge.</li><li>La liste des colonnes disponibles dépend de la société de connexion à laquelle appartient la suite de rapports sélectionnée. Si vous modifiez la suite de rapports, la liste des colonnes disponibles peut changer. </li></ul>
 
@@ -135,7 +138,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
    | Champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Compte**] | Effectuez l’une des opérations suivantes :<ul><li>**Utiliser un compte existant :** sélectionnez le menu déroulant en regard du champ **[!UICONTROL Compte]**. Vous pouvez également commencer à saisir le nom du compte, puis le sélectionner dans le menu déroulant. <p>Vous ne pouvez accéder aux comptes que si vous les avez configurés ou s’ils sont partagés avec une organisation dont vous faites partie.</p></li><li>**Créer un compte :** sélectionnez **[!UICONTROL Ajouter]** sous le champ **[!UICONTROL Compte]**. Pour plus d’informations sur la configuration du compte, voir [Configurer un compte d’emplacement](/help/components/locations/configure-import-accounts.md#configure-a-location-account) dans [Configurer des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Emplacement**] | Effectuez l’une des opérations suivantes :<ul><li>**Utiliser un emplacement existant :** sélectionnez le menu déroulant en regard du champ **[!UICONTROL Emplacement]**. Vous pouvez également commencer à saisir le nom de l’emplacement, puis le sélectionner dans le menu déroulant.</li><li>**Créer un emplacement :** sélectionnez **[!UICONTROL Ajouter]** sous le champ **[!UICONTROL Emplacement]**. Pour plus d’informations sur la configuration de l’emplacement, voir [Configurer un emplacement](/help/components/locations/configure-import-locations.md#configure-a-location) dans [Configurer des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Emplacement**] | Effectuez l’une des opérations suivantes :<ul><li>**Utiliser un emplacement existant :** sélectionnez le menu déroulant en regard du champ **[!UICONTROL Emplacement]**. Vous pouvez également commencer à saisir le nom de l’emplacement, puis le sélectionner dans le menu déroulant.</li><li>**Créer un emplacement :** sélectionnez **[!UICONTROL Ajouter]** sous le champ **[!UICONTROL Emplacement]**. Pour plus d’informations sur la configuration de l’emplacement, voir [Configurer un emplacement](/help/components/locations/configure-import-locations.md#configure-a-location) dans [Configurer des emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Avertir lorsque l’opération est terminée**] | Indiquez une ou plusieurs adresses e-mail auxquelles une notification doit être envoyée une fois le flux de données envoyé avec succès ou en cas d’échec. Plusieurs adresses e-mail doivent être séparées par une virgule. |
 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
@@ -146,7 +149,7 @@ Les modèles vous permettent de réutiliser les mêmes colonnes pour les flux de
 
 Lors de la gestion des modèles, vous pouvez créer des modèles, utiliser des modèles déjà créés, copier des modèles, modifier des modèles et supprimer des modèles.
 
-[!UICONTROL **Admin**] > [!UICONTROL **Flux de données**] > **[!UICONTROL Gérer les modèles]**
+**[!UICONTROL Admin]** > **[!UICONTROL Flux de données]** > **[!UICONTROL Gérer les modèles]**
 
 ![Gérer les modèles de colonne](assets/data-feed-template-manage.png)
 
