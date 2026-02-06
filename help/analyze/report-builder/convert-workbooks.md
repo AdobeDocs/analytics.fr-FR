@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 1%
+source-wordcount: '722'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Dans le cadre de la transition vers une nouvelle fonctionnalité Report Builder,
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446184?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workboo
 
 Pour ouvrir un classeur hérité, vous pouvez :
 
-* Ouvrez un classeur hérité directement depuis votre ordinateur ou réseau local. Lorsque le classeur hérité est ouvert dans Excel :
-
-   1. Sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
-   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
-   1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
-
-* Ouvrez un classeur hérité planifié dans l’onglet **[!UICONTROL Planifier]** du hub [Report Builder](report-builder-hub.md). Pour ce faire, procédez comme suit :
+* Ouvrez un classeur hérité planifié dans l’onglet **[!UICONTROL Planifier]** du hub [Report Builder](report-builder-hub.md). Il s’agit de la méthode préférée pour les classeurs hérités planifiés. Vous avez la possibilité d’utiliser la planification associée au classeur hérité dès que vous [planifiez le classeur hérité converti](#schedule-a-converted-legacy-workbook).
 
    1. Ouvrez Excel et sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
 
@@ -56,6 +50,13 @@ Pour ouvrir un classeur hérité, vous pouvez :
       ![Classeurs hérités](assets/upgrade-legacy-schedule.png)
 
    1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) le classeur planifié à convertir dans la liste, puis sélectionnez ![Télécharger](/help/assets/icons/Download.svg). Le classeur est téléchargé et s’ouvre dans une nouvelle fenêtre dans Excel. Vous pouvez désormais [convertir l’ancien classeur Report Builder](#convert-a--workbook).
+
+
+* Ouvrez un classeur hérité directement depuis votre ordinateur ou réseau local. Lorsque vous utilisez cette méthode, il ne vous est pas proposé d’utiliser la planification qui peut être associée au classeur hérité. <br/>Lorsque le classeur hérité est ouvert dans Excel :
+
+   1. Sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
+   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+   1. Convertissez ensuite [ classeur hérité](#convert-a-workbook).
 
 
 ## Convertir un classeur hérité
@@ -75,7 +76,7 @@ Pour convertir votre classeur hérité :
 
 1. Une boîte de dialogue **[!UICONTROL Avertissement]** s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
 
-   ![&#x200B; avertissement de mise à niveau &#x200B;](assets/upgrade-warning.png){zoomable="yes"}
+   ![ avertissement de mise à niveau ](assets/upgrade-warning.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour poursuivre la mise à niveau.
 
@@ -89,14 +90,14 @@ Pour convertir votre classeur hérité :
 
      ![Classeur de rapports de mise à niveau d’Excel Report Builder](assets/upgrade-report.png)
 
-Vous pouvez désormais [gérer le bloc de données](/help/analyze/report-builder/manage-reportbuilder.md).
+Vous pouvez désormais [gérer les blocs de données](/help/analyze/report-builder/manage-reportbuilder.md) dans le classeur. Ces blocs de données sont le résultat de la mise à niveau et remplacent vos requêtes Report Builder héritées.
 
 
 ## Planifier un classeur hérité converti
 
 Vous avez la possibilité d’utiliser les détails de la planification du classeur hérité que vous avez téléchargé et ouvert à partir de l’onglet **[!UICONTROL Planification]** dans le hub Report Builder. Cette option n’est pas disponible pour les classeurs hérités avec les détails de planification que vous ouvrez depuis votre ordinateur ou réseau local.
 
-1. Planifiez un classeur. Pour planifier un classeur hérité converti avec une planification héritée :
+1. Pour planifier un classeur hérité converti avec une planification héritée :
 
    * Sélectionnez **[!UICONTROL Envoyer le classeur]** dans le hub Report Builder, ou
    * Sélectionnez **[!UICONTROL Planifier le classeur]** dans l’onglet **[!UICONTROL Classeurs]** disponible dans l’onglet **[!UICONTROL Planifications]** de Report Builder.
@@ -105,7 +106,7 @@ Vous avez la possibilité d’utiliser les détails de la planification du class
 
    ![Migrer le planning du classeur hérité](assets/upgrade-legacy-schedule-convert.png)
 
-   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [&#x200B; Envoyer le classeur &#x200B;](schedule-reportbuilder.md#schedule-a-workbook).
+   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [ Envoyer le classeur ](schedule-reportbuilder.md#schedule-a-workbook).
    * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
    * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
