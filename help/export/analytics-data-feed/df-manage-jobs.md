@@ -127,7 +127,7 @@ Pour renvoyer une ou plusieurs tâches de flux de données :
 
 ## Retraitement des tâches de flux de données
 
-Vous pouvez retraiter les données sources d’une tâche de flux de données et les envoyer à nouveau avec les données retraitées. Vous pouvez également [ renvoyer une tâche de flux de données ](#resend-data-feed-jobs).
+Vous pouvez retraiter les données sources d’une tâche de flux de données et les envoyer à nouveau avec les données retraitées. Vous pouvez également [&#x200B; renvoyer une tâche de flux de données &#x200B;](#resend-data-feed-jobs).
 
 Pour retraiter une ou plusieurs tâches de flux de données :
 
