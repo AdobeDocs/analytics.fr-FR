@@ -3,7 +3,7 @@ title: Gestion des flux de données
 description: Découvrez comment naviguer dans l’interface du flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 20%
@@ -17,7 +17,7 @@ Le gestionnaire des flux de données vous permet de créer, de modifier et de su
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://video.tv.adobe.com/v/3428562?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Le bouton **[!UICONTROL Créer un flux de données]** vous permet de créer un f
 
    Ou
 
-   Pour afficher des tâches pour des flux de données spécifiques, cochez la case en regard d’un ou de plusieurs flux de données, puis sélectionnez [!UICONTROL **Historique des tâches**].
+   Pour afficher l’historique des tâches pour des flux de données spécifiques, cochez la case en regard d’un flux de données, puis sélectionnez [!UICONTROL **Historique des tâches**].
 
    Pour plus d’informations, voir [Gestion des tâches liées aux flux de données](df-manage-jobs.md).
 
@@ -155,7 +155,7 @@ Les colonnes suivantes sont disponibles :
    * Supprimé : le flux est supprimé.
    * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
    * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-   * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
+   * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
 * **Dernière modification** : la date à laquelle le flux a été modifié pour la dernière fois. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
 * **Date de début** : la date de la première tâche pour ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
 * **Date de fin** : la date de la dernière tâche pour ce flux. Les flux de données continus ne possèdent pas de date de fin.
