@@ -1,13 +1,13 @@
 ---
 description: Obtenez des réponses aux questions fréquentes sur les flux de données dans Adobe Analytics.
-keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;sensible à la casse
+keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;respect de la casse
 title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 84%
+source-wordcount: '1488'
+ht-degree: 73%
 
 ---
 
@@ -67,21 +67,21 @@ Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identi
 
 ## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#domain}
 
-Certains opérateurs mobiles (tels que T-Mobile et O1) ne fournissent plus d’informations sur les domaines pour les recherches DNS inversées. Par conséquent, ces données ne sont pas disponibles dans les rapports sur les domaines.
+Certains opérateurs de téléphonie mobile (tels que T-Mobile et O1) ne fournissent plus d’informations de domaine pour les recherches DNS inversées. Par conséquent, ces données ne sont pas disponibles dans les rapports sur les domaines.
 
-## Pourquoi ne puis-je pas extraire des fichiers « Par heure » à partir de données qui ont plus de sept jours ? {#hourly}
+## Pourquoi ne puis-je pas extraire de manière fiable des fichiers horaires pour les dates plus anciennes ? {#hourly}
 
-Pour les données de plus de sept jours, les fichiers « Par heure » d’une journée sont combinés en un seul fichier « Quotidien ».
+Pour optimiser le stockage et le traitement, Adobe consolide régulièrement les exportations horaires dans des fichiers quotidiens. En raison de la manière et du moment où ces consolidations s’exécutent, la sortie horaire pour les dates de plus de 10 jours n’est pas prévisible. Pour une date donnée, il est possible de voir un mélange de fichiers horaires pour certaines heures et un fichier quotidien consolidé pour d’autres. Les données consolidées dans un fichier quotidien sont généralement affectées aux heures `00`, ce qui peut laisser d’autres heures vides lorsque ces heures sont demandées directement.
 
-Exemple : un nouveau flux de données est créé le 9 mars 2021 et les données du 1er janvier 2021 au 9 mars sont diffusées « Par heure ». Cependant, les fichiers « Par heure » antérieurs au 2 mars 2021 sont combinés en un seul fichier « Quotidien ». Vous ne pouvez extraire des fichiers « Par heure » qu’à partir de données qui ont moins de sept jours à compter de la date de création. Dans ce cas-ci, du 2 au 9 mars.
+Pour les renvois datant de plus de 10 jours, Adobe recommande vivement d’utiliser la granularité quotidienne pour garantir des résultats complets et prévisibles. Si vous devez demander une granularité horaire pour les jours plus anciens, incluez toujours la `00` horaire dans votre demande pour éviter l’absence de données horaires consolidées.
 
 ## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#dst}
 
-Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 2:00 heures).
+Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 2 :00 du matin).
 
-Lors d’un changement d’heure STD (heure standard) > DST (heure d’été) (« Bond en avant »), le client ne reçoit que 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, ils reçoivent un fichier pendant 1:00 heure et un fichier pendant 3:00 heures. Il n&#39;y a pas de fichier 2:00 car, à 2:00 STD, il devient 3:00 DST.
+Lorsque vous effectuez des transitions de temps STD -> DST (printemps vers l&#39;avant), vous recevez 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, vous obtenez un fichier pour la :00 heure et un fichier pour la troisième :00. Il n&#39;y a pas de fichier 2:00 car, à 2:00 STD, il devient 3:00 DST.
 
-Lors d’une transition DST > STD, (« Retour en arrière »), le client reçoit 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si la transition a lieu à 2:00 du matin, le fichier de 1:00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données allant de 1:00 DST à 2:00 STD (ce qui aurait été 3:00 DST). Le fichier suivant commence à 2:00 STD.
+Lorsque vous effectuez des transitions DST -> STD (secours), vous recevez 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si la transition a lieu à 2 heures du matin:00 le fichier correspondant à 1 :00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données allant de 1:00 DST à 2:00 STD (ce qui aurait été 3:00 DST). Le fichier suivant commence à 2:00 STD.
 
 ## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
 
