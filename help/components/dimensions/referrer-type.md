@@ -3,7 +3,7 @@ title: Type de référent
 description: Le type de référent en fonction de la provenance du visiteur.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+source-git-commit: 98316266eb25c01c571901a62aa076276622bfc5
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 88%
@@ -37,7 +37,9 @@ La liste suivante fait référence à la table de recherche « Outils d’IA dé
 
 * `https://chatgpt.com`
 * `https://chat.com`
+* `https://chat.deepseek.com`
 * `https://chat.openai.com`
+* `https://doubao.com`
 * `https://gemini.google.com`
 * `https://copilot.microsoft.com`
 * `https://m365.cloud.microsoft`
