@@ -3,10 +3,10 @@ description: Configuration requise et comparaison d’Analysis Workspace, Repor
 title: Configuration requise et comparaison des produits Analytics
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,7 @@ Cette page contient une comparaison de divers produits Adobe Analytics : Analy
 
 Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
-| Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **Méthode d’accès** | [Navigateur](/help/analyze/get-started/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/analyze/get-started/sys-reqs.md) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils de l’API RESTful. Connectez-vous à l’aide des informations d’identification Adobe Developer. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularité des données** | Agrégé | Agrégé | Agrégé | Accès | Agrégé |
@@ -38,3 +38,4 @@ Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Qu
 | **Livraison planifiée** | Oui | Oui | Oui | Oui | Non |
 | **Destinations des diffusions** | Courriel | Courriel, FTP, SFTP, [publication sur Microsoft PowerBI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC et E-mail | Amazon S3, Azure RBAC, Azure SAS et Google Cloud Platform | - |
 | **Traitement de la période de rapport de la suite de rapports virtuelle** <br> [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) | Oui | Non | Non | Non | Oui |
+| **Rapports géographiques et technologiques** | Oui <p>Utilise des valeurs intermédiaires plutôt que des champs de publication. La logique de premier accès de la visite est basée sur le `post_cust_hit_time_gmt` plutôt que sur le `visit_page_num=1`. Les résultats peuvent différer des autres outils si les modifications d’adresses IP en milieu de visite, les accès arrivent dans le désordre ou les visites dépassent les limites mensuelles.</p> | Oui <p>Utilise des valeurs intermédiaires plutôt que des champs de publication. La logique de premier accès de la visite est basée sur le `post_cust_hit_time_gmt` plutôt que sur le `visit_page_num=1`. Les résultats peuvent différer des autres outils si les modifications d’adresses IP en milieu de visite, les accès arrivent dans le désordre ou les visites dépassent les limites mensuelles.</p> | Oui <p>Utilise des valeurs de publication et des `visit_page_num=1` pour déterminer le premier accès de la visite. Applique la valeur du premier accès à tous les accès de la visite pour ces dimensions.</p> | Oui <p>Utilise des valeurs de publication et des `visit_page_num=1` pour déterminer le premier accès de la visite. Applique la valeur du premier accès à tous les accès de la visite pour ces dimensions.</p> | Oui <p>Utilise des valeurs intermédiaires plutôt que des champs de publication. La logique de premier accès de la visite est basée sur le `post_cust_hit_time_gmt` plutôt que sur le `visit_page_num=1`. Les résultats peuvent différer des autres outils si les modifications d’adresses IP en milieu de visite, les accès arrivent dans le désordre ou les visites dépassent les limites mensuelles.</p> |
