@@ -4,9 +4,9 @@ description: Découvrez les fonctions de base des mesures calculées.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3600'
 ht-degree: 51%
 
 ---
@@ -93,7 +93,7 @@ Renvoie la valeur la plus grande d’un ensemble d’éléments de dimension pou
 
 >[!TIP]
 >
->Utilisez une instruction [IF](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le plus performant de votre répartition.
+>Utilisez une instruction [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le plus performant de votre répartition.
 >
 
 ## Column Minimum {#column-minimum}
@@ -123,7 +123,7 @@ Renvoie la valeur la plus petite d’un ensemble d’éléments de dimension pou
 
 >[!TIP]
 >
->Utilisez une instruction [IF](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le moins performant de votre répartition.
+>Utilisez une instruction [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le moins performant de votre répartition.
 >
 
 
@@ -205,9 +205,9 @@ Ajoute toutes les valeurs numériques d’une mesure dans une colonne (sur l’e
 |---|---|
 | metric | Exposant appliqué à la base e. |
 
-**Cas d’utilisation** : augmentez un nombre ou une mesure à une puissance spécifiée, par exemple en mettant au carré une valeur ou en appliquant un facteur de croissance exponentielle. Cela s’avère utile lors de la modélisation des tendances de croissance ou de la mise à l’échelle exponentielle d’une mesure.
+**Cas d’utilisation** : augmente *e* à la puissance d’un nombre ou d’une mesure donnée. Cela s’avère utile lors de la modélisation des tendances de croissance ou de la mise à l’échelle exponentielle d’une mesure.
 
-**Dans le créateur de mesures calculées** : utilisez **Exposant** avec une mesure et une valeur de puissance. Par exemple : **Exposant**(*Visites*, 2) met au carré la mesure *Visites*.
+**Dans le créateur de mesures calculées** : utilisez **Exposant** avec une mesure. Par exemple : **Exposant**(*Visites*) élève *e* à la puissance de la mesure *Visites*.
 
 >[!TIP]
 >
