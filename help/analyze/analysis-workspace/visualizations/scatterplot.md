@@ -1,13 +1,12 @@
 ---
 title: Nuage de points
-description: Utilisez la visualisation Dispersion pour montrer la relation entre jusqu’à trois mesures.
-feature: Visualizations
+description: Découvrez comment créer et interpréter des visualisations Nuage de points dans Analysis Workspace pour analyser les relations entre les éléments de dimension et jusqu’à trois mesures.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 92%
+source-wordcount: '236'
+ht-degree: 63%
 
 ---
 
@@ -25,12 +24,12 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Dispersion dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Dispersion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Dispersion dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Dispersion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-La visualisation ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Dispersion]** illustre la relation entre des éléments de dimension et trois mesures au maximum. La visualisation nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
+La visualisation ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONTROL Scatter]** vous permet d’identifier les corrélations et les modèles entre différentes mesures dans vos données. La visualisation montre la relation entre les éléments de dimension et jusqu’à trois mesures. La visualisation nécessite trois composants et prend en charge la visualisation de quatre composants au maximum.
 
 * Le composant de ligne (généralement une dimension) représente chaque point du graphique. Différentes lignes s’affichent sous forme de points de différentes couleurs.
 * La colonne la plus à gauche (généralement une mesure) trace la position du point sur l’axe Y (vertical).
@@ -43,14 +42,19 @@ La visualisation ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICONT
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Dispersion](https://video.tv.adobe.com/v/3416860/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Dispersion](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
+
+
+>[!NOTE]
+>
+>Lorsque vous [configurez la légende pour qu’elle soit visible]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings dans la dispersion, la légende n’est affichée que lorsque la source de données contient un nombre limité d’éléments de dimension (sélectionnés).
 
 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
