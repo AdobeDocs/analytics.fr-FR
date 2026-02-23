@@ -27,7 +27,7 @@ Vous pouvez créer et utiliser des segments dans Analysis Workspace et Customer 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation de segments dans Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation de segments dans Analysis Workspace](https://video.tv.adobe.com/v/41391?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
