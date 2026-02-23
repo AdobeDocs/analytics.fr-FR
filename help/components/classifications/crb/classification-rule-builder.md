@@ -3,9 +3,9 @@ description: Au lieu de gérer et de charger des classifications à chaque chang
 title: Workflow du créateur de règles de classification
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 87%
 
 ---
@@ -18,7 +18,7 @@ Au lieu de gérer et de charger des classifications à chaque changement des cod
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de règles de classification](https://video.tv.adobe.com/v/3434375?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Créateur de règles de classification](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

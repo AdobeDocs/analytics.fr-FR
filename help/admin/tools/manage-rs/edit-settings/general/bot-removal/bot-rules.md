@@ -4,9 +4,9 @@ title: Comprendre et configurer des règles de robot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1669'
 ht-degree: 68%
 
 ---
@@ -23,7 +23,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct p
 
 >[!NOTE]
 >
->Adobe Experience Platform Edge Network fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html?lang=fr) qui classe les accès identifiés comme provenant de robots. Le processus de détection de robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robots inclus dans les données arrivant via Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
+>Adobe Experience Platform Edge Network fournit un [service de détection de robots](https://experienceleague.adobe.com/docs/experience-platform/datastreams/bot-detection.html) qui classe les accès identifiés comme provenant de robots. Le processus de détection de robots utilisé dans Adobe Analytics est distinct et ne fait pas référence au score de robots inclus dans les données arrivant via Edge Network. Toutefois, les deux systèmes utilisent la même liste de robots IAB.
 
 ## Mise à jour ou chargement de règles de robots
 
@@ -34,7 +34,7 @@ Les données de trafic de robots sont stockées dans un référentiel distinct p
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurer des règles de robots](https://video.tv.adobe.com/v/3418508/?quality=12&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurer des règles de robots](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

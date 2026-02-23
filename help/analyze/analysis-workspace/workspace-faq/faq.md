@@ -4,10 +4,10 @@ title: Questions fréquentes
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 99%
 
 ---
 
@@ -45,13 +45,13 @@ Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-
 
 +++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://video.tv.adobe.com/v/33610?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} pour une vidéo de démonstration.
 
 +++
 
 +++Comment puis-je effectuer le suivi de l’utilisation de Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des journaux](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des journaux](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 +++
 

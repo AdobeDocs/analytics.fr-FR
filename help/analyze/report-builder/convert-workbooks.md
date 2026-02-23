@@ -6,9 +6,9 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Dans le cadre de la transition vers une nouvelle fonctionnalité Report Builder,
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://video.tv.adobe.com/v/3446184?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Convert workbooks](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Pour ouvrir un classeur hérité, vous pouvez :
 
    1. Sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban Excel.
    1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
-   1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
+   1. Convertissez ensuite [ classeur hérité](#convert-a-workbook).
 
 
 ## Convertir un classeur hérité
@@ -76,7 +76,7 @@ Pour convertir votre classeur hérité :
 
 1. Une boîte de dialogue **[!UICONTROL Avertissement]** s’affiche pour vous avertir des modifications apportées au classeur en cas de mise à niveau. Il vous invite également à créer une sauvegarde de votre classeur hérité avant de continuer.
 
-   ![&#x200B; avertissement de mise à niveau &#x200B;](assets/upgrade-warning.png){zoomable="yes"}
+   ![ avertissement de mise à niveau ](assets/upgrade-warning.png){zoomable="yes"}
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour poursuivre la mise à niveau.
 
@@ -106,7 +106,7 @@ Vous avez la possibilité d’utiliser les détails de la planification du class
 
    ![Migrer le planning du classeur hérité](assets/upgrade-legacy-schedule-convert.png)
 
-   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [&#x200B; Envoyer le classeur &#x200B;](schedule-reportbuilder.md#schedule-a-workbook).
+   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [ Envoyer le classeur ](schedule-reportbuilder.md#schedule-a-workbook).
    * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
    * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 

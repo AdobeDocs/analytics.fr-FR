@@ -5,10 +5,10 @@ title: Application De Segments Dans L’Analyse Des Abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 42%
+source-wordcount: '436'
+ht-degree: 43%
 
 ---
 
@@ -51,12 +51,6 @@ Vous pouvez également créer un point de contact AND en faisant glisser le segm
 
 Vous pouvez comparer un nombre illimité de segments dans la visualisation des abandons. (Notez que la vidéo ci-dessous indique que vous pouvez comparer jusqu’à 3 segments, ce qui est faux.)
 
-
->[!BEGINSHADEBOX]
-
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparer des segments dans une visualisation des abandons](https://video.tv.adobe.com/v/328079?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
 
 
 1. Sélectionnez les segments à comparer dans le panneau [!UICONTROL Segment] à gauche. Dans l’exemple, deux segments sont sélectionnés : **[!UICONTROL iOS]** et **[!UICONTROL Android]**.

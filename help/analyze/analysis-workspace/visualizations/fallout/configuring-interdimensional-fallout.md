@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment la visualisation des abandons dans Analysis Workspace vous permet de combiner et de faire correspondre des dimensions et des mesures comme points de contact dans les entonnoirs et les workflows. Découvrez comment cela offre davantage de flexibilité pour définir les étapes utilisateur sur lesquelles vous souhaitez en savoir plus.
-title: Abandons interdimensionnels
+title: Abandon Interdimensionnel
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 5%
 
 ---
 
@@ -17,12 +17,6 @@ ht-degree: 6%
 Dans Analysis Workspace, l’abandon permet de combiner et de faire correspondre des dimensions et des mesures comme points de contact dans les entonnoirs et les workflows. Les abandons vous offrent davantage de flexibilité pour définir les étapes utilisateur sur lesquelles vous souhaitez en savoir plus.
 
 Par exemple, en plus d’une dimension Page , vous pouvez ajouter d’autres éléments de dimension (comme un nom d’appareil spécifique à partir de la dimension Nom de l’appareil ) à une visualisation Abandons . La combinaison de dimensions vous permet de visualiser la façon dont les pages et certaines actions interagissent dans les chemins des clients.
-
->[!BEGINSHADEBOX]
-
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abandon multidimensionnel](https://video.tv.adobe.com/v/327465?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
-
->[!ENDSHADEBOX]
 
 Par exemple, en plus d’une dimension Page , vous pouvez ajouter d’autres éléments de dimension (comme un nom d’appareil spécifique à partir de la dimension Nom de l’appareil ) à une visualisation Abandons . La combinaison de dimensions vous permet de visualiser la façon dont les pages et certaines actions interagissent dans les chemins des clients.
 

@@ -4,9 +4,9 @@ description: Découvrez comment utiliser plusieurs suites de rapports dans un se
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Cette fonctionnalité est utile si vous souhaitez :
 
 >[!BEGINSHADEBOX]
 
-Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://video.tv.adobe.com/v/36931?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -67,7 +67,7 @@ Le panneau actif est reconnaissable par la bordure bleue claire qui l’entoure.
 
 1. Modifier le panneau pour une autre suite de rapports et noter comment le libellé du composant (suite de rapports active) et les composants répertoriés sont mis à jour en fonction de cette modification.
 
-1. Utiliser un raccourci clavier (`shift` lorsque vous faites glisser un composant) pour changer de panneau actif.
+1. Utiliser un raccourci clavier (`shift` lorsque vous faites glisser un composant) pour transformer un panneau inactif en panneau actif.
 
 1. (Facultatif) Vous pouvez également accéder à d’autres créateurs de composants Analytics et vous assurer qu’ils affichent désormais un libellé de suite de rapports indiquant :
 

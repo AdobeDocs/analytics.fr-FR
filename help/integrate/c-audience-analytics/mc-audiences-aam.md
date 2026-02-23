@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics - Aperçu
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 42%
+source-wordcount: '479'
+ht-degree: 41%
 
 ---
 
@@ -20,7 +20,7 @@ Une fois l’intégration d’Audience Analytics en place, vous pouvez intégrer
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/40731?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

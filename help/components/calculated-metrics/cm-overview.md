@@ -4,10 +4,10 @@ keywords: Mesures calculées
 title: Vue d’ensemble des mesures calculées
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 99%
 
 ---
 
@@ -59,13 +59,13 @@ Certaines fonctionnalités [!DNL Analytics] ne permettent pas d’utiliser des m
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://video.tv.adobe.com/v/37941?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://video.tv.adobe.com/v/37940?quality=12&learn=on&captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +85,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Créer des mesures](/help/components/calculated-metrics/workflow/cm-workflow.md)
->>[Élaborer des mesures](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
->>[Utiliser des fonctions](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
+>[Élaborer des mesures](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[Utiliser des fonctions](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >
