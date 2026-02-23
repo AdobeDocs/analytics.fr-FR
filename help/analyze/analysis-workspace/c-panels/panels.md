@@ -26,7 +26,7 @@ Les types de panneau suivants sont disponibles dans Analysis Workspace pour [!U
 | [Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
 | [Tableau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des répartitions illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
 | [Audience moyenne par minute de média](average-minute-audience-panel.md) | Analysez l’audience moyenne par minute pour un élément spécifique de contenu ou au cours d’une période personnalisée. |
-| [Visionneuses simultanées de médias ](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
+| [Visionneuses simultanées de médias &#x200B;](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Temps de lecture du média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | L’analyse du temps de lecture permet de déterminer où se produisent les pics d’audience mais aussi où des abandons ont eu lieu. |
 | [Élément suivant ou précédent](next-previous.md) | Affiche les pages visitées suivantes ou précédentes. |
 | [Aperçu rapide](quickinsight.md) | Construisez rapidement un tableau à structure libre et une visualisation d’accompagnement afin d’analyser et de mettre en évidence les informations plus rapidement. |
@@ -91,7 +91,7 @@ Vous pouvez gérer un panneau des façons suivantes :
 
 ## Suite de rapports
 
-Chaque panneau est associé à une [suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**dans le menu déroulant en haut à droite du panneau.
+Chaque panneau est associé à une [suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**&#x200B;dans le menu déroulant en haut à droite du panneau.
 
 Lorsque vous créez un panneau, la suite de rapports par défaut est basée sur la suite de rapports du panneau sur lequel vous avez travaillé pour la dernière fois dans le projet Analysis Workspace.
 
@@ -184,7 +184,7 @@ Les segments déroulants statiques vous permettent d’interagir avec les donné
 
 Les segments déroulants statiques peuvent également être utilisés pour consolider plusieurs projets en un seul. Par exemple, si vous avez plusieurs versions d’un même projet avec des segments Pays différents, vous pouvez les fusionner en un seul projet et ajouter un segment de menu déroulant Pays.
 
-![Segments déroulants statiques affichant le filtre Canal de marché « Direct » mis en surbrillance. ](assets/dropdown-filter-intro.png)
+![Segments déroulants statiques affichant le filtre Canal de marché « Direct » mis en surbrillance. &#x200B;](assets/dropdown-filter-intro.png)
 
 ##### Créer des segments déroulants statiques
 
