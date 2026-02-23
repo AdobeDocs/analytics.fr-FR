@@ -47,7 +47,7 @@ Chaque conteneur permet de créer un rapport de l’historique du visiteur ou de
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteneurs de segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

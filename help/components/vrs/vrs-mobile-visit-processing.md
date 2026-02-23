@@ -19,7 +19,7 @@ Vous pouvez définir une visite comme vous le souhaitez sans modifier les donné
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessions contextuelles](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessions contextuelles](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

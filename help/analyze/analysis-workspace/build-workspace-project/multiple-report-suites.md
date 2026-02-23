@@ -24,7 +24,7 @@ Cette fonctionnalité est utile si vous souhaitez :
 
 >[!BEGINSHADEBOX]
 
-Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Reportez-vous à la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Plusieurs suites de rapports](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

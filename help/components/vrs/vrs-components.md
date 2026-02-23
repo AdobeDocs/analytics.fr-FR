@@ -17,7 +17,7 @@ Les suites de rapports virtuelles peuvent être traitées de manière à inclure
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des composants](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Traitement des composants](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

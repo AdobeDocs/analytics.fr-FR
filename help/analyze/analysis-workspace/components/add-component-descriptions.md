@@ -31,7 +31,7 @@ Vous pouvez ajouter des descriptions aux composants dans une suite de rapports.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

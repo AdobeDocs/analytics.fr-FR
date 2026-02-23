@@ -27,4 +27,4 @@ Ce chapitre explique les concepts que vous devez comprendre sur les profils de p
 
 Regardez la vidéo de démonstration suivante pour découvrir comment ajouter un administrateur dans Adobe Analytics :
 
-[Ajout dʼun administrateur dans Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Ajout dʼun administrateur dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

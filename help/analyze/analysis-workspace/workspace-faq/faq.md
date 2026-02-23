@@ -45,13 +45,13 @@ Voir [Optimisation des performances](/help/analyze/analysis-workspace/workspace-
 
 +++Comment les données sont-elles intégrées à votre projet Analysis Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Données dans Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} pour une vidéo de démonstration.
 
 +++
 
 +++Comment puis-je effectuer le suivi de l’utilisation de Workspace ?
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des journaux](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Suivi des journaux](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 +++
 

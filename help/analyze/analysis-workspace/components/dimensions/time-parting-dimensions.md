@@ -18,7 +18,7 @@ La répartition temporelle utilise l’horodatage des accès collectés et les v
 
 >[!BEGINSHADEBOX]
 
-Consultez la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensions de répartition du temps](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Consultez la section ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimensions de répartition du temps](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/time-parting-dimensions-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

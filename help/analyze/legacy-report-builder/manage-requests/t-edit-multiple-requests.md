@@ -49,4 +49,4 @@ Vous pouvez modifier plusieurs requêtes en même temps, en fonction de la suite
 
 Regardez cette vidéo pour découvrir le processus :
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
