@@ -56,7 +56,7 @@ Pour ouvrir un classeur hérité, vous pouvez :
 
    1. Sélectionnez ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
    1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
-   1. Convertissez ensuite [ classeur hérité](#convert-a-workbook).
+   1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
 
 
 ## Convertir un classeur hérité
@@ -106,7 +106,7 @@ Vous avez la possibilité d’utiliser les détails de la planification du class
 
    ![Capture d’écran des options des paramètres de planning hérités de [!DNL Excel] Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
-   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [ Envoyer le classeur ](schedule-reportbuilder.md#schedule-a-workbook).
+   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [&#x200B; Envoyer le classeur &#x200B;](schedule-reportbuilder.md#schedule-a-workbook).
    * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
    * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
