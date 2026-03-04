@@ -3,23 +3,32 @@ title: Gestion des flux de données
 description: Découvrez comment naviguer dans l’interface du flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1310'
 ht-degree: 15%
 
 ---
 
-# Gestion des flux de données
+# Gestion des flux de données {#manage-data-feeds}
 
 Le gestionnaire des flux de données vous permet de créer, de modifier et de supprimer des flux de données pour votre entreprise. Si vous disposez d’autorisations pour accéder au gestionnaire des flux de données, vous pouvez gérer les flux de données pour toutes les suites de rapports qui s’affichent.
 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Gestion des flux de données"
+>abstract="Vous pouvez afficher, créer et gérer des flux de données à partir de cette page. Recherchez des flux par nom ou ID ou sélectionnez l’icône de filtre pour afficher les filtres disponibles."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## Affichage des flux de données
@@ -62,7 +71,7 @@ Le bouton **[!UICONTROL Créer un flux de données]** vous permet de créer un f
 
 1. Utilisez la recherche ou les filtres pour localiser un flux spécifique.
 
-   * Dans le champ de recherche, commencez à saisir le nom d’un flux. Seuls les flux qui correspondent s’affichent dans la liste des flux disponibles.
+   * Dans le champ de recherche, commencez à saisir le nom ou l’identifiant d’un flux. Seuls les flux qui correspondent s’affichent dans la liste des flux disponibles.
 
      ![Recherche](assets/search.png)
 
@@ -164,7 +173,7 @@ Pour ajuster les colonnes visibles du tableau :
       * Supprimé : le flux est supprimé.
       * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
       * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
+      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
    * **Dernière modification** : date de la dernière modification du flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de début** : date du premier traitement de ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de fin** : date du dernier traitement de ce flux. Les flux de données continus ne possèdent pas de date de fin.

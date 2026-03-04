@@ -3,18 +3,27 @@ title: Gestion des tâches relatives aux flux de données
 description: Découvrez comment gérer les tâches individuelles dans les flux de données. Naviguez dans l’interface, utilisez des filtres et des recherches, et recherchez des définitions de colonne.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 8%
 
 ---
 
-# Gestion des tâches relatives aux flux de données
+# Gestion des tâches relatives aux flux de données {#manage-data-feed-jobs}
 
 Les tâches sont des tâches individuelles qui génèrent un fichier compressé. Elles sont créées et régies par des flux.
 
 Vous pouvez afficher l’historique des tâches pour chaque flux de données, renvoyer des tâches ou retraiter des tâches.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="Historique des tâches de flux de données"
+>abstract="Vous pouvez afficher une liste des tâches liées aux flux de données pour un flux de données donné à partir de cette page. Recherchez des traitements par ID de traitement ou par date de début de la période de traitement. Les informations sur chaque traitement s’affichent dans les colonnes disponibles. Vous pouvez également renvoyer une tâche avec les mêmes données ou retraiter les données source d’une tâche avant de la renvoyer."
+
+<!-- markdownlint-enable MD034 -->
 
 ## Affichage de l’historique des tâches d’un flux de données
 
@@ -68,19 +77,23 @@ Pour renvoyer une ou plusieurs tâches de flux de données :
 
 1. Cochez la case en regard du flux de données contenant les tâches à envoyer à nouveau, puis sélectionnez [!UICONTROL **Historique des tâches**].
 
+1. (Facultatif) Dans le champ de recherche, effectuez une recherche par ID de requête ou par date de début de la période de requête pour rechercher la liste des tâches liées aux flux de données.
+
 1. Cochez la case en regard d’une ou de plusieurs tâches de flux de données, puis sélectionnez **[!UICONTROL Renvoyer]**. <!-- What does the status need to be? Error, ... -->
 
    ![Retraitement de la tâche de flux de données](assets/data-feed-job-resend.png)
 
 ## Retraitement des tâches de flux de données
 
-Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [&#x200B; renvoyer une tâche de flux de données &#x200B;](#resend-data-feed-jobs).
+Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [ renvoyer une tâche de flux de données ](#resend-data-feed-jobs).
 
 Pour retraiter une ou plusieurs tâches de flux de données :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Admin**] > [!UICONTROL **Flux de données**].
 
 1. Cochez la case en regard du flux de données contenant les tâches à retraiter, puis sélectionnez [!UICONTROL **Historique des tâches**].
+
+1. (Facultatif) Dans le champ de recherche, effectuez une recherche par ID de requête ou par date de début de la période de requête pour rechercher la liste des tâches liées aux flux de données.
 
 1. Cochez la case en regard d’une ou de plusieurs tâches de flux de données, puis sélectionnez **[!UICONTROL Retraiter]**. <!-- What does the status need to be? Error, ... -->
 
