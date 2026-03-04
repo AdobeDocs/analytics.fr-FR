@@ -4,10 +4,10 @@ title: Filtrer Et Trier
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e288365f2c984b64ae8c16ce023a7a0357a0e2b7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '1577'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -151,8 +151,6 @@ Pour trier les données des tableaux selon une seule colonne :
 
 ## Trier des tableaux sur plusieurs colonnes (tri avancé)
 
-{{release-limited-testing-section}}
-
 ### Appliquer le tri à plusieurs colonnes
 
 Pour trier les données des tableaux en fonction de plusieurs colonnes :
@@ -163,7 +161,7 @@ Pour trier les données des tableaux en fonction de plusieurs colonnes :
 
 1. Sélectionnez **[!UICONTROL Tri avancé]**.
 
-   ![&#x200B; Boîte de dialogue Tri avancé &#x200B;](assets/sort-advanced-dialog.png)
+   ![ Boîte de dialogue Tri avancé ](assets/sort-advanced-dialog.png)
 
 1. Dans la boîte de dialogue Tri avancé , effectuez l’une des opérations suivantes :
 
@@ -187,7 +185,7 @@ L’icône de tri reste visible lorsque le tri est appliqué à une colonne. Une
 
 ### Priorité de tri
 
-Lorsque vous triez des données pour plusieurs colonnes, les données sont triées en fonction de la priorité que vous attribuez à chaque colonne. La numérotation de priorité s’affiche en regard de l’icône de tri ![icône de priorité de tri](assets/sort-priority-icon.png).
+Lorsque vous triez des données sur plusieurs colonnes, les données sont triées en fonction de la priorité que vous attribuez à chaque colonne. La numérotation de priorité s’affiche en regard de l’icône de tri ![icône de priorité de tri](assets/sort-priority-icon.png).
 
 La colonne ayant la priorité principale détermine l&#39;ordre principal ; la colonne ayant la priorité secondaire détermine l&#39;ordre dans lequel les lignes ont la même valeur dans la colonne principale ; la colonne ayant la priorité tertiaire détermine l&#39;ordre dans lequel les lignes ont la même valeur dans les colonnes principale et secondaire ; et ainsi de suite.
 

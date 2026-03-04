@@ -4,7 +4,7 @@ description: Découvrez les composants proposés par Adobe Analytics et comment
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 100%
@@ -110,8 +110,6 @@ Vous pouvez rechercher, filtrer et trier la liste des composants dans le panneau
 4. Vous pouvez éventuellement trier la liste des composants, comme décrit dans [Trier la liste des composants](#sort-the-component-list).
 
 ### Tri
-
-<!-- {{release-limited-testing-section}}-->
 
 1. (Facultatif) Appliquez des filtres à la liste des composants, comme décrit dans la section [Filtrer la liste des composants](#filter-the-component-list).
 
