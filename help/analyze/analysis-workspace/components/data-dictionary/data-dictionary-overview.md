@@ -69,7 +69,7 @@ Les administrateurs et administratrices d’Analytics peuvent utiliser le dictio
 
   De même, toutes les mises à jour apportées aux descriptions des composants dans la suite de rapports sont répercutées dans Analysis Workspace.
 
-  Pour plus d’informations sur l’ajout de descriptions de composant dans Analysis Workspace ou dans une suite de rapports, voir [ Ajouter des descriptions de composant ](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+  Pour plus d’informations sur l’ajout de descriptions de composant dans Analysis Workspace ou dans une suite de rapports, voir [&#x200B; Ajouter des descriptions de composant &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
 
 ## Accéder au dictionnaire de données
 
