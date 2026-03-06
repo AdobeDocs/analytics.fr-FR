@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c4734f9e51b257192c8e5e2493816266b3bc387f
+source-git-commit: 761ee1993296cab3c29f706d6e1c79bb08b46303
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6654'
 ht-degree: 98%
 
 ---
@@ -25,10 +25,12 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Mars 2026** | |
+| Identification de l’option par défaut pour l’obscurcissement des adresses IP pour les nouvelles suites de rapports | Ajout d’informations indiquant que **Supprimer l’adresse IP** est l’option par défaut [obscurcissement d’adresse IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) pour les nouvelles suites de rapports. |
 | **Février 2026** |  |
 | Ajout d’informations sur l’utilisation des rapports géographiques et technologiques | Ajout d’informations sur les différences lors de l’utilisation de rapports géographiques et technologiques [dans divers produits Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Janvier 2026** | |
-| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [&#x200B; Créateur de règles dans les ensembles de classifications &#x200B;](/help/components/classifications/sets/manage/rules.md). |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
 | Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
