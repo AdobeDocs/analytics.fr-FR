@@ -17,7 +17,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->Le graphique d’appareil dans les analyses entre appareils est [obsolète](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) et ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
+>Le graphique d’appareil dans les analyses entre appareils est [obsolète](https://experienceleague.adobe.com/fr/docs/discontinued/using/device-graph) et ne sera plus disponible à compter du **31 décembre 2025**. Veuillez basculer n’importe quelle suite de rapports virtuelle actuellement activée pour les graphiques d’appareils vers la méthode [&#x200B; basée sur les champs](/help/components/cda/field-based-stitching.md).
 >
 
 
