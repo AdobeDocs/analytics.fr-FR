@@ -6,13 +6,13 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
 # Recherches dynamiques
 
-Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données qui ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
+Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données qui ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :
 
 * **Nom de l’opérateur** : fournit un contexte supplémentaire pour la colonne `carrier`. Le nom de fichier inclus est `carrier.tsv`.
 * **Attributs mobiles** : fournit un contexte supplémentaire pour la colonne `mobile_id`, y compris toutes les fonctionnalités suivies pour chaque appareil mobile. Le nom de fichier inclus est `mobile_attributes.tsv`.
@@ -25,7 +25,7 @@ Les recherches dynamiques vous permettent de recevoir des fichiers de recherche 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Activer les recherches dynamiques"
->abstract="Sélectionnez cette option pour recevoir des fichiers de recherche supplémentaires dans votre flux de données, car ils ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :<ul><li>Nom de l’opérateur</li><li>Attributs mobiles</li><li>Type de système d’exploitation</li></ul>"
+>abstract="Sélectionnez cette option pour recevoir des fichiers de recherche supplémentaires dans votre flux de données, car ils ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :<ul><li>Nom de l’opérateur</li><li>Attributs mobiles</li><li>Type de système d’exploitation</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

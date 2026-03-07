@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '983'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 1%
 
 Une consolidation d’ensembles de classifications vous permet de prendre des classifications provenant de plusieurs ensembles de classifications et de les combiner en un seul. Utilisez cette interface pour créer une consolidation d’ensemble de classifications du début à la fin. Cette interface est particulièrement utile pour les organisations qui passent des classifications héritées aux ensembles de classifications. Les organisations qui utilisent déjà des ensembles de classifications n’ont pas besoin d’utiliser ce workflow de consolidation.
 
-## Création d’une consolidation {#create-a-consolidation}
+## Créer une consolidation {#create-a-consolidation}
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
->title="Priorité du jeu de classifications"
->abstract="Le ![Clé](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *ensemble de classifications* est l’ensemble de classifications de base et définit le schéma global ; il est prioritaire dans tous les conflits de fusion. Les autres ensembles de classifications sont appliqués dans l’ordre de haut en bas."
+>title="Priorité du jeu de classification"
+>abstract="Le *jeu de classification* ![Clé](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) est le jeu de classification de base et définit le schéma global. Il est prioritaire dans tous les conflits de fusion. Les autres jeux de classifications sont appliqués dans l’ordre de haut en bas."
 
 
 Pour créer une consolidation des classifications, dans l’interface principale d’Adobe Analytics :
@@ -56,24 +56,24 @@ Après avoir créé une consolidation, les étapes suivantes sont les suivantes 
 
 
 
-## Modification d’une consolidation {#edit-a-classification}
+## Modifier une consolidation {#edit-a-classification}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Discordance"
->abstract="Pourcentage d’incohérences clés lorsque la valeur de l’ensemble de classifications consolidé ne correspond pas à l’ensemble de classifications source."
+>abstract="Pourcentage d’incohérences de clés lorsque la valeur du jeu de classification consolidé ne correspond pas au jeu de classification source."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="Absent"
->abstract="Le pourcentage de clés dans l’ensemble de classifications consolidé, mais pas dans l’ensemble de classifications source."
+>abstract="Pourcentage de clés dans le jeu de classification consolidé, mais pas dans le jeu de classification source."
 
 Pour modifier une consolidation de classification, dans l’interface principale d’Adobe Analytics :
 
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|

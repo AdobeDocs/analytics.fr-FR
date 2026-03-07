@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 21%
+ht-degree: 41%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 21%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Autoriser les accès en retard"
->abstract="Sélectionnez cette option pour inclure les données arrivées une fois que la tâche de flux de données a terminé le traitement des données dans la fréquence de création de rapports définie (généralement quotidienne ou horaire). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il examine les accès tardifs arrivés et les transfère par lots avec le fichier de flux de données suivant envoyé."
+>title="Autoriser les accès tardifs"
+>abstract="Sélectionnez cette option pour inclure les données arrivées après la fin du traitement des données par le traitement de flux de données dans la fréquence de création de rapports définie (généralement par semaine ou par heure). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des accès tardifs et les regroupe dans le fichier de flux de données suivant envoyé."
 
 <!-- markdownlint-enable MD034 -->
 

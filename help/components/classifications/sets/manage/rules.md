@@ -6,7 +6,7 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 13%
+ht-degree: 15%
 
 ---
 
@@ -48,12 +48,12 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
 
 
 
-## Interface de l’ensemble de règles {#rule-set-interface}
+## Interface du jeu de règles {#rule-set-interface}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"
 >title="Exemples de clés"
->abstract="Saisissez ou collez des clés de test pour tester l’ensemble de règles. Chaque ligne est une valeur de clé distincte. Sélectionnez **[!UICONTROL Tester l’ensemble de règles]** pour afficher une boîte de dialogue avec les résultats."
+>abstract="Saisissez ou collez des clés de test pour tester le jeu de règles. Chaque ligne est une valeur de clé distincte. Sélectionnez **[!UICONTROL Tester le jeu de règles]** pour afficher une boîte de dialogue avec les résultats."
 
 
 Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles .
@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -315,7 +315,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
