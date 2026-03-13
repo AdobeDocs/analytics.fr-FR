@@ -3,7 +3,7 @@ description: Découvrez comment utiliser des fonctions pour filtrer et trier vos
 title: Utilisation des fonctions
 feature: Calculated Metrics
 exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 20%
@@ -20,6 +20,7 @@ Pour obtenir la liste de toutes les fonctions, reportez-vous aux sections [Fonct
 >
 >Lors de l’inclusion de fonctions dans une formule de mesures calculées, appliquez toujours la fonction avant de faire glisser des mesures ou des segments.
 
-<!-- OUTDATED VIDEO 
+<!--
+OUTDATED VIDEO 
 Watch this [video](https://youtu.be/SSyWvomnewI) to understand the use of functions.
 -->

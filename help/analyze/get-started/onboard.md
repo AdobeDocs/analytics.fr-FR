@@ -3,7 +3,8 @@ title: Intégration d’Adobe Analytics
 description: Bienvenue dans la série d’intégration de l’expérience digitale Adobe Analytics ! Intégrez les principales plateformes Adobe qui prennent en charge Adobe Analytics afin de vous aider, vous et votre entreprise, à réussir.
 role: Admin
 feature: Analytics Basics
-source-git-commit: 2c614ec00f9e79a392e677fbcbccc25116d8e880
+exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 9%
@@ -20,14 +21,15 @@ Votre Parcours Adobe Analytics commence par l’intégration des configurations 
 
 Regardez les vidéos suivantes pour terminer votre parcours d’intégration à partir de Adobe Admin Console pour la configuration des utilisateurs et des accès à Adobe Experience League pour la documentation et l’assistance, et enfin, à Adobe Analytics lui-même.
 
-<!-- CARDS
+<!--
+CARDS
 
 * ./onboard.md
   {title = Adobe Experience League}
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476886/?captions=fre_fr&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -57,6 +59,7 @@ Regardez les vidéos suivantes pour terminer votre parcours d’intégration à 
   {url = #adobe-analytics}
   {image = https://video.tv.adobe.com/v/3476772/?format=jpeg&nocache=1763486440891}
 -->
+
 <!-- START CARDS HTML - DO NOT MODIFY BY HAND -->
 <div class="columns">
     <div class="column is-half-tablet is-half-desktop is-one-third-widescreen" aria-label="Adobe Experience League">
@@ -64,7 +67,7 @@ Regardez les vidéos suivantes pour terminer votre parcours d’intégration à 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476886/?captions=fre_fr&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,9 +183,9 @@ Regardez les vidéos suivantes pour terminer votre parcours d’intégration à 
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476886/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Intégrez [Adobe Experience League](https://experienceleague.adobe.com/fr?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
+Intégrez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
 
 
 ## Adobe Admin Console
@@ -201,7 +204,7 @@ Intégrez la [gestion des utilisateurs de Adobe Admin Console](https://admincons
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home?lang=fr#support).
+Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -214,7 +217,7 @@ Votre Parcours Adobe Analytics commence par l’intégration des configurations 
 
 Une fois l’intégration à Adobe Analytics et à ses plateformes associées terminée, envisagez d’explorer les ressources suivantes pour approfondir votre compréhension et améliorer vos compétences :
 
-1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentation Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics)
 4. [Tutoriels et vidéos Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview)

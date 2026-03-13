@@ -5,7 +5,7 @@ title: 'Gestion des utilisateurs et utilisatrices et des produits '
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
@@ -28,7 +28,7 @@ Gérez des utilisateurs, des groupes et des produits Analytics dans Adobe Admin 
 | Lancement d’Adobe Admin Console | Une fois les comptes d’utilisateurs migrés, vous pouvez gérer les utilisateurs et les produits de toutes les solutions dans Adobe Admin Console. Accédez à : `https://adminconsole.adobe.com/enterprise/`. Reportez-vous également à la section [Gestion des utilisateurs et des produits Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr). |
 | Gestion des profils de produit, des utilisateurs et des autorisations Adobe Analytics | Reportez-vous à la section [Analytics dans Adobe Admin Console](/help/admin/admin-console/home.md). |
 
-<!---
+<!--
 ## User Management Descriptions {#section_7C19842A3D4249109A9399D4DF18DE75}
 
 The following table describes elements on the [!UICONTROL Users] tab in [!UICONTROL User Management].

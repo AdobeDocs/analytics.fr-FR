@@ -4,7 +4,7 @@ title: Suites de rapports globales
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 95%
@@ -27,13 +27,14 @@ Vous pouvez fournir des sous-ensembles de données de la suite de rapports globa
 
   Un appel serveur distinct est effectué à chaque suite de rapports dans la demande d’image. Les appels aux suites de rapports enfants sont des deuxièmes appels.
 
-* **Suite de rapports virtuelle** : une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) est une demande portant sur des segments spécifiques, collectés dans une suite de rapports globale, et disponible pour des groupes d’utilisateurs choisis. Les suites de rapports virtuelles vous permettent de traiter des éléments de rapport pour différents utilisateurs finaux, sans utiliser le balisage multisuite, ce qui permet d’éviter les deuxièmes appels serveurs.
+* **Suite de rapports virtuelle** : une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) est une requête portant sur des segments spécifiques, collectés dans une suite de rapports globale, et disponible pour des groupes d’utilisateurs et d’utilisatrices spécifiés. Les suites de rapports virtuelles vous permettent de traiter des éléments de rapport pour différents utilisateurs finaux, sans utiliser le balisage multisuite, ce qui permet d’éviter les deuxièmes appels serveurs.
 
   Pour utiliser les suites de rapports virtuelles, commencez par implémenter une suite de rapports globale, puis analysez les données afin de créer des suites de rapports virtuelles, en appliquent des segments et des autorisations de groupe spécifiques. Vous pouvez créer des suites de rapports virtuelles dans le gestionnaire de suites de rapports virtuelles ([!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]). Pour plus dʼinformations, consultez la section « [Worflow Suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) ».
 
 L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour une comparaison détaillée des suites de rapports virtuelles et de la fonctionnalité de balisage multisuite, reportez-vous à la section [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md).
 
-<!---## Rollup reports
+<!--
+## Rollup reports
 
 >[!NOTE]
 >
@@ -73,4 +74,4 @@ Limitations of Rollup Reports {#limitations-rollups}
 
 **Supported products**: Rollups could only be used in Reports & Analytics. They are not supported in Analysis Workspace, or Data Warehouse. Global report suites can be used across all products.
 
-**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.--->
+**Number of aggregated report suites**: Rollups only support a maximum of 40 child report suites. Global report suites can be implemented on any number of domains or apps that you own.-->
