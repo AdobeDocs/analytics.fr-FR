@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 5%
 
 ---
 
@@ -29,14 +29,19 @@ Vous pouvez afficher et gérer tous les classeurs planifiés dans l’onglet **[
 
 1. Sélectionnez **[!UICONTROL Planifier]** dans le hub Report Builder
 
-1. Sélectionnez l’onglet **[!UICONTROL Classeurs]**. La liste de tous les classeurs planifiés s’affiche.
+1. Sélectionnez l’onglet **[!UICONTROL Classeurs]**. La liste de tous les classeurs planifiés s’affiche. (Vous pouvez également sélectionner l’onglet **[!UICONTROL Hérité]** pour afficher la liste des classeurs hérités qui doivent être migrés vers le nouveau Report Builder.)
 
    ![Classeur planifié](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   Vous pouvez placer le pointeur de la souris sur l’icône pour afficher le statut d’un classeur planifié.
+1. Effectuez l’une des opérations suivantes :
 
-   Utilisez ![Rechercher](/help/assets/icons/Search.svg) pour rechercher des classeurs planifiés spécifiques.
-Utilisez ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour définir les colonnes à afficher.
+   * Pointez sur l’icône pour afficher le statut d’un classeur planifié.
+
+   * Dans le champ de recherche ![Rechercher](/help/assets/icons/Search.svg), recherchez des classeurs planifiés spécifiques.
+
+   * Sélectionnez l’icône de colonne ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour définir les colonnes à afficher.
+
+   * Sélectionnez l’icône de filtre ![icône de filtre](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), puis sélectionnez [!UICONTROL **Tout afficher**] pour afficher tous les classeurs planifiés pour une organisation donnée.
 
 1. Sélectionnez un ou plusieurs classeurs.
 
