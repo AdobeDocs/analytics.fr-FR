@@ -27,7 +27,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 Le 2 mars 2023, des indications du client ont été intégrées au processus de recherche d’appareils Analytics. Cette modification s’applique à la fois aux implémentations AppMeasurement et Web SDK.
 
-Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 ## Questions fréquentes
 
@@ -155,7 +155,7 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?** 
 
-Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++
 
