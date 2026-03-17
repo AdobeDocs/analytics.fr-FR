@@ -25,7 +25,7 @@ La page de destination d’Adobe Analytics comprend les sous-onglets suivants :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
