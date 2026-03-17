@@ -4,10 +4,10 @@ description: Découvrez comment les indications du client remplaceront progressi
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 83%
+source-wordcount: '1147'
+ht-degree: 77%
 
 ---
 
@@ -25,13 +25,9 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 À compter d’octobre 2022, les nouvelles versions des navigateurs Chromium ont commencé à « figer » la version du système d’exploitation représentée dans la chaîne Agent-utilisateur. La version du système d’exploitation est une indication à entropie élevée. Pour garantir la précision de la version du système d’exploitation dans vos rapports, il est donc nécessaire de configurer votre bibliothèque de collections pour collecter ces indications à entropie élevée. Au fil du temps, d’autres informations sur les appareils de la chaîne Agent-utilisateur seront figées, nécessitant alors des indications du client pour maintenir la précision des rapports sur les appareils.
 
-Les indications du client seront intégrées au processus de recherche d’appareils Analytics à partir du 27 février 2023 et jusqu’au 2 mars 2023. AppMeasurement et le SDK Web prennent actuellement en charge la collecte de données relatives aux indications, mais ils ne seront pas utilisés dans la recherche d’appareils avant la mi-février. Comme indiqué ci-dessous, la version du système d’exploitation a été figée à partir du mois d’octobre, mais en raison d’un déploiement progressif et de la mise à disposition d’une version figée du système d’exploitation par de nombreux agents utilisateurs (plus d’informations [ici](/help/components/dimensions/operating-systems.md)), nous estimons que cela affectera moins de 3 % des visiteurs Chrome.
+Le 2 mars 2023, des indications du client ont été intégrées au processus de recherche d’appareils Analytics. Cette modification s’applique à la fois aux implémentations AppMeasurement et Web SDK.
 
->[!NOTE]
->
-> Depuis janvier 2023, certaines versions des systèmes d’exploitation Mac et Windows sont incorrectement représentées dans l’agent utilisateur, mais correctement représentées dans les indications du client à entropie élevée. Consultez [Système d’exploitation](/help/components/dimensions/operating-systems.md) pour plus d’informations.
-
-Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 ## Questions fréquentes
 
@@ -159,6 +155,13 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?** 
 
-Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++
+
++++**Pourquoi un numéro de version de navigateur 999.99 s’affiche-t-il ?**
+
+Les clients effectuent parfois des tests avec des numéros de version de navigateur ou de système d’exploitation d’appareil non valides, qui peuvent être n’importe quel nombre supérieur à 100 000. Pour éviter un grand nombre de numéros de version de navigateur ou de système d’exploitation d’appareil non valides un jour donné, tous les numéros de version supérieurs à 100 000 sont regroupés et épinglés dans le numéro de version 999.99.
+
++++
+
