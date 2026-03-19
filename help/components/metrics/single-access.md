@@ -23,14 +23,14 @@ La définition de cette mesure dépend du paramètre du projet [[!UICONTROL Comp
 
 Quel que soit « [!UICONTROL Compter les instances répétées] », la visite n’est plus qualifiée d’accès unique si la dimension passe à une seconde valeur unique. Les appels de suivi des liens sont inclus dans ce calcul si la dimension y est définie.
 
-## Différence entre « [!UICONTROL  Accès unique ] » et « [!UICONTROL  Visite sur une seule page ] »
+## Différence entre « [!UICONTROL &#x200B; Accès unique &#x200B;] » et « [!UICONTROL &#x200B; Visite sur une seule page &#x200B;] »
 
 Dans le contexte de la dimension [[!UICONTROL Page]](../dimensions/page.md), « [!UICONTROL Accès unique] » et « [!UICONTROL Visites sur une seule page] » sont toujours exactement identiques, quel que soit le paramètre du projet « [!UICONTROL Compter les instances répétées] ». Des différences apparaissent lorsque vous utilisez d’autres dimensions.
 
 * **[!UICONTROL Accès unique]** : affiche le nombre de visites pour lesquelles l’élément de dimension donné était présent pour un seul accès. Il est lié à la dimension que vous utilisez dans votre projet.
 * **[!UICONTROL Visite sur une seule page]** : affiche le nombre de visites pour lesquelles la dimension « [!UICONTROL Page] » était présente pour un seul accès. Même si vous utilisez une autre dimension dans votre rapport, celle-ci comptabilise toujours les visites qui contiennent un seul élément de dimension « [!UICONTROL Page] » unique.
 
-Si l’option [[!UICONTROL  Compter les instances répétées ]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) est désactivée, les définitions de mesures changent légèrement :
+Si l’option [[!UICONTROL &#x200B; Compter les instances répétées &#x200B;]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) est désactivée, les définitions de mesures changent légèrement :
 
 * **Accès unique** : affiche le nombre de visites pour lesquelles l’élément de dimension donné n’a pas été modifié pour l’ensemble de la visite.
 * **Visite sur une seule page** : indique le nombre de visites pour lesquelles la dimension « [!UICONTROL Page] » n’a pas été modifiée pour l’ensemble de la visite.

@@ -137,26 +137,26 @@ Lors de l’activation de l’intégration [Analytics pour Advertising](https://
 
 | Classification | Description | DSP | Recherche,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Compte]** | Nom du compte. | &amp;check; | &amp;check; |
-| **[!UICONTROL URL d’affichage de l’annonce]** | URL affichée dans la publicité. | | &amp;check; |
-| **[!UICONTROL Description de l’annonce]** | Description de l’annonce publicitaire (DSP) ou corps de l’annonce publicitaire (Search, Social et Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Ajouter une URL de destination]** | URL de destination de la publicité. | | &amp;check; |
-| **[!UICONTROL Groupe publicitaire]** | Nom du groupe publicitaire. | | &amp;check; |
-| **[!UICONTROL Plateforme publicitaire]** | DSP publicitaire ou nom du moteur de recherche. | &amp;check; | &amp;check; |
-| **[!UICONTROL Titre de la publicité]** | Type d’annonce (DSP) ou titre de l’annonce (Search, Social et Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Type d’annonce]** | Type d’annonce, tel que `text`, `video`, `display` ou `native`. | &amp;check; | &amp;check; |
-| **[!UICONTROL Attribut AdCloud 1]** -<br>**[!UICONTROL Attribut AdCloud 5 ]** | Classifications d’espaces réservés réservées aux futurs attributs personnalisés. Actuellement inutilisé. | | |
-| **[!UICONTROL Campagne]** | Nom de la campagne. | &amp;check; | &amp;check; |
-| **[!UICONTROL Nom d’expérience Creative]** | Nom de l’expérience créative associée à l’interaction publicitaire, représentant un groupe de variations créatives utilisées dans les tests ou la personnalisation. | &amp;check; | |
-| **[!UICONTROL Nom de la branche Creative]** | Nom de la branche dans une expérience de création qui représente une variation ou un chemin spécifique dans l’expérience de création. | &amp;check; | |
-| **[!UICONTROL ID de branche Creative]** | Identifiant unique attribué à une branche de création dans une expérience de création. | &amp;check; | |
-| **[!UICONTROL Nom du Creative]** | Nom de la ressource publicitaire spécifique qui a été diffusée à l’utilisateur. | &amp;check; | |
-| **[!UICONTROL Nom De Variante Creative]** | Nom de la variante spécifique d’un contenu créatif utilisé dans une expérience créative ou une branche. | &amp;check; | |
-| **[!UICONTROL Mot-clé]** | Le mot-clé . | | &amp;check; |
-| **[!UICONTROL Type de correspondance de mot-clé]** | Le mot-clé et le type de correspondance. | | &amp;check; |
-| **[!UICONTROL Type d’atterrissage]** | Indique si l’entrée de la page de destination était une vue publicitaire ou un clic publicitaire. | &amp;check; | &amp;check; |
-| **[!UICONTROL Type de correspondance]** | Type de correspondance de recherche. | | &amp;check; |
-| **[!UICONTROL Réseau]** | RTB (DSP) ou le nom du réseau publicitaire (Search, Social et Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Optimisation]** : | Nom du package (DSP) ou nom du portfolio (Search, Social et Commerce). | &amp;check; | &amp;check; |
-| **[!UICONTROL Placement]** | Nom de l’emplacement. | &amp;check; | |
-| **[!UICONTROL Cible du produit]** | Cible de produit d’une annonce publicitaire dans une liste de produits. | | &amp;check; |
+| **[!UICONTROL Compte]** | Nom du compte. | &check; | &check; |
+| **[!UICONTROL URL d’affichage de l’annonce]** | URL affichée dans la publicité. | | &check; |
+| **[!UICONTROL Description de l’annonce]** | Description de l’annonce publicitaire (DSP) ou corps de l’annonce publicitaire (Search, Social et Commerce). | &check; | &check; |
+| **[!UICONTROL Ajouter une URL de destination]** | URL de destination de la publicité. | | &check; |
+| **[!UICONTROL Groupe publicitaire]** | Nom du groupe publicitaire. | | &check; |
+| **[!UICONTROL Plateforme publicitaire]** | DSP publicitaire ou nom du moteur de recherche. | &check; | &check; |
+| **[!UICONTROL Titre de la publicité]** | Type d’annonce (DSP) ou titre de l’annonce (Search, Social et Commerce). | &check; | &check; |
+| **[!UICONTROL Type d’annonce]** | Type d’annonce, tel que `text`, `video`, `display` ou `native`. | &check; | &check; |
+| **[!UICONTROL Attribut AdCloud 1]** -<br>**[!UICONTROL Attribut AdCloud 5 &#x200B;]** | Classifications d’espaces réservés réservées aux futurs attributs personnalisés. Actuellement inutilisé. | | |
+| **[!UICONTROL Campagne]** | Nom de la campagne. | &check; | &check; |
+| **[!UICONTROL Nom d’expérience Creative]** | Nom de l’expérience créative associée à l’interaction publicitaire, représentant un groupe de variations créatives utilisées dans les tests ou la personnalisation. | &check; | |
+| **[!UICONTROL Nom de la branche Creative]** | Nom de la branche dans une expérience de création qui représente une variation ou un chemin spécifique dans l’expérience de création. | &check; | |
+| **[!UICONTROL ID de branche Creative]** | Identifiant unique attribué à une branche de création dans une expérience de création. | &check; | |
+| **[!UICONTROL Nom du Creative]** | Nom de la ressource publicitaire spécifique qui a été diffusée à l’utilisateur. | &check; | |
+| **[!UICONTROL Nom De Variante Creative]** | Nom de la variante spécifique d’un contenu créatif utilisé dans une expérience créative ou une branche. | &check; | |
+| **[!UICONTROL Mot-clé]** | Le mot-clé . | | &check; |
+| **[!UICONTROL Type de correspondance de mot-clé]** | Le mot-clé et le type de correspondance. | | &check; |
+| **[!UICONTROL Type d’atterrissage]** | Indique si l’entrée de la page de destination était une vue publicitaire ou un clic publicitaire. | &check; | &check; |
+| **[!UICONTROL Type de correspondance]** | Type de correspondance de recherche. | | &check; |
+| **[!UICONTROL Réseau]** | RTB (DSP) ou le nom du réseau publicitaire (Search, Social et Commerce). | &check; | &check; |
+| **[!UICONTROL Optimisation]** : | Nom du package (DSP) ou nom du portfolio (Search, Social et Commerce). | &check; | &check; |
+| **[!UICONTROL Placement]** | Nom de l’emplacement. | &check; | |
+| **[!UICONTROL Cible du produit]** | Cible de produit d’une annonce publicitaire dans une liste de produits. | | &check; |

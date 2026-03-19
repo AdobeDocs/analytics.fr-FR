@@ -51,7 +51,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`clickmapregion`** | La dimension [Région Activity Map](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | Version du SDK client ou de l’API utilisée pour compiler et envoyer la demande d’image. | char(16) |
 | | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
-| | **`connection_type`** | Identifiant numérique représentant la dimension [ Type de connexion ](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
+| | **`connection_type`** | Identifiant numérique représentant la dimension [&#x200B; Type de connexion &#x200B;](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`post_`** | **`cookies`** | La dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md).<br>Y : activé<br>N : désactivé<br>U : inconnu | char(1) |
 | | **`country`** | Identifiant numérique qui représente le pays du visiteur ou de la visiteuse. Fait référence à la table de recherche `country.tsv`. | smallint sans signe |
 | **`post_`** | **`currency`** | Le code de devise qui a été utilisé pendant la transaction. Définissez avec [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
@@ -247,7 +247,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | | **`visit_ref_type`** | Identifiant numérique, représentant le type de référent du tout premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
-| | **`visit_start_pagename`** | [ Page ](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
+| | **`visit_start_pagename`** | [&#x200B; Page &#x200B;](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
 | | **`visit_start_page_url`** | URL du premier accès de la visite. | varchar(255) |
 | | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier accès de la visite. | int |
 | | **`weekly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |
