@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 761ee1993296cab3c29f706d6e1c79bb08b46303
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 98%
+source-wordcount: '6679'
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,13 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Mars 2026** | |
 | Identification de l’option par défaut pour l’obscurcissement des adresses IP pour les nouvelles suites de rapports | Ajout d’informations indiquant que **Supprimer l’adresse IP** est l’option par défaut [obscurcissement d’adresse IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) pour les nouvelles suites de rapports. |
+| Révision de l’ordre de traitement | Améliorations significatives de l’[ordre de traitement dans Adobe Analytics](/help/technotes/processing-order.md). |
+| Intégration d’Adobe Advertising | Ajouts de dimensions et de mesures d’intégration Adobe Advertising, y compris l’[AMO ID](/help/components/dimensions/amo-id.md). |
 | **Février 2026** |  |
 | Ajout d’informations sur l’utilisation des rapports géographiques et technologiques | Ajout d’informations sur les différences lors de l’utilisation de rapports géographiques et technologiques [dans divers produits Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Janvier 2026** | |
-| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [&#x200B; Créateur de règles dans les ensembles de classifications &#x200B;](/help/components/classifications/sets/manage/rules.md). |
-| Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/fr/docs/discontinued/using/device-graph). |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
+| Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -248,7 +250,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 18 août 2021 | Révision de la structure de premier niveau et consolidation en une [Page de destination](https://experienceleague.adobe.com/docs/analytics.html?lang=fr) unique. |
 | 18 août 2021 | Nouvelle section sur [A4T et les suites de rapports virtuelles](/help/components/vrs/vrs-a4t.md) |
 | 18 août 2021 | Nouvelle section sur les [Bonnes pratiques en matière dʼattribution](/help/analyze/analysis-workspace/attribution/best-practices.md) |
-| 5 août 2021 | Nouvelle rubrique sur [Compter les instances répétées](/help/components/metrics/count-repeat-instances.md). |
+| 5 août 2021 | Nouvelle rubrique sur Compter les instances répétées . |
 | 5 août 2021 | Mise à jour de la documentation sur les classifications au sujet des [modèles](/help/components/classifications/importer/c-download-saint-data.md), de l’[importation du navigateur](/help/components/classifications/importer/browser-import.md) et de l’[exportation du navigateur](/help/components/classifications/importer/browser-export.md) afin d’indiquer les options non disponibles pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de nom d’[Adobe Experience Platform Launch](/help/implement/launch/overview.md). |
 | **Juillet 2021** |  |

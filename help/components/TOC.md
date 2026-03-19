@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 99%
+source-wordcount: '745'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 99%
    + [Région d’Activity Map](dimensions/activity-map-region.md)
    + [Consentement pour la plateforme publicitaire](dimensions/ad-consent.md)
    + [Classement de toutes les pages de recherche](dimensions/all-search-page-rank.md)
+   + [ID AMO](dimensions/amo-id.md)
+   + [AMO EF ID](dimensions/amo-ef-id.md)
+   + [ID de clic des méta-publicités AMO](dimensions/amo-meta-id.md)
    + [Matin/après-midi](dimensions/am-pm.md)
    + [Nom du robot](dimensions/bot-name.md)
    + [Hauteur du navigateur](dimensions/browser-height.md)
@@ -62,7 +65,7 @@ ht-degree: 99%
    + [Profondeur d’accès](dimensions/hit-depth.md)
    + [Type d’accès](dimensions/hit-type.md)
    + [Heure de la journée](dimensions/hour-of-day.md)
-   + [Heure &#x200B;](dimensions/hour.md)
+   + [Heure ](dimensions/hour.md)
    + [État identifié](dimensions/identified-state.md)
    + [Compatible Java](dimensions/java-enabled.md)
    + [Langue](dimensions/language.md)
@@ -120,7 +123,7 @@ ht-degree: 99%
    + [Code postal](dimensions/zip-code.md)
 + Mesures {#metrics}
    + [Vue d’ensemble des mesures](metrics/overview.md)
-   + [Compter les instances répétées](metrics/count-repeat-instances.md)
+   + [Mesures Advertising](metrics/amo-metrics.md)
    + [Profondeur moyenne de page](metrics/average-page-depth.md)
    + [Moyenne de pages vues par visite](metrics/average-page-views-per-visit.md)
    + [Durée de session moyenne](metrics/average-session-length.md)
