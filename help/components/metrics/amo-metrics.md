@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Mesures Adobe Advertising
 
-Ces mesures sont automatiquement créées lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Voir [Mesures Adobe Advertising dans Analysis Workspace](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics) dans la documentation Adobe Advertising pour plus d’informations.
+Ces mesures sont automatiquement créées lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview). Voir [Mesures Adobe Advertising dans Analysis Workspace](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/data/advertising-metrics-in-analytics) dans la documentation Adobe Advertising pour plus d’informations.
 
 | Mesure | Description |
 | --- | --- |

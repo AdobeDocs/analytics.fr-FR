@@ -11,7 +11,7 @@ ht-degree: 10%
 
 # ID de clic des méta-publicités AMO
 
-L’**[!UICONTROL ID de clic publicitaire Meta AMO]** est un identifiant de clic publicitaire utilisé dans les intégrations Adobe Advertising. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Il s’avère principalement utile en tant qu’identifiant de suivi brut plutôt qu’en tant que dimension de reporting lisible par l’utilisateur.
+L’**[!UICONTROL ID de clic publicitaire Meta AMO]** est un identifiant de clic publicitaire utilisé dans les intégrations Adobe Advertising. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview). Il s’avère principalement utile en tant qu’identifiant de suivi brut plutôt qu’en tant que dimension de reporting lisible par l’utilisateur.
 
 ## Renseignement de cette dimension avec des données
 

@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview).
 
 ## Renseignement de cette dimension avec des données
 
