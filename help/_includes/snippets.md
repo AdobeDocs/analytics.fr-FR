@@ -1,8 +1,8 @@
 ---
-source-git-commit: b1a774e6f6af0c27a5e60f8f7e4c8eaf96005928
+source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 87%
+source-wordcount: '3047'
+ht-degree: 86%
 
 ---
 # Extraits
@@ -11,10 +11,10 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) simplifié est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web et peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
+>Un nouveau [](/help/analyze/report-builder/rb-overview.md) simplifié est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web et peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
 >Cette version héritée du complément Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -61,6 +61,9 @@ ht-degree: 87%
 >La fonctionnalité décrite dans cette section n’est disponible que pour les clients existants qui disposent déjà d’une licence pour cette fonctionnalité. Cette fonctionnalité n’est plus proposée en tant que module complémentaire aux clients existants ou nouveaux.
 >
 
+## Customer Journey Analytics de démonstration vidéo {#videocja}
+
+Cette vidéo présente les fonctionnalités de à l’aide de Customer Journey Analytics. Toutefois, cette fonctionnalité est également disponible dans Adobe Analytics. Gardez à l’esprit les différences terminologiques entre Adobe Analytics et Customer Journey Analytics (par exemple, *visites* et *sessions*).
 
 
 ## Modèles d’attribution {#attribution-models-details}
@@ -157,7 +160,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 | Suite de rapports | Description |
 |---|---|
-| ![Suite de publications](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** vous permet de filtrer les suites de rapports. <ul><li>Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des suites de rapports* pour rechercher des suites de rapports que vous pouvez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau de filtrage.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de suites de rapports sélectionnées (si une ou plusieurs suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre de suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : nombre d’éléments associés à la suite de rapports spécifique.</li></ul></li></ul> |
+| ![Suite de publications](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** vous permet de filtrer les suites de rapports. <ul><li>Vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des suites de rapports* pour rechercher des suites de rapports que vous pouvez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau de filtrage.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre de suites de rapports sélectionnées (si une ou plusieurs suites de rapports sont sélectionnées).</li><li>3︎⃣**: nombre de suites de rapports disponibles pour les éléments résultant du filtre actuel.**</li><li>⃣ : nombre d’éléments associés à la suite de rapports spécifique.</li></ul></li></ul> |
 
 ## Section Filtre de statut activé {#enabledstatusfiltersection}
 
