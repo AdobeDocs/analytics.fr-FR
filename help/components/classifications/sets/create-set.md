@@ -47,7 +47,7 @@ Vous pouvez :
    * Remplacez **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** par une combinaison qui n’est pas déjà abonnée à un autre ensemble de classifications.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
 
-Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
+Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications

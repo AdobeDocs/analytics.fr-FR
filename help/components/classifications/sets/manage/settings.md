@@ -19,7 +19,7 @@ Pour modifier les paramètres d’un ensemble de classifications :
 1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Ensembles de classifications]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’ensemble de classifications pour lequel vous souhaitez modifier le schéma.
-1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _ensemble de classifications_]**, sélectionnez l’onglet **[!UICONTROL Paramètres]**pour modifier les paramètres :
+1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _ensemble de classifications_]**, sélectionnez l’onglet **[!UICONTROL Paramètres]**&#x200B;pour modifier les paramètres :
 
    ![Ensembles de classifications - Paramètres](assets/classification-sets-settings.png)
 
