@@ -26,7 +26,7 @@ Les types de panneau suivants sont disponibles dans Analysis Workspace pour [!U
 | [Analytics for Target](a4t-panel.md) | Analysez les activités et les expériences Target dans Analysis Workspace. |
 | [Tableau à structure libre](freeform-panel.md) | Effectuez des comparaisons et des répartitions illimitées, puis ajoutez des visualisations pour raconter une histoire riche en données. |
 | [Audience moyenne par minute de média](average-minute-audience-panel.md) | Analysez l’audience moyenne par minute pour un élément spécifique de contenu ou au cours d’une période personnalisée. |
-| [Visionneuses simultanées de médias ](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
+| [Visionneuses simultanées de médias &#x200B;](media-concurrent-viewers.md) | Analysez les visionneuses au fil du temps, avec des informations sur la simultanéité la plus élevée, et sur la capacité à ventiler et à comparer. |
 | [Temps de lecture du média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md) | L’analyse du temps de lecture permet de déterminer où se produisent les pics d’audience mais aussi où des abandons ont eu lieu. |
 | [Élément suivant ou précédent](next-previous.md) | Affiche les pages visitées suivantes ou précédentes. |
 | [Aperçu rapide](quickinsight.md) | Construisez rapidement un tableau à structure libre et une visualisation d’accompagnement afin d’analyser et de mettre en évidence les informations plus rapidement. |
@@ -86,12 +86,12 @@ Vous pouvez gérer un panneau des façons suivantes :
 * Pour réduire un panneau, sélectionnez ![ChevronDown](/help/assets/icons/ChevronDown.svg).
 * Pour afficher un panneau réduit, sélectionnez ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
 * Pour supprimer un panneau, sélectionnez ![CrossSize200](/help/assets/icons/CrossSize200.svg). Pour annuler, sélectionnez **[!UICONTROL Modifier]** > **[!UICONTROL Annuler]** (**[!UICONTROL *cmd *+*z *]**|**[!UICONTROL * ctrl *+* z *]**).
-* Pour déplacer un panneau, faites-le glisser et déposez-le chaque fois qu’un ![ Déplacer ](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
+* Pour déplacer un panneau, faites-le glisser et déposez-le chaque fois qu’un ![&#x200B; Déplacer &#x200B;](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
 
 
 ## Suite de rapports
 
-Chaque panneau est associé à une [suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**dans le menu déroulant en haut à droite du panneau.
+Chaque panneau est associé à une [suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md), identifiée par ![Données](/help/assets/icons/Data.svg) **[!UICONTROL *nom de la suite de rapports *]**&#x200B;dans le menu déroulant en haut à droite du panneau.
 
 Lorsque vous créez un panneau, la suite de rapports par défaut est basée sur la suite de rapports du panneau sur lequel vous avez travaillé pour la dernière fois dans le projet Analysis Workspace.
 
@@ -250,13 +250,13 @@ Pensez à ventiler un panneau au lieu de filtrer un panneau (à l’aide de segm
 
 * Si vous utilisez des mesures activées pour l’attribution dans votre panneau, les segments effacent souvent vos mesures activées pour l’attribution. Les répartitions sont appliquées à un autre point de la requête exécutée pour récupérer les données de votre panneau. Par conséquent, les répartitions n’effacent pas ces mesures activées pour les attributs.
 
-  Par exemple, consultez la différence entre la mesure basée sur les attributs **[!UICONTROL Chiffre d’affaires en ligne]** lors de l’utilisation d’un segment **[!UICONTROL Luma : Catégorie de produits]** ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Femmes]** et d’un segment **[!UICONTROL Luma : Catégorie de produits]**![Breakdown](/help/assets/icons/Breakdown.svg)Women ****.
+  Par exemple, consultez la différence entre la mesure basée sur les attributs **[!UICONTROL Chiffre d’affaires en ligne]** lors de l’utilisation d’un segment **[!UICONTROL Luma : Catégorie de produits]** ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Femmes]** et d’un segment **[!UICONTROL Luma : Catégorie de produits]**![Breakdown](/help/assets/icons/Breakdown.svg)Women **&#x200B;**.
 
   ![Mesures basées sur les attributs : filtre ou répartition](assets/attribute-filter-breakdown.png)
 
 * Si vous utilisez une dimension de niveau sous-événement dans un menu déroulant de répartition, les répartitions s’exécutent à ce niveau de sous-événement. Au lieu de cela, les segments dans un menu déroulant segments s’exécutent au niveau de l’événement.
 
-  Par exemple, consultez la différence entre la mesure **[!UICONTROL Chiffre d’affaires en ligne]** lors de l’utilisation d’un segment **[!UICONTROL Luma : Sous-catégorie de produits]** ![Filtre](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** et d’un segment **[!UICONTROL Luma : Sous-catégorie de produits]** ![Breakdown](/help/assets/icons/Breakdown.svg)Tops ****. La répartition exécute la requête explicitement au niveau du sous-événement, tandis que le segment exécute la requête au niveau de l’événement.
+  Par exemple, consultez la différence entre la mesure **[!UICONTROL Chiffre d’affaires en ligne]** lors de l’utilisation d’un segment **[!UICONTROL Luma : Sous-catégorie de produits]** ![Filtre](/help/assets/icons/Filter.svg) **[!UICONTROL Tops]** et d’un segment **[!UICONTROL Luma : Sous-catégorie de produits]** ![Breakdown](/help/assets/icons/Breakdown.svg)Tops **&#x200B;**. La répartition exécute la requête explicitement au niveau du sous-événement, tandis que le segment exécute la requête au niveau de l’événement.
 
   ![Mesures basées sur un sous-événement : filtre ou répartition](assets/sub-event-filter-breakdown.png)
 
@@ -269,12 +269,12 @@ Vous pouvez gérer les composants de la zone de dépôt comme suit :
 | Pour supprimer un segment ou un segment rapide. | Sélectionnez ![CrossSize300](/help/assets/icons/CrossSize300.svg) dans le composant. |
 | Pour supprimer un élément sélectionné d&#39;un menu déroulant. | Sélectionnez ![CrossSize100](/help/assets/icons/CrossSize100.svg) dans l’élément. |
 | Pour supprimer tous les éléments sélectionnés d&#39;un menu déroulant. | Sélectionnez ![CrossSize200](/help/assets/icons/CrossSize200.svg) dans le menu déroulant. |
-| Pour modifier le libellé d’un composant. | Pointez sur le libellé du composant et sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg). |
+| Pour modifier le libellé d’un composant. | Pointez sur le libellé du composant et sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg). |
 | Pour supprimer le libellé d’un composant. | Pointez sur le libellé du composant et sélectionnez **[!UICONTROL Supprimer le libellé]** dans le menu contextuel du composant. |
 | Pour supprimer le composant de la zone de dépôt. | Sélectionnez **[!UICONTROL Liste déroulante Supprimer]** dans le menu contextuel du composant. |
 | Pour obtenir des informations sur un segment ou un segment rapide. | Pointez sur le composant et sélectionnez ![Infos](/help/assets/icons/Info.svg) pour ouvrir le dictionnaire de données avec des informations sur le composant. |
 | Pour obtenir des informations sur le composant qui définit un menu déroulant. | Pointez dans le menu déroulant et sélectionnez ![InfoOutline](/help/assets/icons/InfoOutline.svg) pour ouvrir le dictionnaire de données avec des informations sur le composant. |
-| Pour modifier un segment rapide. | Passez la souris sur le segment rapide, puis sélectionnez ![ Modifier ](/help/assets/icons/Edit.svg). Voir [Segments rapides](/help/components/segmentation/segmentation-workflow/seg-quick.md) pour plus d’informations. |
+| Pour modifier un segment rapide. | Passez la souris sur le segment rapide, puis sélectionnez ![&#x200B; Modifier &#x200B;](/help/assets/icons/Edit.svg). Voir [Segments rapides](/help/components/segmentation/segmentation-workflow/seg-quick.md) pour plus d’informations. |
 | Pour exiger une sélection pour un menu déroulant. | Sélectionnez **[!UICONTROL Exiger une sélection]** dans le menu contextuel du composant. |
 | Pour n’autoriser aucun filtre pour un menu déroulant. | Sélectionnez **[!UICONTROL N’autoriser aucun filtre]** dans le menu contextuel du composant. |
 | Pour réinitialiser tous les composants et effacer toutes les sélections pour les menus déroulants | Sélectionnez **[!UICONTROL Réinitialiser tout]**. |
