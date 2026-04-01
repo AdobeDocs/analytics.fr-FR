@@ -4,10 +4,10 @@ title: Configurer Une Visualisation Des Abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 73%
+source-wordcount: '916'
+ht-degree: 49%
 
 ---
 
@@ -24,34 +24,44 @@ Vous pouvez effectuer un cheminement sur des dimensions, des mesures et des segm
 ## Utilisation
 
 1. Ajoutez une visualisation ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Abandon]**. Voir [Ajouter une visualisation à un panneau](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Faites glisser une page, par exemple l’accueil, de la dimension Page vers le menu déroulant *Ajouter un point de contact*.
+1. Faites glisser un composant vers le menu déroulant **[!UICONTROL Ajouter un point de contact]**.
+
+   Par exemple, vous pouvez ajouter une seule page au rapport sur les abandons, plutôt que la dimension entière. Cliquez sur la flèche droite ![ChevronRight](/help/assets/icons/ChevronRight.svg) sur la dimension de page pour sélectionner une page spécifique, telle que **[!UICONTROL accueil]**, à ajouter au rapport sur les abandons.
 
    ![Page d’accueil de la dimension Page d’accueil déplacée vers le champ Ajouter un point de contact.](assets/fallout-drag.png)
 
-   Pointez sur un point de contact pour afficher l’abandon et d’autres informations sur ce niveau, telles que le nom du point de contact et le nombre de personnes à ce point. Affichez ensuite le taux de succès de ce point de contact (et comparez le taux de succès à d’autres points de contact).
+1. Continuez à ajouter des points de contact jusqu’à ce que votre séquence soit complète.
 
    Les nombres encadrés dans la partie grise de la barre correspondent aux abandons entre les points de contact (et non à l’ensemble des abandons à ce point). La visualisation **[!UICONTROL % point de contact]** présente les accès immédiats réussis de l’étape précédente à l’étape actuelle dans le rapport sur les abandons.
 
-   Vous pouvez également ajouter une seule page au rapport des abandons, plutôt que la dimension entière. Cliquez sur la flèche droite ![ChevronRight](/help/assets/icons/ChevronRight.svg) sur la dimension de page pour sélectionner la page à ajouter au rapport sur les abandons.
-
-1. Continuez à ajouter des points de contact jusqu’à ce que votre séquence soit complète.
-
-   Vous pouvez **combiner plusieurs points de contact** en les faisant glisser les uns sur les autres.
-
-   >[!NOTE]
-   >
-   >Plusieurs segments sont reliés par l’opérateur ET, mais plusieurs éléments, tels que des éléments de dimension et les mesures, sont reliés par l’opérateur OU.
-
    ![Page:CamerRoll ou Page : points de contact de l’appareil photo mis en surbrillance.](assets/fallout-or.png)
 
-1. Vous pouvez également **limiter les points de contact individuels pour le prochain événement** au sein du chemin (par opposition à un aspect *définitif*). Chaque point de contact est assorti d’un sélecteur avec les options **[!UICONTROL Chemin définitif]** et **[!UICONTROL Prochain événement]**, comme illustré ici :
+   Lors de l’ajout de points de contact, vous pouvez effectuer l’une des opérations suivantes :
 
-   ![Vue Toutes les visites présentant l’option Chemin définitif mise en surbrillance. &#x200B;](assets/fallout-nexthit.png)
+   * Combinez plusieurs composants en faisant glisser un ou plusieurs composants supplémentaires sur un seul point de contact.
 
-   | Option | Description |
-   |---|---|
-   | **[!UICONTROL Chemin définitif]** (par défaut) | Les visiteurs qui *éventuellement* arriveront sur la page suivante du chemin, mais pas nécessairement sur l’événement suivant, sont comptés. |
-   | **[!UICONTROL Événement suivant]** | Les visiteurs qui arriveront sur la page suivante du chemin lors du prochain événement sont comptés. |
+     >[!NOTE]
+     >
+     >Plusieurs segments sont reliés par l’opérateur ET, mais plusieurs éléments, tels que des éléments de dimension et les mesures, sont reliés par l’opérateur OU.
+
+   * Réorganisez les points de contact en les faisant glisser vers un autre niveau dans la hiérarchie des abandons.
+
+   * Combinez un point de contact avec un autre. Pour combiner des points de contact, faites glisser un point de contact sur un autre. Déposez-le lorsque vous voyez le mot **[!UICONTROL Combiner]**.
+
+     ![Combiner des points de contact](assets/fallout-combine-touchpoints.png)
+
+   * Contraindre des points de contact individuels à l’événement suivant (par opposition à *éventuellement*) dans le chemin. Sous chaque point de contact se trouve un sélecteur avec les options **[!UICONTROL Chemin éventuel]** et **[!UICONTROL Événement suivant]**, comme illustré ici :
+
+     ![Vue Toutes les visites présentant l’option Chemin définitif mise en surbrillance. ](assets/fallout-nexthit.png)
+
+     | Option | Description |
+     |---|---|
+     | **[!UICONTROL Chemin définitif]** (par défaut) | Les visiteurs qui *éventuellement* arriveront sur la page suivante du chemin, mais pas nécessairement sur l’événement suivant, sont comptés. |
+     | **[!UICONTROL Événement suivant]** | Les visiteurs qui arriveront sur la page suivante du chemin lors du prochain événement sont comptés. |
+
+   * Pointez sur un point de contact pour afficher l’abandon et d’autres informations sur ce niveau. Les informations incluent le nom du point de contact, le nombre de personnes et le taux de réussite. Vous pouvez également comparer le taux de succès à d’autres points de contact.
+
+     ![Infobulle du point de contact](assets/fallout-tooltip.png)
 
 
 ## Paramètres
@@ -67,15 +77,29 @@ Dans le cadre de la visualisation, des paramètres spécifiques sont disponibles
 
 Dans le cadre de la visualisation, des options de menu contextuel spécifiques sont disponibles.
 
-![Options d’abandon](assets/fallout-options.png)
+### Accès au menu contextuel
+
+Vous pouvez accéder au menu contextuel de l’une des manières suivantes :
+
+* Pointez sur un point de contact dans la visualisation, puis sélectionnez **[!UICONTROL Cliquer pour analyser]**.
+
+  ![Accédez au menu contextuel en passant la souris](assets/fallout-tooltip-analyze.png)
+
+* Cliquez avec le bouton droit sur un point de contact dans la visualisation.
+
+  ![Options d’abandon](assets/fallout-options.png)
+
+### Options du menu contextuel
+
+Les options de menu contextuel suivantes sont disponibles :
 
 | Option | Description |
 |--- |--- |
 | **[!UICONTROL Tendance du point de contact]** | Consultez dans un graphique linéaire les données sur les tendances d’un point de contact, avec quelques données de détection des anomalies prédéfinies. |
 | **[!UICONTROL Tendance du point de contact (%)]** | Calcule la tendance du pourcentage total d’abandons. |
 | **[!UICONTROL Tendance de tous les points de contact (%)]** | Calcule la tendance de tous les pourcentages des points de contact de l’abandon (sauf «**[!UICONTROL Toutes les personnes]** si inclus) sur le même graphique. |
-| **[!UICONTROL Ventiler les abandons à ce point de contact]** | Vérifiez ce que les visiteurs ont fait entre deux points de contact (ce point de contact et le point de contact suivant) s’ils ont continué jusqu’au point de contact suivant. Un tableau à structure libre présentant les dimensions est ainsi créé. Vous pouvez remplacer des dimensions et d’autres éléments du tableau. Par exemple, un tableau intitulé **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** et contient **[!UICONTROL Page]** comme dimension et **[!UICONTROL Visiteurs uniques]** segmenté par la mesure [segment rapide de projet uniquement](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]**. Inspectez le segment pour comprendre comment le segment de secours est déterminé. |
-| **[!UICONTROL Ventiler les abandons à ce point de contact]** | Affichez ce que les visiteurs et visiteuses qui n’ont pas réussi à faire via le funnel ont fait immédiatement après l’étape sélectionnée. Un tableau à structure libre présentant les dimensions est ainsi créé. Vous pouvez remplacer des dimensions et d’autres éléments du tableau. Par exemple, un tableau intitulé **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** et contient **[!UICONTROL Page]** comme dimension et **[!UICONTROL Visiteurs uniques]** segmenté par la mesure [segment rapide de projet uniquement](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** segment comme mesure. Examinez le segment pour comprendre comment le segment d’abandon est déterminé. |
+| **[!UICONTROL Répartir les baisses à ce point de contact]** | Vérifiez ce que les visiteurs ont fait entre deux points de contact (ce point de contact et le point de contact suivant) s’ils ont continué jusqu’au point de contact suivant. Cette option crée un tableau à structure libre présentant vos dimensions. Vous pouvez remplacer des dimensions et d’autres éléments du tableau. Par exemple, un tableau intitulé **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** et contient **[!UICONTROL Page]** comme dimension et **[!UICONTROL Visiteurs uniques]** segmenté par la mesure [segment rapide de projet uniquement](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]**. Inspectez le segment pour comprendre comment le segment de secours est déterminé. |
+| **[!UICONTROL Répartir les abandons à ce point de contact]** | Affichez ce que les visiteurs et visiteuses qui n’ont pas réussi à faire via le funnel ont fait immédiatement après l’étape sélectionnée. Cette option crée un tableau à structure libre présentant vos dimensions. Vous pouvez remplacer des dimensions et d’autres éléments du tableau. Par exemple, un tableau intitulé **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** et contient **[!UICONTROL Page]** comme dimension et **[!UICONTROL Visiteurs uniques]** segmenté par la mesure [segment rapide de projet uniquement](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Abandon : tous les visiteurs > Page est égal à l’un des domaines d’accueil]** segment comme mesure. Examinez le segment pour comprendre comment le segment d’abandon est déterminé. |
 | **[!UICONTROL Créer un segment à partir du point de contact]** | Créez un segment à partir du point de contact sélectionné. |
 
 >[!MORELIKETHIS]
