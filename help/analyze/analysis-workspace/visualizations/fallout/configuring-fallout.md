@@ -67,7 +67,7 @@ Les paramètres de visualisation disponibles sont les suivants :
 
 | Conteneur d’abandons | Description |
 |--- |--- |
-| **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs]** | Basculez entre [!UICONTROL visites] et [!UICONTROL visiteurs] pour analyser le cheminement de la personne. La valeur par défaut est [!UICONTROL  Visiteurs ]. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
+| **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs]** | Basculez entre [!UICONTROL visites] et [!UICONTROL visiteurs] pour analyser le cheminement de la personne. La valeur par défaut est [!UICONTROL &#x200B; Visiteurs &#x200B;]. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
 
 
 ## Menu contextuel
