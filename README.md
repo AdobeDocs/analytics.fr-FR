@@ -36,7 +36,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifications majeures par les employés d’Adobe
 
-Si vous êtes rédacteur technique, responsable de programme ou développeur au sein de l’équipe produit d’une solution Adobe Experience Cloud et qu’il vous incombe de contribuer ou de rédiger des articles techniques, vous devez utiliser le référentiel privé [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Si vous êtes en charge de la rédaction technique, si vous êtes responsable de programme ou si vous occupez un poste de développement dans l’équipe produit pour une solution Adobe Experience Cloud et qu’il vous incombe de contribuer ou de rédiger des articles techniques, vous devez utiliser le référentiel privé [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Outils et configuration
 
@@ -46,7 +46,7 @@ Consultez le [Guide du contributeur de documents Adobe](https://experienceleague
 
 ## Utilisation de Markdown pour formater votre rubrique
 
-Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vous ne connaissez pas Markdown, reportez-vous à la section [Syntaxe de base de l’écriture et de la mise en forme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) sur les documents GitHub.
+Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vous ne connaissez pas Markdown, consultez la section [Syntaxe de base d’écriture et de formatage](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) sur GitHub Docs.
 
 ## Étiquettes
 
