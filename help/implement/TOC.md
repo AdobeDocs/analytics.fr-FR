@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 100%
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
-   + [Mise en œuvre des liens d’exclusion](js/opt-out.md)
+   + {hide-from-toc}[Mise en œuvre des liens d’exclusion](js/opt-out.md)
    + [Remplacements de variables](js/overrides.md)
    + [Migration du code H](js/migrate-from-hcode.md)
    + Code H {#h-code}
