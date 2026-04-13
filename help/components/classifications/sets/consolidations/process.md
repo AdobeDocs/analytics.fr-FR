@@ -36,7 +36,7 @@ Pour créer une consolidation des classifications, dans l’interface principale
    1. Saisissez une ou plusieurs adresses e-mail (séparées par des virgules) dans **[!UICONTROL Notifier les problèmes]**. Des notifications par e-mail sont envoyées à ces utilisateurs pour les informer de problèmes éventuels.
    1. Sélectionnez un ensemble de classifications dans le menu déroulant **[!UICONTROL Ensemble de classifications à faire correspondre]**.
 
-      La liste de gauche **[!UICONTROL Ensemble de classifications Source]** est remplie avec des ensembles de classifications similaires à la liste de classifications sélectionnée et disponibles pour la consolidation. La liste de droite est automatiquement renseignée avec l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) sélectionné. Cet ensemble de base a défini le schéma global et est toujours prioritaire en cas de conflit de fusion.
+      La liste de gauche **[!UICONTROL Ensemble de classifications]** est remplie avec des ensembles de classifications similaires à la liste de classifications sélectionnée et disponibles pour la consolidation. La liste de droite est automatiquement renseignée avec l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) sélectionné. Cet ensemble de base a défini le schéma global et est toujours prioritaire en cas de conflit de fusion.
 
    1. Sélectionnez les ensembles de classifications à consolider dans la liste de gauche, puis déposez les ensembles sélectionnés dans la liste de droite, sous l’ensemble de classifications ![Clé](/help/assets/icons/Key.svg) de base **[!UICONTROL _sélectionné_]**.
 
@@ -73,7 +73,7 @@ Pour modifier une consolidation de classification, dans l’interface principale
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|
