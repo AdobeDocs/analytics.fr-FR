@@ -58,11 +58,11 @@ La visualisation ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalS
 
 Utilisez l’option **[!UICONTROL Empilé à 100 %]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Paramètres]** pour transformer le graphique en visualisation empilée à 100 %.
 
-![Graphique à barres empilées à 100 %.](assets/bar-stacked100.png)
+![Graphique en barres empilées à 100 %.](assets/bar-stacked100.png)
 
 >[!MORELIKETHIS]
 >
 >[Ajouter une visualisation à un panneau](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Paramètres de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu contextuel de visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

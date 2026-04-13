@@ -69,7 +69,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 1. Sélectionnez **[!UICONTROL Ajouter]** pour créer un segment.
    ![Publier Experience Cloud](assets/publish-ec.png)
 1. Fournissez un titre et une description pour le segment. Ces champs sont obligatoires avant de pouvoir enregistrer le segment.
-1. Dans la section **[!UICONTROL Publication Experience Cloud]**, sélectionnez l’option **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]**.
+1. Dans la section **[!UICONTROL Publication]**, sélectionnez l’option **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]**.
 
    >[!IMPORTANT]
    >
