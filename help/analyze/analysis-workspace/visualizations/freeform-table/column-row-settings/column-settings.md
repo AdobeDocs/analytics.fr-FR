@@ -130,7 +130,7 @@ Pour utiliser un modèle d’attribution autre que celui par défaut pour une me
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/23138?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Colonnes dynamiques](https://video.tv.adobe.com/v/39117?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
