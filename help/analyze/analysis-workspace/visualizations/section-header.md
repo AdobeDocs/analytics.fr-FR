@@ -25,7 +25,7 @@ ht-degree: 83%
 >[!BEGINSHADEBOX]
 
 
-_Cet article présente la visualisation En-tête de section dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [En-tête de section](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation En-tête de section dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [En-tête de section](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
