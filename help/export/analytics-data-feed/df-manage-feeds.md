@@ -17,7 +17,7 @@ Le gestionnaire des flux de données vous permet de créer, de modifier et de su
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flux de données](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
