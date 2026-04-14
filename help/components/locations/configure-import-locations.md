@@ -1,17 +1,17 @@
 ---
 description: Configurez le compte d’importation cloud et l’emplacement où les données de classification peuvent être chargées
 keywords: Analysis Workspace
-title: Configuration des emplacements d’import et d’export cloud
+title: Configurer des emplacements d’export et d’import cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 33%
 
 ---
 
-# Configuration des emplacements d’import et d’export cloud
+# Configurer des emplacements d’export et d’import cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -22,8 +22,8 @@ ht-degree: 33%
 Après avoir [configuré un compte cloud](/help/components/locations/configure-import-accounts.md), vous pouvez configurer un emplacement sur ce compte. Un emplacement unique peut être utilisé à l’une des fins suivantes (un emplacement unique ne peut pas être associé à plusieurs fins) :
 
 * Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l&#39;aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Exportation de fichiers lors de l’utilisation de [Report Builder](/help/analyze/report-builder/report-builder-export.md)
+* Exportation de rapports à l&#39;aide de [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [&#128279;](/help/analyze/report-builder/report-builder-export.md)
 * Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (tel que le rôle Amazon S3 ARN, Google Cloud Platform, etc.) comme décrit dans [Configurer des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md), puis à ajouter et à configurer l’emplacement au sein de ce compte (comme décrit dans cet article).
@@ -55,7 +55,7 @@ Pour plus d’informations sur l’affichage et la suppression des emplacements 
    |---------|----------|
    | [!UICONTROL **Nom**] | Nom de l’emplacement. |
    | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-   | [!UICONTROL **Utiliser avec**] | Choisissez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Ensembles de classifications**] ou **[!UICONTROL Report Builder]**. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un emplacement unique ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour Data Warehouse ou les ensembles de classifications.</li><li>Pour éviter les conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **Data Warehouse**] dans ce champ. Les emplacements des e-mails ne sont pas pris en charge avec les flux de données et les ensembles de classifications.</li></ul> |
+   | [!UICONTROL **Utiliser avec**] | Choisissez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Ensembles de classifications**] ou **[!UICONTROL Report Builder]**. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un emplacement unique ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour Data Warehouse ou les ensembles de classifications.</li><li>Pour éviter les conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **&#x200B;**] dans ce champ. Les emplacements des e-mails ne sont pas pris en charge avec les flux de données et les ensembles de classifications.</li></ul> |
    | [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre organisation**] | Activez cette option pour permettre à d’autres utilisateurs de votre organisation d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements partagés ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
    | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement où vous souhaitez créer cet emplacement. Pour plus d’informations sur la création d’un compte, voir [Configuration des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md). |
 
@@ -174,7 +174,7 @@ Pour configurer un emplacement d’e-mail, spécifiez les informations suivantes
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’e-mail ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) ou [les ensembles de classifications](/help/components/classifications/sets/overview.md)).
+   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’e-mail ne sont pas pris en charge avec [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) ou [les ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
 ### Types de comptes hérités
 
@@ -241,7 +241,7 @@ Les 16 régions standard AWS suivantes sont prises en charge (en utilisant l’
 
 +++Azure Blob
 
-Les entrepôts de données prennent en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Amazon chiffre automatiquement les données au repos. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
+Data Warehouse prend en charge les destinations Azure Blob. Nécessite un conteneur, un compte et une clé. Azure chiffre automatiquement les données inactives. Les données que vous téléchargez sont automatiquement déchiffrées. Pour en savoir plus, consultez [Création d’un compte Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys) dans la documentation Microsoft Azure.
 
 >[!NOTE]
 >
