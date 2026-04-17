@@ -22,8 +22,8 @@ ht-degree: 66%
 Vous pouvez configurer un compte cloud utilisé à l’une ou à l’autre des fins suivantes, ou à toutes les fins suivantes :
 
 * Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l&#39;aide de [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Exportation de fichiers lors de l’utilisation de [](/help/analyze/report-builder/report-builder-export.md)
+* Exportation de rapports à l&#39;aide de [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [&#128279;](/help/analyze/report-builder/report-builder-export.md)
 * Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (tel que le rôle Amazon S3 ARN, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement au sein de ce compte (tel qu’un dossier dans le compte) comme décrit dans [Configurer les emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
@@ -127,7 +127,7 @@ Pour configurer un compte d’importation ou d’exportation cloud après avoir 
 
    >[!NOTE]
    >
-   >Les comptes de messagerie peuvent être utilisés uniquement avec [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Les comptes de messagerie ne sont pas pris en charge avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Ensembles de classifications](/help/components/classifications/sets/overview.md)).
+   >Les comptes de messagerie peuvent être utilisés uniquement avec [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Les comptes de messagerie ne sont pas pris en charge avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
    Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 

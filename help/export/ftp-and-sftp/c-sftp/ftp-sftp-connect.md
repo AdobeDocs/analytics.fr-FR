@@ -51,5 +51,5 @@ Pour configurer un transfert sécurisé avec FTP :
 
 1. Testez la connexion en vous connectant au compte FTP par SFTP.
 
-Pour plus d’informations, voir [ Connexion à Adobe via SFTP sans mot de passe ](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
+Pour plus d’informations, voir [&#x200B; Connexion à Adobe via SFTP sans mot de passe &#x200B;](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md).
 
