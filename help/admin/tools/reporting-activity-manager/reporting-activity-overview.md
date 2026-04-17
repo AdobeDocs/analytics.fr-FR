@@ -4,16 +4,14 @@ title: Vue d’ensemble du Gestionnaire des activités de rapport
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
 
 # Vue d’ensemble du Gestionnaire des activités de rapport
-
-Le [!UICONTROL Gestionnaire des activités de rapport] est disponible pour les administrateurs et administratrices.
 
 Si votre entreprise connaît une dégradation des performances de création de rapports pendant les heures de pointe de la création de rapports, le gestionnaire des activités de rapports vous permet d’auto-diagnostiquer et de résoudre les problèmes de capacité sans intervention de l’assistance clientèle d’Adobe. Vous pouvez facilement gérer les files d’attente de création de rapports dans une seule interface et agir immédiatement pour améliorer l’expérience de vos utilisateurs et utilisatrices.
 

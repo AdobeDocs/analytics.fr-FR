@@ -4,10 +4,10 @@ description: Comprenez chaque élément d’autorisation sous Outils de suites d
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 78%
+source-wordcount: '622'
+ht-degree: 74%
 
 ---
 
@@ -18,7 +18,7 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | Éléments d’autorisation liés aux outils de suites de rapports | Description |
 |------|------|
 | [!UICONTROL Résumé du compte] | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
-| [!UICONTROL Configuration Advertising Analytics] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
+| [!UICONTROL Configuration ] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
 | [!UICONTROL Détection des anomalies] | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | [!UICONTROL Pages de robots] | Inutilisé. |
 | [!UICONTROL Robots] | Inutilisé. |
@@ -43,10 +43,10 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | [!UICONTROL Recherche payante] | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Règles de traitement] | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
-| [!UICONTROL &#x200B; Rapport en temps réel &#x200B;] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
+| [!UICONTROL  Rapport en temps réel ] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
 | [!UICONTROL Administrateurs du gestionnaire des activités de rapport] | Inutilisé. |
 | [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
-| [!UICONTROL &#x200B; Gestion des suites de rapports &#x200B;] | Accorde l’accès au Gestionnaire de suites de rapports, mais n’autorise pas les modifications. |
+| [!UICONTROL  Gestion des suites de rapports ] | Accorde l’accès au Gestionnaire de suites de rapports. Permet la création de suites de rapports, mais n’accorde l’accès à aucun élément sous « [!UICONTROL  Modifier les paramètres ]. Voir aussi [[!UICONTROL Accès à l’interface utilisateur d’administration des suites de rapports]](analytics-tools.md). |
 | [!UICONTROL Visites renouvelées] | Inutilisé. |
 | [!UICONTROL Petit rapport Résumé de l’entreprise du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport externe Tableau de bord R&amp;A] | Inutilisé. |
@@ -60,5 +60,3 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | [!UICONTROL Variables de trafic] | Accorde l’accès à Trafic > Variables de trafic dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Visiteur unique] | Accorde l’accès à Conversion > Variable de visiteur unique. Non généralement utilisé dans les implémentations modernes. |
 | [!UICONTROL Filtres URL] | Accorde l’accès à Général > Filtres URL internes dans le Gestionnaire de suites de rapports. |
-
-{style="table-layout:auto"}
