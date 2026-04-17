@@ -18,7 +18,7 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | Éléments d’autorisation liés aux outils de suites de rapports | Description |
 |------|------|
 | [!UICONTROL Résumé du compte] | Accorde l’accès à Général > Paramètres généraux du compte dans le Gestionnaire de suites de rapports. |
-| [!UICONTROL Configuration ] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
+| [!UICONTROL Configuration &#x200B;] | Permet aux utilisateurs de configurer des suites de rapports à configurer pour Advertising Analytics. |
 | [!UICONTROL Détection des anomalies] | Accorde l’accès à Détection des anomalies dans Analysis Workspace. |
 | [!UICONTROL Pages de robots] | Inutilisé. |
 | [!UICONTROL Robots] | Inutilisé. |
@@ -43,10 +43,10 @@ Ce tableau répertorie tous les éléments d’autorisation sous Outils de suite
 | [!UICONTROL Recherche payante] | Accorde l’accès à Général > Détection de recherche payante dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Règles de traitement] | Accorde l’accès à Général > Règles de traitement et à Général > Règles de robots dans le Gestionnaire de suites de rapports. |
 | [!UICONTROL Configuration des rapports en temps réel] | Accorde l’accès à Temps réel dans le Gestionnaire de suites de rapports. Utilisez l’élément d’autorisation « Rapport en temps réel » pour accorder l’accès au rapport lui-même. |
-| [!UICONTROL  Rapport en temps réel ] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
+| [!UICONTROL &#x200B; Rapport en temps réel &#x200B;] | Accorde l’accès à Engagement > Temps réel dans les modèles Adobe. |
 | [!UICONTROL Administrateurs du gestionnaire des activités de rapport] | Inutilisé. |
 | [!UICONTROL Accès au gestionnaire des activités de rapport] | Inutilisé. |
-| [!UICONTROL  Gestion des suites de rapports ] | Accorde l’accès au Gestionnaire de suites de rapports. Permet la création de suites de rapports, mais n’accorde l’accès à aucun élément sous « [!UICONTROL  Modifier les paramètres ]. Voir aussi [[!UICONTROL Accès à l’interface utilisateur d’administration des suites de rapports]](analytics-tools.md). |
+| [!UICONTROL &#x200B; Gestion des suites de rapports &#x200B;] | Accorde l’accès au Gestionnaire de suites de rapports. Permet la création de suites de rapports, mais n’accorde l’accès à aucun élément sous « [!UICONTROL &#x200B; Modifier les paramètres &#x200B;]. Voir aussi [[!UICONTROL Accès à l’interface utilisateur d’administration des suites de rapports]](analytics-tools.md). |
 | [!UICONTROL Visites renouvelées] | Inutilisé. |
 | [!UICONTROL Petit rapport Résumé de l’entreprise du tableau de bord R&amp;A] | Inutilisé. |
 | [!UICONTROL Petit rapport externe Tableau de bord R&amp;A] | Inutilisé. |

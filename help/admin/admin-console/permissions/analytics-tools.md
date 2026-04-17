@@ -18,7 +18,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | Élément d’autorisation lié aux outils Analytics | Description |
 |----|----|
 | [!UICONTROL Activity Map] | Accorde l’accès à Outils > Activity Map. Permet également à l’utilisateur d’utiliser l’extension Activity Map. |
-| [!UICONTROL  Accès à l’interface utilisateur des outils d’administration ] | Inutilisé. |
+| [!UICONTROL &#x200B; Accès à l’interface utilisateur des outils d’administration &#x200B;] | Inutilisé. |
 | [!UICONTROL Gestion d’Advertising Analytics] | Accorde l’accès à Admin > Tous les administrateurs > Advertising Analytics. |
 | [!UICONTROL Analysis Workspace : enregistrer comme modèle] | Accorde l’accès à Projet > Enregistrer comme modèle dans Analysis Workspace. |
 | [!UICONTROL Création d’annotation] | Permet de créer des annotations. |
@@ -43,7 +43,7 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Administrateur des applications mobiles] | Inutilisé. |
 | [!UICONTROL Actions en attente] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Actions en attente. |
 | [!UICONTROL Préférences] | Inutilisé. |
-| [!UICONTROL  Accès à l’interface utilisateur d’administration des suites de rapports ] | Accorde l’accès à Admin > Suites de rapports, mais ne permet pas d’accéder à la modification des paramètres ou à la création de suites de rapports. Utilisez les éléments d’autorisation [Outils de suite de rapports](report-suite-tools.md) pour permettre aux utilisateurs de modifier de manière sélective les paramètres de la suite de rapports. |
+| [!UICONTROL &#x200B; Accès à l’interface utilisateur d’administration des suites de rapports &#x200B;] | Accorde l’accès à Admin > Suites de rapports, mais ne permet pas d’accéder à la modification des paramètres ou à la création de suites de rapports. Utilisez les éléments d’autorisation [Outils de suite de rapports](report-suite-tools.md) pour permettre aux utilisateurs de modifier de manière sélective les paramètres de la suite de rapports. |
 | [!UICONTROL Accès à l’interface utilisateur du gestionnaire des activités de rapports] | Accorde l’accès à Admin > Gestionnaire des activités de rapport. |
 | [!UICONTROL Accès aux Reports &amp; Analytics] | Inutilisé. |
 | [!UICONTROL Sécurité] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Gestionnaire de sécurité. |
@@ -55,4 +55,4 @@ Les éléments d’autorisation liés aux outils Analytics permettent d’accéd
 | [!UICONTROL Gestion du trafic] | Accorde l’accès à Admin > Tous les administrateurs > Gestion du trafic. |
 | [!UICONTROL Accès aux services Web] | Permet d’utiliser l’API, notamment l’authentification auprès de sites tiers et l’envoi d’appels d’API. |
 | [!UICONTROL Services web] | Accorde l’accès à Admin > Tous les administrateurs > Paramètres de la société > Services web. |
-| [!UICONTROL Accès aux projets ] | Octroie l’accès à Analysis Workspace. **Cet élément d’autorisation est requis pour utiliser Adobe Analytics.** |
+| [!UICONTROL Accès aux projets &#x200B;] | Octroie l’accès à Analysis Workspace. **Cet élément d’autorisation est requis pour utiliser Adobe Analytics.** |
