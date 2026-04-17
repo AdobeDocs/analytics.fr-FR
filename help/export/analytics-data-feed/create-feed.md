@@ -3,7 +3,7 @@ title: Créer un flux de données
 description: Apprenez comment créer un flux de données et découvrez les informations sur les fichiers à fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 32%
@@ -120,7 +120,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
    >
    >Tenez compte de ce qui suit lors de la configuration du rapport de destination :
    >
-   >* Adobe recommande d’utiliser un compte cloud pour la destination de vos rapports. Les [comptes FTP et SFTP hérités](#legacy-destinations) sont disponibles, mais ne sont pas recommandés.
+   >* Adobe recommande d’utiliser un compte cloud pour la destination de vos rapports. Les [comptes FTP et SFTP hérités](/help/components/locations/configure-import-accounts.md) sont disponibles, mais ne sont pas recommandés.
    >* Tous les comptes cloud que vous avez précédemment configurés peuvent être utilisés pour les flux de données. Vous pouvez configurer des comptes cloud de l’une des manières suivantes :
    >
    >   * Lors de la configuration des comptes cloud pour [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)

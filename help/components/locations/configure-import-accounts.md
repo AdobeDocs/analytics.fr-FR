@@ -1,17 +1,17 @@
 ---
 description: Configurez le compte d’importation cloud et l’emplacement où les données de classification peuvent être chargées
 keywords: Analysis Workspace
-title: Configuration des comptes d’import et d’export cloud
+title: Configurer des comptes d’export et d’import cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 68%
+source-wordcount: '1597'
+ht-degree: 66%
 
 ---
 
-# Configuration des comptes d’import et d’export cloud
+# Configurer des comptes d’export et d’import cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -22,8 +22,8 @@ ht-degree: 68%
 Vous pouvez configurer un compte cloud utilisé à l’une ou à l’autre des fins suivantes, ou à toutes les fins suivantes :
 
 * Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l&#39;aide de [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Exportation de fichiers lors de l’utilisation de [Report Builder](/help/analyze/report-builder/report-builder-export.md)
+* Exportation de rapports à l&#39;aide de [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [&#128279;](/help/analyze/report-builder/report-builder-export.md)
 * Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (tel que le rôle Amazon S3 ARN, Google Cloud Platform, etc.) comme décrit dans cet article, puis à ajouter et à configurer l’emplacement au sein de ce compte (tel qu’un dossier dans le compte) comme décrit dans [Configurer les emplacements d’importation et d’exportation dans le cloud](/help/components/locations/configure-import-locations.md).
@@ -127,7 +127,7 @@ Pour configurer un compte d’importation ou d’exportation cloud après avoir 
 
    >[!NOTE]
    >
-   >Les comptes de messagerie peuvent être utilisés uniquement avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Les comptes de messagerie ne sont pas pris en charge avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Ensembles de classifications](/help/components/classifications/sets/overview.md)).
+   >Les comptes de messagerie peuvent être utilisés uniquement avec [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). (Les comptes de messagerie ne sont pas pris en charge avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
    Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
@@ -145,14 +145,19 @@ Pour configurer un compte d’importation ou d’exportation cloud après avoir 
 
    +++FTP
 
-   Les données de flux de données peuvent être distribuées vers un emplacement FTP hébergé par Adobe ou par le client ou la cliente. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe. Utilisez le champ Chemin d’accès pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas.
+   >[!IMPORTANT]
+   >
+   >Le protocole FTP ne doit pas être utilisé, car les données transitent sur Internet en texte brut.
+
+
+   Les données de flux de données peuvent être distribuées vers un emplacement FTP hébergé par Adobe ou par le client ou la cliente. Nécessite un hôte FTP, un nom d’utilisateur et un mot de passe.
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Hôte**] | Saisissez l’URL de destination FTP souhaitée. Par exemple : `ftp.adobe.com`. |
-   | [!UICONTROL **Chemin d’accès**] | Peut être laissé vide. |
+   | [!UICONTROL **Nom d’hôte**] | Saisissez l’URL de destination FTP souhaitée. Par exemple : `ftp.adobe.com`. |
+   | [!UICONTROL **Port**] | Peut être laissé vide. Utilisez ce champ pour placer les fichiers de flux dans un dossier. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le port spécifié n’existe pas. |
    | [!UICONTROL **Nom d’utilisateur**] | Saisissez le nom d’utilisateur pour vous connecter au site FTP. |
-   | [!UICONTROL **Mot de passe et confirmer le mot de passe**] | Saisissez le mot de passe de connexion au site FTP. |
+   | [!UICONTROL **Secret du compte d’emplacement**] | Saisissez le mot de passe (secret) pour vous connecter au site FTP. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ Pour configurer un compte d’importation ou d’exportation cloud après avoir 
 
    +++SFTP
 
-   La prise en charge SFTP des flux de données est disponible. Cela nécessite un hôte SFTP, un nom d’utilisateur et le site de destination pour contenir une clé publique RSA ou DSA valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
+   La prise en charge SFTP des flux de données est disponible. Cela nécessite un hôte SFTP, un nom d’utilisateur et le site de destination pour contenir une clé publique RSA ou ed25519 valide. Vous pouvez télécharger la clé publique appropriée à la création du flux.
 
-   Lors du téléchargement de la clé publique RSA ou DSA pour les flux de données, effectuez l’une des opérations suivantes :
+   Lors du téléchargement de la clé publique RSA ou ed25519 pour les flux de données, effectuez l’une des opérations suivantes :
 
    * Renommez le fichier de clé publique téléchargé en `authorized_keys`, puis chargez le fichier dans votre dossier `.ssh` sur votre serveur SFTP.
 
