@@ -3,9 +3,9 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1617'
 ht-degree: 7%
 
 ---
@@ -214,7 +214,7 @@ Par exemple :
 
 >[!IMPORTANT]
 >
->Supprimez les fichiers de l’emplacement cloud manuellement ou en utilisant une rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités lors de la tâche d’importation suivante.
+>Supprimez les fichiers de l’emplacement cloud manuellement ou à l’aide d’une stratégie de rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités lors de la tâche d’importation suivante.
 
 
 
