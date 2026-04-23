@@ -1,21 +1,21 @@
 ---
-description: Nombre de contrats de services techniques Adobe Engineering Services impliquent l’échange de données, souvent par FTP.
+description: Nombre d’engagements de services techniques Adobe Engineering Services impliquent l’échange de données, souvent par FTP.
 keywords: ftp;sftp
-title: Contrats de services techniques Adobe Engineering Services à l’aide du FTP
+title: Engagements de services techniques Adobe Engineering Services avec FTP
 feature: FTP Export
 exl-id: 5132c13e-8ffe-4dcc-a266-c0b2efc41332
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 90%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# Contrats de services techniques Adobe Engineering Services à l’aide du FTP
+# Contrats de services techniques avec FTP ou SFTP
 
-Nombre de contrats de services techniques Adobe Engineering Services impliquent l’échange de données, souvent par FTP.
+De nombreux contrats de services d’ingénierie Adobe impliquent l’échange de données, souvent par FTP ou SFTP.
 
-Ces contrats comprennent les projets [!UICONTROL DB VISTA] et personnalisés.
+Ces engagements comprennent des projets [!UICONTROL DB VISTA] et personnalisés.
 
 Pour plus d’informations sur les limites FTP et la conservation des données, voir [Limites FTP et conservation des données](/help/export/ftp-and-sftp/ftp-limits.md).
 
@@ -23,6 +23,6 @@ Pour plus d’informations sur les limites FTP et la conservation des données, 
 
 Comme pour un chargement SAINT par FTP, [!UICONTROL DB VISTA] reçoit les données par l’intermédiaire d’un chargement FTP. Pour en savoir plus sur les formats de fichiers et le processus de chargement [!UICONTROL DB VISTA], reportez-vous au livre blanc [!UICONTROL DB Vista] Introduction to [!UICONTROL DB VISTA], que vous trouverez sur le site d’aide d’Adobe Suite en sélectionnant **[!UICONTROL Supporting Docs]** > **[!UICONTROL White Papers]**.
 
-## Contrats personnalisés {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
+## Engagements personnalisés {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
 Adobe Engineering Services propose des projets personnalisés utilisant les protocoles FTP et SFTP. Voir Adobe Engineering Services pour en savoir plus sur les projets personnalisés. Pour plus d’informations sur SFTP, consultez [Protocole de transfert de fichiers sécurisé](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md).
