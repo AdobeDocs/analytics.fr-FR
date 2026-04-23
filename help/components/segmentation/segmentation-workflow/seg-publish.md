@@ -3,10 +3,10 @@ description: Découvrez comment publier des segments pour l’activité marketin
 title: Publier les segments
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1331'
-ht-degree: 47%
+source-wordcount: '1349'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 47%
 >abstract="Les segments créés dans la bibliothèque d’audiences sont disponibles instantanément et ne dépendent pas des mises à jour d’Analytics."
 
 
-Vous pouvez publier un segment Adobe Analytics dans Experience Cloud. Vous pouvez donc utiliser le segment pour l’activité marketing dans [!DNL Audience Manager] et dans d’autres canaux d’activation, notamment [!DNL Advertising Cloud], [!DNL Target] et [!DNL Campaign].
+Vous pouvez publier un segment Adobe Analytics dans Experience Cloud. Vous pouvez donc utiliser le segment pour l’activité marketing dans Audience Manager et dans d’autres canaux d’activation, y compris Advertising, Target et Campaign.
 
 Vous pouvez publier des segments Analytics sur Experience Cloud en moins de 8 heures. Utilisez ces segments pour activer des audiences dans Audience Manager vers toutes les destinations en aval.
 
@@ -93,7 +93,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 
 >[!NOTE]
 >
->Vous **ne pouvez pas** dépublier un segment qui est actuellement utilisé par l’une des solutions Adobe suivantes : [!DNL Analytics] (dans [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (pour les utilisateurs de [!DNL Core Service] et d’[!DNL Audience Manager]) et tous les autres partenaires externes (pour les utilisateurs de [!DNL Audience Manager]). Vous **pouvez** dépublier un segment utilisé par [!DNL Target].
+>Vous **ne pouvez pas** dépublier un segment actuellement utilisé par l’une des solutions Adobe suivantes : Analytics (dans Audience Analytics), Campaign, Advertising (pour les clients Core Service et Audience Manager) et tous les autres partenaires externes (pour les clients Audience Manager). Vous **pouvez** dépublier un segment utilisé par Target.
 
 ## Affichage du statut de publication des segments
 

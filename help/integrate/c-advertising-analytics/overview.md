@@ -3,16 +3,16 @@ description: Découvrez tout ce que vous pouvez faire avec Advertising Analytics
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 71%
+source-wordcount: '1110'
+ht-degree: 69%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics vous permet de voir toutes vos données de référencement payant Google Ads et Microsoft Advertising côte à côte dans Adobe Analytics. Auparavant, toutes les publicités Google ou données Microsoft Advertising devaient être affichées dans Adobe Advertising Cloud (AMO) ou dans chaque interface publicitaire respective. Vous pouvez désormais obtenir des données sur les impressions, les clics et les coûts directement à partir des moteurs de recherche ainsi que des instances AMO ID (instances de clics).
+Advertising Analytics vous permet de voir toutes vos données de référencement payant Google Ads et Microsoft Advertising côte à côte dans Adobe Analytics. Auparavant, toutes les publicités Google ou données Microsoft Advertising devaient être affichées dans Adobe Advertising ou dans chaque interface publicitaire respective. Vous pouvez désormais obtenir des données sur les impressions, les clics et les coûts directement à partir des moteurs de recherche ainsi que des instances AMO ID (instances de clics).
 
 En réunissant les données des moteurs de recherche dans Adobe Analytics, vous pouvez analyser les mêmes données en utilisant la puissance d’Analysis Workspace. Le nouveau modèle [Performance de référencement payant](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) dans Workspace facilite cette analyse.
 
@@ -27,7 +27,7 @@ Cette intégration est destinée aux audiences ci-dessous :
 ## Conditions préalables {#prerequisites}
 
 * Advertising Analytics est disponible pour les SKU [Select](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) ou [Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html) d’Adobe Analytics.
-* Cette fonctionnalité est disponible pour les clients ne bénéficiant pas d’Advertising Cloud ni d’AMO.
+* Cette fonctionnalité est disponible pour les clients qui n’utilisent pas Adobe Advertising.
 * Vous devez être administrateur Adobe Analytics pour avoir accès à Advertising Analytics ou appartenir à un profil de produit auquel un [accès](/help/integrate/c-advertising-analytics/overview.md#permissions) a été accordé à Advertising Analytics.
 * Pour toute suite de rapports dans laquelle vous souhaitez afficher les publicités Google ou les données de recherche Microsoft Advertising, vous devez [activer ces suites de rapports pour Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Configuration Advertising Analytics]**).
 * Vous avez besoin des informations de connexion pour un utilisateur autorisé à modifier le ou les comptes de recherche que vous souhaitez intégrer à Adobe Analytics, telles qu’un ID de compte Google et un mot de passe.
@@ -72,7 +72,7 @@ Advertising Analytics ajoute les dimensions et mesures suivantes à Analysis Wor
 | **[!UICONTROL Réseau (AMO ID)]** | Le réseau sur lequel l’annonce est hébergée. Pour Advertising Analytics, cette valeur est toujours « Recherche ». |
 | **[!UICONTROL Emplacement (AMO ID)]** | Le site Web du placement géré (pour les réseaux de contenu). Seuls les placements gérés utilisent cette dimension. |
 | **[!UICONTROL Cible du produit (AMO ID)]** | Le nom de la cible du produit utilisé sur les annonces PLA (il ne s’agit pas du produit réellement acheté). |
-| **[!UICONTROL Optimisation (AMO ID)]** | Cette dimension n’est pas utilisée par Advertising Analytics. Elle n’est utilisée que par les clients bénéficiant d’Advertising Cloud. |
+| **[!UICONTROL Optimisation (AMO ID)]** | Non utilisé par Advertising Analytics. Il est utilisé uniquement par les clients Adobe Advertising. |
 | **[!UICONTROL Appareil (AMO ID)]** | Non utilisé aujourd’hui. Espace réservé à l’éventuelle amélioration future du produit pour le type d’appareil cible indiqué (p. ex. mobile, bureau) de l’annonce (et non l’appareil réel du visiteur). |
 
 ### Mesures
