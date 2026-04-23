@@ -3,25 +3,25 @@ title: Intégration d’Analytics
 description: Découvrez comment intégrer des données issues d’autres emplacements dans Adobe Analytics.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 99%
+source-wordcount: '167'
+ht-degree: 72%
 
 ---
 
 # Intégration d’Analytics
 
-Ce guide porte sur l’intégration de plusieurs solutions Adobe Experience Cloud, telles qu’Audience Manager, Advertising Cloud ou Target. Il inclut :
+This guide focuses on integrating multiple Adobe Experience Cloud solutions, such as Audience Manager, Advertising, or Target. Il inclut :
 
 * **Audience Analytics :** Intégrez Adobe Audience Manager à Adobe Analytics.
 * **Advertising Analytics :** Consultez les données de recherche payante juxtaposées aux données Adobe Analytics.
-* **Analytics pour Advertising Cloud DSP :** intègre Adobe Analytics et Adobe Advertising Cloud afin dʼétendre et dʼaméliorer les fonctionnalités de chaque produit.
+* **Analytics for Advertising DSP:** Integrates Adobe Analytics and Adobe Advertising to extend and enhance the capabilities of each product.
 
 
 >[!BEGINSHADEBOX]
 
-Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics pour Advertising Cloud](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensembl
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
 * [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/fr)

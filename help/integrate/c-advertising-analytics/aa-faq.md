@@ -3,10 +3,10 @@ description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes sur Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 34%
+source-wordcount: '1276'
+ht-degree: 32%
 
 ---
 
@@ -14,11 +14,9 @@ ht-degree: 34%
 
 ## Accès/Droits {#access}
 
-+++ Dois-je être un client Adobe Advertising Cloud ou Adobe Advertising Cloud (AMO) pour accéder à cette fonctionnalité ?
++++ Dois-je être un client Adobe Advertising pour accéder à cette fonctionnalité ?
 
-Non, cette fonctionnalité est disponible pour les clients qui ne font pas partie d’Advertising Cloud ou d’AMO.
-
-Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais ne seront pas en mesure d’utiliser Ad Analytics.
+Non, cette fonctionnalité est disponible pour les clients non-Advertising. Les clients Adobe Advertising peuvent tirer parti de l’intégration Analytics + Advertising existante.
 
 +++
 
@@ -26,11 +24,11 @@ Les clients AMO peuvent utiliser l’intégration Analytics-AMO existante, mais
 
 Advertising Analytics est disponible pour Adobe Analytics
 
-* [&#x200B; Sélectionner &#x200B;](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
+* [ Sélectionner ](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
 
-* [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
+* [](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
 
-* [Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
+* [](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 
@@ -46,9 +44,9 @@ Non, Advertising Analytics utilise un type de source de données spécial qui n�
 
 +++
 
-+++ Si j’utilise déjà Advertising Cloud/AMO, puis-je toujours utiliser la fonctionnalité Advertising Analytics ?
++++ Si j’utilise déjà Adobe Advertising, puis-je toujours utiliser la fonctionnalité Advertising Analytics ?
 
-Tout compte de moteur de recherche compatible sera transmis à Advertising Analytics et affiché en lecture seule. Toutes les modifications et les mises à jour doivent être gérées dans Advertising Cloud/AMO.
+Tout compte de moteur de recherche compatible sera transmis à Advertising Analytics et affiché en lecture seule. Toutes les modifications ou mises à jour doivent être gérées dans Advertising.
 
 +++
 
@@ -68,26 +66,26 @@ Les comptes de moteurs de recherche incluent Google Ads et Microsoft Advertising
 
 +++ Où puis-je accéder à Advertising Analytics ?
 
-Après vous être connecté à Adobe Analytics, accédez à l’[!UICONTROL Admin]. Sélectionnez ensuite [!UICONTROL Advertising Analytics] pour ajouter vos comptes de moteurs de recherche.
+Après vous être connecté à Adobe Analytics, accédez à l’[!UICONTROL Admin]. Sélectionnez ensuite  pour ajouter vos comptes de moteurs de recherche.
 
 +++
 
 +++ Comment les données sont-elles collectées et transmises à Analytics ? 
 
-Advertising Analytics utilise une série d’API personnalisées pour transmettre dans Analytics des données provenant des moteurs de recherche via Adobe Advertising Cloud.
+Advertising Analytics utilise une série d’API personnalisées pour transmettre des données des moteurs de recherche à Adobe Analytics via Adobe Advertising.
 
 +++
 
 +++ Quelles données de recherche puis-je obtenir avec cette intégration ? 
 
-Vous obtiendrez
+Vous obtenez :
 
 * Impressions
 * Clics
 * Coûts
 * note de qualité moyenne
-* Position moyenne directement à partir des moteurs de recherche, ainsi que
-* Instances d’ID AMO (cliquez sur Instances).
+* Position moyenne directement depuis les moteurs de recherche
+* Instances ID AMO (cliquez sur Instances)
 
 +++
 

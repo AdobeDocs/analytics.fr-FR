@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: fd5a38ca3c621e67f7a670f361e73b439ce9861a
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '3652'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -26,7 +26,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 >
 >La plupart des colonnes contiennent une colonne similaire avec un préfixe `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. Pour plus d’informations, consultez la [FAQ sur les flux de données](../df-faq.md).
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
 
 | Publier | Nom de la colonne | Description de la colonne | Type de données |
 | ---: | :--- | --- | --- |
@@ -45,13 +45,13 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`channel`** | La dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
 | | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
-| **`post_`** | **`clickmaplink`** | La dimension [Lien Activity Map](/help/components/dimensions/activity-map-link.md). | varchar(255) |
+| **`post_`** | **`clickmaplink`** | La dimension [Lien ](/help/components/dimensions/activity-map-link.md). | varchar(255) |
 | **`post_`** | **`clickmaplinkbyregion`** | La dimension [Lien Activity Map par région](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
-| **`post_`** | **`clickmappage`** | La dimension [Page Activity Map](/help/components/dimensions/activity-map-page.md). | varchar(255) |
-| **`post_`** | **`clickmapregion`** | La dimension [Région Activity Map](/help/components/dimensions/activity-map-region.md). | varchar(255) |
+| **`post_`** | **`clickmappage`** | La dimension [Page ](/help/components/dimensions/activity-map-page.md). | varchar(255) |
+| **`post_`** | **`clickmapregion`** | La dimension [Région ](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | Version du SDK client ou de l’API utilisée pour compiler et envoyer la demande d’image. | char(16) |
 | | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
-| | **`connection_type`** | Identifiant numérique représentant la dimension [&#x200B; Type de connexion &#x200B;](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
+| | **`connection_type`** | Identifiant numérique représentant la dimension [ Type de connexion ](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`post_`** | **`cookies`** | La dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md).<br>Y : activé<br>N : désactivé<br>U : inconnu | char(1) |
 | | **`country`** | Identifiant numérique qui représente le pays du visiteur ou de la visiteuse. Fait référence à la table de recherche `country.tsv`. | smallint sans signe |
 | **`post_`** | **`currency`** | Le code de devise qui a été utilisé pendant la transaction. Définissez avec [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
@@ -73,7 +73,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`ef_id`** | Identifiant EF, utilisé dans les intégrations Adobe Advertising. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un [document de conception de solution](/help/implement/prepare/solution-design.md) spécifique à votre organisation. | varchar(255) |
 | **`post_`** | **`event_list`** | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Inclut les événements Commerce et [événements personnalisés 1-1000](/help/components/metrics/custom-events.md). Utilise la recherche de `event.tsv`. | text |
-| | **`exclude_hit`** | Indicateur qui détermine si l’accès est exclu de la création de rapports. La colonne `visit_num` nʼest pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : Accès Advertising Cloud qui ne correspondait pas à un accès Analytics | tinyint sans signe |
+| | **`exclude_hit`** | Indicateur qui détermine si l’accès est exclu de la création de rapports. La colonne `visit_num` nʼest pas incrémentée pour les accès exclus.<br>1 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>2 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>3 : n’est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>10 : Code de devise invalide<br>11 : Horodatage manquant sur un accès pour une suite de rapport avec horodatage ou l’accès contenait un horodatage sur une suite de rapport sans horodatage<br>12 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>13 : Inutilisée. Fait partie d’une fonctionnalité mise au rebut.<br>14 : Accès cible qui ne correspondait pas à un accès Analytics<br>15 : Inutilisé pour le moment.<br>16 : accès Adobe Advertising qui ne correspondait pas à un accès Analytics | tinyint sans signe |
 | | **`first_hit_pagename`** | La dimension [Page d’entrée d’origine](/help/components/dimensions/entry-dimensions.md). Le nom de la page d’entrée d’origine du visiteur. | varchar(100) |
 | | **`first_hit_page_url`** | La toute première URL du visiteur. | varchar(255) |
 | | **`first_hit_referrer`** | La toute première URL de référence du visiteur. | varchar(255) |
@@ -195,7 +195,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`video`** | La dimension [Contenu](/help/components/dimensions/sm-core.md) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoad`** | La dimension [Publicité](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoadinpod`** | La dimension [Position de la publicité dans la capsule](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadlength`** | La dimension [Longueur de la publicité (variable)](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | Entier |
+| **`post_`** | **`videoadlength`** | La dimension [Longueur de la publicité (variable)](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | entier |
 | **`post_`** | **`videoadname`** | La dimension [Nom de la publicité (variable)](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoadplayername`** | La dimension [Nom du lecteur de publicité](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoadpod`** | La dimension [Capsule publicitaire](/help/components/dimensions/sm-ads.md) des services de streaming multimédia. | varchar(255) |
@@ -247,7 +247,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | | **`visit_ref_type`** | Identifiant numérique, représentant le type de référent du tout premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
-| | **`visit_start_pagename`** | [&#x200B; Page &#x200B;](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
+| | **`visit_start_pagename`** | [ Page ](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
 | | **`visit_start_page_url`** | URL du premier accès de la visite. | varchar(255) |
 | | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier accès de la visite. | int |
 | | **`weekly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |

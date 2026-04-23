@@ -3,7 +3,7 @@ description: Le type de suivi détermine la manière dont l’implémentation d�
 title: Type de tracking
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 29%
@@ -18,7 +18,7 @@ Le type de suivi détermine la manière dont l’implémentation d’Adobe Analy
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -26,7 +26,7 @@ Deux modes de suivi sont pris en charge : [!UICONTROL Auto] et [!UICONTROL Manue
 
 ## [!UICONTROL Suivi automatique] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-Le suivi [!UICONTROL automatique] permet au moteur Advertising Cloud de décider comment les données du moteur de recherche doivent être traitées. Le suivi automatique est l’approche la plus simple, mais peut ne pas aboutir au jeu de données le mieux intégré.
+Le suivi [!UICONTROL automatique] permet au moteur Adobe Advertising de décider comment les données du moteur de recherche doivent être traitées. Le suivi automatique est l’approche la plus simple, mais peut ne pas aboutir au jeu de données le mieux intégré.
 
 Par conséquent, vous devez cocher une case d’accusé de réception lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre de compte.
 
@@ -37,7 +37,7 @@ Notez que pour configurer un compte de moteur de recherche avec le type **[!UICO
 
 >[!IMPORTANT]
 >
->Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/fr/docs/id-service/using/reference/csp).
+>Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Suivi manuel {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est aff
 
 >[!IMPORTANT]
 >
->La valeur _`<Advertising Analytics ID>`_(en **gras**&#x200B;ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
+>La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
 
 **Chaîne de suivi pour les campagnes :**
 

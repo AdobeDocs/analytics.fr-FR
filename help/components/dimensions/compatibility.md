@@ -3,10 +3,10 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 60%
+source-wordcount: '894'
+ht-degree: 55%
 
 ---
 
@@ -30,7 +30,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Villes](cities.md) | `geocity` |
 | [Codage des couleurs](color-depth.md) | `colordepth` |
 | [Type de connexion](connection-type.md) | `connectiontype` |
-| [&#x200B; Prise en charge des cookies &#x200B;](cookie-support.md) | `cookie` |
+| [ Prise en charge des cookies ](cookie-support.md) | `cookie` |
 | [Pays](countries.md) | `geocountry` |
 | [Fidélité de la clientèle](customer-loyalty.md) | `customerloyalty` |
 | [Vars de conversion personnalisées](evar.md) | `evar1`, `evar2`, etc. |
@@ -47,10 +47,10 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Détails du canal Première touche](first-touch-detail.md) | `firsttouchchanneldetail` |
 | [Compatible Java](java-enabled.md) | `javaenabled` |
 | [Langue](language.md) | `language` |
-| [&#x200B; Canal Dernière touche &#x200B;](last-touch-channel.md) | `lasttouchchannel` |
-| [&#x200B; Détails du canal Dernière touche &#x200B;](last-touch-detail.md) | `lasttouchchanneldetail` |
+| [ Canal Dernière touche ](last-touch-channel.md) | `lasttouchchannel` |
+| [ Détails du canal Dernière touche ](last-touch-detail.md) | `lasttouchchanneldetail` |
 | Variables de liste | `listvariables` |
-| [&#x200B; Canal marketing &#x200B;](marketing-channel.md) | `marketingchannel` |
+| [ Canal marketing ](marketing-channel.md) | `marketingchannel` |
 | [Prise en charge audio mobile](mobile-dimensions.md) | `mobileaudiosupport` |
 | [Opérateur de téléphonie mobile](mobile-dimensions.md) | `mobilecarrier` |
 | [Profondeur de couleur mobile](mobile-dimensions.md) | `mobilecolordepth` |
@@ -58,7 +58,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Appareil mobile](mobile-dimensions.md) | `mobiledevicename` |
 | [Type d’appareil mobile](mobile-dimensions.md) | `mobiledevicetype` |
 | [Mobile - Longueur max. d’e-mail](mobile-dimensions.md) | `mobileemaillength` |
-| [&#x200B; Prise en charge des images mobiles &#x200B;](mobile-dimensions.md) | `mobileimagesupport` |
+| [ Prise en charge des images mobiles ](mobile-dimensions.md) | `mobileimagesupport` |
 | [Fabricant du dispositif portable](mobile-dimensions.md) | `mobilemanufacturer` |
 | [Système d’exploitation mobile (obsolète)](mobile-dimensions.md) | `mobileos` |
 | [Hauteur d’écran du dispositif portable](mobile-dimensions.md) | `mobilescreenheight` |
@@ -80,7 +80,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | SC-TnT | `tntbase` |
 | [Moteur de recherche](search-engine.md) | `searchengine` |
 | [Mot-clé de recherche](search-keyword.md) | `searchenginekeyword` |
-| [&#x200B; Moteur de recherche - Naturel &#x200B;](search-engine.md) | `searchenginenatural` |
+| [ Moteur de recherche - Naturel ](search-engine.md) | `searchenginenatural` |
 | [Moteur de recherche - Payant](search-engine.md) | `searchenginepaid` |
 | [Mot-clé de recherche - Naturel](search-keyword.md) | `searchenginenaturalkeyword` |
 | [Mot-clé de recherche - Payant](search-keyword.md) | `searchenginepaidkeyword` |
@@ -91,7 +91,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Temps passé par visite - Granulaire](time-spent-per-visit.md) | `sitetime` |
 | [Code de suivi](tracking-code.md) | `campaign` |
 | [DMA États-Unis](us-dma.md) | `geodma` |
-| [&#x200B; États américains &#x200B;](us-states.md) | `state` |
+| [ États américains ](us-states.md) | `state` |
 | [Durée avant événement](time-prior-to-event.md) | `timeprior` |
 | [Durée par visite - Regroupement](time-spent-per-visit.md) | `timespent` |
 | [Profondeur de visite](visit-depth.md) | `pathlength` |
@@ -163,40 +163,40 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 |--- |--- |
 | [Contenu](sm-core.md) | `video` |
 | [Segment de contenu](sm-core.md) | `videosegment` |
-| [Type de contenu](sm-core.md) | `videocontenttype` |
+| [ Type de contenu ](sm-core.md) | `videocontenttype` |
 | [Nom du lecteur de publicités](sm-ads.md) | `videoadplayername` |
 | [Position de la publicité dans la capsule](sm-ads.md) | `videoadinpod` |
-| [Perte d’images](sm-quality.md) | `videoqoedroppedframecountevar` |
+| [Images perdues](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [Erreurs](sm-quality.md) | `videoqoeerrorcountevar` |
 | [Débit moyen](sm-quality.md) | `videoqoebitrateaverageevar` |
 | [Changements de débit](sm-quality.md) | `videoqoebitratechangecountevar` |
 | [Durée totale de la mémoire tampon](sm-quality.md) | `videoqoebuffertimeevar` |
 | [Événements de mémoire tampon](sm-quality.md) | `videoqoebuffercountevar` |
-| [Temps jusqu’au début](sm-quality.md) | `videoqoetimetostartevar` |
-| [Capsule publicitaire](sm-ads.md) | `videoadpod` |
+| [Heure de commencer](sm-quality.md) | `videoqoetimetostartevar` |
+| [capsule publicitaire](sm-ads.md) | `videoadpod` |
 | [Chemin d’accès au média](sm-core.md) | `videopath` |
-| [Publicité](sm-ads.md) | `videoad` |
+| [Annonce](sm-ads.md) | `videoad` |
 | [Nom du lecteur de contenu](sm-core.md) | `videoplayername` |
-| [Canal de contenu](sm-core.md) | `videochannel` |
+| [ Canal de contenu ](sm-core.md) | `videochannel` |
 | [Chapitre](sm-chapters.md) | `videochapter` |
 | [Nom du contenu (variable)](sm-core.md) | `videoname` |
-| [Durée du contenu (variable)](sm-core.md) | `videolength` |
+| [Longueur du contenu (variable)](sm-core.md) | `videolength` |
 | [Nom de l’annonce publicitaire (variable)](sm-ads.md) | `videoadname` |
 | [Longueur de l’annonce publicitaire (variable)](sm-ads.md) | `videoadlength` |
-| [Programme](sm-video-metadata.md) | `videoshow` |
-| [Saison](sm-video-metadata.md) | `videoseason` |
+| [Afficher](sm-video-metadata.md) | `videoshow` |
+| [ Saison ](sm-video-metadata.md) | `videoseason` |
 | [Épisode](sm-video-metadata.md) | `videoepisode` |
 | [Réseau](sm-video-metadata.md) | `videonetwork` |
-| [Type de programme](sm-video-metadata.md) | `videoshowtype` |
+| [Afficher le type](sm-video-metadata.md) | `videoshowtype` |
 | [Chargements publicitaires](sm-ads.md) | `videoadload` |
-| [MVPD](sm-video-metadata.md) | `videomvpd` |
-| [Partie de la journée](sm-video-metadata.md) | `videodaypart` |
-| [Annonceur](sm-ads.md) | `videoadadvertiser` |
+| [](sm-video-metadata.md) | `videomvpd` |
+| [Jour](sm-video-metadata.md) | `videodaypart` |
+| [Publicitaire](sm-ads.md) | `videoadadvertiser` |
 | [ID de campagne](sm-ads.md) | `videoadcampaign` |
 | [Genre](sm-video-metadata.md) | `videogenre` |
-| [Type de diffusion](sm-core.md) | `videostreamtype` |
-| [ID d’erreur du SDK du lecteur](sm-quality.md) | `videoqoeplayersdkerrors` |
-| [ID d’erreur externes](sm-quality.md) | `videoqoeextneralerrors` |
+| [Type de flux](sm-core.md) | `videostreamtype` |
+| [ID d’erreur du lecteur SDK](sm-quality.md) | `videoqoeplayersdkerrors` |
+| [ID d’erreur externe](sm-quality.md) | `videoqoeextneralerrors` |
 | [Type de flux multimédia](sm-video-metadata.md) | `videofeedtype` |
 | [Chemin du média d’entrée](entry-dimensions.md) | `entryvideopath` |
 | [Quitter le chemin du média](exit-dimensions.md) | `exitvideopath` |
@@ -268,21 +268,21 @@ Adobe Social a été mis hors service.
 | [Proximité de la balise d’entrée](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [Quitter la proximité de la balise](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
 | AMO EF ID | `amo_ef_id` |
 | ID AMO | `amo_cid` |
 
-### Activity Map
+### Activity Map
 
 | Nom de la dimension (visible dans l’interface utilisateur d’Analytics) | ID de dimension (utilisé dans les requêtes API) |
 |--- |--- |
-| [Lien Activity Map Par Région](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
-| [Région Activity Map](activity-map-region.md) | `clickmapregion` |
-| [Lien Activity Map](activity-map-link.md) | `clickmaplink` |
-| [Page Activity Map](activity-map-page.md) | `clickmappage` |
+| [Lien d’Activity Map par région](activity-map-link-by-region.md) | `clickmaplinkbyregion` |
+| [Région d’Activity Map](activity-map-region.md) | `clickmapregion` |
+| [Lien d’Activity Map](activity-map-link.md) | `clickmaplink` |
+| [Page d’Activity Map](activity-map-page.md) | `clickmappage` |
 
 ### Intégration Nielsen
 

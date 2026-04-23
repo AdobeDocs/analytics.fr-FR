@@ -5,10 +5,10 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 68%
+source-wordcount: '1317'
+ht-degree: 69%
 
 ---
 
@@ -43,7 +43,7 @@ Les options de configuration suivantes sont actuellement disponibles pour les su
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Démarrage d’une nouvelle visite avec l’événement](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Démarrage d’une nouvelle visite avec l’événement](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -58,12 +58,12 @@ En outre, le traitement de la période de rapport traite uniquement les données
 Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitement de la période de rapport :
 
 * **Analytics for Target**
-* **Dimensions/mesures Analytics for Advertising Cloud**
+* [**dimensions/mesures **](/help/components/dimensions/amo-id.md)
 * **eVars de compteur**
 * [**Jours Avant Le Premier Achat**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Jours Depuis Le Dernier Achat**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Jours Depuis La Dernière Visite**](/help/components/dimensions/days-since-last-visit.md)
-* **Page d’entrée originale**
+* [**Page d’entrée originale**](/help/components/dimensions/entry-dimensions.md)
 * **eVars d’affectation linéaire**
 * **Vars de liste**
 * [**Dimensions Canaux marketing**](/help/components/dimensions/marketing-channel.md)
