@@ -24,11 +24,11 @@ Non, cette fonctionnalité est disponible pour les clients non-Advertising. Les 
 
 Advertising Analytics est disponible pour Adobe Analytics
 
-* [ Sélectionner ](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
+* [&#x200B; Sélectionner &#x200B;](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
 
-* [](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
+* [&#128279;](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
 
-* [](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
+* [&#128279;](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 

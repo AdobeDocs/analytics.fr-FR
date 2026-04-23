@@ -58,7 +58,7 @@ En outre, le traitement de la période de rapport traite uniquement les données
 Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitement de la période de rapport :
 
 * **Analytics for Target**
-* [**dimensions/mesures **](/help/components/dimensions/amo-id.md)
+* [**dimensions/mesures &#x200B;**](/help/components/dimensions/amo-id.md)
 * **eVars de compteur**
 * [**Jours Avant Le Premier Achat**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Jours Depuis Le Dernier Achat**](/help/components/dimensions/days-since-last-purchase.md)
