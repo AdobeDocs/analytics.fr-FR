@@ -1,14 +1,15 @@
 ---
 title: Schéma de l’ensemble de classifications
-description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
+description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications dans Adobe Analytics. Ajouter, charger, télécharger ou automatiser des données de classification à l’aide d’emplacements cloud.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
+source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1618'
 ht-degree: 7%
 
 ---
+
 
 # Schéma du jeu de classifications
 
@@ -36,7 +37,7 @@ La liste des classifications comporte les colonnes suivantes :
 | Colonne | Description |
 |---|---|
 | **[!UICONTROL Nom de la classification]** | Nom que vous avez fourni pour la classification. |
-| **[!UICONTROL Nom de l’identité]** | Nom dérivé par le système pour la classification. Ce nom est une valeur en lecture seule que vous pouvez utiliser comme nom d’identité |
+| **[!UICONTROL Nom de l’identité]** | Nom généré par le système pour la classification. Ce nom est une valeur en lecture seule et vous pouvez utiliser le nom d’identité. |
 | **[!UICONTROL Classé par]** | S’il est utilisé, un lien vers l’ensemble de classifications de recherche utilisé pour classer cette classification. |
 
 
@@ -65,8 +66,6 @@ Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/
 ![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
 Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**&#x200B;et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
-
-
 
 ### Charger
 
@@ -119,7 +118,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du
    * **[!UICONTROL valeurs séparées par des virgules]** (CSV).
    * **[!UICONTROL Valeurs séparées par des tabulations Excel]** (TSV ou TAB).
 
-1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Codage du fichier]**. Les options sont les suivantes :
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Encodage du fichier]**. Les options sont les suivantes :
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -141,7 +140,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
    * **[!UICONTROL Valeurs séparées par des virgules]**.
    * **[!UICONTROL Valeurs séparées par des tabulations Excel]**.
 
-1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage de fichier. Les options sont les suivantes :
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Encodage du fichier]**. Les options sont les suivantes :
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -198,13 +197,13 @@ Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplaceme
    * **[!UICONTROL Barre verticale |]**
    * **[!UICONTROL Espace]**
    * **[!UICONTROL Tabulation]**
-1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Codage du fichier]**. Les options sont les suivantes :
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Encodage du fichier]**. Les options sont les suivantes :
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
 1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
-1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée. Si la validation est réussie, un message toast s’affiche ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
+1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée. Si la validation est réussie, un message toast s’affiche, affichant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
 
 Lorsque vous chargez des fichiers vers l’emplacement cloud, dans les 15 minutes, le fichier est détecté et envoyé en tant que tâche d’importation. Le résultat de cette tâche d’importation est indiqué dans le [Gestionnaire des tâches de classifications](/help/components/classifications/sets/job-manager.md). Si vous êtes ajouté à la liste des utilisateurs à avertir de la fin des tâches d’ingestion, vous recevez également des e-mails.
 
