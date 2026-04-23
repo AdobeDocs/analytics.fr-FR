@@ -3,16 +3,16 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d93f0cac9744f22bcd93f046503cf7822e5ebc41
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1616'
 ht-degree: 7%
 
 ---
 
 # Schéma du jeu de classifications
 
-Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si vous avez défini produit comme dimension clé et que ce champ contient un SKU de produit, vous utilisez le schéma pour ajouter des classifications telles que le nom du produit, la couleur du produit, la taille du produit, etc.
+Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si vous avez défini product comme dimension clé et que ce champ contient un SKU de produit, utilisez le schéma pour ajouter des classifications telles que le nom, la couleur et la taille du produit.
 
 Pour modifier le schéma d’un ensemble de classifications :
 
@@ -64,7 +64,7 @@ Pour ajouter une nouvelle classification, sélectionnez ![Ajouter](/help/assets/
 
 ![Jeux de classifications - Ajoutez une classification au schéma](assets/classification-sets-schema-add-classification.png)
 
-Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**&#x200B;et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
+Dans la boîte de dialogue **[!UICONTROL Ajouter une nouvelle classification pour _nom du jeu de classifications_]**, saisissez le **[!UICONTROL Nom de la classification]**et sélectionnez **[!UICONTROL Ajouter]**. La classification est ajoutée à la liste.
 
 
 
@@ -107,7 +107,7 @@ Pour télécharger des données de classification, sélectionnez ![Télécharger
 Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du jeu de classifications_]**:
 
 1. Saisissez le nombre de **[!UICONTROL Lignes]** à télécharger. Par exemple : `10000`.
-1. Pour sélectionner la période pendant laquelle vous souhaitez télécharger des lignes de données de classification, saisissez des données de début et de fin pour **[!UICONTROL Télécharger les lignes reçues entre]**. Ou utilisez ![Calendrier](/help/assets/icons/Calendar.svg) pour utiliser une fenêtre contextuelle de calendrier afin de sélectionner la période.
+1. Pour sélectionner la période pendant laquelle vous souhaitez télécharger des lignes de données de classification, saisissez une date de début et une date de fin pour **[!UICONTROL Télécharger les lignes reçues entre]**. Ou utilisez ![Calendrier](/help/assets/icons/Calendar.svg) pour utiliser une fenêtre contextuelle de calendrier afin de sélectionner la période.
 1. Pour sélectionner les données à renvoyer, sélectionnez une option dans **[!UICONTROL Données renvoyées]**.
 
    * **[!UICONTROL Toutes les valeurs]** renvoie toutes les valeurs des données de classification actives.
@@ -119,7 +119,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du
    * **[!UICONTROL valeurs séparées par des virgules]** (CSV).
    * **[!UICONTROL Valeurs séparées par des tabulations Excel]** (TSV ou TAB).
 
-1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage de fichier. Les options sont les suivantes :
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, 2. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage du fichier. Les options sont les suivantes :
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -146,7 +146,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger le modèle de données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Il est intitulé <code><i>Ensemble de classifications</i>.<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.
+1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger le modèle de données de classification. Le fichier téléchargé se trouve dans le répertoire de téléchargement par défaut de votre navigateur. Le fichier est intitulé <code><i>Ensemble de classifications</i>.<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.
 
 
 ### Automatiser {#automate}
@@ -166,8 +166,6 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
 >additional-url="https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-locations" text="Configurer des emplacements d’export et d’import cloud"
 
 Vous pouvez automatiser l’ingestion des données de classification par le biais de la configuration et de l’utilisation de comptes et d’emplacements cloud.
-
-
 
 >[!IMPORTANT]
 >L’automatisation de l’ingestion des classifications à partir des comptes cloud nécessite que vous (ou votre administrateur réseau) spécifiiez des plages d’adresses IP pour permettre l’ingestion de données dans votre réseau. Configurez une ou plusieurs plages d’adresses IP en fonction de l’emplacement des centres de données Analytics que vous utilisez.
@@ -206,14 +204,18 @@ Dans la boîte de dialogue **[!UICONTROL Associer / Mettre à jour l’emplaceme
    * **[!UICONTROL Latin-1]**.
 
 1. Pour informer les utilisateurs et utilisatrices de la fin des tâches d’ingestion, saisissez des adresses e-mail, séparées par des virgules, pour que **[!UICONTROL E-mail(s) à informer de la fin des tâches d’ingestion (séparées par des virgules)]**.
-1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée.
-1. Si la validation est réussie, un message toast s’affiche indiquant ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez&#x200B;**[!UICONTROL &#x200B; Enregistrer &#x200B;]**&#x200B;si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez&#x200B;**[!UICONTROL &#x200B; Mettre à jour &#x200B;]**. Ou sélectionnez&#x200B;**[!UICONTROL &#x200B; Annuler &#x200B;]**&#x200B;pour annuler la configuration de l’emplacement du cloud.
+1. Sélectionnez **[!UICONTROL Valider]**. La connexion à l’emplacement cloud est validée. Si la validation est réussie, un message toast s’affiche ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Validation de l’emplacement réussie. La connexion à l’espace de stockage dans le cloud est vérifiée.]**<br/>Sélectionnez**[!UICONTROL  Enregistrer ]**si vous avez créé la connexion à la connexion cloud. Sinon, sélectionnez**[!UICONTROL  Mettre à jour ]**. Ou sélectionnez**[!UICONTROL  Annuler ]**pour annuler la configuration de l’emplacement du cloud.
 
 Lorsque vous chargez des fichiers vers l’emplacement cloud, dans les 15 minutes, le fichier est détecté et envoyé en tant que tâche d’importation. Le résultat de cette tâche d’importation est indiqué dans le [Gestionnaire des tâches de classifications](/help/components/classifications/sets/job-manager.md). Si vous êtes ajouté à la liste des utilisateurs à avertir de la fin des tâches d’ingestion, vous recevez également des e-mails.
 
 Par exemple :
 
 ![Jeux de classifications - E-mail de validation de tâche](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>Supprimez les fichiers de l’emplacement cloud manuellement ou en utilisant une rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités lors de la tâche d’importation suivante.
+
 
 
 ## Barre d’actions
@@ -225,4 +227,4 @@ La barre d’actions affiche les actions disponibles pour la classification sél
 | ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
 | ![Cercle - Suppression](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez le **[!UICONTROL nom de la classification]** d’une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _nom de la classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer la classification. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**s’affiche. Sélectionnez **[!UICONTROL Supprimer]**pour supprimer la classification. |
