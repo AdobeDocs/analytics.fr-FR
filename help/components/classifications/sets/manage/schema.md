@@ -3,9 +3,9 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications individuel.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1605'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du
    * **[!UICONTROL valeurs séparées par des virgules]** (CSV).
    * **[!UICONTROL Valeurs séparées par des tabulations Excel]** (TSV ou TAB).
 
-1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) au moment du téléchargement du fichier, 2. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant Codage du fichier. Les options sont les suivantes :
+1. Pour sélectionner le [codage du fichier](/help/components/classifications/sets/data-files.md#general-file-requirements) lors du téléchargement du fichier, sélectionnez une option dans le menu déroulant **[!UICONTROL Codage du fichier]**. Les options sont les suivantes :
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
