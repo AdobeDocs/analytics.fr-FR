@@ -3,7 +3,7 @@ title: Exigences de sécurité pour les serveurs FTP et SFTP
 description: Découvrez les exigences de sécurité des serveurs FTP et SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Cette page couvre les exigences de sécurité des serveurs FTP et SFTP existants
 >Les FTP et SFTP sont des types de destination hérités. Plutôt que de mettre à niveau les comptes FTP vers SFTP et de faire pivoter les mots de passe SFTP comme décrit dans cet article, Adobe recommande de passer à un type de destination cloud moderne (tel qu’Amazon S3, Google Cloud Platform ou Azure). Ces destinations cloud offrent un niveau de sécurité plus élevé. Pour plus d’informations, voir [Configuration des comptes d’import et d’export cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Si les comptes FTP et SFTP sont utilisés exclusivement pour les classifications, migrez vers les ensembles de classifications.**
->Si votre compte FTP ou SFTP est utilisé exclusivement pour les classifications, vous devez migrer de l’**importateur de classifications** vers les **ensembles de classifications**, plutôt que de mettre à niveau les comptes FTP vers SFTP et de faire pivoter les mots de passe SFTP comme décrit dans cet article. L’importateur de classifications sera obsolète et ne sera plus accessible après le **31 août 2026**. Pour plus d’informations, voir [&#x200B; Présentation des ensembles de classifications &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics/components/classifications/sets/overview).
+>Si votre compte FTP ou SFTP est utilisé exclusivement pour les classifications, vous devez migrer de l’**importateur de classifications** vers les **ensembles de classifications**, plutôt que de mettre à niveau les comptes FTP vers SFTP et de faire pivoter les mots de passe SFTP comme décrit dans cet article. L’importateur de classifications sera obsolète et ne sera plus accessible après le **31 août 2026**. Pour plus d’informations, voir [ Présentation des ensembles de classifications ](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/overview).
 
 ## Conditions préalables
 
@@ -177,7 +177,7 @@ Il peut s’agir d’un serveur FTP hébergé par Adobe ou de votre propre serve
 
 1. Répétez ce processus pour chaque compte SFTP que vous avez créé.
 
-Pour obtenir des instructions détaillées, voir [Configuration des emplacements d’importation et d’exportation cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-locations).
+Pour obtenir des instructions détaillées, voir [Configuration des emplacements d’importation et d’exportation cloud](https://experienceleague.adobe.com/en/docs/analytics/components/locations/configure-import-locations).
 
 ### Étape 3 : modifier les flux de données et les requêtes Data Warehouse pour utiliser la nouvelle destination SFTP
 
@@ -211,7 +211,7 @@ Modifiez chaque requête Data Warehouse planifiée configurée avec l’ancienne
 
 1. Sur la page Data Warehouse, sélectionnez la requête à modifier.
 
-   ![Gérer une requête](/help/technotes/assets/dw-manage-request.png)
+   ![Gérer une requête](assets/dw-manage-request.png)
 
 1. Sélectionnez [!UICONTROL **Modifier**].
 
