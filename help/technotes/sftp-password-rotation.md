@@ -3,10 +3,10 @@ title: Exigences de sécurité pour les serveurs FTP et SFTP
 description: Découvrez les exigences de sécurité des serveurs FTP et SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
-ht-degree: 2%
+source-wordcount: '1933'
+ht-degree: 3%
 
 ---
 
@@ -211,7 +211,7 @@ Modifiez chaque requête Data Warehouse planifiée configurée avec l’ancienne
 
 1. Sur la page Data Warehouse, sélectionnez la requête à modifier.
 
-   ![Gérer une requête](assets/dw-manage-request.png)
+   ![Gérer une requête](/help/technotes/assets/dw-manage-request.png)
 
 1. Sélectionnez [!UICONTROL **Modifier**].
 
