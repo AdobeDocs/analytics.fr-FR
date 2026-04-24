@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
@@ -110,7 +111,7 @@ ht-degree: 100%
       + [Histogramme](analysis-workspace/visualizations/histogram.md)
       + [Barres horizontales (empilées)](analysis-workspace/visualizations/horizontal-bar.md)
       + [Résumé des mesures clés](analysis-workspace/visualizations/key-metric.md)
-      + [Ligne](analysis-workspace/visualizations/line.md)
+      + [Graphique linéaire](analysis-workspace/visualizations/line.md)
       + [Carte](analysis-workspace/visualizations/map-visualization.md)
       + [Nuage de points](analysis-workspace/visualizations/scatterplot.md)
       + [En-tête de section](/help/analyze/analysis-workspace/visualizations/section-header.md)
@@ -160,7 +161,7 @@ ht-degree: 100%
       + [Questions fréquentes](analysis-workspace/workspace-faq/faq.md)
       + [Optimiser les performances](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [Erreurs et résolution des problèmes](analysis-workspace/workspace-faq/error-messages.md)
-      + [Limites](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Restrictions](analysis-workspace/workspace-faq/aw-limitations.md)
       + [Exigences](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Accessibilité](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
@@ -174,7 +175,7 @@ ht-degree: 100%
    + [Utiliser des segments](report-builder/work-with-segments.md)
    + [Filtrer des dimensions](report-builder/filter-dimensions.md)
    + [Gestion des blocs de données](report-builder/manage-reportbuilder.md)
-   + [Planifier des classeurs pour l’e-mail](report-builder/schedule-reportbuilder.md)
+   + [Planifier des classeurs pour les e-mails](report-builder/schedule-reportbuilder.md)
    + [Planifier des classeurs pour les exports cloud](/help/analyze/report-builder/report-builder-export.md)
    + [Gérer les classeurs planifiés](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
    + [Paramètres de Report Builder](report-builder/report-builder-settings.md)
