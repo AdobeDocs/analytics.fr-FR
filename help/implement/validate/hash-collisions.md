@@ -46,7 +46,7 @@ Les collisions de hachage ne peuvent pas être entièrement éliminées, mais le
 
 >[!MORELIKETHIS]
 >
->* Valeur [[!UICONTROL  Faible trafic ] dans Adobe Analytics](/help/technotes/low-traffic.md)
+>* Valeur [[!UICONTROL &#x200B; Faible trafic &#x200B;] dans Adobe Analytics](/help/technotes/low-traffic.md)
 >* [Présentation des règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
