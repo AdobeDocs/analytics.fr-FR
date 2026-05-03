@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '545'
+ht-degree: 20%
 
 ---
 
@@ -20,8 +20,8 @@ Vous pouvez afficher l’historique des tâches pour chaque flux de données, re
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
->title="Historique des tâches de flux de données"
->abstract="Vous pouvez afficher une liste des tâches liées aux flux de données pour un flux de données donné à partir de cette page. Recherchez des traitements par ID de traitement ou par date de début de la période de traitement. Les informations sur chaque traitement s’affichent dans les colonnes disponibles. Vous pouvez également renvoyer une tâche avec les mêmes données ou retraiter les données source d’une tâche avant de la renvoyer."
+>title="Historique des traitements de flux de données"
+>abstract="Cette page permet d’afficher une liste des traitements de flux de données pour un flux de données en particulier. Recherchez des traitements en fonction de leur ID de demande ou par date de début de la période de demande. Les informations sur chaque traitement s’affichent dans les colonnes disponibles. Vous pouvez également renvoyer un traitement avec les mêmes données ou retraiter les données source d’un traitement avant de le renvoyer."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -85,7 +85,7 @@ Pour renvoyer une ou plusieurs tâches de flux de données :
 
 ## Retraitement des tâches de flux de données
 
-Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [&#x200B; renvoyer une tâche de flux de données &#x200B;](#resend-data-feed-jobs).
+Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [ renvoyer une tâche de flux de données ](#resend-data-feed-jobs).
 
 Pour retraiter une ou plusieurs tâches de flux de données :
 
