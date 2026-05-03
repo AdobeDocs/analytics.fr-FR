@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 15%
+source-wordcount: '1329'
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flu
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="Gestion des flux de données"
->abstract="Vous pouvez afficher, créer et gérer des flux de données à partir de cette page. Recherchez des flux par nom ou ID ou sélectionnez l’icône de filtre pour afficher les filtres disponibles."
+>abstract="Vous pouvez afficher, créer et gérer des flux de données à partir de cette page. Recherchez des flux en fonction de leur nom ou de leur ID ou sélectionnez l’icône de filtre pour afficher les filtres disponibles."
 
 <!-- markdownlint-enable MD034 -->
 
