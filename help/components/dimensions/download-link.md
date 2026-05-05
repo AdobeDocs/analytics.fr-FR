@@ -3,10 +3,10 @@ title: Lien de téléchargement
 description: Nom du lien de téléchargement.
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: a15d2b596c1e8b70e91efb49dd607fdbb0ceec3c
+source-git-commit: 418e8d467ca29267314e14fba99783d0cb3d05a9
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 74%
+source-wordcount: '242'
+ht-degree: 28%
 
 ---
 
@@ -14,15 +14,21 @@ ht-degree: 74%
 
 La dimension [Lien de téléchargement](overview.md) indique les noms des liens de téléchargement implémentés sur votre site. Cette dimension est utile pour en savoir plus sur le comportement des visiteurs vis-à-vis des liens de téléchargement, par exemple :
 
-* Savoir quels fichiers sont téléchargés le plus souvent de votre site.
-* Déterminer si certains fichiers sont téléchargés plus souvent pendant des périodes spécifiques.
-* Vérifier que les visiteurs téléchargent différents types de fichier s’ils sont proposés.
+* Les fichiers les plus fréquemment téléchargés à partir de votre site.
+* Si certains fichiers sont téléchargés plus souvent pendant des périodes spécifiques.
+* Indique si les visiteurs téléchargent différents types de fichiers lorsqu’ils sont proposés.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension collecte les données de la [`pev2` chaîne de requête &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image pour les accès qui contiennent également la chaîne de requête `pe` avec la valeur `lnk_d`. Si la chaîne de requête `pe` a une valeur différente dans l’accès, cette dimension ne collecte pas de données. La longueur maximale de cette dimension est de 100 octets.
+Cette dimension collecte des données de la chaîne de requête [&#128279;](/help/implement/validate/query-parameters.md) dans les demandes d’image, en fonction de la valeur de la chaîne de requête `pe`. `pev2`La chaîne de requête `pe` détermine la dimension de lien qui reçoit la valeur `pev2` :
 
-Si vous souhaitez envoyer des données à cette dimension à l’aide d’AppMeasurement, envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md) avec un argument de type de lien `"d"`. Renseignez l’argument nom du lien avec la valeur souhaitée :
+* **[Lien personnalisé](custom-link.md)** : `lnk_o`
+* **Lien de téléchargement** (cette page) : `lnk_d`
+* **[Lien de sortie](exit-link.md)** : `lnk_e`
+
+Si `pev2` n’est pas fourni, l’URL du lien (`pev1`) est utilisée comme valeur de dimension à la place. Lorsqu’un nom de lien est explicitement fourni, la longueur maximale est de 100 octets. Les valeurs dérivées de l’URL du lien ne sont pas soumises à cette limite.
+
+Pour remplir cette dimension à l’aide d’AppMeasurement, envoyez une demande d’image [`tl()`](/help/implement/vars/functions/tl-method.md) avec un argument de type lien de `"d"`. Définissez l’argument du nom du lien sur la valeur souhaitée :
 
 ```js
 s.tl(true,"d","Example download link");
@@ -30,4 +36,4 @@ s.tl(true,"d","Example download link");
 
 ## Éléments de dimension
 
-Cette variable étant basée sur une chaîne personnalisée de votre implémentation, votre entreprise détermine les éléments de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins pour les rapports.
+Cette variable étant basée sur une chaîne personnalisée de votre implémentation, votre entreprise détermine les éléments de dimension. Adobe recommande de regrouper les liens en catégories significatives en fonction de vos besoins pour les rapports. Si aucun nom de lien n’est fourni, les éléments de dimension apparaissent plutôt sous la forme d’URL brutes. Ces URL brutes sont plus difficiles à interpréter dans les rapports. Par conséquent, fournissez un nom de lien descriptif chaque fois que possible.
