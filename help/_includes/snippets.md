@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: ht
-source-wordcount: '3047'
-ht-degree: 100%
+source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+workflow-type: tm+mt
+source-wordcount: '3044'
+ht-degree: 98%
 
 ---
 # Extraits
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## Tests limités de la phase de publication {#release-limited-testing}
+## Phase de tests limités de publication {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
@@ -82,7 +82,7 @@ Un modèle d’attribution détermine les éléments de dimension crédités pou
 | ![Inverse J](/help/assets/icons/AttributeInverseJ.svg) | En forme de J inversé | Attribue un crédit de 60 % au premier point de contact, de 20 % au dernier point de contact et divise les 20 % restants entre les autres points de contact. Pour les conversions avec un point de contact unique, un crédit de 100 % est attribué. Pour les conversions avec deux points de contact, un crédit de 75 % est attribué à la première interaction et 25 % à la dernière. Semblable à la forme en J, ce modèle d’attribution privilégie la première et la dernière interaction, mais plus fortement la première interaction. |
 | ![Atténuation temporelle](/help/assets/icons/AttributeTimeDecay.svg) | Atténuation temporelle | Suit une atténuation exponentielle avec un paramètre de demi-vie personnalisé, où la valeur par défaut est de sept jours. La pondération de chaque canal dépend de la durée écoulée entre l’initiation du point de contact et la conversion éventuelle. La formule utilisée pour déterminer le crédit est `2^(-t/halflife)`, où `t` correspond à la durée entre un point de contact et une conversion. Tous les points de contact sont alors normalisés à 100 %. Idéal pour les scénarios dans lesquels vous souhaitez mesurer l’attribution par rapport à un événement spécifique et significatif. Plus une conversion se produit longtemps après un événement marketing, plus faible sera le crédit attribué. |
 | ![Personnalisé](/help/assets/icons/AttributeCustom.svg) | Personnalisé | Permet de spécifier les pondérations à attribuer au premier et au dernier point de contact, et à tous les points de contact intermédiaires. Les valeurs spécifiées sont normalisées à 100 %, même si les nombres personnalisés saisis ne totalisent pas 100. Pour les conversions avec un point de contact unique, un crédit de 100 % est attribué. Pour les interactions avec deux points de contact, le paramètre du milieu est ignoré. Les premiers et derniers points de contact sont ensuite normalisés à 100 % et le crédit est attribué en conséquence. Ce modèle est idéal pour les analystes qui souhaitent un contrôle total sur leur modèle d’attribution et qui ont des besoins spécifiques que d’autres modèles d’attribution ne remplissent pas. |
-| ![Algorithmique](/help/assets/icons/AttributeAlgorithmic.svg) | Algorithmique | Utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale de crédit pour la mesure sélectionnée. L’algorithme utilisé pour l’attribution est basé sur le dividende d’Harsanyi de la théorie du jeu coopératif. Le dividende d’Harsanyi est une généralisation de la solution de valeur de Shapley (nommée en honneur de Lloyd Shapley, un lauréat du prix Nobel d’économie) pour distribuer le crédit entre les participants d’un jeu dont les contributions au résultat sont inégales.<br>À haut niveau, l’attribution se calcule comme une coalition d’acteurs à laquelle un excédent doit être équitablement réparti. La répartition de l’excédent de chaque coalition est déterminée en fonction de l’excédent précédemment créé par chaque sous-coalition (ou des éléments de dimension ayant participé précédemment) de façon récurrente. Pour plus de détails, voir les articles originaux de John Harsanyi et de Lloyd Shapley : <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
+| ![Algorithmique](/help/assets/icons/AttributeAlgorithmic.svg) | Algorithmique | Utilise des techniques statistiques pour déterminer de manière dynamique l’allocation optimale de crédit pour la mesure sélectionnée. L’algorithme utilisé pour l’attribution est basé sur le dividende d’Harsanyi de la théorie du jeu coopératif. Le dividende d’Harsanyi est une généralisation de la solution de valeur de Shapley (nommée en honneur de Lloyd Shapley, un lauréat du prix Nobel d’économie) pour distribuer le crédit entre les participants d’un jeu dont les contributions au résultat sont inégales.<br>À haut niveau, l’attribution se calcule comme une coalition d’acteurs à laquelle un excédent doit être équitablement réparti. La répartition de l’excédent de chaque coalition est déterminée en fonction de l’excédent précédemment créé par chaque sous-coalition (ou des éléments de dimension ayant participé précédemment) de façon récurrente. Pour plus de détails, voir les documents originaux de John Harsanyi et Lloyd Shapley : <br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -143,7 +143,6 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 | **Prise en charge des composants dans les nœuds ou les points de contact** | Mesures, éléments de dimension, filtres et périodes. | Mesures, éléments de dimension, filtres et périodes. | Uniquement les éléments de dimension (à l’exception des points de contact de début et de fin) |
 | **Comparer les filtres** | Non | Oui<p>Comparez en vis-à-vis deux filtres du même rapport.</p> | Non |
 | **Interaction avec les composants par glisser-déposer** | Oui | Oui | Non |
-| **Parcours Adobe Journey Optimizer** | Oui</br>Ouvre les parcours de Journey Optimizer pour une analyse et une personnalisation plus approfondies. | Non | Non |
 
 {style="table-layout:auto"}
 
@@ -190,7 +189,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 | Période appliquée | Description |
 |---|---|
-| ![Période](/help/assets/filter-daterange.png){width="300"} | La section Période appliquée vous permet de filtrer par période applicable aux éléments.<ol><li>Sélectionnez une période.</li><li>Dans la fenêtre contextuelle du calendrier, définissez une période ou sélectionnez l’un des paramètres prédéfinis disponibles.<br>Vous pouvez également spécifier une période directement dans la section Période du panneau Filtre.</li></ol><ul><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de périodes modifiées à partir des paramètres prédéfinis par défaut.</li><li>**5︎⃣** : nombre de périodes disponibles pour les éléments résultant du filtre actuel.</li></ul> |
+| ![Période](/help/assets/filter-daterange.png){width="300"} | La section Période appliquée vous permet de filtrer par période applicable aux éléments.<ol><li>Sélectionnez une période.</li><li>Dans la fenêtre contextuelle de calendrier, définissez une période ou sélectionnez l’un des paramètres prédéfinis disponibles.<br>Vous pouvez également définir une période directement dans la section Période du panneau Filtre.</li></ol><ul><li>Les chiffres indiquent ce qui suit :<ul><li>**(1)** : nombre de périodes modifiées à partir des paramètres prédéfinis par défaut.</li><li>**5︎⃣** : nombre de périodes disponibles pour les éléments résultant du filtre actuel.</li></ul> |
 
 
 ## Abandon de l’importateur de classifications {#classification-importer-deprecation}
