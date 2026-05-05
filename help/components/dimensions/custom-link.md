@@ -16,7 +16,7 @@ La [dimension](overview.md) « Lien personnalisé » indique les noms des liens 
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension collecte des données de la chaîne de requête ](/help/implement/validate/query-parameters.md) dans les demandes d’image, en fonction de la valeur de la chaîne de requête `pe`. [`pev2`La chaîne de requête `pe` détermine la dimension de lien qui reçoit la valeur `pev2` :
+Cette dimension collecte des données de la chaîne de requête [&#128279;](/help/implement/validate/query-parameters.md) dans les demandes d’image, en fonction de la valeur de la chaîne de requête `pe`. `pev2`La chaîne de requête `pe` détermine la dimension de lien qui reçoit la valeur `pev2` :
 
 * **Lien personnalisé** (cette page) : `lnk_o`
 * **[Lien de téléchargement](download-link.md)** : `lnk_d`
