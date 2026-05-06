@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;de cet article._
+_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**de cet article._
 
 >[!ENDSHADEBOX]
 
