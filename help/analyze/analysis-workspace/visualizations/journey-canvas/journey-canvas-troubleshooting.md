@@ -4,7 +4,7 @@ title: Résolution des problèmes liés à la zone de travail de parcours
 feature: Visualizations
 hide: true
 role: User, Admin
-source-git-commit: fee3fe30f695c0ef151e998abe45c54c3bce9d31
+source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
@@ -19,7 +19,9 @@ _Cet article présente la visualisation de la zone de travail de Parcours dans_ 
 
 >[!ENDSHADEBOX]
 
-La visualisation de la zone de travail de parcours vous permet d’analyser les parcours de vos utilisateurs, de vos utilisatrices et de votre clientèle, ou encore d’obtenir des informations détaillées à leur sujet.
+{{release-limited-testing}}
+
+La visualisation Zone de travail de parcours vous permet d’analyser les parcours que vous fournissez à vos utilisateurs et utilisatrices et à votre clientèle, et d’obtenir des informations détaillées à leur sujet.
 
 Pour en savoir plus sur la zone de travail de parcours, consultez [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md) et [Configurer une visualisation de la zone de travail de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).
 
