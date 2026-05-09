@@ -3,7 +3,7 @@ title: Gestion des flux de données
 description: Découvrez comment naviguer dans l’interface du flux de données. Découvrez comment créer, modifier et afficher un flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 18%
@@ -173,7 +173,7 @@ Pour ajuster les colonnes visibles du tableau :
       * Supprimé : le flux est supprimé.
       * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
       * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
+      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
    * **Dernière modification** : date de la dernière modification du flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de début** : date du premier traitement de ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de fin** : date du dernier traitement de ce flux. Les flux de données continus ne possèdent pas de date de fin.

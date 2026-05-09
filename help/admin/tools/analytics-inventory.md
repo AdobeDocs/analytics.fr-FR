@@ -4,10 +4,10 @@ title: Inventaire Analytics
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 22%
+source-wordcount: '1224'
+ht-degree: 24%
 
 ---
 
@@ -112,7 +112,7 @@ Les réponses à ces questions vous donneront une idée précise des suites de r
    | Occurrences (90 derniers jours) | La mesure « Occurrences » indique le nombre d’accès pour lesquels une dimension donnée a été définie ou conservée. Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
    | Mesures | Combien de mesures sont définies dans cette suite de rapports ? |
    | Dimensions | Combien de dimensions sont définies dans cette suite de rapports ? |
-   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t) ? |
+   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
    | Canaux marketing activés | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ? |
    | Connecteur source activé | Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
    | Type de calendrier | [Masqué par défaut] Pour plus d&#39;informations, consultez la section [Calendriers personnalisés](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
@@ -192,7 +192,7 @@ User Management sera disponible dans une version ultérieure de l’inventaire A
 
 ## Migration des composants
 
-Grâce à la [&#x200B; Migration des composants &#x200B;](/help/admin/tools/component-migration/component-migration.md), les administrateurs et administratrices d’Adobe Analytics peuvent migrer des projets Analytics et leurs composants associés vers Customer Journey Analytics.
+Grâce à la [ Migration des composants ](/help/admin/tools/component-migration/component-migration.md), les administrateurs et administratrices d’Adobe Analytics peuvent migrer des projets Analytics et leurs composants associés vers Customer Journey Analytics.
 
 Le processus de migration comprend :
 

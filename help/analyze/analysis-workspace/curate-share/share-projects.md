@@ -5,10 +5,10 @@ title: Partager des projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1976'
-ht-degree: 96%
+source-wordcount: '2060'
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ Les [traitements](curate.md) appliqués avant le partage sont répercutés lorsq
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager des projets](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -107,7 +107,7 @@ Si des modifications n’ont pas enregistrées, on vous invite d’abord à enre
 
    Ou
 
-   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traitement et mise à jour]**.) En savoir plus sur le [traitement du projet](/help/analyze/analysis-workspace/curate-share/curate.md).
+   Sélectionnez **[!UICONTROL Traiter et partager]** pour appliquer automatiquement le traitement du projet. (Si le projet a déjà été partagé, sélectionnez **[!UICONTROL Traiter et mettre à jour]**.) En savoir plus sur le [traitement du projet](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Partager un lien vers un projet
 
@@ -157,7 +157,7 @@ Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspa
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager un lien avec tout le monde](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -196,7 +196,7 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
    Toute personne avec laquelle vous partagez le lien peut visualiser le projet Analysis Workspace.
 
-1. (Facultatif) Vous pouvez cliquer sur l’icône **Générer un lien** ![&#x200B; icône Générer un lien](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour supprimer l’accès des personnes qui ont précédemment reçu un lien vers le projet. Un nouveau lien est généré, que vous pouvez partager avec les personnes que vous souhaitez voir accéder au projet.
+1. (Facultatif) Vous pouvez cliquer sur l’icône **Générer un lien** ![ icône Générer un lien](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour supprimer l’accès des personnes qui ont précédemment reçu un lien vers le projet. Un nouveau lien est généré, que vous pouvez partager avec les personnes que vous souhaitez voir accéder au projet.
 
 1. Sélectionnez **[!UICONTROL Fermer]** pour fermer la boîte de dialogue de partage. Vos modifications sont automatiquement enregistrées.
 
@@ -212,7 +212,7 @@ Vous pouvez partager les composants incorporés qui font partie de votre projet.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/327496?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Partager les composants incorporés](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

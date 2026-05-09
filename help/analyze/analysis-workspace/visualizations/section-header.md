@@ -4,10 +4,10 @@ description: Utilisez l’en-tête de section pour insérer un en-tête de secti
 feature: Visualizations
 role: User
 exl-id: 784031bc-fe2a-421d-8f75-7003a6b39051
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 83%
+source-wordcount: '108'
+ht-degree: 58%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 83%
 >[!BEGINSHADEBOX]
 
 
-_Cet article présente la visualisation En-tête de section dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [En-tête de section](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation de l’en-tête de section dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [En-tête de section](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/section-header) pour la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version de cet article._
 
 >[!ENDSHADEBOX]
 
 
-Pour identifier et articuler des sections dans un panneau, vous pouvez insérer une visualisation ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL En-tête de section]** n’importe où dans le panneau.
+Pour identifier et articuler des sections dans un panneau, vous pouvez insérer une visualisation ![PageRule](/help/assets/icons/PageRule.svg) **[!UICONTROL En-tête de section]** n’importe où dans un panneau.
 
 ![En-tête de section](/help/analyze/analysis-workspace/visualizations/assets/section-header.png)
 

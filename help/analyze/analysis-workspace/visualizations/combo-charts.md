@@ -4,10 +4,10 @@ title: Combo
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 96%
+source-wordcount: '618'
+ht-degree: 95%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation d’un graphique combo dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
+_Cet article présente la visualisation d’un graphique combo dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
 
-_Voir la section [Graphique combo](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Voir la section [Graphique combo](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Gardez les éléments suivants à l’esprit :
 
    La sortie ressemble à ce qui suit :
 
-   ![Graphique combo affichant la période en cours dans un graphique en barres et la période de comparaison dans le graphique en courbes &#x200B;](assets/combo-output.png)
+   ![Graphique combo affichant la période en cours dans un graphique en barres et la période de comparaison dans le graphique en courbes ](assets/combo-output.png)
 
    La période en cours s’affiche dans le graphique en barres. Le graphique en courbes représente la période de comparaison. Les points sur le graphique en courbes sont appelés *haltères*.
 

@@ -4,10 +4,10 @@ description: Découvrez comment créer des annotations dans Analysis Workspace.
 role: Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 93%
+source-wordcount: '862'
+ht-degree: 86%
 
 ---
 
@@ -22,10 +22,10 @@ Vous pouvez créer une annotation de la manière suivante :
 
 ![Création d’une annotation](assets/create-annotation.png)
 
-* **A**. Dans l’interface principale, sélectionnez **[!UICONTROL Composants]**, puis **[!UICONTROL Annotations]**. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Ajouter]**] dans le [[!UICONTROL gestionnaire d’annotations]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
-* **B**. Dans un projet Workspace, dans le menu contextuel d’une visualisation, sélectionnez **[!UICONTROL Créer une annotation d’après la sélection]**.
+* **A** Dans l’interface principale, sélectionnez **[!UICONTROL Composants]** puis **[!UICONTROL Annotations]**. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Ajouter]**] dans le [[!UICONTROL gestionnaire d’annotations]](/help/analyze/analysis-workspace/components/annotations/manage-annotations.md).
+* **B**. Dans un projet Workspace, dans le menu contextuel d’une visualisation, sélectionnez **[!UICONTROL Créer une annotation à partir de la sélection]**.
 * **C**. Dans un projet Workspace, dans le menu contextuel d’un graphique linéaire, sélectionnez **[!UICONTROL Annoter la sélection]**.
-* **D**. Dans un projet Workspace, sélectionnez **[!UICONTROL Composants]** dans le menu, puis **[!UICONTROL Créer une annotation]**.
+* **J**. Dans un projet Workspace, sélectionnez **[!UICONTROL Composants]** dans le menu, puis sélectionnez **[!UICONTROL Créer une annotation]**.
 * **E**.  Dans un projet Workspace, utilisez le raccourci **[!UICONTROL Ctrl+Maj+O]** (Windows) ou **[!UICONTROL Shift+Commande+O]** (macOS)
 
 Pour définir l’annotation, vous utilisez le [[!UICONTROL créateur d’annotations]](#annotation-builder).
@@ -37,7 +37,7 @@ Pour définir l’annotation, vous utilisez le [[!UICONTROL créateur d’annota
 >[!CONTEXTUALHELP]
 >id="components_annotations_details"
 >title="Détails des annotations"
->abstract="Les annotations vous permettent de communiquer efficacement à votre organisation les nuances et informations concernant les données contextuelles. Elles vous permettent de lier des événements de calendrier à des dimensions/mesures spécifiques."
+>abstract="Les annotations vous permettent de communiquer efficacement à votre organisation les nuances et informations concernant les données contextuelles. Elles vous permettent de lier les événements du calendrier à des dimensions/mesures spécifiques."
 
 >[!CONTEXTUALHELP]
 >id="components_annotations_scope"

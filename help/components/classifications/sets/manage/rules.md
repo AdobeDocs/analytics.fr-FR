@@ -3,10 +3,10 @@ title: Règles des ensembles de classifications
 description: Découvrez comment utiliser les règles des jeux de classifications pour définir des règles pour les données de classification.
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 15%
+source-wordcount: '1692'
+ht-degree: 13%
 
 ---
 
@@ -34,14 +34,14 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
             * Sélectionnez **[!UICONTROL Migrer les règles]** pour confirmer la migration. Une fois la migration terminée, utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer de nouvelles règles et modifier vos règles migrées existantes.
             * Sélectionnez **[!UICONTROL Annuler]** pour annuler la migration
 
-      * **Recommencer**. Créez des règles de classification à partir de zéro à l’aide de notre nouveau créateur de règles. La solution idéale pour revoir votre logique de classification ou prendre un nouveau départ.
+      * **Recommencer**. Créez de toutes pièces des règles de classification à l’aide du nouveau créateur de règles. Sélectionnez cette option si vous souhaitez reconcevoir votre logique de classification ou repartir de zéro avec de nouvelles règles de classification.
          * Sélectionnez **[!UICONTROL Créer de nouvelles règles]** pour continuer.
          * Dans la boîte de dialogue **[!UICONTROL Confirmer le nouveau démarrage]**, lisez les implications d’un nouveau démarrage.
             * Sélectionnez **[!UICONTROL Démarrer à nouveau]** pour confirmer un nouveau démarrage et ignorer les règles existantes. Utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer des règles.
             * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
 
-      * **Utiliser l’interface héritée**. Continuez à utiliser l’ancienne interface de création de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque cela vous convient.
+      * **Utiliser l’interface héritée**. Continuez à utiliser l’interface précédente du créateur de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque vous êtes prêt(e).
          * Sélectionnez **[!UICONTROL Accéder à l’interface héritée]** pour continuer. Vous accédez à l’interface héritée **[!UICONTROL Créateur de règles de classification]**.
 
    * Si vous avez déjà migré des règles ou créé de nouvelles règles pour un ensemble de classifications, vous accédez directement à l’interface Ensemble de règles .
@@ -63,7 +63,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 | | Nom | Description |
 |---|---|---|
 | 1 | **[!UICONTROL Fonctions]** | Utilisez la zone **[!UICONTROL Fonctions]** pour sélectionner vos fonctions, puis faites-les glisser vers le créateur d’ensembles de règles. |
-| 2 | **Créateur de jeux de règles** | Vous créez votre jeu de règles à l’aide d’une ou de plusieurs règles. Une règle est l’implémentation d’une fonction et est toujours associée à une seule fonction. Une fonction peut comporter plusieurs opérateurs et opératrices. Vous créez une règle en faisant glisser et en déposant une fonction dans le créateur d’ensembles de règles. Le type de fonction définit l’interface de la règle. <br/>Voir la section [Interface des règles](#rule-interface) pour plus d’informations.<br/>Vous pouvez insérer des fonctions n’importe où, et les fonctions sont exécutées en séquence pour déterminer les valeurs finales des classifications.<br/>Utilisez **[!UICONTROL Tout réduire]** pour réduire toutes les règles et **[!UICONTROL Tout développer]** pour développer toutes les règles. |
+| 2 | **Créateur de jeux de règles** | Vous créez votre jeu de règles à l’aide d’une ou de plusieurs règles. Une règle est l’implémentation d’une fonction et est toujours associée à une seule fonction. Une fonction peut comporter plusieurs opérateurs et opératrices. Vous créez une règle en faisant glisser et en déposant une fonction dans le créateur d’ensembles de règles. Le type de fonction définit l’interface de la règle. <br/>Consultez la section [Interface de règle](#rule-interface) pour plus dʼinformations.<br/>Vous pouvez insérer des fonctions n’importe où, et les fonctions sont exécutées en séquence pour déterminer les valeurs finales des classifications.<br/>Utilisez **[!UICONTROL Tout réduire]** pour réduire toutes les règles et **[!UICONTROL Tout développer]** pour développer toutes les règles. |
 | 3 | **[!UICONTROL Statut]** | Affichez le statut et la date de dernière modification de l’ensemble de règles. <br/>Sélectionnez **[!UICONTROL Activer]** pour activer l’ensemble de règles. <br/>Sélectionnez **[!UICONTROL Désactiver]** pour désactiver l’ensemble de règles. |
 | 4 | **[!UICONTROL Recherche en amont]** | Spécifiez l’intervalle de recherche en amont pour l’ensemble de règles.<br/>Sélectionnez une option (de 1 mois à 6 mois) dans le menu déroulant.<br/>Sélectionnez **[!UICONTROL Effectuer une recherche en amont]** pour effectuer une recherche en amont à l’aide de la période de recherche en amont sélectionnée. |
 | 5 | **[!UICONTROL Options de test]** | Utilisez des exemples de valeurs de dimension clés pour tester les classifications : <ul><li>Ajoutez ou collez des valeurs dans la zone de texte **[!UICONTROL Exemples de clés]**.<br/>Cochez la case **[!UICONTROL Mémoriser les exemples de clés]** pour vous assurer que les exemples de clés persistent dans différentes utilisations de l’interface de l’ensemble de règles.</li><li>Sélectionnez **[!UICONTROL Tester l’ensemble de règles]** pour tester l’ensemble de règles.</li></ul> |
@@ -73,7 +73,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +166,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -177,7 +177,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 +++
 
 
-### Correspond à 
+### Correspond à
 
 Définit une classification basée sur une valeur spécifique qui correspond à la valeur de la dimension clé.
 
@@ -225,7 +225,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -315,7 +315,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.

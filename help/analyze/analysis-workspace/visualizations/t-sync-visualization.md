@@ -1,13 +1,13 @@
 ---
 description: Découvrez comment synchroniser un tableau à structure libre ou une source de données avec la visualisation correspondante.
 keywords: Analysis Workspace;Synchroniser une visualisation avec une source de données
-title: Gestion des sources de données
+title: Gérer les sources de données
 feature: Visualizations
 role: User, Admin
 exl-id: 0500b27a-032e-4dc8-98b7-58519ef59368
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 89%
 
 ---
@@ -57,7 +57,7 @@ Managing a data source lets you show the data source or lock the selection. Thes
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/328077?captions=fre_fr&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data source settings](https://video.tv.adobe.com/v/23729?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

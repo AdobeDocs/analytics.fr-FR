@@ -4,9 +4,9 @@ description: Découvrez les fonctions de base des mesures calculées.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3642'
 ht-degree: 51%
 
 ---
@@ -93,7 +93,7 @@ Renvoie la valeur la plus grande d’un ensemble d’éléments de dimension pou
 
 >[!TIP]
 >
->Utilisez une instruction [IF](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le plus performant de votre répartition.
+>Utilisez une instruction [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le plus performant de votre répartition.
 >
 
 ## Column Minimum {#column-minimum}
@@ -123,7 +123,7 @@ Renvoie la valeur la plus petite d’un ensemble d’éléments de dimension pou
 
 >[!TIP]
 >
->Utilisez une instruction [IF](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le moins performant de votre répartition.
+>Utilisez une instruction [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if) telle que **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) pour mettre en surbrillance l’élément le moins performant de votre répartition.
 >
 
 
@@ -430,7 +430,7 @@ Un arrondi sans paramètre de *nombre* est identique à un paramètre de *nombre
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure que vous souhaitez arrondir. |
+| metric | Mesure que vous souhaitez arrondir. |
 | Number | Nombre de chiffres après la virgule à renvoyer. (Si négatif, renvoie des 0 à gauche de la décimale.) |
 
 **Cas d’utilisation** : simplifiez les résultats numériques en les arrondissant à un nombre spécifié de décimales. Cela s’avère utile pour créer des visualisations plus épurées ou pour faciliter la lecture des mesures calculées dans les rapports.

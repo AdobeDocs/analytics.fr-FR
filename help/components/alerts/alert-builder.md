@@ -3,9 +3,9 @@ description: Découvrez comment créer des alertes dans Analysis Workspace.
 title: Créer des alertes
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1032'
 ht-degree: 91%
 
 ---

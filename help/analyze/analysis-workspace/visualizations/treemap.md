@@ -1,14 +1,14 @@
 ---
 description: Découvrez comment afficher des données hiérarchiques (structurées en arborescence) sous la forme d’un ensemble de rectangles imbriqués.
-title: Plan en arborescence
+title: Treemap
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
 feature: Visualizations
 role: User, Admin
 exl-id: e6f175f5-7228-495b-a20a-3276633c1d77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 91%
+source-wordcount: '193'
+ht-degree: 72%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Plan en arborescence dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Plan en arborescence](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/treemap) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Treemap dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Treemap](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/treemap) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
-Utilisez une visualisation ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Plan en arborescence]** pour afficher des données hiérarchiques (structurées en arborescence) sous la forme d’un ensemble de rectangles imbriqués.
+Utilisez une visualisation ![GraphTree](/help/assets/icons/GraphTree.svg) **[!UICONTROL Treemap]** pour afficher des données hiérarchiques (structurées en arborescence) sous la forme d’un ensemble de rectangles imbriqués.
 
 Chaque branche de l’arbre se voit affectée d’un rectangle qui est découpé en une mosaïque de plus petits rectangles représentant les sous-branches.
 
@@ -40,7 +40,7 @@ Avec une visutlisation Treemap, vous pouvez voir des motifs qui seraient diffici
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Treemap](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Treemap](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/treemap-visualization){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

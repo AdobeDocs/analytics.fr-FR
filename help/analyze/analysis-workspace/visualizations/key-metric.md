@@ -4,10 +4,10 @@ title: Synthèse des mesures clés
 feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 95%
+source-wordcount: '961'
+ht-degree: 92%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Synthèse des mesures clés dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Synthèse des mesures clés](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation du résumé des mesures clés dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Résumé des mesures clés](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-La visualisation ![KeyMetric](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Synthèse des mesures clés]** vous permet de visualiser la tendance d’une mesure importante au cours d’une seule période. Il vous permet également de comparer les performances des mesures sur deux périodes. Il offre les avantages de plusieurs visualisations en une seule visualisation :
+La visualisation ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) **[!UICONTROL Synthèse des mesures clés]** vous permet de visualiser le niveau de tendance d’une mesure importante au cours d’une seule période. Il vous permet également de comparer les performances des mesures sur deux périodes. Il offre les avantages de plusieurs visualisations en une seule visualisation :
 
 * La visualisation **[!UICONTROL Ligne]** montre les tendances de la mesure pour les périodes principale et de comparaison.
 
@@ -110,7 +110,7 @@ Dans le cadre des paramètres de visualisation, des paramètres spécifiques de 
 | **[!UICONTROL Afficher le pourcentage de comparaison ainsi que la tendance]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de modification de graphique en courbes de comparaison et de modification de résumé sont n’apparaissent pas dans la vue. |
 | **[!UICONTROL Afficher le nombre total]** | Afficher ou masquer la synthèse des chiffres |
 | **[!UICONTROL Afficher la différence brute]** | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
-| **[!UICONTROL Abréger la valeur]** | Sélectionnez **[!UICONTROL Abréger la valeur]** pour abréger intelligemment la valeur numérique. Lorsque cette option est sélectionnée, saisissez un nombre pour définir le montant de l’abréviation. Par exemple :<br/><table><tr><td>**Valeur d’origine**</td><td>**Abréviation**</td><td>**Résultat**</td></tr><tr><td>12 011 141,25 $</td><td>Non sélectionné</td><td align="right">12 011 141,25 $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 1</td><td align="right">12 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 2</td><td align="right">12,0 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 2</td><td align="right">12,011 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 3</td><td align="right">12,011 M $</td></tr></table> |
+| **[!UICONTROL Abréger la valeur]** | Sélectionnez **[!UICONTROL Abréger la valeur]** pour abréger intelligemment la valeur numérique. Lorsque cette option est sélectionnée, saisissez un nombre pour définir le montant de l’abréviation. Par exemple :<br/><table><tr><td>**Valeur d’origine**</td><td>**Abréviation**</td><td>**Résultat**</td></tr><tr><td>$12,011,141.25</td><td>Non sélectionné</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 1</td><td align="right">12 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 2</td><td align="right">12,0 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 2</td><td align="right">12,011 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 3</td><td align="right">12,011 M $</td></tr></table> |
 
 ## Modifier la visualisation
 
@@ -119,7 +119,7 @@ Une fois la visualisation créée, vous pouvez modifier la configuration d’ori
 1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) dans le coin supérieur droit de la visualisation.
 
 
-   Vous revenez maintenant à la vue de configuration [&#x200B; d’origine](#configure).
+   Vous revenez maintenant à la vue de configuration [ d’origine](#configure).
 
 1. Modifiez la mesure, la période Principale, la période de comparaison ou le segment selon vos préférences.
 

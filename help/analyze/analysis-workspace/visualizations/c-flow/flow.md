@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 95%
+source-wordcount: '334'
+ht-degree: 64%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flux"
->abstract="Analysez le flux des visites ou des visiteurs et visiteuses d’un point de contact à l’autre.<br/><br/>**Paramètres &#x200B;**<br/>**Commence par** : ajoutez une dimension, un élément de dimension ou une mesure pour afficher les principaux points de contact après l’occurrence du composant sélectionné.<br/>**Contient** : ajoutez une dimension ou un élément de dimension pour afficher les principaux points de contact avant et après l’occurrence du composant sélectionné.<br/>**Se termine par** : ajoutez une dimension, un élément de dimension ou une mesure pour afficher les principaux points de contact avant l’occurrence du composant sélectionné.<br/>**Dimension de cheminement** : ajoutez une dimension à utiliser comme chemin d’accès ou de sortie du composant sélectionné."
+>abstract="Analysez le flux des visites ou des visiteurs d’un point de contact à l’autre.<br/><br/>**Paramètres **<br/>**Commence par** : ajoutez une dimension, un élément de dimension ou une mesure pour afficher les points de contact les plus fréquents après l’occurrence du composant sélectionné.<br/>**Contient** : ajoutez une dimension ou un élément de dimension pour afficher les points de contact les plus fréquents avant et après l’occurrence du composant sélectionné.<br/>**Se termine par** : ajoutez une dimension, un élément de dimension ou une mesure pour afficher les principaux points de contact avant l’occurrence du composant sélectionné.<br/>**Dimension de cheminement** : ajoutez une dimension à utiliser comme chemin d’accès ou de sortie du composant sélectionné."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation des flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +47,7 @@ Avec cette visualisation, vous pouvez réaliser les actions suivantes :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Flux](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Flux](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!MORELIKETHIS]
 >
->[Configurer une visualisation Flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configurez une visualisation Flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
@@ -68,7 +68,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation Flux](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Fonctionnalités supplémentaires dans la visualisation Flux](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/understand-your-data-fallout-flow){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

@@ -3,7 +3,7 @@ title: Gestion des tâches relatives aux flux de données
 description: Découvrez comment gérer les tâches individuelles dans les flux de données. Naviguez dans l’interface, utilisez des filtres et des recherches, et recherchez des définitions de colonne.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 20%
@@ -85,7 +85,7 @@ Pour renvoyer une ou plusieurs tâches de flux de données :
 
 ## Retraitement des tâches de flux de données
 
-Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [&#x200B; renvoyer une tâche de flux de données &#x200B;](#resend-data-feed-jobs).
+Lorsque vous retraitez une tâche de flux de données, elle retraite les données source d’une tâche de flux de données et les envoie à nouveau avec les données retraitées. Vous pouvez également [ renvoyer une tâche de flux de données ](#resend-data-feed-jobs).
 
 Pour retraiter une ou plusieurs tâches de flux de données :
 
