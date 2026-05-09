@@ -4,9 +4,9 @@ description: Découvrez comment créer une période que vous pouvez utiliser dan
 feature: Date Ranges
 role: User
 exl-id: 62ce2ca5-4df1-43bf-88ce-3c9f106f4a59
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '540'
 ht-degree: 94%
 
 ---
@@ -53,7 +53,7 @@ La boîte de dialogue **[!UICONTROL Nouvelle période]** ou **[!UICONTROL Modifi
 
 1. Spécifiez un **[!UICONTROL titre]** pour cette période. Par exemple, **[!UICONTROL Trimestriel]**.
 1. Vous pouvez éventuellement spécifier une **[!UICONTROL Description]**.
-1. Organisez le segment en créant ou en appliquant une ou plusieurs **[!UICONTROL Balises]**. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une balise. |
+1. Organisez le segment en créant ou en appliquant une ou plusieurs **[!UICONTROL Balises]**. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
 1. Sélectionnez une **[!UICONTROL Période]** en sélectionnant d’abord la date de début, puis la date de fin.
 Vous pouvez également sélectionner un **[!UICONTROL paramètre prédéfini]** dans le menu déroulant [!UICONTROL *Sélectionner un paramètre prédéfini*].
 

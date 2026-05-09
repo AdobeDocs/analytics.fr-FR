@@ -4,10 +4,10 @@ description: Découvrez comment utiliser et interpréter le panneau Durée de le
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 90%
+source-wordcount: '1192'
+ht-degree: 83%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Temps de lecture de média"
->abstract="Analysez l’évolution de la consommation vidéo, sélectionnez différentes granularités, répartissez et comparez-les.<br/><br/>**Granularité** : sélectionnez une période pour laquelle afficher les visionneuses simultanées.<br/>**Nombre de résumés de panneau (facultatif)** : option permettant d’afficher le nombres de résumés avec les informations sur la date ou l’heure pour chaque ligne. La valeur maximale affiche les informations sur le temps de lecture le plus élevé. La valeur minimale affiche les informations sur la plus basse. La somme affiche les informations sur le temps de lecture total.<br/>**Répartition des séries (facultatif))** : ventilez la visualisation par segments, dimensions, éléments de dimension ou périodes. Vous pouvez afficher jusqu’à 10 lignes à la fois. Les répartition sont limitées à un seul niveau.<br/>**Format de l’heure** : option permettant d’afficher le format de l’heure des visualisations en heures ou en minutes."
+>abstract="Analysez la consommation vidéo sur le long terme, sélectionnez différentes granularités, répartissez et comparez.<br/><br/>**Granularité** : sélectionnez une période pour afficher les observateurs simultanés.<br/>**Nombre de résumés de panneau (facultatif)** : option permettant d’afficher le nombres de résumés avec les informations sur la date ou l’heure pour chaque ligne. La valeur maximale affiche les informations sur le temps de lecture le plus élevé. La valeur minimale affiche les informations sur la plus basse. La somme affiche les informations sur le temps de lecture total.<br/>**Répartition des séries (facultatif)** : ventilez la visualisation par segments, dimensions, éléments de dimension ou périodes. Vous pouvez afficher jusqu’à 10 lignes à la fois. Les répartitions sont limitées à un seul niveau.<br/>**Format de l’heure** : option permettant d’afficher le format de l’heure des visualisations en heures ou en minutes."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente le panneau Temps de lecture de média dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Temps de lecture de média](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +84,7 @@ Vous pouvez configurer le panneau Durée de lecture des médias à lʼaide des p
 | Paramètre | Description |
 |---|---|
 | Période du panneau | La période par défaut du panneau est définie sur Aujourd’hui. Vous pouvez la modifier pour afficher un seul jour ou plusieurs mois à la fois.<br>La visualisation est limitée à 1440 lignes de données (par exemple, 24 heures à une granularité au niveau des minutes). Si une combinaison de période et de granularité génère plus de 1 440 lignes, la granularité est automatiquement mise à jour pour s’adapter à la période complète. |
-| Granularité | La granularité par défaut est définie sur Minute.<br>La visualisation est limitée à 1440 lignes de données (par exemple, 24 heures à une granularité au niveau des minutes). Si une combinaison de période et de granularité génère plus de 1 440 lignes, la granularité est automatiquement mise à jour pour s’adapter à la période complète. |
+| Granularité | La granularité par défaut est définie sur Minute.<br>Cette visualisation est limitée à 1 440 lignes de données (par exemple, 24 heures à une granularité au niveau des minutes). Si une combinaison de période et de granularité génère plus de 1 440 lignes, la granularité est automatiquement mise à jour pour s’adapter à la période complète. |
 | Synthèse des chiffres des panneaux | Pour afficher les détails de date ou dʼheure relatifs à la durée de la lecture, une synthèse des chiffres est disponible. La valeur maximale affiche les détails concernant le pic d’accès simultanés. La valeur minimale affiche les détails du creux. La somme additionne la durée de lecture totale de la sélection. Le panneau nʼindique par défaut que la valeur maximale, mais vous pouvez modifier cette valeur par défaut et afficher la valeur minimale, la valeur totale ou une combinaison des trois valeurs.<br>Si vous utilisez des répartitions, une synthèse des chiffres s’affiche pour chacune d’elles. |
 | Répartition de la série | Vous pouvez éventuellement ventiler votre visualisation par filtres, dimensions, éléments de dimension ou périodes.<p>- Vous pouvez afficher jusqu’à 10 lignes à la fois. Les répartitions sont limitées à un seul niveau.</p><p>- Lorsque vous faites glisser une dimension, les principaux éléments de dimension sont automatiquement sélectionnés en fonction de la période du panneau sélectionnée.</p>- Pour comparer des périodes, faites glisser deux périodes ou plus dans le filtre de répartition de la série. |
 | Format de l’heure | Vous pouvez afficher le temps de lecture en `Hours:Minutes:Seconds` (par défaut) ou en `Minutes` (sʼaffiche en nombres entiers, arrondis à 0,5 vers le haut). |

@@ -4,18 +4,18 @@ title: Gestionnaire des activités de rapport
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 100%
+source-wordcount: '2000'
+ht-degree: 99%
 
 ---
 
 # Afficher l’activité de rapport dans le gestionnaire des activités de rapport
 
-Le [!UICONTROL Gestionnaire des activités de rapport] permet aux administrateurs et administratrices de diagnostiquer et de résoudre rapidement les problèmes de capacité de rapport pendant les heures de pointe de la création de rapports.
+Le [!UICONTROL gestionnaire des activités de rapport] permet aux administrateurs et administratrices de diagnostiquer et de résoudre rapidement les problèmes de capacité de rapport pendant les heures de pointe de la création de rapports.
 
-Pour plus d’informations sur le Gestionnaire des activités de rapport, y compris les principaux avantages et les exigences d’autorisation, voir [Vue d’ensemble du Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md).
+Pour plus d’informations sur le gestionnaire des activités de rapport, y compris les principaux avantages et les exigences d’autorisation, consultez [Vue d’ensemble du gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md).
 
 ## Afficher l’activité de rapports pour toutes les suites de rapports {#view-all-report-suites}
 
@@ -61,7 +61,7 @@ Pour plus d’informations sur le Gestionnaire des activités de rapport, y comp
    | --- | --- |
    | **[!UICONTROL Suite de rapports]** | La suite de rapports de base dont vous surveillez l’activité de création de rapports. |
    | **[!UICONTROL Suites de rapports virtuelles]** | Affiche toutes les suites de rapports virtuelles qui se trouvent dans cette suite de rapports de base. Les suites de rapports virtuelles rendent les demandes de création de rapports plus complexes en raison de niveaux supplémentaires de filtrage et de segmentation appliqués. Toutes les requêtes provenant des suites de rapports virtuelles sont combinées dans la suite de rapports de base. |
-   | **[!UICONTROL Utilisation des capacités]** | Pourcentage de la capacité de création de rapports de la suite de rapports utilisée en temps réel. <p>**Remarque** : une capacité d’utilisation de 100 % ne signifie pas nécessairement que vous devez commencer immédiatement à annuler les demandes de création de rapports. Une capacité d’utilisation de 100 % peut être saine si le temps d’attente moyen est raisonnable. D’un autre côté, une capacité d’utilisation de 100 % peut suggérer un problème si le nombre de demandes en file d’attente augmente également.</p> |
+   | **[!UICONTROL Utilisation des capacités]** | Pourcentage de la capacité de création de rapports de la suite de rapports utilisée en temps réel. <p>**Note** : une capacité d’utilisation de 100 % ne signifie pas nécessairement que vous devez commencer immédiatement à annuler les demandes de création de rapports. Une capacité d’utilisation de 100 % peut être saine si le temps d’attente moyen est raisonnable. D’un autre côté, une capacité d’utilisation de 100 % peut suggérer un problème si le nombre de demandes en file d’attente augmente également.</p> |
    | **[!UICONTROL Demandes en attente]** | Nombre de demandes en attente de traitement. <!-- ??? --> |
    | **[!UICONTROL Durée de la file d’attente]** | Temps d’attente moyen avant que les demandes ne commencent à être traitées. <!-- ???? --> |
    | **[!UICONTROL Statut]** | Les statuts possibles sont les suivants : <ul><li>[!UICONTROL **Actif**] (bleu) : des rapports ont été exécutés sur la suite de rapports au cours des 2 dernières heures. Les données affichées dans le tableau représentent la capacité de création de rapports de la suite de rapports au moment du dernier chargement de la page.</li><li>[!UICONTROL **Inactif**] (gris) : aucun rapport n’a été exécuté sur la suite de rapports au cours des 2 dernières heures. Aucune donnée n’est donc affichée pour la suite de rapports.</li></ul> |
@@ -78,7 +78,7 @@ Pour plus d’informations sur le Gestionnaire des activités de rapport, y comp
 
    <!-- Need to update this screenshot: ![report suite](assets/indiv-report-ste.png) -->
 
-1. (Facultatif) Lorsqu’une connexion se charge pour la première fois dans le Gestionnaire des activités de rapport, les données affichées représentent les mesures d’utilisation actuelles. Pour afficher les mesures mises à jour après le chargement initial, sélectionnez le bouton [!UICONTROL **Actualiser**] pour actualiser manuellement la page.
+1. (Facultatif) Lorsqu’une connexion se charge pour la première fois dans le gestionnaire des activités de rapport, les données affichées représentent les mesures d’utilisation actuelles. Pour afficher les mesures mises à jour après le chargement initial, sélectionnez le bouton [!UICONTROL **Actualiser**] pour actualiser manuellement la page.
 
 1. Utilisez les graphiques et les tableaux disponibles pour comprendre l’activité de création de rapports dans la suite de rapports.
 
@@ -96,7 +96,7 @@ Si les graphiques ne sont pas visibles, sélectionnez le bouton [!UICONTROL **Af
 
 Le graphique d’utilisation montre l’activité de création de rapports pour la suite de rapports sélectionnée au cours des 2 dernières heures.
 
-Pointez sur le graphique pour afficher les points dans le temps où le pourcentage de capacité d’utilisation a été le plus élevé pendant cette minute.
+Passez la souris sur le graphique pour afficher les points dans le temps où le pourcentage de capacité d’utilisation a été le plus élevé pendant cette minute.
 
 * **Axe X** : capacité d’utilisation des rapports au cours des 2 dernières heures.
 * **Axe Y** : pourcentage de capacité d’utilisation des rapports, par minute.
@@ -107,7 +107,7 @@ Pointez sur le graphique pour afficher les points dans le temps où le pourcenta
 
 Le graphique Utilisateurs et utilisatrices distincts montre l’activité de création de rapports pour la suite de rapports sélectionnée au cours des 2 dernières heures.
 
-Pointez sur le graphique pour afficher les points dans le temps où le nombre maximal d’utilisateurs et d’utilisatrices a été le plus élevé pendant cette minute.
+Passez la souris sur le graphique pour afficher les points dans le temps où le nombre maximal d’utilisateurs et d’utilisatrices a été le plus élevé pendant cette minute.
 
 * **Axe X** : activité de création de rapports sur la période des 2 dernières heures.
 * **Axe Y** : nombre d’utilisateurs et d’utilisatrices qui ont envoyé des demandes de création de rapports, par minute.
@@ -129,7 +129,7 @@ Pointez sur le graphique pour afficher les points dans le temps où le nombre ma
 
 Le graphique Mise en file d’attente indique le temps d’attente moyen des demandes de création de rapports dans la file d’attente (en secondes) pour la suite de rapports sélectionnée au cours des 2 dernières heures.
 
-Pointez sur le graphique pour afficher les points dans le temps où le temps d’attente moyen maximal a été le plus élevé pendant cette minute.
+Passez la souris sur le graphique pour afficher les points dans le temps où le temps d’attente moyen maximal a été le plus élevé pendant cette minute.
 
 * **Axe X** : temps d’attente moyen des demandes de création de rapports dans la file d’attente au cours de la période des 2 dernières heures.
 * **Axe Y** : temps d’attente moyen (en secondes).
@@ -164,7 +164,7 @@ Lorsque vous sélectionnez l’onglet [!UICONTROL **Demande**], les colonnes sui
 | [!UICONTROL **Temps d’attente**] | Durée pendant laquelle la demande a été en attente avant d’être traitée. Cette valeur est généralement à « 0 » lorsque la capacité est suffisante. |
 | [!UICONTROL **Application**] | Les applications prises en charge par le [!UICONTROL Gestionnaire des activités de rapport] sont les suivantes : <ul><li>Interface utilisateur d’Analysis Workspace</li><li>Projets planifiés d’espace de travail</li><li>Report Builder</li><li>Interface utilisateur de Builder : Segment, Mesures calculées, Annotations, Audiences, etc.</li><li>Appels d’API à partir de la version d’API 1.4 ou 2.0</li><li>Alertes</li><li>Liens de partage avec tout le monde</li><li>Toute autre application interrogeant le moteur de création de rapports Analytics</li></ul> |
 | [!UICONTROL **Utilisateur ou utilisatrice**] | Personne qui a lancé la demande. <p>**Remarque :** si la valeur de cette colonne est [!UICONTROL **Non reconnu**], cela signifie que la personne se trouve dans une société de connexion pour laquelle vous ne disposez pas des autorisations administratives.</p> |
-| [!UICONTROL **Projet**] | Noms de projets d’espace de travail enregistrés, ID de rapport API, etc. (Les métadonnées peuvent varier d’une application à l’autre.) |
+| [!UICONTROL **Projet**] | Noms de projets Workspace enregistrés, ID de rapport d’API, etc. (les métadonnées peuvent varier d’une application à l’autre.) |
 | [!UICONTROL **Statut**] | Indicateurs de statut : <ul><li>**En cours d’exécution** : la demande est en cours de traitement.</li><li>**En attente** : la demande est en attente de traitement.</li></ul> |
 | [!UICONTROL **Complexité**] | Le traitement de toutes les demandes ne prend pas le même temps. La complexité de la demande peut vous donner une idée générale du temps nécessaire pour traiter la demande. <p>Valeurs possibles :</p> <ul><li>[!UICONTROL **Faible**]</li><li>[!UICONTROL **Moyen**]</li><li>[!UICONTROL **Élevé**]</li></ul>Cette valeur est influencée par les valeurs des colonnes suivantes :<ul><li>[!UICONTROL **Limites mensuelles**]</li><li>[!UICONTROL **Colonnes**]</li><li>[!UICONTROL **Segments**]</li></ul> |
 | [!UICONTROL **Limites mensuelles**] | Nombre de mois inclus dans une demande. Une limite mensuelle importante ajoute à la complexité de la demande. |

@@ -3,10 +3,10 @@ title: Nuage de points
 description: Découvrez comment créer et interpréter des visualisations Nuage de points dans Analysis Workspace pour analyser les relations entre les éléments de dimension et jusqu’à trois mesures.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 65%
+source-wordcount: '252'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Dispersion dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Dispersion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation Dispersion dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Dispersion](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 

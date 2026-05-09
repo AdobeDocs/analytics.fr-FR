@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 95%
+source-wordcount: '727'
+ht-degree: 92%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Carte dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Map](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/map) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation des cartes dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Map](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/map) pour la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) version _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 

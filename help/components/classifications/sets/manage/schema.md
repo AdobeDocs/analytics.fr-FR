@@ -3,10 +3,10 @@ title: Schéma de l’ensemble de classifications
 description: Découvrez comment afficher et modifier le schéma d’un ensemble de classifications dans Adobe Analytics. Ajouter, charger, télécharger ou automatiser des données de classification à l’aide d’emplacements cloud.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 7%
+source-wordcount: '1654'
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du
    * **[!UICONTROL Latin-1]**.
 
 
-1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger les données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Le fichier est intitulé <code><i>Ensemble de classifications</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.<br/>Si vous avez spécifié des options qui ne renvoient aucune donnée, une boîte de dialogue **[!UICONTROL Remarque]** s’affiche pour vous informer de modifier les options de période et de données renvoyées.
+1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger les données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Il s’intitule <code><i>Ensemble de classifications</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.<br/>Si vous avez spécifié des options qui ne renvoient aucune donnée, une boîte de dialogue **[!UICONTROL Remarque]** s’affiche pour vous informer de modifier les options de période et de données renvoyées.
 
 
 ### Modèle
@@ -223,7 +223,7 @@ La barre d’actions affiche les actions disponibles pour la classification sél
 
 | Icône | Action | Description |
 |---|---|---|
-| ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans la table **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
+| ![Parcourir](/help/assets/icons/Browse.svg) | **[!UICONTROL Ajouter une recherche]** | Ajoutez un ensemble de classifications comme recherche (sous-classification).<br/>Dans le tableau **[!UICONTROL Joindre la recherche]** : <ol><li>Sélectionnez une classification de recherche dans le menu déroulant **[!UICONTROL Nom de la classification]**.</li><li>Sélectionnez **[!UICONTROL Ajouter]**.</li></ol>La classification de recherche est ajoutée à la classification et répertoriée dans la colonne **[!UICONTROL Classifié par]** à l’aide de l’identifiant interne. |
 | ![Cercle - Suppression](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez le **[!UICONTROL nom de la classification]** d’une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _nom de la classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer la classification. |

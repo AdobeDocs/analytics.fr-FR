@@ -4,10 +4,10 @@ title: Présentation des abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 95%
+source-wordcount: '289'
+ht-degree: 83%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Abandon dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Abandon](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation des abandons dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Abandon](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/fallout/fallout-flow) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 

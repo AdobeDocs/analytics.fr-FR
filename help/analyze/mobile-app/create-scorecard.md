@@ -4,10 +4,10 @@ title: Créer et partager des cartes de performance mobiles
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '2528'
-ht-degree: 99%
+source-wordcount: '2614'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Une carte de performance Adobe Analytics affiche les visualisations de données 
 
 ![Exemple de Fiche d’évaluation](assets/intro_scorecard.png)
 
-En tant qu’éditeur ou éditrice de cette carte de performance, vous pouvez utiliser le Créateur de cartes de performance pour configurer les vignettes qui apparaissent sur la carte de performance du cadre ou de la cadre. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du Créateur de cartes de performance est illustrée ci-dessous :
+En tant que curateur ou curatrice de cette carte de performance, vous pouvez utiliser le créateur de cartes de performance pour configurer les tuiles qui apparaissent sur la carte de performance de votre consommateur ou consommatrice en charge de lʼexécution. Vous pouvez également configurer la manière dont lʼaffichage des détails ou les répartitions sʼajustent lorsque lʼutilisateur appuie sur les mosaïques. L’interface du créateur de cartes de performance est illustrée ci-dessous :
 
 ![Créateur de cartes de performance](assets/scorecard_builder.png)
 
@@ -68,7 +68,7 @@ Pour implémenter le modèle de carte de performance, procédez comme suit :
 
    ![Sélection de la suite de rapports](assets/properties_save.png)
 
-1. Pour ajouter une nouvelle vignette à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Faire glisser et déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
+1. Pour ajouter une nouvelle tuile à votre carte de performance, faites glisser une mesure depuis le panneau de gauche et déposez-la dans la zone **[!UICONTROL Faire glisser et déposer les mesures ici]**. Vous pouvez également insérer une mesure entre deux mosaïques en utilisant un workflow similaire.
 
    ![Ajouter des mosaïques](assets/build_list.png)
 
@@ -170,7 +170,7 @@ Dans cette visualisation, des barres horizontales représentent plusieurs valeur
 
 ### Suppression des éléments de dimension [!UICONTROL Non spécifiés]
 
-Pour supprimer les éléments de dimension [!UICONTROL Non spécifiés] dans vos données, procédez comme suit :
+Si vous souhaitez supprimer [!UICONTROL Non spécifié] des éléments de dimension de vos données, procédez comme suit :
 
 1. Sélectionnez la mosaïque appropriée.
 1. Dans le rail de droite, sous **[!UICONTROL Analyses]**, sélectionnez la flèche vers la droite en regard de l’élément de dimension pour lequel vous voulez supprimer les éléments **[!UICONTROL Non spécifiés]**.
@@ -310,7 +310,7 @@ Une fois votre histoire de données créée, appuyez sur le bouton **Prévisuali
 
 La barre de navigation affiche des icônes reflétant le contenu de chaque diapositive. La barre de navigation permet d’accéder facilement à une diapositive spécifique si vous disposez de nombreuses diapositives.
 
-Pour accéder à une autre mosaïque ou à des diapositives, appuyez sur la barre de navigation.
+Pour accéder à une autre mosaïque ou diapositive, appuyez sur la barre de navigation.
 
 ![Créer un récit des données](assets/data-story5.png)
 
@@ -340,13 +340,13 @@ Vous pouvez prévisualiser l’aspect et le fonctionnement de la carte de perfor
 
 ## Attribuer un nom à une carte de performance {#name}
 
-Pour attribuer un nom à la carte de performance, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
+Pour nommer la carte de performance, cliquez sur l’espace de noms en haut à gauche de l’écran, puis saisissez le nouveau nom.
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## Partage dʼune carte de performance {#share}
 
-Pour partager la carte de performance avec un cadre ou une cadre, procédez comme suit :
+Pour partager la carte de performance avec un utilisateur ou une utilisatrice en charge de l’exécution, procédez comme suit :
 
 1. Cliquez sur le menu **[!UICONTROL Partager]**, puis sélectionnez **[!UICONTROL Partager la fiche d’évaluation]**.
 

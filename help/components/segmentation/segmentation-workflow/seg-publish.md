@@ -3,10 +3,10 @@ description: Découvrez comment publier des segments pour l’activité marketin
 title: Publier les segments
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 43%
+source-wordcount: '1408'
+ht-degree: 41%
 
 ---
 
@@ -78,7 +78,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 
 | Élément | Description |
 |---|---|
-| **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]** | Lorsque cette option est activée, le titre et la définition du segment sont partagés instantanément avec Experience Cloud, tandis que l’appartenance au segment est évaluée et partagée toutes les 4 heures. <br> Lorsque cette audience est associée à une activité dans [!DNL Target], par exemple, [!DNL Analytics] commence à envoyer les identifiants des visiteurs à inclure dans cette audience Experience Cloud et [!DNL Target]. À ce stade, le nom de l’audience et les données correspondantes commencent à s’afficher sur la page [!DNL Audience Library] dans Experience Cloud. </br> |
+| **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]** | Lorsque cette option est activée, le titre et la définition du segment sont partagés instantanément avec Experience Cloud, tandis que l’appartenance au segment est évaluée et partagée toutes les 4 heures. <br> Lorsque cette audience est associée à une activité dans [!DNL Target], par exemple, [!DNL Analytics] commence à envoyer les identifiants des visiteurs qui remplissent les critères pour cette audience Experience Cloud et [!DNL Target]. À ce stade, le nom de l’audience et les données correspondantes commencent à s’afficher sur la page [!DNL Audience Library] dans Experience Cloud. </br> |
 | **[!UICONTROL Fenêtre de création d’audiences]** | La période que vous sélectionnez est utilisée pour créer l’audience sur une base de calendrier glissant. Par exemple, la mention **[!UICONTROL 30 derniers jours]** (par défaut) inclut les visiteurs qui se sont qualifiés pour l’audience au cours des 30 derniers jours à compter de la date d’aujourd’hui (et NON à compter de la date d’origine de création du segment). |
 | **[!UICONTROL Créer dans la bibliothèque d’audiences]** | Les segments que vous créez et publiez peuvent être disponibles sans latence sur la page [!DNL Audience Library] d’Experience Cloud. Ils ne dépendent pas des mises à jour Analytics. Ces segments ne sont pas pris en compte par rapport à votre limite de 75 segments publiés. |
 | **[!UICONTROL x sur 75 publiés]** | Nombre de segments que vous avez publiés sur Experience Cloud. Cliquez sur le lien pour afficher la liste des segments publiés, ainsi que la suite de rapports et le propriétaire qui y sont associés. |

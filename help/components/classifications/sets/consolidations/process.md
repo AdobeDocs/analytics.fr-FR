@@ -3,9 +3,9 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '998'
 ht-degree: 10%
 
 ---
@@ -127,7 +127,7 @@ Pour approuver une consolidation d&#39;ensemble de classifications :
    * **[!UICONTROL Discordance]** : pourcentage de lignes dont les valeurs de clé ne correspondent pas à l’ensemble de classifications source. Si le pourcentage d’incohérence est élevé, l’incohérence peut indiquer que les données de classification sont trop différentes. Vérifiez et assurez-vous que les ensembles de classifications sélectionnés ont des données de classification similaires.
    * **[!UICONTROL Absent]** : pourcentage de lignes où les valeurs de clé se trouvent dans le jeu de classifications ![Clé](/help/assets/icons/Key.svg) mais pas dans le jeu de classifications source. Toutes les lignes absentes sont ajoutées à l’ensemble de classifications consolidé.
 
-1. Si la consolidation de classification est prête pour approbation, sélectionnez ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuver]**. Une consolidation **[!UICONTROL Valider ?]** boîte de dialogue vous invite à confirmer. Sélectionnez **[!UICONTROL Valider]** pour valider la consolidation. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
+1. Si la consolidation de classification est prête pour approbation, sélectionnez ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuver]**. Une **[!UICONTROL Valider La Consolidation ?]** invite à confirmer l’opération. Sélectionnez **[!UICONTROL Valider]** pour valider la consolidation. Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
 Une fois approuvé, l’ensemble de classifications consolidé est créé. Le statut est défini sur **[!UICONTROL Terminé]**.
 

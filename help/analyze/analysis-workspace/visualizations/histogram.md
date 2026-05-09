@@ -5,10 +5,10 @@ uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 89%
+source-wordcount: '371'
+ht-degree: 78%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Histogramme dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Histogramme](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/histogram) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation de l’histogramme dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Histogramme](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/histogram) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-La visualisation ![Histogramme](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogramme]** est semblable à une visualisation [!UICONTROL Barres], à ceci près qu’elle regroupe les chiffres par classes (intervalles). Analytics automatise la classification des chiffres. Vous pouvez toutefois modifier les paramètres dans les [Paramètres avancés](#advanced-settings).
+La visualisation ![Histogramme](/help/assets/icons/Histogram.svg) **[!UICONTROL Histogramme]** est semblable à un graphique [!UICONTROL Barres], à ceci près qu’elle regroupe les chiffres par classes (compartiments). Analytics automatise la classification des chiffres. Vous pouvez toutefois modifier les paramètres dans les [Paramètres avancés](#advanced-settings).
 
 ## Utilisation
 
@@ -53,7 +53,7 @@ Dans le cadre de la visualisation, des paramètres d’histogramme spécifiques 
 | Paramètres de l’histogramme | Description |
 |---|---|
 | **[!UICONTROL Compartiment de début]** | Détermine par quel intervalle commence l’histogramme. « 1 » par défaut. Peut être défini sur 0 à l’infini (aucun nombre négatif). |
-| **[!UICONTROL Compartiments de mesure]** | Permet d’augmenter ou de réduire le nombre de plages de données (compartiments). Le nombre maximal de compartiments est de 50. |
+| **[!UICONTROL Compartiments de mesure]** | Permet d’augmenter ou de réduire le nombre de plages de données (intervalles). Il ne peut pas y avoir plus de 50 intervalles. |
 | **[!UICONTROL Taille du compartiment de mesure]** | Permet de définir la taille de chaque intervalle. Vous pouvez par exemple modifier la taille de l’intervalle d’une page vue à deux pages vues. |
 | **[!UICONTROL Méthode de comptage]** | Faites votre choix entre **[!UICONTROL Personne]**, **[!UICONTROL Session]** ou **[!UICONTROL Événement]**. Par exemple, pages vues par session ou pages vues par personne ou pages vues par événement. |
 

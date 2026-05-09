@@ -4,10 +4,10 @@ description: Découvrez les fonctions de mesures calculées avancées.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '4799'
-ht-degree: 98%
+source-wordcount: '4863'
+ht-degree: 96%
 
 ---
 
@@ -98,7 +98,7 @@ Un cas d’utilisation courant de cette fonction est lorsque vous souhaitez obte
 
 | Argument | Description |
 |---|---|
-| mesure | Cosinus de l’angle que vous souhaitez obtenir de -1 à 1. |
+| metric | Cosinus de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 
 
@@ -121,7 +121,7 @@ Un cas d’utilisation courant de cette fonction est lorsque vous souhaitez obte
 
 | Argument | Description |
 |---|---|
-| mesure | Sinus de l’angle que vous souhaitez obtenir de -1 à 1. |
+| metric | Sinus de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 
 
@@ -144,7 +144,7 @@ Un cas d’utilisation courant de cette fonction est lorsque vous souhaitez obte
 
 | Argument | Description |
 |---|---|
-| mesure | Tangente de l’angle que vous souhaitez obtenir de -1 à 1. |
+| metric | Tangente de l’angle que vous souhaitez obtenir de -1 à 1. |
 
 
 
@@ -165,7 +165,7 @@ Renvoie la probabilité qu’une variable aléatoire avec une loi de Student t 
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure pour laquelle vous souhaitez utiliser la fonction de distribution cumulée de la loi de Student-t. |
+| metric | Mesure pour laquelle vous souhaitez utiliser la fonction de distribution cumulée de la loi de Student-t. |
 | Nombre | Les degrés de liberté pour la fonction de distribution cumulée de la loi de Student-t |
 
 ### Exemple
@@ -196,7 +196,7 @@ Renvoie la probabilité qu’une variable aléatoire avec une distribution norma
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure pour laquelle vous souhaitez utiliser la fonction de distribution cumulée de la distribution normale standard. |
+| metric | Mesure pour laquelle vous souhaitez utiliser la fonction de distribution cumulée de la distribution normale standard. |
 
 ### Exemples
 
@@ -225,7 +225,7 @@ CDF-Z(-3) ? 0.0013499
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure que vous souhaitez arrondir. |
+| metric | Mesure que vous souhaitez arrondir. |
 
 
 <!--
@@ -319,7 +319,7 @@ Le degré de confiance est une mesure probabiliste de l’ampleur des preuves su
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians que vous souhaitez obtenir pour le cosinus. |
+| metric | Angle en radians que vous souhaitez obtenir pour le cosinus. |
 
 
 ## Racine cubique {#cube-root}
@@ -341,7 +341,7 @@ Renvoie la racine cubique positive d’un nombre. La racine cubique d’un nombr
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure pour laquelle vous souhaitez obtenir la racine cubique. |
+| metric | Mesure pour laquelle vous souhaitez obtenir la racine cubique. |
 
 
 
@@ -352,13 +352,13 @@ Renvoie la racine cubique positive d’un nombre. La racine cubique d’un nombr
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="Cumulatif"
->abstract="Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents."
+>abstract="Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIF(nombre, mesure)]**
 
-Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents.
+Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents.
 
 | Argument | Description |
 | --- | --- |
@@ -381,13 +381,13 @@ Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additi
 >[!CONTEXTUALHELP]
 >id="functions-cumul-avg"
 >title="Cumulé (moyenne)"
->abstract="Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents."
+>abstract="Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL MOYENNE CUMULÉE(nombre, mesure)]**
 
-Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents.
+Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents.
 
 | Argument | Description |
 | --- | --- |
@@ -455,7 +455,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addi
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="Régression exponentielle : Y prédit"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie Y."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -479,7 +479,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addi
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Régression exponentielle : ordonnée à l’origine"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie b."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie b."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -502,7 +502,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addi
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="Régression exponentielle : inclinaison"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie a."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie a."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -536,7 +536,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addi
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure que vous souhaitez arrondir. |
+| metric | Mesure que vous souhaitez arrondir. |
 
 
 ## Supérieur à {#greather-than}
@@ -609,7 +609,7 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians pour lequel vous souhaitez obtenir le cosinus hyperbolique. |
+| metric | Angle en radians pour lequel vous souhaitez obtenir le cosinus hyperbolique. |
 
 
 
@@ -630,7 +630,7 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians pour lequel vous souhaitez obtenir le sinus hyperbolique. |
+| metric | Angle en radians pour lequel vous souhaitez obtenir le sinus hyperbolique. |
 
 
 ## Tangente hyperbolique {#hyperbolic-tangent}
@@ -650,7 +650,7 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians pour lequel vous souhaitez obtenir la tangente hyperbolique. |
+| metric | Angle en radians pour lequel vous souhaitez obtenir la tangente hyperbolique. |
 
 
 ## Si {#if}
@@ -674,7 +674,7 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 |---|---|
 | logical_test | Obligatoire. Toute valeur ou expression pouvant être évaluée avec TRUE ou FALSE |
 | value_if_true | Valeur que vous souhaitez voir renvoyée si l’argument logical_test est évalué sur TRUE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
-| value_if_false | Valeur à renvoyer si l&#39;argument logical_test est évalué sur FALSE. (La valeur par défaut de cet argument est 0 s&#39;il n&#39;est pas inclus.) |
+| value_if_false | Valeur à renvoyer si l&#39;argument logical_test est évalué sur FALSE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
 
 
 ## Inférieur à {#less-than}
@@ -754,14 +754,14 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-linear"
 >title="Régression linéaire : coefficient de corrélation"
->abstract="Régression linéaire : Y = a X + b. Renvoie le coefficient de corrélation."
+>abstract="Régression linéaire : Y = a X + b.  Renvoie le coefficient de corrélation."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LINÉAIRE : COEFFICIENT DE CORRÉLATION(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie le coefficient de corrélation.
+[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b.  Renvoie le coefficient de corrélation.
 
 
 | Argument | Description |
@@ -779,14 +779,14 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-linear"
 >title="Régression linéaire : ordonnée à l’origine"
->abstract="Régression linéaire : Y = a X + b. Renvoie b."
+>abstract="Régression linéaire : Y = a X + b. Renvoie b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LINÉAIRE : INTERCEPTER(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie b.
+[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie b.
 
 
 | Argument | Description |
@@ -804,14 +804,14 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-linear"
 >title="Régression linéaire : Y prédit"
->abstract="Régression linéaire : Y = a X + b. Renvoie Y."
+>abstract="Régression linéaire : Y = a X + b. Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LINÉAIRE : PRÉDITE Y(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Ligne]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie Y.
+[!BADGE Ligne]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie Y.
 
 
 | Argument | Description |
@@ -829,13 +829,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-linear"
 >title="Régression linéaire : inclinaison"
->abstract="Régression linéaire : Y = a X + b. Renvoie a."
+>abstract="Régression linéaire : Y = a X + b. Renvoie a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LINÉAIRE : PENTE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie a.
+[!BADGE Tableau]{type="Neutral"} Régression linéaire : Y = a X + b. Renvoie a.
 
 | Argument | Description |
 |---|---|
@@ -863,7 +863,7 @@ Only available in CJA
 
 | Argument | Description |
 |---|---|
-| mesure | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme base 10. |
+| metric | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme base 10. |
 
 
 ## Régression logarithmique : coefficient de corrélation {#log-regression-correlation-coefficient}
@@ -873,13 +873,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Régression logarithmique : coefficient de corrélation"
->abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie le coefficient de corrélation."
+>abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie le coefficient de corrélation."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LOGARITHMIQUE : COEFFICIENT DE CORRÉLATION(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression logarithmique : Y = a ln(X) + b. Renvoie le coefficient de corrélation.
+[!BADGE Tableau]{type="Neutral"} Régression du journal : Y = a ln(X) + b. Renvoie le coefficient de corrélation.
 
 | Argument | Description |
 |---|---|
@@ -895,13 +895,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-log"
 >title="Régression logarithmique : ordonnée à l’origine"
->abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie b."
+>abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LOGARITHMIQUE : INTERCEPTER(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression logarithmique : Y = a ln(X) + b. Renvoie b.
+[!BADGE Tableau]{type="Neutral"} Régression du journal : Y = a ln(X) + b. Renvoie b.
 
 | Argument | Description |
 |---|---|
@@ -918,13 +918,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
 >title="Régression logarithmique : Y prédit"
->abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie Y."
+>abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LOGARITHMIQUE : PRÉDITE Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Ligne]{type="Neutral"} Régression logarithmique : Y = a ln(X) + b. Renvoie Y.
+[!BADGE Ligne]{type="Neutral"} Régression du journal : Y = a ln(X) + b. Renvoie Y.
 
 | Argument | Description |
 |---|---|
@@ -941,13 +941,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
 >title="Régression logarithmique : inclinaison"
->abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie a."
+>abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION LOGARITHMIQUE : PENTE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression logarithmique : Y = a ln(X) + b. Renvoie a.
+[!BADGE Tableau]{type="Neutral"} Régression du journal : Y = a ln(X) + b. Renvoie a.
 
 | Argument | Description |
 |---|---|
@@ -974,7 +974,7 @@ Renvoie le logarithme népérien d’un nombre. Les logarithmes népériens sont
 
 | Argument | Description |
 |---|---|
-| mesure | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme népérien. |
+| metric | Nombre réel positif pour lequel vous souhaitez obtenir le logarithme népérien. |
 
 
 
@@ -1076,13 +1076,13 @@ Renvoie Pi : 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-power"
 >title="Régression puissance : coefficient de corrélation"
->abstract="Régression puissance : Y = b X ^ a. Renvoie le coefficient de corrélation."
+>abstract="Régression puissance : Y = b X ^ a. Renvoie le coefficient de corrélation."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION DE PUISSANCE : COEFFICIENT DE CORRÉLATION(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression de puissance : Y = b X ^ a. Renvoie le coefficient de corrélation.
+[!BADGE Tableau]{type="Neutral"} Régression de la puissance : Y = b X ^ a. Renvoie le coefficient de corrélation.
 
 | Argument | Description |
 |---|---|
@@ -1099,14 +1099,14 @@ Renvoie Pi : 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-power"
 >title="Régression puissance : ordonnée à l’origine"
->abstract="Régression puissance : Y = b X ^ a. Renvoie b."
+>abstract="Régression puissance : Y = b X ^ a. Renvoie b."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION DE PUISSANCE : INTERCEPTER(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tableau]{type="Neutral"} Régression de puissance : Y = b X ^ a. Renvoie b.
+[!BADGE Tableau]{type="Neutral"} Régression de la puissance : Y = b X ^ a. Renvoie b.
 
 
 | Argument | Description |
@@ -1123,13 +1123,13 @@ Renvoie Pi : 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-power"
 >title="Régression puissance : Y prédit"
->abstract="Régression puissance : Y = b X ^ a. Renvoie Y."
+>abstract="Régression puissance : Y = b X ^ a. Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION DE PUISSANCE : PRÉDITE Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Ligne]{type="Neutral"} Régression de puissance : Y = b X ^ a. Renvoie Y.
+[!BADGE Ligne]{type="Neutral"} Régression de la puissance : Y = b X ^ a. Renvoie Y.
 
 | Argument | Description |
 |---|---|
@@ -1146,13 +1146,13 @@ Renvoie Pi : 3,14159...
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-power"
 >title="Régression puissance : inclinaison"
->abstract="Régression puissance : Y = b X ^ a. Renvoie a."
+>abstract="Régression puissance : Y = b X ^ a. Renvoie a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL RÉGRESSION DE PUISSANCE : PENTE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tableau]{type="Neutral"} Régression de puissance : Y = b X ^ a. Renvoie a.
+[!BADGE Tableau]{type="Neutral"} Régression de la puissance : Y = b X ^ a. Renvoie a.
 
 | Argument | Description |
 |---|---|
@@ -1359,7 +1359,7 @@ Renvoie Pi : 3,14159...
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians pour lequel vous souhaitez obtenir le sinus. |
+| metric | Angle en radians pour lequel vous souhaitez obtenir le sinus. |
 
 
 
@@ -1381,7 +1381,7 @@ Renvoie Pi : 3,14159...
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure pour laquelle vous souhaitez obtenir le score normalisé. |
+| metric | Mesure pour laquelle vous souhaitez obtenir le score normalisé. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
 
@@ -1402,7 +1402,7 @@ Exécute un test t m-latéral avec un score-t de x et n degrés de liberté.
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure sur laquelle vous souhaitez effectuer un test en t. |
+| metric | Mesure sur laquelle vous souhaitez effectuer un test en t. |
 | degrees | Degrés de liberté |
 | queues | Longueur de la queue à utiliser pour effectuer le test en t |
 
@@ -1449,7 +1449,7 @@ Renvoie la tangente de l’angle donné. Si l’angle est en degrés, multipliez
 
 | Argument | Description |
 |---|---|
-| mesure | Angle en radians pour lequel vous souhaitez obtenir la tangente. |
+| metric | Angle en radians pour lequel vous souhaitez obtenir la tangente. |
 
 
 
@@ -1470,7 +1470,7 @@ Renvoie la tangente de l’angle donné. Si l’angle est en degrés, multipliez
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure pour laquelle vous souhaitez obtenir le score centré/ |
+| metric | Mesure pour laquelle vous souhaitez obtenir le score centré/ |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
 Un score centré réduit de 0 (zéro) signifie que le score est le même que la moyenne. Un score centré réduit peut être positif ou négatif, indiquant s’il est au-dessus ou en-dessous de la moyenne et par quel nombre d’écarts types.
@@ -1504,7 +1504,7 @@ Exécute un test z n-latéral avec un score-z de x.
 
 | Argument | Description |
 |---|---|
-| mesure | Mesure sur laquelle vous souhaitez effectuer un test Z. |
+| metric | Mesure sur laquelle vous souhaitez effectuer un test Z. |
 | queues | Longueur de la queue à utiliser pour effectuer le test Z |
 
 >[!NOTE]

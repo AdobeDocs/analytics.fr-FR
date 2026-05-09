@@ -4,10 +4,10 @@ title: Créer des projets
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 93%
+source-wordcount: '408'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Les [projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-
 
 1. Sélectionnez **Projet Workspace vierge** pour créer votre projet Workspace à l’aide d’un navigateur.
 
-   Consultez [Carte de performance mobile vierge](/help/analyze/mobile-app/curator.md) pour plus d’informations sur la création d’un projet de carte de performance mobile que vous pouvez partager avec d’autres parties prenantes à l’aide d’une application mobile.
+   Pour plus d’informations sur la création d’un projet de carte de performance mobile que vous pouvez partager avec d’autres parties prenantes à l’aide d’une application mobile, consultez [Carte de performance mobile vierge](/help/analyze/mobile-app/curator.md).
 
 1. Sélectionnez [!UICONTROL **Créer**].
 
@@ -35,7 +35,7 @@ Maintenant que vous avez créé un projet Workspace vierge, assurez-vous de conn
 
 * Ajoutez des [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) à vos panneaux. Par exemple :
    * **[!DNL Line]** [Visualisation](/help/analyze/analysis-workspace/visualizations/line.md) sous forme de lignes➋
-   * **[!DNL US States]** [Visualisation sous forme de &#x200B;](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)tableau à structure libre➌
+   * **[!DNL US States]** [Visualisation sous forme de ](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)tableau à structure libre➌
 * Ajoutez des [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) à vos visualisations. Par exemple :
    * **[!DNL US States]** [dimension](/help/components/dimensions/overview.md) ➍
    * **[!DNL Unique Visitors]** [mesure](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
@@ -50,12 +50,12 @@ Maintenant que vous avez créé un projet Workspace vierge, assurez-vous de conn
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Comptage des instances répétées"
->abstract="Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports.<br/><br/>Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons."
+>abstract="Indique si les instances répétées sont comptabilisées dans les rapports.<br/><br/>Note : ce paramètre ne s’applique pas aux visualisations Flux ou Abandons."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
 >title="Comptage des instances répétées"
->abstract="Ce paramètre indique si les instances répétées sont comptabilisées dans les rapports.<br/>Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons."
+>abstract="Indique si les instances répétées sont comptabilisées dans les rapports.<br/>Note : ce paramètre ne s’applique pas aux visualisations Flux ou Abandons."
 
 
 >[!CONTEXTUALHELP]

@@ -3,10 +3,10 @@ title: Accès tardifs
 description: Découvrez comment les flux de données traitent les accès tardifs.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 41%
+source-wordcount: '317'
+ht-degree: 48%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 ## Comprendre les accès arrivant tardivement
 
-Les données historiques peuvent arriver une fois qu’une tâche de flux de données a terminé le traitement pendant une heure ou une journée donnée, par exemple par le biais d’accès horodatés ou de sources de données.
+Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données.
 
 Lors du traitement normal des données par un flux des données, seules les données de sa fenêtre de création de rapports sont examinées (en général, l’heure ou le jour le plus récent). Si des données arrivent après qu’un flux a terminé de traiter cette fenêtre de création de rapports, ces données ne sont jamais incluses dans aucun flux de données.
 

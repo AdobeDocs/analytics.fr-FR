@@ -3,9 +3,9 @@ description: Découvrez comment créer des segments en faisant glisser et en dé
 title: Créer des segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1848'
+source-wordcount: '1870'
 ht-degree: 99%
 
 ---

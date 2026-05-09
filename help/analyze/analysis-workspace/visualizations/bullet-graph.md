@@ -4,10 +4,10 @@ title: Puces
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 90%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Puces dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Puces](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation par puces dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Puces](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
-La visualisation ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Puces]** affiche la comparaison d’une mesure par rapport aux plages de performances (objectifs).
+La visualisation ![GraphBullet](/help/assets/icons/GraphBullet.svg) **[!UICONTROL Puces]** affiche la comparaison ou le succès d’une mesure par rapport aux plages de performances (objectifs).
 
 ![Visualisation sous forme de graphiques à puces](assets/bullet.png)
 

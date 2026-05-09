@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les tableaux à structure libre, qui so
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 97%
+source-wordcount: '878'
+ht-degree: 88%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 97%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation Tableau à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau à structure libre](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation des tableaux à structure libre dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau à structure libre](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
 
-Dans Analysis Workspace, une visualisation ![Tableau](/help/assets/icons/Table.svg) **[!UICONTROL Tableau à structure libre]** est la base de l’analyse de données interactive. Vous pouvez faire glisser et déposer un ensemble de [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Lorsque chaque composant est déposé, le tableau est mis à jour immédiatement afin que vous puissiez effectuer rapidement une analyse en profondeur.
+Dans Analysis Workspace, un ![Tableau](/help/assets/icons/Table.svg) **[!UICONTROL Tableau à structure libre]** est la base de l’analyse de données interactive. Vous pouvez faire glisser et déposer un ensemble de [composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans les lignes et les colonnes afin de créer un tableau personnalisé pour votre analyse. Lorsque chaque composant est déposé, le tableau est mis à jour immédiatement afin que vous puissiez effectuer rapidement une analyse en profondeur.
 
 ![Tableau à structure libre présentant les composants dans les lignes et les colonnes, y compris les visites et les commandes en ligne pour plusieurs pages web.](assets/opening-section.png)
 
@@ -107,7 +107,7 @@ Les options de [menu contextuel](../freeform-analysis-visualizations.md#context-
 | **[!UICONTROL Dupliquer la visualisation]** | Créez un doublon exact de la visualisation. |
 | **[!UICONTROL Modifier la description]** | Ajoutez (ou modifiez) une description textuelle de la visualisation. Consultez [Texte](../text.md). |
 | **[!UICONTROL Obtenir le lien de la visualisation]** | Copiez et partagez un lien directement vers la visualisation. Une boîte de dialogue Partager le lien affiche le lien. Sélectionnez Copier pour copier le lien dans votre presse-papiers. |
-| **[!UICONTROL Recommencer]** | Supprimez la configuration de la visualisation actuelle afin de pouvoir la reconfigurer entièrement. |
+| **[!UICONTROL Recommencer]** | Supprimez la configuration de la visualisation actuelle afin que vous puissiez la reconfigurer de zéro. |
 
 
 

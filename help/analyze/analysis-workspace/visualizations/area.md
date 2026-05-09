@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '205'
+ht-degree: 78%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 93%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente les visualisations Surface et Aires empilées dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Surface et aires empilées](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/area) pour la_ version ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente les visualisations Surface et Aires empilées dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Aires et aires empilées](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/area) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
-La visualisation Surface comporte une option standard et empilée.
+La visualisation Surface comporte une option standard et une option empilée.
 
 ## Zone {#area}
 
