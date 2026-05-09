@@ -28,12 +28,12 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panneau de comparaison des segments"
->abstract="Comparez rapidement deux segments sur tous les points de données pour trouver automatiquement les différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajoutez un segment** : premier segment à analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
+>abstract="Comparez rapidement deux segments sur tous les points de données pour trouver automatiquement les différences pertinentes.<br/><br/>**Paramètres &#x200B;**<br/>**Ajoutez un segment** : premier segment à analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
+_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

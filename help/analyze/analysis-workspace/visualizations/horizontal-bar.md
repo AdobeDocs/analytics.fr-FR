@@ -16,7 +16,7 @@ ht-degree: 71%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente les visualisations Barre horizontale et Barre horizontale empilée dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Barre horizontale et barre horizontale empilée](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) pour la version_ CustomerJourneyAnalytics![ _**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) de cet article.** _
+_Cet article présente les visualisations Barre horizontale et Barre horizontale empilée dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Barre horizontale et barre horizontale empilée](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/horizontal-bar) pour la version_ CustomerJourneyAnalytics![&#x200B; _&#x200B;**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) de cet article.** _
 
 >[!ENDSHADEBOX]
 

@@ -28,14 +28,14 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Table de cohorte"
->abstract="Regroupez les utilisateurs en fonction de l’achèvement d’un événement, puis analysez leur engagement continu et leur attrition au fil du temps.<br/><br/>**Paramètres **<br/>**Critères d’inclusion** : composants utilisés pour définir vos cohortes de visiteurs initiales.<br/>**Critères de retour** : composants utilisés pour savoir si un visiteur ou une visiteuse revient."
+>abstract="Regroupez les utilisateurs en fonction de l’achèvement d’un événement, puis analysez leur engagement continu et leur attrition au fil du temps.<br/><br/>**Paramètres &#x200B;**<br/>**Critères d’inclusion** : composants utilisés pour définir vos cohortes de visiteurs initiales.<br/>**Critères de retour** : composants utilisés pour savoir si un visiteur ou une visiteuse revient."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le tableau de cohortes dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Tableau de cohortes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente le tableau de cohortes dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau de cohortes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
