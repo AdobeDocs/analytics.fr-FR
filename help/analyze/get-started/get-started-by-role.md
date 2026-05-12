@@ -3,9 +3,44 @@ description: Vue d’ensemble des informations générales sur Adobe Analytics,
 title: Prise en main destinée aux administrateurs et administratrices, analystes, utilisateurs et utilisatrices finaux et développeurs et développeuses
 feature: Analytics Basics
 exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/g8ADP8AMAM-YAfrMBUDKMN3w2mKOIfblFVZqE6U2E6M
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: b54aca0d-8aee-45f3-9966-1a84bd7bef52
+  - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: 1700
 ht-degree: 99%
 
 ---
@@ -58,7 +93,7 @@ Pour plus d’informations sur les méthodes disponibles, consultez la section [
 
 | | Méthodes de mise en œuvre |
 |---------|---------|
-| **Sites web** | <ul><li>Extension SDK Web (recommandé)</li><li>SDK Web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
+| **Sites web** | <ul><li>Extension SDK Web (recommandé)</li><li>SDK web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
 | **Applications mobiles** | <ul><li>Extension SDK Mobile (recommandé)</li><li>Extension Analytics</li></ul> |
 
 {style="table-layout:auto"}
@@ -79,7 +114,7 @@ Les administrateurs et administratrices d’Analytics doivent effectuer les tâc
 | Analyse des contributions | L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents. | [Vue d’ensemble de l’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Segmentation Analytics | Permet de créer, gérer, partager et appliquer des segments d’audiences puissants et ciblés aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
 | Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion des données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de seconde partie (partenaire) et de tierce partie. | [Présentation d’Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
-| Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=fr">Services de streaming multimédia</a></li> | [Intégration d’Analytics](/help/integrate/home.md) |
+| Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview">Services de streaming multimédia</a></li> | [Intégration d’Analytics](/help/integrate/home.md) |
 
 {style="table-layout:auto"}
 
@@ -146,7 +181,7 @@ Pour plus d’informations sur la création d’analyses dans Analysis Workspac
 
 ## Prise en main pour les développeurs et les développeuses
 
-[Les API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/) vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur.
+[Les API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr) vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur.
 
 Vous pouvez créer des rapports pour explorer vos données, obtenir des informations ou répondre à des questions importantes à leur sujet. Vous pouvez également gérer les composants d’Adobe Analytics, tels que la création de segments ou de mesures calculées.
 
