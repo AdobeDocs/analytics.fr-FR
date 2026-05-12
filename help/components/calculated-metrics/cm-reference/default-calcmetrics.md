@@ -1,12 +1,17 @@
 ---
-description: Adobe propose différentes mesures calculées que vous pouvez utiliser. Cette page répertorie ces mesures et leur utilisation prévue.
+description: Adobe propose différentes mesures calculées que vous pouvez utiliser. Cette page répertorie ces mesures et leurs utilisations prévues.
 title: Mesures calculées par défaut
 feature: Calculated Metrics
 exl-id: 84468e63-f967-41cd-8084-525b1b90957a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/91Q7PzYSgj-Wam7DZhSAQ9rdm-I2HJK-qq2IZA0hy-M
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: 779
+ht-degree: 96%
 
 ---
 
@@ -22,7 +27,7 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 >
 >Vous pouvez effectuer les opérations suivantes :
 >
-> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/variables/calculated-metrics.html?lang=fr)
+> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
 > * Créez des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans la section [Mesures calculées et mesures calculées avancées](/help/components/calculated-metrics/cm-overview.md).
 >
 
@@ -42,10 +47,10 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 | Temps moyen passé sur le site | Temps moyen qu’un visiteur ou une visiteuse passe sur le site avant de le quitter. | `[Average Time Spent on Site (Seconds)]` |
 | Taux de rebond | Rapport entre les visites qui contenaient exactement un accès et le nombre de visites sur cette page. Cette mesure peut vous aider à identifier les éléments de dimension présentant le taux de rebond le plus élevé ou à afficher le taux de rebond total agrégé de votre site au fil du temps. | `[Bounces] / [Entries]` |
 | Ratio de pages robot vues | Rapport entre le nombre de pages robot vues et le nombre total de pages vues. | `[Bot Page Views] / [Page Views]` |
-| Vitesse du contenu | Vitesse à laquelle le nouveau contenu est créé et publié sur le site et la rapidité avec laquelle il génère de l’interaction client. | `[Page Views] / [Visits]` |
+| Vitesse du contenu | Vitesse à laquelle le nouveau contenu est créé et publié sur le site et la rapidité avec laquelle il génère de l’engagement client. | `[Page Views] / [Visits]` |
 | Taux de conversion | Pourcentage de visiteurs et visiteuses qui ont effectué l’action souhaitée (un achat, par exemple). | `[Orders] / [Visits]` |
 | Taux d’entrée | Pourcentage de visiteurs et visiteuses qui sont entrés sur le site sur une page donnée, par rapport au nombre total de sessions sur le site. | `[Entries] / [Visits]` |
-| Nombre estimé de visiteurs et visiteuses uniques (ITP 2.1) | Pour les visiteurs et visiteuses ITP (utilisateurs et utilisatrices sur les navigateurs Safari), divisez les visiteurs et visiteuses uniques par 2 ou moins. Cette mesure calculée suppose que vous avez défini les cookies à l’aide de code JavaScript côté client (et non à l’aide d’une implémentation CNAME). Les implémentations qui définissent des cookies à l’aide de code JavaScript côté client ont été affectées à partir d’ITP 2.1. Voir [Prévention intelligente du suivi](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) pour plus d’informations. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Nombre estimé de visiteurs et visiteuses uniques (ITP 2.1) | Pour les visiteurs et visiteuses ITP (utilisateurs et utilisatrices sur les navigateurs Safari), divisez les visiteurs et visiteuses uniques par 2 ou moins. Cette mesure calculée suppose que vous avez défini les cookies à l’aide de code JavaScript côté client (et non à l’aide d’une implémentation CNAME). Les implémentations qui définissent des cookies à l’aide de JavaScript côté client ont été affectées à partir d’ITP 2.1. Voir [ Prévention intelligente du suivi ](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) pour plus d’informations. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
 | Couverture Experience Cloud ID | Pourcentage de visiteurs et de visiteuses qui disposent d’un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Taux de sortie | Pourcentage de visiteurs et visiteuses qui quittent le site après avoir consulté une page particulière. | `[Exits] / [Visits]` |
 | ITP 2.1 Visiteurs et visiteuses uniques/Visiteurs et visiteuses uniques | Pourcentage de visiteurs et visiteuses uniques utilisant un navigateur affecté par les limitations de cookies ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |

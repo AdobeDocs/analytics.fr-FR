@@ -3,23 +3,29 @@ title: Mesures de chapitre sur les services de streaming multimédia
 description: Mesures disponibles lorsque vous activez [!UICONTROL Chapitres de médias] pour une suite de rapports.
 feature: Metrics
 exl-id: bef379d5-9dc9-404f-8197-1ba66d11299d
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/RE2A8dWALCgLL1J3t-kR62wOarFsFIGFgh9Pb-E2-Iw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 6%
+source-wordcount: 125
+ht-degree: 0%
 
 ---
 
 # Mesures de chapitre sur les services de streaming multimédia
 
-*Cette page décrit les mesures disponibles lorsque vous activez [!UICONTROL Chapitres multimédia] pour une suite de rapports. Voir [Dimensions du chapitre sur les services de streaming multimédia](../dimensions/sm-chapters.md) pour connaître les dimensions disponibles.*
+Les mesures de chapitre sur les services de streaming multimédia fournissent une fonctionnalité de création de rapports supplémentaire pour les données collectées via les bibliothèques de collecte de streaming multimédia. Ces mesures nécessitent le **[!UICONTROL module complémentaire Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
 
-Les mesures de chapitre sur les services de streaming multimédia fournissent des fonctionnalités de reporting supplémentaires à la collecte de données par le biais des bibliothèques de collecte de services de streaming multimédia. L’utilisation de ces mesures nécessite le **[!UICONTROL module complémentaire Adobe Analytics for Streaming Media]**. Pour plus d’informations, contactez l’équipe chargée de votre compte Adobe.
+Pour utiliser ces mesures, activez **[!UICONTROL Chapitres multimédia]** sous [[!UICONTROL Rapports multimédia]](/help/admin/tools/manage-rs/edit-settings/media-management.md) pour la suite de rapports.
 
-Lorsque vous activez **[!UICONTROL Chapitres multimédia]** sous [Création de rapports multimédia](/help/admin/tools/manage-rs/edit-settings/media-management.md), les mesures suivantes sont disponibles :
+Les mesures suivantes sont disponibles :
 
-| Nom de la mesure | Description | Envoyé avec | Variable de données contextuelles | Champ XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Fin du chapitre]** | Valeur booléenne qui se déclenche à la fin d’un chapitre. | Fermeture du chapitre | `a.media.chapter.complete` | `xdm.mediaReporting.`<br>`chapterDetails.isCompleted` |
-| **[!UICONTROL Démarrage du chapitre]** | Valeur booléenne qui se déclenche au début d’un chapitre. | Début du chapitre | `a.media.chapter.view` | `xdm.mediaReporting.`<br>`chapterDetails.isStarted` |
-| **[!UICONTROL Durée du chapitre]** | Temps passé sur le chapitre, en secondes. | Fermeture du chapitre | `a.media.chapter.timePlayed` | `xdm.mediaReporting.`<br>`chapterDetails.timePlayed` |
+* [[!UICONTROL Fin du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL Démarrage du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL Durée du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+
+Voir [Dimensions du chapitre sur les services de streaming multimédia](../dimensions/sm-chapters.md) pour connaître les dimensions correspondantes.
