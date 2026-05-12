@@ -6,11 +6,37 @@ title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9id: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: fe0a7292-80bc-407a-b456-64170267d1cc
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
 workflow-type: tm+mt
 source-wordcount: 4148
@@ -51,13 +77,13 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`channel`** | La dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
 | | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
-| **`post_`** | **`clickmaplink`** | La dimension [Lien ](/help/components/dimensions/activity-map-link.md). | varchar(255) |
+| **`post_`** | **`clickmaplink`** | La dimension [Lien &#x200B;](/help/components/dimensions/activity-map-link.md). | varchar(255) |
 | **`post_`** | **`clickmaplinkbyregion`** | La dimension [Lien Activity Map par région](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
-| **`post_`** | **`clickmappage`** | La dimension [Page ](/help/components/dimensions/activity-map-page.md). | varchar(255) |
-| **`post_`** | **`clickmapregion`** | La dimension [Région ](/help/components/dimensions/activity-map-region.md). | varchar(255) |
+| **`post_`** | **`clickmappage`** | La dimension [Page &#x200B;](/help/components/dimensions/activity-map-page.md). | varchar(255) |
+| **`post_`** | **`clickmapregion`** | La dimension [Région &#x200B;](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | Version du SDK client ou de l’API utilisée pour compiler et envoyer la demande d’image. | char(16) |
 | | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
-| | **`connection_type`** | Identifiant numérique représentant la dimension [ Type de connexion ](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
+| | **`connection_type`** | Identifiant numérique représentant la dimension [&#x200B; Type de connexion &#x200B;](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`post_`** | **`cookies`** | Le [Prise en charge des cookies](/help/components/dimensions/cookie-support.md) dimension.<br>Y : Activé<br>N : Désactivé<br>U : Inconnu | char(1) |
 | | **`country`** | Identifiant numérique qui représente le pays du visiteur ou de la visiteuse. Fait référence à la table de recherche `country.tsv`. | smallint sans signe |
 | **`post_`** | **`currency`** | Le code de devise qui a été utilisé pendant la transaction. Définissez avec [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
@@ -253,7 +279,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | | **`visit_ref_type`** | Identifiant numérique, représentant le type de référent du tout premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
-| | **`visit_start_pagename`** | [ Page ](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
+| | **`visit_start_pagename`** | [&#x200B; Page &#x200B;](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
 | | **`visit_start_page_url`** | URL du premier accès de la visite. | varchar(255) |
 | | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier accès de la visite. | int |
 | | **`weekly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |
