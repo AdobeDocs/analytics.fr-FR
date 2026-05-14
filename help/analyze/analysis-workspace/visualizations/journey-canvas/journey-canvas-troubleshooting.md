@@ -2,9 +2,8 @@
 description: Découvrez comment utiliser la visualisation de la zone de travail des Parcours dans Analysis Workspace pour analyser les parcours utilisateur, les abandons et les conversions à chemins multiples.
 title: Résolution des problèmes liés à la zone de travail de parcours
 feature: Visualizations
-hide: true
 role: User, Admin
-source-git-commit: f8a0dd0c4b1ab0aa3c5cbb7d2032fafc61aef2db
+source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 91%
