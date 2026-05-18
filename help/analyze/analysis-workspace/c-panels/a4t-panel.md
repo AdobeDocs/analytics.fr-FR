@@ -4,10 +4,16 @@ title: Panneau Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 93%
+source-wordcount: 1287
+ht-degree: 94%
 
 ---
 
@@ -27,13 +33,13 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Panneau Analytics for Target"
->abstract="Analyser les activités et expériences Target dans Analysis Workspace.<br/><br>**Parameters &#x200B;**<br/>**Target activity** : activité Target analysée.<br/>**Expérience de contrôle** : l’expérience de contrôle de l’activité Target sélectionnée.<br/>**Mesure de normalisation** : visiteurs et visiteuses, visites ou impressions. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance.<br/>**Mesure de succès** : jusqu’à 3 mesures de succès standard (non calculées) par rapport auxquelles analyser l’activité Target."
+>abstract="Analysez les activités et expériences Target dans Analysis Workspace.<br/><br>**Paramètres **<br/>**Activité Target** : activité Target analysée.<br/>**Expérience de contrôle** : l’expérience de contrôle de l’activité Target sélectionnée.<br/>**Mesure de normalisation** : visiteurs et visiteuses, visites ou impressions. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance.<br/>**Mesure de succès** : jusqu’à 3 mesures de succès standard (non calculées) par rapport auxquelles analyser l’activité Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consultez [Panneau Expérimentation](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) pour plus d’informations sur la comparaison de différentes expériences utilisateur, variantes de marketing ou de messagerie dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consultez [Panneau Expérimentation](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) pour plus d’informations sur la comparaison de différentes expériences utilisateur, variantes de marketing ou de messagerie dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +48,7 @@ Le panneau Analytics for Target vous permet d’analyser vos activités et expé
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -85,10 +91,10 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 | **[!UICONTROL Mesure de succès]** | Mesure de succès sélectionnée dans le panneau d’entrée. |
 | **[!UICONTROL Taux de conversion]** | Mesure de succès/normalisation. |
 | **[!UICONTROL Effet élévateur]** | Compare le taux de conversion de chaque expérience à l’expérience de contrôle. Remarque : l’effet élévateur est une *mesure verrouillée* des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
-| **[!UICONTROL Effet élévateur (inférieur)]** | Cette valeur représente l’effet élévateur le plus défavorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Effet élévateur (médian)]** | Cette valeur représente l’effet élévateur moyen qu’une expérience de variante peut avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. <br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Effet élévateur (supérieur)]** | Cette valeur représente l’effet élévateur le plus favorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
-| **[!UICONTROL Confiance]** | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=fr) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (inférieur)]** | Cette valeur représente l’effet élévateur le plus défavorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (médian)]** | Cette valeur représente l’effet élévateur moyen qu’une expérience de variante peut avoir sur l’expérience de contrôle, avec un intervalle de confiance de 95 %. <br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Effet élévateur (supérieur)]** | Cette valeur représente l’effet élévateur le plus favorable qu’une expérience de variante peut avoir sur le contrôle, avec un intervalle de confiance de 95 %.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
+| **[!UICONTROL Confiance]** | Le test T calcule le degré de confiance, qui indique la probabilité selon laquelle les résultats seraient dupliqués si le test était exécuté à nouveau. Une plage de mise en forme conditionnelle fixe de 75 %/85 %/95 % a été appliquée à la mesure. Si nécessaire, cette mise en forme peut être personnalisée sous Paramètres de colonne. Remarque : le degré de confiance est une « mesure verrouillée » des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions.<br>Voir les fichiers Excel [Calculs statistiques](https://experienceleague.adobe.com/fr/docs/target/using/reports/statistical-methodology/statistical-calculations) et [Calculateur de confiance complet](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) pour plus d’informations. |
 
 Comme pour n’importe quel panneau d’Analysis Workspace, vous pouvez continuer votre analyse en ajoutant des tableaux et [visualisations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) supplémentaires qui vous aideront à analyser vos activités Adobe Target. Vous pouvez également appliquer un segment au niveau du panneau ou dans le tableau à structure libre. Veuillez noter que si vous l’ajoutez dans le tableau à structure libre, vous devez le superposer sur l’ensemble du tableau pour conserver les calculs relatifs à l’effet élévateur et au degré de confiance. Les segments au niveau des colonnes ne sont pour le moment pas pris en charge.
 

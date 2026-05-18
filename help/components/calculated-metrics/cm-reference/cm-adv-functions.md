@@ -7,7 +7,7 @@ role: User
 source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '4863'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -362,7 +362,7 @@ Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionne
 
 | Argument | Description |
 | --- | --- |
-| Nombre | N dernières lignes pour lesquelles renvoyer la somme. Si N &lt;= 0, utilisez toutes les lignes précédentes. |
+| number | N dernières lignes pour lesquelles renvoyer la somme. Si N &lt;= 0, utilisez toutes les lignes précédentes. |
 | mesure | Mesure pour laquelle vous souhaitez obtenir la somme cumulée. |
 
 ### Exemples
@@ -391,7 +391,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 
 | Argument | Description |
 | --- | --- |
-| Nombre | N dernières lignes pour lesquelles renvoyer la moyenne. Si N &lt;= 0, utilisez toutes les lignes précédentes. |
+| number | N dernières lignes pour lesquelles renvoyer la moyenne. Si N &lt;= 0, utilisez toutes les lignes précédentes. |
 | mesure | Mesure pour laquelle vous souhaitez obtenir la moyenne cumulée. |
 
 >[!NOTE]
@@ -432,7 +432,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-exp"
 >title="Régression exponentielle : coefficient de corrélation"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie le coefficient de corrélation."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie le coefficient de corrélation."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -455,7 +455,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-exp"
 >title="Régression exponentielle : Y prédit"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie Y."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -479,7 +479,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-ls-intercept-exp"
 >title="Régression exponentielle : ordonnée à l’origine"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie b."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie b."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -502,7 +502,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-exp"
 >title="Régression exponentielle : inclinaison"
->abstract="Régression exponentielle : Y = b * exp(aX). Renvoie a."
+>abstract="Régression exponentielle : Y = b * exp(aX). Renvoie a."
 
 <!-- markdownlint-enable MD034 -->
 
