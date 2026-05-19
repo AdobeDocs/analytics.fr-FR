@@ -26,7 +26,7 @@ ht-degree: 32%
 
 Certaines configurations de pare-feu bloquent les adresses IP en provenance des serveurs de collecte de données d’Adobe ou des serveurs responsables de l’accès aux données. Vous pouvez utiliser cette liste de plages pour modifier les paramètres de pare-feu de votre entreprise afin d’autoriser l’accès et d’envoyer des données depuis votre entreprise.
 
-Toutes les adresses IP utilisées par Adobe Analytics font partie des adresses [IP utilisées par CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses), à l’exception du package complémentaire Optimisation des performances pour la Chine .
+Toutes les adresses IP utilisées par Adobe Analytics font partie des adresses [IP utilisées par CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/ip-addresses), à l’exception du package complémentaire Optimisation des performances pour la Chine .
 
 ## Adresses IP d’optimisation des performances pour la Chine
 
@@ -48,6 +48,6 @@ Les serveurs de collecte de données régionaux en Chine utilisent les adresses 
 
 >[!MORELIKETHIS]
 >
->[Adresses IP utilisées par CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/ip-addresses)
+>[Adresses IP utilisées par CX Enterprise](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/ip-addresses)
 >
 >[Domaines utilisés par Adobe Analytics](domains.md)

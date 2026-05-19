@@ -58,7 +58,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
    1. Notez la valeur de la variable `trackingServer`.
 
-* À l’aide du débogueur d’entreprise Adobe CX [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
+* À l’aide du débogueur d’entreprise Adobe CX [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
    1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
    1. Notez la valeur [!UICONTROL Request URL - Hostname].
