@@ -5,11 +5,19 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
 source-wordcount: 1013
@@ -32,7 +40,7 @@ Les principaux avantages de l’utilisation des appels au serveur sont les suiva
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **Autorisations :** pour accéder au tableau de bord d’utilisation des appels au serveur et au créateur d’alertes ou au gestionnaire d’alertes, vous devez être administrateur Adobe Analytics.
-* **Autorisations :** les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [ Autorisation d’utilisation des appels au serveur ](#server-call-usage-permission).
+* **Autorisations :** les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [&#x200B; Autorisation d’utilisation des appels au serveur &#x200B;](#server-call-usage-permission).
 
 ## Terminologie importante {#terminology}
 
