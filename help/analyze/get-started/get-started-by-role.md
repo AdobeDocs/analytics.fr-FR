@@ -38,10 +38,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 99%
+source-wordcount: 1699
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ Les administrateurs et administratrices d’Analytics doivent effectuer les tâc
 | Gérer les composants | Utilisez le dictionnaire de données et les zones de gestion de chaque type de composant pour définir les composants disponibles dans votre mise en œuvre d’Analytics, ainsi que ceux qui sont approuvés pour votre organisation.<p>Effectuez un suivi régulier afin de vous assurer que les composants sont utilisés à bon escient au sein de votre organisation. </p> | <ul><li>[Vue d’ensemble du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestionnaire de mesures calculées](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gérer les segments](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Détection des anomalies | La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures. | [Vue d’ensemble de la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Analyse des contributions | L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents. | [Vue d’ensemble de l’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Segmentation Analytics | Permet de créer, gérer, partager et appliquer des segments d’audiences puissants et ciblés aux rapports à l’aide des fonctionnalités d’Analytics, d’Adobe Experience Cloud, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
+| Segmentation Analytics | Permet de créer, de gérer, de partager et d’appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités Analytics, d’Adobe CX Enterprise, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
 | Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion des données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de seconde partie (partenaire) et de tierce partie. | [Présentation d’Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview">Services de streaming multimédia</a></li> | [Intégration d’Analytics](/help/integrate/home.md) |
 

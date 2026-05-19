@@ -4,10 +4,21 @@ title: Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe 
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bD-qiEI3KbDBNe4aO01-MqzjoZ-OMcGAnd9vnMTBmZs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 99%
+source-wordcount: 405
+ht-degree: 72%
 
 ---
 
@@ -17,13 +28,13 @@ Effectuez la migration des utilisateurs du système de gestion des utilisateurs 
 
 >[!NOTE]
 >
->Si un administrateur qui n’est pas connecté via l’environnement Experience Cloud tente d’accéder à l’outil Migration de l’ID utilisateur, il est redirigé vers la page de connexion d’Experience Cloud.
+>Si un administrateur qui n’est pas connecté à CX Enterprise tente d’accéder à l’outil Migration de l’ID utilisateur, il est redirigé vers la page de connexion CX Enterprise.
 
 1. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 
    ![](/help/admin/tools/user-management/user-migration/assets/migration-progress.png)
 
-   Deux sections composent la page Migration de l’ID utilisateur : *Progression de la migration* et *Informations sur l’utilisateur*.
+   La page Migration de l’ID utilisateur comporte deux sections : *Progression de la migration* et *Informations utilisateur*.
 
 ## Progression de la migration
 
@@ -36,19 +47,19 @@ Effectuez la migration des utilisateurs du système de gestion des utilisateurs 
    </thead>
    <tbody> 
    <tr> 
-      <td colname="col1"> <p>Migrations terminées </p> </td> 
-      <td colname="col2"> <p>Les utilisateurs acceptent l’invitation. </p> </td> 
+      <td colname="col1"> <p>Migrations effectuées </p> </td> 
+      <td colname="col2"> <p>Les utilisateurs ont accepté l'invitation. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Compte hérité désactivé </p> </td> 
-      <td colname="col2"> <p>Le compte hérité utilisant un ID d’entreprise est désactivé. Les utilisateurs accèdent désormais à Experience Cloud en utilisant leur Adobe ID ou Enterprise ID. Lorsque tous vos utilisateurs ont atteint cette phase, vous avez terminé la migration. </p> <p>Lors de la migration, la connexion héritée est désactivée. Les utilisateurs sont redirigés vers <span class="filepath"> experiencecloud.adobe.com</span> et doivent se connecter à l’aide de l’Adobe ID ou de l’Enterprise ID. </p> </td> 
+      <td colname="col1"> <p>Connexion héritée désactivée </p> </td> 
+      <td colname="col2"> <p>La connexion héritée à l’aide d’un ID d’entreprise est désactivée. Les utilisateurs accèdent désormais à CX Enterprise à l’aide de leur Adobe ID ou Enterprise ID. Lorsque tous vos utilisateurs ont atteint cette phase, la migration est terminée. </p> <p>Lors de la migration, la connexion héritée est désactivée. Les utilisateurs sont redirigés vers <span class="filepath"> experiencecloud.adobe.com</span> et doivent se connecter à l’aide de l’Adobe ID ou de l’Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 ## Informations sur l&#39;utilisateur
 
-Informations sur l’utilisateur est un condensé d’informations sur les utilisateurs dans votre organisation, séparées par nom de domaine.
+Informations sur l’utilisateur décrit les utilisateurs de votre organisation, séparés par nom de domaine.
 
 <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
 <thead> 
@@ -60,7 +71,7 @@ Informations sur l’utilisateur est un condensé d’informations sur les utili
 <tbody> 
 <tr> 
    <td colname="col1"> <p>Domaine </p> </td> 
-   <td colname="col2"> <p>Les domaines sont spécifiques aux ID de message électronique de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
+   <td colname="col2"> <p>Les domaines sont spécifiques aux ID d’e-mail de la base d’utilisateurs Analytics actuelle. Un domaine ne peut être déposé que par une seule organisation et seuls les administrateurs système peuvent déposer un domaine. Pour plus d’informations, voir <a href="https://helpx.adobe.com/fr/enterprise/help/request-access-to-claimed-domain.html"> Demande d’accès à un domaine déposé</a>. </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>Domaine déposé </p> </td> 

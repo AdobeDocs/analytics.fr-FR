@@ -2,10 +2,20 @@
 title: Migration d’AppMeasurement vers le SDK Web
 description: Mettez à jour votre implémentation Adobe Analytics de la bibliothèque AppMeasurement JavaScript vers la bibliothèque Web SDK JavaScript.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-source-git-commit: 05690cc8c1ea0364cbab86f35666df1cc1b13e69
+TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 7%
+source-wordcount: 1434
+ht-degree: 9%
 
 ---
 
@@ -38,13 +48,13 @@ Les étapes suivantes contiennent des objectifs concrets à atteindre. Cliquez s
 
 Créez un flux de données dans la collecte de données Adobe Experience Platform. Lorsque vous envoyez des données à ce flux de données, il transfère les données vers Adobe Analytics. À l’avenir, ce même flux de données transfèrera des données à Customer Journey Analytics.
 
-1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous à l’aide de vos informations d’identification.
+1. Accédez à [Adobe CX Enterprise](https://experience.adobe.com) et connectez-vous à l’aide de vos informations d’identification.
 1. Utilisez la page d’accueil ou le sélecteur de produits en haut à droite pour accéder à **[!UICONTROL Collecte de données]**.
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Flux de données]**.
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez **[!UICONTROL Adobe Analytics]**.
+1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}

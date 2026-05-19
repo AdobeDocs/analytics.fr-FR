@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4148
 ht-degree: 78%
@@ -134,7 +134,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`latlon1`** | Lieu (jusqu’à 10 km) | varchar(255) |
 | | **`latlon23`** | Lieu (jusqu’à 100 m) | varchar(255) |
 | | **`latlon45`** | Lieu (jusqu’à 1 m) | varchar(255) |
-| | **`mcvisid`** | Identifiant visiteur Experience Cloud. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
+| | **`mcvisid`** | Identifiant visiteur de l’entreprise CX. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. La colonne `post_mc_audiences` change le délimiteur en `--**--`. | text |
 | **`post_`** | **`mobileaction`** | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans les implémentations mobiles. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
 | **`post_`** | **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant : `[AppName] [BundleVersion]` | varchar(255) |

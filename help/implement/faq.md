@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 512
-ht-degree: 100%
+source-wordcount: 511
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Questions fréquemment posées sur la mise en œuvre et liens vers d’autres in
 
 ## Quelle est la différence entre l’identifiant visiteur Experience Cloud et l’identifiant visiteur Analytics ?
 
-Identity Service affecte un identifiant persistant unique qui peut être partagé entre d’autres solutions dans Experience Cloud. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs d’Experience Cloud dans votre mise en œuvre.
+Identity Service attribue un identifiant unique et persistant qui peut être partagé entre d’autres solutions dans l’entreprise CX. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs d’Experience Cloud dans votre mise en œuvre.
 
 ## Comment mettre en œuvre le suivi des vidéos Pulsation ?
 

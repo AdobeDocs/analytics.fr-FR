@@ -4,10 +4,30 @@ description: Répertorie tous les paramètres de chaîne de requête utilisés d
 feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+workflow-type: tm+mt
+source-wordcount: 725
+ht-degree: 92%
 
 ---
 
@@ -17,8 +37,8 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 
 | Paramètre | Variable de mise en œuvre Analytics | Description |
 | --- | --- | --- |
-| `aamlh` | Aucun | Conseil relatif à l’emplacement d’Audience Manager utilisé dans l’intégration du profil partagé d’Experience Cloud. |
-| `aamb` | Aucun | Audience Manager Blob utilisé dans l’intégration du profil partagé d’Experience Cloud. |
+| `aamlh` | Aucun | Indicateur d’emplacement Audience Manager. Utilisé dans l’intégration du profil partagé d’entreprise CX. |
+| `aamb` | Aucun | Audience Manager blob. Utilisé dans l’intégration du profil partagé d’entreprise CX. |
 | `aid` | Aucun | Identifiant visiteur Analytics. |
 | `AQB` | Aucun | Indique le début d’une chaîne de requête de demande d’image. |
 | `AQE` | Aucun | Indique la fin d’une demande d’image, ce qui signifie que la demande n’a pas été tronquée. |
@@ -49,7 +69,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `k` | Aucun | Utilisé dans la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). |
 | `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | Variables de liste. |
 | `lrt` | Aucun | Le « délai de la dernière requête », qui correspond au délai d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes proviennent d’une page ou lorsque la page est une application monopage. |
-| `mid` | Aucun | Identifiant visiteur Experience Cloud. |
+| `mid` | Aucun | Identifiant visiteur de l’entreprise CX. |
 | `ndh` | Aucun | Indicateur précisant si la demande d’image provient d’AppMeasurement. |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | Permet de déterminer l’emplacement des cookies. |
 | `oid` | [`s_objectID`](../vars/page-vars/s-objectid.md) | Identificateur d’objet de la dernière page. Utilisé dans Activity Map. |
@@ -73,7 +93,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `server` | [`server`](../vars/page-vars/server.md) | Dimension [Serveur](/help/components/dimensions/server.md). |
 | `sv` | [`server`](../vars/page-vars/server.md) | Raccourci pour la chaîne de requête `server`. |
 | `state` | [`state`](../vars/page-vars/state.md) | Dimension État. |
-| `t` | Aucun | Date/heure générée de l’accès. Utilise le format `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` désigne la date/l’heure dans JavaScript. Le mois `0` est janvier, tandis que le mois `11` est décembre.<br>- `w` désigne le jour de la semaine. `0` désigne le dimanche, tandis que `6` désigne le samedi.<br>- `o` désigne le décalage GMT négatif en minutes. Par exemple, `420` désigne GMT-7. |
+| `t` | Aucun | Date/heure générée de l’accès. Utilise le format `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` correspond à la date/l’heure dans JavaScript. Le mois `0` est janvier, tandis que le mois `11` est décembre.<br>- `w` est le jour de la semaine. `0` est dimanche, tandis que `6` est samedi.<br>- `o` est le décalage GMT négatif en minutes. Par exemple, `420` désigne GMT-7. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | L’horodatage personnalisé défini avec l’accès. Généralement utilisé pour le suivi hors ligne. |
 | `v` | Aucun | Utilisé dans la dimension [Compatible Java](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |

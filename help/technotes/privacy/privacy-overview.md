@@ -1,25 +1,42 @@
 ---
 description: Vue d’ensemble des données collectées par Adobe Analytics et autres considérations sur la confidentialité.
-keywords: confidentialité
+keywords: vie privée
 title: Confidentialité - Présentation
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 98%
+source-wordcount: 1004
+ht-degree: 88%
 
 ---
 
 # Confidentialité - Présentation
 
-Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Consultez [Confidentialité de Adobe Experience Cloud](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank} pour plus d’informations. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données ». Votre organisation a le rôle de « sous-traitant des données » (ou équivalent, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
+Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Consultez [Confidentialité d’Adobe CX Enterprise](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank} pour plus d’informations. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données ». Votre organisation a le rôle de « sous-traitant des données » (ou équivalent, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
 
 Adobe recommande vivement de respecter les principes fondamentaux suivants :
 
-* **Si vous collectez des données personnelles, veillez à respecter les lois et règlements en matière de protection de la vie privée.** Les variables personnalisées vous permettent de collecter pratiquement tout ce à quoi vous pouvez accéder. Toutefois, vous devez également tenir compte de la politique de confidentialité de votre organisation et des lois applicables.
-* **Fournissez à votre clientèle des informations faciles à trouver et à comprendre sur la protection de la vie privée au sein de votre organisation.** Les informations utiles comprennent des liens d’opt-out, la manière dont les données de navigation sont utilisées et la manière dont vous utilisez ou prévoyez d’utiliser les services Adobe.
-* **Tenez-vous au courant des lois locales et internationales qui s’appliquent à vous.** Si votre organisation opère à l’échelle mondiale, certaines lois internationales peuvent s’appliquer.
+* **Si vous collectez des données personnelles, assurez-vous de respecter les lois et réglementations en matière de confidentialité.** Les variables personnalisées vous permettent de collecter pratiquement tout ce à quoi vous pouvez accéder. Cependant, vous devez également tenir compte de la politique de confidentialité de votre organisation et des lois applicables.
+* **Fournir à vos clients des informations de confidentialité faciles à trouver et à comprendre pour votre organisation.** Vous trouverez des informations utiles telles que les liens d’exclusion, la manière dont leurs données de navigation sont utilisées et la manière dont vous utilisez ou envisagez d’utiliser les services Adobe.
+* **Tenez compte à la fois des lois locales et des lois internationales qui s&#39;appliquent à vous.** Si votre organisation opère à l&#39;échelle mondiale, certaines lois internationales peuvent s&#39;appliquer.
 
 ## Répartition de la collecte des données
 
@@ -53,4 +70,4 @@ Voir le menu de navigation sous [Vue d’ensemble des dimensions](/help/componen
 
 ## Emplacements de traitement des données
 
-Adobe dispose de trois emplacements de traitement des données pour Adobe Analytics. Ces sites reçoivent des données brutes et les traitent dans une suite de rapports, qui est optimisée pour le stockage des données et la récupération des rapports. Ces emplacements de traitement des données se trouvent actuellement aux États-Unis (Oregon), au Royaume-Uni (Londres) et à Singapour. Voir [Présentation de la sécurité d’Adobe Analytics](https://www.adobe.com/content/dam/cc/fr/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} pour plus d’informations.
+Adobe dispose de trois emplacements de traitement des données pour Adobe Analytics. Ces sites reçoivent des données brutes et les traitent dans une suite de rapports, qui est optimisée pour le stockage des données et la récupération des rapports. Ces emplacements de traitement des données se trouvent actuellement aux États-Unis (Oregon), au Royaume-Uni (Londres) et à Singapour. Voir [Présentation de la sécurité d’](https://www.adobe.com/content/dam/cc/fr/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} pour plus d’informations.

@@ -4,10 +4,19 @@ description: Découvrez le workflow pour mettre en œuvre le code H sur votre si
 feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: 388
+ht-degree: 92%
 
 ---
 
@@ -33,7 +42,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
    >
    >Le code H exige que le script `s_code.js` soit appelé dans la balise `<body>`. Il s’agit d’une méthode différente des autres méthodes de mise en œuvre, dont la plupart nécessitent des références de script dans la balise `<head>`.
 1. **Définissez des variables spécifiques à chaque page** : des variables individuelles doivent être définies pour chaque page, telles que le nom de page ou les eVars. Les variables individuelles sont généralement définies avec une balise `<script>` intégrée sur chaque page.
-1. **Utilisez le débogueur pour vérifier la collecte des données** : téléchargez et installez le [débogueur Experience Cloud](../../validate/debugger.md) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
+1. **Utilisez le débogueur pour vérifier la collecte de données** : téléchargez et installez le débogueur [CX Enterprise](../../validate/debugger.md) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
 
 ## Mise en cache
 

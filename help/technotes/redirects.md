@@ -4,10 +4,22 @@ keywords: Mise en œuvre d’Analytics
 title: Redirections et alias
 feature: Implementation Basics
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/iDwKqSKsjzEvgVCNKdTwDZHN2cPDmsuM1SV7PLisw3g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 99%
+source-wordcount: 1139
+ht-degree: 93%
 
 ---
 
@@ -19,15 +31,15 @@ Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention
 
 Cette fonction dirige le navigateur vers un nouvel emplacement sans intervention de l’utilisateur. Ces redirections ont lieu au niveau du navigateur (renvoi côté client) ou au niveau du serveur web (renvoi côté serveur).
 
-L’intervention de l’utilisateur n’étant pas requise, les redirections ont souvent lieu sans même que l’utilisateur s’en rende compte. La barre d’adresse du navigateur est le seul indice indiquant qu’une redirection a eu lieu. La barre d’adresse affiche une URL différente du lien initialement demandé par le navigateur.
+L’intervention de l’utilisateur n’étant pas requise, les redirections ont souvent lieu sans même que l’utilisateur s’en rende compte. La barre d’adresse du navigateur est le seul indice indiquant qu’une redirection a eu lieu. La barre d’adresse affiche une URL différente du lien demandé initialement par le navigateur.
 
 Il existe uniquement deux types de redirection, mais elles peuvent être implémentées de diverses façons. Par exemple, les redirections côté client peuvent avoir lieu si la page web vers laquelle un utilisateur a pointé son navigateur contient un script ou un code HTML spécial qui redirige le navigateur vers une autre URL. Les redirections côté serveur surviennent quand la page contient un script côté serveur ou parce que le serveur web a été configuré pour pointer l’utilisateur vers une autre URL.
 
 ## Analytics et redirections {#aa-redirects}
 
-[!DNL Analytics] rassemble certaines de ses données du navigateur et repose sur certaines propriétés du navigateur. Deux de ces propriétés, l’« URL de référence » (ou « référent ») et l’« URL active » peuvent être modifiées par une redirection côté serveur. Le navigateur sait qu’une URL a été demandée, mais qu’une autre URL a été renvoyée et il efface donc l’URL de référence. En conséquence, l’URL de référence est vide et [!DNL Analytics] peut signaler qu’il n’existe aucun référent pour la page.
+[!DNL Analytics] rassemble certaines de ses données du navigateur et repose sur certaines propriétés du navigateur. Deux de ces propriétés, « URL référente » (ou « référent ») et « URL actuelle », peuvent être modifiées par une redirection côté serveur. Le navigateur sait qu’une URL a été demandée, mais qu’une autre URL a été renvoyée et il efface donc l’URL de référence. En conséquence, l’URL de référence est vide et [!DNL Analytics] peut signaler qu’il n’existe aucun référent pour la page.
 
-## Exemple : navigation sans redirection  {#browse-without}
+## Exemple : navigation sans redirection {#browse-without}
 
 Prenons l’hypothèse suivante, selon laquelle aucune redirection ne se présente à l’utilisateur :
 
@@ -117,14 +129,14 @@ s.pageURL="https://www.flytohawaii.example"
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-Ces variables seront représentées comme les paramètres suivants dans le [débogueur Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
+Ces variables seront représentées comme les paramètres suivants dans le [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
   <tr> 
    <th class="entry"> </th> 
-   <th class="entry"> <b>URL ou valeur de chaîne de requête</b> </th> 
-   <th class="entry"> <b>Valeur telle qu’affichée dans le DigitalPulse Debugger</b> </th> 
+   <th class="entry"> <b>URL ou chaîne de requête</b> </th> 
+   <th class="entry"> <b>Valeur comme indiqué dans le débogueur DigitalPulse</b> </th> 
   </tr> 
  </thead>
  <tbody> 

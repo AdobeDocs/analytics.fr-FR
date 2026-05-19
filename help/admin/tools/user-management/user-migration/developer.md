@@ -4,20 +4,32 @@ title: Interfaces API affectées par la migration des utilisateurs
 feature: Admin Tools
 exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/vrfYIoa98hEoUVW17cwOLWTPk-3MIRS2wwLPB-ZB5DA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 95%
+source-wordcount: 229
+ht-degree: 32%
 
 ---
 
 # Interfaces API affectées par la migration des utilisateurs{#apis-affected-by-the-migration}
 
-Adobe procède à la migration de toutes les entreprises se connectant actuellement à Analytics sur [!DNL my.omniture.com] vers une authentification via Adobe Experience Cloud. Une fois la migration d’une entreprise en cours, la création et la gestion programmatiques d’utilisateurs par le biais d’autorisations spécifiques à Analytics et de méthodes `GetLoginKey` disponibles via les versions 1.3 et 1.4 de l’API Admin ne seront plus prises en charge. Ces actions seront désormais permises dans l’environnement Experience Cloud via [!DNL adobe.io].
+Adobe migre toutes les sociétés de connexion Analytics de [!DNL my.omniture.com] à l’authentification via Adobe CX Enterprise. Une fois la migration d’une entreprise en cours, la création et la gestion programmatiques d’utilisateurs par le biais d’autorisations spécifiques à Analytics et de méthodes `GetLoginKey` disponibles via les versions 1.3 et 1.4 de l’API Admin ne seront plus prises en charge. Ces actions seront désormais activées dans toute l’entreprise CX via `adobe.io`.
 
 ## Méthodes d’API affectées {#methods}
 
-Les méthodes d’API des versions 1.3 et 1.4 de l’API Admin suivantes ne seront plus prises en charge une fois que la migration des utilisateurs aura été lancée :
+Les méthodes d’API suivantes dans les versions 1.3 et 1.4 de l’API Admin ne seront plus prises en charge une fois la migration des utilisateurs commencée :
 
 * Company.GetLoginKey
 * Permissions.AddLogin
@@ -36,12 +48,12 @@ Les méthodes d’API des versions 1.3 et 1.4 de l’API Admin suivantes ne ser
 
 ## Actions possibles {#actions}
 
-Si votre entreprise utilise actuellement ces méthodes, vous recevrez une notification vous informant de la migration, à compter du 31 mars 2018. La notification vous sera envoyée au moins 30 jours avant la date de début de la migration de votre entreprise vers l’authentification via Experience Cloud. Ces méthodes ne seront plus prises en charge à compter de cette date.
+Si votre entreprise utilise actuellement ces méthodes, recherchez une notification préalable à la migration à compter du 31 mars 2018. La notification sera envoyée au moins 30 jours avant que votre entreprise ne commence la migration vers l’authentification CX Enterprise. À ce stade, ces méthodes ne seront plus prises en charge.
 
-Si votre entreprise n’utilise aucune de ces méthodes, veillez simplement à ne pas commencer à les utiliser.
+Si votre entreprise n’utilise aucune de ces méthodes, aucune action n’est requise, à part vous assurer que vous ne commencez pas à utiliser ces méthodes.
 
-Pour en savoir plus :
+Pour plus d’informations :
 
-* [Généralités sur la gestion des utilisateurs](https://helpx.adobe.com/fr/enterprise/help/users.html)
-* [Forum à propos des API de gestion des utilisateurs](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [Migration de l’accès utilisateur et de la gestion Analytics vers Experience Cloud](/help/admin/tools/user-management/user-migration/c-migration-tool.md)
+* [Informations générales sur User Management](https://helpx.adobe.com/fr/enterprise/help/users.html)
+* [Forum de l’API User Management](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
+* [Migration de l’accès utilisateur et de la gestion Analytics vers CX Enterprise](/help/admin/tools/user-management/user-migration/c-migration-tool.md)

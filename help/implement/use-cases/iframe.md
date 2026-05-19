@@ -4,10 +4,22 @@ description: Accédez aux variables Adobe Analytics à lʼintérieur dʼun ifram
 feature: Implementation Basics
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/og9yeHUn5BJVm8-22V2l1frcpluXdlI-f0LnyjFacnk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: 319
+ht-degree: 95%
 
 ---
 
@@ -67,5 +79,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Comme pour tout autre code JavaScript, les iFrames ne peuvent communiquer que lorsque les domaines et les protocoles correspondent. Ces exemples ne fonctionnent pas si le contenu de lʼiframe réside sur un domaine différent de celui du parent.
 * Si AppMeasurement réside dans un iframe, la variable [`referrer`](../vars/page-vars/referrer.md) est définie sur lʼURL parente et non sur lʼURL référente réelle. Vous pouvez définir manuellement la variable `referrer` pour résoudre ce problème.
-* Lʼ[Experience Cloud Debugger dʼAdobe](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) ne reconnaît pas les demandes dʼimage déclenchées dans les iFrames.
+* Le débogueur Adobe CX Enterprise [&#128279;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) ne reconnaît pas les demandes d’image déclenchées dans les iFrames.
 * Activity Map nʼaffiche pas la carte thermique sur les liens sur lesquels lʼutilisateur a cliqué dans les iFrames. La totalité de lʼiframe est mise en surbrillance à la place.

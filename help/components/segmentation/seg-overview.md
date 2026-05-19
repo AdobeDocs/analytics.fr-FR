@@ -3,10 +3,31 @@ description: Découvrez comment les segments vous permettent d’identifier des 
 title: À propos des segments
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/o6mpvRuEpfb5IUhJ-dRR1YRqpHG-Z725momiyXMGsdE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 99%
+source-wordcount: 1005
+ht-degree: 94%
 
 ---
 
@@ -14,7 +35,7 @@ ht-degree: 99%
 
 Les segments vous permettent d’identifier des sous-ensembles de visiteurs et visiteuses selon des caractéristiques ou des interactions web. Ils sont conçus comme des informations sur les audiences que vous pouvez créer en fonction de vos besoins spécifiques, puis vérifier, modifier et partager avec d’autres personnes membres de l’équipe ou utiliser dans d’autres produits Adobe et fonctionnalités Analytics.
 
-Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur ou visiteuse], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés dans plusieurs produits et fonctionnalités d’[!DNL Adobe Experience Cloud]. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
+Les segments sont basés sur une hiérarchie de niveau [!UICONTROL Visiteur ou visiteuse], [!UICONTROL Visite] et [!UICONTROL Accès] en utilisant un modèle de conteneur imbriqué. Les conteneurs imbriqués permettent de définir les attributs des visiteurs et les actions en fonction de règles entre et dans les conteneurs. Les segments Analytics peuvent être créés, approuvés, partagés, enregistrés et exécutés sur plusieurs produits et fonctionnalités dans l’entreprise Adobe CX. Les segments peuvent être générés depuis un rapport, créés dans un rapport de tableau de bord ou mis en signet pour un accès rapide.
 
 Vous pouvez créer et enregistrer des segments dans le Créateur de segments, ou en générer depuis un rapport sur les abandons (dans [!UICONTROL Analysis Workspace]). Vous pouvez également utiliser et développer des segments préconfigurés en fonction de règles spécifiques entre les conteneurs imbriqués, permettant de filtrer les résultats et de les appliquer aux rapports. En outre, les segments peuvent être utilisés ensemble comme [segments empilés](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -257,7 +278,7 @@ Les administrateurs peuvent modifier n’importe quel segment et partager les se
 
 +++ **Puis-je consulter tous les segments de mon entreprise ?**
 
-Oui, les administrateurs et admnistratrices peuvent voir tous les segments dans l’interface utilisateur d’[!DNL Analysis Workspace].
+Oui, les administrateurs peuvent voir tous les segments dans l’interface utilisateur d’Analysis Workspace.
 
 Report Builder affiche les segments que vous possédez et les segments qui sont partagés avec vous.
 
@@ -275,6 +296,6 @@ Report Builder affiche uniquement les segments que vous avez conçus ou ceux qui
 
 +++ **Pourquoi ne puis-je pas supprimer un segment ?**
 
-Si le segment a été [publié sur Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), vous ne pouvez ni le supprimer ni le modifier. Néanmoins, vous pouvez le copier et modifier la version copiée.
+Si le segment a été [publié sur CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md), vous ne pouvez pas le supprimer ni le modifier. Néanmoins, vous pouvez le copier et modifier la version copiée.
 
 +++

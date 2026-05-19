@@ -4,10 +4,19 @@ description: Configurez une suite de rapports virtuelle pour activer les analyse
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: 547
+ht-degree: 82%
 
 ---
 
@@ -25,7 +34,7 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 
 Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Pour démarrer ce processus, contactez l’assistance clientèle et préparez les informations suivantes :
 
-* Votre identifiant d’organisation Adobe Experience Cloud (chaîne alphanumérique se terminant par @AdobeOrg)
+* Votre identifiant d’organisation Adobe CX Enterprise (chaîne alphanumérique se terminant par @AdobeOrg)
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
 * Quelle méthode d’analyse entre appareils souhaitez-vous utiliser (groupement basé sur les champs) ?
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
@@ -34,7 +43,7 @@ La valeur par défaut est la relecture hebdomadaire avec un intervalle de recher
 
 Une fois que vous avez fourni ces informations à l’assistance clientèle, ce service va collaborer avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
 
-## &#x200B;2. Créez une suite de rapports virtuelle entre appareils pour afficher la vue entre appareils
+## &#x200B;2. Créer une suite de rapports virtuelle sur plusieurs appareils pour afficher la vue sur plusieurs appareils
 
 Les administrateurs ayant accès à la création de suites de rapports virtuelles peuvent créer des suites de rapports virtuelles des analyses entre appareils comme suit :
 

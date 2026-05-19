@@ -4,10 +4,21 @@ description: Découvrez comment implémenter Adobe Analytics à l’aide de bal
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 79%
+source-wordcount: 396
+ht-degree: 69%
 
 ---
 
@@ -17,7 +28,7 @@ Au cours de la durée de vie d’Adobe Analytics, Adobe a proposé plusieurs m�
 
 Les balises dans Adobe Experience Platform représentent une solution de gestion des balises qui vous permet de déployer le code Analytics parallèlement à d’autres exigences de balisage. Adobe propose des intégrations à d’autres solutions et produits et vous permet de déployer du code personnalisé. Toutes ces tâches peuvent être effectuées sans faire appel aux équipes de développement de votre entreprise pour mettre à jour le code de votre site.
 
-Tous les clients disposant d’un contrat Adobe Experience Cloud actif peuvent utiliser les balises. Si vous ne savez pas si vous y avez accès, contactez l’administration système Experience Cloud de votre organisation.
+Tous les clients disposant d’un contrat Adobe CX Enterprise actif peuvent utiliser les balises. Si vous ne savez pas si vous y avez accès, contactez l’administrateur système CX Enterprise de votre entreprise.
 
 Présentation générale des tâches d’implémentation :
 
@@ -58,7 +69,7 @@ Présentation générale des tâches d’implémentation :
 
 <tr>
 <td>5</td>
-<td><b>Déployer dans un environnement de développement</b> vous permet de dispose d’un environnement dans lequel vous pouvez effectuer une itération sur le développement des balises.</td>
+<td><b>Déploiement dans un environnement de développement</b>. disposer d’un environnement dans lequel vous pouvez effectuer une itération sur le développement des balises ;</td>
 <td><a href="./deploy-dev.md">Déployer une implémentation d’Analytics dans un environnement de développement</td>
 </tr>
 

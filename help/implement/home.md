@@ -24,7 +24,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 197233b18a57ac67d4b56ddd34f296d88dd9c4b2
+source-git-commit: 29d1585ad3d00922a7e39bf1b4da64089d9168c7
 workflow-type: tm+mt
 source-wordcount: 814
 ht-degree: 83%
@@ -106,7 +106,7 @@ Pour votre **application mobile**, les méthodes d’implémentation suivantes s
 * [Création d’une propriété de balise dans Experience Platform](launch/create-analytics-property.md)
 * [Mises à jour d’AppMeasurement](appmeasurement-updates.md)
 * [Tutoriel sur la configuration d’Adobe Analytics avec Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=fr)
-* [Tutoriel sur l’implémentation de Adobe Experience Cloud dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=fr)
+* [Tutoriel sur l’implémentation d’Adobe CX Enterprise dans les applications mobiles](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/overview.html?lang=fr)
 
 
 ## Principales ressources Analytics

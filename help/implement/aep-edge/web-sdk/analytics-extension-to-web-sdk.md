@@ -2,10 +2,20 @@
 title: Migration de l’extension de balise Adobe Analytics vers l’extension de balise Web SDK
 description: Mettez à jour votre implémentation Analytics sur les balises de la collecte de données Adobe Experience Platform pour utiliser l’extension Web SDK.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 6%
+source-wordcount: 1731
+ht-degree: 7%
 
 ---
 
@@ -38,13 +48,13 @@ Les étapes suivantes contiennent des objectifs concrets à atteindre. Cliquez s
 
 Créez un flux de données dans la collecte de données Adobe Experience Platform. Lorsque vous envoyez des données à ce flux de données, il transfère les données vers Adobe Analytics. À l’avenir, ce même flux de données transfèrera des données à Customer Journey Analytics.
 
-1. Accédez à [experience.adobe.com](https://experience.adobe.com) et connectez-vous à l’aide de vos informations d’identification.
+1. Accédez à [Adobe CX Enterprise](https://experience.adobe.com) et connectez-vous à l’aide de vos informations d’identification.
 1. Utilisez la page d’accueil ou le sélecteur de produits en haut à droite pour accéder à **[!UICONTROL Collecte de données]**.
 1. Dans le volet de navigation de gauche, sélectionnez **[!UICONTROL Flux de données]**.
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez **[!UICONTROL Adobe Analytics]**.
+1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
@@ -88,7 +98,7 @@ L’élément de données d’objet de données fournit un cadre intuitif pour c
    * Les cases à cocher peuvent rester en l’état
 1. Sur la droite, sélectionnez les paramètres suivants :
    * Bouton radio de propriété : [!UICONTROL Data]
-   * Solution : [!UICONTROL Adobe Analytics]
+   * Solution : 
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ![Créer un élément de données](assets/create-data-element.png) {style="border:1px solid lightslategray"}
@@ -127,7 +137,7 @@ Les étapes ci-dessus s’appliquent uniquement aux règles qui définissent des
 1. Sur la droite, modifiez les paramètres d’action comme suit :
    * [!UICONTROL Type] : par `s.t()`, utilisez **[!UICONTROL Pages vues de détails sur la page web]**. Par `s.tl()`, utilisez **[!UICONTROL Clics sur les liens d’interaction web]**. Si vous utilisez [`s.tl()`](../../vars/functions/tl-method.md), vous devez également inclure les champs suivants dans votre objet de données. Ces champs sont répertoriés sous [!UICONTROL Propriétés supplémentaires] lors de l’exécution de la configuration d’action [!UICONTROL Mettre à jour la variable] :
       * [Nom du lien](../../vars/functions/tl-method.md)
-      * [Type de lien  &#x200B;](../../vars/functions/tl-method.md)
+      * [Type de lien](../../vars/functions/tl-method.md)
       * [URL du lien](../../vars/config-vars/linkurl.md)
 1. Sélectionnez **[!UICONTROL Conserver les modifications]**.
 1. Répétez ces étapes pour chaque configuration d’action qui utilise Adobe Analytics pour envoyer une balise.
@@ -156,8 +166,8 @@ La publication des règles mises à jour suit le même workflow que toute autre 
 Une fois que votre implémentation de balise est entièrement sur le Web SDK, vous pouvez désactiver l’extension Adobe Analytics.
 
 1. Dans le volet de navigation de gauche de l’interface des balises, sélectionnez **[!UICONTROL Extensions]**.
-1. Recherchez et sélectionnez l’extension [!UICONTROL Adobe Analytics]. Sur la droite, sélectionnez **[!UICONTROL Désactiver]**.
-1. Suivez le même workflow de publication ci-dessus pour publier la suppression de l’extension [!UICONTROL Adobe Analytics].
+1. Recherchez et sélectionnez l’extension . Sur la droite, sélectionnez **[!UICONTROL Désactiver]**.
+1. Suivez le même workflow de publication ci-dessus pour publier la suppression de l’extension .
 1. Une fois l’extension désactivée en production, vous pouvez la désinstaller entièrement. Sélectionnez l’extension, sélectionnez le menu à trois points sur la droite, puis sélectionnez **[!UICONTROL Désinstaller]**.
 1. Suivez le même workflow de publication ci-dessus pour publier ces modifications en production.
 

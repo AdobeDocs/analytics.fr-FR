@@ -4,10 +4,18 @@ keywords: ftp;sftp
 title: Configuration de comptes FTP - Aperçu
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
+TQID: https://experienceleague.adobe.com/38oslnk-IS87YU9qpOJyEoqytnrMuK5lp3VtYnTyQOg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 25%
+source-wordcount: 316
+ht-degree: 14%
 
 ---
 
@@ -25,4 +33,4 @@ Les clients d’Adobe reçoivent des notifications de maintenance par le biais d
 
 L’hôte FTP Adobe se nomme `ftp://ftp.omniture.com` ou `ftp://ftp2.omniture.com`.
 
-Cette information, ainsi que le nom d’utilisateur et le mot de passe, doit être fournie dans [!UICONTROL Experience Cloud] (pour les classifications et les sources de données) ou par le représentant Adobe responsable de la configuration du compte à votre demande. Si vous ne savez pas quelle adresse FTP ou SFTP utiliser, contactez l’équipe chargée de votre compte Adobe, qui pourra vous fournir l’adresse appropriée. En outre, pour les comptes de classifications et de sources de données, Adobe n’a pas d’heure spécifique dans la journée pour le traitement des fichiers FTP ou SFTP. Adobe utilise plutôt un script qui interroge en permanence les comptes FTP ou SFTP pour le traitement des nouveaux fichiers. Les fichiers chargés dans ces comptes sont traités aussi rapidement que possible.
+Ces informations, ainsi qu’un nom d’utilisateur et un mot de passe, doivent être fournis soit dans CX Enterprise (pour les classifications et les sources de données), soit par le représentant Adobe chargé de la configuration du compte, à votre demande. Si vous ne savez pas quelle adresse FTP ou SFTP utiliser, contactez l’équipe chargée de votre compte Adobe, qui pourra vous fournir l’adresse appropriée. En outre, pour les comptes de classifications et de sources de données, Adobe n’a pas d’heure spécifique dans la journée pour le traitement des fichiers FTP ou SFTP. Adobe utilise plutôt un script qui interroge en permanence les comptes FTP ou SFTP pour le traitement des nouveaux fichiers. Les fichiers chargés dans ces comptes sont traités aussi rapidement que possible.

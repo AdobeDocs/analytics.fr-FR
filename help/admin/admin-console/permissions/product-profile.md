@@ -4,16 +4,32 @@ description: Découvrez comment les profils de produit peuvent être utilisés c
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
+TQID: https://experienceleague.adobe.com/pEMsqMvXmpASV9-DOBoZHzbWp88v5kJioww9H1nJkzY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c67272a6-888e-425e-9e97-a87304637eed
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 65%
+source-wordcount: 686
+ht-degree: 62%
 
 ---
 
 # Profils de produit pour Adobe Analytics
 
-Les profils de produit sont des paramètres dʼautorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs dʼune organisation. Si vous créez un profil de produit et que vous lui affectez un utilisateur Experience Cloud, il hérite des éléments d’autorisation contenus dans le profil de produit.
+Les profils de produit sont des paramètres dʼautorisation prédéfinis que les administrateurs des produits peuvent attribuer aux utilisateurs dʼune organisation. Si vous créez un profil de produit et que vous lui affectez un utilisateur CX Enterprise, il hérite des éléments d&#39;autorisation contenus dans le profil de produit.
 
 Pour obtenir des informations générales sur les profils de produit, notamment la création de profils de produit et l’affectation d’utilisateurs, consultez [Gérer les profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
 
@@ -33,7 +49,7 @@ Pour plus d’informations sur l’affectation des administrateurs de profil de 
 Les autorisations minimales requises dans un seul profil de produit pour accéder à Adobe Analytics sont les suivantes :
 
 * Le profil de produit doit avoir accès à au moins une suite de rapports.
-* Le profil de produit doit appartenir à l’élément d’autorisation Outils Analytics **Accès aux projets Workspace**.
+* Le profil de produit doit appartenir à l’élément d’autorisation Outils Analytics **Accès aux projets**.
 
 ### Suites de rapports
 
@@ -61,6 +77,6 @@ Les éléments d’autorisation liés aux outils Analytics octroient l’accès 
 
 ## Développeurs de profil de produit
 
-Les développeurs sont similaires aux utilisateurs, à la différence qu’ils peuvent utiliser l’API Experience Cloud sur Adobe Developer. Consultez [Gérer les développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide d’utilisation Enterprise pour plus d’informations. Si l’utilisateur se voit accorder l’accès développeur pour n’importe quel profil, il peut accéder à la console de développement (console.adobe.io) et modifier les intégrations Adobe Analytics. Les appels et réponses de l’API Analytics autorisés pour l’utilisateur dépendent des autorisations réseau de tous les profils auxquels l’utilisateur a accès en tant que développeur.
+Les développeurs sont similaires aux utilisateurs, à la différence qu’ils peuvent utiliser l’API CX Enterprise sur Adobe Developer. Consultez [Gérer les développeurs](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) dans le guide d’utilisation Enterprise pour plus d’informations. Si l’utilisateur se voit accorder l’accès développeur pour n’importe quel profil, il peut accéder à la console de développement (console.adobe.io) et modifier les intégrations Adobe Analytics. Les appels et réponses de l’API Analytics autorisés pour l’utilisateur dépendent des autorisations réseau de tous les profils auxquels l’utilisateur a accès en tant que développeur.
 
 Par exemple, avec les autorisations de profil qui incluent toutes les mesures, toutes les dimensions et une suite de rapports, un développeur peut effectuer des appels API pertinents à n’importe quel composant de cette suite de rapports. Si l’élément d’autorisation Détection des anomalies est ajouté, les réponses de l’API peuvent inclure des données d’anomalies. En règle générale, si un profil accorde l’accès à un scénario dans l’interface d’Adobe Analytics, l’accès développeur à un profil défini de manière similaire active les appels et réponses d’API correspondants.

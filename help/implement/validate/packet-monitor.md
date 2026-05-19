@@ -5,10 +5,24 @@ keywords: renifleur de paquets, statut http, 200, 302, charles
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 99%
+source-wordcount: 679
+ht-degree: 94%
 
 ---
 
@@ -16,7 +30,7 @@ ht-degree: 99%
 
 Les analyseurs de paquets vous permettent de voir les données envoyées par votre mise en œuvre aux serveurs de collecte de données Adobe.
 
-Comme le débogueur Adobe Experience Cloud, un moniteur de paquets indique les paramètres de données transmis dans une demande d’image. Cependant, les moniteurs de paquets proposent des fonctions supplémentaires :
+Tout comme le débogueur Adobe CX Enterprise, un moniteur de paquets affiche les paramètres de données transmis dans une demande d’image ; cependant, les moniteurs de paquets offrent des fonctionnalités supplémentaires :
 
 * Affichage d’un lien personnalisé pour suivre les demandes d’image
 * Affichage des demandes d’image à l’aide de méthodes de mise en œuvre autres que JavaScript, comme les demandes d’image codées en dur ou [!DNL Appmeasurement]

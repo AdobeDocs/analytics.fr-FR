@@ -3,9 +3,17 @@ description: Découvrez comment utiliser le gestionnaire de segments pour gérer
 title: Gestion des segments
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: 567
 ht-degree: 16%
 
 ---
@@ -41,7 +49,7 @@ La liste des segments affiche ➊ tous les segments que vous possédez, les segm
 | **[!UICONTROL Propriétaire]** | Propriétaire du segment. En tant qu’utilisateur, vous ne voyez que les segments que vous possédez ou les annotations qui sont partagées avec vous. |
 | **[!UICONTROL Balises]** | Balises pour ce segment. |
 | **[!UICONTROL Partagé avec]** | Nombre d’individus ou de groupes avec lesquels vous avez partagé le segment. Sélectionnez cette option pour ouvrir la boîte de dialogue **[!UICONTROL Partager le composant]**. Voir [Partager des segments](t-seg-share.md) pour plus d’informations. |
-| **[!UICONTROL Publié]** | Indique si le [segment est publié](seg-publish.md) dans Experience Cloud. |
+| **[!UICONTROL Publié]** | Indique si le segment [&#x200B; est publié &#x200B;](seg-publish.md) vers l’expérience client Entreprise. |
 | **[!UICONTROL Date de modification]** | Date et heure de la dernière modification du segment. |
 
 Utilisez ![Paramètres de colonne](/help/assets/icons/ColumnSetting.svg) pour spécifier les colonnes à afficher.
@@ -68,7 +76,7 @@ La barre de filtrage affiche ➌ les segments actifs appliqués à partir du pan
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer la liste des segments à l’aide du ![&#x200B; du panneau de gauche &#x200B;](/help/assets/icons/Filter.svg)Filtrer **&#x200B;**&#x200B;Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
+Vous pouvez filtrer la liste des segments à l’aide du ➍ du panneau de gauche ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Filtrer]**. Le panneau de filtrage affiche le type de filtre et le nombre de segments qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour activer/désactiver l’affichage du panneau Filtre.
 
 Voir [Filtrer la liste des segments](t-seg-filter.md) pour plus d’informations.
 

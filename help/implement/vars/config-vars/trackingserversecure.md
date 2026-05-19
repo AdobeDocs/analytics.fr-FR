@@ -4,10 +4,26 @@ description: Domaine utilisé pour envoyer des données à Adobe via HTTPS.
 feature: Appmeasurement Implementation
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 role: Admin, Developer
-source-git-commit: 7918b18e73618368543a996ca121b64b7afb33ab
+TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 13%
+source-wordcount: 830
+ht-degree: 17%
 
 ---
 
@@ -15,7 +31,7 @@ ht-degree: 13%
 
 La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasurement pour envoyer des données à Adobe via HTTPS. Si cette variable n’est pas correctement définie, votre mise en œuvre peut entraîner une perte de données.
 
-Avant le service d’identités [Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/id-service/using/home), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’ID dans toutes les implémentations lorsque cela est possible.
+Avant le service d’identités [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’ID dans toutes les implémentations lorsque cela est possible.
 
 ## Domaine Edge utilisant l’extension Web SDK
 
@@ -24,7 +40,7 @@ Web SDK utilise le domaine [!UICONTROL Edge] pour gérer le serveur de suivi et 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Sélectionnez la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis sélectionnez le bouton **[!UICONTROL Configurer]** sous [!UICONTROL Adobe Experience Platform Web SDK].
-1. Définissez le champ de texte **[!UICONTROL domaine Edge]** souhaité.
+1. Définissez le champ de texte **[!UICONTROL domaine]** souhaité.
 
 Voir [Configurer l’extension Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=fr) dans la documentation de Web SDK pour plus d’informations.
 
@@ -76,8 +92,8 @@ La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépen
 
 **Si vous ne participez pas au programme de certificat**, définissez la valeur sur un sous-domaine de `data.adobedc.net`. Adobe recommande d’utiliser l’identifiant de société de votre organisation par souci de cohérence. Par exemple : `example.data.adobedc.net`. Procédez comme suit pour déterminer l’ID de votre société :
 
-1. Connectez-vous à [experience.adobe.com](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
-1. N’importe où dans l’interface d’Experience Cloud, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
+1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+1. N’importe où dans l’interface CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
 1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
 1. Développez l’organisation IMS souhaitée.
 1. Recherchez le champ **[!UICONTROL Client]**. Cette valeur est le sous-domaine de `data.adobedc.net` recommandé à utiliser.

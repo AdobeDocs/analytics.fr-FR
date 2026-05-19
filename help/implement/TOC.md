@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
       + [Util.cookieRead](vars/functions/util-cookieread.md)
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
-   + Plug-ins   {#plugins}
+   + Plug-ins {#plugins}
       + [Présentation des plug-ins](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
@@ -170,7 +170,7 @@ ht-degree: 100%
    + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
 + Mise en œuvre d’Analytics avec JavaScript {#js}
    + [Présentation de JavaScript](js/overview.md)
-   + {hide-from-toc}[Mise en œuvre des liens d’exclusion](js/opt-out.md)
+   + {hide-from-toc}[Implémenter des liens de désinscription](js/opt-out.md)
    + [Remplacements de variables](js/overrides.md)
    + [Migration du code H](js/migrate-from-hcode.md)
    + Code H {#h-code}
@@ -198,7 +198,7 @@ ht-degree: 100%
    + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
    + [Workflow du suivi de campagne](use-cases/campaign-tracking.md)
 + Valider votre mise en œuvre {#validate}
-   + [Débogueur Adobe Experience Cloud hérité](validate/debugger.md)
+   + [Débogueur hérité](validate/debugger.md)
    + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
    + [Moniteurs de paquets](validate/packet-monitor.md)
    + [Collisions de hachage](validate/hash-collisions.md)

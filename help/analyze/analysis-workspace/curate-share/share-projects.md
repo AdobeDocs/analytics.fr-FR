@@ -5,10 +5,28 @@ title: Partager des projets
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '2060'
-ht-degree: 94%
+source-wordcount: 2059
+ht-degree: 88%
 
 ---
 
@@ -60,9 +78,9 @@ Vous pouvez partager un rôle spécifique avec des utilisateurs et utilisatrices
 
 Lorsque vous partagez un rôle de projet spécifique avec des utilisateurs et utilisatrices et des groupes de votre organisation, tenez compte des points suivants :
 
-* Les rôles de projet (**[!UICONTROL Modifier l’original]**, **[!UICONTROL Modifier la copie]** et **[!UICONTROL Lecture seule]**) s’appliquent à l’utilisateur ou à l’utilisatrice et à un ID de projet spécifique. Les rôles de projet ne dépendent pas des autorisations d’utilisation gérées dans l’[Admin Console d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
+* Les rôles de projet (**[!UICONTROL Modifier l’original]**, **[!UICONTROL Modifier la copie]** et **[!UICONTROL Lecture seule]**) s’appliquent à l’utilisateur ou à l’utilisatrice et à un ID de projet spécifique. Les rôles de projet ne dépendent pas des autorisations d’utilisateur gérées dans l’[Admin Console d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr).
 
-* Dans Adobe Analytics, les groupes sont définis par profils de produits dans l’[Admin Console d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr). Les administrateurs et administratrices peuvent partager des projets avec n’importe quel groupe, y compris « Tous ». Les personnes ne disposant pas de droit d’administration peuvent partager des projets avec des groupes dont elles sont membres, à l’exception de « Tous ».
+* Dans Adobe Analytics, les groupes sont définis par profils de produit dans l’[Admin Console d’Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr). Les administrateurs et administratrices peuvent partager des projets avec n’importe quel groupe, y compris « Tous ». Les personnes ne disposant pas de droit d’administration peuvent partager des projets avec des groupes dont elles sont membres, à l’exception de « Tous ».
 
 * Si un utilisateur ou une utilisatrice reçoit plusieurs rôles, le rôle le plus élevé s’applique. Cela peut se produire si la personne est ajouté à la fois en tant que personne individuelle et en tant que membre d’un groupe. Par exemple, si une personne reçoit le rôle **[!UICONTROL Modifier l’original]** en tant que personne individuelle et le rôle **[!UICONTROL Lecture seule]** en tant que personne membre d’un groupe, elle recevra une expérience de projet **[!UICONTROL Modifier l’original]**.
 
@@ -131,8 +149,8 @@ Pour partager le lien du projet avec les utilisateurs et utilisatrices de votre 
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Exiger une authentification Experience Cloud"
->abstract="Votre organisation exige que les utilisateurs et utilisatrices se connectent à Experience Cloud pour pouvoir utiliser ce lien."
+>title="Exiger une authentification CX Enterprise"
+>abstract="Votre entreprise exige que les utilisateurs se connectent à CX Enterprise pour utiliser ce lien."
 
 Vous pouvez accorder un [accès en lecture seule](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) vers les projets Analysis Workspace avec des personnes qui n’ont pas accès à Adobe Analytics. Cela peut inclure les personnes suivantes :
 
@@ -180,15 +198,15 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
 1. Indiquez si l’option de sécurité suivante doit être activée (cette option peut être contrôlée par votre administrateur ou administratrice Analytics) :
 
-   * **[!UICONTROL Exiger une authentification Experience Cloud] :**
+   * **[!UICONTROL Exiger une authentification CX Enterprise]:**
 
-     Lorsque cette option est activée, les seules personnes qui peuvent accéder au projet sont celles qui peuvent se connecter à l’organisation Adobe Experience Cloud dans laquelle le projet que vous partagez a été créé. Toutefois, les personnes avec lesquelles vous partagez vos données n’ont pas nécessairement besoin d’avoir accès à Adobe Analytics.
+     Lorsque cette option est activée, les seuls utilisateurs pouvant accéder au projet sont ceux qui peuvent se connecter à l’organisation Adobe CX Enterprise dans laquelle le projet que vous partagez a été créé. Toutefois, les personnes avec lesquelles vous partagez vos données n’ont pas nécessairement besoin d’avoir accès à Adobe Analytics.
 
      Les administrateurs et administratrices d’Analytics peuvent configurer cette préférence pour l’entreprise, comme décrit dans [Préférences](/help/analyze/analysis-workspace/user-preferences.md). Selon la manière dont les administrateurs et administratrices ont configuré cette option, vous pouvez rencontrer les scénarios suivants :
 
       * Si cette option n’est pas visible, c’est que l’administrateur ou l’administratrice Analytics n’a pas activé cette fonctionnalité.
 
-      * Si cette option est activée, mais non utilisée, votre administrateur ou administratrice Analytics exige l’authentification Experience Cloud pour toute personne accédant aux projets Analysis Workspace.
+      * Si cette option est activée et grisée, votre administrateur Analytics requiert l’authentification CX Enterprise pour toute personne accédant aux projets Analysis Workspace.
 
 1. En regard du champ **[!UICONTROL Partager avec tout le monde (pas de connexion nécessaire)]**, cliquez sur l’icône **Copier le lien** ![icône Copier le lien](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) pour copier le lien dans le presse-papiers de votre système.
 

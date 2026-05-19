@@ -4,10 +4,25 @@ description: Découvrez comment remplacer vos données axées sur l’appareil p
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 56%
+source-wordcount: 837
+ht-degree: 54%
 
 ---
 
@@ -55,7 +70,7 @@ Les analyses entre appareils sont une fonctionnalité innovante et robuste, mais
 * Les suites de rapports d’Adobe Analytics ne peuvent pas mapper plus d’une ID d’organisation. Comme Analytics sur l’ensemble des appareils regroupe des appareils dans une suite de rapports donnée, il n’est pas possible d’utiliser Analytics sur l’ensemble des appareils pour regrouper des données sur plusieurs ID d’organisation.
 * Les analyses entre appareils utilisent un pipeline de traitement complexe, avec plusieurs composants dépendants. Ce pipeline s’exécute en parallèle du workflow de création de rapports Analytics de base. Vous pouvez vous attendre à une incohérence des données d’environ 1 % pour le nombre total d’accès entre la suite de rapports d’origine et la suite de rapports virtuelle Analytics sur l’ensemble des appareils.
 * Les analyses entre appareils utilisent une suite de rapport virtuelle et untraitement du temps de la période de rapport, qui ont leurs propres limites. Par exemple, ils ne prennent actuellement pas en charge les variables de canaux marketing. Voir [Suites de rapports virtuelles](/help/components/vrs/vrs-about.md) et [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md) pour en savoir plus sur ces limitations.
-* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) dans Experience Cloud et Adobe Analytics. Cependant, les suites de rapports virtuelles Analytics sur l’ensemble des appareils (qu’elles soient basées sur un graphique privé ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles Analytics sur l’ensemble des appareils.
+* Private Graph utilise les mêmes synchronisations d’identifiants que celles utilisées par la fonctionnalité [Attributs du client](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/customer-attributes/attributes) disponible dans CX Enterprise et Adobe Analytics. Cependant, les suites de rapports virtuelles Analytics sur l’ensemble des appareils (qu’elles soient basées sur un graphique privé ou sur un groupement basé sur les champs) ne sont pas compatibles avec le reste de la fonctionnalité Attributs du client. En d’autres termes, les dimensions basées sur les attributs du client ne sont pas disponibles pour être utilisées avec les suites de rapports virtuelles Analytics sur l’ensemble des appareils.
 * Les analyses entre appareils ne sont actuellement pas compatibles avec A4T.
 * L’API 1.4 n’est pas prise en charge. Les connecteurs Power BI et le Report Builder reposent tous les deux sur l’API 1.4 et ne sont donc pas compatibles avec les analyses entre appareils.
 * La surveillance active par Adobe du processus d’assemblage des analyses entre appareils se limite uniquement aux suites de rapports de production.

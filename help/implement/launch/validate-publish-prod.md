@@ -4,10 +4,25 @@ description: Découvrez comment utiliser les balises Adobe Experience Platform p
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
-source-git-commit: e35210582e94037cf286b98e7e0a6b06040a8c6f
+TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 72%
+source-wordcount: 635
+ht-degree: 65%
 
 ---
 
@@ -19,13 +34,13 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 [Déployez votre mise en œuvre d’Analytics dans votre environnement de développement](deploy-dev.md) : une mise en œuvre d’Analytics doit être publiée dans votre environnement de développement pour suivre cette page.
 
-## Validez votre mise en œuvre de développement à l’aide du débogueur Experience Cloud.
+## Validez votre implémentation de développement à l’aide du débogueur CX Enterprise.
 
-Experience Cloud debugger est une extension qui affiche toutes les balises Experience Cloud présentes sur une page.
+CX Enterprise debugger est une extension qui affiche toutes les balises CX Enterprise présentes sur une page.
 
-1. Installez l’extension pour [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Installez l’extension pour [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
-3. Cliquez sur l’icône Adobe Experience Cloud debugger dans votre navigateur.
+3. Cliquez sur l’icône d’Adobe CX Enterprise debugger dans votre navigateur.
 4. Si tout est correctement implémenté, vous devriez voir le contenu dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
 
 ## Déployez votre mise en œuvre de développement vers l’évaluation/la production
@@ -47,7 +62,7 @@ Une fois que vous avez validé que vous voyez des données, vous pouvez pousser 
 
 Confirmez que vous voyez des données sur la version en direct de votre site et commencez la collecte officielle des données pour Adobe Analytics.
 
-1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code des balises en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez [!UICONTROL Adobe Experience Cloud debugger].
+1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code des balises en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez Adobe CX Enterprise debugger.
 2. Si tout fonctionne correctement, vous devriez voir des données similaires à vos tests dans votre environnement de développement. À ce stade, vous collectez maintenant des données sur votre site et vous pouvez maintenant commencer à utiliser Adobe Analytics pour la création de rapports.
 
 ## Résolution des problèmes

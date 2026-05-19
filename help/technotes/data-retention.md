@@ -3,10 +3,26 @@ title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 95%
+source-wordcount: 617
+ht-degree: 92%
 
 ---
 
@@ -14,7 +30,7 @@ ht-degree: 95%
 
 Les données collectées par Adobe Analytics sont conservées pendant une période spécifique. Le délai pendant lequel Adobe conserve ces données varie d’un contrat à l’autre et il est précisé dans la politique de conservation des données d’une entreprise. Cette politique s’applique aux données elles-mêmes, ce qui signifie qu’elle affecte toutes les fonctionnalités de création de rapports d’Analytics (Analysis Workspace, API de création de rapports, etc.).
 
-**La politique de conservation des données par défaut d’Adobe Analytics est de 25 mois.** La politique de conservation des données de votre entreprise peut être différente, selon le contrat.
+**La politique de conservation des données par défaut pour Adobe Analytics est de 25 mois.** La politique de rétention de votre entreprise peut être différente, selon le contrat.
 
 Les données conservées sont basées sur la date actuelle et la date et l’heure des données historiques. La date et l’heure enregistrées pour les accès peuvent être différentes de la date et de l’heure auxquelles les accès ont été reçus par Adobe.
 
@@ -35,7 +51,7 @@ Le délai prévu par votre politique de conservation des données dépassé, Ado
 
 ## Afficher/gérer la politique actuelle de conservation des données
 
-La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation Experience Cloud et si une politique de conservation des données est en place pour cette suite de rapports.
+La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation CX Enterprise et si une politique de conservation des données est en place pour cette suite de rapports.
 
 ## Questions fréquentes
 

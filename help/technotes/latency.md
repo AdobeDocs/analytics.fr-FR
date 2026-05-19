@@ -4,10 +4,23 @@ keywords: données manquantes;lent
 title: Disponibilité des données et latence
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: 823
+ht-degree: 97%
 
 ---
 
@@ -33,7 +46,7 @@ On distingue les différentes catégories de latence suivantes :
 
 ## Fonctions dépendant de la latence
 
-Certaines fonctionnalités d’Adobe Experience Cloud s’accompagnent d’une latence innée en plus du temps de traitement standard.
+Certaines fonctionnalités d’Adobe CX Enterprise s’accompagnent d’une quantité innée de latence en plus du temps de traitement standard.
 
 * Analytics for Target (A4T) provoque 5 à 10 minutes de latence supplémentaires pour permettre le stockage des données collectées sur les deux plateformes lors du même accès.
 * Les données horodatées prennent plus de temps à cause des différents serveurs sur lesquels elles sont traitées. Les accès horodatés reçus en temps réel ou presque peuvent prendre jusqu’à 15 minutes. Les accès reçus avec un horodatage datant de la veille peuvent prendre jusqu’à 2 heures. Les accès plus anciens peuvent prendre plus de temps, augmentant chaque jour jusqu’à une limite d’environ 24 heures.

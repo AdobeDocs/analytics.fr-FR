@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Guide d’intégration Analytics
 breadcrumb-title: Guide d’intégration
-user-guide-description: Configurez les intégrations à d’autres solutions Adobe Experience Cloud, telles qu’Audience Manager et Advertising.
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+user-guide-description: Configurez les intégrations à d’autres solutions d’entreprise Adobe CX, telles qu’Audience Manager et Advertising.
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '186'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
    + [Vue d’ensemble d’Audience Analytics](c-audience-analytics/mc-audiences-aam.md)
    + Workflow Audience Analytics {#audience-analytics-workflow}
       + [Vue d’ensemble du workflow](c-audience-analytics/c-workflow/audiences-workflow.md)
-      + [Créer une destination Analytics - Guide de gestion d’une audience Adobe](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
+      + [Guide Adobe Audience Manager : Créer une destination Analytics](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr)
       + [Utilisation des données d’audience dans Analytics](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
       + [Cas d’utilisation d’Audience Analytics](c-audience-analytics/aam-audience-use-cases.md)
       + [Questions fréquentes](c-audience-analytics/mc-audiences-faqs.md)
@@ -39,8 +39,8 @@ ht-degree: 88%
       + [Résolution des problèmes d’Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [Questions fréquentes](c-advertising-analytics/aa-faq.md)
 + [Adobe Analytics pour Advertising](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html?lang=fr)
-+ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
++ [Adobe Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=fr)
 + [Compte rendu des performances Adobe Campaign dans Adobe Analytics](adobe-campaign.md)
 + [Intégration des données Adobe Analytics à Adobe Campaign Classic](analytics-to-campaign-classic.md)
 + [Création de rapport AEM Assets](aem-assets-reporting.md)
-+ [Adobe Exchange](https://exchange.adobe.com)
++ [Adobe Exchange](https://exchange.adobe.com)

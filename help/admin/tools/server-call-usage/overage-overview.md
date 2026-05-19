@@ -4,10 +4,24 @@ title: Aperçu de l’utilisation de l’appel au serveur
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 80%
+source-wordcount: 1013
+ht-degree: 72%
 
 ---
 
@@ -46,7 +60,7 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de facturation (ID de facturation) </p> </td> 
-   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un ID de facturation utilisé uniquement pour identifier le client de facturation. De plus, un ID de facturation pourrait être associé à plusieurs organisations Experience Cloud, il ne s’agit pas toujours d’une relation 1:1 entre l’organisation et l’ID de facturation. </p> </td> 
+   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un ID de facturation utilisé uniquement pour identifier le client de facturation. Un identifiant de facturation peut être lié à plusieurs organisations d’entreprise CX ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de connexion </p> </td> 
@@ -59,8 +73,8 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
     </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/tools/server-call-usage/overage-overview.md">permission</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organisation Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans Experience Cloud. L’organisation fonctionne comme une société de connexion qui s’étend sur tous les produits et solutions Experience Cloud. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
+   <td colname="col1"> <p>Organisation CX Entreprise </p> </td> 
+   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans CX Enterprise. L'organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions CX Enterprise. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engagement des appels au serveur </p> </td> 
@@ -90,7 +104,7 @@ L’autorisation Utilisation de l’appel au serveur est automatiquement accord�
   <tr> 
    <th colname="col1" class="entry"> Nom de l’autorisation </th> 
    <th colname="col3" class="entry"> Accorder une autorisation si vous êtes connecté à Adobe Analytics (compte hérité) </th> 
-   <th colname="col4" class="entry"> Accorder une autorisation si vous êtes connecté à Adobe Experience Cloud </th> 
+   <th colname="col4" class="entry"> Octroyez l’autorisation si vous êtes connecté à Adobe CX Enterprise </th> 
   </tr> 
  </thead>
  <tbody> 

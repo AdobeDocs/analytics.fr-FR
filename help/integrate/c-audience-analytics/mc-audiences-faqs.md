@@ -1,12 +1,12 @@
 ---
 description: Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
-solution: Experience Cloud
+solution: Analytics
 title: Questions fréquentes sur Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1120'
 ht-degree: 29%
 
 ---
@@ -27,7 +27,7 @@ Si vous disposez d’e-mails/adresses/etc. dans une prop ou une eVar, envisagez 
 
 Elles ne s’appliquent pas à l’envoi de données Adobe Analytics à Adobe Audience Manager. Demandez-vous :
 
-* Partagerez-vous un segment partagé avec Analytics avec une dimension MCA avec Experience Cloud ?
+* Partagerez-vous un segment partagé Analytics avec une dimension MCA avec CX Enterprise ?
 
 * Effectuez-vous une exportation (par exemple via le flux de données) vers un système Business Intelligence (BI) exploité dans ce but ?
 
@@ -77,7 +77,7 @@ Conseil : créez deux destinations. Ajoutez les suites de rapports contenant de
 
 +++
 
-## Questions fréquentes spécifiques à Analytics  {#aa-specific}
+## Questions fréquentes spécifiques à Analytics {#aa-specific}
 
 +++ Cette intégration apparaîtra-t-elle en tant que dimension ou segment dans Analytics ?
 
@@ -123,7 +123,7 @@ Non. Les audiences Adobe Audience Manager sont intégrées à l’accès Analyti
 
 +++
 
-## Questions fréquentes sur la redirection côté serveur  {#SSF}
+## Questions fréquentes sur la redirection côté serveur {#SSF}
 
 +++ Si l’ancien fichier SSF est implémenté, dois-je également accéder à l’administration Analytics et activer le fichier SSF de la suite de rapports ?
 
@@ -133,7 +133,7 @@ Oui. Dans la configuration de la destination Adobe Audience Manager, seules les 
 
 +++ Pourquoi ne puis-je pas activer certaines suites de rapports pour SSF dans Analytics Admin ?
 
-La redirection côté serveur peut être activée uniquement pour les suites de rapports qui sont mappées sur votre organisation Experience Cloud.
+Seules les suites mappées à votre organisation CX Enterprise peuvent être activées.
 
 Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redirection côté serveur](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -155,7 +155,7 @@ Voir [Présentation des segments dans Analytics et Audience Manager](/help/integ
 
 +++ Quelle est la différence entre les attributs du client et les données client intégrées à partir de Adobe Audience Manager ?
 
-Les attributs du client ne sont pas basés sur le temps ; ils s’appliquent rétroactivement et vont de l’avant. Les données intégrées de Adobe Audience Manager sont uniquement basées sur le temps et ne sont pas progressives. En outre, les attributs du client sont une table de recherche des ID de visiteur Experience Cloud, tandis que l’intégration de Adobe Audience Manager regroupe des données pour chaque accès d’un visiteur.
+Les attributs du client ne sont pas basés sur le temps ; ils s’appliquent rétroactivement et vont de l’avant. Les données intégrées de Adobe Audience Manager sont uniquement basées sur le temps et ne sont pas progressives. En outre, les attributs du client sont une table de recherche des ID de visiteur d’entreprise CX, tandis que l’intégration de Adobe Audience Manager regroupe des données dans chaque accès d’un visiteur.
 
 +++
 

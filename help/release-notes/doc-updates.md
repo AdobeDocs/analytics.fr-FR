@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7327'
+source-wordcount: '7326'
 ht-degree: 95%
 
 ---
@@ -321,7 +321,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 28 avril 2020 | Ajout de la documentation relative à la mesure [Vitesse du contenu](/help/components/metrics/content-velocity.md). |
 | 16 avril 2020 | Documentation sur la création automatique de [!UICONTROL Tableaux à structure libre] à partir d’un état vide. Précédemment, vous ne pouviez pas déplacer des composants directement dans un projet ou un panneau vide, vous deviez d’abord ajouter un tableau à structure libre. Vous pouvez désormais déplacer des composants directement dans un projet ou un panneau vierge, ce qui entraînera alors la création pour vous d’un tableau à structure libre au format recommandé. De plus, des améliorations ont été apportées à la manière dont les types de composants mixtes (par exemple, les dimensions et les mesures) sont traités lorsqu’ils sont déplacés simultanément dans un [!UICONTROL tableau à structure libre]. |
 | **Mars 2020** |  |
-| 12 mars 2020 | Ajout de mises à jour à [Publication de segments dans Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
+| 12 mars 2020 | Ajout de mises à jour à [Publication de segments sur CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 mars 2020 | Mises à jour de la latence de raccordement CDA. |
 | 12 mars 2020 | Prise en charge de plusieurs suites de rapports dans Espace de travail. Vous pouvez désormais importer les données de plusieurs suites de rapports dans un seul projet pour les afficher côte à côte. [En savoir plus...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 12 mars 2020 | Modèle de tutoriel de formation dans Espace de travail. Ce nouveau modèle standard vous guide dans la terminologie et les étapes courantes de création de votre première analyse dans Espace de travail. Il est disponible sous forme de modèle standard dans le modal Nouveau projet et remplace l’exemple de projet qui existe aujourd’hui pour les nouveaux utilisateurs qui n’ont pas d’autres projets dans leur liste. [En savoir plus...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
