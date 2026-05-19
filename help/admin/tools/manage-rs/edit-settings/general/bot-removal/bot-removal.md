@@ -4,10 +4,16 @@ description: Comment supprimer des robots dans Adobe Analytics ?
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 75%
+source-wordcount: 785
+ht-degree: 60%
 
 ---
 
@@ -36,7 +42,7 @@ Pour commencer, créez un nouvel ID déclaré dans le [Service principal People]
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-Voici la manière de capturer cet ID via l’élément de données. Veillez à renseigner correctement votre ID d’organisation Experience Cloud dans l’élément de données.
+Voici la manière de capturer cet ID via l’élément de données. Veillez à renseigner correctement votre ID d’organisation d’entreprise CX dans l’élément de données.
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -44,7 +50,7 @@ Une fois cet élément de données configuré, suivez [ces instructions](https:/
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
-Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages de destination inhabituelles, etc. Utilisez les fonctions d’exploration et de segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB et les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
+Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vous pouvez utiliser la [segmentation dans Analysis Workspace](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) pour identifier les visiteurs qui se comportent comme des robots. Les robots sont souvent définis par leur comportement : visites à accès unique, agents utilisateurs inhabituels, informations inconnues de l’appareil ou du navigateur, aucun référent, nouveaux visiteurs, pages de destination inhabituelles, etc. Utilisez les puissances des analyses en profondeur et de la segmentation de Workspace pour identifier les robots qui ont échappé au filtrage IAB ainsi que les règles de robots de votre suite de rapports. Par exemple, voici une capture d’écran d’un segment que vous pouvez utiliser :
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
@@ -54,7 +60,7 @@ Maintenant que vous avez identifié les robots à l’aide de segments, l’éta
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-N’oubliez pas d’utiliser l’identifiant visiteur Experience Cloud comme dimension et d’appliquer le segment « Robots ».
+N’oubliez pas d’utiliser l’identifiant visiteur d’entreprise CX comme dimension et d’appliquer le segment « Robots ».
 
 ### Étape 4 : renvoyer cette liste à Adobe en tant qu’attribut du client
 
@@ -87,7 +93,7 @@ Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux r
 
 >[!MORELIKETHIS]
 >
->* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=fr)
->* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=fr)
->* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=fr)
+>* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

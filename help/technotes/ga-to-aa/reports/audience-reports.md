@@ -3,9 +3,15 @@ title: Rapports d’audience dans Adobe Analytics
 description: Découvrez comment créer des rapports basés sur les audiences à l’aide d’Analysis Workspace.
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+TQID: https://experienceleague.adobe.com/9CG4aXbANCD-8saZxlTfL4egFSMvf3IGfu4Jf17Dvfg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: 1723
 ht-degree: 97%
 
 ---
@@ -57,9 +63,9 @@ Le rapport d’explorateur d’utilisateurs permet à un analyste d’afficher d
 
 ## Rapports de démographie et d’intérêts
 
-Les données de démographie et d’intérêt fournissent des informations sur l’âge, le sexe et les intérêts des utilisateurs du site. Ces données sont collectées par Google via ses fonctionnalités de suivi inter-sites.
+Les données de démographie et d’intérêt fournissent des informations sur l’âge, le genre et les centres d’intérêt des utilisateurs et utilisatrices du site. Ces données sont collectées par Google via ses fonctionnalités de suivi inter-sites.
 
-Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Cependant, si votre organisation obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité de la plateforme Adobe Experience Cloud. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
+Les données de démographie et d’intérêt ne sont pas automatiquement collectées par Adobe. Cependant, si votre entreprise obtient ces données, vous pouvez utiliser les attributs du client, une fonctionnalité d’Adobe CX Enterprise. Cette fonctionnalité permet un contrôle total de l’organisation des données par attributs et ne se limite pas uniquement à la démographie ou aux intérêts.
 
 Pour plus d’informations, voir l’aide Attributs du client .
 

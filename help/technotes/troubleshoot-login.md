@@ -3,10 +3,15 @@ title: Résolution des problèmes de connexion à Adobe Analytics
 description: Étapes à suivre lorsque vous ne pouvez pas vous connecter à Adobe Analytics.
 feature: Analytics Basics
 exl-id: e670a043-c55b-4717-9b60-613ea4d04382
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/akXZpx8BUywqvI2NGvk9dqIBL-pHEAza1-I05pC89io
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: 607
+ht-degree: 88%
 
 ---
 
@@ -14,19 +19,19 @@ ht-degree: 100%
 
 Adobe Analytics utilise plusieurs méthodes d’authentification pour la connexion :
 
-* Adobe ID par le biais d’Experience Cloud
+* Adobe ID via CX Enterprise
 * Identifiant Analytics hérité
 * Authentification unique
 
 **Si vous accédez régulièrement à Analytics et que vous rencontrez soudain des problèmes de connexion de manière aléatoire, effacer les cookies et vider le cache de votre navigateur résout la plupart des problèmes.**
 
-Parfois, des problèmes de disponibilité peuvent affecter les capacités de connexion. Consultez [status.adobe.com](https://status.adobe.com/fr-fr) pour connaître les incidents en cours. Sinon, utilisez la section correspond à la méthode d’authentification de votre organisation.
+Parfois, des problèmes de disponibilité peuvent affecter les capacités de connexion. Consultez [status.adobe.com](https://status.adobe.com) pour connaître les incidents en cours. Sinon, utilisez la section correspond à la méthode d’authentification de votre organisation.
 
 ## Adobe ID
 
-Résolvez les problèmes de connexion à Adobe Analytics à l’aide d’Experience Cloud.
+Résolvez les problèmes de connexion à Adobe Analytics à l’aide de CX Enterprise.
 
-1. Accédez à [experience.adobe.com](https://experience.adobe.com). Si vous ne parvenez pas à accéder à ce site, c’est peut-être parce que votre organisation n’autorise pas ce domaine à traverser votre pare-feu. Contactez l’équipe informatique de votre organisation pour l’autoriser. Voir [IP et domaines utilisés dans Adobe Experience Cloud](https://helpx.adobe.com/fr/analytics/kb/adobe-ip-addresses.html) pour obtenir des informations qui seront utiles à votre équipe informatique.
+1. Accédez à [Adobe CX Enterprise](https://experience.adobe.com). Si vous ne parvenez pas à accéder à ce site, c’est peut-être parce que votre organisation n’autorise pas ce domaine à traverser votre pare-feu. Contactez l’équipe informatique de votre organisation pour l’autoriser. Consultez la section [Adresses IP utilisées par Adobe Analytics](/help/technotes/ip-addresses.md) pour obtenir des informations qui seront utiles à votre équipe informatique.
 
 2. Authentification à l’aide d’Adobe ID : cliquez sur **[!UICONTROL Se connecter à l’aide d’un Adobe ID]**. Si vous ne parvenez pas à vous connecter, vérifiez à nouveau que votre adresse e-mail est saisie correctement. Sinon, cliquez sur **[!UICONTROL Réinitialiser le mot de passe]** et suivez les invites pour réinitialiser votre mot de passe Adobe ID.
 
@@ -42,7 +47,7 @@ Si le problème n’est pas résolu après avoir effacé les cookies et vidé le
 
 >[!IMPORTANT]
 >
->Les étapes suivantes de réinitialisation du mot de passe d’un utilisateur s’appliquent uniquement aux identifiants Analytics hérités, et non aux Adobe ID. Si votre organisation utilise des Adobe ID, vous pouvez gérer les comptes d’utilisateurs à l’adresse [adminconsole.adobe.com](https://adminconsole.adobe.com).
+>Les étapes suivantes de réinitialisation du mot de passe d’un utilisateur s’appliquent uniquement aux identifiants Analytics hérités, et non à Adobe ID. Si votre entreprise utilise Adobe ID, vous pouvez gérer les comptes utilisateur à l’adresse [adminconsole.adobe.com](https://adminconsole.adobe.com).
 
 1. Connectez-vous à Adobe Analytics avec un compte doté de droits d’administration.
 2. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestion des utilisateurs]**.

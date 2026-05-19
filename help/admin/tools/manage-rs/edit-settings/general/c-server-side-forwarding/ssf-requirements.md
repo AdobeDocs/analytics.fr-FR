@@ -1,20 +1,25 @@
 ---
-description: Vous devez respecter les conditions requises de la solution, du service et du code Experience Cloud pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
+description: Vous devez répondre à ces exigences de solution, de service et de code CX Enterprise pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
 solution: Analytics
 title: Conditions requises pour le transfert côté serveur
 feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: 325
+ht-degree: 84%
 
 ---
 
 # Conditions requises pour le transfert côté serveur
 
-Vous devez respecter les conditions requises de la solution, du service et du code Experience Cloud pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
+Vous devez répondre à ces exigences de solution, de service et de code CX Enterprise pour implémenter le transfert côté serveur. Ces conditions requises incluent également des instructions sur la façon de vérifier les versions du code et d’obtenir les dernières bibliothèques de codes.
 
 ## Conditions requises de la solution
 
@@ -22,7 +27,7 @@ Le transfert côté serveur fonctionne avec [Analytics](https://www.adobe.com/fr
 
 ## Conditions requises du service
 
-Le transfert côté serveur nécessite le [service d’identité](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Le service d’identité fournit un identifiant universel qui identifie les visiteurs du site à l’échelle de toutes les solutions Experience Cloud. Vous devez implémenter le service d’identification pour que le transfert côté serveur fonctionne.
+Le transfert côté serveur nécessite le [service d’identité](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Identity Service fournit un identifiant universel qui identifie les visiteurs du site dans toutes les solutions d’entreprise CX. Vous devez implémenter le service d’identification pour que le transfert côté serveur fonctionne.
 
 ## Versions du code
 

@@ -4,16 +4,20 @@ description: Créez un espace pour personnaliser la manière dont les données s
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 97%
+source-wordcount: 520
+ht-degree: 91%
 
 ---
 
 # Création d’une propriété de balise Adobe Analytics
 
-Les balises dans Adobe Experience Platform vous permettent d’intégrer des solutions Experience Cloud à votre site web (y compris Analytics). Cette page décrit spécifiquement la manière dont un administrateur de balises peut configurer correctement une implémentation Adobe Analytics de base.
+Les balises dans Adobe Experience Platform vous permettent d’intégrer des solutions d’entreprise CX sur votre site web (y compris Analytics). Cette page décrit spécifiquement la manière dont un administrateur de balises peut configurer correctement une implémentation Adobe Analytics de base.
 
 ## Conditions préalables
 
@@ -29,7 +33,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 1. Cliquez sur la propriété de balise que vous venez de créer pour en saisir les paramètres.
 1. Cliquez sur l’onglet **[!UICONTROL Extensions]**, puis sur **[!UICONTROL Catalogue]**.
 1. Recherchez « Experience Cloud ID Service », puis cliquez sur **[!UICONTROL Installer]**.
-1. Tous les paramètres, y compris l’identifiant d’organisation Experience Cloud, doivent être déjà renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Tous les paramètres, y compris l’identifiant de l’organisation CX Enterprise, doivent être déjà renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans le catalogue des extensions, recherchez Adobe Analytics et cliquez sur **[!UICONTROL Installer]**.
 
 Consultez la documentation complète sur l’[extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) pour plus d’informations.

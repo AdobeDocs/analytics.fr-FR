@@ -5,10 +5,16 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 67%
+source-wordcount: 638
+ht-degree: 65%
 
 ---
 
@@ -16,12 +22,11 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
-> Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>
-> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité &#x200B;](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
+> Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité ](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe permet de fournir aux visiteurs et visiteuses de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
-Les liens d’exclusion sont un moyen de permettre aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens se limitent aux implémentations d’AppMeasurement ; Adobe recommande d’utiliser plutôt le service d’accord préalable [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr). Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe Experience Cloud, y compris Adobe Analytics et AppMeasurement.
+Les liens d’exclusion sont un moyen de permettre aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens se limitent aux implémentations d’AppMeasurement ; Adobe recommande d’utiliser plutôt le service d’accord préalable à l’entreprise Adobe CX [](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr). Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe CX Enterprise, y compris Adobe Analytics et AppMeasurement.
 
 Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un tracking et qu’un cookie d’exclusion est défini, AppMeasurement continue à envoyer des données à Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
 
@@ -43,9 +48,9 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
    1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
    1. Notez la valeur de la variable `trackingServer`.
 
-* Installez [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
+* À l’aide du débogueur d’entreprise Adobe CX [](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
    1. Accédez à votre site à l’aide du navigateur Chrome.
-   1. Ouvrez Experience Cloud Debugger, puis accédez à l’[!UICONTROL onglet Réseau].
+   1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
    1. Notez la valeur [!UICONTROL Request URL - Hostname].
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :

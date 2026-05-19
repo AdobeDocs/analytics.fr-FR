@@ -4,10 +4,14 @@ title: Affichage de l’utilisation des suites de rapports
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 93%
+source-wordcount: 436
+ht-degree: 82%
 
 ---
 
@@ -19,11 +23,11 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 >[!IMPORTANT]
 >
->Si une suite de rapports nʼest pas liée à une organisation Experience Cloud, ses données dʼutilisation ne sont pas reflétées dans le tableau de bord. En outre, un identifiant de facturation peut être lié à plusieurs organisations Experience Cloud ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation.
+>Si une suite de rapports n’est pas liée à une organisation CX Enterprise, ses données d’utilisation ne sont pas reflétées dans ce tableau de bord. En outre, un identifiant de facturation peut être lié à plusieurs organisations d’entreprise CX ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation.
 
 Le tableau de bord de la suite de rapports d’utilisation :
 
-* affiche l’utilisation de l’appel au serveur de la période d’utilisation actuelle (tous les appels, principal, secondaire, principal mobile, secondaire mobile) pour chaque suite de rapports de votre organisation Experience Cloud ;
+* Affiche l&#39;utilisation des appels au serveur de la période d&#39;utilisation actuelle (Tous les appels, Principal, Secondaire, Principal mobile, Secondaire mobile) pour chaque suite de rapports de votre organisation CX Enterprise.
 * affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur ;
 * est mis à jour quotidiennement ;
 * est téléchargeable ;
@@ -44,7 +48,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 {style="table-layout:auto"}
 
-## Télécharger le rapport d’utilisation  {#download}
+## Télécharger le rapport d’utilisation {#download}
 
 Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
 

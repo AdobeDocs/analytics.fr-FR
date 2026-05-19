@@ -1,25 +1,29 @@
 ---
-description: Le transfert côté serveur est conçu pour les clients qui souhaitent partager des données Analytics avec d’autres solutions Experience Cloud en temps réel. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
+description: Le transfert côté serveur est conçu pour les clients qui souhaitent partager des données d’Analytics vers d’autres solutions d’entreprise CX en temps réel. Lorsqu’il est activé, le transfert côté serveur permet également à Analytics d’envoyer les données vers d’autres solutions d’entreprise CX et, pour ces solutions, d’envoyer les données vers Analytics pendant le processus de collecte de données.
 solution: Analytics
 title: Transfert côté serveur - Aperçu
 feature: Report Suite Settings
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/O03-5Ovxy3Lq-LZjPOseTpOlCXaS1kwD8n2ZM1yJuxY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 100%
+source-wordcount: 887
+ht-degree: 84%
 
 ---
 
 # Transfert côté serveur - Aperçu
 
-Le transfert côté serveur est conçu pour les clients qui souhaitent partager des données Analytics avec d’autres solutions Experience Cloud en temps réel. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
+Le transfert côté serveur est conçu pour les clients qui souhaitent partager des données d’Analytics vers d’autres solutions d’entreprise CX en temps réel. Lorsqu’il est activé, le transfert côté serveur permet également à Analytics d’envoyer les données vers d’autres solutions d’entreprise CX et, pour ces solutions, d’envoyer les données vers Analytics pendant le processus de collecte de données.
 
 Le transfert côté serveur améliore la collecte de données car :
 
 * Il réduit les appels provenant de la page. Avec la redirection côté serveur, les clients [!DNL Audience Manager] n’ont plus à utiliser le code DIL pour la collecte des données, car celles-ci sont transférées à partir d’Analytics. La suppression de code DIL implique l’élimination d’un appel `"/event"`. La diminution des appels permet d’améliorer le temps de chargement des pages, ce qui améliore l’expérience des clients sur votre site.
-* Il permet de bénéficier du partage de données entre les solutions Experience Cloud.
+* Vous permet de tirer parti du partage de données entre les solutions d’entreprise CX.
 * Il est conforme à nos bonnes pratiques relatives à l’implémentation et au déploiement du code d’Audience Manager.
 
 >[!TIP]
@@ -71,4 +75,4 @@ Accédez à **Analytics** > **Admin** > **Suites de rapports** > (sélectionn
 
 >[!NOTE]
 >
->Les données n’apparaîtront pas dans les autres solutions Experience Cloud telles qu’[Audience Manager](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) ou [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) tant que les 3 étapes ne sont pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.
+>Les données n’apparaîtront pas dans d’autres solutions d’entreprise CX, telles que [](https://docs.adobe.com/content/help/fr-FR/experience-cloud/user-guides/home.html) ou [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) tant que les 3 étapes ne seront pas terminées. Après leur activation, comptez plusieurs heures avant que ces paramètres ne prennent effet.

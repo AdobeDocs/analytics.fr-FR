@@ -3,10 +3,16 @@ description: Découvrez comment gérer les segments hérités.
 title: FAQ sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: c44bffa45ab8ed29ea28b91b2b3dc51811ab25fe
+TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 57%
+source-wordcount: 1440
+ht-degree: 55%
 
 ---
 
@@ -62,7 +68,7 @@ Ces segments sont migrés sous forme de modèles de segment dans le créateur de
 
 +++
 
-+++ **Qu’advient-il des segments Experience Cloud (Suite) ?**
++++ **Qu’est-il advenu des segments CX Enterprise (Suite)**
 
 * Non-acheteurs
 * Acheteurs
@@ -90,8 +96,8 @@ Les segments existants qui utilisent une logique modifiée comme décrit dans ce
 
 +++
 
-+++ **Que dois-je faire des segments en double portant le même nom mais ayant des définitions différentes ?** 
-Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. notamment :
++++ **Que dois-je faire avec les segments en double portant le même nom mais dont les définitions peuvent être différentes ?** 
+Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. Vous devriez :
 
 * renommer les segments portant le même nom mais ayant des définitions différentes, ou
 * supprimer les segments qui ne sont plus utiles.
@@ -121,7 +127,7 @@ Les conseils suivants vous aident à migrer les dimensions courantes :
 
 Le tableau suivant contient une liste des dimensions renommées dans le créateur de segments.
 
-| Nouveau nom de la dimension | Ancien nom | Remarques |
+| Nouveau nom de la dimension | Ancien nom | Notes |
 |--- |--- |--- |
 | Types de systèmes d’exploitation | Nouveau | Ajoutée au printemps 2015. |
 | Largeur du navigateur - Regroupement | Largeur du navigateur | Cette dimension est compatible avec toutes les interfaces et est fractionnée en une liste énumérée de plages au lieu de valeurs d’entiers spécifiques. Si vous devez segmenter des valeurs spécifiques, utilisez la version granulaire de cette dimension dans un segment Data Warehouse. |

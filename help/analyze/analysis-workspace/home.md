@@ -4,10 +4,16 @@ description: Découvrez Analysis Workspace, le principal outil d’analyse d’
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 99%
+source-wordcount: 1422
+ht-degree: 96%
 
 ---
 
@@ -17,7 +23,7 @@ Analysis Workspace vous permet de créer rapidement des analyses pour recueilli
 
 >[!BEGINSHADEBOX]
 
-Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
+Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -119,7 +125,7 @@ Consultez les tableaux ci-dessous pour une vue d’ensemble des menus disponible
 | Aide | Description |
 |---|---|
 | **[!UICONTROL Vidéos]** | Ouvrez le canal YouTube Customer Journey Analytics dans un nouvel onglet de navigateur. |
-| **[!UICONTROL Documentation d’aide]** | Ouvrez la documentation (que vous êtes en train de lire...) dans un nouvel onglet de navigateur. |
+| **[!UICONTROL Documentation d’aide]** | Ouvrez la documentation (vous êtes en train de lire...) dans un nouvel onglet du navigateur. |
 | **[!UICONTROL Forum d’aide]** | Ouvrez le forum des communautés Adobe Analytics Experience League dans un nouvel onglet de navigateur. |
 | **[!UICONTROL Raccourcis]** | Affichez une vue d’ensemble des raccourcis clavier que vous pouvez utiliser dans Workspace. |
 | **[!UICONTROL Activer le Debugger]** | Activez le débogueur. Votre projet va se charger à nouveau. |
@@ -136,7 +142,7 @@ Synchronisez les visualisations pour contrôler quelle table de données ou quel
 
 Pour commencer à utiliser Analysis Workspace :
 
-1. Connectez-vous à [Adobe Experience Cloud](https://experience.adobe.com).
+1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Sélectionnez **[!UICONTROL Customer Journey Analytics]** dans le sélecteur d’applications ![App](/help/assets/icons/Apps.svg) en haut à droite de l’interface.
 1. La page **[!UICONTROL Projets]** d’Analysis Workspace s’affiche par défaut. Si un projet spécifique a été sélectionné pour vous ou si vous avez récemment travaillé sur un projet, ce projet s’affiche par défaut.
 
@@ -157,4 +163,4 @@ Une fois que vous avez terminé de créer le projet et que celui-ci collecte des
 ## Ressources supplémentaires {#resources}
 
 - Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview).
-- Pour obtenir plus dʼinformations sur les nouvelles fonctionnalités, reportez-vous à la page [Notes de mise à jour dʼAdobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current).
+- Consultez les [notes de mise à jour d’Adobe CX Enterprise](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current) pour obtenir des mises à jour sur les nouvelles fonctionnalités.

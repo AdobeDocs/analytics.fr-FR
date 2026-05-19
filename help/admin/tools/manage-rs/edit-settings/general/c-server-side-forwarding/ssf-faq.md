@@ -4,10 +4,14 @@ title: Questions fréquentes relatives au transfert côté serveur
 feature: Report Suite Settings
 exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/3i6RY7JRPlJc-9NjsQXBPn5SEOn0m4JrtL85Kl84ilM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 100%
+source-wordcount: 707
+ht-degree: 67%
 
 ---
 
@@ -27,11 +31,11 @@ Questions fréquentes relatives aux fonctionnalités et problèmes liés au tran
 | Question | Réponse |
 |--- |--- |
 | Q : Que faire en cas de balisage multi-suite sur mon site ? Le transfert côté serveur double-t-il mes appels serveur à Audience Manager ? | Non, un accès transféré d’Analytics vers Audience Manager n’est transféré qu’une seule fois à Audience Manager, quel que soit le nombre de suites de rapports de l’accès. Si vous disposez de sources de données correspondantes dans Audience Manager pour chaque suite de rapports de l’accès, chacune d’elles est renseignée de manière appropriée à partir de cet accès unique.  Notez, cependant, que si vous utilisez actuellement la collecte de données côté client (DIL) et que vous activez le transfert côté serveur sans installer le module de gestion de l’audience, vous doublez les appels serveur à Audience Manager, quel que soit le nombre de suites de rapports de l’accès Analytics. |
-| Q : Que se passe-t-il si je dispose de suites de rapports balisées multi-suite mappées à des organisations Experience Cloud distinctes ? | Vous ne devez jamais envoyer de données provenant d’un seul accès Analytics à deux suites de rapports appartenant à des organisations Experience Cloud distinctes. Mais, si cela se produit, nous ne transférons l’accès que vers l’organisation Experience Cloud correspondant à la configuration du service d’identité de la page. |
-| Q : Que se passe-t-il si je dispose d’un balisage multi-suite, que seule une de mes suites de rapports est mappée à mon organisation Experience Cloud et que l’autre ne l’est pas ? | Nous transférons l’accès au serveur de collecte de données correspondant à l’organisation Experience Cloud de la suite de rapports mappée. Toutefois, comme la suite de rapports non mappée ne comporte pas de source de données associée dans Audience Manager, aucune donnée n’est enregistrée pour la suite de rapports non mappée dans Audience Manager. |
-| Q : Que faire si je dispose d’une suite de rapports mappée à plusieurs organisations Experience Cloud ? | Analytics considère cette suite de rapports comme non mappée et n’autorise pas le transfert côté serveur à être activé pour cette suite de rapports. Contactez le service à la clientèle pour résoudre ce problème de mappage. |
+| Q : Que se passe-t-il si j’ai plusieurs suites de rapports balisées qui sont mappées à des organisations CX Enterprise distinctes ? | Vous ne devez jamais envoyer de données provenant d’un seul accès Analytics vers deux suites de rapports appartenant à des organisations CX Enterprise distinctes, mais si cela se produit, nous ne transmettrons l’accès qu’à l’organisation CX Enterprise correspondant à la configuration du service d’identités sur la page. |
+| Q : Que faire si je dispose du balisage multisuite et qu’une seule de mes suites de rapports est mappée à mon organisation d’entreprise CX et que l’autre ne l’est pas ? | Nous transmettrons l’accès au serveur de collecte de données correspondant à l’organisation Entreprise CX sur votre suite de rapports mappée. Toutefois, étant donné que la suite de rapports non mappée n’aura pas de source de données associée dans Audience Manager, aucune donnée ne sera enregistrée pour la suite de rapports non mappée dans Audience Manager. |
+| Q : Que se passe-t-il si j’ai une suite de rapports mappée à plusieurs organisations CX Grands comptes ? | Analytics considère cette suite de rapports comme non mappée et n’autorise pas le transfert côté serveur à être activé pour cette suite de rapports. Contactez le service à la clientèle pour résoudre ce problème de mappage. |
 | Q : La méthode de transfert côté serveur basé sur une suite de rapports est-t-elle plus lente que le transfert côté serveur basé sur un serveur de suivi ? | Non, le temps de réponse est le même. |
-| Q : que se passe-t-il si nous disposons de deux organisations Experience Cloud (ou instances Adobe Audience Manager) et que nous souhaitons partager des données entre les deux organisations Experience Cloud ? Puis-je effectuer un transfert côté serveur d’un seul accès Analytics vers plusieurs organisations Experience Cloud ? | Non. Si vous devez partager des données collectées dans une organisation Experience Cloud vers une autre organisation Experience Cloud, il est recommandé d’envoyer les audiences applicables d’une instance Audience Manager vers une autre par l’intermédiaire du marché des audiences. |
+| Q : Que se passe-t-il si nous avons deux organisations CX Enterprise (ou instances Adobe Audience Manager) et que nous voulons partager des données entre les deux organisations CX Enterprise ? Puis-je transférer côté serveur un seul accès Analytics à plusieurs organisations CX Grands comptes ? | Non. Si vous devez partager les données collectées dans le cadre d’une organisation CX Entreprise avec une autre organisation CX Entreprise, nous vous recommandons d’envoyer les audiences applicables d’une instance Audience Manager à une autre à l’aide de la marketplace d’audience. |
 | Q : Le transfert côté serveur entraîne-t-il une facturation supplémentaire dans Audience Manager ou Analytics ? | Dans Analytics, aucune facturation supplémentaire n’est appliquée. Dans Audience Manager, les accès transférés sont traités comme tous les autres accès et facturés.  C’est pourquoi il est important de ne pas activer la collecte de données côté client (DIL) et le transfert côté serveur en même temps, ce qui peut entraîner une double facturation ainsi qu’une duplication des données. |
 
 >[!MORELIKETHIS]

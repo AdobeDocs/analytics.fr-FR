@@ -1,14 +1,18 @@
 ---
-description: Découvrez comment vous connecter à Report Builder à l’aide de votre compte de connexion Experience Cloud.
+description: Découvrez comment vous connecter à Report Builder à l’aide de votre compte de connexion CX Enterprise.
 title: Comment se connecter à Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/xkXfYdzVjIIRXRCNrtQxaAl6KgisCVXTmTva0AqNbLA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 17%
+source-wordcount: 264
+ht-degree: 21%
 
 ---
 
@@ -18,21 +22,21 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion à Experience Cloud. Elles ne prennent pas en charge les connexions héritées telles que l’authentification unique à Site Catalyst ou la connexion standard. **D’ici le 22 juillet 2021, tous les utilisateurs de Report Builder doivent mettre à jour le complément Report Builder vers la version 5.6.47 ou une version ultérieure qui inclut une mise à jour critique du processus de connexion.**
+>Les versions 5.6.47 et ultérieures de Report Builder prennent uniquement en charge la connexion à l’entreprise CX et ne prennent pas en charge les connexions héritées telles que l’authentification unique à Site Catalyst ou la connexion standard. **D’ici le 22 juillet 2021, tous les utilisateurs de Report Builder doivent mettre à jour le complément Report Builder vers la version 5.6.47 ou une version ultérieure qui inclut une mise à jour critique du processus de connexion.**
 
-Pour vous connecter à Report Builder, utilisez votre compte de connexion Experience Cloud.
+Pour vous connecter à Report Builder, utilisez votre compte de connexion CX Enterprise.
 
-## Connexion à Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Connexion à Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-Le login Experience Cloud permet d&#39;utiliser votre Enterprise ID (email et mot de passe) pour se connecter au Adobe Experience Cloud.
+Le login CX Enterprise vous permet d’utiliser votre Enterprise ID (email et mot de passe) pour vous connecter à Adobe CX Enterprise.
 
 Cliquez sur **[!UICONTROL Se connecter]** > **[!UICONTROL Se connecter avec un Enterprise ID]** pour accéder à la page de connexion unique de votre entreprise. Pour plus d’informations sur Enterprise ID, voir [Connexion à un compte d’entreprise ou d’école](https://helpx.adobe.com/fr/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Capture d’écran montrant la fenêtre de connexion à Adobe Experience Cloud montrant les options de connexion avec ou sans votre Adobe ID](assets/adobe_id_login.png)
+![Capture d’écran montrant la fenêtre de connexion à Adobe CX Enterprise, avec ou sans votre Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->La connexion à Experience Cloud est basée sur une session et le jeton expire au bout de 30 jours.
+>La connexion à l’entreprise CX est basée sur la session et le jeton expire après 30 jours.
 
 ## Connexion à Report Builder
 

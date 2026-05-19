@@ -4,20 +4,24 @@ title: Conformité au RGPD et à la directive vie privée et communications éle
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 55%
+source-wordcount: 588
+ht-degree: 48%
 
 ---
 
 # Conformité au RGPD et à la directive vie privée et communications électroniques et transfert côté serveur
 
-Cette section décrit les améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+et+technologies+similaires).
+Cette section décrit les améliorations apportées au transfert côté serveur, rendues essentielles après l’entrée en vigueur le 30 septembre 2017 du [règlement de l’UE sur les cookies](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies).
 
-Le transfert côté serveur permet de partager en temps réel des données d’Adobe Analytics vers d’autres [!DNL Experience Cloud Solutions], telles qu’Audience Manager. Une fois activé, le transfert côté serveur permet également à Analytics de transmettre des données vers d’autres solutions Experience Cloud et à ces solutions de transmettre des données à Analytics au cours du processus de collecte de données.
+Le transfert côté serveur est utilisé pour partager des données d’Adobe Analytics vers d’autres solutions d’entreprise CX, telles qu’Audience Manager, en temps réel. Lorsqu’il est activé, le transfert côté serveur permet également à Analytics d’envoyer les données vers d’autres solutions d’entreprise CX et, pour ces solutions, d’envoyer les données vers Analytics pendant le processus de collecte de données.
 
-Auparavant, le transfert côté serveur ne pouvait pas faire la distinction entre les événements/accès postconsentement et préconsentement. Depuis le 1er novembre 2018, vous avez la possibilité, en tant que contrôleur de données (client Adobe Analytics), de limiter les données de consentement préalable à Adobe Analytics et d’empêcher leur transfert vers Adobe Audience Manager. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. Lorsqu’elle est définie, la variable empêche l’envoi de ces accès à Adobe Audience Manager jusqu’à réception du consentement.
+Auparavant, le transfert côté serveur ne pouvait pas faire la distinction entre les événements/accès postconsentement et préconsentement. Depuis le 1er novembre 2018, vous avez la possibilité, en tant que contrôleur de données (client Adobe Analytics), de limiter les données de consentement préalable à Adobe Analytics et d’empêcher leur transfert vers Adobe Audience Manager. Une nouvelle variable contextuelle de mise en œuvre permet d’identifier les accès pour lesquels aucun consentement n’a été reçu. La variable, une fois définie, empêche l’envoi de ces accès vers Adobe Audience Manager jusqu’à réception du consentement.
 
 Lorsque cette nouvelle variable de contexte, `cm.ssf=1`, existe sur un accès, cet accès est marqué et n’est pas transféré côté serveur vers Adobe Audience Manager. À l’inverse, si cette chaîne n’apparaît pas sur un accès, l’accès est transféré vers Adobe Audience Manager.
 

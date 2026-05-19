@@ -3,10 +3,16 @@ title: Termes utilisés dans Adobe Analytics
 description: Glossaire pour Adobe Analytics, définition des termes courants utilisés.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '2580'
-ht-degree: 89%
+source-wordcount: 2638
+ht-degree: 86%
 
 ---
 
@@ -19,7 +25,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
    * Aux outils d’administration hérités dans lesquels les paramètres des suites de rapports sont gérés dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient aussi gérées ici. Voir [Outils d’administration](/help/admin/tools/c-admin-tools.md) dans le guide d’utilisation destiné à l’administrateur.
    * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Affectation :** si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. Voir [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
-* **Analysis Workspace :** solution de navigateur pour créer des projets dʼanalyse personnalisés et fiables et démocratiser les informations. Voir [Présentation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) dans le guide des outils Analytics.
+* **Analysis Workspace :** solution de navigateur pour créer des projets dʼanalyse personnalisés et fiables et démocratiser les informations. Voir [Présentation d’](/help/analyze/analysis-workspace/home.md) dans le guide des outils Analytics.
 * **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) dans le Guide des outils Analytics.
 * **AppMeasurement :** la bibliothèque de code utilisée pour collecter des données et les envoyer à Adobe. Voir la [Page d’accueil](/help/implement/home.md) du guide d’utilisation de la mise en œuvre.
 * **Emplacement ASI :** n’existe plus. Dans les versions précédentes d’Adobe Analytics, les emplacements ASI fournissaient un conteneur temporaire de suites de rapports pour afficher les données segmentées. Dans la version actuelle d’Adobe Analytics, les segments peuvent être appliqués instantanément à n’importe quel rapport.
@@ -29,21 +35,21 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Campagne :** peut faire référence :
    * À la variable campaign, qui renseigne la dimension code de suivi. Voir [campaign](../implement/vars/page-vars/campaign.md) dans le guide d’utilisation de la mise en œuvre.
    * À une classification par défaut de la dimension code de suivi créée automatiquement pour toutes les suites de rapports.
-   * À Adobe Campaign, composant d’Adobe Experience Cloud. Plus d’informations, rendez-vous sur [Adobe.com](https://www.adobe.com/fr/marketing/campaign.html).
+   * Adobe Campaign, composant d’Adobe CX Enterprise. Plus d’informations, rendez-vous sur [Adobe.com](https://www.adobe.com/fr/marketing/campaign.html).
 * **Canal :** peut faire référence :
    * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
    * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Classification :** une fonctionnalité d’Adobe Analytics qui permet le regroupement d’éléments de dimension. Voir [Classifications](/help/components/classifications/classifications-overview.md) dans le guide d’utilisation des composants.
 * **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré au profit d’Activity Map.
 * **Flux de données de flux de clics** : voir flux de données.
-* **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le guide des outils Analytics.
+* **Cohorte :** groupe de personnes partageant des caractéristiques communes sur une période donnée. Voir [Qu’est-ce que l’analyse des cohortes ?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) dans le Guide des outils Analytics.
 * **Serveur de collecte :** voir Serveur de collecte de données.
 * **Composant :** les composants d’Analysis Workspace se composent de dimensions, de mesures, de segments, de périodes, d’alertes et de mesures calculées que vous pouvez glisser-déposer sur un projet. Voir [Présentation des composants](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) dans le guide des outils Analytics.
 * **Variables de données contextuelles :** variables temporaires utilisées uniquement dans les règles de traitement. Les valeurs de variable de données contextuelles sont définitivement perdues si une règle de traitement ne les copie pas dans une variable de conversion ou de trafic. Voir [Variables de données contextuelles](../implement/vars/page-vars/contextdata.md) dans le guide d’utilisation de la mise en œuvre.
 * **Variable de conversion :** aussi connue sous le nom d’eVars. Stocke une valeur personnalisée et conserve la valeur de variable jusqu’à ce qu’elle expire. Voir la dimension [eVar](/help/components/dimensions/evar.md) dans le guide d’utilisation des composants.
 * **Corrélation** : terme remplacé par répartitions de dimensions. Dans les versions précédentes d’Adobe Analytics, les corrélations permettaient de ventiler les variables de trafic. Voir [Répartition des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) dans le guide des outils Analytics.
 * **Lien personnalisé :** type d’accès contenant des données de pages non vues. Voir la fonction [s.tl()](../implement/vars/functions/tl-method.md) du guide d’utilisation de la mise en œuvre. Voir aussi Accès.
-* **Attributs du client :** fonction Experience Cloud permettant de télécharger des données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
+* **Attributs du client :** une fonctionnalité CX Enterprise qui permet le chargement de données d’attribut. Voir [Attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=fr) dans le guide d’utilisation des services principaux.
 * **Serveur de collecte de données :** serveurs appartenant à Adobe qui reçoivent et traitent des données. Les demandes d’image sont envoyées aux serveurs de collecte de données d’Adobe pour être utilisées dans les rapports.
 * **Data connectors :** solution de développement retirée du service qui permet à un tiers d’automatiser le chargement des données dans Adobe Analytics. Les clients de ce tiers peuvent utiliser un connecteur de données pour enrichir leurs données dans Adobe Analytics. Remplacé par [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Flux de données :** exportation de données brutes qui répertorie chaque accès et variable sous forme de lignes et de colonnes distinctes. Elle est le plus souvent utilisée pour exporter des données Adobe Analytics vers une base de données tierce. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation.
@@ -74,7 +80,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Canal marketing :** fonctionnalité d’Adobe Analytics classant les accès en fonction de leur arrivée sur votre site. La logique utilisée pour classer les accès peut être personnalisée à l’aide des règles de traitement des canaux marketing. Voir [Prise en main des canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Mesure :** type de composant contenant des données quantitatives. Les valeurs de mesure contiennent généralement des nombres, tels que Pages vues, Visites et Chiffre d’affaires. Leur contrepartie est souvent une dimension.
 * **Application mobile :** également appelée **Tableaux de bord [!UICONTROL Adobe Analytics]**, l’application mobile permet aux utilisateurs d’accéder à des cartes de performance intuitives. Les Fiches d’évaluation sont un ensemble de mesures clés et d’autres composants présentés sous la forme d’une mise en page de type mosaïque sur laquelle vous pouvez appuyer pour obtenir des répartitions plus détaillées ainsi que des rapports de tendances. L’application mobile est prise en charge aussi bien sur les systèmes d’exploitation iOS qu’Android.
-* **Mobile Services :** produit Adobe obsolète qui réunissait lʼensemble des fonctionnalités de marketing mobile pour les applications mobiles dʼAdobe Experience Cloud, ce qui permettait dʼanalyser et dʼaméliorer lʼengagement des utilisateurs et des utilisatrices de vos applications.
+* **Mobile Services :** produit Adobe retiré qui rassemblait les fonctionnalités de marketing mobile pour les applications mobiles d’Adobe CX Enterprise, ce qui vous a permis de comprendre et d’améliorer l’interaction des utilisateurs avec vos applications.
 * **Balisage multisuite :** pratique consistant à envoyer le même accès à plusieurs suites de rapports. Avec l’introduction des suites de rapports virtuelles, cette pratique n’est globalement plus nécessaire. La plupart des efforts de balisage multisuite permettent d’adapter une suite de rapports globale.
 * **Normalisation :** méthode d’organisation de visualisation qui prend toutes les mesures et force des proportions égales, permettant ainsi une comparaison plus facile des tendances.
 * **Occurrences :** type de mesure montrant le nombre d’accès à un élément de dimension défini ou persistant. Voir la mesure [Occurrences](/help/components/metrics/occurrences.md) dans le guide d’utilisation des composants.
@@ -95,7 +101,7 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Période flottante :** type de période relative qui change au fil du temps. Par exemple, un rapport montrant les 7 derniers jours peut être considéré comme une période variable. Voir aussi Période statique.
 * **RSID :** abréviation d’identifiant de suite de rapports. Une suite de rapports a un nom convivial et un identifiant.
 * **s.t() :** nom de la fonction d’une bibliothèque AppMeasurement envoyant une demande d’image de pages vues. Certaines bibliothèques AppMeasurement utilisent `s.track()` à la place. Voir [t](../implement/vars/functions/t-method.md) dans le guide d’utilisation de la mise en œuvre.
-* **s<span>.</span>tl() :** nom de la fonction d’une bibliothèque AppMeasurement envoyant une demande d’image de suivi des liens. Certaines bibliothèques AppMeasurement utilisent `s.trackLink()` à la place. Voir [tl](../implement/vars/functions/tl-method.md) dans le guide d’utilisation de la mise en œuvre.
+* **s<span>.</span>tl() :** nom de la fonction dans une bibliothèque AppMeasurement qui envoie une demande d’image de suivi de liens. Certaines bibliothèques AppMeasurement utilisent `s.trackLink()` à la place. Voir [tl](../implement/vars/functions/tl-method.md) dans le guide d’utilisation de la mise en œuvre.
 * **s_code.js :** nom du fichier JavaScript utilisé dans les versions précédentes d’Adobe Analytics. Le nom actuel du fichier JavaScript utilisé est AppMeasurement.js.
 * **Deuxième appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, toutes les suites de rapports après la première sont des deuxièmes appels au serveur. Voir aussi Premiers appels au serveur.
 * **Segment :** permet de vous concentrer sur un sous-ensemble spécifique de vos données. Voir [Segmentation](/help/components/segmentation/seg-overview.md) dans le guide d’utilisation des composants.

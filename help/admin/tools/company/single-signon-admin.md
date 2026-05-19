@@ -1,18 +1,22 @@
 ---
-description: L’authentification unique dans Adobe Experience Cloud est mise en œuvre par l’intermédiaire d’Admin Console.
+description: L’authentification unique dans Adobe CX Enterprise est implémentée via Admin Console.
 title: Authentification unique
 feature: Company Settings
 exl-id: d317d85d-46bc-4857-82d8-3fe3b3fc154e
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/9YG9jzZGd4Q4afj-HONQOKge7wEPr37maG9dO7I-suo
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 97%
+source-wordcount: 42
+ht-degree: 28%
 
 ---
 
 # Authentification unique
 
-L’authentification unique dans Adobe Experience Cloud est mise en œuvre par l’intermédiaire d’Admin Console.
+L’authentification unique dans Adobe CX Enterprise est implémentée via Admin Console.
 
-Voir [Guide d’utilisation de l’administrateur](https://www.adobe.com/go/analytics_sso_fr) pour obtenir de l’aide.
+Voir [Guide d’utilisation de l’administrateur](https://www.adobe.com/go/analytics_sso_en) pour obtenir de l’aide.

@@ -4,10 +4,15 @@ keywords: Mesures calculées
 title: Vue d’ensemble des mesures calculées
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 99%
+source-wordcount: 317
+ht-degree: 75%
 
 ---
 
@@ -17,7 +22,7 @@ Les mesures calculées sont des mesures personnalisées que vous pouvez créer �
 
 Les mesures calculées sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes. Les mesures calculées offrent un moyen flexible de créer, gérer et traiter des mesures personnalisées qui vous permettent d’analyser vos données sans avoir à modifier votre implémentation.
 
-Les mesures calculées sont disponibles dans chaque package [!DNL Analytics], mais le pack Adobe Analytics Foundation pour Experience Cloud se limite aux mesures calculées de base, y compris les [types de format (décimal, temps, pourcentage, devise)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), les [modifications d’affectation (par défaut, linéaire, participation, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), les [types de mesures (standard, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) et les [opérateurs de base](workflow/c-build-metrics/cm-build-metrics.md#operators) (addition, soustraction, multiplication et division).
+Les mesures calculées sont disponibles dans chaque package de [!DNL Analytics], mais le pack Adobe Analytics Foundation pour CX Enterprise se limite aux mesures calculées de base, y compris les types de format [ (décimal, temps, pourcentage, devise)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), les modifications d’affectation [ (par défaut, linéaire, participation, etc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), les types de mesures [ (standard, total)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) et les [opérateurs de base](workflow/c-build-metrics/cm-build-metrics.md#operators) (ajouter, soustraire, multiplier et diviser).
 
 
 Pour plus d’informations, consultez la section [Description du produit Adobe Analytics](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-analytics.html).
@@ -59,13 +64,13 @@ Certaines fonctionnalités [!DNL Analytics] ne permettent pas d’utiliser des m
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Mesures calculées segmentées dans les segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -85,6 +90,6 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 >[!MORELIKETHIS]
 >
 >[Créer des mesures](/help/components/calculated-metrics/workflow/cm-workflow.md)
->[Élaborer des mesures](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[Création de mesures](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
 >[Utiliser des fonctions](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

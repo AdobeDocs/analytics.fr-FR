@@ -4,10 +4,16 @@ title: Questions fréquentes sur la gouvernance des données
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 99%
+source-wordcount: 2101
+ht-degree: 86%
 
 ---
 
@@ -15,7 +21,7 @@ ht-degree: 99%
 
 +++ **Comment Adobe Analytics prend-il en charge les requêtes d’accès et de suppression pour les utilisateurs et utilisatrices finaux (Sujets de données) validées par les clientes et les clients (Contrôleurs de données) ?**
 
-À compter de l’entrée en vigueur de plusieurs règles relatives à la Confidentialité des données (RGPD, CCPA), Adobe Analytics prendra en charge le traitement des demandes vérifiées soumises par les contrôleurs de données à l’API Data Privacy d’Experience Cloud pour favoriser l’automatisation du traitement. L’API relative à la Confidentialité des données d’Adobe Experience Cloud est conçue pour faciliter le traitement des requêtes individuelles de droits (par exemple, les requêtes d’accès et de suppression) pour les données de notre clientèle stockées dans les solutions Adobe Experience Cloud. Flexible, cette API s’adapte en fonction du nombre de demandes d’accès et de suppression de données que votre société reçoit des titulaires de données.
+À compter de l’entrée en vigueur de plusieurs règles relatives à la Confidentialité des données (RGPD, CCPA), Adobe Analytics prendra en charge le traitement des demandes vérifiées soumises par les contrôleurs de données à l’API relative à la Confidentialité des données des entreprises CX afin de permettre un processus plus automatisé. L’API relative à la Confidentialité des données d’Adobe est conçue pour faciliter le traitement des demandes individuelles de droits (par exemple, les demandes d’accès et de suppression) pour les données de nos clients stockées dans les solutions Adobe CX Enterprise. Flexible, cette API s’adapte en fonction du nombre de demandes d’accès et de suppression de données que votre société reçoit des titulaires de données.
 
 L’API Privacy Service permet également au client ou à la cliente de vérifier le statut du traitement des demandes d’accès et de suppression de données. Pour plus de détails, consultez la documentation de l’[API Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
@@ -31,7 +37,7 @@ En tant que responsable du traitement des données, Adobe doit fournir une assis
 
 +++ **Comment les clientes et clients d’Adobe (Contrôleurs de données) sauront-ils quelles requêtes relatives à la Confidentialité des données mappent à quels ID dans Adobe Analytics en vue du traitement en vertu de la Confidentialité des données ?**
 
-Les contrôleurs de données détermineront comment résoudre la question de l’identité pour les demandes émanant des titulaires de données. Envisagez de déployer la balise de récupération des ID en vertu de la Confidentialité des données d’Adobe. Vos équipes de développement gagnent du temps en utilisant notre balise de récupération d’identifiant en vertu de la Confidentialité des données pour capturer les identifiants d’utilisateur ou d’utilisatrice (identifiants de cookie). Elles peuvent ensuite utiliser notre API de confidentialité des données pour envoyer ces identifiants d’utilisateur ou d’utilisatrice aux solutions appropriées dans Adobe Experience Cloud pour le traitement des demandes d’accès à des informations personnelles. L’API relative à la Confidentialité des données prend en charge un large éventail d’ID de clientes et clients dans de nombreuses solutions d’Adobe.
+Les contrôleurs de données détermineront comment résoudre la question de l’identité pour les demandes émanant des titulaires de données. Envisagez de déployer la balise de récupération des ID en vertu de la Confidentialité des données d’Adobe. Vos équipes de développement gagnent du temps en utilisant notre balise de récupération d’identifiant en vertu de la Confidentialité des données pour capturer les identifiants d’utilisateur ou d’utilisatrice (identifiants de cookie). Ils peuvent ensuite utiliser notre API de confidentialité des données pour envoyer ces identifiants d’utilisateur aux solutions appropriées dans Adobe CX Enterprise pour le traitement des demandes d’accès à des informations personnelles. L’API relative à la Confidentialité des données prend en charge un large éventail d’ID de clientes et clients dans de nombreuses solutions d’Adobe.
 
 Si un titulaire de données soumet une demande avec un identifiant (variable personnalisée - prop ou eVar), Adobe Analytics effectue alors une recherche dans tout l’historique conservé des données collectées pour l’identifiant en question. Pour plus d’informations sur la configuration des identifiants personnalisés stockés dans les variables props ou eVars d’Analytics, reportez-vous à la [documentation d’Analytics sur les espaces de noms](/help/admin/tools/privacy-labeling/namespaces.md).
 
@@ -57,11 +63,11 @@ Pour plus d’informations sur les étiquettes de gouvernance des données, voir
 
 Généralement, les clients et clientes Analytics configurent des suites de rapports de test pour vérifier ses fonctionnalités avant sa commercialisation. Les sites web ou applications de pré-production envoient des données à ces suites de rapports de test/dev/QA afin d’évaluer la façon dont les choses fonctionnent quand le code est communiqué avant que le trafic réel ne soit envoyé aux suites de rapport de production.
 
-Toutefois, avec une configuration normale, le traitement des requêtes en vertu du RGPD ne peut pas être testé sur ces suites de rapports de test avant d’appliquer les requêtes aux suites de rapports de production. Cela s’explique par le fait qu’une demande d’accès aux infomations personnelles est automatiquement appliquée à toutes les suites de rapports dans l’organisation Experience Cloud, qui correspond souvent à toutes les suites de rapports pour votre entreprise.
+Toutefois, avec une configuration normale, le traitement des requêtes en vertu du RGPD ne peut pas être testé sur ces suites de rapports de test avant d’appliquer les requêtes aux suites de rapports de production. En effet, une demande d’accès à des informations personnelles est automatiquement appliquée à toutes les suites de rapports dans l’organisation CX Enterprise, qui correspond souvent à toutes les suites de rapports pour votre entreprise.
 
 Néanmoins, il existe certaines façons de tester votre traitement des informations personnelles avant de l’appliquer à toutes vos suites de rapports :
 
-* Vous pouvez par exemple configurer une organisation Experience Cloud séparée contenant uniquement les suites de rapports de test. Ensuite, utilisez cette organisation Experience Cloud pour votre test relatif à la Confidentialité des données et votre organisation Experience Cloud classique pour effectuer le véritable traitement.
+* Une option consiste à configurer une organisation CX Entreprise distincte qui ne contient que des suites de rapports de test. Utilisez ensuite cette organisation CX Enterprise pour vos tests de confidentialité des données et votre organisation CX Enterprise normale pour le traitement réel de la confidentialité des données.
 
 * Une autre option consiste à attribuer des espaces de noms différents aux ID dans vos suites de rapports de test par rapport à ceux qui figurent dans vos suites de rapports de production. Par exemple, vous pouvez ajouter le préfixe « qa- » à chaque espace de noms dans vos suites de rapports de test. Lorsque vous soumettez vos demandes relatives à la Confidentialité des données avec uniquement des espaces de noms comportant le préfixe qa, ces demandes ne sont exécutées que par rapport à vos suites de rapports de test. Ensuite, lorsque vous soumettez vos demandes sans le préfixe qa, elles seront appliquées à vos suites de rapports de production. **Il s’agit de l’approche recommandée, sauf si vous utilisez les espaces de noms `visitorId`, AAID, ECID ou `customVisitorId`. Ces espaces de noms sont codés en dur et vous ne pouvez pas spécifier d’autres noms dans vos suites de rapports de test.**
 
@@ -73,11 +79,11 @@ Pour une présentation détaillée sur la façon de se préparer aux règles de 
 
 +++
 
-+++ **Comment les contrôleurs de données doivent-ils envisager le consentement dans le cadre de l’interaction client et cliente ?**
++++ **Comment les contrôleurs de données doivent-ils envisager le consentement dans le cadre de l’engagement client ?**
 
-Le RGPD et le CCPA sont l’occasion de réexaminer votre stratégie et vos pratiques de gestion du consentement. Cela inclut la détermination du moment où le consentement est nécessaire et la réflexion sur la proposition de valeur pour l’utilisateur ou l’utilisatrice. Tenez compte de la proposition de valeur pour la confidentialité des consommateurs et consommatrices afin de favoriser la conversion et de renforcer la fidélité. L’espace de gestion du consentement (par exemple les outils, les normes ou les bonnes pratiques) est un domaine en rapide évolution à ne pas perdre de vue. Afin de minimiser l’impact sur l’interaction client et cliente, les contrôleurs doivent collaborer avec les fournisseurs et fournisseuses dans cet espace ainsi qu’avec leur service juridique, pour s’assurer de leur conformité avec les nouvelles lois et recommandations sur le consentement et les cookies. Envisager une « confidentialité expérimentale » par la mise en place d’une expérience de la marque pertinente sur le plan contextuel, qui définit la proposition de valeur de vos activités de collecte de données, constitue une bonne stratégie.
+Le RGPD et le CCPA sont l’occasion de réexaminer votre stratégie et vos pratiques de gestion du consentement. Cela inclut la détermination du moment où le consentement est nécessaire et la réflexion sur la proposition de valeur pour l’utilisateur ou l’utilisatrice. Tenez compte de la proposition de valeur pour la confidentialité des consommateurs et consommatrices afin de favoriser la conversion et de renforcer la fidélité. L’espace de gestion du consentement (par exemple les outils, les normes ou les bonnes pratiques) est un domaine en rapide évolution à ne pas perdre de vue. Afin de minimiser l’impact sur l’engagement client, les contrôleurs doivent collaborer avec les fournisseurs et fournisseuses dans cet espace ainsi qu’avec leur service juridique, pour s’assurer de leur conformité avec les nouvelles lois et recommandations sur le consentement et les cookies. Envisager une « confidentialité expérimentale » par la mise en place d’une expérience de la marque pertinente sur le plan contextuel, qui définit la proposition de valeur de vos activités de collecte de données, constitue une bonne stratégie.
 
-En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos titulaires de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter un [mécanisme de désinscription](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site web. Cela permet à vos titulaires de données de ne plus participer à la future collecte de données d’Adobe Experience Cloud.
+En tant que contrôleur des données, c’est à vous qu’il revient d’obtenir le consentement explicite de vos titulaires de données avant de collecter des données à leur sujet (comprenant éventuellement des données Adobe Analytics) et d’implémenter un [mécanisme de désinscription](https://www.adobe.com/fr/privacy/opt-out.html#customeruse) sur votre site web. Cela permet à vos titulaires de données de ne plus participer à la future collecte de données Adobe CX Enterprise.
 
 +++
 
@@ -85,7 +91,7 @@ En tant que contrôleur des données, c’est à vous qu’il revient d’obteni
 
 Les données personnelles ne doivent généralement pas être conservées plus longtemps que la durée nécessaire pour atteindre l’objectif pour lequel elles ont été collectées. Les conditions générales d’Adobe appliquent un plan de conservation des données de 25 mois par défaut, sauf si une autre condition de conservation des données est convenue contractuellement. Il sera demandé aux clientes et clients de définir leur politique de conservation des données avant qu’Adobe puisse traiter les demandes relatives aux informations personnelles.
 
-La politique actuelle de conservation des données de chaque suite de rapports figure dans la nouvelle interface d’utilisation d’administration de la Gouvernance des données. Les clientes et clients doivent contacter leur représentant Adobe pour modifier leur politique de conservation des données, le cas échéant. Reportez-vous à la section [FAQ sur la conservation des données d’Adobe Analytics](/help/technotes/data-retention.md).
+La politique actuelle de conservation des données de chaque suite de rapports figure dans la nouvelle interface d’administration de la Gouvernance des données. Les clientes et clients doivent contacter leur représentant Adobe pour modifier leur politique de conservation des données, le cas échéant. Reportez-vous à la section [FAQ sur la conservation des données d’Adobe Analytics](/help/technotes/data-retention.md).
 
 +++
 
@@ -107,7 +113,7 @@ N’oubliez pas de tenir compte des cas où le personnel a téléchargé des rap
 
 L’[API Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des requêtes relatives à la Confidentialité des données pour d’autres clientes et clients d’Adobe.
 
-Nous vous demandons de ne pas utiliser l’API relative à la Confidentialité des données à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs et visiteuses. Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cet usage.
+Nous vous demandons de ne pas utiliser l’API relative à la Confidentialité des données à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs et visiteuses. Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions eVar recommenceront, ainsi que des informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet effet secondaire n’est pas souhaitable dans les situations où vous souhaitez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cette utilisation.
 
 Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous mette en relation avec notre équipe de conseil en architecture et en ingénierie de données dans le but d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
 
@@ -117,7 +123,7 @@ Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous
 
 L’[API Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) a été fournie pour vous aider à répondre aux demandes relatives à la Confidentialité des données, qui sont urgentes. L’utilisation de cette API à d’autres fins n’est pas prise en charge par Adobe et peut avoir une incidence sur la capacité d’Adobe à traiter en temps voulu des requêtes relatives à la Confidentialité des données pour d’autres clientes et clients d’Adobe. Nous vous demandons de ne pas utiliser l’API relative à la Confidentialité des données à d’autres fins, par exemple pour effacer des données qui ont été soumises accidentellement à de grands groupes de visiteurs et visiteuses.
 
-Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions d’eVar seront réinitialisées, tout comme les informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet inconvénient n’est pas souhaitable dans les situations où vous voulez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cet usage.
+Vous devez également savoir que tout visiteur ayant un accès supprimé (mis à jour ou rendu anonyme) à la suite d’une demande de suppression relative à la Confidentialité des données verra ses informations publiques réinitialisées. La prochaine fois que le visiteur reviendra sur votre site Web, il sera considéré comme un nouveau visiteur. Toutes les attributions eVar recommenceront, ainsi que des informations telles que le nombre de visites, les référents, la première page visitée, etc. Cet effet secondaire n’est pas souhaitable dans les situations où vous souhaitez effacer des champs de données et met en évidence une des raisons pour lesquelles l’API relative à la Confidentialité des données ne convient pas à cette utilisation.
 
 Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous mette en relation avec notre équipe de conseil en architecture et en ingénierie de données afin d’effectuer un examen plus approfondi et de fournir le niveau d’effort nécessaire pour pallier tout problème de PII ou de données.
 
@@ -126,5 +132,5 @@ Veuillez contacter votre équipe Adobe en charge des comptes afin qu’elle vous
 Autres ressources relatives à la confidentialité des données :
 
 * [Termes communs relatifs au RGPD](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* [Package de prise en charge](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) de la Confidentialité des données Experience Cloud
+* Offre d’assistance [Confidentialité des données des entreprises CX](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf)
 * [Article de blog](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/) sur la confidentialité empirique

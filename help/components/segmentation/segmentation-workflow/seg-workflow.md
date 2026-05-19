@@ -3,10 +3,15 @@ description: Découvrez une suggestion de workflow pour créer des segments avec
 title: Présentation du workflow de segmentation
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 47%
+source-wordcount: 265
+ht-degree: 40%
 
 ---
 
@@ -23,7 +28,7 @@ Cet article décrit un workflow suggéré pour créer des segments à l’aide d
 | 4 | [Balisage des segments](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Marquez les segments pour faciliter l’organisation et le partage. Apprenez à planifier et affecter des balises pour des recherches simples et avancées et pour l’entreprise. |
 | 5 | [Approbation des segments](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approuvez les segments pour les rendre canoniques. |
 | 6 | [Utiliser les segments](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Vous pouvez appliquer des segments des composants de segments directement à un rapport. |
-| 7 | [Partage des segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Partagez vos segments avec l’audience prévue dans d’autres outils d’Analytics et avec Adobe Target et Adobe Experience Cloud. |
+| 7 | [Partage des segments](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Partagez vos segments avec l’audience visée dans d’autres outils Analytics et avec Adobe Target et Adobe CX Enterprise. |
 | 8 | [Filtrage des segments](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | Filtrez par balises, propriétaires et autres filtres (Tout afficher, Le mien, Partagés avec moi, Favoris et Approuvés.) |
 | 9 | [Marquer le segment comme favoris](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Le marquage des segments en tant que favoris est une autre manière de les organiser pour en faciliter l’utilisation. |
 

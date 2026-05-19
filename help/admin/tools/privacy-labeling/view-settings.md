@@ -4,10 +4,16 @@ title: Afficher/gérer l’étiquetage de confidentialité pour la gouvernance d
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 100%
+source-wordcount: 815
+ht-degree: 92%
 
 ---
 
@@ -17,7 +23,7 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
 
 ## Afficher les étiquettes de confidentialité {#view-privacy}
 
-1. Connectez-vous à Adobe Experience Cloud.
+1. Connectez-vous à Adobe CX Enterprise.
 2. Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Configuration et collecte des données]** > **[!UICONTROL Gouvernance des données]**.
 
    >[!NOTE]
@@ -55,7 +61,7 @@ Si vous souhaitez appliquer les mêmes paramètres de confidentialité des donn�
 
    >[!IMPORTANT]
    >
-   >N’oubliez pas que toutes les suites de rapports que vous sélectionnez doivent être mappées à votre organisation Experience Cloud.
+   >N’oubliez pas que toutes les suites de rapports sélectionnées doivent être mappées à votre organisation CX Enterprise.
 
    Lorsque vous copiez les étiquettes pour une variable ou un groupe de variables dans une autre suite de rapports, la copie a lieu sur la variable se trouvant à la même position dans la suite de rapports de destination. Pour les composants standard, les variables de liste et les événements de succès, les étiquettes sont copiées dans la variable portant le **même nom** dans la suite de rapports de destination.
 
@@ -74,7 +80,7 @@ Si vous souhaitez appliquer les mêmes paramètres de confidentialité des donn�
 
 ## Exporter vers un fichier .csv {#export-csv}
 
-Vous pouvez télécharger un fichier CSV contenant toutes les définitions d’étiquettes actuelles pour toutes les variables de la ou des suites de rapports sélectionnées. Nous recommandons à votre équipe juridique de passer en revue vos choix d’étiquetage. Cette option facilite la vérification. En effet, au lieu d’effectuer la vérification lorsque vous êtes connecté à l’interface utilisateur Gouvernance des données, vous pouvez partager le fichier .CSV avec celle-ci.
+Vous pouvez télécharger un fichier CSV contenant toutes les définitions d’étiquettes actuelles pour toutes les variables des suites de rapports sélectionnées. Nous recommandons à votre équipe juridique d’examiner vos choix d’étiquetage et cette option facilite cet examen. En effet, au lieu d’effectuer la vérification lorsque vous êtes connecté à l’interface utilisateur Gouvernance des données, vous pouvez partager le fichier .CSV avec celle-ci.
 
 1. Cliquez sur **[!UICONTROL Exporter au format CSV]** en haut à droite et cette boîte de dialogue s’affiche :
 
