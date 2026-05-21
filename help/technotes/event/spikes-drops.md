@@ -40,7 +40,7 @@ Les baisses de trafic sont classées dans deux sections : données partielles e
 * **Latence de suite de rapports** : il arrive parfois qu’une suite de rapports subisse une [latence](../latency.md) due à un certain nombre de facteurs. De nombreux problèmes de latence sont résolus en quelques heures. Si une suite de rapports spécifique vous préoccupe, contactez l’assistance clientèle d’Adobe avec l’identifiant de la suite de rapports concernée.
 * **Suppression de la mise en œuvre** : parfois, lorsqu’une entreprise apporte des modifications à la mise en œuvre ou restructure son site, la nouvelle mise en œuvre d’Analytics est négligée. Collaborez avec les développeurs de l’entreprise pour implémenter de nouveau le code du site.
 * **Problème d’interface/de mise en cache d’Analytics** : dans de rares cas, le cache d’un navigateur contient des données non valides qui entraînent le renvoi de zéros dans tous les rapports. Effacez les cookies et le cache du navigateur pour résoudre le problème. Si l’effacement des cookies et du cache ne fonctionne pas, contactez l’assistance clientèle avec la période et le rapport manquants. L’assistance peut dupliquer le problème et fournir des informations supplémentaires.
-* **Disponibilité d’Analytics** : consultez [status.adobe.com](https://status.adobe.com/products/1173/fr) pour tout problème lié à la collecte ou au traitement des données.
+* **Disponibilité d’Analytics** : consultez [status.adobe.com](https://status.adobe.com/fr/products/1173/fr) pour tout problème lié à la collecte ou au traitement des données.
 
 ### Causes possibles de données partiellement manquantes ou de diminution du trafic
 
