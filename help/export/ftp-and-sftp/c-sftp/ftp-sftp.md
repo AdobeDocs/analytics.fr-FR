@@ -4,9 +4,19 @@ keywords: ftp;sftp
 title: Protocole de transfert de fichiers sécurisé - Aperçu
 feature: FTP Export
 exl-id: ea0448f9-1685-4a8f-b2f9-49d315c6ab71
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/kJYtQSuxz-2NMUYqZb01wsr6ltQQbD5itpPYYzsmlCM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: 220
 ht-degree: 88%
 
 ---
@@ -15,7 +25,7 @@ ht-degree: 88%
 
 Le protocole SFTP est un protocole sécurisé de transfert de données qui garantit que personne d’autre ne peut voir vos données que vous. Adobe Engineering Services peut configurer un compte SFTP afin de conserver vos données de manière sécurisée.
 
-## Livraison par émission (push)  {#section_A47831BB1DCA490BB57F0940617AA506}
+## Livraison par émission (push) {#section_A47831BB1DCA490BB57F0940617AA506}
 
 Cela signifie que les serveurs d’Adobe « poussent » le fichier sur vos serveurs. Grosso modo, nous délivrons le fichier à votre point de terminaison.
 
@@ -23,7 +33,7 @@ Cela signifie que les serveurs d’Adobe « poussent » le fichier sur vos ser
 
 Report Builder **impossible** transmet des données push via SFTP.
 
-## Livraison par extraction (pull)  {#section_FA29FAEF02FE40B8B32452146A036F48}
+## Livraison par extraction (pull) {#section_FA29FAEF02FE40B8B32452146A036F48}
 
 Ceci signifie que le fichier est envoyé à l’un des serveurs Adobe par l’intermédiaire d’un protocole FTP standard. Pour récupérer le fichier sur votre serveur, vous devez l’extraire du serveur Adobe par SFTP de votre serveur vers le serveur FTP Adobe. Vous pouvez le faire de trois façons :
 

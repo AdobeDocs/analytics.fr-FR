@@ -1,19 +1,29 @@
 ---
-description: La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
+description: La page Méthodes de recherche identifie la manière dont divers rapports de méthodes de recherche reçoivent du crédit pour les événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 title: Méthodes de recherche
 feature: Admin Tools
 role: Admin
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/eIZhSAm5tZsV4bY3Bznamfq87nhWd82ZwL-M4OIkFSM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 97%
+source-wordcount: 319
+ht-degree: 65%
 
 ---
 
 # Méthodes de recherche
 
-La page Méthodes de recherche identifie comment les divers rapports de méthodes de recherche reçoivent le crédit des événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
+La page Méthodes de recherche identifie la manière dont divers rapports de méthodes de recherche reçoivent du crédit pour les événements de succès de conversion sur votre site. Si, par exemple, un moteur de recherche dirige vers votre site un visiteur qui effectue un achat, les méthodes de recherche définissent la manière dont le moteur de recherche reçoit du crédit pour ce renvoi
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Méthodes de recherche]**
 
@@ -29,11 +39,11 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
  <tbody> 
   <tr> 
    <td colname="col1"> Nom </td> 
-   <td colname="col2"> Méthode de recherche que vous souhaitez modifier. </td> 
+   <td colname="col2"> Méthode de recherche à modifier </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Affectation </td> 
-   <td colname="col2"> Indique comment appliquer du crédit pour un renvoi. Les options d’affectation prises en charge sont les suivantes : <p> <span class="uicontrol"> Le plus récent (Dernier) :</span> accorde tout le crédit au dernier référent (par défaut). </p> <p> <span class="uicontrol"> Valeur d’origine :</span> attribue tout le crédit au premier référent. </p> <p> <span class="uicontrol"> Linéaire :</span> répartit le crédit uniformément entre tous les référents. </p> </td> 
+   <td colname="col2"> Spécifie comment appliquer un crédit pour une recommandation. Les options d’affectation prises en charge sont les suivantes : <p> <span class="uicontrol"> Le plus récent (Dernier) :</span> accorde tout le crédit au dernier référent (par défaut). </p> <p> <span class="uicontrol"> Valeur d’origine :</span> attribue tout le crédit au premier référent. </p> <p> <span class="uicontrol"> Linéaire :</span> répartit le crédit uniformément entre tous les référents. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Expire après </td> 
@@ -56,4 +66,4 @@ La page Méthodes de recherche identifie comment les divers rapports de méthode
 
 >[!NOTE]
 >
->Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez l’option d’expiration après un autre événement (le Passage en caisse, par exemple), la Méthode de recherche expire quand le Passage en caisse survient pendant la visite. Si le Passage en caisse ne se produit pas pendant la visite, la Méthode de recherche expire quand même à la fin de la visite.
+>Toutes les méthodes de recherche expirent à la fin d’une visite. Si vous choisissez d’expirer après un autre événement (par exemple, l’extraction du panier), la méthode de recherche expire lorsque l’extraction du panier se produit au cours de la visite. Si un passage en caisse n’a pas lieu au cours de la visite, la méthode de recherche expire toujours à la fin de la visite.

@@ -5,9 +5,19 @@ title: Cas d’utilisation des règles de traitement
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 832
 ht-degree: 24%
 
 ---
@@ -134,7 +144,7 @@ Adobe recommande d’utiliser l’option de correspondance la plus restrictive p
 Vous pouvez supprimer ou ignorer un événement spécifique d’un accès à l’aide des règles de traitement sans modifier votre implémentation. Si vous définissez l’événement sur une valeur personnalisée `0`, l’événement n’est pas comptabilisé.
 
 | Ensemble de règles | Valeur |
-| Condition | Aucun (toujours exécuter) |
+| Condition | Aucune (toujours exécuter) |
 | Action | [!UICONTROL Définir l’événement] Event1 sur [!UICONTROL Valeur personnalisée] `0` |
 
 ![Copie d’écran de l’interface des règles de traitement affichant la fonction pour supprimer un événement](assets/remove_event.png)

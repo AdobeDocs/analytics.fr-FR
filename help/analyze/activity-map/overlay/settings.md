@@ -5,10 +5,23 @@ uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
-source-git-commit: 13ad9d40ad74a8dffe05d899db54f4d77cbcc34c
+TQID: https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 4%
+source-wordcount: 567
+ht-degree: 2%
 
 ---
 
@@ -51,6 +64,6 @@ Ajustez les paramètres de la vue standard.
 ## Paramètres en direct
 
 * **[!UICONTROL Afficher en haut]** : affichez le nombre supérieur de gagnants ou de perdants en fonction de la liste déroulante numérique sur la gauche.
-* **[!UICONTROL Exclure le bas (%)]** : filtrez le pourcentage inférieur des modifications de lien pour n’afficher que les liens contenant suffisamment de données pour afficher les gains ou pertes pertinents. Le pourcentage est calculé en fonction du nombre de liens sur la page. Par exemple, le filtrage des 10 % inférieurs d’une liste de 200 liens filtre les 20 liens inférieurs.
+* **[!UICONTROL Exclure le bas (%)]** : filtrez le pourcentage inférieur des modifications de lien pour n’afficher que les liens contenant suffisamment de données pour afficher les gains ou pertes pertinents. Le pourcentage est calculé en fonction du nombre de liens sur cette page. Par exemple, le filtrage des 10 % inférieurs d’une liste de 200 liens filtre les 20 liens inférieurs.
 * **[!UICONTROL Mise à jour automatique des données]** : détermine si les données Analytics affichées dans le recouvrement sont automatiquement mises à jour lorsqu’une nouvelle période est calculée.
 * **[!UICONTROL Période de mise à jour automatique]** : lorsque cette case est cochée, actualise la page à chaque nouvelle récupération de données afin que les liens de la page soient plus étroitement synchronisés avec les données collectées.

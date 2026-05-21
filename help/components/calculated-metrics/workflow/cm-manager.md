@@ -1,12 +1,24 @@
 ---
 description: Découvrez comment partager, filtrer, baliser, approuver, copier, supprimer des mesures calculées et les marquer comme favoris.
-title: Gestion des mesures calculées
+title: Gérer les mesures calculées
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/BJTYlY8d2BEOLQgmxGFFvL8MV94j-ptEp2051nHY5tw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 28%
+source-wordcount: 902
+ht-degree: 32%
 
 ---
 
@@ -40,7 +52,7 @@ La liste des mesures calculées ➊ affiche toutes les mesures calculées que vo
 | **[!UICONTROL Balises]** | Répertorie les balises de cette mesure calculée. |
 | **[!UICONTROL Partagé avec]** | Répertorie le nombre d’individus ou de groupes avec lesquels vous avez partagé la mesure calculée. Sélectionnez pour ouvrir la boîte de dialogue **[!UICONTROL Partager la mesure calculée]**. Voir [Partage de mesures calculées](cm-sharing.md) pour plus d’informations. |
 | **[!UICONTROL Date de modification]** | Date et heure de la dernière modification de la mesure calculée. |
-| **[!UICONTROL Utilisation dans]** | Indique où les mesures calculées sont actuellement utilisées et combien de fois elles sont utilisées dans chaque zone. <p>Par exemple, si la mesure calculée est utilisée dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche sous la forme de composants [!UICONTROL **42**]. <p>Sélectionnez la valeur dans cette colonne pour afficher la répartition des emplacements où les mesures calculées sont utilisées (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Cartes de performance mobiles (2)**]). De plus, vous pouvez afficher la liste des éléments pour lesquels les mesures calculées sont utilisées. Par exemple, pour afficher la liste des projets dans lesquels ils sont utilisés, sélectionnez le lien [!UICONTROL **Projets (40)**].</p><p>Chacune des zones suivantes affiche le nombre d’instances de mesures calculées utilisées dans cette zone :</p> <ul><li>[!UICONTROL **Projets**]<p>Contient des mesures calculées qui ont été [créées dans le créateur de mesures calculées](c-build-metrics/cm-build-metrics.md) et qui sont disponibles pour tous les projets.</p></li><li>[!UICONTROL **Composants ad hoc**]<p>Contient des mesures calculées qui ont été [créées en tant que mesures calculées rapides](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) et qui ne sont disponibles que dans un seul projet.</p></li><li>[!UICONTROL **Projets planifiés**]</li><li>[!UICONTROL **Cartes de performances mobiles**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Report Builder**]<p>La sélection de cette option télécharge un fichier CSV, avec les colonnes de données suivantes :</p><ul><li>Nom dans Report Builder</li><li>Dernier accès</li><li>Dernier ID d’utilisateur ou utilisatrice IMS consulté</li><li>Nom de l’utilisateur ou de l’utilisatrice consulté en dernier</li></ul></li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile pour les utilisateurs et utilisatrices de votre organisation, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations sont réservées aux administrateurs et administratrices système.</li><li>La colonne [!UICONTROL **Utilisation dans**] ne s’affiche pas par défaut. Utilisez ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour configurer l’affichage de cette colonne.</li><li>Ces informations n’incluent pas l’utilisation de l’API ou de Data Warehouse.</li><li>Si cette colonne ne contient aucune donnée pour un composant donné, mais qu’elle comporte une date [!UICONTROL **Dernière utilisation**], le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li><li>Les informations d’utilisation sont disponibles à partir de septembre 2023.</li></ul><p>Vous pouvez utiliser le [dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) avec ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> |
+| **[!UICONTROL Utilisation dans]** | Indique où les mesures calculées sont actuellement utilisées et combien de fois elles sont utilisées dans chaque zone. <p>Par exemple, si la mesure calculée est utilisée dans 40 projets et 2 alertes, la valeur de cette colonne s’affiche sous la forme de composants [!UICONTROL **42**]. <p>Sélectionnez la valeur dans cette colonne pour afficher la répartition des emplacements où les mesures calculées sont utilisées (par exemple, [!UICONTROL **Projets (40)**], [!UICONTROL **Cartes de performance mobiles (2)**]). De plus, vous pouvez afficher la liste des éléments pour lesquels les mesures calculées sont utilisées. Par exemple, pour afficher la liste des projets dans lesquels ils sont utilisés, sélectionnez le lien [!UICONTROL **Projets (40)**].</p><p>Chacune des zones suivantes affiche le nombre d’instances de mesures calculées utilisées dans cette zone :</p> <ul><li>[!UICONTROL **Projets**]<p>Contient des mesures calculées qui ont été [créées dans le créateur de mesures calculées](c-build-metrics/cm-build-metrics.md) et qui sont disponibles pour tous les projets.</p></li><li>[!UICONTROL **Composants ad hoc**]<p>Contient des mesures calculées qui ont été [créées en tant que mesures calculées rapides](/help/analyze/analysis-workspace/components/apply-create-metrics.md#create-calculated-metrics-for-a-single-project) et qui ne sont disponibles que dans un seul projet.</p></li><li>[!UICONTROL **Projets planifiés**]</li><li>[!UICONTROL **Cartes de performances mobiles**]</li><li>[!UICONTROL **Annotations**]</li><li>[!UICONTROL **Report Builder**]<p>La sélection de cette option télécharge un fichier CSV, avec les colonnes de données suivantes :</p><ul><li>Nom dans Report Builder</li><li>Dernier accès</li><li>Dernier ID d’utilisateur ou utilisatrice IMS consulté</li><li>Nom de l’utilisateur ou de l’utilisatrice consulté en dernier</li></ul></li></ul><p>Ces informations peuvent vous aider à déterminer si un composant est utile aux utilisateurs et utilisatrices de votre entreprise, où il est utilisé et s’il doit être supprimé ou modifié.</p><p>Tenez compte des points suivants lorsque vous affichez cette colonne :</p><ul><li>Ces informations sont réservées aux administrateurs et administratrices système.</li><li>La colonne [!UICONTROL **Utilisation dans**] ne s’affiche pas par défaut. Utilisez ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) pour configurer l’affichage de cette colonne.</li><li>Ces informations n’incluent pas l’utilisation de l’API ou de Data Warehouse.</li><li>Si cette colonne ne contient aucune donnée pour un composant donné, mais qu’elle comporte une date [!UICONTROL **Dernière utilisation**], le composant peut avoir été utilisé dans une analyse sans avoir été enregistré.</li><li>Les informations d’utilisation sont disponibles à partir de septembre 2023.</li></ul><p>Vous pouvez utiliser le [dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) avec ces informations pour vous aider à effectuer le suivi et à mieux comprendre comment les composants sont utilisés dans votre organisation.</p> |
 | **[!UICONTROL Dernière utilisation]** | Date de la dernière utilisation de la mesure calculée. |
 
 {style="table-layout:auto"}
@@ -69,7 +81,7 @@ La barre de filtrage affiche ➌ les filtres actifs appliqués à partir du pann
 
 ### Panneau Filtrer
 
-Vous pouvez filtrer la liste des mesures calculées à l’aide du ![&#x200B; du panneau de gauche &#x200B;](/help/assets/icons/Filter.svg)Filtrer **&#x200B;**&#x200B;Filtrer➍. Le panneau de filtrage affiche le type de filtre et le nombre de mesures calculées qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
+Vous pouvez filtrer la liste des mesures calculées à l’aide du ➍ du panneau de gauche ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Filtrer]**. Le panneau de filtrage affiche le type de filtre et le nombre de mesures calculées qui respectent le filtre spécifique. Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher ou masquer le panneau Filtrer.
 
 Voir [Filtrer la liste des mesures calculées](cm-filter.md) pour plus d’informations.
 

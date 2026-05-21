@@ -4,10 +4,30 @@ description: Découvrez comment les mesures de prévention du suivi affectent le
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 role: Admin
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1908'
-ht-degree: 100%
+source-wordcount: 2106
+ht-degree: 99%
 
 ---
 
@@ -40,7 +60,7 @@ Les cookies propriétaires d’Adobe sont limités à un délai d’expiration d
 
 Actuellement, les politiques ITP s’appliquent à tous les cookies propriétaires définis par Adobe, que vous utilisiez le service d’identification des visiteurs ou l’identifiant Analytics hérité (cookie « s_vi »). À un moment donné, ces politiques ne s’appliquaient qu’aux cookies définis côté client et non aux cookies définis côté serveur via une implémentation CNAME. Toutefois, en novembre 2020, ITP a été mis à jour pour s’appliquer également aux implémentations CNAME.
 
-#### Calendrier des modifications majeures apportées à la politique ITP {#ITP-timeline}
+#### Chronologie des modifications majeures apportées à la politique ITP {#ITP-timeline}
 
 * Février 2019 avec [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) : les cookies côté client étaient limités à un délai d’expiration de sept jours.
 * Avril 2019 avec [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) : les cookies côté client étaient limités à 24 heures pour les clics publicitaires lorsque le domaine référent était a) impliqué dans le suivi intersite et b) que l’URL finale contenait une chaîne de requête ou un identifiant de fragment.
@@ -135,7 +155,7 @@ Si vous avez une implémentation CNAME définie dans le même domaine que votre 
 
 Cependant, si vous possédez plusieurs domaines et utilisez le même CNAME pour la collecte de données sur tous vos domaines, alors le cookie est traité comme un cookie tiers sur ces autres domaines. Avec la version Chrome 80 ou ultérieure, il n’est plus visible sur ces autres domaines. Pour rendre le comportement plus similaire sur tous les navigateurs, Analytics a défini explicitement la valeur `SameSite` de ce cookie sur `Lax`. Si vous utilisez ce cookie dans un contexte tiers convivial, vous devez définir le cookie avec la valeur `SameSite=None`, ce qui signifie également que vous devez toujours utiliser HTTPS. Si vous ne l’avez pas déjà fait, contactez l’assistance clientèle d’Adobe pour que la valeur SameSite soit modifiée pour vos CNAME sécurisés.
 
-## Comment puis-je déterminer si les modifications de Safari affectent mon entreprise ?  {#measure-itp-effect}
+## Comment puis-je déterminer si les modifications de Safari affectent mon entreprise ? {#measure-itp-effect}
 
 Adobe recommande aux clients de mesurer l’impact au sein de leur propre entreprise avant de modifier la collecte de données. Vous pouvez utiliser Analysis Workspace pour mesurer l’impact de la prévention du suivi ITP sur votre entreprise :
 
@@ -145,7 +165,7 @@ Adobe recommande aux clients de mesurer l’impact au sein de leur propre entrep
 
       >[!NOTE]
       >
-      >Les navigateurs spécifiques affectés par ITP dépendent de si vous utilisiez une implémentation CNAME ou non. Pour plus d’informations, voir « [Calendrier des modifications majeures apportées à la politique ITP](#ITP-timeline) ».
+      >Les navigateurs spécifiques affectés par ITP dépendent de si vous utilisiez une implémentation CNAME ou non. Pour plus d’informations, voir « [Chronologie des modifications majeures apportées à la politique ITP](#ITP-timeline) ».
 
       ![Segment pour les visiteurs ITP](/help/technotes/assets/itp-visitor-segment.png)
 
@@ -178,4 +198,4 @@ Si votre entreprise est affectée par la prévention du suivi ITP, vous pouvez e
 >[!MORELIKETHIS]
 >
 >[Options pour atténuer l’effet des restrictions des cookies de navigateur](cookieless.md)
->>[Impact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)
+>[Impact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)

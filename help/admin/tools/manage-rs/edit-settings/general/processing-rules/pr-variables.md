@@ -5,10 +5,23 @@ title: Dimensions et mesures disponibles pour les règles de traitement
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 10%
+source-wordcount: 721
+ht-degree: 15%
 
 ---
 
@@ -28,9 +41,9 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | Attribut | Statut en lecture/écriture | Description |
 | --- | --- | --- |
 | **URL de la page** | Lecture + écriture | La dimension [URL de la page](/help/components/dimensions/page-url.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur d’URL de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
-| **Nom de la page** | Lecture + écriture | La dimension [&#x200B; Page &#x200B;](/help/components/dimensions/page.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
+| **Nom de la page** | Lecture + écriture | La dimension [Page](/help/components/dimensions/page.md). Les accès de suivi des liens suppriment cette dimension avant d’atteindre les règles de traitement. Si vous réinsérez une valeur de page à l’aide de règles de traitement, l’accès est considéré comme un [Page vue](/help/components/metrics/page-views.md) au lieu d’un [Événement de page](/help/components/metrics/page-events.md). Adobe recommande de rechercher une valeur dans la dimension de page avant de la modifier. |
 | **Identifiant de suite de rapports** | Lecture seule | Suite de rapports sur laquelle la règle de traitement est exécutée. Cette suite de rapports peut être différente de la suite de rapports initialement envoyée via AppMeasurement, par exemple lors de l’utilisation de règles VISTA. |
-| **Version du code AppMeasurement** | Lecture seule | Version de la bibliothèque AppMeasurement utilisée pour générer la demande d’image. |
+| **Version du code** | Lecture seule | Version de la bibliothèque AppMeasurement utilisée pour générer la demande d’image. |
 | **adresse IP** | Lecture seule | Adresse IP du visiteur. |
 | **Agent utilisateur** | Lecture seule | Agent utilisateur du visiteur. |
 | **Référent** | Lecture seule | La dimension [Référent](/help/components/dimensions/referrer.md). |
@@ -49,13 +62,13 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 
 | Variable | Statut en lecture/écriture | Description |
 | --- | --- | --- |
-| **eVar 1-250** | Lecture + écriture | [dimensions eVar](/help/components/dimensions/evar.md). |
+| **eVar 1-250** | Lecture + écriture | Dimensions [eVar](/help/components/dimensions/evar.md). |
 | **Campagne** | Lecture + écriture | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
-| **ID d’achat** | Lecture + écriture | Variable d’implémentation [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
+| **ID d’achat** | Lecture + écriture | La variable de mise en œuvre [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
 | **État** | Lecture + écriture | (Retiré) Variable d’implémentation [`state`](/help/implement/vars/page-vars/state.md). |
-| **Zip** | Lecture + écriture | La dimension [&#x200B; Code postal &#x200B;](/help/components/dimensions/zip-code.md). |
-| **Code de devise** | Lecture + écriture | Variable d’implémentation [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
-| **ID de transaction** | Lecture + écriture | Variable d’implémentation [`transactionID`](/help/import/data-sources/transactionid.md). |
+| **Zip** | Lecture + écriture | La dimension [Code postal](/help/components/dimensions/zip-code.md). |
+| **Code de devise** | Lecture + écriture | La variable de mise en œuvre [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
+| **ID de transaction** | Lecture + écriture | La variable de mise en œuvre [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
 >Adobe ne prend pas en charge la définition de la variable d’implémentation [`products`](/help/implement/vars/page-vars/products.md) à l’aide de règles de traitement.
@@ -89,5 +102,5 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | **Passages en caisse** | En écriture seule | La mesure [&#x200B; Passages en caisse &#x200B;](/help/components/metrics/checkouts.md). |
 | **Ajouts au panier** | En écriture seule | La mesure [Ajouts au panier](/help/components/metrics/cart-additions.md). |
 | **Retraits du panier** | En écriture seule | La mesure [Retraits du panier](/help/components/metrics/cart-removals.md). |
-| **Événement 1-1000** | En écriture seule | [&#x200B; Événements personnalisés &#x200B;](/help/components/metrics/custom-events.md). |
+| **Événement 1-1000** | En écriture seule | [Événements personnalisés](/help/components/metrics/custom-events.md). |
 | **Consultations produits** | En écriture seule | La mesure [Vues des produits](/help/components/metrics/product-views.md). |

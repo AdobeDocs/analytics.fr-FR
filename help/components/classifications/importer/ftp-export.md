@@ -3,10 +3,20 @@ title: Exportation des données de classification via FTP
 description: L’exportation FTP offre plus de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données à partir de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données comportant plus de 50 000 lignes de données.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 68%
+source-wordcount: 632
+ht-degree: 64%
 
 ---
 
@@ -45,8 +55,8 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | [!UICONTROL Sélectionner le nombre de lignes] | Indiquez le nombre de lignes de données à exporter.<ul><li>Sélectionnez **[!UICONTROL Tous]** pour télécharger toutes les données de rapport.</li><li>Sélectionnez **[!UICONTROL Limiter les lignes de données à]** si vous voulez indiquer un nombre spécifique de lignes à télécharger.</li></ul> |
 | [!UICONTROL Filtrer par date de réception] | (Facultatif) Filtrez les données selon la date de réception. Indiquez la période pour laquelle vous souhaitez télécharger les données. |
 | [!UICONTROL Appliquer un filtre de données] | (Facultatif) Filtrez le jeu de données selon des critères de données. Vous pouvez filtrer le téléchargement pour inclure des lignes de données contenant une valeur spécifique ou des valeurs de colonnes non attribuées (classification). |
-| [!UICONTROL Filtre de date] | (Facultatif) Filtrez les données par données de campagne. Vous pouvez télécharger uniquement les données des campagnes actives ou sélectionner des campagnes qui commencent (ou se terminent) à une période spécifique. |
+| [!UICONTROL Filtre de date] | (Facultatif) Filtrez les données par données de campagne.Vous pouvez télécharger uniquement les données des campagnes actives ou sélectionner des campagnes qui commencent (ou se terminent) à une période spécifique. |
 | [!UICONTROL Exporter Numérique 2] | Vous pouvez importer les classifications numériques 2 dans le système à l’aide de l’importateur. Les classifications numériques 2 s’avèrent utiles lorsque les variables de différents articles changent de temps à autre, comme les valeurs de coût et de budget pour le rapport Canal marketing. |
 | [!UICONTROL Compte FTP] | Spécifiez les informations du serveur FTP où Adobe doit télécharger le fichier de données, dont le nom d’hôte et le port, le chemin d’accès au répertoire de destination, le nom d’utilisateur et le mot de passe. |
 | [!UICONTROL Notification] | Indiquez l’adresse e-mail à laquelle doivent être envoyées les notifications concernant ce téléchargement FTP. |
-| [!UICONTROL Encodage] | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est soit UTF-8, soit ISO-8859-1, selon le code qui a été téléchargé pour la classification. UTF-8 vers UTF-16 convertit les classifications codées UTF-8 en codage UTF-16. La norme ISO-8859-1 en UTF-16 convertit vos classifications codées ISO-8859-1 en codage UTF-16.<br>**Remarque :** si vous choisissez de convertir au format UTF-16, le codage source doit correspondre au codage du chargement d’origine, faute de quoi vous risquez d’obtenir des résultats inattendus. Nous vous recommandons de coder tous les fichiers chargés au format UTF-8 sans nomenclature. |
+| [!UICONTROL Encodage] | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est soit UTF-8, soit ISO-8859-1, selon le code qui a été téléchargé pour la classification. UTF-8 vers UTF-16 convertit les classifications codées UTF-8 en codage UTF-16. ISO-8859-1 en UTF-16 convertit vos classifications codées ISO-8859-1 en codage UTF-16.<br>**Remarque :** si vous choisissez de convertir au format UTF-16, le codage source doit correspondre au codage du chargement d’origine, faute de quoi vous risquez d’obtenir des résultats inattendus. Nous vous recommandons de coder tous les fichiers chargés au format UTF-8 sans nomenclature. |

@@ -3,10 +3,22 @@ title: Prise en main des canaux marketing
 description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 812
+ht-degree: 97%
 
 ---
 
@@ -71,7 +83,7 @@ Comment exécuter la configuration automatique des canaux marketing.
 
    >[!NOTE]
    >
-   >La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche automatiquement lorsque vous accédez aux applications de configuration des canaux dans les outils d’administration. (Consultez [Gestionnaire de canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Cette page ne s’affiche pas si la suite de rapports contient un ou plusieurs canaux marketing. Elle ne s’affichera plus, sauf si vous sélectionnez une autre suite de rapports ne contenant aucun canal marketing.
+   >La page [!UICONTROL Canaux marketing : Configuration automatique] s’affiche automatiquement lorsque vous accédez aux applications de configuration des canaux dans les outils d’administration. (Voir [Gestionnaire de canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).) Cette page ne s’affiche pas si votre suite de rapports contient un ou plusieurs canaux marketing. Elle ne s’affichera plus, sauf si vous sélectionnez une autre suite de rapports ne contenant aucun canal marketing.
 
 1. Vérifiez que les canaux à créer sont sélectionnés.
 

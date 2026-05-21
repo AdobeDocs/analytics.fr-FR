@@ -3,10 +3,25 @@ title: Guide des composants d’Analytics
 description: Découvrez les différents composants proposés par Adobe Analytics.
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
 feature: Components
-source-git-commit: 80e4a3ba4a5985563fcf02acf06997b4592261e4
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/EN1Ao9NY5XyyIGwxLMIeRncZmNukIGZbCbFhaEHdOWw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 245
+ht-degree: 95%
 
 ---
 
@@ -40,11 +55,11 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensembl
 
 ## Plus de guides d’utilisation d’Analytics
 
-[Guides d’utilisation d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
+[Guides de l’utilisateur d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
-* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
-* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
-* [Experience League](https://experienceleague.adobe.com/fr)
+* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
+* [Experience League](https://experienceleague.adobe.com/fr)

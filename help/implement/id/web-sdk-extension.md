@@ -1,9 +1,19 @@
 ---
 title: Identification des visiteurs à l’aide de l’extension de balise Web SDK
 description: Identifier correctement les visiteurs lors de l’implémentation de l’extension de balise Web SDK.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: 65de7fc3-a344-4f04-b523-1f5edf681d2f
+TQID: https://experienceleague.adobe.com/W42VkHT5yCW0yO-FbiAFHHKM8dF5NgCveZYGFOs7sYk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: 192
 ht-degree: 0%
 
 ---
@@ -14,8 +24,8 @@ L’extension de balise Web SDK dans la collecte de données Adobe Experience Pl
 
 Les données d’identité peuvent être étendues pour prendre en charge les identifiants personnalisés et plusieurs espaces de noms à l’aide des `identityMap` XDM. Adobe recommande d’utiliser le service Adobe Experience Cloud ID en tant qu’identifiant principal pour Analytics et d’utiliser d’autres options de gestion des identités pour les scénarios avancés.
 
-Étant donné que le service d’identification des visiteurs est intégré nativement à l’extension de balise, il suffit de définir **[!UICONTROL Domaine Edge]** à la valeur souhaitée. Si ce champ est défini correctement, l’identification des visiteurs fonctionne sans configuration supplémentaire.
+Étant donné que le service d’identification des visiteurs est intégré nativement à l’extension de balise, il suffit de définir **[!UICONTROL Domaine]** à la valeur souhaitée. Si ce champ est défini correctement, l’identification des visiteurs fonctionne sans configuration supplémentaire.
 
 >[!NOTE]
 >
->N’incluez pas l’extension de balise du service d’identification des visiteurs si vous utilisez l’extension de balise Web SDK. L’extension du service d’identification des visiteurs n’est nécessaire que si vous utilisez l’extension [Adobe Analytics](analytics-extension.md).
+>N’incluez pas l’extension de balise du service d’identification des visiteurs si vous utilisez l’extension de balise Web SDK. L’extension du service d’identification des visiteurs n’est nécessaire que si vous utilisez l’extension [&#128279;](analytics-extension.md).

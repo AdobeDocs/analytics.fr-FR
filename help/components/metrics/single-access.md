@@ -3,10 +3,20 @@ title: Accès unique
 description: Le nombre de fois qu’un élément de dimension n’a pas changé au cours d’une visite.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+TQID: https://experienceleague.adobe.com/9rDXvGopDNEhkh6cA-JmkwazYWagbMDo1g7yZ2n-gLI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 15%
+source-wordcount: 484
+ht-degree: 19%
 
 ---
 
@@ -32,7 +42,7 @@ Dans le contexte de la dimension [[!UICONTROL Page]](../dimensions/page.md), « 
 
 Si l’option [[!UICONTROL &#x200B; Compter les instances répétées &#x200B;]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) est désactivée, les définitions de mesures changent légèrement :
 
-* **Accès unique** : affiche le nombre de visites pour lesquelles l’élément de dimension donné n’a pas été modifié pour l’ensemble de la visite.
+* **Accès unique** : indique le nombre de visites au cours desquelles l’élément de dimension donné n’a pas changé pour l’intégralité de la visite.
 * **Visite sur une seule page** : indique le nombre de visites pour lesquelles la dimension « [!UICONTROL Page] » n’a pas été modifiée pour l’ensemble de la visite.
 
 Prenons l’exemple suivant de visites à deux accès. La dimension de votre rapport est [[!UICONTROL section Site]](../dimensions/site-section.md) et l’option « [!UICONTROL Compter les instances répétées] » est désactivée.

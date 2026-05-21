@@ -4,16 +4,27 @@ description: Empêchez les données générées par certaines adresses IP dʼapp
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: 4b4febd839682d88164b2f505245441d18ef2543
+TQID: https://experienceleague.adobe.com/OfpXjqwAyn6DDwykgQMbYMIZXNPklUVvDFU1CsuC9CU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 31%
+source-wordcount: 318
+ht-degree: 37%
 
 ---
 
 # Exclure par adresse IP
 
-Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer des données du déni de service ou d’autres événements malveillants susceptibles de fausser les données du rapport.
+Vous pouvez exclure de vos rapports les données d’adresses IP spécifiques (activités internes du site web, tests du site et utilisation par les employés, par exemple). L’élimination de données améliore la précision du rapport en excluant des données d’adresse IP. De plus, vous pouvez supprimer les données des attaques par déni de service ou autres événements malveillants susceptibles de biaiser les résultats de vos rapports.
 
 Pour exclure des données par adresse IP, vous pouvez configurer les exclusions comme décrit ci-dessous, ou [configurer votre pare-feu](/help/technotes/ip-addresses.md).
 

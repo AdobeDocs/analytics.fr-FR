@@ -3,10 +3,22 @@ description: Découvrez le créateur de mesures calculées qui fournit une zone 
 title: Créer des mesures
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/ds8aD51DynOEJ7uYZ5Id-kTng2JPN4nZYuMTaKj-ZvE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: 1489
+ht-degree: 99%
 
 ---
 
@@ -46,7 +58,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de mesures calculées]** permet
    | **[!UICONTROL Nombres de décimales]** | Spécifiez le nombre de décimales pour le format sélectionné. Activé uniquement lorsque le format sélectionné est Décimal, Devise et Pourcentage. |
    | **[!UICONTROL Afficher la tendance à la hausse sous forme de]** | Indiquez si une tendance à la hausse de la mesure calculée s’affiche sous la forme ▲ **[!UICONTROL Bon (Vert)]** ou ▼ **[!UICONTROL Mauvais (Rouge)]**. |
    | **[!UICONTROL Devise]** | Spécifiez la devise de la mesure calculée. Activé uniquement lorsque le format sélectionné est Devise. |
-   | **[!UICONTROL Étiquettes]** | Organisez la mesure calculée en créant ou en appliquant une ou plusieurs balises. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
+   | **[!UICONTROL Balises]** | Organisez la mesure calculée en créant ou en appliquant une ou plusieurs balises. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
    | **[!UICONTROL Aperçu]** | La prévisualisation couvre les 90 derniers jours et permet de déterminer si vous avez correctement défini votre mesure. |
    | **[!UICONTROL Résumé]** | Affiche un résumé de la définition de la mesure calculée. <br/>Par exemple : ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Nombre total de commandes]** ![Diviser](/help/assets/icons/Divide.svg) ![Événement](/help/assets/icons/Event.svg) **[!UICONTROL Sessions]**. |
    | **[!UICONTROL Définition]** ![Obligatoire](/help/assets/icons/Required.svg) | Définissez votre segment à l’aide du [créateur de définitions](#definition-builder). |

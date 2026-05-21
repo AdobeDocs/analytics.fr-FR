@@ -4,10 +4,24 @@ title: Guide de l’utilisateur en charge de l’exécution des tableaux de bord
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/3ixzbDDfd6T1YbGDD-U1mHUEmaGcAUIaVGGTF6jaCDg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 92%
+source-wordcount: 1287
+ht-degree: 91%
 
 ---
 
@@ -112,7 +126,7 @@ Pour utiliser les tableaux de bord :
 
    ![Filtre de segments](/help/admin/tools/assets/filter.png)
 
-1. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les répartitions qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la fiche mise à jour, vous pouvez tirer sur la fiche à l’écran pour l’actualiser et charger les données récemment ajoutées.
+1. Récupérer les mises à jour des Fiches d’évaluation. Si une Fiche d’évaluation ne contient pas toutes les mesures ou les répartitions qui vous intéressent, demandez une mise à jour de la fiche d’évaluation à votre équipe Analytics. Une fois la carte mise à jour, vous pouvez tirer sur la carte à l’écran pour l’actualiser et charger les données récemment ajoutées.
 
 1. Pour faire part de vos commentaires sur cette application :
 

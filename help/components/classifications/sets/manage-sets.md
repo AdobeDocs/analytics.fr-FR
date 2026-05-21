@@ -3,9 +3,19 @@ title: Gérer les ensembles de classifications
 description: Gérez les ensembles de classifications dans Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: eb12185be8d6e2e6dc15df9da17ce34b5f6b9c80
+TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: 621
 ht-degree: 5%
 
 ---
@@ -28,7 +38,7 @@ Le gestionnaire **[!UICONTROL Ensembles de classifications]** comporte les élé
 
 ### Liste des ensembles de classifications
 
-La **[!UICONTROL de liste]** Ensembles de classifications➊ affiche tous les ensembles de classifications. La liste comporte les colonnes suivantes :
+La ➊ de liste **[!UICONTROL Ensembles de classifications]** affiche tous les ensembles de classifications. La liste comporte les colonnes suivantes :
 
 | Colonne | Description |
 |---|---|
@@ -67,7 +77,7 @@ Lorsque vous sélectionnez un ou plusieurs ensembles de classifications dans la 
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Modifier]** | [Modifiez l’ensemble de classifications](create-set.md#edit-a-classification-set) dans le créateur d’ensembles de classifications. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez un ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Renommer : _ensemble de classifications_]**&#x200B;saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
 | ![Fusionner](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolider]** | [Consolidez les ensembles de classifications](/help/components/classifications/sets/consolidations/manage.md). |
-| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications.<br/>Le **[!UICONTROL Supprimer _jeu de classifications_ ?]** boîte de dialogue s’affiche. La suppression d’un ensemble de classifications ne peut pas être annulée. Tous les projets planifiés ou toutes les consolidations qui utilisent cet ensemble de classifications continuent à utiliser la définition de cet ensemble de classifications jusqu’à ce que vous réenregistriez les projets planifiés ou que vous validiez à nouveau les consolidations planifiées. Sélectionnez **[!UICONTROL Supprimer]** pour supprimer l’ensemble de classifications. |
+| ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez un ensemble de classifications.<br/>Le **[!UICONTROL Supprimer _jeu de classifications_?]** s’affiche. La suppression d’un ensemble de classifications ne peut pas être annulée. Tous les projets planifiés ou toutes les consolidations qui utilisent cet ensemble de classifications continuent à utiliser la définition de cet ensemble de classifications jusqu’à ce que vous réenregistriez les projets planifiés ou que vous validiez à nouveau les consolidations planifiées. Sélectionnez **[!UICONTROL Supprimer]** pour supprimer l’ensemble de classifications. |
 | ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Balisez l’ensemble de classifications.<br/>Dans la boîte de dialogue **[!UICONTROL Balise : _jeu de classifications_]**, sélectionnez une ou plusieurs balises dans le menu déroulant **[!UICONTROL Balises]**&#x200B;pour ajouter des balises. Vous pouvez également saisir une ou plusieurs nouvelles balises. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise. <br/>Sélectionnez **[!UICONTROL Enregistrer]**&#x200B;pour enregistrer les balises. |
 
 

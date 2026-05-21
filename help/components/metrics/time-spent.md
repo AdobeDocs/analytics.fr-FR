@@ -3,16 +3,29 @@ title: Méthode de calcul de la durée de la visite dans Adobe Analytics
 description: Une page agrégée des dimensions et mesures de durée de la visite.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
+TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 65%
+source-wordcount: 1659
+ht-degree: 60%
 
 ---
 
 # Présentation de la durée de la visite
 
-Diverses [!UICONTROL mesures] et dimensions [&#39;](overview.md) de temps passé sont proposées dans les produits Adobe Analytics. Cette page peut vous aider à distinguer la dimension ou la mesure souhaitée que vous recherchez.
+Diverses [mesures](overview.md) et dimensions [!UICONTROL &#39;] de temps passé sont proposées dans les produits Adobe Analytics. Cette page peut vous aider à distinguer la dimension ou la mesure souhaitée que vous recherchez.
 
 ## Mesures de « durée de la visite »
 
@@ -22,18 +35,18 @@ Diverses [!UICONTROL mesures] et dimensions [&#39;](overview.md) de temps passé
 | [[!UICONTROL Durée par visite] (secondes)](time-spent-per-visit.md) | Approximativement *Nombre total de secondes passées / (rebonds de visites)*<br> Représente le temps moyen que les visiteurs et visiteuses passent à interagir avec un élément de dimension spécifique au cours de chaque visite. **Remarque** : cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
 | [[!UICONTROL Temps passé par visiteur] (secondes)](time-spent-per-visitor.md) | Environ *Nombre total de secondes passées / visiteur unique*<br> représente le temps moyen que les visiteurs et visiteuses passent à interagir avec un élément de dimension spécifique au cours de la durée de vie du visiteur ou de la visiteuse (durée de leur cookie). **Remarque** : cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
 | [!UICONTROL Temps Passé/Utilisateur (État)] | Environ *Nombre total de secondes passées sur l’application mobile / visiteurs uniques sur l’application mobile*<br> représente le temps moyen que les visiteurs et visiteuses d’applications mobiles passent à interagir avec un élément de dimension spécifique tout au long de la durée de vie du visiteur (durée de son cookie). **Remarque** : cette mesure ne peut pas être calculée indépendamment, car le dénominateur de cette fonction est une mesure interne. | Analysis Workspace |
-| [[!UICONTROL Temps moyen passé sur le site] (secondes)](average-time-on-site.md) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas aux moyennes « site » comme le nom l’indique. Pour plus d’informations sur les séquences, voir le « Mode de calcul de la durée de la visite ».<br>**Remarque :** Cette mesure diffère très probablement de la « durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Report Builder (affiché en minutes) |
-| [[!UICONTROL Temps moyen passé sur le site]](average-time-on-site.md) | Il s’agit de la même mesure que *Temps moyen passé sur le site (en secondes)*, mais au format de la mesure Heure (`hh:mm:ss`). | Analysis Workspace |
-| [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> la place, Adobe vous recommande d’utiliser [[!UICONTROL Temps moyen passé sur le site]](average-time-on-site.md) si le temps moyen d’un élément de dimension est nécessaire. | Report Builder (lorsqu’une dimension figure dans la demande) |
+| [[!UICONTROL Temps moyen passé sur le site] (secondes)](average-time-on-site.md) | Représente la durée totale pendant laquelle les visiteurs interagissent avec un élément de dimension spécifique, par séquence avec un élément de dimension. Il ne se limite pas aux moyennes « site » comme le nom l’indique. Pour plus d’informations sur les séquences, consultez la section « Calcul de la durée de la visite »<br>**Remarque** : cette mesure diffère très probablement de « Durée de la visite » au niveau d’un élément de dimension en raison des différences de dénominateur dans le calcul. | Analysis Workspace, Report Builder (affiché en minutes) |
+| [[!UICONTROL Temps moyen passé sur le site]](average-time-on-site.md) | Il s’agit de la même mesure que *Temps moyen passé sur le site (en secondes)*, mais au format de la mesure Heure (`hh:mm:ss`). | Analysis Workspace |
+| [!UICONTROL Durée de consultation moyenne de la page] | Mesure obsolète.<br> Adobe vous recommande plutôt d’utiliser [[!UICONTROL Temps moyen passé sur le site]](average-time-on-site.md) si le temps moyen d’un élément de dimension est nécessaire. | Report Builder (lorsqu’une dimension figure dans la demande) |
 
 ## Dimensions de « durée de la visite »
 
 | Dimension | Définition | Disponible dans |
 | --- | --- | --- |
-| [[!UICONTROL Temps passé par visite - Valeur granulaire]](../dimensions/time-spent-per-visit.md) | Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. | Analysis Workspace |
-| [[!UICONTROL Durée par visite – Regroupement]](../dimensions/time-spent-per-visit.md) | Dimension granulaire regroupée en 9 plages différentes. Il s’agit d’une dimension du niveau de la visite. Les plages incluent :<ul><li>Moins de 1 minute</li><li>1-5 minutes</li><li>5-10 minutes</li><li>10-30 minutes</li><li>30-60 minutes</li><li>1-2 heures</li><li>2-5 heures</li><li>5-10 heures</li><li>10-15 heures</li></ul>**Remarque** : Il n’existe pas de regroupement plus élevé, car une visite expire après 12 heures d’activité. | Analysis Workspace, Report Builder |
-| [[!UICONTROL Durée de consultation de la page - Granulaire]](../dimensions/time-spent-on-page.md) | Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Malgré son nom, elle ne se limite pas à la dimension « page ». | Analysis Workspace |
-| [[!UICONTROL Durée de consultation de la page – Regroupement]](../dimensions/time-spent-on-page.md) | La dimension granulaire a été regroupée en 10 plages. Cependant, la dimension regroupée ne décompte que les pages vues (et exclut les événements de lien). Il s’agit d’une dimension du niveau de l’accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace |
+| [[!UICONTROL Temps passé par visite - Valeur granulaire]](../dimensions/time-spent-per-visit.md) | Durée totale passée lors la visite arrondie à la seconde la plus proche et appliquée à chaque accès qui faisait partie de la visite. Il s’agit d’une dimension du niveau de la visite. | Analysis Workspace |
+| [[!UICONTROL Durée par visite – Regroupement]](../dimensions/time-spent-per-visit.md) | Dimension granulaire regroupée en 9 plages différentes. Il s’agit d’une dimension du niveau de la visite. Les plages incluent :<ul><li>Moins d’1 minute</li><li>1-5 minutes</li><li>5-10 minutes</li><li>10-30 minutes</li><li>30-60 minutes</li><li>1-2 heures</li><li>2-5 heures</li><li>5-10 heures</li><li>10-15 heures</li></ul>**Remarque** : Il n’existe pas de regroupement plus élevé, car une visite expire après 12 heures d’activité. | Analysis Workspace, Report Builder |
+| [[!UICONTROL Durée de consultation de la page - Granulaire]](../dimensions/time-spent-on-page.md) | Durée totale passée sur chaque accès, arrondie à la seconde la plus proche. Il s’agit d’une dimension du niveau de l’accès. Elle comprend à la fois des pages vues et des événements de lien. Malgré son nom, elle ne se limite pas à la dimension « page ». | Analysis Workspace |
+| [[!UICONTROL Durée de consultation de la page – Regroupement]](../dimensions/time-spent-on-page.md) | La dimension granulaire a été regroupée en 10 plages. Cependant, la dimension regroupée ne décompte que les pages vues (et exclut les événements de lien). Il s’agit d’une dimension du niveau de l’accès. Les plages incluent :<ul><li>moins de 15 secondes</li><li>15 à 29 secondes</li><li>30 à 59 secondes</li><li>1 à 3 minutes</li><li>3 à 5 minutes</li><li>5 à 10 minutes</li><li>10 à 15 minutes</li><li>15 à 20 minutes</li><li>20 à 30 minutes</li><li>plus de 30 minutes</li></ul> | Analysis Workspace |
 
 ## Mode de calcul de la « durée de la visite »
 
@@ -67,7 +80,7 @@ Les mesures « Temps passé » qui peuvent être appliquées à n’importe quel
 
 +++
 
-+++Quelle dimension de durée de la visite est la plus appropriée pour une utilisation dans les ventilations avec d’autres dimensions ?
++++Quelle dimension « Temps passé » est la mieux utilisée dans les répartitions avec d’autres dimensions ?
 
 La dimension [[!UICONTROL Temps passé sur la page - granulaire]](../dimensions/time-spent-on-page.md) est une dimension de niveau accès. La répartition de cette dimension en une autre dimension indique le nombre de secondes de la durée d’un accès lorsque la dimension de répartition était également présente.
 Dans l’exemple ci-dessous, le terme de recherche « classifieds » est associé à des temps d’accès de 54 secondes, 59 secondes, etc., ce qui indique peut-être que les visiteurs passent du temps à lire le contenu renvoyé pour ce terme.
@@ -84,9 +97,9 @@ Rapport Workspace ![présentant une mesure personnalisée utilisée avec une dim
 
 +++
 
-+++En quoi la [!UICONTROL Durée moyenne de la visite du site] diffère-t-elle de la [!UICONTROL Durée de la visite] ?
++++En quoi [!UICONTROL Temps moyen passé sur le site] diffère-t-il de [!UICONTROL Temps passé par visite] ?
 
-La différence est le dénominateur de la mesure :
+La différence est le dénominateur de la mesure :
 
 * La [[!UICONTROL Durée moyenne de la visite du site]](average-time-on-site.md) utilise les séquences qui incluent un élément de dimension.
 
@@ -146,8 +159,8 @@ Sur la base du tableau ci-dessus, les mesures de durée de la visite sont calcul
 | Bleu | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |
 | Durée non attribuée | 100 | - | - | - | - |
 
-Durée de la visite (granulaire) : 290
-Durée par page (granulaire) : 10, 30, 40, 50, 60, 100
+Durée par visite (granulaire) : 290
+Temps passé sur la page (granulaire) : 10, 30, 40, 50, 60, 100
 
 Quelques remarques supplémentaires à l’appui de l’exemple :
 

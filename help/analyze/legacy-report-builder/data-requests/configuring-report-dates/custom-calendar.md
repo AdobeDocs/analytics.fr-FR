@@ -4,10 +4,19 @@ title: Calendrier personnalisé
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/At3YiOPV0jx5WXwe-VvA05n3yIEmiAJIRzoOoeISeA4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 95%
+source-wordcount: 409
+ht-degree: 83%
 
 ---
 
@@ -15,7 +24,7 @@ ht-degree: 95%
 
 {{legacy-arb}}
 
-Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. Vous pouvez utiliser le calendrier pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la réglementation de l’inventaire matériel.
+Le Créateur de rapports utilise le calendrier personnalisé d’Analytics. Vous pouvez utiliser le calendrier pour définir le premier jour de la semaine et de l’année, ou un style de calendrier de vente au détail différent. Chaque format a son utilité, notamment pour la comparaison des ventes et la normalisation des prévisions, l’analyse des coûts salariaux ou encore la règlementation de l’inventaire matériel.
 
 Vous trouverez, ci-dessous, la description de chacun des formats calendaires.
 
@@ -41,11 +50,11 @@ Vous trouverez, ci-dessous, la description de chacun des formats calendaires.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendrier personnalisé </p> </td> 
-   <td colname="col2"> <p> Offre trois formats selon le nombre de semaines de chaque mois. Le nombre de semaines dans le mois dépend du premier jour de l’année choisi. </p> <p>Une année comporte 52 semaines. Divisez ce chiffre en 4 trimestres et vous obtenez 13 semaines par trimestre. Toutefois, un trimestre comprend 3 mois. 13 n’est pas divisible par trois. De ce fait, vous placez la semaine supplémentaire dans l’un des mois pour garantir la cohérence. 5-4-4 signifie que la semaine supplémentaire a été ajoutée au premier mois. 4-5-4 signifie que la semaine supplémentaire a été ajoutée au deuxième mois, etc. Dans le calendrier 5-4-4, la 53e semaine est ajoutée au dernier trimestre de l’année. </p> 
+   <td colname="col2"> <p> Offre trois formats selon le nombre de semaines de chaque mois. Le nombre de semaines dans le mois dépend du premier jour de l’année choisi. </p> <p>Une année comporte 52 semaines. Divisez ce chiffre en 4 trimestres et vous obtenez 13 semaines par trimestre. Toutefois, un trimestre comprend 3 mois. 13 n’est pas divisible par trois. De ce fait, vous placez la semaine supplémentaire dans l’un des mois pour garantir la cohérence. 5-4-4 signifie que la semaine supplémentaire a été ajoutée au premier mois. 4/5/4 signifie que le deuxième mois a la semaine supplémentaire, etc. Dans le calendrier 5-4-4, la 53e semaine est ajoutée au dernier trimestre de l’année. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b> : janvier comporte quatre semaines, février cinq, mars quatre, etc. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b> : janvier comporte quatre semaines, février quatre, mars cinq, etc. </li> 
-     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b> : janvier comprend cinq semaines, février comprend cinq semaines, mars en comprend quatre, et ainsi de suite. </li> 
+     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b> : janvier a cinq semaines, février a cinq semaines, mars a quatre semaines, etc. </li> 
     </ul> <p>Remarque : cette option de calendrier est prise en charge dans tous les outils Adobe Analytics : Analysis Workspace, Report Builder et Activity Map. L’exception est Data Warehouse, qui ne prend pas en charge les calendriers personnalisés. </p> </td> 
   </tr> 
  </tbody> 

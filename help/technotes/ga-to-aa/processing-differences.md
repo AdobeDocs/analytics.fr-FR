@@ -3,9 +3,20 @@ title: Différences de traitement et d’architecture entre les plateformes Anal
 description: Découvrez les différentes façons dont certaines données sont collectées et affichées dans différentes plateformes, telles qu’Adobe Analytics et Google Analytics.
 feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/pL36oKany2sKuJrEn4-oIja3O91PZ47YQGoNvhdt6y8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: 503
 ht-degree: 96%
 
 ---
@@ -16,7 +27,7 @@ Bien qu’Adobe Analytics et Google Analytics soient deux outils d’analyse, la
 
 ## [!UICONTROL Taux de rebond]
 
-Le [!UICONTROL taux de rebond] est un IPC courant qui permet de mesurer l’efficacité et la pertinence des pages de destination dans la plupart des outils d’analyse. Il est généralement défini comme étant le nombre de visiteurs qui accèdent au site web et le quittent sans cliquer sur une autre page.
+Le [!UICONTROL taux de rebond] est un KPI courant qui permet de mesurer l’efficacité et la pertinence des pages de destination dans la plupart des outils d’analyse. Il est généralement défini comme étant le nombre de visiteurs qui accèdent au site web et le quittent sans cliquer sur une autre page.
 
 * Dans Adobe Analytics, le [!UICONTROL taux de rebond] est calculé à lʼaide de la formule : **rebonds divisés par les entrées**.
 * Dans Google Analytics, le [!UICONTROL taux de rebond] est calculé à lʼaide de la formule : **nombre de sessions avec consultation dʼune seule page divisé par lʼensemble des sessions**.

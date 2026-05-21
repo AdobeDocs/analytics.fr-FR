@@ -3,10 +3,22 @@ title: Occurrences
 description: Nombre d’accès pour lesquels une variable a été définie ou conservée.
 feature: Metrics
 exl-id: 8428e813-0fb4-4620-884e-1aa92fe33209
-source-git-commit: 0c5062363e10d9b545a3209ebaefcc6fa5d02c8b
+TQID: https://experienceleague.adobe.com/04bDCj1dkVb9gIDMbpvvGea92oOzd-N0XLfzf4t-6iA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 57%
+source-wordcount: 280
+ht-degree: 66%
 
 ---
 
@@ -25,6 +37,6 @@ Sur tous les accès d’une suite de rapports, incluez les accès pour lesquels 
 
 ## Persistance
 
-La persistance est la possibilité pour une valeur de dimension donnée d’établir une relation avec une mesure au-delà de l’événement sur lequel elle est définie. Elle combine l’attribution et l’expiration. L’attribution vous permet de déterminer la valeur conservée lorsque plusieurs éléments de dimension peuvent persister à la fois dans une seule colonne. L’expiration vous permet de déterminer la durée pendant laquelle un élément de dimension persiste au-delà de l’événement sur lequel il est défini.
+La persistance est la possibilité pour une valeur de dimension donnée d’établir une relation avec une mesure au-delà de l’événement sur lequel elle est définie. Elle recourt à une combinaison d’attribution et d’expiration. L’attribution vous permet de déterminer la valeur conservée lorsque plusieurs éléments de dimension peuvent persister à la fois dans une seule colonne. L’expiration vous permet de déterminer la durée pendant laquelle un élément de dimension persiste au-delà de l’événement sur lequel il est défini.
 
 La persistance est disponible uniquement sur les dimensions et est rétroactive aux données auxquelles elle est appliquée. Il s’agit d’une transformation de données immédiate qui se produit avant l’application du filtrage ou d’autres opérations d’analyse. Si la persistance n’est pas activée, la dimension se rapporte uniquement aux mesures qui existent dans le même événement.

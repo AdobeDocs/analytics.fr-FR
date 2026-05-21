@@ -5,16 +5,31 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+TQID: https://experienceleague.adobe.com/kVm6VfN3c-u3V2GHMz59QuB2uGi4DEozs1i-h4pJZOg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 95%
+source-wordcount: 320
+ht-degree: 82%
 
 ---
 
 # Vue d’ensemble des annotations
 
-Les annotations vous permettent de communiquer efficacement les nuances et les informations des données contextuelles aux autres parties prenantes de votre entreprise. Elles vous permettent de lier des événements de calendrier à des dimensions et à des mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, votre utilisation de l’application mobile, votre chiffre d’affaires ou toute autre mesure.
+Les annotations vous permettent de communiquer efficacement les nuances et les informations des données contextuelles aux autres parties prenantes de votre entreprise. Elles vous permettent de lier des événements de calendrier à des dimensions et à des mesures spécifiques. Vous pouvez annoter une date ou une période avec des problèmes de données connus, des jours fériés, des lancements de campagne, etc. Vous pouvez ensuite afficher les événements sous forme graphique et voir si les campagnes ou d’autres événements ont affecté le trafic sur votre site, l’utilisation des applications mobiles, le chiffre d’affaires ou toute autre mesure.
 
 Supposons, par exemple, que vous partagiez des projets avec votre organisation. Si le nombre de vos visiteurs et visiteuses uniques a considérablement baissé, vous pouvez créer une annotation **Visiteurs et visiteuses en baisse** et l’étendre à l’ensemble de votre suite de rapports. Lorsque vos utilisateurs et utilisatrices visualisent une suite de rapports incluant cette date, ils voient l’annotation dans leurs projets, à côté de leurs données.
 

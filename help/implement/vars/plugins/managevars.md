@@ -4,9 +4,20 @@ description: Permet de modifier les valeurs de plusieurs variables Analytics à 
 feature: Appmeasurement Implementation
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/Nn-JbnMXOQLi8DFh46lCLRjgTtn6RQE6mq2riP5Tqe8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: 712
 ht-degree: 83%
 
 ---
@@ -95,7 +106,7 @@ Le code suivant…
 manageVars("lowerCaseVars");
 ```
 
-…modifie les valeurs de toutes les variables décrites ci-dessus en versions minuscules.  La seule exception à cette règle est la variable événements , car certains des événements (par exemple scAdd, scCheckout, etc.) sont sensibles à la casse et ne doivent pas être mis en minuscules
+…modifie les valeurs de toutes les variables décrites ci-dessus en versions minuscules.  La seule exception à cette règle est la variable événements , comme certains des événements (par exemple scAdd, scCheckout, etc.) sont sensibles à la casse et ne doivent pas être mises en minuscules ;
 
 ### Exemple 2
 
@@ -141,7 +152,7 @@ manageVars("cleanStr");
 * Supprime les espaces trouvés au début et à la fin de la valeur.
 * Remplace les guillemets simples gauche/droite par un guillemet simple droit (`'`)
 * Remplace les caractères de tabulation, les renvois à la ligne et les retours chariot par des espaces.
-* Remplace tous les espaces doubles (ou triples) par des espaces simples
+* Remplace tous les doubles (ou triples, etc.) espaces à un seul espace
 
 ## Historique des versions
 

@@ -3,10 +3,20 @@ title: Vitesse du contenu
 description: La vitesse du contenu mesure l’impact du contenu sur le contenu en aval.
 feature: Metrics
 exl-id: 8ba54990-ff7d-4693-92de-7f9d9f916b55
-source-git-commit: 26e166e065df90cb327fe1106542e17831069141
+TQID: https://experienceleague.adobe.com/KEcYF9OWDaxwZX798AETiAIxcffBAwj29Go-oHLOnaU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 19%
+source-wordcount: 299
+ht-degree: 12%
 
 ---
 
@@ -14,7 +24,7 @@ ht-degree: 19%
 
 La mesure calculée « Vitesse du contenu » vous permet de mesurer la manière dont une dimension (généralement [[!UICONTROL Page]](/help/components/dimensions/page.md)) contribue à ce que les utilisateurs passent du temps sur votre site web ou votre application.
 
-Cette mesure utilise l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation aux visites, chaque fois qu’une page est consultée, toutes les pages précédemment consultées au cours de la même visite sont également créditées pour la page vue. Cette formule signifie généralement que plus une page est consultée tôt au cours d’une visite, plus elle reçoit de crédit. (Voir [&#x200B; Pages vues (Participation) | Visite) ou « Participation aux visites »](#page-views-participation--visit-or-visit-participation) pour plus d&#39;informations.)
+Cette mesure utilise l’[attribution de participation](/help/analyze/analysis-workspace/attribution/models.md) sur la mesure [Pages vues](page-views.md) dans le cadre de son calcul. Avec la participation aux visites, chaque fois qu’une page est consultée, toutes les pages précédemment consultées au cours de la même visite sont également créditées pour la page vue. Cette formule signifie généralement que plus une page est consultée tôt au cours d’une visite, plus elle reçoit de crédit. (Voir [&#x200B; Pages vues (participation | visite) ou « Participation aux visites »](#page-views-participation--visit-or-visit-participation) pour plus d’informations.)
 
 ## Calcul
 
@@ -30,9 +40,9 @@ La [!UICONTROL vitesse du contenu] est généralement utilisée dans l’analyse
 
 ## Exemple
 
-L’exemple suivant répartit les 2 parties de la vitesse du contenu : « Pages vues (participation) | « Visite » et « Visites ».
+L’exemple suivant répartit les 2 parties de Vitesse du contenu : « Pages vues (Participation | Visite) » et « Visites ».
 
-### Pages vues (participation) | Visite) ou « Participation aux visites »
+### Pages vues (Participation | Visite) ou « Participation aux visites »
 
 Prenons l’exemple suivant de la manière dont la participation aux visites affecte l’attribution :
 
@@ -50,9 +60,9 @@ L’exemple suivant illustre le même principe, mais certaines pages étant visi
 * Page A
 * Page B
 * Page C
-* Page B
+* Page B
 * Page D
-* Page A
+* Page A
 
 Dans l’exemple ci-dessus, la page A est créditée pour 7 accès, la page B pour 8 accès, la page C pour 4 accès et la page D pour 2 accès.
 

@@ -1,13 +1,24 @@
 ---
-description: Permet de contrôler l’accès aux données de création de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
+description: Permet de contrôler l’accès aux données de rapports. Les options incluent les mots de passe difficiles à deviner, l’expiration du mot de passe, ainsi que les restrictions d’adresses IP et de domaines de courriel.
 title: Gestionnaire de sécurité
 feature: Company Settings
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/30JGwAhRR73qSBse0Om2mWY4k-oy7j0O-JzmFZ-kaEY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 94%
+source-wordcount: 368
+ht-degree: 76%
 
 ---
 
@@ -21,7 +32,7 @@ Le Gestionnaire de sécurité vous permet de contrôler l’accès aux données 
 
 | Paramètre | Description |
 | --- | --- |
-| Requiert des mots de passe difficiles à deviner | Force l’utilisateur à créer des mots de passe plus sécurisés qui satisfont aux règles suivantes : <ul><li>Comporter au moins huit caractères.</li><li>Comporter au moins un symbole/caractère numérique entre le premier et le dernier caractères.</li><li>Comporter au moins un caractère alphabétique.</li><li>Ne pas figurer dans un dictionnaire ou ne contenir aucun mot du dictionnaire (anglais).</li><li>Ne pas inclure trois (3) caractères consécutifs figurant dans le nom de connexion de l’utilisateur.</li><li>Être différent des 10 mots de passe précédents.</li></ul>**Remarque** : cette fonctionnalité est appliquée sur les nouveaux mots de passe. Elle ne vérifie pas les mots de passe existants, ni ne force les utilisateurs à les modifier. Pour cette raison, envisagez d’activer l’expiration de mot de passe pour forcer les utilisateurs à modifier leurs mots de passe et à respecter les règles de mot de passe strictes. |
-| Expiration du mot de passe | Force les utilisateurs à changer régulièrement le mot de passe de leur compte utilisateur. Vous pouvez indiquer l’intervalle d’expiration des mots de passe et les forcer à expirer immédiatement. |
+| Requiert des mots de passe difficiles à deviner | Force l&#39;utilisateur à créer des mots de passe sécurisé qui satisfont aux règles suivantes : <ul><li>Doit contenir au moins huit caractères.</li><li>Comporter au moins un symbole/caractère numérique entre le premier et le dernier caractères.</li><li>Comporter au moins un caractère alphabétique.</li><li>Introuvable dans un dictionnaire ou contenant des mots d&#39;un dictionnaire (anglais).</li><li>Ne peut pas inclure trois (3) caractères consécutifs du nom d&#39;utilisateur de connexion.</li><li>Doit être différent des 10 mots de passe précédents.</li></ul>**Remarque** : cette fonctionnalité est appliquée sur les nouveaux mots de passe. Elle ne vérifie pas les mots de passe existants, ni ne force les utilisateurs à les modifier. Pour cette raison, envisagez d’activer l’expiration de mot de passe pour forcer les utilisateurs à modifier leurs mots de passe et à respecter les règles de mot de passe strictes. |
+| Expiration du mot de passe | Force les utilisateurs à changer régulièrement le mot de passe de leur compte d’utilisateur. Vous pouvez spécifier l’intervalle auquel vous souhaitez que les mots de passe expirent et forcer les mots de passe à expirer immédiatement. |
 | Mettre en place les restrictions de domaine de courriel | Filtre les adresses et domaines de courriel auxquels Analytics envoie des signets, des rapports téléchargeables et des alertes. La liste Filtre de courriel prend en charge jusqu’à 100 entrées ; chacune d’elles pouvant être une adresse ou un domaine de courriel complet. Si un rapport planifié contient une destination de courriel non approuvée, Analytics envoie une notification par courriel du problème, ainsi qu’un lien pour annuler la planification du rapport. L’option **[!UICONTROL Mettre en place les restrictions de domaine de courriel]** n’est pas appliquée tant que la liste Filtre de domaine de courriel accepté ne comporte pas au moins une entrée. **[!UICONTROL Adresses et domaines e-mail acceptés]** : pour indiquer une plage d’adresses IP, placez celle-ci entre crochets (par exemple, `192.168.10.[20-240]`). Vous pouvez également utiliser des caractères génériques pour indiquer tout nombre compris entre 0 et 255 (par exemple, `192.168.[10-14].*`). |
 | Notification de récupération de mot de passe | Avertit les membres de l’administration spécifiés lors d’une tentative de réinitialisation d’un mot de passe de compte d’utilisateur. **[!UICONTROL Admins disponibles]** : affiche tous les administrateurs. Vous pouvez utiliser les combinaisons Ctrl + clic et Maj + clic pour sélectionner plusieurs administrateurs. **[!UICONTROL Membres de la messagerie]** : affiche le groupe de messagerie défini actuellement. |

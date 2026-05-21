@@ -1,17 +1,33 @@
 ---
 description: Découvrez comment utiliser le Gestionnaire des activités de rapport pour diagnostiquer et corriger les problèmes de capacité pendant les heures de pointe de la création de rapports.
-title: Annuler les demandes de création de rapport dans le gestionnaire des activités de rapports
+title: Annuler les demandes de rapport dans le gestionnaire des activités de rapport
 feature: Admin Tools
 exl-id: 37a2fa8f-7804-4220-a508-ec66996b3801
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/zMNTnhG6SP-SAIWBOAWm-etPHvBOykscB90n4UIgdrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1438'
+source-wordcount: 1438
 ht-degree: 100%
 
 ---
 
-# Annuler les demandes de création de rapport dans le gestionnaire des activités de rapports
+# Annuler les demandes de rapport dans le gestionnaire des activités de rapport
 
 Le [!UICONTROL gestionnaire des activités de rapport] permet aux administrateurs et administratrices de diagnostiquer et d’annuler rapidement les demandes de création de rapports afin de résoudre les problèmes de capacité de création de rapports pendant les heures de pointe de la création de rapports.
 
@@ -29,15 +45,15 @@ Tenez compte des points suivants lors de l’annulation de demandes de création
 
 Pour plus d’informations sur le gestionnaire des activités de rapport, y compris les principaux avantages et les exigences d’autorisation, consultez [Vue d’ensemble du gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md).
 
-## Annuler des demandes spécifiques de création de rapports
+## Annuler des demandes spécifiques
 
 Vous pouvez annuler des demandes individuelles qui consomment une grande quantité de capacité de création de rapports.
 
-1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de rapports]**.
+1. Dans Adobe Analytics, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Gestionnaire des activités de rapport]**.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles dans cette page, voir [Afficher l’activité de rapport dans le Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, consultez [Afficher l’activité de rapport dans le gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Sélectionnez l’onglet [!UICONTROL **Demandes**], puis sélectionnez une ou plusieurs demandes.
 
@@ -51,7 +67,7 @@ Vous pouvez annuler des demandes individuelles qui consomment une grande quantit
 
 1. (Facultatif) Pour restreindre les demandes futures pour une période donnée, procédez comme suit :
 
-   1. Activez l’option pour [!UICONTROL **Restreindre les demandes ultérieures**].
+   1. Activer l’option pour [!UICONTROL **Restreindre les demandes suivantes**]
 
       ![Restreindre les demandes ultérieures](assets/restrict-subsequent-requests.png)
 
@@ -70,7 +86,7 @@ Vous pouvez annuler des demandes individuelles qui consomment une grande quantit
 
    Une notification s’affiche dans Analysis Workspace pour informer les utilisateurs et utilisatrices que la demande a été annulée. Pour plus d’informations sur la façon dont cela s’affiche dans Analysis Workspace, consultez [Expérience d’accès des utilisateurs et utilisatrices à un rapport annulé](#experience-when-users-access-a-cancelled-report).
 
-## Annuler les demandes par utilisateur ou utilisatrice
+## Annuler les demandes par personne
 
 Vous pouvez annuler toutes les demandes associées à une ou plusieurs personnes.
 
@@ -78,7 +94,7 @@ Vous pouvez annuler toutes les demandes associées à une ou plusieurs personnes
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles dans cette page, voir [Afficher l’activité de rapport dans le Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, consultez [Afficher l’activité de rapport dans le gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Sélectionnez l’onglet [!UICONTROL **Utilisateurs et utilisatrices**], puis sélectionnez une ou plusieurs personnes.
 
@@ -119,7 +135,7 @@ Vous pouvez annuler toutes les demandes associées à un ou plusieurs projets.
 
 1. Sélectionnez la suite de rapports dans laquelle vous souhaitez annuler les demandes de création de rapports. <!--double-check this step-->
 
-   Pour plus d’informations sur les données disponibles dans cette page, voir [Afficher l’activité de rapport dans le Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
+   Pour plus d’informations sur les données disponibles sur cette page, consultez [Afficher l’activité de rapport dans le gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md).
 
 1. Sélectionnez l’onglet [!UICONTROL **Projets**], puis sélectionnez un ou plusieurs projets.
 
@@ -141,7 +157,7 @@ Vous pouvez annuler toutes les demandes associées à un ou plusieurs projets.
 
       | Option | Fonction |
       |---------|----------|
-      | [!UICONTROL **Utilisateur ou utilisatrice et projet**] | Les projets sélectionnés seront temporairement exclus de toute demande de création de rapports de la part des utilisateurs et utilisatrices associés. |
+      | [!UICONTROL **Utilisateur ou utilisatrice et projet**] | Les projets sélectionnés seront temporairement exclus de toute demande de rapport de la part des utilisateurs et utilisatrices associés. |
       | [!UICONTROL **Utilisateur ou utilisatrice**] | Les utilisateurs et utilisatrices associés aux projets sélectionnés ne pourront temporairement pas effectuer des demandes de rapports. |
       | [!UICONTROL **Projet**] | Les projets sélectionnés seront temporairement exclus de toute demande de rapport émanant d’un utilisateur ou d’une utilisatrice. |
       | [!UICONTROL **Réservé à**] | Choisissez la durée pendant laquelle les demandes seront restreintes. Vous pouvez choisir 1 minute (par défaut), 5 minutes, 10 minutes, 15 minutes ou 30 minutes. <!--double-check this--> <p>Vous ne pouvez pas supprimer une restriction plus tôt une fois qu’elle a été définie.</p> |
@@ -179,7 +195,7 @@ Pour annuler des demandes par application, procédez comme suit :
 
    <!-- add screenshot -->
 
-1. Sélectionne [!UICONTROL **Annuler les demandes**].
+1. Sélectionnez [!UICONTROL **Annuler les demandes**].
 
    La boîte de dialogue [!UICONTROL **Annuler _x_ demandes de rapport de x projets**] s’affiche.
 
@@ -187,7 +203,7 @@ Pour annuler des demandes par application, procédez comme suit :
 
 1. (Facultatif) Pour restreindre les demandes futures pour une période donnée, procédez comme suit :
 
-   1. Activez l’option pour [!UICONTROL **Restreindre les demandes ultérieures**].
+   1. Activer l’option pour [!UICONTROL **Restreindre les demandes suivantes**]
 
       ![Restreindre les demandes ultérieures par application](assets/restrict-subsequent-requests-application.png)
 

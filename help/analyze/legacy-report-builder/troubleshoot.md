@@ -5,10 +5,23 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 82%
+source-wordcount: 1427
+ht-degree: 65%
 
 ---
 
@@ -26,8 +39,8 @@ Ceci crée toutefois un problème de compatibilité : une fois qu’un classeur
 
 L’effet secondaire suivant se produit lors de l’ouverture d’un classeur ARB 5.1 avec la demande de classification :
 
-* Lors de l’ouverture du classeur, l’avertissement suivant s’affiche : « Ce classeur a été enregistré pour la dernière fois avec le Report Builder version 5.1. Cette version comprend des fonctions incompatibles avec la version du Report Builder installée sur cet ordinateur. Nous vous recommandons de mettre à niveau votre version du Report Builder avant de mettre à jour ce classeur. »
-* Si vous cliquez avec le bouton droit de la souris sur une demande ARB avec classification, les menus contextuels du Report Builder (Modifier les requêtes, Ajouter une requête dépendante, etc.) ne seront pas visibles.
+* Lors de l’ouverture du classeur, l’avertissement suivant s’affiche : « Ce classeur a été enregistré pour la dernière fois à l’aide de Report Builder v5.1. Cette version a introduit certaines fonctionnalités qui sont incompatibles avec la version Report Builder installée sur cet ordinateur. Nous vous recommandons de mettre à niveau votre version du Report Builder avant de mettre à jour ce classeur. »
+* Si vous cliquez avec le bouton droit de la souris sur une requête ARB avec classification, les menus contextuels de Report Builder (modifier la requête, ajouter une requête dépendante, etc.) ne s’affichera pas.
 * Si vous actualisez tout, en cliquant sur le troisième bouton ou en actualisant un ensemble de requêtes issues du formulaire du Gestionnaire de requêtes, la demande de classification s’exécutera sans erreur. Toutefois, les valeurs de classification ne seront pas inscrites.
 * Vous pouvez modifier la requête en ouvrant le Gestionnaire de requêtes, puis passer d’une ligne à l’autre jusqu’à la requête recherchée.
 * Si vous modifiez la requête sans changer aucun des paramètres, puis cliquez sur Terminer, la réponse sera correctement inscrite. En fait, la modification de la requête résout le problème puisque les paramètres de mise en page des réponses sont resérialisés. Il s’agit donc d’une solution, même si elle prend du temps.
@@ -64,7 +77,7 @@ Les facteurs suivants peuvent rendre les requêtes plus complexes, ce qui peut r
 
   | Heures de planification | 01:00 - 02:00 | 02:00 - 07:00 | 07:00 - 18:00 | 18:00 - minuit |
   |--- |--- |--- |--- |--- |
-  | Utilisation du Report Builder | Peu occupé | Très occupé | Utilisation du côté client<br>Nombre plus élevé d’utilisateurs effectuant une actualisation locale et demandant un envoi immédiat.<br>De plus, vérifiez si la file d’attente de l’API est effacée lorsque les classeurs planifiés expirent. | Pas occupé |
+  | Utilisation du Report Builder | Peu occupé | Très occupé | Utilisation du côté client<br>Augmentation du nombre d’utilisateurs et utilisatrices qui s’actualisent localement et qui demandent « Envoyer immédiatement »<br> Vérifiez également que la file d’attente d’API est effacée lorsque les classeurs planifiés expirent. | Pas occupé |
 
 * **Délais d’expiration** : tous les rapports planifiés expirent au bout de quatre heures. Le système tente d’effectuer la planification trois autres fois, ce qui peut entraîner un échec. (En règle générale, plus le jeu de données est volumineux, plus son exécution est longue.) Ceux-ci sont visibles dans les rapports [!DNL Analytics] et Report Builder :
 
@@ -76,12 +89,12 @@ Cette section comprend un exemple de liste des messages d’erreur qui peuvent s
 >
 >Voici un exemple de messages d’erreur, et non une liste exhaustive. Pour plus d’informations sur la résolution des erreurs, contactez votre administrateur.
 
-* **Cette fonctionnalité peut uniquement être appliquée à un classeur ouvert.** : Ce message s&#39;affiche si aucun classeur (feuilles de calcul) n&#39;est ouvert dans Excel et que vous cliquez sur l&#39;une des icônes de la barre d&#39;outils Report Builder. En outre, la barre d’outils devient inactive jusqu’à ce que vous ouvriez une feuille de calcul. Vous pouvez toutefois cliquer sur l’icône de l’aide en ligne lorsque la barre d’outils est encore active sans engendrer cette erreur.
-* **Vous devez quitter l’[!UICONTROL Assistant Requête] avant d’activer le [!UICONTROL Gestionnaire de requêtes].**: Le [!UICONTROL Gestionnaire de requêtes] et l’[!UICONTROL Assistant Requête] constituent une fonctionnalité liée. Il n’est toutefois pas possible de commencer à utiliser le [!UICONTROL Gestionnaire de requêtes] avant d’avoir terminé ou annulé les tâches entreprises dans l’[!UICONTROL Assistant Requête].
-* **Aucune requête n’est associée à cette plage.**: Ce message d’erreur s’affiche si vous cliquez sur le bouton [!UICONTROL De la feuille] du [!UICONTROL Gestionnaire de requêtes] alors qu’une cellule de la feuille de calcul ne contient aucune requête. Afin d’identifier les cellules de la feuille de calcul qui contiennent des requêtes, cliquez sur les requêtes individuelles répertoriées dans le tableau du [!UICONTROL Gestionnaire de requêtes]. Si la requête sélectionnée dans le tableau est associée aux cellules, celles-ci sont surlignées.
-* **La plage sélectionnée n’est pas valide. Sélectionnez une autre plage.**: Cette erreur s’affiche si vous sélectionnez, dans une feuille de calcul, une cellule à laquelle est déjà associée une requête. Supprimez la requête associée aux cellules ou sélectionnez une autre plage de cellules à mettre en correspondance. Si vous souhaitez supprimer les cellules, il est important de localiser celles qui contiennent des requêtes et de supprimer les requêtes avant de supprimer les cellules (suppression des lignes ou colonnes).
-* **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.**: Cette erreur s’affiche si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes du Report Builder. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
-* **La plage sélectionnée chevauche une autre plage de la requête. Veuillez modifier votre sélection.**: Cette erreur s’affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
+* **Cette fonction ne peut être appliquée que sur un classeur ouvert.** : si aucun classeur (feuilles de calcul) n’est ouvert dans Excel et que vous cliquez sur l’une des icônes de la barre d’outils Report Builder, ce message s’affiche. En outre, la barre d’outils devient inactive jusqu’à ce que vous ouvriez une feuille de calcul. Vous pouvez toutefois cliquer sur l’icône de l’aide en ligne lorsque la barre d’outils est encore active sans engendrer cette erreur.
+* **Vous devez d’abord quitter l’[!UICONTROL Assistant Requête]avant d’activer le [!UICONTROL Gestionnaire de requêtes].** : bien que le [!UICONTROL Gestionnaire de requêtes] et l’[!UICONTROL Assistant Requête] soient fonctionnellement liés, il n’est pas possible de commencer à travailler avec le [!UICONTROL Gestionnaire de requêtes] avant d’avoir terminé ou annulé les actions entreprises dans le  Assistant de requêtes.
+* **Aucune requête n’est associée à cette plage.** : ce message d’erreur s’affiche si vous cliquez sur le bouton [!UICONTROL À partir de la feuille] du [!UICONTROL Gestionnaire de requêtes] alors qu’une cellule de la feuille de calcul ne contient aucune requête. Afin d’identifier les cellules de la feuille de calcul qui contiennent des requêtes, cliquez sur les requêtes individuelles répertoriées dans le tableau du [!UICONTROL Gestionnaire de requêtes]. Si la requête sélectionnée dans le tableau est associée aux cellules, celles-ci sont surlignées.
+* **La plage sélectionnée n’est pas valide. Veuillez sélectionner une autre plage.** : Cette erreur s&#39;affiche si vous sélectionnez une cellule de la feuille de calcul à laquelle est déjà associée une demande. Supprimez la requête associée aux cellules ou sélectionnez une autre plage de cellules à mettre en correspondance. Si vous souhaitez supprimer les cellules, il est important de localiser celles qui contiennent des requêtes et de supprimer les requêtes avant de supprimer les cellules (suppression des lignes ou colonnes).
+* **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.** : Si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes Report Builder, ce message d’erreur s’affiche. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
+* **La plage sélectionnée chevauche une autre plage de la requête. Modifiez votre sélection.** : Cette erreur s&#39;affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
 * **Réparations du classeur (enregistrements supprimés : formule à partir de /xl/calcChain.xml)** : il arrive que les formules d’un classeur soient endommagées lors de l’enregistrement ou du transfert. Lors de l’ouverture du fichier, Excel tente d’exécuter ces formules et échoue. Vous pouvez résoudre ce problème en supprimant `calcChain.xml` de la feuille de calcul, ce qui force Excel à actualiser ses calculs de formule.
    1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
    2. Décompressez le contenu et ouvrez le dossier `/xl/`.

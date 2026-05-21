@@ -1,13 +1,26 @@
 ---
 title: Intégration d’Adobe Analytics
-description: Bienvenue dans la série d’intégration de l’expérience digitale Adobe Analytics ! Intégrez les principales plateformes Adobe qui prennent en charge Adobe Analytics afin de vous aider, vous et votre entreprise, à réussir.
+description: Bienvenue dans la série d’intégration de l’expérience digitale Adobe Analytics ! Intégrez les principales plateformes Adobe qui prennent en charge Adobe Analytics afin de vous aider, vous et votre entreprise, à réussir.
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 9%
+source-wordcount: 573
+ht-degree: 15%
 
 ---
 
@@ -98,7 +111,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console">Adobe Admin Console</a>
+                        <a href="#adobe-admin-console" target="_blank" rel="referrer" title="Adobe Admin Console"></a>
                     </p>
                     <p class="is-size-6">Intégrez Adobe Admin Console pour gérer les droits de produit pour votre organisation. Ajouter, supprimer ou modifier l’accès utilisateur.</p>
                 </div>
@@ -121,7 +134,7 @@ CARDS
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Adobe Admin Console User Management">Gestion des utilisateurs Adobe Admin Console</a>
+                        <a href="#admin-console-user-management" target="_blank" rel="referrer" title="Adobe Admin Console User Management">Gestion des utilisateurs </a>
                     </p>
                     <p class="is-size-6">Intégrez Adobe Admin Console User Management pour gérer les utilisateurs, les groupes et les profils. Découvrez comment attribuer un rôle de produit à un utilisateur ou à un groupe.</p>
                 </div>
@@ -192,13 +205,13 @@ Intégrez [Adobe Experience League](https://experienceleague.adobe.com/fr?lang=f
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-Intégrez [Adobe Admin Console](https://adminconsole.adobe.com/fr) pour gérer les droits de produit pour votre organisation. Ajouter, supprimer ou modifier l’accès utilisateur.
+Intégrez [&#128279;](https://adminconsole.adobe.com/fr) pour gérer les droits de produit pour votre organisation. Ajouter, supprimer ou modifier l’accès utilisateur.
 
 ## Adobe Admin Console User Management
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-Intégrez la [gestion des utilisateurs de Adobe Admin Console](https://adminconsole.adobe.com/redirect@AdobeOrg/users) pour gérer les utilisateurs, les groupes et les profils. Découvrez comment attribuer un rôle de produit à un utilisateur ou à un groupe.
+Intégrez la [gestion des utilisateurs de &#x200B;](https://adminconsole.adobe.com/redirect@AdobeOrg/users) pour gérer les utilisateurs, les groupes et les profils. Découvrez comment attribuer un rôle de produit à un utilisateur ou à un groupe.
 
 ## Soumission d’un dossier d’assistance
 

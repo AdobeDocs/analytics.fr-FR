@@ -3,9 +3,21 @@ description: Découvrez les segments séquentiels qui utilisent l’opérateur T
 title: SequentialSegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/Wvy6Kl84IzHS1VpA0k0H2rUIGMgpDIhEuG4kK-qAwt4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: 2424
 ht-degree: 4%
 
 ---
@@ -88,7 +100,7 @@ Le tableau ci-dessous explique plus en détail les opérateurs de contrainte de 
 |--- |--- |
 | **[!UICONTROL Après]** | L’opérateur [!UICONTROL After] est utilisé pour spécifier une limite minimale de temps entre deux points de contrôle. Lors de la définition des valeurs Après, le délai commence à courir lorsque le segment est appliqué. Par exemple, si l’opérateur [!UICONTROL After] est défini sur un conteneur pour identifier les visiteurs qui visitent la page A, mais ne reviennent pas sur la page B avant un jour, ce jour commence lorsque le visiteur quitte la page A.  Pour que le visiteur soit inclus dans le segment, un minimum de 1 440 minutes (un jour) doit s’écouler après avoir quitté la page A pour afficher la page B. |
 | **[!UICONTROL Dans]** | L’opérateur [!UICONTROL Within] permet de spécifier une limite maximale de temps entre deux points de contrôle. Par exemple, si l’opérateur [!UICONTROL Within] est défini sur un conteneur pour identifier les visiteurs qui visitent la page A, puis reviennent visiter la page B dans la journée, alors ce jour commence lorsque le visiteur quitte la page A. Pour être inclus dans le segment, le visiteur dispose d’une durée maximale d’un jour avant l’ouverture de la page B. Pour que le visiteur soit inclus dans le segment, l’ouverture de la page B doit avoir lieu dans un délai maximal de 1 440 minutes (un jour) après avoir quitté la page A pour afficher la page B. |
-| **[!UICONTROL Après mais dans]** | Lors de l’utilisation des opérateurs [!UICONTROL After] et [!UICONTROL Within], les deux opérateurs commencent et se terminent en parallèle, et non de manière séquentielle. <br/>Par exemple, vous créez un segment dont le conteneur est défini sur : `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Les conditions d’identification des visiteurs dans ce segment sont remplies uniquement entre une et deux semaines. Les deux conditions sont appliquées à partir de la première page vue. |
+| **[!UICONTROL Après mais dans]** | Lors de l’utilisation des opérateurs [!UICONTROL After] et [!UICONTROL Within], les deux opérateurs commencent et se terminent en parallèle, et non de manière séquentielle. <br/>Par exemple, vous créez un segment en définissant le conteneur sur : `After = 1 Week(s) and Within = 2 Week(s)`.<br/>Les conditions d’identification des visiteurs dans ce segment sont remplies uniquement entre une et deux semaines. Les deux conditions sont appliquées à partir de la première page vue. |
 
 
 #### Exemples
@@ -97,27 +109,27 @@ Quelques exemples d’utilisation des contraintes de temps.
 
 ##### Opérateur [!UICONTROL After]
 
-Identifiez les visiteurs qui ont visité une page, puis une autre page uniquement après deux semaines. Par exemple, les visiteurs et visiteuses qui ont visité la page d’accueil, mais les femmes | Chaussures page seulement après deux semaines.
+Identifiez les visiteurs qui ont visité une page, puis une autre page uniquement après deux semaines. Par exemple, les visiteurs et visiteuses qui ont visité la page d’accueil de , mais la page Femmes | Chaussures ne s’affiche qu’après deux semaines.
 
 ![Séquence après](assets/sequence-after.png)
 
-Si une page vue de l’Accueil se produit le 1er juin 2024 à 00:01, une page vue est alors affichée pour les femmes | Les chaussures correspondent tant que la page vue a lieu après le 15 juin 2024 00:01.
+Si une page vue de l’Accueil est affichée le 1er juin 2024, à 00:01, la page Femmes | Chaussures sera affichée aussi longtemps que cette page vue sera affichée après le 15 juin 2024 00:01.
 
 ##### Opérateur [!UICONTROL Within]
 
-Identifiez les visiteurs qui ont visité une page, puis une autre page dans les cinq minutes. Par exemple, les visiteurs et visiteuses qui ont visité la page d’accueil , puis les femmes | Page de chaussures dans les 5 minutes.
+Identifiez les visiteurs qui ont visité une page, puis une autre page dans les cinq minutes. Par exemple, les visiteurs qui ont visité la page d’accueil de , puis la page Femmes | Chaussures dans les 5 minutes.
 
 ![Séquence dans](assets/sequence-within.png)
 
-Si une page vue de l’Accueil se produit le 1er juin 2024, à l’adresse 12:01, une page vue de la page Femmes s’affiche | Les chaussures correspondent si cette page vue est antérieure au 15 juin 2024 12:16.
+Si une page vue de l’Accueil est affichée le 1er juin 2024, à l’adresse 12:01, la page Femmes | Chaussures sera affichée aussi longtemps que cette page vue est affichée avant le 15 juin 2024 12:16.
 
 ##### Opérateur [!UICONTROL After] but [!UICONTROL Within]
 
-Identifiez les visiteurs et visiteuses qui ont consulté une page, puis qui ont consulté une autre page après deux semaines, mais dans un délai d’un mois. Par exemple, les visiteuses qui ont consulté la page d’accueil d’, puis, après deux semaines et dans un délai d’un mois, les | Page Chaussures.
+Identifiez les visiteurs et visiteuses qui ont consulté une page, puis qui ont consulté une autre page après deux semaines, mais dans un délai d’un mois. Par exemple, les visiteurs qui ont consulté la page d’accueil d’, puis, après deux semaines et dans un délai d’un mois, la page Femmes | Chaussures .
 
 ![Séquence après mais dans](assets/sequence-afterbutwithin.png)
 
-Toutes les visiteuses qui accèdent à la page d’accueil le 1er juin 2024 et qui reviennent visiter les femmes | Page de chaussures postérieure au 15 juin 2019 00:01, mais antérieure au 1er juillet 2019 pour le segment.
+Toutes les visiteuses qui accèdent à la page d’accueil le 1er juin 2024 et qui reviennent pour visiter la page Femmes | Chaussures après le 15 juin 2019 00:01 mais avant le 1er juillet 2019 sont éligibles pour le segment.
 
 
 ### Contraintes [!UICONTROL Accès], [!UICONTROL Visite] et [!UICONTROL Dimension]
@@ -126,7 +138,7 @@ Les contraintes ![Clock](/help/assets/icons/Clock.svg) **[!UICONTROL After]** et
 
 #### Exemple
 
-Vous trouverez ci-dessous un exemple de segment séquentiel recherchant les visiteurs qui ont visité une page de catégorie de produits (Femmes) | Chaussures), suivie d’une page de passage en caisse (passage en caisse | Merci) sur une seule page.
+Vous trouverez ci-dessous un exemple de segment séquentiel recherchant les visiteurs qui ont visité une page de catégorie de produits (Femmes | Chaussures), suivi d’une page de passage en caisse (Passage en caisse | Merci) dans une page.
 
 ![Segment de séquence dans](assets/sequence-filter-within.png)
 
@@ -145,7 +157,7 @@ Vous pouvez spécifier les données à inclure dans votre segment séquentiel ou
 
 Pour créer un segment séquentiel qui inclut tout le monde, sélectionnez l’option ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Inclure tout le monde]**.
 
-Le segment séquentiel identifie les données qui correspondent au modèle donné dans son ensemble.  Vous trouverez ci-dessous un exemple de segment de séquence de base recherchant les visiteurs qui ont visité une page de catégorie de produits (Femmes) | Chaussures), suivie d’une page de passage en caisse (passage en caisse | Merci). Le segment est défini sur ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Inclure tout le monde]**.
+Le segment séquentiel identifie les données qui correspondent au modèle donné dans son ensemble.  Vous trouverez ci-dessous un exemple de segment de séquence de base recherchant les visiteurs et visiteuses qui ont visité une page de catégorie de produits (Femmes | Chaussures), suivie d’une page de passage en caisse (Passage en caisse | Merci). Le segment est défini sur ![UserGroup](/help/assets/icons/UserGroup.svg) **[!UICONTROL Inclure tout le monde]**.
 
 ![Les segments séquentiels incluent tout le monde](assets/sequence-include-everyone.png)
 
@@ -267,7 +279,7 @@ Vous pouvez utiliser [!UICONTROL Groupe logique] pour simplifier la création de
 
 #### Première correspondance
 
-Identifiez les visiteurs qui ont visité une page ou une autre page, puis qui ont visité une autre page. Par exemple, les visiteurs et visiteuses qui ont visité la page Femmes ou la page Hommes, puis qui ont visité le passage en caisse | Page de remerciement.
+Identifiez les visiteurs qui ont visité une page ou une autre page, puis qui ont visité une autre page. Par exemple, les visiteurs et visiteuses qui ont visité la page Femmes ou la page Hommes, puis qui ont visité la page Passage en caisse | Merci .
 
 ![Exemple d’utilisation de la première correspondance avec un groupe logique](assets/logicgroup-example-firstmatch.png)
 

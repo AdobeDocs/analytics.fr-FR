@@ -4,10 +4,22 @@ description: Questions fréquentes relatives à Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
+TQID: https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 22%
+source-wordcount: 1123
+ht-degree: 23%
 
 ---
 
@@ -82,7 +94,7 @@ Certains liens, tels que ceux contenus dans les menus, sont masqués de la page.
 
 +++Comment Activity Map fonctionne-t-il avec les pages qui utilisent plusieurs suites de rapports ?
 
-Par défaut, Activity Map utilise la suite de rapports associée à la première balise de la page. Vous pouvez sélectionner une autre suite de rapports via l’onglet **[!UICONTROL Paramètres Activity Map]** > **[!UICONTROL Autres]**.
+Par défaut, Activity Map utilise la suite de rapports associée à la première balise de la page. Vous pouvez sélectionner une autre suite de rapports via l’onglet **[!UICONTROL Paramètres]** > **[!UICONTROL Autres]**.
 
 +++
 
@@ -140,7 +152,7 @@ La méthode de désactivation d’Activity Map dépend de votre type d’implém
 * **Extension Web SDK** : dans les paramètres de configuration de l’extension, décochez les cases **[!UICONTROL Collecter les clics sur les liens internes]**, **[!UICONTROL Collecter les clics sur les liens externes]** et **[!UICONTROL Collecter les clics sur les liens de téléchargement]**.
 * **Bibliothèque JavaScript Web SDK** : définissez [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) sur `false`.
 * **Extension Analytics** : dans les paramètres de configuration de l’extension, décochez la case intitulée **[!UICONTROL Utiliser Activity Map]**.
-* **AppMeasurement**: supprimez ou commentez le module Activity Map dans `AppMeasurement.js`, ou remplacez l&#39;appel de fonction de module par un corps vide :
+* **&#x200B;**: supprimez ou commentez le module Activity Map dans `AppMeasurement.js`, ou remplacez l&#39;appel de fonction de module par un corps vide :
 
   ```js
   function AppMeasurement_Module_ActivityMap() {}

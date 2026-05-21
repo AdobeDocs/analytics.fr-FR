@@ -4,10 +4,20 @@ title: Création d’une requête de données
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/w-oiIfs1qFMoQbaN8YrNIn1TRNHeN97lQOlkLeXdLb0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 97%
+source-wordcount: 284
+ht-degree: 50%
 
 ---
 
@@ -29,12 +39,12 @@ Procédure de création d’une requête de données de base.
 
    | Élément | Description |
    |---|---|
-   | Disposition croisée dynamique | Fournit une grille de lignes, de colonnes et de mesures pour la disposition, comme dans un tableau Excel standard. Cette disposition vous permet d’ajouter des requêtes de ventilation dans une requête d’origine. |
-   | Disposition personnalisée | Fournit la plupart des fonctions du paramètre [!UICONTROL Disposition croisée dynamique], mais vous permet, en outre, de choisir l’emplacement de chaque élément de la grille dans la feuille de calcul. Cette disposition offre la même souplesse que dans les versions précédentes. |
+   | Disposition du tableau croisé dynamique | Fournit une ligne, une colonne et une grille de mesures pour la mise en page, comme pour les tableaux Excel standard. Cette disposition permet d’ajouter des requêtes de répartition dans une requête d’origine. |
+   | Disposition personnalisée | Fournit la plupart des fonctionnalités de la [!UICONTROL disposition du tableau croisé dynamique] mais vous permet de choisir l&#39;emplacement de chaque élément de la grille dans la feuille de calcul. Cette disposition offre la flexibilité disponible dans les versions précédentes. |
 
 1. Sur l’onglet [!UICONTROL Valeurs de mesure], double-cliquez sur les mesures de l’arborescence (ou faites-les glisser) pour les ajouter à la grille [!UICONTROL Valeurs de mesure].
 1. Sur l’onglet [!UICONTROL Dimensions], double-cliquez sur les dimensions (ou faites-les glisser) dans la grille [!UICONTROL Libellés de lignes].
 
-   Les [dimensions](/help/analyze/report-builder/filter-dimensions.md) disponibles à l’étape 2 dépendent du rapport de base sélectionné à l’étape 1 et de la configuration de votre suite de rapports. Les dimensions sont des éléments qui instaurent une corrélation ou une sous-relation, ou qui sont une classification de la mesure du type de rapport d’origine que vous avez sélectionnée dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]. L’ajout de plusieurs dimensions à l’étape 2 permet de créer une ventilation dans votre requête de données.
+   Les [dimensions](/help/analyze/report-builder/filter-dimensions.md) disponibles à l’étape 2 dépendent du rapport de base que vous avez sélectionné à l’étape 1, ainsi que de la configuration de votre suite de rapports. Les dimensions sont des éléments qui sont en corrélation, en sous-relation ou sont une classification de la mesure de type de rapport d’origine que vous avez sélectionnée dans la fenêtre [!UICONTROL Assistant Requête : Étape 1]. L’ajout de plusieurs dimensions à l’étape 2 permet de créer une répartition dans votre requête de données.
 
    Voir [Ajouter des mesures et des dimensions](/help/analyze/legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) pour plus d’informations.

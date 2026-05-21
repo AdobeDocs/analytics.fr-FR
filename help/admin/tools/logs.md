@@ -4,10 +4,30 @@ title: Journaux
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/TsWKmf74-b1RhjP0CSGZatLrGN39xDylj9tbFZg5R-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c6a85389-fb1b-4b26-96ea-08f17fed0c9f
+  - id: e44bec7e-8653-4d5b-b53e-60b1ae7c3475
+  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 67%
+source-wordcount: 595
+ht-degree: 71%
 
 ---
 
@@ -35,18 +55,18 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Événement | Vous pouvez filtrer le journal sur la base d’un mot ou d’une expression de la description de l’événement. |
 | Télécharger le rapport | Exporte le contenu du [!UICONTROL journal d’utilisation et des accès] dans un fichier délimité par des tabulations. |
 
-### Types d’événements 
+### Types d’événements
 
 | Type d’événement | Description |
 | --- | --- |
 | Aucune catégorie | Peut être n’importe quel type d’événement. |
 | Échec de la connexion | Échec du processus de connexion de l&#39;utilisateur. |
-| Connexion réussie | L&#39;utilisateur s&#39;est connecté. |
-| Action d’administration | Une action d’administration s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de l’entreprise, la création d’un utilisateur, l’annulation d’une demande de rapport, etc. |
-| Modification du paramètre de sécurité | Un paramètre de sécurité a été modifié. |
+| Identification réussie | L&#39;utilisateur s&#39;est connecté. |
+| Action administrateur | Une action d’administration s’est produite, comme la modification d’une suite de rapports, la modification des paramètres de l’entreprise, la création d’un utilisateur, l’annulation d’une demande de rapport, etc. |
+| Changement des paramètres de sécurité | Un paramètre de sécurité a été modifié. |
 | Alerte envoyée | Une alerte a été envoyée. |
-| Action de l&#39;utilisateur | Les informations utilisateur ont été modifiées. |
-| Outil consulté | Un outil a été consulté. |
+| Action utilisateur | Les informations utilisateur ont été modifiées. |
+| Outil affiché | Un outil a été consulté. |
 | Action Omniture | Une action a été effectuée par Adobe. |
 | Récupération du mot de passe | Mot de passe récupéré. |
 | Signets | Un signet a été géré. |
@@ -55,18 +75,18 @@ Le [!UICONTROL Journal d’utilisation et des accès] vous permet d’évaluer l
 | Événements calendrier | Un événement de calendrier a été géré. |
 | Cibles | Une cible a été gérée. |
 | Paramètres des rapports | Un paramètre de rapport a été géré. |
-| Rapports programmés | Un rapport planifié a été géré. |
+| Rapports planifiés | Un rapport planifié a été géré. |
 | Exclure par adresse IP | Le paramètre d’adresse IP a été modifié. |
 | Nommer pages | Obsolète. |
 | Classifications | Une classification a été gérée. |
 | Sources de données | Une source de données a été gérée. |
-| Projet Workspace | Un projet Workspace a été affiché ou modifié. |
+| Projet espace de travail | Un projet Workspace a été affiché ou modifié. |
 | Segment | Un segment a été créé/modifié. |
 | Mesure calculée | Une mesure calculée a été créée/modifiée. |
 | Période | Une période a été créée/modifiée. |
 | Suite de rapports virtuelle | Une suite de rapports virtuelle a été créée/modifiée. |
 | Analyse des contributions | Une tâche d’analyse des contributions a été exécutée. |
-| Méthode Api | Un appel API a été effectué. |
+| Méthode API | Un appel API a été effectué. |
 
 
 ## Journal des modifications de la suite des rapports {#section_3864966639414BBEA871F4D0352F56B6}
