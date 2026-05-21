@@ -4,10 +4,16 @@ title: Alerte d’utilisation des appels au serveur
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: 517
+ht-degree: 75%
 
 ---
 
@@ -43,17 +49,17 @@ Pour créer des alertes supplémentaires :
    ![](/help/admin/tools/server-call-usage/assets/sc_alert.png)
 
    * **Titre** : spécifiez un nom explicite. Vous ne pouvez pas enregistrer une alerte sans nom.
-   * **Granularité du temps** : indique la fréquence de vérification de l’alerte. *Pour l’instant, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée de façon hebdomadaire et analysera les données de la période d’utilisation actuelle.
+   * **Granularité du temps** : indique la fréquence de vérification de l’alerte. *Pour le moment, nous ne prenons en charge que la granularité hebdomadaire.* Cela signifie que l’alerte sera vérifiée toutes les semaines et que les données de la période d’utilisation actuelle seront réexaminées.
    * **Destinataires** : indique toutes les personnes de l’organisation qui doivent recevoir un courrier électronique lorsqu’une alerte déclenche le seuil spécifié.
    * **Date d’expiration** : par défaut, la date d’expiration est fixée à un an à compter de la date de création de l’alerte.
    * **Envoyer une alerte lorsque** :
 
-      * Pour l’un de ces déclencheurs de mesure
-Ajoute le type d’appel au serveur en tant que mesure et spécifie le seuil de l’alerte en sélectionnant le modificateur et le seuil :
+      * Déclencheur de l’une de ces mesures
+Ajoutez le type d’appel/s au serveur en tant que mesure et spécifiez le seuil d’alerte en sélectionnant le modificateur et le seuil :
          * est supérieur ou égal
          * est inférieur ou égal
       * Avec
-Spécifie le seuil et la condition (est supérieur ou égal ou est inférieur ou égal) pour la période d’utilisation passée.
+Spécifiez le seuil et la condition (supérieur ou égal à ou inférieur ou égal à) pour la période d’utilisation passée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -74,7 +80,7 @@ Pour gérer des alertes :
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
    | Approuver | Approuvez les alertes pour les rendre &quot;officielles&quot;. |
    | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
-   | Renouvellement | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela prolonge leur date d’expiration d’un an à partir du moment où vous avez cliqué sur l’option [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
+   | Renouvellement | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela étend leurs dates d’expiration à un an à compter du jour où l’utilisateur a cliqué sur [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/tools/server-call-usage/report-suite-usage.md). |
 
    {style="table-layout:auto"}

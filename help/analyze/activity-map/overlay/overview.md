@@ -5,10 +5,15 @@ uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
-source-git-commit: c45e52d38f8ade19c09fa0d4d7955c3208cbe5aa
+TQID: https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: 681
+ht-degree: 2%
 
 ---
 
@@ -16,7 +21,7 @@ ht-degree: 1%
 
 L’extension Activity Map vous permet d’afficher les données de clics superposées sur votre site web. Vous pouvez télécharger l’extension en accédant à la page suivante, qui fournit un lien vers la boutique en ligne :
 
-**[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Télécharger Activity Map]**
+**[!UICONTROL Outils]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Télécharger Activity Map]**
 
 Une fois installée et activée, l’interface se compose de plusieurs parties :
 
@@ -50,7 +55,7 @@ L’en-tête de ce panneau contient les paramètres suivants :
 * **[!UICONTROL Afficher les paramètres]** : ouvre un menu pour les paramètres que vous pouvez modifier (icône d’engrenage) :
    * **[!UICONTROL Settings]** : ouvre le [Settings](settings.md) de l’extension.
    * **[!UICONTROL Aide]** : ouvre la documentation sur Experience League (cette page).
-   * **[!UICONTROL Communauté Adobe]** : ouvre la [communauté Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=fr).
+   * **[!UICONTROL Communauté]** : ouvre la [communauté Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=fr).
    * **[!UICONTROL À propos]** : affiche la version de l’extension.
    * **[!UICONTROL Déconnexion]** : vous déconnecte de l’extension, ce qui vous oblige à vous reconnecter.
 * **[!UICONTROL Quitter Activity Map]** : ferme tous les recouvrements de l’extension (icône X).
@@ -76,7 +81,7 @@ Le panneau inférieur affiche une vue agrégée des liens affichés sur le recou
 
 Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de travail de base avec les paramètres suivants :
 
-* La dimension [Lien Activity Map](/help/components/dimensions/activity-map-link.md)
+* La dimension [Lien ](/help/components/dimensions/activity-map-link.md)
 * La mesure [Occurrences](/help/components/metrics/occurrences.md) (libellée **[!UICONTROL Clics sur les liens]**)
 * Valeur actuelle [Page](/help/components/dimensions/page.md) appliquée en tant que segment
 
@@ -85,7 +90,7 @@ Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de t
 Le rapport **[!UICONTROL Détails de la page]** affiche une visualisation [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) à l’aide de la dimension [Page](/help/components/dimensions/page.md), en se concentrant sur la page active. Les mesures suivantes pour la page active sont affichées à gauche :
 
 * Total [pages vues](/help/components/metrics/page-views.md)
-* [!UICONTROL &#x200B; % de toutes les pages vues]
+* [!UICONTROL  % de toutes les pages vues]
 * [Entrée](/help/components/metrics/entries.md) nombre
 * Nombre de [Sorties](/help/components/metrics/exits.md)
 * [Visites de page unique](/help/components/metrics/single-page-visits.md)

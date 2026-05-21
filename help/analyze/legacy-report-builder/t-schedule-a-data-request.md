@@ -5,10 +5,16 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/CPg94k8G-tLWRvgdYHLz1UP2p1gJ7ad1g39rFtMWAG4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 96%
+source-wordcount: 972
+ht-degree: 92%
 
 ---
 
@@ -49,11 +55,11 @@ Ainsi, vous pouvez planifier la remise immédiate des classeurs ou leur diffusio
 | Champ | Description |
 |--- |--- |
 | Sélectionner le rapport | Nom du classeur. Dans le cas des nouveaux rapports programmés, ce champ contient le nom du classeur actif. |
-| Sélectionner | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que celui ouvert actuellement dans Excel, le système sélectionne le fichier local au lieu de celui chargé précédemment. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur (le chiffre 1 est ajouté à son nom de fichier). Le nouveau rapport planifié utilise le classeur copié. |
+| Sélectionner | Affiche la page Sélectionner le rapport. Vous pouvez sélectionner un rapport sur le serveur (où sont stockés tous les classeurs déjà programmés) ou sur votre machine locale. Si vous sélectionnez un classeur sur le disque local au format .xls, le système convertit le fichier au format .xlsx. Dans le cadre de cette conversion, le fichier est ouvert dans Excel et rendu actif. Si le classeur sélectionné pour le rapport planifié porte le même nom de fichier que celui ouvert actuellement dans Excel, le système sélectionne le fichier local au lieu de celui chargé précédemment. Si vous sélectionnez un rapport dans le référentiel de planification, une copie du classeur est créée sur le serveur et son nom de fichier est mis à jour avec 1. Le rapport planifié nouvellement créé utilise le classeur copié. |
 | Personnaliser | Vous permet de personnaliser le format de date. |
 | À | Affiche le Carnet d’adresses Outlook, le cas échéant. |
 | Envoyer à : Courriel | Adresse e-mail du destinataire du classeur. |
-| Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) pour en savoir plus. |
+| Power BI | Voir [Publier le classeur sur Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md) pour en savoir plus. |
 | Objet | Description définie par l’utilisateur. |
 | Planification | Vous permet d’indiquer le moment où le classeur doit être envoyé (Immédiatement, Horaire, Quotidiennement, Hebdomadairement, Mensuellement et Annuellement). |
 

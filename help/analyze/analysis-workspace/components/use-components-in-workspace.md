@@ -4,10 +4,16 @@ title: Utiliser des composants dans un projet
 feature: Workspace Basics
 role: User, Admin
 exl-id: fb56e794-67e3-4f85-960e-b90684300fa0
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/c-Ew6f5kJO2-6SjFF3o73GtgmVRy8-E94FT-bPa5M5s
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79eid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 82%
+source-wordcount: 954
+ht-degree: 77%
 
 ---
 
@@ -68,7 +74,7 @@ Les mesures vous permettent de quantifier les points de données dans Analysis W
 
 Pour ajouter une mesure à un projet dans Analysis Workspace :
 
-1. Commencez à ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [&#x200B; Ajouter des composants à un projet &#x200B;](#add-components-to-a-project).
+1. Commencez à ajouter une mesure à votre projet dans Analysis Workspace, comme décrit dans la section [ Ajouter des composants à un projet ](#add-components-to-a-project).
 
 
 
@@ -95,11 +101,11 @@ Les [segments](/help/components/segmentation/seg-overview.md) vous permettent d�
 
 Vous pouvez utiliser des segments dans Analysis Workspace de l’une des manières suivantes :
 
-* Ajouter des segments à un panneau
+* Ajout de segments à un panneau
 Lorsque vous ajoutez des segments à un panneau, les segments s’appliquent à tout le contenu du panneau.
 Pour plus d’informations sur l’utilisation de la zone de dépôt de segments sur un panneau pour segmenter votre panneau, consultez la section [Zone de dépôt](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) de la [Présentation des panneaux](/help/analyze/analysis-workspace/c-panels/panels.md).
 
-* Ajouter des segments à une visualisation
+* Ajout de segments à une visualisation
 Lorsque vous ajoutez des segments à une colonne d’un tableau à structure libre, les segments s’appliquent à tout le contenu de la colonne du tableau. Vous pouvez également ajouter des segments dans le cadre d’une visualisation des abandons.
 
 * Utilisation de segments dans les composants

@@ -4,9 +4,12 @@ title: Créer et gérer des modèles
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: 726
 ht-degree: 100%
 
 ---
@@ -33,8 +36,8 @@ Pour créer un modèle pouvant être utilisé par des personnes de votre sociét
    |---------|----------|
    | **[!UICONTROL Nom]** | Attribuez un nom explicite au modèle. |
    | **[!UICONTROL Description]** | Fournissez une brève description du modèle qui décrit ses utilisations prévues. |
-   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les personnes de l’organisation sur la manière dont ce modèle peut être utilisé. Cette explication s’affiche sur la page Aperçu du modèle. |
-   | **[!UICONTROL Cas d’utilisation]** | Sélectionnez tous les cas d’utilisation qui s’appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux personnes qui y accèdent à partir de la page Modèles d’organisation.</p> |
+   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les personnes de l’organisation sur la manière dont ce modèle peut être utilisé. Cette explication s’affiche sur la page Prévisualisation du modèle. |
+   | **[!UICONTROL Cas d’utilisation]** | Sélectionnez tous les cas d’utilisation qui s’appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux utilisateurs et utilisatrices qui y accèdent à partir de la page Modèles d’organisation.</p> |
    | **[!UICONTROL Balises]** | Spécifiez les balises à appliquer au modèle. Les personnes peuvent filtrer la liste des modèles en fonction des balises que vous ajoutez. |
 
 1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**].
@@ -45,9 +48,9 @@ Pour plus d’informations sur la façon dont les utilisateurs et utilisatrices 
 
 Les administrateurs et administratrices peuvent modifier ou supprimer des modèles d’entreprise.
 
-1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis sélectionnez les **[!UICONTROL _modèles login_company_name _]**.
+1. Dans Analysis Workspace, sélectionnez l’onglet [!UICONTROL **Workspace**], puis sélectionnez les **[!UICONTROL _modèles login _company_name_]**.
 
-1. Si vous affichez des modèles dans une vue Colonnes ![icône Vue Colonnes](assets/column-view-icon.png), procédez comme suit :
+1. Si vous affichez des modèles dans une vue Colonnes ![icône de vue Colonnes](assets/column-view-icon.png), procédez comme suit :
 
    1. Accédez au modèle à modifier ou supprimer, puis sélectionnez l’icône d’informations en regard du nom du modèle.
 
@@ -65,7 +68,7 @@ Les administrateurs et administratrices peuvent modifier ou supprimer des modèl
 
       ![Mode Carte de modèle d’entreprise](assets/company-template-cards.png)
 
-   1. Sélectionnez l’icône Plus, puis **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
+   1. Sélectionnez l’icône Plus, puis sélectionnez **[!UICONTROL Modifier]** ou **[!UICONTROL Supprimer]**.
 
       ![Modification ou suppression de la carte de modèle d’entreprise](assets/company-template-card-edit-delete.png)
 
@@ -79,11 +82,11 @@ Les administrateurs et administratrices peuvent modifier ou supprimer des modèl
    |---------|----------|
    | **[!UICONTROL Nom]** | Attribuez un nom explicite au modèle. |
    | **[!UICONTROL Description]** | Fournissez une brève description du modèle qui décrit ses utilisations prévues. |
-   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les personnes de l’organisation sur la manière dont ce modèle peut être utilisé. Cette explication s’affiche sur la page Aperçu du modèle. |
-   | **[!UICONTROL Cas d’utilisation]** | Sélectionnez tous les cas d’utilisation qui s’appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux personnes qui y accèdent à partir de la page Modèles d’organisation.</p> |
+   | **[!UICONTROL Pourquoi utiliser ce modèle]** | Fournissez une brève explication pour informer les personnes de l’organisation sur la manière dont ce modèle peut être utilisé. Cette explication s’affiche sur la page Prévisualisation du modèle. |
+   | **[!UICONTROL Cas d’utilisation]** | Sélectionnez tous les cas d’utilisation qui s’appliquent à ce modèle. Vous pouvez sélectionner plusieurs cas d’utilisation : **[!UICONTROL Engagement]**, **[!UICONTROL Conversion]**, **[!UICONTROL Audience]** et **[!UICONTROL Acquisition]**. <p>Les sélections que vous choisissez déterminent l’emplacement d’affichage du modèle et les filtres qui s’appliquent aux utilisateurs et utilisatrices qui y accèdent à partir de la page Modèles d’organisation.</p> |
    | **[!UICONTROL Balises]** | Spécifiez les balises à appliquer au modèle. Les personnes peuvent filtrer la liste des modèles en fonction des balises que vous ajoutez. |
 
-1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**]/
+1. Sélectionnez [!UICONTROL **Enregistrer en tant que modèle**].
 
 ## Renommer, baliser ou approuver des modèles
 
@@ -109,7 +112,7 @@ Les administrateurs et administratrices peuvent renommer, baliser et approuver l
 
    Vous pouvez également modifier un modèle, ou en supprimer un, comme décrit dans la section [Modifier ou supprimer des modèles](#edit-or-delete-templates).
 
-1. (Facultatif) Pour revenir à la vue normale, dans le rail de filtre, désélectionnez **[!UICONTROL Modèles d’entreprise]**.
+1. (Facultatif) Pour revenir à la vue normale, dans le rail de filtrage, désélectionnez **[!UICONTROL Modèles d’entreprise]**.
 
 ## Accéder à un modèle d’entreprise
 

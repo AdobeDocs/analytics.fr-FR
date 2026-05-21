@@ -5,10 +5,14 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/nKf59WLxvtYrcyR-mQ8oM41rUDLl3qpkwbujRDBV27A
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 38%
+source-wordcount: 585
+ht-degree: 36%
 
 ---
 
@@ -37,7 +41,7 @@ Tenez compte des instructions suivantes lorsque vous ajoutez des mesures et des 
 
 * Lorsque vous saisissez un terme de recherche, la liste est automatiquement mise à jour afin d’afficher les mesures dont les libellés correspondent au terme de recherche.
 * La correspondance ne respecte pas la casse et équivaut à une recherche *contient*.
-* Les recherches de mots entiers et d’autres indicateurs de recherche spéciaux (commence par, se termine par, ET, OU, etc.) ne sont pas pris en charge.
+* Recherches de mots entiers et autres indicateurs de recherche spéciaux (commence par, se termine par, ET, OU, etc.) ne sont pas pris en charge.
 
 Le terme de recherche est effacé si vous quittez l’Assistant Requête lorsque vous cliquez sur [!UICONTROL Terminer] ou [!UICONTROL Annuler], revenez à l’étape 1 de l’Assistant Requête ou modifiez la catégorie de mesure.
 
@@ -65,9 +69,9 @@ Pour trier une demande par mesure
 
    Dans l’onglet [!UICONTROL Dimensions], le système affiche les dimensions qui répartissent ou constituent une classification de tout rapport de base que vous sélectionnez dans [!UICONTROL Assistant Requête : étape 1] et dans la configuration de la suite de rapports. Lorsque vous déposez une dimension dans les grilles de mise en page, elle est supprimée de l’arborescence et la liste des dimensions restantes est recalculée.
 
-   La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. Les valeurs valides sont :
+   La dimension [!UICONTROL Date] est ajoutée automatiquement. Les dimensions de date disponibles varient en fonction de la granularité sélectionnée dans le formulaire [!UICONTROL Assistant Requête : Étape 1]. Les valeurs valides sont :
 
-   * Heure 
+   * Heure
    * Jour
    * Semaine
    * Mois

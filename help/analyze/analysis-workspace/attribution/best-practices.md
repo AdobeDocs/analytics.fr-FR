@@ -3,10 +3,13 @@ title: Bonnes pratiques d’attribution
 description: Découvrez les bonnes pratiques pour décider du modèle d’attribution à utiliser.
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 66%
+source-wordcount: 444
+ht-degree: 64%
 
 ---
 
@@ -33,7 +36,7 @@ Vous pouvez ensuite effectuer une analyse des entonnoirs supérieur et inférieu
 
 ### Analyse de lʼentonnoir supérieur
 
-Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est de faire connaître la marque. Vous pouvez utiliser le modèle d’attribution [&#x200B; Décroissance temporelle &#x200B;](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
+Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est de faire connaître la marque. Vous pouvez utiliser le modèle d’attribution [ Décroissance temporelle ](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
 
 ### Analyse de lʼentonnoir inférieur
 
@@ -63,4 +66,4 @@ Si vous ne disposez pas encore d’un modèle d’attribution qui fournit des r�
 
 * Il se peut que vous deviez faire appel aux services dʼun spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
 * Vous pouvez vous fier aux données brutes, comme dans les flux de données Adobe.
-* Pensez à utiliser [Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.
+* Pensez à utiliser [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.

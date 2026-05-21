@@ -3,10 +3,16 @@ description: Les règles de classification recherchent régulièrement des terme
 title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 89%
+source-wordcount: 1978
+ht-degree: 86%
 
 ---
 
@@ -72,7 +78,7 @@ about_classification_rules.xml
 
   Les règles actives sont traitées toutes les quatre heures ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et téléchargent les classifications à l’aide de l’importateur.
 
-* **Remplacement des classifications existantes** : reportez-vous à la section [Dans quels cas les règles ne classent-elles pas les clés ?](/help/components/classifications/crb/classification-quickstart-rules.md) Au besoin, vous pouvez supprimer des classifications existantes à l’aide de l’importateur.
+* **Remplacement des classifications existantes** : consultez la section [Quand les règles ne classent-elles pas les clés ?](/help/components/classifications/crb/classification-quickstart-rules.md) Si nécessaire, vous pouvez supprimer des classifications existantes à l’aide de l’importateur.
 
 ## Dans quels cas les règles ne classent-elles pas les clés ?
 
@@ -133,14 +139,14 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
-| Expression régulière | &Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
+| Expression régulière | &amp;Hat;(.+)\:(.+)\:(.+)$ | Date de la campagne | $3 |
 
 **Syntaxe**
 
 | Expression régulière | Résultat de la chaîne ou de la correspondance | Groupes correspondants |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0` : `em:JuneSale:20XX0601` `$1` : em `$2` : JuneSale `$3` : 20XX0601 |
-| Création de la syntaxe | `^` = début d’une ligne ()= regroupe les caractères et vous permet d’extraire les caractères correspondants entre parenthèses.  `(.+)` = Capture un caractère ( . ) caractère et ( + ) en plus \ = début d’une chaîne.  `$` = Indique que le caractère (ou groupe de caractères) précédent est le dernier de la ligne. | |
+| Création de la syntaxe | `^` = commence la ligne () = groupe les caractères et permet d&#39;extraire les caractères correspondants entre parenthèses.  `(.+)` = capture un ( . ) et ( + ) encore \ = début d’une chaîne.  `$` = indique que le caractère précédent (ou le groupe de caractères) est le dernier de la ligne. | |
 
 Pour en savoir plus sur la signification des caractères d’une expression régulière, reportez-vous à la section [Expressions régulières – Tableau de références](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -191,9 +197,9 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expression régulière Pour la chaîne correspondante `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| Expression régulière Pour la chaîne correspondante `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | j | `$4` |
 
-## Expressions régulières – Exemple « Ne contient pas »  {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## Expressions régulières – Exemple « Ne contient pas » {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 Cet exemple illustre une expression régulière qui correspond à toute chaîne ne contenant pas de caractères spécifiques ; `13`, dans le cas présent.
 

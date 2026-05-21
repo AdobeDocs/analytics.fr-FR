@@ -4,10 +4,14 @@ description: Variables personnalisées que vous pouvez utiliser dans votre mise 
 feature: Appmeasurement Implementation
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/X5HNYsZBAIMpvsM7ktZhQCSHt1icRQdcpzIkUBJjxv4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 92%
+source-wordcount: 409
+ht-degree: 96%
 
 ---
 
@@ -34,11 +38,11 @@ Les eVars sont mappées aux variables suivantes :
 
 Vous pouvez définir des eVars lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL eVars].
 
 Vous pouvez définir une eVar sur une valeur ou un élément de données. Vous pouvez également copier la valeur d’une autre variable Analytics.

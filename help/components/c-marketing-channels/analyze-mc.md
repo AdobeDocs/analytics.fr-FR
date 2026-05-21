@@ -3,10 +3,16 @@ title: Analyse des canaux marketing
 description: Découvrez comment utiliser les dimensions des canaux marketing dans Workspace.
 feature: Marketing Channels
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/XWjRuwOusH-TsOb5rzG8rAIkye3faYxfZzyQOMrav3Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 90%
+source-wordcount: 435
+ht-degree: 77%
 
 ---
 
@@ -18,7 +24,7 @@ ht-degree: 90%
 >
 >Les administrateurs et administratrices d’Analytics peuvent gérer les canaux marketing pour leurs organisations, comme décrit dans la section [Gestion des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-channels.md).
 
-Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus efficace et avec qui, afin de mieux cibler vos efforts et de bénéficier d’un meilleur retour sur votre investissement en marketing. Dans Adobe Analytics, les dimensions et les mesures des canaux marketing de Workspace sont l’un des outils qui peuvent vous aider à suivre l’influence de différents canaux sur vos commandes, recettes, etc. et vous donner des informations utiles sur les canaux. Voici les dimensions et les mesures que vous pouvez utiliser en lien avec les canaux marketing :
+Vous souhaitez probablement savoir lequel de vos canaux marketing est le plus efficace et avec qui, afin de mieux cibler vos efforts et de bénéficier d’un meilleur retour sur votre investissement en marketing. Dans Adobe Analytics, les dimensions et mesures Canaux marketing de Workspace sont l’un des outils qui peuvent vous aider à suivre l’influence de différents canaux sur vos commandes, votre chiffre d’affaires, etc. et à obtenir des informations utiles sur les canaux. Voici les dimensions et les mesures que vous pouvez utiliser en lien avec les canaux marketing :
 
 ![](assets/mc-dims.png)
 
@@ -46,7 +52,7 @@ Ce graphique en courbes présente les tendances des Commandes en ligne pour dive
 
 ## Analyse avancée
 
-Détail des canaux marketing permet d’approfondir les analyses de chaque canal pour vous montrer des campagnes ou des emplacements spécifiques par exemple. Vous pouvez ventiler chaque Canal marketing en détails :
+Détails sur les canaux marketing examine plus en détail chaque canal afin de vous présenter des campagnes, des emplacements, etc. spécifiques. Vous pouvez ventiler chaque canal marketing en détails :
 
 ![](assets/mc-viz4.png)
 

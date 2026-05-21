@@ -4,10 +4,14 @@ description: Permet de mesurer le temps nécessaire à l’accomplissement d’u
 feature: Appmeasurement Implementation
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/ZyoyUr9u9YPoGEhbCqKBZOxAYslVFO13MORfnm65k4w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 89%
+source-wordcount: 638
+ht-degree: 88%
 
 ---
 
@@ -63,10 +67,10 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 La fonction `getTimeToComplete` utilise les arguments suivants :
 
-* **`sos`** (facultatif, chaîne) : définissez sur `"start"` le moment où vous souhaitez démarrer le minuteur. Définissez sur `"stop"` le moment où vous souhaitez arrêter le minuteur. La valeur par défaut est `"start"`.
+* **`sos`** (facultatif, chaîne) : définissez cet argument sur `"start"` lorsque vous souhaitez démarrer le retardateur. Définissez-le sur `"stop"` lorsque vous souhaitez l’arrêter. La valeur par défaut est `"start"`.
 * **`cn`** (facultatif, chaîne) : nom du cookie permettant de mémoriser l’heure de début. La valeur par défaut est `"s_gttc"`.
-* **`exp`** (facultatif, entier) : nombre de secondes, heures ou jours (selon l’argument de répartition du temps `tp`) avant l’expiration du cookie (et du minuteur). La valeur par défaut est 30 minutes.
-* **`tp`** (facultatif, chaîne) : chaîne de répartition du temps à laquelle le cookie (et le minuteur) arrive à expiration, utilisée avec l’argument `exp`. Utilisez la définition suivante : « j » pour les jours, « h » pour les heures ou « s » pour les secondes. Sans définition, la valeur par défaut de l’expiration du cookie (et du minuteur) est de 30 minutes, quelle que soit la valeur de l’argument `exp`.
+* **`exp`** (facultatif, entier) : nombre de secondes, heures ou jours (selon l’argument de répartition du temps `tp`) avant l’expiration du cookie (et du retardateur). La valeur par défaut est 30 minutes.
+* **`tp`** (facultatif, chaîne) : chaîne de répartition du temps à laquelle le cookie (et le retardateur) arrive à expiration, utilisée avec l’argument `exp`. Utilisez la définition suivante : « j » pour les jours, « h » pour les heures ou « s » pour les secondes. Sans définition, la valeur par défaut de l’expiration du cookie (et du retardateur) est de 30 minutes, quelle que soit la valeur de l’argument `exp`.
 
 Lʼappel de cette fonction renvoie une chaîne qui contient le nombre de jours, dʼheures, de minutes et/ou de secondes écoulés entre les actions `"start"` et `"stop"`.
 

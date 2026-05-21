@@ -3,9 +3,14 @@ description: Au lieu de gérer et de charger des classifications à chaque chang
 title: Workflow du créateur de règles de classification
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/OxaFgvuHsCQwBpx9V1d5fH7ge-7YszN1ODvgBFkpgs8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: 596
 ht-degree: 87%
 
 ---
@@ -46,7 +51,7 @@ Vous trouverez, ci-dessous, les étapes de haut niveau pour mettre en œuvre des
 | Étape 4 : [Ajouter des règles de classification au jeu](classification-quickstart-rules.md). | [!UICONTROL Créateur de règles de classification] > &lt;votre jeu de règles> | Fait correspondre une condition à une classification, puis précise l’action à effectuer pour la règle.  Familiarisez-vous avec les informations de la section [Méthode de traitement des règles](classification-quickstart-rules.md). |
 | Étape 5 : [Tester un jeu de règles de classification](classification-quickstart-rules.md) | [!DNL Testing Page] | Vous souhaitez tester les règles en vue de leur validation en les modifiant en mode préliminaire. Les règles ne peuvent pas être exécutées dans ce mode.<br>Cette étape est importante lorsque vous utilisez des [expressions régulières](classification-quickstart-rules.md). |
 | Étape 6 : [Activer des règles valides](classification-rule-definitions.md). | [!DNL Rules Page] | Une fois les règles valides, activez le jeu de règles.  Vous pouvez, au besoin, remplacer des clés existantes. Reportez-vous à la section [Méthode de traitement des règles](classification-quickstart-rules.md). |
-| Étape 7 (Facultatif) : [Supprimer les règles non souhaitées](classification-rule-definitions.md). | [!DNL Rules Page] | Supprime les règles non souhaitées d’un jeu.<br>Remarque : la suppression de règles ne supprime pas les données classifiées chargées. Voir [Supprimer des données de classification](/help/components/classifications/importer/t-delete-classification-data.md) si vous devez supprimer des données classifiées. |
+| Étape 7 (Facultatif) : [Supprimer les règles non souhaitées](classification-rule-definitions.md). | [!DNL Rules Page] | Supprimer les règles indésirables d&#39;un ensemble.<br>Remarque : la suppression des règles ne supprime pas les données classifiées chargées. Voir [Supprimer des données de classification](/help/components/classifications/importer/t-delete-classification-data.md) si vous devez supprimer des données classifiées. |
 
 >[!NOTE]
 >

@@ -4,9 +4,13 @@ description: Naviguez dans l’interface de gestion des sources de données.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/Tc5-I54BKMPlv2tVZb9pMYfvdddcTPuskdh3W24wFUU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 664
 ht-degree: 7%
 
 ---
@@ -50,7 +54,7 @@ Une fois qu’une source de données reçoit des données, une table contenant p
 
 L’onglet **[!UICONTROL Créer]** vous donne un point de départ pour l’assistant de création de sources de données.
 
-![Créer](assets/create.png)
+![Create](assets/create.png)
 
 La catégorie et le type de source de données étaient plus précieux dans les versions précédentes d’Adobe Analytics. Cependant, leur utilisation reste limitée :
 

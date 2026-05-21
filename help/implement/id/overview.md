@@ -1,10 +1,17 @@
 ---
 title: Identification des visiteurs dans Adobe Analytics
 description: Découvrez comment identifier les visiteurs dans Adobe Analytics à l’aide des bonnes pratiques les plus récentes.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
+TQID: https://experienceleague.adobe.com/uwEv9cl3234uiWhZEZLqgAVo42b-9L-9YEIGD97Pw-Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 10%
+source-wordcount: 617
+ht-degree: 12%
 
 ---
 
@@ -21,12 +28,12 @@ L’identification des visiteurs dans Adobe Analytics comprend les composants su
 
 Lorsqu’Adobe reçoit un accès, les vérifications suivantes sont effectuées dans l’ordre. Si une propriété donnée est présente, Adobe utilise cet identifiant pour l’accès. Si plusieurs identifiants sont présents dans un accès, seule la première méthode est utilisée. Notez que l’ordre des opérations ne reflète pas celui recommandé par Adobe pour identifier les visiteurs.
 
-| Ordre utilisé | Paramètre de requête | Présent quand |
+| Ordre utilisé | Paramètre de requête | Présenter quand |
 |---|---|---|
-| **<sup>er</sup>** | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
-| **2<sup>ème</sup>** | `aid` | Le visiteur possède un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
-| **3<sup>ème</sup>** | `mid` | Le visiteur possède un cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant. Définissez sur les implémentations à l’aide du service d’identités Adobe Experience Cloud [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Adobe recommande d’utiliser le service d’ID pour toutes les implémentations lorsque cela est possible. |
-| **4<sup>ème</sup>** | `fid` | Le visiteur possède un cookie [`s_fid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) existant. AppMeasurement génère automatiquement un identifiant de secours si `aid` et `mid` ne peuvent pas être définis, quelle qu’en soit la raison. |
+| <sup>er </sup>**** | `vid` | La variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) est définie. |
+| **2<sup>ème</sup>** | `aid` | Le visiteur possède un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant. Défini lors de l’implémentation, sans ou avant l’implémentation du service d’identifiant de visiteur. |
+| **3<sup>ème</sup>** | `mid` | Le visiteur possède un cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant. Définissez sur les implémentations à l’aide du service d’identités Adobe Experience Cloud [](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Adobe recommande d’utiliser le service d’ID pour toutes les implémentations lorsque cela est possible. |
+| **4<sup>ème</sup>** | `fid` | Le visiteur possède un cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) existant. AppMeasurement génère automatiquement un identifiant de secours si `aid` et `mid` ne peuvent pas être définis, quelle qu’en soit la raison. |
 | **5<sup>ème</sup>** | Adresse IP + agent utilisateur | Utilisé en dernier recours pour identifier un visiteur unique si le navigateur du visiteur n’accepte pas les cookies. Un identifiant visiteur haché est généré avant l’[obscurcissement d’IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). Si l’adresse IP n’est pas disponible, d’autres détails IP (tels que l’adresse IP de la passerelle) sont utilisés à la place. |
 
 L’identifiant visiteur sélectionné est ensuite haché et devient son identifiant côté serveur. Cet identifiant côté serveur est disponible sous la forme `visid_high` + `visid_low` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md).

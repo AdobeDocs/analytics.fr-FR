@@ -5,9 +5,15 @@ title: Aperçu des visualisations
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: b2e6b10fb468d5661f65b31c60d4d16b93dc9139
+TQID: https://experienceleague.adobe.com/5a9a3HwQ5kwfnE7Co55yPS4rIGJho4yXmWJb4Kv46bs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: 1725
 ht-degree: 88%
 
 ---
@@ -38,7 +44,7 @@ Voici les types de visualisation disponibles dans Analysis Workspace :
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barres empilées horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Visualisation Barres horizontales empilées affichant des barres horizontales représentant plusieurs valeurs pour une ou plusieurs mesures. |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Une visualisation Résumé des mesures clés combine les visualisations Ligne, Synthèse des modifications et Synthèse des chiffres. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Une visualisation Ligne représente les mesures sous la forme d’une ligne afin d’indiquer l’évolution des valeurs dans le temps. Un graphique en courbes utilise le temps le long de lʼaxe X. |
-| ![&#x200B; Globe &#x200B;](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
+| ![ Globe ](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
 | ![Nuage de points](/help/assets/icons/GraphScatter.svg) | [Dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Une visualisation Graphique de dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [En-tête de section](section-header.md) | Pour identifier et articuler des sections dans un panneau. |
 | ![DéplacementHautBas](/help/assets/icons/MoveUpDown.svg) | [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Une visualisation Synthèse des modifications affiche la modification entre les cellules sélectionnées sous la forme d’un grand nombre ou d’un pourcentage. |
@@ -105,7 +111,7 @@ Vous pouvez gérer une visualisation en pointant la souris sur la visualisation 
 * Pour afficher une visualisation réduite, sélectionnez ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
 * Pour supprimer une visualisation, sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg). Pour annuler, sélectionnez **[!UICONTROL Modifier]** > **[!UICONTROL Annuler]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Pour rétablir la hauteur par défaut d’une visualisation, sélectionnez ![ImageResize](/help/assets/icons/Resize.svg).
-* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![&#x200B; Déplacer &#x200B;](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
+* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![ Déplacer ](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
 
 
 ## Légende

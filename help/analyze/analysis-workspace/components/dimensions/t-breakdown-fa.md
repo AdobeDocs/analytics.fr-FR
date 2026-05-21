@@ -5,10 +5,15 @@ title: Ventilation des dimensions
 feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/GJZSzrey1b6zlmZzO9weS-BimDXtIuWcBV4L6zJEoiY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 55%
+source-wordcount: 595
+ht-degree: 58%
 
 ---
 
@@ -30,9 +35,9 @@ Vous pouvez ventiler les mesures par éléments de dimension ou segments d’aud
 
 ## Répartition par position
 
-Par défaut, les répartitions sont fixées aux éléments de ligne statiques. Par exemple, imaginons que vous répartissiez les éléments de la dimension 3 premières pages (page d’accueil, résultats de recherche et passage en caisse) par canal marketing. Ensuite, vous quittez le projet et revenez deux semaines plus tard. Lors de la réouverture du projet, les 3 premières pages ont changé. Désormais, la page d’accueil, les résultats de recherche et le passage en caisse figurent sur les 4 à 6 premières pages. Par défaut, vos répartitions de canal marketing apparaissent toujours sous Page d’accueil, Résultats de la recherche et Passage en caisse, même si elles se trouvent désormais dans les lignes 4 à 6.
+Par défaut, les répartitions sont fixées aux éléments de ligne statiques. Par exemple, imaginons que vous répartissiez les éléments de la dimension 3 premières pages (page d’accueil, résultats de recherche et passage en caisse) par canal marketing. Ensuite, vous quittez le projet et revenez deux semaines plus tard. Lors de la réouverture du projet, les 3 premières pages ont changé. Désormais, la page d’accueil, les résultats de recherche et le passage en caisse figurent sur les 4 à 6 premières pages. Par défaut, les répartitions des canaux marketing apparaîtront toujours sous Page d’accueil, Résultats de recherche et le Passage en caisse, même si elles se trouvent maintenant dans les lignes 4 à 6.
 
-En revanche, la **Répartition par position** répartit toujours les 3 premiers éléments, quelle que soit la nature de ces éléments. Pour revenir à l’exemple, lorsque vous rouvrez votre projet, les répartitions des canaux marketing sont liées aux 3 premières pages du tableau. Et non sur la page d’accueil, les résultats de recherche et le passage en caisse, qui se trouvent désormais dans les lignes 4 à 6. Voir [Paramètres de ligne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) comment configurer ce paramètre.
+En revanche, la **Répartition par position** répartit toujours les 3 premiers éléments, quelle que soit la nature de ces éléments. Pour revenir à l’exemple, lorsque vous rouvrez votre projet, les répartitions des canaux marketing sont liées aux 3 premières pages du tableau. Elles ne sont pas liées à Page d’accueil, Résultats de recherche et Passage en caisse, qui se trouvent désormais dans les lignes 4 à 6. Voir [Paramètres de ligne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md) comment configurer ce paramètre.
 
 
 
@@ -52,7 +57,7 @@ Voici le comportement attendu lors de l’application des modèles d’attributi
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension dans Analysis Workspace](https://video.tv.adobe.com/v/41370?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension dans Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 
 >[!ENDSHADEBOX]
@@ -60,7 +65,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension dans 
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Répartitions de Dimension](https://video.tv.adobe.com/v/327335?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Répartitions de Dimension](https://video.tv.adobe.com/v/23969?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 
 >[!ENDSHADEBOX]
@@ -68,7 +73,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Répartitions d
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de dimensions et de mesures](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de dimensions et de mesures](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +81,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajout de dimens
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation des dimensions dans un tableau à structure libre](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation des dimensions dans un tableau à structure libre](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} pour une vidéo de démonstration.
 
 
 >[!ENDSHADEBOX]
@@ -84,7 +89,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation des
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Répartition des Dimension par position](https://video.tv.adobe.com/v/327410?captions=fre_fr){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Répartition des Dimension par position](https://video.tv.adobe.com/v/24033){target="_blank"} pour une vidéo de démonstration.
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +133,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,14 +141,14 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/327410?captions=fre_fr&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [dimension breakdowns by position](https://video.tv.adobe.com/v/24033?quality=12&learn=on){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

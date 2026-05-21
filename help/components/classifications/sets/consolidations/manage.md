@@ -3,9 +3,14 @@ title: Gérer les consolidations des ensembles de classifications
 description: Découvrez comment consolider un ou plusieurs ensembles de classifications en un seul ensemble.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 597
 ht-degree: 3%
 
 ---
@@ -40,7 +45,7 @@ La liste ➊ affiche les consolidations de classification créées et validées,
 |---|---|
 | **[!UICONTROL Nom de la consolidation]** | Nom de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Tâche actuelle]** | Tâche associée à la consolidation des ensembles de classifications. |
-| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** **&#x200B;**. |
+| **[!UICONTROL Statut]** | Statut de la consolidation des ensembles de classifications. Les valeurs possibles sont les suivantes : **[!UICONTROL Créé]**, **[!UICONTROL Annulé]**, **[!UICONTROL Annulation]**, **[!UICONTROL Validation]**, **[!UICONTROL Échec de la validation]**, **[!UICONTROL Validé]**, **[!UICONTROL Comparaison]**, **[!UICONTROL Échec de la comparaison]**, **[!UICONTROL Submitted]**, **[!UICONTROL Consolidation]**, **[!UICONTROL Échec de la consolidation]**, **[!UICONTROL Consolidation réussie]**, **[!UICONTROL En attente de l’approbation]**, **[!UICONTROL Finalizing]**, **[!UICONTROL Échec]** ou **[!UICONTROL Completed]** ****. |
 | **[!UICONTROL Heure de création]** | Heure de création de la consolidation des ensembles de classifications. |
 | **[!UICONTROL Heure de fin]** | Heure d’achèvement des consolidations de classification. |
 

@@ -4,10 +4,16 @@ description: Pour les sites d’e-commerce, définit la devise utilisée par la 
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 98%
+source-wordcount: 952
+ht-degree: 96%
 
 ---
 
@@ -28,7 +34,7 @@ Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable
 >
 >Bien que les codes de devise puissent changer d’une page à l’autre, toutes les mesures de devise d’un seul accès doivent utiliser la même devise.
 
-Un point **doit** doit être utilisé comme séparateur de devise pour toutes les devises lors de la mise en place de cette variable. Par exemple, la couronne suédoise, qui utilise généralement un séparateur à virgules, doit être modifiée pour utiliser un point dans la variable `products` et dans tous les événements de devise. Adobe affiche le bon séparateur de devise dans les rapports.
+Un point **doit** doit être utilisé comme séparateur de devise pour toutes les devises lors de la mise en place de cette variable. Par exemple, la couronne suédoise, qui utilise normalement la virgule comme séparateur, doit être modifiée pour utiliser un point dans la variable `products` et dans tous les événements de devise. Adobe affiche le bon séparateur de devise dans les rapports.
 
 ## Code de devise utilisant le SDK Web
 
@@ -41,7 +47,7 @@ Le code de devise est mappé aux variables suivantes :
 
 Le code de devise correspond à un champ sous l’accordéon [!UICONTROL Général] lors de la configuration de l’extension Adobe Analytics.
 
-1. Connectez-vous à [Collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Code de devise].

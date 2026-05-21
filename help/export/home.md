@@ -3,10 +3,13 @@ title: Guide d’exportation Analytics
 description: Ce guide décrit les méthodes d’extraction des données d’Adobe Analytics à l’aide de flux de données et de Data Warehouse.
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 feature: Data Feeds, FTP Export, Data Warehouse
-source-git-commit: 68114921b40ffebd89e2843ad0f0cf44812cb13b
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/s9Izwb6M-vKB-1aH3l8nN-bS3KFmEA5CL8-YPn79gKA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 219
+ht-degree: 94%
 
 ---
 
@@ -34,11 +37,11 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensembl
 
 ## Plus de guides d’utilisation d’Analytics
 
-[Guides d’utilisation d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
+[Guides de l’utilisateur d’Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=fr)
 
 ## Principales ressources Analytics
 
-* [Contacter l’assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
-* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
-* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
-* [Experience League](https://experienceleague.adobe.com/fr)
+* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
+* [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
+* [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
+* [Experience League](https://experienceleague.adobe.com/fr)

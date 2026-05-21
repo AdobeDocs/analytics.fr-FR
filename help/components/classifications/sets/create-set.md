@@ -3,9 +3,15 @@ title: Créer Et Modifier Des Ensembles De Classifications
 description: Découvrez comment créer et modifier des ensembles de classifications dans Adobe Analytics, y compris les types de classification principaux et de recherche, les abonnements et les notifications de tâche.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 9feefd318d5239812f62afd727836e8aa203a4b2
+TQID: https://experienceleague.adobe.com/b-q3Dk14UUhBEzfhXvkPF1Zh56GrmpXh6N4Mtkiyl-c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: 502
 ht-degree: 2%
 
 ---
@@ -47,7 +53,7 @@ Vous pouvez :
    * Remplacez **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension clé]** par une combinaison qui n’est pas déjà abonnée à un autre ensemble de classifications.
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l’ensemble de classifications. Sélectionnez **[!UICONTROL Annuler]** pour annuler la définition.
 
-Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [&#x200B; modifier l’ensemble de classifications](#edit-a-classification-set).
+Pour définir le schéma de l’ensemble de classifications, sélectionnez l’ensemble de classifications que vous venez de créer dans le gestionnaire **[!UICONTROL Ensembles de classifications]** afin de [ modifier l’ensemble de classifications](#edit-a-classification-set).
 
 
 ## Modifier un ensemble de classifications

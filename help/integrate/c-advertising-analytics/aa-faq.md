@@ -3,9 +3,15 @@ description: Questions fréquentes sur Advertising Analytics.
 title: Questions fréquentes sur Advertising Analytics
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: 1298
 ht-degree: 32%
 
 ---
@@ -24,11 +30,11 @@ Non, cette fonctionnalité est disponible pour les clients non-Advertising. Les 
 
 Advertising Analytics est disponible pour Adobe Analytics
 
-* [&#x200B; Sélectionner &#x200B;](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
+* [Sélectionner](https://www.adobe.com/fr/data-analytics-cloud/analytics/select.html)
 
-* [&#128279;](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
+* [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html)
 
-* [&#128279;](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
+* [](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html)
 
 +++
 
@@ -56,7 +62,7 @@ Advertising Analytics est disponible uniquement pour les administrateurs Adobe A
 
 +++
 
-## Utilisation d’Advertising Analytics  {#using}
+## Utilisation d’Advertising Analytics {#using}
 
 +++ Quels comptes de moteurs de recherche sont inclus dans Advertising Analytics ?
 
@@ -105,7 +111,7 @@ Non, les données de recherche brutes seront entrées sous la forme d’un jeu d
 
 +++ J’essaie de mapper mes comptes Advertising Analytics à une suite de rapports spécifique, mais elle n’est pas disponible dans la fenêtre modale Suite de rapports. Pourquoi ? 
 
-Avant de pouvoir affecter une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être [configurée pour la création de rapports Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Avant de pouvoir affecter une suite de rapports à un compte Advertising Analytics, la suite de rapports souhaitée doit être [configurée pour la création de rapports Advertising Analytics)](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Pour ce faire, une page d’administration distincte est accessible à partir de : Admin > Suites de rapports > `[select report suite]` > Modifier les paramètres > Configuration Advertising Analytics.
 
 +++
@@ -128,7 +134,7 @@ Les données de recherche sont extraites des moteurs de recherche vers 6 heures 
 
 +++
 
-+++ Que peut-on *capturer avant le clic* ? Est-ce que nous fournissons le nombre d’impressions, le coût, la position moyenne, etc. même sans clic ?
++++ Que peut-on *capturer avant le clic* ? Est-ce que nous apportons des impressions, des coûts, la position moyenne, etc. même sans le clic ?
 
 L’ID AMO capture les mesures du moteur de recherche : Impressions, Coût, Clics, Position moyenne et Score de qualité moyen. En l’absence de clics, mais s’il y a des impressions, les données de note d’impression/de position/de qualité continueront à être envoyées à Analytics. En règle générale, l’absence de clics ne génère également aucun coût.
 
@@ -161,7 +167,7 @@ Non, actuellement, nous n&#39;avons pas de plan pour ces autres canaux sur la fe
 +++
 
 
-## Suivi automatique vs. manuel  {#section_7437C4698A6D482EB7ED94A948390119}
+## Suivi automatique vs. manuel {#section_7437C4698A6D482EB7ED94A948390119}
 
 +++ Lors de la configuration de mon compte Advertising, il est indiqué que le *suivi automatique* peut avoir des conséquences inattendues. Quel genre de conséquences peuvent survenir ? 
 

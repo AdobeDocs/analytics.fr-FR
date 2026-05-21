@@ -3,10 +3,15 @@ description: Description de la procédure de création d’une requête Data War
 title: Paramètres généraux des requêtes Data Warehouse
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/-FIw9vHeGpDbpd09GgRQqgK-5-srLyNCjDCLLhPBEYI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 34%
+source-wordcount: 399
+ht-degree: 36%
 
 ---
 
@@ -31,8 +36,8 @@ Pour configurer les paramètres généraux d’une requête Data Warehouse :
    | Option | Fonction |
    |---------|----------|
    | Nom de la demande | Ce nom apparaît sur la page Data Warehouse principale lors de la gestion des requêtes. |
-   | Périodes | Sélectionnez la période à inclure dans le rapport. <p>Vous pouvez choisir des dates personnalisées ou une période prédéfinie. Les plages prédéfinies sont relatives à la date d’envoi du rapport.</p><p>Les options de paramètre prédéfini suivantes sont disponibles :</p><ul><li>Today</li><li>Hier</li><li>7 derniers jours</li><li>30 derniers jours</li><li>Cette semaine</li><li>Semaine dernière</li><li>2 dernières semaines</li><li>3 dernières semaines</li><li>4 dernières semaines</li><li>Ce mois-ci</li><li>Mois dernier</li><li>Dernière heure</li></ul> |
-   | Granularité | Granularité temporelle. Les valeurs valides sont Aucune, Horaire, Journalière, Hebdomadaire, Mensuelle, Trimestrielle et Annuelle.<p>Les rapports de granularité nécessitent une durée de traitement plus longue. Dans le cas d’une granularité mensuelle pour une année complète, les rapports sont traités beaucoup plus rapidement si vous envoyez une demande de rapport pour chaque mois.</p><p>**Remarque :** lors de l’application de la granularité dans une requête Data Warehouse, la colonne « Date » est ajoutée au rapport. Selon la granularité sélectionnée, le format de date change comme suit :</p><ul><li>**Granularité horaire** :<ul> <li>**Format** : `mmmm d, yyyy` De `H` Heures</li><li>**Exemple** : 1Er Janvier 20XX, Heure 0 </li></ul><li>**Granularité quotidienne** :<ul> <li>**Format** : `mmmm d, yyyy`</li><li>**Exemple** : 1er janvier 20XX</li></ul><li>**Granularité hebdomadaire** :<ul> <li>**Format** : Semaine `w, yyyy`</li><li>**Exemple** : Semaine 1, 20XX </li></ul><li>**Granularité mensuelle** :<ul> <li>**Format** : `mmmm yyyy`</li><li>**Exemple** : 20XX Janvier </li></ul><li>**Granularité trimestrielle** :<ul> <li>**Format** : `q` Trimestre `yyyy`</li><li>**Exemple** : 1er trimestre 20XX </li></ul><li>**Granularité annuelle** :<ul> <li>**Format** : `yyyy`</li><li>**Exemple** : 20XX</li></ul> |
+   | Périodes | Sélectionnez la période à inclure dans le rapport. <p>Vous pouvez choisir des dates personnalisées ou une période prédéfinie. Les plages prédéfinies sont relatives à la date d’envoi du rapport.</p><p>Les options de paramètre prédéfini suivantes sont disponibles :</p><ul><li>Aujourd’hui</li><li>Hier</li><li>7 derniers jours</li><li>30 derniers jours</li><li>Cette semaine</li><li>Semaine dernière</li><li>2 dernières semaines</li><li>3 dernières semaines</li><li>4 dernières semaines</li><li>Ce mois</li><li>Le mois dernier</li><li>Dernière heure</li></ul> |
+   | Granularité | Granularité temporelle. Les valeurs valides sont Aucune, Horaire, Journalière, Hebdomadaire, Mensuelle, Trimestrielle et Annuelle.<p>Les rapports de granularité nécessitent une durée de traitement plus longue. Dans le cas d’une granularité mensuelle pour une année complète, les rapports sont traités beaucoup plus rapidement si vous envoyez une demande de rapport pour chaque mois.</p><p>**Remarque :** lors de l’application de la granularité dans une requête Data Warehouse, la colonne « Date » est ajoutée au rapport. Selon la granularité sélectionnée, le format de date change comme suit :</p><ul><li>**Granularité horaire** :<ul> <li>**Format** : `H` De `mmmm d, yyyy` Heures</li><li>**Exemple** : 1Er Janvier 20XX, Heure 0 </li></ul><li>**Granularité quotidienne** :<ul> <li>**Format** : `mmmm d, yyyy`</li><li>**Exemple** : 1er janvier 20XX</li></ul><li>**Granularité hebdomadaire** :<ul> <li>**Format** : Semaine `w, yyyy`</li><li>**Exemple** : Semaine 1, 20XX </li></ul><li>**Granularité mensuelle** :<ul> <li>**Format** : `mmmm yyyy`</li><li>**Exemple** : 20XX Janvier </li></ul><li>**Granularité trimestrielle** :<ul> <li>**Format** : `q` Trimestre `yyyy`</li><li>**Exemple** : 1er trimestre 20XX </li></ul><li>**Granularité annuelle** :<ul> <li>**Format** : `yyyy`</li><li>**Exemple** : 20XX</li></ul> |
    | Mettre à la disposition des utilisateurs de votre organisation | Toutes les requêtes Data Warehouse ne sont visibles que par vous et par tous les administrateurs système. Activez cette option si vous souhaitez que la requête soit visible par tous les membres de votre organisation. <p>L’activation de cette option est utile si vous souhaitez que d’autres utilisateurs et utilisatrices de votre organisation vous aident à créer ou mettre à jour la demande.</p> |
 
    {style="table-layout:auto"}

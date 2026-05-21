@@ -1,13 +1,19 @@
 ---
-description: Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
+description: Lorsque des profils de visite sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 keywords: Mise en œuvre d’Analytics
 title: Attribution et persistance
 feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
 role: Developer
-source-git-commit: e242276f931e9939081b948a9d9ef8a087e16461
+TQID: https://experienceleague.adobe.com/rEt9Nkt-c4sU08h-iYozgQmc1-N7RKWGNHzc-MOWja4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: 558
 ht-degree: 95%
 
 ---
@@ -18,7 +24,7 @@ ht-degree: 95%
 >
 >Cette méthode d’identification des visiteurs sur plusieurs appareils n’est plus recommandée. Reportez-vous à la section [Analytics sur l’ensemble des appareils](/help/components/cda/overview.md) dans le guide d’utilisation des composants.
 
-Lorsque des profils du visiteur sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
+Lorsque des profils de visite sont fusionnés après avoir été associés à la même variable d’identifiant visiteur, l’attribution n’est pas modifiée dans l’ensemble de données historiques.
 
 * Lorsque la variable `visitorID` est définie et envoyée sur un accès, Adobe recherche tout autre profil de visiteur avec un identifiant visiteur correspondant.
 * Si un profil existe, le profil du visiteur qui figure déjà dans le système est utilisé à partir de ce moment et le profil précédent est abandonné.
@@ -30,7 +36,7 @@ Lorsqu’un client non authentifié arrive pour la première fois sur votre site
 
 L’exemple ci-dessous explique comment les données sont envoyées à Adobe Analytics lorsqu’un client s’authentifie pour la première fois, sur le premier appareil :
 
-* `eVar16` expire au bout d’1 jour et `evar17` expire à la fin de la visite.
+* `eVar16` expire au bout de 1 jour et `evar17` expire à la fin de la visite.
 * La colonne `post_visitor_id` représente le profil stocké par Adobe Analytics. Les colonnes de publication sont généralement affichées dans les flux de données. Voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation Exportation.
 * Les colonnes `post_evar16` et `post_evar17` affichent la persistance des eVars.
 * `cust_visid` représente un jeu de valeurs dans `visitorID`.

@@ -4,10 +4,14 @@ description: Reconnaissez les identifiants communs des robots.
 feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/5pfpWlD50DyOhSADhRnchl-bclDhdpFFS5mjl0M9AoQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: 536
+ht-degree: 94%
 
 ---
 
@@ -65,7 +69,7 @@ Lʼutilisateur ne se connecte à aucun moment de sa visite et ses eVars dʼident
 
 ## Aucun KPI lors de la visite
 
-En règle générale, les robots nʼajoutent pas de produits à un panier ou n’effectuent pas le passage en caisse. La plupart du temps, ils nʼenvoient pas de formulaire de prospect ou dʼautres événements de succès, mais certains robots envoient des formulaires HTML simples.
+En règle générale, les robots nʼajoutent pas de produits à un panier ou n’effectuent pas le passage en caisse. La plupart du temps, ils n’envoient pas de formulaires de prospect ou d’autres événements de succès, mais certains robots envoient des formulaires HTML simples. &#x200B;
 
 ## Chaîne de requête spécifique présente
 
@@ -73,6 +77,6 @@ Parfois, les robots tentent de détruire le cache ou dʼendommager les sites en 
 
 ## Adresses IP provenant de plateformes de calcul distribuées
 
-Les services dʼhébergement Web comme Amazon Web Services ou Google Cloud peuvent être utilisés à mauvais escient comme des fermes de robots. Ces adresses IP risquent fort dʼêtre des robots :
+Les services dʼhébergement Web comme Amazon Web Services ou Google Cloud peuvent être utilisés à mauvais escient comme des fermes de robots. Ces adresses IP présentent un risque élevé d’être des robots :
 &#x200B;
 * [Google Cloud](https://cloud.google.com/compute/) : lʼadresse IP commence par `&#x200B;35.199` ou `35.194&#x200B;`

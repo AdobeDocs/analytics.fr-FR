@@ -6,10 +6,16 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 9743d7ac2a6c7e63d7a6701e60d05683c5680d36
+TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 0%
+source-wordcount: 1202
+ht-degree: 1%
 
 ---
 
@@ -56,7 +62,7 @@ Pour ouvrir un classeur hérité, vous pouvez :
 
    1. Sélectionnez ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
    1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
-   1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
+   1. Convertissez ensuite [ classeur hérité](#convert-a-workbook).
 
 
 ## Convertir un classeur hérité
@@ -106,7 +112,7 @@ Vous avez la possibilité d’utiliser les détails de la planification du class
 
    ![Capture d’écran des options des paramètres de planning hérités de [!DNL Excel] Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
-   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [&#x200B; Envoyer le classeur &#x200B;](schedule-reportbuilder.md#schedule-a-workbook).
+   * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [ Envoyer le classeur ](schedule-reportbuilder.md#schedule-a-workbook).
    * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
    * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 

@@ -3,9 +3,13 @@ title: Communiquer l’impact aux utilisateurs
 description: Découvrez des moyens efficaces de communiquer l’impact d’un événement dans votre organisation.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: 353
 ht-degree: 1%
 
 ---
@@ -51,9 +55,9 @@ Pour toute visualisation des tendances dans Workspace, vous pouvez ajouter dans 
 
 1. Cliquez sur l’icône d’engrenage des paramètres de colonne pour votre mesure calculée, puis activez **[!UICONTROL Interpréter zéro comme n’étant pas une valeur]**.
 
-   ![&#x200B; Paramètres des mesures calculées &#x200B;](assets/calcmetric_zero_no_value.png)
+   ![ Paramètres des mesures calculées ](assets/calcmetric_zero_no_value.png)
 
 1. Ajoutez une visualisation Ligne . Les jours concernés sont représentés avec une couleur différente. Les utilisateurs peuvent également cliquer sur l’icône « Infos » dans la mesure calculée pour obtenir plus d’informations.
 
-   ![&#x200B; Icône Infos &#x200B;](assets/calcmetric_infoicon.png)
+   ![ Icône Infos ](assets/calcmetric_infoicon.png)
 

@@ -1,24 +1,30 @@
 ---
-description: Définit des paramètres courants pour un site Web qui fournit des vidéos et articles d’assistance sur un produit.
+description: Fournit des paramètres courants pour un site Web qui fournit des articles et des vidéos d’assistance sur les produits.
 title: Média d’assistance
 feature: Report Suite Settings
 exl-id: f522173a-8f58-4fa4-868b-251158a71e26
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/SwCS1uNaOifhg6BD83qqDBZeJ86qn7J3JYgIZEiMRnY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: 182
+ht-degree: 62%
 
 ---
 
 # Média d’assistance
 
-Définit des paramètres courants pour un site web qui fournit des vidéos et articles d’assistance sur un produit.
+Fournit des paramètres courants pour un site Web qui fournit des articles et des vidéos d’assistance sur les produits.
 
 | Variables de conversion | Type | Sous-relations | Affectation | Expiration | Variable `s_code` |
 |---|---|---|---|---|---|
-| Promotion interne | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar1` |
-| Termes de recherche internes | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar2` |
-| Type d’événement en libre-service | Chaîne | Élémentaire | Le plus récent (Dernier) | Visite | `evar3` |
+| Promotion interne | Chaîne | De base | Le dernier | Visite | `evar1` |
+| Termes de recherche internes | Chaîne | De base | Le dernier | Visite | `evar2` |
+| Type d’événement de libre-service | Chaîne | De base | Le dernier | Visite | `evar3` |
 
 Aucun événement de succès n’est configuré par ce modèle de suite de rapports.
 
@@ -27,9 +33,9 @@ Aucun événement de succès n’est configuré par ce modèle de suite de rappo
 | Sécurisé / Non sécurisé | `prop1` |
 | Propriété du trafic 2 à 5 | `prop2, prop3, prop4, prop5` |
 
-Le tableau suivant contient une liste d’événements commerciaux standard. La configuration initiale de ces événements est identique dans tous les modèles de suite de rapports. Les événements dont la variable s_code est N/D ne doivent pas être définis ; ils sont fournis automatiquement.
+Le tableau suivant répertorie les événements commerciaux standard. La configuration initiale de ces événements est identique dans tous les modèles de suite de rapports. Les événements dont la variable s_code est N/D ne doivent pas être définis ; ils sont fournis automatiquement.
 
-| Événements commerciaux standard | Type | Variable `s_code` |
+| Événements Commerce standard | Type | Variable `s_code` |
 |---|---|---|
 | Recettes | Compteur | `purchase` |
 | Commandes | Compteur | `purchase` |

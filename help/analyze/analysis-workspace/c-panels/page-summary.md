@@ -4,9 +4,14 @@ title: Panneau Résumé de la page
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/WI5opV6DcvJRF--HuX8PJcJd7G-3XU0-E0hWvvdlwmM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: 642
 ht-degree: 87%
 
 ---
@@ -27,14 +32,14 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panneau Synthèse de la page"
->abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
+>abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

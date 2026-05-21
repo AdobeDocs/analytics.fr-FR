@@ -4,10 +4,16 @@ description: Utilisez l’événement d’achat pour collecter des données pour
 feature: Appmeasurement Implementation
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/r-L330P6HA5qWBmEW-2LwECo-d3dhVK1ovWsfraErXE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 70%
+source-wordcount: 474
+ht-degree: 75%
 
 ---
 
@@ -65,7 +71,7 @@ Si vous utilisez l’objet [**data**](/help/implement/aep-edge/data-var-mapping.
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez la section [!UICONTROL Events] et définissez la liste déroulante [!UICONTROL Events] sur [!UICONTROL purchase].
 
 D’autres variables dépendantes telles que `products` et `purchaseID` ne comportent pas de champs dédiés dans l’extension Analytics de la collecte de données Adobe Experience Platform. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement pour ces variables.

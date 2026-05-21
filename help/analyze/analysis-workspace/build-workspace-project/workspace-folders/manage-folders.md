@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: Gérer les dossiers
 feature: Workspace Basics
 exl-id: af3248eb-7b75-49cd-9dea-bf621d06677b
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+TQID: https://experienceleague.adobe.com/hRmCSe6CBQX68BmeF53-xK65ZHSXFhNnt5QYw-hRQ-Q
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 86%
+source-wordcount: 431
+ht-degree: 81%
 
 ---
 
@@ -24,13 +29,13 @@ Pour renommer des dossiers dans Workspace :
 * Sélectionnez un dossier que vous souhaitez renommer dans la [liste des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
    1. Sélectionnez **[!UICONTROL Renommer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez**[!UICONTROL Enregistrer ]**.
 
 * Dans le dossier que vous souhaitez renommer.
 
    1. Sélectionnez **[!UICONTROL Renommer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez**[!UICONTROL Enregistrer ]**.
 
 
 ## Déplacement des dossiers
@@ -70,13 +75,13 @@ Pour supprimer des dossiers dans Workspace,
 
    1. Sélectionnez **[!UICONTROL Supprimer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
 
-   1. Dans la boîte de dialogue **[!UICONTROL Souhaitez-vous confirmer ?]**, sélectionnez **[!UICONTROL OK]** pour supprimer les dossiers.
+   1. Dans le **[!UICONTROL Êtes-vous sûr(e) ?]** , sélectionnez **[!UICONTROL OK]** pour supprimer les dossiers.
 
 * Sélectionnez le dossier que vous souhaitez supprimer.
 
    1. Sélectionnez **[!UICONTROL Supprimer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans la boîte de dialogue **[!UICONTROL Supprimer *nom* du dossier ?]**, sélectionnez **[!UICONTROL OK]**.
+   1. Dans le dossier **[!UICONTROL Supprimer *nom* ?]** , sélectionnez **[!UICONTROL OK]**.
 
 
 <!-- 

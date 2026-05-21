@@ -3,10 +3,16 @@ title: Importer des mesures de référencement payant
 description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google Ads, Microsoft Advertising, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 90%
+source-wordcount: 1216
+ht-degree: 79%
 
 ---
 
@@ -98,13 +104,13 @@ Assurez-vous que l’exportation comprend les champs suivants : date, URL de de
 
 1. Dans Microsoft Excel, supprimez toutes les colonnes autres que celles mentionnées ci-dessus.
 1. Supprimez toutes les lignes supplémentaires en haut.
-1. Pour isoler les codes de suivi des URL de destination, procédez comme suit :
-a. Copiez et collez les données de toutes les colonnes.
+1. Pour isoler les codes de suivi des URL de destination :
+a. Copiez et collez des données à partir de toutes les colonnes.
 b. Cliquez sur **[!UICONTROL Données > Texte en colonnes]**.
-c. À l’étape 1 de l’assistant, assurez-vous que **[!UICONTROL Délimité]** est sélectionné, puis cliquez sur **[!UICONTROL Suivant]**.
-d. À l’étape 2 de l’assistant, spécifiez le délimiteur en fonction de la façon dont vous avez créé vos URL (soit ? ou &amp;), puis cliquez sur **[!UICONTROL Suivant]**.
-e. À l’étape 3 de l’assistant, prévisualisez vos données et vérifiez que l’une des colonnes est « trackingcodename=trackingcode ». Si vous disposez de variables supplémentaires, répétez ces étapes (utilisez &amp; comme délimiteur).
-f. Supprimez toutes les colonnes, à lʼexception des codes de suivi, des impressions, des clics et des coûts. Ajoutez une nouvelle colonne intitulée Date et organisez vos colonnes dans l’ordre suivant : Date :: Code de suivi :: Impressions :: Clics :: Coûts.
+c. À l’étape 1 de l’assistant, assurez-vous que **[!UICONTROL Délimité]** est sélectionné, puis cliquez sur **[!UICONTROL Suivant]**.
+d. À l’étape 2 de l’assistant, spécifiez le délimiteur en fonction de la manière dont vous avez créé vos URL (soit ? ou &amp;), puis cliquez sur **[!UICONTROL Suivant]**.
+e. À l’étape 3 de l’assistant, prévisualisez vos données et assurez-vous que l’une des colonnes est « trackingcodename=trackingcode ». Si vous disposez de variables supplémentaires, répétez ces étapes (utilisez &amp; comme délimiteur).
+f. Supprimer toutes les colonnes à l’exception des codes de suivi, des impressions, des clics et des coûts. Ajoutez une nouvelle colonne intitulée Date et organisez vos colonnes dans l’ordre suivant : Date :: Code de suivi :: Impressions :: Clics :: Coûts.
 1. Ajoutez ces données au modèle téléchargé dans la section « Configurer les sources de données » ci-dessus.
 Vous êtes maintenant prêt à télécharger le fichier.
 
@@ -122,8 +128,8 @@ Vous pouvez, par exemple, ajouter ces [mesures calculées](/help/components/calc
 
 | Nom | Formule | Type de mesure | Description |
 | --- | --- | --- | --- |
-| Pages vues par visite | Pages vues / Visites | Numérique | Lorsqu’elle est appliquée au niveau d’un site, indique le nombre moyen de pages par visite. Lorsqu’elle est appliquée dans le rapport Pages les plus populaires, indique le nombre moyen de fois où une page particulière a été affichée par visite. |
-| Valeur de commande moyenne | Recettes / Commandes | Devise | Indique les recettes moyennes par commande. |
+| Pages vues par visite | Pages vues/Visites | Numérique | Lorsqu’elle est appliquée au niveau d’un site, indique le nombre moyen de pages par visite. Lorsqu’elle est appliquée dans le rapport Pages les plus populaires : indique le nombre moyen de fois qu’une page spécifique a été consultée par visite. |
+| Valeur de commande moyenne | Chiffre d’affaires/commandes | Devise | Affiche le chiffre d’affaires moyen par commande. |
 | Recettes par visite | Chiffre dʼaffaires/Visite | Devise | Indique le chiffre dʼaffaires moyen par visite. |
 | Taux de clic publicitaire (CTR) | Clics/Impressions | Numérique | Mesurez le rapport clics/impressions d’une publicité en ligne ou d’une campagne marketing par e-mail. |
 | Profits | Chiffre dʼaffaires - Coûts | Devise | Affiche le chiffre dʼaffaires d’une campagne moins les coûts. |

@@ -4,9 +4,13 @@ description: Les variables de données contextuelles vous permettent de définir
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
+TQID: https://experienceleague.adobe.com/Axaq7Rm6Ep2dyzjtWJAKLoOgG1iCt4QWuxf6H0fS75U
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: 601
 ht-degree: 64%
 
 ---
@@ -21,7 +25,7 @@ La taille maximale de toutes les variables de données contextuelles combinées 
 
 ## Variables de données contextuelles utilisant le SDK Web
 
-Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne sont pas mappés à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez également définir explicitement des données contextuelles à l’aide de l’objet XDM. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.  Voir [&#x200B; Mappage d’autres champs XDM aux variables Analytics &#x200B;](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) pour plus d’informations.
+Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), tous les champs qui ne sont pas mappés à une variable Adobe Analytics sont automatiquement inclus en tant que variable de données contextuelles. Vous pouvez également définir explicitement des données contextuelles à l’aide de l’objet XDM. Vous pouvez ensuite utiliser [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour affecter la variable de données contextuelles à la variable Analytics souhaitée.  Voir [ Mappage d’autres champs XDM aux variables Analytics ](../../aep-edge/xdm-var-mapping.md#mapping-other-xdm-fields-to-analytics-variables) pour plus d’informations.
 
 Si vous utilisez l’objet [**data**](/help/implement/aep-edge/data-var-mapping.md), toutes les variables de données contextuelles résident dans `data.__adobe.analytics.contextData` en tant que paires clé-valeur :
 

@@ -4,9 +4,13 @@ description: Permet de mesurer le temps qui s’écoule entre deux événements.
 feature: Appmeasurement Implementation
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/c5KvEWtYaEs-Ox78s0Y-lIfbkLAm7lz0vHSrFQucxyU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: 821
 ht-degree: 91%
 
 ---
@@ -62,10 +66,10 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 
-* **`ste`** (obligatoire, chaîne) : événements de démarrage du minuteur. Chaîne d’événements Analytics délimitée par des virgules permettant de « démarrer le minuteur ».
-* **`rt`** (obligatoire, booléen) : option de redémarrage du minuteur. Définissez cet argument sur `true` si vous souhaitez redémarrer le minuteur chaque fois que la variable `events` contient un événement de démarrage du minuteur. Définissez-le sur `false` si vous ne souhaitez pas que le minuteur redémarre lorsqu’il détecte un événement de démarrage du minuteur.
-* **`stp`** (obligatoire, chaîne) : événements d’arrêt du minuteur. Chaîne d’événements Analytics délimitée par des virgules permettant d’« arrêter le minuteur ».
-* **`res`** (obligatoire, booléen) : option de réinitialisation du minuteur. Définissez cet argument sur `true` si vous souhaitez enregistrer le temps depuis le démarrage du minuteur ET réinitialiser le minuteur après son arrêt. Définissez-le sur `false` si vous souhaitez enregistrer le temps sans arrêter le minuteur. S’il est défini sur `false`, le minuteur continue de fonctionner après que la variable events a enregistré un événement d’arrêt.
+* **`ste`** (obligatoire, chaîne) : événements de démarrage du retardateur. Chaîne d’événements Analytics délimitée par des virgules permettant de « démarrer le retardateur ».
+* **`rt`** (obligatoire, booléen) : option de redémarrage du retardateur. Définissez cet argument sur `true` si vous souhaitez redémarrer le retardateur chaque fois que la variable `events` contient un événement de démarrage du retardateur. Définissez-le sur `false` si vous ne souhaitez pas que le retardateur redémarre lorsqu’il détecte un événement de démarrage du retardateur.
+* **`stp`** (obligatoire, chaîne) : événements d’arrêt du retardateur. Chaîne d’événements Analytics délimitée par des virgules permettant d’« arrêter le retardateur ».
+* **`res`** (obligatoire, booléen) : option de réinitialisation du retardateur. Définissez cet argument sur `true` si vous souhaitez enregistrer le temps depuis le démarrage du retardateur ET réinitialiser le retardateur après son arrêt. Définissez-le sur `false` si vous souhaitez enregistrer le temps sans arrêter le retardateur. S’il est défini sur `false`, le retardateur continue de fonctionner après que la variable « events » a enregistré un événement d’arrêt.
 
   >[!TIP]
   >
@@ -83,9 +87,9 @@ La fonction `getTimeBetweenEvents` utilise les arguments suivants :
       * Tout ce qui se situe entre une heure et un jour est arrondi à la référence d’un quart d’heure la plus proche. Par exemple, 2,25 heures, 3,5 heures.
       * Tout ce qui est supérieur à un jour est arrondi à la référence de jour la plus proche. Par exemple, 1 jour, 3 jours, 9 jours.
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi selon le format de l’argument `fmt`. Par exemple, si l’argument `fmt` est sur `"s"` et que cet argument est défini sur `2`, la valeur renvoyée est arrondie à la référence de deux secondes la plus proche. Si l’argument `fmt` est sur `"m"` et que cet argument est défini sur `0.5`, la valeur renvoyée est arrondie à la référence d’une demi-minute la plus proche.
-* **`rte`** (facultatif, chaîne) : chaîne d’événements Analytics délimitée par des virgules qui supprime ou annule le minuteur. La valeur par défaut est nulle.
+* **`rte`** (facultatif, chaîne) : chaîne d’événements Analytics délimitée par des virgules qui supprime ou annule le retardateur. La valeur par défaut est nulle.
 
-Lʼappel de cette fonction renvoie un entier représentant le temps écoulé entre lʼévénement de démarrage du minuteur et lʼévénement dʼarrêt du minuteur au format souhaité.
+Lʼappel de cette fonction renvoie un entier représentant le temps écoulé entre lʼévénement de démarrage du retardateur et lʼévénement dʼarrêt du retardateur au format souhaité.
 
 ## Exemples d’appels
 

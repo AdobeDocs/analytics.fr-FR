@@ -3,9 +3,15 @@ description: Découvrez comment afficher les données de tendance d’un tableau
 title: Affichage des données de tendance pour un tableau à structure libre
 feature: Freeform Tables
 role: User, Admin
-source-git-commit: 9035ea758a5e84812460c042685eae954303cc8a
+exl-id: b1d109fd-0e3c-45df-94d0-1a6383d7f995
+TQID: https://experienceleague.adobe.com/-L-J1kq-YozWG8VnwD8-7637M6QlUYu3-wVeBvVBipA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -44,7 +50,7 @@ Selon la manière dont et le moment où la visualisation en ligne a été ajout�
 
 1. Sélectionnez le point en regard du nom de la visualisation, sélectionnez l’onglet **[!UICONTROL Source de données]**, puis sélectionnez le nom du tableau à structure libre que vous souhaitez connecter à la visualisation en ligne.
 
-   ![&#x200B; visualisation en ligne connectée aux tableaux à structure libre &#x200B;](assets/table-line-viz.png)
+   ![ visualisation en ligne connectée aux tableaux à structure libre ](assets/table-line-viz.png)
 
 ### Choisissez les données incluses dans la visualisation en ligne
 
@@ -76,4 +82,3 @@ Lorsque le graphique sparkline du tableau connecté n’est pas sélectionné, l
 ## Inclure des critères de filtre dans les visualisations Ligne connectée
 
 Pour plus d’informations sur le moment où les critères de filtre sont inclus dans les visualisations Ligne connectée, voir [Inclure les critères de filtre dans les données de tendance dans les graphiques sparkline et Ligne](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md#include-filter-criteria-in-trended-data-in-sparklines-and-line-visualizations)
-

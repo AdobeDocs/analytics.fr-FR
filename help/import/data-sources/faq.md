@@ -4,10 +4,15 @@ description: Questions fréquentes sur les sources de données.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/RS75oqFMxi3GsiNkcqTUKAVEvlHVo9bLiR2Nt-cVU74
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 7%
+source-wordcount: 430
+ht-degree: 9%
 
 ---
 
@@ -32,14 +37,14 @@ Non. Données chargées par le biais des sources de données :
 
 * Ne passe pas par [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 * Ne passe pas par les [règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
-* ne passe pas par les [&#x200B; règles VISTA &#x200B;](/help/technotes/vista.md)
+* ne passe pas par les [ règles VISTA ](/help/technotes/vista.md)
 +++
 
 +++Puis-je supprimer des données importées à l’aide de sources de données ?
-Oui. Vous pouvez supprimer ces données à l’aide de l’[API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/?lang=fr). Adobe recommande vivement de charger les données des sources de données dans une suite de rapports de test avant de les charger dans une suite de rapports de production afin de réduire la nécessité de supprimer les données.
+Oui. Vous pouvez supprimer ces données à l’aide de l’[API Data Repair](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/). Adobe recommande vivement de charger les données des sources de données dans une suite de rapports de test avant de les charger dans une suite de rapports de production afin de réduire la nécessité de supprimer les données.
 +++
 
-+++Combien de données puis-je importer en même temps ? 
++++Combien de données puis-je importer en même temps ?
 Le traitement s’interrompt au-delà de 50 Mo et ne reprend qu’une fois que le total est inférieur à 50 Mo. Assurez-vous que la taille totale de tous les fichiers sur le site FTP est inférieure à 50 Mo.
 +++
 

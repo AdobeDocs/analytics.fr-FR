@@ -4,10 +4,15 @@ title: Comparaison des dates
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: 768
+ht-degree: 95%
 
 ---
 
@@ -17,7 +22,7 @@ Dans Analysis Workspace, appliquez une comparaison de dates commune à partir d
 
 ## Comparer des périodes
 
-Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question *Dans quelle mesure votre situation est-elle meilleure ou pire qu’à la même époque l’année dernière ?* est essentielle pour bien comprendre vos activités. La comparaison des dates inclut automatiquement une colonne *différence*, qui présente le pourcentage de changement par rapport à une période donnée.
+Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce contexte découle d’une période précédente. Par exemple, la question *Dans quelle mesure votre situation s’est-elle améliorée ou détériorée par rapport à la même période l’an dernier ?* est essentiel à la compréhension de votre entreprise. La comparaison des dates inclut automatiquement une colonne *différence*, qui présente le pourcentage de changement par rapport à une période donnée.
 
 1. Créez un [tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), avec les dimensions et mesures à comparer sur une certaine période.
 1. Définissez la période sur le panneau ou la colonne pour déterminer la période de comparaison, et s’il s’agit d’une comparaison de temps fixe ou flottante.
@@ -43,7 +48,7 @@ Une analyse ne peut pas avoir lieu sans contexte. Il arrive souvent que ce conte
 
    >[!NOTE]
    >
-   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Période personnalisée à cette période]**.
+   >Lorsque vous sélectionnez un nombre de jours personnalisé (par exemple, du 7 au 20 octobre, soit 14 jours), seules deux options sont proposées : **[!UICONTROL 14 jours précédant cette période]** et **[!UICONTROL Période personnalisée à cette période]**.
 
 1. La comparaison qui en résulte ressemble à ceci :
 
@@ -63,7 +68,7 @@ Vous pouvez désormais ajouter une période à chaque colonne d’un tableau, ce
 
    | Option | Description |
    |---|---|
-   | **[!UICONTROL *x* semaines/mois/trimestres/années précédant cette période]** | Ajoute une colonne avec la semaine/le mois/etc. précédant immédiatement cette période. |
+   | **[!UICONTROL *x* semaines/mois/trimestres/années précédant cette période]** | Ajoutez une colonne avec la semaine/le mois/etc. juste avant cette période. |
    | **[!UICONTROL Ces *x* semaines/mois/trimestres/années l’année dernière à cette période]** | Ajoute la même période il y a un an. |
    | **[!UICONTROL Période personnalisée à cette période]** | Permet de créer une période personnalisée. |
 
@@ -106,7 +111,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

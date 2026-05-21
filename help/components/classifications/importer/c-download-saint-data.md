@@ -3,10 +3,16 @@ description: (Facultatif) Avant d’importer des classifications dans des rappor
 title: Modèle de classification
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/OR9THCLd93iUl58npPiinO4yAsK8KG3FU8qmBILHioY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 99%
+source-wordcount: 355
+ht-degree: 92%
 
 ---
 
@@ -27,7 +33,7 @@ ht-degree: 99%
 | Sélectionner une suite de rapports | Sélectionnez la suite de rapports à utiliser dans le modèle. La suite de rapports et l’ensemble de données doivent correspondre. |
 | Données à classer | Sélectionnez le type de données pour le fichier de données. Le menu comprend tous les rapports des suites de rapports qui sont configurés pour les classifications. |
 | Exporter Numérique 2 | **Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
-| Encodage | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8.<br>**Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
+| Encodage | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est UTF-8.<br>**Important** : cette option n’est pas disponible pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | Télécharger | Télécharge le fichier de modèle. |
 
 Ce modèle comprend les classifications actuellement définies (en-têtes de colonne) pour un ensemble de données spécifiques sans inclure les données associées à chaque classification.

@@ -1,16 +1,22 @@
 ---
 description: Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment.
-title: Suites de rapports virtuelles - Aperçu
+title: Vue d’ensemble des suites de rapports virtuelles
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+TQID: https://experienceleague.adobe.com/gEs8c9pIUGbbPx7DBAwFhSvT-C6W2vfosgMkrO-32ic
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 100%
+source-wordcount: 812
+ht-degree: 96%
 
 ---
 
-# Suites de rapports virtuelles - Aperçu
+# Vue d’ensemble des suites de rapports virtuelles
 
 Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment.
 
@@ -20,7 +26,7 @@ Par exemple, toutes les données peuvent être collectées dans une suite de rap
 
 Une *suite de rapports virtuelle* permet de reproduire ce concept d’embranchement en utilisant des segments au lieu de plusieurs suites de rapports. Les données sont envoyées à une suite de rapports, puis divisées selon les segments. En utilisant l’exemple des marques multiples, vous pouvez définir une prop pour la marque à laquelle appartient un article. En utilisant des segments, vous pouvez créer des rapports pour les éléments assignés à chaque prop. Chacun de ces segments devient sa propre vue, créant ainsi une suite de rapports. Vous n’envoyez pas de données spécifiquement à ce segment, uniquement à la suite de rapports globale, mais elle fonctionne dans les rapports comme s’il s’agissait d’une suite de rapports différente.
 
-Une suite de rapports virtuelle hérite de la plupart des niveaux de service de la suite de rapports de base (parente) tels que les paramètres d’eVar, les règles de traitement, les classifications, etc. Les paramètres suivants NE sont PAS hérités :
+Une suite de rapports virtuelle hérite de la plupart des niveaux de service de la suite de rapports de base, tels que les paramètres eVar, les règles de traitement, les classifications, etc. Les paramètres suivants ne sont PAS hérités :
 
 * Identifiant de la suite de rapports (RSID)
 * Nom de la suite de rapports

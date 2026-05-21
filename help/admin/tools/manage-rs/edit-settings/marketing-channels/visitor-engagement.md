@@ -5,10 +5,14 @@ title: Expiration du canal marketing
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/Og6HFSObiTqFg-HRqVzQWWnaGP0J--cJ9N8wvfuKsJc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: 393
+ht-degree: 88%
 
 ---
 
@@ -42,7 +46,7 @@ Les paramètres d’expiration sont les suivants :
 |--- |--- |
 | Jours d’inactivité | Le nombre de jours qui doivent s’écouler avant l’expiration de l’engagement Première touche d’un visiteur. La valeur par défaut est 30. |
 | Jamais | La période d’engagement du visiteur n’expire jamais. |
-| Réinitialisation de canal | Fait expirer toutes les périodes d’engagement des visiteurs.  Si vous devez réinitialiser toutes les données de canal marketing, vous pouvez mettre fin à toutes les périodes d’activité des visiteurs. Vous devrez peut-être réinitialiser les données si vos règles de traitement étaient incorrectement configurées. Toutes les valeurs de canal Première touche et Dernière touche vont immédiatement expirer et seront réinitialisées au retour des visiteurs. |
+| Réinitialisation de canal | Fait expirer toutes les périodes d’engagement des visiteurs.  Si vous devez réinitialiser toutes les données des canaux marketing, vous pouvez faire expirer toutes les périodes d’engagement des visiteurs. Vous devrez peut-être réinitialiser les données si vos règles de traitement n’ont pas été configurées correctement auparavant. Toutes les valeurs du canal Première touche et Dernière touche expirent immédiatement et sont réinitialisées lorsque les visiteurs reviennent. |
 
 ## Définir l’expiration du canal marketing {#define-expiration}
 

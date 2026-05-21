@@ -3,9 +3,14 @@ description: Découvrez comment utiliser les opérateurs du créateur de segment
 title: Opérateurs
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: 1213
 ht-degree: 38%
 
 ---
@@ -31,7 +36,7 @@ Le seul caractère générique pris en charge pour les opérateurs qui le font e
 Par exemple, vous avez un nom de page appelé *Mon produit cool*.
 
 * La règle de segment **[!UICONTROL Nom de page]** **[!UICONTROL correspond]** `* product` correspond au nom de page ci-dessus.
-* Cependant, la règle **[!UICONTROL Nom de la page]** **[!UICONTROL correspond]** `My \* product` correspond uniquement au nom de la page *Mon * Produit*.
+* Cependant, la règle **[!UICONTROL Nom de la page]** **[!UICONTROL correspond]** `My \* product` correspond uniquement au nom de la page *Mon* Produit*.
 
 ## Opérateurs standard
 
@@ -81,6 +86,6 @@ Vous pouvez segmenter un nombre d’éléments distinct dans une dimension. Exem
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Nombre de dimensions distinct](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Nombre de dimensions distinct](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]

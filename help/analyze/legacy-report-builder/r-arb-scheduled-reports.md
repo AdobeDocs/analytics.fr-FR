@@ -4,10 +4,16 @@ title: À propos du Gestionnaire des tâches planifiées
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/bH-sAinp0Hf0X9qesfrJMIUYdDqjrev5Hd7mRpihDLM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 42%
+source-wordcount: 788
+ht-degree: 21%
 
 ---
 
@@ -21,10 +27,10 @@ Le [!UICONTROL Gestionnaire des tâches planifiées] vous permet d’afficher un
 
 Le 21 avril 2022, nous avons apporté des modifications aux tâches planifiées dans Report Builder dans le cadre de nos efforts d’optimisation des performances et des diffusions. Ces modifications ne permettaient plus que les diffusions planifiées se terminent « après x occurrences ». En réponse à plusieurs demandes de clients souhaitant disposer de plus de temps pour explorer et implémenter des alternatives, nous avons décidé de restaurer cette option de manière limitée jusqu’au **31 janvier 2023**.
 
-Vous pourrez toujours planifier des tâches Report Builder horaires et faire en sorte qu’elles se terminent après un maximum de 99 occurrences. Veuillez noter que la restauration s’applique uniquement aux tâches horaires ; l’option « se termine après x occurrences » restera indisponible pour tous les autres intervalles de diffusion (quotidien, hebdomadaire, mensuel et annuel).
+Vous pourrez toujours planifier des tâches Report Builder horaires et faire en sorte qu’elles se terminent après un maximum de 99 occurrences. Veuillez noter que la restauration ne s’applique qu’aux tâches horaires ; l’option « se terminent après x occurrences » restera indisponible pour tous les autres intervalles de diffusion (quotidien, hebdomadaire, mensuel et annuel).
 
 Veuillez noter que cette option est supprimée à compter du 31 janvier 2023.
-Pour toute question ou assistance, contactez l’assistance clientèle d’Adobe.
+Pour toute question ou assistance, contactez l’Assistance clientèle d’Adobe.
 
 Plus précisément, cette pause s’applique à **toutes les tâches créées avant le 31 janvier 2020**. Aucune tâche, aucun classeur ni aucune donnée ne sera supprimé. Les tâches de plus de deux ans seront suspendues et aucune autre tâche planifiée ne sera envoyée.
 
@@ -39,19 +45,19 @@ Cette pause a pour but de gérer et de gérer efficacement notre base de donnée
 | Champ | Description |
 | --- | --- |
 | **[!UICONTROL Onglet Rapports planifiés]** | |
-| [!UICONTROL Nom de rapport] | Indique le nom de la tâche planifiée. |
-| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous avez sélectionné Courriel, les rapports de plus de 1 Mo sont automatiquement joints sous forme de fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
+| [!UICONTROL Nom du rapport] | Indique le nom de la tâche planifiée. |
+| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous sélectionnez l’option E-mail, les rapports de plus de 1 Mo sont automatiquement joints à l’e-mail sous la forme d’un fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
 | [!UICONTROL Options de publication] | Cette colonne répertorie Power BI si l’une des [options de publication Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) est sélectionnée. |
-| [!UICONTROL Planifier] | Type de la remise planifiée. |
-| [!UICONTROL Format de fichier] | Format de remise du rapport, tel que Excel, PDF, HTML, etc. |
-| [!UICONTROL Réactiver] | Si l’exécution d’un classeur planifié échoue, le Report Builder effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois échecs de tentative, Report Builder désactive le planning et affiche le bouton Réactiver . Lorsque vous réactivez un classeur, la remise planifiée redémarre au niveau du point de désactivation.<p>Par exemple, si vous avez réactivé aujourd’hui un classeur planifié qui a été désactivé il y a 14 jours, il est exécuté et distribué 14 fois, soit 1 fois par jour de désactivation. Si vous ne souhaitez pas que la remise soit effectuée pour les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un nouveau en utilisant les mêmes paramètres de planification.<p>**Remarque :** ne réactivez pas un classeur à moins de connaître la raison pour laquelle le système l’a désactivé. Pour résoudre le problème, téléchargez un classeur désactivé et actualisez-le côté client. Si aucune erreur n’est détectée, vous devriez être en mesure de le réactiver. |
-| [!UICONTROL Dernier envoi] | Date et heure auxquelles le rapport a été envoyé en dernier. |
+| [!UICONTROL Planning] | Type de diffusion planifiée. |
+| [!UICONTROL Format de fichier] | Format de diffusion du rapport, tel qu’Excel, PDF, HTML, etc. |
+| [!UICONTROL Réactiver] | Si l’exécution d’un classeur planifié échoue, le Report Builder effectue deux tentatives d’exécution supplémentaires espacées de 15 minutes. Après trois échecs de tentative, Report Builder désactive le planning et affiche le bouton Réactiver . Lorsque vous réactivez un classeur, la diffusion planifiée redémarre à partir du moment où elle a été désactivée.<p>Par exemple, si un classeur planifié a été désactivé il y a 14 jours et que vous le réactivez aujourd’hui, il s’exécute pour chaque jour manquant et est distribué 14 fois. Si vous ne souhaitez pas que le classeur soit livré pendant les jours manquants, vous pouvez supprimer le classeur planifié, puis en créer un autre en utilisant les mêmes paramètres de planification.<p>**Remarque :** ne réactivez pas un classeur à moins de connaître la raison pour laquelle le système l’a désactivé. Pour résoudre le problème, téléchargez un classeur désactivé et actualisez-le côté client. Si aucune erreur ne s’affiche, vous devriez être en mesure de la réactiver. |
+| [!UICONTROL Dernier envoi] | Date et heure du dernier envoi du rapport. |
 | **Onglet Destinataire** | |
 | [!UICONTROL Email du destinataire] | Adresse e-mail du destinataire du rapport. |
 | [!UICONTROL Rapports] | Rapports envoyés à chaque destinataire. |
 | **Onglet Historique des rapports** | |
 | [!UICONTROL Nom du fichier] | Indique le nom de la tâche planifiée. |
-| [!UICONTROL Date] | Date et heure auxquelles le rapport a été envoyé en dernier. |
-| [!UICONTROL Statut] | L’état indique si le rapport a été Envoyé ou Pas envoyé. |
-| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire du rapport. |
-| [!UICONTROL Format de fichier] | Format de remise du rapport, tel que Excel, PDF, HTML, etc. |
+| [!UICONTROL Date] | Date et heure du dernier envoi du rapport. |
+| [!UICONTROL Statut] | Le statut indique si le rapport a été envoyé ou non. |
+| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire du rapport. |
+| [!UICONTROL Format de fichier] | Format de diffusion du rapport, tel qu’Excel, PDF, HTML, etc. |

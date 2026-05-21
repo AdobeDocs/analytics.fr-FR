@@ -3,10 +3,16 @@ title: Bonnes pratiques pour la mise en œuvre des canaux marketing Adobe Analy
 description: Mise à jour des bonnes pratiques relatives à l’utilisation des canaux marketing avec Attribution et Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
+TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 81%
+source-wordcount: 669
+ht-degree: 78%
 
 ---
 
@@ -27,7 +33,7 @@ Nous vous recommandons d’utiliser [Attribution](/help/analyze/analysis-workspa
 ![](assets/attribution.png)
 
 * La configuration des dimensions Canal marketing et Détails du canal marketing établit les points de contact à évaluer, en fonction de chaque instance du canal marketing.
-* Pour l’analyse des mesures, votre organisation doit s’aligner sur un ou plusieurs modèles d’attribution. Enregistrez les mesures personnalisées avec ce modèle pour une réutilisation facile.
+* Pour l’analyse des mesures, votre entreprise doit s’aligner sur un ou plusieurs modèles d’attribution. Enregistrez les mesures personnalisées avec ce modèle pour une réutilisation facile.
 * Par défaut, les données sont attribuées à l’aide de la Dernière touche et du paramètre de la période d’engagement des visiteurs. Les modèles de mesure Attribution offrent un meilleur contrôle sur les intervalles de recherche en amont et une plus grande variété, y compris l’[attribution algorithmique](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Bonne pratique n° 2 : aucune définition des canaux Direct et Actualisation de session

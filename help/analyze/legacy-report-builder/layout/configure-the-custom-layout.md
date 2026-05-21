@@ -5,10 +5,14 @@ uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
 role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/KnIi9Ft8W-7GV1Wkgs3Yj6QW-Y7eTktRmWhhPAJEYGI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 70%
+source-wordcount: 91
+ht-degree: 14%
 
 ---
 
@@ -16,9 +20,9 @@ ht-degree: 70%
 
 {{legacy-arb}}
 
-La Disposition personnalisée fournit la plupart des fonctions de la Disposition croisée dynamique, tout en vous permettant de choisir l’emplacement de chaque élément de la grille dans la feuille de calcul. Cette disposition offre la même souplesse que les versions précédentes, y compris l’ajout de ventilations et de micrographiques.
+La disposition personnalisée fournit la plupart des fonctionnalités de la disposition du pivot, mais vous permet de choisir où chaque élément de la grille doit se trouver dans la feuille de calcul. Cette disposition offre la flexibilité disponible dans les versions précédentes, y compris l’ajout de répartitions et de micrographiques.
 
-Les rubriques suivantes concernent uniquement la [!UICONTROL Disposition personnalisée] :
+Les rubriques suivantes sont propres à la [!UICONTROL disposition personnalisée] :
 
 * [Mappage de mesures et de dimensions avec des cellules](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [Création d’un micrographique](/help/analyze/legacy-report-builder/layout/t-create-a-microchart.md)

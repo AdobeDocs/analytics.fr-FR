@@ -4,9 +4,15 @@ title: Inventaire Analytics
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: 1224
 ht-degree: 24%
 
 ---
@@ -112,7 +118,7 @@ Les réponses à ces questions vous donneront une idée précise des suites de r
    | Occurrences (90 derniers jours) | La mesure « Occurrences » indique le nombre d’accès pour lesquels une dimension donnée a été définie ou conservée. Combien d’accès cette suite de rapports a-t-elle reçus au cours des 90 derniers jours ? |
    | Mesures | Combien de mesures sont définies dans cette suite de rapports ? |
    | Dimensions | Combien de dimensions sont définies dans cette suite de rapports ? |
-   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t) ? |
+   | Analytics for Target (A4T) activé | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t) ? |
    | Canaux marketing activés | [Masqué par défaut] Cette suite de rapports est-elle activée pour [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ? |
    | Connecteur source activé | Cette suite de rapports est-elle activée pour le connecteur Adobe Analytics Source [pour les données de suite de rapports](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/analytics) dans Adobe Experience Platform ? En d’autres termes, cette suite de rapports peut-elle être migrée vers Customer Journey Analytics à l’aide du connecteur Source Analytics ? |
    | Type de calendrier | [Masqué par défaut] Pour plus d&#39;informations, consultez la section [Calendriers personnalisés](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |
@@ -192,7 +198,7 @@ User Management sera disponible dans une version ultérieure de l’inventaire A
 
 ## Migration des composants
 
-Grâce à la [&#x200B; Migration des composants &#x200B;](/help/admin/tools/component-migration/component-migration.md), les administrateurs et administratrices d’Adobe Analytics peuvent migrer des projets Analytics et leurs composants associés vers Customer Journey Analytics.
+Grâce à la [ Migration des composants ](/help/admin/tools/component-migration/component-migration.md), les administrateurs et administratrices d’Adobe Analytics peuvent migrer des projets Analytics et leurs composants associés vers Customer Journey Analytics.
 
 Le processus de migration comprend :
 

@@ -3,9 +3,15 @@ description: Le type de suivi détermine la manière dont l’implémentation d�
 title: Type de tracking
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/QKLoFYVeGTZyOPsFKWPVUtmQ7oyYTnw05s47XIn6n8c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 584
 ht-degree: 29%
 
 ---
@@ -18,7 +24,7 @@ Le type de suivi détermine la manière dont l’implémentation d’Adobe Analy
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +43,7 @@ Notez que pour configurer un compte de moteur de recherche avec le type **[!UICO
 
 >[!IMPORTANT]
 >
->Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/fr/docs/id-service/using/reference/csp).
+>Découvrez si vous devez ajouter ou non le paramètre `s_kwcid` à votre [politique de sécurité du contenu](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Suivi manuel {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +104,7 @@ La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est aff
 
 >[!IMPORTANT]
 >
->La valeur _`<Advertising Analytics ID>`_(en **gras**&#x200B;ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
+>La valeur _`<Advertising Analytics ID>`_(en **gras**ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir votre chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section « Tracking ».
 
 **Chaîne de suivi pour les campagnes :**
 

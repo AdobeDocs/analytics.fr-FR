@@ -4,10 +4,15 @@ title: Configurer Une Visualisation Des Abandons
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 121fac9958dc34be513a23d5c3ad76d5f0e6b665
+TQID: https://experienceleague.adobe.com/878FKpZVmm9-cCzRv0liWtppRRnHV3NqU1fMneDz4EU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 37%
+source-wordcount: 898
+ht-degree: 33%
 
 ---
 
@@ -15,7 +20,7 @@ ht-degree: 37%
 
 Vous pouvez spécifier des **points de contact** pour créer une séquence d’abandons multidimensionnelle. Dans de nombreux cas, un point de contact est une page de votre site. Ils ne se limitent toutefois pas à cela. Vous pouvez par exemple ajouter des événements, tels que des unités, ainsi que des personnes uniques et des visites récurrentes. Vous pouvez aussi ajouter des dimensions, telles qu’une catégorie, un type de navigateur ou un terme de recherche interne.
 
-Il est possible en outre d’ajouter des segments dans un point de contact, par exemple pour comparer les utilisateurs d’iOS à ceux d’Android. Faites glisser les segments à comparer en haut de l’abandon pour ajouter des informations sur ces segments au rapport sur les abandons. Pour afficher seulement ces segments, supprimez la ligne de base Toutes les visites.
+Il est possible en outre d’ajouter des segments dans un point de contact, Par exemple, vous pouvez comparer des segments, tels que les utilisateurs d’iOS et d’Android. Faites glisser les segments à comparer en haut de l’abandon pour ajouter des informations sur ces segments au rapport sur les abandons. Pour afficher seulement ces segments, supprimez la ligne de base Toutes les visites.
 
 Les visualisations des abandons ne comportent aucune limitation quant au nombre de points de contact que vous pouvez ajouter ou au nombre de composants que vous pouvez utiliser.
 
@@ -57,7 +62,7 @@ Vous pouvez effectuer un cheminement sur des dimensions, des mesures et des segm
      | Option | Description |
      |---|---|
      | **[!UICONTROL Chemin définitif]** (par défaut) | Les visiteurs qui *éventuellement* arriveront sur la page suivante du chemin, mais pas nécessairement lors de la prochaine visite, sont comptés. |
-     | **[!UICONTROL Accès suivant]** | Nombre de visiteurs qui accéderont à la page suivante du chemin d’accès dès le prochain accès. |
+     | **[!UICONTROL Accès suivant]** | Les visiteurs qui arriveront sur la page suivante du chemin lors du prochain accès sont comptabilisés. |
 
    * Pointez sur un point de contact pour afficher l’abandon et d’autres informations sur ce niveau. Les informations incluent le nom du point de contact, le nombre de personnes et le taux de réussite. Vous pouvez également comparer le taux de succès à d’autres points de contact.
 
@@ -67,7 +72,7 @@ Les paramètres de visualisation disponibles sont les suivants :
 
 | Conteneur d’abandons | Description |
 |--- |--- |
-| **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs]** | Basculez entre [!UICONTROL visites] et [!UICONTROL visiteurs] pour analyser le cheminement de la personne. La valeur par défaut est [!UICONTROL &#x200B; Visiteurs &#x200B;]. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
+| **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs]** | Basculez entre [!UICONTROL visites] et [!UICONTROL visiteurs] pour analyser le cheminement de la personne. La valeur par défaut est [!UICONTROL  Visiteurs ]. Ces paramètres permettent de comprendre l’engagement des visiteurs au niveau des visiteurs (à l’échelle de toutes visites) ou de contraindre l’analyse à une seule visite. |
 
 
 ## Menu contextuel

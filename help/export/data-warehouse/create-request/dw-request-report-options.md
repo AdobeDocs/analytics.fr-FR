@@ -3,10 +3,15 @@ description: Description de la procédure de création d’une requête Data War
 title: Configuration des options de rapport pour une requête Data Warehouse
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/WngJlzAVsWsC9dzQ2Dg-78FqUjXxkU9SUnJVzhFECXs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 22%
+source-wordcount: 454
+ht-degree: 25%
 
 ---
 
@@ -30,14 +35,14 @@ Pour configurer les options de rapport d’une requête Data Warehouse :
 
    | Option | Fonction |
    |---------|----------|
-   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. <p>Si l’un des caractères spéciaux suivants est utilisé dans le nom de fichier, la requête ne peut pas être enregistrée : <code> !  » # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s&#39;il est suivi de « R », « rsid » ou « id », comme suit : <code>%R</code>, <code>%rsid</code>, et <code>%id</code>.</p> |
+   | [!UICONTROL **Nom du fichier**] | Identifie le rapport. <p>Si l’un des caractères spéciaux suivants est utilisé dans le nom de fichier, la requête ne peut pas être enregistrée : <code> ! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Le caractère % ne peut être utilisé que s&#39;il est suivi de « R », « rsid » ou « id », comme suit : <code>%R</code>, <code>%rsid</code>, et <code>%id</code>.</p> |
    | [!UICONTROL **Ajouter une période de rapport au nom de fichier**] | Ajoute la période au nom du fichier de rapport. <p>Par exemple, si vous demandez des données du 1er mai 2024 au 7 mai 2024, le nom de fichier inclut la période 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Diffuse les rapports au format CSV afin d’afficher les données dans une feuille de calcul. |
    | [!UICONTROL **Tableau (TDE)**] | Fournit des rapports dans un format de fichier TDE (Tableau Data Extract), qui peut être utilisé pour visualiser les données et la couche dans les données supplémentaires dans Tableau. |
-   | [!UICONTROL **Envoyer le rapport sous forme de fichier compressé (ZIP)**] | Diffuse les rapports au format compressé (ZIP). Nous vous recommandons d’activer cette option lorsque vous utilisez l’e-mail comme [&#x200B; destination du rapport &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **Envoyer le rapport sous forme de fichier compressé (ZIP)**] | Diffuse les rapports au format compressé (ZIP). Nous vous recommandons d’activer cette option lorsque vous utilisez l’e-mail comme [ destination du rapport ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
    | [!UICONTROL **Renvoyer toutes les lignes**] | Lorsqu’elle est activée, toutes les lignes sont incluses dans le rapport. Désactivez cette option pour spécifier le nombre de lignes à inclure. |
    | [!UICONTROL **Début des commentaires du rapport**] | Ajoutez les commentaires que vous souhaitez inclure dans le rapport. Les commentaires apparaissent au début du rapport. |
-   | [!UICONTROL **Trier par mesures**] | Fournit des rapports de répartition classés dans Data Warehouse, triés par valeur de mesure décroissante. Le tri par mesure permet d’interpréter plus facilement les rapports de Data Warehouse. Il est aussi plus facile de comparer ces rapports à d’autres rapports de répartition des analyses.<p>Pour plus d’informations, voir [Trier par mesure](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **Trier par mesures**] | Fournit des rapports de répartition avec classement dans Data Warehouse, triés par valeurs de mesure décroissantes. Le tri par mesure permet d’interpréter plus facilement les rapports de Data Warehouse. Il est aussi plus facile de comparer ces rapports à d’autres rapports de répartition des analyses.<p>Pour plus d’informations, voir [Trier par mesure](/help/export/data-warehouse/sorting-by-metric.md).</p> |
    | [!UICONTROL **Envoyer un fichier manifeste**] | Inclut des métadonnées sur les fichiers inclus dans le rapport.<!-- What kind of metadata is included in the manifest file? --> |
    | [!UICONTROL **Envoyer un fichier de signature numérique**] | Permet aux destinataires du rapport de vérifier que le fichier provient bien d’Adobe et qu’il n’a pas été modifié. |
    | [!UICONTROL **Envoyer un fichier vide quand le rapport ne contient aucune donnée**] | Envoie un rapport même s’il ne contient aucune donnée. |

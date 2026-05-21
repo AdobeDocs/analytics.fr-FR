@@ -4,10 +4,14 @@ description: Copiez des variables sans augmenter la longueur de la demande d’i
 feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/zhUMapnVeA3UShaCE3zLx39leeKYFti2RFBD1vqOlK4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 78%
+source-wordcount: 444
+ht-degree: 82%
 
 ---
 
@@ -43,7 +47,7 @@ Vous pouvez utiliser des variables dynamiques dans n’importe quel champ de dim
 2. Cliquez sur la propriété de balise de votre choix.
 3. Accédez à l’onglet [!UICONTROL Règles], puis cliquez sur une règle (ou créez une règle).
 4. Sous [!UICONTROL Actions], cliquez sur une action existante [!UICONTROL Adobe Analytics - Définir des variables] ou cliquez sur l’icône « + ».
-5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics, et le [!UICONTROL Type d’action] sur [!UICONTROL Définir les variables].
+5. Définissez la liste déroulante [!UICONTROL Extension] sur Adobe Analytics et le [!UICONTROL type d’action] sur [!UICONTROL Définir des variables].
 6. Recherchez l’élément de dimension souhaité.
 
 Placez le préfixe de variable dynamique dans le champ de texte, suivi du paramètre de chaîne de requête ou de l’en-tête HTTP à référencer. Par défaut, le préfixe de variable dynamique est `D=`.

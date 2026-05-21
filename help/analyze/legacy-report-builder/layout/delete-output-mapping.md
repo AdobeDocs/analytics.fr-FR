@@ -5,10 +5,14 @@ uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
 role: User, Admin
 exl-id: 88afef3b-1559-453b-a8e2-7251ef8c82ec
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/-PM1XWVmm1m5kYhLr4TRnM3nv2m23uQ1p-2PFswEkLQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 83%
+source-wordcount: 123
+ht-degree: 18%
 
 ---
 
@@ -18,6 +22,6 @@ ht-degree: 83%
 
 Si vous modifiez votre classeur et souhaitez libérer de l’espace pour de nouvelles requêtes, il vous faudra peut-être en supprimer quelques-unes.
 
-Le seul moyen de libérer de l’espace consiste à supprimer des requêtes en correspondance avec des cellules. Si vous supprimez des requêtes de la feuille de calcul simplement en supprimant des lignes ou des colonnes, la requête sous-jacente n’est plus valide (et ne peut pas être actualisée). L’option de menu Excel **[!UICONTROL Edition]** > **[!UICONTROL Effacer le contenu]** supprime la valeur affichée dans la cellule. Il est possible de restaurer le contenu en actualisant le contenu de la cellule.
+La seule façon de faire de la place est de supprimer les requêtes mappées aux cellules. Si vous supprimez des requêtes dans la feuille de calcul en supprimant des lignes ou des colonnes, la validité de la requête sous-jacente est perdue (et échouerait lors de l’actualisation). La sélection du menu Excel **[!UICONTROL Modifier]** > **[!UICONTROL Effacer le contenu]** supprime la valeur affichée dans la cellule. Le contenu peut être restauré en actualisant le contenu de la cellule.
 
-Pour supprimer une correspondance spécifique des cellules de la feuille de calcul, localisez la ligne, la colonne ou la mesure, puis cliquez sur **[!UICONTROL Supprimer]**.
+Pour supprimer une mise en correspondance spécifique des cellules de feuille de calcul, localisez la ligne, la colonne ou l’élément de mesure, puis cliquez sur **[!UICONTROL Supprimer]**.

@@ -4,10 +4,15 @@ keywords: Analysis Workspace
 title: Configurer des emplacements d’export et d’import cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
+TQID: https://experienceleague.adobe.com/Q0cJR470jmLkrurcF20vP72mJyJ18Kd6DWICWVLp5ws
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 33%
+source-wordcount: 1769
+ht-degree: 38%
 
 ---
 
@@ -22,8 +27,8 @@ ht-degree: 33%
 Après avoir [configuré un compte cloud](/help/components/locations/configure-import-accounts.md), vous pouvez configurer un emplacement sur ce compte. Un emplacement unique peut être utilisé à l’une des fins suivantes (un emplacement unique ne peut pas être associé à plusieurs fins) :
 
 * Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l&#39;aide de [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Exportation de fichiers lors de l’utilisation de [&#128279;](/help/analyze/report-builder/report-builder-export.md)
+* Exportation de rapports à l&#39;aide de [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [](/help/analyze/report-builder/report-builder-export.md)
 * Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
 Vous devez configurer Adobe Analytics avec les informations nécessaires pour accéder à votre compte cloud. Ce processus consiste à ajouter et à configurer le compte (tel que le rôle Amazon S3 ARN, Google Cloud Platform, etc.) comme décrit dans [Configurer des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md), puis à ajouter et à configurer l’emplacement au sein de ce compte (comme décrit dans cet article).
@@ -55,7 +60,7 @@ Pour plus d’informations sur l’affichage et la suppression des emplacements 
    |---------|----------|
    | [!UICONTROL **Nom**] | Nom de l’emplacement. |
    | [!UICONTROL **Description**] | Fournissez une brève description du compte pour le différencier des autres comptes du même type de compte. |
-   | [!UICONTROL **Utiliser avec**] | Choisissez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Ensembles de classifications**] ou **[!UICONTROL Report Builder]**. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un emplacement unique ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour Data Warehouse ou les ensembles de classifications.</li><li>Pour éviter les conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL **&#x200B;**] dans ce champ. Les emplacements des e-mails ne sont pas pris en charge avec les flux de données et les ensembles de classifications.</li></ul> |
+   | [!UICONTROL **Utiliser avec**] | Choisissez si vous souhaitez utiliser cet emplacement avec [!UICONTROL **Flux de données**], [!UICONTROL **Data Warehouse**], [!UICONTROL **Ensembles de classifications**] ou **[!UICONTROL Report Builder]**. <p>Tenez compte des points suivants lors d’une sélection :</p><ul><li>Un emplacement unique ne peut pas être utilisé à plusieurs fins. Par exemple, un emplacement utilisé pour les flux de données ne peut pas également être utilisé pour Data Warehouse ou les ensembles de classifications.</li><li>Pour éviter les conflits de fichiers au sein d’un emplacement, ne modifiez pas la valeur du champ [!UICONTROL **Utiliser avec**] une fois l’emplacement utilisé.</li><li>Si vous créez un emplacement pour un compte de messagerie, sélectionnez [!UICONTROL ****] dans ce champ. Les emplacements des e-mails ne sont pas pris en charge avec les flux de données et les ensembles de classifications.</li></ul> |
    | [!UICONTROL **Rendre l’emplacement disponible pour tous les utilisateurs de votre organisation**] | Activez cette option pour permettre à d’autres utilisateurs de votre organisation d’utiliser l’emplacement.<p>Tenez compte des points suivants lors du partage d’emplacements :</p><ul><li>Les emplacements partagés ne peuvent pas être annulés.</li><li>Les emplacements partagés ne peuvent être modifiés que par le propriétaire de l’emplacement.</li><li>Les emplacements ne peuvent être partagés que si le compte auquel l’emplacement est associé est également partagé.</li></ul> |
    | [!UICONTROL **Compte d’emplacement**] | Sélectionnez le compte d’emplacement où vous souhaitez créer cet emplacement. Pour plus d’informations sur la création d’un compte, voir [Configuration des comptes d’import et d’export cloud](/help/components/locations/configure-import-accounts.md). |
 
@@ -71,7 +76,7 @@ Pour configurer un emplacement ARN de rôle Amazon S3, spécifiez les informatio
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que l’ARN utilisateur fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers dans ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, ils doivent avoir une longueur comprise entre 3 et 63 caractères, ne peuvent être composés que de lettres minuscules, de chiffres, de points (.) et de traits d’union (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles de nommage est disponible dans la documentation AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
+   | [!UICONTROL **Compartiment**] | Compartiment de votre compte Amazon S3 dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. <p>Assurez-vous que l’ARN d’utilisateur ou d’utilisatrice fourni par Adobe dispose de l’autorisation `S3:PutObject` pour charger des fichiers vers ce compartiment. </p><p>Les noms des compartiments doivent respecter des règles de nommage spécifiques. Par exemple, ils doivent avoir une longueur comprise entre 3 et 63 caractères, ne peuvent être composés que de lettres minuscules, de chiffres, de points (.) et de traits d’union (-), et doivent commencer et se terminer par une lettre ou un chiffre. [Une liste complète des règles de nommage est disponible dans la documentation AWS](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html). </p> |
    | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
    {style="table-layout:auto"}
@@ -95,7 +100,7 @@ Pour configurer un emplacement Google Cloud Platform, spécifiez les information
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Compartiment**] | Compartiment de votre compte GCP dans lequel vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous d’avoir accordé l’autorisation au principal de sécurité fourni par Adobe pour charger des fichiers dans ce compartiment. |
+   | [!UICONTROL **Compartiment**] | Compartiment de votre compte GCP où vous souhaitez que les données Adobe Analytics soient envoyées. Assurez-vous d’avoir accordé l’autorisation au principal de sécurité fourni par Adobe pour charger des fichiers dans ce compartiment. |
    | [!UICONTROL **Préfixe**] | Dossier dans le compartiment où vous souhaitez placer les données. Indiquez un nom de dossier, puis ajoutez une barre oblique inverse après le nom pour créer le dossier. Par exemple, folder_name/ |
 
    {style="table-layout:auto"}
@@ -174,7 +179,7 @@ Pour configurer un emplacement d’e-mail, spécifiez les informations suivantes
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
-   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’e-mail ne sont pas pris en charge avec [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) ou [les ensembles de classifications](/help/components/classifications/sets/overview.md)).
+   Vous pouvez désormais exporter des données vers le compte et l’emplacement que vous avez configurés lors de l’utilisation des [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les emplacements d’e-mail ne sont pas pris en charge avec [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md), [Report Builder](/help/analyze/report-builder/report-builder-export.md) ou [les ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
 ### Types de comptes hérités
 
@@ -186,7 +191,7 @@ Les données de flux de données peuvent être distribuées vers un emplacement 
 
 | Champ | Fonction |
 |---------|----------|
-| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin d’accès spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
+| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 
@@ -198,7 +203,7 @@ Les données des flux de données peuvent être diffusées vers un emplacement A
 
 | Champ | Fonction |
 |---------|----------|
-| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les flux génèrent une erreur si le chemin d’accès spécifié n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
+| [!UICONTROL **Chemin du répertoire**] | Saisissez le chemin d’accès au répertoire sur le serveur FTP. Les dossiers doivent déjà exister ; les fichiers lancent une erreur si le chemin d’accès précisé n’existe pas. </br>Par exemple, `/folder_name/folder_name`. |
 
 {style="table-layout:auto"}
 

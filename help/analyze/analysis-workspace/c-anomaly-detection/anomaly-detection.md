@@ -4,10 +4,16 @@ title: Vue d’ensemble de la détection des anomalies
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/T-nuWxaknY3q4iWyjhODAgKyK4V1Vdrd-AKTCEqDNeI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 99%
+source-wordcount: 1367
+ht-degree: 96%
 
 ---
 
@@ -18,7 +24,7 @@ Dans Analysis Workspace, vous pouvez afficher et analyser les anomalies de donn�
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Détection des anomalies](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Détection des anomalies](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -30,7 +36,7 @@ Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Détection
 
 La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures.
 
-La détection des anomalies permet de séparer les « signaux réels » du « bruit » et d’identifier ensuite les facteurs qui ont conduit à ces signaux ou anomalies. En d’autres termes, cette fonction permet de distinguer les fluctuations statiques importantes de celles qui ne le sont pas. Vous pouvez alors identifier l’origine d’une anomalie. Vous recevez, en outre, des prévisions de mesures (IPC) fiables.
+La détection des anomalies permet de séparer les « signaux réels » du « bruit » et d’identifier ensuite les facteurs qui ont conduit à ces signaux ou anomalies. En d&#39;autres termes, il vous permet d&#39;identifier les fluctuations statistiques importantes et celles qui ne le sont pas. Vous pouvez ensuite identifier la cause première d’une véritable anomalie. Vous recevez, en outre, des prévisions de mesures (IPC) fiables.
 
 Voici quelques exemples d’anomalies dont vous pouvez rechercher l’origine :
 
@@ -61,7 +67,7 @@ pour les mesures sélectionnées sur des segments d’audience convergents.
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse des contributions](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analyse des contributions](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +100,7 @@ Le nombre d’exécutions par société est limité à un certain nombre de jeto
 
 | Question | Réponse |
 | --- | --- |
-| Pourquoi Adobe a-t-il introduit des jetons ?  | L’analyse des contributions est l’une des capacités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions complètes par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez voir ce que l’analyse des contributions complète illimitée peut vous apporter. |
+| Pourquoi Adobe a-t-il introduit des jetons ? | L’analyse des contributions est l’une des capacités les plus intéressantes d’Adobe Analytics. En autorisant un petit nombre d’exécutions complètes par mois (plutôt que seulement trois dimensions pour certains produits Analytics), vous pouvez voir ce que l’analyse des contributions complète illimitée peut vous apporter. |
 | Comment fonctionnent les jetons dans l’analyse des contributions ? Le chargement d’un projet avec une analyse des contributions existante coûte-t-il un jeton ? Ou ce coût existe-t-il uniquement lors de l’exécution d’une nouvelle analyse ? | Chaque société de connexion (et non chaque utilisateur) obtient un certain nombre de jetons par mois, ce qui permet d’exécuter une analyse des contributions « complète » dans Analysis Workspace.  Chaque fois que vous générez une nouvelle analyse des contributions, vous payez un jeton. Le chargement de projets avec des analyses des contributions pré-exécutées ne coûte pas de jeton. |
 | Si mon entreprise n’a plus de jetons et souhaite exécuter des analyses des contributions supplémentaires, que pouvons-nous faire ? | Vous pouvez passer à une autre version d’Adobe Analytics, par exemple de Standard (2 jetons/mois) à Ultimate (20 jetons/mois). Vous ne pouvez pas acheter d’autres jetons. Vous devez effectuer la mise à niveau dans le framework de création de packages existant. |
 | Comment puis-je restreindre l’accès à l’analyse des contributions ? | Par défaut, seuls les administrateurs ont accès à l’exécution des analyses des contributions. Cependant, les administrateurs peuvent accorder l’accès à d’autres utilisateurs en créant un groupe d’autorisations dans la section [Adobe Admin Console](/help/admin/admin-console/home.md). Donnez l’autorisation d’utiliser l’analyse des contributions uniquement aux utilisateurs et utilisatrices qui ont une raison légitime de l’utiliser et à qui vous accordez votre confiance pour ne pas en abuser. L’autorisation est appelée [!UICONTROL Analyse des contributions] sous [!UICONTROL Outils de suites de rapports]. [En savoir plus](/help/admin/admin-console/permissions/report-suite-tools.md) |
@@ -119,17 +125,17 @@ Vous trouverez ci-dessous une liste des autorisations détaillées pour la déte
    <td colname="col3" colsep="1"> <p>Aucun jeton </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/fr/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  >Select</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  >Select</a> </p> </td> 
    <td colname="col2"> <p>Granularité quotidienne uniquement </p> </td> 
    <td colname="col3"> <p>Aucun jeton </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/fr/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>10 jetons par mois </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/fr/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>20 jetons par mois </p> </td> 
   </tr> 

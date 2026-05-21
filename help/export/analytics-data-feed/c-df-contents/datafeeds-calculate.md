@@ -4,10 +4,15 @@ keywords: Flux de données;traitement;mesures;colonne « pre »;colonne « po
 title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: adee2f1013cfd2ae231e3133b5a5327b8792bd16
-workflow-type: ht
-source-wordcount: '499'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+workflow-type: tm+mt
+source-wordcount: 500
+ht-degree: 95%
 
 ---
 
@@ -42,7 +47,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 ## Visiteurs et visiteuses
 
-Toutes les méthodes utilisées par Adobe pour identifier les visiteurs et visiteuses uniques (identifiant visiteur ou visiteuse personnalisé, service Experience Cloud ID, etc.) sont calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
+Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, service Experience Cloud ID, etc.) sont toutes calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
 
 1. Concaténez `post_visid_high` et `post_visid_low`.
 2. Comptez le nombre unique de valeurs.

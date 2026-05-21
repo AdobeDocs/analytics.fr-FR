@@ -3,9 +3,15 @@ title: Compatibilité des dimensions Analytics
 description: Référence pour les dimensions et les rapports Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 905
 ht-degree: 55%
 
 ---
@@ -30,7 +36,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Villes](cities.md) | `geocity` |
 | [Codage des couleurs](color-depth.md) | `colordepth` |
 | [Type de connexion](connection-type.md) | `connectiontype` |
-| [&#x200B; Prise en charge des cookies &#x200B;](cookie-support.md) | `cookie` |
+| [ Prise en charge des cookies ](cookie-support.md) | `cookie` |
 | [Pays](countries.md) | `geocountry` |
 | [Fidélité de la clientèle](customer-loyalty.md) | `customerloyalty` |
 | [Vars de conversion personnalisées](evar.md) | `evar1`, `evar2`, etc. |
@@ -47,10 +53,10 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Détails du canal Première touche](first-touch-detail.md) | `firsttouchchanneldetail` |
 | [Compatible Java](java-enabled.md) | `javaenabled` |
 | [Langue](language.md) | `language` |
-| [&#x200B; Canal Dernière touche &#x200B;](last-touch-channel.md) | `lasttouchchannel` |
-| [&#x200B; Détails du canal Dernière touche &#x200B;](last-touch-detail.md) | `lasttouchchanneldetail` |
+| [ Canal Dernière touche ](last-touch-channel.md) | `lasttouchchannel` |
+| [ Détails du canal Dernière touche ](last-touch-detail.md) | `lasttouchchanneldetail` |
 | Variables de liste | `listvariables` |
-| [&#x200B; Canal marketing &#x200B;](marketing-channel.md) | `marketingchannel` |
+| [ Canal marketing ](marketing-channel.md) | `marketingchannel` |
 | [Prise en charge audio mobile](mobile-dimensions.md) | `mobileaudiosupport` |
 | [Opérateur de téléphonie mobile](mobile-dimensions.md) | `mobilecarrier` |
 | [Profondeur de couleur mobile](mobile-dimensions.md) | `mobilecolordepth` |
@@ -58,7 +64,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Appareil mobile](mobile-dimensions.md) | `mobiledevicename` |
 | [Type d’appareil mobile](mobile-dimensions.md) | `mobiledevicetype` |
 | [Mobile - Longueur max. d’e-mail](mobile-dimensions.md) | `mobileemaillength` |
-| [&#x200B; Prise en charge des images mobiles &#x200B;](mobile-dimensions.md) | `mobileimagesupport` |
+| [ Prise en charge des images mobiles ](mobile-dimensions.md) | `mobileimagesupport` |
 | [Fabricant du dispositif portable](mobile-dimensions.md) | `mobilemanufacturer` |
 | [Système d’exploitation mobile (obsolète)](mobile-dimensions.md) | `mobileos` |
 | [Hauteur d’écran du dispositif portable](mobile-dimensions.md) | `mobilescreenheight` |
@@ -80,7 +86,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | SC-TnT | `tntbase` |
 | [Moteur de recherche](search-engine.md) | `searchengine` |
 | [Mot-clé de recherche](search-keyword.md) | `searchenginekeyword` |
-| [&#x200B; Moteur de recherche - Naturel &#x200B;](search-engine.md) | `searchenginenatural` |
+| [ Moteur de recherche - Naturel ](search-engine.md) | `searchenginenatural` |
 | [Moteur de recherche - Payant](search-engine.md) | `searchenginepaid` |
 | [Mot-clé de recherche - Naturel](search-keyword.md) | `searchenginenaturalkeyword` |
 | [Mot-clé de recherche - Payant](search-keyword.md) | `searchenginepaidkeyword` |
@@ -91,7 +97,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Temps passé par visite - Granulaire](time-spent-per-visit.md) | `sitetime` |
 | [Code de suivi](tracking-code.md) | `campaign` |
 | [DMA États-Unis](us-dma.md) | `geodma` |
-| [&#x200B; États américains &#x200B;](us-states.md) | `state` |
+| [ États américains ](us-states.md) | `state` |
 | [Durée avant événement](time-prior-to-event.md) | `timeprior` |
 | [Durée par visite - Regroupement](time-spent-per-visit.md) | `timespent` |
 | [Profondeur de visite](visit-depth.md) | `pathlength` |
@@ -163,7 +169,7 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 |--- |--- |
 | [Contenu](sm-core.md) | `video` |
 | [Segment de contenu](sm-core.md) | `videosegment` |
-| [&#x200B; Type de contenu &#x200B;](sm-core.md) | `videocontenttype` |
+| [ Type de contenu ](sm-core.md) | `videocontenttype` |
 | [Nom du lecteur de publicités](sm-ads.md) | `videoadplayername` |
 | [Position de la publicité dans la capsule](sm-ads.md) | `videoadinpod` |
 | [Images perdues](sm-quality.md) | `videoqoedroppedframecountevar` |
@@ -177,19 +183,19 @@ Cette page répertorie les [dimensions](overview.md) prises en charge dans leurs
 | [Chemin d’accès au média](sm-core.md) | `videopath` |
 | [Annonce](sm-ads.md) | `videoad` |
 | [Nom du lecteur de contenu](sm-core.md) | `videoplayername` |
-| [&#x200B; Canal de contenu &#x200B;](sm-core.md) | `videochannel` |
+| [ Canal de contenu ](sm-core.md) | `videochannel` |
 | [Chapitre](sm-chapters.md) | `videochapter` |
 | [Nom du contenu (variable)](sm-core.md) | `videoname` |
 | [Longueur du contenu (variable)](sm-core.md) | `videolength` |
 | [Nom de l’annonce publicitaire (variable)](sm-ads.md) | `videoadname` |
 | [Longueur de l’annonce publicitaire (variable)](sm-ads.md) | `videoadlength` |
 | [Afficher](sm-video-metadata.md) | `videoshow` |
-| [&#x200B; Saison &#x200B;](sm-video-metadata.md) | `videoseason` |
+| [ Saison ](sm-video-metadata.md) | `videoseason` |
 | [Épisode](sm-video-metadata.md) | `videoepisode` |
 | [Réseau](sm-video-metadata.md) | `videonetwork` |
 | [Afficher le type](sm-video-metadata.md) | `videoshowtype` |
 | [Chargements publicitaires](sm-ads.md) | `videoadload` |
-| [&#128279;](sm-video-metadata.md) | `videomvpd` |
+| [](sm-video-metadata.md) | `videomvpd` |
 | [Jour](sm-video-metadata.md) | `videodaypart` |
 | [Publicitaire](sm-ads.md) | `videoadadvertiser` |
 | [ID de campagne](sm-ads.md) | `videoadcampaign` |

@@ -4,10 +4,16 @@ description: Affichez les champs d’objets de données qu’Experience Platfor
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
+TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 77%
+source-wordcount: 614
+ht-degree: 78%
 
 ---
 
@@ -19,13 +25,13 @@ L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Cu
 
 ## Priorités des valeurs
 
-La plupart des champs d’objet de données de ce tableau correspondent à un [&#x200B; champ XDM mappé &#x200B;](xdm-var-mapping.md). Lors de l’ingestion Adobe Analytics, les valeurs sont d’abord mappées de XDM aux variables Analytics. Les champs d’objet de données reconnus sont ensuite mappés et remplacent toutes les valeurs précédemment définies lorsqu’ils sont mappés à la même variable Analytics. Par exemple, si `data.__adobe.analytics.events` est présent, il remplace l’ensemble complet des événements qui seraient autrement dérivés de XDM ; les événements ne sont pas combinés entre les deux sources. Une chaîne vide (`""`) dans un champ d’objet de données vide sa variable Analytics mappée pour l’accès, même si le champ XDM correspondant contient une valeur.
+La plupart des champs d’objet de données de ce tableau correspondent à un [ champ XDM mappé ](xdm-var-mapping.md). Lors de l’ingestion Adobe Analytics, les valeurs sont d’abord mappées de XDM aux variables Analytics. Les champs d’objet de données reconnus sont ensuite mappés et remplacent toutes les valeurs précédemment définies lorsqu’ils sont mappés à la même variable Analytics. Par exemple, si `data.__adobe.analytics.events` est présent, il remplace l’ensemble complet des événements qui seraient autrement dérivés de XDM ; les événements ne sont pas combinés entre les deux sources. Une chaîne vide (`""`) dans un champ d’objet de données vide sa variable Analytics mappée pour l’accès, même si le champ XDM correspondant contient une valeur.
 
 Certains champs d’objet de données prennent également en charge leur [valeur du paramètre de requête](../validate/query-parameters.md) respective en tant que valeurs abrégées. Vous pouvez utiliser de manière interchangeable des champs d’objet de données standard et des champs d’objet de données abrégés, à condition qu’ils soient chacun destinés à des variables uniques. Évitez de définir simultanément un champ d’objet de données standard et son champ d’objet de données abrégé respectif. Adobe ne peut pas garantir quel champ est prioritaire.
 
 ## Mappage de champ d’objet de données
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/implement/aep-edge/data-var-mapping.md) de cette page. Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) de cette page. Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
 
 | Chemin du champ d’objet de données | Variable et description d’Analytics |
 | --- | --- |
@@ -48,7 +54,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `data.__adobe.analytics.linkType` | Détermine le type de lien sur lequel la personne a cliqué. Les valeurs valides sont les suivantes : `o` (Liens personnalisés), `d` (Liens de téléchargement) et `e` (Liens de sortie). Le champ abrégé `data.__adobe.analytics.pe` est également pris en charge. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | Variables d’implémentation [`list`](/help/implement/vars/page-vars/list.md). Les champs abrégés `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` sont également pris en charge. |
 | `data.__adobe.analytics.longitude` | Aide à la définition des dimensions de cycle de vie mobile [Emplacement](../../components/dimensions/lifecycle-dimensions.md). Le champ abrégé `data.__adobe.analytics.lon` est également pris en charge. |
-| `data.__adobe.analytics.pageName` | Dimension [Page](/help/components/dimensions/page.md). |
+| `data.__adobe.analytics.pageName` | La dimension [Page](/help/components/dimensions/page.md). |
 | `data.__adobe.analytics.pageURL` | La dimension [URL de la page](/help/components/dimensions/page-url.md). Le champ abrégé `data.__adobe.analytics.g` est également pris en charge. |
 | `data.__adobe.analytics.pageType` | La variable de mise en œuvre [`pageType`](../vars/page-vars/pagetype.md). |
 | `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | Dimensions [prop](../../components/dimensions/prop.md). Les champs abrégés `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` sont également pris en charge. |

@@ -5,10 +5,14 @@ uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
 role: User, Admin
 exl-id: b412f2b5-affe-4297-af4b-85e8c6dfd257
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/cgDjTqGH0KzSrpg66sRfF8Kf81Q-WDwSWJ-OBvJK8DM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 35%
+source-wordcount: 503
+ht-degree: 23%
 
 ---
 
@@ -18,7 +22,7 @@ ht-degree: 35%
 
 Vous pouvez utiliser les fonctions Report Builder pour accéder à la fonctionnalité sans accéder à l’interface utilisateur de Report Builder.
 
-Par exemple, pour actualiser automatiquement les requêtes Report Builder avec des filtres d’entrée basés sur les données extraites d’autres sources dans Excel, utilisez la fonction de chaîne RefreshRequestsInCellsRange(..). Tous les appels sont asynchrones et ils reviennent immédiatement sans attendre l’exécution complète.
+Par exemple, pour actualiser automatiquement les requêtes Report Builder avec des filtres d’entrée basés sur les données extraites d’autres sources dans Excel, utilisez la chaîne RefreshRequestsInCellsRange(..) fonction. Tous les appels sont asynchrones et ils reviennent immédiatement sans attendre l’exécution complète.
 
 **Conditions**
 
@@ -34,7 +38,7 @@ Le tableau suivant répertorie les fonctions exposées.
 | AsyncRefreshActiveWorksheet() | string | Actualise toutes les requêtes du Report Builder présentes dans la feuille de calcul active. |
 | AsyncRefreshWorksheet(string worksheetName) | string | Actualise toutes les requêtes du Report Builder présentes dans la feuille de calcul indiquée (le nom de la feuille de calcul tel qu’il s’affiche dans l’onglet). |
 | AsyncRefreshWorksheetAltTextParam(); | string | Actualise toutes les requêtes du Report Builder présentes dans le nom de feuille de calcul spécifique qui a été transféré par l’intermédiaire du Texte de remplacement du Contrôle de formulaire MS. |
-| chaîne GetLastRunStatus() | string | Renvoie une chaîne qui décrit l’état de l’exécution la plus récente. |
+| chaîne GetLastRunStatus() | string | Renvoie une chaîne qui décrit le statut de la dernière exécution. |
 
 Pour accéder aux fonctions Report Builder, accédez à **[!UICONTROL Formules]** > **[!UICONTROL Insérer une fonction]**. Utilisez le champ de recherche pour rechercher une fonction ou sélectionnez une catégorie pour répertorier les fonctions de cette catégorie.
 
@@ -50,10 +54,10 @@ L&#39;exemple suivant montre *Si la valeur de la cellule P5 est du texte ou est 
 
 ## Utilisation des fonctions Report Builder avec le contrôle de format {#section_26123090B5BD49748C8D8ED7A1C5ED84}
 
-Vous pouvez affecter une macro à un contrôle que vous avez créé et ce contrôle peut être une fonction qui actualise une demande de classeur. Par exemple, la fonction AsyncRefreshActiveWorksheet actualise toutes les requêtes d’une feuille de calcul. Cependant, il peut arriver que vous souhaitiez actualiser uniquement certaines requêtes.
+Vous pouvez affecter une macro à un contrôle que vous avez créé et ce contrôle peut être une fonction qui actualise une demande de classeur. Par exemple, la fonction AsyncRefreshActiveWorksheet actualisera toutes les demandes d&#39;une feuille de calcul. Cependant, il peut arriver que vous souhaitiez actualiser uniquement certaines requêtes.
 
 1. Définissez le paramètre de macro.
-1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Affecter une macro]**.
+1. Cliquez avec le bouton droit sur le contrôle et sélectionnez **[!UICONTROL Affecter une macro]**.
 1. Saisissez le nom de la fonction Report Builder (pas de paramètres ni de parenthèses).
 
 ![Capture d’écran affichant la fenêtre Affecter une macro.](assets/assign_macro.png)
@@ -75,7 +79,7 @@ Pour transmettre des paramètres à des fonctions Report Builder à l’aide du 
 
    ![Capture d’écran affichant l’onglet Texte de remplacement et Texte de remplacement : field.](assets/alt_text.png)
 
-1. Sous **[!UICONTROL Texte de remplacement]**, saisissez la plage de cellules que vous souhaitez actualiser.
+1. Sous **[!UICONTROL Texte secondaire]**, saisissez la plage de cellules à actualiser.
 1. Ouvrez la liste des paramètres Report Builder sous **[!UICONTROL Formules]** > **[!UICONTROL Insérer une fonction]**> **[!UICONTROL Adobe.ReportBuilder.Bridge]**.
 
 1. Sélectionnez une des deux fonctions qui se terminent par AltTextParam et cliquez sur **[!UICONTROL OK]**.
