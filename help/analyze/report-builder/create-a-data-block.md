@@ -7,9 +7,14 @@ type: Documentation
 solution: Analytics
 exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
 TQID: https://experienceleague.adobe.com/RDgK9vgflGZC0HWd1GD-9nmBNdsJAHYEWt4jrmLGw5w
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 773
@@ -27,7 +32,7 @@ Configurez les paramètres initiaux du bloc de données : son emplacement, la su
 
 1. Sélectionnez ![AjouterCercle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Créer]**.
 
-   ![Capture d’écran affichant l’option Créer un bloc de données ](./assets/create-data-block.png){zoomable="yes"}
+   ![Capture d’écran affichant l’option Créer un bloc de données &#x200B;](./assets/create-data-block.png){zoomable="yes"}
 
 
 1. Définissez lʼ&#x200B;**[!UICONTROL Emplacement du bloc de données]**.
@@ -52,7 +57,7 @@ Configurez les paramètres initiaux du bloc de données : son emplacement, la su
 
    Sélectionnez **[!UICONTROL À partir de la cellule]** pour définir des données de début et de fin en fonction d&#39;une cellule de la feuille active.
 
-   Pour plus d’informations sur les options de période, voir [ Sélectionner une période ](select-date-range.md).
+   Pour plus d’informations sur les options de période, voir [&#x200B; Sélectionner une période &#x200B;](select-date-range.md).
 
 1. Sélectionnez **[!UICONTROL Suivant]**.
 
@@ -106,7 +111,7 @@ Pour créer le bloc de données, sélectionnez les composants du rapport et pers
 
 1. Sélectionnez **[!UICONTROL Terminer]** pour terminer la configuration de votre bloc de données.
 
-1. Un message de traitement **** s’affiche lors de la récupération des données d’analyse.
+1. Un message de traitement **&#x200B;**&#x200B;s’affiche lors de la récupération des données d’analyse.
 
    ![Message de traitement.](./assets/image11.png)
 

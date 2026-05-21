@@ -5,11 +5,20 @@ feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
 TQID: https://experienceleague.adobe.com/bH-sAinp0Hf0X9qesfrJMIUYdDqjrev5Hd7mRpihDLM
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 788
@@ -46,7 +55,7 @@ Cette pause a pour but de gérer et de gérer efficacement notre base de donnée
 | --- | --- |
 | **[!UICONTROL Onglet Rapports planifiés]** | |
 | [!UICONTROL Nom du rapport] | Indique le nom de la tâche planifiée. |
-| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous sélectionnez l’option E-mail, les rapports de plus de 1 Mo sont automatiquement joints à l’e-mail sous la forme d’un fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
+| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire. **Remarque :** si vous sélectionnez l’option E-mail, les rapports de plus de 1 Mo sont automatiquement joints à l’e-mail sous la forme d’un fichier .zip. Cette fonction évite que les pièces jointes ne soient trop volumineuses ; elle ne peut pas être désactivée. |
 | [!UICONTROL Options de publication] | Cette colonne répertorie Power BI si l’une des [options de publication Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) est sélectionnée. |
 | [!UICONTROL Planning] | Type de diffusion planifiée. |
 | [!UICONTROL Format de fichier] | Format de diffusion du rapport, tel qu’Excel, PDF, HTML, etc. |
@@ -59,5 +68,5 @@ Cette pause a pour but de gérer et de gérer efficacement notre base de donnée
 | [!UICONTROL Nom du fichier] | Indique le nom de la tâche planifiée. |
 | [!UICONTROL Date] | Date et heure du dernier envoi du rapport. |
 | [!UICONTROL Statut] | Le statut indique si le rapport a été envoyé ou non. |
-| [!UICONTROL  E-mail/FTP ] | Adresse e-mail ou FTP du destinataire du rapport. |
+| [!UICONTROL &#x200B; E-mail/FTP &#x200B;] | Adresse e-mail ou FTP du destinataire du rapport. |
 | [!UICONTROL Format de fichier] | Format de diffusion du rapport, tel qu’Excel, PDF, HTML, etc. |

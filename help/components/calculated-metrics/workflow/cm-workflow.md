@@ -4,10 +4,15 @@ title: Créer des mesures calculées
 feature: Calculated Metrics
 exl-id: b3380d6b-53b5-40af-8e23-34772d79ae26
 TQID: https://experienceleague.adobe.com/KuWD2kus9wcFW7yULWbLwfj4hfVHJgTjDeCJzEWwKFU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 367
@@ -21,13 +26,13 @@ Par défaut, seuls les administrateurs peuvent créer des mesures calculées. Le
 
 Vous pouvez créer une mesure calculée des manières suivantes :
 
-![Comment créer une mesure ](assets/create-metric.png)
+![Comment créer une mesure &#x200B;](assets/create-metric.png)
 
 * **A** Dans l’interface principale, sélectionnez **[!UICONTROL Composants]** puis **[!UICONTROL Mesures calculées]**. Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) [!UICONTROL **[!UICONTROL Add]**] dans le gestionnaire [[!UICONTROL Mesures calculées]](cm-manager.md).
 * **B**. Dans un projet Workspace, dans le panneau de gauche Composants , sélectionnez ![Ajouter](/help/assets/icons/Add.svg) à ![Événement](/help/assets/icons/Event.svg) **Mesures**.
 * **C**. Dans un projet Workspace, dans le menu contextuel de l’en-tête de colonne des mesures, sélectionnez **[!UICONTROL Créer une mesure à partir de la sélection]**. Dans le sous-menu, vous pouvez sélectionner une fonction ou sélectionner **[!UICONTROL Ouvrir dans le créateur de mesures calculées]**. <br/>Si vous sélectionnez une fonction, la mesure calculée est définie comme mesure de projet uniquement. Lorsque vous modifiez cette mesure par la suite, dans la fenêtre contextuelle [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md), une notification s’affiche dans le [Créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
 * **J**. Dans un projet Workspace, sélectionnez **[!UICONTROL Composants]** dans le menu, puis sélectionnez **[!UICONTROL Créer une mesure]**.
-* **. Dans un projet Workspace, utilisez le raccourci**[!UICONTROL  maj+cmd+c ]**(macOS) ou**[!UICONTROL  maj+ctrl+c ]**(Windows).**
+* **. Dans un projet Workspace, utilisez le raccourci**&#x200B;[!UICONTROL &#x200B; maj+cmd+c &#x200B;]&#x200B;**(macOS) ou**&#x200B;[!UICONTROL &#x200B; maj+ctrl+c &#x200B;]&#x200B;**(Windows).**
 
 Pour définir la nouvelle mesure calculée, utilisez le [créateur de mesures calculées](c-build-metrics/cm-build-metrics.md).
 

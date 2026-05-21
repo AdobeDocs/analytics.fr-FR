@@ -5,10 +5,20 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1131
@@ -72,7 +82,7 @@ L&#39;option **[!UICONTROL Copier dans le presse-papiers]** du menu contextuel p
 >Vous pouvez utiliser la touche de raccourci **_cmd + c_** (macOS) ou **_ctrl + c_** (Windows) pour copier votre sélection dans le presse-papiers. Utilisez ensuite **_cmd + v_** (macOS) ou **_ctrl + v_** (Windows) pour coller les données.
 
 
-![Option Copier la sélection dans le presse-papiers. ](assets/copy-clipboard.png){zoomable="yes"}
+![Option Copier la sélection dans le presse-papiers. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
 
 ## Télécharger des données dans une visualisation sous la forme d’un fichier CSV {#download-data}
 
@@ -122,8 +132,8 @@ Les fonctionnalités suivantes d’un tableau à structure libre sont appliquée
 
 Les notifications suivantes s’affichent au fur et à mesure des téléchargements du fichier :
 
-* Un bleu **[!UICONTROL _Nom de la table _-_Dimension _.csv a été demandé._x _% terminé]**indiquant la progression. Pour annuler le téléchargement à tout moment, sélectionnez **[!UICONTROL Annuler le téléchargement]**. Sélectionnez ![CrossSize100](/help/assets/icons/CrossSize100.svg) si vous souhaitez fermer le message, ce qui n’annule pas le téléchargement.
-* Un **[!UICONTROL _Nom de la table _vert -_Dimension _.csv a été téléchargé]**notification d’achèvement une fois le téléchargement du fichier terminé. Le fichier est téléchargé dans le dossier des téléchargements configuré pour votre navigateur.
+* Un bleu **[!UICONTROL _Nom de la table _-_Dimension _.csv a été demandé._x _% terminé]**&#x200B;indiquant la progression. Pour annuler le téléchargement à tout moment, sélectionnez **[!UICONTROL Annuler le téléchargement]**. Sélectionnez ![CrossSize100](/help/assets/icons/CrossSize100.svg) si vous souhaitez fermer le message, ce qui n’annule pas le téléchargement.
+* Un **[!UICONTROL _Nom de la table _vert -_Dimension _.csv a été téléchargé]**&#x200B;notification d’achèvement une fois le téléchargement du fichier terminé. Le fichier est téléchargé dans le dossier des téléchargements configuré pour votre navigateur.
 
 Si vous demandez plusieurs téléchargements à la fois, vous recevez une notification indiquant que chaque téléchargement supplémentaire est mis en file d’attente jusqu’à ce que le téléchargement précédent soit terminé.
 

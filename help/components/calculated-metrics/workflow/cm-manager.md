@@ -4,10 +4,17 @@ title: Gérer les mesures calculées
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
 TQID: https://experienceleague.adobe.com/BJTYlY8d2BEOLQgmxGFFvL8MV94j-ptEp2051nHY5tw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 902
@@ -64,7 +71,7 @@ Vous pouvez agir sur les filtres à l’aide de la barre d’actions ➋. La bar
 | ![Partager](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Partager]** | Partagez les mesures calculées sélectionnées. Dans la boîte de dialogue **[!UICONTROL Partager les mesures calculées]**, vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des individus ou des groupes* ou sélectionner **[!UICONTROL Organisation]** ou **[!UICONTROL Groupes]**. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les détails de partage pour les mesures calculées sélectionnées. Voir [Partage de mesures calculées](cm-sharing.md) pour plus d’informations. |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez les mesures calculées sélectionnées. Il vous est demandé de confirmer. |
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Renommer]** | Renommez une mesure calculée sélectionnée unique. Lorsque cette option est sélectionnée, vous pouvez renommer la mesure calculée en ligne. |
-| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Approuver les mesures calculées sélectionnées. Voir [ Approuver les mesures calculées ](cm-approving.md). |
+| ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Approuver les mesures calculées sélectionnées. Voir [&#x200B; Approuver les mesures calculées &#x200B;](cm-approving.md). |
 | ![Copier](/help/assets/icons/Copy.svg) | **[!UICONTROL Copier]** | Copiez les mesures calculées sélectionnées. De nouvelles mesures calculées sont créées avec le même nom et le même suffixe `(Copy)` |
 | ![Fichier CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exporter dans un fichier CSV]** | Exportez les mesures calculées dans un fichier `Calculated  metric List.csv`. |
 

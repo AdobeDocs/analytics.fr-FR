@@ -5,10 +5,15 @@ feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 role: Admin
 TQID: https://experienceleague.adobe.com/3SrvkrKhoEvtanhB-bFKl2IAQ6wQzb1vpnC5kXivuu0
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 822
@@ -28,7 +33,7 @@ Les règles de traitement des canaux marketing vous permettent de créer une log
 
 Une fois que la [configuration automatique](/help/components/c-marketing-channels/c-getting-started-mchannel.md) s’exécute, elle crée une règle pour chaque canal généré lors de la configuration.
 
-![ Règles par défaut ](assets/marketing_channel_rules.png)
+![&#x200B; Règles par défaut &#x200B;](assets/marketing_channel_rules.png)
 
 Vous pouvez utiliser plusieurs règles pour définir un canal marketing unique. L’utilisation de plusieurs règles pour un seul canal peut s’avérer bénéfique si vous souhaitez définir les détails du canal différemment en fonction des conditions des règles. Vous pouvez également utiliser plusieurs conditions pour définir une seule règle.
 
@@ -38,7 +43,7 @@ Chaque règle contient une condition et une affectation :
 
 * **[!UICONTROL Si toutes les conditions suivantes sont vraies]** : si vous ajoutez plusieurs conditions à une seule règle, vous pouvez déterminer si toutes les conditions doivent être remplies ou si l’une des conditions doit être remplie pour définir le canal et la valeur associée.
 * **Conditions des règles** : spécifiez une ou plusieurs conditions de règle qui doivent être remplies. En règle générale, vous spécifiez une dimension à laquelle un accès doit correspondre pour être qualifié pour le canal marketing.
-* **[!UICONTROL Procédez ensuite comme suit]** : lorsque les conditions de la règle correspondent, définissez [Canal marketing](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifier le canal comme ]) et [Détails du canal marketing](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Définir la valeur du canal]).
+* **[!UICONTROL Procédez ensuite comme suit]** : lorsque les conditions de la règle correspondent, définissez [Canal marketing](/help/components/dimensions/marketing-channel.md) ([!UICONTROL Identifier le canal comme &#x200B;]) et [Détails du canal marketing](/help/components/dimensions/marketing-detail.md) ([!UICONTROL Définir la valeur du canal]).
 
 ## Conditions de la règle
 
@@ -77,7 +82,7 @@ Les options suivantes sont disponibles lors de la définition des conditions de 
 | **[!UICONTROL Domaine Et Chemin De Référence]** | Une concaténation du domaine référent et du chemin d’URL du référent. Par exemple, `www.example.com/products/id/12345` ou `ad.example.com/foo`. |
 | **[!UICONTROL Paramètre Référent]** | Paramètre de chaîne de requête dans le référent. |
 | **[!UICONTROL Domaine racine de renvoi]** | Le domaine racine référent. |
-| **[!UICONTROL Moteur de recherche]** | La dimension [ Moteur de recherche ](/help/components/dimensions/search-engine.md). |
+| **[!UICONTROL Moteur de recherche]** | La dimension [&#x200B; Moteur de recherche &#x200B;](/help/components/dimensions/search-engine.md). |
 | **[!UICONTROL Mot(s)-clé(s) de recherche]** | La dimension [Mot-clé de recherche](/help/components/dimensions/search-keyword.md). |
 | **[!UICONTROL Moteur de recherche + mot(s)-clé(s) de recherche]** | Concaténation du moteur de recherche et du mot-clé de recherche. |
 | **[!UICONTROL ID AMO]** | Code de suivi principal utilisé par les intégrations Adobe Advertising et Advertising Analytics. Lorsque l’une de ces intégrations est activée, le préfixe du code de suivi peut être utilisé pour identifier les canaux spécifiques à Advertising. Les valeurs commençant par « AL » sont pour Search et Social. Les valeurs commençant par « AC » sont pour Affichage. Lorsque l’ID AMO est utilisé dans les canaux marketing, les mesures de clic/coût/impression peuvent être attribuées au canal correct. |
@@ -87,4 +92,4 @@ Les **variables de conversion** vous permettent de spécifier un eVar personnali
 
 | Condition de variable de conversion | Description |
 |---|---|
-| **eVar 1-250** | La dimension [](/help/components/dimensions/evar.md) associée. |
+| **eVar 1-250** | La dimension [&#128279;](/help/components/dimensions/evar.md) associée. |

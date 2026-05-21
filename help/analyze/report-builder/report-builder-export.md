@@ -7,11 +7,21 @@ type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
 TQID: https://experienceleague.adobe.com/GQb-eyhHPlUC3rweaoprqj6LO34gSymgC1buu2gl9iw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1263
@@ -26,7 +36,7 @@ Vous pouvez exporter des classeurs Customer Journey Analytics de Report Builder 
 
 [Les avantages de l’exportation des rapports de Report Builder vers le cloud](#advantages-of-exporting-to-the-cloud) incluent la possibilité d’utiliser des rapports dans des outils tiers ou de les combiner avec des données externes.
 
-Avant d’exporter des classeurs de Report Builder vers une destination cloud, assurez-vous que vos blocs de données, votre environnement et vos autorisations répondent aux [ exigences d’exportation ](#export-requirements).
+Avant d’exporter des classeurs de Report Builder vers une destination cloud, assurez-vous que vos blocs de données, votre environnement et vos autorisations répondent aux [&#x200B; exigences d’exportation &#x200B;](#export-requirements).
 
 ## Comprendre le processus d’exportation
 
@@ -52,7 +62,7 @@ Pour exporter des rapports depuis Report Builder :
 
 1. Si ce n’est pas déjà fait, configurez un compte et un emplacement d’export, comme décrit dans la section [Configurer des comptes d’export cloud](/help/components/locations/configure-import-accounts.md).
 
-1. Dans la feuille de calcul Excel qui contient les données à exporter, ouvrez le panneau de droite ****.
+1. Dans la feuille de calcul Excel qui contient les données à exporter, ouvrez le panneau de droite **&#x200B;**.
 
 1. Sélectionnez [!UICONTROL **Planifier**].
 
@@ -62,7 +72,7 @@ Pour exporter des rapports depuis Report Builder :
 
    Pour exporter le classeur selon un planning que vous avez déjà créé, sélectionnez le planning dans la liste des plannings, puis sélectionnez **[!UICONTROL Envoyer selon le planning]**.
 
-1. Dans le panneau de droite [!UICONTROL ****], spécifiez les informations suivantes pour continuer à créer un planning :
+1. Dans le panneau de droite [!UICONTROL **&#x200B;**], spécifiez les informations suivantes pour continuer à créer un planning :
 
    ![Onglet Plannings de Report Builder](assets/report-builder-schedule-cloud.png)
 

@@ -5,9 +5,13 @@ feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
 TQID: https://experienceleague.adobe.com/i3W28GubHz49z-R-QTSCcNoah6rirrmvnbcEvCMrYhU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 295
@@ -37,7 +41,7 @@ ht-degree: 77%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation par puces dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Puces](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation par puces dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Puces](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +64,7 @@ Vous pouvez définir des paramètres spécifiques pour une visualisation [!UICON
 
 | Paramètre | Description |
 |---|---|
-| **[!UICONTROL Options de puces]** | Spécifiez des valeurs pour **[!UICONTROL Objectif élevé]**, **[!UICONTROL Objectif intermédiaire]** et **[!UICONTROL Objectif faible]** dans la visualisation [!UICONTROL Puces]. L’<br/>**[!UICONTROL objectif élevé&#x200B;]**est votre objectif principal. L’**[!UICONTROL  objectif faible ]**et l’**[!UICONTROL  objectif moyen ]**créent des plages sous l’objectif élevé. Remarque : si vous cochez l’option**[!UICONTROL  Pourcentages ]**, saisissez les objectifs sous forme de nombres entiers. Par exemple `20` si votre objectif est de vingt pour cent. |
+| **[!UICONTROL Options de puces]** | Spécifiez des valeurs pour **[!UICONTROL Objectif élevé]**, **[!UICONTROL Objectif intermédiaire]** et **[!UICONTROL Objectif faible]** dans la visualisation [!UICONTROL Puces]. L’<br/>**[!UICONTROL objectif élevé&#x200B;]**&#x200B;est votre objectif principal. L’**[!UICONTROL &#x200B; objectif faible &#x200B;]**&#x200B;et l’**[!UICONTROL &#x200B; objectif moyen &#x200B;]**&#x200B;créent des plages sous l’objectif élevé. Remarque : si vous cochez l’option&#x200B;**[!UICONTROL &#x200B; Pourcentages &#x200B;]**, saisissez les objectifs sous forme de nombres entiers. Par exemple `20` si votre objectif est de vingt pour cent. |
 
 >[!MORELIKETHIS]
 >

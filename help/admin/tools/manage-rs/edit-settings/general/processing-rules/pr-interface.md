@@ -5,11 +5,18 @@ feature: Processing Rules
 role: Admin
 exl-id: 897d2bb6-cc10-43b1-b436-20985d24d998
 TQID: https://experienceleague.adobe.com/Ah57YA-n9UY-OLwpdKSheSqm53nXa-KoTkPuX8CBTfU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 476
@@ -41,8 +48,8 @@ Vous pouvez avoir jusqu’à 150 règles de traitement et 30 conditions par règ
 Chaque règle de traitement contient les sections suivantes :
 
 * **Titre de la règle** : libellé de la règle. Cela n’a aucune incidence sur la logique des règles de traitement, mais s’avère utile pour effectuer le suivi de la fonction de la règle.
-* **Condition** : affiché comme texte, « [!UICONTROL  Si l’une ou l’autre des conditions suivantes est vraie ] ». Si vous n’incluez pas de condition, la règle s’exécute toujours sur chaque accès.
-* **Action** : si aucune condition n’existe, le texte s’affiche sous la forme « [!UICONTROL Toujours exécuter] ». S’il existe une condition, le texte s’affiche sous la forme « [!UICONTROL Procédez comme suit ] ». Si la condition ci-dessus est évaluée comme `true`, chaque action répertoriée dans cette section peut s’exécuter. Outre la condition d’une règle, vous pouvez _également_ associer des conditions à des actions individuelles. Les actions suivantes sont disponibles :
+* **Condition** : affiché comme texte, « [!UICONTROL &#x200B; Si l’une ou l’autre des conditions suivantes est vraie &#x200B;] ». Si vous n’incluez pas de condition, la règle s’exécute toujours sur chaque accès.
+* **Action** : si aucune condition n’existe, le texte s’affiche sous la forme « [!UICONTROL Toujours exécuter] ». S’il existe une condition, le texte s’affiche sous la forme « [!UICONTROL Procédez comme suit &#x200B;] ». Si la condition ci-dessus est évaluée comme `true`, chaque action répertoriée dans cette section peut s’exécuter. Outre la condition d’une règle, vous pouvez _également_ associer des conditions à des actions individuelles. Les actions suivantes sont disponibles :
    * **[!UICONTROL Remplacer la valeur de]** : remplace la variable souhaitée par une autre variable, une valeur statique ou une valeur concaténée.
    * **[!UICONTROL Supprimer la valeur de]** : supprime la valeur de variable souhaitée pour cet accès.
    * **[!UICONTROL Définir l’événement]** : déclenche l’événement souhaité. En règle générale, vous définissez les événements sur une valeur personnalisée de `1` ; la définition d’événements sur des valeurs autres que `1` ou même leur définition sur des valeurs définies dans des variables de données contextuelles est également autorisée.

@@ -6,11 +6,19 @@ feature: Report Builder
 role: User, Admin
 exl-id: e63fc679-39eb-417b-9a2b-6620db63a824
 TQID: https://experienceleague.adobe.com/yeU4gugMR2nSKwjo4LuX79spXIaD4UtuaTQ52bZwGrU
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 676
@@ -24,14 +32,14 @@ ht-degree: 22%
 
 Avant de commencer à mapper des éléments à la feuille de calcul, assurez-vous que celle-ci n’est pas protégée. Si le schéma de protection de votre feuille de calcul empêche toute action de l&#39;utilisateur, vous ne pourrez pas sélectionner de cellules dans la feuille de calcul. Tout d&#39;abord, annulez la protection de la feuille, puis ajoutez des mappages de cellules.
 
-Le nombre de zones et de cellules à mapper diffère en fonction de la mesure que vous sélectionnez, de la granularité, de la période et des filtres que vous définissez. Par exemple, si vous sélectionnez [!UICONTROL Mesure du site] > [!UICONTROL Rapport de trafic], définissez la granularité [!UICONTROL Semaine] et définissez la période pour les [!UICONTROL 2 dernières semaines], vous êtes invité à mapper trois cellules (lors de l’utilisation de [!UICONTROL Mise en page personnalisée]) sur l’assistant [!UICONTROL Requête : étape 2]. La requête récupère les données de la première semaine et les données de la deuxième semaine, où chaque valeur de point de données est égale à la valeur d’une page vue. Votre troisième cellule sert d’en-tête de ligne. Vous pouvez la configurer à l’aide des [!UICONTROL  Options de format ].
+Le nombre de zones et de cellules à mapper diffère en fonction de la mesure que vous sélectionnez, de la granularité, de la période et des filtres que vous définissez. Par exemple, si vous sélectionnez [!UICONTROL Mesure du site] > [!UICONTROL Rapport de trafic], définissez la granularité [!UICONTROL Semaine] et définissez la période pour les [!UICONTROL 2 dernières semaines], vous êtes invité à mapper trois cellules (lors de l’utilisation de [!UICONTROL Mise en page personnalisée]) sur l’assistant [!UICONTROL Requête : étape 2]. La requête récupère les données de la première semaine et les données de la deuxième semaine, où chaque valeur de point de données est égale à la valeur d’une page vue. Votre troisième cellule sert d’en-tête de ligne. Vous pouvez la configurer à l’aide des [!UICONTROL &#x200B; Options de format &#x200B;].
 
 Si vous mappez par erreur des emplacements incompatibles sur la feuille de calcul, Report Builder génère une erreur.
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Sélection d’une plage de cellules ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
-* [Techniques de sélection des cellules ](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
+* [Sélection d’une plage de cellules &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [Techniques de sélection des cellules &#x200B;](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [Problèmes Lors Du Mappage](/help/analyze/legacy-report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
 ## Sélectionner une plage de cellules {#section_1E37FB46DA194FB7A1050B8833A48AC6}
