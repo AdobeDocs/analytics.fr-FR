@@ -71,4 +71,4 @@ Si vous ne disposez pas encore d’un modèle d’attribution qui fournit des r�
 
 * Il se peut que vous deviez faire appel aux services dʼun spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
 * Vous pouvez vous fier aux données brutes, comme dans les flux de données Adobe.
-* Pensez à utiliser [&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.
+* Pensez à utiliser [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.
