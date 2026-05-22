@@ -33,7 +33,7 @@ Consultez les conseils de Sarah Owen, qui est également propriétaire techniqu
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/3438738?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
