@@ -4,10 +4,17 @@ description: Comprenez les détails du modèle d’attribution algorithmique.
 feature: Attribution
 role: User, Admin
 exl-id: dd2b2a5b-9c36-4534-999f-f96604f29eab
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: 'https://experienceleague.adobe.com/jPLoQcRU8bpCGjKJ37mioUdZOFDUwNehmyBhdx7lj8c'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 42%
+source-wordcount: 296
+ht-degree: 38%
 
 ---
 
@@ -29,8 +36,8 @@ L’algorithme utilisé pour l’attribution est basé sur le dividende d’Hars
 
 Pour plus de détails, voir les articles originaux de John Harsanyi et Lloyd Shapley :
 
-* Shapley, Lloyd S. 1953. A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.
-* Harsanyi, John C. 1963. A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220.
+* Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.
+* Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220.
 
 >[!NOTE]
 >

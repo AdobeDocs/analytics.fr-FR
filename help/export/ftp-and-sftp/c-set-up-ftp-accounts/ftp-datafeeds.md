@@ -4,16 +4,20 @@ keywords: ftp;sftp
 title: Flux de données
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-TQID: https://experienceleague.adobe.com/SWXC-g3KTGuKiT0CBFfptUSBigs8pgkPVdRLzWhl6z4
+TQID: 'https://experienceleague.adobe.com/JYiAXR-SbFNV3xQQ5Y1Qv10kVWpFJRWmuOvERcQ-zP4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 331
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
@@ -21,7 +25,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->Les informations suivantes concernent les types de destinations FTP et SFTP. Les FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud , qui est plus sécurisé. Pour plus d’informations sur la configuration des types de destinations cloud pour un flux de données, voir [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).
+>Les informations suivantes concernent les types de destinations FTP et SFTP. FTP et SFTP sont des types de destination hérités. Lors de la configuration d’un flux de données, vous devez utiliser un type de destination cloud , qui est plus sécurisé. Pour plus d’informations sur la configuration des types de destinations cloud pour un flux de données, voir [Créer un flux de données](/help/export/analytics-data-feed/create-feed.md).
 
 Les flux de données constituent un export des données de flux de clics reçues par Adobe, pour des [flux de données](/help/export/analytics-data-feed/data-feed-overview.md) standard et personnalisés.
 

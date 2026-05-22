@@ -4,18 +4,21 @@ title: Gérer les demandes de Data Warehouse
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-TQID: https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc
+TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1150
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
@@ -31,7 +34,7 @@ Par défaut, vous ne pouvez afficher que les requêtes que vous créez, sauf si 
 
 Pour afficher les requêtes Data Warehouse :
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
    La page Data Warehouse affiche toutes les requêtes que vous avez effectuées. Les données sont affichées dans chaque colonne. Vous pouvez [configurer les colonnes](#configure-columns) visibles.
 
@@ -57,7 +60,7 @@ Tenez compte des points suivants lors de la modification des requêtes :
 
 Pour modifier une demande planifiée :
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
 1. Sur la page Data Warehouse, sélectionnez la requête à modifier.
 
@@ -75,7 +78,7 @@ Pour modifier une demande planifiée :
 
 Vous pouvez afficher l’historique de toutes les requêtes Data Warehouse que vous avez effectuées.
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
 1. Sur la page Data Warehouse , sélectionnez la requête dont vous souhaitez afficher l’historique.
 
@@ -117,7 +120,7 @@ Vous pouvez afficher l’historique de toutes les requêtes Data Warehouse que v
 
 Lorsque vous copiez une demande, toutes les options de configuration sont copiées à partir de la demande d’origine.
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
 1. Sur la page Data Warehouse, sélectionnez la requête à copier.
 
@@ -139,7 +142,7 @@ Seules les requêtes configurées pour s’exécuter selon un planning peuvent �
 
 Pour annuler une demande planifiée :
 
-1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
+1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Outils**] > [!UICONTROL **Data Warehouse**].
 
 1. Sur la page Data Warehouse, sélectionnez la requête à modifier.
 
