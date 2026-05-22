@@ -4,10 +4,14 @@ description: Découvrez comment naviguer dans l’interface du flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1329
@@ -178,7 +182,7 @@ Pour ajuster les colonnes visibles du tableau :
       * Supprimé : le flux est supprimé.
       * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
       * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
+      * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
    * **Dernière modification** : date de la dernière modification du flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de début** : date du premier traitement de ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de fin** : date du dernier traitement de ce flux. Les flux de données continus ne possèdent pas de date de fin.

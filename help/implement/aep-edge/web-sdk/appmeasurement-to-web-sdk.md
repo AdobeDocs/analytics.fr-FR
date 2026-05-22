@@ -3,11 +3,20 @@ title: Migration d’AppMeasurement vers le SDK Web
 description: Mettez à jour votre implémentation Adobe Analytics de la bibliothèque AppMeasurement JavaScript vers la bibliothèque Web SDK JavaScript.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
 TQID: 'https://experienceleague.adobe.com/7Oexe7sCsatMVf6-F8m-boQWyyUdwNL66GFCDrgdLr8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1434
@@ -50,7 +59,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez ****.
+1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
@@ -87,7 +96,7 @@ Vous pouvez éventuellement définir d’autres propriétés dans la commande [`
 
 +++**4. Mettez à jour la logique de code pour utiliser une payload JSON**
 
-Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [ couche de données ](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
+Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [&#x200B; couche de données &#x200B;](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
 
 Pour envoyer des données à Adobe Analytics, la payload de Web SDK doit utiliser `data.__adobe.analytics` avec toutes les variables d’analyse définies dans cet objet. Les variables au sein de cet objet partagent des noms et des formats identiques à leurs équivalents de variables AppMeasurement. Par exemple, si vous définissez la variable `products`, ne la divisez pas en objets individuels comme vous le feriez avec XDM. Au lieu de cela, incluez-le en tant que chaîne, exactement comme si vous définissiez la variable `s.products` :
 

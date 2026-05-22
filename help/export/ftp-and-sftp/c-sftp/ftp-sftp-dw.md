@@ -5,10 +5,15 @@ title: Envoi de requêtes Data Warehouse vers les serveurs SFTP
 feature: FTP Export
 exl-id: 45694647-69ec-45e3-b614-4a936909a338
 TQID: 'https://experienceleague.adobe.com/gZvqhVFN2WKnk0hs2t8R5fcg5g8Tts1jKZPvMqeGcy4'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: a8bf2e97-0add-4437-b976-1fc5154911a8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: a8bf2e97-0add-4437-b976-1fc5154911a8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 258
@@ -34,4 +39,4 @@ Pour envoyer une requête Data Warehouse par SFTP :
 1. Connectez-vous au site SFTP avec les mêmes informations d’identification que celles utilisées pour la requête Data Warehouse.
 1. Dans le répertoire racine, naviguez jusqu’au dossier nommé `.ssh` (s’il n’existe pas, créez-le) et placez-y le fichier `authorized_keys`.
 
-1. Complétez la requête Data Warehouse si vous ne l’avez pas déjà fait, comme décrit dans la section [ Configurer une destination de rapport pour une requête Data Warehouse ](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
+1. Complétez la requête Data Warehouse si vous ne l’avez pas déjà fait, comme décrit dans la section [&#x200B; Configurer une destination de rapport pour une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
