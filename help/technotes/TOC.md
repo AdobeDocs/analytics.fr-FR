@@ -5,9 +5,9 @@ user-guide-title: Notes techniques d’Analytics
 breadcrumb-title: Notes techniques
 user-guide-description: Parcourez une base de connaissances contenant des articles utiles qui ne se rapportent pas à un outil ou à un composant Analytics spécifique.
 source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 + [Applications web progressives](pwa.md)
 + [Redirections et alias](redirects.md)
 + [Ressources de sécurité](security.md)
-+ [Sécurité pour FTP et SFTP](sftp-password-rotation.md)
++ [Sécurité FTP et SFTP](sftp-password-rotation.md)
 + [Termes utilisés (glossaire)](terms.md)
 + [Résolution des problèmes de connexion](troubleshoot-login.md)
 + [Résolution des problèmes de déconnexion](troubleshoot-sessions.md)
