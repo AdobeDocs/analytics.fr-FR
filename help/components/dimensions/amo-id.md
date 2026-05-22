@@ -2,16 +2,22 @@
 title: ID AMO
 description: Identifiant Adobe Media Optimizer, utilisé dans les intégrations Adobe Advertising.
 feature: Dimensions
-source-git-commit: 408d8db0d1e3c8301a066fe54d611ec7b8e3418a
+exl-id: 90642896-43dd-4ac0-bfb8-7fe34c0e0302
+TQID: 'https://experienceleague.adobe.com/SzHWYAzd9iYcd5AU86TVL6Bfca4UsuijV141jBuS0y8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: 793
 ht-degree: 3%
 
 ---
 
 # ID AMO
 
-L’**[!UICONTROL AMO ID]** est un ensemble d’identifiants concaténés utilisés dans les intégrations d’Adobe Advertising. Les valeurs stockées dans cette dimension sont automatiquement organisées en dimensions de classification distinctes, plus lisibles par l’utilisateur, à utiliser dans les rapports Analytics. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview).
+L’**[!UICONTROL AMO ID]** est un ensemble d’identifiants concaténés utilisés dans les intégrations d’Adobe Advertising. Les valeurs stockées dans cette dimension sont automatiquement organisées en dimensions de classification distinctes, plus lisibles par l’utilisateur, à utiliser dans les rapports Analytics. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Renseignement de cette dimension avec des données
 
@@ -35,7 +41,7 @@ AC!{ad key}!{placement key}
 * **`ad key`** : identifiant alphanumérique généré par Adobe Advertising pour la publicité.
 * **`placement key`** : identifiant alphanumérique généré par Adobe Advertising pour l’emplacement.
 
-Exemple de valeur :
+Exemple de valeur :
 
 ```text
 AC!iIMvXqlOa6Nia2lDvtgw!GrVv6o2oV2qQLjQiXLC7
@@ -133,30 +139,30 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classifications
 
-Lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview), les classifications suivantes sont automatiquement créées. Les valeurs de classification sont automatiquement conservées par l’intégration.
+Lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), les classifications suivantes sont automatiquement créées. Les valeurs de classification sont automatiquement conservées par l’intégration.
 
 | Classification | Description | DSP | Recherche,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Compte]** | Nom du compte. | &check; | &check; |
-| **[!UICONTROL URL d’affichage de l’annonce]** | URL affichée dans la publicité. | | &check; |
-| **[!UICONTROL Description de l’annonce]** | Description de l’annonce publicitaire (DSP) ou corps de l’annonce publicitaire (Search, Social et Commerce). | &check; | &check; |
-| **[!UICONTROL Ajouter une URL de destination]** | URL de destination de la publicité. | | &check; |
-| **[!UICONTROL Groupe publicitaire]** | Nom du groupe publicitaire. | | &check; |
-| **[!UICONTROL Plateforme publicitaire]** | DSP publicitaire ou nom du moteur de recherche. | &check; | &check; |
-| **[!UICONTROL Titre de la publicité]** | Type d’annonce (DSP) ou titre de l’annonce (Search, Social et Commerce). | &check; | &check; |
-| **[!UICONTROL Type d’annonce]** | Type d’annonce, tel que `text`, `video`, `display` ou `native`. | &check; | &check; |
-| **[!UICONTROL Attribut AdCloud 1]** -<br>**[!UICONTROL Attribut AdCloud 5 &#x200B;]** | Classifications d’espaces réservés réservées aux futurs attributs personnalisés. Actuellement inutilisé. | | |
-| **[!UICONTROL Campagne]** | Nom de la campagne. | &check; | &check; |
-| **[!UICONTROL Nom d’expérience Creative]** | Nom de l’expérience créative associée à l’interaction publicitaire, représentant un groupe de variations créatives utilisées dans les tests ou la personnalisation. | &check; | |
-| **[!UICONTROL Nom de la branche Creative]** | Nom de la branche dans une expérience de création qui représente une variation ou un chemin spécifique dans l’expérience de création. | &check; | |
-| **[!UICONTROL ID de branche Creative]** | Identifiant unique attribué à une branche de création dans une expérience de création. | &check; | |
-| **[!UICONTROL Nom du Creative]** | Nom de la ressource publicitaire spécifique qui a été diffusée à l’utilisateur. | &check; | |
-| **[!UICONTROL Nom De Variante Creative]** | Nom de la variante spécifique d’un contenu créatif utilisé dans une expérience créative ou une branche. | &check; | |
-| **[!UICONTROL Mot-clé]** | Le mot-clé . | | &check; |
-| **[!UICONTROL Type de correspondance de mot-clé]** | Le mot-clé et le type de correspondance. | | &check; |
-| **[!UICONTROL Type d’atterrissage]** | Indique si l’entrée de la page de destination était une vue publicitaire ou un clic publicitaire. | &check; | &check; |
-| **[!UICONTROL Type de correspondance]** | Type de correspondance de recherche. | | &check; |
-| **[!UICONTROL Réseau]** | RTB (DSP) ou le nom du réseau publicitaire (Search, Social et Commerce). | &check; | &check; |
-| **[!UICONTROL Optimisation]** : | Nom du package (DSP) ou nom du portfolio (Search, Social et Commerce). | &check; | &check; |
-| **[!UICONTROL Placement]** | Nom de l’emplacement. | &check; | |
-| **[!UICONTROL Cible du produit]** | Cible de produit d’une annonce publicitaire dans une liste de produits. | | &check; |
+| **[!UICONTROL Compte]** | Nom du compte. | &amp;check; | &amp;check; |
+| **[!UICONTROL URL d’affichage de l’annonce]** | URL affichée dans la publicité. | | &amp;check; |
+| **[!UICONTROL Description de l’annonce]** | Description de l’annonce publicitaire (DSP) ou corps de l’annonce publicitaire (Search, Social et Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Ajouter une URL de destination]** | URL de destination de la publicité. | | &amp;check; |
+| **[!UICONTROL Groupe publicitaire]** | Nom du groupe publicitaire. | | &amp;check; |
+| **[!UICONTROL Plateforme publicitaire]** | DSP publicitaire ou nom du moteur de recherche. | &amp;check; | &amp;check; |
+| **[!UICONTROL Titre de la publicité]** | Type d’annonce (DSP) ou titre de l’annonce (Search, Social et Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Type d’annonce]** | Type d’annonce, tel que `text`, `video`, `display` ou `native`. | &amp;check; | &amp;check; |
+| **[!UICONTROL Attribut AdCloud 1]** -<br>**[!UICONTROL Attribut AdCloud 5 ]** | Classifications d’espaces réservés réservées aux futurs attributs personnalisés. Actuellement inutilisé. | | |
+| **[!UICONTROL Campagne]** | Nom de la campagne. | &amp;check; | &amp;check; |
+| **[!UICONTROL Nom d’expérience]** | Nom de l’expérience créative associée à l’interaction publicitaire, représentant un groupe de variations créatives utilisées dans les tests ou la personnalisation. | &amp;check; | |
+| **[!UICONTROL Nom de la branche]** | Nom de la branche dans une expérience de création qui représente une variation ou un chemin spécifique dans l’expérience de création. | &amp;check; | |
+| **[!UICONTROL ID de branche]** | Identifiant unique attribué à une branche de création dans une expérience de création. | &amp;check; | |
+| **[!UICONTROL Nom du]** | Nom de la ressource publicitaire spécifique qui a été diffusée à l’utilisateur. | &amp;check; | |
+| **[!UICONTROL Nom De Variante]** | Nom de la variante spécifique d’un contenu créatif utilisé dans une expérience créative ou une branche. | &amp;check; | |
+| **[!UICONTROL Mot-clé]** | Le mot-clé . | | &amp;check; |
+| **[!UICONTROL Type de correspondance de mot-clé]** | Le mot-clé et le type de correspondance. | | &amp;check; |
+| **[!UICONTROL Type d’atterrissage]** | Indique si l’entrée de la page de destination était une vue publicitaire ou un clic publicitaire. | &amp;check; | &amp;check; |
+| **[!UICONTROL Type de correspondance]** | Type de correspondance de recherche. | | &amp;check; |
+| **[!UICONTROL Réseau]** | RTB (DSP) ou le nom du réseau publicitaire (Search, Social et Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Optimisation]** : | Nom du package (DSP) ou nom du portfolio (Search, Social et Commerce). | &amp;check; | &amp;check; |
+| **[!UICONTROL Placement]** | Nom de l’emplacement. | &amp;check; | |
+| **[!UICONTROL Cible du produit]** | Cible de produit d’une annonce publicitaire dans une liste de produits. | | &amp;check; |

@@ -4,16 +4,13 @@ title: Migration de comptes d’utilisateurs Analytics sous la forme d’Enterpr
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 role: Admin
-TQID: https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 769
 ht-degree: 71%
@@ -34,7 +31,7 @@ Pour créer de nouveaux domaines et répertoires, procédez comme suit :
 * Configurer des domaines
 * Lier des domaines à des répertoires
 
-Pour obtenir de l’aide[&#128279;](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir  Configuration d’un système d’identités .
+Pour obtenir de l’aide](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir [ Configuration d’un système d’identités .
 
 Si un répertoire a déjà été créé dans une autre organisation par une autre unité opérationnelle ou une autre équipe, suivez les étapes de la section [approbation de répertoire](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html#Directorytrusting) pour établir le répertoire dans l’organisation que vous utilisez pour Analytics.
 
@@ -44,7 +41,7 @@ Lors de cette procédure, vous serez amené à effectuer les opérations suivant
 
 * Téléchargez une liste de connexion d’utilisateur depuis **[!UICONTROL Analytics]** > **[!UICONTROL Utilisateurs Analytics et Assets]**.
 
-* Téléchargez une liste d’utilisateurs actuels depuis **&#x200B;**&#x200B;> **[!UICONTROL Utilisateurs]**.
+* Téléchargez une liste d’utilisateurs actuels depuis **** > **[!UICONTROL Utilisateurs]**.
 
 * Comparer les listes (rechercher les doublons afin d’éviter d’écraser des données de compte dans Adobe Admin Console).
 * Charger un fichier [!DNL .csv] complet (dans **[!UICONTROL Admin Console]** > **[!UICONTROL Utilisateurs]**) avec les utilisateurs Enterprise ID ou Federated ID dans Adobe Admin Console.

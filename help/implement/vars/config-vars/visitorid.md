@@ -4,18 +4,13 @@ description: Permet d’utiliser un identifiant visiteur personnalisé.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 510
 ht-degree: 20%
@@ -54,7 +49,7 @@ L’[!UICONTROL identifiant visiteur] est un champ sous l’accordéon [!UICONTR
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Sélectionnez la propriété de balise de votre choix.
-3. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+3. Accédez à l’onglet [!UICONTROL  Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Cookies], ce qui permet d’afficher le champ [!UICONTROL Identifiant visiteur].
 
 Affectez ce champ à l’élément de données contenant votre identifiant visiteur personnalisé. **Ne définissez pas ce champ sur une valeur statique unique pour tous les visiteurs.** Utilisez un élément de données qui est résolu par visiteur et qui reste constant pour tous les accès.
@@ -69,4 +64,4 @@ s.visitorID = "abc123";
 
 ## Identifiant visiteur à l’aide de Web SDK
 
-Adobe Experience Platform Edge Network vous permet de fournir plusieurs identifiants à l’aide de la [carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=fr#using-identitymap) de XDM. Chaque identité d’un mappage d’identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de la [configuration du flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr#analytics). Une fois ce champ configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.
+Adobe Experience Platform Edge Network vous permet de fournir plusieurs identifiants à l’aide de la [carte des identités](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) de XDM. Chaque identité d’un mappage d’identités comporte un espace de noms différent. Vous pouvez spécifier l’espace de noms à utiliser pour l’identifiant visiteur dans le cadre de la [configuration du flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Une fois ce champ configuré, lorsque vous envoyez un événement avec une valeur spécifiée pour cet espace de noms, il est automatiquement utilisé comme identifiant visiteur dans Analytics.

@@ -3,9 +3,14 @@ title: Règles des ensembles de classifications
 description: Découvrez comment utiliser les règles des jeux de classifications pour définir des règles pour les données de classification.
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: 1692
 ht-degree: 13%
 
 ---
@@ -73,7 +78,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -166,7 +171,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -225,7 +230,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -315,7 +320,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.

@@ -3,9 +3,11 @@ description: Adobe nécessite un préavis pour les nouvelles configurations de c
 title: Délai d’avance requis pour les augmentations de trafic
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: ht
-source-wordcount: '325'
+TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+workflow-type: tm+mt
+source-wordcount: 328
 ht-degree: 100%
 
 ---
@@ -16,7 +18,7 @@ Adobe nécessite un préavis pour les nouvelles configurations de compte, les pi
 
 >[!IMPORTANT]
 >
-> Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt.
+>Adobe ne peut pas prendre en charge les demandes de modification du trafic « d’espace réservé ». Sauf indication contraire, respectez autant que possible le délai d’avance suggéré, y compris en n’envoyant pas d’alerte trop tôt.
 
 Suivez les instructions suivantes pour déterminer la durée à l’avance à laquelle vous devez soumettre une alerte de trafic :
 

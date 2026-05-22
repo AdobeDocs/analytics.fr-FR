@@ -4,18 +4,13 @@ description: Découvrez comment implémenter Adobe Analytics à l’aide de bal
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+TQID: 'https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: df312454-73c4-43f6-a90e-18f5043f074c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 69%
@@ -76,7 +71,7 @@ Présentation générale des tâches d’implémentation :
 <tr>
 <td>6</td> 
 <td><b>Validez et publiez en production</b>. Code incorporé permettant d’inclure la propriété de balise dans les pages de votre site web. Utilisez ensuite des éléments de données, des règles, etc., pour personnaliser votre implémentation.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=fr#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validez une implémentation de développement et publiez-la en production</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Code incorporé</a><br/><a href="./validate-publish-prod.md">Validez une implémentation de développement et publiez-la en production</a></td>
 </tr>
 
 </table>

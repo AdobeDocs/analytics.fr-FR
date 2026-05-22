@@ -4,17 +4,13 @@ description: Permet de créer des fonctions de rappel avant d’envoyer un accè
 feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/jL-4dheXUBOdrkCxVfq3CpWrTOgwjvEDWZ-Eg-sL2y0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/Hk3K6cOITndpRE4xrWzEEu1n-JcV-U8A1lO8iUWssUY'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 435
 ht-degree: 54%
@@ -39,7 +35,7 @@ Chaque fois que vous appelez la variable `registerPreTrackCallback`, vous associ
 
 Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données.
 
-1. Connectez-vous à l’interface utilisateur de la collecte de données [&#128279;](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+1. Connectez-vous à l’interface utilisateur de la collecte de données [](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Accédez à l’onglet [!UICONTROL Extensions], puis cliquez sur le bouton **[!UICONTROL Configurer]** sous [!UICONTROL Adobe Experience Platform Web SDK].
 1. Sous [!UICONTROL Collecte de données], cliquez sur le bouton **[!UICONTROL Modifier le avant le code de rappel d’envoi d’événement]**.
@@ -47,7 +43,7 @@ Le SDK Web ne peut pas accrocher une fonction après la compilation des données
 
 ## Rappel de pré-suivi implémentant manuellement le SDK Web
 
-Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=fr#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
+Le SDK Web ne peut pas accrocher une fonction après la compilation des données, mais avant leur envoi à Adobe. Cependant, vous pouvez utiliser `onBeforeEventSend` pour enregistrer une fonction à exécuter juste avant l’envoi des données, comme `doPlugins`. Voir [Modifier globalement les événements](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) dans la documentation de Web SDK pour plus d’informations.
 
 ```js
 // Set the trackingCode XDM field to "New value"

@@ -4,16 +4,11 @@ description: Instructions destinées aux administrateurs qui découvrent une imp
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/5F0Q5NrSnaTQp4xPizJ7fRmeRygZ-4YEteo-pKH-AjE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/ljT8qsJ--cy-PEZ6FtzBsyTzxrIctzf8lHkvMGeqePo'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 172
 ht-degree: 66%
@@ -33,7 +28,7 @@ Consultez les conseils de Sarah Owen, qui est également propriétaire techniqu
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/3438738?captions=fre_fr&quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilisation du manuel d’implémentation hérité](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

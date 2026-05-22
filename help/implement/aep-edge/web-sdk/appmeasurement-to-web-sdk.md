@@ -2,17 +2,13 @@
 title: Migration d’AppMeasurement vers le SDK Web
 description: Mettez à jour votre implémentation Adobe Analytics de la bibliothèque AppMeasurement JavaScript vers la bibliothèque Web SDK JavaScript.
 exl-id: c90246e8-0f04-4655-9204-33c0ef611b13
-TQID: https://experienceleague.adobe.com/dJCkKVutHsNHw-jJNMh2LNZe90jIsZYkKu4Q02gNT1k
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+TQID: 'https://experienceleague.adobe.com/7Oexe7sCsatMVf6-F8m-boQWyyUdwNL66GFCDrgdLr8'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 1434
 ht-degree: 9%
@@ -54,7 +50,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
+1. Dans le menu déroulant Service, sélectionnez ****.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
@@ -71,9 +67,9 @@ Référencez la dernière version de `alloy.js` afin que ses appels de méthode 
 
 +++**3. Configurez le SDK Web**
 
-Configurez votre implémentation pour pointer vers le flux de données créé à l’étape précédente à l’aide de la commande Web SDK [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview). La commande `configure` doit être définie sur chaque page afin que vous puissiez l’inclure avec le code d’installation de la bibliothèque.
+Configurez votre implémentation pour pointer vers le flux de données créé à l’étape précédente à l’aide de la commande Web SDK [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview). La commande `configure` doit être définie sur chaque page afin que vous puissiez l’inclure avec le code d’installation de la bibliothèque.
 
-Utilisez les propriétés [`datastreamId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/datastreamid) et [`orgId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande `configure` de Web SDK :
+Utilisez les propriétés [`datastreamId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/datastreamid) et [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande `configure` de Web SDK :
 
 * Définissez la `datastreamId` sur l’identifiant du flux de données récupéré à l’étape précédente.
 * Définissez le `orgId` sur l’organisation IMS de votre organisation.
@@ -85,13 +81,13 @@ alloy("configure", {
 });
 ```
 
-Vous pouvez éventuellement définir d’autres propriétés dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview) en fonction des exigences d’implémentation de votre entreprise.
+Vous pouvez éventuellement définir d’autres propriétés dans la commande [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) en fonction des exigences d’implémentation de votre entreprise.
 
 +++
 
 +++**4. Mettez à jour la logique de code pour utiliser une payload JSON**
 
-Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [&#x200B; couche de données &#x200B;](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
+Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [ couche de données ](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
 
 Pour envoyer des données à Adobe Analytics, la payload de Web SDK doit utiliser `data.__adobe.analytics` avec toutes les variables d’analyse définies dans cet objet. Les variables au sein de cet objet partagent des noms et des formats identiques à leurs équivalents de variables AppMeasurement. Par exemple, si vous définissez la variable `products`, ne la divisez pas en objets individuels comme vous le feriez avec XDM. Au lieu de cela, incluez-le en tant que chaîne, exactement comme si vous définissiez la variable `s.products` :
 
@@ -126,7 +122,7 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++**5. Appels de méthode de mise à jour pour utiliser le SDK Web**
 
-Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functions/t-method.md) et [`s.tl()`](../../vars/functions/tl-method.md), en les remplaçant par la commande [`sendEvent`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendevent/overview). Trois scénarios sont à prendre en compte :
+Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functions/t-method.md) et [`s.tl()`](../../vars/functions/tl-method.md), en les remplaçant par la commande [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendevent/overview). Trois scénarios sont à prendre en compte :
 
 * **Suivi des pages vues** : remplacez l’appel de suivi des pages vues par la commande `sendEvent` de Web SDK :
 
@@ -138,7 +134,7 @@ Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functi
   alloy("sendEvent", dataObj);
   ```
 
-* **Suivi automatique des liens** : la propriété de configuration [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activée par défaut. Il définit automatiquement les variables de suivi des liens appropriées pour envoyer des données à Adobe Analytics. Si vous souhaitez désactiver le suivi automatique des liens, définissez cette propriété sur `false` dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Suivi automatique des liens** : la propriété de configuration [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activée par défaut. Il définit automatiquement les variables de suivi des liens appropriées pour envoyer des données à Adobe Analytics. Si vous souhaitez désactiver le suivi automatique des liens, définissez cette propriété sur `false` dans la commande [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Suivi manuel des liens** : le SDK Web ne dispose pas de commandes distinctes entre les appels pageview et non-pageview. Fournissez cette distinction dans l’objet de payload.
 

@@ -4,17 +4,13 @@ description: Personnalisez la manière dont Activity Map collecte la zone géogr
 feature: Appmeasurement Implementation
 role: Admin, Developer
 exl-id: 9bbdb124-b865-4431-8a98-9814c3f2e65c
-TQID: https://experienceleague.adobe.com/--7PQfTw20gS6EdKvtlbaUtvw5HrdHx49NNDSC3JAso
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/EVVto7LRuTewu9y9AHLAPGn7sbqhJU3QSjlNtjKE5bQ'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 218
 ht-degree: 15%
@@ -30,7 +26,7 @@ La variable `ActivityMap.region` vous permet de remplacer la logique utilisée p
 
 ## Remplacement des valeurs de zone géographique à l’aide de Web SDK
 
-Vous pouvez utiliser [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) rappel pour modifier la payload de Web SDK ou abandonner l’envoi de données.
+Vous pouvez utiliser [`OnBeforeLinkClickSend`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/onbeforelinkclicksend) rappel pour modifier la payload de Web SDK ou abandonner l’envoi de données.
 
 ## Remplacement de zone géographique à l’aide de l’extension Adobe Analytics
 
@@ -41,7 +37,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 Affectez à cette variable une fonction qui :
 
 * reçoit l’élément HTML sur lequel l’utilisateur a cliqué ; et
-* Renvoie une valeur de chaîne. Cette valeur de chaîne est la valeur finale utilisée pour la dimension [Région &#x200B;](/help/components/dimensions/activity-map-region.md).
+* Renvoie une valeur de chaîne. Cette valeur de chaîne est la valeur finale utilisée pour la dimension [Région ](/help/components/dimensions/activity-map-region.md).
 
 Si la valeur renvoyée est [false](https://developer.mozilla.org/fr-FR/docs/Glossaire/Falsy), toutes les variables de données contextuelles Activity Map sont effacées et aucune donnée de lien n’est suivie.
 
