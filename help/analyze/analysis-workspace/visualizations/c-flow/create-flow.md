@@ -5,11 +5,21 @@ feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
 TQID: https://experienceleague.adobe.com/JuuU7Hs7JTl4Q9qOlfcYHvlpGHxHea-56K3N-3CKZos
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1691
@@ -181,7 +191,7 @@ Utilisez un menu contextuel sur n’importe quel nœud de la visualisation Flux 
 | **[!UICONTROL Exclure un élément]** ou **[!UICONTROL Restaurer les éléments exclus]** | Supprime un nœud donné de la colonne et le transforme automatiquement en filtre en haut de la colonne. Pour restaurer l’élément exclu, sélectionnez **[!UICONTROL Restaurer un élément exclu]** dans le menu contextuel. Vous pouvez également ouvrir le filtre en haut de la colonne et supprimer le rectangle contenant l’élément que vous venez d’exclure. |
 | **[!UICONTROL Tendance]** | Permet de créer un diagramme de tendance pour le nœud. |
 | **[!UICONTROL Afficher la colonne suivante]**/**[!UICONTROL Afficher la colonne précédente]** | Affiche la colonne suivante (à droite) ou précédente (à gauche) de la visualisation. |
-| **[!UICONTROL Masquer la colonne]**n | Masque la colonne sélectionnée dans la visualisation. |
+| **[!UICONTROL Masquer la colonne]**&#x200B;n | Masque la colonne sélectionnée dans la visualisation. |
 | **[!UICONTROL Développer toute la colonne]** | Permet de développer une colonne pour afficher tous les nœuds. Par défaut, seuls les cinq premiers nœuds sont présentés. |
 | **[!UICONTROL Créer une audience à partir de la sélection]** | Crée une audience en fonction de la colonne sélectionnée. |
 | **[!UICONTROL Réduire toute la colonne]** | Permet de masquer tous les nœuds d’une colonne. |
