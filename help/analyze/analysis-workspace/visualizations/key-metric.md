@@ -5,17 +5,10 @@ feature: Visualizations
 role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 TQID: https://experienceleague.adobe.com/Mrn0LGvyOIX9Ko1odTRC8bUU-OD4YQYuwjqa3gYSLSs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 961
@@ -33,7 +26,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation du résumé des mesures clés dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Résumé des mesures clés](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article présente la visualisation du résumé des mesures clés dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Voir [Résumé des mesures clés](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/key-metric) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -131,7 +124,7 @@ Une fois la visualisation créée, vous pouvez modifier la configuration d’ori
 1. Sélectionnez ![Modifier](/help/assets/icons/Edit.svg) dans le coin supérieur droit de la visualisation.
 
 
-   Vous revenez maintenant à la vue de configuration [&#x200B; d’origine](#configure).
+   Vous revenez maintenant à la vue de configuration [ d’origine](#configure).
 
 1. Modifiez la mesure, la période Principale, la période de comparaison ou le segment selon vos préférences.
 

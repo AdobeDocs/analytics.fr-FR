@@ -5,20 +5,11 @@ role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
 TQID: 'https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
@@ -44,7 +35,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476886/?captions=fre_fr&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -82,7 +73,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476886/?captions=fre_fr&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -198,28 +189,28 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476886/?captions=fre_fr&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Intégrez [Adobe Experience League](https://experienceleague.adobe.com/fr?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
+Intégrez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
 
 
 ## Adobe Admin Console
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476921/?learn=on&enablevpops)
 
-Intégrez [&#128279;](https://adminconsole.adobe.com/fr) pour gérer les droits de produit pour votre organisation. Ajouter, supprimer ou modifier l’accès utilisateur.
+Intégrez [](https://adminconsole.adobe.com/fr) pour gérer les droits de produit pour votre organisation. Ajouter, supprimer ou modifier l’accès utilisateur.
 
 ## Adobe Admin Console User Management
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476898/?learn=on&enablevpops)
 
-Intégrez la [gestion des utilisateurs de &#x200B;](https://adminconsole.adobe.com/redirect@AdobeOrg/users) pour gérer les utilisateurs, les groupes et les profils. Découvrez comment attribuer un rôle de produit à un utilisateur ou à un groupe.
+Intégrez la [gestion des utilisateurs de ](https://adminconsole.adobe.com/redirect@AdobeOrg/users) pour gérer les utilisateurs, les groupes et les profils. Découvrez comment attribuer un rôle de produit à un utilisateur ou à un groupe.
 
 ## Soumission d’un dossier d’assistance
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home?lang=fr#support).
+Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -232,7 +223,7 @@ Votre Parcours Adobe Analytics commence par l’intégration des configurations 
 
 Une fois l’intégration à Adobe Analytics et à ses plateformes associées terminée, envisagez d’explorer les ressources suivantes pour approfondir votre compréhension et améliorer vos compétences :
 
-1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentation Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics)
 4. [Tutoriels et vidéos Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview)
