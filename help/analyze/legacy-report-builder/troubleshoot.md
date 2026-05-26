@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 65%
+source-wordcount: 1471
+ht-degree: 63%
 
 ---
 
@@ -102,3 +102,10 @@ Cette section comprend un exemple de liste des messages d’erreur qui peuvent s
    4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
    5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
 * **Les cellules Excel associées aux filtres d’entrée ou une plage de sortie peuvent avoir été supprimées** : Report Builder utilise des noms Excel pour joindre des requêtes de données aux cellules. Si vous supprimez des noms Excel dans le Gestionnaire de noms, cette erreur apparaît. Les requêtes ne peuvent pas être récupérées si des noms Excel sont supprimés. Si le classeur a été planifié, vous pouvez télécharger une copie à partir du Gestionnaire de planification ou ouvrir des copies du classeur précédemment diffusées.
+
+## Enregistrer les requêtes
+
+Pour consigner les requêtes à des fins de dépannage, dans l’ancien complément Report Builder :
+
+1. Sélectionnez **[!UICONTROL Options]**
+1. Sélectionnez **[!UICONTROL Enregistrer la requête Report Builder dans un fichier local (à des fins de dépannage)]**.<br/>Les requêtes sont stockées dans un fichier horodaté local dans un répertoire **[!UICONTROL ReportBuilderLogs]** de votre dossier **[!UICONTROL Documents]**.
