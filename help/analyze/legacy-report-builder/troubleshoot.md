@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 63%
@@ -109,3 +109,4 @@ Pour consigner les requêtes à des fins de dépannage, dans l’ancien complém
 
 1. Sélectionnez **[!UICONTROL Options]**
 1. Sélectionnez **[!UICONTROL Enregistrer la requête Report Builder dans un fichier local (à des fins de dépannage)]**.<br/>Les requêtes sont stockées dans un fichier horodaté local dans un répertoire **[!UICONTROL ReportBuilderLogs]** de votre dossier **[!UICONTROL Documents]**.
+

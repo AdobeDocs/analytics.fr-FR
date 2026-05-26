@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1654
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
 Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si vous avez défini product comme dimension clé et que ce champ contient un SKU de produit, utilisez le schéma pour ajouter des classifications telles que le nom, la couleur et la taille du produit.
 
 Pour modifier le schéma d’un ensemble de classifications :
-
 
 1. Sélectionnez **[!UICONTROL Composants]** dans la barre de menus supérieure d’Adobe Analytics, puis sélectionnez **[!UICONTROL Ensembles de classifications]**.
 1. Dans **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Ensembles de classifications]**.

@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 285
 ht-degree: 24%
@@ -69,3 +69,4 @@ Pour résoudre les problèmes et résoudre les problèmes liés aux tickets d’
 
 1. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg).
 1. Sélectionnez **[!UICONTROL Enregistrer le ou les blocs de données de requête du Report Builder dans la console web]**. <br/>Les requêtes sont envoyées à la console de votre navigateur web. Reportez-vous à la documentation de votre navigateur web pour savoir comment ouvrir le journal de la console dans le cadre des outils de développement du navigateur web.
+
