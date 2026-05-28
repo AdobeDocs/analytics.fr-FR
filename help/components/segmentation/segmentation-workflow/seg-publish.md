@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1432
 ht-degree: 29%
@@ -84,7 +84,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 1. Sélectionnez **[!UICONTROL Ajouter]** pour créer un segment.
    ![Publication d’une expérience client d’entreprise](assets/publish-ec.png)
 1. Fournissez un titre et une description pour le segment. Ces champs sont obligatoires avant de pouvoir enregistrer le segment.
-1. Dans la section **[!UICONTROL Publication d’entreprise CX]**, sélectionnez l’option **[!UICONTROL Publier ce segment sur l’entreprise CX (pour *suite de rapports*)]**.
+1. Dans la section **[!UICONTROL Publication]**, sélectionnez l’option **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]**.
 
    >[!IMPORTANT]
    >
