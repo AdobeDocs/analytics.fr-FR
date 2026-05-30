@@ -32,6 +32,6 @@ Pour utiliser ces mesures, activez **[!UICONTROL Métadonnées vidéo]** sous [[
 
 La mesure suivante est disponible :
 
-* [[!UICONTROL Autorisé]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+* [[!UICONTROL Autorisé]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/authorized)
 
 Consultez la section [Dimensions des métadonnées vidéo des services de streaming multimédia](../dimensions/sm-video-metadata.md) pour connaître les dimensions correspondantes.

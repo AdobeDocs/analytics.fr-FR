@@ -32,9 +32,9 @@ Pour utiliser ces mesures, activez **[!UICONTROL Publicités multimédia]** sous
 
 Les mesures suivantes sont disponibles :
 
-* [[!UICONTROL Fin de la publicité]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL La publicité commence]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL Temps passé sur la publicité]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL Temps passé sur le média]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL Fin de la publicité]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL La publicité commence]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL Temps passé sur la publicité]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL Temps passé sur le média]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 Voir [Dimensions et services de streaming multimédia](../dimensions/sm-ads.md) pour les dimensions correspondantes.

@@ -32,17 +32,17 @@ Pour utiliser ces mesures, activez **[!UICONTROL Qualité du média]** sous [[!U
 
 Les mesures suivantes sont disponibles :
 
-* [[!UICONTROL Débit moyen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/average-bitrate)
-* [[!UICONTROL Flux affectés par le changement de débit]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
-* [[!UICONTROL Modifications de débit]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/bitrate-changes)
-* [[!UICONTROL &#x200B; Flux impactés par la mise en mémoire tampon &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
-* [[!UICONTROL Événements de mémoire tampon]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/buffer-events)
-* [[!UICONTROL Durée totale du tampon]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
-* [[!UICONTROL Pertes avant le démarrage]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/drops-before-start)
-* [[!UICONTROL Images perdues]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frames)
-* [[!UICONTROL &#x200B; Flux impactés par l’image perdue &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
-* [[!UICONTROL &#x200B; Flux impactés par l’erreur &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
-* [[!UICONTROL Événements d’erreur]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/error-events)
-* [[!UICONTROL Heure de commencer]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/time-to-start)
+* [[!UICONTROL Débit moyen]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/average-bitrate)
+* [[!UICONTROL Flux affectés par le changement de débit]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/bitrate-change-impacted-streams)
+* [[!UICONTROL Modifications de débit]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/bitrate-changes)
+* [[!UICONTROL &#x200B; Flux impactés par la mise en mémoire tampon &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/buffer-impacted-streams)
+* [[!UICONTROL Événements de mémoire tampon]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/buffer-events)
+* [[!UICONTROL Durée totale du tampon]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/total-buffer-duration)
+* [[!UICONTROL Pertes avant le démarrage]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/drops-before-start)
+* [[!UICONTROL Images perdues]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/dropped-frames)
+* [[!UICONTROL &#x200B; Flux impactés par l’image perdue &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/dropped-frame-impacted-streams)
+* [[!UICONTROL &#x200B; Flux impactés par l’erreur &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/error-impacted-streams)
+* [[!UICONTROL Événements d’erreur]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/error-events)
+* [[!UICONTROL Heure de commencer]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/time-to-start)
 
 Voir [Dimensions de qualité des services de streaming multimédia](../dimensions/sm-quality.md) pour les dimensions correspondantes.
