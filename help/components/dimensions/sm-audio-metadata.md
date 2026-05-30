@@ -32,9 +32,9 @@ Pour utiliser ces dimensions, activez **[!UICONTROL Métadonnées audio]** sous 
 
 Les dimensions suivantes sont disponibles :
 
-* [[!UICONTROL album]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album)
-* [[!UICONTROL Artiste]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist)
-* [[!UICONTROL Auteur]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author)
-* [[!UICONTROL Libellé]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label)
-* [[!UICONTROL Éditeur]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher)
-* [[!UICONTROL Station]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station)
+* [[!UICONTROL album]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/album)
+* [[!UICONTROL Artiste]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/artist)
+* [[!UICONTROL Auteur]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/author)
+* [[!UICONTROL Libellé]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/label)
+* [[!UICONTROL Éditeur]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/publisher)
+* [[!UICONTROL Station]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/station)

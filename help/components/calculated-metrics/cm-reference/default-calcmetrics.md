@@ -36,7 +36,7 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 >
 >Vous pouvez effectuer les opérations suivantes :
 >
-> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
+> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/calculated-metrics)
 > * Créez des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans la section [Mesures calculées et mesures calculées avancées](/help/components/calculated-metrics/cm-overview.md).
 >
 
