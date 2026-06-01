@@ -71,7 +71,7 @@ Chaque colonne peut présenter une dimension distincte. Faites glisser une dimen
 
 >[!MORELIKETHIS]
 >
->[Configurez une visualisation Flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
+>[Configurer une visualisation Flux](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 >
 
 
