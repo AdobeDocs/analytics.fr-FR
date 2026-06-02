@@ -1,18 +1,25 @@
 ---
-source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
 workflow-type: tm+mt
-source-wordcount: '3044'
-ht-degree: 98%
+source-wordcount: '3188'
+ht-degree: 93%
 
 ---
 # Extraits
 
-## Report Builder hérité {#legacy-arb}
+## Fin de vie de l’ancien Report Builder {#legacy-arb}
+
+>[!WARNING]
+>
+>L’ancien Report Builder arrive en fin de vie en juin 2026. À compter du 1er juillet 2026, les classeurs planifiés à l’aide de l’ancien Report Builder ne seront plus distribués. <ul><li>Vous avez jusqu’au 12 août 2026 pour migrer vos classeurs de l’ancien Report Builder vers le nouveau Report Builder. Pour plus d’informations, consultez [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) .</li><li>Avec la fin de vie des API d’Adobe Analytics 1.4, l’ancien complément Report Builder ne pourra plus être téléchargé.</li><li>Après le 12 août 2026, les clients disposant de classeurs nécessitant une migration devront contacter le service clientèle pour obtenir les classeurs d’origine. Ces classeurs devront être migrés comme indiqué dans la section [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) rationalisé est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web. Il peut être utilisé avec Adobe Analytics et Customer Journey Analytics. Les exportations planifiées vers un serveur FTP et Power BI ne sont plus prises en charge dans Report Builder. Les clients qui utilisent ces fonctionnalités dans l’ancienne version de Report Builder doivent utiliser une [&#x200B; destination cloud pour l’exportation &#x200B;](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) dans Report Builder.
+
+
+## Report Builder hérité {#legacy-arb-old}
 
 >[!IMPORTANT]
 >
->Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) rationalisé est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web. Il peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
->Cette version héritée du module complémentaire Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) vers le nouveau Report Builder.
+>Un nouveau [&#128279;](/help/analyze/report-builder/rb-overview.md) simplifié est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web et peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
+>Cette version de complément Report Builder héritée fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) dans le nouveau Report Builder.
 
 ## Annonce de fin de vie de Reports & Analytics {#ra-eol}
 
@@ -34,7 +41,7 @@ ht-degree: 98%
 
 {style="table-layout:auto"}
 
-## Phase de tests limités de publication {#release-limited-testing}
+## Tests limités de la phase de publication {#release-limited-testing}
 
 >[!AVAILABILITY]
 >
