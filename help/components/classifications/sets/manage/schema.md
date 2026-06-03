@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
+source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
 workflow-type: tm+mt
-source-wordcount: 1654
+source-wordcount: 1676
 ht-degree: 9%
 
 ---
@@ -46,7 +46,7 @@ La liste des classifications comporte les colonnes suivantes :
 | Colonne | Description |
 |---|---|
 | **[!UICONTROL Nom de la classification]** | Nom que vous avez fourni pour la classification. |
-| **[!UICONTROL Nom de l’identité]** | Nom généré par le système pour la classification. Ce nom est une valeur en lecture seule et vous pouvez utiliser le nom d’identité. |
+| **[!UICONTROL Nom de l’identité]** | Nom généré par le système pour la classification. Ce nom est une valeur en lecture seule et est dérivé du nom de classification initial. Le nom de l’identité est utilisé en interne pour conserver la classification, faire office d’identifiant de la dimension à signaler et ne peut pas être modifié. |
 | **[!UICONTROL Classé par]** | S’il est utilisé, un lien vers l’ensemble de classifications de recherche utilisé pour classer cette classification. |
 
 
