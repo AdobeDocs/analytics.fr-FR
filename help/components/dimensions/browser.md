@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: bdd7a704c94394d6f6cedfbc07988bde69993691
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 59%
+source-wordcount: 280
+ht-degree: 43%
 
 ---
 
@@ -42,3 +42,5 @@ Cette dimension fait référence à une table de recherche interne à Adobe. La 
 Les éléments de dimension comprennent les noms et les versions des navigateurs utilisés. Les différentes versions d’un même navigateur sont des éléments de dimension distincts.
 
 Certains éléments de dimension contiennent `"(unknown version)"` à la place du numéro de version. Cet élément de dimension fait référence à une version récente du navigateur qu’Adobe n’a pas encore ajoutée à ses tables de recherche. Comme les navigateurs sont fréquemment mis à jour, l’élément `"(unknown version)"` d’un navigateur donné est courant et temporaire. Adobe met généralement à jour les tables de recherche lors des versions de maintenance mensuelles.
+
+Certains éléments de dimension contiennent des `.999` comme numéro de version mineur, par exemple `"Chrome 148.999"`. Cette valeur indique qu’Adobe n’a pas pu déterminer de manière fiable la version mineure du navigateur. Lorsque les navigateurs Chrome ou Edge envoient des requêtes sans [indications du client](/help/technotes/client-hints.md), la version mineure de la chaîne de l’agent utilisateur n’est pas considérée comme fiable. Au lieu de gonfler les éléments de dimension avec des versions mineures potentiellement inexactes, Adobe remplace ces versions mineures par des `.999`. De même, si un navigateur signale un numéro de version anormalement élevé (au-dessus de 99999), Adobe le normalise en `999.999`.
