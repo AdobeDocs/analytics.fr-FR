@@ -25,43 +25,43 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1365
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (mai 2026)
+# Notes de mise à jour actuelles d’Adobe Analytics (mai 2026)
 
-**Dernière mise à jour** : 13 mai 2026
+**Dernière mise à jour** : 13 mai 2026
 
-Ces notes de mise à jour couvrent la période de publication de mai 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour couvrent la période des versions de mai 2026.Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Serveurs MCP pour Adobe Analytics** <br/>Les serveurs MCP (Model Context Protocol) d’Analytics permettent de connecter un client MCP pris en charge à Adobe Analytics. Une fois connecté, votre client MCP peut appeler des outils spécifiques au produit pour récupérer les données, exécuter des requêtes ou effectuer des opérations prises en charge dans le cadre d’un processus LLM ou d’un processus agentique. Pour plus d’informations, voir [Serveurs MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Si vous avez utilisé ces serveurs MCP pendant la période bêta, notez qu’il existe différentes URL entre les points d’entrée bêta et de production. Veillez à ce que tous les workflows d’agent créés pendant la période bêta soient mis à jour afin d’utiliser les points d’entrée de production avant le 31 mai.</p> | | 5 Mai 2026 |
-| Zone de travail de Parcours **dans Adobe Analytics** la zone de travail de Parcours <br/>dans Analysis Workspace est une visualisation qui vous permet d’obtenir des informations détaillées sur un parcours utilisateur défini en analysant la manière dont les utilisateurs procèdent ou quittent le parcours. Il vous permet de créer un graphique flexible de nœuds et de flèches représentant n’importe quelle combinaison d’événements, d’éléments de dimension et de segments inclus dans le parcours. Les données sont mises à jour lorsque vous faites glisser des nœuds sur la zone de travail ou que vous réorganisez les événements et les conditions du parcours.<p>Auparavant, la zone de travail de parcours n’était disponible que pour Customer Journey Analytics.</p><p>Pour en savoir plus sur la zone de travail de Parcours dans Adobe Analytics, consultez la présentation de la zone de travail de Parcours [&#128279;](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Pour savoir comment créer une visualisation de zone de travail de Parcours dans Adobe Analytics, voir [Configurer la zone de travail de Parcours &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 Mai 2026 | 5 Juin 2026 |
-| **Guide de création de rapports de l’API de modèle d’attribution** <br/>Un nouveau Guide de rapport du modèle d’attribution de l’API Adobe Analytics 2.0 est disponible. Ce guide explique comment inclure des données d’objet de modèle d’attribution dans les rapports de l’API Dimension.<p>Pour plus d’informations, voir [Modèles d’attribution d’API &#x200B;](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Mai 2026 |
+| **Serveurs MCP pour Adobe Analytics** <br/>Les serveurs MCP (Model Context Protocol) d’Analytics vous permettent de connecter un client MCP pris en charge à Adobe Analytics.Une fois connecté, votre client MCP peut appeler des outils spécifiques au produit pour récupérer les données, exécuter des requêtes ou effectuer des opérations prises en charge dans le cadre d’un processus LLM ou d’un workflow agentique.Pour plus d’informations, voir [Serveurs MCP Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Si vous avez utilisé ces serveurs MCP pendant la période bêta, notez qu’il existe différentes URL entre les points d’entrée bêta et de production.Veillez à ce que tous les workflows agentiques créés pendant la période bêta soient mis à jour afin d’utiliser les points d’entrée de production avant le 31 mai.</p> | | 5 mai 2026 |
+| **Canevas de parcours dans Adobe Analytics** <br/>Le canevas de parcours est une visualisation dans Analysis Workspace qui vous permet d’analyser la manière dont les personnes poursuivent ou abandonnent un parcours défini.Il vous permet de créer un graphique flexible de nœuds et de flèches représentant n’importe quelle combinaison d’événements, d’éléments de dimension et de segments inclus dans le parcours.Les données se mettent à jour à mesure que vous faites glisser des nœuds sur le canevas ou réorganisez les événements et les conditions du parcours.<p>Auparavant, le canevas de parcours n’était disponible que pour Customer Journey Analytics.</p><p>Pour en savoir plus sur la zone de travail du parcours, consultez la [vue d’ensemble du canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md).</p><p>Pour savoir comment créer un canevas de parcours, voir [Configurer un canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 mai 2026 | 5 juin 2026 |
+| **Guide de reporting API du modèle d’attribution** <br/>Un nouveau guide de reporting API du modèle d’attribution Adobe Analytics 2.0 est disponible.Ce guide explique comment inclure des données d’objet de modèle d’attribution dans les rapports de l’API Dimension.<p>Pour plus d’informations, voir [Modèles d’attribution de l’API Dimension](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Mai 2026 |
 | **Services de médias en streaming : prise en charge des données de planning** <br/>Vous pouvez désormais charger des données planifiées antérieures de contenu de médias en streaming et en direct afin de suivre l’audience plus facilement et avec plus de précision.<p>Les éléments suivants sont des exemples de contenu en direct qui sont pris en charge avec le chargement de données de planning :</p><ul><li>Plateformes FAST (Free Ad Supported TV)</li><li>Flux locaux</li><li>Sports en direct</li></ul><p>Le chargement des données de planning vous permet de suivre les audiences des programmes individuels qui ont été diffusés pendant la période que vous avez indiquée dans le fichier de chargement. Vous pouvez même recueillir des données d’audience pour des sujets ou des segments de programme spécifiques.</p><p>Ces fonctionnalités sont disponibles quelle que soit la manière dont vous avez mis en œuvre Streaming Media Collection.</p><p>Auparavant, il était difficile de relier avec précision une session donnée à des programmes spécifiques lors de l’analyse du contenu en direct, et il n’était pas possible de relier une session donnée à des sujets individuels ou à des segments de programmes.</p><p>Pour plus d’informations, voir [Charger des données de planning pour suivre le contenu en direct](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 octobre 2025 | Premier semestre 2026<p>(Version initialement prévue pour le 29 octobre 2025)</p> |
 
 {style="table-layout:auto"}
 
 ## Correctifs dans Adobe Analytics
 
-**Activity Map**:
-**&#x200B;**&#x200B;: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892 428189 425215
-**Classifications** : AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302 441267 441132 441085 441048 440846 440727 440716 440496 440429 432100
-**Flux de données et Data Warehouse** : AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
-**Migration** : AN-442467, AN-440380, AN-440357
-**Exports** :
-**&#x200B;**&#x200B;: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
-**Création de rapports** : AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359 406242
-**Suites de rapports** :
-**Rapports planifiés** :
-**Segmentation** :
-**Autre** : AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
+**Activity Map** :
+**Analysis Workspace** : AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
+**Classifications** : AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
+**Flux de données et Data Warehouse** : AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
+**Migration** : AN-442467, AN-440380, AN-440357
+**Exports** :
+**Report Builder** : AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
+**Création de rapports** : AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359, AN-406242
+**Suites de rapports** :
+**Rapports planifiés** :
+**Segmentation** :
+**Autres** : AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
 
 
 ## Avis de fin de vie {#eol}
@@ -83,6 +83,6 @@ Pour connaître les dernières mises à jour des versions d’AppMeasurement, re
 ## Ressources connexes
 
 * [Notes de mise à jour précédentes pour 2025](/help/release-notes/2025.md)
-* [Notes de mise à jour de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr)
-* [Notes de mise à jour des services de streaming multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/release-notes/release-notes)
-* Dernières mises à jour des produits Adobe CX Enterprise [&#128279;](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html)
+* [Notes de mise à jour de Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=fr)
+* [Notes de mise à jour des services de médias en streaming](https://experienceleague.adobe.com/fr/docs/media-analytics/using/release-notes/release-notes)
+* Dernières mises à jour des [produits Adobe CX Enterprise](https://business.adobe.com/fr/products/adobe-experience-cloud-products.html)
