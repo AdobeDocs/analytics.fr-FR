@@ -13,9 +13,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 385
 ht-degree: 92%
 
 ---
@@ -33,8 +33,8 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
 >Vous devez déjà disposer d’une copie existante de `s_code.js` pour suivre ces instructions. Adobe ne propose plus d’option pour télécharger le code H dans le Gestionnaire de code.
 
 1. **Mettez à jour les variables de fichier JS principal** : modifiez le fichier `s_code.js` et assurez-vous que les variables suivantes sont mises à jour :
-   * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données. Voir
-   * `s.trackingServer` contient l’emplacement où les cookies sont stockés. Voir [trackingServer](../../vars/config-vars/trackingserver.md).
+   * `s_account` contient l’identifiant de suite de rapports auquel vous souhaitez envoyer des données.
+   * `s.trackingServerSecure` contient l’emplacement où les cookies sont stockés.
 1. **Hébergez le fichier `s_code.js` sur votre site** : ce fichier réside généralement avec d’autres scripts sur votre serveur web.
 1. **Référence `s_code.js` sur toutes les pages** : assurez-vous que toutes les pages individuelles appellent le fichier JavaScript principal, et faites-le dans la balise HTML `<body>` (et non dans la balise `<head>`).
 

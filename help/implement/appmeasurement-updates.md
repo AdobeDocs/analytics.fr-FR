@@ -30,9 +30,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2885
+source-wordcount: 2881
 ht-degree: 70%
 
 ---
@@ -57,7 +57,7 @@ Date de publication : **mardi 12 août 2024**
 
 Date de publication : **mardi 4 mars 2024**
 
-* AppMeasurement reconnaît et utilise automatiquement le domaine racine pour les domaines de niveau supérieur de code de pays, qui nécessitaient auparavant des configurations de domaine de cookie spécifiques. La mise à jour peut avoir des implications en raison de cette reconnaissance automatique. Voir [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md) pour plus d’informations.
+* AppMeasurement reconnaît et utilise automatiquement le domaine racine pour les domaines de niveau supérieur de code de pays, qui nécessitaient auparavant des configurations de domaine de cookie spécifiques. La mise à jour peut avoir des implications en raison de cette reconnaissance automatique.
 * La distribution comprend Identity Service Library 5.5.0 et Data Integration Library 9.6.
 
 ## Version 2.25.0

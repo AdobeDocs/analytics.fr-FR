@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 100%
@@ -44,7 +44,7 @@ Voici un exemple de demande d’image codée en dur à l’aide de code HTML :
 ```
 
 * `https://` désigne le protocole. Faites correspondre le protocole utilisé dans la demande d’image avec le protocole utilisé par le reste de votre site.
-* `example.data.adobedc.net` est la valeur contenue dans la variable [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* `example.data.adobedc.net` est la valeur contenue dans la variable [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * `/b/ss/` est inclus dans toutes les demandes d’image. Il fait partie de la structure de fichiers des images stockées sur les serveurs de collecte de données Adobe.
 * `examplersid` correspond à l’identifiant de la suite de rapports à laquelle vous souhaitez envoyer des données. Pour plusieurs suites de rapports, séparez les identifiants par des virgules, sans espaces (par exemple `examplersid1,examplersid2`, etc.).
 * `/1/` est la source de l’accès. Voir `hit_source` dans la section [Référence des colonnes de données](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) du guide d’utilisation Exportation. Contrôle l’ordre que les cookies et les autres méthodes suivent pour identifier les visiteurs.

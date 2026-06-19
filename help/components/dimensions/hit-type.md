@@ -22,21 +22,21 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 164
-ht-degree: 84%
+ht-degree: 34%
 
 ---
 
 # Type d’accès
 
-La [dimension](overview.md) « Type d’accès » détermine si une application mobile se trouvait au premier plan ou en arrière-plan lorsque l’accès a été envoyé aux serveurs de collecte de données d’Adobe. Cette dimension s’applique uniquement aux suites de rapports qui contiennent des données pour les applications mobiles. Les données de navigateur collectées par AppMeasurement indiquent toujours l’accès comme « Premier plan ».
+La [dimension](overview.md) « Type d’accès » détermine si une application mobile se trouvait au premier plan ou en arrière-plan lorsque l’accès a été envoyé aux serveurs de collecte de données d’Adobe. Cette dimension s’applique uniquement aux suites de rapports qui contiennent des données pour les applications mobiles. Les données de navigateur collectées via AppMeasurement signalent toujours l’accès comme `"Foreground"`.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations de SDK mobile sur la version 4.13.6 ou ultérieure. Si vous n’utilisez pas le SDK mobile, tous les accès sont répertoriés sous l’élément de dimension « Premier plan ». Si la case « Désactiver la création de rapports et l’attribution héritées pour les accès en arrière-plan » est activée, les accès en arrière-plan n’apparaissent que dans les [suites de rapports virtuelles](../vrs/vrs-mobile-visit-processing.md).
+Cette dimension est prête à l’emploi pour toutes les implémentations de SDK mobile sur la version 4.13.6 ou ultérieure. Le SDK mobile définit la variable de [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) (paramètre de requête `cp`) pour indiquer si chaque accès s’est produit au premier plan ou en arrière-plan. Si vous n’utilisez pas le SDK mobile, tous les accès sont répertoriés sous `"Foreground"`. Si l’option **[!UICONTROL Empêcher les accès en arrière-plan de démarrer une nouvelle visite]** est sélectionnée lors de la configuration d’une [suite de rapports virtuelle](../vrs/vrs-mobile-visit-processing.md), les accès en arrière-plan ne gonflent pas [[!UICONTROL Visites]](../metrics/visits.md) et [[!UICONTROL Visiteurs uniques]](../metrics/unique-visitors.md).
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent `"Foreground"` et `"Background"`. Tout accès qui n’a pas été envoyé en arrière-plan d’une application mobile appartient à l’élément de dimension `"Foreground"`. Tout accès envoyé lorsque l’application mobile se trouvait en arrière-plan appartient à l’élément de dimension `"Background"`.
+Les éléments de dimension comprennent `"Foreground"` et `"Background"`. Les accès en arrière-plan se produisent uniquement sur les appareils mobiles sur lesquels l’application suivie se trouve en arrière-plan.

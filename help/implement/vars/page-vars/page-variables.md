@@ -20,10 +20,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 47%
 
 ---
 
@@ -37,3 +37,10 @@ Les listes suivantes sont des variables fréquemment utilisées dans les implém
 * [`campaign`](campaign.md) : Définissez cette variable sur un paramètre de chaîne de requête pour le suivi de campagne.
 * [`events`](events/events-overview.md) : Renseignez les mesures à utiliser dans les rapports.
 * [`products`](products.md) : si vous disposez d’un site d’e-commerce, définissez cette variable lorsqu’un visiteur ou une visiteuse consulte ou achète un produit.
+
+## Variables de page retirées
+
+Les variables de page suivantes sont retirées. Ils sont documentés ici à titre de référence si vous les rencontrez dans une implémentation héritée.
+
+* **`hier`** : implémentation de variables de hiérarchie (`hier1`-`hier5`) pour capturer la structure d’un site à des fins de création de rapports. Il est supprimé et n’est pas une dimension disponible dans Analysis Workspace. Utilisez plutôt des [eVars](evar.md) et des classifications.
+* **`state`** : capturé l’État américain qu’un visiteur a saisi, généralement par le biais d’un formulaire de livraison ou de facturation. Utilisez plutôt la dimension [[!UICONTROL &#x200B; États américains &#x200B;]](/help/components/dimensions/us-states.md), qu’Adobe renseigne automatiquement à partir de l’emplacement géographique du visiteur.

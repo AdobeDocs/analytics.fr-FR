@@ -11,10 +11,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 233
-ht-degree: 42%
+source-wordcount: 251
+ht-degree: 39%
 
 ---
 
@@ -38,9 +38,11 @@ Pour créer un rapport pour une requête Data Warehouse :
 
    Tous les segments créés dans le Créateur de segments ne sont pas compatibles avec Data Warehouse. Une erreur s’affiche si vous choisissez une suite de rapports virtuelle contenant des segments incompatibles.
 
-   Pour obtenir la liste des fonctions prises en charge dans un segment, consultez [Compatibilité des segments &#x200B;](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Pour connaître les structures et dimensions de segment prises en charge dans un segment Data Warehouse, consultez [Compatibilité des segments Data Warehouse](/help/export/data-warehouse/segment-compatibility.md).
 
 1. Faites glisser des segments, des mesures et des dimensions dans le créateur. Le rapport que vous créez détermine les données incluses dans la requête Data Warehouse.
+
+   Pour connaître les dimensions et mesures disponibles dans une demande, voir [&#x200B; Prise en charge des composants dans Data Warehouse](/help/export/data-warehouse/component-support.md).
 
 1. Continuez à configurer votre requête Data Warehouse dans l’onglet [!UICONTROL **Destination du rapport**]. Pour plus d’informations, voir [Configuration d’une destination de rapport pour une requête Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

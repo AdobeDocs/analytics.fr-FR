@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,21 +64,21 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | --- | --- | --- |
 | **eVar 1-250** | Lecture + écriture | Dimensions [eVar](/help/components/dimensions/evar.md). |
 | **Campagne** | Lecture + écriture | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
-| **ID d’achat** | Lecture + écriture | La variable de mise en œuvre [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **État** | Lecture + écriture | (Retiré) Variable d’implémentation [`state`](/help/implement/vars/page-vars/state.md). |
+| **ID d’achat** | Lecture + écriture | La dimension [ID d’achat](/help/components/dimensions/purchase-id.md). |
+| **État** | Lecture + écriture | (Retiré) La dimension [État du visiteur](/help/components/dimensions/overview.md#retired-dimensions). |
 | **Zip** | Lecture + écriture | La dimension [Code postal](/help/components/dimensions/zip-code.md). |
 | **Code de devise** | Lecture + écriture | La variable de mise en œuvre [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
 | **ID de transaction** | Lecture + écriture | La variable de mise en œuvre [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->Adobe ne prend pas en charge la définition de la variable d’implémentation [`products`](/help/implement/vars/page-vars/products.md) à l’aide de règles de traitement.
+>Adobe ne prend pas en charge la définition de la dimension [Produit](/help/components/dimensions/product.md) à l’aide de règles de traitement.
 
 ## Variables de trafic
 
 | Variable | Statut en lecture/écriture | Description |
 | --- | --- | --- |
 | **Prop 1-75** | Lecture + écriture | Dimensions [prop](/help/components/dimensions/prop.md). |
-| **Hiérarchie 1-5** | Lecture + écriture | (Supprimé) [Hiérarchie](/help/components/dimensions/hierarchy.md) dimensions. |
+| **Hiérarchie 1-5** | Lecture + écriture | (Supprimé) [Hiérarchie](/help/components/dimensions/overview.md#retired-dimensions) dimensions. |
 | **Serveur** | Lecture + écriture | La dimension [Serveur](/help/components/dimensions/server.md). |
 | **Canal** | Lecture + écriture | La dimension [Section du site](/help/components/dimensions/site-section.md). |
 
