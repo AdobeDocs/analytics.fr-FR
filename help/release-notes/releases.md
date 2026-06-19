@@ -4,20 +4,14 @@ title: Mises à jour des fonctionnalités Adobe Analytics
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 TQID: 'https://experienceleague.adobe.com/gDUf5ZiM-DUiG52nlMIFMbXc4NPNTI7bLrugWGicjgI'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 395
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +25,9 @@ Les versions dʼAdobe Analytics suivent un modèle de livraison continue, ce qu
 
 * **Tests limités** : la mise à jour par étapes commence par un test réalisé par les utilisateurs et utilisatrices internes d’Adobe. Elle est ensuite mise à la disposition d’un petit groupe de comptes clients afin de s’assurer que la fonctionnalité répond aux besoins et aux attentes des clientes et clients.
 
-* **Début du déploiement** : le déploiement d’une mise à jour par phases commence par la phase Tests limités. La mise à jour passe à une disponibilité de 0 % à 100 % pour les clients en quelques mois. Le déploiement échelonné se produit au niveau de l’organisation de l’entreprise CX, de sorte que tous les utilisateurs autorisés d’une organisation bénéficient de la même expérience.
+* **Début du déploiement** : le déploiement d’une mise à jour par phases commence par la phase Tests limités. La mise à jour passe à une disponibilité de 0 % à 100 % pour les clients en quelques mois. Le déploiement par phases se produit au niveau de l’organisation CX Enterprise, de sorte que tous les personnes autorisées d’une même organisation bénéficient de la même expérience.
 
-* **Disponibilité générale (GA)** : la fonctionnalité est disponible à 100 % des organisations CX Grands comptes autorisées et la publication des fonctionnalités est terminée.
+* **Disponibilité générale** : la fonctionnalité est disponible pour 100 % des organisations CX Enterprise autorisées et la mise à jour est terminée.
 
 Selon les mises à jour de fonctionnalité, la chronologie peut varier entre le début du déploiement et la disponibilité générale. L’objectif est que les mises à jour soient courtes, afin qu’une fonctionnalité atteigne la disponibilité générale dans un délai de 2 mois à compter du début du déploiement.
 
