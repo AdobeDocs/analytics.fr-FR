@@ -6,22 +6,15 @@ feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 721
-ht-degree: 15%
+source-wordcount: 723
+ht-degree: 14%
 
 ---
 
@@ -64,27 +57,27 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 | --- | --- | --- |
 | **eVar 1-250** | Lecture + écriture | Dimensions [eVar](/help/components/dimensions/evar.md). |
 | **Campagne** | Lecture + écriture | La dimension [Code de suivi](/help/components/dimensions/tracking-code.md). |
-| **ID d’achat** | Lecture + écriture | La variable de mise en œuvre [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **État** | Lecture + écriture | (Retiré) Variable d’implémentation [`state`](/help/implement/vars/page-vars/state.md). |
+| **ID d’achat** | Lecture + écriture | La dimension [ID d’achat](/help/components/dimensions/purchase-id.md). |
+| **État** | Lecture + écriture | (Retiré) La dimension [État du visiteur](/help/components/dimensions/overview.md#retired-dimensions). |
 | **Zip** | Lecture + écriture | La dimension [Code postal](/help/components/dimensions/zip-code.md). |
 | **Code de devise** | Lecture + écriture | La variable de mise en œuvre [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANT : si vous définissez cette variable sur une valeur non valide, l’accès est ignoré. |
 | **ID de transaction** | Lecture + écriture | La variable de mise en œuvre [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->Adobe ne prend pas en charge la définition de la variable d’implémentation [`products`](/help/implement/vars/page-vars/products.md) à l’aide de règles de traitement.
+>Adobe ne prend pas en charge la définition de la dimension [Produit](/help/components/dimensions/product.md) à l’aide de règles de traitement.
 
 ## Variables de trafic
 
 | Variable | Statut en lecture/écriture | Description |
 | --- | --- | --- |
 | **Prop 1-75** | Lecture + écriture | Dimensions [prop](/help/components/dimensions/prop.md). |
-| **Hiérarchie 1-5** | Lecture + écriture | (Supprimé) [Hiérarchie](/help/components/dimensions/hierarchy.md) dimensions. |
+| **Hiérarchie 1-5** | Lecture + écriture | (Supprimé) [Hiérarchie](/help/components/dimensions/overview.md#retired-dimensions) dimensions. |
 | **Serveur** | Lecture + écriture | La dimension [Serveur](/help/components/dimensions/server.md). |
 | **Canal** | Lecture + écriture | La dimension [Section du site](/help/components/dimensions/site-section.md). |
 
 ## Variables contextuelles
 
-Toutes les [&#x200B; variables de données contextuelles &#x200B;](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
+Toutes les [ variables de données contextuelles ](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
 
 >[!IMPORTANT]
 >
@@ -99,7 +92,7 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | **Commandes** | En écriture seule | La mesure [Commandes](/help/components/metrics/orders.md). |
 | **Paniers** | En écriture seule | La mesure [Paniers](/help/components/metrics/carts.md). |
 | **Consultations du panier** | En écriture seule | La mesure [Vues du panier](/help/components/metrics/cart-views.md). |
-| **Passages en caisse** | En écriture seule | La mesure [&#x200B; Passages en caisse &#x200B;](/help/components/metrics/checkouts.md). |
+| **Passages en caisse** | En écriture seule | La mesure [ Passages en caisse ](/help/components/metrics/checkouts.md). |
 | **Ajouts au panier** | En écriture seule | La mesure [Ajouts au panier](/help/components/metrics/cart-additions.md). |
 | **Retraits du panier** | En écriture seule | La mesure [Retraits du panier](/help/components/metrics/cart-removals.md). |
 | **Événement 1-1000** | En écriture seule | [Événements personnalisés](/help/components/metrics/custom-events.md). |
