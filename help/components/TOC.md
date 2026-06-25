@@ -185,7 +185,7 @@ ht-degree: 97%
    + [À propos des segments](segmentation/seg-overview.md)
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + {hide-from-toc}[ Analyse des sous-accès ](segmentation/sub-hit.md)
+   + {hide-from-toc}[&#x200B; Analyse des sous-accès &#x200B;](segmentation/sub-hit.md)
    + Workflow {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
