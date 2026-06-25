@@ -3,16 +3,15 @@ title: Analyse des sous-accès
 description: Découvrez comment l’analyse des sous-accès vous permet de filtrer les produits individuels d’un accès dans Adobe Analytics, en éliminant le fond perdu d’attribution dans les rapports de produit.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
 
 ---
+
 
 # Analyse des sous-accès
 

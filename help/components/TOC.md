@@ -4,13 +4,12 @@ audience: end-user
 user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
-source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
+source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 97%
 
 ---
-
 
 # Guide des composants d’[!DNL Adobe Analytics] {#components}
 
@@ -185,7 +184,7 @@ ht-degree: 97%
    + [À propos des segments](segmentation/seg-overview.md)
    + [À propos des conteneurs de segments](segmentation/seg-containers.md)
    + [Fonctionnalités de segmentation d’Analysis Workspace](segmentation/segmentation-in-analysis-workspace.md)
-   + {hide-from-toc}[&#x200B; Analyse des sous-accès &#x200B;](segmentation/sub-hit.md)
+   + {hide-from-toc}[ Analyse des sous-accès ](segmentation/sub-hit.md)
    + Workflow {#segmentation-workflow}
       + [Vue d’ensemble](segmentation/segmentation-workflow/seg-workflow.md)
       + [Planifier des segments](segmentation/segmentation-workflow/seg-plan.md)
