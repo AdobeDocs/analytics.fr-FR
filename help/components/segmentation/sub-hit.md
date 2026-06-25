@@ -3,11 +3,9 @@ title: Analyse des sous-accès
 description: Découvrez comment l’analyse des sous-accès vous permet de filtrer les produits individuels d’un accès dans Adobe Analytics, en éliminant le fond perdu d’attribution dans les rapports de produit.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: f56d4b675d55608d4049fcebaf2de549aca40a5c
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -17,7 +15,6 @@ ht-degree: 0%
 # Analyse des sous-accès
 
 L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. Par exemple, segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande.
-
 
 Dans Adobe Analytics, la variable [Products](/help/components/dimensions/product.md) peut capturer plusieurs produits sur un seul accès. Sans analyse des sous-accès, la segmentation sur un attribut de produit renvoie tous les accès où n’importe quel produit d’un accès correspond à l’attribut de produit. Il en résulte une attribution incorrecte et des mesures de revenus exagérées. L’analyse des sous-accès étend le filtre à des lignes de produits individuelles au sein d’un accès et résout ces problèmes.
 
