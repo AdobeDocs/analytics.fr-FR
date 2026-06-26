@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 72%
+source-wordcount: 887
+ht-degree: 77%
 
 ---
 
@@ -39,8 +39,7 @@ Les principaux avantages de l’utilisation des appels au serveur sont les suiva
 
 ## Conditions préalables {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Autorisations :** pour accéder au tableau de bord d’utilisation des appels au serveur et au créateur d’alertes ou au gestionnaire d’alertes, vous devez être administrateur Adobe Analytics.
-* **Autorisations :** les administrateurs peuvent accorder l’accès aux non-administrateurs : l’autorisation est appelée **[!UICONTROL Utilisation de l’appel au serveur]**. Voir [&#x200B; Autorisation d’utilisation des appels au serveur &#x200B;](#server-call-usage-permission).
+* **Autorisations :** vous devez disposer de l’accès administrateur Adobe Analytics ou de l’élément d’autorisation [Utilisation de l’appel au serveur](/help/admin/admin-console/permissions/analytics-tools.md) dans le Adobe Admin Console. Les administrateurs peuvent attribuer cet élément d’autorisation à des non-administrateurs via un profil de produit.
 
 ## Terminologie importante {#terminology}
 
@@ -70,7 +69,7 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us : RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in : RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de : RS4 </li> 
-    </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/tools/server-call-usage/overage-overview.md">permission</a>. </p> </td> 
+    </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/admin-console/permissions/analytics-tools.md">permission</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organisation CX Entreprise </p> </td> 
@@ -87,40 +86,6 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
   <tr> 
    <td colname="col1"> <p>Durée du contrat </p> </td> 
    <td colname="col2"> <p>La durée du contrat peut s’étendre sur plusieurs années. Disons que votre société s’engage à 6 millions d’appels au serveur pour un contrat de trois ans. Pour des besoins de surveillance de l’utilisation de l’appel au serveur, cette période de trois ans peut être ventilée en périodes d’utilisation plus petites pour faciliter la comparaison d’une année à l’autre. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Autorisation Utilisation des appels au serveur {#permission}
-
-L’autorisation Utilisation de l’appel au serveur est automatiquement accordée aux administrateurs Analytics. Elle permet aux utilisateurs de voir le tableau de bord et de créer des alertes d’appel au serveur. Les administrateurs peuvent choisir d’accorder cette permission à des non-administrateurs.
-
->[!NOTE]
->
->Votre société peut choisir les sociétés de connexion ayant accès à l’utilisation des appels au serveur.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nom de l’autorisation </th> 
-   <th colname="col3" class="entry"> Accorder une autorisation si vous êtes connecté à Adobe Analytics (compte hérité) </th> 
-   <th colname="col4" class="entry"> Octroyez l’autorisation si vous êtes connecté à Adobe CX Enterprise </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Utilisation de l’appel au serveur </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Connectez-vous à Analytics via sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Accédez à <span class="ignoretag"> <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> All admin </span> &gt; <span class="uicontrol"> User management </span> &gt; <span class="uicontrol"> Groups </span> &gt; <span class="uicontrol"> Edit All Report Access </span> &gt; <span class="uicontrol"> Analytics Tools </span> &gt; <span class="uicontrol"> Personnaliser </span> &gt; <span class="uicontrol"> Utilisation des appels au serveur </span> </span> </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Connectez-vous à login.experiencecloud.adobe.com.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Cliquez sur <span class="uicontrol">Analytics</span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Accédez à <span class="ignoretag"> <span class="uicontrol"> Products </span> &gt; <span class="uicontrol"> Product Profile </span> &gt; <span class="uicontrol"> Permissions </span> &gt; <span class="uicontrol"> Analytics Tools </span> &gt; <span class="uicontrol"> server call usage </span> </span> </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>
