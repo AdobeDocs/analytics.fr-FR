@@ -18,16 +18,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 94%
+source-wordcount: 314
+ht-degree: 74%
 
 ---
 
 # Profondeur d’accès
 
-La [dimension](overview.md) « Profondeur de l’accès » indique la durée d’une visite pour un accès donné. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès compte tous les types d’accès, y compris les vues de page ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
+La [dimension](overview.md) « Profondeur de l’accès » indique la durée d’une visite pour un accès donné. Cette dimension est utile pour comprendre le moment où les visiteurs effectuent des actions sur votre site au cours de leur visite. La profondeur d’accès comptabilise tous les types d’accès, y compris les pages vues ([`t()`](/help/implement/vars/functions/t-method.md)) et les accès de suivi des liens ([`tl()`](/help/implement/vars/functions/tl-method.md)).
 
 ## Renseignement de cette dimension avec des données
 
@@ -36,6 +36,10 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 ## Éléments de dimension
 
 Les éléments de dimension comprennent la chaîne `"Hit Depth"` suivie d’un nombre représentant l’ordre d’accès lors de la visite. L’élément de dimension de `"Hit Depth 1"` représente le premier accès de la visite, tandis que l’élément de dimension `"Hit Depth 8"` représente le huitième accès de la visite.
+
+>[!NOTE]
+>
+>Adobe Analytics enregistre les horodatages avec une précision de second niveau uniquement. Pour les accès qui partagent la même date et la même heure, Adobe ne peut pas garantir que l’ordre reflété dans les rapports est identique à celui dans lequel les accès se sont produits. Si la précision au niveau de la milliseconde est une priorité pour votre organisation, pensez à utiliser Customer Journey Analytics.
 
 ## Comparaison avec la profondeur de visite
 
