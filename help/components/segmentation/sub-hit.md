@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 808
 ht-degree: 0%
@@ -86,3 +86,4 @@ Le créateur de segments comprend une nouvelle option de filtre dans le rail de 
 La visualisation Histogramme comprend un nouveau menu déroulant de conteneur de sous-accès. Vous pouvez ainsi regrouper les valeurs de mesure au niveau du produit. Par exemple, en comptant les occurrences de produit par commande plutôt que par accès.
 
 L’histogramme est la seule visualisation qui nécessite une sélection de conteneur de sous-accès. Tous les autres panneaux et visualisations fonctionnent avec les données d’analyse des sous-accès sans configuration supplémentaire.
+
