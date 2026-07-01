@@ -16,9 +16,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
-source-wordcount: 453
+source-wordcount: 452
 ht-degree: 51%
 
 ---
@@ -43,6 +43,6 @@ Importer un fichier : `Classifications.tab`
 
 Fichier de fin : `Classifications.fin`
 
-Si vous chargez le fichier de sources de données ou SAINT sans y joindre le fichier `.fin`, il ne sera pas ajouté à la file d’attente de traitement par Adobe. Le fichier reste sur le FTP et n’est pas appliqué à vos données dans l’entreprise CX. Vous en êtes informé seulement si vous avez spécifié votre adresse e-mail comme [!UICONTROL Destinataire de la notification] dans la fenêtre de création de rapports [!UICONTROL Créer un compte FTP]. Si aucune adresse e-mail n’est saisie dans ce champ, aucune notification n’est envoyée.
+Si vous chargez le fichier de sources de données ou SAINT sans y joindre le fichier `.fin`, il ne sera pas ajouté à la file d’attente de traitement par Adobe. Le fichier reste sur le FTP et n’est pas appliqué à vos données dans CX Enterprise. Vous en êtes informé seulement si vous avez spécifié votre adresse e-mail comme [!UICONTROL Destinataire de la notification] dans la fenêtre de création de rapports [!UICONTROL Créer un compte FTP]. Si aucune adresse e-mail n’est saisie dans ce champ, aucune notification n’est envoyée.
 
 Si vous chargez votre fichier avec un fichier `.fin`, mais qu’il contient une erreur, il est envoyé pour traitement, mais l’erreur interrompt le traitement et place le fichier à envoyer dans un dossier d’erreur. Si cette erreur survient, une notification est envoyée à l’adresse e-mail indiquée dans le champ [!UICONTROL Destinataire de la notification] dans la fenêtre [!UICONTROL Créer un compte FTP]. Si aucune adresse e-mail n’est saisie, aucune notification n’est envoyée.
