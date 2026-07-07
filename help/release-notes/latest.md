@@ -2,6 +2,7 @@
 title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -24,24 +25,27 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (juin 2026)
+# Notes de mise à jour actuelles d’Adobe Analytics (juillet 2026)
 
-**Dernière mise à jour** : 25 juin 2026
+**Dernière mise à jour** : 8 juillet 2026
 
-Ces notes de mise à jour couvrent la période de publication de juin 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour couvrent la période de publication de juillet 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Canevas de parcours dans Adobe Analytics** <br/>Le canevas de parcours est une visualisation dans Analysis Workspace qui vous permet d’analyser la manière dont les personnes poursuivent ou abandonnent un parcours défini. Il vous permet de créer un graphique flexible de nœuds et de flèches représentant n’importe quelle combinaison d’événements, d’éléments de dimension et de segments inclus dans le parcours. Les données se mettent à jour à mesure que vous faites glisser des nœuds sur le canevas ou réorganisez les événements et les conditions du parcours.<p>Auparavant, le canevas de parcours n’était disponible que pour Customer Journey Analytics.</p><p>Pour en savoir plus sur la zone de travail du parcours, consultez la [vue d’ensemble du canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Pour savoir comment créer un canevas de parcours, voir [Configurer un canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 mai 2026 | 5 juin 2026 |
+| **Analyse des sous-accès** <br/>L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. Par exemple, segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande. | 8 juillet | Fin juillet 2026 |
+| **Guide des fonctionnalités de recherche de l’API AA 2.0** <br/>Utilisez les fonctionnalités de recherche pour [renvoyer un sous-ensemble d’éléments de dimension dans les rapports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | 1er juillet 2026 |
+| **Automatisation des rapports récurrents avec les API AA** <br/>Configurez des rapports Analytics récurrents et automatiques pour votre pipeline de données avec de nouvelles mesures selon un calendrier précis avec l’API [Report](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | 1er juillet 2026 |
+| **Nouveaux paramètres de développement pour AA** <br/>Utilisez les nouveaux paramètres de développement de l’API Dimension pour récupérer les champs de configuration eVar pour les types d’attribution, les expirations, les types de données et le marchandisage. <p>Pour plus d’informations, consultez les guides [Référence de l’API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) et [Point d’entrée des dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | 1er juillet 2026 |
 
 ### Correctifs dans Adobe Analytics
 
