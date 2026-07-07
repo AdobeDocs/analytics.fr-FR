@@ -3,7 +3,7 @@ description: Découvrez comment configurer une visualisation de zone de travail 
 title: Configurer une visualisation de zone de travail de parcours
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5783'
 ht-degree: 90%
@@ -14,7 +14,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;de cet article._
+_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -583,5 +583,4 @@ Vous pouvez supprimer une ou plusieurs flèches à la fois dans un parcours. Lor
 Pour supprimer des flèches entre les nœuds dans la zone de travail du parcours :
 
 1. Dans une visualisation de la zone de travail de parcours, sélectionnez une ou plusieurs flèches comprises entre 2 nœuds à supprimer, puis cliquez avec le bouton droit sur l’une des flèches sélectionnées.
-
 1. Sélectionnez [!UICONTROL **Supprimer**].
