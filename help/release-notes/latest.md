@@ -2,56 +2,45 @@
 title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
 workflow-type: tm+mt
-source-wordcount: 938
-ht-degree: 72%
+source-wordcount: 998
+ht-degree: 56%
 
 ---
 
-# Notes de mise à jour actuelles d’Adobe Analytics (juin 2026)
+# Notes de mise à jour actuelles d’Adobe Analytics (juillet 2026)
 
-**Dernière mise à jour** : 25 juin 2026
+**Dernière mise à jour** : 8 juillet 2026
 
-Ces notes de mise à jour couvrent la période de publication de juin 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
+Ces notes de mise à jour couvrent la période de publication de juillet 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
 ## Nouvelles fonctionnalités ou améliorations {#features}
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Canevas de parcours dans Adobe Analytics** <br/>Le canevas de parcours est une visualisation dans Analysis Workspace qui vous permet d’analyser la manière dont les personnes poursuivent ou abandonnent un parcours défini. Il vous permet de créer un graphique flexible de nœuds et de flèches représentant n’importe quelle combinaison d’événements, d’éléments de dimension et de segments inclus dans le parcours. Les données se mettent à jour à mesure que vous faites glisser des nœuds sur le canevas ou réorganisez les événements et les conditions du parcours.<p>Auparavant, le canevas de parcours n’était disponible que pour Customer Journey Analytics.</p><p>Pour en savoir plus sur la zone de travail du parcours, consultez la [vue d’ensemble du canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Pour savoir comment créer un canevas de parcours, voir [Configurer un canevas de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 mai 2026 | 5 juin 2026 |
+| **Analyse des sous-accès** <br/>L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. Par exemple, segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande. | 8 juillet | Fin juillet 2026 |
+| **Guide des fonctionnalités de recherche de l’API AA 2.0** <br/>Utilisez les fonctionnalités de recherche pour [renvoyer un sous-ensemble d’éléments de dimension dans les rapports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | 1er juillet 2026 |
+| **Automatisation des rapports récurrents avec les API AA** <br/>Configurez des rapports Analytics récurrents et automatiques pour votre pipeline de données avec de nouvelles mesures selon un calendrier précis avec l’API [Report](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | 1er juillet 2026 |
+| **Nouveaux paramètres de développement pour AA** <br/>Utilisez les nouveaux paramètres de développement de l’API Dimension pour récupérer les champs de configuration eVar pour les types d’attribution, les expirations, les types de données et le marchandisage. <p>Pour plus d’informations, consultez les guides [Référence de l’API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) et [Point d’entrée des dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | 1er juillet 2026 |
 
 ### Correctifs dans Adobe Analytics
 
 **Activity Map** :
-**&#x200B;**&#x200B;: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-449890, AN-443594, AN-434416
+**** : AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-449890, AN-443594, AN-434416
 **Classifications** : AN-457122, AN-455828, AN-455515, AN-455501, AN-454540, AN-454466, AN-454410, AN-454251, AN-454166, AN-453180, AN-452547, AN-451812, AN-451181, AN-448974, AN-448567, AN-444098 443336
 **Flux de données et Data Warehouse** : N-457045, AN-456993, AN-456945, AN-456455, AN-456015, AN-455709, AN-454359, AN-451546
 **Migration** : AN-453136, AN-451330
 **Exports** : AN-452006
-**&#x200B;**&#x200B;: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819
+**** : AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819
 **Reporting** : AN-423516, AN-454517, AN-453982, AN-451822, AN-451259, AN-451215, AN-447692
 **Suites de rapports** : AN-455684, AN-455684, AN-454975, AN-430988
 **Rapports planifiés** : AN-451980, AN-451882, AN-450715
