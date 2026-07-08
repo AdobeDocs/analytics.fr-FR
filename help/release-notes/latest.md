@@ -2,7 +2,6 @@
 title: Notes de mise à jour actuelles d’Adobe Analytics
 description: Afficher les notes de mise à jour actuelles dʼAdobe Analytics
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d04c6b7d0d7a03859cff833d8207ce2b7c08889b
+source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
 workflow-type: tm+mt
-source-wordcount: 998
-ht-degree: 56%
+source-wordcount: 890
+ht-degree: 63%
 
 ---
 
@@ -42,25 +41,25 @@ Ces notes de mise à jour couvrent la période de publication de juillet 2026. L
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Analyse des sous-accès** <br/>L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. Par exemple, segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande. | 8 juillet | Fin juillet 2026 |
-| **Guide des fonctionnalités de recherche de l’API AA 2.0** <br/>Utilisez les fonctionnalités de recherche pour [renvoyer un sous-ensemble d’éléments de dimension dans les rapports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters). | | 1er juillet 2026 |
-| **Automatisation des rapports récurrents avec les API AA** <br/>Configurez des rapports Analytics récurrents et automatiques pour votre pipeline de données avec de nouvelles mesures selon un calendrier précis avec l’API [Report](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring). | | 1er juillet 2026 |
-| **Nouveaux paramètres de développement pour AA** <br/>Utilisez les nouveaux paramètres de développement de l’API Dimension pour récupérer les champs de configuration eVar pour les types d’attribution, les expirations, les types de données et le marchandisage. <p>Pour plus d’informations, consultez les guides [Référence de l’API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) et [Point d’entrée des dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/).</p> | | 1er juillet 2026 |
+| **Analyse des sous-accès** <br/>L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. <p>Par exemple, vous pouvez segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande.</p><p>Pour plus d’informations, voir [&#x200B; Analyse des sous-accès &#x200B;](/help/components/segmentation/sub-hit.md).</p> | 8 juillet | Fin juillet 2026 |
+| **Guide des fonctionnalités de recherche de l’API AA 2.0** <br/>Utilisez les fonctionnalités de recherche pour [renvoyer un sous-ensemble d’éléments de dimension dans les rapports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Pour plus d’informations, voir [Fonctionnalités de recherche](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) dans le guide de point d’entrée des rapports sur Adobe Developer. | | 1er juillet 2026 |
+| **Automatisation des rapports récurrents à l’aide des API AA** <br/>configurez des rapports Adobe Analytics récurrents automatiques pour votre pipeline de données avec de nouvelles mesures selon un calendrier précis avec l’API de rapport. <p>Pour plus d’informations, consultez le [Guide d’automatisation des points d’entrée des rapports récurrents d’Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) sur Adobe Developer.</p> | | 1er juillet 2026 |
+| **Nouveaux paramètres de développement pour AA** <br/>Utilisez les nouveaux paramètres de développement de l’API Dimension pour récupérer les champs de configuration eVar pour les types d’attribution, les expirations, les types de données et le marchandisage. <p>Pour plus d’informations, consultez les guides [Référence de l’API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) et [Point d’entrée des dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) sur Adobe Developer.</p> | | 1er juillet 2026 |
 
 ### Correctifs dans Adobe Analytics
 
 **Activity Map** :
-**&#x200B;**&#x200B;: AN-452009, AN-450375, AN-449870, AN-450814, AN-450698, AN-456858, AN-455865, AN-455706, AN-455592, AN-455484, AN-455180, AN-454999, AN-454170, AN-454145, AN-453793, AN-452921, AN-452009, AN-451958, AN-451643, AN-451600, AN-451525, AN-451477, AN-451262, AN-451161, AN-450772, AN-449890, AN-443594, AN-434416
-**Classifications** : AN-457122, AN-455828, AN-455515, AN-455501, AN-454540, AN-454466, AN-454410, AN-454251, AN-454166, AN-453180, AN-452547, AN-451812, AN-451181, AN-448974, AN-448567, AN-444098 443336
-**Flux de données et Data Warehouse** : N-457045, AN-456993, AN-456945, AN-456455, AN-456015, AN-455709, AN-454359, AN-451546
-**Migration** : AN-453136, AN-451330
-**Exports** : AN-452006
-**&#x200B;**&#x200B;: AN-440912, AN-457586, AN-457533, AN-455713, AN-455623, AN-455063, AN-454512, AN-454053, AN-453977, AN-453781, AN-453683, AN-451974, AN-451735, AN-451731, AN-451497, AN-451463, AN-451190, AN-449813, AN-447173, AN-447139, AN-446184, AN-445794, AN-445354, AN-442819
-**Reporting** : AN-423516, AN-454517, AN-453982, AN-451822, AN-451259, AN-451215, AN-447692
-**Suites de rapports** : AN-455684, AN-455684, AN-454975, AN-430988
-**Rapports planifiés** : AN-451980, AN-451882, AN-450715
+**&#x200B;**&#x200B;: AN-449890, AN-457527, AN-451161, AN-459034, AN-458071, AN-458398
+**Classifications** : AN-453318, AN-456739, AN-455828, AN-455270, AN-460272, AN-459367, AN-459239, AN-458418, AN-458417
+**Flux de données et Data Warehouse** : AN-456945, AN-460700
+**Migration** :
+**Exports** :
+**&#x200B;**&#x200B;: AN-457533, AN-453683
+**Reporting** : AN-447692, AN-451259, AN-455713
+**Suites de rapports** :
+**Rapports planifiés** : AN-450715
 **Segmentation** :
-**Autre** : AN-454140, AN-453937, AN-453825, AN-452296, AN-451783, AN-451781, AN-451243, AN-450974, AN-449726, AN-448964, AN-388832
+**Autre** : AN-453982, AN-455771
 
 ### Avis de fin de vie {#eol}
 
