@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 97%
+source-wordcount: 2004
+ht-degree: 88%
 
 ---
 
@@ -84,7 +84,7 @@ Le créateur de définitions permet de créer votre définition de segment. Dans
 Vous pouvez configurer le type et l’étendue de votre définition :
 
 1. Pour spécifier le type de votre définition, indiquez si vous souhaitez que la définition soit inclusive ou exclusive. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** et dans la liste déroulante, **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
-1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs et visiteuses]**.
+1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]**, **[!UICONTROL Visiteurs]** ou **[!UICONTROL Produits]**. Vous utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).
 
 Vous pourrez toujours modifier ces paramètres ultérieurement.
 
@@ -96,7 +96,9 @@ Une partie essentielle de la création de votre définition de segment consiste 
 
 Pour ajouter un composant, procédez comme suit :
 
-1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
+1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**.
+   * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
+   * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, &#x200B;](/help/assets/icons/Segmentation.svg)Calendar **&#x200B;**&#x200B;DateRange![&#x200B; et &#x200B;](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![&#x200B; &#x200B;](/help/assets/icons/Layer.svg) **&#x200B;**. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
 1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou Saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
 1. Modifiez éventuellement l’opérateur par défaut. Par exemple, de **[!UICONTROL égal]** à **[!UICONTROL égal à n’importe lequel]**. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour une présentation détaillée des opérateurs disponibles.
 
@@ -121,7 +123,7 @@ Vous pouvez regrouper plusieurs composants dans un ou plusieurs conteneurs et d�
 * Pour ajouter un autre composant au conteneur, faites glisser un composant du panneau des composants et déposez-le dans le conteneur. Utilisez la ligne d’insertion bleue comme guide.
 * Pour ajouter un autre composant à l’extérieur du conteneur, faites glisser un composant depuis le panneau des composants à l’extérieur du conteneur, mais à l’intérieur du conteneur de définition principal. Utilisez la ligne d’insertion bleue comme guide.
 * Pour modifier la logique entre les composants d’un conteneur, entre les conteneurs ou entre un conteneur et un composant, sélectionnez les opérateurs **[!UICONTROL Et]**, **[!UICONTROL Ou]** et **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
-* Pour changer le niveau de conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]** ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]** ou ![Utilisateur ou utilisatrice](/help/assets/icons/User.svg) **[!UICONTROL Visiteurs et visiteuses]**.
+* Pour changer le niveau du conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]**, ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]**, ![Utilisateur](/help/assets/icons/User.svg)**[!UICONTROL Visitors]** ou ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)Products **&#x200B;**.
 
 Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conteneur pour les actions suivantes :
 
@@ -133,6 +135,9 @@ Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conte
 | **[!UICONTROL Nommer le conteneur]** | Renommez le conteneur à partir de sa description par défaut. Saisissez un nom dans le champ de texte. Si vous ne fournissez aucune entrée, la description par défaut est utilisée. |
 | **[!UICONTROL Supprimer le conteneur]** | Supprimez le conteneur de la définition. |
 
+Lorsque vous faites glisser une dimension ou une mesure de produit dans le créateur de segments, le système sélectionne automatiquement le conteneur **[!UICONTROL Produit]** et n’utilise pas le conteneur **[!UICONTROL Accès]** par défaut. Ce comportement limite le segment à des produits individuels plutôt qu’à l’accès complet.
+
+Lorsque vous faites glisser des composants au niveau du produit et au niveau de l’accès dans une seule règle de segment, le système utilise le conteneur **[!UICONTROL Accès]**, qui est le conteneur partagé le plus élevé (le moins granulaire). Si tous les composants qui font partie d’une règle de segment sont au niveau du produit, le conteneur **[!UICONTROL Products]** est utilisé.
 
 ## Périodes
 

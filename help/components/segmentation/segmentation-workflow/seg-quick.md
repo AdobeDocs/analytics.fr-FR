@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ La zone d’en-tête détermine le nom, le type et la portée du segment rapide.
 | Élément | Description |
 |---|---|
 | **[!UICONTROL Nom]** | Le nom est automatiquement dérivé de la définition de segment rapide. |
-| **[!UICONTROL Personnes]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerte](/help/assets/icons/Alert.svg) | Prévisualisez les données issues du segment rapide. Une barre et un pourcentage indiquent à insight la quantité de données globales qui fait partie du résultat du segment rapide. Une ![Alerte](/help/assets/icons/AlertRed.svg) indique que le segment rapide ne renvoie pas de données. |
+| **[!UICONTROL _Mesure_]** <br/>![Cercle de coche](/help/assets/icons/CheckmarkCircle.svg) ![Alerte](/help/assets/icons/Alert.svg) | Prévisualisez les données de mesure issues du segment rapide. Une barre et un pourcentage indiquent à insight la quantité de données globales qui fait partie du résultat du segment rapide. Une ![Alerte](/help/assets/icons/AlertRed.svg) indique que le segment rapide ne renvoie pas de données. |
 | **[!UICONTROL Inclure]**<br/>**[!UICONTROL Exclure]** | Dans la liste déroulante ![ChevronDown](/help/assets/icons/ChevronDown.svg) choisissez d’inclure ou d’exclure les résultats du segment rapide des données du panneau. |
-| **[!UICONTROL Événement]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Personne]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) sélectionnez la portée du segment rapide. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]**<br/>**[!UICONTROL Products]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) sélectionnez la portée du segment rapide. Utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).<ul><li>Lorsque vous faites glisser une dimension de produit ou une mesure de produit dans le panneau Segment rapide, le système sélectionne automatiquement le conteneur **[!UICONTROL Produits]** et n’utilise pas le conteneur **[!UICONTROL Accès]** par défaut. Ce comportement limite le segment à des produits individuels plutôt qu’à l’accès complet.</li><li>Lorsque vous faites glisser des composants au niveau du produit et au niveau de l’accès dans une seule règle de segment, le système utilise le conteneur **[!UICONTROL Accès]**, qui est le conteneur partagé le plus élevé (le moins granulaire). Si tous les composants qui font partie d’une règle de segment sont au niveau du produit, le conteneur **[!UICONTROL Products]** est utilisé.</li></ul> |
 
 ### Zone de condition
 
