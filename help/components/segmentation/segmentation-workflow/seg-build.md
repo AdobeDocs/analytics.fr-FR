@@ -4,22 +4,14 @@ title: Créer des segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1869
-ht-degree: 97%
+source-wordcount: 2004
+ht-degree: 88%
 
 ---
 
@@ -69,7 +61,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    {style="table-layout:auto"}
 
 1. Pour vérifier si votre définition du segment est correcte, utilisez la prévisualisation constamment mise à jour des résultats du segment en haut à droite.
-1. Pour publier le segment sur l’expérience client Entreprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Consultez [&#x200B; Publication de segments sur l’expérience client Enterprise &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) pour plus d’informations.
+1. Pour publier le segment sur l’expérience client Entreprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Consultez [ Publication de segments sur l’expérience client Enterprise ](/help/components/segmentation/segmentation-workflow/seg-publish.md) pour plus d’informations.
 1. Sélectionnez :
    * **[!UICONTROL Enregistrer]** pour enregistrer le segment.
    * **[!UICONTROL Enregistrer sous]** pour enregistrer une copie du segment.
@@ -84,7 +76,7 @@ Le créateur de définitions permet de créer votre définition de segment. Dans
 Vous pouvez configurer le type et l’étendue de votre définition :
 
 1. Pour spécifier le type de votre définition, indiquez si vous souhaitez que la définition soit inclusive ou exclusive. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** et dans la liste déroulante, **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
-1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]** ou **[!UICONTROL Visiteurs et visiteuses]**.
+1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]**, **[!UICONTROL Visiteurs]** ou **[!UICONTROL Produits]**. Vous utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).
 
 Vous pourrez toujours modifier ces paramètres ultérieurement.
 
@@ -96,7 +88,9 @@ Une partie essentielle de la création de votre définition de segment consiste 
 
 Pour ajouter un composant, procédez comme suit :
 
-1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
+1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**.
+   * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
+   * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, ](/help/assets/icons/Segmentation.svg)Calendar **** DateRange![ et ](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![ ](/help/assets/icons/Layer.svg) ****. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
 1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou Saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
 1. Modifiez éventuellement l’opérateur par défaut. Par exemple, de **[!UICONTROL égal]** à **[!UICONTROL égal à n’importe lequel]**. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour une présentation détaillée des opérateurs disponibles.
 
@@ -121,7 +115,7 @@ Vous pouvez regrouper plusieurs composants dans un ou plusieurs conteneurs et d�
 * Pour ajouter un autre composant au conteneur, faites glisser un composant du panneau des composants et déposez-le dans le conteneur. Utilisez la ligne d’insertion bleue comme guide.
 * Pour ajouter un autre composant à l’extérieur du conteneur, faites glisser un composant depuis le panneau des composants à l’extérieur du conteneur, mais à l’intérieur du conteneur de définition principal. Utilisez la ligne d’insertion bleue comme guide.
 * Pour modifier la logique entre les composants d’un conteneur, entre les conteneurs ou entre un conteneur et un composant, sélectionnez les opérateurs **[!UICONTROL Et]**, **[!UICONTROL Ou]** et **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
-* Pour changer le niveau de conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]** ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]** ou ![Utilisateur ou utilisatrice](/help/assets/icons/User.svg) **[!UICONTROL Visiteurs et visiteuses]**.
+* Pour changer le niveau du conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]**, ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]**, ![Utilisateur](/help/assets/icons/User.svg)**[!UICONTROL Visitors]** ou ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)Products ****.
 
 Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conteneur pour les actions suivantes :
 
@@ -133,6 +127,9 @@ Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conte
 | **[!UICONTROL Nommer le conteneur]** | Renommez le conteneur à partir de sa description par défaut. Saisissez un nom dans le champ de texte. Si vous ne fournissez aucune entrée, la description par défaut est utilisée. |
 | **[!UICONTROL Supprimer le conteneur]** | Supprimez le conteneur de la définition. |
 
+Lorsque vous faites glisser une dimension ou une mesure de produit dans le créateur de segments, le système sélectionne automatiquement le conteneur **[!UICONTROL Produit]** et n’utilise pas le conteneur **[!UICONTROL Accès]** par défaut. Ce comportement limite le segment à des produits individuels plutôt qu’à l’accès complet.
+
+Lorsque vous faites glisser des composants au niveau du produit et au niveau de l’accès dans une seule règle de segment, le système utilise le conteneur **[!UICONTROL Accès]**, qui est le conteneur partagé le plus élevé (le moins granulaire). Si tous les composants qui font partie d’une règle de segment sont au niveau du produit, le conteneur **[!UICONTROL Products]** est utilisé.
 
 ## Périodes
 
@@ -143,7 +140,7 @@ Vous pouvez créer des segments qui contiennent des périodes variables. Vous po
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans les segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans les segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -271,7 +268,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -332,7 +329,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

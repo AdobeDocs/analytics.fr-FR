@@ -5,25 +5,14 @@ feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1192
-ht-degree: 19%
+source-wordcount: 1292
+ht-degree: 17%
 
 ---
 
@@ -36,7 +25,7 @@ Les segments rapides vous permettent d’explorer rapidement les données d’un
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments rapides dans Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segments rapides dans Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -91,9 +80,9 @@ La zone d’en-tête détermine le nom, le type et la portée du segment rapide.
 | Élément | Description |
 |---|---|
 | **[!UICONTROL Nom]** | Le nom est automatiquement dérivé de la définition de segment rapide. |
-| **[!UICONTROL Personnes]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alerte](/help/assets/icons/Alert.svg) | Prévisualisez les données issues du segment rapide. Une barre et un pourcentage indiquent à insight la quantité de données globales qui fait partie du résultat du segment rapide. Une ![Alerte](/help/assets/icons/AlertRed.svg) indique que le segment rapide ne renvoie pas de données. |
+| **[!UICONTROL _Mesure_]** <br/>![Cercle de coche](/help/assets/icons/CheckmarkCircle.svg) ![Alerte](/help/assets/icons/Alert.svg) | Prévisualisez les données de mesure issues du segment rapide. Une barre et un pourcentage indiquent à insight la quantité de données globales qui fait partie du résultat du segment rapide. Une ![Alerte](/help/assets/icons/AlertRed.svg) indique que le segment rapide ne renvoie pas de données. |
 | **[!UICONTROL Inclure]**<br/>**[!UICONTROL Exclure]** | Dans la liste déroulante ![ChevronDown](/help/assets/icons/ChevronDown.svg) choisissez d’inclure ou d’exclure les résultats du segment rapide des données du panneau. |
-| **[!UICONTROL Événement]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Personne]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) sélectionnez la portée du segment rapide. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]**<br/>**[!UICONTROL Products]** | Dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) sélectionnez la portée du segment rapide. Utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).<ul><li>Lorsque vous faites glisser une dimension de produit ou une mesure de produit dans le panneau Segment rapide, le système sélectionne automatiquement le conteneur **[!UICONTROL Produits]** et n’utilise pas le conteneur **[!UICONTROL Accès]** par défaut. Ce comportement limite le segment à des produits individuels plutôt qu’à l’accès complet.</li><li>Lorsque vous faites glisser des composants au niveau du produit et au niveau de l’accès dans une seule règle de segment, le système utilise le conteneur **[!UICONTROL Accès]**, qui est le conteneur partagé le plus élevé (le moins granulaire). Si tous les composants qui font partie d’une règle de segment sont au niveau du produit, le conteneur **[!UICONTROL Products]** est utilisé.</li></ul> |
 
 ### Zone de condition
 
@@ -114,7 +103,7 @@ La zone de condition spécifie les conditions (trois au maximum). Pour chaque co
 | **[!UICONTROL ET]**<br/>**[!UICONTROL OU]** | Disponible uniquement lorsque vous définissez plusieurs conditions. Faites votre choix dans le menu déroulant ![ChevronDown](/help/assets/icons/ChevronDown.svg) entre les conditions. La sélection détermine la logique booléenne du segment rapide. Il n’est pas possible de mélanger la logique avec trois conditions. La logique booléenne est soit **[!UICONTROL ET]** soit **[!UICONTROL OU]**. |
 | ![Cercle d’ajout](/help/assets/icons/AddCircle.svg) | Ajoute une autre condition à votre segment rapide. Ce bouton n’est disponible que lorsque vous avez défini une ou deux conditions pour le segment rapide. |
 | **[!UICONTROL Appliquer]** | Appliquez les modifications au segment rapide. |
-| **[!UICONTROL Ouvrir le créateur]** | Vous êtes invité à confirmer l’opération à l’aide d’un **[!UICONTROL En êtes-vous sûr ?]** boîte de dialogue. Si vous sélectionnez **[!UICONTROL OK]**, vous ne pouvez plus modifier votre segment dans le [Créateur de segments rapides](#quick-segment-builder) Votre segment rapide est renommé **[!UICONTROL Segment]** et se compose désormais d’une fine barre de gauche bleu foncé.[&#x200B; Le créateur de segments](seg-build.md) classique s’ouvre avec la possibilité de **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]**. <br/><ul><li>Si vous sélectionnez cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment est ajouté à la liste de composants ![Segment](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dans le panneau des composants.</li><li>Si vous ne sélectionnez pas cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment reste un segment de projet uniquement Workspace.</li></ul> |
+| **[!UICONTROL Ouvrir le créateur]** | Vous êtes invité à confirmer l’opération à l’aide d’un **[!UICONTROL En êtes-vous sûr ?]** boîte de dialogue. Si vous sélectionnez **[!UICONTROL OK]**, vous ne pouvez plus modifier votre segment dans le [Créateur de segments rapides](#quick-segment-builder) Votre segment rapide est renommé **[!UICONTROL Segment]** et se compose désormais d’une fine barre de gauche bleu foncé.[ Le créateur de segments](seg-build.md) classique s’ouvre avec la possibilité de **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]**. <br/><ul><li>Si vous sélectionnez cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment est ajouté à la liste de composants ![Segment](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dans le panneau des composants.</li><li>Si vous ne sélectionnez pas cette option et sélectionnez **[!UICONTROL Appliquer]**, le segment reste un segment de projet uniquement Workspace.</li></ul> |
 | **[!UICONTROL Annuler]** | Sélectionnez cette option pour annuler la création ou la modification d’un segment rapide. |
 
 ## Segments rapides ou segments
