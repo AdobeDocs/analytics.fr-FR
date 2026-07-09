@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
+source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
 workflow-type: tm+mt
-source-wordcount: 1676
+source-wordcount: 1895
 ht-degree: 9%
 
 ---
@@ -223,7 +223,23 @@ Par exemple :
 
 >[!IMPORTANT]
 >
->Supprimez les fichiers de l’emplacement cloud manuellement ou à l’aide d’une stratégie de rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités lors de la tâche d’importation suivante.
+>Supprimez les fichiers de l’emplacement cloud manuellement ou à l’aide d’une stratégie de rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités en fonction de la date de dernière modification du fichier et à l’aide d’un journal de 30 jours. Voir l’exemple ci-dessous.
+>
+
+### Exemple
+
+Un fichier d’importation nommé `import.csv` est créé et chargé le 5/1/2026, puis mis à jour et chargé le 6/16/2026. Lorsque le fichier n’est pas supprimé, sur :
+
+| Date | Action |
+|---:|---|
+| 5/1/26 | Un fichier, intitulé `import.csv`, est chargé dans l’espace de stockage cloud. |
+| 5/1/26 | Le fichier est traité (il a moins de 30 jours et n’a jamais été traité auparavant). |
+| 5/28/26 | Le fichier n’est **pas** traité (il a moins de 30 jours, mais il a été traité au cours des 30 derniers jours). |
+| 6/15/26 | Le fichier est **non** traité (le fichier a plus de 30 jours depuis sa date de dernière modification/date de dernier chargement). |
+| 6/16/26 | Une mise à jour est apportée au même fichier, intitulé `import.csv`, et téléchargée dans l’espace de stockage. |
+| 6/16/26 | Le fichier mis à jour est traité (le fichier mis à jour a moins de 30 jours et il n’a jamais été traité auparavant). |
+| 6/30/26 | Le fichier mis à jour n’est **pas** traité (le fichier mis à jour a moins de 30 jours, mais il a été traité au cours des 30 derniers jours). |
+| 7/31/26 | Le fichier mis à jour n’est **pas** traité (le fichier mis à jour date de plus de 30 jours depuis sa date de dernière modification/chargement). |
 
 
 
