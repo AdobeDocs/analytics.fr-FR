@@ -14,7 +14,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
+source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
 workflow-type: tm+mt
 source-wordcount: 1895
 ht-degree: 9%
@@ -226,7 +226,7 @@ Par exemple :
 >Supprimez les fichiers de l’emplacement cloud manuellement ou à l’aide d’une stratégie de rotation de fichiers une fois les fichiers importés et traités avec succès. Dans le cas contraire, les fichiers sont réimportés et retraités en fonction de la date de dernière modification du fichier et à l’aide d’un journal de 30 jours. Voir l’exemple ci-dessous.
 >
 
-### Exemple
+#### Exemple
 
 Un fichier d’importation nommé `import.csv` est créé et chargé le 5/1/2026, puis mis à jour et chargé le 6/16/2026. Lorsque le fichier n’est pas supprimé, sur :
 
