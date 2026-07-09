@@ -4,20 +4,13 @@ description: Découvrez comment afficher les tâches de classification en cours 
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 781
 ht-degree: 2%
 
 ---
@@ -52,7 +45,7 @@ La liste **[!UICONTROL Tâches de classification]** affiche ➊ les tâches de c
 | **[!UICONTROL Statut]** | Statut de la tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]** ou **[!UICONTROL Progress]**. Le cas échéant, passez la souris sur l’alerte ![Alert](/help/assets/icons/Alert.svg) pour afficher des informations supplémentaires. |
 | **[!UICONTROL Nom du fichier]** | Identifie le nom ou la fonctionnalité utilisée pour importer ou exporter le fichier dans le cadre de la tâche de classification. Les valeurs possibles sont les suivantes : <ul><li>*aucune valeur*</li><li>Nom du fichier qui est traité dans le cadre de la tâche de classification.</li><li>**[!UICONTROL Exportation SAINT]** : la tâche est une exportation à partir de l’interface [héritée Classifications](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export pour _jeu de classifications_ à _horodatage_]**: la tâche est un téléchargement depuis l’interface [schéma](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Type de tâche]** | Type de tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL Importer]** ou **[!UICONTROL Exporter]**. |
-| **[!UICONTROL Source]** | Source de la tâche de classification. Les valeurs possibles sont les suivantes : **[!UICONTROL API Web]**, **[!UICONTROL Chargement direct de l’API]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** ou **[!UICONTROL Inconnu]**. |
+| **[!UICONTROL Source]** | Source de la tâche de classification. Voir [Panneau de filtrage](#filter-panel) pour plus d’informations sur les sources possibles. |
 | **[!UICONTROL Lignes modifiées]** | Nombre de lignes modifiées par la tâche de classification. |
 | **[!UICONTROL Total des lignes]** | Nombre total de lignes traitées par la tâche de classification. |
 | **[!UICONTROL Heure de fin]** | Heure d’achèvement de la tâche de classification. |
@@ -87,7 +80,22 @@ Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher la ➌ du 
 * **[!UICONTROL Heure de fin]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification au moment de l’achèvement.
 * **[!UICONTROL Statut]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification selon le statut.
 * **[!UICONTROL Type de tâche]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification par type de tâche.
-* **&#x200B;**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification sur la source.
+* ****. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification sur la source.
+
+  Les valeurs possibles pour **** sont :
+
+  | Source | Explication |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Traitements réalisés par Adobe dans le cadre d&#39;un processus interne. Par exemple, les consolidations. |
+  | **[!UICONTROL Serveur principal]** | Tâches créées par le processus d’importation FTP obsolète. |
+  | **[!UICONTROL Ingestion cloud]** | Tâches résultant de l’importation de données de classification à partir d’un emplacement cloud. |
+  | **[!UICONTROL Exportation directe de l’API]** | Tâches résultant de l’utilisation de l’API Adobe Analytics 2.0 pour exporter des données de classification. |
+  | **[!UICONTROL Chargement direct de l’API]** | Tâches résultant de l’utilisation de l’API Adobe Analytics 2.0 pour charger des données de classification. |
+  | **[!UICONTROL Republier]** | Tâches résultant d’une republication. |
+  | **[!UICONTROL Classifications basées sur des règles]** | Tâches qui sont le résultat de classifications basées sur des règles. |
+  | **[!UICONTROL Saint]** | Tâches qui sont le résultat de classifications héritées basées sur des règles. |
+  | **[!UICONTROL API Web]** | Tâches résultant de l’utilisation de l’API Web pour exporter ou charger des données de classification. |
+  | **[!UICONTROL Inconnu]** | Tâches pour lesquelles la source est inconnue. |
 
 
 Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) **[!UICONTROL Masquer les filtres]** pour masquer le panneau des filtres.
