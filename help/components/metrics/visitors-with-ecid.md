@@ -35,7 +35,7 @@ La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] �
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Déboguer la configuration ECID
 

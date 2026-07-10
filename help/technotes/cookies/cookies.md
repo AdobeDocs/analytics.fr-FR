@@ -73,8 +73,8 @@ Les politiques d’ITP évoluent fréquemment. Pour connaître les dernières po
 Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les politiques ITP :
 
 * [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
-* Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
-* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
+* Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
+* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
 
 #### Quel est l’impact d’ITP sur Safari pour Analytics ?
 
