@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 95%
 
 ---
@@ -53,7 +53,7 @@ Décrit la méthode de calcul de mesures courantes à l’aide de flux de donné
 
 ## Visiteurs et visiteuses
 
-Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, service Experience Cloud ID, etc.) sont toutes calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
+Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques (identifiant visiteur personnalisé, ECID, etc.) sont toutes calculées en fin de compte comme une valeur dans `post_visid_high` et `post_visid_low`. Vous pouvez utiliser la concaténation de ces deux colonnes comme norme d’identification des visiteurs uniques, quelle que soit la manière dont ils ont été identifiés comme tels. Si vous souhaitez comprendre la méthode utilisée par Adobe pour identifier un visiteur unique, utilisez la colonne `post_visid_type`.
 
 1. Concaténez `post_visid_high` et `post_visid_low`.
 2. Comptez le nombre unique de valeurs.

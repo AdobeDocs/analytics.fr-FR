@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 99%
+source-wordcount: 2104
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ De plus, Chrome ne permet aujourd’hui aux cookies de fonctionner dans un conte
 
 #### Quels cookies tiers Adobes sont affectés ?
 
-Le service d’identification des visiteurs utilise le cookie « [demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) » pour fournir un identifiant persistant pour les visiteurs dans différents domaines client. Le service d’identification Analytics hérité, le cookie « s_vi », est défini comme cookie tiers pour les implémentations n’utilisant pas de domaine de collecte CNAME personnalisé.
+Le service d’identification des visiteurs utilise le cookie « [demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) » pour fournir un identifiant persistant pour les visiteurs dans différents domaines client. Le service d’identification Analytics hérité, le cookie « s_vi », est défini comme cookie tiers pour les implémentations n’utilisant pas de domaine de collecte CNAME personnalisé.
 
 Dans les navigateurs où les cookies tiers sont bloqués, le suivi interdomaines n’est pas disponible.
 
@@ -58,7 +58,7 @@ Les cookies propriétaires sont autorisés sur tous les navigateurs principaux. 
 
 Les cookies propriétaires d’Adobe sont limités à un délai d’expiration de sept jours ou, pour les clics publicitaires qu’Apple détermine comme provenant de dispositifs de suivi, un délai d’expiration de 24 heures. Avec un délai d’expiration de sept jours, si un utilisateur visite votre site et revient dans les sept jours, alors la date d’expiration du cookie est prolongée de sept jours supplémentaires. Cependant, si un utilisateur visite votre site et revient huit jours plus tard, alors il est traité comme un nouvel utilisateur lors de la deuxième visite.
 
-Actuellement, les politiques ITP s’appliquent à tous les cookies propriétaires définis par Adobe, que vous utilisiez le service d’identification des visiteurs ou l’identifiant Analytics hérité (cookie « s_vi »). À un moment donné, ces politiques ne s’appliquaient qu’aux cookies définis côté client et non aux cookies définis côté serveur via une implémentation CNAME. Toutefois, en novembre 2020, ITP a été mis à jour pour s’appliquer également aux implémentations CNAME.
+Actuellement, les politiques ITP s’appliquent à tous les cookies propriétaires définis par Adobe, que vous utilisiez le service d’identification des visiteurs ou l’identifiant Analytics hérité (cookie « s_vi »). À un moment donné, ces politiques ne s’appliquaient qu’aux cookies définis côté client et non aux cookies définis côté serveur via une implémentation CNAME. Toutefois, en novembre 2020, ITP a été mis à jour pour s’appliquer également aux implémentations CNAME.
 
 #### Chronologie des modifications majeures apportées à la politique ITP {#ITP-timeline}
 
@@ -73,8 +73,8 @@ Les politiques d’ITP évoluent fréquemment. Pour connaître les dernières po
 Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les politiques ITP :
 
 * [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
-* Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
-* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
+* Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
+* Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
 
 #### Quel est l’impact d’ITP sur Safari pour Analytics ?
 
@@ -95,7 +95,7 @@ Si ces restrictions affectent vos données, vous verrez :
 
 Les cookies tiers ne sont pas créés par les sites que visitent les utilisateurs.
 
-Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation des cookies tiers Analytics d’un client ou d’une cliente, les navigateurs stockent l’identifiant [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) d’Adobe en tant que cookie tiers, mais le client n’effectue des appels qu’à Adobe, et non à des domaines tiers inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [Cookies et Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
+Bien que les navigateurs traitent actuellement tous les cookies tiers de la même manière et les stockent en conséquence, les cookies tiers peuvent se comporter de différentes façons. Avec l’implémentation des cookies tiers Analytics d’un client ou d’une cliente, les navigateurs stockent l’identifiant [demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=fr) d’Adobe en tant que cookie tiers, mais le client n’effectue des appels qu’à Adobe, et non à des domaines tiers inconnus ou suspects. Ce cookie fournit des identifiants persistants sur plusieurs domaines et permet d’obtenir du contenu sécurisé (HTTPS). Pour plus d’informations, voir [&#x200B; Cookies et service d’identification des visiteurs &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr).
 
 Dans les implémentations d’Analytics, les cookies tiers sont utilisés pour le suivi interdomaines et pour les cas d’utilisation publicitaire, y compris les annonces de reciblage. Les cookies tiers vous permettent d’identifier les visiteurs qui visitent différents domaines que vous possédez ou qui voient des annonces sur des sites que vous ne possédez pas.<!--  Without these cookies, you cannot identify visitors as they visit different domains that you own or as they are shown ads on sites that you do not own unless your implementation can stitch other types of cookies and   -->
 
@@ -143,13 +143,13 @@ Le tableau suivant résume les attributs SameSite pour les cookies Analytics :
 
 Vérifiez que votre configuration JavaScript utilise HTTPS pour tous les appels aux services d’Adobe.
 
-Si votre site utilise le service d’identification des visiteurs Experience Cloud, le service redirige les appels HTTP tiers vers son point d’entrée HTTPS, ce qui peut augmenter la latence, mais signifie que vous n’êtes pas tenu de modifier votre configuration.
+Si votre site utilise le service d’identification des visiteurs, le service redirige les appels HTTP tiers vers son point d’entrée HTTPS, ce qui peut augmenter la latence, mais signifie que vous n’êtes pas tenu de modifier votre configuration.
 
 #### Modifiez la valeur SameSite lorsque vous utilisez un CNAME pour plusieurs domaines {#samesite-one-cname}
 
 >[!NOTE]
 >
->Les informations suivantes ne concernent que les sites qui n’utilisent pas le service d’identification des visiteurs Experience Cloud.
+>Les informations suivantes ne concernent que les sites qui n’utilisent pas le service d’identification des visiteurs.
 
 Si vous avez une implémentation CNAME définie dans le même domaine que votre site Web, alors le cookie est créé dans un contexte de propriétaire et vous n’avez pas besoin d’apporter de modifications.
 
@@ -197,5 +197,4 @@ Si votre entreprise est affectée par la prévention du suivi ITP, vous pouvez e
 
 >[!MORELIKETHIS]
 >
->[Options pour atténuer l’effet des restrictions des cookies de navigateur](cookieless.md)
->[Impact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)
+>[Options pour atténuer l’effet des restrictions des cookies de navigateurImpact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)

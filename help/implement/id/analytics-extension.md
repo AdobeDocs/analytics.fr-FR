@@ -17,43 +17,43 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 505
 ht-degree: 2%
 
 ---
 
 # Identification des visiteurs à l’aide de l’extension de balise Adobe Analytics
 
-L’extension de balises Adobe Analytics vous permet de mettre en œuvre AppMeasurement à l’aide d’une interface de gestion des balises. Comme cette extension de balise est essentiellement AppMeasurement, elle offre des méthodes similaires pour identifier les visiteurs et nécessite une extension de balise distincte pour le service d’identification des visiteurs.
+L’extension de balises Adobe Analytics vous permet de mettre en œuvre AppMeasurement à l’aide d’une interface de gestion des balises. Puisque cette extension de balise est essentiellement AppMeasurement, elle offre des méthodes similaires pour identifier les visiteurs et nécessite une extension de balise distincte pour collecter l’ECID.
 
 ## Identification des visiteurs à l’aide du service d’identification des visiteurs (recommandé)
 
-Pour utiliser le service d’identification des visiteurs à l’aide de l’extension de balise Adobe Analytics, incluez l’extension du service d’identification Experience Cloud dans votre propriété de balise.
+Pour utiliser le service d’identification des visiteurs à l’aide de l’extension de balise Adobe Analytics, incluez l’extension de balise [!UICONTROL Service Experience Cloud ID] (qui implémente le service d’identification des visiteurs) dans votre propriété de balise.
 
 1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Accédez à **[!UICONTROL Collecte de données]** > **[!UICONTROL Balises]**.
 1. Recherchez la propriété de balise de votre choix.
 1. Accédez à **[!UICONTROL Extensions]**, puis sélectionnez l’onglet **[!UICONTROL Catalogue]**.
-1. Recherchez l’extension **[!UICONTROL Experience Cloud ID Service]**, puis sélectionnez **[!UICONTROL Installer]**.
+1. Recherchez l’extension **[!UICONTROL Service Experience Cloud ID]**, puis sélectionnez **[!UICONTROL Installer]**.
 
 L’extension de balise obtient automatiquement votre identifiant d’organisation IMS. Aucune configuration supplémentaire n’est donc nécessaire.
 
-## Identification des visiteurs à l’aide du cookie `s_vi` (déconseillé)
+## Identification des visiteurs à l’aide du cookie `s_vi` (non recommandé)
 
 >[!IMPORTANT]
 >
 >Adobe déconseille d&#39;utiliser cette méthode pour identifier les visiteurs.
 
-Si votre organisation n’utilise pas l’extension de balise du service d’identification des visiteurs, l’extension de balise Adobe Analytics utilise sa propre forme d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, l’extension recherche un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à **[!UICONTROL Serveur de suivi SSL]** (pour HTTPS) ou **[!UICONTROL Serveur de suivi]** (pour HTTP) lors de la [configuration de l’extension de balise](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview).
+Si votre organisation n’utilise pas l’extension de balise [!UICONTROL service Experience Cloud ID], l’extension de balise Adobe Analytics utilise sa propre méthode héritée d’identification des visiteurs. Lorsqu’un visiteur ou une visiteuse arrive sur votre site pour la première fois, l’extension recherche un cookie [`s_vi`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics). Ce cookie est défini sur le domaine correspondant à **[!UICONTROL Serveur de suivi SSL]** (pour HTTPS) ou **[!UICONTROL Serveur de suivi]** (pour HTTP) lors de la [configuration de l’extension de balise](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 * Si vous participez au [programme de certificat géré](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert), votre serveur de suivi est généralement un domaine propriétaire, ce qui rend les cookies `s_vi` propriétaires.
 * Si vous ne participez pas au programme de certificat géré, le serveur de suivi est généralement un sous-domaine de `adobedc.net`, `omtrdc.net` ou `2o7.net`, ce qui fait du cookie `s_vi` un cookie tiers. En raison des normes modernes de confidentialité des navigateurs, les cookies tiers sont rejetés par la plupart des navigateurs. Une fois rejeté, AppMeasurement tente de définir un cookie de secours propriétaire (`fid`) à la place.
 
 Si vous définissez correctement [!UICONTROL Serveur de suivi SSL], aucune autre mesure d’identification des visiteurs n’est requise.
 
-## Identification des visiteurs à l’aide de `visitorID` (déconseillé)
+## Identification des visiteurs à l’aide de `visitorID` (non recommandé)
 
 >[!IMPORTANT]
 >

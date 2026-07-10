@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +37,8 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 
 | Paramètre | Variable de mise en œuvre Analytics | Description |
 | --- | --- | --- |
-| `aamlh` | Aucun | Indicateur d’emplacement Audience Manager. Identifie le centre de données régional utilisé pour la synchronisation des Audience Manager ID via le service Experience Cloud ID. |
-| `aamb` | Aucun | Audience Manager blob. Données de profil Audience Manager codées transmises lors de la synchronisation des identifiants via le service Experience Cloud ID. |
+| `aamlh` | Aucun | Indicateur d’emplacement Audience Manager. Identifie le centre de données régional utilisé pour la synchronisation des Audience Manager ID via le service d’identification des visiteurs. |
+| `aamb` | Aucun | Audience Manager blob. Données de profil Audience Manager codées transmises lors de la synchronisation des identifiants via le service d’identification des visiteurs. |
 | `aid` | Aucun | Identifiant visiteur Analytics hérité, stocké dans le cookie `s_vi`. Remplacé par le paramètre `mid` dans les implémentations modernes. |
 | `AQB` | Aucun | Indique le début d’une chaîne de requête de demande d’image. |
 | `AQE` | Aucun | Indique la fin d’une demande d’image, ce qui signifie que la demande n’a pas été tronquée. |
@@ -71,7 +71,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `lat` | Aucun | **Plus utilisé.** Latitude. Définies par les implémentations mobiles SDK héritées ; les implémentations mobiles actuelles envoient la géolocalisation par le biais de flux de données. |
 | `lon` | Aucun | **Plus utilisé.** Longitude. Définies par les implémentations mobiles SDK héritées ; les implémentations mobiles actuelles envoient la géolocalisation par le biais de flux de données. |
 | `lrt` | Aucun | Le « délai de la dernière requête », qui correspond au délai d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes sont envoyées à partir d’une seule page, par exemple dans une application d’une seule page (SPA). |
-| `mcorgid` | Aucun | L’ID d’organisation Experience Cloud, qui identifie l’organisation pour le service Experience Cloud ID. |
+| `mcorgid` | Aucun | L’identifiant de l’organisation IMS, qui identifie l’organisation auprès du service d’identification des visiteurs. |
 | `mid` | Aucun | Utilisé dans la dimension [[!UICONTROL Identifiant visiteur Experience Cloud]](/help/components/dimensions/experience-cloud-visitor-id.md). |
 | `ms_a` | Aucun | Défini par Media SDK sur `1` lorsque le média en flux continu suivi est de type audio plutôt que vidéo. |
 | `ndh` | Aucun | Ajouté par AppMeasurement à chaque demande d’image générée. Comme les requêtes codées en dur l’omettent généralement, sa présence indique que l’accès provient d’AppMeasurement. |

@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 325
+source-wordcount: 326
 ht-degree: 84%
 
 ---
@@ -37,7 +37,7 @@ Le transfert côté serveur fonctionne avec [Analytics](https://www.adobe.com/fr
 
 ## Conditions requises du service
 
-Le transfert côté serveur nécessite le [service d’identité](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr). Identity Service fournit un identifiant universel qui identifie les visiteurs du site dans toutes les solutions d’entreprise CX. Vous devez implémenter le service d’identification pour que le transfert côté serveur fonctionne.
+Le transfert côté serveur nécessite le [service d’identité](https://experienceleague.adobe.com/fr/docs/id-service/using/home). Identity Service fournit un identifiant universel qui identifie les visiteurs du site dans toutes les solutions d’entreprise CX. Vous devez implémenter le service d’identification pour que le transfert côté serveur fonctionne.
 
 ## Versions du code
 

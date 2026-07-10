@@ -23,10 +23,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
-ht-degree: 96%
+source-wordcount: 2313
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Utilisez ce tableau pour déterminer les types d’ID que vous utiliserez lors d
    <td colname="col1"> <p>ID de cookie </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=fr">Cookie Analytics (hérité)</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr"> Cookie du service d’identités </a> (ECID), précédemment connu sous le nom de Marketing Cloud ID (MCID) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/fr/docs/id-service/using/home"> Cookie du service d’identités </a> (ECID), précédemment connu sous le nom de Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Ces cookies identifient un appareil ou, plus spécifiquement, un navigateur pour un utilisateur d’un appareil. Pour un appareil partagé utilisant une connexion commune, cet ID peut être attribué à tous les utilisateurs de l’appareil. Adobe a créé du code <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">JavaScript unifié</a> que vous pouvez insérer dans votre site web pour collecter ces cookies si vous souhaitez autoriser leur utilisation pour les demandes relatives à la Confidentialité des données. </p> <p>Les utilisateurs du SDK Adobe Analytics Mobile disposent également d’un Experience Cloud ID (ECID). Des appels d’API destinés à lire cet ID sont présents dans le SDK. Ainsi, vous pouvez optimiser votre application pour le collecter en vue d’une demande relative à la Confidentialité des données. </p> <p>De nombreuses entreprises considèrent les ID de cookie du navigateur comme des ID d’appareils partagés. Par conséquent, en consultation avec leurs équipes juridiques, elles peuvent choisir de ne pas les utiliser comme ID acceptables pour les demandes d’accès à des informations personnelles. Elles peuvent également choisir de ne renvoyer qu’une quantité très limitée de données lorsque ces ID sont utilisés ou de ne les accepter que pour les demandes de suppression. </p> <p>Ces cookies ont une étiquette ID-DEVICE qui ne peut pas être modifiée (ainsi que des étiquettes I2 et DEL-DEVICE). La configuration par défaut d’Adobe Analytics renvoie uniquement des informations génériques sur l’appareil, telles que le type d’appareil, le système d’exploitation, le navigateur, etc., ainsi que l’heure et la date de la visite de votre site web lors de l’utilisation de ces identifiants. Toutefois, si vous choisissez de prendre en charge ces ID pour les demandes relatives à la Confidentialité des données, comme indiqué ci-dessous, vous pouvez ajouter ou supprimer des étiquettes ACC-ALL pour configurer l’ensemble exact des champs que vous souhaitez inclure pour une demande d’accès relative à la Confidentialité des données. </p> <p>Si la suite de rapports correspond à une application mobile qui nécessite une connexion, vous pouvez décider que l’ID Experience Cloud de l’appareil ne correspond pas à un utilisateur ou une utilisatrice spécifique. Dans ce cas, vous pouvez étiqueter davantage de champs avec le libellé ACC-ALL, y compris les noms des pages visitées, les produits consultés, etc. </p> </td> 
   </tr> 

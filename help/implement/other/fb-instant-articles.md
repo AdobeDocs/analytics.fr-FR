@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 470
+source-wordcount: 468
 ht-degree: 94%
 
 ---
@@ -107,4 +107,4 @@ L’exemple suivant illustre plusieurs variables personnalisées incluses dans u
 
 ## Instant Articles et confidentialité de Facebook
 
-Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe peut prendre en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Si un utilisateur choisit de ne pas effectuer de suivi sur votre site principal, il choisit également de ne pas effectuer de suivi sur tous vos Instant Articles de Facebook. La page utilitaire prend également en charge le service Adobe Experience Cloud Identity afin que vous puissiez intégrer les données d’article instantané Facebook au reste de l’expérience client d’entreprise.
+Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe peut prendre en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Si un utilisateur choisit de ne pas effectuer de suivi sur votre site principal, il choisit également de ne pas effectuer de suivi sur tous vos Instant Articles de Facebook. La page utilitaire prend également en charge le service d’identification des visiteurs afin que vous puissiez intégrer les données d’article instantané Facebook au reste de l’expérience client d’entreprise.

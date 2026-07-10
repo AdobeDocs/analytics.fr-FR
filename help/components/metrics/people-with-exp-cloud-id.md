@@ -13,20 +13,20 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 85%
+source-wordcount: 151
+ht-degree: 58%
 
 ---
 
 # Personnes avec un Experience Cloud ID
 
-« Personnes avec identifiant Experience Cloud » est une mesure [Analyses entre appareils](../cda/overview.md) qui indique le nombre de [personnes](people.md) qui ont été identifiées par Adobe à l’aide du [service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr).
+« Personnes avec un Experience Cloud ID » est une mesure [Analyses entre appareils](../cda/overview.md) qui indique le nombre de [personnes](people.md) qui ont été identifiées par Adobe à l’aide du [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [du service d’identification Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home).
 
 ## Méthode de calcul de cette mesure
 
-Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=fr)).
+Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Vous pouvez créer la mesure calculée `[People with ECID] ÷ [People]` pour obtenir le pourcentage de visiteurs sur votre site à l’aide du service d’identification.
 

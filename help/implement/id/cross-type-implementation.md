@@ -22,10 +22,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 61%
+source-wordcount: 612
+ht-degree: 47%
 
 ---
 
@@ -39,12 +39,16 @@ Si vous utilisez plusieurs types d’implémentation (des demandes d’image cod
 
 >[!NOTE]
 >
->Tous les types d’implémentation doivent utiliser le même type d’identification des visiteurs (Analytics ID hérité ou Visitor ID Service). Adobe recommande d’utiliser le service d’identification des visiteurs dans toutes les implémentations lorsque cela est possible.
+>Tous les types d’implémentation doivent utiliser le même type d’identification des visiteurs (Analytics ID hérité, Visitor ID Service ou Experience Platform Identity Service). Adobe recommande d’utiliser un ECID dans toutes les implémentations lorsque cela est possible.
 
 | Variable | Extension de balises du SDK Web | Web SDK (Alloy) | Extension Analytics | AppMeasurement | Demande d’image codée en dur |
 |---|---|---|---|---|---|
 | Identifiant de suite de rapports | Ajouter Adobe Analytics en tant que service lors de la [Configuration d’un flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) | Ajouter Adobe Analytics en tant que service lors de la [Configuration d’un flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure) | [!UICONTROL Suites de rapports] sous la section [!UICONTROL Gestion des bibliothèques] lors de la [Configuration de l’extension](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) | Argument de chaîne en [`s_gi`](../vars/functions/s-gi.md) | Partie de l’URL `pathname` (après `/b/ss/`) |
-| Service Experience Cloud ID | [&#x200B; Inclus nativement &#x200B;](web-sdk-extension.md) | [&#x200B; Inclus nativement &#x200B;](alloy.md) | Utilisez l’extension du service Experience Cloud ID [&#128279;](analytics-extension.md) | Mise en œuvre [`VisitorAPI.js`](appmeasurement.md) | Effectuez un [appel distinct au service d’ID](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/direct-integration) pour obtenir l’identifiant souhaité et inclure l’`mid` dans la chaîne de requête |
+| Service d’identification des visiteurs | Inclut de manière native le [service Experience Platform Identity](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) ; nécessite que [`idMigrationEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) lisiez les cookies du service d’identification des visiteurs | Inclut de manière native le [service d’identités &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home) ; nécessite [[!UICONTROL Migration de l’ECID de l’API visiteur vers le SDK web]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/configure/identity) pour lire les cookies du service d’identification visiteur | Utilisez l’extension de balise [’[!UICONTROL Service Experience Cloud ID]’](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service [Visitor ID](https://experienceleague.adobe.com/fr/docs/id-service/using/home) | Mettre en œuvre le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) (`VisitorAPI.js`) | Effectuez un [appel distinct au service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/direct-integration) pour obtenir l’identifiant souhaité et inclure l’`mid` dans la chaîne de requête |
 | domaine Edge | Le champ [!UICONTROL Domaine &#x200B;] lors de la [Configuration de l’extension](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) | La propriété `edgeDomain` lors de la [Configuration du SDK Web](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview) | [!UICONTROL Serveur de suivi SSL] dans la section [!UICONTROL Général] lors de la [Configuration de l’extension](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/analytics/overview) | La variable [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | Le `hostname` de l’URL de demande d’image |
 
-Si l’une de ces variables n’est pas cohérente pour chaque type d’implémentation, Adobe les considère probablement comme des visiteurs et visiteuses distincts. Si le suivi des visiteurs et visiteuses n’est pas effectué de manière transparente sur les types d’implémentation de votre site, la raison la plus courante est que l’ID Service est mal configuré. Assurez-vous que chaque type d’implémentation obtient correctement le même Experience Cloud ID (`mid`) sur l’ensemble de votre site.
+>[!NOTE]
+>
+>Les implémentations basées sur AppMeasurement (y compris l’extension de balise Analytics) ne sont pas compatibles avec le [service d’identités Experience Platform](https://experienceleague.adobe.com/fr/docs/id-service/using/home). Vous devez utiliser le plus petit dénominateur commun d’identification des visiteurs pour la synchronisation entre les types d’implémentation, qui est généralement le [service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) (`VisitorAPI.js`).
+
+Si l’une de ces variables n’est pas cohérente pour chaque type d’implémentation, Adobe les considère probablement comme des visiteurs et visiteuses distincts. Si le suivi des visiteurs n’est pas transparent sur plusieurs types d’implémentation de votre site, la raison la plus courante est que l’identification des visiteurs est configurée de manière incorrecte. Assurez-vous que chaque type d’implémentation obtient correctement le même ECID (`mid` [chaîne de requête](/help/implement/validate/query-parameters.md)) sur l’ensemble de votre site.

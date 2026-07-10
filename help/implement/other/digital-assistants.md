@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1284
-ht-degree: 95%
+ht-degree: 90%
 
 ---
 
@@ -87,11 +87,11 @@ Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
-## Identification de l’utilisateur/du visiteur
+## Identification des visiteurs et visiteuses
 
-Adobe Analytics utilise [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=fr) pour lier les interactions au fil du temps à la même personne. La plupart des assistants numériques renvoient un `userID` que vous pouvez utiliser pour conserver l’activité pour différents utilisateurs. Dans la plupart des cas, cette valeur correspond à ce que vous pouvez transmettre en tant qu’identifiant unique. Certaines plateformes renvoient un identifiant qui dépasse les 100 caractères autorisés. Dans ce cas, Adobe recommande de hacher l’identifiant unique sur une valeur de longueur fixe à l’aide d’un algorithme de hachage standard, tel que MD5 ou Sha1.
+Adobe Analytics utilise le [service d’identification des visiteurs d’Adobe](https://experienceleague.adobe.com/fr/docs/id-service/using/home) pour lier les interactions à travers le temps à la même personne. La plupart des assistants numériques renvoient un `userID` que vous pouvez utiliser pour conserver l’activité pour différents utilisateurs. Dans la plupart des cas, cette valeur correspond à ce que vous pouvez transmettre en tant qu’identifiant unique. Certaines plateformes renvoient un identifiant qui dépasse les 100 caractères autorisés. Dans ces cas, Adobe vous recommande de hacher l’identifiant unique à une valeur de longueur fixe à l’aide d’un algorithme de hachage standard, tel que MD5 ou SHA1.
 
-L’utilisation du service d’ID offre le meilleur rapport qualité-prix lorsque vous mappez des ECID sur différents appareils (par exemple, web vers l’assistant numérique). Si votre application est une application mobile, utilisez les SDK de la plateforme d’expérience en l’état et envoyez l’identifiant utilisateur à l’aide de la méthode `setCustomerID`. Cependant, si votre application est un service, utilisez l’identifiant utilisateur fourni par le service comme l’ECID, et définissez-le dans `setCustomerID`.
+L’utilisation du service d’identification des visiteurs offre une valeur maximale lorsque vous mappez des ECID sur différents appareils (par exemple, l’assistant web vers numérique). Si votre application est une application mobile, utilisez les SDK de la plateforme d’expérience en l’état et envoyez l’identifiant utilisateur à l’aide de la méthode `setCustomerID`. Cependant, si votre application est un service, utilisez l’identifiant utilisateur fourni par le service comme l’ECID, et définissez-le dans `setCustomerID`.
 
 ```text
 GET /b/ss/examplersid1,examplersid2/1?vid=[UserID]&pageName=[intent]  HTTP/1.1

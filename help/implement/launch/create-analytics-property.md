@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 520
-ht-degree: 91%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -42,7 +42,7 @@ Les propriétés sont des conteneurs principaux que vous utilisez pour gérer le
 1. Cliquez sur la propriété de balise que vous venez de créer pour en saisir les paramètres.
 1. Cliquez sur l’onglet **[!UICONTROL Extensions]**, puis sur **[!UICONTROL Catalogue]**.
 1. Recherchez « Experience Cloud ID Service », puis cliquez sur **[!UICONTROL Installer]**.
-1. Tous les paramètres, y compris l’identifiant de l’organisation CX Enterprise, doivent être déjà renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Tous les paramètres, y compris l’ID d’organisation IMS, doivent déjà être renseignés. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans le catalogue des extensions, recherchez Adobe Analytics et cliquez sur **[!UICONTROL Installer]**.
 
 Consultez la documentation complète sur l’[extension Adobe Analytics](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=fr) pour plus d’informations.

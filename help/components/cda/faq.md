@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1728
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe traite les accès horodatés comme s’ils avaient été reçus au moment 
 
 +++ Comment les Analyses entre appareils se comparent-elles à l’identifiant visiteur personnalisé ?
 
-L’utilisation d’un identifiant visiteur personnalisé est une méthode héritée qui permet de [connecter des utilisateurs sur plusieurs appareils](/help/implement/js/xdevice-visid/xdevice-connecting.md). Avec un identifiant visiteur personnalisé, vous utilisez la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La variable `visitorID` remplace les éventuels identifiants basés sur les cookies en présence.
+L’utilisation d’un identifiant visiteur personnalisé est une méthode héritée pour connecter les utilisateurs sur plusieurs appareils. Avec un identifiant visiteur personnalisé, vous utilisez la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) pour définir explicitement l’identifiant utilisé pour la logique du visiteur. La variable `visitorID` remplace les éventuels identifiants basés sur les cookies en présence.
 
 Les identifiants visiteur personnalisés ont plusieurs effets secondaires indésirables que les Analyses entre appareils surmontent ou minimisent. Par exemple, la méthodologie d’identifiant visiteur personnalisé ne comporte aucune fonctionnalité de [relecture](replay.md). Si un utilisateur s’authentifie au milieu d’une visite, la première partie de la visite s’associe à un autre identifiant visiteur que celui de la seconde partie de la visite. Les identifiants visiteur séparés génèrent un gonflement des visites et des visiteurs. Les analyses entre appareils indiquent à nouveau les données historiques de sorte que les accès non authentifiés appartiennent à la bonne personne.
 

@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 862
-ht-degree: 16%
+source-wordcount: 870
+ht-degree: 15%
 
 ---
 
@@ -35,7 +35,7 @@ La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasure
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) est une variante retirée de cette variable. Il a spécifié le domaine pour les données envoyées via HTTP ; avec la prévalence de HTTPS, utilisez plutôt `trackingServerSecure`. Si `s.trackingServerSecure` n’est pas renseigné, AppMeasurement revient à la valeur `s.trackingServer`.
 
-Avant le [service d’identités Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/id-service/using/home), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’ID dans toutes les implémentations lorsque cela est possible.
+Avant le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home) (`VisitorAPI.js`), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’identification des visiteurs dans toutes les implémentations lorsque cela est possible.
 
 ## Domaine Edge utilisant l’extension Web SDK
 
@@ -90,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de plusieurs facteurs :
 
 * Votre participation au programme de certificat géré par Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Si le service [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/fr/docs/id-service/using/home) est implémenté et correctement configuré
+* Si le service d’identification des visiteurs [Adobe est implémenté et correctement configuré](https://experienceleague.adobe.com/fr/docs/id-service/using/home)
 
 **Si votre entreprise participe au programme de certificat géré par Adobe**, définissez la valeur sur le domaine propriétaire sélectionné lors de la configuration du certificat. En règle générale, cette valeur est un sous-domaine détenu par votre organisation. Par exemple : `data.example.com`. Les enregistrements CNAME de votre organisation redirigent ces données vers Adobe.
 
@@ -110,15 +110,15 @@ Les implémentations plus anciennes peuvent avoir des valeurs telles que `sc.omt
 
 Adobe recommande vivement de conserver ces informations dans un [&#x200B; document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
 
-## Ramifications de la non-utilisation du service d’identification des visiteurs
+## Ramifications de la non-utilisation du service d’identification des visiteurs ou du service Experience Platform Identity
 
-Adobe recommande vivement d’utiliser le [service d’identités Adobe Experience Cloud](https://experienceleague.adobe.com/fr/docs/id-service/using/home) dans toutes les implémentations. Le service d’ID peut être implémenté de plusieurs manières différentes :
+Adobe recommande vivement d’utiliser l’ECID comme principale forme d’identité du visiteur dans toutes les implémentations. La collecte des ECID peut être implémentée de plusieurs manières différentes, en fonction du type d’implémentation :
 
-* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Pour plus d’informations, voir [Implémentation du service Experience Cloud Identity pour Analytics](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/setup-analytics).
-* Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise de service [Adobe Experience Cloud ID](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview). Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
-* Les implémentations utilisant n’importe quel format de Web SDK (`alloy.js` ou l’extension de balise Web SDK) disposent déjà du service d’ID intégré en mode natif. Aucune configuration n’est requise au-delà de la définition de la valeur `edgeDomain` .
+* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Pour plus d’informations, voir [Implémentation du service d’identification des visiteurs pour Analytics](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/setup-analytics).
+* Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service d’identification des visiteurs. Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
+* Les implémentations utilisant n’importe quel format de Web SDK (`alloy.js` ou l’extension de balise Web SDK) incluent automatiquement Experience Platform Identity Service. Aucune configuration n’est requise au-delà de la définition de la valeur `edgeDomain` .
 
-**Si votre implémentation n’utilise pas le service d’identités** tenez compte des impacts suivants sur votre implémentation :
+**Si votre implémentation n’utilise pas d’ECID** tenez compte des impacts suivants sur votre implémentation :
 
-* Si vous n’utilisez pas le service d’identités, `trackingServerSecure` détermine l’emplacement du cookie. La définition de cette variable sur un domaine tiers force AppMeasurement à utiliser un cookie de secours, car la plupart des navigateurs modernes rejettent les cookies tiers.
+* Si vous n’utilisez ni le service d’identification des visiteurs ni le service d’identification Experience Platform, `trackingServerSecure` détermine l’emplacement des cookies. La définition de cette variable sur un domaine tiers force AppMeasurement à utiliser un cookie de secours, car la plupart des navigateurs modernes rejettent les cookies tiers.
 * Le suivi des liens internes et Activity Map peuvent être moins fiables.

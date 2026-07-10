@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7391
+source-wordcount: 7390
 ht-degree: 93%
 
 ---
@@ -55,10 +55,10 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Mise à jour de la référence de la chaîne de requête | Révisions importantes des [paramètres de requête de la collecte de données](/help/implement/validate/query-parameters.md). |
 | Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [&#128279;](/help/export/data-warehouse/segment-compatibility.md). |
 | Guide GA vers AA remplacé | Le guide GA vers AA faisait référence à Universal Analytics, qui a été abandonné en 2023. Un nouveau guide l’a remplacé, [Transition de Google Analytics 4 à Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
-| **Mai 2026** | |
+| **Mai 2026** | |
 | Dimensions et mesures Streaming Media | Mises à jour importantes de la documentation sur les médias en flux continu. Les liens vers des exemples incluent [dimensions principales des services de streaming multimédia](/help/components/dimensions/sm-core.md) et [mesures principales des services de streaming multimédia](/help/components/metrics/sm-core.md). |
 | **Mars 2026** | |
-| Répartition d’un panneau | Restructuration de la documentation autour de la [zone de dépôt pour un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) afin de prendre en charge la nouvelle fonctionnalité [répartition](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Répartition d’un panneau | Restructuration de la documentation autour de la [zone de dépôt pour un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) afin de prendre en charge la nouvelle fonctionnalité de [répartition](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Identification de l’option par défaut pour l’obscurcissement des adresses IP pour les nouvelles suites de rapports | Ajout d’informations indiquant que **Supprimer l’adresse IP** est l’option par défaut [obscurcissement d’adresse IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) pour les nouvelles suites de rapports. |
 | Révision de l’ordre de traitement | Améliorations significatives de l’[ordre de traitement dans Adobe Analytics](/help/technotes/processing-order.md). |
 | Intégration d’Adobe Advertising | Ajouts de dimensions et de mesures d’intégration Adobe Advertising, y compris l’[AMO ID](/help/components/dimensions/amo-id.md). |
@@ -217,7 +217,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Calendriers et périodes de Workspace | Contenu mis à jour pour décrire les périodes relatives, les mises à jour des calculs de formule et les modifications de l’IU du calendrier. Voir [À propos des périodes relatives du panneau](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Cartes de performance mobiles | Nouvelle section de documentation pour décrire comment afficher et masquer les périodes de comparaison. Voir [Afficher les plages de dates de comparaison](/help/analyze/mobile-app/create-scorecard.md) dans Customer Journey Analytics. |
 | API 1.4 | L’[API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) a été complètement réécrite et est désormais publiée sur Adobe Developer. |
-| Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/id/cross-type-implementation.md) pour s’adapter à l’Experience Cloud ID Service. |
+| Suivi sur différents types d’implémentation | Mise à jour du cas d’utilisation [Suivi sur différents types d’implémentation](../implement/id/cross-type-implementation.md) pour s’adapter au service d’identification des visiteurs. |
 | **Janvier 2023** | |
 | Filtrer et trier des tableaux | Contenu mis à jour (y compris l’ajout de procédures et l’explication des options disponibles) dans l’article [Filtrer et trier des tableaux](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Cet article a été renommé « Pagination, filtrer et trier des tableaux ». |
 | Dossiers | Pages dédiées à la [Gestion des dossiers](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

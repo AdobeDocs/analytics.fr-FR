@@ -20,10 +20,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 18%
+source-wordcount: 383
+ht-degree: 19%
 
 ---
 
@@ -55,7 +55,7 @@ Les variables de configuration suivantes sont retirées. Ils sont documentés ic
 * **`fpCookieDomainPeriods`** : l’équivalent propriétaire de `cookieDomainPeriods`, utilisé pour définir les cookies à l’emplacement correct lorsque le suffixe d’un domaine propriétaire contient un délai supplémentaire (par exemple, `example.co.uk`). Les versions actuelles d’AppMeasurement détectent automatiquement le domaine correct, ce qui rend cette variable obsolète.
 * **`trackingServer`** : domaine utilisé pour envoyer des données à Adobe via HTTP. Elle est obsolète et remplacée par la collecte de données sécurisée via HTTPS. Utilisez [`trackingServerSecure`](trackingserversecure.md) à la place.
 * **`trackInlineStats`** : activation ou désactivation des versions précédentes d’[Activity Map](/help/analyze/activity-map/overview.md).
-* **`visitorMigrationKey`** : possédait une clé utilisée pour migrer les visiteurs de cookies tiers vers des cookies propriétaires. Il est supprimé, car les bibliothèques modernes définissent un cookie de secours propriétaire (`fid`) et s’appuient sur le service Experience Cloud ID pour l’identité.
+* **`visitorMigrationKey`** : possédait une clé utilisée pour migrer les visiteurs de cookies tiers vers des cookies propriétaires. Il est supprimé, car les bibliothèques modernes définissent un cookie de secours propriétaire (`fid`) et se fient au service d’identification des visiteurs pour l’identité.
 * **`visitorMigrationServer`** : indique le serveur utilisé lors de la migration des cookies tiers vers les cookies propriétaires.
 * **`visitorMigrationServerSecure`** : équivalent HTTPS de `visitorMigrationServer`.
-* **`visitorNameSpace`** : aide à déterminer le domaine du cookie tiers. Elle est supprimée au profit de l’utilisation de la variable [`trackingServerSecure`](trackingserversecure.md) pour les implémentations qui n’utilisent pas le service Experience Cloud ID.
+* **`visitorNameSpace`** : aide à déterminer le domaine du cookie tiers. Elle est supprimée au profit de l’utilisation de la variable [`trackingServerSecure`](trackingserversecure.md) pour les implémentations qui n’utilisent pas le service d’identification des visiteurs.

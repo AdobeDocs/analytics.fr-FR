@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 98%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 98%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Dépannage du code H](js/h-code/troubleshooting.md)
-   + Identification héritée sur plusieurs appareils {#xdevice-visid}
-      + [Présentation de la connexion des utilisateurs à l’ensemble des appareils](js/xdevice-visid/xdevice-connecting.md)
-      + [Persistance des variables](js/xdevice-visid/variable-persistence.md)
-      + [Exemple de visite](js/xdevice-visid/visit-example.md)
-      + [FAQ sur l’identification héritée de plusieurs appareils](js/xdevice-visid/xdevice-faq.md)
    + [Dépannage d’AppMeasurement](js/troubleshooting.md)
 + Mettre en œuvre Analytics sur d’autres plateformes {#other}
    + [Mettre en œuvre Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
