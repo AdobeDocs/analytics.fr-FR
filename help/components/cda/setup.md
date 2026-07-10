@@ -5,17 +5,13 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: 535
 ht-degree: 82%
 
 ---
@@ -34,12 +30,11 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 
 Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Pour démarrer ce processus, contactez l’assistance clientèle et préparez les informations suivantes :
 
-* Votre identifiant d’organisation Adobe CX Enterprise (chaîne alphanumérique se terminant par @AdobeOrg)
+* Votre identifiant de l’organisation IMS (chaîne alphanumérique se terminant par @AdobeOrg)
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
 * Quelle méthode d’analyse entre appareils souhaitez-vous utiliser (groupement basé sur les champs) ?
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
-* Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
-La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).
+* Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).
 
 Une fois que vous avez fourni ces informations à l’assistance clientèle, ce service va collaborer avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
 

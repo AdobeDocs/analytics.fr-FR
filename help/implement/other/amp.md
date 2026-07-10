@@ -5,27 +5,15 @@ feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 69%
+source-wordcount: 939
+ht-degree: 68%
 
 ---
 
@@ -49,7 +37,7 @@ Le tableau suivant compare ces deux méthodes :
 | Nombre de visiteurs/visites dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
 | Utilisation d’une suite de rapports distincte | Recommandé | Pas nécessaire |
 | Visiteurs nouveaux/récurrents | Non pris en charge | Pris en charge |
-| Service d’identification des visiteurs | Non pris en charge | Pris en charge |
+| Service d’identification des visiteurs (`VisitorAPI.js`) | Non pris en charge | Pris en charge |
 | Suivi des vidéos et des liens | Prise en charge partielle | Pas encore pris en charge |
 | Difficulté de mise en œuvre | Difficile | Relativement facile |
 | Intégrations Adobe CX Enterprise | Non pris en charge | Prise en charge partielle |
@@ -101,9 +89,9 @@ La balise `<amp-analytics>` prend en charge les substitutions de variables, de s
 
 >[!NOTE]
 >
->Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas de données pour de nombreux rapports par défaut (par exemple, le navigateur, la taille d’écran ou le référent). Si vous souhaitez inclure ces informations dans les accès, assurez-vous qu’elles sont incluses dans la chaîne de requête d’image. Consultez la section [&#x200B; Paramètres de requête de la collecte de données &#x200B;](../validate/query-parameters.md) pour obtenir une liste complète des paramètres de requête de demande d’image et des variables associées.
+>Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas de données pour de nombreux rapports par défaut (par exemple, le navigateur, la taille d’écran ou le référent). Si vous souhaitez inclure ces informations dans les accès, assurez-vous qu’elles sont incluses dans la chaîne de requête d’image. Consultez la section [ Paramètres de requête de la collecte de données ](../validate/query-parameters.md) pour obtenir une liste complète des paramètres de requête de demande d’image et des variables associées.
 
-Adobe identifie les visiteurs à l’aide d’une fonction AMP intégrée et définit le cookie `adobe_amp_id`. Cet identifiant visiteur est unique à tout autre identifiant défini par Adobe Analytics. Un visiteur unique différent est comptabilisé pour chaque réseau CDN à partir duquel un visiteur récupère du contenu, ce qui peut gonfler le nombre de visiteurs uniques. L’utilisation d’une suite de rapports distincte pour les pages AMP est vivement recommandée en raison de la manière dont AMP identifie les visiteurs uniques. Le service Adobe Experience Cloud ID n’est pas pris en charge.
+Adobe identifie les visiteurs à l’aide d’une fonction AMP intégrée et définit le cookie `adobe_amp_id`. Cet identifiant visiteur est unique à tout autre identifiant défini par Adobe Analytics. Un visiteur unique différent est comptabilisé pour chaque réseau CDN à partir duquel un visiteur récupère du contenu, ce qui peut gonfler le nombre de visiteurs uniques. L’utilisation d’une suite de rapports distincte pour les pages AMP est vivement recommandée en raison de la manière dont AMP identifie les visiteurs uniques. Le service d’identification des visiteurs Adobe n’est pas pris en charge.
 
 Cette solution nécessite que le serveur de suivi que vous spécifiez dans la propriété `host` corresponde au serveur de suivi sur votre site principal, de sorte que vos contrôles de politique de confidentialité en place soient respectés. Sinon, créez une politique de confidentialité distincte pour les pages utilisant AMP.
 
@@ -171,7 +159,7 @@ Le modèle de `"adobeanalytics_nativeConfig"` ajoute également des paramètres 
 >
 >Votre page `stats.html` doit être hébergée sur un sous-domaine distinct du domaine sur lequel l’AMP elle-même est hébergée. L’infrastructure AMP n’autorise pas les iFrames issues du même sous-domaine que celui où existe la page AMP même. Par exemple, si votre fichier AMP est hébergé sur `amp.example.com`, hébergez votre page `stats.html` sur un sous-domaine distinct, tel que `ampmetrics.example.com`.
 
-Avec cette méthode, si un utilisateur choisit de ne pas effectuer le suivi sur votre site principal, il est également désabonné du suivi sur tous vos fichiers AMP. L’utilisation de cette page utilitaire signifie également qu’AMP peut prendre en charge le service Adobe Experience Cloud ID. Une suite de rapports distincte n’est pas requise.
+Avec cette méthode, si un utilisateur choisit de ne pas effectuer le suivi sur votre site principal, il est également désabonné du suivi sur tous vos fichiers AMP. L’utilisation de cette page d’utilitaire signifie également qu’AMP peut prendre en charge le service d’identification des visiteurs Adobe. Une suite de rapports distincte n’est pas requise.
 
 Le suivi des liens et des vidéos ne peut pas être utilisé avec cette méthode. La balise `iframeMessage` AMP ne peut se charger qu’une seule fois par page. Vous ne pouvez donc pas envoyer d’autres demandes d’image après le chargement du cadre. Cette méthode nécessite également davantage de ressources de traitement à exécuter, ce qui peut avoir un impact sur les performances de défilement. Cette méthode n’affecte pas le temps de chargement des pages, car toutes les ressources se chargent de manière asynchrone.
 

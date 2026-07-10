@@ -5,23 +5,15 @@ feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 785
-ht-degree: 60%
+source-wordcount: 784
+ht-degree: 56%
 
 ---
 
@@ -42,7 +34,7 @@ Pour plus d’informations, voir [Comprendre et configurer les règles de robots
 
 ## Utiliser une combinaison d’outils Adobe
 
-En outre, comme les robots se transforment rapidement, Adobe propose plusieurs autres fonctionnalités performantes qui, lorsqu’elles sont combinées correctement et régulièrement, peuvent contribuer à venir à bout de ces ennemis de la qualité des données. Ces fonctionnalités sont les suivantes : service Experience Cloud ID, segmentation, Data Warehouse, attributs du client et suites de rapports virtuelles. Voici un aperçu de la manière dont vous pouvez utiliser ces outils.
+En outre, comme les robots se transforment rapidement, Adobe propose plusieurs autres fonctionnalités performantes qui, lorsqu’elles sont combinées correctement et régulièrement, peuvent contribuer à venir à bout de ces ennemis de la qualité des données. Ces fonctionnalités sont les suivantes : service d’identification des visiteurs, segmentation, Data Warehouse, attributs du client et suites de rapports virtuelles. Voici un aperçu de la manière dont vous pouvez utiliser ces outils.
 
 ### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
 
@@ -50,11 +42,11 @@ Pour commencer, créez un nouvel ID déclaré dans le [Service principal People]
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-Voici la manière de capturer cet ID via l’élément de données. Veillez à renseigner correctement votre ID d’organisation d’entreprise CX dans l’élément de données.
+Voici comment cet identifiant peut être capturé via l’élément de données. Veillez à renseigner correctement votre identifiant de l’organisation IMS dans l’élément de données.
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour transmettre les ID déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
+Une fois cet élément de données configuré, suivez [ces instructions](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr) pour transmettre les identifiants déclarés à l’outil ECID à l’aide des balises dans Adobe Experience Platform.
 
 ### Étape 2 : utiliser la segmentation pour identifier les robots
 
@@ -68,7 +60,7 @@ Maintenant que vous avez identifié les robots à l’aide de segments, l’éta
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-N’oubliez pas d’utiliser l’identifiant visiteur d’entreprise CX comme dimension et d’appliquer le segment « Robots ».
+N’oubliez pas d’utiliser [!UICONTROL identifiant visiteur Experience Cloud] comme dimension et d’appliquer le segment « Robots ».
 
 ### Étape 4 : renvoyer cette liste à Adobe en tant qu’attribut du client
 
@@ -101,7 +93,7 @@ Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux r
 
 >[!MORELIKETHIS]
 >
->* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=fr)
->* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=fr)
->* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=fr)
+>* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

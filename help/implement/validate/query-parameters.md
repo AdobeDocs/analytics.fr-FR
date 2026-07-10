@@ -5,29 +5,15 @@ feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
 TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c069c44e-5426-4c1a-accc-8028662f2fde
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1079
-ht-degree: 44%
+source-wordcount: 1111
+ht-degree: 46%
 
 ---
 
@@ -37,8 +23,8 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 
 | Paramètre | Variable de mise en œuvre Analytics | Description |
 | --- | --- | --- |
-| `aamlh` | Aucun | Indicateur d’emplacement Audience Manager. Identifie le centre de données régional utilisé pour la synchronisation des Audience Manager ID via le service Experience Cloud ID. |
-| `aamb` | Aucun | Audience Manager blob. Données de profil Audience Manager codées transmises lors de la synchronisation des identifiants via le service Experience Cloud ID. |
+| `aamlh` | Aucun | Indicateur d’emplacement Audience Manager. Identifie le centre de données régional utilisé pour la synchronisation des Audience Manager ID via le service d’identification des visiteurs. |
+| `aamb` | Aucun | Audience Manager blob. Données de profil Audience Manager codées transmises lors de la synchronisation des identifiants via le service d’identification des visiteurs. |
 | `aid` | Aucun | Identifiant visiteur Analytics hérité, stocké dans le cookie `s_vi`. Remplacé par le paramètre `mid` dans les implémentations modernes. |
 | `AQB` | Aucun | Indique le début d’une chaîne de requête de demande d’image. |
 | `AQE` | Aucun | Indique la fin d’une demande d’image, ce qui signifie que la demande n’a pas été tronquée. |
@@ -71,7 +57,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `lat` | Aucun | **Plus utilisé.** Latitude. Définies par les implémentations mobiles SDK héritées ; les implémentations mobiles actuelles envoient la géolocalisation par le biais de flux de données. |
 | `lon` | Aucun | **Plus utilisé.** Longitude. Définies par les implémentations mobiles SDK héritées ; les implémentations mobiles actuelles envoient la géolocalisation par le biais de flux de données. |
 | `lrt` | Aucun | Le « délai de la dernière requête », qui correspond au délai d’aller-retour de la dernière requête, en millisecondes. Elle est envoyée uniquement lorsque plusieurs requêtes sont envoyées à partir d’une seule page, par exemple dans une application d’une seule page (SPA). |
-| `mcorgid` | Aucun | L’ID d’organisation Experience Cloud, qui identifie l’organisation pour le service Experience Cloud ID. |
+| `mcorgid` | Aucun | L’identifiant de l’organisation IMS, qui identifie l’organisation auprès du service d’identification des visiteurs. |
 | `mid` | Aucun | Utilisé dans la dimension [[!UICONTROL Identifiant visiteur Experience Cloud]](/help/components/dimensions/experience-cloud-visitor-id.md). |
 | `ms_a` | Aucun | Défini par Media SDK sur `1` lorsque le média en flux continu suivi est de type audio plutôt que vidéo. |
 | `ndh` | Aucun | Ajouté par AppMeasurement à chaque demande d’image générée. Comme les requêtes codées en dur l’omettent généralement, sa présence indique que l’accès provient d’AppMeasurement. |
@@ -86,7 +72,7 @@ Le tableau suivant répertorie tous les paramètres de chaîne de requête utili
 | `pccr` | Aucun | Indicateur de redirection de vérification de cookie persistant. Défini par les serveurs de collecte de données Adobe pour les nouveaux visiteurs et toujours défini sur `true`. Lorsque la prise en charge des cookies d’un nouveau visiteur est inconnue, le serveur de collecte de données redirige la demande d’image vers lui-même avec cet indicateur afin de confirmer que la vérification des cookies persistants a déjà eu lieu. Ce paramètre empêche les redirections infinies si le visiteur rejette les cookies. |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | Détermine le type d’accès. Les valeurs valides sont les suivantes : `lnk_o` ([[!UICONTROL Lien personnalisé]](/help/components/dimensions/custom-link.md)), `lnk_d` ([[!UICONTROL Lien de téléchargement]](/help/components/dimensions/download-link.md)), `lnk_e` ([[!UICONTROL Lien de sortie]](/help/components/dimensions/exit-link.md)) et `tnt` (accès à Analytics for Target). |
 | `pev1` | [`linkURL`](../vars/config-vars/linkurl.md) | URL sur laquelle le lien personnalisé a été créé. |
-| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nom convivial du [&#x200B; lien personnalisé &#x200B;](/help/components/dimensions/custom-link.md). |
+| `pev2` | [`tl()`](../vars/functions/tl-method.md) | Nom convivial du [ lien personnalisé ](/help/components/dimensions/custom-link.md). |
 | `pev3` | Aucun | **Plus utilisé.** Jalons suivis dans les versions précédentes des rapports vidéo. |
 | `pf` | Aucun | Indicateur de plateforme ; pour utilisation par Adobe uniquement. Ne pas modifier. |
 | `pid` | Aucun | **Plus utilisé.** Identifiant de page pour la dernière page. Utilisé dans les versions précédentes d’Activity Map. |
