@@ -5,11 +5,19 @@ feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 510
@@ -23,7 +31,7 @@ Adobe utilise plusieurs méthodes différentes pour [identifier les visiteurs](.
 
 >[!IMPORTANT]
 >
->Adobe conseille d’utiliser cette variable. Utilisez plutôt le service d’identification des visiteurs Adobe [](https://experienceleague.adobe.com/fr/docs/id-service/using/home).
+>Adobe conseille d’utiliser cette variable. Utilisez plutôt le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home).
 
 ## Utilisation de `visitorID` par Analytics
 
@@ -49,7 +57,7 @@ L’[!UICONTROL identifiant visiteur] est un champ sous l’accordéon [!UICONTR
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Sélectionnez la propriété de balise de votre choix.
-3. Accédez à l’onglet [!UICONTROL  Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+3. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Cookies], ce qui permet d’afficher le champ [!UICONTROL Identifiant visiteur].
 
 Affectez ce champ à l’élément de données contenant votre identifiant visiteur personnalisé. **Ne définissez pas ce champ sur une valeur statique unique pour tous les visiteurs.** Utilisez un élément de données qui est résolu par visiteur et qui reste constant pour tous les accès.

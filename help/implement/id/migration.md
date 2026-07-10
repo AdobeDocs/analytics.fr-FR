@@ -3,11 +3,19 @@ title: Considérations relatives à la migration du service d’identification d
 description: Présentation de l’interface d’Adobe Analytics avec le service d’identification des visiteurs.
 exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
 TQID: https://experienceleague.adobe.com/NnZ-Vv2M5cWkfekbVX1B-dFesdtxy50fMdTlwPYviYQ
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 678
@@ -35,13 +43,13 @@ AppMeasurement ayant sa propre méthode héritée pour identifier les visiteurs,
 
 Si plusieurs implémentations envoient des données à la même suite de rapports et que vous ne pouvez mettre en œuvre le service d’identification des visiteurs que sur certaines implémentations, Adobe recommande de configurer un délai de grâce. Par exemple, si la section d’assistance de votre site est gérée par une solution de balisage distincte, il se peut que le service d’identification des visiteurs soit déployé sur le reste de votre site avant la section d’assistance. Sans période de grâce, les nouveaux visiteurs qui consultent la section d’assistance reçoivent un identifiant visiteur Analytics hérité, ce qui entraîne le comptage de deux visiteurs distincts. Avec une période de grâce, le service d’identification des visiteurs émet à la fois un ECID (`mid`) et un identifiant visiteur Analytics hérité (`aid`) afin que les zones de votre site sans le service d’identification des visiteurs restent cohérentes en identifiant les visiteurs.
 
-Si vous coordonnez le déploiement du service d’identification des visiteurs dans toutes les zones de votre site, vous n’avez pas besoin de période de grâce. Pour configurer une période de grâce, contactez l’[Assistance clientèle ](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html). Les périodes de grâce peuvent être configurées pour une durée maximale de 180 jours et peuvent être renouvelées. Adobe recommande d’interrompre la période de grâce une fois que l’ensemble de votre propriété est configurée pour utiliser le service d’identification des visiteurs.
+Si vous coordonnez le déploiement du service d’identification des visiteurs dans toutes les zones de votre site, vous n’avez pas besoin de période de grâce. Pour configurer une période de grâce, contactez l’[Assistance clientèle &#x200B;](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html). Les périodes de grâce peuvent être configurées pour une durée maximale de 180 jours et peuvent être renouvelées. Adobe recommande d’interrompre la période de grâce une fois que l’ensemble de votre propriété est configurée pour utiliser le service d’identification des visiteurs.
 
 ## Suivi inter-domaines
 
 Certaines implémentations d’identifiant visiteur Analytics héritées peuvent utiliser des « cookies tiers conviviaux », où deux domaines partagent le même cookie visiteur sur un domaine commun tel que `data.example.com`. Comme les cookies tiers conviviaux sont toujours des cookies tiers, de nombreux navigateurs modernes les rejettent, ce qui fait qu’Analytics s’appuie sur un identifiant de secours (`fid`) pour l’identification des visiteurs. Le passage au service d’identification des visiteurs permet à tous les domaines de définir le cookie `AMCV` dans un contexte propriétaire, ce qui augmente leur viabilité pour conserver un identifiant visiteur.
 
-Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), il est souvent rejeté par les navigateurs modernes. [`demdex`Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre l’ECID (`mid`) d’un visiteur entre les domaines que vous possédez.
+Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie [&#128279;](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), il est souvent rejeté par les navigateurs modernes. `demdex`Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre l’ECID (`mid`) d’un visiteur entre les domaines que vous possédez.
 
 ## Tracking côté serveur
 
