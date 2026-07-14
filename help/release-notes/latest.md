@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +42,7 @@ Ces notes de mise à jour couvrent la période de publication de juillet 2026. L
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
 | **Analyse des sous-accès** <br/>L’analyse des sous-accès vous permet d’analyser les données de produit à un niveau plus granulaire que le niveau d’accès. Au lieu de filtrer les accès entiers, vous pouvez segmenter les produits individuels dans les accès. <p>Par exemple, vous pouvez segmenter une catégorie de produits spécifique sans inclure tous les autres produits achetés dans la même commande.</p><p>Pour plus d’informations, voir [&#x200B; Analyse des sous-accès &#x200B;](/help/components/segmentation/sub-hit.md).</p> | 8 juillet | Fin juillet 2026 |
-| **Extension Activity Map : prise en charge de Web SDK et actualisation de l’interface utilisateur** <br/>Les implémentations de Web SDK d’Adobe Analytics peuvent désormais utiliser l’extension de recouvrement Activity Map pour afficher les données de clics superposées sur leurs sites Web.<p>Auparavant, l’extension de recouvrement Activity Map n’était disponible que pour les implémentations d’AppMeasurement.</p> <p>Outre la prise en charge de Web SDK, l’extension de recouvrement Activity Map comprend également une mise à jour de l’aspect.</p><p>(Lien vers la documentation à suivre.)</p> | | Fin juillet 2026 |
+| **Extension Activity Map : actualisation de l’interface utilisateur** <br/>l’extension de recouvrement Activity Map a une apparence mise à jour, ainsi que des améliorations sous-jacentes qui prennent en charge les améliorations à venir.<p>(Lien vers la documentation à suivre.)</p> | | Fin juillet 2026 |
 | **Guide des fonctionnalités de recherche de l’API AA 2.0** <br/>Utilisez les fonctionnalités de recherche pour [renvoyer un sous-ensemble d’éléments de dimension dans les rapports](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Pour plus d’informations, voir [Fonctionnalités de recherche](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) dans le guide de point d’entrée des rapports sur Adobe Developer. | | 1er juillet 2026 |
 | **Automatisation des rapports récurrents à l’aide des API AA** <br/>configurez des rapports Adobe Analytics récurrents automatiques pour votre pipeline de données avec de nouvelles mesures selon un calendrier précis avec l’API de rapport. <p>Pour plus d’informations, consultez le [Guide d’automatisation des points d’entrée des rapports récurrents d’Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) sur Adobe Developer.</p> | | 1er juillet 2026 |
 | **Nouveaux paramètres de développement pour AA** <br/>Utilisez les nouveaux paramètres de développement de l’API Dimension pour récupérer les champs de configuration eVar pour les types d’attribution, les expirations, les types de données et le marchandisage. <p>Pour plus d’informations, consultez les guides [Référence de l’API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) et [Point d’entrée des dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) sur Adobe Developer.</p> | | 1er juillet 2026 |
