@@ -3,10 +3,10 @@ description: Découvrez comment utiliser la zone de travail de parcours dans Ana
 title: Vue d’ensemble de la zone de travail de parcours
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -49,6 +49,10 @@ Vous pouvez [créer des analyses de parcours d’utilisation](/help/analyze/anal
 [&#x200B; Les nœuds sont connectés &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) en tant que « chemin éventuel », ce qui signifie que les visiteurs sont comptabilisés tant qu’ils passent finalement d’un nœud à l’autre, quels que soient les événements qui se produisent entre les deux nœuds. Le temps imparti aux utilisateurs et utilisatrices pour se déplacer sur le chemin est déterminé par le paramètre du conteneur.
 
 ![Zone de travail de parcours](assets/journey-canvas.png)
+
+## Exigences d’accès
+
+La zone de travail de parcours est disponible pour les clients Adobe Analytics [Prime](https://www.adobe.com/fr/data-analytics-cloud/analytics/prime.html) et [Ultimate](https://www.adobe.com/fr/data-analytics-cloud/analytics/ultimate.html).
 
 ## Principales fonctionnalités
 
