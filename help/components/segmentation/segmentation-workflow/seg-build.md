@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 2004
-ht-degree: 88%
+source-wordcount: 1963
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilité des produits"
->abstract="Un petit nombre de critères de segment disponibles ne sont pas compatibles avec tous les outils Adobe Analytics. Les outils compatibles avec le segment sont indiqués dans cette liste. Pour rendre un segment compatible avec tous les outils Adobe Analytics, modifiez vos critères."
+>abstract="Certains critères de segment sont incompatibles avec certains outils Adobe Analytics. Les outils compatibles sont indiqués dans cette liste. Modifiez vos critères pour garantir la compatibilité."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +38,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Prévisualisation des données"
->abstract="Compare les données de ce segment aux données de la suite de rapports. Le pourcentage de prévisualisation est basé sur le nombre total des **90 derniers jours**.<br><br/>Si la prévisualisation ne se charge pas, il se peut que votre connexion soit encore en train de remplir les données."
+>abstract="Compare les données de segment aux données de suite de rapports. Le pourcentage de prévisualisation est basé sur les **90 derniers jours**.<br><br/>Si l’aperçu ne se charge pas, votre connexion est en cours de remplissage."
 
 
 La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer ou de modifier des segments existants. La boîte de dialogue s’intitule **[!UICONTROL Nouveau segment]** ou **[!UICONTROL Modifier le segment]** pour les segments que vous créez ou gérez à partir du [[!UICONTROL gestionnaire de segments]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -69,7 +69,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    {style="table-layout:auto"}
 
 1. Pour vérifier si votre définition du segment est correcte, utilisez la prévisualisation constamment mise à jour des résultats du segment en haut à droite.
-1. Pour publier le segment sur l’expérience client Entreprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Consultez [&#x200B; Publication de segments sur l’expérience client Enterprise &#x200B;](/help/components/segmentation/segmentation-workflow/seg-publish.md) pour plus d’informations.
+1. Pour publier le segment sur l’expérience client Entreprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Pour plus d’informations, voir [Publication de segments sur CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Sélectionnez :
    * **[!UICONTROL Enregistrer]** pour enregistrer le segment.
    * **[!UICONTROL Enregistrer sous]** pour enregistrer une copie du segment.
@@ -83,7 +83,7 @@ Le créateur de définitions permet de créer votre définition de segment. Dans
 
 Vous pouvez configurer le type et l’étendue de votre définition :
 
-1. Pour spécifier le type de votre définition, indiquez si vous souhaitez que la définition soit inclusive ou exclusive. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** et dans la liste déroulante, **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
+1. Pour spécifier le type de votre définition, indiquez si vous souhaitez créer une définition d’inclusion ou d’exclusion. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** et dans la liste déroulante, **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
 1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]**, **[!UICONTROL Visiteurs]** ou **[!UICONTROL Produits]**. Vous utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).
 
 Vous pourrez toujours modifier ces paramètres ultérieurement.
@@ -122,7 +122,7 @@ Vous pouvez regrouper plusieurs composants dans un ou plusieurs conteneurs et d�
 * Pour ajouter un composant existant au conteneur, faites-le glisser dans le conteneur.
 * Pour ajouter un autre composant au conteneur, faites glisser un composant du panneau des composants et déposez-le dans le conteneur. Utilisez la ligne d’insertion bleue comme guide.
 * Pour ajouter un autre composant à l’extérieur du conteneur, faites glisser un composant depuis le panneau des composants à l’extérieur du conteneur, mais à l’intérieur du conteneur de définition principal. Utilisez la ligne d’insertion bleue comme guide.
-* Pour modifier la logique entre les composants d’un conteneur, entre les conteneurs ou entre un conteneur et un composant, sélectionnez les opérateurs **[!UICONTROL Et]**, **[!UICONTROL Ou]** et **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
+* Pour modifier la logique des composants, des conteneurs ou de leurs combinaisons, sélectionnez les **[!UICONTROL Et]**, **[!UICONTROL Ou]**, **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
 * Pour changer le niveau du conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]**, ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]**, ![Utilisateur](/help/assets/icons/User.svg)**[!UICONTROL Visitors]** ou ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)Products **&#x200B;**.
 
 Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conteneur pour les actions suivantes :
@@ -141,7 +141,7 @@ Lorsque vous faites glisser des composants au niveau du produit et au niveau de 
 
 ## Périodes
 
-Vous pouvez créer des segments qui contiennent des périodes variables. Vous pouvez ainsi répondre aux questions sur les campagnes ou les événements en cours. Vous pouvez par exemple créer un segment qui comprend *toutes les personnes qui ont effectué un achat en ligne au cours des 60 derniers jours*.
+Vous pouvez créer des segments qui contiennent des périodes variables. Vous pouvez ainsi répondre aux questions sur les campagnes ou les événements en cours. Par exemple, vous pouvez créer un segment qui comprend *toutes les personnes qui ont effectué un achat en ligne au cours des 60 derniers jours*.
 
 ![Segment avec une période variable](assets/segment-rolling-date-range.png)
 
@@ -157,11 +157,11 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flott
 
 Vous pouvez créer un segment à l’aide de segments. Lorsque vous utilisez des segments dans un segment, vous pouvez l’optimiser et en réduire la complexité.
 
-Imaginez que vous souhaitiez segmenter selon la combinaison du canal d’interaction (5) et des États américains (50). Vous pouvez créer 250 segments, un pour chaque combinaison unique de type d’appareil (téléphone mobile ou tablette) et d’État des États-Unis. Pour obtenir les utilisateurs et utilisatrices de tablettes de la Californie, vous devez utiliser l’un des 250 segments suivants :
+Supposons que vous souhaitiez segmenter sur la combinaison du canal d’interaction (5) et des états américains (50). Vous pouvez créer 250 segments, un pour chaque combinaison unique de type d’appareil (téléphone mobile ou tablette) et d’État des États-Unis. Pour obtenir les utilisateurs de la tablette en Californie, utilisez l’un des 250 segments :
 
 ![Segment simple pour Californie et tablette](assets/segment-ca-tablet-single.png)
 
-Vous pouvez également définir 55 segments : 50 segments pour les États américains et 5 segments pour les canaux d’interaction possibles. Empilez ensuite les segments pour obtenir les mêmes résultats. Pour obtenir les utilisateurs et utilisatrices de tablettes de Californie, vous devez empiler deux segments :
+Vous pouvez également définir 55 segments : 50 segments pour les états américains et 5 segments pour les canaux d’interaction possibles. Pour obtenir les mêmes résultats, empilez les segments. Pour obtenir les utilisateurs de l’application mobile en Californie, empilez deux segments :
 
 ![Segment empilé pour Californie et tablette](assets/segment-ca-tablet-stacked.png)
 
@@ -188,7 +188,7 @@ Vous pouvez également définir 55 segments : 50 segments pour les États am�
 
 
 
-Lorsque vous utilisez une dimension dans le créateur de segments, vous disposez des options permettant de spécifier le modèle d’attribution de cette dimension. Le modèle d’attribution que vous sélectionnez détermine si les données sont admissibles pour la condition que vous avez spécifiée pour le composant de dimension.
+Lorsque vous utilisez une dimension dans le créateur de segments, vous avez la possibilité de spécifier le modèle d’attribution pour cette dimension. Le modèle d’attribution que vous sélectionnez détermine si les données sont admissibles pour la condition que vous avez spécifiée pour le composant de dimension.
 
 Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de dimension, puis sélectionnez l’un des modèles d’attribution dans la fenêtre contextuelle :
 
@@ -196,7 +196,7 @@ Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de
 |---|---|
 | **[!UICONTROL Modèle répétitif (par défaut)]** | Incluez l’instance et les valeurs persistantes pour la dimension afin de déterminer la qualification. |
 | **[!UICONTROL Instance]** | Incluez uniquement des valeurs d’instance pour la dimension afin de déterminer la qualification. |
-| **[!UICONTROL Instance non répétitive]** | Incluez des valeurs d’instance uniques (non répétitives) pour la dimension afin de déterminer la qualification. |
+| **[!UICONTROL Instance non répétitive]** | Incluez des valeurs d’instance uniques (non répétitives) pour la dimension afin de déterminer la qualification. L’instance non répétitive est le modèle appliqué dans le flux lorsque les instances répétées sont exclues. |
 
 
 ![Modèle d’attribution sur la dimension lors de la création d’un segment](assets/segment-dimension-attribution.png)
@@ -213,16 +213,11 @@ Dans le cadre d’une définition de segment, vous avez spécifié la condition 
 Le tableau ci-dessous explique, pour chaque modèle d’attribution, les événements entrants qualifiés ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) pour cette condition.
 
 
-| Page Femmes - Attribution - <br/>*Modèle d’attribution* | Événement 1 : <br/>Nom de page égal<br/>Femmes | Événement 2 : <br/>Nom de page égal<br/> Hommes | Événement 3 : <br/>Nom de page égal<br/>Femmes | Événement 4 : <br/>Nom de page égal<br/>Femmes<br/>(persistant) | Événement 5 : <br/>Nom depage égal<br/>Passage en caisse | Événement 6 : <br/>Nom de page égal<br/>Femmes | Événement 7 : <br/>Nom de page égal<br/>Accueil |
+| Page Femmes - Attribution - <br/>*Modèle d’attribution* | Événement 1 : <br/>Nom de page égal<br/>Femmes | Événement 2 : <br/>Nom de page égal<br/> Hommes | Événement 3 : <br/>Nom de page égal<br/>Femmes | Événement 4 : <br/>Nom de page égal<br/>Femmes<br/>(persistant) | Événement 5 : <br/>Nom depage égal<br/>Passage en caisse | Événement 6 : <br/>Nom de page égal<br/>Femmes | Event 7:<br/>Nom de page égal <br/> Femme (explicitement défini) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Répétition (par défaut) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) |
-| Instance | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) |
+| Répétition (par défaut) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Instance | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Instance non répétitive | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![Supprimer](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Supprimer](/help/assets/icons/Remove.svg) |
-
-Un exemple de rapport sur les événements utilisant les trois segments ressemble à ceci :
-
-![Segmenter les résultats du modèle d’attribution](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -380,7 +375,7 @@ By using segment stacking, you can reduce your segment count to 22 and stack the
 
 ## Modèles de segment {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-Les modèles de segment sont fournis pour les cas d’utilisation courants de segmentation, tels que **[!UICONTROL Premières visites]** ou **[!UICONTROL Visites depuis des appareils mobiles]**. Ils sont disponibles dans les projets Workspace et dans le Créateur de segments en tant que blocs de création pour les nouveaux segments.
+Les modèles de segment sont fournis pour les cas d’utilisation courants de segmentation, tels que **[!UICONTROL Premières visites]** ou **[!UICONTROL Visites depuis des appareils mobiles]**. Ils sont disponibles dans les projets Workspace et le créateur de segments en tant que blocs de création de nouveaux segments.
 
 Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie les modèles. Vous trouverez ci-dessous un exemple des modèles disponibles :
 
