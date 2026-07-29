@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
-source-wordcount: 1841
+source-wordcount: 1843
 ht-degree: 91%
 
 ---
@@ -133,7 +133,7 @@ Utilisez les paramètres d’entrée décrits dans cette section pour configurer
 
    | Options | Description |
    |---------|------------|
-   | **[!UICONTROL Granularité]** | La granularité par défaut est de [!UICONTROL **5 minutes**]. Vous pouvez cependant choisir l’une des granularités utilisées en tant que dénominateur pour la série temporelle comprise dans la période que vous avez sélectionnée. Par exemple, la sélection de 12 :00 à 12 :30 avec une granularité de 5 minutes renvoie l’audience moyenne par minute sur la demi-heure complète ainsi que six lignes avec l’audience moyenne par minute pour chaque période de 5 minutes. Ces lignes servent de points de données pour le graphique de série temporelle. |
+   | **[!UICONTROL Granularité]** | La granularité par défaut est de [!UICONTROL **5 minutes**]. Vous pouvez cependant choisir l’une des granularités utilisées en tant que dénominateur pour la série temporelle comprise dans la période que vous avez sélectionnée. Par exemple, la sélection de 12 h 00 à 12 h 30 avec une granularité de 5 minutes renvoie l’audience moyenne par minute sur la demi-heure complète ainsi que six lignes avec l’audience moyenne par minute pour chaque période de 5 minutes. Ces lignes servent de points de données pour le graphique de série temporelle. |
    | [!UICONTROL **Filtrer le contenu par (facultatif)**] | Vous pouvez filtrer le contenu spécifique en fonction de l’affichage souhaité ou de la structure de vos données. <ul>[!UICONTROL **Programme, saison, épisode**] : affiche les programmes disponibles dans la liste déroulante. Vous pouvez ensuite les filtrer en effectuant une recherche (ou en glissant-déposant le nom du programme dans la colonne de gauche). Si vous arrêtez votre sélection ici, vous verrez toutes les saisons de votre programme. Vous pouvez aussi filtrer les résultats par saison, puis par épisodes individuels. Ce paramètre affiche les données relatives à ces programmes, saisons ou épisodes pour la période sélectionnée.</li><li>[!UICONTROL **Dimension personnalisée**] : si le nom de votre programme se trouve sous une dimension personnalisée, vous pouvez le trouver en effectuant une recherche dans la liste déroulante Dimension (facultatif) ou dans la colonne de recherche de gauche. L’élément de dimension est automatiquement renseigné en fonction de cette sélection et traité comme un épisode.</li><li>[!UICONTROL **Aucun**] : affiche tous les noms de vidéos qui contiennent des données d’audience moyenne par minute pour votre sélection. (Cette option est sélectionnée par défaut.)</li></ul> |
 
 1. Continuez avec [Paramètres avancés de la période personnalisée](#custom-time-period-advanced-settings) pour configurer les paramètres avancés.

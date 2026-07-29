@@ -22,20 +22,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1202
+source-wordcount: 1219
 ht-degree: 1%
 
 ---
 
 # Conversion des classeurs Report Builder hérités
 
-L’ancien Report Builder arrive en fin de vie en juin 2026. Vous devez migrer vos classeurs de l’ancien Report Builder vers le nouveau Report Builder. Le nouveau Report Builder offre un moyen pratique de migrer rapidement les classeurs créés avec l’ancien Report Builder.
+L’ancien Report Builder arrive en fin de vie en juin 2026. Effectuez la migration de vos classeurs de l’ancien Report Builder vers le nouveau Report Builder. Le nouveau Report Builder offre un moyen pratique de migrer rapidement les classeurs créés avec l’ancien Report Builder.
 
 >[!IMPORTANT]
 >
->Dupliquez chaque classeur et renommez une version avant de convertir l’ancien classeur. Vous disposez ainsi toujours d’une copie du classeur hérité d’origine, si vous en avez besoin.
+>Dupliquez chaque classeur et renommez une version avant de convertir l’ancien classeur. Vous aurez ainsi toujours une copie du classeur hérité d’origine, si vous en avez besoin.
 
 
 >[!BEGINSHADEBOX]
@@ -56,23 +56,23 @@ Pour ouvrir un classeur hérité, vous pouvez :
 
 * Ouvrez un classeur hérité planifié dans l’onglet **[!UICONTROL Planifier]** du hub [Report Builder](report-builder-hub.md). Il s’agit de la méthode recommandée pour les classeurs hérités planifiés. Vous avez la possibilité d’utiliser la planification associée au classeur hérité dès que vous [planifiez le classeur hérité converti](#schedule-a-converted-legacy-workbook).
 
-   1. Ouvrez [!DNL Excel] et sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
+  1. Ouvrez [!DNL Excel] et sélectionnez ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
 
-   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+  1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
 
-   1. Sélectionnez **[!UICONTROL Planifier]** dans le hub [Report Builder](report-builder-hub.md).
-   1. Sélectionnez l’onglet **[!UICONTROL Hérité]**. Cet onglet répertorie les classeurs planifiés Report Builder hérités que vous avez créés.
+  1. Sélectionnez **[!UICONTROL Planifier]** dans le hub [Report Builder](report-builder-hub.md).
+  1. Sélectionnez l’onglet **[!UICONTROL Hérité]**. Cet onglet répertorie les classeurs planifiés Report Builder hérités que vous avez créés.
 
-      ![Classeurs hérités](assets/upgrade-legacy-schedule.png)
+     ![Classeurs hérités](assets/upgrade-legacy-schedule.png)
 
-   1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) le classeur planifié à convertir dans la liste, puis sélectionnez ![Télécharger](/help/assets/icons/Download.svg). Le classeur est téléchargé et s’ouvre dans une nouvelle fenêtre dans [!DNL Excel]. Vous pouvez désormais [convertir l’ancien classeur Report Builder](#convert-a--workbook).
+  1. Sélectionnez ![SelectBox](/help/assets/icons/SelectBox.svg) le classeur planifié à convertir dans la liste, puis sélectionnez ![Télécharger](/help/assets/icons/Download.svg). Le classeur est téléchargé et s’ouvre dans une nouvelle fenêtre de [!DNL Excel]. Vous pouvez désormais [convertir l’ancien classeur Report Builder](#convert-a--workbook).
 
 
-* Ouvrez un classeur hérité directement depuis votre ordinateur ou réseau local. Lorsque vous utilisez cette méthode, il ne vous est pas proposé d’utiliser la planification qui peut être associée au classeur hérité. <br/>Lorsque le classeur hérité est ouvert dans [!DNL Excel] :
+* Ouvrez un classeur hérité directement depuis votre ordinateur ou réseau local. Lorsque vous utilisez cette méthode, le planning associé au classeur hérité ne vous est pas proposé. <br/>Lorsque le classeur hérité est ouvert dans [!DNL Excel] :
 
-   1. Sélectionnez ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
-   1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
-   1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
+  1. Sélectionnez ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dans la barre de ruban [!DNL Excel].
+  1. Sélectionnez **[!UICONTROL Connexion]** et connectez-vous à Report Builder.
+  1. Convertissez ensuite [&#x200B; classeur hérité](#convert-a-workbook).
 
 
 ## Convertir un classeur hérité
@@ -116,17 +116,17 @@ Vous avez la possibilité d’utiliser les détails de la planification du class
 1. Pour planifier un classeur hérité converti avec une planification héritée :
 
    * Sélectionnez **[!UICONTROL Envoyer le classeur]** dans le hub Report Builder, ou
-   * Sélectionnez **[!UICONTROL Planifier le classeur]** dans l’onglet **[!UICONTROL Classeurs]** disponible dans l’onglet **[!UICONTROL Planifications]** de Report Builder.
+   * Sélectionnez **[!UICONTROL Planifier le classeur]** dans l’onglet **[!UICONTROL Classeurs]** de l’onglet Report Builder **[!UICONTROL Planifications]**.
 
 1. Vous pouvez utiliser les détails de planification du classeur hérité comme paramètres de planification par défaut.
 
    ![Capture d’écran des options des paramètres de planning hérités de [!DNL Excel] Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
    * Sélectionnez **[!UICONTROL Utiliser]** pour utiliser les détails du planning hérité. Les détails du planning sont préremplis dans l’interface [&#x200B; Envoyer le classeur &#x200B;](schedule-reportbuilder.md#schedule-a-workbook).
-   * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour ne pas utiliser les détails du planning hérité.
+   * Sélectionnez **[!UICONTROL Ne pas utiliser]** pour éviter d’utiliser les détails du planning hérité.
    * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
-   Sélectionnez **[!UICONTROL Supprimer les métadonnées héritées d’une utilisation ultérieure]** pour ne plus utiliser les détails de la planification héritée de ce classeur à l’avenir.
+   Sélectionnez **[!UICONTROL Supprimer les métadonnées héritées d’une utilisation ultérieure]** pour éviter d’utiliser les détails de la planification héritée de ce classeur à l’avenir.
 
 
 ## Migration à partir du Report Builder hérité
@@ -141,24 +141,25 @@ Certaines fonctionnalités de l’ancien Report Builder ne sont pas prises en ch
 
 * **Option Publier le classeur dans [!DNL Power BI] rapports planifiés**. L’option de planification des rapports à [!DNL Power BI] n’est plus disponible.
 
-* **Mesures Visiteurs**. Les mesures suivantes sont converties en *visiteurs uniques* dans le classeur hérité converti, même si le résultat de la création de rapports peut ne pas correspondre exactement : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cette conversion s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
+* **Mesures Visiteurs**. Les mesures suivantes sont converties en *visiteurs uniques* dans l’ancien classeur converti, même si le résultat du compte rendu des performances ne correspond pas exactement à : `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` et `visitorsyearly`. Cette conversion s’applique également à `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` et `mobilevisitorsyearly`.
 
+* **Granularité** : Report Builder ne dispose pas d’option spécifique pour la granularité comme l’ancien Report Builder. Pour appliquer un niveau de granularité à votre rapport, utilisez des dimensions de date dans votre requête.
 * **Réauthentification automatique**. Lorsque vous ouvrez un nouveau fichier [!DNL Excel], vous devez vous authentifier à nouveau explicitement. Cette réauthentification est une fonctionnalité de sécurité de la fonctionnalité [!DNL Office Add-ins].
 
-* **Copiez une feuille de calcul avec un groupe de blocs de données**. Pour prendre en charge la copie d’une feuille de calcul contenant plusieurs blocs de données :
+* **Copiez une feuille de calcul avec un groupe de blocs de données**. Pour prendre en charge la copie d&#39;une feuille de calcul contenant plusieurs blocs de données :
 
-   1. Sélectionnez l’onglet de feuille de calcul dans le classeur [!DNL Excel] que vous souhaitez copier.
-   1. Dans le menu contextuel de l’onglet, sélectionnez **[!UICONTROL Déplacer ou Copier...]**
-   1. Dans la boîte de dialogue **[!UICONTROL Déplacer ou copier]** :
-      1. Sélectionnez l&#39;emplacement où vous souhaitez copier la feuille de calcul copiée.
-      1. Veillez à activer **[!UICONTROL Créer une copie]**.
-      1. Sélectionnez **[!UICONTROL OK]**.
-   1. Dans la feuille de calcul source :
-      1. Sélectionnez la plage de cellules qui englobe tous les blocs de données.
-      1. Sélectionnez ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier le bloc de données]** dans le hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
-   1. Dans la feuille de calcul de destination :
-      1. Sélectionnez la cellule dans laquelle vous souhaitez coller la plage de cellules copiée.
-      1. Sélectionnez ![Coller](/help/assets/icons/Paste.svg) **[!UICONTROL Coller le bloc de données]** dans le hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Sélectionnez l’onglet de feuille de calcul dans le classeur [!DNL Excel] que vous souhaitez copier.
+  1. Dans le menu contextuel de l’onglet, sélectionnez **[!UICONTROL Déplacer ou Copier...]**
+  1. Dans la boîte de dialogue **[!UICONTROL Déplacer ou copier]** :
+     1. Sélectionnez l&#39;emplacement où vous souhaitez copier la feuille de calcul copiée.
+     1. Veillez à activer **[!UICONTROL Créer une copie]**.
+     1. Sélectionnez **[!UICONTROL OK]**.
+  1. Dans la feuille de calcul source :
+     1. Sélectionnez la plage de cellules qui englobe tous les blocs de données.
+     1. Sélectionnez ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier le bloc de données]** dans le hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Dans la feuille de calcul de destination :
+     1. Sélectionnez la cellule dans laquelle vous souhaitez coller la plage de cellules copiée.
+     1. Sélectionnez ![Coller](/help/assets/icons/Paste.svg) **[!UICONTROL Coller le bloc de données]** dans le hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
 
 * **Période**. Report Builder ne migre pas les options de formatage des périodes **[!UICONTROL Afficher la période de début et de fin comme]** appliquées à un libellé de ligne pour une période dans l’ancien Report Builder.
 
