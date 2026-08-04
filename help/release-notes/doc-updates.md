@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
-source-wordcount: 7390
+source-wordcount: 7421
 ht-degree: 93%
 
 ---
@@ -51,6 +51,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **août 2026** | |
+| Ajout de nouveaux outils d’IA conversationnelle à la dimension de type référent . | La dimension « Type de référent » inclut désormais les [outils d’IA conversationnelle](/help/components/dimensions/referrer-type.md#conversational-ai-tools) supplémentaires suivants dans la table de recherche qu’Adobe utilise :<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Juin 2026** | |
 | Mise à jour de la référence de la chaîne de requête | Révisions importantes des [paramètres de requête de la collecte de données](/help/implement/validate/query-parameters.md). |
 | Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [&#128279;](/help/export/data-warehouse/segment-compatibility.md). |
