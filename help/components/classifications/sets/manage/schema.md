@@ -14,16 +14,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1895
+source-wordcount: 1937
 ht-degree: 9%
 
 ---
 
 # Schéma du jeu de classifications
 
-Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si vous avez défini product comme dimension clé et que ce champ contient un SKU de produit, utilisez le schéma pour ajouter des classifications telles que le nom, la couleur et la taille du produit.
+Le schéma correspond à la liste des classifications à appliquer aux dimensions clés que vous avez définies pour l’ensemble de classifications. Par exemple, si produit est la dimension clé, utilisez le schéma pour ajouter des classifications telles que le nom, la couleur et la taille du produit.
 
 Pour modifier le schéma d’un ensemble de classifications :
 
@@ -133,7 +133,7 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger des données pour _nom du
    * **[!UICONTROL Latin-1]**.
 
 
-1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger les données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Il s’intitule <code><i>Ensemble de classifications</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si le fichier existe déjà, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.<br/>Si vous avez spécifié des options qui ne renvoient aucune donnée, une boîte de dialogue **[!UICONTROL Remarque]** s’affiche pour vous informer de modifier les options de période et de données renvoyées.
+1. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger les données de classification. Vous trouverez le fichier téléchargé dans le répertoire de téléchargement par défaut de votre navigateur. Il s’intitule <code><i>Ensemble de classifications</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Si le fichier existe, un numéro de séquence <code>(<i>x</i>)</code> est ajouté au nom du fichier.<br/>Si aucune donnée n’est renvoyée, une boîte de dialogue **[!UICONTROL Remarque]** vous invite à ajuster les options de période ou de données.
 
 
 ### Modèle
@@ -173,10 +173,10 @@ Dans la boîte de dialogue **[!UICONTROL Télécharger le modèle pour _nom du j
 >abstract="Liste des emplacements du compte d’emplacement sélectionné qui prennent en charge l’import de données de classification. Sélectionnez **[!UICONTROL Nouvel emplacement]** pour créer un emplacement."
 >additional-url="https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-locations" text="Configurer des emplacements d’export et d’import cloud"
 
-Vous pouvez automatiser l’ingestion des données de classification par le biais de la configuration et de l’utilisation de comptes et d’emplacements cloud.
+Vous pouvez automatiser l’ingestion des données de classification en configurant et en utilisant des comptes et des emplacements cloud.
 
 >[!IMPORTANT]
->L’automatisation de l’ingestion des classifications à partir des comptes cloud nécessite que vous (ou votre administrateur réseau) spécifiiez des plages d’adresses IP pour permettre l’ingestion de données dans votre réseau. Configurez une ou plusieurs plages d’adresses IP en fonction de l’emplacement des centres de données Analytics que vous utilisez.
+>L’automatisation de l’ingestion des classifications à partir des comptes cloud nécessite que vous (ou votre administrateur réseau) spécifiiez des plages d’adresses IP pour permettre l’ingestion des données dans votre réseau. Configurez une ou plusieurs plages d’adresses IP en fonction de l’emplacement des centres de données Analytics que vous utilisez.
 >
 >| Emplacement du centre de données Analytics | Ajouter cette plage d&#39;adresses IP à une liste autorisée de votre réseau |
 >|---|---:|
@@ -253,3 +253,30 @@ La barre d’actions affiche les actions disponibles pour la classification sél
 | ![Cercle - Suppression](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Supprimer la recherche]** | Supprimez un ensemble de classifications en tant que recherche. Pour supprimer définitivement la recherche de la classification, dans la boîte de dialogue de confirmation **[!UICONTROL Supprimer _ensemble de classifications_ de _classification_]**, sélectionnez **[!UICONTROL Supprimer]**. |
 | ![Renommer](/help/assets/icons/Rename.svg) | **[!UICONTROL Renommer]** | Renommez le **[!UICONTROL nom de la classification]** d’une classification. Dans la boîte de dialogue **[!UICONTROL Renommer : _nom de la classification_]**, saisissez un nouveau nom et sélectionnez **[!UICONTROL Renommer]**. |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez une classification. La boîte de dialogue **[!UICONTROL Supprimer _nom de la classification_]**&#x200B;s’affiche. Sélectionnez **[!UICONTROL Supprimer]**&#x200B;pour supprimer la classification. |
+
+
+## Données non classifiées
+
+Si vous rencontrez des données non classifiées après une importation qui s’affiche comme `none` dans vos rapports, vous pouvez renommer la clé de classification `None`.
+
+1. [Téléchargez](#download) les classifications dans un fichier local.
+1. Ajoutez une ligne au fichier local et saisissez `~none~` dans la colonne Clé . Saisissez les noms de classification les plus descriptifs dans les colonnes appropriées.
+
+   Par exemple :
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV :
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [Charger](#upload) les données dans Adobe Analytics.

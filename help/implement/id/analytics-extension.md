@@ -62,9 +62,9 @@ Si vous définissez correctement [!UICONTROL Serveur de suivi SSL], aucune autre
 L’utilisation de la variable **[!UICONTROL Identifiant visiteur]** permet à votre entreprise d’effectuer un contrôle indépendant pour identifier les visiteurs. Si vous définissez [!UICONTROL Identifiant visiteur] à l’aide d’un élément de données, notez les restrictions suivantes :
 
 * Chaque accès doit contenir la même valeur [!UICONTROL identifiant visiteur] pour être comptabilisé comme un seul visiteur.
-   * Tous les accès qui omettent l’élément de données [!UICONTROL Identifiant visiteur] tentent automatiquement d’utiliser une autre méthode d’identification des visiteurs, en les traitant comme un visiteur distinct.
-   * Tous les accès contenant une valeur [!UICONTROL identifiant visiteur] différente d’un accès précédent sont traités comme un visiteur distinct.
-   * Adobe ne permet pas d’assembler des accès à l’aide de différents identifiants visiteur dans Adobe Analytics.
+  * Tous les accès qui omettent l’élément de données [!UICONTROL Identifiant visiteur] tentent automatiquement d’utiliser une autre méthode d’identification des visiteurs, en les traitant comme un visiteur distinct.
+  * Tous les accès contenant une valeur [!UICONTROL identifiant visiteur] différente d’un accès précédent sont traités comme un visiteur distinct.
+  * Adobe ne permet pas d’assembler des accès à l’aide de différents identifiants visiteur dans Adobe Analytics.
 * Les audiences partagées, Analytics for Target et les attributs du client ne sont pas pris en charge avec les visiteurs identifiés à l’aide de l’[!UICONTROL identifiant visiteur].
 
 Voir [`visitorID`](/help/implement/vars/config-vars/visitorid.md) pour obtenir des instructions d’implémentation à l’aide de cette variable.

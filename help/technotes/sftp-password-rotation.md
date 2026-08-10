@@ -12,7 +12,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1933
+source-wordcount: 1985
 ht-degree: 100%
 
 ---
@@ -158,7 +158,7 @@ Pour ajouter la clé publique SSH d’Adobe au fichier [!DNL `authorized_keys`] 
 1. Chargez le fichier [!DNL `authorized_keys`] sur votre serveur FTP :
 
    1. Connectez-vous au serveur FTP et connectez-vous avec votre nom d’utilisation et votre mot de passe.
-Il peut s’agir d’un serveur FTP hébergé par Adobe ou de votre propre serveur FTP.
+      Il peut s’agir d’un serveur FTP hébergé par Adobe ou de votre propre serveur FTP.
    1. Créez un répertoire [!DNL .ssh] (s’il n’existe pas déjà).
    1. Chargez le fichier [!DNL `authorized_keys`] dans le répertoire [!DNL .ssh].
 
