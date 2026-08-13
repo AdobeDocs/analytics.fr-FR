@@ -4,19 +4,11 @@ description: Forum aux questions sur les canaux marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1524
@@ -121,19 +113,19 @@ Parfois, les règles de traitement des canaux marketing sont mal configurées. I
 
 * **Les données du canal marketing sont collectées en temps réel** : les données du canal marketing sont traitées lors de la collecte des données et totalement permanentes. La modification des règles de traitement n’affecte pas les données rétroactivement.
 * **La modification des règles de traitement n’affecte pas immédiatement les données Première touche**. Par exemple :
-   1. Un utilisateur arrive par le biais de votre canal de courrier électronique, car il a été configuré de manière incorrecte, puis quitte votre site.
-   2. Le lendemain, vous modifiez la règle de traitement du courrier électronique pour la corriger.
-   3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
-   4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
+  1. Un utilisateur arrive par le biais de votre canal de courrier électronique, car il a été configuré de manière incorrecte, puis quitte votre site.
+  2. Le lendemain, vous modifiez la règle de traitement du courrier électronique pour la corriger.
+  3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
+  4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
 
   Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données Première touche sont continuellement collectées dans un canal incorrect jusqu’à l’expiration de l’engagement des visiteurs de tous les utilisateurs.
 
 La meilleure façon de remédier à ces divergences consiste à prendre l’une des mesures suivantes, ou les deux :
 
 * **Faire expirer manuellement toutes les périodes d’engagement des visiteurs** : ce paramètre fait expirer instantanément tous les canaux Première touche et Dernière touche de tous les visiteurs :
-   1. Accédez à Outils d’administration > Suites de rapports.
-   2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
-   3. Cliquez sur Tout faire expirer.
-   4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
+  1. Accédez à Outils d’administration > Suites de rapports.
+  2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
+  3. Cliquez sur Tout faire expirer.
+  4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
 
 * **Afficher uniquement les mesures Dernière touche à partir du moment où vous avez corrigé les règles** : les mesures Dernière touche suivent toujours l’ensemble de règles actuelles. L’affichage du moment à partir duquel vous avez modifié les règles de traitement reflète les règles de traitement les plus récentes.

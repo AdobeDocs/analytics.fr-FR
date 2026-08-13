@@ -6,7 +6,7 @@ breadcrumb-title: Notes de mise à jour
 user-guide-description: Découvrez les nouvelles fonctionnalités et correctifs d’Adobe Analytics.
 nudge: true
 source-git-commit: 64e425e1cfe2062fd053596f92b4518bc7afdecd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 + [Notes de mise à jour actuelles dʼAnalytics](latest.md)
 + Notes de mise à jour précédentes dʼAnalytics {#previous}
-   + [Notes de mise à jour 2026](2026.md)
-   + [Notes de mise à jour 2025](2025.md)
-   + [Notes de mise à jour 2024](2024.md)
-   + [Notes de mise à jour 2023](2023.md)
-   + [Notes de mise à jour 2022](2022.md)
-   + [Notes de mise à jour 2021](2021.md)
-   + [Notes de mise à jour 2020](2020.md)
-   + [Notes de mise à jour 2019](2019-earlier.md)
+  + [Notes de mise à jour 2026](2026.md)
+  + [Notes de mise à jour 2025](2025.md)
+  + [Notes de mise à jour 2024](2024.md)
+  + [Notes de mise à jour 2023](2023.md)
+  + [Notes de mise à jour 2022](2022.md)
+  + [Notes de mise à jour 2021](2021.md)
+  + [Notes de mise à jour 2020](2020.md)
+  + [Notes de mise à jour 2019](2019-earlier.md)
 + [Mises à jour de la documentation](doc-updates.md)
 + [Mises à jour des fonctionnalités dʼAnalytics](releases.md)

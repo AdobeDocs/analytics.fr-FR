@@ -6,14 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 TQID: https://experienceleague.adobe.com/yNIeTJwwWtjXkbi47lX1Ve-Rbz6lF1PazD4YxxXa0Ac
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 336
@@ -44,8 +39,8 @@ Vous pouvez rechercher des éléments de dimension spécifiques en créant un fi
 1. Activez l’une des options spécifiques suivantes :
 
    * **À partir d’une plage de cellules :** permet de sélectionner des données à partir de cellules. Vous pouvez sélectionner :
-      * **Toutes les cellules de la plage :** permet de mapper chaque cellule de la plage. Le texte descriptif explique le nombre de groupes de cellules que vous devez sélectionner. Pour mapper plusieurs groupes de cellules, appuyez sur la touche Ctrl pendant que vous effectuez des sélections successives. Si la plage qui doit être mappée contient une seule cellule, il s&#39;agit de la seule option disponible
-      * **Première cellule de la plage :** il vous suffit de sélectionner la cellule supérieure gauche de la plage, puis de choisir la direction des données. En outre, si la demande comporte plusieurs périodes, vous choisissez la direction des périodes et choisissez si vous souhaitez ignorer un nombre défini de cellules entre les périodes.
+     * **Toutes les cellules de la plage :** permet de mapper chaque cellule de la plage. Le texte descriptif explique le nombre de groupes de cellules que vous devez sélectionner. Pour mapper plusieurs groupes de cellules, appuyez sur la touche Ctrl pendant que vous effectuez des sélections successives. Si la plage qui doit être mappée contient une seule cellule, il s&#39;agit de la seule option disponible
+     * **Première cellule de la plage :** il vous suffit de sélectionner la cellule supérieure gauche de la plage, puis de choisir la direction des données. En outre, si la demande comporte plusieurs périodes, vous choisissez la direction des périodes et choisissez si vous souhaitez ignorer un nombre défini de cellules entre les périodes.
    * **De la liste :** permet de sélectionner des données dans une liste à laquelle vous pouvez ajouter des données.
 1. Si vous activez l’option **[!UICONTROL À partir de la liste]**, sélectionnez tout élément disponible dans la liste ou cliquez sur **[!UICONTROL Ajouter]**.
 

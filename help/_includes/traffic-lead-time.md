@@ -4,8 +4,7 @@ title: Délai d’avance requis pour les augmentations de trafic
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 TQID: 'https://experienceleague.adobe.com/NJpOBQXD9CulN-UjbKnQiPzPWusWzLEo0RgvBioJe3I'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 328
@@ -58,9 +57,9 @@ Autres éléments à prendre en compte :
 * Si plusieurs suites de rapports démarrent ou augmentent en fonction des nombres répertoriés ci-dessus, le délai s’applique en tant que somme du trafic attendu pour chacune d’elles.
 * Vous devez disposer des informations suivantes pour envoyer une modification de trafic :
 
-   * Identifiant de suite de rapports
-   * Estimation des accès par jour
-   * Date de mise en production
+  * Identifiant de suite de rapports
+  * Estimation des accès par jour
+  * Date de mise en production
 
 * Des alertes clientèle sont également nécessaires lorsque le trafic diminue ou qu’une suite de rapports est obsolète.
 

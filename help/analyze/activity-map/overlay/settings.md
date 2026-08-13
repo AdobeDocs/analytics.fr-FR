@@ -6,18 +6,10 @@ feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 567
@@ -39,16 +31,16 @@ Modifiez les paramètres généraux de l’extension et des recouvrements.
 * **[!UICONTROL Nom de la page]** : affiche le nom de la page active.
 * **[!UICONTROL Langue]** : modifie la langue des libellés d’extension Activity Map. Ce paramètre ne modifie pas le contenu de votre site web ni les noms de liens dans les rapports. Les langues prises en charge sont l’anglais, le français, le chinois (simplifié), le chinois (traditionnel), l’allemand, le japonais, le coréen, l’espagnol et le portugais.
 * **[!UICONTROL Recouvrements de libellés avec]** : détermine ce qu’est le texte de bulle ou de gradient. Le paramètre par défaut est [!UICONTROL Rang]. Les options incluent ce qui suit :
-   * **[!UICONTROL Pas de libellé]** : pas de texte dans les libellés, ce qui en fait des zones colorées
-   * **[!UICONTROL Valeur]** : affiche le nombre de clics sur les liens ([Occurrences](/help/components/metrics/occurrences.md))
-   * **[!UICONTROL Pourcentage]** : affiche la proportion de clics sur les liens par rapport au nombre total de clics sur les liens de la page.
-   * **[!UICONTROL Classement]** : classement numérique du lien par nombre de clics sur le lien.
+  * **[!UICONTROL Pas de libellé]** : pas de texte dans les libellés, ce qui en fait des zones colorées
+  * **[!UICONTROL Valeur]** : affiche le nombre de clics sur les liens ([Occurrences](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Pourcentage]** : affiche la proportion de clics sur les liens par rapport au nombre total de clics sur les liens de la page.
+  * **[!UICONTROL Classement]** : classement numérique du lien par nombre de clics sur le lien.
 * **[!UICONTROL Taille de police des libellés]** : détermine la taille du texte dans la bulle ou le gradient.
 * **[!UICONTROL Couleur de dégradé]** : permet de modifier la couleur du dégradé lorsque le type de visualisation est [!UICONTROL Dégradé].
 * **[!UICONTROL Couleur de bulle]** : permet de modifier la couleur de la bulle lorsque le type de visualisation est [!UICONTROL Bulle].
 * **[!UICONTROL Dégradé de couleurs basé sur]** : détermine la mesure sur laquelle l’intensité de couleur d’un lien est basée lorsque le type de visualisation est [!UICONTROL Dégradé].
-   * **[!UICONTROL Classements des 30 premiers]** : l’intensité des couleurs est normalisée pour les 30 premiers liens.
-   * **[!UICONTROL Valeur de mesure absolue]** : l’intensité de la couleur est une fonction de la valeur de mesure absolue.
+  * **[!UICONTROL Classements des 30 premiers]** : l’intensité des couleurs est normalisée pour les 30 premiers liens.
+  * **[!UICONTROL Valeur de mesure absolue]** : l’intensité de la couleur est une fonction de la valeur de mesure absolue.
 * **[!UICONTROL Transparence des dégradés]** : détermine la transparence des superpositions de dégradés lorsque le type de visualisation est [!UICONTROL Dégradés]. Ce curseur vous permet de rendre la superposition de couleurs complètement transparente, complètement opaque ou n’importe où entre les deux.
 
 ## Paramètres standard
@@ -56,9 +48,9 @@ Modifiez les paramètres généraux de l’extension et des recouvrements.
 Ajustez les paramètres de la vue standard.
 
 * **[!UICONTROL Filtrage dynamique des données]** : permet de modifier les liens affichés.
-   * **[!UICONTROL Haut]** : affiche les liens les plus populaires. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens principaux à afficher. Les options incluent 1, 10, 50 et 100.
-   * **[!UICONTROL Bas]** : affiche les liens les moins populaires en fonction de la liste déroulante des nombres. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens inférieurs à afficher. Les options incluent 1, 10, 50 et 100.
-   * **[!UICONTROL Tous les liens]** : ne pas appliquer de filtrage dynamique des données. La liste déroulante numérique ne s’applique pas lorsque cette option est sélectionnée.
+  * **[!UICONTROL Haut]** : affiche les liens les plus populaires. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens principaux à afficher. Les options incluent 1, 10, 50 et 100.
+  * **[!UICONTROL Bas]** : affiche les liens les moins populaires en fonction de la liste déroulante des nombres. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens inférieurs à afficher. Les options incluent 1, 10, 50 et 100.
+  * **[!UICONTROL Tous les liens]** : ne pas appliquer de filtrage dynamique des données. La liste déroulante numérique ne s’applique pas lorsque cette option est sélectionnée.
 * **[!UICONTROL Masquer les recouvrements pour les liens qui n’ont reçu aucun accès]** : les liens sur la page ne comportant aucun clic sur les liens n’affichent pas de recouvrement. Ces liens sont exclus du filtrage dynamique des données.
 
 ## Paramètres en direct
