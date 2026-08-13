@@ -5,10 +5,16 @@ feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
 TQID: 'https://experienceleague.adobe.com/IW5Ip04hGmQIE18SWZh9bE0xVxRlxc3Mq5rJlcRhhlc'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1150
@@ -24,7 +30,7 @@ Les sections suivantes décrivent les activités que vous pouvez effectuer lors 
 
 ## Afficher les requêtes
 
-Par défaut, vous ne pouvez afficher que les requêtes que vous créez, sauf si les utilisateurs et utilisatrices ont choisi de rendre leurs requêtes visibles par d’autres membres de l’organisation (comme décrit dans les paramètres généraux des requêtes [](/help/export/data-warehouse/create-request/dw-general-settings.md)). Les administrateurs système peuvent afficher toutes les demandes.
+Par défaut, vous ne pouvez afficher que les requêtes que vous créez, sauf si les utilisateurs et utilisatrices ont choisi de rendre leurs requêtes visibles par d’autres membres de l’organisation (comme décrit dans les paramètres généraux des requêtes [&#128279;](/help/export/data-warehouse/create-request/dw-general-settings.md)). Les administrateurs système peuvent afficher toutes les demandes.
 
 Pour afficher les requêtes Data Warehouse :
 
@@ -64,7 +70,7 @@ Pour modifier une demande planifiée :
 
 1. Modifiez la requête selon vos besoins. Les options de configuration estompées ne peuvent pas être modifiées.
 
-   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 
@@ -126,7 +132,7 @@ Lorsque vous copiez une demande, toutes les options de configuration sont copié
 
 1. Mettez à jour toutes les options de configuration associées à la requête.
 
-   Pour plus d’informations sur chaque option de configuration, voir [ Création d’une requête Data Warehouse ](/help/export/data-warehouse/create-request/t-dw-create-request.md).
+   Pour plus d’informations sur chaque option de configuration, voir [&#x200B; Création d’une requête Data Warehouse &#x200B;](/help/export/data-warehouse/create-request/t-dw-create-request.md).
 
 1. Sélectionnez [!UICONTROL **Enregistrer les modifications**].
 

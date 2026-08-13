@@ -5,10 +5,14 @@ feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
 role: Admin
 TQID: https://experienceleague.adobe.com/d0Te8mu0EXefzcOXBayaWoZmU2y1I8VLqc8o00FddKE
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 254
@@ -38,7 +42,7 @@ Pour accéder aux outils d’administration, accédez à **[!UICONTROL Analytics
 
 Utilisez cet outil pour configurer les utilisateurs et modifier les autorisations d’accès.
 
-Pour toutes les organisations qui sont migrées vers Adobe IMS, ces tâches sont effectuées dans l’Admin Console d’Adobe. Pour plus d’informations, consultez le guide [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). Si votre organisation n’a pas encore migré vers Adobe IMS, reportez-vous à la section [ Migration des utilisateurs Analytics vers Adobe Admin Console](/help/admin/tools/user-management/user-migration/c-migration-tool.md).
+Pour toutes les organisations qui sont migrées vers Adobe IMS, ces tâches sont effectuées dans l’Admin Console d’Adobe. Pour plus d’informations, consultez le guide [Adobe Analytics first admin guide](/help/admin/admin-console/first-admin-guide.md). Si votre organisation n’a pas encore migré vers Adobe IMS, reportez-vous à la section [&#x200B; Migration des utilisateurs Analytics vers Adobe Admin Console](/help/admin/tools/user-management/user-migration/c-migration-tool.md).
 
 
 

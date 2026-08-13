@@ -5,11 +5,18 @@ feature: Server Call Usage
 exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 role: Admin
 TQID: 'https://experienceleague.adobe.com/kDnDNyFa4VGOiT-2a7UeygM4qTKX8BZDByzRqFjOT5c'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2: id: c9d85838-8d05-4bc7-9f18-30ec779251bc
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 701
@@ -23,7 +30,7 @@ ht-degree: 93%
 |--- |--- |
 | Q : Je suis un administrateur Analytics. Pourquoi est-ce que je ne vois pas de lien [!UICONTROL Utilisation de l’appel au serveur] dans la section Admin de connexion de ma société ? | R : Vous pouvez choisir parmi vos sociétés de connexion celles qui afficheront le lien pour [!UICONTROL l’utilisation de l’appel au serveur] dans la section Admin. Si vous ne le voyez pas, veuillez contacter le service clientèle pour l’activer. |
 | Q : Est-ce que [!UICONTROL l’utilisation de l’appel au serveur] est une fonctionnalité réservée aux administrateurs ? | R : Non. Tout comme la fonctionnalité de [!UICONTROL facturation] que remplace [!UICONTROL l’utilisation de l’appel au serveur], vous pouvez permettre à un non-administrateur d’accéder à ce lien. |
-| Q : Est-ce que les détails de[!UICONTROL  l’utilisation de l’appel au serveur] et de l’engagement sont spécifiques à une société de connexion ? | R : Non. Les détails de l’utilisation de l’appel au serveur et de l’engagement affichés couvrent toutes les sociétés de connexion reliées à votre contrat Adobe Analytics. |
+| Q : Est-ce que les détails de[!UICONTROL &#x200B; l’utilisation de l’appel au serveur] et de l’engagement sont spécifiques à une société de connexion ? | R : Non. Les détails de l’utilisation de l’appel au serveur et de l’engagement affichés couvrent toutes les sociétés de connexion reliées à votre contrat Adobe Analytics. |
 | Q : Sous l’onglet [!UICONTROL Utilisation de la suite de rapports], je peux voir la consommation dans les suites de rapports qui ne sont pas disponibles pour le compte-rendu des performances pour la société de connexion actuelle. S’agit-il d’un bogue ? | R : Non. Tout comme les détails de [!UICONTROL l’utilisation de l’appel au serveur] et de votre engagement, la liste des suites de rapports s’étend à toutes les sociétés de connexion reliées à votre contrat Analytics. |
 | Q : La période d’utilisation est-elle toujours identique à la durée de mon contrat ou de mon cycle de facturation Analytics ? | R : Non. La période d’utilisation correspond à la durée d’application de votre engagement d’appel au serveur et peut être différente de la durée de votre contrat ou de votre cycle de facturation. Par exemple, votre contrat annuel peut vous donner le droit à un million d’appels au serveur par mois. Dans ce cas, votre engagement est d’un million d’appels au serveur et votre période d’utilisation est d’un mois. |
 | Q : Mon contrat inclut un engagement à Video Heart Beats, pourtant je ne vois pas la rubrique [!UICONTROL Utilisation de l’appel au serveur]. Dois-je contacter le service clientèle ? | R : Les détails de la consommation et de l’engagement pour Video Heart Beats ne sont pas inclus dans [!UICONTROL l’utilisation de l’appel au serveur]. |
