@@ -41,7 +41,7 @@ Vous pouvez gérer les paramètres d’Analysis Workspace et ses composants conn
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gérer les préférences](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
