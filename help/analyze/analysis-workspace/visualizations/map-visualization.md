@@ -79,7 +79,7 @@ La visualisation ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Carte]** d
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation Carte dans Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -110,9 +110,9 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation C
    * **Comparer** deux visualisations de cartes ou plus dans le même projet en les plaçant côte à côte.
    * **Afficher les comparaisons d’une période à l’autre (par exemple, d’une année à l’autre)** :
 
-      * Afficher des nombres négatifs : par exemple, si vous tracez une mesure d’une année à l’autre, la carte peut afficher -33 % sur New York.
-      * Avec les mesures de type *pourcentage*, le regroupement effectue la moyenne des pourcentages.
-      * Un jeu de couleurs vert/rouge : positif/négatif.
+     * Afficher des nombres négatifs : par exemple, si vous tracez une mesure d’une année à l’autre, la carte peut afficher -33 % sur New York.
+     * Avec les mesures de type *pourcentage*, le regroupement effectue la moyenne des pourcentages.
+     * Un jeu de couleurs vert/rouge : positif/négatif.
 
    * **Faire pivoter** la carte en 2D ou en 3D en maintenant la touche [!UICONTROL Ctrl] et en déplaçant la carte.
 
@@ -148,7 +148,7 @@ Pour définir les paramètres de la visualisation, sélectionnez ![Paramètre](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

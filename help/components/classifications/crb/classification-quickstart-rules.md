@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1978
+source-wordcount: 1981
 ht-degree: 86%
 
 ---
@@ -205,7 +205,7 @@ Configurez la règle comme suit dans le [!UICONTROL Créateur de règles] :
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
 | Expression régulière Pour la chaîne correspondante `a:b:c` | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| Expression régulière Pour la chaîne correspondante `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | j | `$4` |
+| Expression régulière Pour la chaîne correspondante `a:b:c:d` | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## Expressions régulières – Exemple « Ne contient pas » {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 

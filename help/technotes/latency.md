@@ -58,10 +58,10 @@ Il existe plusieurs stratégies visant à prévenir la latence ou à réduire le
 * **Informer Adobe des pics de trafic prévus :** bien qu’il soit impossible d’anticiper tous les pics de trafic sur votre site, vous pouvez, dans certains cas, prévoir une hausse sensible du trafic. Cela peut survenir, par exemple, en cas de période de vacances particulièrement prospère ou juste après la diffusion d’une vaste campagne. Dans de tels cas, Adobe fournit à votre entreprise le moyen de nous avertir d’une hausse prévue du trafic afin que nous puissions allouer davantage de ressources de traitement à votre suite de rapports. Voir [Planifier un pic de trafic](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) dans le guide d’utilisation destiné à l’administrateur pour savoir comment avertir Adobe d’une hausse du trafic.
 * **Tenir compte de la charge de traitement lors de l’activation de nouvelles fonctionnalités :** certaines fonctionnalités consomment plus de ressources de traitement que d’autres. Plus il y a de fonctionnalités activées dans une suite de rapports, plus il est difficile de récupérer à la suite d’une latence. Lors de l’activation de fonctionnalités sur une suite de rapports, veuillez tenir compte du fait que les fonctionnalités suivantes augmentent la quantité de données à traiter :
 
-   * Mise en œuvre de plus de 20 événements sur la même page
-   * Règles VISTA complexes
-   * Plus de 20 valeurs dans la variable « products »
-   * Sérialisation d’événements
+  * Mise en œuvre de plus de 20 événements sur la même page
+  * Règles VISTA complexes
+  * Plus de 20 valeurs dans la variable « products »
+  * Sérialisation d’événements
 
 * Activer les règles de filtrage des robots IAB : le [filtrage des robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) peut réduire sensiblement la latence si votre suite de rapports est fréquentée par des robots ou des robots d’indexation. Il est conseillé d’utiliser la liste de robots IAB, dans la mesure où elle est mise à jour et gérée par l’[Interactive Advertising Bureau](https://www.iab.net/about_the_iab) (IAB). Un utilisateur peut personnaliser ses propres règles de filtrage des robots pour compléter celles émises par l’IAB.
 

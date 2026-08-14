@@ -17,7 +17,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1214
 ht-degree: 72%
 
 ---
@@ -37,8 +37,8 @@ L’élément de ligne « Aucun » est un élement fourre-tout qui représente
 
 Certaines mesures basées sur les visites, telles que les [entrées](/help/components/metrics/entries.md) ou le [taux de rebond](/help/components/metrics/bounce-rate.md), peuvent attribuer des données à une période antérieure à la date de début du reporting. Cette situation est due aux modèles d’attribution qui utilisent une période de recherche arrière, ce qui détermine jusqu’où l’attribution doit remonter pour créditer les mesures. Le scénario le plus courant se produit lorsque les visites englobent minuit. Par exemple :
 
-1. Un utilisateur visite votre page d’accueil à 23 :55, le 7 septembre.
-1. Ils visitent plusieurs pages, la dernière ayant eu lieu à minuit:05 le 8 septembre.
+1. Un utilisateur visite votre page d’accueil à 23 h 55, le 7 septembre.
+1. Ils visitent plusieurs pages, la dernière ayant eu lieu à 00h05, le 8 septembre.
 1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 8 au 14 septembre.
 
 Les mesures basées sur les accès, telles que les [pages vues](/help/components/metrics/page-views.md), produiraient la sortie attendue : les tendances de données quotidiennes du 8 au 14 septembre. Cependant, les mesures basées sur les visites afficheraient également la visite du 7 septembre ci-dessus. L’entrée attribuée à la visite s’est produite le 7 septembre et la période de recherche arrière est, par défaut, comprise entre le 1er et le 31 septembre.
@@ -47,8 +47,8 @@ Dans cet exemple, le taux de rebond affiche toujours 0 % le 7 septembre. Cette
 
 Prenons un autre exemple semblable. La seule différence entre l’exemple suivant et celui ci-dessus se trouve au niveau des dates :
 
-1. Un utilisateur visite votre page d’accueil à 23 :55, le 31 août.
-1. Ils visitent plusieurs pages, la dernière ayant eu lieu à minuit:05 le 1er septembre.
+1. Un utilisateur visite votre page d’accueil à 23 h 55, le 31 août.
+1. Ils visitent plusieurs pages, la dernière ayant eu lieu à 00 h 05 le 1er septembre.
 1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 1er au 7 septembre.
 
 Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les données du 31 août. La période de recherche arrière et le créneau du compte rendu des performances démarrent tous les deux le 1er septembre, de sorte que les données ne peuvent pas être attribuées à partir du 31 août.

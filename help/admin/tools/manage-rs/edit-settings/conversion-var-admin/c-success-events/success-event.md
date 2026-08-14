@@ -92,9 +92,9 @@ Pour configurer des événements de succès :
 
    | Paramètre | Visible dans | Non visible dans |
    |---------|----------|---------|
-   | [!UICONTROL **Visible partout**] | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
+   | [!UICONTROL **Visible partout**] | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> | S.O. |
    | [!UICONTROL **Builders**] | <ul><li>Créateur de segments</li><li>Créateur de mesures calculées</li><li>Analysis Workspace</li></ul> |  |
-   | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
+   | [!UICONTROL **Masqué partout**] | S.O. | <ul><li>Analysis Workspace</li><li>Créateur de segments</li><li>Créateur de mesures calculées</li></ul> |
 
 1. Dans la colonne [!UICONTROL **Description**], cochez la case, puis fournissez une description.
 1. Dans la colonne [!UICONTROL **Enregistrement d’événement unique**], cochez la case, puis choisissez dans le menu déroulant s’il faut toujours enregistrer l’événement.

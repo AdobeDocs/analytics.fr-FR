@@ -39,15 +39,15 @@ Créez et configurez des variables de liste à utiliser dans les rapports. Défi
 * **[!UICONTROL Délimiteur de valeur]** : caractère utilisé pour séparer les valeurs dans la variable de liste. Il s’agit le plus souvent de caractères tels que des virgules, deux-points, barres verticales ou similaires. Les caractères multi-octet ne sont pas pris en charge comme délimiteurs dans les variables de liste.
 
 * **[!UICONTROL Expire après]** : comme pour l’expiration eVar, ce champ détermine le délai pouvant s’écouler entre la variable de liste et l’événement de conversion pour qu’ils soient associés.
-   * **Au niveau d’une page vue ou d’une visite** : les événements de succès au-delà de la page vue ou de la visite ne sont pas liés à des valeurs dans la variable de liste.
-   * **Basé sur une période de temps, telle que jour, semaine, mois, etc** : les événements de succès au-delà de la période spécifiée ne sont liés à aucune valeur de la variable de liste. Un nombre personnalisé de jours peut être également défini.
-   * **Événements de conversion spécifiques** : tous les autres événements de succès qui se déclenchent après l’événement spécifique désigné ne sont pas liés à des valeurs de la variable de liste.
-   * **Jamais** : un laps de temps indéfini peut s’écouler entre la variable de liste et l’événement de succès.
+  * **Au niveau d’une page vue ou d’une visite** : les événements de succès au-delà de la page vue ou de la visite ne sont pas liés à des valeurs dans la variable de liste.
+  * **Basé sur une période de temps, telle que jour, semaine, mois, etc** : les événements de succès au-delà de la période spécifiée ne sont liés à aucune valeur de la variable de liste. Un nombre personnalisé de jours peut être également défini.
+  * **Événements de conversion spécifiques** : tous les autres événements de succès qui se déclenchent après l’événement spécifique désigné ne sont pas liés à des valeurs de la variable de liste.
+  * **Jamais** : un laps de temps indéfini peut s’écouler entre la variable de liste et l’événement de succès.
 
 * **[!UICONTROL Affectation]** : ce paramètre détermine comment les événements de succès répartissent le crédit entre les valeurs :
-   * **Complète** : toutes les valeurs de la variable définies avant l’expiration de celle-ci obtiennent un crédit complet pour les événements de succès.
-   * **Linéaire** : toutes les valeurs de la variable définies avant l’expiration de celle-ci obtiennent un crédit divisé pour les événements de conversion.
-   * Les valeurs de la variable ne sont jamais remplacées. Elles sont ajoutées aux valeurs qui obtiennent le crédit pour les événements de succès.
+  * **Complète** : toutes les valeurs de la variable définies avant l’expiration de celle-ci obtiennent un crédit complet pour les événements de succès.
+  * **Linéaire** : toutes les valeurs de la variable définies avant l’expiration de celle-ci obtiennent un crédit divisé pour les événements de conversion.
+  * Les valeurs de la variable ne sont jamais remplacées. Elles sont ajoutées aux valeurs qui obtiennent le crédit pour les événements de succès.
 
 * **[!UICONTROL Description]** : description de la manière dont votre entreprise utilise la variable de liste.
 

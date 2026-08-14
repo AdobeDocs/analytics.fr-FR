@@ -20,7 +20,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 146
+source-wordcount: 147
 ht-degree: 76%
 
 ---
@@ -35,4 +35,4 @@ Cette dimension est prête à l’emploi pour toutes les implémentations. Cette
 
 ## Éléments de dimension
 
-Les éléments de dimension incluent une minute donnée dans la période d’un rapport, ainsi que la date correspondante. Celui-ci a la forme `HH:MM YYYY-MM-DD`. Les éléments Dimension commençant par `00:00` correspondent à minuit ce jour-là, tandis que les valeurs commençant par `23:59` correspondent à 23 :59 pour ce jour-là.
+Les éléments de dimension incluent une minute donnée dans la période d’un rapport, ainsi que la date correspondante. Celui-ci a la forme `HH:MM YYYY-MM-DD`. Les éléments Dimension commençant par `00:00` correspondent à minuit ce jour-là, tandis que les valeurs commençant par `23:59` correspondent à 23 h 59 pour ce jour-là.

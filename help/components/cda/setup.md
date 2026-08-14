@@ -38,7 +38,8 @@ Les analyses entre appareils sont configurées sur votre suite de rapports conte
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
 * Quelle méthode d’analyse entre appareils souhaitez-vous utiliser (groupement basé sur les champs) ?
 * Si vous envisagez d’utiliser le groupement basé sur les champs, la prop ou l’eVar qui contient l’identifiant utilisateur
-* Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).
+* Votre préférence en matière de fréquence de relecture et de durée de période de recherche arrière. Les options incluent une relecture une fois par semaine avec une période de recherche arrière de 7 jours ou une relecture chaque jour avec une période de recherche arrière de 1 jour.
+La valeur par défaut est la relecture hebdomadaire avec un intervalle de recherche en amont de 7 jours. Dans ce cas, les données de la dernière semaine peuvent changer (car elles sont progressivement regroupées et mises à jour).
 
 Une fois que vous avez fourni ces informations à l’assistance clientèle, ce service va collaborer avec les ingénieurs d’Adobe pour intégrer le traitement des analyses entre appareils à la suite de rapports choisie.
 

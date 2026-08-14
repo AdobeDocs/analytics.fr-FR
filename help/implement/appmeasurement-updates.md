@@ -223,13 +223,13 @@ Date de publication : **12 avril 2018**
 
 Date de publication : **29 mars 2018**
 
-Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
+Regrouper à nouveau l’API Visitor 3.1.0 (AN-159524) avec les correctifs d’urgence suivants : (CORE-11390, CORE-10634)
 
 ## Version 2.8.0
 
 Date de publication : **15 mars 2018**
 
-Recompilation de l’API visiteur 3.1.0 (AN-159524) avec les correctifs suivants : (CORE-11390, CORE-10634)
+Regrouper à nouveau l’API Visitor 3.1.0 (AN-159524) avec les correctifs d’urgence suivants : (CORE-11390, CORE-10634)
 
 * Bundle VAPI v3.1 avec AppMeasurement v2.8. (AN-158353)
 * Refactorisation de la création du point de terminaison de la collecte de données afin de faciliter le partage. (AN-156647)

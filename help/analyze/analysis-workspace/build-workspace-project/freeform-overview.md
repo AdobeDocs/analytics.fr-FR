@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 91%
+source-wordcount: '1671'
+ht-degree: 92%
 
 ---
 
@@ -54,7 +54,7 @@ La liste de projets ➋ affiche tous les projets que vous possédez et qui ont �
 | ![Contour en forme d’étoile](/help/assets/icons/StarOutline.svg) | Sélectionnez ![Étoile](/help/assets/icons/Star.svg) pour mettre en favori ou ![StarOutline](/help/assets/icons/StarOutline.svg) pour retirer des favoris un projet. |
 | **[!UICONTROL Titre et description]** | Pour modifier le projet, sélectionnez le lien du titre, qui ouvre le [projet Workspace](/help/analyze/analysis-workspace/home.md). Les projets partagés avec vous sont indiqués par ![Partager](/help/assets/icons/ShareAlt.svg). Sélectionnez ![InfoOutline](/help/assets/icons/InfoOutline.svg) pour afficher un menu contextuel contenant plus de détails sur le projet. Sélectionnez ![Plus](/help/assets/icons/More.svg) pour ouvrir un menu contextuel avec des actions. Pour plus de détails, consultez [Actions](#actions). |
 | **[!UICONTROL Type]** | Un projet Workspace, un dossier ![FolderUser](/help/assets/icons/FolderUser.svg) ou une [Carte de performance mobile](/help/analyze/mobile-app/home.md). |
-| **[!UICONTROL Étiquettes]** | Balises appliquées au projet. |
+| **[!UICONTROL Balises]** | Balises appliquées au projet. |
 | **[!UICONTROL Planifié]** | Indique si un projet doit être envoyé par e-mail aux destinataires. Les options sont ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL On]** ou ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Off]**. Consultez [Envoyer des données de projet à d’autres personnes](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md). |
 | **[!UICONTROL Lien partagé (tout le monde)]** | Partager ou non un projet avec tout le monde, même avec des personnes qui n’ont pas accès à Analysis Workspace. Les options sont ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Actif]** ou ![StatusGray](/help/assets/icons/StatusGray.svg) **[!UICONTROL Inactif]**. Consultez [Partager un projet avec tout le monde (aucune connexion requise)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required) dans [Partager des projets](/help/analyze/analysis-workspace/curate-share/share-projects.md) pour plus d’informations. |
 | **[!UICONTROL Rôle de projet]** | Votre rôle pour le projet. Les options sont les suivantes : Modifier, Dupliquer et Afficher. Consultez [Rôles de projet](/help/analyze/analysis-workspace/curate-share/curate.md) pour plus d’informations. |
@@ -114,14 +114,14 @@ Le panneau Filtrer se compose des sections suivantes.
 
 | Balises | Description |
 |---|---|
-| ![Étiquettes](assets/projects-filters-tags.png){width="300"} | La section **[!UICONTROL Balises]** permet de filtrer par balise. <ul><li>Vous utilisez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour rechercher les balises que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionnez plusieurs balises. Les balises disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**2︎⃣** : nombre de balises disponibles pour les projets résultant du filtre actuel.</li><li>7︎⃣ : nombre de projets associés à la balise spécifique.</li></ul></li></ul> |
+| ![Balises](assets/projects-filters-tags.png){width="300"} | La section **[!UICONTROL Balises]** permet de filtrer par balise. <ul><li>Vous utilisez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des balises* pour rechercher les balises que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionnez plusieurs balises. Les balises disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**2︎⃣** : nombre de balises disponibles pour les projets résultant du filtre actuel.</li><li>7︎⃣ : nombre de projets associés à la balise spécifique.</li></ul></li></ul> |
 
 
 ### Suites de rapports
 
 | Suites de rapports | Description |
 |---|---|
-| ![Suite de rapports](assets/projects-filters-reportsuites.png){width="300"} | La section **[!UICONTROL Suites de rapports]** permet de filtrer les suites de rapports. <ul><li>Utilisez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des suites de rapports* pour rechercher les suites de rapports que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau de filtrage.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**3︎⃣** : nombre de suites de rapports disponibles pour les projets résultant du filtre actuel.</li><li>4︎⃣ : nombre de projets associés à la suite de rapports spécifique.</li></ul></li></ul> |
+| ![Suite de rapports](assets/projects-filters-reportsuites.png){width="300"} | La section **[!UICONTROL Suites de rapports]** permet de filtrer les suites de rapports. <ul><li>Utilisez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des suites de rapports* pour rechercher les suites de rapports que vous souhaitez utiliser pour filtrer.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau Filtrer.</li><li>Les chiffres indiquent ce qui suit :<ul><li>3︎⃣**: nombre de suites de rapports disponibles pour les projets résultant du filtre actuel.**</li><li>⃣ : nombre de projets associés à la suite de rapports spécifique.</li></ul></li></ul> |
 
 
 ### Propriétaires
@@ -157,6 +157,6 @@ Si l’espace est limité pour l’affichage des filtres individuels, le message
 
 * Pour supprimer un filtre, procédez comme suit :
 
-   1. Utilisez **[!UICONTROL *x * filtres]**![ChevronDown](/help/assets/icons/ChevronDown.svg) pour ouvrir un menu contextuel répertoriant les types de filtres et les filtres individuels.
-   1. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un filtre.
+  1. Utilisez **[!UICONTROL *x * filtres]**![ChevronDown](/help/assets/icons/ChevronDown.svg) pour ouvrir un menu contextuel répertoriant les types de filtres et les filtres individuels.
+  1. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer un filtre.
 

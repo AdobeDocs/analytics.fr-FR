@@ -38,11 +38,11 @@ Assurez-vous d’être préparé avec les éléments suivants :
 * Un développement [identifiant de suite de rapports](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Le domaine Edge souhaité pour [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Votre identifiant de l’organisation IMS :
-   1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
-   1. N’importe où dans l’interface CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
-   1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
-   1. Développez l’organisation IMS souhaitée.
-   1. Recherchez le champ **[!UICONTROL ID]**.
+  1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+  1. N’importe où dans l’interface CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
+  1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
+  1. Développez l’organisation IMS souhaitée.
+  1. Recherchez le champ **[!UICONTROL ID]**.
 
 Une fois que vous disposez des ressources ci-dessus, la page d’exemple de base suivante contient le minimum d’appels requis pour envoyer des données à Adobe Analytics :
 
@@ -98,9 +98,9 @@ Si vous définissez correctement `trackingServerSecure`, aucune autre mesure d�
 L’utilisation de la variable [`visitorID`](/help/implement/vars/config-vars/visitorid.md) permet à votre organisation de réaliser un contrôle indépendant et d’identifier les visiteurs. Si vous utilisez `visitorID`, notez les restrictions suivantes :
 
 * Chaque accès doit contenir la même valeur `visitorID` pour être comptabilisé comme un seul visiteur.
-   * Tous les accès qui omettent `visitorID` tentent automatiquement d’utiliser une autre méthode d’identification des visiteurs, en les traitant comme un visiteur distinct.
-   * Tous les accès contenant une valeur de `visitorID` différente d’un accès précédent sont traités comme un visiteur distinct.
-   * Adobe ne permet pas d’assembler des accès à l’aide de différents identifiants visiteur dans Adobe Analytics.
+  * Tous les accès qui omettent `visitorID` tentent automatiquement d’utiliser une autre méthode d’identification des visiteurs, en les traitant comme un visiteur distinct.
+  * Tous les accès contenant une valeur de `visitorID` différente d’un accès précédent sont traités comme un visiteur distinct.
+  * Adobe ne permet pas d’assembler des accès à l’aide de différents identifiants visiteur dans Adobe Analytics.
 * Les audiences partagées, Analytics for Target et les attributs du client ne sont pas pris en charge avec les visiteurs identifiés à l’aide de `visitorID`.
 
 Voir [`visitorID`](/help/implement/vars/config-vars/visitorid.md) pour obtenir des instructions d’implémentation à l’aide de cette variable.

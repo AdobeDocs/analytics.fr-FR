@@ -79,22 +79,22 @@ La fonction `manageVars` utilise les arguments suivants :
 
 * **`cb`** (obligatoire, chaîne) : nom d’une fonction de rappel utilisée par le plug-in pour manipuler les variables Analytics. Vous pouvez utiliser une fonction Adobe comme `cleanStr` ou votre propre fonction personnalisée.
 * **`l`** (facultatif, chaîne) : liste, délimitée par des virgules, de variables Analytics que vous souhaitez manipuler. La valeur par défaut est TOUTES les variables Adobe Analytics lorsqu’elle n’est pas définie, ce qui inclut :
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * Toutes les props
-   * Toutes les eVars
-   * Toutes les variables de hiérarchie
-   * Toutes les variables de liste
-   * Toutes les variables de données contextuelles
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * Toutes les props
+  * Toutes les eVars
+  * Toutes les variables de hiérarchie
+  * Toutes les variables de liste
+  * Toutes les variables de données contextuelles
 * **`Il`** (facultatif, booléen) : définissez cet argument sur `false` si vous souhaitez *exclure* la liste des variables déclarées dans l’argument `l` au lieu de l’inclure. La valeur par défaut est `true`.
 
 Lʼappel de cette fonction ne renvoie rien. En revanche, il modifie les valeurs des variables Analytics selon la fonction de rappel souhaitée.

@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 429
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -47,8 +47,8 @@ Vérifiez chacun des éléments suivants pour vous assurer que les composants Ac
 * **Version d’AppMeasurement** : Activity Map est pris en charge sur les versions 1.6 et ultérieures. De nombreux problèmes de cas Edge sont résolus lorsque vous effectuez une mise à niveau vers la dernière version stable d’AppMeasurement.
 * **Module Activity Map** : vérifiez si le module `AppMeasurement_Module_Activity_Map` est présent dans votre fichier `AppMeasurement.js`. Si votre implémentation utilise Adobe Experience Platform pour collecter des données, assurez-vous que la case **[!UICONTROL Activer ClickMap]** est cochée lors de la configuration de l’extension Analytics sous **[!UICONTROL Suivi des liens]**.
 * **Le cookie `s_sq`** : Activity Map dépend du cookie `s_sq` pour la collecte des données.
-   * Assurez-vous que la variable `cookieDomainPeriods` est correctement définie, en particulier pour les domaines régionaux tels que `*.co.uk` ou `*.co.jp`.
-   * Assurez-vous que la variable `linkInternalFilters` est définie sur les valeurs souhaitées. Si un lien cliqué ne correspond pas aux filtres internes, Activity Map le considère comme un lien de sortie et ne collecte pas de données.
+  * Assurez-vous que la variable `cookieDomainPeriods` est correctement définie, en particulier pour les domaines régionaux tels que `*.co.uk` ou `*.co.jp`.
+  * Assurez-vous que la variable `linkInternalFilters` est définie sur les valeurs souhaitées. Si un lien cliqué ne correspond pas aux filtres internes, Activity Map le considère comme un lien de sortie et ne collecte pas de données.
 * **incrustation Activity Map en cours d’exécution** : AppMeasurement ne suit pas les données de clic pour votre page web lorsque la superposition Activity Map est activée.
 
 Affiche les paramètres de navigateur qui ne sont pas compatibles avec l’utilisation d’Activity Map. Adobe recommande de désactiver ces paramètres.

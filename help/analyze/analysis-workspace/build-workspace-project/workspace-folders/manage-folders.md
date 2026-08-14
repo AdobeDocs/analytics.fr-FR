@@ -34,14 +34,14 @@ Pour renommer des dossiers dans Workspace :
 
 * Sélectionnez un dossier que vous souhaitez renommer dans la [liste des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Sélectionnez **[!UICONTROL Renommer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+  1. Sélectionnez **[!UICONTROL Renommer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
+  1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
 
 * Dans le dossier que vous souhaitez renommer.
 
-   1. Sélectionnez **[!UICONTROL Renommer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Sélectionnez **[!UICONTROL Renommer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
+  1. Dans la boîte de dialogue **[!UICONTROL Renommer : *nom de dossier *]**, saisissez un nouveau nom et sélectionnez&#x200B;**[!UICONTROL Enregistrer &#x200B;]**.
 
 
 ## Déplacement des dossiers
@@ -52,18 +52,18 @@ Pour déplacer des dossiers dans Workspace :
 
 * Sélectionnez un dossier que vous souhaitez déplacer, dans la [liste des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Sélectionnez **[!UICONTROL Déplacer vers]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
-   1. Dans la boîte de dialogue **[!UICONTROL Sélectionner un dossier]**, sélectionnez un dossier dans le menu déroulant **[!UICONTROL Dossier]** pour le déplacer.
+  1. Sélectionnez **[!UICONTROL Déplacer vers]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
+  1. Dans la boîte de dialogue **[!UICONTROL Sélectionner un dossier]**, sélectionnez un dossier dans le menu déroulant **[!UICONTROL Dossier]** pour le déplacer.
 
-   1. Sélectionnez **[!UICONTROL Déplacer]**.
+  1. Sélectionnez **[!UICONTROL Déplacer]**.
 
 * Dans le dossier que vous souhaitez déplacer.
 
-   1. Sélectionnez **[!UICONTROL Déplacer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Sélectionnez **[!UICONTROL Déplacer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans la boîte de dialogue **[!UICONTROL Sélectionner un dossier]**, sélectionnez un dossier dans le menu déroulant **[!UICONTROL Dossier]** pour le déplacer.
+  1. Dans la boîte de dialogue **[!UICONTROL Sélectionner un dossier]**, sélectionnez un dossier dans le menu déroulant **[!UICONTROL Dossier]** pour le déplacer.
 
-   1. Sélectionnez **[!UICONTROL Déplacer]**.
+  1. Sélectionnez **[!UICONTROL Déplacer]**.
 
 
 ## Suppression de dossiers
@@ -79,15 +79,15 @@ Pour supprimer des dossiers dans Workspace,
 
 * Sélectionnez un ou plusieurs dossiers que vous souhaitez supprimer dans la [liste des projets](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Sélectionnez **[!UICONTROL Supprimer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
+  1. Sélectionnez **[!UICONTROL Supprimer]** dans les [actions](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibles dans le menu contextuel ![Plus](/help/assets/icons/More.svg) du dossier sélectionné, ou dans la barre d’actions bleue.
 
-   1. Dans le **[!UICONTROL Êtes-vous sûr(e) ?]** , sélectionnez **[!UICONTROL OK]** pour supprimer les dossiers.
+  1. Dans le **[!UICONTROL Êtes-vous sûr(e) ?]** , sélectionnez **[!UICONTROL OK]** pour supprimer les dossiers.
 
 * Sélectionnez le dossier que vous souhaitez supprimer.
 
-   1. Sélectionnez **[!UICONTROL Supprimer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Sélectionnez **[!UICONTROL Supprimer le dossier]** dans ![Plus](/help/assets/icons/More.svg) dans la [zone de titre](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Dans le dossier **[!UICONTROL Supprimer *nom* ?]** , sélectionnez **[!UICONTROL OK]**.
+  1. Dans le dossier **[!UICONTROL Supprimer *nom* ?]** , sélectionnez **[!UICONTROL OK]**.
 
 
 <!-- 

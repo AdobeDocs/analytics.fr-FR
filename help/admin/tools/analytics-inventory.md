@@ -48,13 +48,13 @@ L’objectif de l’inventaire Analytics est de vous aider à répondre aux ques
 
 * Une fois que vous avez déterminé la ressource à migrer :
 
-   * Devriez-vous effectuer un nettoyage des ressources avant cette mise à niveau ?
+  * Devriez-vous effectuer un nettoyage des ressources avant cette mise à niveau ?
 
-   * Devriez-vous procéder à une consolidation des actifs dans le cadre du processus ?
+  * Devriez-vous procéder à une consolidation des actifs dans le cadre du processus ?
 
-   * Quelle doit être la séquence de mise à niveau de vos ressources ?
+  * Quelle doit être la séquence de mise à niveau de vos ressources ?
 
-   * Quelles suites de rapports devriez-vous mettre à niveau en premier ou en dernier ?
+  * Quelles suites de rapports devriez-vous mettre à niveau en premier ou en dernier ?
 
 ## Autorisations
 

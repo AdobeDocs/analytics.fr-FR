@@ -21,8 +21,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 15%
+source-wordcount: 784
+ht-degree: 11%
 
 ---
 
@@ -200,7 +200,7 @@ CARDS
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476886/?captions=fre_fr&learn=on&enablevpops)
 
-Intégrez [Adobe Experience League](https://experienceleague.adobe.com/fr?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
+Intégrez [Adobe Experience League](https://experienceleague.adobe.com/?lang=fr) pour accéder à la [documentation](https://experienceleague.adobe.com/fr/docs/analytics), [tutoriels](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview) et bien plus encore pour réussir.
 
 
 ## Adobe Admin Console
@@ -219,7 +219,7 @@ Intégrez la [gestion des utilisateurs de &#x200B;](https://adminconsole.adobe.c
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home?lang=fr#support).
+Intégrez Adobe Experience League pour [soulever un cas d’assistance, examiner les cas actifs et passés](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -232,7 +232,7 @@ Votre Parcours Adobe Analytics commence par l’intégration des configurations 
 
 Une fois l’intégration à Adobe Analytics et à ses plateformes associées terminée, envisagez d’explorer les ressources suivantes pour approfondir votre compréhension et améliorer vos compétences :
 
-1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Présentation d’Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Comprendre et créer des suites de rapports](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentation Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics)
 4. [Tutoriels et vidéos Adobe Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview)

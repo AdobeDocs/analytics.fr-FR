@@ -39,16 +39,16 @@ Modifiez les paramètres généraux de l’extension et des recouvrements.
 * **[!UICONTROL Nom de la page]** : affiche le nom de la page active.
 * **[!UICONTROL Langue]** : modifie la langue des libellés d’extension Activity Map. Ce paramètre ne modifie pas le contenu de votre site web ni les noms de liens dans les rapports. Les langues prises en charge sont l’anglais, le français, le chinois (simplifié), le chinois (traditionnel), l’allemand, le japonais, le coréen, l’espagnol et le portugais.
 * **[!UICONTROL Recouvrements de libellés avec]** : détermine ce qu’est le texte de bulle ou de gradient. Le paramètre par défaut est [!UICONTROL Rang]. Les options incluent ce qui suit :
-   * **[!UICONTROL Pas de libellé]** : pas de texte dans les libellés, ce qui en fait des zones colorées
-   * **[!UICONTROL Valeur]** : affiche le nombre de clics sur les liens ([Occurrences](/help/components/metrics/occurrences.md))
-   * **[!UICONTROL Pourcentage]** : affiche la proportion de clics sur les liens par rapport au nombre total de clics sur les liens de la page.
-   * **[!UICONTROL Classement]** : classement numérique du lien par nombre de clics sur le lien.
+  * **[!UICONTROL Pas de libellé]** : pas de texte dans les libellés, ce qui en fait des zones colorées
+  * **[!UICONTROL Valeur]** : affiche le nombre de clics sur les liens ([Occurrences](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Pourcentage]** : affiche la proportion de clics sur les liens par rapport au nombre total de clics sur les liens de la page.
+  * **[!UICONTROL Classement]** : classement numérique du lien par nombre de clics sur le lien.
 * **[!UICONTROL Taille de police des libellés]** : détermine la taille du texte dans la bulle ou le gradient.
 * **[!UICONTROL Couleur de dégradé]** : permet de modifier la couleur du dégradé lorsque le type de visualisation est [!UICONTROL Dégradé].
 * **[!UICONTROL Couleur de bulle]** : permet de modifier la couleur de la bulle lorsque le type de visualisation est [!UICONTROL Bulle].
 * **[!UICONTROL Dégradé de couleurs basé sur]** : détermine la mesure sur laquelle l’intensité de couleur d’un lien est basée lorsque le type de visualisation est [!UICONTROL Dégradé].
-   * **[!UICONTROL Classements des 30 premiers]** : l’intensité des couleurs est normalisée pour les 30 premiers liens.
-   * **[!UICONTROL Valeur de mesure absolue]** : l’intensité de la couleur est une fonction de la valeur de mesure absolue.
+  * **[!UICONTROL Classements des 30 premiers]** : l’intensité des couleurs est normalisée pour les 30 premiers liens.
+  * **[!UICONTROL Valeur de mesure absolue]** : l’intensité de la couleur est une fonction de la valeur de mesure absolue.
 * **[!UICONTROL Transparence des dégradés]** : détermine la transparence des superpositions de dégradés lorsque le type de visualisation est [!UICONTROL Dégradés]. Ce curseur vous permet de rendre la superposition de couleurs complètement transparente, complètement opaque ou n’importe où entre les deux.
 
 ## Paramètres standard
@@ -56,9 +56,9 @@ Modifiez les paramètres généraux de l’extension et des recouvrements.
 Ajustez les paramètres de la vue standard.
 
 * **[!UICONTROL Filtrage dynamique des données]** : permet de modifier les liens affichés.
-   * **[!UICONTROL Haut]** : affiche les liens les plus populaires. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens principaux à afficher. Les options incluent 1, 10, 50 et 100.
-   * **[!UICONTROL Bas]** : affiche les liens les moins populaires en fonction de la liste déroulante des nombres. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens inférieurs à afficher. Les options incluent 1, 10, 50 et 100.
-   * **[!UICONTROL Tous les liens]** : ne pas appliquer de filtrage dynamique des données. La liste déroulante numérique ne s’applique pas lorsque cette option est sélectionnée.
+  * **[!UICONTROL Haut]** : affiche les liens les plus populaires. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens principaux à afficher. Les options incluent 1, 10, 50 et 100.
+  * **[!UICONTROL Bas]** : affiche les liens les moins populaires en fonction de la liste déroulante des nombres. Utilisez la liste déroulante numérique à droite pour déterminer le nombre de liens inférieurs à afficher. Les options incluent 1, 10, 50 et 100.
+  * **[!UICONTROL Tous les liens]** : ne pas appliquer de filtrage dynamique des données. La liste déroulante numérique ne s’applique pas lorsque cette option est sélectionnée.
 * **[!UICONTROL Masquer les recouvrements pour les liens qui n’ont reçu aucun accès]** : les liens sur la page ne comportant aucun clic sur les liens n’affichent pas de recouvrement. Ces liens sont exclus du filtrage dynamique des données.
 
 ## Paramètres en direct

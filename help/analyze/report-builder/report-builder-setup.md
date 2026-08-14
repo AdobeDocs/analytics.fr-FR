@@ -44,9 +44,9 @@ Report Builder pour Adobe Analytics est pris en charge dans les systèmes d’ex
 
   Tous les utilisateurs de [!DNL Excel] de bureau Windows doivent installer Microsoft Edge Webview2 pour utiliser le complément. Pour installer le contrôleur :
 
-   1. Accédez à <https://aka.ms/webview2installer>.
-   1. Sélectionnez et téléchargez le programme dʼinstallation dʼEvergreen en mode autonome.
-   1. Suivez les invites dʼinstallation.
+  1. Accédez à <https://aka.ms/webview2installer>.
+  1. Sélectionnez et téléchargez le programme dʼinstallation dʼEvergreen en mode autonome.
+  1. Suivez les invites dʼinstallation.
 
 ### Office pour le web
 

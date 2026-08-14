@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 594
 ht-degree: 14%
 
 ---
@@ -50,12 +50,12 @@ Pour ajouter une ou plusieurs mesures
 
 Lorsque vous remplacez des mesures, tenez compte des recommandations suivantes :
 
-* Seules 1:1 substitutions sont autorisées. 1:many ou plusieurs:1 ne sont pas autorisés.
+* Seules les substitutions 1:1 sont autorisées. 1:many ou plusieurs:1 ne sont pas autorisés.
 * Si la mesure sélectionnée n’est pas présente dans l’une des requêtes sélectionnées, la requête reste inchangée.
 * La nouvelle mesure est placée au même emplacement que la mesure remplacée.
 
-   * **Dans une disposition de pivot**, si une demande de disposition de pivot génère la date, la visite, les visiteurs, le chiffre unique quotidien et *visiteurs* est remplacé par *chiffre d&#39;affaires*, la mise à jour de la disposition de la demande sera : date, visite, chiffre d&#39;affaires et nombre unique quotidien.
-   * **Dans une disposition personnalisée**, si la mesure *visiteurs* a été générée dans la cellule F11, la disposition de requête mise à jour affichera *revenu* dans la même cellule F11.
+  * **Dans une disposition de pivot**, si une demande de disposition de pivot génère la date, la visite, les visiteurs, le chiffre unique quotidien et *visiteurs* est remplacé par *chiffre d&#39;affaires*, la mise à jour de la disposition de la demande sera : date, visite, chiffre d&#39;affaires et nombre unique quotidien.
+  * **Dans une disposition personnalisée**, si la mesure *visiteurs* a été générée dans la cellule F11, la disposition de requête mise à jour affichera *revenu* dans la même cellule F11.
 
 * Si une opération est appliquée à la mesure de remplacement (moyenne, texte pré-ajouté, texte post-ajouté, création de microcartes), ces opérations sont également appliquées à la nouvelle mesure.
 

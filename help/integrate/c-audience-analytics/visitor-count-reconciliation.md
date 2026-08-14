@@ -50,7 +50,7 @@ Les mesures du visiteur sont les suivantes :
    <td colname="col3"> <p>Affiche le nombre de visiteurs uniques ayant atteint vos propriétés pendant la période de rapport. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Analytics : visiteurs avec Experience Cloud ID </p> </td> 
+   <td colname="col2"> <p>Analytics : Visiteurs avec un Experience Cloud ID </p> </td> 
    <td colname="col3"> <p>Affiche le nombre de visiteurs uniques avec un Experience Cloud ID qui ont atteint vos propriétés pendant la période de création de rapports. </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ La population de segments en temps réel de Adobe Audience Manager et les visite
   <tr> 
    <th colname="col1" class="entry"> Facteur </th> 
    <th colname="col2" class="entry"> Adobe Audience Manager : population de segments en temps réel </th> 
-   <th colname="col3" class="entry"> Analytics : visiteurs avec Experience Cloud ID </th> 
+   <th colname="col3" class="entry"> Analytics : Visiteurs avec un Experience Cloud ID </th> 
   </tr>
  </thead>
  <tbody> 

@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ Commencez par vous familiariser avec les objectifs de votre entreprise afin de c
 
 ## &#x200B;2. Posez la question cruciale
 
-Posez-vous la question suivante : si ma PDG était coincée sur une île déserte et que je ne pouvais lui communiquer que 5 informations concernant la santé de l’entreprise, qu’est-ce que je lui dirais ? Si vous lui disiez que le temps moyen passé sur une page était de 1:30, cela ne l&#39;aiderait pas du tout. Cependant, lui dire que les recettes moyennes par visite sont de 2 $ et que vous avez eu 2 millions de visites lui donnera une véritable indication du succès de l’entreprise.
+Posez-vous la question suivante : si ma PDG était coincée sur une île déserte et que je ne pouvais lui communiquer que 5 informations concernant la santé de l’entreprise, qu’est-ce que je lui dirais ? Si vous lui disiez que le temps moyen passé sur une page était de 1 h 30, cela ne l&#39;aiderait pas du tout. Cependant, lui dire que les recettes moyennes par visite sont de 2 $ et que vous avez eu 2 millions de visites lui donnera une véritable indication du succès de l’entreprise.
 
 ## &#x200B;3. N’oubliez pas ce que sont les KPI et ce qu’ils ne sont pas
 

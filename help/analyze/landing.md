@@ -43,7 +43,7 @@ La page de destination d’Adobe Analytics comprend les sous-onglets suivants :
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Page de destination d’Adobe Analysis](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -144,8 +144,8 @@ Utilisez la page Formation d’Adobe Analytics pour découvrir les fonctionnalit
 * **Filtrer le contenu :** l’icône Filtrer dans le rail de gauche permet de filtrer le contenu de formation par niveau d’expérience (débutant, intermédiaire ou avancé) et par type de contenu (document, vidéo ou visites guidées et tutoriels).
 * **Suivi de la progression :** après avoir sélectionné un élément de contenu, une balise **[!UICONTROL Consulté]** s’affiche. Cette balise vous permet de suivre votre progression au fil du contenu de formation. Vous pouvez sélectionner la balise **[!UICONTROL Consulté]** pour la supprimer d’un élément de contenu.
 * **Afficher le contenu supplémentaire :** pendant la lecture d’une vidéo, sélectionnez le bouton **[!UICONTROL En savoir plus]** pour afficher le contenu de la documentation associée sur Experience League. Ou, sur la page Formation, sélectionnez l’une des options suivantes pour afficher du contenu supplémentaire :
-   * **[!UICONTROL Visite YouTube] :** affichez la liste de lecture complète d’Analysis Workspace sur YouTube.
-   * [!UICONTROL **Visiter Experience League**] : consultez la suite complète de la documentation Adobe Analytics sur Experience League.
+  * **[!UICONTROL Visite YouTube] :** affichez la liste de lecture complète d’Analysis Workspace sur YouTube.
+  * [!UICONTROL **Visiter Experience League**] : consultez la suite complète de la documentation Adobe Analytics sur Experience League.
 * **Principes fondamentaux pour les nouveaux utilisateurs et les nouvelles utilisatrices :** la visite guidée sur les [!UICONTROL Principes fondamentaux de Workspace] est recommandée pour les nouveaux utilisateurs et les nouvelles utilisatrices. Cette visite guidée vous emmène directement dans Workspace et vous guide tout au long des actions les plus courantes. Cette visite guidée peut également être relancée à tout moment, et ce, directement dans Espace de travail, via la fenêtre pop-over de l’infobulle qui se trouve dans l’en-tête du panneau.
 
 ## Définir la page de destination {#set-landing}

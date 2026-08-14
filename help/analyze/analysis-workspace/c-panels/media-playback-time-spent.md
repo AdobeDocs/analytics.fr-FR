@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1192
+source-wordcount: 1197
 ht-degree: 84%
 
 ---
@@ -103,7 +103,7 @@ Vous pouvez configurer le panneau Durée de lecture des médias à lʼaide des p
 | Synthèse des chiffres des panneaux | Pour afficher les détails de date ou dʼheure relatifs à la durée de la lecture, une synthèse des chiffres est disponible. La valeur maximale affiche les détails concernant le pic d’accès simultanés. La valeur minimale affiche les détails du creux. La somme additionne la durée de lecture totale de la sélection. Le panneau nʼindique par défaut que la valeur maximale, mais vous pouvez modifier cette valeur par défaut et afficher la valeur minimale, la valeur totale ou une combinaison des trois valeurs.<br>Si vous utilisez des répartitions, une synthèse des chiffres s’affiche pour chacune d’elles. |
 | Répartition de la série | Vous pouvez éventuellement ventiler votre visualisation par filtres, dimensions, éléments de dimension ou périodes.<p>- Vous pouvez afficher jusqu’à 10 lignes à la fois. Les répartitions sont limitées à un seul niveau.</p><p>- Lorsque vous faites glisser une dimension, les principaux éléments de dimension sont automatiquement sélectionnés en fonction de la période du panneau sélectionnée.</p>- Pour comparer des périodes, faites glisser deux périodes ou plus dans le filtre de répartition de la série. |
 | Format de l’heure | Vous pouvez afficher le temps de lecture en `Hours:Minutes:Seconds` (par défaut) ou en `Minutes` (sʼaffiche en nombres entiers, arrondis à 0,5 vers le haut). |
-| Affichage de la séquence de dates | Si vous avez placé au moins deux filtres de période en tant que répartitions de série, lʼoption permettant de sélectionner superposition (par défaut) ou séquentiel sʼaffiche. La superposition affiche les lignes avec un point de départ commun sur lʼaxe X afin quʼelles se déroulent en parallèle. Séquentiel affiche les lignes avec leur point de départ spécifique sur lʼaxe X. Si les données s’alignent (par exemple, le filtre 1 se termine à 20 :44 et le filtre 2 commence à 20 :45), les lignes s’affichent dans l’ordre. |
+| Affichage de la séquence de dates | Si vous avez placé au moins deux filtres de période en tant que répartitions de série, lʼoption permettant de sélectionner superposition (par défaut) ou séquentiel sʼaffiche. La superposition affiche les lignes avec un point de départ commun sur lʼaxe X afin quʼelles se déroulent en parallèle. Séquentiel affiche les lignes avec leur point de départ spécifique sur lʼaxe X. Si les données s’alignent (par exemple, le filtre 1 se termine à 20h44 et le filtre 2 commence à 20h45), les lignes s’affichent dans l’ordre. |
 
 
 ![Vue par défaut du temps de lecture du playbook multimédia.](assets/mpts_default_view.png)

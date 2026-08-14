@@ -121,19 +121,19 @@ Parfois, les règles de traitement des canaux marketing sont mal configurées. I
 
 * **Les données du canal marketing sont collectées en temps réel** : les données du canal marketing sont traitées lors de la collecte des données et totalement permanentes. La modification des règles de traitement n’affecte pas les données rétroactivement.
 * **La modification des règles de traitement n’affecte pas immédiatement les données Première touche**. Par exemple :
-   1. Un utilisateur arrive par le biais de votre canal de courrier électronique, car il a été configuré de manière incorrecte, puis quitte votre site.
-   2. Le lendemain, vous modifiez la règle de traitement du courrier électronique pour la corriger.
-   3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
-   4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
+  1. Un utilisateur arrive par le biais de votre canal de courrier électronique, car il a été configuré de manière incorrecte, puis quitte votre site.
+  2. Le lendemain, vous modifiez la règle de traitement du courrier électronique pour la corriger.
+  3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
+  4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
 
   Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données Première touche sont continuellement collectées dans un canal incorrect jusqu’à l’expiration de l’engagement des visiteurs de tous les utilisateurs.
 
 La meilleure façon de remédier à ces divergences consiste à prendre l’une des mesures suivantes, ou les deux :
 
 * **Faire expirer manuellement toutes les périodes d’engagement des visiteurs** : ce paramètre fait expirer instantanément tous les canaux Première touche et Dernière touche de tous les visiteurs :
-   1. Accédez à Outils d’administration > Suites de rapports.
-   2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
-   3. Cliquez sur Tout faire expirer.
-   4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
+  1. Accédez à Outils d’administration > Suites de rapports.
+  2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
+  3. Cliquez sur Tout faire expirer.
+  4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
 
 * **Afficher uniquement les mesures Dernière touche à partir du moment où vous avez corrigé les règles** : les mesures Dernière touche suivent toujours l’ensemble de règles actuelles. L’affichage du moment à partir duquel vous avez modifié les règles de traitement reflète les règles de traitement les plus récentes.

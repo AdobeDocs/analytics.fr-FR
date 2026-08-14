@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 715
-ht-degree: 100%
+source-wordcount: 717
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ Vous pouvez modifier le délai de 30 minutes dans la définition d’une visite
 
 ## Visites s’étendant au-delà d’une limite de date
 
-Une visite compte pour chaque période impliquée. Par exemple, si une personne commence la navigation sur votre site le lundi à 23:45, puis envoie sa dernière demande d’image le mardi à 00:10, une visite est comptabilisée le lundi et une autre le mardi. Cependant, la mesure du total de visites est dédupliquée, n’affichant qu’une visite pour la période du projet.
+Une visite compte pour chaque période impliquée. Par exemple, si un visiteur commence à naviguer sur votre site le lundi à 23h45, puis envoie sa dernière demande d’image le mardi à 00h10, une visite attribuée à la fois au lundi et au mardi s’affiche. Cependant, la mesure du total de visites est dédupliquée, n’affichant qu’une visite pour la période du projet.
 
 ## Visites sur une dimension par rapport au nombre total de visites
 

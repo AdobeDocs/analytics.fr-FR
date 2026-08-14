@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
-source-wordcount: 1843
+source-wordcount: 1856
 ht-degree: 91%
 
 ---
@@ -203,7 +203,7 @@ Le panneau Audience moyenne par minute de média utilise uniquement la mesure d�
 >[!MORELIKETHIS]
 >
 > [Créer un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Panneau Observateurs simultanés de médias](media-concurrent-viewers.md)
+> [Panneau des visionneuses simultanées de médias](media-concurrent-viewers.md)
 > [Panneau Temps de lecture de média](media-playback-time-spent.md)
 >
 

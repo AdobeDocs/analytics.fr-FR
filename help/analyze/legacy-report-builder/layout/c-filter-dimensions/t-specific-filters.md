@@ -44,8 +44,8 @@ Vous pouvez rechercher des éléments de dimension spécifiques en créant un fi
 1. Activez l’une des options spécifiques suivantes :
 
    * **À partir d’une plage de cellules :** permet de sélectionner des données à partir de cellules. Vous pouvez sélectionner :
-      * **Toutes les cellules de la plage :** permet de mapper chaque cellule de la plage. Le texte descriptif explique le nombre de groupes de cellules que vous devez sélectionner. Pour mapper plusieurs groupes de cellules, appuyez sur la touche Ctrl pendant que vous effectuez des sélections successives. Si la plage qui doit être mappée contient une seule cellule, il s&#39;agit de la seule option disponible
-      * **Première cellule de la plage :** il vous suffit de sélectionner la cellule supérieure gauche de la plage, puis de choisir la direction des données. En outre, si la demande comporte plusieurs périodes, vous choisissez la direction des périodes et choisissez si vous souhaitez ignorer un nombre défini de cellules entre les périodes.
+     * **Toutes les cellules de la plage :** permet de mapper chaque cellule de la plage. Le texte descriptif explique le nombre de groupes de cellules que vous devez sélectionner. Pour mapper plusieurs groupes de cellules, appuyez sur la touche Ctrl pendant que vous effectuez des sélections successives. Si la plage qui doit être mappée contient une seule cellule, il s&#39;agit de la seule option disponible
+     * **Première cellule de la plage :** il vous suffit de sélectionner la cellule supérieure gauche de la plage, puis de choisir la direction des données. En outre, si la demande comporte plusieurs périodes, vous choisissez la direction des périodes et choisissez si vous souhaitez ignorer un nombre défini de cellules entre les périodes.
    * **De la liste :** permet de sélectionner des données dans une liste à laquelle vous pouvez ajouter des données.
 1. Si vous activez l’option **[!UICONTROL À partir de la liste]**, sélectionnez tout élément disponible dans la liste ou cliquez sur **[!UICONTROL Ajouter]**.
 

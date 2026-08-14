@@ -33,8 +33,8 @@ Les problèmes les plus courants lors du chargement de données de classificatio
 Les classifications nécessitent un type de fichier et un format spécifiques pour un chargement réussi. S’il n’est pas enregistré correctement, il génère une erreur et ne traite aucune ligne. L’erreur renvoyée est souvent *« La première colonne doit être la clé »*, mais le nombre d’erreurs peut varier. Assurez-vous de vérifier les éléments suivants :
 
 * **Téléchargement dʼune feuille de calcul (.xlsx) au lieu dʼun fichier .tab ou .txt** : vous pouvez obtenir le message dʼerreur *« La première colonne doit être la clé »* lorsque vous téléchargez des fichiers de classification dans un format incorrect. Lʼimportateur de classifications ne sait pas comment gérer les fichiers .xls ou .xlsx. Dans la boîte de dialogue « Enregistrer sous » d’Excel, définissez le type Enregistrer sous adéquat :
-   * Sous Windows, utilisez le format de fichier `Text (Tab delimited) (*.txt)`
-   * Sous Mac, utilisez le format de fichier `Windows Formatted Text`.
+  * Sous Windows, utilisez le format de fichier `Text (Tab delimited) (*.txt)`
+  * Sous Mac, utilisez le format de fichier `Windows Formatted Text`.
 * **Modification de l’extension de nom de fichier après son enregistrement en tant que classeur** : tenter de renommer directement une extension de fichier génère un classeur non valide. N’utilisez que la fonction Enregistrer sous d’Excel ou modifiez les classifications dans un éditeur de texte tel que Notepad++.
 * **Utilisation d’extensions en majuscules** : les extensions en majuscules (telles que `fileupload.TXT`) ne fonctionnent pas. Renommez le fichier afin que son extension soit en minuscules (`fileupload.txt`).
 * **Encodage de caractères discordants** : veillez à ce que l’encodage du transfert de classification enregistré corresponde à l’encodage d’origine lors du téléchargement du modèle. Si vous chargez un fichier UTF-16 alors que celui-ci était à l’origine encodé en UTF-8, les chargements produisent des résultats inattendus. Adobe recommande de charger des fichiers au format UTF-8 sans marque d’ordre d’octet.
@@ -50,8 +50,8 @@ Si le fichier téléchargé est correctement formaté, le chargeur tente d’imp
 * **Des tabulations supplémentaires dans le fichier chargé** : parfois, lors de la modification de fichiers de classification, une tabulation supplémentaire peut être accidentellement insérée. Chaque ligne nécessite un nombre identique de tabulations pour un traitement correct. Pour rechercher des tabulations supplémentaires dans le fichier, mettez en surbrillance tout le texte d’un éditeur de texte brut et assurez-vous qu’aucune ligne ne contient d’espace supplémentaire à la fin.
 * **Des valeurs de clé en double existent dans le fichier** : chaque valeur de clé ne peut avoir qu’une seule classification par colonne. Si vous tentez de classer la même valeur plusieurs fois, l’importateur renvoie une erreur.
 * **Des sous-classifications existent et sont mal configurées** : si des sous-classifications existent, vérifiez les points suivants :
-   * Toutes les valeurs de sous-classification disposent d’une valeur de classification parente
-   * Deux sous-classifications ne font pas référence à la même valeur de classification parente
+  * Toutes les valeurs de sous-classification disposent d’une valeur de classification parente
+  * Deux sous-classifications ne font pas référence à la même valeur de classification parente
 * **Incohérence du nombre de colonnes** : vous pouvez obtenir le message dʼerreur *« La clé à la ligne comporte trop de colonnes »* sʼil y a un nombre non valide de colonnes sur une ligne donnée. Par exemple, votre téléchargement de classification comporte 3 colonnes et la variable nʼa quʼune seule classification. Validez votre fichier de téléchargement pour vous assurer que le nombre de colonnes nʼest pas supérieur au nombre de classifications configurées pour cette variable.
 
 ## Résolution des problèmes d’importation FTP

@@ -62,10 +62,10 @@ En tant qu’administrateur, vous pouvez :
 * Utiliser tout événement personnalisé, événement de panier ou instance.
 * Afficher jusqu’à 2 heures de données historiques de temps réel et modifier ce paramètre :
 
-   * 15 dernières minutes : granularité d’une minute
-   * 30 dernières minutes : granularité d’une minute
-   * Dernière heure : granularité de deux minutes
-   * 2 dernières heures : granularité de quatre minutes
+  * 15 dernières minutes : granularité d’une minute
+  * 30 dernières minutes : granularité d’une minute
+  * Dernière heure : granularité de deux minutes
+  * 2 dernières heures : granularité de quatre minutes
 
 * Comparer par exemple les valeurs de la semaine dernière à celles de l’année dernière (ainsi qu’au total d’aujourd’hui).
 

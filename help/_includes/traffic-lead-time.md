@@ -58,9 +58,9 @@ Autres éléments à prendre en compte :
 * Si plusieurs suites de rapports démarrent ou augmentent en fonction des nombres répertoriés ci-dessus, le délai s’applique en tant que somme du trafic attendu pour chacune d’elles.
 * Vous devez disposer des informations suivantes pour envoyer une modification de trafic :
 
-   * Identifiant de suite de rapports
-   * Estimation des accès par jour
-   * Date de mise en production
+  * Identifiant de suite de rapports
+  * Estimation des accès par jour
+  * Date de mise en production
 
 * Des alertes clientèle sont également nécessaires lorsque le trafic diminue ou qu’une suite de rapports est obsolète.
 

@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: 971
 ht-degree: 92%
 
 ---
@@ -122,7 +122,7 @@ Dans le cadre des paramètres de visualisation, des paramètres spécifiques de 
 | **[!UICONTROL Afficher le pourcentage de comparaison ainsi que la tendance]** | Afficher ou masquer les données de comparaison. Lorsqu’ils sont masqués, les objets de modification de graphique en courbes de comparaison et de modification de résumé sont n’apparaissent pas dans la vue. |
 | **[!UICONTROL Afficher le nombre total]** | Afficher ou masquer la synthèse des chiffres |
 | **[!UICONTROL Afficher la différence brute]** | Afficher ou masquer la différence brute entre la valeur totale de la mesure dans la période Principale et la période secondaire |
-| **[!UICONTROL Abréger la valeur]** | Sélectionnez **[!UICONTROL Abréger la valeur]** pour abréger intelligemment la valeur numérique. Lorsque cette option est sélectionnée, saisissez un nombre pour définir le montant de l’abréviation. Par exemple :<br/><table><tr><td>**Valeur d’origine**</td><td>**Abréviation**</td><td>**Résultat**</td></tr><tr><td>$12,011,141.25</td><td>Non sélectionné</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 1</td><td align="right">12 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 2</td><td align="right">12,0 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 2</td><td align="right">12,011 M $</td></tr><tr><td>$12,011,141.25</td><td>Sélectionné, défini sur 3</td><td align="right">12,011 M $</td></tr></table> |
+| **[!UICONTROL Abréger la valeur]** | Sélectionnez **[!UICONTROL Abréger la valeur]** pour abréger intelligemment la valeur numérique. Lorsque cette option est sélectionnée, saisissez un nombre pour définir le montant de l’abréviation. Par exemple :<br/><table><tr><td>**Valeur d’origine**</td><td>**Abréviation**</td><td>**Résultat**</td></tr><tr><td>12 011 141,25 $</td><td>Non sélectionné</td><td align="right">12 011 141,25 $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 1</td><td align="right">12 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 2</td><td align="right">12,0 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 2</td><td align="right">12,011 M $</td></tr><tr><td>12 011 141,25 $</td><td>Sélectionné, défini sur 3</td><td align="right">12,011 M $</td></tr></table> |
 
 ## Modifier la visualisation
 

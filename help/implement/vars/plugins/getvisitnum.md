@@ -23,7 +23,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: 822
 ht-degree: 76%
 
 ---
@@ -96,9 +96,9 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 La fonction `getVisitNum` utilise les arguments suivants :
 
 * **`rp`** (facultatif, entier OU chaîne) : nombre de jours avant la réinitialisation du compteur de visites.  La valeur par défaut est `365` lorsqu’elle n’est pas définie.
-   * Lorsque cet argument est `"w"`, le compteur se réinitialise à la fin de la semaine (ce samedi à 23:59)
-   * Lorsque cet argument est défini sur `"m"`, le compteur se réinitialise à la fin du mois (le dernier jour de ce mois).
-   * Lorsque cet argument est défini sur `"y"`, le compteur se réinitialise à la fin de l’année (le 31 décembre).
+  * Lorsque cet argument est `"w"`, le compteur se réinitialise à la fin de la semaine (ce samedi à 23h59)
+  * Lorsque cet argument est défini sur `"m"`, le compteur se réinitialise à la fin du mois (le dernier jour de ce mois).
+  * Lorsque cet argument est défini sur `"y"`, le compteur se réinitialise à la fin de l’année (le 31 décembre).
 * **`erp`** (facultatif, booléen) : lorsque l’argument `rp` est un nombre, cet argument détermine si le délai d’expiration du nombre de visites doit être prolongé. S’il est défini sur `true`, les accès ultérieurs à votre site réinitialisent le compteur de visites. S’il est défini sur `false`, les accès ultérieurs à votre site ne se prolongent pas lorsque le compteur de visites est réinitialisé. La valeur par défaut est `true`. Cet argument n’est pas valide lorsque l’argument `rp` est une chaîne.
 
 Le nombre de visites augmente chaque fois que le visiteur revient sur votre site après 30 minutes d’inactivité. Lʼappel de cette fonction renvoie un nombre entier représentant le nombre de visites actuel du visiteur.
