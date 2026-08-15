@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ Ces notes de mise à jour couvrent la période de publication d’août 2026. Le
 | ----------- | ---------- | ---- |
 | **Extension Activity Map : actualisation de l’interface utilisateur** <br/>l’extension de recouvrement Activity Map a une apparence mise à jour, ainsi que des améliorations sous-jacentes qui prennent en charge les améliorations à venir.<p>Pour plus d’informations sur l’extension de recouvrement Activity Map, voir [Interface de l’extension Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 Août 2026<p>(Initialement prévu pour fin juillet)</p> |
 | **Améliorations de la zone de travail de Parcours**<br> Les améliorations de la zone de travail de Parcours suivantes sont désormais disponibles :<ul><li>Comparez le parcours à une période précédente. Comparez le parcours actuel au parcours 4 semaines avant, 2 trimestres avant, 1 an avant ou à une période personnalisée.</li><li>Pour un nœud sélectionné, affichez les principaux éléments de dimension qui se trouvent après le nœud sélectionné à tout moment dans le parcours. Utilisez cette option lorsque le nœud sélectionné est l’événement clé de votre analyse et que vous souhaitez voir ce que les personnes font à tout moment par la suite.<p>Auparavant, seuls les principaux nœuds immédiats pouvaient être affichés avant ou après le nœud sélectionné. </p></li><li>Modifiez la forme et le style des flèches entre les nœuds. Faites glisser des flèches entre les nœuds pour modifier la forme (courbure) de la flèche, puis cliquez avec le bouton droit sur une flèche pour modifier son style de l’une des manières suivantes : pleine, tirets, pointillés, tirets ou animés.</li></ul><p></p>Pour plus d’informations, consultez [Configuration d’une visualisation Zone de travail de parcours](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 Août 2026 |
+| **Limiter les segments à la période du rapport**<br/> Les données d’un rapport Workspace peuvent s’étendre au-delà de la période du rapport lorsqu’un segment inclut des composants de période.<p>Une nouvelle option est désormais disponible. Elle vous permet de limiter les résultats à la période du rapport, quels que soient les composants de date inclus dans le segment. <p>Cette option est disponible lors de la création ou de la modification d’un segment dont le conteneur de niveau supérieur est Visiteur.</p><p>Pour plus d’informations, voir [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 Août 2026 | 9 septembre 2026 |
 | **Référence des canaux marketing de l’API Analytics**<br/> Utilisez la référence des canaux marketing de l’API Adobe Analytics 2.0 pour récupérer les informations des canaux marketing Analytics. Consultez la [référence des canaux marketing de l’API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1Er Août 2026 |
 | **Guide du point d’entrée des canaux marketing de l’API Analytics**<br/> Le guide du point d’entrée des canaux marketing de l’API Adobe Analytics 2.0 fournit des instructions et des exemples pour l’utilisation du point d’entrée. Consultez le [guide du point d’entrée des canaux marketing de l’API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1Er Août 2026 |
 | **FAQ sur la fin de vie de l’API Analytics 1.4**<br/> La FAQ sur la fin de vie de l’API Analytics 1.4 fournit des informations sur le développement récent des API 2.0 pour aider les clients qui quittent les API 1.4. | | 10 Août 2026 |
