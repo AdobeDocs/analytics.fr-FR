@@ -147,7 +147,7 @@ Vous trouverez ci-dessous une liste des autorisations détaillées pour la déte
    <td colname="col3"> <p>10 jetons par mois </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/fr/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Oui </p> </td> 
    <td colname="col3"> <p>20 jetons par mois </p> </td> 
   </tr> 
