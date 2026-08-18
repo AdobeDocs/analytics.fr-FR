@@ -3,10 +3,10 @@ description: Découvrez comment configurer une visualisation de zone de travail 
 title: Configurer une visualisation de zone de travail de parcours
 feature: Visualizations
 role: User, Admin
-source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
+source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
-source-wordcount: '5926'
-ht-degree: 88%
+source-wordcount: '6557'
+ht-degree: 78%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;de cet article._
+_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -115,8 +115,9 @@ Pour configurer les paramètres de la visualisation de la zone de travail de par
    |---------|----------|
    | [!UICONTROL **Valeur en pourcentage**] | Valeur de pourcentage affichée sur chaque nœud du parcours.<p>![Valeur en pourcentage](assets/journey-canvas-percentage.png)</p> <p>Tenez compte des points suivants lors de la configuration des valeurs de pourcentage affichées sur les nœuds du parcours :</p><ul><li>Un pourcentage est affiché sur chaque nœud pour la mesure principale. Un pourcentage s’affiche également pour la mesure secondaire si l’une d’elles est configurée. (Pour plus d’informations sur les paramètres des mesures principales et secondaires, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li><li>Les pourcentages incluent toutes les personnes ou sessions incluses dans la suite de rapports au cours de la période du panneau. L’utilisation de _personnes_ ou _sessions_ dépend du paramètre de conteneur. (Pour plus d’informations sur le paramètre de conteneur, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choisissez l’une des options suivantes :</p> <ul><li>[!UICONTROL **Pourcentage du nœud de départ**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud de départ. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées. <p>Un _nœud de départ_ est un nœud qui n’est précédé d’aucun nœud connecté.</p><p>Un parcours peut contenir plusieurs nœuds de départ. Cependant, le paramètre [!UICONTROL **Pourcentage du total**] est utilisé si le parcours contient 2 nœuds de début ou plus menant à un nœud commun. Si vous souhaitez utiliser le paramètre [!UICONTROL **Pourcentage du nœud de départ**], mettez à jour le parcours de sorte que chaque nœud du parcours puisse être retracé jusqu’à un seul nœud de départ.</p></li><li>[!UICONTROL **Pourcentage du nœud précédent**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud précédent. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées.</li><li>[!UICONTROL **Pourcentage du total**] : calcule les pourcentages affichés sur chaque nœud par rapport à toutes les données de la suite de rapports. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées.</li></ul> |
    | [!UICONTROL **Paramètres des flèches**] | Les flèches qui s’affichent entre les nœuds dans la zone de travail de parcours peuvent être configurées pour afficher des libellés et des valeurs personnalisés. <p>![paramètres des flèches](assets/journey-canvas-arrow-settings.png)</p><p>Les _libellés_ sont des noms personnalisés que vous pouvez ajouter dans la zone de travail du Parcours, comme décrit dans la section [Ajouter ou mettre à jour un libellé sur une flèche](#add-or-update-a-label-on-an-arrow).</li></ol><p>Les _valeurs_ correspondent aux nombres et aux pourcentages qui apparaissent sur les flèches et elles indiquent les personnes ou les sessions qui sont passées d’un nœud au suivant dans le parcours. (En d’autres termes, celles qui n’ont pas quitté le parcours à une étape donnée.) </p><p>Les options disponibles sont les suivantes :</p><ul><li>[!UICONTROL **Aucun libellé**] : aucun libellé n’est affiché sur les flèches du parcours. </br> Cette option est disponible uniquement si le parcours a été modifié dans </li><li>[!UICONTROL **Libellés uniquement**] : les libellés sont affichés sur les flèches du parcours.</li></ul> |
+   | [!UICONTROL **Comparer à**] | Période utilisée pour comparer les données de parcours actuelles à une période précédente. Vous pouvez choisir l’une des périodes suivantes à des fins de comparaison :<ul><li>**[!UICONTROL 4 semaines avant]**</li><li>**[!UICONTROL 2 trimestres avant]**</li><li>**[!UICONTROL 1 an avant]**</li><li>**[!UICONTROL Période personnalisée]**</li></ul><p>Lorsque vous sélectionnez une période de comparaison, chaque nœud du parcours affiche le pourcentage de changement entre la période actuelle et la période de comparaison sélectionnée, en fonction de la mesure principale. Vous pouvez ainsi déterminer si les performances de votre parcours sont meilleures ou inférieures par rapport à une période précédente.</p> |
    | [!UICONTROL **Afficher les abandons**] | Les données d’abandons affichent un pourcentage et un nombre d’abandons de chaque nœud du parcours. Les données d’abandons sont basées sur la mesure associée aux paramètres du conteneur du parcours. Elles ne sont pas basées sur la mesure principale ou secondaire. <p>![abandon](assets/journey-canvas-fallout.png)</p><p>Par défaut, le conteneur est _Personne_, la mesure utilisée pour les données d’abandons est donc _Personnes_. Si le conteneur est défini sur _Session_, la mesure utilisée pour les données d’abandons est _Sessions_, et ainsi de suite.</p><p>Par exemple, avec le paramètre de conteneur _Personne_, les abandons affichent le pourcentage et le nombre de personnes sur chaque nœud du parcours qui ne sont jamais parvenues aux nœuds suivants immédiats. Il se peut qu’elle ait effectué d’autres actions sur le site, mais cela ne répondait aux critères définis par les nœuds venant juste après.</p> <p>Pour plus d’informations sur le paramètre du conteneur de zone de travail de parcours, consultez [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization). |
-   | **Contrôles de zoom** | Les contrôles de zoom suivants sont disponibles dans le coin supérieur droit de la zone de travail :<ul><li>**Zoom avant** ![icône de zoom avant](assets/zoom-in-icon.png) : permet d’agrandir des zones spécifiques de la visualisation.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</li><li>**Zoom arrière** ![icône de zoom arrière](assets/zoom-out-icon.png) : permet de réduire la visualisation pour laisser plus de place à la zone de travail.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</p></li><li>**Ajuster à l’écran** ![icône d’ajustement à l’écran](assets/fill-screen-icon.png) : permet d’ajuster les paramètres de zoom et de panoramique actuels pour remplir l’écran avec la visualisation complète.</li></ul><p>Pour effectuer un panoramique sur la zone de travail après un zoom avant ou arrière, cliquez avec la souris et faites glisser jusqu’à l’emplacement souhaité.</p> |
+   | **Contrôles** | Les commandes suivantes sont disponibles dans le coin supérieur droit de la zone de travail :<ul><li>**Ajuster à l’écran** ![icône d’ajustement à l’écran](assets/fill-screen-icon.png) : permet d’ajuster les paramètres de zoom et de panoramique actuels pour remplir l’écran avec la visualisation complète.</li><li>**Organiser** ![icône organiser](assets/organize.svg) : réorganise les nœuds pour minimiser les flèches qui se croisent et optimiser l’espacement, en fonction des connexions entre les nœuds. </li><li>**Zoom avant** ![icône de zoom avant](assets/zoom-in-icon.png) : permet d’agrandir des zones spécifiques de la visualisation.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</li><li>**Zoom arrière** ![icône de zoom arrière](assets/zoom-out-icon.png) : permet de réduire la visualisation pour laisser plus de place à la zone de travail.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</p></li></ul><p>Pour effectuer un panoramique sur la zone de travail après un zoom avant ou arrière, cliquez avec la souris et faites glisser jusqu’à l’emplacement souhaité.</p> |
 
 1. Continuez avec [Ajouter des nœuds](#add-nodes).
 
@@ -175,7 +176,7 @@ Pour créer des nœuds, procédez comme suit : en faisant glisser des composant
 
 ### Afficher les nœuds supérieurs en fonction des nœuds existants
 
-Vous pouvez afficher automatiquement les nœuds supérieurs immédiats en fonction des nœuds qui se trouvent déjà sur la zone de travail. Vous pouvez ajouter les nœuds supérieurs à la zone de travail de parcours ou les afficher dans un tableau à structure libre.
+Vous pouvez afficher automatiquement les principaux nœuds immédiats ou éventuels en fonction des nœuds qui se trouvent déjà sur la zone de travail. Vous pouvez ajouter les nœuds supérieurs à la zone de travail de parcours ou les afficher dans un tableau à structure libre.
 
 La zone de travail de parcours utilise la mesure principale lors de la détermination des nœuds à afficher.
 
@@ -187,13 +188,19 @@ Cette option est disponible pour les objets suivants sur la zone de travail :
 
 #### Afficher les nœuds supérieurs après un nœud existant
 
-Vous pouvez sélectionner un nœud et afficher les éléments de dimension supérieurs qui le suivent immédiatement dans le parcours. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
+Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou ultérieurs qui le suivent immédiatement. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
 
 1. Cliquez avec le bouton droit sur le nœud où vous souhaitez afficher les éléments de dimension supérieurs qui le suivent dans le parcours.
 
    Le nœud ne peut pas comporter de nœuds existants qui en sortent dans le parcours.
 
 1. Sélectionnez [!UICONTROL **Afficher les nœuds supérieurs après ce nœud**].
+
+1. Choisissez d’afficher les éléments de dimension qui apparaissent immédiatement ou ultérieurement après le nœud sélectionné :
+
+   * [!UICONTROL **Immédiatement après**] : affiche les principaux éléments de dimension qui se trouvent directement après le nœud sélectionné. Utilisez cette option lorsque vous souhaitez savoir ce qui s’est produit immédiatement après une étape donnée du parcours. Par exemple, vous pouvez voir la page que les personnes visitent immédiatement après avoir consulté une page de produit donnée.
+
+   * [!UICONTROL **Finalement après**] : affiche les principaux éléments de dimension qui suivent le nœud sélectionné à tout moment dans le parcours, pas nécessairement à l’étape suivante. Utilisez cette option lorsque le nœud sélectionné est l’événement clé de votre analyse et que vous souhaitez voir ce que les personnes font à tout moment par la suite. Par exemple, après un achat, vous pouvez voir les pages supérieures que les gens ont tendance à consulter à un moment ultérieur dans le parcours.
 
 1. Sélectionnez l’emplacement où vous souhaitez afficher les éléments de dimension :
 
@@ -207,13 +214,19 @@ Vous pouvez sélectionner un nœud et afficher les éléments de dimension supé
 
 #### Afficher les nœuds supérieurs avant un nœud existant
 
-Vous pouvez sélectionner un nœud et afficher les éléments de dimension supérieurs qui le précèdent immédiatement dans le parcours. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
+Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou éventuels qui le précèdent immédiatement. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
 
 1. Cliquez avec le bouton droit sur le nœud où vous souhaitez afficher les éléments de dimension supérieurs qui le précèdent dans le parcours.
 
    Le nœud ne peut pas comporter de nœuds existants qui y entrent dans le parcours.
 
 1. Sélectionnez [!UICONTROL **Afficher les nœuds supérieurs avant ce nœud**].
+
+1. Choisissez d’afficher les éléments de dimension qui précèdent immédiatement ou éventuellement le nœud sélectionné :
+
+   * [!UICONTROL **Juste avant**] : affiche les principaux éléments de dimension qui se trouvent directement avant le nœud sélectionné. Utilisez cette option pour savoir ce qui s’est passé juste avant une étape donnée du parcours. Par exemple, vous pouvez voir la page que les personnes visitent immédiatement avant de visiter une page de produit donnée.
+
+   * [!UICONTROL **Enfin avant**] : affiche les principaux éléments de dimension qui précèdent le nœud sélectionné à tout moment dans le parcours, et pas nécessairement à l’étape précédente. Utilisez cette option lorsque le nœud sélectionné est l’événement clé de votre analyse et que vous souhaitez voir ce que les personnes ont fait à tout moment avant de l’utiliser. Par exemple, avant un achat, vous pouvez voir les pages les plus visitées à tout moment dans le parcours.
 
 1. Sélectionnez l’emplacement où vous souhaitez afficher les éléments de dimension :
 
@@ -287,7 +300,9 @@ Vous pouvez effectuer l’une des opérations suivantes pour combiner des nœuds
 
 * Dans le rail de gauche, faites glisser plusieurs composants simultanément sur une zone vierge de la zone de travail tout en maintenant la touche Maj enfoncée.
 
-<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
+* Dans la zone de travail, sélectionnez les nœuds à combiner, cliquez avec le bouton droit sur l’un des nœuds sélectionnés, puis sélectionnez **Combiner des nœuds**. Existe-t-il une limite au nombre de combinaisons possibles ?
+
+  Pour sélectionner plusieurs nœuds, maintenez la touche Commande (sur Mac) ou Ctrl (sur Windows) enfoncée.
 
 #### Logique lors de la combinaison de nœuds
 
@@ -295,7 +310,7 @@ La logique appliquée aux nœuds lorsqu’ils sont combinés diffère selon les 
 
 >[!TIP]
 >
->Vous pouvez afficher la logique d’un nœud combiné en cliquant avec le bouton droit sur le nœud, puis en sélectionnant [!UICONTROL **Créer un segment depuis le nœud**]. La logique est affichée dans la section [!UICONTROL **Définition**].
+>Vous pouvez afficher la logique d’un nœud combiné en sélectionnant l’icône d’informations ou la flèche de liste déroulante sur le nœud.
 
 
 | Types de composants à combiner | Logique (opérateur) utilisée |
@@ -307,6 +322,12 @@ La logique appliquée aux nœuds lorsqu’ils sont combinés diffère selon les 
 | Dimension + mesure, période ou segment | Jonction avec AND |
 | Période + mesure, segment ou dimension | Jonction avec AND |
 | Segment + mesure, période ou dimension | Jonction avec AND |
+
+#### Séparer les composants des nœuds combinés
+
+Vous pouvez diviser les composants inclus dans un nœud combiné en leurs propres nœuds distincts :
+
+1. Cliquez avec le bouton droit sur le nœud à fractionner, puis sélectionnez [!UICONTROL **Séparer les composants en nœuds**].
 
 ### Connecter des nœuds
 
@@ -323,6 +344,8 @@ Les nœuds sont connectés par une flèche. La direction et la largeur de la fl�
 * **Largeur** : indique le volume en pourcentage d’un nœud par rapport à un autre
 
   ![Direction et largeur de flèche](assets/journey-canvas-arrow-width.png)
+
+Lorsqu’un parcours Journey Optimizer contient plusieurs chemins d’accès entre les deux mêmes nœuds (par exemple, différentes conditions menant à la même étape suivante), chaque chemin d’accès s’affiche sous la forme d’une flèche distincte.
 
 #### Logique lors de la connexion de nœuds
 
@@ -602,6 +625,39 @@ Pour réinclure un nœud exclu dans le parcours :
 1. Dans une visualisation de zone de travail de Parcours, cliquez avec le bouton droit sur le nœud exclu.
 
 1. Sélectionnez [!UICONTROL **Supprimer l’exclusion de parcours**].
+
+### Modification de la forme et du style des flèches entre les nœuds
+
+Vous pouvez modifier la courbure et le style des flèches entre les nœuds d’un parcours.
+
+#### Modification de la courbure d’une flèche
+
+Pour modifier la courbure d&#39;une flèche dans la zone de travail du Parcours :
+
+1. Dans une visualisation de zone de travail de Parcours, faites glisser une flèche entre deux nœuds.
+
+Pour réinitialiser une flèche à sa position par défaut :
+
+1. Cliquez avec le bouton droit sur la flèche à réinitialiser.
+
+1. Sélectionnez [!UICONTROL **Réinitialiser la position de la flèche**].
+
+   S’il existe plusieurs flèches entre les deux mêmes nœuds, toutes les flèches comprises entre ces nœuds sont réinitialisées à leur position par défaut.
+
+#### Modification du style d’une flèche
+
+Pour modifier le style d’une flèche dans la zone de travail du Parcours :
+
+1. Dans une visualisation de zone de travail de Parcours, cliquez avec le bouton droit sur la flèche entre les deux nœuds dont vous souhaitez modifier le style.
+
+1. Sélectionnez [!UICONTROL **Modifier le style de flèche**], puis sélectionnez l’un des styles suivants :
+
+   * [!UICONTROL **Continu**]
+   * [!UICONTROL **Tirets**]
+   * [!UICONTROL **Pointillés**]
+   * [!UICONTROL **Tiret-point**]
+   * [!UICONTROL **Animé**]
+
 
 ### Supprimer les flèches entre les nœuds
 
