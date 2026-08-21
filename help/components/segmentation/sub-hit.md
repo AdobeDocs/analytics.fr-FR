@@ -6,9 +6,9 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 576
+source-wordcount: 600
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Dans Adobe Analytics, l’analyse des sous-accès s’applique spécifiquement �
 
 Dans Adobe Analytics, la variable [Products](/help/components/dimensions/product.md) peut capturer plusieurs produits sur un seul accès. Sans analyse des sous-accès, la segmentation sur un attribut de produit renvoie tous les accès où n’importe quel produit d’un accès correspond à l’attribut de produit. Il en résulte une attribution incorrecte et des mesures de revenus exagérées. L’analyse des sous-accès étend le filtre à des lignes de produits individuelles au sein d’un accès et résout ces problèmes.
 
-Dans l’analyse de sous-accès, la logique d’exclusion se comporte différemment de l’exclusion au niveau de l’accès standard par rapport à la variable Products. Lorsque vous excluez des attributs de produit dans le conteneur [!UICONTROL Products], le segment renvoie des accès qui **contiennent des produits** mais ne correspondent pas à vos critères d’exclusion. Le segment ne renvoie pas d’accès sans produits du tout.
+Dans l’analyse de sous-accès, la logique d’exclusion se comporte différemment de l’exclusion au niveau de l’accès standard par rapport à la variable Products. Lorsque vous excluez des attributs de produit dans le conteneur [!UICONTROL Products], le segment renvoie des accès qui **contiennent des produits** mais ne correspondent pas à vos critères d’exclusion.
+
+Dans Adobe Analytics, chaque accès comporte des éléments de liste de produits, même si l’accès ne dispose pas d’un identifiant de produit. Par conséquent, la logique d’exclusion de l’analyse des sous-accès renvoie les accès sans produit du tout.
 
 ## Exemple
 
@@ -39,7 +41,8 @@ Dans le créateur de segments ou dans le cadre d’un **[!UICONTROL segment rapi
 
 ![Panneau présentant la segmentation au niveau de l’accès pour la catégorie de produits Hommes](./assets/product-category-segmentation-hits.png)
 
-Par conséquent, toutes les commandes contenant au moins une **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : catégorie de produits de mode]** sont prises en compte, et le chiffre d’affaires des autres produits de ces commandes est inclus dans la mesure **[!UICONTROL Chiffre d’affaires en ligne]**.Lorsque vous éditez des catégories, toutes les autres valeurs de **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont générées dans le cadre d&#39;une commande qui incluait un produit avec le **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]**.
+Par conséquent, toutes les commandes contenant au moins une **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : catégorie de produits de mode]** sont prises en compte, et le chiffre d’affaires des autres produits de ces commandes est inclus dans la mesure **[!UICONTROL Chiffre d’affaires en ligne]**.
+Lorsque vous éditez des catégories, toutes les autres valeurs de **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont générées dans le cadre d&#39;une commande qui incluait un produit avec le **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]**.
 
 >[!TAB  Analyse des sous-accès ]
 
@@ -47,7 +50,8 @@ Dans le créateur de segments ou dans le cadre d’un **[!UICONTROL segment rapi
 
 ![Panneau présentant la segmentation au niveau des sous-accès pour la catégorie de produits Hommes](./assets/product-category-segmentation-sub-hits.png)
 
-Par conséquent, toutes les commandes contenant au moins une **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont prises en compte et seuls les produits appartenant à la **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont inclus dans la mesure **[!UICONTROL Chiffre d’affaires en ligne]**.Lorsque vous créez des rapports sur les catégories, seule la **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** est indiquée.
+Par conséquent, toutes les commandes contenant au moins une **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont prises en compte et seuls les produits appartenant à la **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** sont inclus dans la mesure **[!UICONTROL Chiffre d’affaires en ligne]**.
+Lorsque vous créez des rapports sur les catégories, seule la **[!UICONTROL Hommes]** **[!UICONTROL Vente au détail : Catégorie de produits de mode]** est indiquée.
 
 >[!TAB Analyse des sous-accès (exclure)]
 
