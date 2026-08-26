@@ -4,24 +4,20 @@ description: Découvrez comment naviguer dans l’interface du flux de données.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
 source-wordcount: 1329
-ht-degree: 24%
+ht-degree: 22%
 
 ---
 
 # Gestion des flux de données {#manage-data-feeds}
 
-Le gestionnaire des flux de données vous permet de créer, de modifier et de supprimer des flux de données pour votre entreprise. Si vous disposez d’autorisations pour accéder au gestionnaire des flux de données, vous pouvez gérer les flux de données pour toutes les suites de rapports qui s’affichent.
+Le gestionnaire des flux de données vous permet de créer, modifier et annuler des flux de données pour votre organisation. Si vous disposez d’autorisations pour accéder au gestionnaire des flux de données, vous pouvez gérer les flux de données pour toutes les suites de rapports qui s’affichent.
 
 
 >[!BEGINSHADEBOX]
@@ -140,15 +136,15 @@ Pour activer un flux de données :
 
 1. Cochez la case en regard du flux de données inactif que vous souhaitez activer, puis sélectionnez [!UICONTROL **Activer**].
 
-## Suppression d’un flux de données
+## Annuler un flux de données
 
-Lorsque vous supprimez un flux de données, son statut est défini sur [!UICONTROL Supprimé]. Les flux de données doivent avoir le statut [!UICONTROL Actif] avant de pouvoir être supprimés.
+Lorsque vous annulez un flux de données, son statut est défini sur [!UICONTROL Annulé]. Les flux de données doivent avoir le statut [!UICONTROL Actif] avant de pouvoir être annulés.
 
-Pour supprimer un flux de données :
+Pour annuler un flux de données :
 
 1. Dans Adobe Analytics, sélectionnez [!UICONTROL **Admin**] > [!UICONTROL **Flux de données**].
 
-1. Cochez la case en regard du flux de données à supprimer, puis sélectionnez [!UICONTROL **Supprimer**].
+1. Cochez la case en regard du flux de données à annuler, puis sélectionnez [!UICONTROL **Annuler**].
 
 ## Trier et personnaliser les colonnes dans le gestionnaire des flux de données
 
@@ -179,10 +175,10 @@ Pour ajuster les colonnes visibles du tableau :
    * **Statut** : le statut du flux.
      * Actif : le flux est opérationnel.
      * En attente d’approbation : dans certaines circonstances, un flux nécessite l’approbation d’Adobe avant de pouvoir commencer à générer des tâches.
-     * Supprimé : le flux est supprimé.
+     * Annulé : le flux est annulé.
      * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
      * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.
-     * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [&#x200B; Activer un flux de données &#x200B;](#activate-a-data-feed).
+     * Inactif : équivaut à un état « en pause » ou « en attente ». Pour plus d’informations sur ce qui se passe avec les flux de renvoi et les flux actifs lorsqu’un flux inactif est réactivé, voir [ Activer un flux de données ](#activate-a-data-feed).
    * **Dernière modification** : date de la dernière modification du flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de début** : date du premier traitement de ce flux. La date et l’heure s’affichent dans le fuseau horaire de la suite de rapports avec décalage GMT.
    * **Date de fin** : date du dernier traitement de ce flux. Les flux de données continus ne possèdent pas de date de fin.
