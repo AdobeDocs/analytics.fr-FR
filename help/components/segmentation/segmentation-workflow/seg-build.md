@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 76%
+source-wordcount: 2082
+ht-degree: 72%
 
 ---
 
@@ -100,7 +100,18 @@ Pour ajouter un composant, procédez comme suit :
    * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
    * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, &#x200B;](/help/assets/icons/Segmentation.svg)Calendar **&#x200B;**&#x200B;DateRange![&#x200B; et &#x200B;](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![&#x200B; &#x200B;](/help/assets/icons/Layer.svg) **&#x200B;**. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
 1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou Saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
-1. Modifiez éventuellement l’opérateur par défaut. Par exemple, de **[!UICONTROL égal]** à **[!UICONTROL égal à n’importe lequel]**. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour une présentation détaillée des opérateurs disponibles.
+
+1. (Facultatif) Activez l’option pour [!UICONTROL **Limiter les résultats à la période du rapport**].
+
+   Les données d’un rapport Workspace peuvent s’étendre au-delà de la période de création de rapports si votre segment inclut des composants de période.
+
+   Activez cette option pour limiter les résultats à la période de création des rapports, quels que soient les composants de date inclus dans le segment.
+
+   Cette option s’affiche uniquement lorsque [!UICONTROL **Personne**] est sélectionné comme portée (conteneur) de votre définition dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
+
+   **REMARQUE** : cette fonctionnalité est en phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication de Customer Journey Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
+
+1. (Facultatif) Modifiez l’opérateur par défaut. Par exemple, de **[!UICONTROL égal]** à **[!UICONTROL égal à n’importe lequel]**. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour une présentation détaillée des opérateurs disponibles.
 
 Pour ajouter un composant, procédez comme suit :
 

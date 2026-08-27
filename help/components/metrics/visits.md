@@ -13,10 +13,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
-source-wordcount: 717
-ht-degree: 94%
+source-wordcount: 716
+ht-degree: 92%
 
 ---
 
@@ -68,4 +68,4 @@ Dans le contexte d’une dimension (par exemple, un [canal marketing](../dimensi
 
 ## Visites - Tous les visiteurs (Data Warehouse)
 
-La mesure « Visites - Tous les Visiteurs » est disponible dans Data Warehouse en plus de la mesure Visites. La mesure « Visites - Tous les Visiteurs » est comparable à la mesure « Visites » dans dʼautres outils Analytics. La mesure « Visites » dans Data Warehouse exclut les visiteurs qui nʼont pas de cookies persistants. Adobe recommande dʼutiliser « Visites - Tous les Visiteurs » dans les demandes de Data Warehouse lorsque les visites sont souhaitées comme mesure.
+La mesure « Visites - Tous les visiteurs » est disponible dans Data Warehouse au lieu de la mesure « Visites ». La mesure « Visites - Tous les Visiteurs » est comparable à la mesure « Visites » dans dʼautres outils Analytics. La mesure « Visites » dans Data Warehouse exclut les visiteurs qui nʼont pas de cookies persistants. Adobe recommande dʼutiliser « Visites - Tous les Visiteurs » dans les demandes de Data Warehouse lorsque les visites sont souhaitées comme mesure.
