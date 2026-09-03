@@ -4,15 +4,10 @@ description: Découvrez ce que sont les recherches dynamiques et comment les act
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: 'https://experienceleague.adobe.com/mjETTk3o2-H60wOWr6svwUtIY00-dsmDfnfd-mxtrdU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 306
@@ -42,13 +37,13 @@ Les recherches dynamiques vous permettent de recevoir des fichiers de recherche 
 Si vous souhaitez recevoir les fichiers Lookup mentionnés, vous devez remplir toutes les conditions préalables suivantes :
 
 * La colonne clé doit être incluse dans le flux de données.
-   * Par `carrier.tsv`, vous devez inclure `carrier`.
-   * Par `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
-   * Par `operating_system_type.tsv`, vous devez inclure `os`.
+  * Par `carrier.tsv`, vous devez inclure `carrier`.
+  * Par `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
+  * Par `operating_system_type.tsv`, vous devez inclure `os`.
 * Les colonnes suivantes doivent être **exclues**. Si l’une de ces colonnes est incluse dans le flux de données, la recherche dynamique `mobile_attributes.tsv` n’est pas incluse.
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 Une fois que votre flux de données répond aux exigences d’inclusion et d’exclusion des colonnes, contactez l’assistance clientèle en indiquant l’identifiant du flux de données et en demandant l’activation des recherches dynamiques.
 

@@ -5,8 +5,8 @@ feature: Calculated Metrics
 exl-id: 33cb441d-d003-408d-ba67-1bcdd0e821ff
 source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Cet article explique un exemple plus complexe de mesure calculée. Ces mesures c
 1. Sélectionnez la mesure **[!UICONTROL Commandes en ligne]** parmi les composants **[!UICONTROL Mesures]** et faites-la glisser dans la zone **[!UICONTROL Définition]**.
 
    1. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) pour la mesure.
-   1. Sélectionnez **[!UICONTROL Utiliser un modèle d’attribution autre que celui par défaut]**.
+   1. Sélectionnez **[!UICONTROL Utiliser le modèle d’attribution différent du modèle par défaut]**.
    1. Ajustez le modèle d’attribution dans le **[!UICONTROL Modèle d’attribution de colonne]**.
       1. Sélectionnez **[!UICONTROL Personnalisé]** pour **[!UICONTROL Modèle]**. Définissez **[!UICONTROL Starter]** sur `0`, **[!UICONTROL Player]** sur `100` et **[!UICONTROL Closer]** sur `0`.
       1. Sélectionnez **[!UICONTROL Visiteur]** pour **[!UICONTROL Conteneur]**.
@@ -29,7 +29,7 @@ Cet article explique un exemple plus complexe de mesure calculée. Ces mesures c
 
       1. Sélectionnez **[!UICONTROL Appliquer]**.
 
-      ![&#x200B; Modèle d’attribution de colonne &#x200B;](assets/complex-calculated-metric.png)
+      ![ Modèle d’attribution de colonne ](assets/complex-calculated-metric.png)
 
 1. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la mesure calculée.
 

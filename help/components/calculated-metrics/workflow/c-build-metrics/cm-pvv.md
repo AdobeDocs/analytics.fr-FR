@@ -5,7 +5,7 @@ feature: Calculated Metrics
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 source-git-commit: 0fbd80070051286f999af8eec9100f617cc498d5
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 17%
 
 ---
@@ -27,7 +27,7 @@ Les informations suivantes expliquent comment créer une mesure *Pages vues par 
 1. Vous pouvez afficher un **[!UICONTROL Aperçu]** de la mesure pendant que vous la créez.
 1. [Compatibilité des produits](/help/components/calculated-metrics/cm-compatibility.md) indique si la mesure est compatible avec les données actives ou uniquement avec les données entièrement traitées.
 
-   ![&#x200B; Mesure calculée simple &#x200B;](assets/simple-calculated-metric.png)
+   ![ Mesure calculée simple ](assets/simple-calculated-metric.png)
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
    Notez que la formule **[!UICONTROL Résumé]** se met à jour chaque fois que vous apportez une modification à la définition de mesure.

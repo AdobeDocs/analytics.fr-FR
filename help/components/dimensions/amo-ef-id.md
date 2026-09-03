@@ -4,15 +4,10 @@ description: Identifiant d’Adobe Media Optimizer EF, utilisé dans les intégr
 feature: Dimensions
 exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
 TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 299
@@ -22,7 +17,7 @@ ht-degree: 4%
 
 # AMO EF ID
 
-L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview).
+L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Renseignement de cette dimension avec des données
 
@@ -67,9 +62,9 @@ Les éléments Dimension incluent les identifiants de clics publicitaires géné
 * **`amovid`** : identifiant visiteur Adobe Advertising, également appelé identifiant surfer.
 * **`ts`** : date et heure générées par Adobe Advertising.
 * **`channel`** : type de canal responsable du clic ou de l’exposition :
-   * **`d`** : clic sur une publicité display DSP (clic publicitaire sur l’affichage).
-   * **`i`** : impression sur une publicité display DSP (affichage publicitaire).
-   * **`s`** : clic sur une publicité de recherche (clic publicitaire de recherche).
+  * **`d`** : clic sur une publicité display DSP (clic publicitaire sur l’affichage).
+  * **`i`** : impression sur une publicité display DSP (affichage publicitaire).
+  * **`s`** : clic sur une publicité de recherche (clic publicitaire de recherche).
 
 ### Exemples
 

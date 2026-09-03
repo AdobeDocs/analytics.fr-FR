@@ -4,15 +4,10 @@ description: L’exportation FTP offre plus de flexibilité au niveau des télé
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
 TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 632
@@ -30,10 +25,10 @@ Tenez compte des problèmes suivants lors de l’application des filtres de donn
 
 * Vous pouvez utiliser des caractères génériques lors de la définition du filtre de données. Utilisez un astérisque `*` pour mettre en correspondance zéro ou plusieurs caractères ou un point d’interrogation `?` pour mettre en correspondance un caractère exactement. Utilisez `?*` pour mettre en correspondance un ou plusieurs caractères.
 * En règle générale, lors de l’application des deux types de filtres de données à un téléchargement, seules les lignes correspondant aux deux règles sont téléchargées. Toutefois, les exceptions suivantes s’appliquent :
-   * Si Lignes avec colonne vides = Toutes les colonnes, toutes les colonnes vides à l’exception de celle qui est indiquée dans la première règle sont passées en revue. Cette exception garantit que l’outil télécharge toute ligne avec une colonne correspondant à la première règle dont toutes les autres colonnes sont vides.
-   * Lors du téléchargement de lignes de données sur la base de colonnes vides, toutes les colonnes vides, à l’exception de celles spécifiées dans la première règle, sont vérifiées.
-   * Si la même colonne est spécifiée pour les deux règles de filtrage (il est presque impossible de répondre aux deux critères), seules les lignes correspondant à la première règle sont téléchargées.
-   * Les exportations FTP sont limitées à 30 colonnes.
+  * Si Lignes avec colonne vides = Toutes les colonnes, toutes les colonnes vides à l’exception de celle qui est indiquée dans la première règle sont passées en revue. Cette exception garantit que l’outil télécharge toute ligne avec une colonne correspondant à la première règle dont toutes les autres colonnes sont vides.
+  * Lors du téléchargement de lignes de données sur la base de colonnes vides, toutes les colonnes vides, à l’exception de celles spécifiées dans la première règle, sont vérifiées.
+  * Si la même colonne est spécifiée pour les deux règles de filtrage (il est presque impossible de répondre aux deux critères), seules les lignes correspondant à la première règle sont téléchargées.
+  * Les exportations FTP sont limitées à 30 colonnes.
 
 ## Exporter des classifications via FTP
 
@@ -51,7 +46,7 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | Élément | Descriptions |
 | --- | --- |
 | [!UICONTROL Sélectionner une suite de rapports] | Sélectionnez la suite de rapports à partir de laquelle vous souhaitez exporter les données de rapport. |
-| [!UICONTROL Données à classer &#x200B;] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
+| [!UICONTROL Données à classer ] | Dans le menu déroulant, sélectionnez le jeu de données à classer. |
 | [!UICONTROL Sélectionner le nombre de lignes] | Indiquez le nombre de lignes de données à exporter.<ul><li>Sélectionnez **[!UICONTROL Tous]** pour télécharger toutes les données de rapport.</li><li>Sélectionnez **[!UICONTROL Limiter les lignes de données à]** si vous voulez indiquer un nombre spécifique de lignes à télécharger.</li></ul> |
 | [!UICONTROL Filtrer par date de réception] | (Facultatif) Filtrez les données selon la date de réception. Indiquez la période pour laquelle vous souhaitez télécharger les données. |
 | [!UICONTROL Appliquer un filtre de données] | (Facultatif) Filtrez le jeu de données selon des critères de données. Vous pouvez filtrer le téléchargement pour inclure des lignes de données contenant une valeur spécifique ou des valeurs de colonnes non attribuées (classification). |

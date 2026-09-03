@@ -4,18 +4,11 @@ title: Sous-classifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 682
@@ -46,15 +39,15 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 
 Pour plus d’informations sur le fichier de données, voir [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
-Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
+Les classifications à plusieurs niveaux comprennent les classifications parentes et enfants. Par exemple :
 
 ![](../assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique.
+**Classifications parentes** : une classification parente est une classification associée à une classification enfant. Une classification peut être une classification parente et enfant. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique.
 
-**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
+**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications enfants fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification enfant de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
-Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification fille utilise le format d’affectation de nom suivant :
+Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification enfant utilise le format d’affectation de nom suivant :
 
 `<parent_name>^<child_name>`
 

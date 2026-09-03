@@ -4,37 +4,11 @@ description: Glossaire pour Adobe Analytics, définition des termes courants uti
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 2638
@@ -48,8 +22,8 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 
 * **Activity Map :** module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Voir [Activity Map](/help/analyze/activity-map/overview.md) dans le guide d’utilisation Analyser.
 * **Admin Console :** peut faire référence :
-   * Aux outils d’administration hérités dans lesquels les paramètres des suites de rapports sont gérés dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient aussi gérées ici. Voir [Outils d’administration](/help/admin/tools/c-admin-tools.md) dans le guide d’utilisation destiné à l’administrateur.
-   * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
+  * Aux outils d’administration hérités dans lesquels les paramètres des suites de rapports sont gérés dans Adobe Analytics. Dans les versions précédentes d’Adobe Analytics, les autorisations d’utilisateur étaient aussi gérées ici. Voir [Outils d’administration](/help/admin/tools/c-admin-tools.md) dans le guide d’utilisation destiné à l’administrateur.
+  * À l’Adobe Admin Console, dans laquelle l’accès aux produits est configuré et les autorisations utilisateur sont gérées. Voir [Admin Console](/help/admin/admin-console/home.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Affectation :** si une variable de conversion rencontre plusieurs valeurs au cours d’une visite, le paramètre d’attribution de la variable détermine la valeur conservée. Voir [Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Analysis Workspace :** solution de navigateur pour créer des projets dʼanalyse personnalisés et fiables et démocratiser les informations. Voir [Présentation d’](/help/analyze/analysis-workspace/home.md) dans le guide des outils Analytics.
 * **Anomalie :** la détection des anomalies utilise la modélisation statistique pour détecter automatiquement les tendances imprévues dans les données. Le modèle analyse les mesures et détermine une limite inférieure, une limite supérieure et une plage de valeurs attendues. Voir [Détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) dans le Guide des outils Analytics.
@@ -59,12 +33,12 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Rebond :** visite consistant en un accès unique. Voir [Rebonds](/help/components/metrics/bounces.md) dans le guide d’utilisation des composants. Voir aussi Accès unique.
 * **Mesure calculée :** permet de combiner les mesures, fonctions statistiques et formules existantes pour les utiliser dans les rapports. Voir [Mesures calculées](/help/components/calculated-metrics/cm-overview.md) dans le guide d’utilisation des composants.
 * **Campagne :** peut faire référence :
-   * À la variable campaign, qui renseigne la dimension code de suivi. Voir [campaign](../implement/vars/page-vars/campaign.md) dans le guide d’utilisation de la mise en œuvre.
-   * À une classification par défaut de la dimension code de suivi créée automatiquement pour toutes les suites de rapports.
-   * Adobe Campaign, composant d’Adobe CX Enterprise. Plus d’informations, rendez-vous sur [Adobe.com](https://www.adobe.com/fr/marketing/campaign.html).
+  * À la variable campaign, qui renseigne la dimension code de suivi. Voir [campaign](../implement/vars/page-vars/campaign.md) dans le guide d’utilisation de la mise en œuvre.
+  * À une classification par défaut de la dimension code de suivi créée automatiquement pour toutes les suites de rapports.
+  * Adobe Campaign, composant d’Adobe CX Enterprise. Plus d’informations, rendez-vous sur [Adobe.com](https://www.adobe.com/fr/marketing/campaign.html).
 * **Canal :** peut faire référence :
-   * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
-   * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
+  * À la variable channel, qui renseigne la dimension Sections du site. Voir [Variables de page](/help/implement/vars/page-vars/page-variables.md) dans le guide d’utilisation de la mise en œuvre.
+  * Aux canaux marketing, composant permettant de comprendre comment les utilisateurs accèdent à votre site. Voir [Canaux marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) dans le guide d’utilisation des composants.
 * **Classification :** une fonctionnalité d’Adobe Analytics qui permet le regroupement d’éléments de dimension. Voir [Classifications](/help/components/classifications/classifications-overview.md) dans le guide d’utilisation des composants.
 * **Clickmap :** ce terme n’est plus utilisé. Module complémentaire du navigateur qui indique sur quelles zones de votre site les visiteurs cliquent le plus. Cet outil a été retiré au profit d’Activity Map.
 * **Flux de données de flux de clics** : voir flux de données.
@@ -95,8 +69,8 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Accès :** demande d’image unique envoyée aux serveurs de collecte de données Adobe. Les pages vues et les liens personnalisés peuvent tous deux être nommés accès.
 * **Demande d’image :** image transparente de 1x1 pixel utilisée pour communiquer avec les serveurs de collecte de données Adobe. Un site web demande cette image invisible avec une longue chaîne de requête contenant des données. Adobe renvoie l’image invisible et analyse la chaîne de requête reçue.
 * **Insight :** peut faire référence :
-   * À l’ancien nom de Data Workbench.
-   * À Custom Insight, le nom historique de la variable de trafic personnalisée.
+  * À l’ancien nom de Data Workbench.
+  * À Custom Insight, le nom historique de la variable de trafic personnalisée.
 * **IPC :** abréviation d’indicateurs clés de performance. Mesures qui aident une entreprise à comprendre les performances de son site. Chaque organisation a des IPC différents qui mesurent divers aspects de son activité. Voir [Création d’un document de conception de solution](/help/implement/prepare/solution-design.md) dans le guide d’utilisation de la mise en œuvre.
 * **Latence :** délai entre le moment où les données sont collectées et celui où elles sont disponibles dans les rapports. La latence type dans une suite de rapports est de 30 à 90 minutes. Voir [Latence](/help/technotes/latency.md) dans le guide d’utilisation des notes techniques.
 * **Launch** : ce terme n’est plus utilisé. Ancien nom raccourci des balises dans Adobe Experience Platform, la solution d’implémentation actuelle d’Adobe. Reportez-vous à la section [Présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) dans le guide de l’utilisateur d’Adobe Experience Platform.
@@ -116,8 +90,8 @@ Utilisez ce glossaire pour comprendre le contexte de nombreux termes utilisés p
 * **Persistance :** concept abstrait pour les variables de conversion permettant de lier une valeur de variable à un événement survenant au cours d’accès distincts. Voir aussi Expiration.
 * **Premier appel au serveur :** autre nom de la demande d’image ou de l’accès, utilisé principalement dans le contexte de la facturation et du balisage multisuite. Lorsqu’un même accès est envoyé à plusieurs suites de rapports, la première suite de rapports est un premier appel au serveur, tandis que les autres sont des deuxièmes appels au serveur. Cette règle s’applique à tous les types d’accès, y compris au suivi des pages vues et des liens. Voir aussi Deuxièmes appels au serveur.
 * **Règles de traitement :** peut faire référence :
-   * Aux règles de traitement, une manière de modifier la collecte de données à l’aide de certaines règles dans l’Admin Console. Voir [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dans le guide d’utilisation destiné à l’administrateur.
-   * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) dans le guide d’utilisation destiné à l’administrateur.
+  * Aux règles de traitement, une manière de modifier la collecte de données à l’aide de certaines règles dans l’Admin Console. Voir [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) dans le guide d’utilisation destiné à l’administrateur.
+  * Aux règles de traitement de canaux marketing, un ensemble de règles déterminant à quel canal marketing un accès appartient. Voir [Règles de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) dans le guide d’utilisation destiné à l’administrateur.
 * **Prop :** voir Variable de trafic.
 * **Rapport de classement :** format de rapport dans lequel une dimension est généralement suivie d’une mesure. Ce type de rapport permet de voir les éléments principaux, tels que les pages les plus consultées sur votre site. Voir aussi Rapport de tendances.
 * **Temps réel :** affiche les variables configurées dès qu’elles sont collectées avec une latence faible ou nulle. Voir [Rapports en temps réel](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) dans le guide d’utilisation destiné à l’administrateur.

@@ -6,27 +6,11 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1354
@@ -65,7 +49,7 @@ Les options de configuration suivantes sont actuellement disponibles pour les su
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Démarrage d’une nouvelle visite avec l’événement](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Démarrage d’une nouvelle visite avec l’événement](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -100,12 +84,12 @@ Les dimensions et mesures suivantes ne sont pas prises en charge avec le traitem
 Vous trouverez ci-dessous une liste des dimensions et des mesures affectées en fonction des paramètres de traitement de la période de rapport sélectionnés :
 
 * Si l’option « Empêcher les accès en arrière-plan de commencer une nouvelle visite » est activée, les modifications suivantes se produisent. Voir [Session contextuelle](vrs-mobile-visit-processing.md) pour plus d’informations.
-   * [**Rebonds**](/help/components/metrics/bounces.md) / [**Taux de rebond :**](/help/components/metrics/bounce-rate.md) les accès en arrière-plan qui ne sont pas suivis d’un accès au premier plan ne sont pas considérés comme des rebonds et ne contribuent pas au taux de rebond.
-   * [**Durée de la visite en secondes**](/help/components/metrics/time-spent-per-visit.md) : seules les visites qui incluent des accès de premier plan sont incluses dans cette mesure.
-   * **Durée de la visite** : seules les visites qui incluent des accès de premier plan sont incluses dans cette mesure.
-   * [**Mesure d’entrée**](/help/components/metrics/entries.md) / [**Mesure de sortie :**](/help/components/metrics/exits.md) seules les entrées et les sorties des visites avec des accès en premier plan apparaissent dans cette dimension.
-   * [**Dimension d’entrée**](/help/components/dimensions/entry-dimensions.md) / [**Dimensions de sortie :**](/help/components/dimensions/exit-dimensions.md) seules les entrées et les sorties des visites avec des accès au premier plan apparaissent dans cette dimension.
-   * [**Mesure Visiteurs uniques**](/help/components/metrics/unique-visitors.md) : les visiteurs uniques n’incluent pas les visiteurs qui n’ont eu que des accès en arrière-plan dans la plage de dates de création de rapports.
+  * [**Rebonds**](/help/components/metrics/bounces.md) / [**Taux de rebond :**](/help/components/metrics/bounce-rate.md) les accès en arrière-plan qui ne sont pas suivis d’un accès au premier plan ne sont pas considérés comme des rebonds et ne contribuent pas au taux de rebond.
+  * [**Durée de la visite en secondes**](/help/components/metrics/time-spent-per-visit.md) : seules les visites qui incluent des accès de premier plan sont incluses dans cette mesure.
+  * **Durée de la visite** : seules les visites qui incluent des accès de premier plan sont incluses dans cette mesure.
+  * [**Mesure d’entrée**](/help/components/metrics/entries.md) / [**Mesure de sortie :**](/help/components/metrics/exits.md) seules les entrées et les sorties des visites avec des accès en premier plan apparaissent dans cette dimension.
+  * [**Dimension d’entrée**](/help/components/dimensions/entry-dimensions.md) / [**Dimensions de sortie :**](/help/components/dimensions/exit-dimensions.md) seules les entrées et les sorties des visites avec des accès au premier plan apparaissent dans cette dimension.
+  * [**Mesure Visiteurs uniques**](/help/components/metrics/unique-visitors.md) : les visiteurs uniques n’incluent pas les visiteurs qui n’ont eu que des accès en arrière-plan dans la plage de dates de création de rapports.
 * [**Visites**](/help/components/metrics/visits.md) : les visites reflètent les paramètres configurés par la suite de rapports virtuelle, qui peuvent différer de ceux de la suite de rapports de base.
 * **Événements sérialisés avec identifiant d’événement** : les événements qui utilisent la sérialisation des événements avec un identifiant d’événement ne sont dédupliqués que pour les événements qui se produisent dans la plage de dates de création de rapports pour un visiteur. Ces événements ne sont pas dédupliqués de manière globale entre toutes les dates ou tous les visiteurs en raison du fenêtrage de dates de l’option Traitement de la période de rapport.
 * **Achats** / [**Chiffre d’affaires**](/help/components/metrics/revenue.md) / [**Commandes**](/help/components/metrics/orders.md) / [**Unités :**](/help/components/metrics/units.md) lorsque l’identifiant d’achat est utilisé, ces mesures ne sont dédupliquées que pour les identifiants d’achat en double qui se produisent au cours de la période de création des rapports pour un visiteur plutôt que pour toutes les dates ou tous les visiteurs dans le monde en raison du fenêtrage de la date de traitement de la période de rapport.

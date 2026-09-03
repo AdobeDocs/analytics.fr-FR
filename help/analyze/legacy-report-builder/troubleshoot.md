@@ -6,18 +6,10 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1471
@@ -50,8 +42,8 @@ L’effet secondaire suivant se produit lors de l’ouverture d’un classeur AR
 Le Report Builder requiert une authentification pour créer des requêtes de données à partir de vos suites de rapports. Parfois, la connexion à Report Builder peut rencontrer des problèmes en fonction de vos paramètres dans [!DNL Analytics] ou votre réseau.
 
 * **Société de connexion non valide** : cette erreur se produit généralement lorsque la société de connexion n’est pas saisie correctement ou en cas de problèmes réseau. Procédez comme suit :
-   * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
-   * Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
+  * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
+  * Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
 * **Pare-feu** : Report Builder utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
 
 ## Recommandations pour optimiser les requêtes {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -96,11 +88,11 @@ Cette section comprend un exemple de liste des messages d’erreur qui peuvent s
 * **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.** : Si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes Report Builder, ce message d’erreur s’affiche. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
 * **La plage sélectionnée chevauche une autre plage de la requête. Modifiez votre sélection.** : Cette erreur s&#39;affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
 * **Réparations du classeur (enregistrements supprimés : formule à partir de /xl/calcChain.xml)** : il arrive que les formules d’un classeur soient endommagées lors de l’enregistrement ou du transfert. Lors de l’ouverture du fichier, Excel tente d’exécuter ces formules et échoue. Vous pouvez résoudre ce problème en supprimant `calcChain.xml` de la feuille de calcul, ce qui force Excel à actualiser ses calculs de formule.
-   1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
-   2. Décompressez le contenu et ouvrez le dossier `/xl/`.
-   3. Supprimer `calcChain.xml`.
-   4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
-   5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
+  1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
+  2. Décompressez le contenu et ouvrez le dossier `/xl/`.
+  3. Supprimer `calcChain.xml`.
+  4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
+  5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
 * **Les cellules Excel associées aux filtres d’entrée ou une plage de sortie peuvent avoir été supprimées** : Report Builder utilise des noms Excel pour joindre des requêtes de données aux cellules. Si vous supprimez des noms Excel dans le Gestionnaire de noms, cette erreur apparaît. Les requêtes ne peuvent pas être récupérées si des noms Excel sont supprimés. Si le classeur a été planifié, vous pouvez télécharger une copie à partir du Gestionnaire de planification ou ouvrir des copies du classeur précédemment diffusées.
 
 ## Enregistrer les requêtes

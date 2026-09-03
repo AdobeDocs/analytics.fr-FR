@@ -5,17 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
 source-wordcount: 569
@@ -33,7 +25,7 @@ Le guide des outils Analytics contient des informations sur les fonctionnalités
 |-----------|----------------|
 | **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** | Analysis Workspace est un outil de navigation flexible qui vous permet de créer rapidement des analyses et de partager des informations. L’interface par glisser-déposer vous permet de concevoir votre analyse, d’ajouter des visualisations pour donner vie aux données, de traiter un jeu de données, de partager et de planifier des projets avec toute personne de votre organisation. |
 | **[Tableaux de bord Analytics](/help/analyze/mobile-app/home.md)** | Les tableaux de bord permettent aux utilisateurs et utilisatrices en charge de lʼexécution de visualiser rapidement et facilement un large rendu de données récapitulatives importantes sur leurs propres appareils mobiles. Les éditeurs et les éditrices ajoutent des visualisations aux projets de carte de performance mobile et les partagent avec les cadres.  <br>Les cartes de performance permettent de cibler et de mesurer les KPI et indiquent clairement la façon dont les organisations s’efforcent d’atteindre leurs cibles. |
-| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement de l’audience de vos pages web. <br>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients et des clientes, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.&quot; |
+| **[Activity Map](/help/analyze/activity-map/overview.md)** | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à er l’engagement de l’audience de vos pages web. <br>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients et des clientes, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.&quot; |
 | **[Report Builder](/help/analyze/report-builder/rb-overview.md)** | Le nouveau module complémentaire Report Builder pour Microsoft Excel est pris en charge par Mac, Windows et les navigateurs web. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. |
 | **[Report Builder hérité](/help/analyze/legacy-report-builder/home.md)** | Le Report Builder hérité est un module complémentaire pour Microsoft Excel, pris en charge uniquement par Microsoft Windows. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. |
 | **[API Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/?lang=fr)** | Les API Analytics vous permettent d’appeler directement les serveurs d’Adobe afin d’effectuer la plupart des actions que vous pouvez effectuer dans l’interface utilisateur. Vous pouvez créer des rapports pour explorer vos données, obtenir des informations ou répondre à des questions importantes à leur sujet. Vous pouvez également gérer les composants d’Adobe Analytics, tels que la création de segments ou de mesures calculées. |
@@ -47,7 +39,7 @@ Voir le webinaire ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pr
 
 >[!ENDSHADEBOX]
 
-Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
+Pour plus d’informations sur l’outil à utiliser, voir la section [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
 ## Guides de l’utilisateur d’Analytics
 
@@ -55,7 +47,7 @@ Pour plus d’informations sur les fonctionnalités d’Adobe Analytics et leur 
 
 ## Principales ressources Analytics
 
-* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
 * [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Experience League](https://experienceleague.adobe.com/fr)

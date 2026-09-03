@@ -5,18 +5,12 @@ title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 TQID: 'https://experienceleague.adobe.com/bTksilYRAeqiQ-QbO6-NZLWUndN76VzXnOobkAji1zo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: 1508
 ht-degree: 73%
 
 ---
@@ -87,11 +81,11 @@ Pour les renvois datant de plus de 10 jours, Adobe recommande vivement d’utili
 
 ## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#dst}
 
-Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 2 :00 du matin).
+Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02 h 00).
 
-Lorsque vous effectuez des transitions de temps STD -> DST (printemps vers l&#39;avant), vous recevez 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, vous obtenez un fichier pour la :00 heure et un fichier pour la troisième :00. Il n&#39;y a pas de fichier 2:00 car, à 2:00 STD, il devient 3:00 DST.
+Lorsque vous effectuez des transitions de temps STD -> DST (printemps vers l&#39;avant), vous recevez 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, vous obtenez un fichier pour l’heure 1:00 et un fichier pour l’heure 3:00. Il n’y a pas de fichier pour 02 h 00, car à 02 h 00 STD, il devient 03 h 00 DST.
 
-Lorsque vous effectuez des transitions DST -> STD (secours), vous recevez 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si la transition a lieu à 2 heures du matin:00 le fichier correspondant à 1 :00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données allant de 1:00 DST à 2:00 STD (ce qui aurait été 3:00 DST). Le fichier suivant commence à 2:00 STD.
+Lorsque vous effectuez des transitions DST -> STD (secours), vous recevez 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02 h 00, le fichier correspondant à 01 h 00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données de 1 h 00 DST à 2 h 00 STD (ce qui aurait été 3 h 00 DST). Le fichier suivant commence à 02 h 00 STD.
 
 ## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
 

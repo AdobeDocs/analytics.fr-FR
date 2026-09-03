@@ -4,14 +4,10 @@ description: Découvrez comment utiliser les règles des jeux de classifications
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1692
@@ -37,21 +33,21 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
 
    * Si vous accédez à l’interface **[!UICONTROL Rules]** pour la première fois pour un ensemble de classifications, ou si vous avez décidé jusqu’à présent de continuer à utiliser l’interface du créateur de règles héritée, une boîte de dialogue s’affiche et vous permet de sélectionner comment commencer. Les options sont les suivantes :
 
-      * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
-         * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
-         * Dans la boîte de dialogue **[!UICONTROL Confirmer la migration]**, lisez les implications de la migration.
-            * Sélectionnez **[!UICONTROL Migrer les règles]** pour confirmer la migration. Une fois la migration terminée, utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer de nouvelles règles et modifier vos règles migrées existantes.
-            * Sélectionnez **[!UICONTROL Annuler]** pour annuler la migration
+     * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
+       * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
+       * Dans la boîte de dialogue **[!UICONTROL Confirmer la migration]**, lisez les implications de la migration.
+         * Sélectionnez **[!UICONTROL Migrer les règles]** pour confirmer la migration. Une fois la migration terminée, utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer de nouvelles règles et modifier vos règles migrées existantes.
+         * Sélectionnez **[!UICONTROL Annuler]** pour annuler la migration
 
-      * **Recommencer**. Créez de toutes pièces des règles de classification à l’aide du nouveau créateur de règles. Sélectionnez cette option si vous souhaitez reconcevoir votre logique de classification ou repartir de zéro avec de nouvelles règles de classification.
-         * Sélectionnez **[!UICONTROL Créer de nouvelles règles]** pour continuer.
-         * Dans la boîte de dialogue **[!UICONTROL Confirmer le nouveau démarrage]**, lisez les implications d’un nouveau démarrage.
-            * Sélectionnez **[!UICONTROL Démarrer à nouveau]** pour confirmer un nouveau démarrage et ignorer les règles existantes. Utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer des règles.
-            * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
+     * **Recommencer**. Créez de toutes pièces des règles de classification à l’aide du nouveau créateur de règles. Sélectionnez cette option si vous souhaitez reconcevoir votre logique de classification ou repartir de zéro avec de nouvelles règles de classification.
+       * Sélectionnez **[!UICONTROL Créer de nouvelles règles]** pour continuer.
+       * Dans la boîte de dialogue **[!UICONTROL Confirmer le nouveau démarrage]**, lisez les implications d’un nouveau démarrage.
+         * Sélectionnez **[!UICONTROL Démarrer à nouveau]** pour confirmer un nouveau démarrage et ignorer les règles existantes. Utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer des règles.
+         * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
 
-      * **Utiliser l’interface héritée**. Continuez à utiliser l’interface précédente du créateur de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque vous êtes prêt(e).
-         * Sélectionnez **[!UICONTROL Accéder à l’interface héritée]** pour continuer. Vous accédez à l’interface héritée **[!UICONTROL Créateur de règles de classification]**.
+     * **Utiliser l’interface héritée**. Continuez à utiliser l’interface précédente du créateur de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque vous êtes prêt(e).
+       * Sélectionnez **[!UICONTROL Accéder à l’interface héritée]** pour continuer. Vous accédez à l’interface héritée **[!UICONTROL Créateur de règles de classification]**.
 
    * Si vous avez déjà migré des règles ou créé de nouvelles règles pour un ensemble de classifications, vous accédez directement à l’interface Ensemble de règles .
 
@@ -82,7 +78,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -175,7 +171,7 @@ Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que v
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -234,7 +230,7 @@ Vous souhaitez définir une règle pour affecter des valeurs aux classifications
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -324,7 +320,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
