@@ -15,10 +15,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
+source-git-commit: 31fb96e33bec21fd80b5ccaf2d46f607c25d880d
 workflow-type: tm+mt
 source-wordcount: 2164
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -151,11 +151,11 @@ Pour configurer la destination vers laquelle les rapports de Data Warehouse son
 
       +++
 
-      +++E-mail
+      +++Adresse électronique
 
       >[!NOTE]
       >
-      >Les comptes d’e-mail ne peuvent être utilisés qu’avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md). (Les comptes d’e-mail ne sont pas pris en charge avec [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) ou les [jeux de classifications](/help/components/classifications/sets/overview.md)).
+      >Les comptes de messagerie ne peuvent être utilisés qu’avec Data Warehouse. (Les comptes de messagerie ne sont pas pris en charge avec les [Flux de données](/help/export/analytics-data-feed/create-feed.md) ou [Ensembles de classifications](/help/components/classifications/sets/overview.md)).
 
       Pour configurer un compte Azure RBAC, spécifiez les informations suivantes :
 
