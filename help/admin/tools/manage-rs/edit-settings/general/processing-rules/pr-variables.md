@@ -6,11 +6,18 @@ feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 723
@@ -77,7 +84,7 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 
 ## Variables contextuelles
 
-Toutes les [ variables de données contextuelles ](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
+Toutes les [&#x200B; variables de données contextuelles &#x200B;](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
 
 >[!IMPORTANT]
 >
@@ -92,7 +99,7 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | **Commandes** | En écriture seule | La mesure [Commandes](/help/components/metrics/orders.md). |
 | **Paniers** | En écriture seule | La mesure [Paniers](/help/components/metrics/carts.md). |
 | **Consultations du panier** | En écriture seule | La mesure [Vues du panier](/help/components/metrics/cart-views.md). |
-| **Passages en caisse** | En écriture seule | La mesure [ Passages en caisse ](/help/components/metrics/checkouts.md). |
+| **Passages en caisse** | En écriture seule | La mesure [&#x200B; Passages en caisse &#x200B;](/help/components/metrics/checkouts.md). |
 | **Ajouts au panier** | En écriture seule | La mesure [Ajouts au panier](/help/components/metrics/cart-additions.md). |
 | **Retraits du panier** | En écriture seule | La mesure [Retraits du panier](/help/components/metrics/cart-removals.md). |
 | **Événement 1-1000** | En écriture seule | [Événements personnalisés](/help/components/metrics/custom-events.md). |

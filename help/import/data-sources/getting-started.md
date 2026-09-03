@@ -5,11 +5,19 @@ exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
 role: Admin
 TQID: 'https://experienceleague.adobe.com/ekoyQHdhFXTc4bbOReIbGc-CKnhA3--laugeI91RvnU'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2: id: f46a60da-b0b2-4ca3-bd91-271173f4123d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2:
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 678
@@ -61,7 +69,7 @@ Vous pouvez suivre les étapes suivantes pour charger facilement des données d�
    ```
 
 1. Enregistrez le fichier. Vous pouvez éventuellement lui donner un nom de fichier différent. Une fois le fichier enregistré, vous pouvez fermer l’éditeur de texte.
-1. Dans l’Explorateur Windows, le Finder ou le client FTP de votre choix, accédez à [](ftp://ftp.omniture.com).
+1. Dans l’Explorateur Windows, le Finder ou le client FTP de votre choix, accédez à [&#128279;](ftp://ftp.omniture.com).
 1. Lorsque vous êtes invité à fournir vos informations de connexion, utilisez le nom d’utilisateur et le mot de passe fournis à la dernière étape de l’assistant de création de source de données. Vous pouvez y faire à nouveau référence en accédant à [!UICONTROL Sources de données] et en cliquant sur **[!UICONTROL Infos FTP]** en regard de la source de données que vous avez créée.
 1. Une fois authentifié, faites glisser le fichier que vous avez modifié dans la fenêtre du FTP authentifié.
 1. Créez un fichier texte vide à n’importe quel emplacement en dehors de la fenêtre FTP. Donnez-lui le même nom de fichier que le fichier des sources de données que vous avez chargé sur le site FTP, à une exception près. Au lieu d’un type de fichier `.txt`, donnez-lui un type de fichier `.fin`. Assurez-vous que les paramètres de votre système d’exploitation vous permettent d’afficher et de modifier les types de fichiers.
@@ -71,7 +79,7 @@ Vous pouvez suivre les étapes suivantes pour charger facilement des données d�
 1. Accédez à Analysis Workspace et créez un projet.
 1. Faites glisser eVar1 en tant que dimension vers la zone de travail de l’espace de travail et l’événement 1 en tant que mesure. Assurez-vous que la période Workspace inclut les dates que vous avez fournies dans la source de données.
 
-   ![ Exemple de rapport ](assets/success-report.png)
+   ![&#x200B; Exemple de rapport &#x200B;](assets/success-report.png)
 
 ## Étapes suivantes
 

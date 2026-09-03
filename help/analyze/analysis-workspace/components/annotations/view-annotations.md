@@ -5,10 +5,16 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 TQID: https://experienceleague.adobe.com/ygnFKygSc1tTf-oH8qiMEBtGrMUZDhp3qxZCZr8okhc
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 211
@@ -24,8 +30,8 @@ Les annotations se présentent de manière légèrement différente, selon leur 
 
 | Type de <br/>visualisation | Description |
 | --- | --- |
-| **Graphique linéaire **<br/>**Un seul jour** | Lorsque vous sélectionnez ![Annoter](/help/assets/icons/Annotate.svg) dans un graphique linéaire, une fenêtre contextuelle contenant les détails de l’annotation s’affiche.<br/>![Annotation pour un seul jour](assets/annotation-single-day.png)<br/>Pour modifier l’annotation dans le [créateur d’annotations](create-annotations.md#annotation-builder), sélectionnez ![Modifier](/help/assets/icons/Edit.svg). Pour supprimer l’annotation, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg). |
-| **Graphique linéaire **<br/>**Période** | Lorsque vous sélectionnez ![Annoter une période](/help/assets/icons/AnnotateRange.svg), une fenêtre contextuelle contenant les détails de l’annotation s’affiche, ainsi qu’une ligne située en dessous qui indique la période.<br/>![Annotation de période](assets/annotation-range.png)Pour modifier l’annotation dans le [créateur d’annotations](create-annotations.md#annotation-builder), sélectionnez ![Modifier](/help/assets/icons/Edit.svg). Pour supprimer l’annotation, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg). |
+| **Graphique linéaire &#x200B;**<br/>**Un seul jour** | Lorsque vous sélectionnez ![Annoter](/help/assets/icons/Annotate.svg) dans un graphique linéaire, une fenêtre contextuelle contenant les détails de l’annotation s’affiche.<br/>![Annotation pour un seul jour](assets/annotation-single-day.png)<br/>Pour modifier l’annotation dans le [créateur d’annotations](create-annotations.md#annotation-builder), sélectionnez ![Modifier](/help/assets/icons/Edit.svg). Pour supprimer l’annotation, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg). |
+| **Graphique linéaire &#x200B;**<br/>**Période** | Lorsque vous sélectionnez ![Annoter une période](/help/assets/icons/AnnotateRange.svg), une fenêtre contextuelle contenant les détails de l’annotation s’affiche, ainsi qu’une ligne située en dessous qui indique la période.<br/>![Annotation de période](assets/annotation-range.png)Pour modifier l’annotation dans le [créateur d’annotations](create-annotations.md#annotation-builder), sélectionnez ![Modifier](/help/assets/icons/Edit.svg). Pour supprimer l’annotation, sélectionnez ![Supprimer](/help/assets/icons/Delete.svg). |
 | **Tableau à structure libre** | Dans un tableau à structure libre, vous pouvez accéder à toutes les annotations à partir du bouton des annotations situé en haut à droite de la visualisation. Sélectionnez ![Annoter](/help/assets/icons/Annotate.svg) pour afficher toutes les annotations (sous forme de liste déroulante).<br/>![Tableau d’annotations](assets/annotations-table.png)<br/>Pour chaque annotation, vous pouvez sélectionner ![Modifier](/help/assets/icons/Edit.svg) pour modifier l’annotation dans le [créateur d’annotations](create-annotations.md#annotation-builder) et ![Supprimer](/help/assets/icons/Delete.svg) pour supprimer l’annotation. |
 
 {style="table-layout:auto"}

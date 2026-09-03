@@ -3,11 +3,21 @@ title: Envoyer des données à Adobe Analytics à l’aide de la bibliothèque J
 description: Commencez par une implémentation propre de Web SDK pour envoyer des données à Adobe Analytics à l’aide de la bibliothèque JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
 TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: df312454-73c4-43f6-a90e-18f5043f074c
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1129
@@ -21,7 +31,7 @@ Ce chemin d’implémentation implique une nouvelle installation de Web SDK à l
 
 * [Extension de balise Web SDK](web-sdk-tag-extension.md) : nouvelle installation de Web SDK à l’aide de l’extension de balise Web SDK. Similaire à l’approche de la bibliothèque JavaScript Web SDK (cette page), sauf que vous gérez l’implémentation à l’aide de balises dans la collecte de données Adobe Experience Platform. Le groupe de champs Adobe Analytics ExperienceEvent, qui comprend des variables Analytics standard à inclure dans votre schéma XDM, est nécessaire.
 * [Extension Analytics vers l’extension Web SDK](analytics-extension-to-web-sdk.md) : adoptez une approche fluide et méthodique pour passer de l’extension de balise Adobe Analytics à l’extension de balise Web SDK. Cette approche supprime la nécessité d’utiliser XDM jusqu’à ce que votre entreprise soit prête à utiliser les services Adobe Experience Platform, tels que Customer Journey Analytics. Utilisez l’objet `data` au lieu de l’objet `xdm` pour envoyer des données à Adobe.
-* [Bibliothèque JavaScript AppMeasurement vers Web SDK ](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous pouvez supprimer manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacer par la bibliothèque JavaScript Web SDK (`alloy.js`).
+* [Bibliothèque JavaScript AppMeasurement vers Web SDK &#x200B;](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous pouvez supprimer manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacer par la bibliothèque JavaScript Web SDK (`alloy.js`).
 
 ## Avantages et inconvénients de ce chemin de mise en œuvre
 
