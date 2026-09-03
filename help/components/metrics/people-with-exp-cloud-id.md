@@ -26,7 +26,7 @@ ht-degree: 58%
 
 ## Méthode de calcul de cette mesure
 
-Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Vous pouvez créer la mesure calculée `[People with ECID] ÷ [People]` pour obtenir le pourcentage de visiteurs sur votre site à l’aide du service d’identification.
 

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 L’extension de balise Web SDK dans la collecte de données Adobe Experience Platform permet aux entreprises de mettre en œuvre le SDK Web à l’aide d’une interface de gestion des balises. Les scénarios avancés tels que le partage d’identifiants entre domaines et la migration de profils de visiteurs sont facilement configurés par le biais de règles et d’actions d’extension. L’utilisation de Web SDK permet de pérenniser votre implémentation et d’effectuer une mise à niveau transparente vers Customer Journey Analytics.
 
-Les données d’identité peuvent être étendues pour prendre en charge les identifiants personnalisés et plusieurs espaces de noms à l’aide des [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/identity-map) XDM. Adobe recommande d’utiliser l’ECID comme identifiant principal pour Analytics et d’utiliser d’autres options de gestion des identités pour les scénarios avancés.
+Les données d’identité peuvent être étendues pour prendre en charge les identifiants personnalisés et plusieurs espaces de noms à l’aide des [`identityMap`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/identity-map) XDM. Adobe recommande d’utiliser l’ECID comme identifiant principal pour Analytics et d’utiliser d’autres options de gestion des identités pour les scénarios avancés.
 
 Étant donné que le service d’identification des visiteurs est intégré nativement à l’extension de balise, il suffit de définir **[!UICONTROL Domaine]** à la valeur souhaitée. Si ce champ est défini correctement, l’identification des visiteurs fonctionne sans configuration supplémentaire.
 

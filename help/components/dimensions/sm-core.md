@@ -31,22 +31,22 @@ Pour utiliser ces dimensions, activez **[!UICONTROL Media Core]** sous [[!UICONT
 
 Les dimensions suivantes sont disponibles :
 
-* [[!UICONTROL Contenu]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
-* [[!UICONTROL &#x200B; Canal de contenu &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
-* [[!UICONTROL Longueur du contenu (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
-* [[!UICONTROL Nom du contenu (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
-* [[!UICONTROL &#x200B; Nom du lecteur de contenu &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
-* [[!UICONTROL &#x200B; Segment de contenu &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
-* [[!UICONTROL &#x200B; Type de contenu &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
-* [[!UICONTROL Chemin du média]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
-* [[!UICONTROL ID de session multimédia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
-* [[!UICONTROL Type de flux]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
+* [[!UICONTROL Contenu]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL &#x200B; Canal de contenu &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL Longueur du contenu (variable)]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL Nom du contenu (variable)]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL &#x200B; Nom du lecteur de contenu &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL &#x200B; Segment de contenu &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL &#x200B; Type de contenu &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL Chemin du média]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL ID de session multimédia]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL Type de flux]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 En plus des dimensions ci-dessus, Adobe crée automatiquement les dimensions de classification suivantes. Vous devez charger des données de classification pour afficher les rapports qui utilisent ces dimensions.
 
 | Nom de classification | Dimension parente |
 | --- | --- |
-| [[!UICONTROL Longueur de la vidéo]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Contenu] |
-| [[!UICONTROL &#x200B; Nom de la vidéo &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Contenu] |
+| [[!UICONTROL Longueur de la vidéo]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Contenu] |
+| [[!UICONTROL &#x200B; Nom de la vidéo &#x200B;]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Contenu] |
 
 Voir [Mesures principales des services de streaming multimédia](../metrics/sm-core.md) pour les mesures correspondantes.

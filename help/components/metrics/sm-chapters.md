@@ -31,8 +31,8 @@ Pour utiliser ces mesures, activez **[!UICONTROL Chapitres multimédia]** sous [
 
 Les mesures suivantes sont disponibles :
 
-* [[!UICONTROL Fin du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-completes)
-* [[!UICONTROL Démarrage du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-starts)
-* [[!UICONTROL Durée du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
+* [[!UICONTROL Fin du chapitre]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/chapter-completes)
+* [[!UICONTROL Démarrage du chapitre]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/chapter-starts)
+* [[!UICONTROL Durée du chapitre]](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/metrics/chapter-time-spent)
 
 Voir [Dimensions du chapitre sur les services de streaming multimédia](../dimensions/sm-chapters.md) pour connaître les dimensions correspondantes.

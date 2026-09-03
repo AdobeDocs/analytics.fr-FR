@@ -30,7 +30,7 @@ Adobe Analytics utilise plusieurs méthodes d’authentification pour la connexi
 
 **Si vous accédez régulièrement à Analytics et que vous rencontrez soudain des problèmes de connexion de manière aléatoire, effacer les cookies et vider le cache de votre navigateur résout la plupart des problèmes.**
 
-Parfois, des problèmes de disponibilité peuvent affecter les capacités de connexion. Consultez [status.adobe.com](https://status.adobe.com) pour connaître les incidents en cours. Sinon, utilisez la section correspond à la méthode d’authentification de votre organisation.
+Parfois, des problèmes de disponibilité peuvent affecter les capacités de connexion. Consultez [status.adobe.com](https://status.adobe.com/fr-fr) pour connaître les incidents en cours. Sinon, utilisez la section correspond à la méthode d’authentification de votre organisation.
 
 ## Adobe ID
 
