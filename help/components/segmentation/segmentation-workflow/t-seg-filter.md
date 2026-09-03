@@ -53,7 +53,7 @@ Les sections de filtre suivantes sont disponibles :
 
 {{reportsuitefiltersection}}
 
-### Personne propriétaire
+### Propriétaire
 
 {{ownerfiltersection}}
 

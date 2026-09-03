@@ -32,9 +32,9 @@ Si votre flux de données ne fonctionne plus correctement ces derniers temps, al
 * Assurez-vous que le site FTP dispose de suffisamment d’espace disponible. Si lʼespace disque sur le site FTP est insuffisant, supprimez des fichiers du serveur afin de libérer de l’espace pour de nouveaux fichiers.
 * S’il n’existe aucun problème connu et que le site FTP dispose de suffisamment d’espace disque, vous pouvez envoyer à nouveau le flux de données.
 
-   1. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Admin]** > **[!UICONTROL Flux de données]**.
-   2. Recherchez le ou les flux de données de votre choix, puis cochez la case en regard de chacun des flux que vous souhaitez exécuter à nouveau.
-   3. Cliquez sur **[!UICONTROL Réexécuter]**.
+  1. Connectez-vous à Adobe Analytics et accédez à **[!UICONTROL Admin]** > **[!UICONTROL Flux de données]**.
+  2. Recherchez le ou les flux de données de votre choix, puis cochez la case en regard de chacun des flux que vous souhaitez exécuter à nouveau.
+  3. Cliquez sur **[!UICONTROL Réexécuter]**.
 
   ![Réexécution](assets/rerun.png)
 

@@ -46,7 +46,7 @@ Vous pouvez modifier plusieurs requêtes en même temps, en fonction de la suite
    * **Par Report Suite** : groupe les demandes par suite de rapports.
    * **Par segment** : regroupe les requêtes en fonction du nom du segment.
 
-      * **Choisir un segment** : s’affiche s’il n’existe aucun segment pour les requêtes. Pour ajouter des segments, cliquez sur **[!UICONTROL Modifier le groupe]** et sélectionnez un segment dans le panneau [!UICONTROL Modifier le groupe].
+     * **Choisir un segment** : s’affiche s’il n’existe aucun segment pour les requêtes. Pour ajouter des segments, cliquez sur **[!UICONTROL Modifier le groupe]** et sélectionnez un segment dans le panneau [!UICONTROL Modifier le groupe].
 
    * **Par mesure** : voir [Modifier les mesures de plusieurs demandes](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 

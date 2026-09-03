@@ -67,9 +67,9 @@ Les éléments Dimension incluent les identifiants de clics publicitaires géné
 * **`amovid`** : identifiant visiteur Adobe Advertising, également appelé identifiant surfer.
 * **`ts`** : date et heure générées par Adobe Advertising.
 * **`channel`** : type de canal responsable du clic ou de l’exposition :
-   * **`d`** : clic sur une publicité display DSP (clic publicitaire sur l’affichage).
-   * **`i`** : impression sur une publicité display DSP (affichage publicitaire).
-   * **`s`** : clic sur une publicité de recherche (clic publicitaire de recherche).
+  * **`d`** : clic sur une publicité display DSP (clic publicitaire sur l’affichage).
+  * **`i`** : impression sur une publicité display DSP (affichage publicitaire).
+  * **`s`** : clic sur une publicité de recherche (clic publicitaire de recherche).
 
 ### Exemples
 

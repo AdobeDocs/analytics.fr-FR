@@ -84,7 +84,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 1. Sélectionnez **[!UICONTROL Ajouter]** pour créer un segment.
    ![Publication d’une expérience client d’entreprise](assets/publish-ec.png)
 1. Fournissez un titre et une description pour le segment. Ces champs sont obligatoires avant de pouvoir enregistrer le segment.
-1. Dans la section **[!UICONTROL Publication]**, sélectionnez l’option **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]**.
+1. Dans la section **[!UICONTROL Publication Experience Cloud]**, sélectionnez l’option **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]**.
 
    >[!IMPORTANT]
    >
@@ -93,7 +93,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 
 | Élément | Description |
 |---|---|
-| **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]** | Lorsque cette option est activée, le titre et la définition du segment sont partagés instantanément avec CX Enterprise, tandis que l’appartenance au segment est évaluée et partagée toutes les 4 heures. <br> Lorsque cette audience est associée à une activité dans Target, par exemple, [!DNL Analytics] commence à envoyer les identifiants des visiteurs qui remplissent les critères pour cette audience CX Enterprise et Target. À ce stade, le nom de l’audience et les données correspondantes commencent à s’afficher sur la page [!DNL Audience Library] dans CX Enterprise. </br> |
+| **[!UICONTROL Publier ce segment dans Experience Cloud (pour *suite de rapports*)]** | Lorsque cette option est activée, le titre et la définition du segment sont partagés instantanément avec CX Enterprise, tandis que l’appartenance au segment est évaluée et partagée toutes les 4 heures. <br> Lorsque cette audience est associée à une activité dans Target, par exemple, [!DNL Analytics] commence à envoyer les identifiants des visiteurs qui remplissent les critères pour cette audience CX Enterprise et Target. À ce stade, le nom de l’audience et les données correspondantes commencent à s’afficher sur la page [!DNL Audience Library] dans CX Enterprise. </br> |
 | **[!UICONTROL Fenêtre de création d’audiences]** | La période que vous sélectionnez est utilisée pour créer l’audience sur une base de calendrier glissant. Par exemple, la mention **[!UICONTROL 30 derniers jours]** (par défaut) inclut les visiteurs qui se sont qualifiés pour l’audience au cours des 30 derniers jours à compter de la date d’aujourd’hui (et NON à compter de la date d’origine de création du segment). |
 | **[!UICONTROL Créer dans la bibliothèque d’audiences]** | Les segments que vous créez et publiez peuvent être disponibles sans latence sur la page [!DNL Audience Library] dans l’expérience client. Ils ne dépendent pas des mises à jour Analytics. Ces segments ne sont pas pris en compte par rapport à votre limite de 75 segments publiés. |
 | **[!UICONTROL x sur 75 publiés]** | Nombre de segments que vous avez publiés sur l’expérience client Entreprise. Cliquez sur le lien pour afficher la liste des segments publiés, ainsi que la suite de rapports et le propriétaire qui y sont associés. |
@@ -166,7 +166,7 @@ Dans Adobe Audience Manager, la liste des visiteurs avec des ECID pour un segmen
 
 ## Afficher le segment dans [!DNL Adobe Target]
 
-L’option **[!UICONTROL Publier ce segment dans Experience Cloud]** permet au segment d’être disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans Analytics ou dans Audience Manager peut être utilisé pour des activités dans Target. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’Analytics et les segments d’audience créés dans Analytics.
+Le **[!UICONTROL Publier ce segment dans Experience Cloud]** permet au segment d’être disponible dans la bibliothèque d’audiences personnalisées d’Adobe Target. Un segment créé dans Analytics ou dans Audience Manager peut être utilisé pour des activités dans Target. Vous pouvez par exemple créer des activités de campagne d’après les mesures de conversion d’Analytics et les segments d’audience créés dans Analytics.
 
 Dans Adobe Target :
 

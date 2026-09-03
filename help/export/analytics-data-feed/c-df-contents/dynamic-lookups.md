@@ -42,13 +42,13 @@ Les recherches dynamiques vous permettent de recevoir des fichiers de recherche 
 Si vous souhaitez recevoir les fichiers Lookup mentionnés, vous devez remplir toutes les conditions préalables suivantes :
 
 * La colonne clé doit être incluse dans le flux de données.
-   * Par `carrier.tsv`, vous devez inclure `carrier`.
-   * Par `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
-   * Par `operating_system_type.tsv`, vous devez inclure `os`.
+  * Par `carrier.tsv`, vous devez inclure `carrier`.
+  * Par `mobile_attributes.tsv`, vous devez inclure `mobile_id`.
+  * Par `operating_system_type.tsv`, vous devez inclure `os`.
 * Les colonnes suivantes doivent être **exclues**. Si l’une de ces colonnes est incluse dans le flux de données, la recherche dynamique `mobile_attributes.tsv` n’est pas incluse.
-   * `user_agent`
-   * `ch_hdr`
-   * `ch_js`
+  * `user_agent`
+  * `ch_hdr`
+  * `ch_js`
 
 Une fois que votre flux de données répond aux exigences d’inclusion et d’exclusion des colonnes, contactez l’assistance clientèle en indiquant l’identifiant du flux de données et en demandant l’activation des recherches dynamiques.
 

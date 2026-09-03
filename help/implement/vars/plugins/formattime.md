@@ -79,10 +79,10 @@ La fonction `formatTime` utilise les arguments suivants :
 
 * **`ns`** (obligatoire, entier) : nombre de secondes à convertir ou à formater
 * **`tf`** (facultatif, chaîne) : type de format dans lequel restituer les secondes. Par défaut, il s’agit des secondes.
-   * Définissez cette variable sur `"d"` si vous souhaitez que le temps soit exprimé en jours (arrondi par défaut à la référence d’un quart de jour la plus proche).
-   * Définissez cette variable sur `"h"` si vous souhaitez que le temps soit exprimé en heures (arrondi par défaut à la référence d’un quart d’heure la plus proche).
-   * Définissez cette variable sur `"m"` si vous souhaitez que le temps soit exprimé en minutes (arrondi par défaut à la référence d’une demi-minute la plus proche).
-   * Définissez cette variable sur `"s"` si vous souhaitez que le temps soit exprimé en secondes (arrondi par défaut à la référence de cinq secondes la plus proche).
+  * Définissez cette variable sur `"d"` si vous souhaitez que le temps soit exprimé en jours (arrondi par défaut à la référence d’un quart de jour la plus proche).
+  * Définissez cette variable sur `"h"` si vous souhaitez que le temps soit exprimé en heures (arrondi par défaut à la référence d’un quart d’heure la plus proche).
+  * Définissez cette variable sur `"m"` si vous souhaitez que le temps soit exprimé en minutes (arrondi par défaut à la référence d’une demi-minute la plus proche).
+  * Définissez cette variable sur `"s"` si vous souhaitez que le temps soit exprimé en secondes (arrondi par défaut à la référence de cinq secondes la plus proche).
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi. Par défaut, les références figurant dans l’argument `tf`.
 
 La fonction renvoie le nombre de secondes formatées à lʼaide de lʼunité spécifiée dans lʼargument `tf`. Si l’argument `tf` n’est pas défini :

@@ -65,8 +65,8 @@ Lorsqu’AppMeasurement envoie des données aux serveurs de collecte de données
 
 * **200 OK** : réponse la plus courante des serveurs de collecte de données. La demande d’image a été reçue avec succès et une image transparente a été renvoyée.
 * **302 FOUND** : il existe plusieurs explications à cette réponse :
-   * Première demande d’image d’un visiteur : une redirection a lieu lorsqu’un utilisateur consulte votre site pour la première fois. Cette redirection consiste à obtenir un cookie de visiteur. Elle n’affecte pas la collecte de données.
-   * Intégration entre Comscore et Adobe : si votre entreprise utilise une intégration Comscore/Analytics, chaque demande d’image génère une réponse 302.
+  * Première demande d’image d’un visiteur : une redirection a lieu lorsqu’un utilisateur consulte votre site pour la première fois. Cette redirection consiste à obtenir un cookie de visiteur. Elle n’affecte pas la collecte de données.
+  * Intégration entre Comscore et Adobe : si votre entreprise utilise une intégration Comscore/Analytics, chaque demande d’image génère une réponse 302.
 * **404 NOT FOUND** : cette réponse signifie que la demande d’image est introuvable et que les données ne sont pas envoyées aux serveurs de collecte de données d’Adobe. Cette réponse est également possible lorsque les demandes d’image codées en dur ne sont pas correctement formatées. Collaborez avec la personne ou l’équipe responsable de la mise en œuvre d’Analytics pour résoudre ce problème.
 
 ## NS_BINDING_ABORTED dans les codes de réponse

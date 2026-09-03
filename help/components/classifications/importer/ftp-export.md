@@ -30,10 +30,10 @@ Tenez compte des problèmes suivants lors de l’application des filtres de donn
 
 * Vous pouvez utiliser des caractères génériques lors de la définition du filtre de données. Utilisez un astérisque `*` pour mettre en correspondance zéro ou plusieurs caractères ou un point d’interrogation `?` pour mettre en correspondance un caractère exactement. Utilisez `?*` pour mettre en correspondance un ou plusieurs caractères.
 * En règle générale, lors de l’application des deux types de filtres de données à un téléchargement, seules les lignes correspondant aux deux règles sont téléchargées. Toutefois, les exceptions suivantes s’appliquent :
-   * Si Lignes avec colonne vides = Toutes les colonnes, toutes les colonnes vides à l’exception de celle qui est indiquée dans la première règle sont passées en revue. Cette exception garantit que l’outil télécharge toute ligne avec une colonne correspondant à la première règle dont toutes les autres colonnes sont vides.
-   * Lors du téléchargement de lignes de données sur la base de colonnes vides, toutes les colonnes vides, à l’exception de celles spécifiées dans la première règle, sont vérifiées.
-   * Si la même colonne est spécifiée pour les deux règles de filtrage (il est presque impossible de répondre aux deux critères), seules les lignes correspondant à la première règle sont téléchargées.
-   * Les exportations FTP sont limitées à 30 colonnes.
+  * Si Lignes avec colonne vides = Toutes les colonnes, toutes les colonnes vides à l’exception de celle qui est indiquée dans la première règle sont passées en revue. Cette exception garantit que l’outil télécharge toute ligne avec une colonne correspondant à la première règle dont toutes les autres colonnes sont vides.
+  * Lors du téléchargement de lignes de données sur la base de colonnes vides, toutes les colonnes vides, à l’exception de celles spécifiées dans la première règle, sont vérifiées.
+  * Si la même colonne est spécifiée pour les deux règles de filtrage (il est presque impossible de répondre aux deux critères), seules les lignes correspondant à la première règle sont téléchargées.
+  * Les exportations FTP sont limitées à 30 colonnes.
 
 ## Exporter des classifications via FTP
 

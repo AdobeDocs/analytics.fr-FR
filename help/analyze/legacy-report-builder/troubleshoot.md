@@ -50,8 +50,8 @@ L’effet secondaire suivant se produit lors de l’ouverture d’un classeur AR
 Le Report Builder requiert une authentification pour créer des requêtes de données à partir de vos suites de rapports. Parfois, la connexion à Report Builder peut rencontrer des problèmes en fonction de vos paramètres dans [!DNL Analytics] ou votre réseau.
 
 * **Société de connexion non valide** : cette erreur se produit généralement lorsque la société de connexion n’est pas saisie correctement ou en cas de problèmes réseau. Procédez comme suit :
-   * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
-   * Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
+  * Vérifiez l’orthographe des informations de connexion de la société pour vous assurer qu’il n’y a pas de faute de frappe ou d’espace en trop.
+  * Connectez-vous à Analytics à l’aide des mêmes informations de connexion pour vous assurer qu’elles sont correctes. Si vous ne parvenez pas à vous connecter à l’aide de ces informations d’identification, contactez un administrateur de votre société pour obtenir les informations de connexion correctes de la société.
 * **Pare-feu** : Report Builder utilise les ports 80 et 443. Vérifiez que ces ports sont autorisés à travers le pare-feu de votre société. Pour obtenir des informations sur les autres exclusions de pare-feu, reportez-vous aux adresses IP internes d’Adobe.
 
 ## Recommandations pour optimiser les requêtes {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -96,11 +96,11 @@ Cette section comprend un exemple de liste des messages d’erreur qui peuvent s
 * **Veuillez quitter la cellule Excel active avant d’utiliser cette fonctionnalité.** : Si vous êtes en *mode d’édition* dans une cellule Excel et que vous cliquez sur l’une des icônes Report Builder, ce message d’erreur s’affiche. Le mode d’édition dans une cellule Excel signifie que la cellule est sélectionnée et que le curseur s’affiche à l’intérieur de celle-ci. Vous êtes également en mode d’édition dans une cellule Excel lorsque vous entrez directement des données dans la barre [!UICONTROL Formule] ou dans la zone [!UICONTROL Nom] en haut de la fenêtre Excel.
 * **La plage sélectionnée chevauche une autre plage de la requête. Modifiez votre sélection.** : Cette erreur s&#39;affiche si vous avez déjà mis en correspondance un ensemble de cellules à la feuille de calcul.
 * **Réparations du classeur (enregistrements supprimés : formule à partir de /xl/calcChain.xml)** : il arrive que les formules d’un classeur soient endommagées lors de l’enregistrement ou du transfert. Lors de l’ouverture du fichier, Excel tente d’exécuter ces formules et échoue. Vous pouvez résoudre ce problème en supprimant `calcChain.xml` de la feuille de calcul, ce qui force Excel à actualiser ses calculs de formule.
-   1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
-   2. Décompressez le contenu et ouvrez le dossier `/xl/`.
-   3. Supprimer `calcChain.xml`.
-   4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
-   5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
+  1. Renommez l’extension de fichier du classeur `.xlsx` en `.zip`.
+  2. Décompressez le contenu et ouvrez le dossier `/xl/`.
+  3. Supprimer `calcChain.xml`.
+  4. Compressez à nouveau le contenu et redéfinissez l’extension de fichier sur `.xlsx`.
+  5. Ouvrez le classeur dans Excel et actualisez toutes les requêtes de Report Builder.
 * **Les cellules Excel associées aux filtres d’entrée ou une plage de sortie peuvent avoir été supprimées** : Report Builder utilise des noms Excel pour joindre des requêtes de données aux cellules. Si vous supprimez des noms Excel dans le Gestionnaire de noms, cette erreur apparaît. Les requêtes ne peuvent pas être récupérées si des noms Excel sont supprimés. Si le classeur a été planifié, vous pouvez télécharger une copie à partir du Gestionnaire de planification ou ouvrir des copies du classeur précédemment diffusées.
 
 ## Enregistrer les requêtes

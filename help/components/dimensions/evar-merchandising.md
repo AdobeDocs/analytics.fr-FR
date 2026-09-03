@@ -64,9 +64,9 @@ La mesure [Instances](../metrics/instances.md) n’est pas recommandée pour les
 
 * Pour les variables de marchandisage utilisant la syntaxe du produit, les instances ne sont pas du tout incrémentées.
 * Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, elle l’attribue à l’élément de dimension `"None"`, sauf si tous les événements suivants se produisent sur le même accès :
-   * L’eVar de marchandisage est définie avec une valeur.
-   * La variable `products` est définie avec une valeur.
-   * Un événement de liaison est défini.
+  * L’eVar de marchandisage est définie avec une valeur.
+  * La variable `products` est définie avec une valeur.
+  * Un événement de liaison est défini.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

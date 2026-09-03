@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 585
+source-wordcount: 580
 ht-degree: 36%
 
 ---
@@ -58,11 +58,11 @@ Le terme de recherche n’est pas effacé :
 * Lorsque vous cliquez sur l’onglet Dimension , puis revenez à l’onglet Mesures .
 * Lorsque vous appelez d’autres sous-formulaires (modaux ou non) qui, à la sortie, reviennent à l’étape 2 de l’Assistant Requête. Exemple de ces formulaires :
 
-   * Formulaires de filtre de dimension
-   * Formulaires de mise en forme de la plage de sortie
-   * Formulaire d’options de format
-   * Formulaire Ajouter un texte en préfixe/suffixe
-   * Formulaire d’emplacement de la plage de sortie
+  * Formulaires de filtre de dimension
+  * Formulaires de mise en forme de la plage de sortie
+  * Formulaire d’options de format
+  * Formulaire Ajouter un texte en préfixe/suffixe
+  * Formulaire d’emplacement de la plage de sortie
 
 ## Trier une demande par mesure
 

@@ -46,15 +46,15 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 
 Pour plus d’informations sur le fichier de données, voir [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
-Les classifications à plusieurs niveaux comprennent les classifications parentes et filles. Par exemple :
+Les classifications à plusieurs niveaux comprennent les classifications parentes et enfants. Par exemple :
 
 ![](../assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification fille. Une classification peut être une classification parente et fille. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique.
+**Classifications parentes** : une classification parente est une classification associée à une classification enfant. Une classification peut être une classification parente et enfant. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique.
 
-**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications filles fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification fille de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
+**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications enfants fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification enfant de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
-Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification fille utilise le format d’affectation de nom suivant :
+Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification enfant utilise le format d’affectation de nom suivant :
 
 `<parent_name>^<child_name>`
 

@@ -19,7 +19,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 614
+source-wordcount: 626
 ht-degree: 78%
 
 ---
@@ -61,7 +61,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `data.__adobe.analytics.linkType` | Détermine le type de lien sur lequel la personne a cliqué. Les valeurs valides sont les suivantes : `o` (Liens personnalisés), `d` (Liens de téléchargement) et `e` (Liens de sortie). Le champ abrégé `data.__adobe.analytics.pe` est également pris en charge. |
 | `data.__adobe.analytics.list1` - `data.__adobe.analytics.list3` | Variables d’implémentation [`list`](/help/implement/vars/page-vars/list.md). Les champs abrégés `data.__adobe.analytics.l1` - `data.__adobe.analytics.list3` sont également pris en charge. |
 | `data.__adobe.analytics.longitude` | Aide à la définition des dimensions de cycle de vie mobile [Emplacement](../../components/dimensions/lifecycle-dimensions.md). Le champ abrégé `data.__adobe.analytics.lon` est également pris en charge. |
-| `data.__adobe.analytics.pageName` | La dimension [Page](/help/components/dimensions/page.md). |
+| `data.__adobe.analytics.pageName` | Dimension [Page](/help/components/dimensions/page.md). |
 | `data.__adobe.analytics.pageURL` | La dimension [URL de la page](/help/components/dimensions/page-url.md). Le champ abrégé `data.__adobe.analytics.g` est également pris en charge. |
 | `data.__adobe.analytics.pageType` | La variable de mise en œuvre [`pageType`](../vars/page-vars/pagetype.md). |
 | `data.__adobe.analytics.prop1` - `data.__adobe.analytics.prop75` | Dimensions [prop](../../components/dimensions/prop.md). Les champs abrégés `data.__adobe.analytics.c1` - `data.__adobe.analytics.c75` sont également pris en charge. |

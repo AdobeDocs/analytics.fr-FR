@@ -38,11 +38,11 @@ Pour modifier les paramètres d’un ensemble de classifications :
    1. Ajoutez une ou plusieurs **[!UICONTROL Balises (facultatives)]** au jeu de classifications. Sélectionnez une balise existante dans le menu déroulant **[!UICONTROL Balises]** ou saisissez-en une nouvelle. Utilisez ![CrossSize100](/help/assets/icons/CrossSize100.svg) pour supprimer une balise.
    1. Dans la section **[!UICONTROL Notifications de tâche]**, sélectionnez les personnes à avertir de l’échec ou de la réussite des tâches de l’ensemble de classifications.
       * Pour avertir les utilisateurs d’un échec :
-         1. activez **[!UICONTROL Notifier en cas d’échec]**.
-         1. Spécifiez une ou plusieurs adresses e-mail séparées par des virgules dans **[!UICONTROL Destinataires d’e-mails en échec]**.
+        1. activez **[!UICONTROL Notifier en cas d’échec]**.
+        1. Spécifiez une ou plusieurs adresses e-mail séparées par des virgules dans **[!UICONTROL Destinataires d’e-mails en échec]**.
       * Pour informer les utilisateurs de la réussite de l’opération :
-         1. Activer **[!UICONTROL Envoyer une notification en cas de réussite]**.
-         1. Spécifiez une ou plusieurs adresses e-mail séparées par des virgules dans **[!UICONTROL Destinataires d’e-mails de succès]**.
+        1. Activer **[!UICONTROL Envoyer une notification en cas de réussite]**.
+        1. Spécifiez une ou plusieurs adresses e-mail séparées par des virgules dans **[!UICONTROL Destinataires d’e-mails de succès]**.
    1. Modifiez le **[!UICONTROL Abonnements]**.
       * Vous pouvez définir plusieurs combinaisons **[!UICONTROL Suite de rapports]** et **[!UICONTROL Dimension]** pour un ensemble de classifications.
       * Sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg) pour supprimer une combinaison **[!UICONTROL Suite de rapports]** et **[!UICONTROL Clé Dimension]**.

@@ -20,8 +20,8 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1284
-ht-degree: 90%
+source-wordcount: 1286
+ht-degree: 89%
 
 ---
 
@@ -107,9 +107,9 @@ Les assistants numériques étant conversationnels, ils font souvent appel au co
 
 **Google :** « Bien sûr, pour quelle heure ? ».
 
-**Consommateur :** « 8 :30pm »
+**Consommateur :** « 20h30 »
 
-**Google:** « Cela semble correct, le pilote sera là à 8 heures:30pm »
+**Google:** « Cela semble correct, le conducteur sera là à 20h30 »
 
 Les sessions sont importantes pour garder le contexte et pour aider à collecter plus de détails afin de rendre l’assistant numérique plus naturel. Lorsque vous mettez Analytics en œuvre sur une conversation, vous devriez effectuer deux actions au démarrage d’une nouvelle session :
 

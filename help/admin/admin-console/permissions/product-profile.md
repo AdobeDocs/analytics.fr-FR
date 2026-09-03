@@ -40,7 +40,7 @@ Les administrateurs de profil de produit sont un groupe facultatif qui peut ajou
 * Les administrateurs de profil de produit ne disposent pas d’un accès complet à Adobe Analytics. L’accès complet à Adobe Analytics est réservé aux administrateurs de produit.
 * Les administrateurs de profil de produit ne peuvent pas ajuster les éléments d’autorisations dans leur profil de produit.
 * Les administrateurs des profils de produit peuvent affecter des profils de produit à des groupes d’utilisateurs ou en supprimer.
-* Les administrateurs des profils de produit sont parfaits pour les chefs dʼéquipe ou les managers qui doivent octroyer et gérer lʼaccès à Adobe Analytics pour leur équipe. Les utilisateurs n’ont pas besoin de demander aux administrateurs système ou aux administrateurs de produit de leur octroyer l’accès à Adobe Analytics.
+* Les administrateurs des profils de produit sont parfaits pour les chefs dʼéquipe ou les managers qui doivent octroyer et gérer lʼaccès à Adobe Analytics pour leur équipe. Les  n’ont pas besoin de demander aux administrateurs système ou aux administrateurs de produit de leur octroyer l’accès à Adobe Analytics.
 
 Pour plus d’informations sur l’affectation des administrateurs de profil de produit, consultez la section « Gérer les administrateurs de profil de produit » de l’article [Gérer les profils de produit pour les utilisateurs d’entreprise](https://helpx.adobe.com/fr/enterprise/using/manage-product-profiles.html) dans le guide d’utilisation Enterprise.
 

@@ -28,9 +28,9 @@ Ce chapitre explique les concepts que vous devez comprendre sur les profils de p
 
 * Autorisations
 
-   * [Profils de produit pour Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Autorisations du profil de produit pour les outils de suites de rapports](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Autorisations du profil de produit pour les outils Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Profils de produit pour Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+  * [Autorisations du profil de produit pour les outils de suites de rapports](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Autorisations du profil de produit pour les outils Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Ajout dʼun administrateur dans Adobe Analytics
 

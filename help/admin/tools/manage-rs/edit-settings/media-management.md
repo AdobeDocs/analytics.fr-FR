@@ -40,18 +40,18 @@ Les options de gestion des médias suivantes sont disponibles lors de la modific
 
   Utilisez ces cases à cocher pour activer les dimensions et les mesures spécifiques aux services de médias en flux continu.
 
-   * [Dimensions principales des médias](/help/components/dimensions/sm-core.md)
-   * [Mesures principales des médias](/help/components/metrics/sm-core.md)
-   * [Média et dimensions](/help/components/dimensions/sm-ads.md)
-   * [Mesures publicitaires multimédia](/help/components/metrics/sm-ads.md)
-   * [Dimensions des chapitres du média](/help/components/dimensions/sm-chapters.md)
-   * [Mesures de chapitre du média](/help/components/metrics/sm-chapters.md)
-   * [Dimensions de qualité du média](/help/components/dimensions/sm-quality.md)
-   * [Mesures de qualité du média](/help/components/metrics/sm-quality.md)
-   * [Dimensions des métadonnées vidéo](/help/components/dimensions/sm-video-metadata.md)
-   * [Mesures de métadonnées vidéo](/help/components/metrics/sm-video-metadata.md)
-   * [Dimensions des métadonnées audio](/help/components/dimensions/sm-audio-metadata.md)
-   * [Mesures de suivi de l’état du lecteur](/help/components/metrics/sm-player-state.md)
+  * [Dimensions principales des médias](/help/components/dimensions/sm-core.md)
+  * [Mesures principales des médias](/help/components/metrics/sm-core.md)
+  * [Média et dimensions](/help/components/dimensions/sm-ads.md)
+  * [Mesures publicitaires multimédia](/help/components/metrics/sm-ads.md)
+  * [Dimensions des chapitres du média](/help/components/dimensions/sm-chapters.md)
+  * [Mesures de chapitre du média](/help/components/metrics/sm-chapters.md)
+  * [Dimensions de qualité du média](/help/components/dimensions/sm-quality.md)
+  * [Mesures de qualité du média](/help/components/metrics/sm-quality.md)
+  * [Dimensions des métadonnées vidéo](/help/components/dimensions/sm-video-metadata.md)
+  * [Mesures de métadonnées vidéo](/help/components/metrics/sm-video-metadata.md)
+  * [Dimensions des métadonnées audio](/help/components/dimensions/sm-audio-metadata.md)
+  * [Mesures de suivi de l’état du lecteur](/help/components/metrics/sm-player-state.md)
 
 * [!UICONTROL **Classifications multimédia**]
 

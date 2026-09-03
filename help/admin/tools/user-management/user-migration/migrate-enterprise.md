@@ -122,7 +122,7 @@ Si vous devez migrer des comptes d’utilisateur Adobe ID existants vers un Ente
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>E-mail </p> </td> 
+   <td colname="col1"> <p>Adresse électronique </p> </td> 
    <td colname="col2"> <p>Copié depuis <span class="filepath"> User Logins List.tab</span>. </p> </td> 
   </tr> 
   <tr> 

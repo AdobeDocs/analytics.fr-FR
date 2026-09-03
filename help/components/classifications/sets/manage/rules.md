@@ -37,21 +37,21 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
 
    * Si vous accédez à l’interface **[!UICONTROL Rules]** pour la première fois pour un ensemble de classifications, ou si vous avez décidé jusqu’à présent de continuer à utiliser l’interface du créateur de règles héritée, une boîte de dialogue s’affiche et vous permet de sélectionner comment commencer. Les options sont les suivantes :
 
-      * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
-         * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
-         * Dans la boîte de dialogue **[!UICONTROL Confirmer la migration]**, lisez les implications de la migration.
-            * Sélectionnez **[!UICONTROL Migrer les règles]** pour confirmer la migration. Une fois la migration terminée, utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer de nouvelles règles et modifier vos règles migrées existantes.
-            * Sélectionnez **[!UICONTROL Annuler]** pour annuler la migration
+     * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
+       * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
+       * Dans la boîte de dialogue **[!UICONTROL Confirmer la migration]**, lisez les implications de la migration.
+         * Sélectionnez **[!UICONTROL Migrer les règles]** pour confirmer la migration. Une fois la migration terminée, utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer de nouvelles règles et modifier vos règles migrées existantes.
+         * Sélectionnez **[!UICONTROL Annuler]** pour annuler la migration
 
-      * **Recommencer**. Créez de toutes pièces des règles de classification à l’aide du nouveau créateur de règles. Sélectionnez cette option si vous souhaitez reconcevoir votre logique de classification ou repartir de zéro avec de nouvelles règles de classification.
-         * Sélectionnez **[!UICONTROL Créer de nouvelles règles]** pour continuer.
-         * Dans la boîte de dialogue **[!UICONTROL Confirmer le nouveau démarrage]**, lisez les implications d’un nouveau démarrage.
-            * Sélectionnez **[!UICONTROL Démarrer à nouveau]** pour confirmer un nouveau démarrage et ignorer les règles existantes. Utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer des règles.
-            * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
+     * **Recommencer**. Créez de toutes pièces des règles de classification à l’aide du nouveau créateur de règles. Sélectionnez cette option si vous souhaitez reconcevoir votre logique de classification ou repartir de zéro avec de nouvelles règles de classification.
+       * Sélectionnez **[!UICONTROL Créer de nouvelles règles]** pour continuer.
+       * Dans la boîte de dialogue **[!UICONTROL Confirmer le nouveau démarrage]**, lisez les implications d’un nouveau démarrage.
+         * Sélectionnez **[!UICONTROL Démarrer à nouveau]** pour confirmer un nouveau démarrage et ignorer les règles existantes. Utilisez l’interface [Ensemble de règles](#rule-set-interface) pour créer des règles.
+         * Sélectionnez **[!UICONTROL Annuler]** pour annuler.
 
 
-      * **Utiliser l’interface héritée**. Continuez à utiliser l’interface précédente du créateur de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque vous êtes prêt(e).
-         * Sélectionnez **[!UICONTROL Accéder à l’interface héritée]** pour continuer. Vous accédez à l’interface héritée **[!UICONTROL Créateur de règles de classification]**.
+     * **Utiliser l’interface héritée**. Continuez à utiliser l’interface précédente du créateur de règles. Vous pouvez migrer vers la nouvelle expérience à tout moment lorsque vous êtes prêt(e).
+       * Sélectionnez **[!UICONTROL Accéder à l’interface héritée]** pour continuer. Vous accédez à l’interface héritée **[!UICONTROL Créateur de règles de classification]**.
 
    * Si vous avez déjà migré des règles ou créé de nouvelles règles pour un ensemble de classifications, vous accédez directement à l’interface Ensemble de règles .
 

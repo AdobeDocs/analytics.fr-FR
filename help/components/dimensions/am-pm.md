@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 64%
+source-wordcount: 125
+ht-degree: 62%
 
 ---
 
@@ -30,4 +30,4 @@ Cette dimension est prête à l’emploi. Elle ne comporte aucun paramètre à m
 
 ## Éléments de dimension
 
-Cette dimension contient toujours exactement deux éléments de dimension : `"AM"` et `"PM"`. L’élément de dimension `"AM"` s’applique à tous les accès de 12 :00 à 11 :59, tandis que l’élément de dimension `"PM"` s’applique à tous les accès de 12 :00 à 23 :59.
+Cette dimension contient toujours exactement deux éléments de dimension : `"AM"` et `"PM"`. L’élément de dimension `"AM"` s’applique à tous les accès de 12 h à 11 h 59, tandis que l’élément de dimension `"PM"` s’applique à tous les accès de 12 h à 23 h 59.

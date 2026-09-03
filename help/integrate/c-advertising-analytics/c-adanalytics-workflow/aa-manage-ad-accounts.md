@@ -45,8 +45,8 @@ Le tableau se compose des colonnes suivantes :
 - Pour rechercher votre compte publicitaire à l’aide du champ de recherche ![Rechercher](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg), procédez comme suit :
 - Pour sélectionner les comptes actifs dans le tableau, cochez **[!UICONTROL Comptes actifs]**.
 - Pour définir les colonnes à afficher pour le tableau, sélectionnez ![Paramètres des colonnes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Dans la boîte de dialogue **[!UICONTROL Personnaliser le tableau]** :
-   - Sélectionnez les colonnes à afficher.
-   - Sélectionnez **[!UICONTROL Appliquer]**.
+  - Sélectionnez les colonnes à afficher.
+  - Sélectionnez **[!UICONTROL Appliquer]**.
 
 Lorsque vous sélectionnez un ou plusieurs comptes publicitaires, une barre d’actions bleue, basée sur le statut des comptes sélectionnés, vous permet d’![Modifier](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Renommer]**, ![Actualiser](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Mapper des suites de rapports]**, ![Lire](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg)Activer **[!UICONTROL ou]** Pause![Pause](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **&#x200B;**&#x200B;vos comptes publicitaires.
 

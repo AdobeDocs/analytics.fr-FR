@@ -44,7 +44,7 @@ CX Enterprise debugger est une extension qui affiche toutes les balises CX Enter
 1. Installez l’extension pour [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
 3. Cliquez sur l’icône d’Adobe CX Enterprise debugger dans votre navigateur.
-4. Si tout est correctement implémenté, vous devriez voir le contenu dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe Experience Cloud.
+4. Si tout est correctement implémenté, le contenu doit s’afficher dans Adobe Analytics, dans les balises et dans le service d’identification des visiteurs d’Adobe Experience Cloud.
 
 ## Déployez votre mise en œuvre de développement vers l’évaluation/la production
 

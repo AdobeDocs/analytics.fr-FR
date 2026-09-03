@@ -107,9 +107,9 @@ Les implémentations qui renseignent de nombreuses variables avec des valeurs lo
 * **Utilisez des règles de traitement** : les [règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) peuvent copier des valeurs d’une variable vers une autre. Cette méthode vous évite de définir la même valeur dans plusieurs variables. Par exemple :
 
   Toujours exécuter :<br>
-Remplacer la valeur de prop1 avec eVar1<br>
-Remplacer la valeur d’eVar2 par eVar1<br>
-Remplacer la valeur de prop2 avec eVar1<br>
+  Remplacer la valeur de prop1 avec eVar1<br>
+  Remplacer la valeur d’eVar2 par eVar1<br>
+  Remplacer la valeur de prop2 avec eVar1<br>
 
   Définissez ensuite eVar1 dans votre implémentation :
 

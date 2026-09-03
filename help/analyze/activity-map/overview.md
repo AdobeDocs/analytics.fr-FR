@@ -41,17 +41,17 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
 
 * **Paramètre de suite de rapports** : Activity Map doit être activé pour une suite de rapports avant de pouvoir commencer à l’utiliser. Consultez [Rapports Activity Map](/help/admin/tools/manage-rs/edit-settings/activity-map.md) dans les paramètres de la suite de rapports.
 * **Implémentation** : la plupart des rapports Activity Map sont disponibles et prêts à l’emploi. Cependant, certains sites web peuvent nécessiter une implémentation supplémentaire pour tirer le meilleur parti du suivi des liens. Les variables de mise en œuvre suivantes sont disponibles :
-   * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md) : filtrez les données de clics par nom de lien.
-   * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md) : filtrez les données de clics par nom de région.
-   * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) : modifiez l’attribut qui renseigne la dimension Région d’Activity Map.
-   * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Lien Activity Map.
-   * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Région Activity Map.
+  * [`ActivityMap.linkExclusions`](/help/implement/vars/config-vars/activitymap-linkexclusions.md) : filtrez les données de clics par nom de lien.
+  * [`ActivityMap.regionExclusions`](/help/implement/vars/config-vars/activitymap-regionexclusions.md) : filtrez les données de clics par nom de région.
+  * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md) : modifiez l’attribut qui renseigne la dimension Région d’Activity Map.
+  * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Lien Activity Map.
+  * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md) : personnalisez la logique utilisée par Activity Map pour renseigner la dimension Région Activity Map.
 * **Recouvrement** : extension de navigateur qui vous permet d’afficher les données de clic superposées sur votre site web. Consultez [Interface de l’extension Activity Map](overlay/overview.md) pour plus d’informations. Cette fonctionnalité n’est pas disponible pour les implémentations du SDK web.
 * **Dimensions** : en plus de l’extension de recouvrement, Activity Map fournit plusieurs dimensions que vous pouvez utiliser dans Analysis Workspace.
-   * [Lien Activity Map](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel la personne a cliqué.
-   * [Région Activity Map](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle la personne a cliqué.
-   * [Page Activity Map](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où la personne a cliqué sur le lien.
-   * [Lien Activity Map par région](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
+  * [Lien Activity Map](/help/components/dimensions/activity-map-link.md) : nom du lien sur lequel la personne a cliqué.
+  * [Région Activity Map](/help/components/dimensions/activity-map-region.md) : nom de la région sur laquelle la personne a cliqué.
+  * [Page Activity Map](/help/components/dimensions/activity-map-page.md) : nom de la page au moment où la personne a cliqué sur le lien.
+  * [Lien Activity Map par région](/help/components/dimensions/activity-map-link-by-region.md) : valeur concaténée du lien Activity Map et de la région Activity Map.
 
 ## Fonctionnalités et avantages
 

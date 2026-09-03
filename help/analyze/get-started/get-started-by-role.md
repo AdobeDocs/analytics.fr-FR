@@ -93,7 +93,7 @@ Pour plus d’informations sur les méthodes disponibles, consultez la section [
 
 | | Méthodes de mise en œuvre |
 |---------|---------|
-| **Sites web** | <ul><li>Extension SDK Web (recommandé)</li><li>SDK web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
+| **Sites web** | <ul><li>Extension SDK Web (recommandé)</li><li>SDK Web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
 | **Applications mobiles** | <ul><li>Extension SDK Mobile (recommandé)</li><li>Extension Analytics</li></ul> |
 
 {style="table-layout:auto"}
@@ -146,7 +146,7 @@ Vous trouverez ci-dessous les principales tâches et fonctionnalités conçues p
 | Analyse des contributions | Analysis Workspace permet de détecter les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de mesures à l’échelle des segments d’audience. | [Analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) dans [Détection des anomalies - Vue d’ensemble](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Alertes | Créez et gérez des alertes en fonction des anomalies de données et des alertes « empilées », qui regroupent plusieurs mesures dans une seule alerte. | [Vue d’ensemble des alertes](/help/components/alerts/alerts-overview.md) |
 | Exportation de données | Data Warehouse et les flux de données vous permettent d’exporter des données vers différents espaces de stockage, tels que Google Cloud Platform, Azure RBAC, Azure SAS et Amazon S3. | [Guide d’exportation Analytics](/help/export/home.md) |
-| Activity Map | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à contrôler l’engagement de l’audience de vos pages web.<p>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
+| Activity Map | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à er l’engagement de l’audience de vos pages web.<p>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
 | Report Builder | Le Report Builder est un complément pour Microsoft Excel. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
 
 <!-- * Realtime reporting? -->

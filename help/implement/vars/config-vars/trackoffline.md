@@ -40,8 +40,8 @@ Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoye
 * Lors de la compilation d’une demande d’image, un paramètre de chaîne de requête d’horodatage est inclus.
 * Si l’appareil ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est stocké localement sur l’appareil.
 * Lors de chaque accès suivant, AppMeasurement tente d’envoyer une demande d’image à Adobe.
-   * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
-   * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
+  * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
+  * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
 
 ## Tracking hors ligne à l’aide de Web SDK
 

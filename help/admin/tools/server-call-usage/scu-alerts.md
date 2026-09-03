@@ -59,12 +59,12 @@ Pour créer des alertes supplémentaires :
    * **Date d’expiration** : par défaut, la date d’expiration est fixée à un an à compter de la date de création de l’alerte.
    * **Envoyer une alerte lorsque** :
 
-      * Déclencheur de l’une de ces mesures
-Ajoutez le type d’appel/s au serveur en tant que mesure et spécifiez le seuil d’alerte en sélectionnant le modificateur et le seuil :
-         * est supérieur ou égal
-         * est inférieur ou égal
-      * Avec
-Spécifiez le seuil et la condition (supérieur ou égal à ou inférieur ou égal à) pour la période d’utilisation passée.
+     * Déclencheur de l’une de ces mesures
+       Ajoutez le type d’appel/s au serveur en tant que mesure et spécifiez le seuil d’alerte en sélectionnant le modificateur et le seuil :
+       * est supérieur ou égal
+       * est inférieur ou égal
+     * Avec
+       Spécifiez le seuil et la condition (supérieur ou égal à ou inférieur ou égal à) pour la période d’utilisation passée.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

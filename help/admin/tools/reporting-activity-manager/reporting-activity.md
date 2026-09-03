@@ -166,11 +166,11 @@ Lorsque vous affichez le tableau, veuillez tenir compte des points suivants :
 
 * Vous pouvez rechercher ou filtrer la liste des connexions :
 
-   * Utilisez le champ de recherche pour rechercher une connexion particulière. Commencez à saisir le nom ou l’identifiant de la connexion et la liste des connexions est mise à jour au fur et à mesure que vous tapez.
+  * Utilisez le champ de recherche pour rechercher une connexion particulière. Commencez à saisir le nom ou l’identifiant de la connexion et la liste des connexions est mise à jour au fur et à mesure que vous tapez.
 
-   * Sélectionnez l’icône [!UICONTROL **Filtre**] ![Icône Filtre](assets/filter-icon.png) pour développer la liste des options de filtre. Vous pouvez filtrer par [!UICONTROL **Statut**], [!UICONTROL **Complexité**], [!UICONTROL **Application**], [!UICONTROL **Utilisateur ou utilisatrice**] ou [!UICONTROL **Projet**].
+  * Sélectionnez l’icône [!UICONTROL **Filtre**] ![Icône Filtre](assets/filter-icon.png) pour développer la liste des options de filtre. Vous pouvez filtrer par [!UICONTROL **Statut**], [!UICONTROL **Complexité**], [!UICONTROL **Application**], [!UICONTROL **Utilisateur ou utilisatrice**] ou [!UICONTROL **Projet**].
 
-   * Vous pouvez sélectionner [!UICONTROL **Masquer les graphiques**] pour afficher uniquement le tableau.
+  * Vous pouvez sélectionner [!UICONTROL **Masquer les graphiques**] pour afficher uniquement le tableau.
 
 ![Onglets de tableau](assets/report-activity-tabs.png)
 

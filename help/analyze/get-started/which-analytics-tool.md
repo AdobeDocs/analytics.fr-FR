@@ -70,8 +70,8 @@ Les **[sources de données](/help/import/data-sources/overview.md)** doivent ê
 
 * En présence de données hors ligne que vous souhaitez écrire de manière permanente dans Adobe Analytics.
 * Options :
-   * Résumé : simples téléchargements des données, par jour ou dimensions limitées.
-   * ID de transaction : téléchargements de données qui connectent un point d’entrée en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
+  * Résumé : simples téléchargements des données, par jour ou dimensions limitées.
+  * ID de transaction : téléchargements de données qui connectent un point d’entrée en ligne à des données hors ligne et associent complètement des données importées à un instantané de visiteur capturé en ligne (par exemple, des commandes effectuées en ligne et retournées hors ligne).
 
 Les **[intégrations Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** doivent être utilisées :
 

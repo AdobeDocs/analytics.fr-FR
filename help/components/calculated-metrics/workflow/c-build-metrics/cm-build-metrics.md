@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1489
+source-wordcount: 1495
 ht-degree: 99%
 
 ---
@@ -135,22 +135,22 @@ Le concept de conteneur de segment permet de créer une [mesure segmentée](metr
 
 * Pour ajouter un conteneur de segment à partir d’une dimension, procédez comme suit :
 
-   1. Faites glisser et déposez un composant ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments de dimension, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
-   1. Dans la fenêtre contextuelle **[!UICONTROL Créer un segment à partir d’une dimension]**, définissez la condition du segment. Sélectionnez dans la liste des opérateurs une valeur ou saisissez-en une. Par exemple, **[!UICONTROL Mois]** **[!UICONTROL est égal à]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Sélectionnez **[!UICONTROL Terminé]**. Un conteneur de segment est ajouté à la **[!UICONTROL Définition]**.
+  1. Faites glisser et déposez un composant ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments de dimension, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
+  1. Dans la fenêtre contextuelle **[!UICONTROL Créer un segment à partir d’une dimension]**, définissez la condition du segment. Sélectionnez dans la liste des opérateurs une valeur ou saisissez-en une. Par exemple, **[!UICONTROL Mois]** **[!UICONTROL est égal à]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+  1. Sélectionnez **[!UICONTROL Terminé]**. Un conteneur de segment est ajouté à la **[!UICONTROL Définition]**.
 
 
 * Pour ajouter un conteneur de segment à partir d’un segment, procédez comme suit :
 
-   * Faites glisser et déposez un composant ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des segments spécifiques.
-Un conteneur de segment est automatiquement ajouté à la **[!UICONTROL définition]** à l’aide du nom du segment.
+  * Faites glisser et déposez un composant ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des segments spécifiques.
+    Un conteneur de segment est automatiquement ajouté à la **[!UICONTROL définition]** à l’aide du nom du segment.
 
-   * Faites glisser et déposez un composant ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** du panneau Composants vers un conteneur générique. Le conteneur est modifié en conteneur de segment.
+  * Faites glisser et déposez un composant ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** du panneau Composants vers un conteneur générique. Le conteneur est modifié en conteneur de segment.
 
-   * Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Ajouter]** depuis un conteneur :
+  * Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Ajouter]** depuis un conteneur :
 
-      1. Sélectionnez **[!UICONTROL Segment]**. Un conteneur de segment est ajouté à la **[!UICONTROL Définition]**.
-      1. Dans le nouveau conteneur de segment, sélectionnez un segment dans le menu déroulant [!UICONTROL *Sélectionner...*].
+    1. Sélectionnez **[!UICONTROL Segment]**. Un conteneur de segment est ajouté à la **[!UICONTROL Définition]**.
+    1. Dans le nouveau conteneur de segment, sélectionnez un segment dans le menu déroulant [!UICONTROL *Sélectionner...*].
 
   >[!TIP]
   >
@@ -170,13 +170,13 @@ Pour ajouter un conteneur de fonction, vous pouvez utiliser ce qui suit :
 
 * Faire glisser et déposer :
 
-   1. Faites glisser et déposez un composant ![Fonction](/help/assets/icons/Effect.svg) **[!UICONTROL Fonctions]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des fonctions spécifiques.
-   1. Un conteneur de fonction est automatiquement ajouté à la **[!UICONTROL Définition]** à l’aide du nom de la fonction.
+  1. Faites glisser et déposez un composant ![Fonction](/help/assets/icons/Effect.svg) **[!UICONTROL Fonctions]** du panneau Composants sur **[!UICONTROL Faites glisser et déposez ici des mesures, des dimensions, des éléments, des segments et/ou des fonctions]**. Vous pouvez utiliser la fonction ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des fonctions spécifiques.
+  1. Un conteneur de fonction est automatiquement ajouté à la **[!UICONTROL Définition]** à l’aide du nom de la fonction.
 
 * Sélectionnez ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Ajouter]** depuis un conteneur :
 
-   1. Sélectionnez **[!UICONTROL Fonction]**.
-   1. Dans le conteneur, sélectionnez une fonction dans le menu déroulant [!UICONTROL *Sélectionner...*].
+  1. Sélectionnez **[!UICONTROL Fonction]**.
+  1. Dans le conteneur, sélectionnez une fonction dans le menu déroulant [!UICONTROL *Sélectionner...*].
 
 Le conteneur de fonction est nommé selon le composant de fonction. Par exemple, ![Fonction](/help/assets/icons/Effect.svg) **[!UICONTROL RACINE CARRÉE (mesure)]**. Sélectionnez ![InfoOutline](/help/assets/icons/InfoOutline.svg) pour afficher une fenêtre contextuelle contenant plus de détails sur la fonction. Sélectionnez **[!UICONTROL En savoir plus]** pour plus d’informations sur la fonction.
 

@@ -23,8 +23,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 603
-ht-degree: 68%
+source-wordcount: 653
+ht-degree: 63%
 
 ---
 
@@ -32,7 +32,8 @@ ht-degree: 68%
 
 >[!IMPORTANT]
 >
-> Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>> Si vous **visitez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité d’](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
+> Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>
+> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité &#x200B;](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe permet de fournir aux visiteurs et visiteuses de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
@@ -49,19 +50,19 @@ Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer 
 La page d’exclusion de votre organisation dépend de la valeur de variable [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) dans votre mise en œuvre.
 
 * Dans l’extension Analytics :
-   1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-   1. Cliquez sur la propriété de balise de votre choix.
-   1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
-   1. Cliquez sur l’accordéon [!UICONTROL Général], puis notez la valeur [!UICONTROL Serveur de suivi].
+  1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
+  1. Cliquez sur la propriété de balise de votre choix.
+  1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous Adobe Analytics.
+  1. Cliquez sur l’accordéon [!UICONTROL Général], puis notez la valeur [!UICONTROL Serveur de suivi].
 
 * Dans une mise en œuvre JavaScript :
-   1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
-   1. Notez la valeur de la variable `trackingServer`.
+  1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
+  1. Notez la valeur de la variable `trackingServer`.
 
 * À l’aide du débogueur d’entreprise Adobe CX [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
-   1. Accédez à votre site à l’aide du navigateur Chrome.
-   1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
-   1. Notez la valeur [!UICONTROL Request URL - Hostname].
+  1. Accédez à votre site à l’aide du navigateur Chrome.
+  1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
+  1. Notez la valeur [!UICONTROL Request URL - Hostname].
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :
 

@@ -65,7 +65,7 @@ Le paramètre de configuration **[!UICONTROL Collecte de données de clics]** g�
 1. Sélectionnez **[!UICONTROL Collecte de données]** dans le menu d’accès rapide ou le sélecteur de produits en haut à droite.
 1. Sélectionnez **[!UICONTROL Balises]** dans le menu de navigation de gauche.
 1. Sélectionnez la balise à modifier.
-1. Sélectionnez **[!UICONTROL Extensions]** dans le menu de navigation de gauche.
+1. Sélectionner **[!UICONTROL Extensions]** dans le menu de navigation de gauche.
 1. Sélectionnez **[!UICONTROL Adobe Experience Platform SDK web]** dans la liste des extensions installées, puis sélectionnez **[!UICONTROL Configurer]** à droite.
 1. Recherchez la section intitulée [!UICONTROL Collecte de données] et assurez-vous que la case **[!UICONTROL Activer la collecte de données de clics]** est activée.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.

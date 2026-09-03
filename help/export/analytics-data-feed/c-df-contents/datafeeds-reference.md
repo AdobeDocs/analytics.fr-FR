@@ -39,7 +39,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
-source-wordcount: 4148
+source-wordcount: 4163
 ht-degree: 78%
 
 ---
@@ -118,7 +118,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`geo_region`** | Nom de l’État ou de la région d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Régions](/help/components/dimensions/regions.md). | char(32) |
 | | **`geo_zip`** | Code postal d’où provient l’accès, basé sur l’adresse IP. Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `zip`. | varchar(16) |
 | | **`hitid_high`** | Utilisée en combinaison avec `hitid_low` pour identifier un accès. | bigint sans signe |
-| | **`hitid_low`** | Utilisée en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
+| | **`hitid_low`** | Utilisé en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
 | | **`hit_source`** | Indique la source de l’accès. Les sources 1 et 2 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de la source de données active avec horodatage <br>4 : non utilisée <br>5 : chargement de la source de données générique <br>6 : plus utilisée ; chargement de la source de données à traitement complet <br>7 : chargement de la source de données TransactionID <br>8 : plus utilisée ; versions précédentes des sources de données Adobe Advertising <br>9 : plus utilisée ; mesures de résumé des réseaux sociaux Adobe <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
 | | **`hit_time_gmt`** | Date et l’heure des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure UNIX®. | int |
 | | **`hourly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse horaire. | tinyint sans signe |
@@ -246,7 +246,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`videoepisode`** | La dimension [Épisode](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/episode) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videofeedtype`** | La dimension [Type de flux multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-feed-type) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videogenre`** | La dimension [Genre](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/genre) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès, délimitées par une virgule. | text |
-| **`post_`** | **`videolength`** | La dimension [Longueur du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length) des services de streaming multimédia. | entier |
+| **`post_`** | **`videolength`** | La dimension [Longueur du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length) des services de streaming multimédia. | Entier |
 | **`post_`** | **`videomvpd`** | La dimension [MVPD](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/mvpd) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoname`** | La dimension [Nom du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-name) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videonetwork`** | La dimension [Réseau](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/network) des services de streaming multimédia. | varchar(255) |

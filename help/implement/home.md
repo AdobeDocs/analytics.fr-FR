@@ -45,19 +45,19 @@ Pour votre **site Web**, les méthodes de mise en œuvre suivantes sont disponib
 
 * **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Ajoutez l’**extension SDK Web d’Adobe Experience Platform** dans les **balises** de collecte de données Adobe Experience Platform, puis placez une balise de chargement sur chaque page. La balise envoie des données au **réseau Edge** d’Adobe Experience Platform, qui transfère ces données vers Adobe Analytics.
   Extension ![Web SDK](./assets/websdk-extension-implementation.png)
-Voir [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md). pour des informations supplémentaires.
+  Voir [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md). pour des informations supplémentaires.
 
 * **SDK Web** : si vous ne souhaitez pas utiliser la collecte de données d’Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque du SDK Web (`alloy.js`) sur chaque page et envoyez les appels de suivi de votre choix au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Le réseau Edge transfère ces données à Adobe Analytics.
   ![Web SDK](./assets/websdk-implementation.png)
-Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md).
+  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md).
 
 * **Extension Analytics** : ajoutez l’**extension Adobe Analytics** dans les **balises** de collecte de données Adobe Experience Platform, puis placez une balise de chargement sur chaque page. La balise envoie des données directement à Adobe Analytics. Utilisez cette méthode d’implémentation si vous souhaitez profiter de la commodité des balises sans utiliser l’infrastructure du réseau Edge.
   Extension ![Adobe Analytics](./assets/analytics-extension-implementation.png)
-Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Analytics &#x200B;](launch/overview.md).
+  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Analytics &#x200B;](launch/overview.md).
 
 * **Code JavaScript hérité** : méthode manuelle historique pour implémenter Adobe Analytics. Référencez la bibliothèque AppMeasurement (`AppMeasurement.js`) sur chaque page, puis définissez les paramètres et variables dans JavaScript.
   ![Comment mettre en œuvre Adobe Analytics à l’aide de l’ancien JavaScript](./assets/appmeasurement-implementation.png)
-Cette méthode d’implémentation peut s’avérer utile pour les implémentations utilisant du code personnalisé. Elle est idéale pour les types d’implémentation non proposés ailleurs, par exemple pour les pages [AMP](other/amp.md).
+  Cette méthode d’implémentation peut s’avérer utile pour les implémentations utilisant du code personnalisé. Elle est idéale pour les types d’implémentation non proposés ailleurs, par exemple pour les pages [AMP](other/amp.md).
 
 Le flux de décision suivant peut vous aider à sélectionner une méthode d’implémentation côté client :
 
@@ -74,11 +74,11 @@ Pour implémenter Adobe Analytics côté serveur, vous disposez des options suiv
 
 * **API Edge Network** : vous implémentez du code sur le serveur qui utilise l’API Edge Network d’Adobe Experience Platform pour communiquer avec Adobe Analytics par le biais d’un train de données.
   ![Implémentation côté serveur](assets/edge-network-server-api.png)
-Pour plus d’informations, voir [Implémentation d’Adobe Analytics à l’aide de l’API Adobe Experience Platform Edge Network](/help/implement/aep-edge/api/overview.md).
+  Pour plus d’informations, voir [Implémentation d’Adobe Analytics à l’aide de l’API Adobe Experience Platform Edge Network](/help/implement/aep-edge/api/overview.md).
 
 * **API d’insertion de données (en bloc)** : vous utilisez les API d’insertion de données (en bloc) Adobe Analytics pour collecter les données côté serveur directement dans Adobe Analytics.
   ![API d’insertion de données](assets/analytics-apis.png)
-Voir [API d’insertion de données](../import/c-data-insertion-api/c-data-insertion-api.md) pour plus d’informations.
+  Voir [API d’insertion de données](../import/c-data-insertion-api/c-data-insertion-api.md) pour plus d’informations.
 
 ## Méthodes d’implémentation des applications mobiles
 
