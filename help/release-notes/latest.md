@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dd4e1e089cf72c03c8d2fd43ac87e919efa0602
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1061
+ht-degree: 49%
 
 ---
 
@@ -44,19 +29,18 @@ Ces notes de mise à jour couvrent la période de publication de septembre 2026.
 | ----------- | ---------- | ---- |
 | **Limiter les segments à la période du rapport**<br/> Les données d’un rapport Workspace peuvent s’étendre au-delà de la période du rapport lorsqu’un segment inclut des composants de période.<p>Une nouvelle option est désormais disponible. Elle vous permet de limiter les résultats à la période du rapport, quels que soient les composants de date inclus dans le segment.</p><p>Cette option est disponible lors de la création ou de la modification d’un segment dont le conteneur de niveau supérieur est Visiteur.</p><p>Pour plus d’informations, voir [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 Août 2026 | 9 septembre 2026 |
 | **Mises à jour de la détection des robots**<br/> Lors de l’utilisation de la collecte de données Edge avec le SDK Web, les mises à jour de détection des robots suivantes sont disponibles :<ul><li>Vous pouvez désormais créer des règles de détection des robots pour identifier les exceptions dans le trafic qui seraient autrement traitées comme générées par des robots. Les règles existantes et futures continueront à marquer par défaut le trafic correspondant comme généré par les robots.</li><li>Les règles de robots personnalisées s’exécutent désormais avant les règles de détection de robots IAB. Cette modification n’affecte pas les scores de robots, mais les noms de règle de robots associés à un événement peuvent changer.</li></ul><p>Remarque : cette mise à jour s’applique uniquement aux implémentations de la collecte de données Edge qui utilisent le SDK Web. Elle ne s’applique pas aux bibliothèques plus anciennes telles qu’AppMeasurement.</p><p>(Lien vers la documentation à suivre.)</p> | | Début Septembre 2026 |
-| **Intégration de**<br/> connectez Adobe Brand Visibility aux données Adobe Analytics de votre entreprise afin de mesurer la manière dont les découvertes pilotées par l’IA se traduisent par un engagement réel sur le site web et des résultats commerciaux.<p>(Lien vers la documentation à suivre.)</p> | | Septembre 2026 |
 | **Mises à jour de l’API des ensembles de classifications**<br/> La documentation de l’API des ensembles de classifications comprend désormais des informations mises à jour de point d’entrée et de paramètre pour configurer les requêtes de l’API des ensembles de classifications.<p>Pour plus d’informations, consultez le [guide sur les points d’entrée des classifications](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 septembre 2026 | 30 septembre 2026 |
 | **Guide de codage des éléments d’ID de date dans les guides des rapports de l’API 2.0**<br/> Les guides des rapports de tendance de date de l’API Adobe Analytics 2.0 incluent désormais de nouvelles sections expliquant comment les paramètres et les valeurs de `itemId` de date sont codés. Cela peut vous aider à configurer et à migrer vers les services d’API 2.0 à partir des API 1.4 désormais obsolètes.<p>Pour plus d’informations, consultez le [guide sur les rapports des indicateurs de performance clés](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) et le [guide des rapports avancés](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 septembre 2026 | 30 septembre 2026 |
 
 ### Correctifs dans Adobe Analytics
 
-**&#x200B;**&#x200B;: AN-488579, AN-487247
-**&#x200B;**&#x200B;: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
+**** : AN-488579, AN-487247
+**** : AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
 **Classifications** : AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616 465380 464911 464338 463677 462729 462577 461040 459316
 **Flux de données et Data Warehouse** : AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483
 **Migration** :
 **Exports** : AN-467131
-**&#x200B;**&#x200B;: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
+**** : AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
 **Reporting** : AN-468621, AN-465383, AN-463924
 **Suites de rapports** : AN-468484, AN-468460, AN-465385
 **Rapports planifiés** :
