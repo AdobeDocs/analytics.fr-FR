@@ -6,26 +6,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -35,11 +24,11 @@ Des touches de raccourci (raccourcis clavier) sont disponibles dans Analysis Wor
 
 Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 
-- **⇧** pour **[!UICONTROL **&#x200B; Maj &#x200B;**]**.
-- **⌘** pour **[!UICONTROL **&#x200B; cmd &#x200B;**]** (commande).
-- **⌃** pour **[!UICONTROL **&#x200B; ctrl &#x200B;**]** (contrôle).
-- **⌥** pour **[!UICONTROL **&#x200B; opt &#x200B;**]** (option).
-- **⎇** pour **[!UICONTROL **&#x200B; alt &#x200B;**]** (alternative).
+- **⇧** pour **[!UICONTROL ** Maj **]**.
+- **⌘** pour **[!UICONTROL ** cmd **]** (commande).
+- **⌃** pour **[!UICONTROL ** ctrl **]** (contrôle).
+- **⌥** pour **[!UICONTROL ** opt **]** (option).
+- **⎇** pour **[!UICONTROL ** alt **]** (alternative).
 
 ## Actions de navigation
 
@@ -92,6 +81,17 @@ Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 | Déplacer le panneau vers le haut | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Haut *]** |
 | Déplacer le panneau vers le bas | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt+Ctrl+Bas *]** |
 
+## Redimensionnement du panneau ou des actions de visualisation
+
+| Action | Raccourci Mac | Raccourci Windows |
+| --- | --- | --- |
+| Redimensionner plus largement | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *ctrl + alt + maj + droite *]** |
+| Redimensionner plus étroit | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *ctrl + alt + maj + gauche *]** |
+| Redimensionner plus haut | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *ctrl+alt+maj+bas *]** |
+| Redimensionner plus court | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *ctrl + alt + maj + haut *]** |
+
+La largeur est redimensionnée par pas d’une colonne de grille et la hauteur est redimensionnée par pas d’une cellule de grille (environ 25 pixels).
+
 ## Actions de démocratisation
 
 | Action | Raccourci Mac | Raccourci Windows |
@@ -105,4 +105,4 @@ Notez que sur votre clavier, les symboles suivants peuvent être utilisés :
 | Partager le projet | **[!UICONTROL *Cmd+G *]** | **[!UICONTROL *Ctrl+G *]** |
 | Obtenir le lien du projet | **[!UICONTROL *Alt+L *]** | **[!UICONTROL *Alt+L *]** |
 | Envoyer le fichier maintenant | **[!UICONTROL *Alt+S *]** | **[!UICONTROL *Alt+S *]** |
-| Envoyer le fichier selon le calendrier | **[!UICONTROL *Maj+Alt+S *]** | **[!UICONTROL *Maj+Alt+S *]** |
+| Envoyer le fichier selon le planning | **[!UICONTROL *Maj+Alt+S *]** | **[!UICONTROL *Maj+Alt+S *]** |
