@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 98%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 98%
   + [Utilisation du SDK web (Alloy)](id/alloy.md)
   + [Utilisation de l’extension Analytics](id/analytics-extension.md)
   + [Utilisation d’AppMeasurement](id/appmeasurement.md)
-  + [Migration vers le service d’identifiant des visiteurs et visiteuses](id/migration.md)
+  + [Migration vers le service d’identifiant visiteur](id/migration.md)
   + [Suivre sur différents types de mises en œuvre](id/cross-type-implementation.md)
 + Préparer la mise en œuvre d’Adobe Analytics {#prepare}
   + [Créer une couche de données](prepare/data-layer.md)
@@ -136,7 +136,7 @@ ht-degree: 98%
   + [Considérations relatives aux suites de rapports globales](prepare/global-rs.md)
   + [Implémentation du balisage multisuite](prepare/multi-suite-tagging.md)
   + [Création d’un document de conception de solution](prepare/solution-design.md)
-  + [Prise en charge d’une implémentation Adobe Analytics existante](prepare/existing-implementation.md)
+  + [Prendre en charge une mise en œuvre Adobe Analytics existante](prepare/existing-implementation.md)
 + Mettre en œuvre Analytics à l’aide d’Experience Platform Edge {#aep-edge}
   + [Présentation d’Experience Edge](aep-edge/overview.md)
   + [Mappage de champ d’objet de données](aep-edge/data-var-mapping.md)
@@ -144,22 +144,24 @@ ht-degree: 98%
   + [Types d’événements Edge Network](aep-edge/hit-types.md)
   + SDK Web {#web-sdk}
     + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
+    + Planificateur de migration {#planner}
+      + [Présentation du planificateur](aep-edge/web-sdk/planner/overview.md)
     + [Migrer vers le SDK web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrer vers le SDK web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
-    + [Nouvelle implémentation à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
-    + [Nouvelle implémentation à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
+    + [Nouvelle mise en œuvre à l’aide des balises](aep-edge/web-sdk/web-sdk-tag-extension.md)
+    + [Nouvelle mise en œuvre à l’aide de JavaScript](aep-edge/web-sdk/web-sdk-javascript-library.md)
   + SDK mobile {#mobile-sdk}
     + [Présentation du SDK mobile](aep-edge/mobile-sdk/overview.md)
   + API Edge Network {#api}
     + [Vue d’ensemble de l’API Edge Network](aep-edge/api/overview.md)
-+ Implémenter Analytics à l’aide de l’extension Adobe Analytics {#launch}
++ Mettre en œuvre Analytics à l’aide de l’extension Adobe Analytics {#launch}
   + [Présentation des balises](launch/overview.md)
   + [Création d’une propriété de balise Adobe Analytics](launch/create-analytics-property.md)
   + [Déploiement dans un environnement de développement](launch/deploy-dev.md)
-  + [Validation et publication en production](launch/validate-publish-prod.md)
+  + [Valider et publier en environnement de production](launch/validate-publish-prod.md)
   + [Mise en correspondance des objets de couche de données avec les éléments de données](launch/layer-to-elements.md)
   + [Mappage des éléments de données de balises aux variables Analytics](launch/elements-to-variable.md)
-+ Mise en œuvre d’Analytics avec JavaScript {#js}
++ Mise en œuvre d’Analytics à l’aide de JavaScript {#js}
   + [Présentation de JavaScript](js/overview.md)
   + {hide-from-toc}[Implémenter des liens de désinscription](js/opt-out.md)
   + [Remplacements de variables](js/overrides.md)
@@ -175,11 +177,11 @@ ht-degree: 98%
   + [Dépannage d’AppMeasurement](js/troubleshooting.md)
 + Mettre en œuvre Analytics sur d’autres plateformes {#other}
   + [Mettre en œuvre Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
-  + [Mise en œuvre d’Analytics sur Ajax](other/ajax.md)
-  + [Mise en œuvre d’Analytics sur AMP](other/amp.md)
-  + [Mise en œuvre d’Analytics pour les assistants numériques](other/digital-assistants.md)
-  + [Mise en œuvre d’Analytics sur les Instant Articles de Facebook](other/fb-instant-articles.md)
-+ [Mise en œuvre d’Analytics sur des appareils mobiles](mobile-device-sdk.md)
+  + [Mettre en œuvre Analytics sur Ajax](other/ajax.md)
+  + [Mettre en œuvre Analytics sur AMP](other/amp.md)
+  + [Mettre en œuvre Analytics pour les assistants numériques](other/digital-assistants.md)
+  + [Mettre en œuvre Analytics sur les Instant Articles de Facebook](other/fb-instant-articles.md)
++ [Mettre en œuvre Analytics sur appareils mobiles](mobile-device-sdk.md)
 + Cas d’utilisation de mise en œuvre {#use-cases}
   + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
   + [Workflow du suivi de campagne](use-cases/campaign-tracking.md)
@@ -190,6 +192,6 @@ ht-degree: 98%
   + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
 + Réviser votre mise en œuvre {#review}
-  + [Révision ciblée (après chaque mise à jour de site web)](review/focused-review.md)
+  + [Révision ciblée (après chaque version de site web)](review/focused-review.md)
   + [Révision intégrale (tous les 6 mois)](review/full-review.md)
-  + [Définition des 5 principaux indicateurs clés de performance](review/define-kpis.md)
+  + [Définissez vos 5 principaux KPI](review/define-kpis.md)
