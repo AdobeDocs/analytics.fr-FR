@@ -24,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 01c0296a102b323ea067b2459f79969d507dc744
+source-git-commit: 6d07329547684e8bee712628a53092eb34e0141a
 workflow-type: tm+mt
-source-wordcount: 1117
-ht-degree: 46%
+source-wordcount: 1305
+ht-degree: 40%
 
 ---
 
 # Notes de mise à jour actuelles d’Adobe Analytics (septembre 2026)
 
-**Dernière mise à jour** : 9 septembre 2026
+**Dernière mise à jour** : 11 septembre 2026
 
 Ces notes de mise à jour couvrent la période de publication de septembre 2026. Les mises à jour d’Adobe Analytics fonctionnent sur un [modèle de diffusion continue](releases.md) qui permet une approche plus évolutive et plus progressive du déploiement des fonctionnalités. Par conséquent, ces notes de mise à jour sont mises à jour plusieurs fois par mois. Veuillez les vérifier régulièrement.
 
@@ -43,6 +43,9 @@ Ces notes de mise à jour couvrent la période de publication de septembre 2026.
 | ----------- | ---------- | ---- |
 | **Limiter les segments à la période du rapport**<br/> Les données d’un rapport Workspace peuvent s’étendre au-delà de la période du rapport lorsqu’un segment inclut des composants de période.<p>Une nouvelle option est désormais disponible. Elle vous permet de limiter les résultats à la période du rapport, quels que soient les composants de date inclus dans le segment.</p><p>Cette option est disponible lors de la création ou de la modification d’un segment dont le conteneur de niveau supérieur est Visiteur.</p><p>Pour plus d’informations, voir [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 Août 2026 | 9 septembre 2026 |
 | **Mises à jour de la détection des robots**<br/> Lors de l’utilisation de la collecte de données Edge avec le SDK Web, les mises à jour de détection des robots suivantes sont disponibles :<ul><li>Vous pouvez désormais créer des règles de détection des robots pour identifier les exceptions dans le trafic qui seraient autrement traitées comme générées par des robots. Les règles existantes et futures continueront à marquer par défaut le trafic correspondant comme généré par les robots.</li><li>Les règles de robots personnalisées s’exécutent désormais avant les règles de détection de robots IAB. Cette modification n’affecte pas les scores de robots, mais les noms de règle de robots associés à un événement peuvent changer.</li></ul><p>Remarque : cette mise à jour s’applique uniquement aux implémentations de la collecte de données Edge qui utilisent le SDK Web. Elle ne s’applique pas aux bibliothèques plus anciennes telles qu’AppMeasurement.</p><p>(Lien vers la documentation à suivre.)</p> | | Début Septembre 2026 |
+| **CX Enterprise Coworker : analyser les données d’Adobe Analytics dans le Module de conversation des collègues** <br/>Le Module de conversation d’Adobe CX Enterprise Coworker peut désormais effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données de vos suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.<p>(Lien vers la documentation à suivre.)</p> | | 25 septembre 2026 |
+| **CX Enterprise Coworker : compétence d’analyse des causes profondes** <br/>Le chat Adobe CX Enterprise Coworker peut désormais effectuer une analyse des causes profondes, en expliquant pourquoi une mesure a changé, et pas seulement ce qui a changé. Le Module de conversation des collègues identifie la date à laquelle un changement s’est produit et compare les données avant et après celui-ci, puis répartit le changement en fonction des dimensions qui le motivent et de son ampleur, présentées à la fois en pourcentage et en valeur absolue. Si aucun changement significatif n&#39;est détecté, le Chat Coworker vous permet de savoir plutôt que de spéculer sur une cause.<p>(Lien vers la documentation à suivre.)</p> | | 2 Octobre 2026 |
+| **CX Enterprise Coworker : ouvrez une visualisation dans Analysis Workspace** <br/>Commencez une analyse des données dans la discussion avec vos collègues, puis ouvrez l’analyse en tant que visualisation directement dans Analysis Workspace pour continuer à la créer, à l’affiner et à l’explorer.</p><p>(Lien vers la documentation à suivre.)</p> | | 2 Octobre 2026 |
 | **Mises à jour de l’API des ensembles de classifications**<br/> La documentation de l’API des ensembles de classifications comprend désormais des informations mises à jour de point d’entrée et de paramètre pour configurer les requêtes de l’API des ensembles de classifications.<p>Pour plus d’informations, consultez le [guide sur les points d’entrée des classifications](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 septembre 2026 | 30 septembre 2026 |
 | **Guide de codage des éléments d’ID de date dans les guides des rapports de l’API 2.0**<br/> Les guides des rapports de tendance de date de l’API Adobe Analytics 2.0 incluent désormais de nouvelles sections expliquant comment les paramètres et les valeurs de `itemId` de date sont codés. Cela peut vous aider à configurer et à migrer vers les services d’API 2.0 à partir des API 1.4 désormais obsolètes.<p>Pour plus d’informations, consultez le [guide sur les rapports des indicateurs de performance clés](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) et le [guide des rapports avancés](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 septembre 2026 | 30 septembre 2026 |
 
