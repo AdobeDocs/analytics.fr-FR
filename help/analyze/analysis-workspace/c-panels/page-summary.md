@@ -7,23 +7,29 @@ exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
 TQID: https://experienceleague.adobe.com/WI5opV6DcvJRF--HuX8PJcJd7G-3XU0-E0hWvvdlwmM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 87%
-
 ---
-
 # Panneau Synthèse de la page {#page-summary}
 
 <!-- markdownlint-disable MD034 -->
@@ -40,14 +46,14 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panneau Synthèse de la page"
->abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
+>abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +76,7 @@ Vous pouvez accéder au panneau depuis [!UICONTROL Rapports] ou dans [!UICONTROL
 | Point d’accès | Description |
 | --- | --- |
 | [!UICONTROL Rapports] | <ul><li>Le panneau est déjà déposé dans un projet.</li><li>Le rail de gauche est réduit.</li><li>Seule la dimension Page est prise en charge.</li><li>Un paramètre par défaut a déjà été appliqué, dans ce cas, la page la plus visitée pour la dimension [!UICONTROL Page]. Vous pouvez modifier ce paramètre.</li></ul> |
-| Workspace | Créez un projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites glisser le panneau [!UICONTROL Synthèse de la page] au-dessus du tableau à structure libre. Notez que le champ [!UICONTROL Élément de dimension] Page reste vide. Sélectionnez une dimension dans la liste déroulante. |
+| Workspace | Créez un nouveau projet et sélectionnez l’icône Panneau dans le rail de gauche. Faites glisser le panneau [!UICONTROL Synthèse de la page] au-dessus du tableau à structure libre. Notez que le champ [!UICONTROL Élément de dimension] Page reste vide. Sélectionnez un élément de dimension dans la liste déroulante. |
 
 ### Entrée du panneau {#panel-input}
 
@@ -99,7 +105,7 @@ Le panneau [!UICONTROL Synthèse de la page] renvoie un riche ensemble de donné
 | **[!UICONTROL Pages vues] - 4 semaines avant** | Visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) qui affiche le nombre de pages vues pour cette page au cours du dernier mois. |
 | **[!UICONTROL Pages vues] - 52 semaines avant** | Visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) qui indique le nombre de pages vues pour cette page au cours de l’année écoulée. |
 | **[!UICONTROL Tendance]** | Visualisation [en courbes](/help/analyze/analysis-workspace/visualizations/line.md) des tendances des pages vues pour ce mois-ci, 4 semaines avant et 52 semaines avant. |
-| **[!UICONTROL Pourcentage de toutes les pages vues]** | Synthèse des chiffres du pourcentage de toutes les pages vues qui ont été sur cette page. |
+| **[!UICONTROL Pourcentage de toutes les pages vues]** | Une synthèse du nombre indiquant le pourcentage de l’ensemble des pages vues dirigées vers cette page. |
 | **[!UICONTROL Durée de consultation de la page]** | Visualisation [Barres horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) qui affiche le temps passé sur cette page. |
 | **[!UICONTROL Visites sur une seule page]** | [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) qui indique le nombre de pages vues où cette page a été la seule page visitée. |
 | **[!UICONTROL Actualisations]** | [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) qui indique le nombre de fois où un élément de dimension était présent au cours d’une actualisation. Une personne rafraîchissant son navigateur est la méthode la plus courante pour déclencher une actualisation. |
