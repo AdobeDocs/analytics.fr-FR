@@ -1,34 +1,40 @@
 ---
-description: Découvrez comment créer des segments en faisant glisser et en déposant des mesures, des dimensions, des segments et des événements. Découvrez comment créer et enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs et visiteuses entre les visites et accès aux pages.
+description: Découvrez comment créer des segments en faisant glisser et en déposant des mesures, des dimensions, des segments et des événements. Découvrez comment créer et enregistrer des segments simples ou complexes qui identifient les attributs et actions des visiteurs et visiteuses entre les visites et hits de pages.
 title: Créer des segments
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 2082
-ht-degree: 72%
-
+source-wordcount: '2082'
+ht-degree: 74%
 ---
-
 # Créer des segments
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilité des produits"
->abstract="Certains critères de segment sont incompatibles avec certains outils Adobe Analytics. Les outils compatibles sont indiqués dans cette liste. Modifiez vos critères pour garantir la compatibilité."
+>abstract="Certains critères de segment sont incompatibles avec certains outils Adobe Analytics. Les outils compatibles sont indiqués dans cette liste. Modifiez vos critères pour garantir la compatibilité."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +44,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Prévisualisation des données"
->abstract="Compare les données de segment aux données de suite de rapports. Le pourcentage de prévisualisation est basé sur les **90 derniers jours**.<br><br/>Si l’aperçu ne se charge pas, votre connexion est en cours de remplissage."
+>abstract="Compare les données de segment aux données de suite de rapports. Le pourcentage de prévisualisation est basé sur les **90 derniers jours**.<br><br/>Si la prévisualisation ne se charge pas, votre connexion est en cours de remplissage."
 
 
 La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer ou de modifier des segments existants. La boîte de dialogue s’intitule **[!UICONTROL Nouveau segment]** ou **[!UICONTROL Modifier le segment]** pour les segments que vous créez ou gérez à partir du [[!UICONTROL gestionnaire de segments]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -63,7 +69,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    | **[!UICONTROL Segment de projet uniquement]** | Zone d’informations expliquant que le segment n’est visible que dans le projet dans lequel il est créé. Et que le segment n’est pas ajouté à votre liste de composants. Activez **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]** pour modifier ce paramètre. Cette zone d’informations n’est visible que lorsque vous créez un [segment rapide](seg-quick.md) et transformez le segment rapide en segment standard à l’aide de l’option **[!UICONTROL Ouvrir le créateur]** dans l’interface [!UICONTROL Segment rapide]. |
    | **[!UICONTROL Titre]** ![Requis](/help/assets/icons/Required.svg) | Nommez le segment, par exemple `Last month mobile visitors`. |
    | **[!UICONTROL Description]** | Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`. |
-   | **[!UICONTROL Balises]** | Organisez le segment en créant ou en appliquant une ou plusieurs balises. Commencez à saisir du texte pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
+   | **[!UICONTROL Balises]** | Organisez le segment en créant ou en appliquant une ou plusieurs balises. Commencez à saisir une expression pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
    | **[!UICONTROL Définition]** ![Obligatoire](/help/assets/icons/Required.svg) | Définissez votre segment à l’aide du [créateur de définitions](#definition-builder). |
 
    {style="table-layout:auto"}
@@ -81,7 +87,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
 
 Le créateur de définitions permet de créer votre définition de segment. Dans cette construction, vous utilisez des composants, des conteneurs, des opérateurs et une logique.
 
-Vous pouvez configurer le type et l’étendue de votre définition :
+Vous pouvez configurer le type et la portée de votre définition :
 
 1. Pour spécifier le type de votre définition, indiquez si vous souhaitez créer une définition d’inclusion ou d’exclusion. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** et dans la liste déroulante, **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
 1. Pour spécifier la portée de votre définition, choisissez dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]** si vous souhaitez que la portée de la définition soit **[!UICONTROL Accès]**, **[!UICONTROL Visites]**, **[!UICONTROL Visiteurs]** ou **[!UICONTROL Produits]**. Vous utilisez **[!UICONTROL Products]** pour les cas d’utilisation de l’[analyse des sous-accès](/help/components/segmentation/sub-hit.md).
@@ -94,12 +100,12 @@ Une partie essentielle de la création de votre définition de segment consiste 
 
 ![Commencer à créer une définition](assets/start-building-segment.gif){width=100%}
 
-Pour ajouter un composant, procédez comme suit :
+Pour ajouter un composant :
 
 1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**.
    * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
    * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, &#x200B;](/help/assets/icons/Segmentation.svg)Calendar **&#x200B;**&#x200B;DateRange![&#x200B; et &#x200B;](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![&#x200B; &#x200B;](/help/assets/icons/Layer.svg) **&#x200B;**. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
-1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou Saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
+1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
 
 1. (Facultatif) Activez l’option pour [!UICONTROL **Limiter les résultats à la période du rapport**].
 
@@ -119,7 +125,7 @@ Pour ajouter un composant, procédez comme suit :
 * Sélectionnez ou spécifiez une autre valeur pour l’opérateur, le cas échéant.
 * Si le type de composant est une dimension, vous pouvez définir le modèle d’attribution. Consultez [Modèle d’attribution](#attribution) pour en savoir plus.
 
-Pour ajouter un composant, procédez comme suit :
+Pour supprimer un composant :
 
 * Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) dans un composant.
 
@@ -130,7 +136,7 @@ Vous pouvez regrouper plusieurs composants dans un ou plusieurs conteneurs et d�
 ![Ajouter un conteneur](assets/add-container.gif){Width=100%}
 
 * Pour ajouter un conteneur, sélectionnez **[!UICONTROL Ajouter un conteneur]** dans ![Paramètre](/help/assets/icons/Setting.svg) **[!UICONTROL Options]**.
-* Pour ajouter un composant existant au conteneur, faites-le glisser dans le conteneur.
+* Pour ajouter un composant existant au conteneur, faites-le glisser et déposez-le dans le conteneur.
 * Pour ajouter un autre composant au conteneur, faites glisser un composant du panneau des composants et déposez-le dans le conteneur. Utilisez la ligne d’insertion bleue comme guide.
 * Pour ajouter un autre composant à l’extérieur du conteneur, faites glisser un composant depuis le panneau des composants à l’extérieur du conteneur, mais à l’intérieur du conteneur de définition principal. Utilisez la ligne d’insertion bleue comme guide.
 * Pour modifier la logique des composants, des conteneurs ou de leurs combinaisons, sélectionnez les **[!UICONTROL Et]**, **[!UICONTROL Ou]**, **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
@@ -152,7 +158,7 @@ Lorsque vous faites glisser des composants au niveau du produit et au niveau de 
 
 ## Périodes
 
-Vous pouvez créer des segments qui contiennent des périodes variables. Vous pouvez ainsi répondre aux questions sur les campagnes ou les événements en cours. Par exemple, vous pouvez créer un segment qui comprend *toutes les personnes qui ont effectué un achat en ligne au cours des 60 derniers jours*.
+Vous pouvez créer des segments qui contiennent des périodes dynamiques. Vous pouvez ainsi répondre aux questions sur les campagnes ou les événements en cours. Par exemple, vous pouvez créer un segment qui comprend *toutes les personnes qui ont effectué un achat en ligne au cours des 60 derniers jours*.
 
 ![Segment avec une période variable](assets/segment-rolling-date-range.png)
 
@@ -205,9 +211,9 @@ Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de
 
 | Modèles | Description |
 |---|---|
-| **[!UICONTROL Modèle répétitif (par défaut)]** | Incluez l’instance et les valeurs persistantes pour la dimension afin de déterminer la qualification. |
-| **[!UICONTROL Instance]** | Incluez uniquement des valeurs d’instance pour la dimension afin de déterminer la qualification. |
-| **[!UICONTROL Instance non répétitive]** | Incluez des valeurs d’instance uniques (non répétitives) pour la dimension afin de déterminer la qualification. L’instance non répétitive est le modèle appliqué dans le flux lorsque les instances répétées sont exclues. |
+| **[!UICONTROL Modèle répétitif (par défaut)]** | Incluez l’instance et la valeur persistante pour la dimension afin de déterminer la qualification. |
+| **[!UICONTROL Instance]** | Incluez uniquement la valeur d’instance pour la dimension afin de déterminer la qualification. |
+| **[!UICONTROL Instance non répétitive]** | Incluez des valeurs d’instance unique (non répétitives) pour la dimension afin de déterminer la qualification. L’instance non répétitive est le modèle appliqué dans le flux lorsque les instances répétées sont exclues. |
 
 
 ![Modèle d’attribution sur la dimension lors de la création d’un segment](assets/segment-dimension-attribution.png)
@@ -218,7 +224,7 @@ Dans le cadre d’une définition de segment, vous avez spécifié la condition 
 
 * Page Femmes - Attribution - Répétition (par défaut)
 * Page Femmes - Attribution - Instance
-* Page Femmes - Attribution - Instance non répétitive
+* Page Femmes - Attribution - Instance non répétée
 
 
 Le tableau ci-dessous explique, pour chaque modèle d’attribution, les événements entrants qualifiés ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) pour cette condition.
@@ -408,7 +414,7 @@ Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie
   </tr> 
   <tr> 
    <td colname="col1"> Personnes n’effectuant pas d’achat </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui n’ont pas participé à un événement commande. </td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses qui n’ont pas participé à un événement de commande. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Hors visites sur une seule page (sans rebonds) </td> 
@@ -416,23 +422,23 @@ Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie
   </tr> 
   <tr> 
    <td colname="col1"> Référencement payant </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant d’une recherche payante.  </td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses provenant d’un référencement payant.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Acheteurs et acheteuses </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont participé à un événement commande.  </td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses qui ont participé à un événement de commande.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites renouvelées </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont effectué au moins une visite.  </td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses qui ont effectué au moins une visite.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites de page unique </td> 
-   <td colname="col2"> Affiche les données provenant de visites dans lesquelles vous consultez une seule valeur de page, même si vous pouvez soumettre plusieurs pages vues au cours de cette visite. Les visites de page unique avec des événements de lien de sortie sont incluses dans le segment.  </td> 
+   <td colname="col2"> Affichez les données provenant des visites dans lesquelles une seule valeur de page est observée, même si plusieurs vues de page peuvent être enregistrées au cours de cette visite. Les visites de page unique avec des événements de lien de sortie sont incluses dans le segment.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Produit affiché non ajouté au panier </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses qui ont affiché des produits mais sans les ajouter au panier.  </td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses qui ont consulté des produits sans les ajouter au panier.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de la campagne </td> 
@@ -440,11 +446,11 @@ Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie
   </tr> 
   <tr> 
    <td colname="col1"> Visites issues d’appareils mobiles </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des appareils mobiles. </td> 
+   <td colname="col2">Affichez les données des visiteurs et visiteuses utilisant des appareils mobiles. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Visites issues d’une recherche naturelle </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses ne provenant pas d’un référencement payant.  </td> 
+   <td colname="col1"> Visites issues de la recherche naturelle </td> 
+   <td colname="col2">Affichez les données des visiteurs et visiteuses ne provenant pas d’un référencement payant.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir d’appareils non mobiles </td> 
@@ -452,23 +458,23 @@ Le logo Adobe ![AdobeLogoSmall](/help/assets/icons/AdobeLogoSmall.svg) identifie
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de téléphones </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des téléphones.  </td> 
+   <td colname="col2">Affichez les données des visiteurs et visiteuses utilisant des téléphones.  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de moteurs de recherche </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant des moteurs de recherche.</td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses provenant des moteurs de recherche.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites issues des réseaux sociaux </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses provenant des réseaux sociaux.</td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses provenant de sites sociaux.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites à partir de tablettes </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses utilisant des tablettes.</td> 
+   <td colname="col2">Affichez les données concernant les visiteurs et visiteuses utilisant des tablettes.</td> 
   </tr> 
   <tr> 
    <td colname="col1"> Visites avec cookie d’identifiant visiteur </td> 
-   <td colname="col2">Affiche les données concernant les visiteurs et visiteuses de votre site, où un cookie persistant est requis.</td> 
+   <td colname="col2">Affichez les données des visiteurs et visiteuses de votre site pour lesquels un cookie persistant est requis.</td> 
   </tr> 
  </tbody> 
 </table>

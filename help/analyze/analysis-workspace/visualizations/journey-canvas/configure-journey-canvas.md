@@ -1,16 +1,14 @@
 ---
-description: Découvrez comment configurer une visualisation de zone de travail de parcours.
-title: Configurer une visualisation de zone de travail de parcours
+description: Découvrez comment configurer une visualisation Canevas de parcours.
+title: Configurer une visualisation Canevas de parcours
 feature: Visualizations
 role: User, Admin
 source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
 source-wordcount: '6557'
-ht-degree: 78%
-
+ht-degree: 81%
 ---
-
-# Configurer une visualisation de zone de travail de parcours {#configure-journey-canvas}
+# Configurer une visualisation Canevas de parcours {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
@@ -18,7 +16,7 @@ _Cet article présente la visualisation de la zone de travail de Parcours dans_ 
 
 >[!ENDSHADEBOX]
 
-La visualisation Zone de travail de parcours vous permet d’analyser les parcours que vous fournissez à vos utilisateurs et utilisatrices et à votre clientèle, et d’obtenir des informations détaillées à leur sujet.
+La visualisation Canevas de parcours vous permet d’analyser les parcours que vous fournissez à vos utilisateurs et clients, et d’obtenir des informations détaillées à leur sujet.
 
 ![Zone de travail de parcours](assets/journey-canvas.png)
 
@@ -30,11 +28,11 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 
 * Informations potentielles
 
-* Différences entre la zone de travail de parcours et l’abandon
+* Différences entre Canevas de parcours et Abandon
 
 * Et bien plus encore.
 
-## Commencer à créer une visualisation de zone de travail de parcours
+## Commencer à créer une visualisation Canevas de parcours
 
 1. Ajoutez un panneau vierge à votre projet, sélectionnez l’icône [!UICONTROL **Visualisations**] dans le rail de gauche, puis faites glisser la visualisation ![GraphPathing](/help/assets/icons/Branch3.svg) [!UICONTROL **Zone de travail du parcours**] dans le panneau.
 
@@ -44,12 +42,12 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 
    ![Configuration de la zone de travail de parcours](assets/journey-canvas-configure.png)
 
-1. Spécifiez les informations de base suivantes pour configurer la zone de travail du parcours :
+1. Spécifiez les informations de base suivantes pour configurer le canevas de parcours :
 
    | Champ | Fonction |
    |---------|----------|
-   | [!UICONTROL **Mesure principale**] | Détermine la mesure utilisée lors du calcul des valeurs de pourcentage et de nombre sur chaque nœud du parcours.<p>**Remarque** : la portée des données incluses dans chaque valeur de pourcentage et de nombre est déterminée par la mesure que vous choisissez dans le champ **[!UICONTROL Conteneur de zone de travail de parcours]**. Par exemple, si l’élément **[!UICONTROL Personne]** est défini comme conteneur, les statistiques affichées dans le parcours s’étendent sur plusieurs sessions pour une personne donnée. Si l’élément **[!UICONTROL Session]** est défini comme conteneur, les statistiques affichées dans le parcours sont limitées à une seule session définie pour une personne donnée.</p><p>Examinons les exemples suivants illustrant l’impact de la mesure principale sur les valeurs de pourcentage et de nombre de chaque nœud :</p><ul><li>Si l’élément _Personnes_ est la mesure principale et que l’élément _Personne_ est le conteneur, alors seules les personnes disposant d’un événement correspondant aux critères de chaque nœud successif du parcours se déplacent dans le parcours. L’abandon se produit sur un nœud lorsqu’une personne n’est jamais arrivée aux nœuds suivants immédiats du parcours. Il se peut qu’elle ait effectué d’autres actions sur le site, mais cela ne répondait aux critères définis par les nœuds venant juste après.</li><li>Si l’élément _Personnes_ est la mesure principale et que l’élément _Session_ est le conteneur, alors seules les personnes disposant d’un événement correspondant aux critères de chaque nœud du parcours dans une seule session se déplacent dans le parcours. L’abandon se produit sur un nœud lorsqu’une personne n’est jamais arrivée à un nœud suivant immédiat du parcours au cours d’une seule session. Il se peut qu’elle ait effectué d’autres actions sur le site au cours de la session, mais cela ne répondait pas aux critères définis par les nœuds venant juste après.</li></ul> <p>La mesure principale influe sur les aspects suivants de la visualisation de la zone de travail de parcours :</p><ul><li>Nombre total affiché sur chaque nœud.  <p>Par exemple, si la mesure principale est Événements, chaque nœud indique le nombre de personnes qui ont eu un événement correspondant aux critères de ce nœud (et de chaque nœud précédent qui y mène dans le parcours).</p></li><li>Pourcentage affiché sur chaque nœud. (Une fois la visualisation créée, vous pouvez utiliser le menu déroulant **[!UICONTROL Valeur de pourcentage]** pour choisir d’afficher le pourcentage du total, le pourcentage du nœud précédent ou le pourcentage du nœud de départ.)<p>Par exemple, si la mesure principale est Événements, chaque nœud affiche le pourcentage de personnes qui ont eu un événement correspondant aux critères de ce nœud (et de chaque nœud précédent qui y mène dans le parcours).</p></li><li>Lorsqu’une dimension est ajoutée à la visualisation, les 3 premiers nœuds de la visualisation sont ajoutés, en fonction de la mesure principale.</li></ul> |
-   | [!UICONTROL **Mesure secondaire**] | Détermine la mesure secondaire utilisée lors du calcul des valeurs de pourcentage et de nombre sur chaque nœud du parcours. La mesure secondaire est facultative. <p>**Remarque** : la portée des données incluses dans chaque valeur de pourcentage et de nombre est déterminée par la mesure que vous choisissez dans le champ **[!UICONTROL Conteneur de zone de travail de parcours]**. Par exemple, si l’élément **[!UICONTROL Personne]** est défini comme conteneur, les statistiques affichées dans le parcours s’étendent sur plusieurs sessions pour une personne donnée. Si l’élément **[!UICONTROL Session]** est défini comme conteneur, les statistiques affichées dans le parcours sont limitées à une seule session définie pour une personne donnée.</p><p>Lorsqu’une mesure secondaire est configurée, elle influe sur les aspects suivants de la visualisation de la zone de travail de parcours :</p><ul><li>Nombre total affiché sur chaque nœud sous la mesure principale. <p>Par exemple, si l’élément Comptes est la mesure secondaire, le nombre de comptes s’affiche sur le nœud pour toutes les personnes qui ont atteint ce nœud dans le parcours.</p></li><li>Pourcentage affiché sur chaque nœud sous la mesure principale. (Une fois la visualisation créée, vous pouvez choisir d’afficher le pourcentage du total ou du nœud de départ.)</li><p>Par exemple, si Sessions est la mesure secondaire, chaque nœud affiche le pourcentage de sessions ayant atteint ce nœud dans le parcours (soit le pourcentage du total, soit celui du nœud de départ).</p></li></ul> |
+   | [!UICONTROL **Mesure principale**] | Détermine la mesure utilisée lors du calcul des valeurs de pourcentage et de nombre sur chaque nœud du parcours.<p>**Remarque** : la portée des données incluses dans chaque valeur de pourcentage et de nombre est déterminée par la mesure que vous choisissez dans le champ **[!UICONTROL Conteneur de zone de travail de parcours]**. Par exemple, si l’élément **[!UICONTROL Personne]** est défini comme conteneur, les statistiques affichées dans le parcours s’étendent sur plusieurs sessions pour une personne donnée. Si l’élément **[!UICONTROL Session]** est défini comme conteneur, les statistiques affichées dans le parcours sont limitées à une seule session définie pour une personne donnée.</p><p>Examinons les exemples suivants illustrant l’impact de la mesure principale sur les valeurs de pourcentage et de nombre de chaque nœud :</p><ul><li>Si l’élément _Personnes_ est la mesure principale et que l’élément _Personne_ est le conteneur, alors seules les personnes disposant d’un événement correspondant aux critères de chaque nœud successif du parcours se déplacent dans le parcours. L’abandon se produit sur un nœud lorsqu’une personne n’est jamais arrivée aux nœuds suivants immédiats du parcours. Il se peut qu’elle ait effectué d’autres actions sur le site, mais cela ne répondait aux critères définis par les nœuds venant juste après.</li><li>Si l’élément _Personnes_ est la mesure principale et que l’élément _Session_ est le conteneur, alors seules les personnes disposant d’un événement correspondant aux critères de chaque nœud du parcours dans une seule session se déplacent dans le parcours. L’abandon se produit sur un nœud lorsqu’une personne n’est jamais arrivée à un nœud suivant immédiat du parcours au cours d’une seule session. Elles ont peut-être effectué d’autres actions sur le site au cours de la session, mais elles n’ont satisfait aux critères définis par aucun des nœuds venant juste après.</li></ul> <p>La mesure principale a une incidence sur les aspects suivants de la visualisation du canevas de parcours :</p><ul><li>Nombre total affiché sur chaque nœud.  <p>Par exemple, si la mesure principale est Événements, chaque nœud indique le nombre de personnes ayant généré un événement qui répond aux critères de ce nœud (ainsi que de chaque nœud précédent qui y conduit dans le parcours).</p></li><li>Pourcentage affiché sur chaque nœud. (Une fois la visualisation créée, vous pouvez utiliser le menu déroulant **[!UICONTROL Valeur de pourcentage]** pour choisir d’afficher le pourcentage du total, le pourcentage du nœud précédent ou le pourcentage du nœud de départ.)<p>Par exemple, si la mesure principale est Événements, chaque nœud indique le pourcentage de personnes ayant généré un événement qui répond aux critères de ce nœud (ainsi que de chaque nœud précédent qui y conduit dans le parcours).</p></li><li>Lorsqu’une dimension est ajoutée à la visualisation, les 3 principaux nœuds de la visualisation sont ajoutés, en fonction de la mesure principale.</li></ul> |
+   | [!UICONTROL **Mesure secondaire**] | Détermine la mesure secondaire utilisée lors du calcul des valeurs de pourcentage et de nombre sur chaque nœud du parcours. La mesure secondaire est facultative. <p>**Remarque** : la portée des données incluses dans chaque valeur de pourcentage et de nombre est déterminée par la mesure que vous choisissez dans le champ **[!UICONTROL Conteneur de zone de travail de parcours]**. Par exemple, si l’élément **[!UICONTROL Personne]** est défini comme conteneur, les statistiques affichées dans le parcours s’étendent sur plusieurs sessions pour une personne donnée. Si l’élément **[!UICONTROL Session]** est défini comme conteneur, les statistiques affichées dans le parcours sont limitées à une seule session définie pour une personne donnée.</p><p>Lorsqu’une mesure secondaire est configurée, elle a une incidence sur les aspects suivants de la visualisation Canevas de parcours :</p><ul><li>Nombre total affiché sur chaque nœud sous la mesure principale. <p>Par exemple, si l’élément Comptes est la mesure secondaire, le nombre de comptes s’affiche sur le nœud pour toutes les personnes qui ont atteint ce nœud dans le parcours.</p></li><li>Pourcentage affiché sur chaque nœud sous la mesure principale. (Une fois la visualisation créée, vous pouvez choisir d’afficher le pourcentage du total ou du nœud de départ.)</li><p>Par exemple, si Sessions est la mesure secondaire, chaque nœud affiche le pourcentage de sessions ayant atteint ce nœud dans le parcours (soit le pourcentage du total, soit celui du nœud de départ).</p></li></ul> |
 
 1. (Facultatif) Sélectionnez [!UICONTROL **Afficher les paramètres avancés**], puis spécifiez les informations suivantes :
 
@@ -76,8 +74,8 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_arrow_settings"
->title="Paramètres de la flèche"
->abstract="Choisissez d’afficher ou de masquer les libellés sur la zone de travail. Les libellés sont des noms personnalisés créés dans la zone de travail du Parcours."
+>title="Paramètres des flèches"
+>abstract="Choisissez d’afficher ou de masquer les libellés sur la zone de travail. Les libellés sont des noms personnalisés créés dans la zone de travail de parcours."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -86,7 +84,7 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_show_fallout"
 >title="Afficher les abandons"
->abstract="Les données sur les abandons indiquent le pourcentage et le nombre de personnes ou de sessions sur chaque nœud du parcours qui ne sont jamais arrivées au nœud suivant du parcours. Il est possible qu’ils aient effectué d’autres actions sur le site, mais ils n’ont jamais répondu aux critères définis par le nœud suivant dans le parcours.<br/>Les données sur les abandons affichent les personnes ou les sessions (quelle que soit la mesure principale que vous avez choisie), et elles sont basées sur le paramètre du conteneur de la zone de travail par Parcours."
+>abstract="Les données sur les abandons affichent le pourcentage et le nombre de personnes ou de sessions sur chaque nœud du parcours qui ne sont jamais parvenues aux nœuds suivant du parcours. Il se peut qu’elles aient effectué d’autres actions sur le site, mais elles n’ont jamais répondu aux critères définis par le nœud suivant dans le parcours.<br/>Les données sur les abandons affichent les personnes ou les sessions (quelle que soit la mesure principale que vous avez choisie), et elles sont basées sur le paramètre du conteneur de la zone de travail de parcours."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -99,13 +97,13 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 
 <!-- markdownlint-enable MD034 -->
 
-Plusieurs options de configuration sont disponibles dans l’en-tête de la zone de travail de parcours.
+Plusieurs options de configuration sont disponibles dans l’en-tête du canevas de parcours.
 
-Pour configurer les paramètres de la visualisation de la zone de travail de parcours :
+Pour configurer les paramètres de la visualisation de canevas de parcours :
 
 1. Dans Analysis Workspace, ouvrez une visualisation de zone de travail de parcours existante ou [commencez à en créer une nouvelle](#begin-building-a-journey-canvas-visualization).
 
-   Les options permettant de configurer la visualisation de la zone de travail de parcours sont disponibles dans l’en-tête :
+   Les options permettant de configurer la visualisation de canevas de parcours sont disponibles dans l’en-tête :
 
    ![Options d’en-tête de zone de travail de parcours](assets/journey-canvas-header.png)
 
@@ -113,29 +111,29 @@ Pour configurer les paramètres de la visualisation de la zone de travail de par
 
    | Paramètre | Fonction |
    |---------|----------|
-   | [!UICONTROL **Valeur en pourcentage**] | Valeur de pourcentage affichée sur chaque nœud du parcours.<p>![Valeur en pourcentage](assets/journey-canvas-percentage.png)</p> <p>Tenez compte des points suivants lors de la configuration des valeurs de pourcentage affichées sur les nœuds du parcours :</p><ul><li>Un pourcentage est affiché sur chaque nœud pour la mesure principale. Un pourcentage s’affiche également pour la mesure secondaire si l’une d’elles est configurée. (Pour plus d’informations sur les paramètres des mesures principales et secondaires, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li><li>Les pourcentages incluent toutes les personnes ou sessions incluses dans la suite de rapports au cours de la période du panneau. L’utilisation de _personnes_ ou _sessions_ dépend du paramètre de conteneur. (Pour plus d’informations sur le paramètre de conteneur, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choisissez l’une des options suivantes :</p> <ul><li>[!UICONTROL **Pourcentage du nœud de départ**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud de départ. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées. <p>Un _nœud de départ_ est un nœud qui n’est précédé d’aucun nœud connecté.</p><p>Un parcours peut contenir plusieurs nœuds de départ. Cependant, le paramètre [!UICONTROL **Pourcentage du total**] est utilisé si le parcours contient 2 nœuds de début ou plus menant à un nœud commun. Si vous souhaitez utiliser le paramètre [!UICONTROL **Pourcentage du nœud de départ**], mettez à jour le parcours de sorte que chaque nœud du parcours puisse être retracé jusqu’à un seul nœud de départ.</p></li><li>[!UICONTROL **Pourcentage du nœud précédent**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud précédent. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées.</li><li>[!UICONTROL **Pourcentage du total**] : calcule les pourcentages affichés sur chaque nœud par rapport à toutes les données de la suite de rapports. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées.</li></ul> |
-   | [!UICONTROL **Paramètres des flèches**] | Les flèches qui s’affichent entre les nœuds dans la zone de travail de parcours peuvent être configurées pour afficher des libellés et des valeurs personnalisés. <p>![paramètres des flèches](assets/journey-canvas-arrow-settings.png)</p><p>Les _libellés_ sont des noms personnalisés que vous pouvez ajouter dans la zone de travail du Parcours, comme décrit dans la section [Ajouter ou mettre à jour un libellé sur une flèche](#add-or-update-a-label-on-an-arrow).</li></ol><p>Les _valeurs_ correspondent aux nombres et aux pourcentages qui apparaissent sur les flèches et elles indiquent les personnes ou les sessions qui sont passées d’un nœud au suivant dans le parcours. (En d’autres termes, celles qui n’ont pas quitté le parcours à une étape donnée.) </p><p>Les options disponibles sont les suivantes :</p><ul><li>[!UICONTROL **Aucun libellé**] : aucun libellé n’est affiché sur les flèches du parcours. </br> Cette option est disponible uniquement si le parcours a été modifié dans </li><li>[!UICONTROL **Libellés uniquement**] : les libellés sont affichés sur les flèches du parcours.</li></ul> |
+   | [!UICONTROL **Valeur en pourcentage**] | Valeur de pourcentage affichée sur chaque nœud du parcours.<p>![Valeur en pourcentage](assets/journey-canvas-percentage.png)</p> <p>Tenez compte des points suivants lors de la configuration des valeurs de pourcentage affichées sur les nœuds du parcours :</p><ul><li>Un pourcentage est affiché sur chaque nœud pour la mesure principale. Un pourcentage s’affiche également pour la mesure secondaire si l’une d’elles est configurée. (Pour plus d’informations sur les paramètres des mesures principales et secondaires, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li><li>Les pourcentages incluent toutes les personnes ou sessions incluses dans la suite de rapports au cours de la période du panneau. L’utilisation de _personnes_ ou _sessions_ dépend du paramètre de conteneur. (Pour plus d’informations sur le paramètre de conteneur, voir [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization).)</li></ul> <p>Choisissez l’une des options suivantes :</p> <ul><li>[!UICONTROL **Pourcentage du nœud de départ**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud de départ. Les pourcentages sont calculés en fonction des mesures principale et secondaire que vous avez sélectionnées. <p>Un _nœud de départ_ est un nœud qui n’est précédé d’aucun nœud connecté.</p><p>Un parcours peut contenir plusieurs nœuds de départ. Cependant, le paramètre [!UICONTROL **Pourcentage du total**] est utilisé si le parcours contient 2 nœuds de début ou plus menant à un nœud commun. Si vous souhaitez utiliser le paramètre [!UICONTROL **Pourcentage du nœud de départ**], mettez à jour le parcours de sorte que chaque nœud du parcours puisse être retracé jusqu’à un seul nœud de départ.</p></li><li>[!UICONTROL **Pourcentage du nœud précédent**] : calcule les pourcentages affichés sur chaque nœud par rapport au nœud précédent. Les pourcentages sont basés sur les mesures principale et secondaire que vous avez sélectionnées.</li><li>[!UICONTROL **Pourcentage du total**] : calcule les pourcentages affichés sur chaque nœud par rapport à toutes les données de la suite de rapports. Les pourcentages sont calculés en fonction des mesures principale et secondaire que vous avez sélectionnées.</li></ul> |
+   | [!UICONTROL **Paramètres des flèches**] | Les flèches qui apparaissent entre les nœuds dans le canevas de parcours peuvent être configurées pour afficher des libellés et des valeurs personnalisés. <p>![paramètres des flèches](assets/journey-canvas-arrow-settings.png)</p><p>Les _libellés_ sont des noms personnalisés que vous pouvez ajouter dans la zone de travail du Parcours, comme décrit dans la section [Ajouter ou mettre à jour un libellé sur une flèche](#add-or-update-a-label-on-an-arrow).</li></ol><p>Les _valeurs_ correspondent aux nombres et aux pourcentages qui apparaissent sur les flèches et elles indiquent les personnes ou les sessions qui sont passées d’un nœud au suivant dans le parcours. (Autrement dit, celles qui n’ont pas abandonné le parcours à une étape donnée.) </p><p>Les options disponibles sont les suivantes :</p><ul><li>[!UICONTROL **Aucun libellé**] : aucun libellé n’est affiché sur les flèches du parcours. </br> Cette option est disponible uniquement si le parcours a été modifié dans </li><li>[!UICONTROL **Libellés uniquement**] : les libellés sont affichés sur les flèches du parcours.</li></ul> |
    | [!UICONTROL **Comparer à**] | Période utilisée pour comparer les données de parcours actuelles à une période précédente. Vous pouvez choisir l’une des périodes suivantes à des fins de comparaison :<ul><li>**[!UICONTROL 4 semaines avant]**</li><li>**[!UICONTROL 2 trimestres avant]**</li><li>**[!UICONTROL 1 an avant]**</li><li>**[!UICONTROL Période personnalisée]**</li></ul><p>Lorsque vous sélectionnez une période de comparaison, chaque nœud du parcours affiche le pourcentage de changement entre la période actuelle et la période de comparaison sélectionnée, en fonction de la mesure principale. Vous pouvez ainsi déterminer si les performances de votre parcours sont meilleures ou inférieures par rapport à une période précédente.</p> |
-   | [!UICONTROL **Afficher les abandons**] | Les données d’abandons affichent un pourcentage et un nombre d’abandons de chaque nœud du parcours. Les données d’abandons sont basées sur la mesure associée aux paramètres du conteneur du parcours. Elles ne sont pas basées sur la mesure principale ou secondaire. <p>![abandon](assets/journey-canvas-fallout.png)</p><p>Par défaut, le conteneur est _Personne_, la mesure utilisée pour les données d’abandons est donc _Personnes_. Si le conteneur est défini sur _Session_, la mesure utilisée pour les données d’abandons est _Sessions_, et ainsi de suite.</p><p>Par exemple, avec le paramètre de conteneur _Personne_, les abandons affichent le pourcentage et le nombre de personnes sur chaque nœud du parcours qui ne sont jamais parvenues aux nœuds suivants immédiats. Il se peut qu’elle ait effectué d’autres actions sur le site, mais cela ne répondait aux critères définis par les nœuds venant juste après.</p> <p>Pour plus d’informations sur le paramètre du conteneur de zone de travail de parcours, consultez [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization). |
+   | [!UICONTROL **Afficher les abandons**] | Les données d’abandons affichent un pourcentage et un nombre d’abandons de chaque nœud du parcours. Les données d’abandon sont basées sur la mesure associée aux paramètres du conteneur du parcours, et non sur la mesure principale ou secondaire. <p>![abandon](assets/journey-canvas-fallout.png)</p><p>Par défaut, le conteneur est _Personne_, la mesure utilisée pour les données d’abandons est donc _Personnes_. Si le conteneur est défini sur _Session_, la mesure utilisée pour les données d’abandons est _Sessions_, et ainsi de suite.</p><p>Par exemple, avec le paramètre de conteneur _Personne_, les abandons affichent le pourcentage et le nombre de personnes sur chaque nœud du parcours qui ne sont jamais parvenues aux nœuds suivants immédiats. Il se peut qu’elle ait effectué d’autres actions sur le site, mais cela ne répondait aux critères définis par les nœuds venant juste après.</p> <p>Pour plus d’informations sur le paramètre du conteneur de zone de travail de parcours, consultez [Commencer à créer une visualisation de zone de travail de parcours](#begin-building-a-journey-canvas-visualization). |
    | **Contrôles** | Les commandes suivantes sont disponibles dans le coin supérieur droit de la zone de travail :<ul><li>**Ajuster à l’écran** ![icône d’ajustement à l’écran](assets/fill-screen-icon.png) : permet d’ajuster les paramètres de zoom et de panoramique actuels pour remplir l’écran avec la visualisation complète.</li><li>**Organiser** ![icône organiser](assets/organize.svg) : réorganise les nœuds pour minimiser les flèches qui se croisent et optimiser l’espacement, en fonction des connexions entre les nœuds. </li><li>**Zoom avant** ![icône de zoom avant](assets/zoom-in-icon.png) : permet d’agrandir des zones spécifiques de la visualisation.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</li><li>**Zoom arrière** ![icône de zoom arrière](assets/zoom-out-icon.png) : permet de réduire la visualisation pour laisser plus de place à la zone de travail.<p>Vous pouvez également utiliser les contrôles de la souris, comme le pincement sur un pavé tactile.</p></li></ul><p>Pour effectuer un panoramique sur la zone de travail après un zoom avant ou arrière, cliquez avec la souris et faites glisser jusqu’à l’emplacement souhaité.</p> |
 
 1. Continuez avec [Ajouter des nœuds](#add-nodes).
 
 ## Ajouter des nœuds
 
-Les nœuds dans une visualisation de zone de travail de parcours représentent les événements ou les actions d’un parcours utilisateur.
+Dans une visualisation de canevas de parcours, les nœuds représentent les événements ou les actions d’un parcours utilisateur.
 
-Pour créer des nœuds, procédez comme suit : en faisant glisser des composants de Workspace du rail de gauche vers la zone de travail, en laissant la zone de travail de parcours choisir les nœuds supérieurs suivants ou précédents en fonction des nœuds existants ou en dupliquant des nœuds existants.
+Vous pouvez créer des nœuds de différentes manières : en faisant glisser des composants Workspace du rail de gauche vers la zone de travail ; en laissant le canevas de parcours sélectionner les principaux nœuds suivants ou précédents en fonction des nœuds existants ; ou en dupliquant des nœuds existants.
 
 ### Faire glisser des composants à partir du rail de gauche
 
 1. Dans Analysis Workspace, ouvrez une visualisation de zone de travail de parcours existante ou [commencez à en créer une nouvelle](#begin-building-a-journey-canvas-visualization).
 
-1. Faites glisser des mesures, des dimensions, des éléments de dimension, des segments ou des périodes du rail de gauche vers la zone de travail. Toutefois, les mesures calculées ne sont pas prises en charge.
+1. Faites glisser des mesures, des dimensions, des éléments de dimension, des segments ou des périodes du rail de gauche vers le canevas. Toutefois, les mesures calculées ne sont pas prises en charge.
 
    Vous pouvez sélectionner plusieurs composants dans le rail de gauche en maintenant la touche Maj enfoncée ou en maintenant la touche Commande (sur Mac) ou Ctrl (sur Windows) enfoncée.
 
-   La visualisation est mise à jour en fonction de la mesure principale comme suit (selon le type de composant et la zone de travail où vous le placez) :
+   La visualisation est mise à jour en fonction de la mesure principale comme suit (selon le type de composant et la zone du canevas où vous le placez) :
 
    | Type de composant | Placement du composant | La visualisation est mise à jour après l’ajout du nœud. |
    |---------|----------|----------|
@@ -154,9 +152,9 @@ Pour créer des nœuds, procédez comme suit : en faisant glisser des composant
    | Période | Zone vierge de la zone de travail | Le nœud affiche l’emplacement où le composant a été déposé, déconnecté de tout autre nœud.<p>Le nombre et le pourcentage qui apparaissent sur le nœud incluent le total de la mesure principale, segmentée en fonction de la période que vous avez sélectionnée.</p> <p>Par exemple, si Personnes est sélectionné comme mesure principale pour le parcours, l’ajout d’une période Ce mois-ci à une zone vierge de la zone de travail affiche toutes les personnes qui ont rencontré un événement pendant le mois en cours.</p> |
    | Période | Un nœud existant | Applique la période au nœud existant. |
    | Période | Une flèche qui connecte 2 nœuds | Le nœud s’affiche entre les deux nœuds existants sur lesquels le composant a été déposé et il est connecté aux deux nœuds existants. (Consultez [Connecter des nœuds](#connect-nodes) pour plus d’informations.)<p>Applique la période au point sur le chemin où le composant a été déposé.</p> |
-   | Composants multiples | Une zone vierge de la zone de travail | **Si aucun des composants n’est une dimension :**<p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés, déconnectés de tout nœud existant.</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. </p><p>**Si l’un des composants que vous ajoutez est une dimension :**</p><p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés, déconnectés de tout nœud existant.</p><p>Une seule dimension peut être ajoutée à la fois. Lorsque la dimension est ajoutée, 3 nœuds sont créés pour les 3 éléments de dimension supérieurs où le composant a été déposé.</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. Les 3 éléments de dimension supérieurs sont combinés avec chaque nœud. (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p> |
-   | Composants multiples | Un nœud existant | Tous les composants sont combinés avec le nœud existant.<p>Si l’un des composants que vous ajoutez est une dimension, les 3 éléments de dimension supérieurs sont combinés avec le nœud.</p> <p>Une seule dimension peut être ajoutée à la fois.</p> |
-   | Composants multiples | Une flèche qui connecte 2 nœuds existants | **Si aucun des composants n’est une dimension :**<p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés et chaque nœud est connecté aux deux nœuds existants. (Consultez [Connecter des nœuds](#connect-nodes) pour plus d’informations.)<p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. (Les composants doivent être du même type pour être combinés en un seul nœud.) (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p><p>**Si l’un des composants que vous ajoutez est une dimension :**</p><p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés et chaque nœud est connecté aux deux nœuds existants.</p><p>Une seule dimension peut être ajoutée à la fois. Lorsque la dimension est ajoutée, 3 nœuds sont créés pour les 3 éléments supérieurs de la dimension qui suivent le premier événement après le premier nœud (de personnes ou de sessions qui parviennent finalement au deuxième nœud). Chaque nœud est connecté aux deux nœuds existants. (Consultez [Connecter des nœuds](#connect-nodes) pour plus d’informations.)</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. Les 3 éléments de dimension supérieurs sont combinés avec chaque nœud, et chaque nœud est connecté aux deux nœuds existants. (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p> |
+   | Composants multiples | Une zone vierge de la zone de travail | **Si aucun des composants n’est une dimension :**<p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés, déconnectés de tout nœud existant.</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. </p><p>**Si l’un des composants que vous ajoutez est une dimension :**</p><p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés, déconnectés de tout nœud existant.</p><p>Une seule dimension peut être ajoutée à la fois. Lorsque la dimension est ajoutée, 3 nœuds sont créés pour les 3 éléments de dimension supérieurs où le composant a été déposé.</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. Les 3 principaux éléments de dimension sont combinés avec chaque nœud. (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p> |
+   | Composants multiples | Un nœud existant | Tous les composants sont combinés avec le nœud existant.<p>Si l’un des composants que vous ajoutez est une dimension, les 3 principaux éléments de dimension sont combinés avec le nœud.</p> <p>Une seule dimension peut être ajoutée à la fois.</p> |
+   | Composants multiples | Une flèche qui connecte 2 nœuds existants | **Si aucun des composants n’est une dimension :**<p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés et chaque nœud est connecté aux deux nœuds existants. (Consultez [Connecter des nœuds](#connect-nodes) pour plus d’informations.)<p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. (Les composants doivent être du même type pour être combinés en un seul nœud.) (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p><p>**Si l’un des composants que vous ajoutez est une dimension :**</p><p>Chaque composant s’affiche sous la forme d’un nœud distinct où les composants ont été déposés et chaque nœud est connecté aux deux nœuds existants.</p><p>Une seule dimension peut être ajoutée à la fois. Lorsque la dimension est ajoutée, 3 nœuds sont créés pour ses 3 principaux éléments qui suivent le premier événement après le premier nœud (pour les personnes ou les sessions qui finissent par atteindre le deuxième nœud). Chaque nœud est connecté aux deux nœuds existants. (Consultez [Connecter des nœuds](#connect-nodes) pour plus d’informations.)</p><p>Maintenez la touche Maj enfoncée lorsque vous déposez les composants sur la zone de travail pour les ajouter en tant que nœud combiné. Les 3 principaux éléments de dimension sont combinés avec chaque nœud, et chaque nœud est connecté aux deux nœuds existants. (Consultez [Combiner des nœuds](#combine-nodes) pour plus d’informations.)</p> |
 
    Les nœuds s’affichent sous la forme d’une zone rectangulaire avec les informations suivantes :
 
@@ -176,21 +174,21 @@ Pour créer des nœuds, procédez comme suit : en faisant glisser des composant
 
 ### Afficher les nœuds supérieurs en fonction des nœuds existants
 
-Vous pouvez afficher automatiquement les principaux nœuds immédiats ou éventuels en fonction des nœuds qui se trouvent déjà sur la zone de travail. Vous pouvez ajouter les nœuds supérieurs à la zone de travail de parcours ou les afficher dans un tableau à structure libre.
+Vous pouvez afficher automatiquement les principaux nœuds immédiats ou éventuels en fonction des nœuds qui se trouvent déjà sur la zone de travail. Vous pouvez ajouter les principaux nœuds au canevas de parcours ou les afficher dans un tableau à structure libre.
 
-La zone de travail de parcours utilise la mesure principale lors de la détermination des nœuds à afficher.
+Le canevas de parcours utilise la mesure principale pour déterminer les nœuds à afficher.
 
-Cette option est disponible pour les objets suivants sur la zone de travail :
+Cette option est disponible pour les objets suivants sur le canevas :
 
 * Nœuds individuels
 
 * Flèche entre des nœuds
 
-#### Afficher les nœuds supérieurs après un nœud existant
+#### Afficher les principaux nœuds après un nœud existant
 
-Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou ultérieurs qui le suivent immédiatement. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
+Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou ultérieurs qui le suivent immédiatement. Vous pouvez ajouter les 3 principaux éléments de dimension au canevas de parcours sous la forme de nœuds distincts ou afficher tous les principaux éléments de dimension dans un tableau à structure libre.
 
-1. Cliquez avec le bouton droit sur le nœud où vous souhaitez afficher les éléments de dimension supérieurs qui le suivent dans le parcours.
+1. Cliquez avec le bouton droit sur le nœud où vous souhaitez afficher les principaux éléments de dimension qui le suivent dans le parcours.
 
    Le nœud ne peut pas comporter de nœuds existants qui en sortent dans le parcours.
 
@@ -214,7 +212,7 @@ Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux �
 
 #### Afficher les nœuds supérieurs avant un nœud existant
 
-Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou éventuels qui le précèdent immédiatement. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
+Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux éléments de dimension immédiats ou éventuels qui le précèdent immédiatement. Vous pouvez ajouter les 3 principaux éléments de dimension au canevas de parcours sous la forme de nœuds distincts ou afficher tous les principaux éléments de dimension dans un tableau à structure libre.
 
 1. Cliquez avec le bouton droit sur le nœud où vous souhaitez afficher les éléments de dimension supérieurs qui le précèdent dans le parcours.
 
@@ -238,11 +236,11 @@ Vous pouvez sélectionner un nœud et afficher dans le parcours les principaux �
 
    Selon ce que vous avez choisi à l’étape précédente, les 3 éléments de dimension supérieurs sont ajoutés à la zone de travail sous la forme de 3 nœuds distincts, ou tous les éléments de dimension supérieurs sont affichés dans un tableau à structure libre.
 
-#### Afficher les nœuds supérieurs entre les nœuds existants
+#### Afficher les principaux nœuds entre les nœuds existants
 
-Vous pouvez sélectionner une flèche et afficher les éléments de dimension supérieurs qui se trouvent entre 2 nœuds existants dans le parcours. Vous pouvez ajouter les 3 éléments de dimension supérieurs à la zone de travail de parcours sous la forme de nœuds distincts ou afficher tous les éléments de dimension supérieurs dans un tableau à structure libre.
+Vous pouvez sélectionner une flèche et afficher les principaux éléments de dimension qui se trouvent entre 2 nœuds existants du parcours. Vous pouvez ajouter les 3 principaux éléments de dimension au canevas de parcours sous la forme de nœuds distincts ou afficher tous les principaux éléments de dimension dans un tableau à structure libre.
 
-1. Cliquez avec le bouton droit sur la flèche entre les 2 nœuds où vous souhaitez afficher les éléments de dimension supérieurs.
+1. Cliquez avec le bouton droit sur la flèche entre les 2 nœuds où vous souhaitez afficher les principaux éléments de dimension.
 
 1. Sélectionnez [!UICONTROL **Afficher les nœuds supérieurs entre ces nœuds**].
 
@@ -254,11 +252,11 @@ Vous pouvez sélectionner une flèche et afficher les éléments de dimension su
 
 1. Sélectionnez la dimension souhaitée dans la liste des dimensions.
 
-   Selon ce que vous avez choisi à l’étape précédente, les 3 éléments de dimension supérieurs sont ajoutés à la zone de travail sous la forme de 3 nœuds distincts, ou tous les éléments de dimension supérieurs sont affichés dans un tableau à structure libre.
+   Selon ce que vous avez choisi à l’étape précédente, les 3 principaux éléments de dimension sont ajoutés au canevas sous la forme de 3 nœuds distincts, ou tous les principaux éléments de dimension sont affichés dans un tableau à structure libre.
 
 ### Dupliquer des nœuds
 
-L’option de duplication est disponible pour les objets suivants sur la zone de travail :
+L’option de duplication est disponible pour les objets suivants sur le canevas :
 
 * Nœuds individuels
 
@@ -274,13 +272,13 @@ Pour dupliquer des nœuds :
 
 ## Concevoir le parcours
 
-L’ordre des nœuds et les connexions entre eux affectent les données de la zone de travail de parcours. Les parcours doivent refléter visuellement et précisément la séquence d’événements sur laquelle vous souhaitez créer un rapport.
+L’ordre des nœuds et les connexions entre eux ont une incidence sur les données du canevas de parcours. Les parcours doivent refléter visuellement et précisément la séquence d’événements sur laquelle vous souhaitez créer un rapport.
 
 Une fois les nœuds ajoutés à la zone de travail, vous pouvez les réorganiser, les combiner, les connecter et ajouter des contraintes temporelles entre eux.
 
 ### Réorganiser les nœuds
 
-Les parcours dans la zone de travail de parcours comprennent un graphique flexible de nœuds et de flèches représentant n’importe quelle combinaison d’événements, d’éléments de dimension et de segments.
+Dans le canevas de parcours, les parcours se composent d’un graphique flexible de nœuds et de flèches représentant toute combinaison d’événements, d’éléments de dimension et de segments.
 
 Vous pouvez faire glisser des nœuds sur la zone de travail pour réorganiser les événements et les conditions du parcours.
 
@@ -288,11 +286,11 @@ Vous pouvez faire glisser des nœuds sur la zone de travail pour réorganiser le
 
 ### Combiner des nœuds
 
-Un nœud combiné dans la zone de travail de parcours est un point unique dans le parcours utilisateur (nœud) qui contient 2 composants ou plus reliés entre eux par une logique.
+Dans le canevas de parcours, un nœud combiné est un point unique du parcours utilisateur (nœud) qui contient au moins 2 composants reliés entre eux par une logique.
 
 #### Créer des nœuds combinés
 
-Vous pouvez effectuer l’une des opérations suivantes pour combiner des nœuds dans la zone de travail de parcours :
+Vous pouvez effectuer l’une des opérations suivantes pour combiner des nœuds dans le canevas de parcours :
 
 * Dans le rail de gauche, faites glisser un composant sur un nœud de la zone de travail.
 
@@ -316,8 +314,8 @@ La logique appliquée aux nœuds lorsqu’ils sont combinés diffère selon les 
 | Types de composants à combiner | Logique (opérateur) utilisée |
 |---------|----------|
 | Mesure + mesure | Jonction avec OR |
-| Élément de dimension + élément de dimension (de la même dimension parente) | Jonction avec OR |
-| Élément de dimension + élément de dimension (de différentes dimensions parentes) | Jonction avec AND |
+| Élément de dimension + élément de dimension (issus de la même dimension parente) | Jonction avec OR |
+| Élément de dimension + élément de dimension (issus de différentes dimensions parentes) | Jonction avec AND |
 | Segment + segment | Jonction avec AND |
 | Dimension + mesure, période ou segment | Jonction avec AND |
 | Période + mesure, segment ou dimension | Jonction avec AND |
@@ -349,9 +347,9 @@ Lorsqu’un parcours Journey Optimizer contient plusieurs chemins d’accès ent
 
 #### Logique lors de la connexion de nœuds
 
-Lorsque vous connectez des nœuds dans la zone de travail de parcours, ils sont connectés à l’aide de l’opérateur THEN. C’est ce qu’on appelle également la [segmentation séquentielle](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
+Lorsque vous connectez des nœuds dans le canevas de parcours, ils sont connectés à l’aide de l’opérateur THEN. C’est ce qu’on appelle également la [segmentation séquentielle](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md).
 
-Les nœuds sont connectés en tant que « chemin définitif », ce qui signifie que les visiteurs et visiteuses sont comptabilisés tant qu’ils passent finalement d’un nœud à l’autre, quels que soient les événements qui se produisent entre les 2 nœuds. Le temps imparti aux utilisateurs et utilisatrices pour se déplacer sur le chemin est déterminé par le paramètre du conteneur.<!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
+Les nœuds sont connectés sous la forme d’un « parcours à terme », ce qui signifie que les visiteurs sont comptabilisés dès lors qu’ils finissent par passer d’un nœud à l’autre, quels que soient les événements qui se produisent entre les deux nœuds. Le temps imparti aux utilisateurs et utilisatrices pour se déplacer sur le chemin est déterminé par le paramètre du conteneur.<!-- It can also be controlled by [adding a time constraint](#add-a-time-constraint-between-nodes). -->
 
 Vous pouvez afficher la logique de nœuds connectés en cliquant avec le bouton droit sur le nœud, puis en sélectionnant [!UICONTROL **Créer un segment depuis le nœud**]. La logique est affichée dans la section [!UICONTROL **Définition**].
 
@@ -359,9 +357,9 @@ Vous pouvez afficher la logique de nœuds connectés en cliquant avec le bouton 
 
 Les parcours ne peuvent pas être circulaires, en revenant vers des nœuds précédemment connectés.
 
-Pour connecter des nœuds dans la zone de travail de parcours :
+Pour connecter des nœuds dans le canevas de parcours :
 
-1. Dans une visualisation de zone de travail de parcours, pointez sur le nœud se trouvant en premier dans la séquence de parcours que vous souhaitez connecter à un autre nœud.
+1. Dans une visualisation Canevas de parcours, pointez sur le nœud qui apparaît en premier dans la séquence du parcours et que vous souhaitez connecter à un autre nœud.
 
    4 points bleus apparaissent de chaque côté du nœud sélectionné.
 
@@ -430,7 +428,7 @@ To change the color of a node or arrow:
 
 ### Renommer un nœud
 
-Lorsque vous faites glisser un composant vers une visualisation de zone de travail de parcours, un nœud portant le même nom que le composant est créé. Vous pouvez renommer le nœud pour qu’il corresponde mieux à l’étape du parcours qu’il représente.
+Lorsque vous faites glisser un composant vers une visualisation Canevas de parcours, un nœud portant le même nom que le composant est créé. Vous pouvez renommer le nœud pour qu’il corresponde mieux à l’étape du parcours qu’il représente.
 
 L’option de renommage est disponible pour les objets suivants sur la zone de travail :
 
@@ -438,7 +436,7 @@ L’option de renommage est disponible pour les objets suivants sur la zone de t
 
 Pour renommer un nœud :
 
-1. Dans une visualisation de zone de travail de parcours, cliquez avec le bouton droit sur le nœud que vous souhaitez renommer.
+1. Dans une visualisation de canevas de parcours, cliquez avec le bouton droit sur le nœud que vous souhaitez renommer.
 
 1. Sélectionnez [!UICONTROL **Renommer**].
 
@@ -446,7 +444,7 @@ Pour renommer un nœud :
 
 ### Ajouter ou mettre à jour un libellé sur une flèche
 
-Les flèches qui s’affichent entre les nœuds dans la zone de travail de parcours peuvent être configurées pour afficher des libellés et des valeurs personnalisés.
+Les flèches qui apparaissent entre les nœuds dans le canevas de parcours peuvent être configurées pour afficher des libellés et des valeurs personnalisés.
 
 Les libellés sont des noms personnalisés qui apparaissent sur les flèches. Une flèche donnée n’affiche qu’un seul libellé.
 
@@ -458,7 +456,7 @@ L’option permettant d’ajouter ou de mettre à jour un libellé est disponibl
 
 Pour ajouter un libellé à une flèche :
 
-1. Dans une visualisation de la zone de travail de parcours, cliquez avec le bouton droit sur la flèche à l’endroit où ajouter un libellé.
+1. Dans une visualisation de canevas de parcours, cliquez avec le bouton droit sur la flèche où vous souhaitez ajouter un libellé.
 
 1. Sélectionnez **[!UICONTROL Ajouter un libellé]**.
 
@@ -468,11 +466,11 @@ Pour ajouter un libellé à une flèche :
 
 Pour mettre à jour un libellé existant sur une flèche :
 
-1. Dans une visualisation de la zone de travail de parcours, cliquez avec le bouton droit sur la flèche à l’endroit où ajouter un libellé.
+1. Dans une visualisation de canevas de parcours, cliquez avec le bouton droit sur la flèche où vous souhaitez ajouter un libellé.
 
 1. Sélectionnez **[!UICONTROL Mettre à jour le libellé]**.
 
-1. Indiquez un nom pour le libellé, puis appuyez sur Entrée.
+1. Indiquez un nom pour le libellé, puis appuyez sur la touche Entrée.
 
    Si les paramètres de flèche sont actuellement configurés pour masquer les libellés, un message s’affiche, vous invitant à afficher les libellés.
 
@@ -492,7 +490,7 @@ L’option permettant d’appliquer une répartition à vos données est disponi
 
 Tenez compte des points suivants lors de l’application d’une répartition :
 
-* Les répartitions sont appliquées à la mesure principale. Le projet secondaire ne sera pas affecté.
+* Les répartitions sont appliquées à la mesure principale. La mesure secondaire n’est pas affectée.
 
 * L’application d’une répartition ne modifie pas le parcours. Elle affiche simplement une répartition des données pour le nœud sur lequel elle est appliquée.
 
@@ -510,7 +508,7 @@ Tenez compte des points suivants lors de l’application d’une répartition :
 
    * Sélectionnez une ou plusieurs flèches parmi les 2 nœuds auxquels vous souhaitez appliquer une répartition, puis cliquez avec le bouton droit sur l’une des flèches sélectionnées.
 
-     Pour sélectionner plusieurs nœuds ou flèches, maintenez la touche Commande (sous Mac) ou Ctrl (sous Windows) enfoncée.
+     Pour sélectionner plusieurs nœuds ou flèches, maintenez la touche Commande (sur Mac) ou Ctrl (sur Windows) enfoncée.
 
 1. Sélectionnez [!UICONTROL **Répartition**].
 
@@ -522,11 +520,11 @@ Tenez compte des points suivants lors de l’application d’une répartition :
 
 1. Sélectionnez la dimension à utiliser pour la répartition.
 
-   Si vous choisissez d’afficher la répartition dans la zone de travail de parcours, les 5 principaux éléments de dimension s’affichent sur le nœud. Une option est disponible sur le nœud pour ouvrir la répartition dans un tableau à structure libre.
+   Si vous avez choisi d’afficher la répartition dans le canevas de parcours, les 5 principaux éléments de dimension sont affichés sur le nœud. Une option est disponible sur le nœud pour ouvrir la répartition dans un tableau à structure libre.
 
-   Si vous choisissez d’afficher la répartition dans un tableau à structure libre, les principaux éléments de dimension s’affichent dans un nouveau tableau à structure libre immédiatement au-dessus de la visualisation de la zone de travail du parcours.
+   Si vous avez choisi d’afficher la répartition dans un tableau à structure libre, les principaux éléments de dimension sont affichés dans un nouveau tableau à structure libre immédiatement au-dessus de la visualisation de canevas de parcours.
 
-#### Appliquer une répartition à un nœud individuel
+#### Appliquer une répartition à un nœud spécifique
 
 Vous pouvez faire glisser une dimension du rail de gauche sur le nœud de la zone de travail où appliquer la répartition.
 
@@ -546,7 +544,7 @@ Pour supprimer une répartition qui a été appliquée :
 
 Vous pouvez afficher les données de tendance dans un graphique linéaire pour les objets dans la zone de travail du parcours. <!--, with some prebuilt anomaly detection data (this is the definition in Fallout) -->
 
-L’option Tendance est disponible pour les objets suivants sur la zone de travail :
+L’option d’affichage des tendances est disponible pour les objets suivants sur le canevas :
 
 * Nœuds individuels
 
@@ -568,7 +566,7 @@ Pour afficher les données de tendance :
 
    * Sélectionnez une ou plusieurs flèches entre 2 nœuds pour lesquels vous souhaitez afficher les données de tendance, puis cliquez avec le bouton droit sur l’une des flèches sélectionnées.
 
-     Pour sélectionner plusieurs nœuds ou flèches, maintenez la touche Commande (sous Mac) ou Ctrl (sous Windows) enfoncée.
+     Pour sélectionner plusieurs nœuds ou flèches, maintenez la touche Commande (sur Mac) ou Ctrl (sur Windows) enfoncée.
 
 1. Sélectionnez [!UICONTROL **Tendance**].
 
@@ -604,9 +602,9 @@ Pour créer un segment, procédez comme suit :
 
 Vous pouvez supprimer un ou plusieurs nœuds à la fois dans un parcours. Lorsque vous supprimez un nœud connecté entre 2 nœuds dans le parcours, les 2 nœuds restants deviennent directement connectés.
 
-Pour supprimer des nœuds dans la zone de travail du parcours :
+Pour supprimer des nœuds dans le canevas de parcours :
 
-1. Dans une visualisation de la zone de travail de parcours, sélectionnez un ou plusieurs nœuds à supprimer, puis cliquez avec le bouton droit sur l’un des nœuds sélectionnés.
+1. Dans une visualisation de canevas de parcours, sélectionnez un ou plusieurs nœuds à supprimer, puis cliquez avec le bouton droit sur l’un des nœuds sélectionnés.
 
 1. Sélectionnez [!UICONTROL **Supprimer**].
 
@@ -663,7 +661,7 @@ Pour modifier le style d’une flèche dans la zone de travail du Parcours :
 
 Vous pouvez supprimer une ou plusieurs flèches à la fois dans un parcours. Lorsque vous supprimez une flèche entre 2 nœuds, ceux-ci ne sont plus connectés. Si la flèche faisait partie d’un chemin plus long, le chemin est alors déconnecté.
 
-Pour supprimer des flèches entre les nœuds dans la zone de travail du parcours :
+Pour supprimer des flèches entre les nœuds dans le canevas de parcours :
 
-1. Dans une visualisation de la zone de travail de parcours, sélectionnez une ou plusieurs flèches comprises entre 2 nœuds à supprimer, puis cliquez avec le bouton droit sur l’une des flèches sélectionnées.
+1. Dans une visualisation de canevas de parcours, sélectionnez une ou plusieurs flèches comprises entre 2 nœuds à supprimer, puis cliquez avec le bouton droit sur l’une des flèches sélectionnées.
 1. Sélectionnez [!UICONTROL **Supprimer**].

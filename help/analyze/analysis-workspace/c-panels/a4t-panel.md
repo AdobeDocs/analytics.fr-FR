@@ -7,30 +7,42 @@ exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: '1287'
 ht-degree: 94%
-
 ---
-
 # Panneau Analytics for Target {#analyze-for-target-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -46,7 +58,7 @@ ht-degree: 94%
 
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
->title="Panneau Analytics for Target"
+>title="Panneau Analytics for Target"
 >abstract="Analysez les activités et expériences Target dans Analysis Workspace.<br/><br>**Paramètres &#x200B;**<br/>**Activité Target** : activité Target analysée.<br/>**Expérience de contrôle** : l’expérience de contrôle de l’activité Target sélectionnée.<br/>**Mesure de normalisation** : visiteurs et visiteuses, visites ou impressions. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance.<br/>**Mesure de succès** : jusqu’à 3 mesures de succès standard (non calculées) par rapport auxquelles analyser l’activité Target."
 
 <!-- markdownlint-enable MD034 -->
@@ -57,7 +69,7 @@ _Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/
 
 >[!ENDSHADEBOX]
 
-Le panneau Analytics for Target vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace. Il vous permet également d’afficher l’effet élévateur et le degré de confiance pour 3 mesures de succès au maximum. Pour accéder au panneau Analytics for Target, accédez à une suite de rapports dans laquelle les composants Analytics for Target sont activés. Sélectionnez ensuite l’icône du panneau située à l’extrémité gauche et faites glisser le panneau Analytics for Target dans votre projet Analysis Workspace.
+Le panneau Analytics for Target vous permet d’analyser vos activités et expériences Adobe Target dans Analysis Workspace. Le panneau vous permet également d’afficher l’effet élévateur et le degré de confiance pour 3 mesures de succès au maximum. Pour accéder au panneau Analytics for Target, accédez à une suite de rapports dans laquelle les composants Analytics for Target sont activés. Sélectionnez ensuite l’icône de panneau tout à gauche et faites glisser le panneau Analytics for Target dans votre projet Analysis Workspace.
 
 
 >[!BEGINSHADEBOX]
@@ -84,9 +96,9 @@ Vous pouvez configurer le panneau Analytics for Target à l’aide des paramètr
 
 | Paramètre | Description |
 |---|---|
-| **[!UICONTROL Activité Target]** | Effectuez une sélection dans une liste d’activités Target. La liste est remplie avec les 6 derniers mois d’activités qui comptent au moins 1 accès. Si vous ne voyez pas d’activité dans la liste, il se peut qu’elle remonte à plus de 6 mois. Elle peut encore être ajoutée à partir du rail gauche doté d’une période de retour en arrière de 18 mois. |
+| **[!UICONTROL Activité Target]** | Faites votre choix parmi la liste d’activités Target. La liste est remplie avec les 6 derniers mois d’activités qui comptent au moins 1 hit. Si vous ne voyez pas d’activité dans la liste, il se peut qu’elle remonte à plus de 6 mois. Elle peut encore être ajoutée à partir du rail gauche doté d’une période de retour en arrière de 18 mois. |
 | **[!UICONTROL Expérience de contrôle]** | Sélectionnez l’expérience de contrôle. |
-| **[!UICONTROL Mesure de normalisation]** | Sélectionnez Visiteurs et visiteuses, Visites ou Impressions. [!UICONTROL Visiteurs et visiteuses] est l’option recommandée pour la plupart des cas d’utilisation d’analyse. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance. |
+| **[!UICONTROL Mesure de normalisation]** | Sélectionnez Visiteurs, Visites ou Impressions. [!UICONTROL Visiteurs et visiteuses] est l’option recommandée pour la plupart des cas d’utilisation d’analyse. Cette mesure (également appelée méthodologie de comptage) devient le dénominateur du calcul de l’effet élévateur. Elle affecte également la manière dont les données sont agrégées avant l’application du calcul du degré de confiance. |
 | **[!UICONTROL Mesures de succès]** | Sélectionnez jusqu’à 3 événements de succès standard (non calculés) dans le menu déroulant ou faites glisser les mesures depuis Mesures dans le rail Composants. Chaque mesure comporte une visualisation et un tableau dédiés dans le panneau généré. |
 
 Sélectionnez **[!UICONTROL Créer]** pour créer le panneau.
@@ -101,7 +113,7 @@ Chaque tableau à structure libre affiche les colonnes de mesures suivantes :
 
 | Mesure | Description |
 |---|---|
-| **[!UICONTROL Mesures de normalisation]** | Mesure de normalisation sélectionnée dans le panneau de saisie : Visiteurs et visiteuses uniques, Visites ou Impressions d’activité. |
+| **[!UICONTROL Mesures de normalisation]** | Mesure de normalisation sélectionnée dans le panneau de saisie : Visiteurs uniques, Visites ou Impressions d’activité. |
 | **[!UICONTROL Mesure de succès]** | Mesure de succès sélectionnée dans le panneau d’entrée. |
 | **[!UICONTROL Taux de conversion]** | Mesure de succès/normalisation. |
 | **[!UICONTROL Effet élévateur]** | Compare le taux de conversion de chaque expérience à l’expérience de contrôle. Remarque : l’effet élévateur est une *mesure verrouillée* des expériences Target. Il ne peut pas être ventilé ou utilisé avec d’autres dimensions. |
@@ -120,10 +132,10 @@ Utilisez ![Modifier](/help/assets/icons/Edit.svg) pour reconfigurer et recréer 
 |---|---|
 | Quels types d’activités sont pris en charge dans Analytics for Target ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) sur les types d’activité pris en charge. |
 | Les mesures calculées sont-elles prises en charge dans les calculs d’effet élévateur et de degré de confiance ? | Non. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sur les raisons pour lesquelles les mesures calculées ne sont pas prises en charge dans les calculs d’effet élévateur et de degré de confiance. Les mesures calculées peuvent toutefois être utilisées dans les rapports Analytics for Target, mais en dehors de ces mesures. |
-| Pourquoi le nombre de visiteurs et visiteuses uniques diffère-t-il entre Target et Analytics ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sur les écarts de visiteurs et visiteuses uniques entre les produits. |
-| Pourquoi des expériences non liées sont-elles renvoyées lorsque j’applique un segment d’accès pour une activité Target spécifique dans mon analyse ? | La dimension Analytics for Target est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
+| Pour quelles raisons le nombre de visiteurs uniques peut-il différer entre Target et Analytics ? | [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sur les écarts de visiteurs et visiteuses uniques entre les produits. |
+| Pourquoi des expériences non liées sont-elles renvoyées lorsque j’applique un segment de hit pour une activité Target spécifique dans mon analyse ? | La dimension Analytics for Target est une variable de liste, ce qui signifie qu’elle peut contenir de nombreuses activités (et expériences) en même temps. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
 | La mesure de degré de confiance tient-elle compte des commandes extrêmes ou applique-t-elle une correction de Bonferroni pour plusieurs offres ? | Non. [En savoir plus](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sur la façon dont Analytics calcule le degré de confiance. |
-| Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou répartitions ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » des expériences Target, car ils nécessitent un contrôle et une variante pour effectuer les calculs. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
-| Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré confiance sont recalculés chaque fois que le panneau est créé, que la période du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. L’application d’un filtre de segments au tableau à structure libre doit être effectuée au niveau de toutes les colonnes. Dans le cas contraire, l’effet élévateur et le degré de confiance ne seront pas mis à jour correctement. Les segments au niveau des colonnes ne sont pas pris en charge. |
+| Les mesures Effet élévateur et Degré de confiance peuvent-elles être utilisées avec d’autres dimensions ou répartitions ? | L’effet élévateur et le degré de confiance sont des « mesures verrouillées » pour la dimension Expériences Target, car leur calcul nécessite une expérience de contrôle et une variante. Ils ne peuvent donc pas être ventilés ou utilisés avec d’autres dimensions. |
+| Quand l’effet élévateur et le degré de confiance sont-ils recalculés ? | L’effet élévateur et le degré confiance sont recalculés chaque fois que le panneau est créé, que la période du panneau est modifiée ou qu’un segment est appliqué au panneau ou au tableau. Lorsque vous appliquez un filtre de segment au tableau à structure libre, le segment doit être appliqué à l’ensemble des colonnes, faute de quoi l’effet élévateur et le degré de confiance ne sont pas mis à jour correctement. Les segments au niveau des colonnes ne sont pas pris en charge. |
 
 Pour plus d’informations sur les rapports Analytics for Target, consultez [Rapports Analytics for Target](https://experienceleague.adobe.com/fr/docs/target/using/integrate/a4t/reporting).

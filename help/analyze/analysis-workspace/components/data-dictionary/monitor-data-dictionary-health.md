@@ -7,21 +7,25 @@ exl-id: 82176931-2bd9-4f4e-9ca7-4214d44151a8
 TQID: https://experienceleague.adobe.com/q-wAiW4oUc9kH-ywKVLfNKtXHdEfnIr01GXSK-g0YqY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
-source-wordcount: 361
+source-wordcount: '361'
 ht-degree: 100%
-
 ---
-
 # Surveiller l’intégrité du dictionnaire de données {#monitor-data-dictionary}
 
 <!-- markdownlint-disable MD034 -->
@@ -29,7 +33,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="Partager le composant principal"
->abstract="Lorsque cette option est sélectionnée, le composant principal est partagé avec toutes les personnes ayant accès aux composants en double (les propriétaires et les personnes avec lesquelles les composants sont partagés). Ces personnes peuvent ensuite sélectionner le composant principal dans la liste des composants pour les projets futurs. Cependant, elles ne peuvent pas modifier le composant, même si elles étaient propriétaires d’un composant en double qui a été consolidé. <br/>Cette option est disponible uniquement lorsque le composant principal est un segment, une mesure calculée ou une période. Les mesures et dimensions sont toujours disponibles pour l’ensemble des utilisateurs et utilisatrices.
+>abstract="Lorsque cette option est sélectionnée, le composant principal est partagé avec toutes les personnes ayant accès aux composants en double (leurs propriétaires et toutes les personnes avec lesquelles ils sont partagés). Ces personnes peuvent ensuite sélectionner le composant principal dans la liste des composants pour les projets futurs. Cependant, elles ne peuvent pas modifier le composant, même si elles étaient propriétaires d’un composant en double qui a été consolidé. <br/>Cette option est disponible uniquement lorsque le composant principal est un segment, une mesure calculée ou une période. Les mesures et dimensions sont toujours disponibles pour l’ensemble des utilisateurs et utilisatrices.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -62,9 +66,9 @@ Dans un dictionnaire de données intègre, tous les composants :
 
 Pour identifier les problèmes d’intégrité dans votre dictionnaire de données :
 
-1. Ouvrez un projet Analysis Workspace.
+1. Ouvrez un projet Analysis Workspace.
 
-1. Sélectionnez l’icône du dictionnaire de données sur le côté gauche d’Analysis Workspace. (Les autres méthodes d’accès au dictionnaire de données sont décrites dans « Accéder au dictionnaire de données » dans la [présentation du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. Sélectionnez l’icône du dictionnaire de données sur le côté gauche d’Analysis Workspace. (Les autres méthodes d’accès au dictionnaire de données sont décrites dans « Accéder au dictionnaire de données » dans la [présentation du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
 
    La fenêtre Dictionnaire de données s’affiche.
 
@@ -80,6 +84,6 @@ Pour identifier les problèmes d’intégrité dans votre dictionnaire de donné
 
    * [!UICONTROL **composants sans données connectées**].
 
-   Selon ce que vous sélectionnez, le filtre approprié est appliqué au dictionnaire de données et seuls les composants appropriés sont affichés.
+   Selon ce que vous sélectionnez, le filtre approprié est appliqué au dictionnaire de données et seuls les composants pertinents sont affichés.
 
 1. Modifiez l’un des composants pour améliorer l’intégrité du dictionnaire de données. Pour plus d’informations sur la modification d’un composant dans le dictionnaire de données, voir [Modifier les entrées de composant dans le dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).

@@ -7,29 +7,40 @@ exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
 TQID: https://experienceleague.adobe.com/u7h9V-K7lJQnVJuo-Hwk4xtB7lBW-JlH2W2pFGq0TgQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 714
+source-wordcount: '714'
 ht-degree: 91%
-
 ---
-
 # Panneau Attribution {#attribution-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -37,7 +48,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_button"
 >title="Attribution"
->abstract="Comparer et visualiser rapidement de nombreux modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion"
+>abstract="Comparer et visualiser rapidement un nombre illimité de modèles d’attribution en utilisant n’importe quelle dimension ou mesure de conversion"
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Panneau Attribution IQ"
 
 >[!CONTEXTUALHELP]
@@ -58,13 +69,13 @@ Le panneau **[!UICONTROL Attribution]** vous permet de créer facilement une ana
 
 Adobe Analytics améliore l’attribution en vous permettant d’effectuer les tâches suivantes :
 
-* Définir l’attribution à des médias autres que ceux achetés : tout élément (dimension, mesure, canal ou événement) peut être appliqué aux modèles (par exemple, recherche interne) et pas seulement aux campagnes marketing.
-* Utilisez la comparaison illimitée de modèles d’attribution : comparez dynamiquement autant de modèles que vous le souhaitez.
+* Définissez l’attribution au-delà du paid media : tout élément (dimension, mesure, canal ou événement) peut être appliqué aux modèles (par exemple, recherche interne) et pas seulement aux campagnes marketing.
+* Utiliser la comparaison illimitée de modèles d’attribution : comparez dynamiquement autant de modèles que vous le souhaitez.
 * Évitez les changements d’implémentation : avec le traitement de la période de rapport et les sessions contextuelles, le contexte du parcours client peut être créé et appliqué lors de l’exécution.
-* construire la session qui correspond le mieux à votre scénario d’attribution ;
+* Construire la session qui correspond le mieux à votre scénario d’attribution
 * Ventiler l’attribution par segments : comparez facilement les performances de vos canaux marketing sur n’importe quel segment important (par exemple, la nouvelle clientèle par rapport à la clientèle régulière, le produit X par rapport au produit Y, le niveau de fidélité ou la valeur vie client (CLV)).
-* inspecter le croisement des canaux et l’analyse multi-touch : utilisation des histogrammes et diagrammes de Venn ainsi que des résultats de l’attribution des tendances ;
-* analyser visuellement des séquences marketing importantes : explorez les chemins d’accès qui ont mené à la conversion sur le plan visuel par le biais de visualisations à plusieurs nœuds de flux et d’abandons ;
+* Inspectez le croisement des canaux et l’analyse multi-touch : utilisez des histogrammes et des diagrammes de Venn, et analysez les résultats de l’attribution des tendances ;
+* Analysez visuellement des séquences marketing importantes : explorez les chemins d’accès qui ont mené à la conversion sur le plan visuel au moyen de visualisations de flux et d’abandon à plusieurs nœuds.
 * créer des mesures calculées : utilisez n’importe quel nombre de méthodes d’attribution.
 
 ## Utilisation
