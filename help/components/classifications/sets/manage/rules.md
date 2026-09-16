@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1692
+source-wordcount: '1694'
 ht-degree: 13%
-
 ---
-
 # Règles des ensembles de classifications
 
-Vous utilisez des règles pour prendre en charge les classifications automatiques dans les scénarios où votre dimension clé change constamment. La mise à jour des classifications par le biais du [chargement](/help/components/classifications/sets/manage/schema.md#upload) ou de l’[automatisation](/help/components/classifications/sets/manage/schema.md#automate) devient un processus laborieux ou retarde la classification appropriée des nouvelles valeurs de dimension. Par exemple, les campagnes internes, les codes de suivi ou les SKU de produit.
+Vous utilisez des règles pour prendre en charge les classifications automatiques dans les scénarios où votre dimension clé change constamment. La mise à jour des classifications par le biais du [chargement](/help/components/classifications/sets/manage/schema.md#upload) ou de l’[automatisation](/help/components/classifications/sets/manage/schema.md#automate) devient un processus laborieux ou ne dispose pas de classification appropriée pour les nouvelles valeurs de dimension. Par exemple, les campagnes internes, les codes de suivi ou les SKU de produit.
 
 La dimension doit contenir des valeurs qui vous permettent d’appliquer une ou plusieurs règles afin que vous puissiez dériver des données de classification des valeurs de dimension.
 
-Vous définissez des règles dans le contexte d’un jeu de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
+Vous définissez des règles dans le contexte d’un ensemble de classifications. Ce contexte implique que les règles sont appliquées (lorsqu’elles sont activées) à toutes les combinaisons de suites de rapports et de dimensions clés qui sont abonnées à l’ensemble de classifications. Cette implémentation est différente du fonctionnement de l’ancien créateur de règles de classification. Dans le créateur de règles de classification, définissez séparément une ou plusieurs règles dans le cadre d’un jeu de règles, puis associez le jeu de règles à une ou plusieurs suites de rapports. Dans la nouvelle interface, les règles de l’ensemble de classifications sont également appelées ensemble de règles. Toutefois, les ensembles de règles sont définis dans la même interface que celle où vous configurez d’autres attributs d’ensemble de classifications.
+
+>[!IMPORTANT]
+>
+>Le contexte différent utilisé par le nouveau créateur de règles implique que les sous-classifications sont évaluées par rapport à la valeur de la colonne de classification parent immédiate, et non par rapport à la valeur de dimension racine d’origine.
+
 
 
 Pour définir un ensemble de règles pour un ensemble de classifications, procédez comme suit :
@@ -35,7 +42,7 @@ Pour définir un ensemble de règles pour un ensemble de classifications, procé
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’ensemble de classifications pour lequel vous souhaitez définir les règles.
 1. Dans la boîte de dialogue **[!UICONTROL Ensemble de classifications : _nom de l’ensemble de classifications_]**, sélectionnez l’onglet **[!UICONTROL Règles]**.
 
-   * Si vous accédez à l’interface **[!UICONTROL Rules]** pour la première fois pour un ensemble de classifications, ou si vous avez décidé jusqu’à présent de continuer à utiliser l’interface du créateur de règles héritée, une boîte de dialogue s’affiche et vous permet de sélectionner comment commencer. Les options sont les suivantes :
+   * Si vous accédez à l’interface **[!UICONTROL Règles]** pour la première fois, ou si vous utilisez l’ancien créateur, une boîte de dialogue s’affiche pour vous aider à commencer. Les options sont les suivantes :
 
      * **Migration des règles existantes**. Importez vos règles de classification actuelles et continuez à travailler avec ces règles dans la nouvelle interface. Vos règles existantes sont conservées et converties au nouveau format.
        * Sélectionnez **[!UICONTROL Migrer les règles]** pour continuer.
@@ -82,7 +89,7 @@ Pour créer ou modifier des règles, utilisez l’interface Ensemble de règles 
 
 Vous définissez chaque règle individuelle dans le jeu de règles de l’interface Règle. L’interface se compose des éléments suivants :
 
-![&#x200B; Interface des règles &#x200B;](assets/rule-ui.png)
+![ Interface des règles ](assets/rule-ui.png)
 
 | | Description |
 |---|---|
@@ -168,14 +175,14 @@ Saisissez une valeur pour **[!UICONTROL Contient]**. Par exemple : `Winter`.
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que valeur à la classification **[!UICONTROL Type]** lorsque la valeur de la dimension clé que contient Internal Campaign est `Winter` (par exemple : `fb:Winter:FY2024`).
+Vous souhaitez définir une règle pour affecter des `Winter Sale` en tant que valeur à la classification **[!UICONTROL Type]** lorsque la valeur de la dimension clé Campagne interne contient des `Winter` (par exemple : `fb:Winter:FY2024`).
 
 
 >[!BEGINTABS]
 
 >[!TAB Règle ]
 
-![&#x200B; Règle - Contient &#x200B;](assets/rule-contains.png)
+![ Règle - Contient ](assets/rule-contains.png)
 
 >[!TAB Résultats du test]
 
@@ -228,13 +235,13 @@ Saisissez une valeur pour **[!UICONTROL Expression régulière]**. Par exemple 
 
 #### Cas d’utilisation
 
-Vous souhaitez définir une règle pour affecter des valeurs aux classifications **[!UICONTROL Canal]**, **[!UICONTROL Type]** et **[!UICONTROL Année]** en appliquant le `^(.+)\:(.+)\:FY(.+)$` d’expression régulière et en utilisant des groupes de correspondance (`$1`, `$2` et `$3`) aux valeurs de la dimension clé Campagne interne.
+Définissez une règle pour affecter des valeurs aux classifications **[!UICONTROL Canal]**, **[!UICONTROL Type]** et **[!UICONTROL Année]** en appliquant le `^(.+)\:(.+)\:FY(.+)$` d’expression régulière et en utilisant des groupes de correspondance (`$1`, `$2` et `$3`) à la dimension de clé Campagne interne.
 
 >[!BEGINTABS]
 
 >[!TAB Règle ]
 
-![Règle - Expression régulière &#x200B;](assets/rule-regex.png)
+![Règle - Expression régulière ](assets/rule-regex.png)
 
 >[!TAB Résultats du test]
 
@@ -255,12 +262,12 @@ Consultez ci-dessous un tableau de référence des expressions régulières.
 | `[abc]` | N’importe quel caractère parmi a, b ou c |
 | `[^abc]` | N’importe quel caractère sauf a, b ou c |
 | `[a-z]` | N’importe quel caractère entre a et z |
-| `[a-zA-Z]` | N’importe quel caractère entre a et z ou A et Z |
+| `[a-zA-Z]` | N’importe quel caractère unique compris dans la plage a-z ou A-Z |
 | `^` | Début de ligne (correspond au début de la ligne) |
 | `$` | Correspond à la fin de la ligne (ou avant la nouvelle ligne à la fin) |
 | `\A` | Début de chaîne. |
 | `\z` | Fin de chaîne. |
-| `.` | Correspondance avec n’importe quel caractère (sauf une nouvelle ligne) |
+| `.` | Correspond à n’importe quel caractère (à l’exception d’un saut de ligne) |
 | `\s` | N’importe quel espace |
 | `\S` | N’importe quel caractère sauf espace |
 | `\d` | N’importe quel chiffre |
@@ -270,11 +277,11 @@ Consultez ci-dessous un tableau de référence des expressions régulières.
 | `\b` | N’importe quelle limite de mot |
 | `(...)` | Acquérir tout ce qui est compris |
 | `(a\b)` | a ou b |
-| `a?` | Zéro ou un de : a |
-| `a*` | Zéro ou plus de : a |
-| `a+` | Un ou plus de : a |
-| `a{3}` | Exactement 3 de : a |
-| `a{3,}` | 3 ou plus de : a |
+| `a?` | Zéro ou une occurrence de a |
+| `a*` | Zéro ou plusieurs occurrences de a |
+| `a+` | Une ou plusieurs occurrences de a |
+| `a{3}` | Exactement 3 occurrences de a |
+| `a{3,}` | 3 occurrences de a ou plus |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
 +++
@@ -315,7 +322,7 @@ La dernière règle détermine la valeur de la classification si :
 * Une valeur de dimension de clé est mise en correspondance avec plusieurs règles.
 * L’ensemble de règles contient des règles avec la même opération **[!UICONTROL Définir la classification]**.
 
-Vous devez donc classer l’opération **[!UICONTROL Définir la classification]** la plus importante dans le cadre de la dernière règle de votre ensemble de règles.
+Classez l’opération **[!UICONTROL Définir la classification]** la plus importante dans la dernière règle de votre ensemble de règles.
 
 Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UICONTROL Définir la classification]**, l’ordre de traitement n’a pas d’importance.
 
@@ -324,7 +331,7 @@ Si vous créez plusieurs règles qui ne partagent pas la même opération **[!UI
 
 Vous souhaitez classer avec la classification **[!UICONTROL Type]** la manière dont les utilisateurs recherchent un athlète à l’aide de la chaîne de recherche comme dimension clé. Par exemple, en utilisant cet ensemble de règles :
 
-![&#x200B; Priorité des règles &#x200B;](assets/rule-priority.png)
+![ Priorité des règles ](assets/rule-priority.png)
 
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romo`, `Romo` est classé comme **[!UICONTROL Type]**.
 * Lorsqu’un utilisateur ou une utilisatrice recherche des `Cowboys Fantasy Tony Romeo`, `Fantasy` est classé comme **[!UICONTROL Type]**.
