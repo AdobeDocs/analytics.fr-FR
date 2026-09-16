@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Intégration de Adobe Brand Visibility
 
-[](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
+[&#128279;](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
 
 L’IA est devenue un canal de découverte essentiel. Les agents de grands modèles linguistiques (LLM), tels que ChatGPT, Claude, Copilot et Perplexity, explorent le contenu de la marque.
 
@@ -106,16 +106,16 @@ L’intégration entrante de CJA repose sur un jeu de données Résumé des requ
 
 #### Limites importantes
 
-- Aucune donnée d’identifiant visiteur, d’ECID, de visites ou d’utilisateur unique n’est incluse. Il s’agit de données récapitulatives agrégées, non liées au visiteur.
-- Les variables réservées ne prennent pas en charge les paramètres de type d’attribution ou de type d’expiration, puisqu’elles ne sont pas liées à un visiteur.
-- Les données ne peuvent pas être jointes à d’autres jeux de données ou dimensions Analytics de la même manière que dans Customer Journey Analytics.
-- Utilisez la mesure **Demandes** pour mesurer le volume de trafic des robots et des agents. Ne l’utilisez pas de manière interchangeable avec les mesures basées sur les visites ou les accès situées ailleurs dans votre suite de rapports.
+&#x200B;- Aucune donnée d’identifiant visiteur, d’ECID, de visites ou d’utilisateur unique n’est incluse. Il s’agit de données récapitulatives agrégées, non liées au visiteur.
+&#x200B;- Les variables réservées ne prennent pas en charge les paramètres de type d’attribution ou de type d’expiration, puisqu’elles ne sont pas liées à un visiteur.
+&#x200B;- Les données ne peuvent pas être jointes à d’autres jeux de données ou dimensions Analytics de la même manière que dans Customer Journey Analytics.
+&#x200B;- Utilisez la mesure **Demandes** pour mesurer le volume de trafic des robots et des agents. Ne l’utilisez pas de manière interchangeable avec les mesures basées sur les visites ou les accès situées ailleurs dans votre suite de rapports.
 
 L’ensemble exact de champs disponibles doit être confirmé par rapport à la configuration des variables de votre suite de rapports une fois que le connecteur est activé.
 
 ### Responsabilités
 
-L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
+L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [&#128279;](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
 
 #### Responsabilités gérées par Adobe
 
@@ -135,10 +135,10 @@ L’installation et la configuration du connecteur entrant s’accompagnent de r
 
 Confirmez les points suivants avant d’activer le connecteur :
 
-- Vous avez terminé l’intégration à Adobe Brand Visibility pour le site auquel vous souhaitez vous connecter.
-- Le transfert du journal BYOCDN est configuré et confirmé pour ce site (voir [conditions préalables](#inbound-integration)).
-- Les données s’affichent dans le tableau de bord de trafic de Adobe Brand Visibility Agent pour ce site.
-- Vous savez à quelle suite de rapports vous souhaitez connecter le site.
+&#x200B;- Vous avez terminé l’intégration à Adobe Brand Visibility pour le site auquel vous souhaitez vous connecter.
+&#x200B;- Le transfert du journal BYOCDN est configuré et confirmé pour ce site (voir [conditions préalables](#inbound-integration)).
+&#x200B;- Les données s’affichent dans le tableau de bord de trafic de Adobe Brand Visibility Agent pour ce site.
+&#x200B;- Vous savez à quelle suite de rapports vous souhaitez connecter le site.
 
 Chaque site Adobe Brand Visibility se connecte à une seule suite de rapports. Si vous souhaitez importer des données pour plusieurs sites de Visibilité des marques de données, connectez chaque site à une suite de rapports distincte.
 
@@ -153,7 +153,7 @@ Pour ouvrir les paramètres Adobe Brand Visibility de votre suite de rapports :
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez la suite de rapports à laquelle vous souhaitez vous connecter.
 1. Sélectionnez **[!UICONTROL Modifier les paramètres]**.
-1. Dans le menu contextuel, sélectionnez ****.
+1. Dans le menu contextuel, sélectionnez **&#x200B;**.
 
 Pour configurer le connecteur :
 
@@ -216,7 +216,7 @@ La procédure de vérification comprend les étapes suivantes :
    1. Le volume Confirmer la demande s’affiche pour une période récente.
    1. Confirmez que les dimensions **URL**, **Agent utilisateur**, **Statut** et **Référent** renvoient les valeurs attendues.
 
-   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [ Activer le connecteur ](#enable-the-connector).
+   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [&#x200B; Activer le connecteur &#x200B;](#enable-the-connector).
 
 
 
@@ -235,22 +235,22 @@ Consultez les problèmes suivants et comment résoudre ces problèmes.
 >[Référence d&#39;intégration Visibilité des marques/LLMO](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
 >[Référence du transfert du journal BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
----
+&#x200B;---
 
 ## Notes de rédaction pour les documents (à ne pas publier)
 
 Cette section est destinée à un examen interne et doit être supprimée avant publication.
 
-- **Source de vérité utilisée :** les noms de champ, la liste de variables réservées et le workflow Gestionnaire de suites de rapports proviennent de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, statut Nouveau à partir du 2026-08-28), qui est plus à jour et plus spécifique que la demande de documentation d’origine [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, statut Nouveau). La copie de page pour les écrans de provisionnement/déprovisionnement incorpore les affinements du libellé de l&#39;examen interne 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), qui a remplacé l&#39;abréviation « ABV » du ticket brut par « Adobe Brand Visibility » dans le texte destiné aux clients.
-- **Incohérence de l’ensemble de champs à réconcilier avant la publication :** la liste des dimensions d’origine d’AN-449989 était Hôte, URL/Chemin de page, Fournisseur de réseau CDN, Agent utilisateur et Type de robot LLM, avec une seule mesure Nombre de requêtes agents. La liste réelle de variables réservées d’AN-468884 est URL, type de robot, agent utilisateur, statut et référent, avec un seul événement Requests. L’hôte et le fournisseur de réseau CDN ne sont pas présents en tant que variables réservées distinctes dans AN-468884 ; le statut est nouveau. Ce brouillon suit AN-468884 comme faisant autorité selon le ticket fra, mais les deux doivent être réconciliés avec Aaron Kern / David Wardell avant que cela ne soit finalisé, car les noms de champ que les clients voient peuvent ne pas correspondre à ce que les équipes de compte ont décrit à l’aide de l’ancien langage AN-449989.
-- **Pas encore confirmé, ne pas indiquer comme fait dans la version publiée :**
-  - Date GA exacte. AN-431416 est compatible avec FixVersion H2 2026 (fenêtre de publication 2026-11-30) et possède le statut Exécuter à compter de 2026-09-01 ; AN-468884 (implémentation de la variable réservée) et AN-449989 (ce document) sont toujours nouveaux. Ne publiez pas tant que vous n’avez pas envoyé d’e-mail.
-  - Indique si le type d’attribution/le type d’expiration sont entièrement supprimés sur les evars réservées en production. La révision 2026-08-28 a signalé qu’une suite de rapports de test affiche actuellement ces evars avec une affectation définie sur « Le dernier », qui peut être une valeur par défaut qui doit être effacée plutôt qu’un comportement final confirmé.
-  - Le point d’entrée de l’API LLMO pour répertorier les sites ABV par organisation IMS (renseigne la liste déroulante de sélection de site) et l’API deprovision/disable étaient toujours en attente de la part de Joe Bass au moment du commentaire du ticket 2026-08-26.
-  - Comparaison exacte entre le nombre de champs CJA. Le CJA des revendications de ticket d&#39;origine d&#39;AN-449989 a « 9 dimensions supplémentaires » et « 5 mesures supplémentaires », mais plusieurs d&#39;entre elles (compartiment de session LLM, nombre de sessions uniques LLM, nombre de doublons de demandes LLM) n&#39;ont pas été confirmées comme existant dans le groupe de champs `cdn-requests-summary` fourni au moment de la révision 2026-06-18. Pour cette raison, ce projet évite intentionnellement de citer des nombres spécifiques dans la comparaison CJA.
-  - La cadence de synchronisation pour ce chemin d’accès AA est indiquée ici de manière horaire, en fonction de la langue du ticket d’AN-468884 (« exécuter des synchronisations horaires » / « processus de synchronisation horaire »). Cela n’a pas été validé indépendamment du comportement des sources de données AA de production tel que le rythme de CJA était.
+&#x200B;- **Source de vérité utilisée :** les noms de champ, la liste de variables réservées et le workflow Gestionnaire de suites de rapports proviennent de [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, statut Nouveau à partir du 2026-08-28), qui est plus à jour et plus spécifique que la demande de documentation d’origine [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, statut Nouveau). La copie de page pour les écrans de provisionnement/déprovisionnement incorpore les affinements du libellé de l&#39;examen interne 2026-08-28 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), qui a remplacé l&#39;abréviation « ABV » du ticket brut par « Adobe Brand Visibility » dans le texte destiné aux clients.
+&#x200B;- **Incohérence de l’ensemble de champs à réconcilier avant la publication :** la liste des dimensions d’origine d’AN-449989 était Hôte, URL/Chemin de page, Fournisseur de réseau CDN, Agent utilisateur et Type de robot LLM, avec une seule mesure Nombre de requêtes agents. La liste réelle de variables réservées d’AN-468884 est URL, type de robot, agent utilisateur, statut et référent, avec un seul événement Requests. L’hôte et le fournisseur de réseau CDN ne sont pas présents en tant que variables réservées distinctes dans AN-468884 ; le statut est nouveau. Ce brouillon suit AN-468884 comme faisant autorité selon le ticket fra, mais les deux doivent être réconciliés avec Aaron Kern / David Wardell avant que cela ne soit finalisé, car les noms de champ que les clients voient peuvent ne pas correspondre à ce que les équipes de compte ont décrit à l’aide de l’ancien langage AN-449989.
+&#x200B;- **Pas encore confirmé, ne pas indiquer comme fait dans la version publiée :**
+  &#x200B;- Date GA exacte. AN-431416 est compatible avec FixVersion H2 2026 (fenêtre de publication 2026-11-30) et possède le statut Exécuter à compter de 2026-09-01 ; AN-468884 (implémentation de la variable réservée) et AN-449989 (ce document) sont toujours nouveaux. Ne publiez pas tant que vous n’avez pas envoyé d’e-mail.
+  &#x200B;- Indique si le type d’attribution/le type d’expiration sont entièrement supprimés sur les evars réservées en production. La révision 2026-08-28 a signalé qu’une suite de rapports de test affiche actuellement ces evars avec une affectation définie sur « Le dernier », qui peut être une valeur par défaut qui doit être effacée plutôt qu’un comportement final confirmé.
+  &#x200B;- Le point d’entrée de l’API LLMO pour répertorier les sites ABV par organisation IMS (renseigne la liste déroulante de sélection de site) et l’API deprovision/disable étaient toujours en attente de la part de Joe Bass au moment du commentaire du ticket 2026-08-26.
+  &#x200B;- Comparaison exacte entre le nombre de champs CJA. Le CJA des revendications de ticket d&#39;origine d&#39;AN-449989 a « 9 dimensions supplémentaires » et « 5 mesures supplémentaires », mais plusieurs d&#39;entre elles (compartiment de session LLM, nombre de sessions uniques LLM, nombre de doublons de demandes LLM) n&#39;ont pas été confirmées comme existant dans le groupe de champs `cdn-requests-summary` fourni au moment de la révision 2026-06-18. Pour cette raison, ce projet évite intentionnellement de citer des nombres spécifiques dans la comparaison CJA.
+  &#x200B;- La cadence de synchronisation pour ce chemin d’accès AA est indiquée ici de manière horaire, en fonction de la langue du ticket d’AN-468884 (« exécuter des synchronisations horaires » / « processus de synchronisation horaire »). Cela n’a pas été validé indépendamment du comportement des sources de données AA de production tel que le rythme de CJA était.
 
 
 ## Intégration sortante
 
-Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
+Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
