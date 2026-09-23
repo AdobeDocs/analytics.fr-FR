@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 97%
-
+source-wordcount: '444'
+ht-degree: 96%
 ---
-
 
 # Guide de mise en œuvre Adobe Analytics {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 97%
   + [Utilisation du SDK web (Alloy)](id/alloy.md)
   + [Utilisation de l’extension Analytics](id/analytics-extension.md)
   + [Utilisation d’AppMeasurement](id/appmeasurement.md)
+  + [Utilisation de l’API Data Insertion](id/data-insertion.md)
   + [Migration vers le service d’identifiant visiteur](id/migration.md)
   + [Suivre sur différents types de mises en œuvre](id/cross-type-implementation.md)
 + Préparer la mise en œuvre d’Adobe Analytics {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 97%
     + [Dépannage du code H](js/h-code/troubleshooting.md)
   + [Dépannage d’AppMeasurement](js/troubleshooting.md)
 + Mettre en œuvre Analytics sur d’autres plateformes {#other}
-  + [Mettre en œuvre Analytics à l’aide de demandes d’image codées en dur](other/hardcoded.md)
   + [Mettre en œuvre Analytics sur Ajax](other/ajax.md)
   + [Mettre en œuvre Analytics sur AMP](other/amp.md)
   + [Mettre en œuvre Analytics pour les assistants numériques](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 97%
   + [Workflow du suivi de campagne](use-cases/campaign-tracking.md)
 + Valider votre mise en œuvre {#validate}
   + [Débogueur hérité](validate/debugger.md)
-  + [Paramètres de requête de la collecte de données](validate/query-parameters.md)
   + [Moniteurs de paquets](validate/packet-monitor.md)
   + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)

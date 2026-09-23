@@ -1,29 +1,37 @@
 ---
 title: Visites sur une seule page (mesures)
-description: Le nombre de fois que l’élément de dimension « Page » n’a pas changé au cours d’une visite.
+description: Le nombre de fois où l’élément de dimension « Page » n’a pas été modifié au cours d’une visite
 feature: Metrics
 exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 TQID: https://experienceleague.adobe.com/iDXuwf-Ls1N7VzmtZiMRISLbSEtHOtDTeoddfDEiAwA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: '239'
 ht-degree: 33%
-
 ---
-
 # Visites de page unique
 
+>[!BEGINSHADEBOX]
+
 *Cette page d’aide décrit le fonctionnement de la mesure « Visites de page unique ». Pour plus d’informations, consultez la dimension [Visites de page unique](../dimensions/single-page-visits.md).*
+
+>[!ENDSHADEBOX]
 
 La **[!UICONTROL Visites sur une seule page]** [mesure](overview.md) indique le nombre de visites pour lesquelles l’élément de dimension [Page](../dimensions/page.md) ne contenait qu’une seule valeur pour l’ensemble de la visite. Cette mesure est utile pour les dimensions dans lesquelles vous souhaitez consulter des visites de courte durée, mais qui ne comportent pas de règle aussi stricte que les [[!UICONTROL Rebonds]](bounces.md).
 

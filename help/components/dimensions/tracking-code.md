@@ -6,32 +6,46 @@ exl-id: e4f70552-6946-4974-a9e2-928faf563ecd
 TQID: https://experienceleague.adobe.com/8e9126PxGCNXJqo4a3XYTgXwrcHdf34FVwygpHXm5JI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 560
-ht-degree: 100%
-
+source-wordcount: '625'
+ht-degree: 88%
 ---
-
 # Code de suivi
 
 La [dimension](overview.md) « Code de suivi » répertorie les noms des codes de suivi sur votre site. Vous pouvez placer des liens avec différentes valeurs de paramètre de chaîne de requête à différents endroits sur Internet. Cette dimension vous aide à mieux comprendre quels liens ont généré le plus de trafic vers votre site.
 
-L’ajout de chaînes de requête de code de suivi est courant dans les e-mails, les publicités, les publications de médias sociaux et d’autres efforts marketing utilisés par votre organisation.
+L’ajout de chaînes de requête de code de suivi est courant dans les e-mails, les publicités, les publications sur les réseaux sociaux et d’autres efforts marketing utilisés par votre organisation.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension récupère les données de la chaîne de requête [`v0`](/help/implement/validate/query-parameters.md) dans les demandes d’image. AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/help/implement/vars/page-vars/campaign.md).
+AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/help/implement/vars/page-vars/campaign.md). Cette variable obtient généralement sa valeur à partir d’une chaîne de requête à l’aide de la méthode de l’utilitaire [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md), bien que votre entreprise détermine exactement comment la définir.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
+| **Champ Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Paramètre de requête** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Balise XML** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite d’octets** | 255 octets |
+| **Persistance** | Configurable |
 
 ## Éléments de dimension
 
@@ -39,14 +53,14 @@ Les éléments de dimension incluent les noms des codes de suivi sur votre site.
 
 ## Comparaison de la dimension Code de suivi avec les canaux marketing qui collectent les codes de suivi
 
-Certains utilisateurs qui configurent des règles de traitement des canaux marketing configurent une règle qui prend toutes les valeurs utilisées dans la dimension Code de suivi. Bien qu’il s’agisse d’une excellente pratique, des différences inhérentes au traitement et à l’architecture les distinguent. La liste suivante explique pourquoi ces deux méthodes, bien que similaires au premier abord, peuvent modifier le comportement d’attribution.
+Certains utilisateurs ou utilisatrices qui configurent des règles de traitement du canal marketing définissent une règle qui prend toutes les valeurs utilisées dans la dimension Code de suivi. Bien qu’il s’agisse d’une excellente pratique, des différences inhérentes au traitement et à l’architecture les distinguent. La liste suivante explique pourquoi ces deux méthodes, bien que similaires au premier abord, peuvent modifier le comportement d’attribution.
 
 ### Canaux précédents dans les règles de traitement
 
-Les règles de traitement des canaux marketing situées plus haut dans la liste peuvent empêcher l’attribution des accès à votre canal marketing Codes de suivi. Par exemple :
+Les règles de traitement des canaux marketing situées plus haut dans la liste peuvent empêcher l’attribution des hits à votre canal marketing Codes de suivi. Par exemple :
 
 1. Vous avez configuré les « Réseaux sociaux » comme première règle et les « Codes de suivi » comme seconde règle.
-2. Un utilisateur publie un lien vers votre site contenant un code de suivi sur un site de réseau social, et plusieurs de ses amis cliquent sur ce lien pour accéder à votre site.
+2. Un utilisateur publie un lien vers votre site contenant un code de suivi sur un réseau social, et plusieurs de ses amis cliquent sur ce lien pour accéder à votre site.
 
 Comme les « Réseaux sociaux » sont la première règle de traitement des canaux marketing, ces utilisateurs sont attribués au canal marketing « Réseaux sociaux », et non à votre canal marketing Codes de suivi.
 
@@ -63,7 +77,7 @@ Dans cet exemple, le canal marketing Codes de suivi n’obtient pas le crédit D
 
 ### Différences d’expiration
 
-Le délai d’expiration de l’engagement des visiteurs et visiteuses des canaux marketing correspond à une période variable de 30 jours, qu’un canal ait été touché ou non. L’expiration des codes de suivi dépend du moment auquel la variable a été définie. Par exemple :
+Les canaux marketing ont un délai d’expiration glissant de 30 jours pour l’engagement des visiteurs ou des visiteuses, qu’un canal ait été touché ou non. L’expiration des codes de suivi dépend du moment auquel la variable a été définie. Par exemple :
 
 1. Vous disposez d’un délai d’expiration de l’engagement des visiteurs de 30 jours et avez également configuré la dimension Code de suivi pour qu’elle expire après 30 jours.
 2. Un utilisateur arrive sur votre site par le biais d’un code de suivi. Il parcourt le site, puis le quitte.

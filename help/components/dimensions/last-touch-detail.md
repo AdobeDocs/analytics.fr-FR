@@ -6,35 +6,48 @@ exl-id: def03267-f3e5-4772-a707-5678c45eba6d
 TQID: https://experienceleague.adobe.com/bVZVCTQQ1tZVB0qF9fxeCU1Ec6bjcspymoyOY-AQATU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 327
-ht-degree: 80%
-
+source-wordcount: '378'
+ht-degree: 70%
 ---
-
 # Détails du canal Dernière touche
 
-La [dimension](overview.md) Détails du canal Dernière touche fournit des détails sur le canal marketing le plus récent auquel un visiteur ou une visiteuse correspond au cours de la période d’engagement de ce visiteur ou de cette visiteuse (30 jours par défaut). Cette dimension est utile pour comprendre ce qui a contribué à la correspondance des accès avec un canal marketing. Par exemple, si un visiteur arrive sur votre site et correspond au canal marketing « Référencement payant », vous pouvez utiliser les détails du canal pour identifier le moteur de recherche utilisé ou le mot-clé recherché.
+La [dimension](overview.md) Détails du canal Dernière touche fournit des détails sur le canal marketing le plus récent auquel un visiteur ou une visiteuse correspond au cours de la période d’engagement de ce visiteur ou de cette visiteuse (30 jours par défaut). Cette dimension est utile pour comprendre ce qui a contribué à la correspondance des hits avec un canal marketing. Par exemple, si un visiteur arrive sur votre site et correspond au canal marketing « Référencement payant », vous pouvez utiliser les détails du canal pour identifier le moteur de recherche utilisé ou le mot-clé recherché.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension copie les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Lorsqu’un accès correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle.
+Cette dimension est dérivée des règles de traitement des canaux marketing, qui copient les valeurs d’autres variables. La variable utilisée fait référence à la valeur de canal dans chaque [règle de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Lorsqu’un hit correspond à une règle de traitement des canaux marketing, la dimension [Canal Dernière touche](last-touch-channel.md) est définie sur le nom du canal et cette dimension est définie sur la valeur de canal définie dans la règle. Aucune variable à définir.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucun (dérivé des règles de traitement des canaux marketing) |
+| **Champ Web SDK/XDM** | Aucun (dérivé des règles de traitement des canaux marketing) |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | S.O. |
+| **Persistance** | S.O. |
 
 Pour définir une valeur spécifique sur cette dimension, procédez comme suit :
 
-* Assurez-vous que l’élément de dimension souhaité se trouve dans un attribut d’accès ou une variable personnalisée.
-* Définissez une règle de traitement des canaux marketing qui contient les critères de votre choix pour l’accès.
+* Assurez-vous que l’élément de dimension souhaité se trouve dans un attribut de hit ou une variable personnalisée.
+* Définissez une règle de traitement des canaux marketing contenant les critères souhaités pour le hit.
 * Sélectionnez la valeur de liste déroulante souhaitée sous [!UICONTROL Définir la valeur du canal] dans la règle de traitement Canal marketing.
-* L’accès du visiteur à votre site doit correspondre aux critères décrits dans la règle de traitement des canaux marketing.
+* Le hit du visiteur sur votre site doit correspondre aux critères définis dans la règle de traitement des canaux marketing.
 
 ## Éléments de dimension
 

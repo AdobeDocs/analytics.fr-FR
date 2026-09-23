@@ -1,6 +1,6 @@
 ---
 title: eVar (variables de marchandisage)
-description: Variables personnalisées liées à des produits individuels.
+description: Variables personnalisées associées à des produits individuels.
 feature: Appmeasurement Implementation
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
@@ -8,27 +8,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/BdChWcR9AJqLZ0KjOxSvFAjB8-58JmmGahrpvTyFeFI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 90%
-
 ---
-
 # eVar (marchandisage)
 
+>[!BEGINSHADEBOX]
+
 *Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVars (dimensions de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants.*
+
+>[!ENDSHADEBOX]
 
 Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
@@ -38,9 +48,9 @@ Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer l�
 
 >[!WARNING]
 >
->Si les eVars de marchandisage ne sont pas correctement configurées, cela entraîne des valeurs inattendues ou une perte de données pour la variable. Veillez à ce qu’elles soient correctement configurées pour votre implémentation.
+>Une configuration incorrecte des eVars de marchandisage entraîne des valeurs inattendues ou une perte de données pour la variable. Veillez à ce qu’elles soient correctement configurées pour votre implémentation.
 
-## Implémentation à l’aide de la syntaxe du produit
+## Mise en œuvre à l’aide de la syntaxe du produit
 
 Lorsque le paramètre « Syntaxe du produit » est activé, la catégorie de marchandisage est directement remplie dans la variable `products`. La sélection et la définition d’un événement de liaison ne sont donc pas requises. Il est vivement conseillé d’utiliser cette méthode, à moins que la valeur ne soit pas disponible pour être définie dans la variable `products` lorsque l’événement de succès se produit.
 
@@ -103,9 +113,9 @@ L’exemple d’objet ci-dessus serait envoyé à Adobe Analytics en tant que `"
 
 Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), le marchandisage eVar utilise `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` syntaxe AppMeasurement suivante.
 
-## Implémentation à l’aide de la syntaxe de la variable de conversion
+## Mise en œuvre à l’aide de la syntaxe de variable de conversion
 
-La syntaxe de la variable de conversion est utilisée lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page n’est pas en mesure de déterminer le canal de marchandisage ou la méthode de recherche. Dans ce cas, vous devez définir la variable de merchandising avant d’arriver à la page produit et la valeur persiste jusqu’à l’événement de liaison.
+La syntaxe de la variable de conversion est utilisée lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page ne contient aucune information contextuelle sur le canal de marchandisage ou la méthode de recherche. Dans ce cas, vous devez définir la variable de merchandising avant d’arriver à la page produit et la valeur persiste jusqu’à l’événement de liaison.
 
 Lorsque l’événement de liaison sélectionné en cours de configuration se produit, la valeur persistante de l’eVar est associée au produit. Par exemple, si `prodView` est spécifié en tant qu’événement de liaison, la catégorie de marchandisage n’est liée à la liste des produits en cours qu’au moment où l’événement se produit. Seuls les événements de liaison ultérieurs pourront mettre à jour une eVar de marchandisage qui a déjà été affectée à un produit.
 
@@ -118,9 +128,9 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les événements de succès ultérieurs qui impliquent ce produit sont crédités à `"Canary"`. De plus, la valeur actuelle de la variable de marchandisage sera liée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
+La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les événements de succès ultérieurs qui impliquent ce produit sont crédités à `"Canary"`. De plus, la valeur actuelle de la variable de marchandisage sera associée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
 
-* L’expiration de l’eVar (sur la base du paramètre « Expire After »)
+* L’eVar expire (en fonction du paramètre « Expire après »).
 * L’eVar de marchandisage est remplacée par une nouvelle valeur.
 
 ### Syntaxe des variables de conversion utilisant le SDK Web

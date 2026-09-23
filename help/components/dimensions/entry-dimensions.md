@@ -1,31 +1,39 @@
 ---
 title: Dimensions d’entrée
 description: Liste les dimensions d’entrée et leur utilisation.
-keywords: page d’accès, section d’entrée sur le site, serveur d’entrée, Custom Insight d’entrée
+keywords: page d’accès, section d’entrée sur le site, serveur d’entrée, insight personnalisé d’entrée
 feature: Dimensions
 exl-id: 424e2a9a-05ac-4397-921b-c8d7567348ed
 TQID: https://experienceleague.adobe.com/6a6Xy8SEqjcnuB1Acbwkesw6OA7Nggld5ppWtjYaj5k
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 292
-ht-degree: 75%
-
+source-wordcount: '351'
+ht-degree: 65%
 ---
-
 # Dimensions d’entrée
 
+>[!BEGINSHADEBOX]
+
 *Cette page d’aide décrit le fonctionnement des entrées en tant que [dimension](overview.md). Pour plus d’informations sur le fonctionnement des entrées en tant que mesure, consultez la mesure [Entrées](../metrics/entries.md).*
+
+>[!ENDSHADEBOX]
 
 Les dimensions d’entrée sont [basées sur les visites](../metrics/visits.md). Elles enregistrent le premier élément de dimension et le conservent pendant toute la durée de cette visite. Les dimensions d’entrée sont disponibles pour toutes les variables dont le cheminement est activé sous [Variables de trafic](/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md) dans les paramètres de la suite de rapports.
 
@@ -34,7 +42,16 @@ Les dimensions d’entrée sont [basées sur les visites](../metrics/visits.md).
 
 ## Renseignement des dimensions d’entrée avec des données
 
-Une entrée donnée [dimension](overview.md) est basée sur sa variable de trafic associée. Si la variable de non-entrée comporte des données, la dimension d’entrée associée contient également des données. Aucune modification de mise en œuvre n’est requise pour les dimensions d’entrée si vos variables de trafic contiennent des données.
+Une entrée donnée [dimension](overview.md) est basée sur sa variable de trafic associée. Adobe dérive chaque dimension d’entrée de la première valeur vue pour cette variable au cours de la visite ; il n’y a pas de variable dédiée à définir. Si la variable de non-entrée comporte des données, la dimension d’entrée associée contient également des données. Aucune modification de mise en œuvre n’est requise pour les dimensions d’entrée si vos variables de trafic contiennent des données.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucun (dérivé du premier accès du visiteur) |
+| **Champ Web SDK/XDM** | Aucun (dérivé du premier accès du visiteur) |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | S.O. |
+| **Persistance** | Visite |
 
 ## Éléments de dimension
 

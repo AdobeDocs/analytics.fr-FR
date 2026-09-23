@@ -7,22 +7,26 @@ role: Admin
 TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 7%
-
+source-wordcount: '552'
+ht-degree: 6%
 ---
-
 # Format du fichier de source de données
 
 Les fichiers de source de données possèdent les propriétés suivantes :
@@ -80,7 +84,7 @@ Les dimensions et les mesures se trouvent dans la même ligne d’en-tête.
 
 {style="table-layout:auto"}
 
-Adobe ne prend en charge les sources de données pour aucune autre dimension ou mesure. Si des variables au-delà de ce qui est répertorié dans les tableaux ci-dessus sont requises, pensez à utiliser l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) à la place.
+Adobe ne prend en charge les sources de données pour aucune autre dimension ou mesure. Si des variables au-delà de ce qui est répertorié dans les tableaux ci-dessus sont requises, pensez à utiliser l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) à la place.
 
 ## Date
 

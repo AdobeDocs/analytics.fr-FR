@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 939
-ht-degree: 68%
-
+source-wordcount: '949'
+ht-degree: 67%
 ---
-
 # Mise en œuvre avec AMP
 
 [AMP](https://amp.dev) est une structure HTML open-source qui fournit une méthode simple pour créer des pages web à chargement rapide et fluide.
@@ -46,7 +56,7 @@ Le tableau suivant compare ces deux méthodes :
 
 |   | **`"adobeanalytics"`modèle** | **`"adobeanalytics_nativeConfig"`modèle** |
 |---|---|---|
-| Nombre de visiteurs/visites dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
+| Nombre de visites et de visiteurs dans la suite de rapports existante | Gonflement élevé | Gonflement minimal |
 | Utilisation d’une suite de rapports distincte | Recommandé | Pas nécessaire |
 | Visiteurs nouveaux/récurrents | Non pris en charge | Pris en charge |
 | Service d’identification des visiteurs (`VisitorAPI.js`) | Non pris en charge | Pris en charge |
@@ -62,7 +72,7 @@ Pesez le pour et le contre afin de choisir la méthode d’implémentation la pl
 
 ## Méthode 1 : utiliser la balise `<amp-analytics>` avec le modèle de `"adobeanalytics"`
 
-Le modèle de suivi `"adobeanalytics"` utilise la balise `<amp-analytics>` afin de construire directement une demande de suivi. Vous pouvez spécifier des demandes d’accès qui se déclenchent sur des événements de page spécifiques, comme la page qui devient visible ou sur un clic. Les événements de clic peuvent être personnalisés afin de s’appliquer à certains identifiants ou classes d’élément en spécifiant un sélecteur. Vous pouvez charger le modèle en ajoutant `type="adobeanalytics"` à la balise amp-analytics.
+Le modèle de suivi `"adobeanalytics"` utilise la balise `<amp-analytics>` afin de construire directement une demande de suivi. Vous pouvez spécifier des demandes de hit qui se déclenchent sur des événements de page spécifiques, comme la page qui devient visible ou sur un clic. Les événements de clic peuvent être personnalisés afin de s’appliquer à certains identifiants ou classes d’élément en spécifiant un sélecteur. Vous pouvez charger le modèle en ajoutant `type="adobeanalytics"` à la balise amp-analytics.
 
 Dans l’exemple de code suivant, deux déclencheurs sont définis : `pageLoad` et `click`. Le déclencheur `pageLoad` se déclenche lorsque le document devient visible et inclut la variable `pageName` définie dans la section `vars`. Le second déclencheur, `click`, se déclenche lors d’un clic sur un bouton. La variable `eVar1` est définie pour cet événement avec la valeur `button clicked`.
 
@@ -101,7 +111,7 @@ La balise `<amp-analytics>` prend en charge les substitutions de variables, de s
 
 >[!NOTE]
 >
->Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas de données pour de nombreux rapports par défaut (par exemple, le navigateur, la taille d’écran ou le référent). Si vous souhaitez inclure ces informations dans les accès, assurez-vous qu’elles sont incluses dans la chaîne de requête d’image. Consultez la section [&#x200B; Paramètres de requête de la collecte de données &#x200B;](../validate/query-parameters.md) pour obtenir une liste complète des paramètres de requête de demande d’image et des variables associées.
+>Les demandes d’image envoyées à Adobe à l’aide de cette méthode n’incluent pas de données pour de nombreux rapports par défaut (par exemple, le navigateur, la taille d’écran ou le référent). Si vous souhaitez inclure ces informations dans les accès, assurez-vous qu’elles sont incluses dans la chaîne de requête d’image. Consultez la section [&#x200B; Paramètres de requête de la collecte de données &#x200B;](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) pour obtenir une liste complète des paramètres de requête de demande d’image et des variables associées.
 
 Adobe identifie les visiteurs à l’aide d’une fonction AMP intégrée et définit le cookie `adobe_amp_id`. Cet identifiant visiteur est unique à tout autre identifiant défini par Adobe Analytics. Un visiteur unique différent est comptabilisé pour chaque réseau CDN à partir duquel un visiteur récupère du contenu, ce qui peut gonfler le nombre de visiteurs uniques. L’utilisation d’une suite de rapports distincte pour les pages AMP est vivement recommandée en raison de la manière dont AMP identifie les visiteurs uniques. Le service d’identification des visiteurs Adobe n’est pas pris en charge.
 
@@ -169,7 +179,7 @@ Le modèle de `"adobeanalytics_nativeConfig"` ajoute également des paramètres 
 
 >[!IMPORTANT]
 >
->Votre page `stats.html` doit être hébergée sur un sous-domaine distinct du domaine sur lequel l’AMP elle-même est hébergée. L’infrastructure AMP n’autorise pas les iFrames issues du même sous-domaine que celui où existe la page AMP même. Par exemple, si votre fichier AMP est hébergé sur `amp.example.com`, hébergez votre page `stats.html` sur un sous-domaine distinct, tel que `ampmetrics.example.com`.
+>Votre page `stats.html` doit être hébergée sur un sous-domaine distinct du domaine sur lequel l’AMP elle-même est hébergée. Le framework AMP n’autorise pas les iframes provenant du même sous-domaine que celui sur lequel réside la page AMP proprement dite. Par exemple, si votre fichier AMP est hébergé sur `amp.example.com`, hébergez votre page `stats.html` sur un sous-domaine distinct, tel que `ampmetrics.example.com`.
 
 Avec cette méthode, si un utilisateur choisit de ne pas effectuer le suivi sur votre site principal, il est également désabonné du suivi sur tous vos fichiers AMP. L’utilisation de cette page d’utilitaire signifie également qu’AMP peut prendre en charge le service d’identification des visiteurs Adobe. Une suite de rapports distincte n’est pas requise.
 

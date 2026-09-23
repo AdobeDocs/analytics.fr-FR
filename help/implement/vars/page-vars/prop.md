@@ -7,33 +7,47 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/m1zwGOg7Fw26KdnqjqrOSekG8AehjIVsLKWMeaJfPY0
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 623
+source-wordcount: '623'
 ht-degree: 87%
-
 ---
-
 # prop
+
+>[!BEGINSHADEBOX]
 
 *Cette page d’aide décrit comment implémenter des props. Pour plus d’informations sur le fonctionnement des props en tant que dimension, consultez [prop](/help/components/dimensions/prop.md) dans le guide d’utilisation Composants.*
 
-Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini.
+>[!ENDSHADEBOX]
+
+Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà du hit dans lequel elles sont définies.
 
 >[!TIP]
 >
@@ -71,7 +85,7 @@ s.prop1 = "Example custom value";
 
 ## Props de liste
 
-Les props de liste désignent un paramètre appliqué aux props qui permet à la variable de contenir plusieurs valeurs dans le même accès. Si ce paramètre n’est pas activé ou si un délimiteur incorrect est utilisé, la variable est traitée comme une valeur unique.
+Les props de liste désignent un paramètre appliqué aux props qui permet à la variable de contenir plusieurs valeurs dans le même hit. Si ce paramètre n’est pas activé ou si un délimiteur incorrect est utilisé, la variable est traitée comme une valeur unique.
 
 ### Configuration des props de liste
 
@@ -100,4 +114,4 @@ s.prop1 = "value1,value2,value3";
 >
 >Les propriétés de liste sont toujours soumises à la longueur maximale de 100 octets. Les propriétés de liste sont plus faciles à atteindre et à tronquer, puisqu’elles peuvent contenir plusieurs valeurs. Utilisez des abréviations ou des valeurs de raccourcissement si vous pouvez atteindre cette limite de 100 octets.
 
-Si vous définissez la même valeur plusieurs fois dans une prop de liste, elle est dédupliquée dans les rapports. Analysis Workspace comptabilise le nombre d’accès où une valeur est affichée et non le nombre d’occurrences d’une valeur dans les données.
+Si vous définissez la même valeur plusieurs fois dans une prop de liste, elle est dédupliquée dans les rapports. Analysis Workspace comptabilise le nombre de hits où une valeur est affichée et non le nombre d’occurrences d’une valeur dans les données.

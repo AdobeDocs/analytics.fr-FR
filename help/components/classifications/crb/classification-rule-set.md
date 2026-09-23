@@ -6,25 +6,32 @@ exl-id: 5c118541-d143-4947-b693-514d7042abe6
 TQID: https://experienceleague.adobe.com/wTH0I-JNEs-qu9DfgPVQCc6H9QMwoxoxqIFP-06QQpc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 89%
-
 ---
-
 # Jeux de règles de classification (hérités)
 
 {{classification-rulebuilder-deprecation}}
 
+>[!BEGINSHADEBOX]
+
 *Cette page explique les jeux de règles de classification dans le cadre du [Créateur de règles de classification](classification-rule-builder.md). Voir [Ensembles de classifications](../sets/overview.md) pour connaître la méthode actuelle de classification des données dans Adobe Analytics.*
+
+>[!ENDSHADEBOX]
 
 Un jeu de règles est un groupe de règles de classification relatives à une variable spécifique. Vous appliquez une variable au jeu de règles. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports.
 
@@ -48,11 +55,11 @@ Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Règles </p> </td> 
-   <td colname="col2"> Affiche le nombre de règles du jeu. </td> 
+   <td colname="col2"> Affiche le nombre de règles contenues dans le jeu. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>État </p> </td> 
-   <td colname="col2"> Affiche l’état d’activité du jeu de règles ; Version préliminaire ou Actif, par exemple. Les règles actives sont traitées tous les jours ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et téléchargent les classifications. </td> 
+   <td colname="col2"> Affiche le statut d’activité du jeu de règles, par exemple Brouillon ou Actif. Les règles actives sont traitées tous les jours ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et chargent les classifications. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dernière modification </p> </td> 
@@ -67,7 +74,7 @@ Les champs et options ci-dessous sont disponibles sur la page [!UICONTROL Créat
 
 ## Créer un jeu de règles de classification {#create-classification-rule-set}
 
-Nommez le jeu de règles de classification, appliquez la variable et spécifiez les paramètres de remplacement.
+Attribuez un nom au jeu de règles de classification, appliquez la variable et spécifiez les paramètres de remplacement.
 
 1. (Condition préalable) Définissez la structure de classification sous **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
@@ -80,7 +87,7 @@ Nommez le jeu de règles de classification, appliquez la variable et spécifiez 
    ![](assets/new_rule_set.png)
 
 1. Nommez le jeu de règles, puis cliquez sur **[!UICONTROL Créer un jeu de règles]**.
-1. Sélectionnez le jeu de règles pour modification.
+1. Sélectionnez le jeu de règles à modifier.
 
    ![](assets/classification_rules_page.png)
 
