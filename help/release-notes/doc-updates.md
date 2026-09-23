@@ -72,12 +72,12 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Septembre 2026** | |
 | Nouvelles actions de raccourci de redimensionnement | Les nouveaux raccourcis clavier d’Analysis Workspace vous permettent désormais de [redimensionner un panneau ou une visualisation](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) qu’il soit plus large, plus étroit, plus grand ou plus court. |
-| [API de collecte de données ](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
+| [API de collecte de données &#x200B;](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
 | **août 2026** | |
 | Ajout de nouveaux outils d’IA conversationnelle à la dimension de type référent . | La dimension « Type de référent » inclut désormais les [outils d’IA conversationnelle](/help/components/dimensions/referrer-type.md#conversational-ai-tools) supplémentaires suivants dans la table de recherche qu’Adobe utilise :<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Juin 2026** | |
 | Mise à jour de la référence de la chaîne de requête | Révisions importantes des [paramètres de requête de la collecte de données](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference). |
-| Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [](/help/export/data-warehouse/segment-compatibility.md). |
+| Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [&#128279;](/help/export/data-warehouse/segment-compatibility.md). |
 | Guide GA vers AA remplacé | Le guide GA vers AA faisait référence à Universal Analytics, qui a été abandonné en 2023. Un nouveau guide l’a remplacé, [Transition de Google Analytics 4 à Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mai 2026** | |
 | Dimensions et mesures Streaming Media | Mises à jour importantes de la documentation sur les médias en flux continu. Les liens vers des exemples incluent [dimensions principales des services de streaming multimédia](/help/components/dimensions/sm-core.md) et [mesures principales des services de streaming multimédia](/help/components/metrics/sm-core.md). |
@@ -89,7 +89,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Février 2026** |  |
 | Ajout d’informations sur l’utilisation des rapports géographiques et technologiques | Ajout d’informations sur les différences lors de l’utilisation de rapports géographiques et technologiques [dans divers produits Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Janvier 2026** | |
-| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [&#x200B; Créateur de règles dans les ensembles de classifications &#x200B;](/help/components/classifications/sets/manage/rules.md). |
 | Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}

@@ -43,7 +43,7 @@ La dimension « Pages introuvables » indique les adresses URL qui contenaient
 
 >[!NOTE]
 >
->Dans Data Warehouse, cette dimension est nommée « Erreur de type de page [!UICONTROL  »].
+>Dans Data Warehouse, cette dimension est nommée « Erreur de type de page [!UICONTROL &#x200B; »].
 
 ## Renseignement de cette dimension avec des données
 

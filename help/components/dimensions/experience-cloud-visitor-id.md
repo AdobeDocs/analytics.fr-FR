@@ -28,7 +28,7 @@ ht-degree: 18%
 ---
 # Identifiant visiteur Experience Cloud
 
-La dimension « Identifiant visiteur Experience Cloud »](overview.md) fournit l’ECID pour chaque visiteur. [Il s’agit d’un nombre de 128 bits composé de deux nombres concaténés de 64 bits ajoutés à 19 chiffres.
+La dimension « Identifiant visiteur Experience Cloud »[&#128279;](overview.md) fournit l’ECID pour chaque visiteur. Il s’agit d’un nombre de 128 bits composé de deux nombres concaténés de 64 bits ajoutés à 19 chiffres.
 
 >[!IMPORTANT]
 >

@@ -33,12 +33,12 @@ La [dimension](overview.md) « Lien Activity Map par région » affiche une conc
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données des `c.a.activitymap.link` et `c.a.activitymap.region` [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Ces deux valeurs sont concaténées et séparées par une barre verticale (`|`). Si votre implémentation utilise [](/help/analyze/activity-map/overview.md), ces variables de données contextuelles collectent automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données des `c.a.activitymap.link` et `c.a.activitymap.region` [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Ces deux valeurs sont concaténées et séparées par une barre verticale (`|`). Si votre implémentation utilise [&#128279;](/help/analyze/activity-map/overview.md), ces variables de données contextuelles collectent automatiquement les données lorsque l’utilisateur clique sur les liens.
 
 | Propriété | Valeur |
 | --- | --- |
-| **Variable** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
-| **Champ Web SDK/XDM** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
+| **Variable** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
+| **Champ Web SDK/XDM** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
 | **Paramètre de requête** | S.O. |
 | **Balise XML** | S.O. |
 | **Limite d’octets** | 255 octets |

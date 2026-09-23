@@ -30,7 +30,7 @@ ht-degree: 63%
 ---
 # Jours avant le premier achat
 
-La dimension [ Jours avant le premier achat »](overview.md) indique le nombre de jours qui s’écoulent entre la première fois qu’un visiteur accède à votre site et le moment où il effectue un achat. Par exemple, si un visiteur effectue un achat un jour après sa première visite, toute visite ou tout événement ultérieur appartient alors à l’élément de dimension « 1 jour ».
+La dimension [&#x200B; Jours avant le premier achat »](overview.md) indique le nombre de jours qui s’écoulent entre la première fois qu’un visiteur accède à votre site et le moment où il effectue un achat. Par exemple, si un visiteur effectue un achat un jour après sa première visite, toute visite ou tout événement ultérieur appartient alors à l’élément de dimension « 1 jour ».
 
 Une fois qu’un visiteur a effectué son premier achat, il appartient au même élément de dimension pour le reste de la durée de vie du cookie du visiteur.
 

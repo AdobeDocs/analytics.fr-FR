@@ -33,12 +33,12 @@ La [dimension](overview.md) « Page Activity Map » affiche la page sur laquelle
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données du `c.a.activitymap.page` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données du `c.a.activitymap.page` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [&#128279;](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
 
 | Propriété | Valeur |
 | --- | --- |
-| **Variable** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
-| **Champ Web SDK/XDM** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
+| **Variable** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
+| **Champ Web SDK/XDM** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
 | **Paramètre de requête** | S.O. |
 | **Balise XML** | S.O. |
 | **Limite d’octets** | 255 octets |

@@ -37,9 +37,9 @@ ht-degree: 29%
 | [!UICONTROL Nom de l’appareil (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Version du système d’exploitation (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Résolution (SDK)] | | `a.Resolution` |
-| Source d’acquisition][!UICONTROL  | | `a.referrer.campaign.source` |
+| Source d’acquisition | | `a.referrer.campaign.source` |
 | [!UICONTROL ID de l’application] | | `a.AppID` |
-| Medium d’acquisition][!UICONTROL  | | `a.referrer.campaign.medium` |
+| Medium d’acquisition | | `a.referrer.campaign.medium` |
 | [!UICONTROL Terme d’acquisition] | | `a.referrer.campaign.term` |
 | [!UICONTROL Contenu d’acquisition] | | `a.referrer.campaign.content` |
 | [!UICONTROL Nom de l’acquisition] | | `a.referrer.campaign.name` |

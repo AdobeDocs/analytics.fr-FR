@@ -29,16 +29,16 @@ ht-degree: 7%
 ---
 # Région d’Activity Map
 
-La [dimension](overview.md) « Région Activity Map » affiche les régions de votre site qui ont reçu le plus grand nombre de clics. Cette dimension est utile lorsque vous souhaitez comparer des clics dans des régions globales de votre site plutôt que des liens individuels. Il est également utile pour les zones de votre site qui diffusent du contenu dynamique. Par exemple, si vous avez une page d’accueil avec des articles d’actualité rotatifs, l’utilisation de la dimension [Lien ](activity-map-link.md) serait difficile, car le texte du lien change constamment. Cependant, comme ces liens utilisent la même région, vous pouvez analyser les performances de cette zone même si les liens individuels peuvent changer chaque jour.
+La [dimension](overview.md) « Région Activity Map » affiche les régions de votre site qui ont reçu le plus grand nombre de clics. Cette dimension est utile lorsque vous souhaitez comparer des clics dans des régions globales de votre site plutôt que des liens individuels. Il est également utile pour les zones de votre site qui diffusent du contenu dynamique. Par exemple, si vous avez une page d’accueil avec des articles d’actualité rotatifs, l’utilisation de la dimension [Lien &#x200B;](activity-map-link.md) serait difficile, car le texte du lien change constamment. Cependant, comme ces liens utilisent la même région, vous pouvez analyser les performances de cette zone même si les liens individuels peuvent changer chaque jour.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données du `c.a.activitymap.region` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données du `c.a.activitymap.region` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [&#128279;](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
 
 | Propriété | Valeur |
 | --- | --- |
-| **Variable** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
-| **Champ Web SDK/XDM** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
+| **Variable** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
+| **Champ Web SDK/XDM** | Aucune (collectée par le module [&#128279;](/help/analyze/activity-map/overview.md)) |
 | **Paramètre de requête** | S.O. |
 | **Balise XML** | S.O. |
 | **Limite d’octets** | 255 octets |

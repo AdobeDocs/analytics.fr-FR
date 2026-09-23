@@ -46,7 +46,7 @@ Actuellement, cette dimension est utilisée uniquement pour Google. En raison de
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension collecte les données de la `contextData.['adConsent']` [variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Vous renseignez cette variable avec les valeurs de champ de consentement Google appropriées : `ad_user_data` (premier caractère) et `ad_personalization` (deuxième caractère). Voir [ Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) pour plus d’informations.
+Cette dimension collecte les données de la `contextData.['adConsent']` [variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Vous renseignez cette variable avec les valeurs de champ de consentement Google appropriées : `ad_user_data` (premier caractère) et `ad_personalization` (deuxième caractère). Voir [&#x200B; Consentement dans la référence de l’API Google Ads](https://developers.google.com/google-ads/api/reference/rpc/v15/Consent) pour plus d’informations.
 
 | Propriété | Valeur |
 | --- | --- |

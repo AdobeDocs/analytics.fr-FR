@@ -32,7 +32,7 @@ ht-degree: 78%
 ---
 # Accord préalable de gestion du consentement
 
-La dimension « Accord préalable de gestion du consentement » ](overview.md) affiche les paramètres de confidentialité qu’un visiteur a acceptés. [Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les motifs d’opt-in les plus courants en matière de confidentialité.
+La dimension « Accord préalable de gestion du consentement » [&#128279;](overview.md) affiche les paramètres de confidentialité qu’un visiteur a acceptés. Vous pouvez utiliser cette dimension pour filtrer les données en fonction des paramètres de confidentialité ou afficher les motifs d’opt-in les plus courants en matière de confidentialité.
 
 ## Renseigner cette dimension avec des données
 

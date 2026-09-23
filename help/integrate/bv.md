@@ -10,7 +10,7 @@ ht-degree: 1%
 
 # Intégration de Adobe Brand Visibility
 
-[](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
+[&#128279;](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
 
 L’IA est devenue un canal de découverte essentiel. Les agents de grands modèles linguistiques (LLM), tels que ChatGPT, Claude, Copilot et Perplexity, explorent le contenu de la marque.
 
@@ -114,7 +114,7 @@ L’ensemble exact de champs disponibles doit être confirmé par rapport à la 
 
 ### Responsabilités
 
-L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
+L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [&#128279;](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
 
 #### Responsabilités gérées par Adobe
 
@@ -152,7 +152,7 @@ Pour ouvrir les paramètres Adobe Brand Visibility de votre suite de rapports :
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez la suite de rapports à laquelle vous souhaitez vous connecter.
 1. Sélectionnez **[!UICONTROL Modifier les paramètres]**.
-1. Dans le menu contextuel, sélectionnez ****.
+1. Dans le menu contextuel, sélectionnez **&#x200B;**.
 
 Pour configurer le connecteur :
 
@@ -215,7 +215,7 @@ La procédure de vérification comprend les étapes suivantes :
    1. Le volume Confirmer la demande s’affiche pour une période récente.
    1. Confirmez que les dimensions **URL**, **Agent utilisateur**, **Statut** et **Référent** renvoient les valeurs attendues.
 
-   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [ Activer le connecteur ](#enable-the-connector).
+   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [&#x200B; Activer le connecteur &#x200B;](#enable-the-connector).
 
 
 
@@ -250,4 +250,4 @@ Cette section est destinée à un examen interne et doit être supprimée avant 
 
 ## Intégration sortante
 
-Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
+Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [&#128279;](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
