@@ -58,7 +58,7 @@ Les variables suivantes ont été introduites dans la section Insertion de donn�
 * **`aamlh`** : indicateur d’emplacement Adobe Audience Manager.
 * **`contextData.key`** : [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`** : variables du service d’identification des visiteurs. Inclut `id`, `authState` et `isMCSeed`.
-* **`hints`** : variables [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html). Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
+* **`hints`** : variables [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr). Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
 * **`ipaddress`** : la dimension [adresse IP](/help/components/dimensions/ip-address.md).
 * **`language`** : la dimension [Langue](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`** : [Variables de liste](/help/implement/vars/page-vars/list.md).

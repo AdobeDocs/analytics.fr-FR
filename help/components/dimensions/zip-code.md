@@ -50,7 +50,7 @@ L’[!UICONTROL option de code postal] sous [Paramètres généraux du compte](/
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Champ Web SDK/XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Champ Web SDK/XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/geo) |
 | **Paramètre de requête** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 50 octets |

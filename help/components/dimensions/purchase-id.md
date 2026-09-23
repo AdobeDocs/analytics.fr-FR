@@ -41,7 +41,7 @@ Cette dimension est définie à l’aide de la variable [`purchaseID`](/help/imp
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md) |
-| **Champ Web SDK/XDM** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Champ Web SDK/XDM** | [`commerce.order.purchaseID`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Paramètre de requête** | [`purchaseID`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<purchaseId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 20 octets |

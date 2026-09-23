@@ -43,7 +43,7 @@ Cette dimension fait référence à la catégorie de produits dans la variable [
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Champ Web SDK/XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Champ Web SDK/XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Paramètre de requête** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 100 octets |

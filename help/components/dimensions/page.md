@@ -47,7 +47,7 @@ Définissez la variable [`pageName`](/help/implement/vars/page-vars/pagename.md)
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Champ Web SDK/XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Champ Web SDK/XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Paramètre de requête** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 100 octets |

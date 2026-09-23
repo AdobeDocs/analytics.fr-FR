@@ -41,7 +41,7 @@ AppMeasurement collecte ces données à l’aide de la variable [`campaign`](/h
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`campaign`](/help/implement/vars/page-vars/campaign.md) |
-| **Champ Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
+| **Champ Web SDK/XDM** | [`marketing.trackingCode`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/campaign-marketing-details) |
 | **Paramètre de requête** | [`v0`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<campaign>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 255 octets |

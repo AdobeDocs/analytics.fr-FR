@@ -43,7 +43,7 @@ AppMeasurement collecte automatiquement l’URL de la page à chaque [appel de p
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Champ Web SDK/XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Champ Web SDK/XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Paramètre de requête** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 255 octets (pas de limite fixe avec dépassement) |

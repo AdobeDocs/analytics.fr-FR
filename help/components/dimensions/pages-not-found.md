@@ -52,7 +52,7 @@ AppMeasurement collecte ces données à l’aide de la variable [`pageType`](/h
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`pageType`](/help/implement/vars/page-vars/pagetype.md) |
-| **Champ Web SDK/XDM** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Champ Web SDK/XDM** | [`web.webPageDetails.isErrorPage`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Paramètre de requête** | [`pageType`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<pageType>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | S.O. |

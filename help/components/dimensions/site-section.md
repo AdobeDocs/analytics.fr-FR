@@ -41,7 +41,7 @@ AppMeasurement collecte ces données à l’aide de la variable [`channel`](/he
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`channel`](/help/implement/vars/page-vars/channel.md) |
-| **Champ Web SDK/XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Champ Web SDK/XDM** | [`web.webPageDetails.siteSection`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Paramètre de requête** | [`ch`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<channel>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 100 octets |

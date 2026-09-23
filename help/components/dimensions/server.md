@@ -41,7 +41,7 @@ AppMeasurement collecte ces données à l’aide de la variable [`server`](/help
 | Propriété | Valeur |
 | --- | --- |
 | **Variable** | [`server`](/help/implement/vars/page-vars/server.md) |
-| **Champ Web SDK/XDM** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Champ Web SDK/XDM** | [`web.webPageDetails.server`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Paramètre de requête** | [`server`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<server>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | 100 octets |
