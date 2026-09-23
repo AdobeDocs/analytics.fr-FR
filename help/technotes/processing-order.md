@@ -6,29 +6,38 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Ordre de traitement des données dans Adobe Analytics
 
-Adobe offre de nombreuses façons de modifier ou de manipuler les données avant qu’elles n’apparaissent dans les rapports. Cette page indique l’ordre dans lequel différentes fonctionnalités d’Adobe Analytics traitent les données. Vous pouvez utiliser cette liste pour résoudre les incohérences entre les données ou déterminer la meilleure fonctionnalité à utiliser lorsque des ajustements des données sont nécessaires.
+Adobe offre de nombreuses façons de modifier ou de manipuler les données avant qu’elles n’apparaissent dans les rapports. Cette page indique l’ordre dans lequel différentes fonctionnalités d’Adobe Analytics traitent les données. Vous pouvez utiliser cette liste pour résoudre les incohérences de données ou déterminer la meilleure fonctionnalité à utiliser lorsque des ajustements des données sont nécessaires.
 
 ![Traitement de l’image de l’ordre](assets/processing-order.png)
 
@@ -38,8 +47,8 @@ Avant d’envoyer les données à Adobe, elles sont généralement compilées c�
 
 * **AppMeasurement** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées directement à Adobe Analytics.
 * **SDK Web Adobe Experience Platform** : fichier JavaScript hébergé sur votre site et référencé sur chaque page. Les données sont envoyées à Adobe Experience Platform Edge Network.
-* **Balises dans la collecte de données Adobe Experience Platform** : fichier JavaScript référencé sur chaque page, contenant les règles créées dans l’interface utilisateur de la collecte de données. L’extension Adobe Analytics offre un moyen plus simple de mettre en œuvre AppMeasurement. L’extension SDK Web offre un moyen plus facile de mettre en œuvre le SDK Web.
-* **API** : AppMeasurement et Edge Network offrent toutes deux des méthodes de programmation pour envoyer des données à Adobe. AppMeasurement propose l’[API Data Insertion](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) et l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/) ; Edge Network propose l’[API Data Collection](https://developer.adobe.com/data-collection-apis/docs/).
+* **Balises dans la collecte de données Adobe Experience Platform** : fichier JavaScript référencé sur chaque page, contenant les règles créées dans l’interface utilisateur de la collecte de données. L’extension Adobe Analytics offre un moyen plus simple de mettre en œuvre AppMeasurement. L’extension SDK Web offre un moyen plus simple de mettre en œuvre le SDK Web.
+* **API** : AppMeasurement et Edge Network offrent toutes deux des méthodes de programmation pour envoyer des données à Adobe. AppMeasurement propose l’[API Data Insertion](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) et l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/) ; Edge Network propose l’[API Data Collection](https://developer.adobe.com/data-collection-apis/docs/).
 
 Si vous envoyez des données à Edge Network, vous pouvez le configurer pour transférer des données à Adobe Analytics (ainsi qu’à de nombreuses autres solutions Adobe CX Enterprise). Quelle que soit la méthode d’implémentation, les données d’accès collectées arrivent finalement aux serveurs de traitement d’Adobe Analytics dans un format qu’elles peuvent analyser.
 
@@ -87,7 +96,7 @@ Jusqu’à présent, un accès donné n’a aucune connaissance ni aucun context
 
 ## Modification des données après leur traitement
 
-Les données dans Adobe Analytics sont pour la plupart permanentes. Cependant, certaines fonctionnalités permettent d’ajuster ou de supprimer des données sélectives
+Les données dans Adobe Analytics sont pour la plupart permanentes ; cependant, certaines fonctionnalités permettent d’ajuster ou de supprimer sélectivement les données :
 
 * [**API de réparation des données**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) : modifiez certaines colonnes ou supprimez les lignes de données de votre choix.
 * [**Gouvernance des données**](/help/technotes/privacy/privacy-overview.md) : accédez aux demandes de confidentialité pour supprimer définitivement des données.

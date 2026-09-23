@@ -6,26 +6,35 @@ exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
 TQID: https://experienceleague.adobe.com/No-Va3JzN6Qz9hBu73A5ZzKudEB1Tqa4sNPKVKAASGI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 92%
-
 ---
-
 # eVar (marchandisage)
 
+>[!BEGINSHADEBOX]
+
 *Cette page d’aide décrit le fonctionnement des eVars de marchandisage en tant que [dimension](overview.md). Pour plus d’informations sur l’implémentation des eVars de marchandisage, consultez [eVar (variable de marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’utilisation de l’implémentation.*
+
+>[!ENDSHADEBOX]
 
 Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
 
@@ -47,9 +56,9 @@ Lorsque le visiteur termine cet achat, vous obtenez une recherche interne pour `
 
 ## Comment les variables de marchandisage résolvent ce problème
 
-Les variables de marchandisage vous permettent d’affecter la valeur en cours d’une eVar à un produit au moment où l’événement de succès se produit. Cette valeur reste liée à ce produit, même si une ou plusieurs autres valeurs sont définies ultérieurement pour cette eVar.
+Les variables de marchandisage vous permettent d’attribuer la valeur actuelle d’une eVar à un produit au moment où l’événement de succès se produit. Cette valeur reste liée à ce produit, même si une ou plusieurs autres valeurs sont définies ultérieurement pour cette eVar.
 
-Si le marchandisage est activé pour l’eVar dans l’exemple précédent, le terme de recherche « `"goggles"` » est associé aux lunettes, et le terme « `"winter coat"` » à la doudoune. Les eVars de marchandisage attribuent les recettes au niveau du produit, de sorte que chaque terme reçoive du crédit pour les recettes relatives au produit auquel il est associé :
+Si le marchandisage est activé pour l’eVar dans l’exemple précédent, le terme de recherche « `"goggles"` » est associé aux lunettes, et le terme « `"winter coat"` » à la doudoune. Les eVars de marchandisage attribuent le chiffre d’affaires au niveau du produit. Chaque terme se voit ainsi attribuer le montant du chiffre d’affaires généré par le produit auquel il était associé :
 
 | Terme de recherche interne | Recettes |
 |---|---|
@@ -62,8 +71,8 @@ Consultez [eVars de marchandisage](/help/implement/vars/page-vars/evar-merchandi
 
 La mesure [Instances](../metrics/instances.md) n’est pas recommandée pour les variables de marchandisage.
 
-* Pour les variables de marchandisage utilisant la syntaxe du produit, les instances ne sont pas du tout incrémentées.
-* Pour les variables de marchandisage utilisant la syntaxe des variables de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, elle l’attribue à l’élément de dimension `"None"`, sauf si tous les événements suivants se produisent sur le même accès :
+* Pour les variables de marchandisage utilisant la syntaxe du produit, les instances ne sont jamais incrémentées.
+* Pour les variables de marchandisage utilisant la syntaxe de variable de conversion, les instances sont comptabilisées chaque fois que l’eVar est définie. Cependant, elle l’attribue à l’élément de dimension `"None"`, sauf si tous les événements suivants se produisent sur le même hit :
   * L’eVar de marchandisage est définie avec une valeur.
   * La variable `products` est définie avec une valeur.
   * Un événement de liaison est défini.
@@ -77,4 +86,4 @@ s.eVar1 = "Tower defense";
 s.products = "Games;Wizard tower;;;;eVar2=Tower defense";
 ```
 
-Comme la plupart des cas d’utilisation de la syntaxe des variables de conversion nécessitent l’eVar et la variable du produit sur différents accès, l’utilisation de la mesure « Instances » n’est pas réaliste.
+Comme la plupart des cas d’utilisation de la syntaxe des variables de conversion nécessitent l’eVar et la variable du produit sur différents hits, l’utilisation de la mesure « Instances » n’est pas réaliste.

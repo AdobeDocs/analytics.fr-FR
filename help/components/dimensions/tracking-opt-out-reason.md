@@ -6,37 +6,58 @@ exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
 TQID: https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 281
-ht-degree: 11%
-
+source-wordcount: '315'
+ht-degree: 13%
 ---
-
 # Suivi du motif d’exclusion
+
+>[!BEGINSHADEBOX]
 
 *Cette page fait référence à la [dimension](overview.md) qui vous permet de voir l’impact potentiel des données provenant de l’activation de certains paramètres de la suite de rapports. Il n’est pas lié au [service d’accord préalable Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr).*
 
-La dimension « Raison du désabonnement du suivi » sert d’aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation subirait un impact négatif si vous activiez [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr) sous Paramètres de la suite de rapports.
+>[!ENDSHADEBOX]
+
+La dimension « Raison du désabonnement du suivi » sert d’aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation subirait un impact négatif si vous activiez [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) sous Paramètres de la suite de rapports.
 
 Les implémentations standard voient 1 % ou moins du trafic total de leurs suites de rapports sous cette dimension si les paramètres de confidentialité n’ont pas encore été activés. Des pourcentages supérieurs à 1 % de l’ensemble du trafic suggèrent un problème d’implémentation potentiel qui empêche AppMeasurement de définir des cookies propriétaires.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr). Si votre organisation a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
+Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Si votre organisation a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucune (est prête à l’emploi ; aucune variable à définir) |
+| **Champ Web SDK/XDM** | Aucun |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | S.O. |
+| **Persistance** | S.O. |
 
 ## Éléments de dimension
 

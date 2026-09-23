@@ -6,33 +6,47 @@ exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
 TQID: https://experienceleague.adobe.com/2WMG5X3GNmogf-9Bbapq78pjVg5ibQQw7Bgb0qNpF1E
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 93%
-
+source-wordcount: '515'
+ht-degree: 82%
 ---
-
 # Prop
+
+>[!BEGINSHADEBOX]
 
 *Cette page d’aide décrit le fonctionnement des props en tant que [dimension](overview.md). Pour plus d’informations sur la mise en œuvre des props, voir [props](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre.*
 
-Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà de l’accès défini.
+>[!ENDSHADEBOX]
+
+Les props sont des variables personnalisées que vous pouvez utiliser comme bon vous semble. Elles ne persistent pas au-delà du hit dans lequel elles sont définies.
 
 >[!TIP]
 >
@@ -42,9 +56,16 @@ Si vous disposez d’un [document de conception de solution](/help/implement/pre
 
 ## Renseignement des props avec des données
 
-Chaque prop collecte des données de la chaîne de requête [`c1` - `c75` &#x200B;](/help/implement/validate/query-parameters.md) dans les demandes d’image. Par exemple, le paramètre de chaîne de requête `c1` collecte des données pour prop1, tandis que le paramètre de chaîne de requête `c68` collecte des données pour prop68.
+Chaque prop collecte des données à l’aide de la variable [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) correspondante dans AppMeasurement. Par exemple, la variable `prop1` renseigne la dimension prop1 , tandis que la variable `prop68` renseigne la dimension prop68 .
 
-AppMeasurement, qui compile les variables JavaScript en une demande d’image pour la collecte de données, utilise les variables `prop1` - `prop75`. Consultez [prop](/help/implement/vars/page-vars/prop.md) dans le guide d’utilisation de mise en œuvre pour obtenir des instructions de mise en œuvre.
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) |
+| **Champ Web SDK/XDM** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Paramètre de requête** | [`c1` - `c75`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Balise XML** | [`<prop1>` - `<prop75>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite d’octets** | 100 octets |
+| **Persistance** | Hit |
 
 ## Éléments de dimension
 
@@ -52,20 +73,20 @@ AppMeasurement, qui compile les variables JavaScript en une demande d’image po
 
 ## Respect de la casse
 
-Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
+Par défaut, les props ne sont pas sensibles à la casse. Si vous envoyez la même valeur dans différents cas (par exemple, `"DOG"` et `"Dog"`), Analysis Workspace les regroupe dans le même élément de dimension. La casse de la première valeur affichée au début du mois de création de rapports est utilisée. Data Warehouse affiche la première valeur rencontrée pendant la période de demande.
 
 Vous pouvez rendre toute prop sensible à la casse. Vous pouvez également désactiver le respect de la casse pour toute prop où il est activé. Contactez l’assistance clientèle d’Adobe avec l’identifiant de suite de rapports et les variables souhaitées pour activer ou désactiver le respect de la casse.
 
 >[!WARNING]
 >
->Activer/désactiver le respect de la casse peut réduire drastiquement les éléments de dimension, provoquer des résultats inattendus avec des segments et provoquer des problèmes avec les filtres. Adobe recommande vivement de modifier ce paramètre entre deux périodes importantes, comme au début d’un mois ou d’une année.
+>Activer/désactiver le respect de la casse peut réduire drastiquement le nombre d’éléments de dimension, provoquer des résultats inattendus avec des segments et provoquer des problèmes avec les filtres. Adobe recommande vivement de modifier ce paramètre entre deux périodes importantes, comme au début d’un mois ou d’une année.
 
 ## Valeur des props par rapport aux eVars
 
 Dans la plupart des cas, Adobe recommande d’utiliser des eVars. Les exceptions à cette déclaration sont les suivantes :
 
 * Vous pouvez utiliser des props dans les rapports en temps réel. L’affichage des eVars dans les rapports prend au moins 30 minutes.
-* Les props peuvent devenir des props de liste, qui acceptent plusieurs valeurs dans le même accès. Les variables de liste sont une variable distincte et seules trois variables de liste sont disponibles.
+* Les props peuvent devenir des props de liste, qui acceptent plusieurs valeurs dans le même hit. Les variables de liste sont une variable distincte et seules trois variables de liste sont disponibles.
 * Lorsque vous activez le cheminement sur une prop, les dimensions [Entrée](entry-dimensions.md) et [Sortie](exit-dimensions.md) sont immédiatement disponibles. Si vous souhaitez des dimensions d’entrée et de sortie pour les eVars, vous pouvez créer un segment manuellement.
 
 Consultez [eVar](evar.md) pour plus de comparaisons entre les props et les eVars.

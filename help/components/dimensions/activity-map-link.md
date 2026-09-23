@@ -8,29 +8,42 @@ exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
 TQID: https://experienceleague.adobe.com/A5HaPb0TghRKVykJ9V2UMJ0mlsYElLkCyBwxzTd6VII
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 159
-ht-degree: 8%
-
+source-wordcount: '196'
+ht-degree: 11%
 ---
-
 # Lien d’Activity Map
 
 La dimension [Lien Activity Map](overview.md) affiche les liens les plus populaires sur lesquels l’utilisateur a cliqué. Vous pouvez utiliser cette dimension pour comparer les liens de votre site les plus utilisés, quel que soit l’endroit où les visiteurs ont cliqué sur les liens.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension récupère les données du `c.a.activitymap.link` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [&#128279;](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
+Cette dimension récupère les données du `c.a.activitymap.link` [Variable de données contextuelles](/help/implement/vars/page-vars/contextdata.md). Si votre implémentation utilise [](/help/analyze/activity-map/overview.md), cette variable de données contextuelles collecte automatiquement les données lorsque l’utilisateur clique sur les liens.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
+| **Champ Web SDK/XDM** | Aucune (collectée par le module [](/help/analyze/activity-map/overview.md)) |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | 255 octets |
+| **Persistance** | S.O. |
 
 Pour un lien donné sur lequel l’utilisateur a cliqué, Activity Map recherche ce qui suit (dans l’ordre) :
 

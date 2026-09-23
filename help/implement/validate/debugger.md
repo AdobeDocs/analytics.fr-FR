@@ -7,24 +7,31 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 75%
-
+source-wordcount: '691'
+ht-degree: 74%
 ---
-
 # Débogueur hérité
 
 >[!IMPORTANT]
@@ -37,9 +44,9 @@ Le débogueur [!UICONTROL hérité] inspecte les balises pour la plupart des ser
 
 Créez un signet d’applet JavaScript pour installer le débogueur.
 
-### Étape 1 : copier le code du signet d’applet
+### Étape 1 : Copier le code du signet
 
-Copiez le code suivant dans votre Presse-papiers :
+Copiez le symbole suivant dans votre presse-papiers :
 
 ```JavaScript
 javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
@@ -72,12 +79,12 @@ Edge ne permet pas de créer manuellement un signet d’applet, mais une URL de 
 1. Cliquez sur l’icône en forme d’étoile sur le côté droit du champ URL pour mettre en signet la page active.
 2. Nommez le signet « Débogueur hérité » et enregistrez-le à l’emplacement souhaité.
 3. Cliquez sur l’icône en forme d’étoile avec des lignes pour ouvrir la barre Favoris.
-4. Cliquez avec le bouton droit sur le signet que vous venez de créer, puis sélectionnez « Modifier l’URL ».
+4. Faites un clic droit sur le signet que vous venez de créer, puis sélectionnez « Modifier l’URL ».
 5. Collez le fragment de code dans le champ de texte, puis appuyez sur Entrée.
 
 #### Safari
 
-Safari ne peut pas créer manuellement un signet d’applet, mais une URL de signet peut être modifiée dans un signet d’applet.
+Safari ne permet pas de créer manuellement un bookmarklet, mais l’URL d’un signet peut être modifiée pour en faire un bookmarklet.
 
 1. Cliquez sur l’icône Partager dans le coin supérieur droit, ce qui ouvre une fenêtre modale de signet.
 2. Nommez le signet « Débogueur hérité » et enregistrez-le à l’emplacement souhaité.
@@ -97,6 +104,6 @@ Le débogueur dispose de plusieurs options, qui personnalisent toutes le mode d�
 * **[!UICONTROL Produits Experience Cloud affichés]** : affiche ou masque les demandes d’image pour chaque produit CX Enterprise correspondant.
 * **[!UICONTROL Décodage d’URL]** : l’URL décode la demande d’image pour qu’elle corresponde à ce qui est affiché dans les rapports. Adobe recommande de laisser cette case cochée.
 * **[!UICONTROL Actualisation automatique]** : actualise automatiquement le pop-up toutes les quelques secondes pour vérifier si d’autres demandes d’image apparaissent sur la page. Si vous devez copier/coller du contenu dans le débogueur, désactivez l’actualisation automatique afin que votre sélection se maintienne.
-* **[!UICONTROL Format convivial]** : permet d’activer ou de désactiver le format d’affichage des libellés utiles et des chaînes de requête brutes dans une demande d’image. Voir [Paramètres de requête de la collecte de données](query-parameters.md) pour plus d’informations.
+* **[!UICONTROL Format convivial]** : permet d’activer ou de désactiver le format d’affichage des libellés utiles et des chaînes de requête brutes dans une demande d’image. Voir [Paramètres de requête de la collecte de données](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) pour plus d’informations.
 
 Pour enregistrer les options d’affichage par défaut du débogueur, cliquez avec le bouton droit sur le lien « Adobe Debugger » dans le coin supérieur droit, puis copiez l’adresse du lien. Modifiez le signet d’applet du débogueur actuel et collez le fragment de code mis à jour dans le champ URL.

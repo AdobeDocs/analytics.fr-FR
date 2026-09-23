@@ -6,36 +6,51 @@ exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
+    internal-label: Admin
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 88%
-
+source-wordcount: '542'
+ht-degree: 76%
 ---
-
 # Type de référent
 
 La [dimension](overview.md) « Type de référent » indique les canaux génériques sur lesquels les visiteurs et visiteuses ont cliqué pour accéder à votre site. Adobe conserve les règles pour chaque élément de dimension, à la différence des [canaux marketing](marketing-channel.md), où votre entreprise conserve les règles pour chaque canal.
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence à plusieurs tables de recherche internes à Adobe. Chaque valeur est basée sur le [référent](referrer.md) de l’accès, qui dépend des [filtres d’URL internes](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md). Veillez à configurer correctement la dimension Référent et les filtres d’URL internes.
+Adobe dérive cette dimension du [référent](referrer.md) de chaque accès, en la comparant à plusieurs tables de recherche internes à Adobe. Aucune variable à définir. Comme chaque valeur dépend du référent, assurez-vous que la dimension référent et les [filtres d’URL internes](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) sont correctement configurés.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucune (dérivée du référent) |
+| **Champ Web SDK/XDM** | Aucune (dérivée du référent) |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | S.O. |
+| **Persistance** | S.O. |
 
 ## Éléments de dimension
 
-Les éléments de dimension comprennent le type de référent de l’accès. Les valeurs spécifiques incluent les éléments suivants :
+Les éléments de dimension comprennent le type de référent du hit. Les valeurs spécifiques incluent les éléments suivants :
 
-* **Tapé/Marqué d’un signet** : l’accès ne contient aucune donnée de référent.
+* **Tapé/Marqué** : le hit ne contient aucune donnée de référent.
 * **Moteurs de recherche** : le référent provient d’un moteur de recherche reconnu comprenant une chaîne de requête de mot-clé.
 * **Outils d’IA conversationnelle** : le référent provient d’un outil d’IA conversationnelle reconnu.
 * **Réseaux sociaux** : les données de référent appartiennent à un réseau social reconnu par Adobe.

@@ -1,39 +1,57 @@
 ---
 title: États américains
-description: État américain du visiteur.
+description: L’État américain du visiteur ou de la visiteuse
 feature: Dimensions
 exl-id: d4506e59-c1ff-4348-912d-c1ad73278f56
 TQID: https://experienceleague.adobe.com/YLZIz1-J-LVvases2X1AgNxQR1eTtqoeDoxFVCg2MV4
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 385
-ht-degree: 77%
-
+source-wordcount: '426'
+ht-degree: 64%
 ---
-
 # État américain
 
 La dimension [État des États-Unis](overview.md) indique l’état du visiteur aux États-Unis d’Amérique. Elle est similaire à la dimension [Régions](regions.md), sauf que cette dimension est propre aux États-Unis. L’utilisation de cette dimension est utile si vous souhaitez obtenir des informations plus granulaires que les [pays](countries.md), mais pas aussi granulaires que les [villes](cities.md).
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension fait référence aux règles de recherche internes à Adobe. La valeur de recherche est basée sur l’adresse IP envoyée avec l’accès. Adobe travaille en partenariat avec [Digital Element](https://www.digitalelement.com/) pour gérer les recherches entre l’adresse IP et le pays.
+Adobe dérive cette dimension côté serveur de l’adresse IP du visiteur, en la comparant à une table de recherche interne. Adobe s’associe à [Digital Element](https://www.digitalelement.com/) pour gérer les recherches entre l’adresse IP et l’état des États-Unis. Aucune variable à définir.
+
+| Propriété | Valeur |
+| --- | --- |
+| **Variable** | Aucune (dérivée de l’adresse IP du visiteur) |
+| **Champ Web SDK/XDM** | Aucune (dérivée de l’adresse IP du visiteur) |
+| **Paramètre de requête** | S.O. |
+| **Balise XML** | S.O. |
+| **Limite d’octets** | S.O. |
+| **Persistance** | S.O. |
 
 * Pour les implémentations d’AppMeasurement, cette dimension est prête à l’emploi.
 * Pour les implémentations de Web SDK, activez [!UICONTROL Recherche géographique] lors de la [configuration d’un flux de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
@@ -46,7 +64,7 @@ Cette dimension peut inclure `"AOL"`, un fournisseur d’accès Internet. Un poi
 
 ## Différences entre l’emplacement signalé et l’emplacement réel
 
-Dans la mesure où cette dimension est basée sur l’adresse IP, certains scénarios peuvent montrer une différence entre l’emplacement signalé et l’emplacement réel :
+Étant donné que cette dimension repose sur l’adresse IP, certains scénarios peuvent faire apparaître un écart entre l’emplacement signalé et l’emplacement réel :
 
 * **Adresses IP représentant des serveurs proxy d’entreprise** : ces visiteurs peuvent apparaître sous la forme de trafic transitant par le réseau d’entreprise de l’utilisateur, qui peut être un emplacement différent si l’utilisateur travaille à distance.
 * **Adresses IP de mobiles** : le ciblage des adresses IP de mobiles fonctionne à différents niveaux en fonction de l’emplacement et du réseau. Certains transporteurs relient le trafic IP par des points de présence centralisés ou régionaux.

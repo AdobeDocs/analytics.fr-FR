@@ -1,38 +1,52 @@
 ---
 title: Dimensions de recherche mobile
-description: Dimensions basées sur lʼadresse IP et l’agent utilisateur de lʼappareil.
+description: Dimensions basées sur l’adresse IP et l’agent utilisateur de l’appareil.
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 TQID: https://experienceleague.adobe.com/X80x0MIx5gd16J20VU37fNSExDO2NSXPrHR8EKqsMqw
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '961'
 ht-degree: 100%
-
 ---
-
 # Dimensions de recherche mobile
+
+>[!BEGINSHADEBOX]
 
 *Cette page fait référence aux propriétés des appareils mobiles qui accèdent à votre site web. Voir [Dimensions de cycle de vie mobile](lifecycle-dimensions.md) ou [Mesures de cycle de vie mobiles](../metrics/lifecycle-metrics.md) pour le suivi au sein d’une application mobile.*
 
-Les [dimensions](overview.md) de recherche mobile fournissent des informations sur les propriétés des appareils mobiles qui visitent votre site. Ces propriétés sont basées sur l’agent utilisateur et l’adresse IP de l’accès. Vous pouvez utiliser ces dimensions pour déterminer les fonctionnalités prises en charge par un appareil mobile.
+>[!ENDSHADEBOX]
+
+Les [dimensions](overview.md) de recherche mobile fournissent des informations sur les propriétés des appareils mobiles qui visitent votre site. Ces propriétés sont basées sur l’agent utilisateur et l’adresse IP du hit. Vous pouvez utiliser ces dimensions pour déterminer les fonctionnalités prises en charge par un appareil mobile.
 
 ## Renseigner des données dans ces dimensions
 
@@ -41,7 +55,7 @@ Ces dimensions font référence à des règles de recherche qui sont internes à
 * Pour la dimension [!UICONTROL Opérateur de téléphonie mobile], Adobe s’associe à [Digital Element](https://www.digitalelement.com/) en utilisant NetAcuity pour maintenir les recherches entre l’adresse IP et l’opérateur de téléphonie mobile.
 * Pour toutes les autres dimensions mobiles, Adobe s’associe à [DeviceAtlas](https://deviceatlas.com/) pour maintenir les références entre l’agent utilisateur et chaque dimension mobile respective.
 
-La disponibilité de ces dimensions dépend du type d’implémentation :
+La disponibilité de ces dimensions dépend du type de mise en œuvre :
 
 * Pour les implémentations AppMeasurement, ces dimensions sont prêtes à l’emploi.
 * Pour les implémentations du SDK Web, activez [!UICONTROL Recherche géographique] (pour l’opérateur de téléphonie mobile) ou [!UICONTROL Recherche d’appareils] (pour toutes les autres dimensions) lors de la [configuration d’un train de données](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=fr).
@@ -52,7 +66,7 @@ La disponibilité de ces dimensions dépend du type d’implémentation :
 >
 >Les éléments de dimension intitulés `"None"` sont des appareils non mobiles. Si vous souhaitez un rapport qui ne comprend que les appareils mobiles, faites glisser la dimension « Appareil mobile » dans la zone de segment du canevas de Workspace.
 
-* **[!UICONTROL Prise en charge de l’audio sur l’appareil mobile]** : détermine les formats de fichiers que l’appareil peut lire. Les exemples de valeurs comprennent `"MP3"`, `"AAC"` et `"MIDI Monophonic"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
+* **[!UICONTROL Prise en charge de l’audio sur l’appareil mobile]** : détermine les formats de fichiers que l’appareil peut lire. Les exemples de valeurs comprennent `"MP3"`, `"AAC"` et `"MIDI Monophonic"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un hit unique peut être attribué à plusieurs éléments de dimension.
 * **[!UICONTROL Opérateur de téléphonie mobile]** : opérateur de téléphonie ou fournisseur de données de l’appareil. Les exemples de valeurs comprennent `"Reliance Jio"`, `"Airtel"`, `"Vodafone"` et `"Verizon"`.
 * **[!UICONTROL Profondeur de couleur mobile]** : profondeur de couleur de l’appareil mobile, en bits.
 * **[!UICONTROL Prise en charge des cookies sur l’appareil mobile]** : détermine si l’appareil mobile prend en charge les cookies. Cette dimension n’indique pas si le navigateur accepte les cookies. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
@@ -60,7 +74,7 @@ La disponibilité de ces dimensions dépend du type d’implémentation :
 * **[!UICONTROL Numéro de l’appareil mobile]** : détermine si l’appareil mobile transmet son numéro. Cette dimension ne fournit pas le numéro de téléphone mobile. Les éléments de dimension comprennent `"Supported"`, `"Not supported"` et `"Unknown"`.
 * **[!UICONTROL Type d’appareil mobile]** : le type d’appareil mobile. Les exemples de valeurs comprennent `"Mobile phone"`, `"Tablet"`, `"Media player"` et `"Gaming console"`.
 * **[!UICONTROL DRM mobile]** : type de DRM pris en charge par l’appareil mobile. Les exemples de valeurs comprennent `"DRM OMA forward"`, `"DRM OMA combined delivery"` et `"DRM OMA separate delivery"`.
-* **[!UICONTROL Prise en charge des images sur l’appareil mobile]** : types d’images pris en charge par les appareils mobiles. Les exemples de valeurs comprennent `"PNG"`, `"JPEG"` et `"GIF 87"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
+* **[!UICONTROL Prise en charge des images sur l’appareil mobile]** : types d’images pris en charge par les appareils mobiles. Les exemples de valeurs comprennent `"PNG"`, `"JPEG"` et `"GIF 87"`. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un hit unique peut être attribué à plusieurs éléments de dimension.
 * **[!UICONTROL Services d’informations mobiles]** : les types de services d’actualités pris en charge par l’appareil. Les appareils modernes n’indiquent généralement pas ces informations.
 * **[!UICONTROL Java VM mobile]** : versions de Java prises en charge par l’appareil.
 * **[!UICONTROL Décoration d’e-mails sur appareil mobile]** : détermine si l’appareil prend en charge [Decome](https://en.wikipedia.org/wiki/Decome), une fonctionnalité autrefois populaire sur les appareils japonais.
@@ -74,7 +88,7 @@ La disponibilité de ces dimensions dépend du type d’implémentation :
 * **[!UICONTROL Hauteur d’écran de l’appareil mobile]** : hauteur de l’écran, en pixels. Notez que les iPhone indiquent toujours `"480"`, car il est impossible de déterminer la version de l’appareil iPhone. Reportez-vous à la section ci-dessous pour déterminer la version d’un appareil iPhone.
 * **[!UICONTROL Taille de l’écran de l’appareil mobile]** : les dimensions complètes de l’appareil mobile en pixels. La taille d’écran figurant dans le rapport n’indique pas l’orientation de l’appareil. Quelle que soit l’orientation, chaque appareil est associé à une résolution d’écran fixe dans le rapport. Cette taille est basée sur des recherches qui déterminent l’orientation la plus probable. Les tailles, notamment `"768x1024"` et `"1024x768"`, apparaissent dans le même rapport, chacune d’elles représentant un ou plusieurs appareils différents.
 * **[!UICONTROL Largeur d’écran de l’appareil mobile]** : la largeur de l’écran, en pixels.
-* **[!UICONTROL Prise en charge de la vidéo sur l’appareil mobile]** : les formats de fichiers vidéo et codecs pris en charge par l’appareil mobile. Il existe plusieurs éléments de dimension pour les différents codecs de fichiers MP4 et 3GPP. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un accès unique peut être attribué à plusieurs éléments de dimension.
+* **[!UICONTROL Prise en charge de la vidéo sur l’appareil mobile]** : les formats de fichiers vidéo et codecs pris en charge par l’appareil mobile. Il existe plusieurs éléments de dimension pour les différents codecs de fichiers MP4 et 3GPP. Les valeurs de cette dimension ne s’excluent pas mutuellement. Un hit unique peut être attribué à plusieurs éléments de dimension.
 
 ## Classement des iPhone par modèle ou version
 
