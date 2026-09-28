@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
@@ -71,14 +76,15 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Septembre 2026** | |
+| Comparaison de la zone de travail de parcours sur les flèches et les abandons | Mise à jour du paramètre [!UICONTROL Comparer à] dans [Configurer une visualisation de zone de travail de Parcours ](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) afin d’afficher le pourcentage de changement entre les périodes sur chaque nœud, flèche et abandon du parcours. |
 | Nouvelles actions de raccourci de redimensionnement | Les nouveaux raccourcis clavier d’Analysis Workspace vous permettent désormais de [redimensionner un panneau ou une visualisation](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) qu’il soit plus large, plus étroit, plus grand ou plus court. |
-| [API de collecte de données &#x200B;](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
+| [API de collecte de données ](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
 | **août 2026** | |
 | Ajout de nouveaux outils d’IA conversationnelle à la dimension de type référent . | La dimension « Type de référent » inclut désormais les [outils d’IA conversationnelle](/help/components/dimensions/referrer-type.md#conversational-ai-tools) supplémentaires suivants dans la table de recherche qu’Adobe utilise :<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Juin 2026** | |
 | Mise à jour de la référence de la chaîne de requête | Révisions importantes des [paramètres de requête de la collecte de données](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference). |
-| Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [&#128279;](/help/export/data-warehouse/segment-compatibility.md). |
-| Guide GA vers AA remplacé | Le guide GA vers AA faisait référence à Universal Analytics, qui a été abandonné en 2023. Un nouveau guide l’a remplacé, [Transition de Google Analytics 4 à Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
+| Segments dans Data Warehouse | Mise à jour de la compatibilité des segments Data Warehouse [](/help/export/data-warehouse/segment-compatibility.md). |
+| Guide GA vers AA remplacé | Le guide GA vers AA faisait référence à Universal Analytics, qui a été abandonné en 2023. Un nouveau guide l’a remplacé, [Transition de Google Analytics 4 à Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Mai 2026** | |
 | Dimensions et mesures Streaming Media | Mises à jour importantes de la documentation sur les médias en flux continu. Les liens vers des exemples incluent [dimensions principales des services de streaming multimédia](/help/components/dimensions/sm-core.md) et [mesures principales des services de streaming multimédia](/help/components/metrics/sm-core.md). |
 | **Mars 2026** | |
@@ -89,8 +95,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Février 2026** |  |
 | Ajout d’informations sur l’utilisation des rapports géographiques et technologiques | Ajout d’informations sur les différences lors de l’utilisation de rapports géographiques et technologiques [dans divers produits Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Janvier 2026** | |
-| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [&#x200B; Créateur de règles dans les ensembles de classifications &#x200B;](/help/components/classifications/sets/manage/rules.md). |
-| Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/fr/docs/discontinued/using/device-graph). |
+| Créateur de règles d’ensembles de classifications | Documentation sur la nouvelle fonctionnalité [ Créateur de règles dans les ensembles de classifications ](/help/components/classifications/sets/manage/rules.md). |
+| Graphique d’appareil | Suppression des références à la [fonctionnalité de graphique d’appareil abandonnée](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -200,7 +206,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Déplacement du contenu sur la gestion des projets planifiés | Création de l’article [Projets planifiés](/help/components/scheduled-projects-manager.md) dans le guide des composants Analytics. Ce contenu se trouvait auparavant dans l’article [Planification de projets](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) dans le guide des outils Analytics. |
 | Comparer les méthodes d’implémentation | Mise à jour de la documentation qui compare différentes méthodes d’implémentation. [En savoir plus](../implement/prepare/comparison.md) |
 | Précision selon laquelle la configuration SFTP pour les flux de données ne nécessite pas l’assistance clientèle d’Adobe | Précision selon laquelle l’[envoi de données Adobe vers un compte FTP externe par SFTP](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) ne nécessite pas l’assistance clientèle d’Adobe pour configurer SFTP pour les flux de données. <p>Ajout d’une remarque indiquant que le protocole SFTP n’est plus recommandé et que les clients doivent utiliser une destination cloud lors de la configuration des flux de données.</p> |
-| Améliorations de la documentation pour le module complémentaire Streaming Media Collection | Les améliorations suivantes ont été apportées à la documentation de Streaming Media Collection : <ul><li>Mise à jour de la [présentation générale](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview) afin d’améliorer la clarté et d’inclure des informations relatives à Customer Journey Analytics.</li><li>Mise à jour de la [présentation de l’implémentation](https://experienceleague.adobe.com/fr/docs/media-analytics/using/implementation/overview) pour différencier clairement les implémentations Edge et les implémentations Analytics uniquement. Comprend également des diagrammes pour illustrer les différentes méthodes de mise en œuvre.</li><li>Ajout de conditions préalables spécifiques aux [Implémentations Edge](https://experienceleague.adobe.com/fr/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge) et aux [Implémentations Analytics uniquement](https://experienceleague.adobe.com/fr/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics). Mise à jour des [conditions préalables générales](https://experienceleague.adobe.com/fr/docs/media-analytics/using/getting-started/prereqs).</li><li>Tableaux mis à jour dans l’article [Obtention des SDK Media, des extensions à l’aide des balises et des SDK OTT](https://experienceleague.adobe.com/fr/docs/media-analytics/using/getting-started/download-sdks), de sorte à inclure de nouvelles colonnes pour les *Solutions prises en charge* et la *Méthode d’implémentation*.</li><li>Rationalisation du contenu et organisation des articles dans la zone [Implémentation](https://experienceleague.adobe.com/fr/docs/media-analytics/using/implementation/overview) de la documentation. Il s’agissait notamment de catégoriser les implémentations entre implémentations Edge et implémentations Analytics uniquement.</li><li>Suppression d’un niveau de hiérarchie supplémentaire qui n’était pas nécessaire sous [Tracking](https://experienceleague.adobe.com/fr/docs/media-analytics/using/tracking/track-core-overview) et ajout de redirections pour les URL modifiées dans cette section.</li><ul> |
+| Améliorations de la documentation pour le module complémentaire Streaming Media Collection | Les améliorations suivantes ont été apportées à la documentation de Streaming Media Collection : <ul><li>Mise à jour de la [présentation générale](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview) afin d’améliorer la clarté et d’inclure des informations relatives à Customer Journey Analytics.</li><li>Mise à jour de la [présentation de l’implémentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) pour différencier clairement les implémentations Edge et les implémentations Analytics uniquement. Comprend également des diagrammes pour illustrer les différentes méthodes de mise en œuvre.</li><li>Ajout de conditions préalables spécifiques aux [Implémentations Edge](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge) et aux [Implémentations Analytics uniquement](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics). Mise à jour des [conditions préalables générales](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/prereqs).</li><li>Tableaux mis à jour dans l’article [Obtention des SDK Media, des extensions à l’aide des balises et des SDK OTT](https://experienceleague.adobe.com/en/docs/media-analytics/using/getting-started/download-sdks), de sorte à inclure de nouvelles colonnes pour les *Solutions prises en charge* et la *Méthode d’implémentation*.</li><li>Rationalisation du contenu et organisation des articles dans la zone [Implémentation](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/overview) de la documentation. Il s’agissait notamment de catégoriser les implémentations entre implémentations Edge et implémentations Analytics uniquement.</li><li>Suppression d’un niveau de hiérarchie supplémentaire qui n’était pas nécessaire sous [Tracking](https://experienceleague.adobe.com/en/docs/media-analytics/using/tracking/track-core-overview) et ajout de redirections pour les URL modifiées dans cette section.</li><ul> |
 | **Juillet 2023** | |
 | API Edge Network d’Adobe Experience Platform | Ajout d’une documentation plus complète sur quand et comment implémenter la collecte de données dans Adobe Analytics à l’aide de l’[API Edge Network d’Adobe Experience Platform](../implement/aep-edge/api/overview.md). Par exemple, l’implémentation de la collecte de données dans Adobe Analytics dans les applications de bureau, les appareils IoT, les décodeurs. |
 | Identifiant global d’entreprise | Ajout de la documentation sur [comment trouver l’ID global d’entreprise](../admin/tools/company/web-services-admin.md) pour l’entreprise Analytics à laquelle vous êtes connecté(e). Cet identifiant est requis pour les API Analytics 2.0. |
