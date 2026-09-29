@@ -5,7 +5,7 @@ keywords: Analysis Workspace ; Segment IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-TQID: https://experienceleague.adobe.com/pxCyOu8rrZ4Qe7NnK9bTndVbtYxSU29qyMBHy3kSZhE
+TQID: 'https://experienceleague.adobe.com/pxCyOu8rrZ4Qe7NnK9bTndVbtYxSU29qyMBHy3kSZhE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -16,15 +16,19 @@ feature_v2:
     internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
     internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
     internal-label: Panels
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 69%
@@ -45,12 +49,12 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panneau de comparaison des segments"
->abstract="Comparez rapidement deux segments parmi tous les points de données pour trouver automatiquement des différences pertinentes.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un segment** : le premier segment que vous souhaitez analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
+>abstract="Comparez rapidement deux segments parmi tous les points de données pour trouver automatiquement des différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajouter un segment** : le premier segment que vous souhaitez analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +63,7 @@ Le panneau Comparaison des segments détecte les différences les plus important
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 

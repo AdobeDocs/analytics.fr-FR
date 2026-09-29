@@ -6,30 +6,34 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 TQID: 'https://experienceleague.adobe.com/oB9bBU9KV8O1-IRM20QWBFhQXt1mykn28KITDRTsWqc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '317'
 ht-degree: 48%
-
 ---
-
 # Accès tardifs {#late-arriving-hits}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Autoriser les accès tardifs"
->abstract="Sélectionnez cette option pour inclure les données arrivées après la fin du traitement des données par le traitement de flux de données dans la fréquence de création de rapports définie (généralement par semaine ou par heure). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des accès tardifs et les regroupe dans le fichier de flux de données suivant envoyé."
+>title="Autoriser les hits tardifs"
+>abstract="Sélectionnez cette option pour inclure les données arrivées après la fin du traitement des données par le traitement de flux de données dans la fréquence de création de rapports définie (généralement par semaine ou par heure). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des hits tardifs et les regroupe dans le fichier de flux de données suivant envoyé."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -37,7 +41,7 @@ ht-degree: 48%
 
 Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données.
 
-Lors du traitement normal des données par un flux des données, seules les données de sa fenêtre de création de rapports sont examinées (en général, l’heure ou le jour le plus récent). Si des données arrivent après qu’un flux a terminé de traiter cette fenêtre de création de rapports, ces données ne sont jamais incluses dans aucun flux de données.
+Lorsqu’un flux de données effectue un traitement normal des données, il prend uniquement en compte celles comprises dans sa fenêtre de reporting (généralement la dernière heure ou le dernier jour). Si des données arrivent après qu’un flux a terminé de traiter cette fenêtre de création de rapports, ces données ne sont jamais incluses dans aucun flux de données.
 
 Lorsque les accès tardifs sont activés, la méthode de traitement est modifiée pour inclure ces données. Chaque fois qu’un flux de données traite des données, il examine les accès tardifs arrivés et les transfère par lots dans le fichier de flux de données suivant envoyé.
 
