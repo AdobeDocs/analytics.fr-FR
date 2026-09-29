@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7522'
 ht-degree: 92%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
@@ -71,6 +76,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Septembre 2026** | |
+| Comparaison de la zone de travail de parcours sur les flèches et les abandons | Mise à jour du paramètre [!UICONTROL Comparer à] dans [Configurer une visualisation de zone de travail de Parcours &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) afin d’afficher le pourcentage de changement entre les périodes sur chaque nœud, flèche et abandon du parcours. |
 | Nouvelles actions de raccourci de redimensionnement | Les nouveaux raccourcis clavier d’Analysis Workspace vous permettent désormais de [redimensionner un panneau ou une visualisation](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) qu’il soit plus large, plus étroit, plus grand ou plus court. |
 | [API de collecte de données &#x200B;](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
 | **août 2026** | |
