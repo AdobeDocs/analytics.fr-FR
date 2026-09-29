@@ -75,7 +75,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    {style="table-layout:auto"}
 
 1. Pour vérifier si votre définition du segment est correcte, utilisez la prévisualisation constamment mise à jour des résultats du segment en haut à droite.
-1. Pour publier le segment sur l’expérience client Entreprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Pour plus d’informations, voir [Publication de segments sur CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
+1. Pour publier le segment dans CX Enterprise, sélectionnez **[!UICONTROL Publier ce segment dans Experience Cloud (par *suite de rapports*)]**. Pour plus d’informations, voir [Publication de segments dans CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md).
 1. Sélectionnez :
    * **[!UICONTROL Enregistrer]** pour enregistrer le segment.
    * **[!UICONTROL Enregistrer sous]** pour enregistrer une copie du segment.
