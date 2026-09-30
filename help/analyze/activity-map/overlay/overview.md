@@ -102,7 +102,7 @@ Le panneau inférieur affiche une vue agrégée des liens affichés sur le recou
 
 Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de travail de base avec les paramètres suivants :
 
-* La dimension [Lien ](/help/components/dimensions/activity-map-link.md)
+* La dimension [Lien &#x200B;](/help/components/dimensions/activity-map-link.md)
 * La mesure [Occurrences](/help/components/metrics/occurrences.md) (libellée **[!UICONTROL Clics sur les liens]**)
 * Valeur actuelle [Page](/help/components/dimensions/page.md) appliquée en tant que segment
 
@@ -111,7 +111,7 @@ Le rapport **[!UICONTROL Liens sur la page]** affiche un rapport d’espace de t
 Le rapport **[!UICONTROL Détails de la page]** affiche une visualisation [Flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) à l’aide de la dimension [Page](/help/components/dimensions/page.md), en se concentrant sur la page active. Les mesures suivantes pour la page active sont affichées à gauche :
 
 * Total [pages vues](/help/components/metrics/page-views.md)
-* [!UICONTROL  % de toutes les pages vues]
+* [!UICONTROL &#x200B; % de toutes les pages vues]
 * [Entrée](/help/components/metrics/entries.md) nombre
 * Nombre de [Sorties](/help/components/metrics/exits.md)
 * [Visites de page unique](/help/components/metrics/single-page-visits.md)

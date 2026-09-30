@@ -42,7 +42,7 @@ Cet article est destiné aux administrateurs au niveau du système ou aux admini
 
 ## Conditions préalables
 
-[Guide de premier administrateur d’Adobe Analytics ](/help/admin/admin-console/first-admin-guide.md) : assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via CX Enterprise Admin Console.
+[Guide de premier administrateur d’Adobe Analytics &#x200B;](/help/admin/admin-console/first-admin-guide.md) : assurez-vous qu’un administrateur au niveau du système vous a accordé l’accès à Adobe Analytics via CX Enterprise Admin Console.
 
 ## Créer une suite de rapports {#create-report-suite}
 

@@ -44,7 +44,7 @@ Affiche le trafic des pages web et classe les pages vues en temps réel. Fournit
 
 Pour afficher le rapport en temps réel, accédez à :
 
-**** > **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
+**&#x200B;**&#x200B;> **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
 
 Le rapport Temps réel répond aux questions suivantes : qu’est-ce qui est tendance sur mon site et pourquoi ? Il vous permet, en tant que responsable marketing, de réagir rapidement et de gérer de manière active les performances de vos contenus et campagnes marketing. Les données en temps réel sont reportées en moins de deux minutes et se mettent automatiquement à jour minute par minute.
 

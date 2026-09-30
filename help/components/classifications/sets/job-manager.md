@@ -94,9 +94,9 @@ Sélectionnez ![Filtrer](/help/assets/icons/Filter.svg) pour afficher la ➌ du 
 * **[!UICONTROL Heure de fin]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification au moment de l’achèvement.
 * **[!UICONTROL Statut]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification selon le statut.
 * **[!UICONTROL Type de tâche]**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification par type de tâche.
-* ****. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification sur la source.
+* **&#x200B;**. Sélectionnez l’une des valeurs possibles pour filtrer la liste des tâches de classification sur la source.
 
-  Les valeurs possibles pour **** sont :
+  Les valeurs possibles pour **&#x200B;**&#x200B;sont :
 
   | Source | Explication |
   |---|---|

@@ -53,7 +53,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 Affectez à cette variable une fonction qui :
 
 * reçoit l’élément HTML sur lequel l’utilisateur a cliqué ; et
-* Renvoie une valeur de chaîne. Cette valeur de chaîne est la valeur finale utilisée pour la dimension [Lien ](/help/components/dimensions/activity-map-link.md).
+* Renvoie une valeur de chaîne. Cette valeur de chaîne est la valeur finale utilisée pour la dimension [Lien &#x200B;](/help/components/dimensions/activity-map-link.md).
 
 Si la valeur renvoyée est [false](https://developer.mozilla.org/fr-FR/docs/Glossaire/Falsy), toutes les variables de données contextuelles Activity Map sont effacées et aucune donnée de lien n’est suivie.
 

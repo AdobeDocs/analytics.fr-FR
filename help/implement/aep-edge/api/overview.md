@@ -85,5 +85,5 @@ Vue d’ensemble des tâches de mise en œuvre :
 
 </table>
 
-Pour plus d’informations, consultez la [documentation de l’API ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
+Pour plus d’informations, consultez la [documentation de l’API &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/overview.html?lang=fr).
 

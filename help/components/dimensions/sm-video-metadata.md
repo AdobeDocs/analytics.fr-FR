@@ -1,6 +1,6 @@
 ---
 title: Dimensions des métadonnées vidéo des services de streaming multimédia
-description: Dimensions disponibles lorsque vous activez [!UICONTROL  Métadonnées vidéo ] pour une suite de rapports.
+description: Dimensions disponibles lorsque vous activez [!UICONTROL &#x200B; Métadonnées vidéo &#x200B;] pour une suite de rapports.
 feature: Dimensions
 exl-id: e476c19a-9542-4a6f-9b79-5f801e2a7bf8
 TQID: 'https://experienceleague.adobe.com/Xgz-L8hPTQCfW6n-OEaw7u-8qNEGaXGVZTg3IBRbfKw'
@@ -47,9 +47,9 @@ Les dimensions suivantes sont disponibles :
 * [[!UICONTROL Épisode]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL Type de flux multimédia]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
 * [[!UICONTROL Genre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [&#128279;](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
 * [[!UICONTROL Réseau]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL  Saison ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL &#x200B; Saison &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
 * [[!UICONTROL Afficher]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
 * [[!UICONTROL Afficher le type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
 

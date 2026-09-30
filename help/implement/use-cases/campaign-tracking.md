@@ -81,7 +81,7 @@ Si votre organisation collecte des chaînes de requête `utm`, vous pouvez chois
 
 Une fois que vous avez correctement configuré votre implémentation pour collecter les données de code de suivi, vous pouvez afficher des rapports dans Analysis Workspace.
 
-1. Connectez-vous à [](https://experience.adobe.com) puis sélectionnez [!UICONTROL Adobe Analytics].
+1. Connectez-vous à [&#128279;](https://experience.adobe.com) puis sélectionnez [!UICONTROL Adobe Analytics].
 1. Créez un [projet Workspace](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Dans la liste des composants sur la gauche, faites glisser la dimension de [Code de suivi](/help/components/dimensions/tracking-code.md) dans la zone de travail de workspace.
 1. Faites glisser la mesure souhaitée, par exemple [Visites](/help/components/metrics/visits.md) ou [Commandes](/help/components/metrics/orders.md), sur le côté droit de la zone de travail de workspace.

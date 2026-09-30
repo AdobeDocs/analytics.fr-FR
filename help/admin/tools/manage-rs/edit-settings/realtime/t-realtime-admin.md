@@ -68,5 +68,5 @@ La configuration des rapports en temps réel dans Adobe Analytics consiste à s�
 
 1. Pour afficher le rapport en temps réel, accédez à :
 
-   **** > **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
+   **&#x200B;**&#x200B;> **[!UICONTROL Rapports]** > **[!UICONTROL Engagement]** > **[!UICONTROL Temps réel]**.
 

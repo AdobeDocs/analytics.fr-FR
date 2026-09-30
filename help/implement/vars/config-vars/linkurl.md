@@ -41,7 +41,7 @@ ht-degree: 34%
 
 Chaque fois qu’un appel de suivi des liens est envoyé à Adobe, AppMeasurement détecte l’URL sur laquelle l’utilisateur a cliqué. Cette URL permet de déterminer le type de lien, tel que les liens de téléchargement et les liens de sortie. Utilisez la variable `linkURL` pour remplacer l’URL détectée.
 
-Aucune dimension dans Analysis Workspace ne génère de rapport sur cette variable. Elle renseigne la colonne `page_event_var1` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md). Si vous souhaitez suivre l’URL d’un lien cliqué, Adobe recommande d’utiliser une variable personnalisée, telle qu’une [Prop](../page-vars/prop.md). L’utilisation de [](/help/analyze/activity-map/overview.md) peut aider à rationaliser la collecte de données pour les liens cliqués.
+Aucune dimension dans Analysis Workspace ne génère de rapport sur cette variable. Elle renseigne la colonne `page_event_var1` dans [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md). Si vous souhaitez suivre l’URL d’un lien cliqué, Adobe recommande d’utiliser une variable personnalisée, telle qu’une [Prop](../page-vars/prop.md). L’utilisation de [&#128279;](/help/analyze/activity-map/overview.md) peut aider à rationaliser la collecte de données pour les liens cliqués.
 
 ## URL du lien à l’aide du SDK Web
 

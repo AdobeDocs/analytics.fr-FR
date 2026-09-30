@@ -173,7 +173,7 @@ Synchronisez les visualisations pour contrôler quelle table de données ou quel
 
 Pour commencer à utiliser Analysis Workspace :
 
-1. Connectez-vous à [](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [&#128279;](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Sélectionnez **[!UICONTROL Customer Journey Analytics]** dans le sélecteur d’applications ![App](/help/assets/icons/Apps.svg) en haut à droite de l’interface.
 1. La page **[!UICONTROL Projets]** d’Analysis Workspace s’affiche par défaut. Si un projet spécifique a été sélectionné pour vous ou si vous avez récemment travaillé sur un projet, ce projet s’affiche par défaut.
 
@@ -194,4 +194,4 @@ Une fois que vous avez terminé de créer le projet et que celui-ci collecte des
 ## Ressources supplémentaires {#resources}
 
 - Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview).
-- Voir les [notes de mise à jour de ](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current) pour obtenir des mises à jour sur les nouvelles fonctionnalités.
+- Voir les [notes de mise à jour de &#x200B;](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current) pour obtenir des mises à jour sur les nouvelles fonctionnalités.

@@ -93,7 +93,7 @@ Dimensions et mesures disponibles que vous pouvez lire et écrire à l’aide de
 
 ## Variables contextuelles
 
-Toutes les [ variables de données contextuelles ](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
+Toutes les [&#x200B; variables de données contextuelles &#x200B;](/help/implement/vars/page-vars/contextdata.md) que cette suite de rapports a vues au cours des 30 derniers jours. Voir [Cas d’utilisation des règles de traitement](pr-use-cases.md) pour des exemples d’utilisation.
 
 >[!IMPORTANT]
 >
@@ -108,7 +108,7 @@ Les règles de traitement peuvent définir des événements, mais ne peuvent pas
 | **Commandes** | En écriture seule | La mesure [Commandes](/help/components/metrics/orders.md). |
 | **Paniers** | En écriture seule | La mesure [Paniers](/help/components/metrics/carts.md). |
 | **Consultations du panier** | En écriture seule | La mesure [Vues du panier](/help/components/metrics/cart-views.md). |
-| **Passages en caisse** | En écriture seule | La mesure [ Passages en caisse ](/help/components/metrics/checkouts.md). |
+| **Passages en caisse** | En écriture seule | La mesure [&#x200B; Passages en caisse &#x200B;](/help/components/metrics/checkouts.md). |
 | **Ajouts au panier** | En écriture seule | La mesure [Ajouts au panier](/help/components/metrics/cart-additions.md). |
 | **Retraits du panier** | En écriture seule | La mesure [Retraits du panier](/help/components/metrics/cart-removals.md). |
 | **Événement 1-1000** | En écriture seule | [Événements personnalisés](/help/components/metrics/custom-events.md). |

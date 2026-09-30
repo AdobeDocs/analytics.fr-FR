@@ -65,7 +65,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.ActivityMap.regionExclusions avec AppMeasurement
 
-La variable `s.ActivityMap.regionExclusions` est une chaîne contenant des expressions délimitées par des virgules à exclure du suivi Activity Map. Si l’une des expressions correspond à la valeur collectée dans la dimension [Région ](/help/components/dimensions/activity-map-region.md), toutes les données Activity Map sont supprimées de l’accès.
+La variable `s.ActivityMap.regionExclusions` est une chaîne contenant des expressions délimitées par des virgules à exclure du suivi Activity Map. Si l’une des expressions correspond à la valeur collectée dans la dimension [Région &#x200B;](/help/components/dimensions/activity-map-region.md), toutes les données Activity Map sont supprimées de l’accès.
 
 ```html
 <script>

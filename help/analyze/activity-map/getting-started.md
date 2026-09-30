@@ -80,7 +80,7 @@ La collecte de données Activity Map nécessite l’extension **[!UICONTROL Adob
 
 Le paramètre de configuration **[!UICONTROL Collecte de données de clics]** gère la collecte de données Activity Map et est généralement activé par défaut. Vous pouvez vérifier qu’il est activé dans les paramètres de configuration de l’extension :
 
-1. Connectez-vous à [](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [&#128279;](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Sélectionnez **[!UICONTROL Collecte de données]** dans le menu d’accès rapide ou le sélecteur de produits en haut à droite.
 1. Sélectionnez **[!UICONTROL Balises]** dans le menu de navigation de gauche.
 1. Sélectionnez la balise à modifier.
@@ -114,7 +114,7 @@ alloy("configure", {
 
 Le paramètre de configuration **[!UICONTROL Utiliser Activity Map]** gère la collecte de données Activity Map et est généralement activé par défaut. Cette option est disponible pour toutes les extensions de balise version 1.9.0 ou ultérieure. Vous pouvez vérifier qu’il est activé dans les paramètres de configuration de l’extension :
 
-1. Connectez-vous à [](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [&#128279;](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Sélectionnez **[!UICONTROL Collecte de données]** dans le menu d’accès rapide ou le sélecteur de produits en haut à droite.
 1. Sélectionnez **[!UICONTROL Balises]** dans le menu de navigation de gauche.
 1. Sélectionnez la balise à modifier.

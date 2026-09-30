@@ -50,7 +50,7 @@ En plus de la dimension ci-dessus, Adobe crée automatiquement les dimensions de
 | --- | --- |
 | [[!UICONTROL Originator]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL Contenu]](sm-core.md) |
 | [[!UICONTROL Longueur du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL Chapitre] |
-| [[!UICONTROL  Nom du chapitre ]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Chapitre] |
+| [[!UICONTROL &#x200B; Nom du chapitre &#x200B;]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Chapitre] |
 | [[!UICONTROL Décalage de chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Chapitre] |
 | [[!UICONTROL Position du chapitre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Chapitre] |
 

@@ -45,7 +45,7 @@ Les variables de configuration contrôlent le mode de collecte et de traitement 
 
 Dans les implémentations utilisant l’extension Web SDK ou l’extension Analytics, les variables de configuration se trouvent généralement dans les paramètres de l’extension :
 
-1. Connectez-vous à [Collecte de données ](https://experience.adobe.com/data-collection) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [Collecte de données &#x200B;](https://experience.adobe.com/data-collection) à l’aide de vos informations d’identification Adobe ID.
 1. Cliquez sur la propriété de balise de votre choix.
 1. Cliquez sur l’onglet [!UICONTROL Extensions], puis sur [!UICONTROL Configurer] sous l’extension.
 

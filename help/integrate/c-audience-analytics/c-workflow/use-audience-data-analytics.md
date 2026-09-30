@@ -47,7 +47,7 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
 1. Accédez à **[!UICONTROL Workspace]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
 
-1. Recherchez [!UICONTROL  Nom de l’audience] dans le menu **[!UICONTROL Composant]**.
+1. Recherchez [!UICONTROL &#x200B; Nom de l’audience] dans le menu **[!UICONTROL Composant]**.
 
 1. Ouvrez [!UICONTROL Nom d’audience] pour faire apparaître les éléments de dimension associés.
 1. Faites glisser les audiences à comparer dans le créateur Comparaison des segments.

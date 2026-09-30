@@ -41,8 +41,8 @@ ht-degree: 1%
 Le gestionnaire d’emplacements vous permet d’afficher, de créer, de modifier ou de supprimer des comptes et des emplacements. Ils peuvent être utilisés à l’une des fins suivantes :
 
 * Exportation de fichiers à l’aide de [Flux de données](/help/export/analytics-data-feed/create-feed.md)
-* Exportation de rapports à l&#39;aide de [](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
-* Exportation de fichiers lors de l’utilisation de [](/help/analyze/report-builder/report-builder-export.md)
+* Exportation de rapports à l&#39;aide de [&#128279;](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+* Exportation de fichiers lors de l’utilisation de [&#128279;](/help/analyze/report-builder/report-builder-export.md)
 * Importation de schémas à l’aide de [ensembles de classifications](/help/components/classifications/sets/overview.md)
 
 ## Affichage, filtrage et recherche d’emplacements

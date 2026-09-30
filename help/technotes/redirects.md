@@ -139,7 +139,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-Ces variables seront représentées comme les paramètres suivants dans le débogueur CX Enterprise [](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
+Ces variables seront représentées comme les paramètres suivants dans le débogueur CX Enterprise [&#128279;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

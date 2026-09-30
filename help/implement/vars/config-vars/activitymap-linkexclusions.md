@@ -69,7 +69,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.ActivityMap.linkExclusions avec AppMeasurement
 
-La variable `s.ActivityMap.linkExclusions` est une chaîne contenant des valeurs d’expressions délimitées par des virgules à exclure du suivi Activity Map. Si l’une des expressions correspond à la valeur collectée dans la dimension [Lien ](/help/components/dimensions/activity-map-link.md), toutes les données Activity Map sont supprimées de l’accès. Notez que cette variable examine les `linkName`, et non les `linkUrl`.
+La variable `s.ActivityMap.linkExclusions` est une chaîne contenant des valeurs d’expressions délimitées par des virgules à exclure du suivi Activity Map. Si l’une des expressions correspond à la valeur collectée dans la dimension [Lien &#x200B;](/help/components/dimensions/activity-map-link.md), toutes les données Activity Map sont supprimées de l’accès. Notez que cette variable examine les `linkName`, et non les `linkUrl`.
 
 ```html
 <script>
