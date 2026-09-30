@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/LKwWo4v7B8bcwsqsezBt4trAiOQRdIWDm2moqNJLY04'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: '598'
 ht-degree: 71%
-
 ---
-
 # Plug-in Adobe : getGeoCoordinates
 
 {{plug-in}}
@@ -59,7 +67,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
    * Type d’action : initialisation de getGeoCoordinates
@@ -91,7 +99,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 La fonction `getGeoCoordinates` nʼutilise aucun argument. Elle renvoie l’une des valeurs suivantes :
 
-* `"geo coordinates not available"` : pour les appareils qui ne disposent pas de données de géolocalisation au moment de l’exécution du plug-in. Cette valeur est courante lors du premier accès de la visite, en particulier lorsque les visiteurs doivent d’abord donner leur consentement pour le suivi de leur emplacement.
+* `"geo coordinates not available"` : pour les appareils qui ne disposent pas de données de géolocalisation au moment de l’exécution du plug-in. Cette valeur est courante lors du premier hit de la visite, en particulier lorsque les visiteurs doivent d’abord donner leur consentement pour le suivi de leur emplacement.
 * `"error retrieving geo coordinates"` : lorsque le plug-in rencontre des erreurs lors de la tentative de récupération de l’emplacement de l’appareil.
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"` : où [LATITUDE]/[LONGITUDE] sont respectivement la latitude et la longitude.
 
@@ -99,7 +107,7 @@ La fonction `getGeoCoordinates` nʼutilise aucun argument. Elle renvoie l’une 
 >
 >Les valeurs des coordonnées sont arrondies à la quatrième décimale la plus proche. Par exemple, la valeur de `"40.438635333"` est arrondie à `"40.4386"` pour limiter le nombre de valeurs uniques à saisir. Les valeurs sont suffisamment proches pour déterminer l’emplacement exact de l’appareil dans un rayon d’environ 6 mètres.
 
-Ce plug-in utilise un cookie nommé `"s_ggc"` pour stocker les coordonnées entre les accès si nécessaire.
+Ce plug-in utilise un cookie nommé `"s_ggc"` pour stocker les coordonnées entre les hits si nécessaire.
 
 ## Exemples
 

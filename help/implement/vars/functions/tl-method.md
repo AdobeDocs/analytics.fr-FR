@@ -1,30 +1,38 @@
 ---
 title: tl
-description: Permet d’envoyer un appel de suivi de lien à Adobe.
+description: Envoyez un appel de suivi des liens à Adobe.
 feature: Appmeasurement Implementation
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/fmbMByXfPMR4C0gUmt3HIAoY1vwIXqTVzE97o9F1rK0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '873'
 ht-degree: 62%
-
 ---
-
 # tl
 
 La méthode `tl()` est un composant principal important d’Adobe Analytics. Elle prend toutes les variables Analytics définies sur la page, les compile dans une demande d’image et envoie ces données aux serveurs de collecte de données Adobe. Elle fonctionne de la même manière que la méthode [`t()`](t-method.md), mais cette méthode n’incrémente pas les pages vues. Elle est utile pour le suivi des liens et d’autres éléments qui ne seraient pas considérés comme un chargement de page complet.
@@ -156,19 +164,19 @@ s.tl(true,"o","Example custom link",y);
 
 ## Exemples et cas d’utilisation
 
-Envoyez un appel de suivi de lien de base directement dans un lien HTML :
+Envoyez un appel de suivi des liens de base directement dans un lien HTML :
 
 ```HTML
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-Utilisez JavaScript pour effectuer un appel de suivi de lien de base à l’aide d’arguments de méthode :
+Utilisez JavaScript pour effectuer un appel de suivi des liens de base à l’aide d’arguments de méthode :
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-### Effectuez des appels de suivi de lien dans une fonction personnalisée
+### Effectuez des appels de suivi des liens dans une fonction personnalisée
 
 Vous pouvez consolider le code de suivi des liens en une fonction JavaScript autonome. Des appels peuvent alors être effectués dans la fonction `onClick` de chaque lien. Définissez les éléments suivants dans un fichier JavaScript :
 
@@ -191,9 +199,9 @@ Vous pouvez ensuite appeler la fonction lorsque vous souhaitez effectuer le suiv
 >[!NOTE]
 >L’appel indirect de la méthode `tl()` peut rendre les rapports de recouvrement Activity Map moins pratiques. Vous devez cliquer sur chaque lien pour enregistrer la fonction avec l’élément de lien. Toutefois, les dimensions Activity Map dans Workspace sont suivies de la même manière.
 
-### Éviter le suivi des liens en double
+### Éviter le suivi des liens en doublon
 
-Si `trackDownloadLinks` ou `trackExternalLinks` sont activés, AppMeasurement effectue automatiquement un appel de suivi des liens si les filtres corrects correspondent. Si vous appelez également manuellement `s.tl()` pour ces clics sur les liens, vous pouvez envoyer des données en double à Adobe. Les données en double gonflent le nombre de rapports et les rendent moins précis.
+Si `trackDownloadLinks` ou `trackExternalLinks` sont activés, AppMeasurement effectue automatiquement un appel de suivi des liens si les filtres corrects correspondent. Si vous appelez également manuellement `s.tl()` pour ces clics sur les liens, vous pouvez envoyer des données en double à Adobe. Les doublons de données gonflent les chiffres des rapports et les rendent moins précis.
 
 Par exemple, la fonction suivante envoie deux appels de suivi de liens pour le même clic de lien (liens de téléchargement manuels et automatiques) :
 
@@ -203,7 +211,7 @@ function trackDownload(obj) {
 }
 ```
 
-Vous pouvez contribuer à empêcher les appels de suivi de liens en double en utilisant la fonction modifiée suivante. Il vérifie tout d’abord s’il existe un objet de lien et envoie un appel de suivi manuel des liens uniquement si l’objet de lien est une chaîne vide.
+Vous pouvez éviter les doublons d’appels de suivi des liens en utilisant la fonction modifiée suivante. Il vérifie tout d’abord s’il existe un objet de lien et n’envoie un appel de suivi des liens manuel que si l’objet de lien est une chaîne vide.
 
 ```JavaScript
 function linkCode(obj) {

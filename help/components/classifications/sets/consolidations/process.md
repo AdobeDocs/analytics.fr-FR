@@ -3,24 +3,30 @@ title: Créer Et Modifier Des Consolidations De Classifications
 description: Explique comment créer, valider, exécuter, approuver et annuler des consolidations de classification.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-TQID: https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w
+TQID: 'https://experienceleague.adobe.com/XWCDhuponeZ47al1ARXQTA0yzde0-XUnnAhoEU41p2w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 998
+source-wordcount: '998'
 ht-degree: 10%
-
 ---
-
 # Créer et modifier des consolidations de classification
 
 Une consolidation d’ensembles de classifications vous permet de prendre des classifications provenant de plusieurs ensembles de classifications et de les combiner en un seul. Utilisez cette interface pour créer une consolidation d’ensemble de classifications du début à la fin. Cette interface est particulièrement utile pour les organisations qui passent des classifications héritées aux ensembles de classifications. Les organisations qui utilisent déjà des ensembles de classifications n’ont pas besoin d’utiliser ce workflow de consolidation.
@@ -84,7 +90,7 @@ Pour modifier une consolidation de classification, dans l’interface principale
 1. Sélectionnez **[!UICONTROL Ensembles de classifications]** dans le menu **[!UICONTROL Composants]**.
 1. Dans le gestionnaire **[!UICONTROL Ensembles de classifications]**, sélectionnez l’onglet **[!UICONTROL Consolidations]**.
 1. Dans le gestionnaire **[!UICONTROL Consolidations des ensembles de classifications]** :
-   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**&#x200B;s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
+   1. Sélectionnez le nom de votre consolidation de classification. La boîte de dialogue **[!UICONTROL Consolidation : _nom de la consolidation de classification_]**s’affiche. L’apparence et les actions disponibles dépendent du statut actuel de la consolidation et du fait que vous ayez toujours la possibilité de modifier la consolidation de classification.
 
       | Actions disponibles | Description |
       |---|---|

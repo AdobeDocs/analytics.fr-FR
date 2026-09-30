@@ -1,33 +1,43 @@
 ---
-description: La boîte de dialogue Étiquetage de confidentialité pour la gouvernance des données offre un aperçu des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier .csv à partir de cet emplacement.
-title: Afficher/gérer l’étiquetage de confidentialité pour la gouvernance des données
+description: La boîte de dialogue Étiquetage de confidentialité pour la gouvernance des données offre une vue d’ensemble des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier CSV (valeurs séparées par des virgules) à partir de cet emplacement.
+title: Affichage/gestion de l’étiquetage de confidentialité pour la gouvernance des données
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+TQID: 'https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: '815'
 ht-degree: 92%
-
 ---
+# Affichage/gestion de l’étiquetage de confidentialité pour la gouvernance des données
 
-# Afficher/gérer l’étiquetage de confidentialité pour la gouvernance des données
-
-La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouvernance des données]** offre un aperçu des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier .csv à partir de cet emplacement.
+La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouvernance des données]** offre un aperçu des étiquettes de confidentialité et des espaces de noms d’une suite de rapports. Vous pouvez également exporter les paramètres vers un fichier CSV (valeurs séparées par des virgules) à partir de cet emplacement.
 
 ## Afficher les étiquettes de confidentialité {#view-privacy}
 
@@ -38,14 +48,14 @@ La boîte de dialogue **[!UICONTROL Étiquetage de confidentialité pour la gouv
    >
    >Si cet élément de menu ne s’affiche pas, vous devez faire l’objet d’un ajout à un [profil de produit dans Admin Console](/help/admin/admin-console/permissions/product-profile.md) avec les autorisations sur cette fonctionnalité ou avoir obtenu l’accès à une suite de rapports dans Admin Console.
 
-3. Dans la partie supérieure droite, sélectionnez les suites de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
+3. Dans la partie supérieure droite, sélectionnez la suite de rapports dont vous souhaitez afficher ou gérer les étiquettes de confidentialité.
 
    ![](assets/privacy_labeling.png)
 
 | Paramètre | Description |
 | --- | --- |
 | **[!UICONTROL Nom du composant]** | Cette colonne répertorie tous les composants (dimensions, mesures) qui font partie de cette suite de rapports. |
-| **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identification sont utilisées pour classer les données qui peuvent servir à identifier ou à contacter une personne spécifique. [En savoir plus](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
+| **[!UICONTROL Identité]** | Les étiquettes « I » pour les données d’identité sont utilisées pour classer les données qui peuvent servir à identifier ou à contacter une personne spécifique. [En savoir plus](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
 | **[!UICONTROL Sensibilité]** | Les étiquettes « S » pour les données sensibles sont utilisées pour classer les données sensibles telles que les données géographiques. D’autres étiquettes de données sensibles seront introduites à l’avenir pour identifier d’autres types d’informations sensibles. [En savoir plus](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
 | **[!UICONTROL Accès aux RGPD]** | Les étiquettes de gouvernance des données permettent de classer les données en fonction des considérations liées à la confidentialité et des conditions contractuelles afin qu’elles soient conformes aux réglementations et aux politiques d’entreprise. [En savoir plus](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
 | **[!UICONTROL Suppression des RGPD]** | Une étiquette de suppression n’est nécessaire que pour les champs contenant une valeur qui permettrait de faire l’association entre un accès et le titulaire de données (autrement dit, qui permettrait d’identifier le titulaire de données). [En savoir plus](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
@@ -69,7 +79,7 @@ Si vous souhaitez appliquer les mêmes paramètres de confidentialité des donn�
 
    >[!IMPORTANT]
    >
-   >N’oubliez pas que toutes les suites de rapports sélectionnées doivent être mappées à votre organisation CX Enterprise.
+   >Gardez à l’esprit que toutes les suites de rapports que vous sélectionnez doivent être mappées à votre organisation CX Enterprise.
 
    Lorsque vous copiez les étiquettes pour une variable ou un groupe de variables dans une autre suite de rapports, la copie a lieu sur la variable se trouvant à la même position dans la suite de rapports de destination. Pour les composants standard, les variables de liste et les événements de succès, les étiquettes sont copiées dans la variable portant le **même nom** dans la suite de rapports de destination.
 
@@ -84,7 +94,7 @@ Si vous souhaitez appliquer les mêmes paramètres de confidentialité des donn�
 
    >[!IMPORTANT]
    >
-   >Vous devez toujours vérifier les suites de rapports de destination pour vérifiez que les étiquettes sont copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
+   >Vous devez toujours vérifier les suites de rapports de destination pour vous assurer que les étiquettes ont été copiées correctement. Ceci est particulièrement important pour les variables possédant des étiquettes ID ou DEL.
 
 ## Exporter vers un fichier .csv {#export-csv}
 

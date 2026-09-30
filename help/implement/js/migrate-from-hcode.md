@@ -7,38 +7,48 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/Ml3fp170Ggn8-lpJCvDOAMBMF1izsmrG0BAnWcS-BUo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 297
+source-wordcount: '297'
 ht-degree: 90%
-
 ---
-
 # Migration vers AppMeasurement pour JavaScript
 
-Si votre mise en œuvre utilise toujours le code H, Adobe recommande vivement d’effectuer la migration vers la dernière version d’AppMeasurement. Il est recommandé d’implémenter Analytics par le biais des [balises dans Adobe Experience Platform](../launch/overview.md), mais il est possible d’utiliser une implémentation JavaScript mise à jour.
+Si votre implémentation utilise toujours le code H, Adobe recommande vivement de migrer vers la dernière version d’AppMeasurement. Il est recommandé d’implémenter Analytics par le biais des [balises dans Adobe Experience Platform](../launch/overview.md), mais il est possible d’utiliser une implémentation JavaScript mise à jour.
 
 Les modifications notables suivantes sont présentes dans AppMeasurement par rapport au code H :
 
 * 3 à 7 fois plus rapide que le code H.
-* Plus clair que le code H : 21 ko décompressé par rapport au code H, qui est de 33 ko décompressé.
+* Plus léger que le code H : 21 Ko sans compression contre 33 Ko pour le code H.
 * La bibliothèque et le code de page peuvent être déployés dans la balise `<head>`.
 * Le code H existant au niveau de la page est compatible avec AppMeasurement.
 * La bibliothèque fournit des utilitaires natifs pour obtenir des paramètres de requête, lire et écrire des cookies et effectuer le suivi avancé des liens.
 * La bibliothèque ne prend pas en charge les variables de configuration de compte dynamique (y compris `dynamicAccountSelection`, `dynamicAccountMatch` et `dynamicAccountList`).
 
-Les étapes suivantes décrivent un processus de migration type.
+Les étapes suivantes décrivent un workflow de migration type.
 
 1. **Téléchargez le nouveau fichier AppMeasurement** : accédez au nouveau fichier en vous connectant à Adobe Analytics, puis en accédant à Admin > Tous les administrateurs > Gestionnaire de code. Le fichier compressé téléchargé contient un fichier minifié `AppMeasurement.js`, ainsi que des modules Media et Integrate.
 1. **Copiez vos personnalisations `s_code.js` dans`AppMeasurement.js`** : déplacez tout le code situé avant la section `DO NOT ALTER ANYTHING BELOW THIS LINE` dans `s_code.js` au début de `AppMeasurement.js`.

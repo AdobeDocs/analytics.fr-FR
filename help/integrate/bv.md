@@ -2,7 +2,13 @@
 title: Intégration de Brand Visibility
 description: Intégration de Brand Visibility à Adobe Analytics
 role: User
-source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -10,7 +16,7 @@ ht-degree: 1%
 
 # Intégration de Adobe Brand Visibility
 
-[&#128279;](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
+[](https://experienceleague.adobe.com/fr/docs/llm-optimizer/using/home) est une application IA générative pour l&#39;optimisation du moteur de génération, conçue pour aider les marques à améliorer leur visibilité, leur précision et leur influence dans les environnements de recherche pilotés par l&#39;IA. Brand Visibility fournit des informations sur la présence des marques dans les réponses générées par l’IA, propose des recommandations de contenu prescriptives et automatise les correctifs d’optimisation.
 
 L’IA est devenue un canal de découverte essentiel. Les agents de grands modèles linguistiques (LLM), tels que ChatGPT, Claude, Copilot et Perplexity, explorent le contenu de la marque.
 
@@ -28,7 +34,7 @@ L’IA est devenue un canal de découverte essentiel. Les agents de grands modè
 >
 >Dans le cadre de cette intégration, certains traitements temporaires des données de Brand Visibility sont effectués aux États-Unis. Les données sont finalement stockées dans la région désignée comme configurée dans votre contrat Adobe Analytics.
 
-Si vous utilisez Customer Parcours Analytics, une intégration entrante distincte et plus riche reçoit les mêmes données de trafic CDN sous-jacentes dans Customer Journey Analytics via Adobe Experience Platform. Cette intégration est désormais disponible. Voir Intégration de [Brand Visibility à Customer Journey Analytics](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/integrations/bv). Si vous disposez de Customer Journey Analytics, passez d’abord en revue cette intégration, car elle expose plus de champs et prend en charge la jonction des données Brand Visibility avec d’autres jeux de données. L’intégration d’Analytics décrite dans ce guide est conçue pour les clients qui utilisent Adobe Analytics sans avoir accès à ou disposer d’une licence pour Customer Journey Analytics.
+Si vous utilisez Customer Parcours Analytics, une intégration entrante distincte et plus riche reçoit les mêmes données de trafic CDN sous-jacentes dans Customer Journey Analytics via Adobe Experience Platform. Cette intégration est désormais disponible. Voir Intégration de [Brand Visibility à Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv). Si vous disposez de Customer Journey Analytics, passez d’abord en revue cette intégration, car elle expose plus de champs et prend en charge la jonction des données Brand Visibility avec d’autres jeux de données. L’intégration d’Analytics décrite dans ce guide est conçue pour les clients qui utilisent Adobe Analytics sans avoir accès à ou disposer d’une licence pour Customer Journey Analytics.
 
 
 ## Cas d’utilisation
@@ -73,7 +79,7 @@ Le connecteur Adobe Analytics entrant est configuré par suite de rapports via l
 >
 >Le transfert de journal BYOCDN fournit les données de requête CDN côté serveur utilisées pour l’analyse du trafic de l’agent. Les données ne dépendent pas des balises JavaScript exécutées dans un navigateur. Sans le flux de journal CDN requis, le connecteur ne dispose d’aucune donnée de trafic à importer dans votre suite de rapports.
 >
->Voir [Référence du transfert de journal BYOCDN](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) pour plus d’informations.
+>Voir [Référence du transfert de journal BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview) pour plus d’informations.
 
 
 >[!IMPORTANT]
@@ -114,7 +120,7 @@ L’ensemble exact de champs disponibles doit être confirmé par rapport à la 
 
 ### Responsabilités
 
-L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [&#128279;](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
+L’installation et la configuration du connecteur entrant s’accompagnent de responsabilités pour [](#adobe-managed-responsibilities) et [vous en tant que client](#customer-owned-responsibilities).
 
 #### Responsabilités gérées par Adobe
 
@@ -152,7 +158,7 @@ Pour ouvrir les paramètres Adobe Brand Visibility de votre suite de rapports :
 1. Accédez à **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]**.
 1. Sélectionnez la suite de rapports à laquelle vous souhaitez vous connecter.
 1. Sélectionnez **[!UICONTROL Modifier les paramètres]**.
-1. Dans le menu contextuel, sélectionnez **&#x200B;**.
+1. Dans le menu contextuel, sélectionnez ****.
 
 Pour configurer le connecteur :
 
@@ -215,7 +221,7 @@ La procédure de vérification comprend les étapes suivantes :
    1. Le volume Confirmer la demande s’affiche pour une période récente.
    1. Confirmez que les dimensions **URL**, **Agent utilisateur**, **Statut** et **Référent** renvoient les valeurs attendues.
 
-   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [&#x200B; Activer le connecteur &#x200B;](#enable-the-connector).
+   L’heure exacte de l’affichage des données dépend du planning de renvoi et de synchronisation décrit dans la section [ Activer le connecteur ](#enable-the-connector).
 
 
 
@@ -231,8 +237,8 @@ Consultez les problèmes suivants et comment résoudre ces problèmes.
 
 >[!MORELIKETHIS]
 >
->[Référence d&#39;intégration Visibilité des marques/LLMO](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/integrations/bv)
->[Référence du transfert du journal BYOCDN](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
+>[Référence d&#39;intégration Visibilité des marques/LLMO](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/bv)
+>[Référence du transfert du journal BYOCDN](https://experienceleague.adobe.com/en/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
 ## Notes de rédaction pour les documents (à ne pas publier)
 
@@ -250,4 +256,4 @@ Cette section est destinée à un examen interne et doit être supprimée avant 
 
 ## Intégration sortante
 
-Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
+Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [](https://experienceleague.adobe.com/en/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.

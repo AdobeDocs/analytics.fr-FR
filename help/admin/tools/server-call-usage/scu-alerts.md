@@ -1,27 +1,34 @@
 ---
 description: Ajoutez ou gérez toutes les alertes d’utilisation du serveur. Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
-title: Alerte d’utilisation des appels au serveur
+title: Alertes d’utilisation des appels au serveur
 feature: Server Call Usage
 exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
 role: Admin
-TQID: https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0
+TQID: 'https://experienceleague.adobe.com/aF3SxS36Y1xQN-saS6NTRJoN6H5XwgCx2iRmWPvUPm0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e560c5a1c241a297a7bc876978f2996e793e1ea
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 75%
-
 ---
-
 # Alertes d’utilisation des appels au serveur
 
 Lorsque vous configurez une alerte, elle s’applique à toutes les suites de rapports de toutes les sociétés de connexion associées à une société de facturation.
@@ -31,8 +38,8 @@ Les alertes d’utilisation des appels au serveur font partie de l’interface u
 Elle contient déjà **une alerte par défaut** qui apparaît dans toutes les sociétés de connexion qui ont accès à la fonctionnalité d’utilisation de l’appel au serveur. Cette alerte déclenche l’envoi d’une notification à tous les administrateurs de la société de connexion si l’un des critères suivants est rempli :
 
 * &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 100 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
-* &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 90% pour n’importe quel type d’appel au serveur que vous avez sélectionné, OU
-* &quot;toute&quot; utilisation de l’appel au serveur qui &quot;est supérieure ou égale&quot; à 75 % pour n’importe quel type d’appel au serveur que vous avez sélectionné, ET &quot;la période d’utilisation passée&quot; &quot;est inférieure ou égale&quot; à 75 % de la période d’utilisation.
+* « Toute » utilisation des appels au serveur qui « est supérieure ou égale » à 90 % pour n’importe quel type d’appel au serveur auquel vous avez droit, OU
+* « toute » utilisation des appels au serveur qui « est supérieure ou égale » à 75 % pour n’importe quel type d’appel au serveur auquel vous avez droit, ET « la période d’utilisation écoulée » « est inférieure ou égale » à 75 % de la période d’utilisation.
 
 ![](/help/admin/tools/server-call-usage/assets/alerts.png)
 
@@ -74,7 +81,7 @@ Pour créer des alertes supplémentaires :
 
 Pour gérer des alertes :
 
-1. Cochez la case à côté d’une ou de plusieurs alertes. Les actions pour gérer les alertes apparaissent en haut.
+1. Sélectionnez la case à côté d’une ou de plusieurs alertes. Les actions pour gérer les alertes apparaissent en haut.
 1. Effectuez une ou plusieurs actions :
 
    | Action | Définition |
@@ -84,7 +91,7 @@ Pour gérer des alertes :
    | Supprimer | Vous pouvez supprimer toutes les alertes sauf les alertes par défaut. |
    | Renommer | Vous pouvez renommer toutes les alertes sauf les alertes par défaut. |
    | Approuver | Approuvez les alertes pour les rendre &quot;officielles&quot;. |
-   | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes sauf les alertes par défaut. |
+   | Activer/Désactiver | Vous pouvez activer ou désactiver toutes les alertes, même les alertes par défaut. |
    | Renouvellement | Lorsqu’une ou plusieurs alertes sont sélectionnées, elles peuvent être renouvelées. Cela étend leurs dates d’expiration à un an à compter du jour où l’utilisateur a cliqué sur [!UICONTROL Renouveler], quelle que soit leur date d’expiration d’origine. |
    | Exporter dans un fichier CSV | Reportez-vous à [Télécharger le rapport d’utilisation](/help/admin/tools/server-call-usage/report-suite-usage.md). |
 

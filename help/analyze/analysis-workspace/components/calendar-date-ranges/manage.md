@@ -4,23 +4,28 @@ description: Découvrez comment gérer les périodes dans Analysis Workspace.
 feature: Date Ranges
 role: User
 exl-id: 48cda13f-ec4d-43fa-be24-51e2ab6044dd
-TQID: https://experienceleague.adobe.com/ptVWildikPKqtdIdoyfJZLlNmWOJDPefP2-OTsEHj5w
+TQID: 'https://experienceleague.adobe.com/ptVWildikPKqtdIdoyfJZLlNmWOJDPefP2-OTsEHj5w'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 606
+source-wordcount: '606'
 ht-degree: 29%
-
 ---
-
 # Gestion des périodes
 
 
@@ -33,7 +38,7 @@ Vous pouvez partager, filtrer, baliser, approuver, copier, partager et supprimer
 
 Le gestionnaire de périodes comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des périodes &#x200B;](assets/date-ranges-manager.png)
+![ Interface des périodes ](assets/date-ranges-manager.png)
 
 ### Liste des périodes
 
@@ -102,7 +107,7 @@ Vous pouvez modifier une période de deux manières :
 
 * Dans un projet Workspace, utilisez l’icône [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info).
 
-* Dans la liste [[!UICONTROL Périodes] , choisissez &#x200B;](#date-ranges-list) titre de la période.
+* Dans la liste [[!UICONTROL Périodes] , choisissez ](#date-ranges-list) titre de la période.
 
 Vous utilisez le [créateur de périodes](create.md#date-range-builder) pour modifier la période.
 

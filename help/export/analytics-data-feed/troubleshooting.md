@@ -6,23 +6,29 @@ exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: 'https://experienceleague.adobe.com/xSFb-MLmbaYK1EazyTDu38XofTBJGdLfF-j2Bm8citw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: '471'
 ht-degree: 95%
-
 ---
-
 # Résolution des problèmes liés aux flux de données
 
-Déterminez les raisons pouvant entraîner l’échec de la tâche ou de sa diffusion.
+Déterminez les raisons pouvant entraîner l’échec du traitement ou de sa diffusion.
 
 ## Résolution des problèmes liés à un flux de données existant
 
@@ -42,14 +48,14 @@ Si vous ne recevez toujours pas les fichiers de flux de données après les avoi
 
 ## Résolution des problèmes liés un nouveau flux de données
 
-Si un nouveau flux de données renvoie une erreur, essayez de résoudre le problème en chargeant manuellement un fichier test sur le site FTP. Dans la plupart des cas, cette procédure vous permettra de déterminer la défaillance.
+Si un nouveau flux de données renvoie une erreur, essayez de résoudre le problème en chargeant manuellement un fichier test sur le site FTP. Dans la plupart des cas, cette procédure vous permettra de déterminer le point de défaillance.
 
 1. Connectez-vous à votre site FTP à l’aide de l’explorateur de fichiers (sur Windows) ou de Finder (sur Mac). Veillez à utiliser le protocole FTP (`ftp://`) et à autoriser les [adresses IP dʼAdobe](/help/technotes/ip-addresses.md) dans le pare-feu de votre entreprise. Si vous ne parvenez pas à atteindre le site FTP, contactez le propriétaire du site FTP pour déterminer la destination correcte.
 
    ![Explorateur de fichiers](assets/file_explorer.png)
 
-2. Une fenêtre contextuelle vous demandant un nom d’utilisateur et un mot de passe s’affiche. Saisissez vos informations d’authentification. Si les identifiants sont acceptés, la fenêtre affiche les contenus actuels présents sur le site FTP. Si les identifiants ne sont pas acceptés, contactez le propriétaire du site FTP pour vous assurer que le nom d’utilisateur et le mot de passe sont corrects. Si vous utilisez le protocole SFTP, veillez à suivre chaque étape décrite dans le [Guide SFTP](../ftp-and-sftp/c-sftp/ftp-sftp.md). Notez quʼAdobe ne prend pas en charge tous les cas dʼutilisation du protocole SFTP.
+2. Une fenêtre contextuelle vous demandant un nom d’utilisateur et un mot de passe s’affiche. Saisissez vos informations d’identification. Si les informations d’identification sont acceptées, la fenêtre affiche le contenu actuel présent sur le site FTP. Si les informations d’identification ne sont pas acceptées, collaborez avec le propriétaire du site FTP pour vous assurer que le nom d’utilisateur et le mot de passe sont corrects. Si vous utilisez le protocole SFTP, veillez à suivre chaque étape décrite dans le [Guide SFTP](../ftp-and-sftp/c-sftp/ftp-sftp.md). Notez quʼAdobe ne prend pas en charge tous les cas dʼutilisation du protocole SFTP.
 3. Chargez un fichier sur le site FTP en le faisant glisser sur la fenêtre authentifiée. Toute image ou tout document texte est approprié. Si vous recevez un message d’erreur lorsque vous tentez de placer un fichier sur le site FTP, travaillez avec le propriétaire FTP pour vérifier qu’il y a suffisamment d’espace disque et que le nom d’utilisateur possède les autorisations d’écriture sur le site FTP.
 4. Lorsque vous avez confirmé que le fichier se trouve sur le site FTP, vous pouvez supprimer le fichier chargé à l’étape précédente.
 
-Si toutes les étapes ci-dessous fonctionnent, mais que vous recevez toujours une erreur FTP, contactez lʼassistance clientèle.
+Si toutes les étapes ci-dessus fonctionnent, mais que vous recevez toujours une erreur FTP, contactez l’Assistance clientèle.

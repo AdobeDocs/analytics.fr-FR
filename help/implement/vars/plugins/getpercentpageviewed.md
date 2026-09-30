@@ -1,32 +1,42 @@
 ---
 title: getPercentPageViewed
-description: Permet de récupérer le pourcentage de la page consultée.
+description: Permet de récupérer le pourcentage de la page que le visiteur a consulté.
 feature: Appmeasurement Implementation
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/eOAPLlR2hFz2q9-3MrwDCTANtKwwR6wvZW3fxsj-1gc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 804
+source-wordcount: '804'
 ht-degree: 83%
-
 ---
-
 # Plug-in Adobe : getPercentPageViewed
 
 {{plug-in}}
@@ -47,7 +57,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
    * Type dʼaction : initialisation de getPercentPageViewed
@@ -82,17 +92,17 @@ La fonction `getPercentPageViewed` utilise les arguments suivants :
 * **`pid`** (facultatif, chaîne) : une variable ou une valeur égale à la page active. Sa valeur par défaut est la variable Analytics AppMeasurement `pageName` OU l’URL actuelle si cette variable AppMeasurement pageName n’est pas définie.
 * **`ch`** (facultatif, booléen) : définissez cet argument sur `false` (ou `0`) si vous ne souhaitez pas que le plug-in prenne en compte les modifications apportées à la taille d’une page après son chargement initial. S’il est ignoré, cet argument prend par défaut la valeur `true`. Dans la plupart des cas, Adobe recommande d’ignorer cet argument.
 
-Lʼappel de cette fonction ne renvoie rien ; au contraire, il définit les variables suivantes :
+Lʼappel de cette fonction ne renvoie rien ; il définit les variables suivantes :
 
 * `window._ppvPreviousPage` : nom de la page précédente consultée. Les mesures finales de défilement de la page active ne sont disponibles qu’après le chargement d’une nouvelle page.
 * `window._ppvInitialPercentViewed` : pourcentage de la page précédente qui était visible lors du premier chargement de la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
 * `window._ppvHighestPercentViewed` : pourcentage le plus élevé de la page précédente que le visiteur a consultée (en termes de hauteur). Point le plus éloigné vers lequel le visiteur a fait défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `100`.
-* `window._ppvFinalPercentViewed` : pourcentage de la page précédente qui était visible au moment où le visiteur a accédé à la page active. Cette valeur est égale ou supérieure au pourcentage initial affiché et également égale ou inférieure au pourcentage le plus élevé affiché.
+* `window._ppvFinalPercentViewed` : pourcentage de la page précédente qui était visible au moment où le visiteur a accédé à la page active. Cette valeur est supérieure ou égale au pourcentage initial consulté et également inférieure ou égale au pourcentage maximale consulté.
 * `window._ppvHighestPixelsSeen` : nombre total de pixels le plus élevé affiché (en termes de hauteur) pendant que le visiteur faisait défiler la page précédente.
 * `window._ppvFoldsAvailable` : nombre total de « plis de page » disponibles pour faire défiler la page précédente. Si la page entière est visible lors du premier chargement, cette valeur est `1`.
 * `window._ppvFoldsSeen` : nombre de « plis de page » le plus élevé atteint pendant que le visiteur faisait défiler la page précédente. Cette variable inclut le pli « haut de page ». Si la page entière est visible lors du premier chargement, cette valeur est `1`.
 
-Affectez une ou plusieurs de ces variables à des eVars pour afficher les données sur les dimensions dans les rapports.
+Attribuez une ou plusieurs de ces variables à des eVars pour afficher les données de dimension dans les rapports.
 
 Ce plug-in crée trois cookies propriétaires qui expirent à la fin d’une session de navigateur :
 

@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 6%
 ---
 # AMO EF ID
 
-L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview).
+L’**[!UICONTROL AMO EF ID]** est un identifiant de clic publicitaire utilisé dans les intégrations d’Adobe Advertising. Il s’agit d’un jeton unique utilisé par Adobe Advertising pour associer l’activité à une exposition publicitaire ou à un clic en ligne au niveau du visiteur. La dimension est automatiquement créée lors de l’activation de l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Renseignement de cette dimension avec des données
 
-Cette dimension est renseignée automatiquement par l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/fr/docs/advertising/integrations/analytics/overview) ; il n’y a pas de variable à définir.
+Cette dimension est renseignée automatiquement par l’intégration [Analytics pour Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview) ; il n’y a pas de variable à définir.
 
 | Propriété | Valeur |
 | --- | --- |

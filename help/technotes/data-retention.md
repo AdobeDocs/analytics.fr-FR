@@ -3,36 +3,48 @@ title: Politique de conservation des données
 description: Une politique de conservation des données détermine la durée pendant laquelle Adobe stocke vos données.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+TQID: 'https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 617
+source-wordcount: '617'
 ht-degree: 92%
-
 ---
-
 # Politique de conservation des données
 
 Les données collectées par Adobe Analytics sont conservées pendant une période spécifique. Le délai pendant lequel Adobe conserve ces données varie d’un contrat à l’autre et il est précisé dans la politique de conservation des données d’une entreprise. Cette politique s’applique aux données elles-mêmes, ce qui signifie qu’elle affecte toutes les fonctionnalités de création de rapports d’Analytics (Analysis Workspace, API de création de rapports, etc.).
 
 **La politique de conservation des données par défaut pour Adobe Analytics est de 25 mois.** La politique de rétention de votre entreprise peut être différente, selon le contrat.
 
-Les données conservées sont basées sur la date actuelle et la date et l’heure des données historiques. La date et l’heure enregistrées pour les accès peuvent être différentes de la date et de l’heure auxquelles les accès ont été reçus par Adobe.
+Les données conservées sont basées sur la date actuelle et la date et l’heure des données historiques. La date et l’heure enregistrées pour les hits peuvent être différentes de la date et de l’heure auxquelles les hits ont été reçus par Adobe.
 
 ## Ajuster la période de conservation des données par défaut
 
@@ -43,7 +55,7 @@ Si vous souhaitez réduire ou prolonger la période de conservation des données
 
 ## Conservation et confidentialité des données
 
-Dans le cadre de son rôle dans le traitement des données, Adobe doit prendre les mesures appropriées pour aider ses clients à répondre aux demandes d’accès, de suppression et autres émanant de particuliers. L’application de politiques de suppression appropriées, sécurisées et opportunes est un aspect essentiel du respect de cette obligation. Tous les clients qui ciblent des citoyens européens ou qui traitent des informations de ces mêmes citoyens sont concernés par le RGPD. Tous les clients qui ciblent des citoyens californiens ou qui traitent des informations de ces mêmes citoyens sont concernés par le CCPA. Par conséquent, la confidentialité des données constitue un changement réglementaire de portée internationale.
+En tant que responsable du traitement des données, Adobe doit prendre les mesures appropriées pour aider ses clients à répondre aux demandes d’accès, de suppression et autres formulées par des personnes. L’application de politiques de suppression appropriées, sécurisées et opportunes est un aspect essentiel du respect de cette obligation. Tous les clients qui ciblent des citoyens européens ou qui traitent des informations de ces mêmes citoyens sont concernés par le RGPD. Tous les clients qui ciblent des citoyens californiens ou qui traitent des informations de ces mêmes citoyens sont concernés par le CCPA. Par conséquent, la confidentialité des données constitue un changement réglementaire de portée internationale.
 
 ## Suppression des données
 
@@ -61,21 +73,21 @@ En tant que responsable du traitement des données, votre entreprise peut identi
 
 +++
 
-+++ Comment calculer la période de conservation des données ?
++++ Comment calculer la période de conservation des données ?
 
-La politique de rétention des données définit une période de rétention glissante au cours de laquelle il est possible de consulter l’ensemble des données et d’en générer des rapports. La date de début de la conservation des données est déterminée par la date actuelle, moins la période de conservation des données. La date de fin de conservation des données est déterminée par la date actuelle. Les données sont incluses dans le créneau de rétention des données si l’horodatage des données est compris entre la date de début et la date de fin.
-
-+++
-
-+++ Puis-je demander une copie de mes données avant qu’elles ne soient supprimées ?
-
-Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des accès. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vous avez des besoins en matière d’export de données en dehors du cadre de l’interface d’utilisation, contactez l’équipe Adobe en charge des comptes. Des arrangements sont possibles ; les coûts peuvent varier.
+La politique de conservation des données définit une période de conservation glissante au cours de laquelle les données complètes peuvent être consultées et utilisées dans des rapports. La date de début de la conservation des données est déterminée par la date actuelle, moins la période de conservation des données. La date de fin de conservation des données est déterminée par la date actuelle. Les données sont incluses dans la fenêtre de conservation des données si la date et l’heure des données sont comprises entre la date de début et la date de fin.
 
 +++
 
-+++ Quand les données seront-elles supprimées par Adobe ?
++++ Puis-je demander une copie de mes données avant leur suppression ?
 
-Contactez l’équipe Adobe en charge des comptes pour connaître le moment précis auquel est programmée la suppression de vos données. En règle générale, les données sont supprimées sur une base mensuelle glissante.
+Oui. Adobe peut fournir un vidage des données historiques pour les données brutes au niveau des hits. Pour plus d’informations, voir [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) dans le guide d’utilisation de l’exportation. Si vos besoins en matière d’export de données dépassent les possibilités offertes par l’interface utilisateur, contactez l’équipe Adobe en charge des comptes. Des arrangements sont possibles ; les coûts peuvent varier.
+
++++
+
++++ Quand les données sont-elles supprimées par Adobe ?
+
+Contactez l’équipe Adobe en charge des comptes pour connaître le moment précis auquel la suppression de vos données est prévue. En règle générale, les données sont supprimées sur une base mensuelle glissante.
 
 +++
 

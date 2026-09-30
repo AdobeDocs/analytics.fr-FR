@@ -4,16 +4,20 @@ description: Afficher les champs d’objet de données qu’Experience Platform 
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
+TQID: 'https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -24,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 77%
@@ -37,13 +41,13 @@ L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Cu
 
 ## Priorités des valeurs
 
-La plupart des champs d’objet de données de ce tableau correspondent à un [&#x200B; champ XDM mappé &#x200B;](xdm-var-mapping.md). Lors de l’ingestion Adobe Analytics, les valeurs sont d’abord mappées de XDM aux variables Analytics. Les champs d’objet de données reconnus sont ensuite mappés et remplacent toutes les valeurs précédemment définies lorsqu’ils sont mappés à la même variable Analytics. Par exemple, si `data.__adobe.analytics.events` est présent, il remplace l’ensemble complet des événements qui seraient autrement dérivés de XDM ; les événements ne sont pas combinés entre les deux sources. Une chaîne vide (`""`) dans un champ d’objet de données vide sa variable Analytics mappée pour l’accès, même si le champ XDM correspondant contient une valeur.
+La plupart des champs d’objet de données de ce tableau correspondent à un [ champ XDM mappé ](xdm-var-mapping.md). Lors de l’ingestion Adobe Analytics, les valeurs sont d’abord mappées de XDM aux variables Analytics. Les champs d’objet de données reconnus sont ensuite mappés et remplacent toutes les valeurs précédemment définies lorsqu’ils sont mappés à la même variable Analytics. Par exemple, si `data.__adobe.analytics.events` est présent, il remplace l’ensemble complet des événements qui seraient autrement dérivés de XDM ; les événements ne sont pas combinés entre les deux sources. Une chaîne vide (`""`) dans un champ d’objet de données vide sa variable Analytics mappée pour l’accès, même si le champ XDM correspondant contient une valeur.
 
 Certains champs d’objet de données prennent également en charge leur [valeur du paramètre de requête](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference) respective en tant que valeurs abrégées. Vous pouvez utiliser de manière interchangeable des champs d’objet de données standard et des champs d’objet de données abrégés, à condition qu’ils soient chacun destinés à des variables uniques. Évitez de définir simultanément un champ d’objet de données standard et son champ d’objet de données abrégé respectif. Adobe ne peut pas garantir quel champ est prioritaire.
 
 ## Mappage de champ d’objet de données
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/implement/aep-edge/data-var-mapping.md) de cette page. Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) de cette page. Comme les variables AppMeasurement, tous les champs d’objet de données sont sensibles à la casse.
 
 | Chemin du champ d’objet de données | Variables Analytics et description |
 | --- | --- |

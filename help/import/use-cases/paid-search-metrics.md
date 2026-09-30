@@ -3,32 +3,44 @@ title: Importer des mesures de référencement payant
 description: Étapes de configuration d’Adobe Analytics pour effectuer le suivi de vos mesures de référencement payant (par exemple Google Ads, Microsoft Advertising, etc.) à l’aide des sources de données.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+TQID: 'https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f46a60da-b0b2-4ca3-bd91-271173f4123d
+    internal-label: Data sources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 80%
-
 ---
-
 # Importer des mesures de [!UICONTROL référencement payant] à lʼaide des [!UICONTROL sources de données]
 
-Pour de nombreuses entreprises marketing, le référencement payant est l’un des moyens les plus précieux et les plus fiables pour atteindre de nouveaux clients et conserver les clients existants. La fonctionnalité [!UICONTROL Sources de données] d’Adobe Analytics facilite l’importation de données de référencement payant avancées à partir de plateformes publicitaires numériques telles que Google Ads. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données comportementales et d’attributs du client sur site, afin de vous permettre d’obtenir de meilleures informations sur les efforts de référencement payant de votre entreprise.
+Pour de nombreuses entreprises marketing, le référencement payant est l’un des moyens les plus précieux et les plus fiables pour atteindre de nouveaux clients et conserver les clients existants. La fonctionnalité [!UICONTROL Sources de données] d’Adobe Analytics facilite l’importation de données de référencement payant avancées à partir de plateformes publicitaires numériques telles que Google Ads. Vous pouvez l’intégrer au reste de vos données marketing, ainsi qu’aux données comportementales sur site et aux données d’attributs client, afin d’obtenir de meilleures informations sur les efforts de référencement payant de votre entreprise.
 
 Ces étapes vous montrent comment configurer une intégration aux publicités pour importer des données de mots-clés, ainsi que des mesures telles que les impressions, les clics, le coût par clic, etc.
 
@@ -38,7 +50,7 @@ Les étapes expliquent comment configurer une importation unique de données de 
 
 * Vous avez implémenté la détection de référencement payant.
 * Vous capturez des données de code de suivi.
-* Vous disposez de codes de suivi uniques pour chaque groupe publicitaire.
+* Vous disposez de codes de suivi uniques pour chaque groupe d’annonces.
 
 ## Configurer des [!UICONTROL événements de succès]
 
@@ -95,18 +107,18 @@ Mappez la dimension de données importée (attribut) à l’attribut Adobe Anal
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Cliquez sur **[!UICONTROL Télécharger]** pour télécharger le fichier de modèle pour cette source de données.
-Le nom du fichier correspond au type de source de données que vous avez initialement spécifié./ Dans ce cas, le nom du fichier est « Modèle de service de paiement par clic générique.txt ».
+Le nom du fichier correspond au type de source de données que vous avez initialement spécifié ; dans ce cas, « Generic Pay-Per-Click Service template.txt ».
 1. Ouvrez le modèle dans votre éditeur de texte préféré.
-Le fichier est déjà renseigné avec les mesures, les dimensions, ainsi que leurs mappages.
+Le fichier est déjà renseigné avec les indicateurs, les dimensions et leurs correspondances.
 
-## Exporter les données PPC et les télécharger sur Analytics
+## Exporter les données PPC et les charger dans Analytics
 
 Des étapes similaires fonctionnent pour Google Ads, Microsoft Advertising et d’autres comptes PPC.
 
 ### Exporter les données
 
 1. Connectez-vous à votre compte PPC et créez un rapport ou une exportation.
-Assurez-vous que l’exportation comprend les champs suivants : date, URL de destination (page de destination), impressions, clics et coûts. Lʼexportation peut inclure dʼautres champs, mais vous devrez les supprimer lors des étapes suivantes.
+Assurez-vous que l’exportation comprend les champs suivants : date, URL de destination (page de destination), impressions, clics et coût. Lʼexportation peut inclure dʼautres champs, mais vous devrez les supprimer lors des étapes suivantes.
 1. Si possible, enregistrez le rapport en tant que fichier `.csv` ou fichier délimité par des tabulations. La suite de la procédure en sera facilitée.
 1. Ouvrez le fichier dans Microsoft Excel.
 
@@ -120,13 +132,13 @@ b. Cliquez sur **[!UICONTROL Données > Texte en colonnes]**.
 c. À l’étape 1 de l’assistant, assurez-vous que **[!UICONTROL Délimité]** est sélectionné, puis cliquez sur **[!UICONTROL Suivant]**.
 d. À l’étape 2 de l’assistant, spécifiez le délimiteur en fonction de la manière dont vous avez créé vos URL (soit ? ou &amp;), puis cliquez sur **[!UICONTROL Suivant]**.
 e. À l’étape 3 de l’assistant, prévisualisez vos données et assurez-vous que l’une des colonnes est « trackingcodename=trackingcode ». Si vous disposez de variables supplémentaires, répétez ces étapes (utilisez &amp; comme délimiteur).
-f. Supprimer toutes les colonnes à l’exception des codes de suivi, des impressions, des clics et des coûts. Ajoutez une nouvelle colonne intitulée Date et organisez vos colonnes dans l’ordre suivant : Date :: Code de suivi :: Impressions :: Clics :: Coûts.
+f. Supprimer toutes les colonnes à l’exception des codes de suivi, des impressions, des clics et des coûts. Ajoutez une nouvelle colonne intitulée Date et organisez vos colonnes dans l’ordre suivant : Date :: Code de suivi :: Impressions :: Clics :: Coût.
 1. Ajoutez ces données au modèle téléchargé dans la section « Configurer les sources de données » ci-dessus.
-Vous êtes maintenant prêt à télécharger le fichier.
+Vous êtes maintenant prêt à charger le fichier.
 
-### Télécharger le fichier vers Adobe Analytics par FTP
+### Charger le fichier vers Adobe Analytics par FTP
 
-Revenez à l’assistant de source de données pour obtenir des instructions et téléchargez le fichier par FTP :
+Revenez à l’assistant de source de données pour obtenir des instructions et chargez le fichier par FTP :
 
 ![Téléchargement par FTP](assets/upload-ftp.png)
 
@@ -142,13 +154,13 @@ Vous pouvez, par exemple, ajouter ces [mesures calculées](/help/components/calc
 | Valeur de commande moyenne | Chiffre d’affaires/commandes | Devise | Affiche le chiffre d’affaires moyen par commande. |
 | Recettes par visite | Chiffre dʼaffaires/Visite | Devise | Indique le chiffre dʼaffaires moyen par visite. |
 | Taux de clic publicitaire (CTR) | Clics/Impressions | Numérique | Mesurez le rapport clics/impressions d’une publicité en ligne ou d’une campagne marketing par e-mail. |
-| Profits | Chiffre dʼaffaires - Coûts | Devise | Affiche le chiffre dʼaffaires d’une campagne moins les coûts. |
+| Profits | Chiffre dʼaffaires - Coûts | Devise | Affiche le chiffre dʼaffaires d’une campagne moins le coût. |
 | Profit par impression (PPI) | (Chiffre dʼaffaires - Coût)/Impression | Devise | Indique le montant du chiffre dʼaffaires généré à chaque fois quʼune publicité sʼaffiche, en tenant compte du coût. |
 | Retour sur dépenses publicitaires (ROAS) | Montant des ventes/dépenses publicitaires | Devise | (ROI) Représente les euros gagnés pour chaque euro dépensé, pour la publicité correspondante. |
 
 ## Configurer et exécuter des rapports
 
-Lʼétape finale consiste à ajouter les mesures de la source de données ainsi que toutes les mesures calculées au rapport sur le code de suivi, puis à analyser en profondeur une campagne. Vous pouvez ainsi juger immédiatement des performances de chaque groupe publicitaire.
+Lʼétape finale consiste à ajouter les mesures de la source de données ainsi que toutes les mesures calculées au rapport sur le code de suivi, puis à analyser en profondeur une campagne. Vous pouvez ainsi juger immédiatement des performances de chaque groupe d’annonces.
 
 1. Dans **[!UICONTROL Adobe Analytics > Rapports]**, sélectionnez la suite de rapports dans laquelle vous avez importé les sources de données.
 1. Accédez à **[!UICONTROL Rapports > Campagnes > Code de suivi > Code de suivi]**.

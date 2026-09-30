@@ -1,43 +1,55 @@
 ---
 title: Liens d’exclusion
-description: Découvrez comment créer et mettre en œuvre des liens d’exclusion pour les visiteurs de votre site.
+description: Découvrez comment créer et mettre en œuvre des liens d’opt-out pour les visiteurs et visiteuses de votre site.
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+TQID: 'https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 653
+source-wordcount: '653'
 ht-degree: 63%
-
 ---
-
 # Mise en œuvre des liens d’exclusion
 
 >[!IMPORTANT]
 >
 > Cet article fournit aux **clients d’Adobe Analytics qui (prévoient de) mettre en œuvre Adobe Analytics** sur leur site web des instructions sur la manière de fournir aux utilisateurs du site web des liens de désinscription. <p><p>
-> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité &#x200B;](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
+> Si vous **consultez un site web qui a implémenté Adobe Analytics** et que vous souhaitez vous désinscrire, **<span style="color:red">cet article ne vous est PAS destiné</span>**. Consultez [Choix de confidentialité ](https://www.adobe.com/privacy/opt-out.html) pour contrôler comment Adobe utilise vos informations.
 
 Certains visiteurs de votre site web préfèrent ne pas inclure leurs informations de navigation dans votre jeu de données. Adobe permet de fournir aux visiteurs et visiteuses de votre site web un moyen de se désabonner de leurs informations en cours d’analyse.
 
-Les liens d’exclusion sont un moyen de permettre aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens se limitent aux implémentations d’AppMeasurement ; Adobe recommande d’utiliser plutôt le service d’accord préalable à l’entreprise Adobe CX [&#128279;](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr). Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe CX Enterprise, y compris Adobe Analytics et AppMeasurement.
+Les liens d’exclusion sont un moyen de permettre aux visiteurs de votre site web d’omettre leurs données des rapports Analytics. Ces liens se limitent aux implémentations d’AppMeasurement ; Adobe recommande d’utiliser plutôt le service d’accord préalable [Adobe CX Enterprise](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=fr). Le service Opt-in est plus robuste et fonctionne sur plusieurs produits Adobe CX Enterprise, y compris Adobe Analytics et AppMeasurement.
 
 Lorsqu’un visiteur atteint une URL d’exclusion, il est invité à installer un cookie d’exclusion. Si un utilisateur choisit de ne pas faire l’objet d’un tracking et qu’un cookie d’exclusion est défini, AppMeasurement continue à envoyer des données à Adobe. Toutefois, ces données ne sont pas traitées ni incluses dans les rapports.
 
@@ -59,7 +71,7 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
   1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
   1. Notez la valeur de la variable `trackingServer`.
 
-* À l’aide du débogueur d’entreprise Adobe CX [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
+* À l’aide du débogueur Adobe CX Enterprise [](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html) :
   1. Accédez à votre site à l’aide du navigateur Chrome.
   1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
   1. Notez la valeur [!UICONTROL Request URL - Hostname].
@@ -69,7 +81,7 @@ Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuv
 * Cookies tiers : `https://example.data.adobedc.net/optout.html`
 * Cookies propriétaires : `https://stats.example.com/optout.html`
 
-## Paramètres de chaîne de requête d’exclusion
+## Paramètres de chaîne de requête d’opt-out
 
 Il existe des paramètres que vous pouvez charger automatiquement sur cette page à l’aide de chaînes de requête.
 
@@ -104,7 +116,7 @@ Par exemple, `https://example.data.adobedc.net/optout.html?locale=ko_KR` charge 
 
 ### Fenêtre contextuelle
 
-Ajoute un bouton Fermer la fenêtre à la page, ce qui permet de faire de la page d’exclusion une fenêtre contextuelle. Utilisez le paramètre de chaîne de requête `popup` et donnez-lui la valeur `1`.
+Ajoute un bouton Fermer la fenêtre à la page, ce qui permet de faire de la page d’opt-out une fenêtre contextuelle. Utilisez le paramètre de chaîne de requête `popup` et donnez-lui la valeur `1`.
 
 Par exemple, `https://example.data.adobedc.net/optout.html?popup=1` charge la page d’exclusion avec un bouton Fermer la fenêtre.
 
@@ -114,12 +126,12 @@ Par exemple, `https://example.data.adobedc.net/optout.html?popup=1` charge la pa
 
 ### Exclusion par clic unique
 
-Permet à l’utilisateur de se désinscrire immédiatement du suivi. Ajoutez les deux paramètres de chaîne de requête `opt_out` et `confirm_change`, en attribuant à chacun une valeur de `1`.
+Permet à l’utilisateur ou à l’utilisatrice d’effectuer immédiatement un opt-out du suivi. Ajoutez les deux paramètres de chaîne de requête `opt_out` et `confirm_change`, en attribuant à chacun une valeur de `1`.
 
 Par exemple, `https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` installe immédiatement le cookie d’exclusion sur la page du visiteur.
 
 ### Inclusion par clic unique
 
-Permet à l’utilisateur de se reconnecter immédiatement au suivi en supprimant le cookie d’exclusion. Ajoutez les deux paramètres de chaîne de requête `opt_in` et `confirm_change`, en attribuant à chacun une valeur de `1`.
+Permet à l’utilisateur ou à l’utilisatrice d’effectuer immédiatement un opt-in du suivi en supprimant le cookie d’opt-out. Ajoutez les deux paramètres de chaîne de requête `opt_in` et `confirm_change`, en attribuant à chacun une valeur de `1`.
 
 Par exemple, `https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` supprime immédiatement le cookie d’exclusion du visiteur.

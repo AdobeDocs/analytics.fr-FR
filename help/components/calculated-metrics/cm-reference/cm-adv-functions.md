@@ -8,19 +8,24 @@ autotag-review: '2026-05-22T11:11:45.846Z'
 TQID: 'https://experienceleague.adobe.com/7dHbhdyNtBxVeSQVPNZMLEBBcuwipxEqbx1Nq0900XE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 4863
+source-wordcount: '4863'
 ht-degree: 97%
-
 ---
-
 # Fonctions avancées
 
 Le [créateur de mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) vous permet d’appliquer des fonctions statistiques et mathématiques. Cet article comprend une liste alphabétique des fonctions avancées ainsi que leurs définitions.
@@ -29,7 +34,7 @@ Accédez à ces fonctions en sélectionnant **[!UICONTROL Tout afficher]** ci-de
 
 ## Fonctions de tableau et fonctions de ligne
 
-Une fonction de tableau consiste à ce que la sortie soit la même pour chaque ligne du tableau. Une fonction de ligne consiste à ce que la sortie soit différente pour chaque ligne du tableau.
+Une fonction de tableau est une fonction dont le résultat est identique pour chaque ligne du tableau. Une fonction de ligne est une fonction dont le résultat est différent pour chaque ligne du tableau.
 
 Le cas échéant et lorsque c’est utile, une fonction est annotée avec le type de fonction : [!BADGE Tableau]{type="Neutral"} ou [!BADGE Ligne]{type="Neutral"}.
 
@@ -37,9 +42,9 @@ Le cas échéant et lorsque c’est utile, une fonction est annotée avec le typ
 
 Il indique s’il faut inclure des zéros dans le calcul. Parfois, zéro signifie *rien* mais parfois, c’est important.
 
-Par exemple, en présence d’une mesure Revenus, vous ajoutez une mesure Pages vues au rapport. Soudain, des lignes supplémentaires apparaissent pour vos revenus, qui contiennent toutes zéro. Vous ne souhaitez probablement pas que cette mesure supplémentaire affecte les éléments **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** et d’autres calculs que vous avez dans la colonne des revenus. Dans ce cas, vous devez activer le paramètre `include-zeros`.
+Par exemple, si vous avez une mesure Chiffre d’affaires et que vous ajoutez ensuite une mesure Pages vues au rapport, le chiffre d’affaires comporte soudainement davantage de lignes, qui ont toutes une valeur de zéro. Vous ne souhaitez probablement pas que cette mesure supplémentaire affecte les éléments **[MEAN](cm-functions.md#mean)**, **[ROW MINIMUM](cm-functions.md#row-min)**, **[QUARTILE](cm-functions.md#quartile)** et d’autres calculs que vous avez dans la colonne des revenus. Dans ce cas, vous devez activer le paramètre `include-zeros`.
 
-Un autre scénario consiste à utiliser deux mesures intéressantes, l’une ayant une moyenne ou un minimum supérieur, car certaines lignes sont des zéros.  Dans ce cas, vous pouvez choisir de ne pas activer le paramètre pour inclure des zéros.
+Dans un autre scénario, vous pouvez avoir deux mesures qui vous intéressent, dont l’une présente une moyenne ou un minimum plus élevé, car certaines lignes contiennent des zéros.  Dans ce cas, vous pouvez choisir de ne pas activer le paramètre pour inclure des zéros.
 
 
 ## Et {#and}
@@ -49,17 +54,17 @@ Un autre scénario consiste à utiliser deux mesures intéressantes, l’une aya
 >[!CONTEXTUALHELP]
 >id="functions-and"
 >title="Et"
->abstract="Conjonction. Non égal à zéro est considéré comme true et égal à zéro est considéré comme false. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Conjonction. Une valeur différente de zéro est considérée comme vraie, tandis qu’une valeur égale à zéro est considérée comme fausse. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL ET(logical_test)]**
 
-Conjonction. Non égal à zéro est considéré comme true et égal à zéro est considéré comme false. La sortie est soit 0 (false) soit 1 (true).
+Conjonction. Une valeur différente de zéro est considérée comme vraie, tandis qu’une valeur égale à zéro est considérée comme fausse. La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
-| logical_test | Nécessite au moins un paramètre, mais peut prendre en charge n’importe quel nombre de paramètres. Toute valeur ou expression pouvant être évaluée avec TRUE ou FALSE |
+| logical_test | Nécessite au moins un paramètre, mais peut prendre en charge n’importe quel nombre de paramètres. Toute valeur ou expression pouvant être évaluée comme VRAI ou FAUX. |
 
 
 ## Nombre distinct approximatif {#approximate_count_distinct}
@@ -225,13 +230,13 @@ CDF-Z(-3) ? 0.0013499
 >[!CONTEXTUALHELP]
 >id="functions-ceil"
 >title="Plafond"
->abstract="Renvoie l’entier le plus petit, non inférieur à une valeur donnée. Par exemple, si vous souhaitez éviter de rapporter les décimales de devise pour le chiffre d’affaires et qu’un produit génère 569,34 $, utilisez la formule CEILING(Revenue) pour arrondir le chiffre d’affaires au dollar le plus proche, soit 570 $."
+>abstract="Renvoie l’entier le plus petit, non inférieur à une valeur donnée. Par exemple, si vous souhaitez éviter d’afficher des décimales de devise pour le chiffre d’affaires dans les rapports et qu’un produit affiche un montant de 569,34 $, utilisez la formule CEILING(Revenue) pour arrondir ce montant au dollar supérieur, soit 570 $."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL PLAFOND(mesure)]**
 
-[!BADGE Ligne]{type="Neutral"} Renvoie l’entier le plus petit, non inférieur à une valeur donnée. Par exemple, si vous souhaitez éviter de rapporter les décimales de devise pour le chiffre d’affaires et qu’un produit génère 569,34 $, utilisez la formule CEILING(Revenue) pour arrondir le chiffre d’affaires au dollar le plus proche, soit 570 $.
+[!BADGE Ligne]{type="Neutral"} Renvoie l’entier le plus petit, non inférieur à une valeur donnée. Par exemple, si vous souhaitez éviter d’afficher des décimales de devise pour le chiffre d’affaires dans les rapports et qu’un produit affiche un montant de 569,34 $, utilisez la formule CEILING(Revenue) pour arrondir ce montant au dollar supérieur, soit 570 $.
 
 | Argument | Description |
 |---|---|
@@ -283,7 +288,7 @@ Le degré de confiance est une mesure probabiliste de l’ampleur des preuves su
 | Argument | Description |
 | --- | --- |
 | conteneur-normalisation | La base (Personnes, Sessions ou Événements) sur laquelle un test est exécuté. |
-| mesure-succès | La mesure ou les mesures avec lesquelles une personne compare des variantes. |
+| mesure-succès | La mesure ou les mesures avec lesquelles un utilisateur compare des variantes. |
 | contrôle | La variante avec laquelle sont comparées toutes les autres variantes de l’expérience. Saisissez le nom de l’élément de dimension de variante de contrôle. |
 | seuil-importance | Le seuil de cette fonction est défini sur une valeur par défaut de 95 %. |
 
@@ -307,7 +312,7 @@ Le degré de confiance est une mesure probabiliste de l’ampleur des preuves su
 | Argument | Description |
 | --- | --- |
 | conteneur-normalisation | La base (Personnes, Sessions ou Événements) sur laquelle un test est exécuté. |
-| mesure-succès | La mesure ou les mesures avec lesquelles une personne compare des variantes. |
+| mesure-succès | La mesure ou les mesures avec lesquelles un utilisateur compare des variantes. |
 | contrôle | La variante avec laquelle sont comparées toutes les autres variantes de l’expérience. Saisissez le nom de l’élément de dimension de variante de contrôle. |
 | seuil-importance | Le seuil de cette fonction est défini sur une valeur par défaut de 95 %. |
 
@@ -362,13 +367,13 @@ Renvoie la racine cubique positive d’un nombre. La racine cubique d’un nombr
 >[!CONTEXTUALHELP]
 >id="functions-cumul"
 >title="Cumulatif"
->abstract="Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents."
+>abstract="Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments de x. Si n &lt; 0, additionnez les éléments précédents."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL CUMULATIF(nombre, mesure)]**
 
-Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments ou x. Si n &lt; 0, additionnez les éléments précédents.
+Renvoie la somme des n derniers éléments de la colonne x. Si n > 0, additionnez les n derniers éléments de x. Si n &lt; 0, additionnez les éléments précédents.
 
 | Argument | Description |
 | --- | --- |
@@ -406,7 +411,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 
 >[!NOTE]
 >
->Cette fonction ne fonctionne pas avec les mesures de taux comme le chiffre d’affaires par personne. La fonction effectue une moyenne des taux au lieu d’additionner les revenus sur les N derniers et d’additionner les personnes sur les N derniers puis de les diviser. <br/>Utilisez plutôt [**[!UICONTROL CUMULATIF(chiffre d’affaires)]**](#cumulative) ![Diviser](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIF(personne)]**](#cumulative).
+>Cette fonction ne fonctionne pas avec les mesures de taux comme le chiffre d’affaires par personne. La fonction calcule la moyenne des taux au lieu d’additionner le chiffre d’affaires sur les N dernières périodes et d’additionner les personnes sur les N dernières périodes, puis de les diviser. <br/>Utilisez plutôt [**[!UICONTROL CUMULATIF(chiffre d’affaires)]**](#cumulative) ![Diviser](/help/assets/icons/Divide.svg) [**[!UICONTROL CUMULATIF(personne)]**](#cumulative).
 
 
 ## Égal à {#equal}
@@ -416,13 +421,13 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-eq"
 >title="Égal à"
->abstract="Égal à. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Égal à. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL ÉGAL À()]**
 
-Égal à. La sortie est soit 0 (false) soit 1 (true).
+Égal à. La sortie est soit 0 (faux), soit 1 (vrai).
 
 
 | Argument | Description |
@@ -454,7 +459,7 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -556,13 +561,13 @@ Renvoie la moyenne des n derniers éléments de la colonne x. Si n > 0, addition
 >[!CONTEXTUALHELP]
 >id="functions-gt"
 >title="Supérieur à"
->abstract="La sortie est soit 0 (false) soit 1 (true)."
+>abstract="La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL SUPÉRIEUR À()]**
 
-La sortie est soit 0 (false) soit 1 (true).
+La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
@@ -581,13 +586,13 @@ La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ge"
 >title="Supérieur ou égal à"
->abstract="Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Supérieur ou égal à. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL SUPÉRIEUR OU ÉGAL À()]**
 
-Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
+Supérieur ou égal à. La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
@@ -670,7 +675,7 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-if"
 >title="Si"
->abstract="Si la valeur du paramètre de condition est différente de zéro (true), le résultat est la valeur du paramètre value_if_true. Dans le cas contraire, il s’agit de la valeur du paramètre value_if_false."
+>abstract="Si la valeur du paramètre de condition est différente de zéro (VRAI), le résultat est la valeur du paramètre value_if_true. Dans le cas contraire, il s’agit de la valeur du paramètre value_if_false."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -683,8 +688,8 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 | Argument | Description |
 |---|---|
 | logical_test | Obligatoire. Toute valeur ou expression pouvant être évaluée avec TRUE ou FALSE |
-| value_if_true | Valeur que vous souhaitez voir renvoyée si l’argument logical_test est évalué sur TRUE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
-| value_if_false | Valeur à renvoyer si l&#39;argument logical_test est évalué sur FALSE. (Cet argument est défini sur la valeur par défaut de 0 si non inclus.) |
+| value_if_true | Valeur que vous souhaitez voir renvoyée si l’argument logical_test est évalué sur TRUE. (Cet argument prend par défaut la valeur 0 s’il n’est pas inclus.) |
+| value_if_false | Valeur à renvoyer si l&#39;argument logical_test est évalué sur FALSE. (Cet argument prend par défaut la valeur 0 s’il n’est pas inclus.) |
 
 
 ## Inférieur à {#less-than}
@@ -694,13 +699,13 @@ Supérieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-lt"
 >title="Inférieur à"
->abstract="La sortie est soit 0 (false) soit 1 (true)."
+>abstract="La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL INFÉRIEUR À()]**
 
-La sortie est soit 0 (false) soit 1 (true).
+La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
@@ -719,13 +724,13 @@ La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-le"
 >title="Inférieur ou égal à"
->abstract="Inférieur ou égal à. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Inférieur ou égal à. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL INFÉRIEUR OU ÉGAL À()]**
 
-Inférieur ou égal à. La sortie est soit 0 (false) soit 1 (true).
+Inférieur ou égal à. La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
@@ -776,7 +781,7 @@ Only available in CJA
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -893,7 +898,7 @@ Only available in CJA
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -927,7 +932,7 @@ Only available in CJA
 
 >[!CONTEXTUALHELP]
 >id="functions-ls-pred-log"
->title="Régression logarithmique : Y prédit"
+>title="Régression logarithmique : Y prévu"
 >abstract="Régression logarithmique : Y = a ln(X) + b. Renvoie Y."
 
 <!-- markdownlint-enable MD034 -->
@@ -995,17 +1000,17 @@ Renvoie le logarithme népérien d’un nombre. Les logarithmes népériens sont
 >[!CONTEXTUALHELP]
 >id="functions-not"
 >title="Non"
->abstract="Négation en tant que booléen. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Négation en tant que booléen. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL NON(logique)]**
 
-Négation en tant que booléen. La sortie est soit 0 (false) soit 1 (true).
+Négation en tant que booléen. La sortie est soit 0 (faux), soit 1 (vrai).
 
 | Argument | Description |
 |---|---|
-| logique | Obligatoire. Toute valeur ou expression qui peut être évaluée sur TRUE ou FALSE. |
+| logique | Obligatoire. Toute valeur ou expression pouvant être évaluée comme VRAI ou FAUX. |
 
 
 
@@ -1016,14 +1021,14 @@ Négation en tant que booléen. La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-ne"
 >title="Non égal à"
->abstract="Non égal à. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Non égal à. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL DIFFÉRENT()]**
 
 
-Non égal à. La sortie est soit 0 (false) soit 1 (true).
+Non égal à. La sortie est soit 0 (faux), soit 1 (vrai).
 
 
 | Argument | Description |
@@ -1043,24 +1048,24 @@ Non égal à. La sortie est soit 0 (false) soit 1 (true).
 >[!CONTEXTUALHELP]
 >id="functions-or"
 >title="Ou"
->abstract="Disjonction. Non égal à zéro est considéré comme true et égal à zéro est considéré comme false. La sortie est soit 0 (false) soit 1 (true)."
+>abstract="Disjonction. Une valeur différente de zéro est considérée comme vraie, tandis qu’une valeur égale à zéro est considérée comme fausse. La sortie est soit 0 (faux), soit 1 (vrai)."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effet](/help/assets/icons/Effect.svg) **[!UICONTROL OU(logical_test)]**
 
 
-[!BADGE Ligne]{type="Neutral"} Disjonction. Non égal à zéro est considéré comme true et égal à zéro est considéré comme false. La sortie est soit 0 (false) soit 1 (true).
+[!BADGE Ligne]{type="Neutral"} Disjonction. Une valeur différente de zéro est considérée comme vraie, tandis qu’une valeur égale à zéro est considérée comme fausse. La sortie est soit 0 (faux), soit 1 (vrai).
 
 
 | Argument | Description |
 |---|---|
-| logical_test | Nécessite au moins un paramètre, mais peut prendre en charge n’importe quel nombre de paramètres. Toute valeur ou expression pouvant être évaluée avec TRUE ou FALSE |
+| logical_test | Nécessite au moins un paramètre, mais peut prendre en charge n’importe quel nombre de paramètres. Toute valeur ou expression pouvant être évaluée comme VRAI ou FAUX. |
 
 
 >[!NOTE]
 >
->0 (zéro) signifie False, et toute autre valeur est True.
+>0 (zéro) signifie Faux, et toute autre valeur signifie Vrai.
 
 
 ## Pi {#pi}
@@ -1096,7 +1101,7 @@ Renvoie Pi : 3,14159...
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -1189,7 +1194,7 @@ Renvoie Pi : 3,14159...
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -1277,7 +1282,7 @@ Renvoie Pi : 3,14159...
 
 | Argument | Description |
 |---|---|
-| metric_X | Mesure que vous souhaitez corréler à metric_Y. |
+| metric_X | Mesure que vous souhaitez corréler avec metric_Y. |
 | metric_Y | Mesure que vous souhaitez corréler à metric_X. |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
@@ -1414,11 +1419,11 @@ Exécute un test t m-latéral avec un score-t de x et n degrés de liberté.
 |---|---|
 | metric | Mesure sur laquelle vous souhaitez effectuer un test en t. |
 | degrees | Degrés de liberté |
-| queues | Longueur de la queue à utiliser pour effectuer le test en t |
+| queues | Longueur de la traîne à utiliser pour effectuer le test T |
 
 ### Détails
 
-La signature est TEST EN T(mesure, degrés, queues). En dessous, il appelle simplement ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Cette fonction est similaire à la fonction **[TEST Z](#z-test)**, qui exécute ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**.
+La signature est T-TEST(metric, degrees, tails). En dessous, il appelle simplement ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-T(-ABSOLUTE VALUE(tails), degrees)]](#cdf-t)**. Cette fonction est similaire à la fonction **[TEST Z](#z-test)**, qui exécute ***m*** ![CrossSize75](/help/assets/icons/CrossSize75.svg) **[[!DNL CDF-Z(-ABSOLUTE VALUE(tails))]](#cdf-z)**.
 
 - ***m*** est le nombre de queues.
 - ***n*** représente les degrés de liberté et doit être un nombre constant pour l’ensemble du rapport, c’est-à-dire qu’il ne change pas ligne par ligne.
@@ -1480,10 +1485,10 @@ Renvoie la tangente de l’angle donné. Si l’angle est en degrés, multipliez
 
 | Argument | Description |
 |---|---|
-| metric | Mesure pour laquelle vous souhaitez obtenir le score centré/ |
+| metric | Mesure pour laquelle vous souhaitez obtenir le score Z |
 | include_zeros | Inclut ou non des valeurs nulles dans les calculs. |
 
-Un score centré réduit de 0 (zéro) signifie que le score est le même que la moyenne. Un score centré réduit peut être positif ou négatif, indiquant s’il est au-dessus ou en-dessous de la moyenne et par quel nombre d’écarts types.
+Un score centré réduit de 0 (zéro) signifie que le score est le même que la moyenne. Un score Z peut être positif ou négatif, ce qui indique s’il est supérieur ou inférieure à la moyenne, ainsi que le nombre d’écarts-types qui l’en séparent.
 
 L’équation pour le score centré réduit est la suivante :
 
@@ -1515,7 +1520,7 @@ Exécute un test z n-latéral avec un score-z de x.
 | Argument | Description |
 |---|---|
 | metric | Mesure sur laquelle vous souhaitez effectuer un test Z. |
-| queues | Longueur de la queue à utiliser pour effectuer le test Z |
+| queues | Longueur de la traîne à utiliser pour effectuer le test Z |
 
 >[!NOTE]
 >

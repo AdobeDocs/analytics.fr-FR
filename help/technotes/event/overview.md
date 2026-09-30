@@ -3,30 +3,43 @@ title: Analyse des données affectées par les événements
 description: Comprendre comment les données affectées par un événement contribuent à la qualité générale des données.
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
 feature: Curate and Share
-TQID: https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg
+TQID: 'https://experienceleague.adobe.com/DJoJwtp9CkgrCfA1DwW8rKX2x3ssfzLCo7vCfhdLusg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 408
+source-wordcount: '408'
 ht-degree: 90%
-
 ---
-
 # Analyse des données affectées par les événements
 
 Parfois, un événement peut avoir un impact sur la qualité des données de votre entreprise. Par exemple :
@@ -35,7 +48,7 @@ Parfois, un événement peut avoir un impact sur la qualité des données de vot
 * Votre entreprise a effectué une mise à jour du site Web qui a eu un impact négatif sur votre mise en œuvre d’Analytics.
 * D’autres problèmes qui affectent la qualité ou l’exhaustivité des données.
 
-Si votre site a rencontré le moindre problème de qualité en matière de données, vous pouvez l’exclure des rapports afin d’éviter la prise de décisions professionnelles sur base de celui-ci. Utilisez ces sections pour évaluer l’impact de l’événement sur vos données et déterminer comment procéder.
+Si votre site a rencontré le moindre problème de qualité des données, vous pouvez l’exclure du reporting afin d’éviter de prendre des décisions métier sur cette base. Utilisez ces sections pour évaluer l’impact de l’événement sur vos données et déterminer comment procéder.
 
 ## Identification de la cause d’un événement
 
@@ -53,7 +66,7 @@ Si vous souhaitez en savoir plus sur l’impact d’un événement sur vos donn�
 
 Une fois que vous avez créé des segments et utilisé la comparaison de dates, vous pouvez combiner ces deux concepts pour corriger les données de tendances à l’aide de mesures calculées. Ajoutez les segments dans une mesure calculée, puis multipliez les jours concernés par le décalage trouvé lors de la comparaison des dates. Consultez [Dérivation de données affectées par les événements](calcmetrics.md).
 
-## Communication de l’impact aux utilisateurs de votre entreprise
+## Communiquez l’impact aux utilisateurs et utilisatrices de votre entreprise.
 
 Une fois que vous êtes prêt à gérer un événement, vous pouvez [communiquer avec les utilisateurs de votre entreprise](communicate.md). Adobe offre plusieurs emplacements dans Analytics où vous pouvez placer du texte pour informer les utilisateurs de ce qui s’est passé et indiquer les composants qu’ils peuvent utiliser.
 

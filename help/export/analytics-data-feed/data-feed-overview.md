@@ -7,21 +7,29 @@ exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 TQID: 'https://experienceleague.adobe.com/XVFQdMEfIM7lQlnU3b-zRbQ9-RliqtaBjr-7ptxkI1o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 335
+source-wordcount: '335'
 ht-degree: 95%
-
 ---
-
-# Flux de données Analytics - Aperçu
+# Vue d’ensemble des flux de données Analytics
 
 Les flux de données sont un moyen puissant d’extraire des données brutes d’Adobe Analytics. Il est possible d’utiliser ces données brutes sur d’autres plateformes en dehors d’Adobe à la discrétion de votre entreprise. Les données sont diffusées sous la forme de lots horaires à la fin de chaque heure ou sous la forme de lots quotidiens à la fin de chaque jour.
 
@@ -29,9 +37,9 @@ Les flux de données sont un moyen puissant d’extraire des données brutes d�
 
 Assurez-vous de respecter l’ensemble des exigences suivantes avant d’utiliser les flux de données.
 
-* Une implémentation opérationnelle qui envoie des données vers les serveurs de collecte de données Adobe. Consultez la section [Valider et publier une implémentation](/help/implement/launch/validate-publish-prod.md) dans le guide de l’implémentation.
+* Une mise en œuvre opérationnelle qui envoie des données vers les serveurs de collecte de données Adobe. Consultez la section [Valider et publier une implémentation](/help/implement/launch/validate-publish-prod.md) dans le guide de l’implémentation.
 * Votre compte est un compte administrateur produit Analytics ou il appartient à un profil produit ayant accès aux flux de données.
-* Un compartiment configuré sur Amazon S3, Google Cloud Platform, Azure RBAC ou Azure SAS.
+* Un compartiment configuré sur Amazon S3, Google Cloud Platform, Azure RBAC ou Azure SAS.
 * (Hérité : requis uniquement pour les types de destination FTP et SFTP hérités) Veillez à disposer d’un site FTP et d’informations d’identification (informations d’identification FTP fournies par votre organisation).
 
 ## Étapes suivantes
@@ -54,6 +62,6 @@ Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Navigation
 
 >[!BEGINSHADEBOX]
 
-Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rechercher votre identifiant de flux de données](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} pour une vidéo de démonstration.
+Consultez ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rechercher votre identifiant de flux de données](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]

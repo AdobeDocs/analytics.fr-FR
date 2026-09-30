@@ -1,37 +1,45 @@
 ---
 title: timestamp
-description: Permet de définir manuellement l’horodatage de l’accès.
+description: Permet de définir manuellement la date et l’heure du hit.
 feature: Appmeasurement Implementation
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/f2r9jWtF5HgCP6jUKg3YnLFxNwx1DiUBI-2Nquy5-K0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 72%
-
 ---
-
 # timestamp
 
-La variable `timestamp` définit manuellement l’horodatage de l’accès pour les suites de rapports horodatées.
+La variable `timestamp` définit manuellement la date et l’heure du hit pour les suites de rapports horodatées.
 
 >[!WARNING]
 >
->N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les accès horodatés. AppMeasurement définit automatiquement l’heure d’un accès pour les suites de rapports qui ne prennent pas en charge les accès horodatés. Si vous envoyez un accès avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
+>N’utilisez pas cette variable si votre suite de rapports n’est pas explicitement configurée pour accepter les hits horodatés. AppMeasurement définit automatiquement l’heure d’un hit pour les suites de rapports qui ne prennent pas en charge les hits horodatés. Si vous envoyez un hit avec cette variable à une suite de rapports qui ne prend pas en charge les horodatages, ces données sont définitivement perdues.
 
 ## Horodatage à l’aide de Web SDK
 
@@ -43,7 +51,7 @@ Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utili
 
 ## s.timestamp dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.timestamp` est une chaîne contenant la date et l’heure de l’accès. Les formats d’horodatage valides comprennent [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) et [heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix) en secondes.
+La variable `s.timestamp` est une chaîne contenant la date et l’heure du hit. Les formats d’horodatage valides comprennent [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) et [heure Unix](https://fr.wikipedia.org/wiki/Heure_Unix) en secondes.
 
 ```js
 // Timestamp using ISO 8601
@@ -64,7 +72,7 @@ s.timestamp = new Date().toISOString();
 Les dates et les heures exprimées dans la [norme ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) peuvent prendre différentes formes. Adobe ne prend pas en charge toutes les fonctionnalités de la norme ISO 8601.
 
 * La date et l’heure doivent être précisées, séparées par `T`.
-* Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.
+* Les heures et minutes sont requises ; les secondes sont facultatives, mais recommandées.
 * Les dates de semaine et les dates ordinales ne sont pas prises en charge.
 * La date peut être au format standard ou étendu. Par exemple, `2026-01-01T00:00:00Z` et `20260101T000000Z` sont tous deux valides.
 * Des fractions de minutes et de secondes sont techniquement valides, mais les fractions sont ignorées. Adobe Analytics ne prend en charge les horodatages qu’avec une précision de second niveau. Si la précision au niveau de la milliseconde est une priorité pour votre organisation, pensez à utiliser Customer Journey Analytics.

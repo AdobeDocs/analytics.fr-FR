@@ -4,39 +4,54 @@ keywords: Suite de rapports virtuelle
 title: Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1657'
 ht-degree: 74%
-
 ---
-
 # Points à prendre en compte concernant le balisage multisuite et les suites de rapports virtuelles
 
 Les suites de rapports virtuelles vous permettent d’afficher les données d’une suite de rapports qui collecte des données de vos propriétés numériques, mais avec un segment appliqué de manière permanente.
 
-Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/tools/server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un appel au serveur secondaire ; l’un à la suite de rapports de marque individuelle, l’autre à la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
+Dans de nombreux cas, vous pouvez utiliser des suites de rapports virtuelles pour remplacer le balisage multisuite. Le passage à des suites de rapports virtuelles peut effectivement supprimer la nécessité d’effectuer des [appels au serveur secondaire](/help/admin/tools/server-call-usage/overage-overview.md). Par exemple, votre entreprise dispose de 6 sites Web différents, chacun envoyant des données à sa propre suite de rapports, ainsi qu’une suite de rapports globale combinée. Chaque site déclenche un deuxième appel serveur ; l’un vers la suite de rapports de la marque, l’autre vers la suite de rapports globale. Au lieu de cela, vous pouvez envoyer des données de tous les sites uniquement à la suite de rapports globale, puis utiliser plusieurs suites de rapports virtuelles pour séparer chaque marque.
 
 Le remplacement du balisage multisuite par une suite de rapports globale et une suite de rapports virtuelle vous permet de simplifier votre implémentation d’Adobe Analytics et de réduire la consommation d’appels au serveur. Cette pratique est recommandée. Cependant, il existe certaines limites importantes à prendre en compte dans les suites de rapports virtuelles. Les conseils suivants vous aideront à décider si l’implémentation des suites de rapports virtuelles créées sur une suite de rapports globale est la bonne approche pour vous.
 
@@ -46,11 +61,11 @@ Si vous ne savez pas si les cas d’utilisation décrits s’appliquent à vous 
 
 Tenez compte des points suivants lorsque vous déterminez si vous devez utiliser le balisage multisuite ou des suites de rapports virtuelles :
 
-### Publication de segments sur Adobe CX Enterprise
+### Publication de segments dans Adobe CX Enterprise
 
 Le partage de segments vers Adobe CX Enterprise n’est pas pris en charge pour les suites de rapports virtuelles. Les utilisateurs qui souhaitent partager un segment avec CX Enterprise doivent avoir accès à la suite de rapports source.
 
-Les segments ne peuvent pas encore être publiés sur Adobe CX Enterprise à partir d’une suite de rapports virtuelle pour la personnalisation et le ciblage. Tous les utilisateurs qui publient des segments doivent accéder à une suite de rapports source dans ce but. Par exemple, vous souhaitez que les utilisateurs n’aient accès qu’aux données de leur région géographique, mais qu’ils puissent créer et partager des segments d’Adobe Analytics vers Adobe CX Enterprise pour le ciblage dans Adobe Target. Dans ce cas, Adobe recommande d’utiliser le balisage multisuite. Si vous n’avez pas peur que les utilisateurs aient accès à la suite de rapports globale ou que vous n’avez pas besoin de publier des segments pour les utiliser dans d’autres solutions, vous pouvez utiliser des suites de rapports virtuelles.
+Les segments ne peuvent pas encore être publiés vers Adobe CX Enterprise à partir d’une suite de rapports virtuelle pour la personnalisation et le ciblage. Tous les utilisateurs qui publient des segments doivent accéder à une suite de rapports source dans ce but. Par exemple, vous souhaitez que les utilisateurs n’aient accès qu’aux données de leur région géographique, mais qu’ils puissent créer et partager des segments d’Adobe Analytics vers Adobe CX Enterprise pour le ciblage dans Adobe Target. Dans ce cas, Adobe recommande d’utiliser le balisage multisuite. Si vous n’avez pas peur que les utilisateurs aient accès à la suite de rapports globale ou que vous n’avez pas besoin de publier des segments pour les utiliser dans d’autres solutions, vous pouvez utiliser des suites de rapports virtuelles.
 
 ### Limites uniques (faible trafic)
 
@@ -62,9 +77,9 @@ L’assistance clientèle d’Adobe peut parfois augmenter les limites de valeur
 
 ### Variables partagées dans l’ensemble des suites de rapports.
 
-Les suites de rapports virtuelles n’ont pas leur propre jeu de dimensions et de mesures, elles héritent de celles de leur suite de rapports sources. La suite de rapports globale doit capturer toutes les dimensions et mesures de tous les sites Web. Les suites de rapports disposent actuellement d’un maximum de 250 eVars et de 1 000 événements personnalisés.
+Les suites de rapports virtuelles n’ont pas leur propre jeu de dimensions et de mesures, elles héritent de celles de leur suite de rapports d’origine. La suite de rapports globale doit capturer toutes les dimensions et mesures de tous les sites Web. Les suites de rapports disposent actuellement d’un maximum de 250 eVars et de 1 000 événements personnalisés.
 
-Des sites différents ont des besoins d’implémentation différents. Certains événements et dimensions peuvent être partagés entre deux sites. Par exemple, une inscription par courrier électronique peut utiliser le même événement sur plusieurs sites Web, déclenchant le même événement personnalisé. D’autres dimensions peuvent être spécifiques à un site. Par exemple, seul l’un de vos sites permet à l’utilisateur de modifier sa photo de profil. Cet événement personnalisé ne serait implémenté que sur le site Web qui le prend en charge.
+Des sites différents ont des besoins d’implémentation différents. Certains événements et dimensions peuvent être partagés entre deux sites. Par exemple, une inscription par e-mail peut utiliser le même événement sur plusieurs sites web, déclenchant le même événement personnalisé. D’autres dimensions peuvent être spécifiques à un site. Par exemple, seul l’un de vos sites permet à l’utilisateur de modifier sa photo de profil. Cet événement personnalisé ne serait implémenté que sur le site Web qui le prend en charge.
 
 Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans une seule suite de rapports globale. Si vous constatez qu’il existe trop de dimensions ou de mesures uniques, passez en revue chaque dimension dans chaque implémentation. Il y a probablement des chevauchements et des dimensions qui ne sont pas essentiels à la réussite de l’entreprise. Pensez également à utiliser [des classifications](/help/components/classifications/classifications-overview.md). Par exemple, au lieu de capturer « Nom du produit » dans eVar5, créez une classification « Nom du produit » en fonction de la dimension du « Produit ». Les classifications d’une suite de rapports source sont automatiquement disponibles pour toutes les suites de rapports virtuelles dépendantes.
 
@@ -74,13 +89,13 @@ Assurez-vous que le nombre de dimensions et de mesures uniques peut tenir dans u
 
 ### Nuances de segmentation
 
-Une suite de rapports virtuelle à un niveau fondamental est simplement un segment appliqué à une suite de rapports. Les dimensions basées sur les visites et les visiteurs peuvent fournir des résultats de rapport non intuitifs.
+Une suite de rapports virtuelle à un niveau fondamental est simplement un segment appliqué à une suite de rapports. Les dimensions basées sur les visites et les visiteurs peuvent fournir des résultats de reporting non intuitifs.
 
 Par exemple, vous avez deux sites Web, A et B, qui envoient tous deux des données dans une suite de rapports globale. Certains visiteurs passent inévitablement du site A au site B et ce mouvement de l’un à l’autre est visible dans le cheminement de la suite de rapports globale. Si vous créez des suites de rapports virtuelles pour les sites A et B, une visite qui a commencé sur le site A et s’est terminée sur le site B n’affiche pas de page d’entrée dans la suite de rapports virtuelle B. La page d’entrée de cette visite a commencé sur le site A, qui est segmenté en dehors de la suite de rapports virtuelle.
 
 ### Conversion des devises
 
-Les suites de rapports virtuelles ne génèrent pas de rapports dans une devise différente de celle de la suite de rapports sur laquelle elles sont basées. Adobe Analytics ne permet pas de convertir une devise lors de l’exécution des rapports. Le taux de change repose toutefois sur le jour actuel (et ce, même pour les données historiques).
+Les suites de rapports virtuelles ne génèrent pas de rapports dans une devise différente de celle de la suite de rapports sur laquelle elles sont basées. Adobe Analytics permet de convertir une devise lors de l’exécution des rapports, mais le taux de change repose sur le jour actuel (et ce, même pour les données historiques).
 
 Si votre organisation effectue son analyse dans une seule devise, cela ne pose aucun problème. Cependant, si vous avez un besoin important pour différentes équipes régionales qui doivent consulter les recettes dans leur propre devise locale, envisagez d’utiliser le balisage multisuite.
 
@@ -88,19 +103,19 @@ Si votre organisation effectue son analyse dans une seule devise, cela ne pose a
 
 Les flux de données ne peuvent pas utiliser de suites de rapports virtuelles. Vous pouvez toutefois recevoir un flux de données d’une suite de rapports globale, puis le séparer.
 
-Les flux de données vous permettent de recevoir une exportation quotidienne ou horaire de toutes vos données Adobe Analytics à un niveau d’accès individuel. Les flux de données ne peuvent pas être présegmentés avant d’être livrés. Vous ne pouvez donc recevoir un flux de données que pour votre suite de rapports globale. Si votre entreprise a un grand besoin de flux de données individuels au niveau d’une marque, d’une propriété, d’une région ou à un autre niveau granulaire, pensez à utiliser le balisage multisuite.
+Les flux de données vous permettent de recevoir une exportation quotidienne ou horaire de toutes vos données Adobe Analytics à un niveau de hit individuel. Les flux de données ne peuvent pas être présegmentés avant d’être livrés. Vous ne pouvez donc recevoir un flux de données que pour votre suite de rapports globale. Si votre entreprise a un grand besoin de flux de données individuels au niveau d’une marque, d’une propriété, d’une région ou à un autre niveau granulaire, pensez à utiliser le balisage multisuite.
 
-### Connecteurs de données avec comptes partenaires
+### Connecteurs de données avec des comptes de partenaires
 
 Certaines intégrations de partenaire Adobe dans Adobe Analytics sont limitées à un compte de partenaire par suite de rapports. Certaines organisations peuvent avoir besoin de plusieurs comptes partenaires pour la même intégration.
 
-Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreuses entreprises disposent de plusieurs comptes DCM, ce qui permet à différentes marques, unités commerciales et régions de gérer leurs publicités affichées séparément. Les intégrations ne peuvent pas être configurées dans des suites de rapports virtuelles. Si vous disposez de connecteurs de données dépendants avec plusieurs comptes, pensez à utiliser le balisage multisuite.
+Par exemple, un seul DCM Google est autorisé par suite de rapports. De nombreuses entreprises disposent de plusieurs comptes DCM, ce qui permet à différentes marques, entités métier et régions de gérer leurs publicités affichées séparément. Les intégrations ne peuvent pas être configurées dans des suites de rapports virtuelles. Si vous disposez de connecteurs de données dépendants avec plusieurs comptes, pensez à utiliser le balisage multisuite.
 
 ### Sources de données récapitulatives
 
-Les sources de données récapitulatives vous permettent d’importer des mesures fusionnées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les chargements de sources de données de résumé contiennent des mesures agrégées *sans identifiant visiteur*, ces sources ne peuvent pas être segmentées dans des conteneurs [!UICONTROL Visite] et [!UICONTROL Visiteur]. Étant donné que les suites de rapports virtuelles utilisent la segmentation, les données importées à l’aide de sources de données de résumé ne sont pas disponibles dans ces suites si le segment est créé à l’aide d’un conteneur Visite ou Visiteur.
+Les sources Summary data vous permettent d’importer des mesures agrégées dans Adobe Analytics au niveau de la suite de rapports. Étant donné que les chargements de sources de données de résumé contiennent des mesures agrégées *sans identifiant visiteur*, ces sources ne peuvent pas être segmentées dans des conteneurs [!UICONTROL Visite] et [!UICONTROL Visiteur]. Étant donné que les suites de rapports virtuelles utilisent la segmentation, les données importées à l’aide de sources de données de résumé ne sont pas disponibles dans ces suites si le segment est créé à l’aide d’un conteneur Visite ou Visiteur.
 
-Les sources de données de résumé s’affichent dans la suite de rapports virtuelle si un conteneur Accès est utilisé et si les règles de ce conteneur sont conditionnées pour inclure les informations de la source de données.
+Les sources de données de résumé s’affichent dans la suite de rapports virtuelle si un conteneur Hit est utilisé et si les règles de ce conteneur sont conditionnées pour inclure les informations de la source de données.
 
 >[!TIP]
 >
@@ -110,10 +125,10 @@ Les sources de données de résumé s’affichent dans la suite de rapports virt
 
 Si vous optez pour la suppression des appels au serveur secondaire au profit des suites de rapports virtuelles :
 
-1. Créez les suites de rapports virtuelles par rapport aux données de vos suites de rapports enfants. Segmenter selon une dimension personnalisée qui distingue vos sites les uns des autres.
-   * Si vous effectuez une migration depuis une implémentation balisée multisuite existante, comparez les segments de la suite de rapports virtuelle à vos suites de rapports enfants existantes. Vous devez vous assurer que les données sont comparables avant de déplacer les utilisateurs vers la suite de rapports virtuelle.
+1. Créez des suites de rapports virtuelles correspondant aux données de vos suites de rapports enfants. Segmenter selon une dimension personnalisée qui distingue vos sites les uns des autres.
+   * Si vous effectuez une migration depuis une mise en œuvre balisée multisuite existante, comparez les segments de la suite de rapports virtuelle par rapport à vos suites de rapports enfants existantes. Vous devez vous assurer que les données sont comparables avant de déplacer les utilisateurs vers la suite de rapports virtuelle.
    * Une bonne pratique consiste à utiliser [l’empilement des segments](/help/components/segmentation/segmentation-workflow/seg-build.md) afin de pouvoir modifier un segment à un emplacement et de l’appliquer à toutes les suites de rapports virtuelles dépendantes.
-   * Utilisez des conteneurs d’accès si vous souhaitez que les suites de rapports virtuelles restent mutuellement exclusives.
+   * Utilisez des conteneurs de hits si vous souhaitez que les suites de rapports virtuelles restent davantage mutuellement exclusives.
 2. Une fois que vous avez confirmé la configuration correcte des suites de rapports virtuelles, supprimez les identifiants des suites de rapports secondaires de votre implémentation. Pour supprimer les suites de rapports secondaires :
    * Dans l’extension Adobe Analytics de la collecte de données Adobe Experience Platform, cliquez sur le « x » en regard des suites de rapports que vous ne souhaitez plus utiliser.
    * Dans les implémentations JavaScript héritées, recherchez la variable `s.account` et supprimez les identifiants de suite de rapports que vous ne souhaitez plus utiliser.

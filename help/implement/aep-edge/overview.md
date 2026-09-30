@@ -1,43 +1,53 @@
 ---
 title: Mettre en œuvre Adobe Analytics à l’aide d’Adobe Experience Platform Edge
-description: Présentation de l’utilisation des données XDM d’Experience Platform dans Adobe Analytics
+description: Vue d’ensemble de l’utilisation des données XDM d’Adobe Experience Platform dans Adobe Analytics
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/-WWT7-dW4vo8g0DXtuQK9E30DktJ2yjzbc6w69oxJnc
+TQID: 'https://experienceleague.adobe.com/-WWT7-dW4vo8g0DXtuQK9E30DktJ2yjzbc6w69oxJnc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Measurement
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 596
+source-wordcount: '596'
 ht-degree: 100%
-
 ---
+# Mettre en œuvre Adobe Analytics avec Adobe Experience Platform Edge Network
 
-# Mettre en œuvre Adobe Analytics avec le réseau Edge d&#39;Adobe Experience Platform
+Adobe Experience Platform Edge Network vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Edge Network transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts de mise en œuvre, en particulier sur plusieurs solutions de données. Adobe Analytics est l’un des produits auxquels vous pouvez envoyer des données à l’aide d’Edge Network.
 
-Le réseau Edge d&#39;Adobe Experience Platform vous permet d’envoyer des données destinées à plusieurs produits vers un emplacement centralisé. Le réseau Edge transfère les informations appropriées aux produits souhaités. Ce concept vous permet de consolider les efforts de mise en œuvre, en particulier sur plusieurs solutions de données. Adobe Analytics est l’un des produits auxquels vous pouvez envoyer des données à l’aide d’Edge Network.
+## Comment Adobe Analytics gère les données d’Edge Network
 
-## Comment Adobe Analytics gère les données du réseau Edge
-
-Les données envoyées à Edge Network et les données AppMeasurement fonctionnant différemment, la payload d’Edge Network détermine la manière dont Adobe Analytics gère l’accès. Consultez [Types d’événements Edge Network dans Adobe Analytics](hit-types.md) pour plus d’informations.
+Les données envoyées à Edge Network et les données AppMeasurement fonctionnant différemment, la payload d’Edge Network détermine la manière dont Adobe Analytics gère le hit. Consultez [Types d’événements Edge Network dans Adobe Analytics](hit-types.md) pour plus d’informations.
 
 Les données envoyées à Adobe Experience Platform Edge Network peuvent suivre trois formats : **objet XDM**, **objet de données** et **données contextuelles**. Lorsqu’un train de données transfère des données vers Adobe Analytics, elles sont traduites dans un format qu’Adobe Analytics peut traiter.
 
 ## Objet `xdm`
 
-Respectez les schémas que vous créez sur la base [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le [groupe de champs de schéma Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK web pour envoyer des données à une suite de rapports. Lorsque les données arrivent au réseau Edge Network, elles traduisent l’objet XDM dans un format compris par Adobe Analytics.
+Respectez les schémas que vous créez sur la base [XDM](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) (modèle de données d’expérience). XDM vous offre davantage de flexibilité quant aux champs définis comme faisant partie d’événements. Si vous souhaitez utiliser un schéma prédéfini spécifique à Adobe Analytics, vous pouvez ajouter le [groupe de champs de schéma Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) à votre schéma. Une fois ajouté, vous pouvez remplir ce schéma à l’aide de l’objet `xdm` dans le SDK web pour envoyer des données à une suite de rapports. Lorsque les données arrivent sur Edge Network, celui-ci traduit l’objet XDM dans un format compris par Adobe Analytics.
 
 Consultez [Mappage des variables d’objet XDM à Adobe Analytics](xdm-var-mapping.md) pour obtenir une référence complète des champs XDM et de leur mappage aux variables Analytics.
 
@@ -93,4 +103,4 @@ a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
 
-La taille maximale d’une payload de variable de données contextuelles donnée (y compris les clés et les valeurs) est de 32 Ko. Vous pouvez réduire la taille de cette payload en ajustant les champs pertinents afin qu’ils soient reconnus par Adobe Analytics dans les objets [`xdm`](xdm-var-mapping.md) ou [`data`](data-var-mapping.md).
+La taille maximale de la charge utile d’une variable de données contextuelles donnée (y compris les clés et les valeurs) est de 32 ko. Vous pouvez réduire la taille de cette payload en ajustant les champs pertinents afin qu’ils soient reconnus par Adobe Analytics dans les objets [`xdm`](xdm-var-mapping.md) ou [`data`](data-var-mapping.md).

@@ -7,41 +7,49 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/6VDAO0-QMXqia2Ddy1uPcxnTrlJi49B8zjaLcC0HawU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 283
+source-wordcount: '283'
 ht-degree: 89%
-
 ---
-
 # trackOffline
 
-Le suivi hors ligne est une méthode facultative de collecte de données dans Adobe Analytics. Si un visiteur se déconnecte d’Internet mais continue à parcourir votre site, les accès sont stockés dans une file d’attente hors ligne jusqu’à ce que l’appareil se reconnecte à Internet. Le suivi hors ligne est principalement utilisé pour les applications mobiles.
+Le suivi hors ligne est une méthode facultative de collecte de données dans Adobe Analytics. Si un visiteur se déconnecte d’Internet mais continue à parcourir votre site, les hits sont stockés dans une file d’attente hors ligne jusqu’à ce que l’appareil se reconnecte à Internet. Le suivi hors ligne est principalement utilisé pour les applications mobiles.
 
 La variable `trackOffline` détermine si vous souhaitez utiliser le suivi hors ligne dans votre mise en œuvre.
 
 >[!WARNING]
 >
->Vous devez configurer votre suite de rapports pour accepter les accès horodatés avant d’activer cette variable. Si une suite de rapports n’accepte pas les accès horodatés et que cette variable est activée, ces données sont perdues et ne peuvent pas être récupérées.
+>Vous devez configurer votre suite de rapports pour accepter les hits horodatés avant d’activer cette variable. Si une suite de rapports n’accepte pas les hits horodatés et que cette variable est activée, ces données sont perdues et ne peuvent pas être récupérées.
 
 Lorsqu’il est activé, AppMeasurement utilise le processus suivant pour envoyer des données à Adobe :
 
-* Lors de la compilation d’une demande d’image, un paramètre de chaîne de requête d’horodatage est inclus.
-* Si l’appareil ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est stocké localement sur l’appareil.
-* Lors de chaque accès suivant, AppMeasurement tente d’envoyer une demande d’image à Adobe.
-  * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, l’accès est ajouté à la file d’attente sur l’appareil.
-  * S’il peut atteindre les serveurs de collecte de données Adobe, l’accès et la file d’attente des accès lorsque l’appareil était hors ligne sont envoyés.
+* Lors de la compilation d’une demande d’image, un paramètre de chaîne de requête de date et d’heure est inclus.
+* Si l’appareil ne parvient pas à atteindre les serveurs de collecte de données Adobe, le hit est stocké en local sur l’appareil.
+* Lors de chaque hit suivant, AppMeasurement tente d’envoyer une demande d’image à Adobe.
+  * S’il ne parvient pas à atteindre les serveurs de collecte de données Adobe, le hit est ajouté à la file d’attente sur l’appareil.
+  * S’il peut atteindre les serveurs de collecte de données Adobe, le hit et la file d’attente des hits lorsque l’appareil était hors ligne sont envoyés.
 
 ## Tracking hors ligne à l’aide de Web SDK
 

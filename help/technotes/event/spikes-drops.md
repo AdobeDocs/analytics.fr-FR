@@ -3,31 +3,44 @@ title: Résolution des problèmes liés aux pics et aux baisses de données
 description: Découvrez les raisons expliquant les hausses ou les baisses spectaculaires des rapports de tendance.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+TQID: 'https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+subfeature_v2:
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes liés aux pics et aux baisses de données
 
-Alors que votre site collecte des données, il existe de nombreux facteurs pouvant fortement altérer la collection des données ou la création de rapports. La liste suivante répertorie les potentielles explications de la forte diminution ou augmentation du trafic global ou de certaines variables.
+Alors que votre site collecte des données, il existe de nombreux facteurs pouvant fortement altérer la collecte des données ou le reporting. La liste suivante répertorie les explications possibles de la forte diminution ou augmentation du trafic global ou de certaines variables.
 
 En déterminant la cause et en progressant vers une solution, vous pouvez évaluer l’impact de l’événement sur les données et déterminer comment procéder. Pour de plus amples informations, rendez-vous sur la [page d’aperçu](overview.md).
 
@@ -37,10 +50,10 @@ Les baisses de trafic sont classées dans deux sections : données partielles e
 
 ### Causes possibles de l’absence totale de données (rapports de zéros)
 
-* **Latence de suite de rapports** : il arrive parfois qu’une suite de rapports subisse une [latence](../latency.md) due à un certain nombre de facteurs. De nombreux problèmes de latence sont résolus en quelques heures. Si une suite de rapports spécifique vous préoccupe, contactez l’assistance clientèle d’Adobe avec l’identifiant de la suite de rapports concernée.
+* **Latence de suite de rapports** : il arrive parfois qu’une suite de rapports subisse une [latence](../latency.md) due à un certain nombre de facteurs. De nombreux problèmes de latence sont résolus en quelques heures. Si une suite de rapports spécifique vous préoccupe, contactez l’assistance clientèle Adobe avec l’identifiant de suite de rapports concernée.
 * **Suppression de la mise en œuvre** : parfois, lorsqu’une entreprise apporte des modifications à la mise en œuvre ou restructure son site, la nouvelle mise en œuvre d’Analytics est négligée. Collaborez avec les développeurs de l’entreprise pour implémenter de nouveau le code du site.
-* **Problème d’interface/de mise en cache d’Analytics** : dans de rares cas, le cache d’un navigateur contient des données non valides qui entraînent le renvoi de zéros dans tous les rapports. Effacez les cookies et le cache du navigateur pour résoudre le problème. Si l’effacement des cookies et du cache ne fonctionne pas, contactez l’assistance clientèle avec la période et le rapport manquants. L’assistance peut dupliquer le problème et fournir des informations supplémentaires.
-* **Disponibilité d’Analytics** : consultez [status.adobe.com](https://status.adobe.com/fr/products/1173/fr) pour tout problème lié à la collecte ou au traitement des données.
+* **Problème d’interface/de mise en cache d’Analytics** : dans de rares cas, le cache d’un navigateur contient des données non valides qui entraînent le renvoi de zéros dans tous les rapports. Effacez les cookies et le cache du navigateur pour résoudre le problème. Si l’effacement des cookies et du cache ne fonctionne pas, contactez l’assistance clientèle avec le rapport manquant et la période concernée. L’assistance peut dupliquer le problème et fournir des informations supplémentaires.
+* **Disponibilité d’Analytics** : consultez [status.adobe.com](https://status.adobe.com/products/1173/fr) pour tout problème lié à la collecte ou au traitement des données.
 
 ### Causes possibles de données partiellement manquantes ou de diminution du trafic
 
@@ -61,8 +74,8 @@ Les pics de trafic sont classés dans deux sections : pratiquement deux fois pl
 
 ### Autres causes possibles de l’augmentation du trafic
 
-* **Robots ou robots d’indexation** : si vous constatez une augmentation importante et soudaine du trafic, commencez par vérifier la présence éventuelle d’un robot ou d’un robot d’indexation. Il est parfois difficile d’identifier les robots, car ils possèdent tous leur propre façon d’exécuter le code sur le site. Créez un rapport Data Warehouse à l’aide de l’adresse IP comme dimension pour identifier les adresses qui génèrent le plus de trafic. Vous pouvez ensuite utiliser des [règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) ou une règle VISTA pour éliminer le trafic de robots des futurs rapports.
-* **Campagnes lancées** : les actions marketing telles que les campagnes par e-mail ou l’optimisation du moteur de recherche peuvent potentiellement provoquer un pic de trafic sur le site. Déterminez la tendance de la dimension [Code de suivi](/help/components/dimensions/tracking-code.md) pour approfondir la recherche. Elle permet également de contacter l’équipe marketing pour s’assurer que le pic était intentionnel.
-* **Causes environnementales ou circonstancielles** : le trafic sur le site est susceptible d’augmenter en cas de congé ou d’événement circonstanciel (un événement important dans lequel le site est une ressource connue ou des actions marketing résiduelles d’autres entreprises). Il est difficile de résoudre la cause exacte, car il existe un nombre quasi illimité de raisons circonstancielles expliquant l’augmentation du trafic. Ces causes comptent toutefois parmi les plus importantes à identifier pour que l’entreprise puisse en tirer parti et prendre des décisions professionnelles adaptées. Déterminer la tendance de la dimension [Page](/help/components/dimensions/page.md) ou [Référent](/help/components/dimensions/referrer.md) est probablement le meilleur point de départ pour identifier la source du trafic.
+* **Robots ou robots d’indexation** : si vous constatez une augmentation importante et soudaine du trafic, commencez par vérifier la présence éventuelle d’un robot ou d’un robot d’indexation. Il est parfois difficile d’identifier les robots, car ils possèdent tous leur propre façon d’exécuter du code sur votre site. Créez un rapport Data Warehouse à l’aide de l’adresse IP comme dimension pour identifier les adresses qui génèrent le plus de trafic. Vous pouvez ensuite utiliser des [règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md) ou une règle VISTA pour éliminer le trafic de robots des futurs rapports.
+* **Campagnes lancées** : les actions marketing telles que les campagnes par e-mail ou l’optimisation du moteur de recherche peuvent potentiellement provoquer un pic de trafic sur le site. Déterminez la tendance de la dimension [Code de suivi](/help/components/dimensions/tracking-code.md) pour approfondir la recherche. Il peut également être utile de contacter votre équipe marketing pour vous assurer que le pic était intentionnel.
+* **Causes environnementales ou circonstancielles** : le trafic sur le site est susceptible d’augmenter en cas de congé ou d’événement circonstanciel (un événement important dans lequel le site est une ressource connue ou des actions marketing résiduelles d’autres entreprises). Il est difficile de résoudre la cause exacte, car il existe un nombre quasi illimité de raisons circonstancielles expliquant l’augmentation du trafic. Ces causes comptent toutefois parmi les plus importantes à identifier pour que l’entreprise puisse en tirer parti et prendre des décisions métier adaptées. Déterminer la tendance de la dimension [Page](/help/components/dimensions/page.md) ou [Référent](/help/components/dimensions/referrer.md) est probablement le meilleur point de départ pour identifier la source du trafic.
 
-Si aucune des raisons ci-dessus n’est une cause potentielle d’augmentation ou de diminution du trafic sur le site, contactez l’assistance clientèle d’Adobe. L’assistance peut vous aider à localiser la source du pic ou de la baisse de trafic. Lors de la création de l’incident, indiquez à l’agent comment recréer un rapport spécifique qui illustre clairement le pic ou la baisse.
+Si aucune des raisons ci-dessus n’est une cause potentielle d’augmentation ou de diminution du trafic sur le site, contactez l’assistance clientèle d’Adobe. L’assistance peut vous aider à localiser la source du pic de trafic ou de la baisse de trafic. Lors de la création de l’incident, indiquez à l’agent comment recréer un rapport spécifique qui illustre clairement le pic ou la baisse.

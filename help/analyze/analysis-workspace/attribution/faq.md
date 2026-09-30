@@ -7,21 +7,30 @@ exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 TQID: 'https://experienceleague.adobe.com/2rsPhh5Y-Fxf8fvG4skU59bO72FM2x7Zdecwh1sVVsY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1214'
 ht-degree: 72%
-
 ---
-
 # Questions fréquentes
 
 Vous trouverez ici les réponses aux questions les plus fréquemment posées sur l’attribution.
@@ -41,17 +50,17 @@ Certaines mesures basées sur les visites, telles que les [entrées](/help/compo
 1. Ils visitent plusieurs pages, la dernière ayant eu lieu à 00h05, le 8 septembre.
 1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 8 au 14 septembre.
 
-Les mesures basées sur les accès, telles que les [pages vues](/help/components/metrics/page-views.md), produiraient la sortie attendue : les tendances de données quotidiennes du 8 au 14 septembre. Cependant, les mesures basées sur les visites afficheraient également la visite du 7 septembre ci-dessus. L’entrée attribuée à la visite s’est produite le 7 septembre et la période de recherche arrière est, par défaut, comprise entre le 1er et le 31 septembre.
+Les mesures basées sur les hits, telles que les [pages vues](/help/components/metrics/page-views.md), produiraient la sortie attendue : les tendances de données quotidiennes du 8 au 14 septembre. Cependant, les mesures basées sur les visites afficheraient également la visite du 7 septembre ci-dessus. L’entrée attribuée à la visite s’est produite le 7 septembre et la période de recherche arrière est, par défaut, comprise entre le 1er et le 31 septembre.
 
-Dans cet exemple, le taux de rebond affiche toujours 0 % le 7 septembre. Cette mesure est définie sous la forme `Bounces divided by Entries`, une mesure basée sur les accès divisée par une mesure basée sur les visites. Les rebonds se composent d’une seule demande d’image, de sorte qu’ils ne peuvent pas s’étendre sur plusieurs jours. Les rebonds du 7 septembre se sont produits en dehors du créneau du compte rendu des performances, provoquant ainsi le taux de rebond garanti de 0 % pour cette journée. D’autres mesures basées sur les accès afficheraient également 0 pour le 7 septembre dans ce rapport, puisque ces accès ne se trouvent pas non plus dans le créneau du compte rendu des performances.
+Dans cet exemple, le taux de rebond affiche toujours 0 % le 7 septembre. Cette mesure est définie sous la forme `Bounces divided by Entries`, une mesure basée sur les hits divisée par une mesure basée sur les visites. Les rebonds se composent d’une seule demande d’image, de sorte qu’ils ne peuvent pas s’étendre sur plusieurs jours. Les rebonds du 7 septembre se sont produits en dehors du créneau du compte rendu des performances, provoquant ainsi le taux de rebond garanti de 0 % pour cette journée. D’autres mesures basées sur les hits afficheraient également 0 pour le 7 septembre dans ce rapport, puisque ces hits ne se trouvent pas non plus dans la fenêtre de reporting.
 
 Prenons un autre exemple semblable. La seule différence entre l’exemple suivant et celui ci-dessus se trouve au niveau des dates :
 
 1. Un utilisateur visite votre page d’accueil à 23 h 55, le 31 août.
 1. Ils visitent plusieurs pages, la dernière ayant eu lieu à 00 h 05 le 1er septembre.
-1. Une semaine plus tard, vous lancez un rapport de tendance quotidienne sur une période allant du 1er au 7 septembre.
+1. Une semaine plus tard, vous exécutez un rapport de tendance quotidien couvrant la période du 1er au 7 septembre.
 
-Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les données du 31 août. La période de recherche arrière et le créneau du compte rendu des performances démarrent tous les deux le 1er septembre, de sorte que les données ne peuvent pas être attribuées à partir du 31 août.
+Dans cet exemple, les entrées et le taux de rebond n’afficheraient pas les données du 31 août. La fenêtre de recherche en amont et la période de reporting commencent toutes deux le 1er septembre. Les données du 31 août ne peuvent donc pas être attribuées.
 
 +++
 
@@ -67,21 +76,21 @@ The choice of attribution lookback depends on your use case. If conversions typi
 
 +++## Comment se comparent les props et les eVars lors de l’utilisation de l’attribution ?
 
-L’attribution est recalculée au moment de l’exécution du rapport. Il n’y a donc aucune différence entre prop et eVar (ou toute autre dimension) pour la modélisation d’attribution. Les props peuvent persister à l’aide de n’importe quel intervalle de recherche en amont ou modèle d’attribution, et les paramètres d’attribution/expiration des eVars sont ignorés.
+L’attribution est recalculée au moment de l’exécution du rapport. Il n’y a donc aucune différence entre prop et eVar (ou toute autre dimension) pour la modélisation d’attribution. Les props peuvent persister avec n’importe quelle fenêtre de recherche en amont ou n’importe quel modèle d’attribution, tandis que les paramètres d’affectation et d’expiration des eVars sont ignorés.
 
 +++
 
 
 +++## Les modèles d’attribution sont-ils disponibles dans d’autres fonctionnalités d’Analytics, telles que les flux de données ou Data Warehouse ?
 
-Non. Les modèles d’attribution utilisent le traitement de la période de rapport, disponible uniquement dans Analysis Workspace. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
+Non. Les modèles d’attribution utilisent le traitement lors de l’exécution du rapport, qui est disponible uniquement dans Analysis Workspace. Pour plus d’informations, reportez-vous à la section [Traitement de la période de rapport](/help/components/vrs/vrs-report-time-processing.md).
 
 +++
 
 
 +++## Les modèles d&#39;attribution sont-ils disponibles uniquement si j&#39;utilise une suite de rapports virtuelle avec le traitement de la période de rapport activé ?
 
-Les modèles d’attribution sont disponibles en dehors des suites de rapports virtuelles. Bien qu’ils utilisent le traitement de la période de rapport sur le serveur principal, les modèles d’attribution sont disponibles pour les suites de rapports standard et les suites de rapports virtuelles.
+Les modèles d’attribution sont disponibles en dehors des suites de rapports virtuelles. Bien qu’ils utilisent le traitement lors de l’exécution du rapport sur le serveur principal, les modèles d’attribution sont disponibles pour les suites de rapports standard et les suites de rapports virtuelles.
 
 +++
 
@@ -118,15 +127,15 @@ Oui, les classifications sont entièrement prises en charge.
 
 +++## L’attribution fonctionne-t-elle avec les sources de données ?
 
-Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car elles ne sont pas liées à un identifiant de visiteur ou visiteuse Analytics.
+Oui, la plupart des sources de données sont prises en charge. L’attribution n’est pas possible avec les sources de données de niveau résumé, car ces sources ne sont pas liées à un identifiant visiteur Analytics.
 
-Les sources de données des ID de transaction sont traitées comme tout autre accès. Les sources de données des ID de transaction n’utilisent pas le traitement spécial qui est normalement utilisé dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de la période de rapport, les accès aux ID de transaction ont des valeurs eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès aux ID de transaction. Les valeurs ne sont pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
+Les sources de données des ID de transaction sont traitées comme tout autre hit. Les sources de données des ID de transaction n’utilisent pas le traitement spécial qui est normalement utilisé dans les rapports traditionnels. En d’autres termes, lors de l’utilisation du traitement de la période de rapport, les accès aux ID de transaction ont des valeurs eVar propagées à partir des accès qui se produisent près de l’horodatage de l’accès aux ID de transaction. Les valeurs ne sont pas propagées à partir des accès qui se sont produits près du moment de la transaction d’origine.
 
 Lorsque cela est possible, l’attribution repose sur la valeur de la colonne MID envoyée dans un événement de la source de données, plutôt que sur une valeur persistante. Le modèle d’attribution est appliqué à la volée aux valeurs des colonnes MID dans la source de données. Par exemple, lorsque vous utilisez l’attribution [Dernière touche](models.md) le modèle commence à partir de chaque instance d’une mesure. Et revient en arrière de manière séquentielle dans les accès jusqu’à ce que le modèle atteigne la dernière valeur observée dans la colonne MID.
 
-Lorsque cela n’est pas possible, l’attribution utilise la valeur MID dans l’enregistrement *précédent* dans la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par horodatage, étant donné qu’AA ne prend pas en charge les données en désordre.
+Lorsque cela n’est pas possible, l’attribution utilise la valeur MID dans l’enregistrement *précédent* dans la source de données pour l’évaluation. Cet enregistrement précédent peut ne pas être ordonné de manière séquentielle par date et heure, étant donné qu’Adobe Analytics ne prend pas en charge les données en désordre.
 
-Étant donné que les enregistrements ne sont pas classés de manière séquentielle, les valeurs attendues de l’application de la persistance peuvent avoir une incidence sur le temps qui s’écoule entre l’horodatage de l’ID de transaction fourni et la transaction d’origine.
+Les enregistrements n’étant pas classés dans l’ordre chronologique, les valeurs attendues résultant de l’application de la persistance peuvent avoir une incidence sur le délai entre la date et l’heure de l’ID de transaction fourni et la transaction d’origine.
 
 +++
 
@@ -149,9 +158,9 @@ Lorsque les canaux marketing ont été introduits pour la première fois, ils ne
 
 +++## Comment l’attribution fonctionne-t-elle avec les variables à plusieurs valeurs, telles que les variables de liste ?
 
-Certaines dimensions d’Analytics peuvent contenir plusieurs valeurs sur un seul accès. Les variables de liste et la variable Products sont des exemples courants.
+Certaines dimensions d’Analytics peuvent contenir plusieurs valeurs sur un seul hit. Les variables de liste et la variable Products sont des exemples courants.
 
-Lorsque l’attribution est appliquée à des accès à plusieurs valeurs, toutes les valeurs d’un même accès reçoivent le même crédit. Comme plusieurs valeurs peuvent recevoir ce crédit, le total du rapport peut être différent de celui de chaque élément de ligne. Le total du rapport est dédupliqué, tandis que chaque élément de dimension individuel reçoit un crédit approprié.
+Lorsque l’attribution est appliquée à des hits à plusieurs valeurs, toutes les valeurs d’un même hit reçoivent le même crédit. Comme plusieurs valeurs peuvent recevoir ce crédit, le total du rapport peut être différent de celui de chaque élément de ligne. Le total du rapport est dédupliqué, tandis que chaque élément de dimension individuel reçoit un crédit approprié.
 
 +++
 
@@ -160,12 +169,12 @@ Lorsque l’attribution est appliquée à des accès à plusieurs valeurs, toute
 
 L’attribution s’exécute toujours avant la segmentation et la segmentation s’exécute avant l’application des filtres de rapport. Ce concept s’applique également aux suites de rapports virtuelles utilisant des segments.
 
-Par exemple, si vous créez une suite de rapports virtuelle avec un segment « Afficher les accès » appliqué, vous pouvez voir d’autres canaux dans un tableau à l’aide de certains modèles d’attribution.
+Par exemple, si vous créez une suite de rapports virtuelle avec un segment « Afficher les hits » appliqué, vous pouvez voir d’autres canaux dans un tableau à l’aide de certains modèles d’attribution.
 
 ![Suite de rapports virtuelle, affichage uniquement](assets/vrs-aiq-example.png)
 
 >[!NOTE]
 >
->Si un segment supprime les accès contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masque simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à celles d’un filtre avec une définition comparable.
+>Si un segment supprime les hits contenant votre mesure, ces instances de mesure ne sont attribuées à aucune dimension. Cependant, un filtre de rapport similaire masque simplement certains éléments de dimension, sans aucun impact sur les mesures traitées par le modèle d’attribution. Par conséquent, un segment peut renvoyer des valeurs inférieures à celles d’un filtre avec une définition comparable.
 
 +++

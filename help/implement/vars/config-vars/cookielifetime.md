@@ -7,31 +7,39 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/Vnia0RzQf6S5-gbgwIlM0WOiSgm2ZOzL24pvIKNgMl4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 271
+source-wordcount: '271'
 ht-degree: 63%
-
 ---
-
 # cookieLifetime
 
 Les cookies définis par AppMeasurement ont généralement une expiration de 2 ans. Utilisez la variable `cookieLifetime` pour remplacer la date d’expiration des cookies définis par AppMeasurement.
 
 >[!NOTE]
 >
->Cette variable a un impact sur le nombre et l’attribution des visiteurs uniques. Soyez prudent lorsque vous définissez cette variable.
+>Cette variable a une incidence sur le nombre de visiteurs uniques et l’attribution. Soyez prudent lorsque vous définissez cette variable.
 
 ## Durée de vie des cookies à l’aide de Web SDK
 
@@ -59,7 +67,7 @@ La variable `s.cookieLifetime` est une chaîne qui détermine la date d’expira
 
 * Si celle-ci est définie sur `SESSION`, les cookies définis par AppMeasurement expirent une fois la session du navigateur terminée.
 * Si celle-ci est définie sur `NONE`, AppMeasurement ne tente pas de définir des cookies.
-* Si celle-ci est définie sur une chaîne entière, les cookies définis par AppMeasurement expirent après l’expiration du nombre de secondes spécifié.
+* Si celle-ci est définie sur une chaîne entière, les cookies définis par AppMeasurement expirent après le nombre de secondes spécifié.
 
 ```js
 // Expire cookies after each session

@@ -1,35 +1,47 @@
 ---
 title: Création d’une couche de données
-description: Découvrez quelle couche de données se trouve dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
+description: Découvrez ce qu’est une couche de données dans votre mise en œuvre Analytics et comment elle peut être utilisée pour mapper des variables dans Adobe Analytics.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE
+TQID: 'https://experienceleague.adobe.com/JmxM3-AVA5--7Xt4kuES35KFtYbicdGO9JZXsygzuuE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 476
+source-wordcount: '476'
 ht-degree: 100%
-
 ---
-
 # Création d’une couche de données
 
-Une couche de données est une structure d’objets JavaScript sur votre site qui contient les valeurs de variable utilisées dans votre mise en œuvre Analytics. Elle permet un meilleur contrôle et une maintenance plus facile lors de l’attribution de valeurs aux variables Analytics.
+Une couche de données est un framework d’objets JavaScript sur votre site qui contient les valeurs de variables utilisées dans votre mise en œuvre Analytics. Elle permet un meilleur contrôle et une maintenance plus facile lors de l’attribution de valeurs aux variables Analytics.
 
 ## Conditions préalables
 
@@ -48,7 +60,7 @@ La mise en œuvre d’Adobe Analytics à l’aide d’une couche de données sui
 1. **Validez la couche de données à l’aide d’une console de navigateur :** une fois une couche de données créée, vous pouvez vérifier qu’elle fonctionne à l’aide de la console de développement de n’importe quel navigateur. Vous pouvez ouvrir la console de développement dans la plupart des navigateurs à l’aide de la clé `F12`. Un exemple de valeur de variable serait `adobeDataLayer.page.title`.
 1. **Utilisez la collecte de données Adobe Experience Platform pour mapper les objets de couche de données aux éléments de données** : Cette étape varie en fonction de la méthode de mise en œuvre de votre entreprise :
    * **Si vous utilisez le SDK Web** : mappez les objets de couche de données de votre choix aux champs XDM désirés dans Adobe Experience Platform Edge. Consultez [Mappage des variables XDM Analytics](../aep-edge/xdm-var-mapping.md) pour déterminer le mappage de couche de données souhaité.
-   * **Si vous utilisez l’extension Analytics** : créez des éléments de données sous l’onglet Balises dans la collecte de données Adobe Experience Platform et affectez-les aux objets de couche de données de votre choix. Ensuite, dans l’extension Analytics, affectez chaque élément de données à la variable Analytics appropriée.
+   * **Si vous utilisez l’extension Analytics** : créez des éléments de données sous l’onglet Balises dans la collecte de données Adobe Experience Platform et affectez-les aux objets de couche de données de votre choix. Ensuite, dans l’extension Analytics, attribuez chaque élément de données à la variable Analytics appropriée.
 
 ## Spécifications
 
@@ -56,7 +68,7 @@ Adobe recommande d’utiliser la [couche de données du client Adobe](https://gi
 
 Votre entreprise peut utiliser d’autres spécifications de couche de données, comme la [couche de données numériques de l’expérience client](https://www.w3.org/2013/12/ceddl-201312.pdf), ou une autre spécification personnalisée. L’alignement sur une couche de données cohérente répondant aux besoins de votre entreprise est le plus important.
 
-Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans la couche de données pour répondre à ces besoins.
+Les couches de données sont extensibles ; si vous avez des exigences spécifiques à votre entreprise, vous pouvez inclure des objets dans votre couche de données pour répondre à ces besoins.
 
 ## Définition des valeurs de couche de données
 

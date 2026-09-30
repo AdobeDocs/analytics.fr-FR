@@ -7,24 +7,32 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 821
+source-wordcount: '821'
 ht-degree: 91%
-
 ---
-
 # Plug-in Adobe : getTimeBetweenEvents
 
 {{plug-in}}
@@ -45,7 +53,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
    * Type d’action : initialisation de getTimeBetweenEvents
@@ -87,15 +95,15 @@ La fonction `getTimeBetweenEvents` utilise les arguments suivants :
 * **`cn`** (facultatif, chaîne) : nom du cookie où l’heure du premier événement est enregistrée. La valeur par défaut est `"s_tbe"`.
 * **`etd`** (facultatif, entier) : délai d’expiration du cookie en jours. Définissez cet argument sur `0` pour qu’il expire à la fin de la session du navigateur. La valeur par défaut est 1 jour lorsqu’elle n’est pas définie.
 * **`fmt`** format du temps dans lequel le nombre de secondes est renvoyé (par défaut, aucun).
-   * `"s"` pour les secondes
-   * `"m"` pour les minutes
-   * `"h"` pour les heures
-   * `"d"` pour les jours
-   * Lorsqu’il n’est pas défini, le format de la valeur renvoyée dépend des règles suivantes :
-      * Tout ce qui est inférieur à une minute est arrondi à la référence de cinq secondes la plus proche. Par exemple, 10 secondes, 15 secondes.
-      * Tout ce qui se situe entre une minute et une heure est arrondi à la référence d’une demi-minute la plus proche. Par exemple, 30,5 minutes, 31 minutes.
-      * Tout ce qui se situe entre une heure et un jour est arrondi à la référence d’un quart d’heure la plus proche. Par exemple, 2,25 heures, 3,5 heures.
-      * Tout ce qui est supérieur à un jour est arrondi à la référence de jour la plus proche. Par exemple, 1 jour, 3 jours, 9 jours.
+  * `"s"` pour les secondes
+  * `"m"` pour les minutes
+  * `"h"` pour les heures
+  * `"d"` pour les jours
+  * Lorsqu’il n’est pas défini, le format de la valeur renvoyée dépend des règles suivantes :
+    * Toute durée inférieure à une minute est arrondie au multiple de 5 secondes le plus proche. Par exemple, 10 secondes, 15 secondes.
+    * Toute durée comprise entre une minute et une heure est arrondie à la demi-minute la plus proche. Par exemple, 30,5 minutes, 31 minutes.
+    * Toute durée comprise entre une heure et une journée est arrondie au quart d’heure le plus proche. Par exemple, 2,25 heures, 3,5 heures.
+    * Tout ce qui est supérieur à un jour est arrondi à la référence de jour la plus proche. Par exemple, 1 jour, 3 jours, 9 jours.
 * **`bml`** (facultatif, nombre) : durée des références de l’arrondi selon le format de l’argument `fmt`. Par exemple, si l’argument `fmt` est sur `"s"` et que cet argument est défini sur `2`, la valeur renvoyée est arrondie à la référence de deux secondes la plus proche. Si l’argument `fmt` est sur `"m"` et que cet argument est défini sur `0.5`, la valeur renvoyée est arrondie à la référence d’une demi-minute la plus proche.
 * **`rte`** (facultatif, chaîne) : chaîne d’événements Analytics délimitée par des virgules qui supprime ou annule le retardateur. La valeur par défaut est nulle.
 

@@ -1,36 +1,50 @@
 ---
-description: Étiqueter les données de la suite de rapports signifie que vous attribuez des libellés d’identité, de sensibilité et des étiquettes de gouvernance des données à chaque variable dans une suite de rapports donnée.
+description: L’étiquetage des données d’une suite de rapports consiste à attribuer des libellés d’identité, de sensibilité et de gouvernance des données à chaque variable d’une suite de rapports donnée.
 title: Présentation de l’étiquetage de confidentialité
 feature: Data Governance
 role: Admin
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-TQID: https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0
+TQID: 'https://experienceleague.adobe.com/xEs37qiYjTVJWRDKa7HwJqfTtyBYKstA6ehq1-0qKt0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 534
+source-wordcount: '534'
 ht-degree: 98%
-
 ---
-
 # Présentation de l’étiquetage de confidentialité
 
 Étiqueter les données de la suite de rapports signifie que vous attribuez des étiquettes d’identité, de sensibilité et de gouvernance des données à chaque variable dans une suite de rapports donnée. Assurez-vous d’abord de vous familiariser avec les [étiquettes et leurs définitions](/help/admin/tools/privacy-labeling/labels.md).
@@ -49,11 +63,11 @@ ht-degree: 98%
 
 1. Sélectionnez une suite de rapports dans le sélecteur de **[!UICONTROL Suites de rapports]** en haut.
 
-1. Dans la section de filtrage de gauche, sélectionnez les groupes de variables à étiqueter. Vous ne pouvez étiqueter qu’un seul groupe de variables à la fois.
+1. Dans la section de filtrage située à gauche, sélectionnez les groupes de variables à étiqueter. Vous ne pouvez étiqueter qu’un seul groupe de variables à la fois.
 
    * **Composants standard** : les composants standard sont des dimensions et des mesures Analytics prêtes à l’emploi qui sont collectées par défaut dans une implémentation Analytics.
    * **Variables de conversion** : la variable de conversion Custom Insight (eVar) est placée dans le code Adobe sur les pages web sélectionnées de votre site. Son principal objectif est de segmenter les mesures de succès de conversion dans les rapports marketing personnalisés. Une eVar peut être basée sur les visites et fonctionner comme un cookie. Les valeurs transmises dans des variables eVar suivent l’utilisateur pendant une période prédéfinie.
-   * **Variables de liste** : les variables de liste sont des variables personnalisées que vous pouvez utiliser à votre guise. Elles fonctionnent de la même manière que les eVars, sauf qu’elles peuvent contenir plusieurs valeurs dans le même accès. Les variables de liste n’ont pas de limite de caractères.
+   * **Variables de liste** : les variables de liste sont des variables personnalisées que vous pouvez utiliser à votre guise. Elles fonctionnent de la même manière que les eVars, sauf qu’elles peuvent contenir plusieurs valeurs dans le même hit. Les variables de liste n’ont pas de limite de caractères.
    * **Variables de trafic** : les variables de trafic Custom Insight (props) vous permettent d’établir des corrélations entre des données personnalisées et des événements liés à un trafic spécifiques. Les variables prop sont intégrées au code de mise en œuvre dans chaque page de votre site Web.
    * **Événements de succès** : les événements de succès (également appelés événements de conversion ou événements personnalisés) sont des actions dont le suivi peut être effectué. Il vous appartient de déterminer ce qu’est un événement de succès. Par exemple, si une personne achète un article, l’achat peut être considéré comme un événement de succès.
    * **Classification** : les répartitions de classification permettent de mettre en correspondance les données des rapports Analytics et les propriétés les concernant. Les classifications peuvent être utilisées à diverses fins. Toutefois, elles servent principalement à classer les codes de suivi de campagne (internes et externes), ainsi que les identifiants de produits.

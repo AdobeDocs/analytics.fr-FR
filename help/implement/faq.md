@@ -4,51 +4,66 @@ description: Questions fréquemment posées sur la mise en œuvre et liens vers 
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/Hm9pIJE9P3jEljJAgB69k2M9-fTa9G0wsCjfvN4xH3E
+TQID: 'https://experienceleague.adobe.com/Hm9pIJE9P3jEljJAgB69k2M9-fTa9G0wsCjfvN4xH3E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c77ba355-6681-41fe-b719-563d3f507fdb
+    internal-label: Mobile SDK
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: '511'
 ht-degree: 96%
-
 ---
-
 # FAQ sur la mise en œuvre d’Analytics
 
 Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 
 ## Quelle est la différence entre l’identifiant visiteur Experience Cloud et l’identifiant visiteur Analytics ?
 
-Identity Service attribue un identifiant unique et persistant qui peut être partagé entre d’autres solutions dans l’entreprise CX. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs d’Experience Cloud dans votre mise en œuvre.
+Identity Service attribue un identifiant unique et persistant qui peut être partagé entre d’autres solutions dans CX Enterprise. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs d’Experience Cloud dans votre mise en œuvre.
 
-## Comment mettre en œuvre le suivi des vidéos Pulsation ?
+## Comment mettre en œuvre le suivi vidéo Heartbeat ?
 
 Voir [Mesures audio et vidéo dans Adobe Analytics](https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview).
 
-## Une interruption de service chez Adobe peut-elle affecter les performances ?
+## Une interruption de service chez Adobe peut-elle affecter les performances ?
 
 Non. Le fichier JavaScript n’est pas hébergé sur les serveurs Adobe. Par conséquent, une panne des serveurs Adobe n’affecte pas votre bibliothèque AppMeasurement. Si vous utilisez les balises dans Adobe Experience Platform, le fichier JavaScript est hébergé par Akamai ou sur un emplacement de serveur déterminé par votre organisation.
 
-## L’envoi de données du navigateur vers les services Adobe peut-il réduire les performances ?
+## L’envoi de données du navigateur vers les services Adobe peut-il avoir une incidence sur les performances ?
 
-AppMeasurement crée un objet image dans la page HTML, puis le navigateur demande l’objet image auprès des serveurs de collecte de données Adobe. Si les serveurs Adobe sont lents ou ne répondent pas, le thread gérant cette demande est retardé jusqu’à ce que l’image réapparaisse ou qu’une temporisation se produise. Les navigateurs gèrent les images avec plusieurs threads. Pour cette raison, les pannes de serveurs Adobe ont peu d’incidence sur le temps de chargement de la page puisqu’un seul thread est concerné tandis que les autres continuent à fonctionner.
+AppMeasurement crée un objet image dans la page HTML, puis le navigateur demande l’objet image auprès des serveurs de collecte de données Adobe. Si les serveurs de collecte de données Adobe sont lents ou ne répondent pas, le thread gérant cette demande est retardé jusqu’au renvoi de l’image ou jusqu’à l’expiration du délai d’attente. Les navigateurs gèrent les images avec plusieurs threads. Pour cette raison, les pannes de serveurs Adobe ont peu d’incidence sur le temps de chargement de la page puisqu’un seul thread est concerné tandis que les autres continuent à fonctionner.
 
 ## Comment puis-je invalider ou supprimer une mise en œuvre Analytics ?
 

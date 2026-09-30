@@ -4,29 +4,41 @@ title: Accessibilité dans Analysis Workspace
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-TQID: https://experienceleague.adobe.com/qT9P5156x2J9nRupDY-fgf6ArTnhIPvSg88YyKfQ9n4
+TQID: 'https://experienceleague.adobe.com/qT9P5156x2J9nRupDY-fgf6ArTnhIPvSg88YyKfQ9n4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
+  - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Accessibility
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 547
+source-wordcount: '547'
 ht-degree: 100%
-
 ---
-
 # Accessibilité dans Analysis Workspace
 
 Découvrez la prise en charge de l’accessibilité dans [!UICONTROL Analysis Workspace], le principal outil d’analyse de Customer Journey Analytics.
@@ -48,7 +60,7 @@ La navigation dans [!UICONTROL Analysis Workspace] s’effectue de haut en bas e
 * La touche **[!UICONTROL Tab]** active des raccourcis de repère, pour se déplacer entre des sections plus grandes dans Workspace. Dans le panneau de gauche, la touche **[!UICONTROL Tab]** vous permet également de passer d’une option déplaçable à la suivante.
 * Les touches ◀ et ▶ permettent de se déplacer entre les éléments individuels après que la touche **[!UICONTROL Tab]** a mis en surbrillance un élément.
 * La touche **[!UICONTROL F6]** permet d’accéder au premier panneau du projet et de se déplacer parmi les visualisations de ce panneau. Puis, il passe au panneau suivant du projet et répète la même opération.
-* Des indicateurs d’élément actif sont présents afin que les utilisateurs et les utilisatrices malvoyants disposent d’une indication claire mettant en évidence l’élément de l’interface utilisateur actuellement actif. L’indicateur est une bordure bleue pour le panneau actif. Et un arrière-plan gris pour la fonctionnalité sélectionnée récemment et la sélection dans la fonctionnalité. Dans cet exemple, [!UICONTROL Composants] et la dimension Page ont été récemment sélectionnés.
+* Des indicateurs de focus sont appliqués afin que les personnes voyantes utilisant le clavier disposent d’une indication claire de l’élément de l’interface utilisateur qui possède actuellement le focus. L’indicateur est une bordure bleue entourant le panneau qui a le focus. Et un arrière-plan gris pour la fonctionnalité sélectionnée récemment et la sélection dans la fonctionnalité. Dans cet exemple, [!UICONTROL Composants] et la dimension Page ont été récemment sélectionnés.
 
   ![Tableau à structure libre affichant un indicateur de mise au point d’une bordure bleue autour du tableau à structure libre.](assets/focus-indicator.png)
 
@@ -74,7 +86,7 @@ La navigation dans [!UICONTROL Analysis Workspace] s’effectue de haut en bas e
 
 ## Prise en charge des lecteurs d’écran et des loupes
 
-Un lecteur d’écran lit le texte qui s’affiche sur l’écran de l’ordinateur. Il lit également les informations non textuelles, telles que les libellés des boutons ou les descriptions d’image dans l’application.
+Un lecteur d’écran lit le texte qui s’affiche sur l’écran de l’ordinateur. Il lit également les informations non textuelles, telles que les libellés des boutons ou les descriptions d’images dans l’application.
 
 ## Palettes et contraste des couleurs
 
@@ -84,13 +96,13 @@ En outre, les utilisateurs peuvent définir leur propre palette de couleurs pré
 
 ## Validation requise
 
-Lors de la création d’un composant, d’une visualisation ou d’un panneau, les champs obligatoires sont validés lors de l’enregistrement. Si un champ obligatoire n’est pas validé, il est entouré en rouge avec une icône d’erreur. Une description écrite explique ce qui doit être corrigé.
+Lors de la création d’un composant, d’une visualisation ou d’un panneau, les champs obligatoires sont validés lors de l’enregistrement. Si un champ obligatoire ne passe pas la validation, il est encadré en rouge et accompagné d’une icône d’erreur. Une description écrite explique ce qui doit être corrigé.
 
 ![Créateur de segments et indicateur de validation des erreurs.](assets/error-validation.png)
 
 ## Prise en charge des fonctionnalités d’accessibilité du système d’exploitation
 
-Analysis Workspace prend en charge les fonctionnalités d’accessibilité intégrées à Windows et macOS, telles que le mode de contraste élevé, les touches rémanentes et les touches lentes/filtres. Il fournit également des informations sur l’interface utilisateur du système d’exploitation pour permettre l’interaction avec les technologies d’assistance, y compris les lecteurs d’écran tels que VoiceOver pour macOS et NVDA sous Windows.
+Analysis Workspace prend en charge les fonctionnalités d’accessibilité intégrées de Windows et macOS, telles que le mode de contraste élevé, les touches rémanentes et les touches lentes/touches de filtrage. Il fournit également des informations sur l’interface utilisateur du système d’exploitation pour permettre l’interaction avec les technologies d’assistance, y compris les lecteurs d’écran tels que VoiceOver pour macOS et NVDA sous Windows.
 
 
 <!--

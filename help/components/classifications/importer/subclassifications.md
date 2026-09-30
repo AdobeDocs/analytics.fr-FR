@@ -3,26 +3,33 @@ description: Adobe Analytics prend en charge les modèles de classifications à 
 title: Sous-classifications
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-TQID: https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A
+TQID: 'https://experienceleague.adobe.com/Gla7xVOKKBnfRJu06NOzNsN6IsRr741fDRrd-z8Dy-A'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 682
+source-wordcount: '682'
 ht-degree: 97%
-
 ---
-
 # Sous-classifications
 
 {{classification-importer-deprecation}}
@@ -46,13 +53,13 @@ Chaque classification de ce modèle est indépendante et correspond à un nouvea
 
 Pour plus d’informations sur le fichier de données, voir [Fichiers de données de classification](/help/components/classifications/importer/c-saint-data-files.md).
 
-Les classifications à plusieurs niveaux comprennent les classifications parentes et enfants. Par exemple :
+Les classifications à plusieurs niveaux comprennent les classifications parent et enfant. Par exemple :
 
 ![](../assets/Multi-Level-Class-popup.png)
 
-**Classifications parentes** : une classification parente est une classification associée à une classification enfant. Une classification peut être une classification parente et enfant. Les classifications parentes de niveau supérieur correspondent à des classifications à niveau unique.
+**Classifications parentes** : une classification parente est une classification associée à une classification enfant. Une classification peut être à la fois une classification parent et une classification enfant. Les classifications parent de niveau supérieur correspondent à des classifications à niveau unique.
 
-**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications enfants fournissent des informations supplémentaires sur leur classification parente. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification enfant de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
+**Classifications enfants** : une classification enfant est une classification qui possède une autre classification en tant que parent à la place de la variable. Les classifications enfants fournissent des informations supplémentaires sur leur classification parent. Par exemple, une classification de [!UICONTROL campagne] peut posséder une classification enfant de propriétaire de campagne. Les classifications [!UICONTROL numériques] fonctionnent également comme des mesures dans les rapports de classification.
 
 Chaque classification, parent ou enfant, constitue une colonne de données dans le fichier de données. L’en-tête de colonne d’une classification enfant utilise le format d’affectation de nom suivant :
 
@@ -81,7 +88,7 @@ Bien que le modèle de fichier d’une classification à plusieurs niveaux soit 
 >
 >Les données de classification de produit sont limitées aux attributs de données correspondant directement au produit, et non à la manière dont les produits sont classés ou vendus sur le site web. Les éléments de données tels que les catégories de vente, les nœuds de navigateur du site ou les articles en vente ne sont pas des données de classification de produit. Ces éléments sont capturés dans des variables de conversion de rapport.
 
-Lors du téléchargement de fichiers de données pour cette classification de produit, vous pouvez télécharger les données de classification sous la forme d’un ou de plusieurs fichiers (vois ci-dessous). En séparant le code couleur du fichier 1 et le nom de la couleur dans le fichier 2, les informations concernant le nom de la couleur (qui peuvent n’occuper que quelques lignes) ne doivent être mises à jour que lors de la création de nouveaux codes couleur. Cela a pour effet d’éliminer le champ du nom de la couleur (CODE^COLOR) du fichier 1, qui est mis à jour plus souvent, et de réduire la complexité et la taille du fichier lors de la création du fichier de données.
+Lors du chargement de fichiers de données pour cette classification de produit, vous pouvez charger les données de classification sous la forme d’un ou de plusieurs fichiers (voir ci-dessous). En séparant le code couleur du fichier 1 et le nom de la couleur dans le fichier 2, les informations concernant le nom de la couleur (qui peuvent n’occuper que quelques lignes) ne doivent être mises à jour que lors de la création de nouveaux codes couleur. Cela a pour effet d’éliminer le champ du nom de la couleur (SYMBOLE^COULEUR) du fichier 1, qui est mis à jour plus souvent, et de réduire la complexité et la taille du fichier lors de la création du fichier de données.
 
 ### Classification de produit - fichier unique {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 

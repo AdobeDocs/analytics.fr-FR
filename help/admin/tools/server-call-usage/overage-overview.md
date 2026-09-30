@@ -4,27 +4,37 @@ title: Aperçu de l’utilisation de l’appel au serveur
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 77%
-
 ---
-
 # Utilisation de l’appel au serveur
 
 L’utilisation des appels au serveur Adobe Analytics répond à vos demandes de transparence concernant les données d’utilisation des appels au navigateur et au serveur mobile. Il vous permet d’accéder à :
@@ -55,15 +65,15 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Appel au serveur </p> </td> 
-   <td colname="col2"> <p>Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. La page vue constitue le type d’appel serveur le plus courant. On parle de page vue lorsqu’un visiteur consulte une page sur votre site web et qu’un appel au serveur est généré vers Adobe. Des informations sont alors collectées, traitées et incluses dans vos mesures de rapport. </p> <p>Il existe d’autres types d’appels au serveur, tels que des liens de sortie et des téléchargements de fichiers. Dans ce cas, des données sont envoyées à Adobe pour traitement, mais elles ne sont pas enregistrées en tant que nouvelle page vue. Même les pages vues « exclues » (c’est-à-dire exclues de vos rapports par une plage d’adresses IP que vous avez configurée, par exemple) sont des appels au serveur, étant donné qu’Adobe les reçoit et les traite. Cependant, elles n’apparaissent jamais dans vos rapports. </p> <p><b>Appel au serveur principal</b> : Requêtes transmises directement par les navigateurs des visiteurs du site web ou l’API d’insertion de données. Inclut les accès principaux (pages vues), les événements personnalisés principaux, les événements de téléchargement principaux et les événements de sortie principaux. </p> <p><b>Appel au serveur secondaire</b> : Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p><b>Appel au serveur principal mobile</b> </p> <p>Demandes reçues directement de l’un des kits SDK mobiles. Incluez trackAction, trackState, blocages trackApp, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Appel au serveur secondaire mobile</b> </p> <p>Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p>Remarque : si votre société n’a le droit, en vertu du contrat, qu’aux appels au serveur mobile (principal ou secondaire), votre utilisation web et mobile sera décomptée de votre engagement mobile. </p> </td> 
+   <td colname="col2"> <p>Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. La page vue constitue le type d’appel au serveur le plus courant. On parle de page vue lorsqu’un visiteur consulte une page sur votre site web et qu’un appel au serveur est généré vers Adobe. Des informations sont alors collectées, traitées et incluses dans vos mesures de rapport. </p> <p>Il existe d’autres types d’appels au serveur, tels que des liens de sortie et des téléchargements de fichiers. Dans ce cas, des données sont envoyées à Adobe pour traitement, mais elles ne sont pas enregistrées en tant que nouvelle page vue. Même les pages vues « exclues » (c’est-à-dire exclues de vos rapports par une plage d’adresses IP que vous avez configurée, par exemple) sont des appels au serveur, étant donné qu’Adobe les reçoit et les traite. Cependant, elles n’apparaissent jamais dans vos rapports. </p> <p><b>Appel au serveur principal</b> : Requêtes transmises directement par les navigateurs des visiteurs du site web ou l’API d’insertion de données. Inclut les hits principaux (pages vues), les événements personnalisés principaux, les événements de téléchargement principaux et les événements de sortie principaux. </p> <p><b>Appel au serveur secondaire</b> : Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un appel au serveur secondaire a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, l’accumulation des appels au serveur secondaire sera déduite des appels au serveur principal. </p> <p><b>Appel au serveur principal mobile</b> </p> <p>Demandes reçues directement à partir de l’un des SDK Mobile Inclut trackAction, trackState, trackApp Crashes, trackActionFromBackground, trackLocation, trackBeacon, trackPushMessageClickThrough, trackTimedActionBacklog, trackLifetimeValueIncrease.</p> <p><b>Appel au serveur secondaire mobile</b> </p> <p>Copies des appels au serveur principal créées par des balises multi-suite ou copiées/déplacées par une règle VISTA. Si un deuxième appel serveur a été déplacé (et non copié) vers une suite de rapports différente par une règle VISTA, le cumul des deuxièmes appels serveur est déduit des premiers appels au serveur. </p> <p>Remarque : si votre société n’a le droit, en vertu du contrat, qu’aux appels au serveur mobile (principal ou secondaire), votre utilisation web et mobile sera décomptée de votre engagement mobile. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de facturation (ID de facturation) </p> </td> 
-   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un ID de facturation utilisé uniquement pour identifier le client de facturation. Un identifiant de facturation peut être lié à plusieurs organisations d’entreprise CX ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation. </p> </td> 
+   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un ID de facturation utilisé uniquement pour identifier le client de facturation. Un identifiant de facturation peut être lié à plusieurs organisations CX Enterprise ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de connexion </p> </td> 
-   <td colname="col2"> <p>Une société de facturation peut avoir <a href="https://helpx.adobe.com/fr/analytics/kb/multiple-login-companies.html">plusieurs sociétés de connexion </a>. Une connexion de société est une collecte de suites de rapports utilisée par votre organisation. Certaines organisations sont dotées de plusieurs sociétés de connexion qui s’appliquent à différentes parties de l’organisation. Ceci s’avère particulièrement utile pour les grandes entreprises qui traitent différentes unités opérationnelles qui gèrent des suites de rapports qui leur sont propres. </p> <p>Il s’agit souvent des filiales régionales d’une société. L’exemple suivant montre les sociétés de connexion et leurs suites de rapports associées : </p> 
+   <td colname="col2"> <p>Une société de facturation peut avoir <a href="https://helpx.adobe.com/fr/analytics/kb/multiple-login-companies.html">plusieurs sociétés de connexion </a>. Une connexion de société est une collecte de suites de rapports utilisée par votre organisation. Certaines organisations disposent de plusieurs organisations de connexion qui s’appliquent à différentes parties de l’organisation. Ceci est particulièrement utile pour les grandes organisations qui gèrent différentes unités opérationnelles, où de nombreuses suites de rapports ne sont pas pertinentes pour les autres entités de la société. </p> <p>Il s’agit souvent des filiales régionales d’une société. L’exemple suivant montre les organisations de connexion et leurs suites de rapports associées : </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide : RS1, RS2, RS3, RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us : RS1, RS2 </li> 
@@ -72,12 +82,12 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
     </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/admin-console/permissions/analytics-tools.md">permission</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organisation CX Entreprise </p> </td> 
-   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs et de contrôler l’authentification unique dans CX Enterprise. L'organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions CX Enterprise. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
+   <td colname="col1"> <p>Organisation CX Enterprise </p> </td> 
+   <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs, et de contrôler l’authentification unique dans CX Enterprise. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions CX Enterprise. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Engagement des appels au serveur </p> </td> 
-   <td colname="col2"> <p>Lorsque votre société signe un contrat avec Adobe, l’équipe de vente d’Adobe identifie avec vous les clients, les types d’appels (principal, secondaire, principal mobile, secondaire mobile) et le nombre approximatif d’appels au serveur que vous prévoyez au cours de la durée du contrat. Il s’agit de votre engagement total d’appel au serveur. </p> </td> 
+   <td colname="col2"> <p>Lorsque votre société signe un contrat avec Adobe, le Service commercial Adobe détermine avec vous, en tant que client ou cliente, les types d’appels (principal, secondaire, principal mobile, secondaire mobile) et le nombre approximatif d’appels au serveur que vous prévoyez au cours de la durée du contrat. Il s’agit de votre engagement total d’appel au serveur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Période d’utilisation </p> </td> 
@@ -85,7 +95,7 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Durée du contrat </p> </td> 
-   <td colname="col2"> <p>La durée du contrat peut s’étendre sur plusieurs années. Disons que votre société s’engage à 6 millions d’appels au serveur pour un contrat de trois ans. Pour des besoins de surveillance de l’utilisation de l’appel au serveur, cette période de trois ans peut être ventilée en périodes d’utilisation plus petites pour faciliter la comparaison d’une année à l’autre. </p> </td> 
+   <td colname="col2"> <p>La durée du contrat peut s’étendre sur plusieurs années. Disons que votre société s’engage à effectuer 6 millions d’appels au serveur pour un contrat de trois ans. Pour des besoins de surveillance de l’utilisation de l’appel au serveur, cette période de trois ans peut être ventilée en périodes d’utilisation plus petites pour faciliter la comparaison d’une année à l’autre. </p> </td> 
   </tr> 
  </tbody> 
 </table>

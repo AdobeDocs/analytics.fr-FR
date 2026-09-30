@@ -4,24 +4,31 @@ description: Découvrez comment limiter une période de suite de rapports virtue
 exl-id: 421d101d-8c64-47f7-b5a2-da039889f663
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/x7zHG4xkSr1yDLZ2dfosn5PaK4JVxiMWC6xksSTLypE
+TQID: 'https://experienceleague.adobe.com/x7zHG4xkSr1yDLZ2dfosn5PaK4JVxiMWC6xksSTLypE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 288
+source-wordcount: '288'
 ht-degree: 41%
-
 ---
-
 # Limiter une suite de rapports virtuelle à certaines dates
 
 {{available-existing-customers}}
@@ -38,7 +45,7 @@ Lorsque vous configurez la suite de rapports virtuelle, sous Composants, ajoutez
 
 ## Étape 2 : créer un segment « exclure-exclure »
 
-Créez ensuite un segment dʼaccès qui place la période dans un segment « exclure le conteneur » à lʼintérieur dʼun autre segment « exclure le conteneur ». C&#39;est une exclusion.
+Créez ensuite un segment de hits qui place la période dans un conteneur dʼexclusion imbriqué dans un autre conteneur d’exclusion. C&#39;est une exclusion.
 
 La raison de l’« exclusion » est que les périodes sont destinées à remplacer la période du rapport. Ainsi, si vous incluez uniquement les données à partir du 1er juin, la période du rapport sera toujours du 1er juin à la date actuelle. Cela conduira à des résultats indésirables. Lorsque vous « excluez, excluez », cela remplace ce comportement et limite simplement les données que vous pouvez extraire à la période appropriée.
 
@@ -48,8 +55,8 @@ La raison de l’« exclusion » est que les périodes sont destinées à rempla
 
 ![](assets/apply-segment.png)
 
-## Étape 4 : afficher les résultats dans le compte rendu des performances
+## Étape 4 : Consulter les résultats dans le reporting
 
-Remarquez que le compte rendu des performances débute désormais à la date souhaitée, le jour même où lʼassemblage a été mis en œuvre pour la première fois :
+Notez que le reporting commence désormais à la date souhaitée, le jour même où le rapprochement a été mis en œuvre pour la première fois :
 
 ![](assets/report-limited-dates.png)

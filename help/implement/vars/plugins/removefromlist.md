@@ -7,25 +7,33 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/oZd0u-66AFoK0544-3VQOnqe8fo20qXMibSqKE60kqA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 93%
-
 ---
-
-# Plug-in Adobe : rfl (Remove From List)
+# Plug-in Adobe : rfl (Remove From List, supprimer de la liste)
 
 {{plug-in}}
 
@@ -50,10 +58,10 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
-   * Type d’action : initialisation de rfl (Remove From List)
+   * Type d’action : Initialize rfl (Remove From List, supprimer de la liste)
 1. Enregistrez et publiez les modifications apportées à la règle.
 
 ## Installation du plug-in à l’aide de l’éditeur de code personnalisé
@@ -132,7 +140,7 @@ s.events = rfl(s.events,"event26");
 s.events = "event22,event24,event25";
 ```
 
-Dans cet exemple, l’appel rfl n’a apporté aucune modification à s.events, car cette variable ne contenait pas event26.
+Dans cet exemple, l’appel rfl n’a apporté aucune modification à s.events, car s.events ne contenait pas « event26 ».
 
 ### Exemple 3
 
@@ -170,7 +178,7 @@ s.prop4 = "hello|people|today";
 s.eVar5 = rfl(s.prop4,"people","|");
 ```
 
-…alors la valeur finale de s.prop4 reste…
+…alors la valeur finale de s.prop4 sera toujours…
 
 ```js
 s.prop4 = "hello|people|today";
@@ -198,7 +206,7 @@ s.prop4 = "hello|people|today";
 s.prop4 = rfl(s.prop4,"people");
 ```
 
-…alors la valeur finale de s.prop4 reste…
+…alors la valeur finale de s.prop4 sera toujours…
 
 ```js
 s.prop4 = "hello|people|today";
@@ -423,11 +431,11 @@ Pour rappel, le plug-in renvoie uniquement une valeur. Il ne « réinitialise 
 
 ### 2.1 (19 mars 2021)
 
-* Ajout du numéro de version comme donnée contextuelle.
+* Ajout du numéro de version comme données contextuelles
 
 ### 2.01 (17 septembre 2019)
 
-* Correction d’un bogue mineur pour la valeur par défaut du délimiteur.
+* Correction d’un bug mineur pour la valeur par défaut du délimiteur
 
 ### 2.0 (16 avril 2018)
 

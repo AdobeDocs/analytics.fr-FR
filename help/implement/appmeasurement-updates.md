@@ -4,39 +4,59 @@ description: Notes de mise à jour cumulées pour AppMeasurement pour JavaScript
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
+TQID: 'https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2880
+source-wordcount: '2880'
 ht-degree: 69%
-
 ---
-
 # Notes de mise à jour d’AppMeasurement pour JavaScript
 
 >[!IMPORTANT]
@@ -79,7 +99,7 @@ Date de publication : **mercredi 18 juillet 2023**
 
 Date de publication : **23 septembre 2022**
 
-* AppMeasurement prend désormais en charge la collecte d’indications du client de la chaîne Agent-utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur les appareils. Vous pouvez configurer des indications du client via des balises ou utiliser la variable de configuration [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La collecte d’indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
+* AppMeasurement prend désormais en charge la collecte d’indications client de l’agent utilisateur à entropie élevée que les navigateurs Chromium (Google Chrome et Microsoft Edge) utilisent pour fournir des informations sur l’appareil. Vous pouvez configurer des indications du client via des balises ou utiliser la variable de configuration [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md). La collecte d’indications à entropie élevée est désactivée par défaut. En savoir plus sur la chaîne Agent-utilisateur et les [indications du client](/help/technotes/client-hints.md).
 
 ## Version 2.22.4
 
@@ -103,13 +123,13 @@ Date de publication : **7 septembre 2021**
 
 Date de publication : **17 août 2021**
 
-* Les clients ayant choisi lʼexclusion peuvent avoir constaté que les paramètres dʼexclusion de transfert côté serveur ne sont pas respectés lors du suivi des liens. Les correctifs de cette version entraînent lʼenvoi des indicateurs dʼexclusion sʼils sont présents lors du suivi des liens.
+* Les clients utilisant lʼopt-out ont pu constater que les paramètres dʼopt-out de transfert côté serveur n’étaient pas pris en compte lors du suivi des liens. Les correctifs inclus dans cette version entraînent lʼenvoi des indicateurs dʼopt-out lorsqu’ils sont présents lors du suivi des liens.
 
 ## Version 2.22.0
 
 Date de publication : **4 août 2020**
 
-* Correction relative à un référent manquant lorsque le premier accès n’était pas envoyé en raison des préférences de désinscription de l’utilisateur.
+* Correction du problème de référent manquant lorsque le premier hit n’était pas envoyé en raison des préférences dʼopt-out de l’utilisateur.
 
 ## Version 2.21.0
 
@@ -140,53 +160,53 @@ Date de publication : **13 février 2020**
 Date de publication : **23 août 2019**
 
 * Ajout de la prise en charge du reclassement des chaînes de requête Baidu. (AN-182483)
-* Correction d’un problème en raison duquel des valeurs de visiteurs caduques dans les accès étaient placées en file d’attente en attendant une acceptation. (AN-184391)
+* Correction d’un problème en raison duquel des valeurs de visiteurs caduques dans les hits étaient placées en file d’attente en attendant une acceptation. (AN-184391)
 
 ## Version 2.16.0
 
 Date de publication : **15 août 2019**
 
-* Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Si un accès est utilisé `sendBeacon` et que la page est déchargée, la requête est toujours terminée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que l’accès atteigne les serveurs de collecte de données. (AN-175142)
-* Les valeurs ECID/fid sont maintenant mises en cache au premier accès, même si les paramètres OptIn changent. (AN-175142)
+* Mise en œuvre de la prise en charge `sendBeacon` des liens de sortie dans [!UICONTROL AppMeasurement]. Si un hit est utilisé `sendBeacon` et que la page est déchargée, la requête est tout de même exécutée. Cela s’avère très utile pour les liens de sortie, car il est plus probable que le hit atteigne les serveurs de collecte de données. (AN-175142)
+* Les valeurs ECID/fid sont maintenant mises en cache au premier hit, même si les paramètres OptIn changent. (AN-175142)
 * Mise à jour du module Gestion de l’audience vers DIL 9.3. (AN-182704)
 * Bouton exposé dans `s.ActivityMap.trackScrollReach` permettant d’activer ou de désactiver le suivi de la portée de défilement. (AN-182754)
-* Mise à niveau d’AppMeasurement pour utiliser le service d’identification des visiteurs 4.4.0. (AN-182912)
+* Mise à niveau d’AppMeasurement pour utiliser le service d’identifiant visiteur 4.4.0. (AN-182912)
 
 ## Version 2.15.0
 
 Date de publication : **15 juillet 2019**
 
-* Ajout du suivi de la portée de défilement ActivityMap à l’extension ActivityMap (AN-172949)
+* Ajout du suivi de la portée de défilement Activity Map à l’extension Activity Map (AN-172949)
 * Ajout de DIL 9.2 à AppMeasurement (AN-182472)
 
 ## Version 2.14.0
 
 Date de publication : **21 mai 2019**
 
-* Correction de problèmes liés à la gestion de l’état des paramètres de suivi lorsque plusieurs accès sont en attente. (AN-176931, AN-176629, DTM-12758)
+* Correction de problèmes liés à la gestion de l’état des paramètres de suivi lorsque plusieurs hits sont en attente. (AN-176931, AN-176629, DTM-12758)
 * Mise à jour d’AppMeasurement pour inclure Visitor.js 4.3.0 (AN-180049)
 
 ## Version 2.13.0
 
 Date de publication : **10 avril 2019**
 
-* Correction de nombreux problèmes signalés avec clearVars. Le problème survient lorsque les accès sont envoyés avant que l’outil de suivi ne soit prêt. Lorsque l’outil de suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN-176931, AN-176629, DTM-12758).
+* Correction de nombreux problèmes signalés avec clearVars. Le problème survient lorsque les hits sont envoyés avant que l’outil de suivi ne soit prêt. Lorsque l’outil de suivi est prêt, la bibliothèque peut définir des variables qui ont déjà été effacées ou modifiées. (AN-176931, AN-176629, DTM-12758).
 
 ## Version 2.12.0
 
 Date de publication : **22 février 2019**
 
 * Mise à jour du module Gestion de l’audience vers DIL 9.1. (AN-175255)
-* La politique de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
+* La politique de sécurité GTM n’autorise pas le module Activity Map. (AN-174679)
 * Amélioration d’AppMeasurement pour honorer la désinscription lorsque le service d’identification des visiteurs n’est pas approuvé dans la souscription. (AN-175259)
 
 ## Version 2.11.0
 
 Date de publication : **11 février 2019**
 
-* Ajout de la prise en charge des nouveaux services de souscription Adobe dans AppMeasurement. (AN-163546)
-* Ajout de la prise en charge du stockage des données de suivi des liens pour le stockage de session. (AN-162272)
-* Ajout de la prise en charge du type de flux multimédia pour Audio Analytics. (AN-173265)
+* Ajout de la prise en charge de la nouvelle fonctionnalité des services d’opt-in Adobe dans AppMeasurement. (AN-163546)
+* Ajout de la prise en charge du stockage des données de suivi des liens dans le stockage de session (sessionStorage). (AN-162272)
+* Ajout de la prise en charge du type de flux média pour Audio Analytics. (AN-173265)
 
 ## Version 2.10.0
 
@@ -261,7 +281,7 @@ Date de publication : **21 septembre 2017**
 Date de publication : **17 août 2017**
 
 * dil.js v6.11 inclus
-* API Visiteur 2.4.0 inclus
+* Intégration de l’API Visitor 2.4.0
 
 ## Version 2.3.0
 
@@ -283,7 +303,7 @@ Date de publication : **20 avril 2017**
 
 * Comprend la dernière version de `dil.js` (AN-140396)
 * Ajout de la prise en charge du paramètre `adobe_mc_ref` qui remplace le référent de la page. (AN-131920)
-* API Visiteur 2.1.0. de nouveau inclus. (AN-140873)
+* Réintégration de l’API Visitor 2.1.0 (AN-140873)
 * Ajout du paramètre `mcorgid`. (AN-139586)
 * Paramètre cp (customerPerspective) ajouté. (AN-140897)
 
@@ -291,7 +311,7 @@ Date de publication : **20 avril 2017**
 
 Date de la version : **9 mars 2017**
 
-* Migration vers un nouveau processus de compilation qui nécessite une mise à jour vers la version 2.0.0. (AN-137878)
+* Migration vers un nouveau processus de création qui nécessite la mise à jour du numéro de version vers 2.0.0. (AN-137878)
 * Déplacement du traitement de mboxMCSDID à l’emplacement de section correct où est effectué l’appel de suivi. (AN-138483)
 
 ## Version 1.8.0
@@ -346,7 +366,7 @@ Date de publication : **21 juillet 2016**
 Date de publication : **16 juin 2016**
 
 * Inclusion de l’API visiteur version 1.5.7.
-* Correction de la prise en charge du suivi des clics sur les liens dans Firefox, qui ne couvrait pas l’événement complet.
+* Correction de la gestion du suivi des clics sur les liens dans Firefox, qui ne déclenchait pas l’événement complet.
 
 ## Version 1.6
 
@@ -360,14 +380,14 @@ Date de publication : **21 avril 2016**
 Date de publication : **17 mars 2016**
 
 * Inclusion de l’API visiteur version 1.5.4
-* Prise en charge de l’exclusion de l’API visiteur version 1.5.4+
+* Prise en charge de l’opt-out de l’API Visitor version 1.5.4+.
 
 ## Version 1.5.3
 
 Date de publication : **21 janvier 2016**
 
 * Correction de la gestion du module Audience Manager lorsque les POST sont utilisés pour le suivi des appels. (AN-115381)
-* Déplacement du reste de l’URL de la page (&quot;-g&quot;) à la fin de la chaîne de requête de demande de suivi. (AN-114647)
+* Déplacement du reste de l’URL de la page (« -g ») à la fin de la chaîne de requête de la demande de suivi. (AN-114647)
 
 ## Version 1.5.2
 
@@ -450,7 +470,7 @@ Date de publication : **18 septembre 2014**
 
   >[!IMPORTANT]
   >
-  >Pour qu’un appel Analytics utilise la méthode `POST` au lieu de la méthode `GET` dans AppMeasurement (une méthode de résolution [URL tronquées dans IE](/help/implement/js/troubleshooting.md)), vous devez utiliser la dernière mise en œuvre du service d’identification des visiteurs pour l’entreprise CX.
+  >Pour qu’un appel Analytics utilise la méthode `POST` au lieu de la méthode `GET` dans AppMeasurement (une méthode de résolution [URL tronquées dans IE](/help/implement/js/troubleshooting.md)), vous devez utiliser la dernière mise en œuvre du service d’identification des visiteurs pour CX Enterprise.
 
 ## Version 1.4
 
@@ -462,7 +482,7 @@ Date de publication : **21 août 2014**
 
 >[!NOTE]
 >
->Le code H ne prend pas en charge les eVars et événements supplémentaires.
+>H-Code ne prend pas en charge les eVars et événements supplémentaires.
 
 ## Version 1.3.2
 
@@ -487,7 +507,7 @@ Date de publication : **17 avril 2014**
 
 Date de publication : **13 mars 2014**
 
-* Correctifs de bogues pour la vidéo Pulsation.
+* Correctifs de bugs pour la vidéo Heartbeat.
 
 ## Version 1.2.3
 
@@ -516,7 +536,7 @@ Date de publication : **14 novembre 2013**
 
 ## Version 1.1.1
 
-* Un appel de suivi de liens ne pouvait pas être envoyé à partir des navigateurs Opera pour les liens commençant par « opera: » (« opera: » est semblable à « about: » et « chrome: » dans d’autres navigateurs).
+* Empêche l’envoi d’un appel de suivi des liens depuis les navigateurs Opera pour les liens commençant par « opera: » (« opera: » est semblable à « about: » et « chrome: » dans d’autres navigateurs).
 * Ajout de `alt=""` à tous les objets Image en vue de la conformité avec le « Communications and Video Accessibility Act ».
 
 ## Version 1.1

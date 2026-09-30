@@ -3,25 +3,34 @@ title: Vue d’ensemble des dimensions
 description: Découvrez les dimensions et leur utilisation dans Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
+TQID: 'https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 37%
-
 ---
-
 # Présentation des dimensions
 
 Les dimensions sont des variables d’Adobe Analytics qui contiennent généralement des valeurs de chaîne. Les dimensions courantes comprennent [Page](page.md), [Domaine référent](referring-domain.md) ou une [eVar](evar.md). En revanche, les [mesures](../metrics/overview.md) contiennent des valeurs numériques liées à une dimension. Un rapport de base présente des lignes de valeurs de chaîne (dimension) en fonction d’une colonne de valeurs numériques (mesure).
@@ -36,7 +45,7 @@ Par exemple, si vous combinez la dimension **[!UICONTROL Page]** à la mesure **
 
 {style="table-layout:fixed"}
 
-Chaque dimension représente une partie ou une facette différente de votre site. Vous pouvez combiner l’une de ces dimensions avec une ou plusieurs mesures pour créer un rapport qui cous correspond.
+Chaque dimension représente une partie ou une facette différente de votre site. Vous pouvez combiner une ou plusieurs de ces dimensions avec une ou plusieurs mesures pour créer le rapport souhaité.
 
 ## Ajouter des descriptions pour les dimensions
 
@@ -52,7 +61,7 @@ Les dimensions suivantes sont retirées. La plupart étaient des rapports Report
 * **Version de JavaScript** : a signalé la version de JavaScript prise en charge par le navigateur du visiteur. Une dimension héritée qui n’est plus collectée.
 * **Page suivante** : dimension de cheminement affichant la page suivante consultée par un visiteur. Utilisez la [visualisation des flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) dans Analysis Workspace pour les dimensions de cheminement actuelles.
 * **Page précédente** : dimension de cheminement affichant la page précédente consultée par un visiteur. Utilisez la [visualisation des flux](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) dans Analysis Workspace pour les dimensions de cheminement actuelles.
-* **Fuseau horaire** : fuseau horaire du visiteur, dérivé du décalage d’horodatage dans les demandes d’image AppMeasurement. Web SDK collecte le fuseau horaire à l’aide de [`placeContext`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/configure/context).
+* **Fuseau horaire** : fuseau horaire du visiteur, dérivé du décalage d’horodatage dans les demandes d’image AppMeasurement. Web SDK collecte le fuseau horaire à l’aide de [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Domaine de niveau supérieur** : domaine de niveau supérieur du point d’accès du visiteur. Rapport Reports &amp; Analytics hérité. Utilisez plutôt la dimension [Domaine](domain.md).
-* **Numéro de page de la visite** : numéro de page d’une visite. Rapport Reports &amp; Analytics hérité. Utilisez plutôt la dimension [&#x200B; Profondeur d’accès &#x200B;](hit-depth.md).
-* **État du visiteur** : état des États-Unis signalé à partir de la variable `s.state` . Elle est retirée au profit de la dimension [&#x200B; États américains](us-states.md) qui utilise la géosegmentation.
+* **Numéro de page de la visite** : numéro de page d’une visite. Rapport Reports &amp; Analytics hérité. Utilisez plutôt la dimension [ Profondeur d’accès ](hit-depth.md).
+* **État du visiteur** : état des États-Unis signalé à partir de la variable `s.state` . Elle est retirée au profit de la dimension [ États américains](us-states.md) qui utilise la géosegmentation.

@@ -3,27 +3,37 @@ title: FAQ sur les canaux marketing
 description: Forum aux questions sur les canaux marketing.
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
+TQID: 'https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1524
+source-wordcount: '1524'
 ht-degree: 100%
-
 ---
-
 # FAQ sur les canaux marketing
 
 >[!NOTE]
@@ -36,26 +46,26 @@ Forum aux questions sur les canaux marketing.
 
 ## Mes codes de suivi ne suivent pas de schéma et j’en ai des milliers à spécifier pour mon canal Affilié.
 
-* Procédez par élimination. Si les canaux Courriel et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de suivi, vous pouvez spécifier les codes de suivi par courriel dans un ensemble de règles définissant le courriel. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
+* Procédez par élimination. Si les canaux E-mail et Affilié utilisent le même paramètre de chaîne de requête, mais que vous n’avez que quelques codes de tracking e-mail, vous pouvez spécifier ces codes dans un jeu de règles définissant l’e-mail. Vous classez ensuite tous les autres codes de suivi avec *`affiliates.`*
 * Dans votre système de messagerie, ajoutez un paramètre de chaîne de requête à toutes les URL de page de destination, comme *`&ch=eml`*. Créez un ensemble de règles qui détectera si le paramètre de requête ch est égal à *`eml`*. S’il ne contient pas *`eml`*, il s’agit d’un affilié.
 
 ## Les domaines référents contiennent plus de données que prévu.
 
-Les domaines référents peuvent se trouver trop haut dans la liste des règles de traitement. Il doit s’agit de l’un des derniers ensembles de règles (ou du dernier), parce que l’ordre de traitement est important.
+Les domaines référents peuvent se trouver trop haut dans la liste des règles de traitement. Il doit s’agir de l’un des derniers jeux de règles (ou du dernier), car l’ordre de traitement est important.
 
 ## J’ai créé une règle correspondant à un paramètre de chaîne de requête, mais elle ne fonctionne pas.
 
-Assurez-vous que le nom du paramètre est spécifié dans les champs de paramètre de chaîne de requête (généralement sous la forme d’une valeur alphanumérique). Vérifiez également que la valeur du paramètre est spécifiée après l’opérateur, comme indiqué dans l’exemple suivant illustrant une règle de courriel.
+Assurez-vous que le nom du paramètre est spécifié dans les champs de paramètre de chaîne de requête (généralement sous la forme d’une valeur alphanumérique). Vérifiez également que la valeur du paramètre est spécifiée après l’opérateur, comme le montre l’exemple suivant d’une règle d’e-mail.
 
 ![](assets/example_email.png)
 
 ## Pourquoi la totalité du trafic Dernière touche est-elle attribuée à un domaine interne ?
 
-Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque accès d’un visiteur à votre site, et pas seulement sa première visite. Si vous avez une règle telle que *`Page URL exists`* sans aucun autre critère, une correspondance est établie avec ce canal lors de chaque visite successive sur votre site, car il existe toujours une URL de page.
+Vous avez une règle qui correspond au trafic interne. N’oubliez pas que ces règles traitent chaque hit d’un visiteur à votre site, et pas seulement sa première visite. Si vous avez une règle telle que *`Page URL exists`* sans aucun autre critère, ce canal est mis en correspondance avec chaque hit successif sur votre site, car une URL de page est toujours présente.
 
-## Comment déboguer le trafic qui s’affiche dans Aucun canal identifié sur le rapport ?
+## Comment déboguer le trafic qui s’affiche dans la catégorie « Aucun canal identifié » du rapport ?
 
-Les règles sont traitées dans l’ordre. Si aucun critère spécifique n’a de correspondance, les visites sont incluses dans l’une de trois catégories :
+Les règles sont traitées dans l’ordre. Si aucun critère spécifique ne correspond, les hits sont classés dans l’une des trois catégories suivantes :
 
 1. Aucun référent (visite directe).
 
@@ -71,7 +81,7 @@ Vérifiez que vous disposez d’un canal pour ces trois possibilités. Créez, p
 
 3. **[!UICONTROL Domaine référent]** et **[!UICONTROL Existe]** et **[!UICONTROL Le référent ne correspond pas aux filtres d’URL internes]**.
 
-Enfin, créez un canal *Other* qui capture les autres accès, comme indiqué dans la section [Aucun canal identifié](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
+Enfin, créez un canal *Autre* qui capture les autres hits, comme indiqué dans la section [Aucun canal identifié](/help/components/c-marketing-channels/c-faq.md#no-channel-identified).
 
 ## Relation entre Première touche et Dernière touche
 
@@ -91,11 +101,11 @@ Ce type de règle « fourre-tout » permet de s’assurer que le trafic des ca
 
 >[!NOTE]
 >
->Il est possible qu’une certaine partie du trafic de canaux soit classée dans la catégorie Aucun canal identifié. Par exemple : un visiteur sur le site marque une page comme favori puis, au cours de la même visite, revient sur cette page en passant par les favoris. Puisqu’il ne s’agit pas de la première page de la visite, le trafic ne sera pas inclus dans la catégorie des canaux directs ni dans celle des autres canaux, puisqu’il n’y a aucun domaine référent.
+>Il est possible qu’une certaine partie du trafic de canaux soit classée dans la catégorie Aucun canal identifié. Par exemple : un visiteur arrive sur le site, ajoute une page à ses signets et, au cours de la même visite, revient sur cette page via le signet. Comme il ne s’agit pas de la première page de la visite, elle ne sera attribuée ni au canal Direct ni au canal Autre, car il n’y a aucun domaine référent.
 
 ## Raisons d’utiliser le canal interne (actualisation de session) {#internal}
 
-La Dernière touche interne (actualisation de session) ne peut avoir lieu que si elle a également été la Première touche. Consultez « Relation entre Première touche et Dernière touche » ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
+Le canal Dernière touche interne (Actualisation de session) ne peut se produire que s’il s’agissait également de la première touche ; voir « Relation entre Première et Dernière touche » ci-dessus. Les scénarios ci-dessous expliquent comment l’actualisation de session peut être un canal Première touche.
 
 * **Délai d’expiration de la session** : un visiteur se rend sur un site Web, puis laisse l’onglet ouvert dans son navigateur pour y retourner ultérieurement. La période d’engagement du visiteur ou de la visiteuse expire (ou bien il ou elle supprime volontairement ses cookies) et il ou elle utilise l’onglet ouvert pour se rendre à nouveau sur le site Web. L’URL de référence étant un domaine interne, la visite est classée comme Actualisation de session.
 
@@ -105,14 +115,14 @@ La Dernière touche interne (actualisation de session) ne peut avoir lieu que si
 
 * **Trafic interdomaines** : un visiteur passe d’un domaine qui se déclenche vers la suite A à un autre domaine qui se déclenche vers la suite B. Si, dans la suite B, les filtres d’URL internes incluent le premier domaine, la visite dans la suite B est enregistrée comme interne, puisque les canaux marketing la considèrent comme une nouvelle visite dans la deuxième suite. La visite sera classée comme Actualisation de session.
 
-* **Longs délais de chargement de la page d’accès** : un visiteur accède à la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’images de la page A n’a jamais abouti, la deuxième page apparaît comme le premier accès de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
+* **Longs délais de chargement de la page d’accès** : un visiteur accède à la page A, qui contient beaucoup de contenu, et le code Adobe Analytics se trouve au bas de la page. Avant que tout le contenu (y compris la demande d’images Adobe Analytics) puisse être chargé, le visiteur clique sur la page B. La page B déclenche sa demande d’images Adobe Analytics. Comme la demande d’image de la page A n’a jamais été chargée, la deuxième page apparaît comme le premier hit de la visite dans Adobe Analytics, avec la page A comme référent. La visite est classée comme Actualisation de session.
 
 * **Effacement des cookies pendant la visite** : un visiteur se rend sur le site et efface ses cookies durant la visite. Les canaux Première touche et Dernière touche seront réinitialisés et la visite sera classée comme Actualisation de session (car le référent est interne).
 
 Voici un exemple de canal interne (actualisation de session) défini comme canaux Première touche et Dernière touche :
 
 * Jour 1 : l’utilisateur accède au site par le biais de l’Affichage. Les canaux Première touche et Dernière touche seront définis sur Affichage.
-* Jour 2 : l’utilisateur se rend sur le site par le biais d’une Recherche naturelle. La première touche reste sur Affichage et la dernière touche est définie sur Recherche naturelle.
+* Jour 2 : l’utilisateur accède au site par le biais d’un référencement naturel. La première touche reste sur Affichage, tandis que la dernière touche est définie sur Référencement naturel.
 * Jour 35 : l’utilisateur ne s’est pas rendu sur le site depuis 33 jours et y retourne en utilisant l’onglet qu’il a ouvert dans son navigateur. En supposant une fenêtre d’engagement de 30 jours, la fenêtre se serait fermée et les cookies Marketing Channel auraient expiré. Les canaux Première touche et Dernière touche seront réinitialisés et seront définis sur Actualisation de session puisque l’utilisateur provient d’une URL interne.
 
 ## Pourquoi certains canaux restent-ils inchangés après la modification des règles de traitement des canaux marketing ?
@@ -126,13 +136,13 @@ Parfois, les règles de traitement des canaux marketing sont mal configurées. I
   3. Cet utilisateur revient plusieurs jours plus tard par le biais du référencement naturel et effectue un achat.
   4. Le canal de courrier électronique obtient le crédit Première touche et le référencement naturel obtient le crédit Dernière touche.
 
-  Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données Première touche sont continuellement collectées dans un canal incorrect jusqu’à l’expiration de l’engagement des visiteurs de tous les utilisateurs.
+  Même plusieurs jours après avoir modifié les règles de traitement, les données peuvent encore être collectées dans le mauvais canal Première touche. Les données de première touche sont collectées continuellement dans le canal incorrect jusqu’à l’expiration de l’engagement de tous les visiteurs.
 
 La meilleure façon de remédier à ces divergences consiste à prendre l’une des mesures suivantes, ou les deux :
 
 * **Faire expirer manuellement toutes les périodes d’engagement des visiteurs** : ce paramètre fait expirer instantanément tous les canaux Première touche et Dernière touche de tous les visiteurs :
   1. Accédez à Outils d’administration > Suites de rapports.
-  2. Passez la souris sur Modifier les paramètres > Canaux marketing > Expiration de l’engagement des visiteurs.
+  2. Placez le pointeur sur Paramètres de modification d’image > Canaux marketing > Expiration de l’engagement des visiteurs.
   3. Cliquez sur Tout faire expirer.
   4. Dans la fenêtre pop-up d’avertissement, cliquez sur OK et confirmez que vous comprenez ce que cela implique.
 

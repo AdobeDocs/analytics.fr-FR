@@ -7,21 +7,26 @@ exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
 TQID: 'https://experienceleague.adobe.com/BRcyAaCSCmRppDClCroSL-vGpe7PuU-UEuRhGaKOCHY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: ec140990-1570-4311-94d4-2d6b38511bbe
+    internal-label: Bot removal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 536
+source-wordcount: '536'
 ht-degree: 94%
-
 ---
-
 # Signatures de robots courantes
 
 Bien que lʼidentification des robots dans un jeu de données soit différente selon lʼenvironnement, voici quelques façons courantes dʼidentifier les robots.
@@ -44,7 +49,7 @@ Nous ne voulons pas discréditer le formidable système dʼexploitation open-sou
 
 ## Pages vues = Visites = Visiteurs uniques
 
-Ceci sʼapplique particulièrement au rapport de lʼagent utilisateur. Comme vous pouvez le voir dans la copie dʼécran ci-dessous, la « version inconnue » de ces navigateurs a presque le même nombre de visiteurs que de visiteurs uniques (et presque le même nombre de pages vues). Cela peut être isolé dans la segmentation en créant un conteneur [!UICONTROL Inclure] pour `Single Page Visits equals Enabled` ou `Hit Depth is less than 2`.
+Ceci sʼapplique particulièrement au rapport de lʼagent utilisateur. Comme vous pouvez le voir dans la copie d’écran ci-dessous, la « version inconnue » de ces navigateurs compte presque le même nombre de visiteurs que de visiteurs uniques (et presque le même nombre de pages vues). Cela peut être isolé dans la segmentation en créant un conteneur [!UICONTROL Inclure] pour `Single Page Visits equals Enabled` ou `Hit Depth is less than 2`.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bots-browsers-unknown.png)
 
@@ -54,7 +59,7 @@ Les robots obtiennent généralement un nouvel identifiant visiteur à chaque fo
 
 ## Résolutions dʼécran inférieures
 
-Les utilisateurs modernes disposent dʼécrans à résolution beaucoup plus élevée que par le passé. Les accès avec les résolutions suivantes semblent être très populaires pour les robots :
+Les utilisateurs modernes disposent dʼécrans à résolution beaucoup plus élevée que par le passé. Les hits avec les résolutions suivantes semblent être très populaires pour les robots :
 
 * 1024 x 768&#x200B;&#x200B;
 * 1 366 x 768
@@ -80,10 +85,10 @@ En règle générale, les robots nʼajoutent pas de produits à un panier ou n�
 
 ## Chaîne de requête spécifique présente
 
-Parfois, les robots tentent de détruire le cache ou dʼendommager les sites en utilisant des URL malformées ou inexistantes (comme les pages dʼadministration LAMP ou Wordpress) ou en ajoutant des chaînes de requête spécifiques.
+Des robots tentent parfois de contourner le cache ou de perturber les sites en générant des hits sur des URL mal formées ou inexistantes (comme les pages d’administration LAMP ou WordPress classiques), ou en ajoutant des chaînes de requête spécifiques.
 
 ## Adresses IP provenant de plateformes de calcul distribuées
 
-Les services dʼhébergement Web comme Amazon Web Services ou Google Cloud peuvent être utilisés à mauvais escient comme des fermes de robots. Ces adresses IP présentent un risque élevé d’être des robots :
+Les services dʼhébergement web comme Amazon Web Services ou Google Cloud peuvent être exploités de manière abusive comme fermes de robots. Ces adresses IP présentent un risque élevé d’être des robots :
 &#x200B;
 * [Google Cloud](https://cloud.google.com/compute/) : lʼadresse IP commence par `&#x200B;35.199` ou `35.194&#x200B;`

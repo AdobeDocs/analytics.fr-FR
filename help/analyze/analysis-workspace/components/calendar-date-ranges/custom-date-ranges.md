@@ -1,28 +1,34 @@
 ---
-description: Découvrez comment définir des périodes personnalisées dans Analysis Workspace.
+description: Découvrez comment définir des périodes personnalisées dans Analysis Workspace.
 keywords: Analysis Workspace
 title: Exemples de périodes personnalisées
 feature: Date Ranges
 role: User, Admin
 exl-id: 586bb120-3f20-452c-9867-0b93d2e794bc
-TQID: https://experienceleague.adobe.com/aE8L1czTiBKQG3MR-9aCxkBgO2qLp17K-n7Qmnjj-YM
+TQID: 'https://experienceleague.adobe.com/aE8L1czTiBKQG3MR-9aCxkBgO2qLp17K-n7Qmnjj-YM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: 48da7efd-b4e7-5fc2-85c1-7983bf649b9e
+    internal-label: Date Ranges
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 118
+source-wordcount: '118'
 ht-degree: 100%
-
 ---
-
 # Exemples de périodes personnalisées
 
 Cet article présente d’autres exemples de périodes personnalisées.
@@ -33,7 +39,7 @@ Cet article présente d’autres exemples de périodes personnalisées.
 
 +++ Détails
 
-Vous souhaitez définir une période personnalisée qui couvre les deux derniers mois. Vous utilisez l’un des paramètres prédéfinis.
+Vous souhaitez définir une période personnalisée correspondant à deux mois auparavant. Vous utilisez l’un des paramètres prédéfinis.
 
 ![2 derniers mois](assets/date-range-example-simple.png)
 
@@ -44,7 +50,7 @@ Vous souhaitez définir une période personnalisée qui couvre les deux dernier
 
 +++ Détails
 
-Vous souhaitez définir une période qui couvre le jour en cours la semaine précédente et la fin de cette même semaine précédente. Par exemple, si nous sommes le mercredi 11 septembre 2024, vous souhaitez une période comprise entre le mercredi 4 septembre 2024 et le samedi 7 septembre 2024.
+Vous souhaitez définir une période allant du jour correspondant à aujourd’hui la semaine dernière jusqu’à la fin de cette même semaine. Par exemple, si nous sommes le mercredi 11 septembre 2024, vous souhaitez une période comprise entre le mercredi 4 septembre 2024 et le samedi 7 septembre 2024.
 
 ![Exemple de période](assets/date-range-example.png)
 

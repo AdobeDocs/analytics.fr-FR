@@ -6,18 +6,25 @@ exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 TQID: 'https://experienceleague.adobe.com/3h12v3wRMC0SY63jsXBbG6kkTM8ArVOz6ctJVikdKb4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Attribution
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 444
+source-wordcount: '444'
 ht-degree: 64%
-
 ---
-
 # Bonnes pratiques en matière dʼattribution
 
 Le choix du modèle dʼattribution approprié pour votre organisation dépend de plusieurs critères. Cet article explore une méthodologie ainsi que quelques bonnes pratiques générales :
@@ -31,17 +38,17 @@ Le choix du modèle dʼattribution approprié pour votre organisation dépend de
 >[!NOTE]
 >Cette analyse doit avoir lieu avant de choisir un modèle dʼattribution.
 
-Cette phase consiste dʼabord à comprendre le comportement des clients et à définir des mesures de conversion. Selon les mesures de conversion, des outils tels que les [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) (pour les données brutes) ou Analysis Workspace facilitent votre compréhension des questions suivantes :
+Cette phase consiste dʼabord à comprendre le comportement client et à définir des mesures de conversion. Selon les mesures de conversion, des outils tels que les [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) (pour les données brutes) ou Analysis Workspace facilitent votre compréhension des questions suivantes :
 
 * Le nombre de clientes et clients qui touchent différents canaux marketing avant la conversion.
 * La proportion ou répartition de ces comportements.
 
-Par exemple, si 50 % des clients empruntent 3 canaux avant la conversion, y a-t-il une interaction entre ces 3 canaux ?
-Vous pouvez ensuite effectuer une analyse des entonnoirs supérieur et inférieur afin dʼaméliorer votre compréhension.
+Par exemple, si 50 % des clients empruntent 3 canaux avant la conversion, y a-t-il une interaction entre ces 3 canaux ?
+Vous pouvez ensuite effectuer une analyse du haut et du bas du funnel pour approfondir votre compréhension.
 
 ### Analyse de lʼentonnoir supérieur
 
-Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est de faire connaître la marque. Vous pouvez utiliser le modèle d’attribution [&#x200B; Décroissance temporelle &#x200B;](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
+Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est d’accroître la notoriété de la marque. Vous pouvez utiliser le modèle d’attribution [ Décroissance temporelle ](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
 
 ### Analyse de lʼentonnoir inférieur
 
@@ -71,4 +78,4 @@ Si vous ne disposez pas encore d’un modèle d’attribution qui fournit des r�
 
 * Il se peut que vous deviez faire appel aux services dʼun spécialiste des données au lieu de vous fier uniquement à Analysis Workspace.
 * Vous pouvez vous fier aux données brutes, comme dans les flux de données Adobe.
-* Pensez à utiliser [&#128279;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.
+* Pensez à utiliser [](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), par exemple, si vous souhaitez tenir compte des données de vos impressions.

@@ -1,38 +1,49 @@
 ---
 title: Guide d’utilisation de Labs
-description: Prévisualiser des projets de prototype pour Adobe Analytics
+description: Prévisualiser les projets prototypes pour Adobe Analytics
 feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
-TQID: https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI
+TQID: 'https://experienceleague.adobe.com/au-obObVIyJSay963HGriDJr1FQfjoXvCBEet94AbMI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: e69d6e08-d70a-4d1e-9168-b9061b2e860c
+    internal-label: Labs
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 436
+source-wordcount: '436'
 ht-degree: 100%
-
 ---
-
 # Guide d’utilisation de [!UICONTROL Labs]
 
-[!UICONTROL Labs] permet de concevoir plus rapidement des prototypes à partir d’idées au stade précoce. Il s’agit d’une combinaison d’outils et de processus qui accélèrent le développement de manière transparente en s’orientant sur le client. Il permet aux utilisateurs d’interagir avec des technologies émergentes, de découvrir de précieuses informations, et d’influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour obtenir un accès anticipé aux innovations Adobe Analytics et pour évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation professionnels et de vos propres données.
+[!UICONTROL Labs] permet de concevoir plus rapidement des prototypes à partir d’idées au stade précoce. Il s’agit d’une combinaison d’outils et de processus qui accélèrent le développement de manière transparente en s’orientant sur le client. Il permet aux utilisateurs d’interagir avec des technologies émergentes, de découvrir de précieuses informations, et d’influencer le développement et les priorités des fonctionnalités futures. Vous pouvez utiliser Labs pour obtenir un accès anticipé aux innovations d’Adobe Analytics et évaluer les fonctionnalités à venir dans le contexte de vos propres cas d’utilisation métier et de vos données.
 
 ## Configuration requise
 
-[!UICONTROL Labs] est activé automatiquement pour tous les administrateurs. Les autres membres de l’équipe doivent contacter leurs administrateurs produit pour en demander l’accès.
+[!UICONTROL Labs] est activé automatiquement pour tous les administrateurs. Les autres membres de l’équipe doivent contacter leurs administrateurs de produit et demander l’accès.
 
 Si vous ne l’avez pas déjà fait, lisez et signez les formulaires d’accord de non-divulgation et de conditions générales qui s’appliquent.
 

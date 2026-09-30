@@ -7,24 +7,34 @@ role: Developer
 TQID: 'https://experienceleague.adobe.com/S2ljH7WOuX6qvYplo-6k-MXw6FKG-vhk78EiGQFiImg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '468'
 ht-degree: 94%
-
 ---
-
 # Mise en œuvre avec des Instant Articles de Facebook
 
 Les Instant Articles de Facebook permettent aux éditeurs de créer rapidement des articles interactifs sur Facebook. Ils peuvent charger le contenu jusqu’à dix fois plus rapidement que le Web mobile.
@@ -33,7 +43,7 @@ Vous pouvez incorporer Adobe Analytics aux Instant Articles de Facebook pour sui
 
 ## Processus
 
-Le processus global de mise en œuvre d’Adobe Analytics est le suivant :
+Le workflow global pour la mise en œuvre d’Adobe Analytics est le suivant :
 
 1. Créez une page `stats.html`. Codez cette page pour extraire les paramètres de chaîne de requête de l’URL et affecter chaque paramètre à une variable Analytics.
 1. Hébergez la page `stats.html` sur votre serveur web.
@@ -82,13 +92,13 @@ Adobe conseille d’héberger votre page `stats.html` avec la dernière version 
 
 ### Étape 3 : référencez `stats.html` sur chaque page Instant Article de Facebook
 
-Lorsque vous créez votre contenu Instant Article de Facebook, incorporez le contenu HTML d’analyse dans une iFrame. Par exemple :
+Lors de la création de contenu Facebook Instant Articles, incorporez le contenu HTML Analytics dans un iframe. Par exemple :
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### Étape 4 : définissez le suivi personnalisé des variables et événements
+### Étape 4 : Définir le suivi des variables personnalisées et des événements
 
 Vous pouvez effectuer le suivi des variables et des événements personnalisés dans votre code HTML Analytics avec deux méthodes différentes :
 
@@ -107,4 +117,4 @@ L’exemple suivant illustre plusieurs variables personnalisées incluses dans u
 
 ## Instant Articles et confidentialité de Facebook
 
-Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe peut prendre en charge votre politique de confidentialité existante pour tous les Instant Articles de Facebook. Si un utilisateur choisit de ne pas effectuer de suivi sur votre site principal, il choisit également de ne pas effectuer de suivi sur tous vos Instant Articles de Facebook. La page utilitaire prend également en charge le service d’identification des visiteurs afin que vous puissiez intégrer les données d’article instantané Facebook au reste de l’expérience client d’entreprise.
+Tant que la page HTML Analytics est hébergée sur votre serveur web, Adobe prend en charge votre politique de confidentialité existante dans tous les Facebook Instant Articles. Si un utilisateur choisit de ne pas effectuer de suivi sur votre site principal, il choisit également de ne pas effectuer de suivi sur tous vos Instant Articles de Facebook. La page d’utilitaire prend également en charge le service d’identification des visiteurs afin que vous puissiez intégrer les données d’article instantané Facebook au reste de CX Enterprise.

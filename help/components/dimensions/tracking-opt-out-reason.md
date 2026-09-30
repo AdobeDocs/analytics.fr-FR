@@ -3,7 +3,7 @@ title: Suivi du motif d’exclusion
 description: Affiche un aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité.
 feature: Dimensions
 exl-id: f0521f4f-b11e-4ce3-b0fe-60788be6b120
-TQID: https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY
+TQID: 'https://experienceleague.adobe.com/mFYYrj4iBWBi87sErHnWTYXce3lUhV0pwUt63x3vfnY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,9 +12,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 13%
@@ -42,13 +46,13 @@ ht-degree: 13%
 
 >[!ENDSHADEBOX]
 
-La dimension « Raison du désabonnement du suivi » sert d’aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation subirait un impact négatif si vous activiez [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr) sous Paramètres de la suite de rapports.
+La dimension « Raison du désabonnement du suivi » sert d’aperçu des données qui seraient exclues si vous aviez activé les paramètres de confidentialité. Cette dimension est principalement utilisée pour déterminer si votre implémentation subirait un impact négatif si vous activiez [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) sous Paramètres de la suite de rapports.
 
 Les implémentations standard voient 1 % ou moins du trafic total de leurs suites de rapports sous cette dimension si les paramètres de confidentialité n’ont pas encore été activés. Des pourcentages supérieurs à 1 % de l’ensemble du trafic suggèrent un problème d’implémentation potentiel qui empêche AppMeasurement de définir des cookies propriétaires.
 
 ## Renseigner cette dimension avec des données
 
-Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=fr). Si votre organisation a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
+Cette dimension est prête à l’emploi pour toutes les implémentations qui n’ont pas encore activé [Paramètres de confidentialité](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Si votre organisation a déjà activé le paramètre **[!UICONTROL Supprimer les utilisateurs qui ont bloqué tous les cookies]** pour les navigateurs de bureau et mobiles, cette dimension ne contient pas de données.
 
 | Propriété | Valeur |
 | --- | --- |

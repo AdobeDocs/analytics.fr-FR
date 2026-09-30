@@ -6,21 +6,31 @@ exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 747
+source-wordcount: '747'
 ht-degree: 89%
-
 ---
-
-# Présentation des segments dans Analytics et Audience Manager
+# Comprendre les segments dans Analytics et Audience Manager
 
 Analytics et Audience Manager utilisent tous deux les segments. Cependant, un segment Analytics ne représente pas exactement la même chose qu’un segment Audience Manager. Ces différences contribuent en partie aux incohérences que vous constaterez dans vos rapports Analytics et Audience Manager. C’est pourquoi il est important et utile d’essayer de comprendre ces différences lorsque vous commencerez à travailler avec les segments dans ces deux solutions.
 
@@ -41,7 +51,7 @@ Pour plus d’informations, voir les sections [Données de population des caract
 
 ## Segments Analytics {#analytics-segments}
 
-Un segment Analytics est un mécanisme de filtrage des données de vos rapports. Le filtrage peut survenir au niveau des visiteurs, des visites ou des accès, plutôt qu’au niveau des visiteurs uniquement comme dans Audience Manager. Plusieurs facteurs importants doivent être pris en considération lors de la comparaison d’un segment Analytics à un segment Audience Manager :
+Un segment Analytics est un mécanisme de filtrage des données de vos rapports. Le filtrage peut survenir au niveau des visiteurs, des visites ou des hits, plutôt qu’au niveau des visiteurs uniquement comme dans Audience Manager. Plusieurs facteurs importants doivent être pris en considération lors de la comparaison d’un segment Analytics à un segment Audience Manager :
 
 * Les segments Analytics reposent sur un jeu de données différent des segments Audience Manager. Lors de la collecte de données, Analytics applique aux données un grand nombre d’opérations de post-traitement auxquelles Audience Manager n’a pas accès. Les opérations de post-traitement possibles sont très variées : persistance des variables eVar, règles de traitement, recherches (géolocalisation, appareil mobile), règles VISTA, etc. Audience Manager reçoit les données prétraitées via la redirection côté serveur (ou le DIL).
 
@@ -49,10 +59,10 @@ Un segment Analytics est un mécanisme de filtrage des données de vos rapports.
 
   Par exemple, si eVar = bleu et est défini pour ne jamais expirer dans Analytics, tous les segments assortis du critère « eVar = bleu » dans Analytics incluront toujours ce visiteur. En revanche, dans Audience Manager, ce visiteur pourrait être exclu d’un segment défini de la même façon après une période donnée.
 
-* Les segments Analytics disposent de davantage de fonctionnalités que les segments Adobe Audience Manager. Les segments Audience Manager sont toujours évalués au niveau des visiteurs. Les segments Analytics peuvent être définis au niveau des visiteurs, des visites ou des accès (ou une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées non prises en charge par Audience Manager, p. ex. la segmentation séquentielle.
+* Les segments Analytics disposent de davantage de fonctionnalités que les segments Adobe Audience Manager. Les segments Audience Manager sont toujours évalués au niveau du visiteur. Les segments Analytics peuvent être définis au niveau du visiteur, de la visite ou du hit (ou d’une combinaison de ces niveaux). En outre, Analytics prend en charge des fonctionnalités de segmentation avancées qu’Audience Manager ne propose pas, comme la segmentation séquentielle.
 
-* Comme mentionné précédemment, les visiteurs Audience Manager peuvent être inclus dans un segment ou en être exclus selon qu’ils répondent ou non aux critères de ce segment à un moment donné.
+* Comme indiqué précédemment, les visiteurs d’Audience Manager peuvent entrer dans un segment ou en sortir selon qu’ils répondent ou non aux critères du segment à un instant donné.
 
-  À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la plage de dates du rapport. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans Adobe Audience Manager, ce visiteur serait inclus dans un segment « acheteur », quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
+  À l’inverse, dans Analytics, les visiteurs sont inclus ou exclus d’un segment en fonction de la période de reporting. Par exemple, un visiteur unique a effectué un achat le mois dernier. Dans Adobe Audience Manager, ce visiteur serait inclus dans un segment « acheteur », quelle que soit la période. Dans Analytics, un rapport basé sur ce mois-ci n’inclura pas le visiteur dans le segment. Cependant, un rapport basé sur ce mois-ci et le mois dernier inclura le visiteur dans le segment.
 
 Pour plus d’informations, voir le [Guide de segmentation d’Analytics](/help/components/segmentation/seg-home.md).
