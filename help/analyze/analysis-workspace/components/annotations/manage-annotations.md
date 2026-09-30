@@ -4,25 +4,34 @@ description: Découvrez comment gérer les annotations dans Analysis Workspace.
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-TQID: https://experienceleague.adobe.com/eBokOX3-Zn7bzy8FYdAO-iEGQOCmAtJ4H57hvCLjawc
+TQID: 'https://experienceleague.adobe.com/eBokOX3-Zn7bzy8FYdAO-iEGQOCmAtJ4H57hvCLjawc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: e1cb59ec-5b9a-407a-a184-15400a765082
+    internal-label: Annotations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '766'
 ht-degree: 88%
-
 ---
-
 # Gestion des annotations
 
 Vous pouvez partager, filtrer, étiqueter, approuver, copier, supprimer des annotations et marquer des annotations comme favorites depuis une interface de gestion centralisée des [!UICONTROL Annotations]. Pour gérer les annotations :
@@ -68,7 +77,7 @@ Vous pouvez agir sur les annotations à l’aide de la barre d’actions ➋. La
 |:--:|---|---|
 | ![Cercle d’ajout](/help/assets/icons/AddCircle.svg) | **[!UICONTROL Ajouter]** | Ajoutez une autre annotation à l’aide du [créateur d’annotations](create-annotations.md#annotation-builder). |
 | ![Recherche](/help/assets/icons/Search.svg) | [!UICONTROL *Rechercher par titre*] | Lorsqu’aucune annotation n’est sélectionnée dans la liste, recherchez des annotations à l’aide de ce champ de recherche. |
-| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Étiquetez les annotations sélectionnées. Dans la boîte de dialogue **[!UICONTROL Étiqueter le composant]**, sélectionnez ou désélectionnez les étiquettes pour les annotations sélectionnées. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les étiquettes pour les annotations sélectionnées. |
+| ![Libellé](/help/assets/icons/Label.svg) | **[!UICONTROL Étiquette]** | Attribue des balises aux annotations sélectionnées. Dans la boîte de dialogue **[!UICONTROL Étiqueter le composant]**, sélectionnez ou désélectionnez les étiquettes pour les annotations sélectionnées. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les étiquettes pour les annotations sélectionnées. |
 | ![Partager](/help/assets/icons/ShareAlt.svg) | **[!UICONTROL Partager]** | Partagez les annotations sélectionnées. Dans la boîte de dialogue **[!UICONTROL Partager le composant]**, vous pouvez ![Rechercher](/help/assets/icons/Search.svg) *Rechercher des individus ou des groupes* ou sélectionner **[!UICONTROL Organisation]** ou **[!UICONTROL Groupes]**. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les détails de partage pour les annotations sélectionnées. Pour plus de détails, consultez la section [Partager des annotations](#share-annotations). |
 | ![Supprimer](/help/assets/icons/Delete.svg) | **[!UICONTROL Supprimer]** | Supprimez les annotations sélectionnées. Il vous est demandé de confirmer. |
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Renommer]** | Renommez une seule annotation sélectionnée. Lorsque cette option est sélectionnée, vous pouvez directement renommer l’annotation. |
@@ -119,8 +128,8 @@ Utilisez le [Créateur d’annotations](/help/analyze/analysis-workspace/compone
 
 Les éléments suivants s’appliquent lorsque vous partagez ou utilisez des annotations partagées avec vous :
 
-* Les annotations limitées uniquement au projet que vous partagez avec d’autres utilisateurs et utilisatrices s’affichent pour ces utilisateurs et utilisatrices. Les utilisateurs et utilisatrices ne peuvent pas modifier ou supprimer ces annotations limitées uniquement au projet.
-* Si vous enregistrez une annotation et la partagez directement avec un utilisateur ou une utilisatrice, ceux-ci ne peuvent la modifier ou la supprimer que s’ils disposent de droits d’administration.
+* Les annotations limitées uniquement au projet que vous partagez avec d’autres utilisateurs et utilisatrices s’affichent pour ces utilisateurs et utilisatrices. Ces annotations limitées au projet ne peuvent être ni modifiées ni supprimées.
+* Si vous enregistrez une annotation et la partagez directement avec une personne, celle-ci ne peut la modifier et la supprimer que si elle dispose de droits d’administration.
 
 * Si un projet est partagé avec vous, les annotations créées dans ce projet s’affichent uniquement dans ce projet. Si une annotation est partagée directement avec vous, elle apparaîtra dans tous les projets où elle peut être affichée.
 

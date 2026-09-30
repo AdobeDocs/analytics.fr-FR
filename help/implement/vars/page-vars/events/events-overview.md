@@ -1,39 +1,53 @@
 ---
 title: events
-description: Définissez la variable events, qui gouverne la plupart des mesures de votre site.
+description: Définissez la variable d’événements, qui régit la plupart des mesures de votre site.
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+TQID: 'https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # events
 
 Les dimensions et les mesures sont des composants essentiels des rapports. La variable `events` est responsable de la collecte de données de nombreuses mesures sur votre site. Les événements incrémentent généralement les [mesures](/help/components/metrics/overview.md) dans les rapports.
 
-Avant d’implémenter des événements, veillez à les créer et à les configurer sous [Événements de succès](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les accès de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement configurés.
+Avant d’implémenter des événements, veillez à les créer et à les configurer sous [Événements de succès](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) dans les paramètres de la suite de rapports. Si vous prévoyez d’utiliser des événements personnalisés dans les hits de suivi de liens, assurez-vous que [`linkTrackVars`](../../config-vars/linktrackvars.md) et [`linkTrackEvents`](../../config-vars/linktrackevents.md) sont correctement configurés.
 
 ## Événements utilisant le SDK Web
 
@@ -60,7 +74,7 @@ Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-m
 
 ## Événements utilisant l’extension Adobe Analytics
 
-Vous pouvez définir des événements lors de la configuration de l’extension Analytics (variables globales) ou sous des règles.
+Vous pouvez définir des événements lors de la configuration de l’extension Analytics (variables globales) ou dans les règles.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 2. Cliquez sur la propriété de balise de votre choix.
@@ -78,9 +92,9 @@ Plusieurs fonctionnalités sont disponibles :
 
 ## s.events dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
-La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans l’accès. La variable autorise jusqu’à 64 kilo-octets, ce qui permet d’autoriser autant d’événements que nécessaire pour un accès. Les valeurs valides sont les suivantes :
+La variable `s.events` est une chaîne qui contient une liste d’événements délimités par des virgules à inclure dans le hit. La variable autorise jusqu’à 64 kilo-octets, ce qui permet d’autoriser autant d’événements que nécessaire pour un hit. Les valeurs valides sont les suivantes :
 
-* `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez l’équipe Adobe en charge des comptes si vous ne savez pas combien d’événements personnalisés vous sont accessibles.
+* `event1` - `event1000` : événements personnalisés, définissez la valeur souhaitée. Enregistrez la manière dont vous utilisez chaque événement dans le [document de conception de solution](../../../prepare/solution-design.md) de votre organisation. Le nombre d’événements disponibles dépend du contrat Analytics de votre organisation. La plupart des organisations utilisant des contrats non hérités disposent de 1 000 événements personnalisés. Contactez l’équipe Adobe en charge des comptes si vous ne savez pas combien d’événements personnalisés sont à votre disposition.
 * `purchase` : incrémente la mesure [« Commandes »](/help/components/metrics/orders.md) de 1 et prend les valeurs définies dans la variable `products` pour calculer les [« Unités »](/help/components/metrics/units.md) et les [« Recettes »](/help/components/metrics/revenue.md). Voir [Événement d’achat](event-purchase.md) pour en savoir plus.
 * `prodView` : incrémente la mesure [« Consultations de produit »](/help/components/metrics/product-views.md).
 * `scOpen` : incrémente la mesure [« Paniers »](/help/components/metrics/carts.md).
@@ -91,7 +105,7 @@ La variable `s.events` est une chaîne qui contient une liste d’événements d
 
 >[!NOTE]
 >
->Cette variable est sensible à la casse. Évitez de mettre en majuscules les valeurs d’événement de manière à garantir la collecte exacte des données.
+>Cette variable est sensible à la casse. Veillez à respecter la casse des valeurs d’événement afin de garantir une collecte de données précise.
 
 ```js
 // Set the events variable to a single value
@@ -103,7 +117,7 @@ s.events = "event1,event13,purchase";
 
 ### Incrémenter plusieurs fois les événements de compteur
 
-Vous pouvez comptabiliser plusieurs événements personnalisés, le cas échéant. Attribuez un entier à l’événement souhaité dans la chaîne. Les événements créés dans les paramètres de la suite de rapports sont des événements de compteur par défaut.
+Vous pouvez comptabiliser les événements personnalisés plusieurs fois si nécessaire. Attribuez un entier à l’événement souhaité dans la chaîne. Les événements créés dans les paramètres de la suite de rapports sont des événements de compteur par défaut.
 
 ```js
 // Count event1 ten times

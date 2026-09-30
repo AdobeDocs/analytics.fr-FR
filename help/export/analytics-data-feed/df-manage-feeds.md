@@ -6,19 +6,23 @@ exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1329
+source-wordcount: '1329'
 ht-degree: 22%
-
 ---
-
 # Gestion des flux de données {#manage-data-feeds}
 
 Le gestionnaire des flux de données vous permet de créer, modifier et annuler des flux de données pour votre organisation. Si vous disposez d’autorisations pour accéder au gestionnaire des flux de données, vous pouvez gérer les flux de données pour toutes les suites de rapports qui s’affichent.
@@ -35,7 +39,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestion des flu
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="Gestion des flux de données"
->abstract="Vous pouvez afficher, créer et gérer des flux de données à partir de cette page. Recherchez des flux en fonction de leur nom ou de leur ID ou sélectionnez l’icône de filtre pour afficher les filtres disponibles."
+>abstract="Vous pouvez afficher, créer et gérer des flux de données à partir de cette page. Recherchez des flux par nom ou par ID, ou sélectionnez l’icône de filtre pour afficher les filtres disponibles."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -178,7 +182,7 @@ Pour ajuster les colonnes visibles du tableau :
    * **Propriétaire** : compte d’utilisateur qui a créé le flux.
    * **Statut** : le statut du flux.
      * Actif : le flux est opérationnel.
-     * En attente d’approbation : dans certaines circonstances, un flux nécessite l’approbation d’Adobe avant de pouvoir commencer à générer des tâches.
+     * En attente d’approbation : dans certains cas, un flux nécessite l’approbation d’Adobe avant de pouvoir démarrer la génération des traitements.
      * Annulé : le flux est annulé.
      * Terminé : le flux a terminé le traitement. Un flux terminé peut être modifié, mis en attente ou annulé.
      * En attente : le flux est créé, mais n’est pas encore actif. Les flux restent dans cet état pendant une courte période de transition.

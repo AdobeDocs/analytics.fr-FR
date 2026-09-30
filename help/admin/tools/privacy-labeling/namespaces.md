@@ -7,40 +7,49 @@ exl-id: 421572c2-2789-48bc-b530-d48216799724
 TQID: 'https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 942
+source-wordcount: '942'
 ht-degree: 97%
-
 ---
-
 # Espaces de noms
 
 Chaque ID que vous voulez pouvoir rechercher se voit attribuer un espace de noms, qui est une chaîne personnalisée qui identifie cet ID dans n’importe quelle variable de l’ensemble de vos suites de rapports.
 
-La chaîne d’espace de noms est utilisée pour identifier le(s) champ(s) que vous voulez rechercher lorsque vous fournissez un ID dans le cadre d’une demande relative à la Confidentialité des données. Lorsqu’une demande d’accès à des données personnelles est soumise, celle-ci inclut une section JSON spécifiant les ID du titulaire de données à utiliser pour la demande. Plusieurs ID peuvent être inclus dans le cadre d’une demande unique pour un ou une titulaire de données. La configuration JSON comprend :
+La chaîne d’espace de noms permet d’identifier le ou les champs dans lesquels effectuer une recherche lorsqu’un identifiant est fourni dans le cadre d’une demande d’accès à des informations personnelles. Lorsqu’une demande d’accès à des informations personnelles est envoyée, elle contient une section JSON qui spécifie les identifiants de titulaires de données à utiliser pour cette demande. Plusieurs ID peuvent être inclus dans le cadre d’une demande unique pour un ou une titulaire de données. La configuration JSON comprend :
 
 * Un champ « namespace » contenant la chaîne d’espace de noms.
 * Un champ « type » qui, pour la plupart des demandes Adobe Analytics, contient la valeur « analytics ».
 * Un champ « value » contenant l’ID qu’Analytics doit rechercher dans les variables d’espace de noms associées de chacune de vos suites de rapports.
 
-Reportez-vous à la documentation de l’API [Confidentialité des données d’entreprise CX](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) pour plus d’informations et pour obtenir une [&#x200B; liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consultez [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour obtenir un exemple de requête.
+Consultez la documentation de l’API relative à la Confidentialité des données de CX Enterprise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr) pour plus d’informations et pour obtenir une [&#x200B; liste des espaces de noms d’identité standard](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/appendix#standard-namespaces). Consultez [Création d’une tâche d’accès/de suppression](https://experienceleague.adobe.com/fr/docs/experience-platform/privacy/api/privacy-jobs#access-delete) pour obtenir un exemple de requête.
 
 ## ID de cookie
 
-Cookie de suivi Analytics hérité, également connu sous le nom d’ID Adobe Analytics (AAID) :
+Cookie de suivi Analytics hérité, également connu sous le nom d’identifiant Adobe Analytics (AAID) :
 
 ```json
 {
@@ -86,7 +95,7 @@ Vous pouvez également utiliser `"namespaceId": 4` à la place ou en plus de `"n
 >
 >Ces identifiants sont les seuls pris en charge par Analytics qui utilisent une valeur « type » autre que « analytics ».
 
-Si le format de la portion de valeur de l’un de ces identifiants de cookie ne respecte pas le format décrit pour cet identifiant, la demande relative à la Confidentialité des données échouera en indiquant l’erreur « Format de la valeur incorrect ».
+Si la partie correspondant à la valeur de l’un de ces identifiants de cookie ne respecte pas le format spécifié pour cet identifiant, la demande d’accès à des informations personnelles échoue avec l’erreur « Format de la valeur incorrect ».
 
 Vous collecterez le plus souvent ces ID de cookie en utilisant le nouveau [code JavaScript sur la confidentialité](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), qui fournira automatiquement toutes les paires clé/valeur appropriées pour ces ID JSON.
 
@@ -119,13 +128,13 @@ L’espace de noms est également prédéfini pour l’identifiant visiteur pers
 }
 ```
 
-Pour les ID dans les variables de trafic ou de conversion personnalisées (props ou eVars), étiquetez la variable avec une étiquette ID-DEVICE ou ID-PERSON, puis attribuez votre propre nom d’espace de noms à ce type d’ID. Voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
+Pour les identifiants contenus dans des variables de trafic ou de conversion personnalisées (props ou eVars), appliquez à la variable le libellé ID-DEVICE ou ID-PERSON, puis attribuez votre propre nom d’espace de noms à ce type d’identifiant. Voir [Fournir un espace de noms lors de l’étiquetage d’une variable comme ID-DEVICE ou ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
 Vous pouvez également voir les espaces de noms que vous avez précédemment définis pour d’autres variables ou suites de rapports et réutiliser l’un d’entre eux afin que le même espace de noms puisse facilement être utilisé pour toutes vos suites de rapports stockant ce type d’ID. Il est également possible d’attribuer le même espace de noms à plusieurs variables dans une suite de rapports. Par exemple, certains clients stockent un ID de gestion de la relation client dans une variable de trafic et une variable de conversion (selon la page, c’est parfois dans l’un ou l’autre ou les deux) et peuvent attribuer l’espace de noms « ID de gestion de la relation client » aux deux variables.
 
 >[!TIP]
 >
->Évitez d’utiliser le nom convivial d’une variable (nom affiché dans l’interface utilisateur de création de rapports) ou le numéro de la variable (par exemple, eVar12) lorsque vous spécifiez l’espace de noms dans l’API Data Privacy, sauf s’il s’agit de l’espace de noms spécifié lorsque vous avez appliqué l’étiquette ID-DEVICE ou ID-PERSON. L’utilisation de l’espace de noms au lieu du nom convivial permet au bloc d’identité du même utilisateur de spécifier la variable correcte pour plusieurs suites de rapports. Par exemple, si l’ID se trouve dans des eVars différentes dans certaines suites de rapports ou si les noms conviviaux ne correspondent pas (comme lorsque le nom convivial a été localisé pour une suite de rapports spécifique).
+>Évitez d’utiliser le nom convivial d’une variable (nom affiché dans l’interface utilisateur de reporting) ou le numéro de la variable (par exemple, eVar12) lorsque vous spécifiez l’espace de noms dans l’API Data Privacy, sauf s’il s’agit de l’espace de noms spécifié lors de l’application du libellé ID-DEVICE ou ID-PERSON. L’utilisation de l’espace de noms au lieu du nom convivial permet au bloc d’identité du même utilisateur de spécifier la variable correcte pour plusieurs suites de rapports. Par exemple, si l’ID se trouve dans des eVars différentes dans certaines suites de rapports ou si les noms conviviaux ne correspondent pas (comme lorsque le nom convivial a été localisé pour une suite de rapports spécifique).
 
 >[!CAUTION]
 >

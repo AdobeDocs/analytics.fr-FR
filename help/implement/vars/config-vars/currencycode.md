@@ -1,48 +1,60 @@
 ---
-title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
+title: Qu’est-ce que la variable currencyCode et comment l’utiliser ?
 description: Pour les sites d’e-commerce, définit la devise utilisée par la page.
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+TQID: 'https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: '952'
 ht-degree: 96%
-
 ---
-
 # currencyCode
 
-Pour les sites qui utilisent le commerce, les recettes et la devise constituent une partie importante d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de chiffre d’affaires correspondent à la devise appropriée.
+Pour les sites à vocation commerciale, le chiffre d’affaires et la gestion des devises constituent des éléments importants d’Analytics. De nombreux sites, notamment ceux qui s’étendent sur plusieurs pays, utilisent des devises différentes. Utilisez la variable `currencyCode` pour vous assurer que les attributs de chiffre d’affaires correspondent à la devise appropriée.
 
-La conversion de devise applique la logique suivante à chaque accès. Ces étapes s’appliquent aux valeurs de chiffre d’affaires définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme « Devise » dans [Événements de succès](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
+La conversion de devise applique la logique suivante à chaque hit. Ces étapes s’appliquent aux valeurs de chiffre d’affaires définies par la variable [`products`](../page-vars/products.md) et tous les événements répertoriés comme « Devise » dans [Événements de succès](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md) sous Paramètres de la suite de rapports.
 
 * Si `currencyCode` n’est pas défini, Adobe suppose que toutes les valeurs de devise sont la devise de la suite de rapports. Consultez [Paramètres généraux du compte](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) dans les paramètres de la suite de rapports pour afficher la devise de la suite de rapports.
 * Si `currencyCode` est défini et correspond à la devise de la suite de rapports, aucune conversion de devise n’est appliquée.
 * Si `currencyCode` est défini et différent de la devise de la suite de rapports, Adobe applique une conversion de devise basée sur le taux de change du jour en cours. Adobe collabore avec [XE](https://xe.com) pour convertir chaque jour des devises. Toutes les valeurs stockées dans la suite de rapports ont la devise de la suite de rapports.
 * Si `currencyCode` est défini sur une valeur non valide, **l’accès complet est ignoré, ce qui entraîne une perte de données.** Assurez-vous que cette variable est correctement définie lorsqu’elle est utilisée.
 
-Cette variable ne persiste pas entre les accès. Assurez-vous que cette variable est définie sur chaque page qui implique des chiffres d&#39;affaires ou des événements de devise qui ne correspondent pas à la devise par défaut de la suite de rapports.
+Cette variable ne persiste pas entre les accès. Veillez à ce que cette variable soit définie sur chaque page comportant des événements liés au chiffre d’affaires ou à une devise qui ne correspondent pas à la devise par défaut de la suite de rapports.
 
 >[!NOTE]
 >
->Bien que les codes de devise puissent changer d’une page à l’autre, toutes les mesures de devise d’un seul accès doivent utiliser la même devise.
+>Bien que les codes de devise puissent changer d’une page à l’autre, toutes les mesures de devise d’un seul hit doivent utiliser la même devise.
 
 Un point **doit** doit être utilisé comme séparateur de devise pour toutes les devises lors de la mise en place de cette variable. Par exemple, la couronne suédoise, qui utilise normalement la virgule comme séparateur, doit être modifiée pour utiliser un point dans la variable `products` et dans tous les événements de devise. Adobe affiche le bon séparateur de devise dans les rapports.
 
@@ -72,7 +84,7 @@ Le code de devise est transmis aux SDK Adobe Experience Platform Mobile par le b
 1. Créez une règle de traitement dans les outils d’administration d’Adobe Analytics pour la suite de rapports. Définissez la règle pour remplacer la variable du code de devise.
 1. Transmettez le code de devise à la variable `products` dans votre appel à `trackState` ou `trackAction`.
 
-Vous pouvez utiliser un code de devise prédéfini ou un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
+Vous pouvez utiliser soit un code de devise prédéfini, soit un code de devise personnalisé. Si vous utilisez un code de devise personnalisé, assurez-vous que le code est valide.
 
 ## s.currencyCode dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
@@ -246,14 +258,14 @@ Les codes de devise suivants sont valides :
 | `VND` | Vietnam, dong |
 | `VUV` | Vanuatu, vatu |
 | `WST` | Samoa, tala |
-| `XAF` | Communauté Financière Africaine, francs B |
+| `XAF` | Communauté financière africaine, francs B |
 | `XAG` | Argent, onces |
 | `XAU` | Or, onces |
 | `XCD` | Caraïbes orientales, dollars |
 | `XDR` | Unité panier de compte du FMI |
-| `XOF` | Communauté Financière Africaine, francs B |
+| `XOF` | Communauté financière africaine, francs B |
 | `XPD` | Palladium, onces |
-| `XPF` | Comptoirs Français du Pacifique Francs |
+| `XPF` | Comptoirs français du Pacifique, francs |
 | `XPT` | Platine, onces |
 | `YER` | Yémen, rials |
 | `ZAR` | Afrique du Sud, rands |

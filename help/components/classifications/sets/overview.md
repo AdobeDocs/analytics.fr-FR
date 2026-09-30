@@ -3,24 +3,30 @@ title: Vue d’ensemble des jeux de classifications
 description: Découvrez comment utiliser des jeux de classifications pour gérer les données de classification. Découvrez en quoi les jeux de classifications diffèrent des classifications héritées.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-TQID: https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM
+TQID: 'https://experienceleague.adobe.com/e0kjSA-GjsEVp9Qd-sblXdq4uvwgcUGdmeTtrEUIOjM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: '905'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble des jeux de classifications
 
 Les jeux de classifications fournissent une interface unique pour gérer les classifications et les règles. Ce workflow combine la création de classifications dans les [Paramètres de la suite de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) avec l’[Importateur de classifications](/help/components/classifications/sets/manage-sets.md). Le résultat est une interface intuitive unique pour créer et gérer des données de classification.
@@ -46,7 +52,7 @@ Utilisez l’[Importateur de classifications](/help/components/classifications/i
 
 ![Jeux de classifications](./assets/classifications-sets.svg)
 
-Les jeux de classifications combinent toutes les interfaces de classification héritées en une seule. Chaque jeu de classifications définit :
+Les jeux de classifications combinent toutes les interfaces de classification héritées en une seule. Chaque ensemble de classification définit :
 
 * Un ou plusieurs abonnements, qui sont la combinaison des ![Données](/help/assets/icons2/Data.svg) d’une suite de rapports et de la dimension ![Clé](/help/assets/icons2/Key.svg) (clé), que vous souhaitez classer. Si vous souhaitez classer les produits en fonction d’un SKU de produit, vous pouvez définir toutes les suites de rapports avec une dimension de SKU de produit applicable. De plus, vous n’avez pas à répliquer les classifications entre les suites de rapports comme dans l’interface des classifications héritées.
 * Une liste de classifications ![Schéma](/help/assets/icons2/Schema.svg) (schéma) pour la clé. Par exemple, pour les classifications de produits, vous pouvez spécifier la catégorie, la couleur, la taille, le genre, etc. Une fois vos classifications définies, vous pouvez télécharger un modèle ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), charger des données de classification ![UploadToCloud](/help/assets/icons/UploadToCloud.svg), télécharger des données de classification ![Download](/help/assets/icons/Download.svg), etc.
@@ -55,7 +61,7 @@ Les jeux de classifications combinent toutes les interfaces de classification h�
 
 Pour accéder au menu **[!UICONTROL Jeux de classifications]** à partir du menu **[!UICONTROL Composants]** dans l’interface d’Adobe Analytics, vous devez être un administrateur ou une administratrice de produit ou appartenir à un profil de produit contenant l’élément d’autorisation [!UICONTROL Outils de suites de rapports] > [!UICONTROL Classifications]. Notez que les interfaces de gestion des classifications héritées sont disponibles à partir du menu **[!UICONTROL Admin]**.
 
-Les jeux de classifications se composent de trois zones fonctionnelles :
+Les ensembles de classification se composent de trois zones fonctionnelles :
 
 * [**[!UICONTROL Jeux de classifications]**](manage-sets.md) : créez, modifiez et supprimez des jeux de classifications.
 * [**[!UICONTROL Traitements]**](job-manager.md) : affichez le statut des traitements des jeux de classifications.
@@ -64,9 +70,9 @@ Les jeux de classifications se composent de trois zones fonctionnelles :
 
 ## Workflow
 
-Le workflow des jeux de classifications implique généralement les étapes suivantes :
+Le workflow des ensembles de classification implique généralement les étapes suivantes :
 
-1. Déterminez les combinaisons de suite de rapports et de dimension pour lesquelles vous souhaitez créer un jeu de classifications. Par exemple, définissez un jeu de classifications de produits que vous créez pour toute suite de rapports pour laquelle vous souhaitez classer les produits avec plus de détails. Par exemple, les détails tels que la catégorie et la couleur.
+1. Déterminez les combinaisons de suite de rapports et de dimension pour lesquelles vous souhaitez créer un jeu de classifications. Par exemple, définissez un ensemble de classification de produits que vous créez pour toute suite de rapports pour laquelle vous souhaitez classer les produits avec plus de détails. Par exemple, les détails tels que la catégorie et la couleur.
 1. [Créez un jeu de classifications](/help/components/classifications/sets/create-set.md) avec des abonnements à une ou plusieurs suites de rapports et combinaisons de dimensions clés qui identifient les produits. Par exemple :
 
    | Suite de rapports | Dimension clé |
@@ -83,7 +89,7 @@ Le workflow des jeux de classifications implique généralement les étapes suiv
 
 1. Créez manuellement un fichier contenant des données de classification. [Utilisez un modèle](/help/components/classifications/sets/manage/schema.md#template) pour vous assurer d’utiliser le [format de fichier pris en charge](data-files.md#classification-set-file-formats) et les colonnes du fichier. Ajoutez ensuite les données au fichier de modèle.
 
-   Vous pouvez également exporter des données directement à partir de votre catalogue de produits dans les [formats de fichiers pris en charge](data-files.md#classification-set-file-formats) avec des colonnes qui adhèrent au modèle. Par exemple, un fichier CSV tel que :
+   Vous pouvez également exporter des données directement à partir de votre catalogue de produits dans les [formats de fichiers pris en charge](data-files.md#classification-set-file-formats) avec des colonnes qui adhèrent au modèle. Par exemple, un fichier CSV (valeurs séparées par des virgules), comme :
 
    ```
    Key,Category,Color
@@ -119,13 +125,13 @@ Le workflow des jeux de classifications implique généralement les étapes suiv
 
 ## Améliorations
 
-L’architecture back-end publiée avec les jeux de classifications contient plusieurs améliorations notables :
+L’architecture back-end publiée avec les jeux de classification contient plusieurs améliorations notables :
 
 * Réduction du temps de traitement (de 72 heures à 24 heures).
-* Une interface d’utilisation repensée pour gérer les classifications.
+* Une interface utilisateur repensée pour gérer les classifications.
 * Option d’utiliser des données de classification dans Adobe Experience Platform à l’avenir via le [connecteur source Adobe Analytics pour les données de classification.](https://experienceleague.adobe.com/fr/docs/experience-platform/sources/connectors/adobe-applications/classifications)
 
-L’architecture back-end publiée avec les jeux de classifications contient également plusieurs modifications notables :
+L’architecture back-end publiée avec les jeux de classification contient également plusieurs modifications notables :
 
 * Lors de l’utilisation du navigateur ou de l’import automatisé, l’option **[!UICONTROL Remplacer en cas de conflit]** est toujours activé.
 * Lors de l’utilisation du navigateur ou de l’import automatisé, l’option permettant d’exporter immédiatement après l’import n’est plus prise en charge. Les exports doivent être lancés séparément.
@@ -133,4 +139,4 @@ L’architecture back-end publiée avec les jeux de classifications contient ég
 
 >[!IMPORTANT]
 >
->Les performances des jeux de classifications dépendent principalement du nombre de valeurs de clés uniques qui contiennent des données. Faites preuve de prudence lorsque vous avez des variables qui contiennent un grand nombre de valeurs uniques. Cela s’applique tout particulièrement lorsque vous combinez des variables de plusieurs suites de rapports et dimensions dans un seul jeu de classifications.
+>Les performances des jeux de classification dépendent principalement du nombre de valeurs de clé uniques qui contiennent des données. Faites preuve de prudence lorsque vous avez des variables qui contiennent un grand nombre de valeurs uniques. Cela s’applique tout particulièrement lorsque vous combinez des variables de plusieurs suites de rapports et dimensions dans un seul jeu de classification.

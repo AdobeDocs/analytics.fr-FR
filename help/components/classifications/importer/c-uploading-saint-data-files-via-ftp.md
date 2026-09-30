@@ -1,27 +1,33 @@
 ---
-description: Comment télécharger des fichiers de données via FTP.
+description: Comment charger des fichiers de données via FTP.
 title: Importation FTP
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-TQID: https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA
+TQID: 'https://experienceleague.adobe.com/CMHQpWtGl14Z7kHaZ7ufp6-tDIfQ-pCEzSI47XMi-pA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 72%
-
 ---
-
 # Import FTP (hérité)
 
 {{classification-importer-deprecation}}
@@ -34,11 +40,11 @@ ht-degree: 72%
 >
 >Configurez plutôt un compte cloud comme décrit dans la section [Configurer des comptes d’importation et d’exportation cloud](/help/components/locations/configure-import-accounts.md).
 
-Description de la procédure de téléchargement de fichiers de données via FTP.
+Description de la procédure de chargement de fichiers de données via FTP.
 
 ## Importation FTP {#concept_2F965BE873254546A61FB755F25299FD}
 
-Pour télécharger des fichiers de données via FTP :
+Pour charger des fichiers de données via FTP :
 
 1. **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 
@@ -52,7 +58,7 @@ La configuration initiale remplit la base de données des classifications par un
 
 Après un premier chargement dans une suite de rapports (pour une variable ou un rapport donnés), Adobe recommande de ne charger que les lignes nouvelles et mises à jour lors des prochaines importations. Les lignes qui ne sont pas modifiées doivent être ignorées lors des chargements ultérieurs.
 
-Chaque nouvelle valeur de clé chargée compte comme valeur unique de cette variable pour le mois.
+Chaque nouvelle valeur de clé que vous chargez est comptabilisée comme une valeur unique supplémentaire pour cette variable au cours du mois.
 
 Si vous avez dépassé les limites des valeurs uniques pour le mois, vous ne verrez pas les données de classifications correspondantes pour les valeurs dépassées dans les rapports. Vous pouvez voir ces classifications dans Data Warehouse.
 
@@ -75,10 +81,10 @@ Voir [FTP et SFTP](/help/export/ftp-and-sftp/ftp-overview.md) pour en savoir plu
    |---|---|
    | **Nom** | Nom du compte FTP. |
    | **Jeu de données à classer** | Dans la liste déroulante, sélectionnez le jeu de données (variable de rapport marketing) que vous souhaitez classer. |
-   | **Sélectionner des suites de rapports** | Sélectionnez les suites de rapport dans lesquelles vous souhaitez classer le jeu de données sélectionné. Si vous voulez sélectionner plusieurs suites de rapports, les classifications de chaque suite sélectionnée doivent être identiques. |
+   | **Sélectionner des suites de rapports** | Sélectionnez les suites de rapports dans lesquelles vous souhaitez classer le jeu de données sélectionné. Si vous voulez sélectionner plusieurs suites de rapports, les classifications de chaque suite sélectionnée doivent être identiques. |
    | **Remplacer les données en cas de conflit** | Sélectionnez cette option pour écraser les données en double. Elle s’avère utile lorsque vous mettez à jour des classifications existantes. Si vous utilisez la [dernière architecture de classification](../sets/overview.md), ce paramètre est toujours activé. |
    | **Une fois l’importation terminée** | Sélectionnez cette option pour exporter automatiquement le jeu de données mis à jour vers le même compte FTP une fois que vous avez spécifié l’adresse e-mail à laquelle recevoir les notifications sur ce compte FTP une fois l’importation terminée. Si vous utilisez la [dernière architecture de classification](../sets/overview.md), cette option n’est pas disponible. |
-   | **Destinataire de la notification** | Indiquez l’adresse de courriel à laquelle doivent être envoyées les notifications concernant ce compte FTP. |
+   | **Destinataire de la notification** | Indiquez l’adresse e-mail à laquelle doivent être envoyées les notifications concernant ce compte FTP. |
    | **Autoriser** | (Obligatoire) Autorise Adobe à importer automatiquement tous les fichiers de données envoyés au nouveau compte FTP. |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -87,7 +93,7 @@ Une fois les comptes FTP créés, vous pouvez les modifier ou les supprimer en c
 
 >[!NOTE]
 >
->Les notifications ne sont pas envoyées si une importation n’introduit aucune modification à une classification. Un email est envoyé uniquement si cette opération réussit et entraîne des modifications au niveau d’une classification.
+>Les notifications ne sont pas envoyées si une importation n’introduit aucune modification à une classification. Un e-mail est envoyé uniquement si cette opération réussit et entraîne des modifications au niveau d’une classification.
 
 ## Importer des classifications via FTP
 
@@ -98,7 +104,7 @@ Pour importer des classifications via FTP :
 1. Cliquez sur **[!UICONTROL Admin]** > **[!UICONTROL Importateur de classifications]**.
 1. Cliquez sur **[!UICONTROL Importer un fichier]**, puis sur **[!UICONTROL Importation FTP]**.
 1. Cliquez sur **[!UICONTROL Afficher]** en regard du compte FTP à utiliser.
-1. Utilisez les informations d’accès FTP (Hôte, Identifiant, Mot de passe) pour accéder au serveur FTP à l’aide d’un client FTP de votre choix.
+1. Utilisez les informations d’accès FTP (Hôte, Nom d’utilisateur, Mot de passe) pour accéder au serveur FTP à l’aide du client FTP de votre choix.
 1. Chargez le fichier de données (`.tab` ou `.txt`) sur le serveur FTP.
 1. Une fois le fichier de données chargé, chargez un fichier FIN indiquant que le fichier est prêt pour le traitement.
 

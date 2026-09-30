@@ -1,31 +1,43 @@
 ---
 description: Obtenez des réponses aux questions fréquentes sur les flux de données dans Adobe Analytics.
-keywords: Flux de données;tâche; colonne « Pré »;colonne « Post »;respect de la casse
+keywords: Flux de données;traitement;colonne « Pré »;colonne « Post »;respect de la casse
 title: FAQ sur les flux de données
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 TQID: 'https://experienceleague.adobe.com/bTksilYRAeqiQ-QbO6-NZLWUndN76VzXnOobkAji1zo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: '1508'
 ht-degree: 73%
-
 ---
-
 # FAQ sur les flux de données
 
 Questions fréquentes sur les flux de données.
 
-## Les noms de flux doivent-ils être uniques ?{#unique}
+## Les noms de flux doivent-ils être uniques ?{#unique}
 
 Adobe Analytics n’empêche pas le remplacement des fichiers de flux de données.
 
@@ -33,7 +45,7 @@ Pour éviter que les fichiers de flux de données ne soient écrasés, nous vous
 
 Les noms de fichier des flux de données se composent des caractéristiques de flux de données suivantes :
 
-* Identifiant de la suite de rapports (RSID)
+* Identifiant de suite de rapports (RSID)
 
 * Date d’export
 
@@ -45,9 +57,9 @@ Pour éviter le remplacement d’un fichier, tenez compte des solutions suivante
 * Si possible, modifiez les dates
 * Si possible, modifiez la suite de rapports
 
-## Quand les données sont-elles traitées ? {#processed}
+## Quand les données sont-elles traitées ? {#processed}
 
-Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les accès concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec horodatages compris dans cette tranche horaire, les compressent et les envoient via FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec horodatages compris dans cette tranche horaire, le processus fait une nouvelle tentative avec la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les accès qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
+Avant de traiter des données horaires ou quotidiennes, les flux de données attendent que tous les hits concernés par la collecte de données au cours de la période (jour ou heure) aient été écrits dans un entrepôt de données. Ensuite, les flux de données collectent les données avec date et heure comprises dans la période spécifiée, les compressent et les envoient via FTP. Dans le cas des flux horaires, les fichiers sont généralement écrits dans Data Warehouse dans un délai de 15 à 30 minutes, mais aucune période horaire n’est définie. En l’absence de données avec date et heure correspondant à la période spécifiée, le processus effectue une nouvelle tentative au cours de la période suivante. Le processus de flux de données en cours utilise le champ `date_time` pour déterminer les hits qui appartiennent à la période d’une heure. Ce champ est basé sur le fuseau horaire de la suite de rapports.
 
 ## Quelle est la différence entre les colonnes comportant un préfixe `post_` et celle ne comportant pas de préfixe `post_` ? {#post}
 
@@ -55,13 +67,13 @@ Les colonnes sans le préfixe `post_` contiennent les données telles qu’elles
 
 Si une colonne ne contient pas de version `post_` (par exemple, `visit_num`), alors la colonne peut être considérée comme une colonne « Post ».
 
-## Comment les flux de données gèrent-ils le respect de la casse ? {#case}
+## Comment les flux de données gèrent-ils le respect de la casse ? {#case}
 
 Dans Adobe Analytics, la plupart des variables sont considérées comme ne respectant pas la casse à des fins de création de rapports. Par exemple, les valeurs « neige », « Neige », « NEIGE » et « nEige » sont toutes considérées comme étant la même valeur. Le respect de la casse est préservé dans les flux de données.
 
-Si vous observez différentes variations de la casse entre des colonnes « Post » et non « Post » (par exemple, « neige » dans la colonne « Pré » et « Neige » dans la colonne « Post »), cela signifie que votre implémentation utilise des valeurs à la fois en majuscules et en minuscules sur votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
+Si vous constatez différentes variations de casse d’une même valeur entre les colonnes « non-post » et « post » (par exemple, « snow » dans la colonne pre et « Snow » dans la colonne post), cela signifie que votre mise en œuvre utilise à la fois des valeurs en majuscules et en minuscules sur l’ensemble de votre site. Les différences de casse dans la colonne « Post » étaient précédemment transmises puis stockées dans un cookie virtuel ou étaient traitées à peu près en même temps pour cette suite de rapports.
 
-## Les robots sont-ils filtrés par les règles de robots d’Admin Console incluses dans les flux de données ? {#bots}
+## Les robots filtrés par les règles de robots d’Admin Console sont-ils inclus dans les flux de données ? {#bots}
 
 Les flux de données n’incluent pas les robots filtrés par les [règles de robots d’Admin Console](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md).
 
@@ -71,9 +83,9 @@ Certains éditeurs de feuilles de calcul, en particulier Microsoft Excel, arrond
 
 Adobe recommande de ne pas ouvrir automatiquement les fichiers `hit_data.tsv` dans Microsoft Excel. Utilisez plutôt la boîte de dialogue Importer les données dʼExcel et assurez-vous que tous les champs sont traités comme du texte.
 
-## Les colonnes telles que `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties comme étant uniques à lʼaccès ou à la visite ? {#hitid}
+## Les colonnes telles que `hitid_high`, `hitid_low`, `visid_high` et `visid_low` sont-elles garanties comme étant uniques au hit ou à la visite ? {#hitid}
 
-Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un accès. Le même concept sʼapplique à la concaténation de `visid_high` et `visid_low` pour les visites. Cependant, les anomalies de traitement peuvent rarement faire en sorte que deux accès partagent le même identifiant dʼaccès. Adobe recommande de ne pas créer de workflows de flux de données qui supposent de manière inflexible que chaque accès soit unique.
+Dans la plupart des cas, la concaténation de `hitid_high` et `hitid_low` identifie de manière unique un hit. Le même concept sʼapplique à la concaténation de `visid_high` et `visid_low` pour les visites. Toutefois, dans de rares cas, des anomalies de traitement peuvent entraîner l’attribution du même identifiant de hit à deux hits. Adobe déconseille de créer des workflows de flux de données qui supposent systématiquement que chaque hit est unique.
 
 ## Pourquoi des informations manquent-elles dans la colonne domaine pour certains opérateurs ? {#domain}
 
@@ -87,29 +99,29 @@ Pour les renvois datant de plus de 10 jours, Adobe recommande vivement d’utili
 
 ## Quel est l’impact du passage à l’heure d’été sur les flux de données par heure ? {#dst}
 
-Dans certains fuseaux horaires, l’heure change deux fois par an. Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02 h 00).
+Dans certains fuseaux horaires, l’heure change deux fois par an en raison des règles de passage à l’heure d’été (DST). Les flux de données respectent le fuseau horaire pour lequel la suite de rapports est configurée. Si le fuseau horaire configuré pour la suite de rapports n’applique pas l’heure d’été, la remise des fichiers se poursuit normalement. Si le fuseau horaire de la suite de rapports utilise l’heure d’été, la diffusion des fichiers est modifiée pour l’heure à laquelle le changement d’heure se produit (généralement à 02 h 00).
 
 Lorsque vous effectuez des transitions de temps STD -> DST (printemps vers l&#39;avant), vous recevez 23 fichiers. L’heure qui est « sautée » au cours du changement d’heure est ignorée. Par exemple, si la transition se produit à 2 heures du matin, vous obtenez un fichier pour l’heure 1:00 et un fichier pour l’heure 3:00. Il n’y a pas de fichier pour 02 h 00, car à 02 h 00 STD, il devient 03 h 00 DST.
 
 Lorsque vous effectuez des transitions DST -> STD (secours), vous recevez 24 fichiers. Cependant, l’heure de transition contient l’équivalent de 2 heures de données. Par exemple, si le changement d’heure a lieu à 02 h 00, le fichier correspondant à 01 h 00 est retardé d’une heure, mais il contient des données pendant deux heures. Il contient des données de 1 h 00 DST à 2 h 00 STD (ce qui aurait été 3 h 00 DST). Le fichier suivant commence à 02 h 00 STD.
 
-## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
+## Comment Analytics gère-t-il les erreurs de transfert FTP ? {#ftp-failure}
 
-En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d’une perte de connexion, d’une erreur de quota ou d’un autre problème), Adobe tente de se connecter automatiquement et d’envoyer les données jusqu’à trois fois. Si le problème persiste, le flux est marqué comme ayant échoué et un message de notification est envoyé.
+En cas d’échec d’un transfert FTP (en raison d’un refus de connexion, d’une perte de connexion, d’une erreur de quota ou d’un autre problème), Adobe tente de se connecter automatiquement et d’envoyer les données jusqu’à trois fois. Si le problème persiste, le flux est marqué comme ayant échoué et une notification par e-mail est envoyée.
 
-Si un transfert échoue, vous pouvez réexécuter une tâche jusqu’à ce qu’elle réussisse.
+En cas d’échec d’un transfert, vous pouvez réexécuter une tâche jusqu’à ce qu’elle aboutisse.
 
 Si vous rencontrez des problèmes lors de l’affichage d’un flux de données sur votre site FTP, voir [Résolution des problèmes liés aux flux de données](troubleshooting.md).
 
-## Comment puis-je renvoyer une tâche ? {#resend}
+## Comment puis-je renvoyer un traitement ? {#resend}
 
-Une fois que vous avez vérifié ou corrigé le problème de diffusion, exécutez à nouveau la tâche pour obtenir les fichiers.
+Après avoir vérifié/corrigé le problème de diffusion, exécutez à nouveau le traitement pour obtenir les fichiers.
 
 ## Qu’est-ce que le paramètre BucketOwnerFullControl pour les flux de données Amazon S3 ? {#BucketOwnerFullControl}
 
 **BucketOwnerFullControl** spécifie des droits entre comptes pour créer des objets dans d’autres compartiments.
 
-Cas d’utilisation type d’Amazon S3 : le titulaire du compte AWS (Amazon Web Services) crée un compartiment, puis crée un utilisateur qui est autorisé à créer des objets dans ce compartiment, puis spécifie les informations d’identification pour cet utilisateur. Dans ce cas, les objets de l’utilisateur appartiennent au même compte et le titulaire du compte bénéficie implicitement du contrôle total de l’objet (lecture, suppression, etc). Ce processus fonctionne de la même manière que les remises par FTP.
+Dans un cas d’utilisation courant d’Amazon S3, le propriétaire du compte Amazon Web Services (AWS) crée un compartiment, puis un utilisateur autorisé à créer des objets dans ce compartiment, et fournit ensuite les informations d’identification de cet utilisateur. Dans ce cas, les objets de l’utilisateur appartiennent au même compte et le titulaire du compte bénéficie implicitement du contrôle total de l’objet (lecture, suppression, etc). Ce processus fonctionne de la même manière que les remises par FTP.
 
 AWS permet aussi de créer des objets dans un compartiment appartenant à un autre compte d’utilisateur. Par exemple, deux utilisateurs AWS (utilisateurA et utilisateurB) n’appartiennent pas au même compte AWS, mais souhaitent créer des objets dans d’autres compartiments. Si l’utilisateurA crée un compartiment (le compartimentA), il peut créer une politique de compartiment qui autorise explicitement l’utilisateurB à créer des objets dans le compartimentA, même si l’utilisateur n’est pas propriétaire du compartiment. Cette politique peut s’avérer avantageuse, car l’utilisateurA et l’utilisateurB n’ont pas à échanger d’informations d’identification. Au lieu de cela, l’utilisateurB fournit à l’utilisateurA son numéro de compte, puis l’utilisateurA crée une politique de compartiment qui autorise l’utilisateurB à créer des objets dans le compartimentA.
 

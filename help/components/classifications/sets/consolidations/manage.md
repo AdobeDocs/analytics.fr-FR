@@ -3,23 +3,28 @@ title: Gérer les consolidations des ensembles de classifications
 description: Découvrez comment consolider un ou plusieurs ensembles de classifications en un seul ensemble.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-TQID: https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk
+TQID: 'https://experienceleague.adobe.com/aVektccr8bmyVRtKcfZhH9kE8TZUdCDsoGLTwauM5Hk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 597
+source-wordcount: '597'
 ht-degree: 3%
-
 ---
-
 # Gestion des consolidations de classification
 
 Si vous disposez de plusieurs ensembles de classifications contenant des données de classification similaires, vous pouvez les consolider en un seul ensemble de classifications. Lorsque vous consolidez plusieurs ensembles de classifications, Adobe génère un nouvel ensemble de classifications qui contient toutes les données de classification de chaque ensemble de classifications. Les consolidations sont utiles lorsque vous avez chargé des données dans de nombreuses suites de rapports. Ou lorsque vous disposez de dimensions contenant les mêmes données de classification et que vous souhaitez les fusionner en un seul workflow.

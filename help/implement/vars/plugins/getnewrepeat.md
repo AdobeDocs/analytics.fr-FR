@@ -7,26 +7,36 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/A9jQocr-Ty9zB-6RWWzIH8FoX12iOSn2YM-lsAY-ZRA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 681
+source-wordcount: '681'
 ht-degree: 71%
-
 ---
-
 # Plug-in Adobe : getNewRepeat
 
 {{plug-in}}
@@ -62,7 +72,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
    * Type d’action : initialisation de getNewRepeat
@@ -96,7 +106,7 @@ La fonction `getNewRepeat` utilise les arguments suivants :
 
 * **`d`** (entier, facultatif) : nombre minimum de jours requis entre les visites qui réinitialise le statut des visiteurs à `"New"`. Si cet argument n’est pas défini, la période par défaut est de 30 jours.
 
-Cette fonction renvoie la valeur de `"New"` si le cookie défini par le plug-in nʼexiste pas ou a expiré. Elle renvoie la valeur de `"Repeat"` si le cookie défini par le plug-in existe et si le temps écoulé depuis l’accès actif et celui défini dans le cookie sont supérieurs à 30 minutes. Cette fonction renvoie la même valeur pour une visite complète.
+Cette fonction renvoie la valeur de `"New"` si le cookie défini par le plug-in nʼexiste pas ou a expiré. Elle renvoie la valeur de `"Repeat"` si le cookie défini par le plug-in existe et si le temps écoulé depuis le hit actif et celui défini dans le cookie sont supérieurs à 30 minutes. Cette fonction renvoie la même valeur pour une visite complète.
 
 Ce plug-in utilise un cookie nommé `"s_nr[LENGTH]"` où `[LENGTH]` est égal à l’argument `d`. Le cookie contient un horodatage Unix représentant l’heure actuelle et le statut actuel du visiteur (`"New"` ou `"Repeat"`).
 

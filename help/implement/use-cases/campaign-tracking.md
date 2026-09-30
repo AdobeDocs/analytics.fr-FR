@@ -4,39 +4,51 @@ description: Utilisez Adobe Analytics pour suivre vos efforts marketing.
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+TQID: 'https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 583
+source-wordcount: '583'
 ht-degree: 98%
-
 ---
-
 # Workflow du suivi de campagne
 
-Si votre entreprise souhaite suivre les performances et le taux de clics publicitaires des efforts marketing, vous pouvez utiliser le processus suivant. Chacune de ces étapes comporte des sections dédiées ci-dessous qui contiennent plus de détails.
+Si votre organisation souhaite suivre les performances et le taux de clics de ses efforts marketing, vous pouvez utiliser le processus suivant. Chacune de ces étapes comporte des sections dédiées ci-dessous qui contiennent plus de détails.
 
 1. [Établir un processus de génération de code de suivi](#establish-a-tracking-code-generation-process)
 1. [Ajouter le code de suivi souhaité à l’e-mail](#add-the-desired-tracking-code-to-the-email)
 1. [Configurer ou ajuster votre mise en œuvre Adobe Analytics pour inclure des données de code de suivi](#include-campaign-variables-in-your-implementation)
-1. [Afficher les rappports dans Analysis Workspace](#view-the-reports-in-analysis-workspace)
+1. [Afficher les rapports dans Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/fr/products/campaign/adobe-campaign.html) peut simplifier chacune de ces étapes afin de tirer le meilleur parti de vos efforts marketing. Pour plus dʼinformations, contactez votre personne représentante commerciale Adobe.
+[Adobe Campaign](https://business.adobe.com/fr/products/campaign/adobe-campaign.html) peut simplifier chacune de ces étapes afin de tirer le meilleur parti de vos efforts marketing. Pour plus d’informations, contactez votre représentant du service commercial Adobe.
 
 ## Établir un processus de génération de code de suivi
 
@@ -46,7 +58,7 @@ Quelle que soit la manière dont vous choisissez de créer ou de générer des c
 
 ## Ajouter le code de suivi souhaité à une URL
 
-Une fois que vous disposez de la valeur de code de suivi souhaitée, vous pouvez l’ajouter à tous les liens que vous publiez en ligne, tels que les publicités, les médias sociaux ou les e-mails. L’ajout de ces codes de suivi se fait généralement dans la chaîne de requête d’un lien. Le paramètre de chaîne de requête que vous utilisez dépend des exigences de suivi de votre organisation. Parmi les paramètres de chaîne de requête communs, il y a `cid` (abréviation d’identifiant de campagne). Certaines organisations qui utilisent également Google Analytics peuvent déjà avoir plusieurs paramètres de chaîne de requête de campagne, tels que `utm_source`, `utm_medium`, etc.
+Une fois que vous disposez de la valeur du code de suivi souhaitée, vous pouvez l’ajouter à tous les liens que vous publiez en ligne, par exemple dans des publicités, sur les réseaux sociaux ou dans des e-mails. L’ajout de ces codes de suivi se fait généralement dans la chaîne de requête d’un lien. Le paramètre de chaîne de requête que vous utilisez dépend des exigences de suivi de votre organisation. Parmi les paramètres de chaîne de requête communs, il y a `cid` (abréviation d’identifiant de campagne). Certaines organisations qui utilisent également Google Analytics peuvent déjà avoir plusieurs paramètres de chaîne de requête de campagne, tels que `utm_source`, `utm_medium`, etc.
 
 L’ajout de chaînes de requête à un lien dans un e-mail ressemble à ce qui suit :
 
@@ -65,11 +77,11 @@ Si votre organisation collecte des chaînes de requête `utm`, vous pouvez chois
 * Envoyer toutes les chaînes de requête `utm` dans la dimension de Code de suivi sous forme de valeurs concaténées. Vous pouvez ensuite utiliser les [Règles de classification](/help/components/classifications/crb/classification-rule-builder.md) pour créer des dimensions supplémentaires qui se concentrent sur chaque paramètre `utm`. Cette méthode a une courbe d’apprentissage plus complexe, mais n’utilise aucune eVar supplémentaire.
 * Envoyer chaque chaîne de requête `utm` dans une [eVar](/help/components/dimensions/evar.md) distincte. Cette méthode est plus simple à mettre en œuvre, mais nécessite l’utilisation d’eVars supplémentaires.
 
-## Afficher les rappports dans Analysis Workspace
+## Afficher les rapports dans Analysis Workspace
 
 Une fois que vous avez correctement configuré votre implémentation pour collecter les données de code de suivi, vous pouvez afficher des rapports dans Analysis Workspace.
 
-1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) et sélectionnez [!UICONTROL Adobe Analytics].
+1. Connectez-vous à [&#128279;](https://experience.adobe.com) puis sélectionnez [!UICONTROL Adobe Analytics].
 1. Créez un [projet Workspace](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Dans la liste des composants sur la gauche, faites glisser la dimension de [Code de suivi](/help/components/dimensions/tracking-code.md) dans la zone de travail de workspace.
 1. Faites glisser la mesure souhaitée, par exemple [Visites](/help/components/metrics/visits.md) ou [Commandes](/help/components/metrics/orders.md), sur le côté droit de la zone de travail de workspace.

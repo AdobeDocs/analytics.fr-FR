@@ -1,27 +1,36 @@
 ---
 title: Prise en main des canaux marketing
-description: Découvrez le processus des canaux marketing, la configuration automatique et comment appliquer les paramètres d’une suite de rapports modèle à plusieurs suites de rapports.
+description: Découvrez le workflow Canaux marketing, la configuration automatique et la méthode d’application des paramètres de suite de rapports de modèle à plusieurs suites de rapports.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-TQID: https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI
+TQID: 'https://experienceleague.adobe.com/ZPF3XewOODBtH3XFLBoULMQmdkcQnCsF08KN-1QbSjI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
   - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+    internal-label: Processing rules
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+    internal-label: Marketing Channels
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 812
+source-wordcount: '812'
 ht-degree: 97%
-
 ---
-
 # Prise en main des canaux marketing
 
 >[!NOTE]
@@ -38,14 +47,14 @@ Les canaux marketing sont axés sur les mesures Première touche et Dernière to
 
 ![](assets/step1_icon.png) Définir chaque canal en fonction de vos besoins.
 
-La définition des canaux que vous utilisez constitue l’une des tâches les plus importantes. Elle peut demander un travail de collaboration avec plusieurs personnes de votre entreprise. Voici quelques questions que vous devez vous poser :
+La définition des canaux utilisés constitue l’un des composants les plus importants des canaux marketing. Elle peut demander un travail de collaboration avec plusieurs personnes de votre entreprise. Voici quelques questions que vous devez vous poser :
 
-* Utilisez-vous une recherche payante ?
-* Utilisez-vous des campagnes par e-mail ? Utilisez-vous plusieurs campagnes par e-mail dont vous souhaitez effectuer le suivi séparément ?
-* Des affiliés redirigent-ils le trafic vers votre site ? Souhaitez-vous effectuer le suivi de certains affiliés séparément ?
-* Tireriez-vous avantage de suivre certaines campagnes externes de manière séparée ?
-* Voulez-vous regrouper tous les sites de réseau social ou souhaitez-vous en suivre certains séparément ?
-* Existe-t-il d’autres canaux pouvant avoir un impact sur les conversions dont vous souhaitez effectuer le suivi ?
+* Utilisez-vous un référencement payant ?
+* Utilisez-vous des campagnes par e-mail ? Utilisez-vous plusieurs campagnes par e-mail que vous souhaitez suivre séparément ?
+* Avez-vous des affiliés qui redirigent le trafic vers votre site ? Souhaitez-vous suivre certains affiliés de manière individuelle ?
+* Y a-t-il des campagnes externes qu’il serait avantageux de suivre séparément ?
+* Souhaitez-vous agréger tous les sites de réseaux sociaux ou en suivre certains individuellement ?
+* Existe-t-il d’autres canaux pouvant impacter la conversion que vous aimeriez suivre ?
 
 Vous trouverez une liste des canaux recommandés dans la section [Questions fréquentes et exemples](/help/components/c-marketing-channels/c-faq.md). Établissez une liste des canaux que vous souhaitez utiliser pour simplifier leur définition lors de leur création.
 
@@ -93,7 +102,7 @@ Comment exécuter la configuration automatique des canaux marketing.
 
 ## Application des paramètres d’une suite de rapports modèle à plusieurs suites de rapports
 
-Comment utiliser une suite de rapports principale (maître) comme modèle pour tester la configuration de vos canaux marketing. Pour gagner du temps, vous pouvez appliquer ce modèle à une ou plusieurs suites de rapports de production lors d’une mise à jour par lot. Cette tâche doit être effectuée séparément pour les ensembles de canaux et de règles.
+Comment utiliser une suite de rapports principale (maître) comme modèle pour tester la configuration de vos canaux marketing. Pour gagner du temps, vous pouvez appliquer ce modèle à une ou plusieurs suites de rapports de production dans le cadre d’une mise à jour en masse. Cette tâche doit être effectuée séparément pour les ensembles de canaux et de règles.
 
 >[!NOTE]
 >
@@ -108,4 +117,4 @@ Comment utiliser une suite de rapports principale (maître) comme modèle pour t
    1. Revenez à la page [!UICONTROL Gestionnaire de Report Suites].
    1. Sélectionnez la suite de rapports modèle, ainsi qu’une ou plusieurs suites de rapports cibles.
    1. Cliquez sur **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Canaux marketing]** > **[!UICONTROL Règles de traitement des canaux marketing]**.
-   1. Cliquez sur **[!UICONTROL Enregistrer]**. Si le bouton Enregistrer est désactivé au cours de cette étape, activez-le en développant l’une des règles.
+   1. Cliquez sur **[!UICONTROL Enregistrer]**. Si le bouton Enregistrer est désactivé au cours de cette étape, vous pouvez l’activer en développant l’une des règles.

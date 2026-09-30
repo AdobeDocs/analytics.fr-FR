@@ -4,38 +4,46 @@ description: Comprenez les conditions préalables et les limites du groupement d
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70
+TQID: 'https://experienceleague.adobe.com/OoJZJsKu6xV4OfPVZ-7Pqe8J8GfZu6AlgRrNl1GXR70'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '582'
 ht-degree: 81%
-
 ---
-
 # Groupement basé sur les champs
 
 {{available-existing-customers}}
 
-Analytics sur l’ensemble des appareils offre deux méthodes distinctes pour regrouper les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils. Adobe recommande cette option de regroupement pour plus de transparence et de prévisibilité dans le suivi des visiteurs.
+L’analytics sur plusieurs appareils (CDA) propose deux méthodes distinctes pour assembler les données. Cette méthode repose sur une variable Analytics, telle qu’une [prop](/help/implement/vars/page-vars/prop.md) ou une [eVar](/help/implement/vars/page-vars/evar.md), pour contenir un identifiant de personne. Elle utilise cette variable comme base pour lier les appareils. Adobe recommande cette option de regroupement pour plus de transparence et de prévisibilité dans le suivi des visiteurs.
 
 ## Conditions préalables spécifiques au groupement basé sur les champs
 
-Si vous envisagez d’implémenter les analyses entre appareils à l’aide du groupement basé sur les champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et de votre compte Adobe pour vous assurer de respecter toutes les conditions suivantes.
+Si vous envisagez de mettre en œuvre l’analytics sur plusieurs appareils (CDA) à l’aide du rapprochement basé sur des champs, les éléments suivants sont requis. Collaborez avec les équipes de votre entreprise et de votre compte Adobe pour vous assurer de respecter toutes les conditions suivantes.
 
 >[!WARNING]
 >
->Si vous ne remplissez pas toutes les conditions préalables requises, vous risquez de ne pas pouvoir activer les analyses entre appareils ou de ne pas obtenir de résultats satisfaisants lors du regroupement de données.
+>Si toutes les conditions préalables ne sont pas remplies, il peut s’avérer impossible d’activer CDA ou les résultats du rapprochement des données peuvent être médiocres.
 
 * Toutes les conditions préalables sont répertoriées dans la [page d’aperçu](overview.md).
 * Votre implémentation doit définir une prop ou une eVar qui identifie de manière unique un individu chaque fois que cela est possible, par exemple lorsqu’un utilisateur se connecte ou ouvre un e-mail. Cette exigence s’applique à toutes les plateformes, y compris les applications mobiles si elles sont utilisées.<br/>Évitez d’attribuer une valeur par défaut à cette prop ou eVar. Lorsque 2 000 appareils différents ou plus se voient attribuer la même valeur par défaut, la personne est ajoutée à une liste de « personnes malveillantes » et ces événements sont ignorés de la suite de rapports virtuelle activée pour Analytics sur l’ensemble des appareils, ce qui entraîne une analyse erronée.
@@ -44,12 +52,12 @@ Si vous envisagez d’implémenter les analyses entre appareils à l’aide du g
 ## Limites spécifiques au groupement basé sur les champs
 
 * Lʼassemblage basé sur les champs fonctionne mieux sur les suites de rapports qui présentent un taux dʼidentification/dʼauthentification utilisateur élevé.
-* Bien que les variables prop et eVar contiennent chacune des règles de traitement des caractères majuscules et minuscules à des fins de comptes rendus des performances, lʼassemblage basé sur les champs ne transforme en aucune manière la variable prop ou eVar utilisée pour lʼassemblage. Lʼassemblage basé sur les champs utilise la valeur du champ spécifié telle quʼelle existe après les règles VISTA et après les règles de traitement. Le processus dʼassemblage est sensible à la casse. Par exemple, si le mot « Bob » apparaît dʼabord dans la variable prop ou eVar, et que le mot « BOB » apparaît ensuite, ils seront considérés comme deux personnes distinctes par le processus dʼassemblage.
-* Étant donné que lʼassemblage basé sur les champs est sensible à la casse, Adobe recommande de revoir les règles VISTA ou de traitement qui sʼappliquent à la variable prop ou eVar utilisée pour lʼassemblage basé sur les champs. Elles doivent être revues pour sʼassurer quʼaucune dʼelles nʼintroduit de nouvelles formes du même identifiant. Par exemple, vous devez vous assurer quʼaucune règle VISTA ou de traitement nʼintroduit de minuscules dans la variable prop ou eVar sur une partie seulement des accès.
-* Lʼassemblage basé sur les champs ne prend pas en charge lʼutilisation de plusieurs variables prop ou eVar à des fins dʼassemblage. Par exemple, si la variable eVar12 contient un identifiant de connexion et la variable eVar20 une adresse e-mail, vous devez choisir lʼune des deux.
+* Bien que les props et les eVars contiennent chacune des règles définissant la gestion des caractères majuscules et minuscules à des fins de reporting, le rapprochement basé sur des champs ne transforme en aucune façon la prop ou l’eVar utilisée pour le rapprochement. Lʼassemblage basé sur les champs utilise la valeur du champ spécifié telle quʼelle existe après les règles VISTA et après les règles de traitement. Le processus dʼassemblage est sensible à la casse. Par exemple, si le mot « Bob » apparaît dʼabord dans la variable prop ou eVar, et que le mot « BOB » apparaît ensuite, ils seront considérés comme deux personnes distinctes par le processus dʼassemblage.
+* Étant donné que lʼassemblage basé sur les champs est sensible à la casse, Adobe recommande de revoir les règles VISTA ou de traitement qui sʼappliquent à la variable prop ou eVar utilisée pour lʼassemblage basé sur les champs. Elles doivent être revues pour sʼassurer quʼaucune dʼelles nʼintroduit de nouvelles formes du même identifiant. Par exemple, vous devez vous assurer quʼaucune règle VISTA ou de traitement nʼintroduit de minuscules dans la variable prop ou eVar sur une partie seulement des hits.
+* Lʼassemblage basé sur les champs ne prend pas en charge lʼutilisation de plusieurs variables prop ou eVar à des fins dʼassemblage. Par exemple, si eVar12 contient l’ID de connexion et eVar20 l’ID d’e-mail, vous devez choisir l’un des deux.
 * Lʼassemblage basé sur les champs ne combine ni ne concatène les champs (par exemple, eVar10 + prop5).
 * La variable prop ou eVar ne doit contenir quʼun seul type dʼidentifiant. Par exemple, la variable prop ou eVar ne doit pas contenir une combinaison dʼidentifiants de connexion et dʼadresses électroniques.
-* Si plusieurs accès se produisent à la même date et heure pour le même visiteur, mais avec des valeurs différentes dans la variable dʼassemblage prop ou eVar, les CDA effectueront leur sélection en fonction de lʼordre alphabétique. Ainsi, si le visiteur A a deux accès à la même date et à la même heure et que lʼun des accès mentionne Bob et lʼautre Anne, les CDA sélectionneront Anne.
+* Si plusieurs hits se produisent à la même date et heure pour le même visiteur, mais avec des valeurs différentes dans la variable dʼassemblage prop ou eVar, les CDA effectueront leur sélection en fonction de lʼordre alphabétique. Ainsi, si le visiteur A a deux hits à la même date et à la même heure et que lʼun des hits mentionne Bob et lʼautre Anne, les CDA sélectionneront Anne.
 
 
 ## Étapes suivantes

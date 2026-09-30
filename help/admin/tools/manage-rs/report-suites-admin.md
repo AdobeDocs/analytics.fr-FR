@@ -3,27 +3,36 @@ description: Une suite de rapports définit les rapports indépendants et comple
 title: Gestionnaire de suites de rapports
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
-TQID: https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo
+TQID: 'https://experienceleague.adobe.com/qjRtfQCZ0K-h-cr7PlXcdkTllCq-RLwIcmV-I6nQHDo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+subfeature_v2:
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 100%
-
 ---
-
 # Gestionnaire de suites de rapports
 
-Une suite de rapports définit les rapports indépendants et complets de l’un des entrepôts de données suivants :
+Une suite de rapports définit les rapports indépendants et complets de l’un des magasins de données suivants :
 
 * Un seul site Web (le plus courant)
 
@@ -31,11 +40,11 @@ Une suite de rapports définit les rapports indépendants et complets de l’un 
 
 * Un segment global composé des valeurs de plusieurs sites pour obtenir des totaux
 
-Les solutions d’Analytics combinent des données et génèrent des rapports sur ces entrepôts de données. Le Gestionnaire de Report Suites de l’administrateur vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
+Les solutions d’Analytics agrègent des données et génèrent des rapports sur ces magasins de données. Le Gestionnaire de suite de rapports, réservé aux administrateurs et administratrices, vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports.
 
-Lorsque vous vous connectez à une solution Adobe Analytics, sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des déploiements qui combinent les suites de rapports).
+Lorsque vous vous connectez à une solution Adobe Analytics, vous sélectionnez une suite de rapports à utiliser (sauf si vous utilisez des agrégations de données qui combinent les suites de rapports).
 
-Accéder à une suite de rapports :
+Pour accéder à une suite de rapports :
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Suites de rapports]**
 
@@ -57,7 +66,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner une suite de rapports</span> </td> 
-   <td colname="col2"> <p>Le <span class="wintitle">Gestionnaire de suites de rapports</span> met en surbrillance la suite de rapports sélectionnée. Vous pouvez sélectionner plusieurs suites de rapports en utilisant les combinaisons <span class="uicontrol">Ctrl+clic</span> ou <span class="uicontrol">Maj+clic</span>. </p> <p>Une suite de rapports sélectionnée le reste jusqu’à ce que vous en sélectionniez une autre. </p> </td> 
+   <td colname="col2"> <p>Le <span class="wintitle">Gestionnaire de suites de rapports</span> met en surbrillance la suite de rapports sélectionnée. Vous pouvez sélectionner plusieurs suites de rapports en utilisant les combinaisons <span class="uicontrol">Ctrl+clic</span> ou <span class="uicontrol">Maj+clic</span>. </p> <p>Une suite de rapports sélectionnée reste sélectionnée jusqu’à ce que vous en sélectionniez une autre. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Télécharger</span> </td> 
@@ -65,7 +74,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Recherche</span> </td> 
-   <td colname="col2"> Permet de localiser une suite de rapports spécifique dans la liste des suites. L’outil de recherche s’accompagne d’une fonction de recherche de base par nom et d’une fonction de recherche avancée pour des recherches approfondies. </td> 
+   <td colname="col2"> Permet de localiser une suite de rapports spécifique dans la liste des suites de rapports. L’outil de recherche comprend à la fois une recherche de base par nom et une page de recherche avancée pour des recherches approfondies. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Groupes</span> </td> 
@@ -81,7 +90,7 @@ Le tableau suivant décrit les éléments figurant sur la page [!UICONTROL Gesti
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Modifier les paramètres</span> </td> 
-   <td colname="col2"> Lorsque vous modifiez une suite de rapports, les modifications sont appliquées à l’ensemble des suites sélectionnées. </td> 
+   <td colname="col2"> Lorsque vous modifiez une suite de rapports, les modifications sont appliquées à l’ensemble des suites de rapports sélectionnées. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Créer</span> </td> 

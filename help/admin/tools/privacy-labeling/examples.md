@@ -1,5 +1,5 @@
 ---
-description: Présente des exemples sur la manière d’étiqueter les données relatives aux accès, aux demandes d’accès et aux demandes de suppression.
+description: Présente des exemples illustrant la manière d’étiqueter les données relatives aux hits, aux demandes d’accès et aux demandes de suppression.
 title: Exemples dʼétiquetage
 feature: Data Governance
 role: Admin
@@ -7,38 +7,46 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 TQID: 'https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 734
+source-wordcount: '734'
 ht-degree: 100%
-
 ---
-
 # Exemples dʼétiquetage
 
-## Exemple de données d’accès {#hit}
+## Exemple de données de hit {#hit}
 
-Supposons que vous avez les données d’accès suivantes :
+Supposons que vous ayez les données de hit suivantes :
 
 * La première ligne contient les étiquettes pour chaque variable.
-* La deuxième ligne correspond au nom de la variable. Si elle comporte une étiquette d’identification, elle contient l’espace de noms attribué entre parenthèses.
-* Les données d’accès commencent à partir de la troisième ligne.
+* La deuxième ligne correspond au nom de la variable. Si un libellé d’ID lui est attribué, l’espace de noms attribué est indiqué entre parenthèses.
+* Les données de hit commencent à partir de la troisième ligne.
 
 | Étiquettes | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nom de variable** <br> **(Espace de noms)** | **MyProp1** <br> **(utilisateur)** | **Identifiant visiteur** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| Données d’accès | Mary | 77 | A | M | X |
+| Données de hit | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
 | | John | 77 | D | P | W |
@@ -49,7 +57,7 @@ Supposons que vous avez les données d’accès suivantes :
 
 ## Exemple de requêtes d’accès {#access}
 
-Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer à la personne titulaire de données. Un fichier est un fichier CSV contenant une ligne pour chaque accès reçu pour la personne titulaire de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier HTML de résumé qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour la personne titulaire de données et du nombre de fois où chaque valeur unique a été vue.
+Si vous soumettez une demande d’accès, vous recevrez deux fichiers que vous pourrez renvoyer à la personne titulaire de données. L’un des fichiers est un fichier CSV (valeurs séparées par des virgules) contenant une ligne pour chaque hit reçu pour la personne titulaire de données et une colonne pour chaque variable avec le libellé d’accès approprié. L’autre fichier est un fichier HTML de résumé qui répertorie chaque variable, suivie de toutes les valeurs uniques affichées pour cette variable pour la personne titulaire de données et du nombre de fois où chaque valeur unique a été vue.
 
 Dans notre exemple, le fichier de résumé contient les valeurs indiquées dans le tableau ci-dessous. Une demande peut renvoyer un fichier d’appareil, un fichier de personne ou les deux. Deux fichiers récapitulatifs sont renvoyés uniquement si un ID de personne est utilisé et que `expandIds` a la valeur « true ».
 
@@ -161,7 +169,7 @@ Notez que le paramètre pour `expandIDs` n’influence pas le résultat lorsqu�
 
 ## Exemples de requêtes de suppression {#delete}
 
-Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau d’accès sera mis à jour comme suit :
+Avec une demande de suppression qui utilise les valeurs de l’API de la première ligne du tableau, le tableau des hits sera mis à jour comme suit :
 
 <table>
   <tr>

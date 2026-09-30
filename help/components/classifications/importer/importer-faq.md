@@ -3,34 +3,42 @@ title: FAQ sur les classifications
 description: Forum aux questions sur l’utilisation des classifications.
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-TQID: https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew
+TQID: 'https://experienceleague.adobe.com/pIwAdewnHA4AB9hyRDRkH6xXvyxx-BceWvDXMydX-ew'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 420
+source-wordcount: '420'
 ht-degree: 87%
-
 ---
-
 # FAQ sur l’importateur de classifications
 
 {{classification-importer-deprecation}}
 
 Questions fréquentes sur l’utilisation de l’importateur de classifications.
 
-## Comment classer l’élément de dimension « 0 » ?
+## Comment classer l’élément de dimension « 0 » ?
 
 Les fichiers de classification chargés avec une valeur de clé ou une valeur de classification de zéro (`0`) génèrent une erreur. Cela comprend toutes les valeurs qui ne contiennent que des zéros (`00`, `000`, etc.). Plusieurs méthodes permettent de résoudre ce problème :
 
@@ -40,16 +48,16 @@ Les fichiers de classification chargés avec une valeur de clé ou une valeur de
 
   *Si la [dimension] est égale à `0`, remplacez la valeur de la [dimension] par la valeur personnalisée `Zero`.*
 
-* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez votre équipe Adobe en charge des comptes pour demander une règle VISTA.
+* **Demande d’une règle VISTA** : un conseiller des services d’ingénierie configure une règle côté serveur pour vous, moyennant un coût supplémentaire. Contactez l’équipe Adobe en charge des comptes pour demander une règle VISTA.
 
-## Puis-je utiliser l’importateur de classifications pour classer les éléments de dimension qui n’existent pas encore ?
+## Puis-je utiliser l’importateur de classifications pour classer des éléments de dimension qui n’existent pas encore ?
 
 Oui, *toutefois, cela comptabilise chaque élément de dimension comme un appel au serveur facturable.*
 
 * Les éléments de dimension qui existent déjà n’entraînent aucun coût supplémentaire.
 * L’utilisation du créateur de règles de classification ne classe pas les éléments inexistants et n’entraîne donc aucun coût supplémentaire.
 
-## Comment classer les valeurs contenant des caractères spéciaux ?
+## Comment classer les valeurs contenant des caractères spéciaux ?
 
 L’utilisation d’espaces vides au début et à la fin dans les données de classification et les données d’accès n’est pas prise en charge, car Adobe Analytics tronque automatiquement les caractères vides.
 
@@ -64,7 +72,7 @@ Il n’est généralement pas recommandé d’utiliser des caractères spéciaux
 
 ## Que sont les classifications numériques 2 ?
 
-Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Elles ont été retirées de l’IU d’Adobe Analytics en juillet 2019.
+Les classifications numériques 2 vous permettent de classer les éléments de dimension en tant que mesures basées sur le temps. Elles ont été supprimées de l’interface utilisateur d’Adobe Analytics en juillet 2019.
 
 ## Comment placer des données dans une séquence d’échappement dans un fichier de classification ?
 

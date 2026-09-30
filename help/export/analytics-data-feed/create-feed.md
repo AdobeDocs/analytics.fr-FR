@@ -1,27 +1,39 @@
 ---
 title: Créer un flux de données
-description: Apprenez comment créer un flux de données et découvrez les informations sur les fichiers à fournir à Adobe.
+description: Découvrez comment créer un flux de données et quelles informations sur les fichiers fournir à Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 2151
+source-wordcount: '2151'
 ht-degree: 32%
-
 ---
-
 # Créer un flux de données
 
 Lors de la création d’un flux de données, vous fournissez à Adobe les éléments suivants :
@@ -50,7 +62,7 @@ Avant de créer un flux de données, il est important de comprendre les bases de
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_export_file"
 >title="Manifeste"
->abstract="Choisissez d’inclure un fichier manifeste avec chaque diffusion de flux de données. Les fichiers manifeste contiennent des informations pour chaque fichier inclus dans le flux de données. Lors de l’envoi de données de flux de données dans un seul package, vous pouvez également choisir d’inclure un fichier de fin, mais les fichiers de manifeste sont recommandés. "
+>abstract="Choisissez d’inclure un fichier manifeste avec chaque diffusion de flux de données. Les fichiers manifeste contiennent des informations pour chaque fichier inclus dans le flux de données. Lorsque vous envoyez les données d’un flux de données dans un seul package, vous pouvez également choisir d’inclure un fichier de fin, mais les fichiers manifeste sont recommandés. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -95,10 +107,10 @@ Avant de créer un flux de données, il est important de comprendre les bases de
    | [!UICONTROL **Envoyer le manifeste même en l’absence de données**] | Indique si Adobe doit ou non livrer un [fichier de manifeste](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) à la destination lorsqu’aucune donnée n’est collectée pour un intervalle de flux. Si vous sélectionnez **Fichier de manifeste**, vous recevez un fichier de manifeste similaire à ce qui suit lorsqu’aucune donnée n’est collectée :<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Remplacer les chaînes du système d’exploitation**] | Lors de la collecte de données, certains caractères (tels que les nouvelles lignes) peuvent entraîner des problèmes. Sélectionnez cette option pour supprimer ces caractères des fichiers de flux.<p>Cette option détecte les séquences de chaînes suivantes incorporées dans les données client et les remplace par un espace :</p> <ul><li>**Windows:** CRLF, CR ou TAB</li><li>**Mac et Linux :** \n, \r ou \t</li></ul> |
    | [!UICONTROL **Activer les recherches dynamiques**] | Les recherches dynamiques vous permettent de recevoir des fichiers de recherche supplémentaires dans votre flux de données qui ne seraient pas disponibles autrement. Ce paramètre permet d’envoyer les tables de recherche suivantes avec chaque fichier de flux de données :<ul><li> **Nom du transporteur**</li><li>**Attributs mobiles**</li><li>**Type de système d’exploitation**</li></ul><p>Pour plus d’informations, voir [Recherches dynamiques](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **Autoriser les accès en retard** | Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données.<p>Sélectionnez cette option pour inclure les données arrivées après la fin du traitement des données par le traitement de flux de données dans la fréquence de création de rapports définie (généralement par semaine ou par heure). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des accès tardifs et les regroupe dans le fichier de flux de données suivant envoyé.</p><p>Pour plus d’informations, voir [&#x200B; Accès en retard &#x200B;](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Autoriser les accès en retard** | Les données historiques peuvent arriver après la fin du traitement d’une heure ou d’un jour donné par une tâche de flux de données par le biais d’accès horodatés ou de sources de données.<p>Sélectionnez cette option pour inclure les données arrivées après que la tâche de flux de données a fini de traiter les données pour la fréquence de reporting définie (généralement quotidienne ou horaire). Lorsque cette option est activée, chaque fois qu’un flux de données traite des données, il tient compte de l’arrivée des hits tardifs et les regroupe dans le fichier de flux de données suivant envoyé.</p><p>Pour plus d’informations, voir [&#x200B; Accès en retard &#x200B;](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **Intervalle de recherche en amont** (pour les accès arrivés en retard) | Cette option s’affiche lorsque l’option **[!UICONTROL Autoriser les accès en retard]** est activée. Sélectionnez l’intervalle de recherche en amont pour limiter la période des accès tardifs inclus. Sélectionnez **[!UICONTROL Illimité]** si vous souhaitez autoriser tous les accès arrivant en retard, quelle que soit leur date de retard. Vous pouvez choisir un intervalle prédéfini, tel que **[!UICONTROL 1 heure]**, **[!UICONTROL 2 heures]**, **[!UICONTROL 1 semaine]**, **[!UICONTROL 2 semaines]** etc. Vous pouvez également sélectionner **[!UICONTROL Intervalle de recherche en amont personnalisé]** puis, dans le champ **[!UICONTROL Recherche en amont personnalisée]** spécifier un intervalle de recherche en amont allant jusqu’à 26 280 heures. |
 
-1. Dans la section [!UICONTROL **Structure de données**], dans le champ **[!UICONTROL Suite de rapports]**, sélectionnez la suite de rapports source qui contient les données à exporter. <p>Tenez compte des points suivants lors de la sélection d’une suite de rapports :</p> <ul><li>Si plusieurs flux de données sont créés pour la même suite de rapports, chaque flux de données doit avoir des définitions de colonne différentes.</li><li>Seules les suites de rapports source prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge.</li><li>La liste des colonnes disponibles dépend de la société de connexion à laquelle appartient la suite de rapports sélectionnée. Si vous modifiez la suite de rapports, la liste des colonnes disponibles peut changer. </li></ul>
+1. Dans la section [!UICONTROL **Structure de données**], dans le champ **[!UICONTROL Suite de rapports]**, sélectionnez la suite de rapports source qui contient les données à exporter. <p>Tenez compte des points suivants lors de la sélection d’une suite de rapports :</p> <ul><li>Si plusieurs flux de données sont créés pour la même suite de rapports, chaque flux de données doit avoir des définitions de colonne différentes.</li><li>Seules les suites de rapports sources prennent en charge les flux de données ; les suites de rapports virtuelles ne sont pas prises en charge.</li><li>La liste des colonnes disponibles dépend de la société de connexion à laquelle appartient la suite de rapports sélectionnée. Si vous modifiez la suite de rapports, la liste des colonnes disponibles peut changer. </li></ul>
 
 1. Utilisez l’une des méthodes suivantes, ou les deux, pour déterminer les colonnes de données à inclure dans le flux :
 

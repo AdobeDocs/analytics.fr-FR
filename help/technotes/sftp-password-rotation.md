@@ -6,17 +6,21 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/qbBCeUihfvRTQm7LvR8jylRWf8rRlzFoZfs62l0fito'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Security
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1985
+source-wordcount: '1985'
 ht-degree: 100%
-
 ---
-
 # Exigences de sécurité pour les serveurs FTP et SFTP
 
 Cette page couvre les exigences de sécurité des serveurs FTP et SFTP existants qui reçoivent des données diffusées par Data Feeds ou Data Warehouse d’Adobe Analytics.
@@ -36,7 +40,7 @@ Cette page couvre les exigences de sécurité des serveurs FTP et SFTP existants
 >Tenez compte des situations suivantes avant de suivre les étapes de cet article.
 >
 >* **Adobe recommande, si possible, de passer à une destination cloud moderne plutôt qu’à une mise à niveau vers SFTP.**
->FTP et SFTP sont des types de destination hérités. Plutôt que de mettre à niveau les comptes FTP vers SFTP et d’effectuer une rotation des mots de passe SFTP comme décrit dans cet article, Adobe recommande de passer à un type de destination cloud moderne (tel qu’Amazon S3, Google Cloud Platform ou Azure). Ces destinations cloud offrent un niveau de sécurité plus élevé. Pour plus d’informations, voir [Configurer des comptes d’export et d’import dans le cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-accounts).
+>FTP et SFTP sont d’anciens types de destination. Plutôt que de mettre à niveau les comptes FTP vers SFTP et d’effectuer une rotation des mots de passe SFTP comme décrit dans cet article, Adobe recommande de passer à un type de destination cloud moderne (tel qu’Amazon S3, Google Cloud Platform ou Azure). Ces destinations cloud offrent un niveau de sécurité plus élevé. Pour plus d’informations, voir [Configurer des comptes d’export et d’import dans le cloud](https://experienceleague.adobe.com/fr/docs/analytics/components/locations/configure-import-accounts).
 >
 >* **Si les comptes FTP et SFTP sont utilisés exclusivement pour les classifications, migrez vers les ensembles de classifications.**
 >Si votre compte FTP ou SFTP est utilisé exclusivement pour les classifications, vous devez migrer de l’**importateur de classifications** vers les **ensembles de classifications**, plutôt que de mettre à niveau les comptes FTP vers SFTP et d’effectuer une rotation des mots de passe SFTP comme décrit dans cet article. L’importateur de classifications sera obsolète et ne sera plus accessible après le **31 août 2026**. Pour plus d’informations, consultez la section [Ensembles de classifications](https://experienceleague.adobe.com/fr/docs/analytics/components/classifications/sets/overview).
@@ -59,17 +63,17 @@ Pour chaque compte, collectez les informations suivantes :
 
 * **Secret du compte d’emplacement** : secret du compte actuel pour le compte. Il s’agit du secret de compte (mot de passe) que vous utilisez actuellement lors du téléchargement des données diffusées vers votre emplacement FTP. Cette information n’est pas disponible à partir de l’interface d’Adobe Analytics.
 
-### Confirmer que vous pouvez mettre à jour les informations d’identification dans vos outils
+### Confirmez que vous pouvez mettre à jour les informations d’identification dans vos outils.
 
 Assurez-vous que vous pouvez mettre à jour les mots de passe SFTP dans l’outil ou le script que vous utilisez pour vous connecter au site SFTP (par exemple, un client SFTP, un script automatisé ou une plateforme tierce).
 
 Tous les clients doivent se connecter via SFTP avec un mot de passe comme solution de secours.
 
-## Mettre à niveau les serveurs FTP pour utiliser le protocole SFTP
+## Mise à niveau des serveurs FTP pour utiliser le protocole SFTP
 
 >[!IMPORTANT]
 >
->Si vos données FTP sont transmises à un partenaire tiers (par exemple, un cabinet de conseil ou un fournisseur d’analyses), contactez-le avant de suivre les étapes décrites dans cet article.
+>Si vos données FTP sont transmises à un partenaire tiers (par exemple, un cabinet de conseil ou un fournisseur d’analytics), contactez-le avant de suivre les étapes décrites dans cet article.
 
 ### Étape 1 : générer les clés SSH de votre organisation pour télécharger les données
 
@@ -111,7 +115,7 @@ Pour configurer un transfert sécurisé pour télécharger des données à parti
 
 Créez un compte d’emplacement SFTP pour remplacer chaque compte FTP existant.
 
-Lors de la création d’un compte d’emplacement SFTP, vous devez utiliser les mêmes nom d’hôte et nom d’utilisation que ceux utilisés dans le compte FTP existant qu’il remplace.
+Lorsque vous créez un nouveau compte d’emplacement SFTP, vous devez utiliser les mêmes noms d’hôte et noms d’utilisateur ou utilisatrice que ceux utilisés dans le compte FTP existant qu’il remplace.
 
 >[!NOTE]
 >
@@ -132,8 +136,8 @@ Lors de la création d’un compte d’emplacement SFTP, vous devez utiliser les
    | Nom du champ | Fonction |
    |---------|----------|
    | [!UICONTROL **Nom d’hôte**] | Votre nom d’hôte SFTP (par exemple, `ftp.omniture.com`). |
-   | [!UICONTROL **Port**] | Port du pare-feu par lequel les données seront envoyées. Il s’agit du port 22 pour les connexions SFTP hébergées par Adobe. |
-   | [!UICONTROL **Nom d’utilisateur**] | Votre nom d’utilisation SFTP. Utilisez le même nom d’utilisation que celui de votre compte FTP. |
+   | [!UICONTROL **Port**] | Le port du pare-feu par lequel les données seront envoyées. Il s’agit du port 22 pour les connexions SFTP hébergées par Adobe. |
+   | [!UICONTROL **Nom d’utilisateur**] | Votre nom d’utilisation SFTP. Utilisez le même nom d’utilisateur ou d’utilisatrice que celui de votre compte FTP. |
 
 1. Sélectionnez [!UICONTROL **Enregistrer**].
 
@@ -157,7 +161,7 @@ Pour ajouter la clé publique SSH d’Adobe au fichier [!DNL `authorized_keys`] 
 
 1. Chargez le fichier [!DNL `authorized_keys`] sur votre serveur FTP :
 
-   1. Connectez-vous au serveur FTP et connectez-vous avec votre nom d’utilisation et votre mot de passe.
+   1. Connectez-vous au serveur FTP et identifiez-vous avec votre nom d’utilisateur ou d’utilisatrice et votre mot de passe.
       Il peut s’agir d’un serveur FTP hébergé par Adobe ou de votre propre serveur FTP.
    1. Créez un répertoire [!DNL .ssh] (s’il n’existe pas déjà).
    1. Chargez le fichier [!DNL `authorized_keys`] dans le répertoire [!DNL .ssh].
@@ -210,7 +214,7 @@ Modifiez chaque flux de données planifié configuré avec l’ancienne destinat
 
 Pour plus d’informations, voir [Modifier un flux de données](/help/export/analytics-data-feed/df-manage-feeds.md#edit-a-data-feed) dans [Gérer les flux de données](/help/export/analytics-data-feed/df-manage-feeds.md).
 
-#### Gérer les requêtes de Data Warehouse
+#### Modifier les demandes Data Warehouse
 
 Modifiez chaque requête Data Warehouse planifiée configurée avec l’ancienne destination FTP afin d’utiliser la nouvelle destination SFTP :
 
@@ -240,21 +244,21 @@ Si ce n’est pas déjà fait, vous devez mettre à jour les paramètres de votr
 
 * **Lorsque vous utilisez votre propre serveur FTP** : vous devez mettre à jour les paramètres de votre pare-feu pour autoriser la connexion **entrante** sur le port sur lequel vous hébergez le service, qui est généralement le port 22.
 
-Vous devez également supprimer les anciennes règles spécifiques au FTP, telles que l’autorisation des connexions entrantes sur le port 21. (FTP utilise le port 21, ainsi qu’une gamme de ports supplémentaires pour le transfert de données. En tant que bonne pratique de sécurité, vous devez éventuellement supprimer cet accès inutile via votre pare-feu.)
+Vous devez également supprimer les anciennes règles spécifiques au FTP, telles que l’autorisation des connexions entrantes sur le port 21. (FTP utilise le port 21, ainsi qu’une plage de ports supplémentaires pour le transfert de données.) En tant que bonne pratique de sécurité, vous devez à terme supprimer cet accès inutile via votre pare-feu.)
 
 ### Étape 5 : vérifier que les requêtes Data Feeds et Data Warehouse sont correctement diffusées
 
-Après la mise à jour de chaque requêtes Data Feeds et Data Warehouse pour utiliser le nouveau compte et le nouvel emplacement SFTP, attendez la prochaine diffusion planifiée. Vérifiez que les données arrivent à la nouvelle destination comme prévu.
+Après la mise à jour de chaque flux de données et de chaque demande Data Warehouse pour utiliser le nouveau compte et le nouvel emplacement SFTP, attendez la prochaine diffusion planifiée. Vérifiez que les données arrivent à la nouvelle destination comme prévu.
 
 ### Étape 6 : effectuer une rotation du mot de passe sur le serveur SFTP mis à niveau
 
 Après la mise à niveau d’un serveur FTP vers SFTP, vous devez également effectuer une rotation du mot de passe SFTP, comme décrit dans la section suivante, [Effectuer une rotation de votre mot de passe SFTP](#rotate-your-sftp-password).
 
-## Effectuer une rotation de votre mot de passe SFTP
+## Rotation du mot de passe SFTP
 
 Un mot de passe SFTP sert de méthode d’authentification de secours en cas d’échec de l’authentification par clé.
 
-Effectuez une rotation du mot de passe SFTP peu après la mise à niveau de FTP vers SFTP. La rotation doit être effectuée de manière régulière, conformément à vos politiques établies.
+Effectuez une rotation du mot de passe SFTP peu après la mise à niveau de FTP vers SFTP. La rotation doit être effectuée de manière régulière, conformément au planning défini par vos politiques établies.
 
 1. Contactez l’assistance clientèle d’Adobe et demandez un nouveau mot de passe.
 

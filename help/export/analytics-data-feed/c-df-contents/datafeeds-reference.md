@@ -5,45 +5,73 @@ subtopic: data feeds
 title: Référence des colonnes de données
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-TQID: https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc
+TQID: 'https://experienceleague.adobe.com/EcbkWUUxHG0e3O8f9f8G5yBAqYHb-tocQygeWY2Zqfc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b7156124-d291-4de4-ac0c-ed17d8078449
+    internal-label: AI Tools
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+    internal-label: Streaming Media
   - id: ce57bdb9-8bbb-4c80-b9ab-e52598027bb9
+    internal-label: Target integration
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: fe0a7292-80bc-407a-b456-64170267d1cc
+    internal-label: Advertising integration
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 4163
+source-wordcount: '4163'
 ht-degree: 78%
-
 ---
-
 # Référence des colonnes de données
 
 Utilisez cette page pour en savoir plus sur les données contenues dans chaque colonne. La plupart des implémentations n’utilisent pas toutes les colonnes. Aussi, vous pouvez vous référer à cette page lorsque vous souhaitez déterminer les colonnes à inclure dans un export de flux de données.
@@ -90,51 +118,51 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`ct_connect_type`** | Liée à la colonne `connection_type`. Les valeurs les plus courantes sont LAN/Wi-Fi, Opérateur de téléphonie mobile et Modem. | char(20) |
 | | **`curr_factor`** | Détermine la place décimale de la devise. Utilisé pour la conversion des devises. Par exemple, le dollar américain (USD) utilise deux décimales, donc cette valeur de colonne serait `2`. | tinyint |
 | | **`curr_rate`** | Taux de change au moment de la transaction. Adobe travaille en partenariat avec XE pour déterminer le taux de change du jour. | decimal(24,12) |
-| **`post_`** | **`customer_perspective`** | Détermine si l’accès est un accès mobile en arrière-plan. Consultez [Sessions contextuelles](/help/components/vrs/vrs-mobile-visit-processing.md) pour plus d’informations. | tinyint sans signe |
-| **`post_`** | **`cust_hit_time_gmt`** | Suites de rapports avec horodatage uniquement. Date et l’heure envoyées avec l’accès, basées sur l’heure UNIX®. | int |
+| **`post_`** | **`customer_perspective`** | Détermine si le hit est un hit mobile en arrière-plan. Consultez [Sessions contextuelles](/help/components/vrs/vrs-mobile-visit-processing.md) pour plus d’informations. | tinyint sans signe |
+| **`post_`** | **`cust_hit_time_gmt`** | Suites de rapports avec date et heure uniquement. Date et heure envoyées avec le hit, basées sur l’heure UNIX®. | int |
 | **`post_`** | **`cust_visid`** | Identifiant visiteur ou visiteuse personnalisé, si défini avec [`visitorID`](/help/implement/vars/config-vars/visitorid.md). | varchar(255) |
 | | **`c_color`** | Codage en bits de la palette de couleurs. Utilisée dans le cadre du calcul de la dimension [Intensité des couleurs](/help/components/dimensions/color-depth.md). AppMeasurement utilise la fonction JavaScript `screen.colorDepth()`. | char(20) |
-| | **`daily_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur quotidien ou une nouvelle visiteuse quotidienne. | tinyint sans signe |
-| | **`dataprivacyconsentoptin`** | La dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
-| | **`dataprivacyconsentoptout`** | La dimension [Droit d’opposition de gestion du consentement](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par accès, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
-| | **`date_time`** | Heure de l’accès dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
+| | **`daily_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur quotidien ou une nouvelle visiteuse quotidienne. | tinyint sans signe |
+| | **`dataprivacyconsentoptin`** | La dimension [Accord préalable de gestion du consentement](/help/components/dimensions/cm-opt-in.md). Plusieurs valeurs peuvent être présentes par hit, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `DMP` et `SELL`. | varchar(100) |
+| | **`dataprivacyconsentoptout`** | La dimension [Droit d’opposition de gestion du consentement](/help/components/dimensions/cm-opt-out.md). Plusieurs valeurs peuvent être présentes par hit, séparées par une barre verticale (`\|`). Les valeurs valides comprennent `SSF`, `DMP` et `SELL`. | varchar(100) |
+| | **`date_time`** | Heure du hit dans un format lisible, basée sur le fuseau horaire de la suite de rapports. | datetime |
 | | **`domain`** | La dimension [Domaine](/help/components/dimensions/domain.md). Basée sur le point dʼaccès Internet du visiteur ou de la visiteuse. | varchar(100) |
-| | **`duplicated_from`** | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie de l’accès. Indique la suite de rapports à partir de laquelle l’accès a été copié. | varchar(40) |
+| | **`duplicated_from`** | Utilisée uniquement dans les suites de rapports contenant les règles VISTA de la copie du hit. Indique la suite de rapports à partir de laquelle le hit a été copié. | varchar(40) |
 | | **`duplicate_events`** | Répertorie chaque événement compté comme double. | varchar(255) |
-| | **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour cet accès doit être ignoré, car il s’agit d’un double. | tinyint sans signe |
+| | **`duplicate_purchase`** | Indicateur signifiant que l’événement d’achat pour ce hit doit être ignoré, car il s’agit d’un double. | tinyint sans signe |
 | **`post_`** | **`ef_id`** | Identifiant EF, utilisé dans les intégrations Adobe Advertising. | varchar(255) |
 | **`post_`** | **`evar1 - evar250`** | Variables personnalisées 1-250. Utilisées dans les dimensions [eVar](/help/components/dimensions/evar.md). Chaque organisation utilise les eVars différemment. Le meilleur outil pour obtenir plus d’informations sur la façon dont votre organisation renseigne les eVars respectifs serait un [document de conception de solution](/help/implement/prepare/solution-design.md) spécifique à votre organisation. | varchar(255) |
-| **`post_`** | **`event_list`** | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors de l’accès. Inclut les événements Commerce et [événements personnalisés 1-1000](/help/components/metrics/custom-events.md). Utilise la recherche de `event.tsv`. | text |
-| | **`exclude_hit`** | Indicateur qui détermine si l’accès est exclu de la création de rapports. La colonne `visit_num` n’est pas incrémentée pour les accès exclus.<br>1 : non utilisé. Partie d&#39;une fonction mise au rebut.<br>2 : non utilisée. Partie d&#39;une fonction mise au rebut.<br>3 : n&#39;est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : non utilisé. Partie d’une fonctionnalité mise au rebut.<br>10 : code de devise non valide<br>11 : l’accès comportait un horodatage manquant dans une suite de rapports horodatage uniquement ou un accès contenait un horodatage dans une suite de rapports hors horodatage<br>12 : non utilisé. Partie d&#39;une fonction mise au rebut.<br>13 : non utilisée. Partie d’une fonctionnalité abandonnée.<br>14 : accès cible qui ne correspondait pas à un accès Analytics<br>15 : actuellement inutilisé.<br>16 : accès Adobe Advertising qui ne correspondait pas à un accès Analytics | tinyint sans signe |
+| **`post_`** | **`event_list`** | Liste séparée par des virgules d’identifiants numériques représentant les événements déclenchés lors du hit. Inclut les événements Commerce et [événements personnalisés 1-1000](/help/components/metrics/custom-events.md). Utilise la recherche de `event.tsv`. | text |
+| | **`exclude_hit`** | Indicateur qui détermine si le hit est exclu de la création de rapports. La colonne `visit_num` n’est pas incrémentée pour les accès exclus.<br>1 : non utilisé. Partie d&#39;une fonction mise au rebut.<br>2 : non utilisée. Partie d&#39;une fonction mise au rebut.<br>3 : n&#39;est plus utilisée. Exclusion de lʼagent utilisateur<br>4 : Exclusion basée sur lʼadresse IP<br>5 : Information indispensable sur lʼaccès manquante telle que `page_url`, `pagename`, `page_event`, ou `event_list`<br>6 : JavaScript nʼa pas traité lʼaccès correctement<br>7 : Exclusion spécifique au compte, comme dans les règles VISTA<br>8 : Inutilisée. Autre exclusion spécifique au compte.<br>9 : non utilisé. Partie d’une fonctionnalité mise au rebut.<br>10 : code de devise non valide<br>11 : l’accès comportait un horodatage manquant dans une suite de rapports horodatage uniquement ou un accès contenait un horodatage dans une suite de rapports hors horodatage<br>12 : non utilisé. Partie d&#39;une fonction mise au rebut.<br>13 : non utilisée. Partie d’une fonctionnalité abandonnée.<br>14 : accès cible qui ne correspondait pas à un accès Analytics<br>15 : actuellement inutilisé.<br>16 : accès Adobe Advertising qui ne correspondait pas à un accès Analytics | tinyint sans signe |
 | | **`first_hit_pagename`** | La dimension [Page d’entrée d’origine](/help/components/dimensions/entry-dimensions.md). Le nom de la page d’entrée d’origine du visiteur. | varchar(100) |
 | | **`first_hit_page_url`** | La toute première URL du visiteur. | varchar(255) |
 | | **`first_hit_referrer`** | La toute première URL de référence du visiteur. | varchar(255) |
 | | **`first_hit_ref_domain`** | La dimension [Domaine référent d’origine](/help/components/dimensions/original-referring-domain.md). Basée sur `first_hit_referrer`. Le tout premier domaine référent du visiteur. | varchar(100) |
 | | **`first_hit_ref_type`** | Identifiant numérique représentant le type de référent du tout premier référent du visiteur ou de la visiteuse. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
-| | **`first_hit_time_gmt`** | Date et heure du tout premier accès du visiteur ou de la visiteuse (heure UNIX®). | int |
-| | **`geo_city`** | Nom de la ville d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Villes](/help/components/dimensions/cities.md). | char(32) |
-| | **`geo_country`** | Abréviation du pays d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Pays](/help/components/dimensions/countries.md). | char(4) |
-| | **`geo_dma`** | Identifiant numérique de la zone démographique d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [DMA États-Unis](/help/components/dimensions/us-dma.md). | int sans signe |
-| | **`geo_region`** | Nom de l’État ou de la région d’où provient l’accès, basé sur l’adresse IP. Utilisée dans la dimension [Régions](/help/components/dimensions/regions.md). | char(32) |
-| | **`geo_zip`** | Code postal d’où provient l’accès, basé sur l’adresse IP. Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `zip`. | varchar(16) |
-| | **`hitid_high`** | Utilisée en combinaison avec `hitid_low` pour identifier un accès. | bigint sans signe |
-| | **`hitid_low`** | Utilisé en combinaison avec `hitid_high` pour identifier un accès. | bigint sans signe |
+| | **`first_hit_time_gmt`** | Date et heure du tout premier hit du visiteur ou de la visiteuse (heure UNIX®). | int |
+| | **`geo_city`** | Nom de la ville d’où provient le hit, basé sur l’adresse IP. Utilisée dans la dimension [Villes](/help/components/dimensions/cities.md). | char(32) |
+| | **`geo_country`** | Abréviation du pays d’où provient le hit, basé sur l’adresse IP. Utilisée dans la dimension [Pays](/help/components/dimensions/countries.md). | char(4) |
+| | **`geo_dma`** | Identifiant numérique de la zone démographique d’où provient le hit, basé sur l’adresse IP. Utilisée dans la dimension [DMA États-Unis](/help/components/dimensions/us-dma.md). | int sans signe |
+| | **`geo_region`** | Nom de l’État ou de la région d’où provient le hit, basé sur l’adresse IP. Utilisée dans la dimension [Régions](/help/components/dimensions/regions.md). | char(32) |
+| | **`geo_zip`** | Code postal d’où provient le hit, basé sur l’adresse IP. Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `zip`. | varchar(16) |
+| | **`hitid_high`** | Utilisée en combinaison avec `hitid_low` pour identifier un hit. | bigint sans signe |
+| | **`hitid_low`** | Utilisée en combinaison avec `hitid_high` pour identifier un hit. | bigint sans signe |
 | | **`hit_source`** | Indique la source de l’accès. Les sources 1 et 2 sont facturées. <br>1 : demande d’image standard sans horodatage <br>2 : demande d’image standard avec horodatage <br>3 : chargement de la source de données active avec horodatage <br>4 : non utilisée <br>5 : chargement de la source de données générique <br>6 : plus utilisée ; chargement de la source de données à traitement complet <br>7 : chargement de la source de données TransactionID <br>8 : plus utilisée ; versions précédentes des sources de données Adobe Advertising <br>9 : plus utilisée ; mesures de résumé des réseaux sociaux Adobe <br>10 : transfert côté serveur Audience Manager utilisé | tinyint sans signe |
-| | **`hit_time_gmt`** | Date et l’heure des serveurs de collecte de données Adobe ayant reçu l’accès, basé sur l’heure UNIX®. | int |
-| | **`hourly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse horaire. | tinyint sans signe |
+| | **`hit_time_gmt`** | Date et l’heure des serveurs de collecte de données Adobe ayant reçu le hit, basé sur l’heure UNIX®. | int |
+| | **`hourly_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur ou une nouvelle visiteuse horaire. | tinyint sans signe |
 | | **`ip`** | L’adresse IPv4, basée sur l’en-tête HTTP de la demande d’image. Mutuellement exclusif à `ipv6`. Si cette colonne contient une adresse IP non masquée, `ipv6` est vide. | char(20) |
 | | **`ipv6`** | L’adresse IPv6 compressée, si disponible. Mutuellement exclusif à `ip`. Si cette colonne contient une adresse IP non masquée, `ip` est vide. | varchar(40) |
 | | **`javascript`** | Identifiant de recherche de la version JavaScript, basé sur `j_jscript`. Fait référence à la table de recherche `javascript_version`. | tinyint sans signe |
 | **`post_`** | **`java_enabled`** | Le [[!UICONTROL Java activé]](/help/components/dimensions/java-enabled.md). <br>Y : activé <br>N : désactivé <br>U : inconnu | char(1) |
 | | **`j_jscript`** | Version de JavaScript prise en charge par le navigateur. | char(5) |
 | | **`language`** | Identifiant numérique représentant la langue du visiteur ou de la visiteuse. Fait référence à la table de recherche `languages.tsv`. | smallint sans signe |
-| | **`last_hit_time_gmt`** | Date et heure (en heure UNIX®) de l’accès précédent. Utilisée pour calculer la dimension [[!UICONTROL Jours depuis la dernière visite]](/help/components/dimensions/days-since-last-visit.md). | int |
+| | **`last_hit_time_gmt`** | Date et heure (en heure UNIX®) du hit précédent. Utilisée pour calculer la dimension [[!UICONTROL Jours depuis la dernière visite]](/help/components/dimensions/days-since-last-visit.md). | int |
 | | **`last_purchase_num`** | La dimension [Fidélisation des clientes et clients](/help/components/dimensions/customer-loyalty.md). Indique le nombre dʼachats précédents effectués par le visiteur. <br>0 : Aucun achat auparavant (n’est pas client) <br>1 : 1 achat précédent (nouveau client) <br>2 : 2 achats précédents (client de retour) <br>3 : 3 achats précédents ou plus (client fidèle) | int sans signe |
 | | **`last_purchase_time_gmt`** | Utilisée dans la dimension [[!UICONTROL Jours depuis le dernier achat]](/help/components/dimensions/days-since-last-purchase.md). Date et heure (en heure UNIX®) du dernier achat effectué. Pour les premiers achats et les visiteurs qui n’avaient jamais effectué d’achat auparavant, cette valeur est de `0`. | int |
 | | **`latlon1`** | Lieu (jusqu’à 10 km) | varchar(255) |
 | | **`latlon23`** | Lieu (jusqu’à 100 m) | varchar(255) |
 | | **`latlon45`** | Lieu (jusqu’à 1 m) | varchar(255) |
-| | **`mcvisid`** | Identifiant visiteur de l’entreprise CX. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
+| | **`mcvisid`** | Identifiant visiteur CX Enterprise. Nombre 128 bits constitué de deux nombres 64 bits concaténés complétés par 19 chiffres. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | Liste des identifiants de segment Audience Manager auxquels le visiteur appartient. La colonne `post_mc_audiences` change le délimiteur en `--**--`. | text |
 | **`post_`** | **`mobileaction`** | Action mobile. Collectée automatiquement lors dʼun appel `trackAction` dans les implémentations mobiles. Permet le cheminement d’action automatique dans l’application. | varchar(100) |
 | **`post_`** | **`mobileappid`** | ID de l’application mobile Stocke le nom et la version de l’application au format suivant : `[AppName] [BundleVersion]` | varchar(255) |
@@ -158,10 +186,10 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`mobilehourofday`** | Définit l’heure du jour où l’application a été lancée. Suit un format numérique de 24 heures. | varchar(255) |
 | **`post_`** | **`mobileinstalldate`** | Date de l’installation mobile. Indique la date de la première ouverture d’une application mobile par un utilisateur ou une utilisatrice. | varchar(255) |
 | **`post_`** | **`mobilelaunchnumber`** | Est incrémentée d’une unité chaque fois que l’application mobile est lancée. | varchar(255) |
-| **`post_`** | **`mobilemessagebuttonname`** | Collecté à partir de la variable des données de contexte `a.message.button.id`. Utilisé pour la messagerie au sein de l’application afin d’identifier le bouton qui a fermé le message. | varchar(100) |
+| **`post_`** | **`mobilemessagebuttonname`** | Collecté à partir de la variable des données de contexte `a.message.button.id`. Utilisé pour la messagerie in-app afin d’identifier le bouton qui a fermé le message. | varchar(100) |
 | **`post_`** | **`mobilemessageid`** | Identifiant de message au sein de l’application | varchar(255) |
 | **`post_`** | **`mobilemessageonline`** | Message en ligne dans l’application | varchar(255) |
-| **`post_`** | **`mobilemessagepushoptin`** | Collecté à partir de la variable des données de contexte `a.push.optin`. Définissez cette valeur sur « true » lorsque l’utilisateur s’inscrit à la messagerie push ; dans le cas contraire, la valeur qui apparaît est « false ». | varchar(255) |
+| **`post_`** | **`mobilemessagepushoptin`** | Collecté à partir de la variable des données de contexte `a.push.optin`. La valeur est définie sur « vrai » lorsque l’utilisateur accepte de recevoir des notifications push ; dans le cas contraire, la valeur est « faux ». | varchar(255) |
 | **`post_`** | **`mobilemessagepushpayloadid`** | Collecté à partir de la variable des données de contexte `a.push.payloadid`. Utilisé comme identifiant de paiement dans la messagerie push. | varchar(255) |
 | **`post_`** | **`mobileosversion`** | Version du système d’exploitation Mobile Services | varchar(255) |
 | | **`mobileplaceaccuracy`** | Collecté à partir de la variable des données de contexte `a.loc.acc`. Indique la précision du GPS en mètres au moment de la collecte des données. | varchar(255) |
@@ -178,50 +206,50 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`mobile_id`** | Si l’utilisateur ou l’utilisatrice a recours à un appareil mobile, il s’agit alors de l’identifiant numérique de l’appareil. Valeur de clé pour la [recherche dynamique](dynamic-lookups.md) `mobile_attributes.tsv`. | int |
 | | **`monthly_visitor`** | Indicateur signifiant que le visiteur ou la visiteuse est unique pour le mois en cours. | tinyint sans signe |
 | **`post_`** | **`mvvar1`** - **`mvvar3`** | Valeurs des [variables de liste](/help/implement/vars/page-vars/list.md). Contient une liste délimitée de valeurs personnalisées en fonction de l’implémentation. Les colonnes `post_mvvar1` - `post_mvvar3` remplacent le délimiteur dʼorigine par `--**--`. | text |
-| **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | Les valeurs de la variable de liste qui ont été définies sur l’accès actuel. Remplace le délimiteur d’origine par `--**--`. Les colonnes `post` ne contiennent généralement pas de données. | text |
-| | **`new_visit`** | Indicateur qui détermine si l’accès actif est une nouvelle visite. Valeur définie par Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
+| **`post_`** | **`mvvar1_instances`** - **`mvvar3_instances`** | Les valeurs de la variable de liste qui ont été définies sur le hit actuel. Remplace le délimiteur d’origine par `--**--`. Les colonnes `post` ne contiennent généralement pas de données. | text |
+| | **`new_visit`** | Indicateur qui détermine si le hit actif est une nouvelle visite. Valeur définie par Adobe après 30 minutes d’inactivité au niveau de la visite. | tinyint sans signe |
 | | **`os`** | Identifiant numérique représentant le système d’exploitation du visiteur ou de la visiteuse. Basé sur la colonne `user_agent`. Valeur de clé pour la recherche standard `operating_system.tsv` et la [recherche dynamique](dynamic-lookups.md) `operating_system_type.tsv`. | int sans signe |
 | **`post_`** | **`pagename`** | La dimension [Page](/help/components/dimensions/page.md). Si la variable [`pagename`](/help/implement/vars/page-vars/pagename.md) est vide, Analytics utilise la variable `page_url` en remplacement. | varchar(100) |
 | **`post_`** | **`pagename_no_url`** | Similaire à `pagename`, sauf qu’il ne retourne pas à `page_url`. Seule la colonne `post` est disponible. | varchar(100) |
-| **`post_`** | **`page_event`** | Le type d’accès qui est envoyé dans la demande d’image (accès standard, lien de téléchargement, lien personnalisé, lien de sortie). Voir [Recherche d’événement de page](datafeeds-page-event.md). | tinyint sans signe |
+| **`post_`** | **`page_event`** | Le type de hit qui est envoyé dans la demande d’image (hit standard, lien de téléchargement, lien personnalisé, lien de sortie). Voir [Recherche d’événement de page](datafeeds-page-event.md). | tinyint sans signe |
 | **`post_`** | **`page_event_var1`** | Uniquement utilisée dans les demandes d’image de suivi des liens. URL du lien de téléchargement, de sortie ou personnalisé sur lequel a cliqué l’utilisateur. | text |
 | **`post_`** | **`page_event_var2`** | Uniquement utilisée dans les demandes d’image de suivi des liens. Nom personnalisé (le cas échéant) du lien. Définit le [Lien personnalisé](/help/components/dimensions/custom-link.md), le [Lien de téléchargement](/help/components/dimensions/download-link.md) ou le [Lien de sortie](/help/components/dimensions/exit-link.md) selon la valeur dans `page_event`. | varchar(100) |
 | **`post_`** | **`page_type`** | La dimension [Pages introuvables](/help/components/dimensions/pages-not-found.md), généralement utilisée pour les pages 404. | char(20) |
 | **`post_`** | **`page_url`** | **`page_url`** : URL de l’accès. Utilise un type de données text.<br>**`post_page_url`**: supprimé pour les demandes d’image de suivi de liens ([`tl()`](/help/implement/vars/functions/tl-method.md)). Utilise un type de données varchar(255). | text<br>varchar(255) |
-| | **`paid_search`** | Indicateur qui détermine si l’accès correspond à la détection des référencements payants. | tinyint sans signe |
-| **`post_`** | **`persistent_cookie`** | Utilisé dans la dimension [Prise en charge des cookies persistants](/help/components/dimensions/persistent-cookie-support.md). Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque accès. | char(1) |
+| | **`paid_search`** | Indicateur qui détermine si le hit correspond à la détection des référencements payants. | tinyint sans signe |
+| **`post_`** | **`persistent_cookie`** | Utilisé dans la dimension [Prise en charge des cookies persistants](/help/components/dimensions/persistent-cookie-support.md). Indique si le visiteur prend en charge les cookies qui ne sont pas ignorés après chaque hit. | char(1) |
 | **`post_`** | **`pointofinterest`** | Nom du point ciblé Mobile Services | varchar(255) |
 | **`post_`** | **`pointofinterestdistance`** | Distance du centre du point ciblé Mobile Services | varchar(255) |
 | **`post_`** | **`product_list`** | Variable de page [`products`](/help/implement/vars/page-vars/products.md). Permet de renseigner plusieurs dimensions et mesures, notamment [Catégorie](/help/components/dimensions/category.md), [Produit](/help/components/dimensions/product.md), [Unités](/help/components/metrics/units.md) et [Chiffre d’affaires](/help/components/metrics/revenue.md). | text |
 | **`post_`** | **`prop1`** - **`prop75`** | Variables de trafic personnalisées 1 - 75. Utilisé dans les dimensions [Prop](/help/components/dimensions/prop.md). | varchar(100) |
 | **`post_`** | **`purchaseid`** | Identifiant unique pour un achat, tel qu’il est défini à l’aide de la variable [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilisé par la colonne `duplicate_purchase`. | char(20) |
-| | **`quarterly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur trimestriel ou une nouvelle visiteuse trimestrielle. | tinyint sans signe |
+| | **`quarterly_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur trimestriel ou une nouvelle visiteuse trimestrielle. | tinyint sans signe |
 | **`post_`** | **`referrer`** | La dimension [Référent](/help/components/dimensions/referrer.md). Notez que, bien que `referrer` utilise un type de données varchar(255), `post_referrer` utilise un type de données varchar(244). | varchar(255)<br>varchar(244) |
 | | **`ref_domain`** | La dimension [Domaine référent.](/help/components/dimensions/referring-domain.md) Basé sur la colonne `referrer`. | varchar(100) |
-| | **`ref_type`** | Identifiant numérique représentant le type de référence pour l’accès. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md).<br>1 : à l’intérieur de votre site<br>2 : autres sites web<br>3 : moteurs de recherche<br>4 : disque dur<br>5 : USENET<br>6 : dactylographié/mis en signet (pas de référent)<br>7 : e-mail<br>8 : pas de JavaScript<br>9 : réseaux sociaux<br>10 : outils d’IA dédiée à la conversation | tinyint sans signe |
+| | **`ref_type`** | Identifiant numérique représentant le type de référence pour le hit. Utilisé dans la dimension [Type de référent](/help/components/dimensions/referrer-type.md).<br>1 : à l’intérieur de votre site<br>2 : autres sites web<br>3 : moteurs de recherche<br>4 : disque dur<br>5 : USENET<br>6 : dactylographié/mis en signet (pas de référent)<br>7 : e-mail<br>8 : pas de JavaScript<br>9 : réseaux sociaux<br>10 : outils d’IA dédiée à la conversation | tinyint sans signe |
 | | **`resolution`** | Identifiant numérique représentant la résolution du moniteur. Utilisé dans la dimension [Résolution d’écran](/help/components/dimensions/monitor-resolution.md). Utilise la table de recherche `resolution.tsv`. | smallint sans signe |
 | **`post_`** | **`search_engine`** | Identifiant numérique représentant le moteur de recherche qui a renvoyé le visiteur ou la visiteuse sur votre site. Utilisé dans les dimensions [Moteur de recherche](/help/components/dimensions/search-engine.md). Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
 | | **`search_page_num`** | Utilisé par la dimension [Tout le classement des pages de recherche](/help/components/dimensions/all-search-page-rank.md). Indique sur quelle page de résultats de recherche votre site est apparu avant que l’utilisateur ou l’utilisatrice ne clique sur votre site. | smallint sans signe |
-| | **`secondary_hit`** | Indicateur qui détermine si l’accès est un accès secondaire. Normalement, l’indicateur provient du balisage multisuite et des règles VISTA qui copient les accès. | tinyint sans signe |
+| | **`secondary_hit`** | Indicateur qui détermine si le hit est un hit secondaire. Normalement, l’indicateur provient du balisage multisuite et des règles VISTA qui copient les hits. | tinyint sans signe |
 | | **`sourceid`** | ID Source | int sans signe |
-| | **`stats_server`** | Inutilisable. Serveur interne d’Adobe qui a traité l’accès. | char(30) |
+| | **`stats_server`** | Inutilisable. Serveur interne d’Adobe qui a traité le hit. | char(30) |
 | **`post_`** | **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising. | varchar(255) |
 | | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
 | **`post_`** | **`tnt`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests actuellement autorisés. Le format est : `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
-| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels lʼaccès est qualifié. | text |
+| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels le hit est qualifié. | text |
 | | **`tnt_instances`** | Utilisée dans les intégrations Adobe Target. Variable d’instances Target. | text |
 | **`post_`** | **`transactionid`** | Identifiant unique dans lequel divers points de données peuvent être chargés ultérieurement par le biais de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | | **`truncated_hit`** | Indicateur signalant que la demande d’image a été tronquée (un accès partiel a été reçu). <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |
 | **`post_`** | **`t_time_info`** | Heure locale pour le visiteur. Le format est : `M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| | **`userid`** | Inutilisable. Identifiant numérique pour l’identifiant de suite de rapports. Utilisez `username` à la place. | int sans signe |
-| | **`username`** | Identifiant de suite de rapports pour l’accès. | char(40) |
+| | **`userid`** | Inutilisable. Identifiant numérique de la suite de rapports. Utilisez `username` à la place. | int sans signe |
+| | **`username`** | Identifiant de suite de rapports pour le hit. | char(40) |
 | | **`user_agent`** | Chaîne de l’agent utilisateur envoyée dans l’en-tête HTTP de la demande d’image. | text |
 | | **`user_hash`** | Inutilisable. Hachage de l’identifiant de suite de rapports. Utilisez `username` à la place. | int sans signe |
 | **`post_`** | **`user_server`** | Utilisé dans la dimension [Serveur](/help/components/dimensions/server.md). | varchar(100) |
 | | **`va_closer_detail`** | La dimension [Détails de la dernière touche](/help/components/dimensions/last-touch-detail.md). | varchar(255) |
-| | **`va_closer_id`** | Identifiant numérique qui identifie la dimension [Canal Dernière touche](/help/components/dimensions/last-touch-channel.md). La recherche de cet identifiant se trouve dans le gestionnaire des canaux marketing. | tinyint sans signe |
+| | **`va_closer_id`** | Identifiant numérique qui identifie la dimension [Canal Dernière touche](/help/components/dimensions/last-touch-channel.md). La valeur de recherche de cet identifiant se trouve dans le Gestionnaire des canaux marketing. | tinyint sans signe |
 | | **`va_finder_detail`** | La dimension [Détails de la première touche](/help/components/dimensions/first-touch-detail.md). | varchar(255) |
-| | **`va_finder_id`** | Identifiant numérique qui identifie la dimension [Canal Première touche](/help/components/dimensions/first-touch-channel.md). La recherche de cet identifiant se trouve dans le gestionnaire des canaux marketing. | tinyint sans signe |
+| | **`va_finder_id`** | Identifiant numérique qui identifie la dimension [Canal Première touche](/help/components/dimensions/first-touch-channel.md). La valeur de recherche de cet identifiant se trouve dans le Gestionnaire des canaux marketing. | tinyint sans signe |
 | | **`va_instance_event`** | Indicateur qui identifie les [Instances](/help/components/metrics/instances.md) du canal marketing. | tinyint sans signe |
 | | **`va_new_engagement`** | Indicateur qui identifie les [Nouveaux engagements](/help/components/metrics/new-engagements.md) du canal marketing. | tinyint sans signe |
 | **`post_`** | **`video`** | La dimension [Contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content) des services de streaming multimédia. | varchar(255) |
@@ -245,7 +273,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`videodaypart`** | La dimension [Partie de la journée](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/day-part) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoepisode`** | La dimension [Épisode](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/episode) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videofeedtype`** | La dimension [Type de flux multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-feed-type) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videogenre`** | La dimension [Genre](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/genre) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès, délimitées par une virgule. | text |
+| **`post_`** | **`videogenre`** | La dimension [Genre](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/genre) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit, délimitées par une virgule. | text |
 | **`post_`** | **`videolength`** | La dimension [Longueur du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length) des services de streaming multimédia. | Entier |
 | **`post_`** | **`videomvpd`** | La dimension [MVPD](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/mvpd) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoname`** | La dimension [Nom du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-name) des services de streaming multimédia. | varchar(255) |
@@ -258,8 +286,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`videoqoebuffertimeevar`** | La dimension [Durée totale de la mémoire tampon](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoqoedroppedframecountevar`** | La dimension [Images perdues](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/dropped-frames) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoqoeerrorcountevar`** | La dimension [Erreurs](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/errors) des services de streaming multimédia. | varchar(255) |
-| | **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/external-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
-| **`post_`** | **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même accès. | text |
+| | **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/external-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
+| **`post_`** | **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
 | **`post_`** | **`videoqoetimetostartevar`** | La dimension [Temps jusqu’au début](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/time-to-start) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videoseason`** | La dimension [Saison](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/season) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`videosegment`** | La dimension [Segment de contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-segment) des services de streaming multimédia. | varchar(255) |
@@ -269,21 +297,21 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`videostreamtype`** | La dimension [Type de flux](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/stream-type) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`visid_high`** | Utilisé en combinaison avec `visid_low` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
 | **`post_`** | **`visid_low`** | Utilisé en combinaison avec `visid_high` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
-| | **`visid_new`** | Indicateur pour identifier si l’accès contient un identifiant visiteur ou visiteuse nouvellement généré. | char(1) |
+| | **`visid_new`** | Indicateur pour identifier si le hit contient un identifiant visiteur nouvellement généré. | char(1) |
 | | **`visid_timestamp`** | Si l’identifiant visiteur ou visiteuse a été récemment généré, fournit la date et l’heure (en heure UNIX®) de la génération de l’identifiant. | int |
 | **`post_`** | **`visid_type`** | Uniquement destinée à un usage interne. Utilisée en interne par Adobe pour les optimisations de traitement. Identifiant numérique qui représente la méthode utilisée pour identifier le visiteur. <br>`0` : Identifiant visiteur personnalisé ou Inconnu/non applicable <br>`1` : <br>`2` de secours de l’IP et de l’agent utilisateur : en-tête de l’abonné mobile HTTP <br>`3` : valeur du cookie hérité (`s_vi`) <br>`4` : valeur du cookie de secours (`s_fid`) <br>`5` : Service d’identités | tinyint sans signe |
 | **`post_`** | **`visit_keywords`** | La dimension [Mot-clé de recherche](/help/components/dimensions/search-keyword.md). Cette colonne utilise une limite de caractères non standard pour varchar(244) pour s’adapter à la logique de back-end utilisée par Adobe. La colonne post-traitée est `**post_keywords**` et non `**post_visit_keywords**`. | varchar(244) |
 | | **`visit_num`** | La dimension [Nombre de visites](/help/components/dimensions/visit-number.md). Commence à 1, et est incrémentée chaque fois qu’une nouvelle visite commence par visiteur. | int sans signe |
-| | **`visit_page_num`** | La dimension [Profondeur de l’accès](/help/components/dimensions/hit-depth.md). Augmente de 1 pour chaque accès que le visiteur ou la visiteuse génère. Réinitialise chaque visite. | int sans signe |
+| | **`visit_page_num`** | La dimension [Profondeur du hit](/help/components/dimensions/hit-depth.md). Augmente de 1 pour chaque hit que le visiteur ou la visiteuse génère. Réinitialise chaque visite. | int sans signe |
 | | **`visit_referrer`** | Premier référent de la visite. | varchar(255) |
 | | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | | **`visit_ref_type`** | Identifiant numérique, représentant le type de référent du tout premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
 | | **`visit_start_pagename`** | [&#x200B; Page &#x200B;](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
 | | **`visit_start_page_url`** | URL du premier accès de la visite. | varchar(255) |
-| | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier accès de la visite. | int |
-| | **`weekly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |
-| | **`yearly_visitor`** | Indicateur qui détermine si l’accès est un nouveau visiteur annuel ou une nouvelle visiteuse annuelle. | tinyint sans signe |
+| | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier hit de la visite. | int |
+| | **`weekly_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |
+| | **`yearly_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur annuel ou une nouvelle visiteuse annuelle. | tinyint sans signe |
 | **`post_`** | **`zip`** | Aide à renseigner la dimension [Code postal](/help/components/dimensions/zip-code.md). Voir également `geo_zip`. | varchar(50) |
 
 ## Colonnes inutilisées ou retirées

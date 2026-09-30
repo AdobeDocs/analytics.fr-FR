@@ -3,31 +3,45 @@ description: Découvrez comment gérer les segments hérités.
 title: FAQ sur les segments hérités
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-TQID: https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk
+TQID: 'https://experienceleague.adobe.com/P1EFVQMiTkCoZd-rak9jJgNz-AbgjnhMd6sWlIAKhsk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
+    internal-label: Segment Builder
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1440
+source-wordcount: '1440'
 ht-degree: 55%
-
 ---
-
 # Segments hérités
 
 Cet article répond aux questions fréquentes sur les bonnes pratiques de gestion des segments hérités. Les segments hérités sont des segments créés avant 2014.
@@ -64,7 +78,7 @@ Vous disposez d’une visualisation qui fait référence au segment de la suite 
 
 Tous les segments Data Warehouse existants fonctionnent toujours dans Data Warehouse. La plupart des segments Data Warehouse fonctionnent également dans d’autres composants, tels qu’Analysis Workspace.
 
-Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur/Gestionnaire de segments. Le mécanisme de compatibilité des produits du créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
+Vous pouvez créer ou modifier de nouveaux segments Data Warehouse depuis le Créateur de segments. Le mécanisme de compatibilité des produits du créateur de segments détermine automatiquement si un segment est compatible avec Data Warehouse.
 
 +++
 
@@ -80,7 +94,7 @@ Ces segments sont migrés sous forme de modèles de segment dans le créateur de
 
 +++
 
-+++ **Qu’est-il advenu des segments CX Enterprise (Suite)**
++++ **Qu’est-il advenu des segments CX Enterprise (Suite) :**
 
 * Non-acheteurs
 * Acheteurs
@@ -90,7 +104,7 @@ Ces segments sont migrés sous forme de modèles de segment dans le créateur de
 * Visites avec 5+ visites précédentes*
 * Visites depuis Facebook*
 
-La plupart de ces segments (à l’exception de ceux signalés par un astérisque) seront migrés sous forme de modèles de segment dans le créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
+La plupart de ces segments (à l’exception de ceux signalés par un astérisque) ont été migrés sous forme de modèles de segment dans le Créateur de segments. En outre, plusieurs nouveaux modèles de segments ont été ajoutés.
 
 Tout rapport auquel ces segments sont appliqués continue à fonctionner correctement.
 
@@ -112,7 +126,7 @@ Les segments existants qui utilisent une logique modifiée comme décrit dans ce
 Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il est possible que vous disposiez de plusieurs segments portant le même nom. Vous devriez :
 
 * renommer les segments portant le même nom mais ayant des définitions différentes, ou
-* supprimer les segments qui ne sont plus utiles.
+* Supprimez les segments qui ne sont plus utiles.
 
 +++
 
@@ -130,7 +144,7 @@ Maintenant que les segments fonctionnent dans plusieurs suites de rapports, il e
 
 Les conseils suivants vous aident à migrer les dimensions courantes :
 
-* Ville/région/pays géo : recherchez et sélectionnez des villes, des régions ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
+* Ville/zone géographique/pays géo : recherchez et sélectionnez des villes, des zones géographiques ou des pays spécifiques au lieu d’utiliser une correspondance partielle.
 * Navigateurs : utilisez la dimension Types de navigateur pour obtenir tous les navigateurs d’un type, par exemple Google Chrome
 * Systèmes d’exploitation : utilisez les dimensions Types de système d’exploitation pour obtenir tous les systèmes d’exploitation d’un type, par exemple, Microsoft Windows.
 * Voir la section « Dimensions nouvelles et renommées » (ci-dessous).
@@ -142,21 +156,21 @@ Le tableau suivant contient une liste des dimensions renommées dans le créateu
 | Nouveau nom de la dimension | Ancien nom | Notes |
 |--- |--- |--- |
 | Types de systèmes d’exploitation | Nouveau | Ajoutée au printemps 2015. |
-| Largeur du navigateur - Regroupement | Largeur du navigateur | Cette dimension est compatible avec toutes les interfaces et est fractionnée en une liste énumérée de plages au lieu de valeurs d’entiers spécifiques. Si vous devez segmenter des valeurs spécifiques, utilisez la version granulaire de cette dimension dans un segment Data Warehouse. |
+| Largeur du navigateur - Regroupement | Largeur du navigateur | Cette dimension est compatible avec toutes les interfaces et est partagée en une liste énumérée de plages au lieu de valeurs d’entiers spécifiques. Si vous devez segmenter des valeurs spécifiques, utilisez la version granulaire de cette dimension dans un segment Data Warehouse. |
 | Hauteur du navigateur - Regroupement | Hauteur du navigateur | Cette dimension est compatible avec toutes les interfaces et est fractionnée en une liste énumérée de plages au lieu de valeurs d’entiers spécifiques. Si vous devez segmenter des valeurs spécifiques, utilisez la version granulaire de cette dimension dans un segment Data Warehouse. |
-| Largeur du navigateur - Granulaire | Largeur du navigateur | Cette dimension a été renommée et est désormais compatible avec Data Warehouse uniquement. Lors de la définition de segments qui sont compatibles avec toutes les interfaces, utilisez le type énuméré Largeur du navigateur - Regroupement. |
-| Hauteur du navigateur - Granulaire | Hauteur du navigateur | Cette dimension a été renommée et est désormais compatible avec Data Warehouse uniquement. Lors de la définition de segments qui sont compatibles avec toutes les interfaces, utilisez le type énuméré Hauteur du navigateur - Regroupement. |
+| Largeur du navigateur - Granulaire | Largeur du navigateur | Cette dimension a été renommée et est désormais compatible avec Data Warehouse uniquement. Lors de la définition de segments qui sont compatibles avec toutes les interfaces, utilisez le type énuméré Largeur du navigateur - Compartimenté. |
+| Hauteur du navigateur - Granulaire | Hauteur du navigateur | Cette dimension a été renommée et est désormais compatible avec Data Warehouse uniquement. Lors de la définition de segments qui sont compatibles avec toutes les interfaces, utilisez le type énuméré Hauteur du navigateur - Compartimenté. |
 | Prise en charge des cookies | Cookies | - |
 | Profondeur de couleur | Intensité de couleur de l’écran | - |
 | - | &quot;App - *&quot; | Les préfixes « App - » ont été supprimés de plusieurs types de dimensions. Les données des applications mobiles étant généralement capturées dans une suite de rapports qui ne contient pas de données Web, ces préfixes n’étaient pas nécessaires. |
 | Page d’accès d’origine | Page d’accès originale | - |
 | Compatible Java | Java | - |
-| Mobile - Longueur max. d’URL de navigateur | Longueur d’URL de navigateur mobile | - |
+| Longueur maximale d’URL de navigateur mobile | Longueur d’URL de navigateur mobile | - |
 | Mobile - Décoration de courrier | Prise en charge de Decoration Mail mobile | - |
 | Appareil mobile | Nom de l’appareil mobile | - |
-| Mobile - Longueur max. du signet | Longueur maxi d’URL en signet pour mobile | - |
-| Mobile - Longueur max. d’adresse e-mail | Longueur maxi d’URL de messagerie pour mobile | - |
-| Système d’exploitation mobile (obsolète) | SE Mobile | Utilisez la dimension du système d’exploitation et appliquez à la place une visite depuis les segments d’appareils mobiles. |
+| Mobile - Longueur max. du signet | Longueur maximale d’URL de signet mobile | - |
+| Mobile - Longueur max. d’adresse e-mail | Longueur maximale d’URL de messagerie mobile | - |
+| Système d’exploitation mobile (obsolète) | SE Mobile | Utilisez la dimension Système d’exploitation et appliquez à la place le segment « Visites depuis des appareils mobiles ». |
 | Mobile - Presser pour parler | PTT mobile | - |
 | Vues d’une enquête | Total des vues d’une enquête | - |
 | Réponses de l’enquête | Total des réponses de l’enquête | - |
@@ -190,7 +204,7 @@ Les dimensions suivantes ont été modifiées en listes énumérées :
 
 ## Modifications apportées à des dimensions basées sur des entiers dont les valeurs sont connues {#integer-based-dims}
 
-Les dimensions basées sur des entiers (telles que la largeur du navigateur) avec un jeu de valeurs connu sont divisées en plages énumérées afin que vous puissiez rapidement définir des segments pour une plage spécifique. « - Regroupement » est ajouté à ces listes énumérées après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du créateur de segments antérieure et nouvelle :
+Les dimensions basées sur des entiers (telles que la largeur du navigateur) avec un jeu de valeurs connu sont divisées en plages énumérées afin que vous puissiez rapidement définir des segments pour une plage spécifique. Ces listes énumérées sont suivies de « - Compartimenté » après le nom de la dimension. L’écran suivant montre comment ces dimensions sont segmentées en utilisant les interfaces du créateur de segments antérieure et nouvelle :
 
 ![](assets/seg_browser_dimension.png)
 

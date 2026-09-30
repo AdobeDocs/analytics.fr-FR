@@ -4,38 +4,56 @@ title: Activity Map - Aperçu
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-TQID: https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI
+TQID: 'https://experienceleague.adobe.com/1-o8wAr6cY8jSR2facQEvh--wvXByJf6R01r4RcVEhI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
+    internal-label: Functions
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
+  - id: d40ce8ba-a8b5-4daa-9c46-16a4e57a022b
+    internal-label: Activity Map
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '634'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble d’Activity Map
 
-Adobe Analytics Activity Map est une fonctionnalité d’Adobe Analytics qui fournit une représentation visuelle de l’engagement des utilisateurs et utilisatrices sur les pages web et les applications mobiles. Elle permet aux spécialistes du marketing et de l’analyse de suivre et d’analyser les interactions des utilisateurs et utilisatrices, telles que les clics et le comportement de défilement. Activity Map génère des cartes thermiques et des rapports de recouvrement qui affichent les éléments les plus populaires sur une page web, ce qui vous permet d’optimiser vos expériences numériques.
+Adobe Analytics Activity Map est une fonctionnalité d’Adobe Analytics qui fournit une représentation visuelle de l’engagement des utilisateurs et des utilisatrices sur les pages web et les applications mobiles. Elle permet aux spécialistes du marketing et de l’analyse de suivre et d’analyser les interactions des utilisateurs et utilisatrices, telles que les clics et le comportement de défilement. Activity Map génère des cartes thermiques et des rapports de recouvrement qui affichent les éléments les plus populaires sur une page web, ce qui vous permet d’optimiser vos expériences numériques.
 
 Le concept d’Activity Map se compose de plusieurs composants importants :
 
@@ -55,11 +73,11 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
 
 ## Fonctionnalités et avantages
 
-* **Visualisation de l’interaction client** : Activity Map offre une représentation visuelle dynamique du comportement de la personne, ce qui vous permet de voir exactement où cliquent les utilisateurs et utilisatrices. Ces données visuelles permettent d’identifier plus facilement les modèles, les tendances et les zones d’intérêt. Vous pouvez ensuite prendre des décisions éclairées concernant la conception, l’emplacement du contenu et le flux des utilisateurs et utilisatrices.
+* **Visualisation de l’interaction client** : Activity Map offre une représentation visuelle dynamique du comportement de la personne, ce qui vous permet de voir exactement où cliquent les utilisateurs et utilisatrices. Ces données visuelles permettent d’identifier plus facilement les modèles, les tendances et les zones d’intérêt. Vous pouvez ensuite prendre des décisions éclairées concernant la conception, l’emplacement du contenu et le flux des utilisateurs.
 
 * **Cartes thermiques** : Activity Map génère des cartes thermiques qui affichent les zones ayant fait l’objet du maximum de clics ou d’interactions d’une page web. Les cartes thermiques utilisent un codage par couleur pour représenter le niveau d’engagement. Cela vous permet d’identifier les zones les plus actives et de concentrer votre attention sur celles à fort impact. Ces informations peuvent s’avérer très utiles pour optimiser les boutons d’appel à l’action, les liens, les formulaires ou tout autre élément interactif.
 
-* **Rapports de recouvrement** : les rapports de recouvrement dans Activity Map fournissent des mesures de clics détaillées pour des éléments spécifiques d’une page web. En comprenant les taux de clics publicitaires et les niveaux d’engagement des éléments individuels, vous pouvez affiner votre conception et vos stratégies de contenu afin d’améliorer les expériences clientèle. Cette fonctionnalité n’est pas disponible pour les implémentations du SDK web.
+* **Rapports de recouvrement** : les rapports de recouvrement dans Activity Map fournissent des mesures de clics détaillées pour des éléments spécifiques d’une page web. En comprenant les taux de clics et les niveaux d’engagement de chaque élément, vous pouvez affiner votre conception et vos stratégies de contenu afin d’améliorer l’expérience utilisateur. Cette fonctionnalité n’est pas disponible pour les implémentations du SDK web.
 
 * **Analyse des segments** : vous pouvez analyser le comportement des utilisateurs et utilisatrices en fonction de différents segments, tels que les sources de trafic, les données démographiques ou les rôles. En segmentant les données, vous pouvez découvrir des informations précieuses sur des groupes d’utilisateurs et d’utilisatrices spécifiques. Cela permet d’offrir des expériences personnalisées et des stratégies marketing ciblées.
 
@@ -69,5 +87,5 @@ Le concept d’Activity Map se compose de plusieurs composants importants :
 
 * **Optimisation du taux de conversion** : en visualisant l’engagement des utilisateurs et utilisatrices et en analysant les taux de clics publicitaires, Activity Map joue un rôle essentiel dans les efforts CRO. Vous pouvez identifier les obstacles à la conversion et expérimenter différentes variations de conception afin d’optimiser les entonnoirs de conversion, les pages de destination et les processus de passage en caisse.
 
-* **Tests A/B** : Activity Map peut être combiné avec des tests A/B pour mesurer l’impact des modifications de conception ou de contenu. En comparant les mesures d’engagement entre différentes versions d’une page web, vous pouvez déterminer les variations qui génèrent un engagement des utilisateurs et utilisatrices, des taux de conversion ou des recettes plus élevés.
+* **Tests A/B** : Activity Map peut être combiné avec des tests A/B pour mesurer l’impact des modifications de conception ou de contenu. En comparant les mesures d’engagement entre différentes versions d’une page web, vous pouvez déterminer les variations qui génèrent un engagement des utilisateurs, des taux de conversion ou un chiffre d’affaires plus élevés.
 

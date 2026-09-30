@@ -1,31 +1,37 @@
 ---
-description: Description des suites de rapports globales
+description: Descriptions des suites de rapports globales
 title: Suites de rapports globales
 feature: Report Suite Settings
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 role: Admin
-TQID: https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E
+TQID: 'https://experienceleague.adobe.com/IcE0DXKBiNdfunqOMbeAQPV-m4zXR1PiVIXSGQqnd9E'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 413
+source-wordcount: '413'
 ht-degree: 94%
-
 ---
-
 # Suites de rapports globales
 
-Une suite de rapports globale collecte des données de tous les domaines et applications dont votre organisation est propriétaire. Elle nécessite une implémentation pour envoyer toutes les demandes d’image à une seule suite de rapports.
+Une suite de rapports globale collecte des données de tous les domaines et applications dont votre organisation est propriétaire. Elle nécessite une mise en œuvre pour envoyer toutes les demandes d’image à une seule suite de rapports.
 
 Dans la plupart des cas, Adobe recommande dʼimplémenter une suite de rapports globale. Consultez la section « [Considérations relatives aux suites de rapports globales](/help/implement/prepare/global-rs.md) » pour découvrir les avantages offerts par lʼimplémentation d’une suite de rapports globale.
 
@@ -33,17 +39,17 @@ Vous pouvez fournir des sous-ensembles de données de la suite de rapports globa
 
 * **Balisage multisuite** : le balisage multisuite vous permet d’envoyer des demandes d’image non seulement à une suite de rapports globale, mais également à des suites de rapports enfants individuelles. Les données du rapport global sont dédupliquées dans toutes les suites de rapports.
 
-  Par exemple, vous pouvez collecter toutes les données dans une suite de rapports globale et créer des suites de rapports secondaires en fonction de la marque, de la zone géographique ou d’un autre facteur de différenciation. Les différentes équipes au sein de votre entreprise peuvent alors agir sur les données des suites de rapports qui les intéressent.
+  Par exemple, vous pouvez collecter toutes les données dans une suite de rapports globale et créer des suites de rapports secondaires en fonction de la marque, de la zone géographique ou d’un autre facteur de différenciation. Les différentes équipes au sein de votre entreprise peuvent alors se concentrer sur les données des suites de rapports qui les concernent.
 
   Pour utiliser le balisage multisuite, implémentez des suites de rapports enfants et une suite de rapports globale qui inclut toutes les données des enfants. Dans le code de suivi de vos pages web et de vos applications, vous trouverez l’identifiant de suite de rapports (RSID) pour la suite de rapports globale et les RSID pour les suites de rapports enfants applicables.<!-- Wording/be more specific? And include any links? -->
 
-  Un appel serveur distinct est effectué à chaque suite de rapports dans la demande d’image. Les appels aux suites de rapports enfants sont des deuxièmes appels.
+  Un appel au serveur distinct est effectué à chaque suite de rapports dans la demande d’image. Les appels aux suites de rapports enfants sont des appels secondaires.
 
-* **Suite de rapports virtuelle** : une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) est une requête portant sur des segments spécifiques, collectés dans une suite de rapports globale, et disponible pour des groupes d’utilisateurs et d’utilisatrices spécifiés. Les suites de rapports virtuelles vous permettent de traiter des éléments de rapport pour différents utilisateurs finaux, sans utiliser le balisage multisuite, ce qui permet d’éviter les deuxièmes appels serveurs.
+* **Suite de rapports virtuelle** : une [suite de rapports virtuelle](/help/components/vrs/vrs-about.md) est une requête portant sur des segments spécifiques, collectés dans une suite de rapports globale, et disponible pour des groupes d’utilisateurs et d’utilisatrices spécifiés. Les suites de rapports virtuelles vous permettent de traiter des éléments de rapport pour différents utilisateurs finaux, sans utiliser le balisage multisuite, ce qui permet d’éviter les deuxièmes appels serveur.
 
-  Pour utiliser les suites de rapports virtuelles, commencez par implémenter une suite de rapports globale, puis analysez les données afin de créer des suites de rapports virtuelles, en appliquent des segments et des autorisations de groupe spécifiques. Vous pouvez créer des suites de rapports virtuelles dans le gestionnaire de suites de rapports virtuelles ([!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]). Pour plus dʼinformations, consultez la section « [Worflow Suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) ».
+  Pour utiliser les suites de rapports virtuelles, commencez par mettre en œuvre une suite de rapports globale, puis analysez les données afin de créer des suites de rapports virtuelles, en appliquant des segments et des autorisations de groupe spécifiques. Vous pouvez créer des suites de rapports virtuelles dans le gestionnaire de suites de rapports virtuelles ([!UICONTROL Composants] > [!UICONTROL Suites de rapports virtuelles]). Pour plus dʼinformations, consultez la section « [Worflow Suites de rapports virtuelles](/help/components/vrs/c-workflow-vrs/vrs-workflow.md) ».
 
-L’utilisation de suites de rapports virtuelles au lieu du balisage multi-suite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour une comparaison détaillée des suites de rapports virtuelles et de la fonctionnalité de balisage multisuite, reportez-vous à la section [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md).
+L’utilisation de suites de rapports virtuelles au lieu du balisage multisuite est souvent une bonne pratique, mais ces dernières présentent certaines limites. Consultez la section « [Considérations relatives aux suites de rapports virtuelles et au balisage multisuite](/help/components/vrs/vrs-considerations.md) » pour déterminer l’approche de suite de rapports la plus appropriée aux besoins de votre entreprise. Pour une comparaison détaillée des suites de rapports virtuelles et de la fonctionnalité de balisage multisuite, reportez-vous à la section [Suites de rapports virtuelles par rapport au balisage multisuite](/help/components/vrs/vrs-about.md).
 
 <!--
 ## Rollup reports

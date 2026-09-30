@@ -1,25 +1,30 @@
 ---
-title: Exportation des données de classification via FTP
-description: L’exportation FTP offre plus de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données à partir de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données comportant plus de 50 000 lignes de données.
+title: Export des données de classification via FTP
+description: L’export via FTP offre davantage de flexibilité au niveau des téléchargements de jeux de données. Cela concerne notamment le téléchargement de données provenant de plusieurs suites de rapports et le téléchargement de fichiers de jeux de données contenant plus de 50 000 lignes de données.
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+TQID: 'https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: '632'
 ht-degree: 64%
-
 ---
-
 # Exportation FTP (héritée)
 
 {{classification-importer-deprecation}}
@@ -37,12 +42,12 @@ Tenez compte des problèmes suivants lors de l’application des filtres de donn
 
 ## Exporter des classifications via FTP
 
-Ces étapes décrivent la procédure d’exportation (téléchargement) de classifications à partir d’Adobe Analytics via FTP.
+Ces étapes décrivent la procédure d’export (téléchargement) des classifications à partir d’Adobe Analytics via FTP.
 
 1. Créer un compte FTP.
 1. Accédez à [!UICONTROL Admin] > [!UICONTROL Importateur de classifications].
 1. Cliquez sur l’onglet **[!UICONTROL Importation FTP]**.
-1. Configurez les champs pour l’exportation FTP.
+1. Configurez les champs pour l’export via FTP.
 1. Cliquez sur **[!UICONTROL Exporter un fichier]**.
 1. Enregistrez le jeu de données sur votre système local.
 
@@ -59,4 +64,4 @@ Ces étapes décrivent la procédure d’exportation (téléchargement) de class
 | [!UICONTROL Exporter Numérique 2] | Vous pouvez importer les classifications numériques 2 dans le système à l’aide de l’importateur. Les classifications numériques 2 s’avèrent utiles lorsque les variables de différents articles changent de temps à autre, comme les valeurs de coût et de budget pour le rapport Canal marketing. |
 | [!UICONTROL Compte FTP] | Spécifiez les informations du serveur FTP où Adobe doit télécharger le fichier de données, dont le nom d’hôte et le port, le chemin d’accès au répertoire de destination, le nom d’utilisateur et le mot de passe. |
 | [!UICONTROL Notification] | Indiquez l’adresse e-mail à laquelle doivent être envoyées les notifications concernant ce téléchargement FTP. |
-| [!UICONTROL Encodage] | Sélectionnez le codage des caractères pour le fichier de données. Le format de codage par défaut est soit UTF-8, soit ISO-8859-1, selon le code qui a été téléchargé pour la classification. UTF-8 vers UTF-16 convertit les classifications codées UTF-8 en codage UTF-16. ISO-8859-1 en UTF-16 convertit vos classifications codées ISO-8859-1 en codage UTF-16.<br>**Remarque :** si vous choisissez de convertir au format UTF-16, le codage source doit correspondre au codage du chargement d’origine, faute de quoi vous risquez d’obtenir des résultats inattendus. Nous vous recommandons de coder tous les fichiers chargés au format UTF-8 sans nomenclature. |
+| [!UICONTROL Encodage] | Sélectionnez le codage des caractères pour le fichier de données. Le format d’encodage par défaut est soit UTF-8, soit ISO-8859-1, en fonction de l’encodage utilisé lors du chargement de la classification. UTF-8 vers UTF-16 convertit les classifications codées UTF-8 en codage UTF-16. ISO-8859-1 en UTF-16 convertit vos classifications codées ISO-8859-1 en codage UTF-16.<br>**Remarque :** si vous choisissez de convertir au format UTF-16, le codage source doit correspondre au codage du chargement d’origine, faute de quoi vous risquez d’obtenir des résultats inattendus. Nous vous recommandons de coder tous les fichiers chargés au format UTF-8 sans nomenclature. |

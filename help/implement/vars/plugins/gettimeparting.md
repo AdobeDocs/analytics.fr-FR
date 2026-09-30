@@ -4,29 +4,41 @@ description: Permet de mesurer le moment où une action spécifique a lieu.
 feature: Appmeasurement Implementation
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ
+TQID: 'https://experienceleague.adobe.com/4321rEzlE5cFkTZTHsyyG17E3cl3wXHeJ6BZxdoe6xQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 857
+source-wordcount: '857'
 ht-degree: 78%
-
 ---
-
 # Plug-in Adobe : getTimeParting
 
 {{plug-in}}
@@ -68,7 +80,7 @@ Adobe propose une extension qui vous permet d’utiliser les plug-ins les plus c
 1. Installez et publiez l’extension [!UICONTROL Plug-ins Analytics communs].
 1. Si ce n’est pas déjà fait, créez une règle intitulée « Initialiser les plug-ins » avec la configuration suivante :
    * Condition : aucune
-   * Événement : Core - Bibliothèque chargée (Haut de la page)
+   * Événement : Core – Library Loaded (Page Top)
 1. Ajoutez une action à la règle ci-dessus avec la configuration suivante :
    * Extension : plug-ins Analytics communs
    * Type d’action : initialisation de getTimeParting
@@ -115,7 +127,7 @@ Lʼappel de cette fonction renvoie une chaîne contenant les éléments suivants
 * Le mois en cours
 * Le jour du mois
 * Le jour de la semaine
-* L’heure actuelle (matin/après-midi)
+* L’heure actuelle (AM/PM)
 
 ## Exemples
 
@@ -169,12 +181,12 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ### 5.0 (17 avril 2018)
 
-* Nouvelle version (recompilé, taille de code réduite).
+* Version intermédiaire (recompilée, taille du code réduite).
 * Suppression de la nécessité du paramètre `tpDST`, puisque les dates de début et de fin de l’heure d’été sont désormais détectées automatiquement.
 
 >[!CAUTION]
 >
->Les versions précédentes de ce module externe ne tenaient pas compte de toutes les années à venir. Si vous utilisez une version précédente de ce module externe, Adobe recommande vivement dʼeffectuer la mise à niveau vers la dernière version afin dʼéviter des erreurs JavaScript et des pertes de données. Si la mise à niveau de ce module nʼest pas possible, veillez à ce que la variable `s._tpdst` du code de module externe contienne les années appropriées dans le futur.
+>Les versions précédentes de ce module externe ne tenaient pas compte de toutes les années à venir. Si vous utilisez une version précédente de ce plug-in, Adobe recommande vivement dʼeffectuer la mise à niveau vers la dernière version pour éviter les erreurs JavaScript et les pertes de données. Si la mise à niveau de ce module nʼest pas possible, veillez à ce que la variable `s._tpdst` du code de module externe contienne les années appropriées dans le futur.
 
 ### 4.0 (22 août 2016)
 

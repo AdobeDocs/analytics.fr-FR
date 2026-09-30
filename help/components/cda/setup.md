@@ -1,30 +1,36 @@
 ---
-title: Configuration des analyses entre appareils
-description: Configurez une suite de rapports virtuelle pour activer les analyses entre appareils.
+title: Configurer Analytics sur plusieurs appareils
+description: Configurez une suite de rapports virtuelle pour activer Analytics sur plusieurs appareils.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
+TQID: 'https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 82%
-
 ---
-
-# Configuration des analyses entre appareils
+# Configurer Analytics sur plusieurs appareils
 
 {{available-existing-customers}}
 
-Une fois toutes les conditions préalables remplies, procédez comme suit pour activer les analyses entre appareils. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre cette procédure.
+Une fois toutes les conditions préalables remplies, procédez comme suit pour activer Analytics sur plusieurs appareils. Vous devez appartenir à un groupe d’administrateurs de profil de produit ou disposer de droits d’administrateur dans Adobe Analytics pour suivre cette procédure.
 
 >[!IMPORTANT]
 >
@@ -32,7 +38,7 @@ Une fois toutes les conditions préalables remplies, procédez comme suit pour a
 
 ## &#x200B;1. Ouvrez un ticket auprès de l’assistance clientèle pour que les analyses entre appareils soient configurées sur votre suite de rapports entre appareils
 
-Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Pour démarrer ce processus, contactez l’assistance clientèle et préparez les informations suivantes :
+Les analyses entre appareils sont configurées sur votre suite de rapports contenant des données de plusieurs appareils par les ingénieurs d’Adobe. Pour démarrer ce processus, contactez l’Assistance clientèle et préparez les informations suivantes :
 
 * Votre identifiant de l’organisation IMS (chaîne alphanumérique se terminant par @AdobeOrg)
 * L’identifiant de la suite de rapports contenant des données de plusieurs appareils à laquelle vous souhaitez appliquer l’analyse entre appareils
@@ -53,7 +59,7 @@ Les administrateurs ayant accès à la création de suites de rapports virtuelle
 4. Cliquez sur Ajouter.
 5. Saisissez le nom de votre suite de rapports virtuelle et assurez-vous que la suite de rapports compatible avec CDA est sélectionnée.
 6. (Facultatif) Appliquez un segment à la suite de rapports virtuelle. Par exemple, vous pouvez appliquer un segment qui limite la suite de rapports virtuelle aux dates suivant l’activation des analyses entre appareils et le début du regroupement. Ce segment permet aux utilisateurs de n’afficher que les périodes regroupées dans la suite de rapports virtuelle.
-7. Cochez la case « Activer le report de traitement du temps », qui active plusieurs autres options, notamment Analyses entre appareils.
+7. Cochez la case « Activer le traitement lors de l’exécution du rapport », qui active plusieurs autres options, notamment Analytics sur plusieurs appareils.
 8. Cochez la case « Fusionner les visites d’utilisateurs et d’utilisatrices sur tous les appareils ».
 9. Cliquez sur Continuer, terminez la configuration de la suite de rapports virtuelle, puis cliquez sur Enregistrer.
 
@@ -67,4 +73,4 @@ Lorsque les analyses entre appareils sont activées sur une suite de rapports vi
 * Une nouvelle dimension intitulée [État identifié](../dimensions/identified-state.md) est disponible.
 * De nouvelles mesures appelées [Personnes](../metrics/people.md), [Appareils uniques](../metrics/unique-devices.md), [Personnes identifiées](../metrics/identified-people.md), [Personnes non identifiées](../metrics/unidentified-people.md) et [Personnes disposant d’Experience Cloud ID](../metrics/people-with-exp-cloud-id.md) sont disponibles.
 * La mesure [Visiteurs uniques](../metrics/unique-visitors.md) n’est pas disponible, car elle est remplacée par « Personnes » et « Appareils uniques ».
-* Lors de la création de segments, le conteneur de segments « Visiteur » est remplacé par un conteneur « Personne ».
+* Lors de la création de segments, le conteneur de segment « Visiteur » est remplacé par un conteneur « Personne ».

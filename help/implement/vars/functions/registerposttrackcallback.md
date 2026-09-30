@@ -1,33 +1,41 @@
 ---
 title: registerPostTrackCallback
-description: Permet de créer des fonctions de rappel après l’envoi d’un accès à Adobe.
+description: Permet de créer des fonctions de rappel après l’envoi d’un hit à Adobe.
 feature: Appmeasurement Implementation
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/v-FVX1yPqGLFBhyOzW2rHbr56kRoho0vSzAhS4whSOc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 367
+source-wordcount: '367'
 ht-degree: 70%
-
 ---
-
 # registerPostTrackCallback
 
-La variable `registerPostTrackCallback` permet à votre entreprise d’associer une fonction JavaScript immédiatement après l’envoi d’un accès à Adobe. Si un appel de suivi échoue, cette fonction ne s’exécute pas. Vous pouvez utiliser cette variable pour envoyer les données collectées par AppMeasurement à un partenaire ou à une infrastructure interne, ou nettoyer les valeurs de variable dans les applications d’une seule page.
+La variable `registerPostTrackCallback` permet à votre entreprise d’associer une fonction JavaScript immédiatement après l’envoi d’un hit à Adobe. Si un appel de suivi échoue, cette fonction ne s’exécute pas. Vous pouvez utiliser cette variable pour envoyer les données collectées par AppMeasurement à un partenaire ou à une infrastructure interne, ou nettoyer les valeurs de variable dans les applications d’une seule page.
 
 >[!WARNING]
 >
@@ -59,7 +67,7 @@ Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/docs/ex
 
 ## Enregistrement du rappel de post-suivi à l’aide de l’extension Adobe Analytics
 
-Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de code personnalisé, en respectant la syntaxe AppMeasurement.
+Il n’existe pas de champ dédié dans l’extension Adobe Analytics pour utiliser cette variable. Utilisez l’éditeur de symbole personnalisé, en respectant la syntaxe AppMeasurement.
 
 ## s.registerPostTrackCallback dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 
@@ -90,7 +98,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## Cas d’utilisation
 
-L’enregistrement de la fonction [`clearVars()`](clearvars.md) dans le rappel de suivi de publication peut être bénéfique pour les applications d’une seule page. Chaque fois que vous envoyez un accès à Adobe, la fonction `clearVars()` s’exécute. Votre mise en œuvre peut ensuite définir à nouveau des variables sans se soucier de la persistance incorrecte des valeurs.
+L’enregistrement de la fonction [`clearVars()`](clearvars.md) dans le rappel de suivi de publication peut être bénéfique pour les applications d’une seule page. Chaque fois que vous envoyez un hit à Adobe, la fonction `clearVars()` s’exécute. Votre mise en œuvre peut ensuite définir à nouveau des variables sans se soucier de la persistance incorrecte des valeurs.
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});

@@ -4,35 +4,43 @@ keywords: Flux de données;traitement;mesures;colonne « pre »;colonne « po
 title: Mesures calculées
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-TQID: https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o
+TQID: 'https://experienceleague.adobe.com/6q0Nxb4ne7NJYJi2Lw4k1xPqJC5Gn1ihRDG8nW22J8o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+    internal-label: Data feeds
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 95%
-
 ---
-
 # Utilise les flux de données pour calculer des mesures courantes
 
 Décrit la méthode de calcul de mesures courantes à l’aide de flux de données.
 
 >[!NOTE]
 >
->Les accès qui sont exclus d’Analysis Workspace en temps normal sont inclus dans les flux de données. Envisagez d’ajouter les conditions suivantes à vos requêtes si elles sont pertinentes :
+>Les hits qui sont exclus d’Analysis Workspace en temps normal sont inclus dans les flux de données. Envisagez d’ajouter les conditions suivantes à vos requêtes si elles sont pertinentes :
 >
 >* **`exclude_hit`** : Analysis Workspace inclut uniquement les données où `exclude_hit = 0`.
->* **`customer_perspective`** : Analysis Workspace inclut uniquement les données où `customer_perspective = 0`, sauf si vous utilisez une suite de rapports virtuelle qui inclut des accès en arrière-plan mobiles.
->* **`hit_source`** : les données provenant de sources de données peuvent contenir des différences entre les données brutes et Analysis Workspace. Si vous souhaitez exclure les accès des sources de données, excluez toutes les lignes où `hit_source = 5,7,8,9`.
+>* **`customer_perspective`** : Analysis Workspace inclut uniquement les données où `customer_perspective = 0`, sauf si vous utilisez une suite de rapports virtuelle qui inclut des hits en arrière-plan mobiles.
+>* **`hit_source`** : les données provenant de sources de données peuvent contenir des différences entre les données brutes et Analysis Workspace. Si vous souhaitez exclure les hits des sources de données, excluez toutes les lignes où `hit_source = 5,7,8,9`.
 
 ## Pages vues
 
@@ -67,22 +75,22 @@ Toutes les méthodes utilisées par Adobe pour identifier les visiteurs uniques 
 
 ## Événements personnalisés
 
-Toutes les mesures sont comptabilisées dans la colonne `post_event_list` en tant que nombres entiers délimités par des virgules. Utilisez `event.tsv` pour faire correspondre les valeurs numériques à l’événement souhaité. Par exemple, `post_event_list = 1,200` indique que l’accès contenait un événement d’achat et l’événement personnalisé 1.
+Toutes les mesures sont comptabilisées dans la colonne `post_event_list` en tant que nombres entiers délimités par des virgules. Utilisez `event.tsv` pour faire correspondre les valeurs numériques à l’événement souhaité. Par exemple, `post_event_list = 1,200` indique que le hit contenait un événement d’achat et l’événement personnalisé 1.
 
 1. Comptez le nombre de fois où la valeur de recherche d’événement apparaît dans `post_event_list`.
 
 ## Durée
 
-Les accès doivent d’abord être regroupés par visite, puis classés selon le nombre d’accès au cours de la visite.
+Les hits doivent d’abord être regroupés par visite, puis classés selon le nombre de hits au cours de la visite.
 
 1. Concaténez `post_visid_high`, `post_visid_low`, `visit_num`et `visit_start_time_gmt`.
 2. Triez en fonction de cette valeur concaténée, puis appliquez un tri secondaire par `visit_page_num`.
-3. Si un accès n’est pas le dernier d’une visite, soustrayez la valeur `post_cust_hit_time` de la valeur `post_cust_hit_time` de l’accès suivant.
-4. Ce nombre correspond à la durée passée (en secondes) au cours de cet accès. Il est possible d’appliquer des filtres pour se concentrer sur les éléments ou les événements de dimension.
+3. Si un hit n’est pas le dernier d’une visite, soustrayez la valeur `post_cust_hit_time` de la valeur `post_cust_hit_time` du hit suivant.
+4. Ce nombre correspond à la durée passée (en secondes) au cours de ce hit. Il est possible d’appliquer des filtres pour se concentrer sur les éléments ou les événements de dimension.
 
 ## Commandes, unités et chiffre d’affaires
 
-Si la valeur `currency` d’un accès ne correspond pas à la devise d’une suite de rapports, elle est convertie en utilisant le taux de conversion de ce jour. La colonne `post_product_list` utilise la valeur de la devise convertie, de sorte que tous les accès utilisent la même devise dans cette colonne.
+Si la valeur `currency` d’un hit ne correspond pas à la devise d’une suite de rapports, elle est convertie en utilisant le taux de conversion de ce jour. La colonne `post_product_list` utilise la valeur de la devise convertie, de sorte que tous les hits utilisent la même devise dans cette colonne.
 
 1. Excluez toutes lignes où `duplicate_purchase = 1`.
 2. N’incluez que les lignes où `event_list` contient l’événement d’achat.

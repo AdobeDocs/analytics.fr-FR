@@ -8,25 +8,31 @@ exl-id: 19907e24-9624-4d30-a6c2-b5f8c9e9eb24
 TQID: 'https://experienceleague.adobe.com/EFK6z98koW7Ho6GRLyIhEd3UVIAF9XccIdcmzoNRFsc'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 97%
-
 ---
-
 # Hiérarchies de classification
 
-La page Hiérarchies de classification permet de définir des hiérarchies de classification à utiliser pour créer un rapport portant le même nom.
+La page Hiérarchies de classification permet de définir des hiérarchies de classification que vous pouvez utiliser pour créer des rapports Hiérarchie portant le même nom.
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Suites de rapports]** > **[!UICONTROL Modifier les paramètres]** > **[!UICONTROL Conversion]** > **[!UICONTROL Hiérarchies de classification]**
 
@@ -36,7 +42,7 @@ La page [!UICONTROL Hiérarchies de classification] permet de définir des hiér
 
 Un rapport [!UICONTROL Hiérarchie] permet de naviguer dans des jeux de données toujours plus précis en fonction de la hiérarchie de la classification afin de mieux percevoir les relations entre les données.
 
-Vous pouvez créer des hiérarchies de classification pour des pages Web, des campagnes, des produits ou toute autre variable de rapport. Le rapport Hiérarchie affiche les unités, les commandes et les recettes pour chaque classification des variables de la hiérarchie.
+Vous pouvez créer des hiérarchies de classification pour des pages Web, des campagnes, des produits ou toute autre variable de rapport. Le rapport Hiérarchie affiche les unités, les commandes et le chiffre d’affaires pour chaque classification des variables de la hiérarchie.
 
 Par exemple, si une hiérarchie de produits contient Vêtements > Vêtements pour homme > Chemises > Polos > Polos taille XL, le rapport Hiérarchie affiche les données de vente de la classification Vêtements. Vous pourrez ensuite approfondir l’analyse pour afficher les données relatives à Vêtements pour homme, Chemises, Polos et Polos taille XL. Les hiérarchies de classification vous permettent d’identifier rapidement la contribution de chaque classification de la hiérarchie aux performances de la catégorie Vêtements.
 

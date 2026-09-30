@@ -3,24 +3,30 @@ description: Définition des éléments d’interface sur les pages du créateur
 title: Règles de classification – Définitions
 feature: Classifications
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
-TQID: https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM
+TQID: 'https://experienceleague.adobe.com/8SDdKOvF-Mk9jQCb7YWXt0NCl0dspfscnHL02y1cxKM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 94%
-
 ---
-
 # Définitions de règles de classification (héritées)
 
 {{classification-rulebuilder-deprecation}}
@@ -44,16 +50,16 @@ Cette page affiche les règles d’un jeu.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Sélection de suites de rapports et de variables </p> </td> 
-   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chacun d’eux à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Classifications de trafic</a> et <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
+   <td colname="col1"> <p>Sélectionner des suites de rapports et des variables </p> </td> 
+   <td colname="col2"> <p><b>Suite de rapports</b> </p> <p>Suites de rapports auxquelles s’applique le jeu de règles. </p> <p><b>Variable</b> </p> <p>Vous ne pouvez appliquer qu’une seule variable lors de la création d’un jeu de règles de classification. Si vous souhaitez créer plusieurs jeux de règles pour une seule variable, vous devez appliquer chaque jeu de règles à plusieurs suites de rapports. </p> <p>Remarque : Vous ne pouvez utiliser que les variables auxquels vous avez accès dans vos suites de rapports. Les variables s’affichent dans le panneau <span class="wintitle">Nouveau jeu de règles</span> uniquement une fois qu’au moins une classification est définie pour la variable. </p> <p> Vous pouvez créer des classifications sur une variable dans <span class="uicontrol">Admin</span> &gt; <span class="uicontrol">Report Suites</span> &gt; <span class="uicontrol">Trafic</span> &gt; <span class="uicontrol">Classifications de trafic</span> (ou <span class="uicontrol">Conversion</span> &gt; <span class="uicontrol">Classifications des conversions</span>). Sélectionnez ensuite la variable et cliquez sur <span class="uicontrol">Ajouter une classification</span>. </p> <p>Reportez-vous aux rubriques <a href="/help/admin/tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md"  >Classifications de trafic</a> et <a href="/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md"  >Classifications des conversions</a> dans l’Aide de l’administration. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Activer</span> </p> </td> 
-   <td colname="col2"> <p>Valide et active une règle. Les règles actives sont traitées tous les jours ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et téléchargent les classifications. </p> </td> 
+   <td colname="col2"> <p>Valide et active une règle. Les règles actives sont traitées tous les jours ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et chargent les classifications. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Désactiver</span> </p> </td> 
-   <td colname="col2"> <p>Désactive les règles de telle sorte que vous puissiez les modifier et les tester. </p> </td> 
+   <td colname="col2"> <p>Désactive les règles de sorte que vous puissiez les modifier et les tester. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Configuration des suites de rapports et des variables </p> </td> 
@@ -73,15 +79,15 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Ajouter une règle </a> </td> 
-   <td colname="col2"> <p>Permet d’ajouter des règles au jeu de règles. </p> <p>Remarque : Si une valeur est trouvée plusieurs fois dans un jeu de règles, le système utilise la dernière règle pour la classer. </p> </td> 
+   <td colname="col2"> <p>Permet d’ajouter des règles au jeu de règles. </p> <p>Remarque : si une valeur trouve deux correspondances ou plus dans un jeu de règles, le système utilise la dernière règle pour classer la valeur. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Version préliminaire</span> </td> 
-   <td colname="col2"> Permet d’indiquer qu’une règle se trouve en mode préliminaire. L’état Version préliminaire vous permet de tester la règle avant de l’exécuter. </td> 
+   <td colname="col2"> Permet d’indiquer qu’une règle se trouve en mode Brouillon. Le statut Brouillon vous permet de tester la règle avant de l’exécuter. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Dupliquer</span> </td> 
-   <td colname="col2"> Duplique (copie) un jeu de règles, de telle sorte que vous puissiez l’appliquer à une autre variable ou à la même variable dans une autre suite de rapports. </td> 
+   <td colname="col2"> Duplique (copie) un jeu de règles, afin que vous puissiez l’appliquer à une autre variable ou à la même variable dans une autre suite de rapports. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > Tester le jeu de règles </a> </p> </td> 
@@ -101,7 +107,7 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Sélectionner le type de règle</span> </td> 
-   <td colname="col2"> <p>Chaque règle s’applique à une variable spécifique. Les sélections valides sont les suivantes : </p> 
+   <td colname="col2"> <p>Chaque jeu de règles s’applique à une variable spécifique. Les sélections valides sont les suivantes : </p> 
     <ul id="ul_6A8E06BB4AF2402B99C215823CB3D59D"> 
      <li id="li_5C702D4F460841D38A59621A5161A3BC">Commence par </li> 
      <li id="li_8052A741D9F34A2FBC136C181600193E">Se termine par </li> 
@@ -111,15 +117,15 @@ Cette page affiche les règles d’un jeu.
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Entrer les critères de recherche</span> </td> 
-   <td colname="col2"> Schéma de texte que vous recherchez dans une clé. Ces critères peuvent être des termes de recherche, des caractères ou des expressions régulières. </td> 
+   <td colname="col2"> Schéma de texte que vous recherchez dans une clé. Ces critères peuvent être des termes de recherche, des caractères ou une expression régulière. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> Définir la classification</span> </td> 
-   <td colname="col2"> Colonne de classification que vous souhaitez définir si les critères de correspondance sont respectés. </td> 
+   <td colname="col2"> Colonne de classification que vous souhaitez définir si les critères de correspondance sont remplis. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> À</span> </td> 
-   <td colname="col2"> Valeur que vous souhaitez spécifier pour la colonne de classification sélectionnée si les critères de correspondance sont respectés. </td> 
+   <td colname="col2"> Valeur que vous souhaitez spécifier pour la colonne de classification sélectionnée si les critères de correspondance sont remplis. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Filtre </td> 
@@ -146,7 +152,7 @@ Voir [Expressions régulières dans les règles de classification](/help/compone
 
 ## Page Tests {#section_EC926F97901C4E65901413F9683AA70A}
 
-Cette page vous permet de tester des règles d’un jeu.
+Cette page vous permet de tester les règles d’un jeu.
 
 **Définitions**
 

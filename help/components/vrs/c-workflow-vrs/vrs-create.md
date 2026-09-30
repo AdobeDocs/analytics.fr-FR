@@ -1,31 +1,42 @@
 ---
 description: Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 keywords: Suite de rapports virtuelle
-title: Création des suites de rapports virtuelles
+title: Créer des suites de rapports virtuelles
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-TQID: https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ
+TQID: 'https://experienceleague.adobe.com/-h1EQpbFeysnvrQfqyvI-zi1IqxvK3m6ac1VaKaKZRQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 697
-ht-degree: 53%
-
+source-wordcount: '702'
+ht-degree: 52%
 ---
-
-# Création des suites de rapports virtuelles
+# Créer des suites de rapports virtuelles
 
 Avant de créer des suites de rapports virtuelles, vous devez tenir compte des quelques points suivants.
 
@@ -45,11 +56,11 @@ Dans l’onglet [!UICONTROL Paramètres], définissez les paramètres, puis cliq
 | Élément | Description |
 | --- |--- |
 | Nom | Le nom de la suite de rapports virtuelle n’est pas hérité de la suite de rapports parente et doit être distinct. |
-| Description | Ajoutez une description précise pour les utilisateurs d’entreprise. |
+| Description | Ajoutez une description précise pour les utilisateurs et utilisatrices professionnels. |
 | Balises | Vous pouvez ajouter des balises pour organiser vos suites de rapports. |
 | Source | Suite de rapports à partir de laquelle cette suite de rapports virtuelle hérite des paramètres suivants. La plupart des niveaux de service et des fonctionnalités (par exemple, les paramètres eVar, les règles de traitement, les classifications, etc.) sont hérités. Pour apporter des modifications à ces paramètres hérités sur une suite de rapports virtuelle, vous devez modifier la suite de rapports parente (Administration > Suites de rapports). |
 | Fuseau horaire | Le choix d’un fuseau horaire est facultatif. Si vous choisissez un fuseau horaire, il est enregistré avec la suite de rapports virtuelle. Si aucun fuseau horaire n’est choisi, celui de la suite de rapports parente est utilisé.  Lors de la modification d’une suite de rapports virtuelle, le fuseau horaire enregistré avec la suite de rapports virtuelle s’affiche dans le sélecteur déroulant. Si la suite de rapports virtuelle a été créée avant l’ajout de la prise en charge des fuseaux horaires, le fuseau horaire de la suite de rapports parente s’affiche dans le sélecteur déroulant. |
-| Segments | Vous pouvez ajouter un seul segment ou empiler des segments.   Remarque : Lors de l’empilement de deux segments, ils sont associés par une instruction AND, qui ne peut pas être changée en instruction OR. Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. |
+| Segments | Vous pouvez ajouter un seul segment ou empiler des segments.   Remarque : lors de l’empilement de deux segments, ils sont associés par une instruction AND. qui ne peut pas être changée en instruction OR. Lorsque vous essayez de supprimer ou de modifier un segment qui est actuellement utilisé dans une suite de rapports virtuelle, un avertissement s’affiche. |
 
 ## Définir une définition de visite
 
@@ -67,12 +78,12 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajuster une dé
 | Élément | Description |
 | --- |--- |
 | **Configurer la définition de visite** |  |
-| Mettre en place le traitement de la période de rapport | Utilisez le traitement de la période de rapport pour modifier la durée de la visite par défaut. Ces paramètres sont non destructifs et s’appliquent à Analysis Workspace uniquement. [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) |
+| Activer le traitement lors de l’exécution du rapport | Utilisez le traitement de la période de rapport pour modifier la durée de la visite par défaut. Ces paramètres sont non destructifs et s’appliquent à Analysis Workspace uniquement. [En savoir plus](/help/components/vrs/vrs-report-time-processing.md) |
 | Délai d’expiration de visite | Définit la quantité d’inactivité qu’un visiteur unique doit atteindre avant qu’une nouvelle visite soit automatiquement démarrée. Cela affectera la mesure des visites, le conteneur de segments de visite et les eVars qui expirent lors de la visite. |
 | Commencer une nouvelle visite avec l’événement | Démarre une nouvelle session quand un des événements spécifiés est déclenché, qu’une session ait expiré ou non. |
 | **Paramètres de visite des applications mobiles** | Modifiez la façon dont les visites sont définies pour les accès aux applications mobiles collectés par les SDK mobiles d’Adobe. Ces paramètres sont non destructifs et s’appliquent à Analysis Workspace uniquement. |
-| Empêcher les résultats d’arrière-plan de démarrer une nouvelle visite | Empêche les accès en arrière-plan de démarrer une nouvelle visite, et de gonfler les mesures de visites et de visiteurs uniques. |
-| Démarrer une nouvelle visite à chaque lancement d’application | Démarre une nouvelle session lorsqu’une application est lancée. [En savoir plus](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| Empêcher les hits d’arrière-plan de démarrer une nouvelle visite | Empêche les hits d’arrière-plan de démarrer une nouvelle visite et de gonfler les mesures de visites et de visiteurs uniques. |
+| Démarrer une nouvelle visite à chaque lancement d’application | Démarre une nouvelle session lorsqu’une application est ouverte. [En savoir plus](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Inclure et renommer des composants
 

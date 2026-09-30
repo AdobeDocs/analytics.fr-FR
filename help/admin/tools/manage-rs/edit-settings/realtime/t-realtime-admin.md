@@ -3,32 +3,40 @@ description: Cette rubrique décrit les étapes d’administration pour configur
 title: Configuration des rapports en temps réel
 feature: Real-time
 exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
-TQID: https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0
+TQID: 'https://experienceleague.adobe.com/HTu1UvUUIGK0SzAQWEFBclV-P1JaPCJUp6j5MiYC3A0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+subfeature_v2:
+  - id: e3f5b014-59dd-41c0-90f5-c405dcfaed07
+    internal-label: Real time reporting
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 226
+source-wordcount: '226'
 ht-degree: 76%
-
 ---
-
 # Configuration des rapports en temps réel
 
 Cette rubrique décrit les étapes d’administration pour configurer les rapports en temps réel.
 
 La configuration des rapports en temps réel dans Adobe Analytics consiste à sélectionner la suite de rapports et à configurer jusqu’à 3 rapports pour celle-ci. Par défaut, tous les utilisateurs ont accès aux rapports Temps réel.
 
-1. Sélectionnez la suite de rapports pour laquelle activer les rapports en temps réel.
+1. Sélectionnez la suite de rapports pour laquelle vous souhaitez activer les rapports en temps réel.
 
    Accédez à **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Suites de rapports]**.
 
@@ -46,7 +54,7 @@ La configuration des rapports en temps réel dans Adobe Analytics consiste à s�
 
    >[!NOTE]
    >
-   >Pour un rapport Temps réel unique, les dimensions en double ne sont pour l’instant pas prises en charge, même si une autre classification est sélectionnée pour chaque dimension.
+   >Pour un rapport en temps réel unique, les dimensions en doublon ne sont pour l’instant pas prises en charge, même si une autre classification est sélectionnée pour chaque dimension.
 
    >[!NOTE]
    >

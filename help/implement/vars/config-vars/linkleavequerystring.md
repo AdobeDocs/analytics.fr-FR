@@ -7,29 +7,37 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/HI9yasKxMWctqoHOlZfkvMEWo1tDa3UWuWo22Bl3jFM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 331
+source-wordcount: '331'
 ht-degree: 84%
-
 ---
-
 # linkLeaveQueryString
 
 AppMeasurement supprime par défaut les chaînes de requête des URL de suivi des liens. Utilisez la variable `linkLeaveQueryString` pour conserver les chaînes de requête dans les dimensions de suivi des liens.
 
-Pour certains rapports Liens de sortie et Téléchargements de fichiers, la partie importante de l’URL peut se trouver dans la chaîne de requête. Par exemple, un lien de téléchargement tel que `https://example.com/download.asp?filename=myfile.exe` contient des informations de lien importantes dans la chaîne de requête.
+Pour certains liens de sortie et de téléchargement, la partie importante de l’URL peut se trouver dans la chaîne de requête. Par exemple, un lien de téléchargement tel que `https://example.com/download.asp?filename=myfile.exe` contient des informations de lien importantes dans la chaîne de requête.
 
 Si les informations de suivi des liens ne figurent pas dans les URL de votre site, l’utilisation de cette variable n’est pas nécessaire. L’extraction de chaînes de requête à partir des URL de suivi des liens permet de limiter le nombre de valeurs uniques contenues dans la dimension.
 

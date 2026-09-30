@@ -7,33 +7,47 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # Confidentialité - Présentation
 
-Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Consultez [Confidentialité d’Adobe CX Enterprise](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank} pour plus d’informations. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données ». Votre organisation a le rôle de « sous-traitant des données » (ou équivalent, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
+Adobe souhaite permettre à votre organisation de se conformer aux lois et réglementations en vigueur. Consultez [Confidentialité de &#x200B;](https://www.adobe.com/fr/privacy/experience-cloud.html){target=_blank} pour plus d’informations. Entre Adobe Analytics et votre organisation, Adobe agit en tant que « responsable du traitement des données » et votre organisation est le « contrôleur de données » (ou équivalents, en vertu des lois applicables en matière de confidentialité et de protection des données). Il appartient à votre organisation de révéler comment vous utilisez les produits et services d’Adobe, car elle contrôle exclusivement l’implémentation des solutions Adobe. Lors de l’utilisation d’Adobe Analytics, votre organisation est responsable du respect de votre propre politique de confidentialité, de votre contrat de service avec Adobe et de toutes les lois applicables.
 
 Adobe recommande vivement de respecter les principes fondamentaux suivants :
 
@@ -43,7 +57,7 @@ Adobe recommande vivement de respecter les principes fondamentaux suivants :
 
 ## Répartition de la collecte des données
 
-Adobe propose plusieurs bibliothèques de collecte de données pour faciliter l’envoi de données à Adobe. Exemples notables :
+Adobe propose plusieurs bibliothèques de collecte pour faciliter l’envoi de données à Adobe. Exemples notables :
 
 * **AppMeasurement** : bibliothèque conçue pour envoyer des données directement à Adobe Analytics.
 * **SDK Web** : bibliothèque conçue pour envoyer des données au réseau Edge d’Adobe Experience Platform, qui les transmet alors à Adobe Analytics.
@@ -53,13 +67,13 @@ Adobe Analytics peut collecter les types de données suivants :
 
 | Type de données | Détails | Exemples de variables contenant ces données |
 | --- | --- | --- |
-| Noms de page ou URL des pages web de votre site | Ces données sont nécessaires au fonctionnement d’Adobe Analytics. Une URL ou un nom de page est nécessaire pour chaque accès. | [Page](/help/components/dimensions/page.md), [URL de page](/help/components/dimensions/page-url.md) |
-| Données temporelles | Ces données sont nécessaires au fonctionnement d’Adobe Analytics. Un horodatage est nécessaire pour la collecte des données. Les données temporelles sont dérivées de l’horodatage. | [Durée de consultation de la page](/help/components/dimensions/time-spent-on-page.md), [Heure du jour](/help/components/dimensions/hour-of-day.md), [AM/PM](/help/components/dimensions/am-pm.md), [Jour de la semaine/week-end](/help/components/dimensions/weekday-weekend.md), [Jour de la semaine](/help/components/dimensions/day-of-week.md), [Mois de l’année](/help/components/dimensions/month-of-year.md) |
-| Données référentes | Les bibliothèques de collecte de données collectent par défaut l’URL référente lorsqu’une personne arrive sur votre site web. Vous pouvez personnaliser votre mise en œuvre pour collecter des données dans la chaîne de requête d’une personne référente. Cette pratique est courante pour les campagnes et le suivi de la performance publicitaire. | [Personne référente](/help/components/dimensions/referrer.md), [Domaine référent](/help/components/dimensions/referring-domain.md) |
-| Identifiants anonymes des visiteurs et visiteuses | Les bibliothèques de collecte de données génèrent et référencent un identifiant de visiteur ou de visiteuse pour chaque navigateur accédant à votre site. Cet ID est stocké dans un cookie. Si une bibliothèque de collecte de données ne peut pas définir un identifiant de cookie, elle utilise une méthode de secours pour l’identification des visiteurs et visiteuses anonymes. Cette méthode consiste à relier des résultats connexes à la même visite en utilisant l’adresse IP de la personne et la chaîne de l’agent utilisateur. Si votre organisation a activé l’obscurcissement d’IP, ce paramètre est respecté. Voir [Adobe Analytics et les cookies de navigateur](../cookies/cookies.md) pour plus d’informations. | [Visiteurs et visiteuses uniques](/help/components/metrics/unique-visitors.md) |
-| Identifiant visible des visiteurs et visiteuses | Adobe ne collecte pas automatiquement les identifiants personnalisés des visiteurs et visiteuses. Cependant, vous pouvez personnaliser votre implémentation pour collecter ces données. | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
+| Noms de page ou URL des pages web de votre site | Ces données sont nécessaires au fonctionnement d’Adobe Analytics. Une URL ou un nom de page est nécessaire pour chaque hit. | [Page](/help/components/dimensions/page.md), [URL de page](/help/components/dimensions/page-url.md) |
+| Données temporelles | Ces données sont nécessaires au fonctionnement d’Adobe Analytics. Une date et une heure sont nécessaires pour la collecte des données. Les données temporelles sont dérivées de cette date et de cette heure. | [Durée de consultation de la page](/help/components/dimensions/time-spent-on-page.md), [Heure du jour](/help/components/dimensions/hour-of-day.md), [AM/PM](/help/components/dimensions/am-pm.md), [Jour de la semaine/week-end](/help/components/dimensions/weekday-weekend.md), [Jour de la semaine](/help/components/dimensions/day-of-week.md), [Mois de l’année](/help/components/dimensions/month-of-year.md) |
+| Données référentes | Les bibliothèques de collecte de données collectent par défaut l’URL référente lorsqu’un visiteur ou une visiteuse arrive sur votre site web. Vous pouvez personnaliser votre mise en œuvre pour collecter des données dans la chaîne de requête du référent. Cette pratique est courante pour les campagnes et le suivi des performances publicitaires. | [Personne référente](/help/components/dimensions/referrer.md), [Domaine référent](/help/components/dimensions/referring-domain.md) |
+| Identifiants anonymes des visiteurs et visiteuses | Les bibliothèques de collecte de données génèrent et référencent un identifiant visiteur pour chaque navigateur accédant à votre site. Cet ID est stocké dans un cookie. Si une bibliothèque de collecte de données ne peut pas définir un identifiant de cookie, elle utilise une méthode de secours pour l’identification des visiteurs et visiteuses anonymes. Cette méthode consiste à associer les hits liés à une même visite en utilisant l’adresse IP de la personne et la chaîne de l’agent utilisateur. Si votre organisation a activé l’obscurcissement d’IP, ce paramètre est respecté. Voir [Adobe Analytics et les cookies de navigateur](../cookies/cookies.md) pour plus d’informations. | [Visiteurs et visiteuses uniques](/help/components/metrics/unique-visitors.md) |
+| Identifiant visible des visiteurs et visiteuses | Adobe ne collecte pas automatiquement les identifiants personnalisés des visiteurs. Cependant, vous pouvez personnaliser votre mise en œuvre pour collecter ces données. | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) |
 | Termes de recherche externe | Les données de recherche externe comprennent les mots-clés provenant des moteurs de recherche. Les bibliothèques de collecte de données recherchent ces données sur la base de l’URL référente. Cependant, de nombreux moteurs de recherche modernes n’incluent plus ces informations. | [Mot-clé de recherche](/help/components/dimensions/search-keyword.md) |
-| Termes de recherche internes | Les données de recherche interne comprennent les mots-clés qui proviennent des capacités de recherche de votre site web ou de votre application. Adobe ne collecte pas automatiquement les données de recherche interne. Cependant, vous pouvez personnaliser votre implémentation pour collecter ces données. Cette pratique est courante dans les organisations qui utilisent Adobe Analytics. | [eVar](/help/components/dimensions/evar.md) |
+| Termes de recherche internes | Les données de recherche interne comprennent les mots-clés qui proviennent des fonctionnalités de recherche de votre site web ou de votre application. Adobe ne collecte pas automatiquement les données de recherche interne. Cependant, vous pouvez personnaliser votre mise en œuvre pour collecter ces données. Cette pratique est courante dans les organisations qui utilisent Adobe Analytics. | [eVar](/help/components/dimensions/evar.md) |
 | Spécifications de l’ordinateur et du navigateur | Les bibliothèques de collecte de données recueillent automatiquement des indices de navigation à faible entropie, tels que le type de navigateur, le type de système d’exploitation et le fait que l’appareil soit un ordinateur de bureau ou un appareil mobile. Une configuration personnalisée est nécessaire pour collecter des indices à forte entropie, tels que la version/le build spécifique du navigateur, le modèle de l’appareil ou la version du système d’exploitation. Pour plus d’informations, consultez la [vue d’ensemble des indications de la clientèle](../client-hints.md). | [Navigateur](/help/components/dimensions/browser.md), [Système d’exploitation](/help/components/dimensions/operating-systems.md), [Dimensions du mobile](/help/components/dimensions/mobile-dimensions.md), [Résolution du moniteur](/help/components/dimensions/monitor-resolution.md) |
 | Informations sur la géolocalisation | Adobe offre la possibilité d’empêcher la géolocalisation détaillée en fixant le dernier octet d’une adresse IP à 0. Cela rend les informations géographiques moins précises et peut être réglé dans les [paramètres de la suite de rapports](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). | [Villes](/help/components/dimensions/cities.md), [Régions](/help/components/dimensions/regions.md), [Pays](/help/components/dimensions/countries.md) |
 | Adresse IP | Adobe offre la possibilité d’obscurcir (hacher) ou de supprimer totalement l’adresse IP du visiteur ou de la visiteuse lors du stockage de ces données. Pour la clientèle de la zone EMEA, le paramètre de l’adresse IP est généralement obscurci par défaut. Quel que soit le paramètre d’obscurcissement, l’adresse IP n’est pas disponible en tant que dimension dans l’espace de travail d’analyse. Elle n’est incluse que dans les [flux de données](/help/export/analytics-data-feed/data-feed-overview.md). Voir [Paramètres généraux du compte](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) dans le guide d’administration pour plus de détails sur les paramètres d’obscurcissement disponibles. | Aucun |

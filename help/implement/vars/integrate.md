@@ -7,25 +7,34 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/4RfEY-mGPVvRz5OQuGe5DwoCKThVHtNf3pMUFfFzqoE'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '889'
 ht-degree: 98%
-
 ---
-
 # Module Integrate
 
 Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de collecte de données à votre organisation. Cette intégration donne la possibilité d’établir une connexion de données bidirectionnelle. En règle générale, l’utilisation du module Integrate est gérée par un partenaire Adobe.
@@ -45,24 +54,24 @@ Le module Integrate permet aux partenaires Adobe d’intégrer leurs efforts de 
 
 Une organisation travaillant avec un partenaire Adobe peut suivre cette procédure pour commencer à utiliser le module Integrate.
 
-### Obtention du code de module Integrate
+### Obtenir le code du module Integrate
 
-L’obtention du code de module requiert un utilisateur disposant de l’accès Administrateur de produit ou appartenant à un profil de produit ayant accès au gestionnaire de code. La méthode d’obtention du code de module est la même pour toutes les méthodes d’implémentation, y compris les balises dans Adobe Experience Platform.
+Pour obtenir le code du module, l’utilisateur doit disposer d’un accès d’administrateur de produit ou appartenir à un profil de produit ayant accès au gestionnaire de code. La méthode permettant d’obtenir le code du module est la même pour toutes les méthodes de mise en œuvre, y compris les balises dans Adobe Experience Platform.
 
 1. Connectez-vous à [experiencecloud.adobe.com](https://experiencecloud.adobe.com) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur l’icône à 9 carrés dans le coin supérieur droit, puis sur le logo Analytics coloré.
 1. Dans le volet de navigation supérieur, cliquez sur **[!UICONTROL Admin]** >**[!UICONTROL Tous les administrateurs]** > **[!UICONTROL Gestionnaire de code]**.
-1. Téléchargez la bibliothèque AppMeasurement pour JavaScript la plus récente.
+1. Téléchargez la bibliothèque JavaScript AppMeasurement la plus récente.
 1. Une fois le fichier téléchargé, décompressez-le et recherchez `AppMeasurement_Module_Integrate.js`.
 
-### Placez le module Integrate dans votre implémentation
+### Placer le module Integrate dans votre mise en œuvre
 
 L’implémentation du module Integrate sur votre site nécessite l’accès à la collecte de données Adobe Experience Platform. Si vous utilisez une mise en œuvre JavaScript héritée, vous devez accéder au code source du site web de votre entreprise.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Cliquez sur la propriété de balise que vous souhaitez modifier.
 1. Cliquez sur l’onglet Extensions, puis sur Configurer sous Adobe Analytics.
-1. Ouvrez l’accordéon « Configurer l’outil de suivi à l’aide du code personnalisé », puis cliquez sur « Ouvrir l’éditeur ».
+1. Ouvrez l’accordéon « Configurer le dispositif de suivi à l’aide du code personnalisé », puis cliquez sur « &lt;/> Ouvrir l’éditeur ».
 1. Collez le code du module Integrate dans la fenêtre modale du code. Lorsque vous avez terminé, cliquez sur Enregistrer.
 
 ## Méthodes du module Integrate

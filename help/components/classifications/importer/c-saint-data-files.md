@@ -1,28 +1,35 @@
 ---
-description: L’importateur vous permet de télécharger en vrac des données de classification dans des rapports d’analyse sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
+description: L’importateur vous permet de charger en masse des données de classification dans les rapports Analytics sous la forme d’un fichier. Pour que les chargements de données s’effectuent correctement, un format de fichier spécifique est requis pour l’importation.
 title: Fichiers de données de classification
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-TQID: https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw
+TQID: 'https://experienceleague.adobe.com/NKh-IIAZg2rqdpsJJrM765aXYvKGtpLjGWdwWhbiGTw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Troubleshooting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1045
+source-wordcount: '1045'
 ht-degree: 90%
-
 ---
-
 # Fichiers de données de classification (hérités)
 
 {{classification-importer-deprecation}}
@@ -43,7 +50,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
 
 * Les classifications ne peuvent pas contenir une valeur nulle (zéro).
 * Adobe recommande que vous limitiez à 30 le nombre de colonnes d’importation et d’exportation.
-* Les fichiers téléchargés doivent utiliser UTF-8 sans codage des caractères de nomenclature.
+* Les fichiers chargés doivent utiliser le codage UTF-8 sans BOM.
 * Des caractères spéciaux, tels que des tabulations, des sauts de lignes et des guillemets peuvent être incorporés dans une cellule sous réserve que le format de fichier v2.1 soit indiqué et que la cellule contienne bien un [caractère d’échappement](/help/components/classifications/importer/importer-faq.md). Les caractères spéciaux incluent :
 
   ```text
@@ -57,18 +64,18 @@ Un fichier de données doit respecter les règles de structure suivantes :
 
 * Les noms de classification ne peuvent pas contenir de signe d’insertion (^), car ce caractère est utilisé pour indiquer une sous-classification.
 * Faites attention lorsque vous utilisez un trait d’union. Par exemple, si vous utilisez un trait d’union (-) dans un terme de réseau social, Social le considère comme un opérateur [!DNL Not] (signe moins). Si, par exemple, vous spécifiez le terme *`fragrance-free`* à l’aide de l’importation, Social reconnaît le terme comme étant fragrance *`minus`* free et rassemble les messages qui mentionnent *`fragrance`*, mais pas *`free`*.
-* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversions (eVars) personnalisées autorisent 255 octets. Cette politique s’étend également aux valeurs des colonnes de classification et de sous-classification, qui sont soumises à la même limite de 255 octets.
-* Il doit s’agir d’un fichier délimité par des tabulations (créez le fichier de modèle dans tout tableur ou éditeur de texte).
+* Des limites de caractères sont appliquées afin de classer les données de rapport. Par exemple, si vous téléchargez un fichier texte de classification pour des produits ( *`s.products`*) dont les noms comportent plus de 100 caractères (octets), les produits en question ne sont pas affichés dans les rapports. Les codes de suivi et toutes les variables de conversion (eVars) personnalisées autorisent 255 octets. Cette politique s’étend également aux valeurs des colonnes de classification et de sous-classification, qui sont soumises à la même limite de 255 octets.
+* Fichier de données délimité par des tabulations (créez le fichier modèle à l’aide de n’importe quel tableur ou éditeur de texte).
 * Il doit être doté de l’extension de fichier `.tab` ou `.txt`.
 * Le signe dièse (#) identifie la ligne comme commentaire utilisateur. Adobe ignore toutes les lignes commençant par #.
 * Un signe de deux livres suivi de SC (`## SC`) identifie la ligne en tant que commentaire d’en-tête de prétraitement utilisé par le reporting. Ne supprimez pas ces lignes.
-* Les exportations de classification peuvent comporter des clés en double en raison des caractères de saut de page de la clé. Dans une exportation FTP ou de navigateur, ce problème peut être résolu en activant la création de guillemets pour le compte FTP. Cette activation place des guillemets entourant chaque clé comportant des caractères de saut de page.
+* Les exportations de classifications peuvent contenir des clés en double en raison de caractères de saut de ligne présents dans les clés. Dans une exportation FTP ou de navigateur, ce problème peut être résolu en activant la création de guillemets pour le compte FTP. Cette activation place des guillemets entourant chaque clé comportant des caractères de saut de page.
 * La cellule C1 de la première ligne du fichier d’importation comporte un identifiant de version qui détermine la façon dont les classifications traitent l’utilisation des guillemets dans le reste du fichier.
 
-   * Le format v2.0 ignore les guillemets et présume qu’ils font tous partie des clés et valeurs indiquées. Étudions par exemple cette valeur : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;. Le format v2.0 interprète cette valeur littéralement : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;.
-   * Le format v2.1 indique aux classifications de présumer que les guillemets font partie du formatage des fichiers utilisé dans les fichiers Excel. De ce fait, le format v2.1 formate l’exemple ci-dessus ainsi : C’est &quot;une valeur&quot;.
-   * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : &quot;VP NO REPS&quot; S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
-   * Assurez-vous de procéder à l’une des opérations suivantes : modifiez le format du fichier sur v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous téléchargez OU implémentez correctement les guillemets Excel dans l’ensemble des fichiers.
+  * Le format v2.0 ignore les guillemets et présume qu’ils font tous partie des clés et valeurs indiquées. Étudions par exemple cette valeur : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;. Le format v2.0 interprète cette valeur littéralement : &quot;C’est &quot;&quot;une valeur&quot;&quot;&quot;.
+  * Le format v2.1 indique aux classifications de considérer les guillemets comme faisant partie de la mise en forme du fichier utilisée dans les fichiers Excel. De ce fait, le format v2.1 formate l’exemple ci-dessus ainsi : C’est &quot;une valeur&quot;.
+  * Des problèmes peuvent survenir lorsque le format v2.1 est indiqué dans le fichier alors que c’est le format v2.0 qui est voulu - à savoir lorsque des guillemets sont utilisés de façon non autorisée au format Excel. Par exemple, si vous avez la valeur : &quot;VP NO REPS&quot; S/l Dress w/ Overlay. Avec le format v2.1, ce formatage est incorrect (la valeur devrait être entourée de guillemets ouvrant et fermant et les guillemets qui font partie de la valeur réelle devraient être codés par échappement par des guillemets) et les classifications ne fonctionneront pas au-delà de ce point.
+  * Assurez-vous de procéder à l’une des opérations suivantes : modifiez le format du fichier sur v2.0 en modifiant l’en-tête (cellule C1) dans les fichiers que vous téléchargez OU implémentez correctement les guillemets Excel dans l’ensemble des fichiers.
 
 * La première ligne (qui ne soit pas un commentaire) du fichier de données contient les en-têtes de colonne utilisés pour identifier les données de classification contenues dans cette colonne. L’importateur nécessite un format spécifique pour les en-têtes de colonne. Pour en savoir plus, reportez-vous à la section [Format d’en-tête de colonne](/help/components/classifications/importer/c-saint-data-files.md).
 * Immédiatement sous la ligne d’en-tête d’un fichier de données se trouvent les lignes de données. Chacune d’elles doit contenir un champ de données pour chaque en-tête de colonne.
@@ -88,7 +95,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>~autogen~ </p> </td> 
-   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle demande à Adobe d’attribuer un identificateur à chaque élément créatif. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Clé</a>. </p> </td> 
+   <td colname="col2"> <p>Ce code demande à Adobe de générer automatiquement un ID unique pour cet élément. </p> <p>Dans le cadre d’une campagne, cette valeur de contrôle indique à Adobe d’attribuer un identifiant à chaque élément créatif. Voir <a href="/help/components/classifications/importer/c-saint-data-files.md"  >Clé</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>~period~ </p> </td> 
@@ -96,7 +103,7 @@ Un fichier de données doit respecter les règles de structure suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Champ vide </p> </td> 
-   <td colname="col2"> <p>Ce code représente une valeur NULL pour le champ actif. Utilisez-le si une colonne de données spécifique ne s’applique pas à l’enregistrement actif. </p> </td> 
+   <td colname="col2"> <p>Représente une valeur NULL pour le champ actuel. Utilisez-le si une colonne de données spécifique ne s’applique pas à l’enregistrement actif. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modificateurs PER </p> </td> 

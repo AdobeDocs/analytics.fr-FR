@@ -3,27 +3,35 @@ description: Les règles de classification recherchent régulièrement des terme
 title: Règles de classification
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+TQID: 'https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1981
+source-wordcount: '1981'
 ht-degree: 86%
-
 ---
-
 # Règles de classification (héritées)
 
 {{classification-rulebuilder-deprecation}}
@@ -45,7 +53,7 @@ Supposons, par exemple, que le code de suivi d’un identifiant de campagne par 
 
 `em:Summer:20XX:Sale`.
 
-Vous pouvez configurer trois règles dans un jeu pour identifier les parties de la chaîne, puis classer les valeurs :
+Vous pouvez configurer trois règles dans un jeu de règles pour identifier les parties de la chaîne, puis classer les valeurs :
 
 | Sélectionner le type de règle | Entrer les critères de recherche | Définir la classification | À |
 |---|---|---|---|
@@ -84,13 +92,13 @@ about_classification_rules.xml
 * **Limites relatives au nombre de règles** : aucune limite n’est définie quant au nombre de règles que vous pouvez créer. Sachez toutefois qu’un nombre élevé de règles peut avoir une incidence sur les performances du navigateur.
 * **Traitement** : les règles sont traitées à intervalles réguliers, selon le volume de trafic lié aux classifications.
 
-  Les règles actives sont traitées toutes les quatre heures ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et téléchargent les classifications à l’aide de l’importateur.
+  Les règles actives sont traitées toutes les quatre heures ; elles examinent les données de classification remontant généralement à un mois. Les règles recherchent automatiquement les nouvelles valeurs et chargent les classifications à l’aide de l’importateur.
 
 * **Remplacement des classifications existantes** : consultez la section [Quand les règles ne classent-elles pas les clés ?](/help/components/classifications/crb/classification-quickstart-rules.md) Si nécessaire, vous pouvez supprimer des classifications existantes à l’aide de l’importateur.
 
 ## Dans quels cas les règles ne classent-elles pas les clés ?
 
-Lorsque vous activez des règles, vous pouvez écraser des classifications existantes. Dans les situations suivantes, une règle de classification ne classe pas une [clé](/help/components/classifications/importer/c-saint-data-files.md)(variable) si :
+Lorsque vous activez des règles, vous pouvez remplacer les classifications existantes. Dans les situations suivantes, une règle de classification ne classe pas une [clé](/help/components/classifications/importer/c-saint-data-files.md)(variable) si :
 
 * La clé est déjà classée et vous ne sélectionnez pas l’option [Remplacer les classifications pour](/help/components/classifications/crb/classification-rule-definitions.md).
 
@@ -119,7 +127,7 @@ Utilisez des expressions régulières pour faire correspondre des valeurs de cha
 >
 >Si le code de suivi est encodé en URL, il ne sera **pas** classé par le créateur de règles.
 
-Pour les besoins de cet exemple, supposons que vous souhaitiez classer l’identifiant de campagne suivant :
+Dans cet exemple, supposons que vous souhaitiez classer l’identifiant de campagne suivant :
 
 Exemple de clé : `em:JuneSale:20XX0601`
 
@@ -243,12 +251,12 @@ Dans ce résultat, `a:b:1313` n’indique pas de correspondance.
 | [`abc`] | N’importe quel caractère parmi a, b ou c |
 | [`^abc`] | N’importe quel caractère sauf a, b ou c |
 | [`a-z`] | N’importe quel caractère entre a et z |
-| [`a-zA-Z`] | N’importe quel caractère entre a et z ou A et Z |
+| [`a-zA-Z`] | N’importe quel caractère unique compris dans la plage a-z ou A-Z |
 | `^` | Début de ligne (correspond au début de la ligne) |
-| `$` | Correspondance avec la fin de la ligne (ou avant la nouvelle ligne à la fin) |
+| `$` | Correspond à la fin de la ligne (ou avant le saut de ligne final) |
 | `\A` | Début de chaîne. |
 | `\z` | Fin de chaîne. |
-| `.` | Correspondance avec n’importe quel caractère (sauf une nouvelle ligne) |
+| `.` | Correspond à n’importe quel caractère (à l’exception d’un saut de ligne) |
 | `\s` | N’importe quel espace |
 | `\S` | N’importe quel caractère sauf espace |
 | `\d` | N’importe quel chiffre |
@@ -258,18 +266,18 @@ Dans ce résultat, `a:b:1313` n’indique pas de correspondance.
 | `\b` | N’importe quelle limite de mot |
 | `(...)` | Acquérir tout ce qui est compris |
 | `(a\b)` | a ou b |
-| `a?` | Zéro ou un de : a |
-| `a*` | Zéro ou plus de : a |
-| `a+` | Un ou plus de : a |
-| `a{3}` | Exactement 3 de : a |
-| `a{3,}` | 3 ou plus de : a |
+| `a?` | Zéro ou une occurrence de a |
+| `a*` | Zéro ou plusieurs occurrences de a |
+| `a+` | Une ou plusieurs occurrences de a |
+| `a{3}` | Exactement 3 occurrences de a |
+| `a{3,}` | 3 occurrences de a ou plus |
 | `a{3,6}` | Entre 3 et 6 de : a |
 
 Le site [https://rubular.com/](https://rubular.com/) constitue une excellente ressource pour tester la validité d’une expression régulière.
 
 ## À propos de la priorité des règles
 
-Si une clé correspond à plusieurs règles et qu’elle définit la même colonne de classification que celle affichée dans la colonne [!UICONTROL Définir la classification], c’est la dernière règle qui est utilisée. Dès lors, il se peut que vous souhaitiez classer la règle la plus importante en dernier dans votre jeu de règles.
+Si une clé correspond à plusieurs règles et qu’elle définit la même colonne de classification que celle affichée dans la colonne [!UICONTROL Définir la classification], c’est la dernière règle qui est utilisée. Par conséquent, il se peut que vous souhaitiez placer les règles les plus importantes en dernier dans votre jeu de règles.
 
 <!-- 
 
@@ -279,7 +287,7 @@ rule_priority.xml
 
 Si vous créez plusieurs règles qui ne partagent pas la même classification, l’ordre de traitement n’a pas d’importance.
 
-L’exemple de terme de recherche ci-dessous classe les types de recherche pour un athlète :
+Voici un exemple de règle de termes de recherche qui classe les types de recherche pour un athlète :
 
 | Numéro de règle | Type de règle | Correspond à | Définir la classification | À |
 |---|---|---|---|---|
@@ -289,7 +297,7 @@ L’exemple de terme de recherche ci-dessous classe les types de recherche pour 
 
 Si un utilisateur ou une utilisatrice recherche des *`Cowboys fantasy Tony Romo`*, le terme *`Player`* est classé, car il correspond à la dernière classification affichée dans la colonne Définir la classification.
 
-De même, supposons que vous configuriez deux règles d’un jeu pour les termes de recherche suivants :
+De même, supposons que vous configuriez deux règles dans un ensemble pour les termes de recherche suivants :
 
 | Numéro de règle | Type de règle | Correspond à | Définir la classification | À |
 |---|---|---|---|---|
@@ -310,7 +318,7 @@ Pour ajouter des règles, faites correspondre une condition à une classificatio
 
 >[!NOTE]
 >
->Au cours de cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par jeu de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si vous disposez de plus de 100 règles, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](/help/components/classifications/importer/subclassifications.md).
+>Au cours de cette procédure, vous devez appliquer les règles à une ou plusieurs suites de rapports. Le nombre recommandé de règles par je de règles est compris entre 500 et 1000, bien qu’il n’y ait pas de limites. Si vous disposez de plus de 100 règles, pensez à simplifier votre jeu de règles en utilisant des [sous-classifications](/help/components/classifications/importer/subclassifications.md).
 
 Pour ajouter ou modifier une règle de classification, procédez comme suit :
 

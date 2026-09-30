@@ -1,34 +1,45 @@
 ---
-title: Révision ciblée (après chaque mise à jour de site web)
-description: Suivez ces étapes pour vous assurer que votre implémentation reste dénuée d’erreurs et conforme à vos indicateurs clés de performance.
+title: Révision ciblée (après chaque nouvelle version du site web)
+description: Suivez ces étapes pour vous assurer que votre implémentation reste exempte d’erreurs et alignée sur vos KPI.
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 role: Admin, Leader
-TQID: https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o
+TQID: 'https://experienceleague.adobe.com/C57qRRa4-WDgJDgvtLebgy-0DAPvMUreSrGfuA67N4o'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: '535'
 ht-degree: 62%
-
 ---
+# Révision ciblée (après chaque nouvelle version du site web)
 
-# Révision ciblée (après chaque mise à jour de site web)
-
-Pourquoi devriez-vous passer en revue votre implémentation plusieurs fois par an ? Parce qu’ainsi, vous pouvez résoudre les problèmes liés à la qualité des données à un stade précoce. Si vous effectuez régulièrement cette révision ciblée après chaque mise à jour de site web, vous constaterez que vos [révisions complètes](/help/implement/review/full-review.md) semestrielles sont beaucoup plus faciles. Vous empêcherez également les petits problèmes de se transformer en problèmes de mégadonnées qui pourraient éroder la confiance des parties prenantes.
+Pourquoi devriez-vous réviser votre implémentation plusieurs fois par an ? Parce qu’ainsi, vous pouvez résoudre les problèmes liés à la qualité des données à un stade précoce. Si vous effectuez régulièrement cette révision ciblée après chaque mise à jour de site web, vous constaterez que vos [révisions complètes](/help/implement/review/full-review.md) semestrielles sont beaucoup plus faciles. Vous empêcherez également les petits problèmes de se transformer en problèmes de mégadonnées qui pourraient éroder la confiance des parties prenantes.
 
 ## &#x200B;1. Commencez par vos 5 principaux indicateurs clés de performance
 

@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1120
+source-wordcount: '1120'
 ht-degree: 29%
-
 ---
-
 # Questions fréquentes
 
 Réponses aux questions pouvant survenir lors de la mise en œuvre d’Audience Analytics.
@@ -36,7 +47,7 @@ Si vous disposez d’e-mails/adresses/etc. dans une prop ou une eVar, envisagez 
 
 Elles ne s’appliquent pas à l’envoi de données Adobe Analytics à Adobe Audience Manager. Demandez-vous :
 
-* Partagerez-vous un segment partagé Analytics avec une dimension MCA avec CX Enterprise ?
+* Partagerez-vous un segment partagé avec Analytics avec une dimension MCA avec CX Enterprise ?
 
 * Effectuez-vous une exportation (par exemple via le flux de données) vers un système Business Intelligence (BI) exploité dans ce but ?
 
@@ -82,7 +93,7 @@ Les segments sont qualifiés pour et renvoyés en temps réel, sur le même acc�
 
 +++ Que se passe-t-il si certaines de mes suites de rapports contiennent des données personnelles et d’autres non ?&lt;
 
-Conseil : créez deux destinations. Ajoutez les suites de rapports contenant des données personnelles à l’une des destinations et celles n’en contenant pas à l’autre destination.
+Conseil : créez deux destinations. Ajoutez les suites de rapports contenant des données personnelles à l’une des destinations et celles n’en contenant pas à l’autre.
 
 +++
 
@@ -118,21 +129,21 @@ Les contrôles de confidentialité de Adobe Audience Manager entre la source de 
 
 Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est qualifié, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les 150 segments qualifiés les plus récemment **&#x200B;**&#x200B;sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
 
-Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un accès particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités :
+Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un hit particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités :
 
 * Option 1 : continuez à laisser l’intégration fonctionner dans son état prêt à l’emploi, en envoyant les 150 segments qualifiés les plus récemment pour un visiteur particulier.
 
-* Option 2 : dans Adobe Audience Manager, choisissez les 150 segments qui comptent le plus pour votre entreprise pour l’intégration. Adobe Audience Manager ne vérifie ensuite que les visiteurs et visiteuses par rapport à ces 150 segments. Cette approche présente l’inconvénient que vous recevez uniquement ces 150 segments pour tous les visiteurs. En revanche, l’approche de l’option 1 peut fournir un nombre illimité de segments du fait que l’intégration repose sur les accès.
+* Option 2 : dans Adobe Audience Manager, choisissez les 150 segments qui comptent le plus pour votre entreprise pour l’intégration. Adobe Audience Manager ne vérifie ensuite que les visiteurs et visiteuses par rapport à ces 150 segments. Cette approche présente l’inconvénient que vous recevez uniquement ces 150 segments pour tous les visiteurs. En revanche, l’approche de l’option 1 peut fournir un nombre illimité de segments du fait que l’intégration repose sur les hits.
 
 +++
 
 +++ D’autres appels au serveur seront-ils facturés à Analytics pour cette intégration ?
 
-Non. Les audiences Adobe Audience Manager sont intégrées à l’accès Analytics côté serveur. Cela ne génère aucun appel (primaire ou secondaire) au serveur supplémentaire vers Analytics.
+Non. Les audiences Adobe Audience Manager sont intégrées à l’accès Analytics côté serveur. Cela n’entraîne aucun appel au serveur supplémentaire vers Analytics (principal ou secondaire).
 
 +++
 
-## Questions fréquentes sur la redirection côté serveur {#SSF}
+## Questions fréquentes sur le transfert côté serveur (SSF) {#SSF}
 
 +++ Si l’ancien fichier SSF est implémenté, dois-je également accéder à l’administration Analytics et activer le fichier SSF de la suite de rapports ?
 
@@ -164,7 +175,7 @@ Voir [Présentation des segments dans Analytics et Audience Manager](/help/integ
 
 +++ Quelle est la différence entre les attributs du client et les données client intégrées à partir de Adobe Audience Manager ?
 
-Les attributs du client ne sont pas basés sur le temps ; ils s’appliquent rétroactivement et vont de l’avant. Les données intégrées de Adobe Audience Manager sont uniquement basées sur le temps et ne sont pas progressives. En outre, les attributs du client sont une table de recherche des ID de visiteur d’entreprise CX, tandis que l’intégration de Adobe Audience Manager regroupe des données dans chaque accès d’un visiteur.
+Les attributs du client ne sont pas basés sur le temps ; ils s’appliquent rétroactivement et vont de l’avant. Les données intégrées de Adobe Audience Manager sont uniquement basées sur le temps et ne sont pas progressives. En outre, les attributs du client sont une table de recherche des identifiants visiteur CX Enterprise, tandis que l’intégration Adobe Audience Manager regroupe des données pour chaque accès d’un visiteur.
 
 +++
 

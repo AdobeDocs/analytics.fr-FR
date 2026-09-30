@@ -1,38 +1,49 @@
 ---
 title: produits
-description: Permet d’envoyer des données concernant le ou les produits affichés ou du panier.
+description: Envoyez des données concernant le ou les produits affichés ou présents dans le panier.
 feature: Appmeasurement Implementation
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 role: Admin, Developer
-TQID: https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo
+TQID: 'https://experienceleague.adobe.com/3u2EyAcwk2vDszmXryMfT1pVWPdOlN3HrB-HLGpXvHo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 663
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
 # produits
 
-La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages produits individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même accès et qu’Adobe analyse la valeur dans des éléments de dimension distincts.
+La variable `products` effectue le suivi des produits et des propriétés qui leur sont liées. Cette variable est généralement définie sur des pages produits individuelles, des pages de panier d’achat et des pages de confirmation d’achat. Il s’agit d’une variable à plusieurs valeurs, ce qui signifie que vous pouvez envoyer plusieurs produits dans le même hit et qu’Adobe analyse la valeur dans des éléments de dimension distincts.
 
 >[!NOTE]
 >
->Si cette variable est définie dans un accès sans variable [`events`](events/events-overview.md), la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir les événements appropriés pour chaque accès avec la variable `products`.
+>Si cette variable est définie dans un hit sans variable [`events`](events/events-overview.md), la mesure [Consultations produits](/help/components/metrics/product-views.md) est incrémentée de 1. Assurez-vous de définir les événements appropriés pour chaque hit avec la variable `products`.
 
 ## Produits utilisant le SDK web
 
@@ -99,8 +110,8 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 
 * **Catégorie** (facultatif) : la catégorie de produits. La longueur maximale de ce champ est de 100 octets.
 * **Nom du produit** (obligatoire) : nom du produit. La longueur maximale de ce champ est de 100 octets.
-* **Quantité** (facultatif) : quantité de ce produit dans le panier ? Ce champ s’applique uniquement aux accès avec l’événement d’achat.
-* **Prix** (facultatif) : prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Alignez la devise de cette valeur pour qu’elle corresponde à la variable [`currencyCode`](../config-vars/currencycode.md). N’incluez pas le symbole de devise dans ce champ. Ce champ s’applique uniquement aux accès avec l’événement d’achat.
+* **Quantité** (facultatif) : quantité de ce produit dans le panier ? Ce champ s’applique uniquement aux hits avec l’événement d’achat.
+* **Prix** (facultatif) : prix total du produit sous forme de décimale. Si la quantité est supérieure à un, définissez le prix sur le total et non sur le prix du produit individuel. Alignez la devise de cette valeur pour qu’elle corresponde à la variable [`currencyCode`](../config-vars/currencycode.md). N’incluez pas le symbole monétaire dans ce champ. Ce champ s’applique uniquement aux hits avec l’événement d’achat.
 * **Événements** (facultatif) : événements liés au produit. Délimitez plusieurs événements à l’aide d’une barre verticale (`|`). Voir [Événements](events/events-overview.md) pour plus d’informations.
 * **eVars** (facultatif) : eVars de marchandisage liées au produit. Délimitez plusieurs eVars de marchandisage à l’aide d’une barre verticale (`|`). Voir [eVars de marchandisage](evar-merchandising.md) pour en savoir plus.
 
@@ -109,7 +120,7 @@ La variable `s.products` est une chaîne qui contient plusieurs champs délimit�
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-Cette variable prend en charge plusieurs produits dans le même accès. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` complète est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
+Cette variable prend en charge plusieurs produits dans le même hit. Celle-ci est utile pour le panier et les achats contenant plusieurs produits. La longueur maximale de la chaîne `products` complète est de 64 Ko. Séparez chaque produit par une virgule (`,`) dans la chaîne.
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
@@ -118,11 +129,11 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!WARNING]
 >
->Supprimez tous les points-virgules, virgules et tuyaux des noms de produits, des catégories et des valeurs d’eVar de marchandisage. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte renvoie le reste de la chaîne du produit, provoquant des données incorrectes dans les dimensions et les rapports.
+>Supprimez tous les points-virgules, virgules et barres verticales des noms de produits, des catégories et des valeurs d’eVar de merchandising. Si un nom de produit comporte une virgule, AppMeasurement l’analyse comme le début d’un nouveau produit. Cette analyse incorrecte perturbe le reste de la chaîne du produit, ce qui entraîne des données incorrectes dans les dimensions et les rapports.
 
 ## Exemples
 
-La variable `products` est flexible lorsque vous omettez des champs et incluez plusieurs produits. Cette souplesse peut faciliter l’absence d’un délimiteur, ce qui entraîne l’envoi de données incorrectes à Adobe par votre mise en œuvre.
+La variable `products` est flexible lorsque vous omettez des champs et incluez plusieurs produits. Cette souplesse peut vous amener à oublier un délimiteur, ce qui entraîne l’envoi de données incorrectes à Adobe par votre mise en œuvre.
 
 ```js
 // Include only product and category. Common on individual product pages

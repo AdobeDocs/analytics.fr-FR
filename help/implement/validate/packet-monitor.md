@@ -8,26 +8,38 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 679
+source-wordcount: '679'
 ht-degree: 94%
-
 ---
-
 # Analyseurs de paquets
 
 Les analyseurs de paquets vous permettent de voir les données envoyées par votre mise en œuvre aux serveurs de collecte de données Adobe.
@@ -67,7 +79,7 @@ Lorsqu’AppMeasurement envoie des données aux serveurs de collecte de données
 * **302 FOUND** : il existe plusieurs explications à cette réponse :
   * Première demande d’image d’un visiteur : une redirection a lieu lorsqu’un utilisateur consulte votre site pour la première fois. Cette redirection consiste à obtenir un cookie de visiteur. Elle n’affecte pas la collecte de données.
   * Intégration entre Comscore et Adobe : si votre entreprise utilise une intégration Comscore/Analytics, chaque demande d’image génère une réponse 302.
-* **404 NOT FOUND** : cette réponse signifie que la demande d’image est introuvable et que les données ne sont pas envoyées aux serveurs de collecte de données d’Adobe. Cette réponse est également possible lorsque les demandes d’image codées en dur ne sont pas correctement formatées. Collaborez avec la personne ou l’équipe responsable de la mise en œuvre d’Analytics pour résoudre ce problème.
+* **404 NOT FOUND** : cette réponse signifie que la demande d’image est introuvable et que les données ne sont pas envoyées aux serveurs de collecte de données d’Adobe. Cette réponse est également possible lorsque les demandes d’image codées en dur ne sont pas correctement formatées. Collaborez avec l’individu ou l’équipe responsable de la mise en œuvre d’Analytics pour résoudre ce problème.
 
 ## NS_BINDING_ABORTED dans les codes de réponse
 
@@ -75,6 +87,6 @@ Vous recevez ce message, car la demande d’image de suivi des liens est conçue
 
 La réponse d’Adobe à la demande d’image est une image transparente vide de 1x1 pixel, qui n’a pas de rapport avec le contenu de la page. Si un élément de ligne Adobe s’affiche dans le moniteur de paquets avec une réponse **[!UICONTROL 200 OK]** ou **[!UICONTROL NS_BINDING_ABORTED]**, cela signifie que les données ont atteint les serveurs d’Adobe. Il n’est pas nécessaire que la page attende plus longtemps.
 
-Les moniteurs de paquets intégrés en tant que plug-in affichent rarement la réponse complète. Ils tendent à considérer la demande comme ayant été abandonnée, car la réponse n’a pas été reçue intégralement. Il convient également d’ajouter qu’ils distinguent rarement l’élément qui a été abandonné, à savoir : la demande ou la réponse. Un moniteur de paquets autonome comporte généralement des messages plus détaillés et indique plus précisément l’état. Un utilisateur peut, par exemple, recevoir un message dans *Charles* indiquant que « le client a mis fin à la connexion avant d’avoir reçu toute la réponse ». Cela signifie que les données ont atteint les serveurs Adobe, mais que le navigateur est passé à la page suivante avant la réception du pixel 1x1.
+Les moniteurs de paquets intégrés en tant que plug-in affichent rarement la réponse complète. Ils ont tendance à considérer la demande comme abandonnée, car la réponse n’a pas été reçue intégralement. Ils distinguent également rarement l’élément qui a été abandonné : la demande ou la réponse. Un moniteur de paquets autonome comporte généralement des messages plus détaillés et indique plus précisément l’état. Un utilisateur peut, par exemple, recevoir un message dans *Charles* indiquant que « le client a mis fin à la connexion avant d’avoir reçu toute la réponse ». Cela signifie que les données ont atteint les serveurs Adobe, mais que le navigateur est passé à la page suivante avant la réception du pixel 1x1.
 
 Si un moniteur de paquets externe indique que la demande de collecte de données a été abandonnée, au lieu de la réponse, cela peut être une source de préoccupation. Adobe [!DNL Customer Care] peut vous assister dans le cadre de la résolution des problèmes.

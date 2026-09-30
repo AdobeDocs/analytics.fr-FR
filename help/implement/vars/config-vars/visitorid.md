@@ -7,31 +7,39 @@ role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/2lfkJimoLDCqVNqTDE1bsN92ulwvtZftXF-x0990Udw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 510
+source-wordcount: '510'
 ht-degree: 19%
-
 ---
-
 # visitorID
 
 Adobe utilise plusieurs méthodes différentes pour [identifier les visiteurs](../../id/overview.md) sur votre site. **La variable `visitorID` remplace toutes les autres méthodes d’identification des visiteurs.**
 
 >[!IMPORTANT]
 >
->Adobe conseille d’utiliser cette variable. Utilisez plutôt le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home).
+>Adobe déconseille l’utilisation de cette variable. Utilisez plutôt le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home).
 
 ## Utilisation de `visitorID` par Analytics
 
@@ -60,7 +68,7 @@ L’[!UICONTROL identifiant visiteur] est un champ sous l’accordéon [!UICONTR
 3. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 4. Développez l’accordéon [!UICONTROL Cookies], ce qui permet d’afficher le champ [!UICONTROL Identifiant visiteur].
 
-Affectez ce champ à l’élément de données contenant votre identifiant visiteur personnalisé. **Ne définissez pas ce champ sur une valeur statique unique pour tous les visiteurs.** Utilisez un élément de données qui est résolu par visiteur et qui reste constant pour tous les accès.
+Attribuez ce champ à l’élément de données contenant votre identifiant visiteur personnalisé. **Ne définissez pas ce champ sur une valeur statique unique pour tous les visiteurs.** Utilisez un élément de données qui est résolu par visiteur et qui reste constant pour tous les accès.
 
 ## s.visitorID dans AppMeasurement et l’éditeur de code personnalisé de l’extension Analytics
 

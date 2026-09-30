@@ -6,21 +6,27 @@ exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 TQID: 'https://experienceleague.adobe.com/g1vx8w5-xediBUnktEPyZyV6iBFHd-thXhbuBdSYBYw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: '193'
 ht-degree: 100%
-
 ---
-
 # Configuration requise et conditions préalables pour Adobe Analytics
 
 Avant de commencer à mettre en œuvre Adobe Analytics en tant qu’administrateur ou administratrice, ou encore de l’utiliser comme analyste, utilisateur final ou utilisatrice finale, vous devez d’abord vous familiariser avec les conditions préalables et la configuration requise ci-après :
@@ -35,15 +41,15 @@ Pour utiliser Adobe Analytics, vous devez disposer des éléments suivants :
 
 * Un navigateur pris en charge
 
-  Chaque personne accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](/help/analyze/get-started/sys-reqs.md).
+  Chaque utilisateur ou utilisatrice accédant à Adobe Analytics doit utiliser un navigateur pris en charge. Pour plus d’informations, consultez la [configuration requise d’Adobe Analytics](/help/analyze/get-started/sys-reqs.md).
 
 ## Configuration requise
 
-La plupart des solutions Adobe Analytics s’exécutent dans le navigateur. Les informations suivantes fournissent la configuration requise pour les solutions de navigateur et de client.
+La plupart des solutions Adobe Analytics s’exécutent dans le navigateur. Les informations suivantes présentent la configuration requise pour les solutions basées sur un navigateur et pour les solutions clientes.
 
-### Configuration requise pour les solutions basées sur un navigateur
+### Configuration requise pour les solutions exécutées dans un navigateur
 
-La plupart des solutions Adobe Analytics, y compris Analysis Workspace, sont basées sur un navigateur. Par conséquent, un navigateur Web moderne est la condition la plus importante pour utiliser Adobe Analytics. Adobe prend en charge la dernière version stable de ces navigateurs :
+La plupart des solutions Adobe Analytics, y compris Analysis Workspace, s’exécutent dans un navigateur. Par conséquent, un navigateur Web moderne est la condition la plus importante pour utiliser Adobe Analytics. Adobe prend en charge la dernière version stable de ces navigateurs :
 
 * Microsoft Edge
 * Google Chrome

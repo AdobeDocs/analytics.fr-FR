@@ -1,38 +1,58 @@
 ---
-description: Vue d’ensemble des informations générales sur Adobe Analytics, notamment sur l’interface d’Analytics, ainsi que sur la prise en main destinées aux administrateurs et administratrices, aux analystes, aux utilisateurs et utilisatrices et aux développeurs et développeuses.
-title: Présentation de l’interface Analytics
+description: Vue d’ensemble d’Adobe Analytics, notamment de l’interface d’Analytics, ainsi que des informations de prise en main destinées aux administrateurs, analystes, utilisateurs et développeurs.
+title: Présentation de l’interface d’Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1993
+source-wordcount: '1993'
 ht-degree: 95%
-
 ---
-
-# Présentation de l’interface Analytics
+# Présentation de l’interface d’Analytics
 
 L’interface d’Adobe Analytics se compose des zones suivantes, y compris des onglets pour la gestion des projets dans Analysis Workspace, la gestion des composants, des outils et des fonctions d’administration.
 
@@ -67,7 +87,7 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
 
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
    |---------|----------|----------|
-   | Segments | Adobe Analytics vous permet de créer, de gérer, de partager et d’appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités Analytics, d’Adobe CX Enterprise, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
+   | Segments | Adobe Analytics vous permet de créer, de gérer, de partager et d’appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités Analytics, de Adobe CX Enterprise, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
    | Mesures calculées | Les mesures calculées ou calculées avancées (ou dérivées) sont des mesures personnalisées que vous pouvez créer à partir de mesures existantes.  Elles permettent aux personnes responsables du marketing, des produits et de l’analyse de poser des questions relatives aux données sans avoir à modifier votre mise en œuvre d’Adobe Analytics. | [Mesures calculées et mesures calculées avancées](/help/components/calculated-metrics/cm-overview.md) |
    | Périodes | Analysis Workspace comprend une liste de périodes par défaut que vous pouvez utiliser lors de la création d’analyses. Vous pouvez également créer des périodes personnalisées à destination des utilisateurs et utilisatrices d’Analysis Workspace. | [Création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suites de rapports virtuelles | Les suites de rapports virtuelles segmentent les données Adobe Analytics afin que vous puissiez contrôler l’accès à chaque segment. | [Vue d’ensemble des suites de rapports virtuelles](/help/components/vrs/vrs-about.md) |
@@ -94,19 +114,19 @@ L’onglet [!UICONTROL Composants] comprend des fonctionnalités qui vous aident
 
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
    |---------|----------|----------|
-   | Entrepôt de données | Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. <p>Le gestionnaire de requêtes permet d’afficher, de dupliquer et de reclasser par priorité les requêtes.</p> | [Gérer les demandes de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
+   | Entrepôt de données | Data Warehouse fait référence à la copie de données Analytics pour les rapports de stockage et personnalisés, que vous pouvez exécuter en filtrant les données. <p>Le gestionnaire de requêtes vous permet de consulter les requêtes, de les dupliquer et d’en modifier la priorité.</p> | [Gérer les demandes de Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map établit un classement de l’activité des liens à l’aide de recouvrements visuels et fournit un tableau de bord Real-Time Analytics visant à surveiller l’engagement de l’audience sur vos pages web. Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clientes et des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience. | [Vue d’ensemble d’Activity Map](/help/analyze/activity-map/overview.md) |
    | Recommandations Classic | Recommandations est une fonctionnalité Adobe Target qui permet d’afficher automatiquement les produits, services ou le contenu susceptibles d’intéresser votre public en fonction de ses activités antérieures, de ses préférences ou d’autres critères. | [Recommandations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=fr) |
    | Search &amp; Promote | Cette fonctionnalité n’est plus prise en charge. |  |
    | Mobile Services | Cette fonctionnalité n’est plus prise en charge. |  |
-   | Tableaux de bord Analytics (application mobile) | Grâce à l’application Tableaux de bords Adobe Analytics, obtenez des informations d’Adobe Analytics à tout moment, même en déplacement. L’application vous permet de consulter des cartes de performance intuitives, que vous créez dans l’interface utilisateur de bureau d’Adobe Analytics. | L’application Tableaux de bord Adobe Analytics dans l’App Store pour iOS ou Google Play |
-   | Report Builder | Le Report Builder Adobe est un complément externe pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](/help/analyze/report-builder/rb-overview.md) |
+   | Tableaux de bord Analytics (application mobile) | L’application des tableaux de bord Adobe Analytics vous permet d’accéder aux informations d’Adobe Analytics à tout moment et où que vous soyez. L’application vous permet de consulter des cartes de performance intuitives, que vous créez dans l’interface utilisateur d’Adobe Analytics. | L’application Tableaux de bord Adobe Analytics dans l’App Store pour iOS ou Google Play |
+   | Report Builder | Adobe Report Builder est un complément pour Microsoft Excel. Il vous permet de créer des requêtes personnalisées à partir de données Adobe Analytics que vous pouvez ensuite insérer dans des feuilles de calcul Excel. Ces demandes peuvent faire référence de manière dynamique à des cellules de votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont Report Builder présente les données. | [Quʼest-ce que le Report Builder ?](/help/analyze/report-builder/rb-overview.md) |
 
    {style="table-layout:auto"}
 
 ## Onglet Administration
 
-L’onglet Administration offre des fonctionnalités et des options de configuration pour Adobe Analytics.
+L’onglet Administration comprend des fonctionnalités et des options de configuration permettant d’administrer Adobe Analytics.
 
 1. Dans Adobe Analytics, sous l’onglet [!UICONTROL **Administration**] , sélectionnez [!UICONTROL **Tous les administrateurs**].
 
@@ -116,20 +136,20 @@ L’onglet Administration offre des fonctionnalités et des options de configura
 
    | Fonctionnalité du produit | Fonction | Informations supplémentaires |
    |---------|----------|----------|
-   | Utilisateurs, utilisatrices et ressources Analytics | Bien que la gestion des utilisateurs et utilisatrices et des produits s’effectue désormais principalement dans l’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), les fonctions d’administration de transfert de ressources d’une personne à une autre, ainsi que la définition d’une date d’expiration pour un compte d’utilisateur ou d’utilisatrice, sont disponibles uniquement dans la zone d’administration d’Adobe Analytics. | [Transférer des ressources des utilisateurs et utilisatrices ou définir l’expiration du compte](/help/admin/tools/user-management/users-assets.md) |
+   | Utilisateurs et ressources Analytics | Bien que la gestion des utilisateurs et utilisatrices et des produits s’effectue désormais principalement dans l’[Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/admin-console.html), les fonctions d’administration de transfert de ressources d’une personne à une autre, ainsi que la définition d’une date d’expiration pour un compte d’utilisateur ou d’utilisatrice, sont disponibles uniquement dans la zone d’administration d’Adobe Analytics. | [Transférer des ressources des utilisateurs et utilisatrices ou définir l’expiration du compte](/help/admin/tools/user-management/users-assets.md) |
    | Migration de l’ID d’utilisateur ou d’utilisatrice | La migration des ID d’utilisateur ou d’utilisatrice d’Analytics permet aux administrateurs et aux administratrices de migrer facilement les comptes d’utilisateur ou d’utilisatrice du système de gestion des utilisateurs et des utilisatrices d’Analytics vers l’Adobe Admin Console. | [Migration des utilisateurs et utilisatrices d’Analytics vers l’Adobe Admin Console](/help/admin/tools/user-management/user-migration/c-migration-tool.md) |
-   | Page d’accueil de User Management (héritée) | La gestion des utilisateurs et utilisatrices et des produits se fait désormais dans l’Adobe Admin Console. La gestion des autorisations d’utilisateur et d’utilisatrice pour Adobe Analytics s’effectue dans l’Adobe Admin Console. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
-   | Groupes (hérités) | La gestion des groupes s’effectue désormais dans l’Adobe Admin Console. Utilisez l’Adobe Admin Console pour commencer à gérer les groupes Adobe Analytics. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
-   | Accéder aux suites de rapports | L’octroi de l’accès aux outils de suite de rapports s’effectue désormais dans l’Adobe Admin Console. Utilisez l’Adobe Admin Console pour accorder l’accès aux suites de rapports aux utilisateurs et utilisatrices d’Adobe Analytics. | [Autorisations du profil de produit pour les outils de suites de rapports](/help/admin/admin-console/permissions/report-suite-tools.md) |
+   | Page d’accueil de la gestion des utilisateurs (héritée) | La gestion des utilisateurs et utilisatrices et des produits se fait désormais dans l’Adobe Admin Console. La gestion des autorisations d’utilisateur et d’utilisatrice pour Adobe Analytics s’effectue dans l’Adobe Admin Console. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Groupes (hérités) | La gestion des groupes s’effectue désormais dans l’Adobe Admin Console. Utilisez Adobe Admin Console afin de gérer des groupes pour Adobe Analytics. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Accéder aux suites de rapports | L’octroi de l’accès aux outils de suite de rapports s’effectue désormais dans l’Adobe Admin Console. Utilisez Adobe Admin Console pour accorder aux utilisateurs d’Adobe Analytics l’accès aux suites de rapports. | [Autorisations du profil de produit pour les outils de suites de rapports](/help/admin/admin-console/permissions/report-suite-tools.md) |
    | Page d’accueil des outils d’administration | La zone des outils d’administration d’Analytics est la principale zone de gestion de votre instance Adobe Analytics. C’est là que la plupart des tâches administratives peuvent être effectuées. | [Présentation des outils d’administration](/help/admin/tools/c-admin-tools.md) |
    | Suites de rapports | Elle vous permet de définir les règles qui régissent le traitement des données dans une suite de rapports. | [Gestionnaire de suites de rapports](/help/admin/tools/manage-rs/report-suites-admin.md) |
-   | Utilisateurs, utilisatrices et ressources Analytics | La gestion des utilisateurs et utilisatrices et des produits s’effectue désormais dans l’Adobe Admin Console. La gestion des autorisations d’utilisateur et d’utilisatrice pour Adobe Analytics s’effectue dans l’Adobe Admin Console. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
-   | Importateur de classifications | Utilisez l’importateur pour télécharger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation. | [Vue d’ensemble de l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) |
-   | Créateur de règles de classification | Au lieu de gérer et de charger des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques en fonction des règles automatiques, puis les appliquer dans plusieurs suites de rapports. | [Workflow du créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md) |
-   | Sources de données | Utilisez le gestionnaire de sources de données pour créer, modifier ou désactiver des sources de données. Vous pouvez également effectuer le suivi des statuts des fichiers chargés vers les emplacements FTP des sources de données. | [Gestion des sources de données](/help/import/data-sources/manage.md) |
+   | Utilisateurs, utilisatrices et ressources Analytics | La gestion des utilisateurs et des ressources s’effectue désormais dans Adobe Admin Console. La gestion des autorisations d’utilisateur et d’utilisatrice pour Adobe Analytics s’effectue dans l’Adobe Admin Console. | [Analytics dans l’Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Importateur de classifications | Utilisez l’importateur pour charger vos classifications dans Adobe Analytics. Vous pouvez également exporter les données en vue de les mettre à jour avant une importation. | [Vue d’ensemble de l’importateur de classifications](/help/components/classifications/importer/c-working-with-saint.md) |
+   | Créateur de règles de classification | Plutôt que de gérer et de charger des classifications à chaque changement des codes de suivi, vous pouvez créer des classifications automatiques basées sur des règles et les appliquer à plusieurs suites de rapports. | [Workflow du créateur de règles de classification](/help/components/classifications/crb/classification-rule-builder.md) |
+   | Sources de données | Utilisez le gestionnaire de sources de données pour créer, modifier ou désactiver des sources de données. Vous pouvez également utiliser cette interface pour suivre le statut des fichiers chargés vers les emplacements FTP des sources de données. | [Gestion des sources de données](/help/import/data-sources/manage.md) |
    | Gestionnaire de code | Le gestionnaire de code permet de télécharger le code de collecte de données pour les plateformes web et mobiles | [Gestionnaire de code](/help/admin/tools/code-manager-admin.md) |
    | Gestion du trafic | La page Gestion du trafic vous permet de spécifier les modifications de volume de trafic attendues. Ces paramètres permettent à Adobe d’allouer les ressources appropriées pour s’assurer que votre trafic peut être suivi et traité en temps voulu. | [Vue d’ensemble de la gestion du trafic](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/traffic-management.md) |
-   | Utilisation de l’appel au serveur | Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. Le tableau de bord Utilisation de l’appel au serveur est disponible pour suivre les données relatives à votre consommation d’appels au serveur et les comparer avec votre limite contractuelle. Vous pouvez configurer des alertes pour éviter les dépassements. | [Vue d’ensemble de l’utilisation de l’appel au serveur](/help/admin/tools/server-call-usage/overage-overview.md) |
+   | Utilisation de l’appel au serveur | Un appel au serveur, également appelé « hit » ou « demande d’image », correspond à une instance au cours de laquelle des données sont envoyées aux serveurs Adobe à des fins de traitement. Le tableau de bord Utilisation de l’appel au serveur est disponible pour suivre les données relatives à votre consommation d’appels au serveur et les comparer avec votre limite contractuelle. Vous pouvez configurer des alertes pour éviter les dépassements. | [Vue d’ensemble de l’utilisation de l’appel au serveur](/help/admin/tools/server-call-usage/overage-overview.md) |
    | Journaux | Fichiers journaux permettant de savoir quand se connectent les utilisateurs et les utilisatrices, leur utilisation, l’accès, les suites de rapports et les changements d’administration. | [Journaux](/help/admin/tools/logs.md) |
    | Advertising Analytics | Configurez Adobe Analytics pour afficher côte à côte toutes vos données de référencement payant Google Ads et Microsoft Advertising. | [Configuration d’Advertising Analytics](/help/admin/tools/manage-rs/edit-settings/advertising-analytics-config.md) |
    | Flux de données | Les flux de données sont un moyen puissant d’extraire des données brutes d’Adobe Analytics. Il est possible d’utiliser ces données brutes sur d’autres plateformes en dehors d’Adobe à la discrétion de votre entreprise. | [Vue d’ensemble des flux de données Analytics](/help/export/analytics-data-feed/data-feed-overview.md) |

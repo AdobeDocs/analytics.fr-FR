@@ -4,28 +4,40 @@ title: Téléchargement De Projets Et De Données
 feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
+TQID: 'https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1131
+source-wordcount: '1131'
 ht-degree: 25%
-
 ---
-
 # Téléchargement de projets et de données
 
 Vous pouvez télécharger des projets et des données Analysis Workspace sur votre appareil local. Ce téléchargement peut être un fichier de données copiées, un fichier CSV (valeurs séparées par des virgules) ou un document PDF (format de document portable).
@@ -90,7 +102,7 @@ Les options Télécharger au format CSV du menu contextuel vous permettent de t�
 
 Pour ce faire, procédez comme suit :
 
-* Dans l’en-tête d’un tableau ou d’une visualisation, sélectionnez **[!UICONTROL Télécharger les données au format CSV]** dans le menu contextuel. Cette option télécharge les données affichées dans le tableau ou la source de données sous-jacente pour une visualisation au format CSV.
+* Dans l’en-tête d’un tableau ou d’une visualisation, sélectionnez **[!UICONTROL Télécharger les données au format CSV]** dans le menu contextuel. Cette option télécharge les données affichées dans le tableau ou la source de données sous-jacente pour une visualisation au format CSV (valeurs séparées par des virgules).
 
 <!--
 Only relevant as soon as CJA supports Map visualization 
@@ -115,7 +127,7 @@ Aucune limite n’est appliquée dans le tableau à structure libre. Pour garant
 >
 > Si votre dimension dépasse 50 000 éléments, téléchargez le fichier avec différentes mesures de tri appliquées ou appliquez un segment. Par exemple, triez les visites par ordre descendant dans un téléchargement, puis par ordre ascendant dans un second téléchargement. Cette astuce peut vous aider à récupérer des éléments à traîne longue.
 
-Vous pouvez réaliser plusieurs tâches au sein du projet et même naviguer vers un nouveau projet Workspace dans le même onglet pendant le téléchargement est en cours. Le téléchargement est interrompu si vous ouvrez un nouvel onglet du navigateur. Le téléchargement est annulé si vous quittez complètement Workspace ou si vous fermez lʼonglet du navigateur.
+Vous pouvez effectuer plusieurs tâches au sein du projet et même naviguer vers un nouveau projet Workspace dans le même onglet pendant que le téléchargement est en cours. Le téléchargement est interrompu si vous ouvrez un nouvel onglet du navigateur. Le téléchargement est annulé si vous quittez complètement Workspace ou si vous fermez lʼonglet du navigateur.
 
 
 ### Fichier des éléments téléchargés {#items-file}
