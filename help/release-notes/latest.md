@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7e61f4cc5b87712012ff894878dd0aba7ceccd4f
+source-git-commit: c5e3cadb1de372d9be8a9cdbcfffc729ba0a66a4
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 40%
@@ -56,7 +56,7 @@ Ces notes de mise à jour couvrent la période de publication de septembre 2026.
 | ----------- | ---------- | ---- |
 | **Limiter les segments à la période du rapport**<br/> Les données d’un rapport Workspace peuvent s’étendre au-delà de la période du rapport lorsqu’un segment inclut des composants de période.<p>Une nouvelle option est désormais disponible. Elle vous permet de limiter les résultats à la période du rapport, quels que soient les composants de date inclus dans le segment.</p><p>Cette option est disponible lors de la création ou de la modification d’un segment dont le conteneur de niveau supérieur est Visiteur.</p><p>Pour plus d’informations, voir [Création de segments](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 Août 2026 | 9 septembre 2026 |
 | **Mises à jour de la détection des robots**<br/> Lors de l’utilisation de la collecte de données Edge avec le SDK Web, les mises à jour de détection des robots suivantes sont disponibles :<ul><li>Vous pouvez désormais créer des règles de détection des robots pour identifier les exceptions dans le trafic qui seraient autrement traitées comme générées par des robots. Les règles existantes et futures continueront à marquer par défaut le trafic correspondant comme généré par les robots.</li><li>Les règles de robots personnalisées s’exécutent désormais avant les règles de détection de robots IAB. Cette modification n’affecte pas les scores de robots, mais les noms de règle de robots associés à un événement peuvent changer.</li></ul><p>Remarque : cette mise à jour s’applique uniquement aux implémentations de la collecte de données Edge qui utilisent le SDK Web. Elle ne s’applique pas aux bibliothèques plus anciennes telles qu’AppMeasurement.</p><p>(Lien vers la documentation à suivre.)</p> | | Début Septembre 2026 |
-| **CX Enterprise Coworker : analyser les données d’Adobe Analytics dans le Module de conversation des collègues** <br/>Le Module de conversation d’Adobe CX Enterprise Coworker peut désormais effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données de vos suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.<p>(Lien vers la documentation à suivre.)</p> | | 29 septembre 2026<p>(Initialement prévu pour le 25 septembre 2026)</p> |
+| **CX Enterprise Coworker : analyser les données d’Adobe Analytics dans le Module de conversation des collègues** <br/>Le Module de conversation d’Adobe CX Enterprise Coworker peut désormais effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données de vos suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.<p>(Lien vers la documentation à suivre.)</p> | | 2 Octobre 2026<p>(Initialement prévu pour le 25 septembre 2026)</p> |
 | **CX Enterprise Coworker : compétence d’analyse des causes profondes** <br/>Le chat Adobe CX Enterprise Coworker peut désormais effectuer une analyse des causes profondes, en expliquant pourquoi une mesure a changé, et pas seulement ce qui a changé. Le Module de conversation des collègues identifie la date à laquelle un changement s’est produit et compare les données avant et après celui-ci, puis répartit le changement en fonction des dimensions qui le motivent et de son ampleur, présentées à la fois en pourcentage et en valeur absolue. Si aucun changement significatif n&#39;est détecté, le Chat Coworker vous permet de savoir plutôt que de spéculer sur une cause.<p>(Lien vers la documentation à suivre.)</p> | | 2 Octobre 2026 |
 | **CX Enterprise Coworker : ouvrez une visualisation dans Analysis Workspace** <br/>Commencez une analyse des données dans la discussion avec vos collègues, puis ouvrez l’analyse en tant que visualisation directement dans Analysis Workspace pour continuer à la créer, à l’affiner et à l’explorer.</p><p>(Lien vers la documentation à suivre.)</p> | | 2 Octobre 2026 |
 | **Mises à jour de l’API des ensembles de classifications**<br/> La documentation de l’API des ensembles de classifications comprend désormais des informations mises à jour de point d’entrée et de paramètre pour configurer les requêtes de l’API des ensembles de classifications.<p>Pour plus d’informations, consultez le [guide sur les points d’entrée des classifications](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 septembre 2026 | 30 septembre 2026 |
@@ -64,13 +64,13 @@ Ces notes de mise à jour couvrent la période de publication de septembre 2026.
 
 ### Correctifs dans Adobe Analytics
 
-**&#x200B;**&#x200B;: AN-488579, AN-487247, AN-491828
-**&#x200B;**&#x200B;: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
+**** : AN-488579, AN-487247, AN-491828
+**** : AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801, AN-488821, AN-488452, AN-486517, AN-478930, AN-468325
 **Classifications** : AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616 465380 464911 464338 463677 462729 462577 461040 459316 490072 487100
 **Flux de données et Data Warehouse** : AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483, AN-493406, AN-492167, AN-333098
 **Migration** :
 **Exports** : AN-467131, AN-469034, AN-447252
-**&#x200B;**&#x200B;: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
+**** : AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
 **Reporting** : AN-468621, AN-465383, AN-463924
 **Suites de rapports** : AN-468484, AN-468460, AN-465385, AN-463216
 **Rapports planifiés** : AN-479157
