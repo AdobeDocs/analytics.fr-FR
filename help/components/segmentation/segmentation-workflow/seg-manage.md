@@ -46,7 +46,7 @@ Vous pouvez [partager](t-seg-share.md), [segment](t-seg-filter.md), [balise](seg
 
 Le gestionnaire de segments comporte les éléments d’interface suivants :
 
-![ Interface des segments ](assets/segments-manager.png)
+![&#x200B; Interface des segments &#x200B;](assets/segments-manager.png)
 
 ### Liste des segments
 

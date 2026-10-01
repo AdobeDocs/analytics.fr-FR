@@ -39,7 +39,7 @@ Pour créer de nouveaux domaines et répertoires, procédez comme suit :
 * Configurer des domaines
 * Lier des domaines à des répertoires
 
-Pour obtenir de l’aide](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir [ Configuration d’un système d’identités .
+Pour obtenir de l’aide[&#128279;](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir  Configuration d’un système d’identités .
 
 Si un répertoire a déjà été créé dans une autre organisation par une autre unité opérationnelle ou une autre équipe, suivez les étapes de la section [approbation de répertoire](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html#Directorytrusting) pour établir le répertoire dans l’organisation que vous utilisez pour Analytics.
 
@@ -49,7 +49,7 @@ Lors de cette procédure, vous serez amené à effectuer les opérations suivant
 
 * Téléchargez une liste de connexion d’utilisateur depuis **[!UICONTROL Analytics]** > **[!UICONTROL Utilisateurs Analytics et Assets]**.
 
-* Téléchargez une liste d’utilisateurs actuels depuis **** > **[!UICONTROL Utilisateurs]**.
+* Téléchargez une liste d’utilisateurs actuels depuis **&#x200B;**&#x200B;> **[!UICONTROL Utilisateurs]**.
 
 * Comparer les listes (rechercher les doublons afin d’éviter d’écraser des données de compte dans Adobe Admin Console).
 * Charger un fichier [!DNL .csv] complet (dans **[!UICONTROL Admin Console]** > **[!UICONTROL Utilisateurs]**) avec les utilisateurs Enterprise ID ou Federated ID dans Adobe Admin Console.

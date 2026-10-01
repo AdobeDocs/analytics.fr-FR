@@ -164,7 +164,7 @@ Analysis Workspace comprend les fonctionnalités supplémentaires suivantes :
 
 ## Compatibilité Data Warehouse
 
-Toutes les fonctionnalités de segment ne sont pas compatibles avec Data Warehouse. Certaines structures et dimensions de segment ne sont pas prises en charge et les segments qui les utilisent ne s’affichent pas lors de la création d’une requête Data Warehouse. Pour obtenir la liste complète des fonctionnalités prises en charge et non prises en charge, consultez [Compatibilité des segments ](/help/export/data-warehouse/segment-compatibility.md).
+Toutes les fonctionnalités de segment ne sont pas compatibles avec Data Warehouse. Certaines structures et dimensions de segment ne sont pas prises en charge et les segments qui les utilisent ne s’affichent pas lors de la création d’une requête Data Warehouse. Pour obtenir la liste complète des fonctionnalités prises en charge et non prises en charge, consultez [Compatibilité des segments &#x200B;](/help/export/data-warehouse/segment-compatibility.md).
 
 ## Segments fournis par Adobe
 
