@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # Référence des colonnes de données
 
@@ -86,7 +86,7 @@ Utilisez cette page pour en savoir plus sur les données contenues dans chaque c
 >
 >La plupart des colonnes contiennent une colonne similaire avec un préfixe `post_`. Les colonnes « Post » contiennent les valeurs suivant la logique côté serveur, les règles de traitement et les règles VISTA. Adobe recommande d’utiliser des colonnes « Post » dans la plupart des cas. Pour plus d’informations, consultez la [FAQ sur les flux de données](../df-faq.md).
 
-Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.fr-FR/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
+Vous trouverez les mises à jour précédentes de ce tableau dans la section [historique de validation sur GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) de cette page.
 
 | Publier | Nom de la colonne | Description de la colonne | Type de données |
 | ---: | :--- | --- | --- |
@@ -105,13 +105,13 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | **`post_`** | **`channel`** | La dimension [Sections du site](/help/components/dimensions/site-section.md). | varchar(100) |
 | | **`ch_hdr`** | Indications du client collectées via l’en-tête de requête HTTP. | text |
 | | **`ch_js`** | Indications du client collectées via l’API JavaScript User-Agent Client Hints. | text |
-| **`post_`** | **`clickmaplink`** | La dimension [Lien &#x200B;](/help/components/dimensions/activity-map-link.md). | varchar(255) |
+| **`post_`** | **`clickmaplink`** | La dimension [Lien ](/help/components/dimensions/activity-map-link.md). | varchar(255) |
 | **`post_`** | **`clickmaplinkbyregion`** | La dimension [Lien Activity Map par région](/help/components/dimensions/activity-map-link-by-region.md). | varchar(255) |
-| **`post_`** | **`clickmappage`** | La dimension [Page &#x200B;](/help/components/dimensions/activity-map-page.md). | varchar(255) |
-| **`post_`** | **`clickmapregion`** | La dimension [Région &#x200B;](/help/components/dimensions/activity-map-region.md). | varchar(255) |
+| **`post_`** | **`clickmappage`** | La dimension [Page ](/help/components/dimensions/activity-map-page.md). | varchar(255) |
+| **`post_`** | **`clickmapregion`** | La dimension [Région ](/help/components/dimensions/activity-map-region.md). | varchar(255) |
 | | **`code_ver`** | Version du SDK client ou de l’API utilisée pour compiler et envoyer la demande d’image. | char(16) |
 | | **`color`** | Identifiant d’intensité des couleurs basé sur la valeur de la colonne `c_color`. Fait référence à la table de recherche `color_depth.tsv`. | smallint sans signe |
-| | **`connection_type`** | Identifiant numérique représentant la dimension [&#x200B; Type de connexion &#x200B;](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
+| | **`connection_type`** | Identifiant numérique représentant la dimension [ Type de connexion ](/help/components/dimensions/connection-type.md). Fait référence à la table de recherche `connection_type.tsv`. | tinyint sans signe |
 | **`post_`** | **`cookies`** | Le [Prise en charge des cookies](/help/components/dimensions/cookie-support.md) dimension.<br>Y : Activé<br>N : Désactivé<br>U : Inconnu | char(1) |
 | | **`country`** | Identifiant numérique qui représente le pays du visiteur ou de la visiteuse. Fait référence à la table de recherche `country.tsv`. | smallint sans signe |
 | **`post_`** | **`currency`** | Le code de devise qui a été utilisé pendant la transaction. Définissez avec [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). | char(8) |
@@ -235,8 +235,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`stats_server`** | Inutilisable. Serveur interne d’Adobe qui a traité le hit. | char(30) |
 | **`post_`** | **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising. | varchar(255) |
 | | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
-| **`post_`** | **`tnt`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests actuellement autorisés. Le format est : `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
-| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels le hit est qualifié. | text |
+| **`post_`** | **`tnt`** | Utilisée dans les intégrations Adobe Target. Répertorie les activités et expériences Target pour lesquelles le visiteur s’est qualifié. La colonne `post_tnt` conserve les valeurs des accès précédents, comme les eVars. Pour afficher uniquement les activités et les événements de l’accès actuel, utilisez `tnt_action`. Plusieurs entrées sont séparées par des virgules. Chaque entrée utilise le même format que `tnt_action`, mais sans l’identifiant d’événement. | text |
+| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Répertorie uniquement les activités et expériences Target pour lesquelles l’accès actuel s’est qualifié, ainsi que les événements associés. Contrairement à `post_tnt`, les valeurs ne persistent pas à partir des accès précédents. Plusieurs entrées sont séparées par des virgules. Chaque entrée utilise l’un des formats suivants :<ul><li>La plupart des activités : `activityID:experienceID:trafficType\|eventID`</li><li>Certaines activités automatisées, telles que le ciblage automatique : `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>Les valeurs de l’ID d’algorithme sont internes à Target. Certains événements incluent une valeur, ajoutée en tant que `\|value`. Les identifiants d’événement incluent `0` (entrée d’activité), `1` (visite), `2` (impression) et `32767` (conversion). Si un accès comporte plusieurs événements pour la même activité et la même expérience, chaque événement est une entrée distincte. | text |
 | | **`tnt_instances`** | Utilisée dans les intégrations Adobe Target. Variable d’instances Target. | text |
 | **`post_`** | **`transactionid`** | Identifiant unique dans lequel divers points de données peuvent être chargés ultérieurement par le biais de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | | **`truncated_hit`** | Indicateur signalant que la demande d’image a été tronquée (un accès partiel a été reçu). <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |
@@ -252,49 +252,49 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`va_finder_id`** | Identifiant numérique qui identifie la dimension [Canal Première touche](/help/components/dimensions/first-touch-channel.md). La valeur de recherche de cet identifiant se trouve dans le Gestionnaire des canaux marketing. | tinyint sans signe |
 | | **`va_instance_event`** | Indicateur qui identifie les [Instances](/help/components/metrics/instances.md) du canal marketing. | tinyint sans signe |
 | | **`va_new_engagement`** | Indicateur qui identifie les [Nouveaux engagements](/help/components/metrics/new-engagements.md) du canal marketing. | tinyint sans signe |
-| **`post_`** | **`video`** | La dimension [Contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoad`** | La dimension [Publicité](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadinpod`** | La dimension [Position de la publicité dans la capsule](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadlength`** | La dimension [Longueur de la publicité (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad-length) des services de streaming multimédia. | entier |
-| **`post_`** | **`videoadname`** | La dimension [Nom de la publicité (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad-name) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadplayername`** | La dimension [Nom du lecteur de publicité](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad-player-name) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadpod`** | La dimension [Capsule publicitaire](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/ad-pod) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoadvertiser`** | La dimension [Annonceur](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/advertiser) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudioalbum`** | La dimension [Album](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/album) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudioartist`** | La dimension [Artiste](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/artist) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudioauthor`** | La dimension [Création](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/author) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudiolabel`** | La dimension [Libellé](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/label) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudiopublisher`** | La dimension [Éditeur](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/publisher) des services de streaming multimédia. | varchar(255) |
-| | **`videoaudiostation`** | La dimension [Station](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/station) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videocampaign`** | La dimension [Identifiant de campagne](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/campaign-id) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videochannel`** | La dimension [Canal de contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-channel) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videochapter`** | La dimension [Chapitre](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/chapter) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videocontenttype`** | La dimension [Type de contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-type) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videodaypart`** | La dimension [Partie de la journée](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/day-part) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoepisode`** | La dimension [Épisode](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/episode) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videofeedtype`** | La dimension [Type de flux multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-feed-type) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videogenre`** | La dimension [Genre](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/genre) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit, délimitées par une virgule. | text |
-| **`post_`** | **`videolength`** | La dimension [Longueur du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-length) des services de streaming multimédia. | Entier |
-| **`post_`** | **`videomvpd`** | La dimension [MVPD](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/mvpd) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoname`** | La dimension [Nom du contenu (variable)](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-name) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videonetwork`** | La dimension [Réseau](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/network) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videopath`** | La dimension [Chemin d’accès au contenu multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-path) des services de streaming multimédia. | varchar(100) |
-| **`post_`** | **`videoplayername`** | La dimension [Nom du lecteur de contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-player-name) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoebitrateaverageevar`** | La dimension [Débit moyen](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/average-bitrate) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoebitratechangecountevar`** | La dimension [Modification du débit](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/bitrate-changes) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoebuffercountevar`** | La dimension [Événements de mémoire tampon](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/buffer-events) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoebuffertimeevar`** | La dimension [Durée totale de la mémoire tampon](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoedroppedframecountevar`** | La dimension [Images perdues](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/dropped-frames) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoqoeerrorcountevar`** | La dimension [Erreurs](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/errors) des services de streaming multimédia. | varchar(255) |
-| | **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/external-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
-| **`post_`** | **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
-| **`post_`** | **`videoqoetimetostartevar`** | La dimension [Temps jusqu’au début](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/time-to-start) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoseason`** | La dimension [Saison](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/season) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videosegment`** | La dimension [Segment de contenu](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/content-segment) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videosessionid`** | La dimension [ID de session multimédia](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/media-session-id) Services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoshow`** | La dimension [Afficher](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/show) des services de streaming multimédia. | varchar(255) |
-| **`post_`** | **`videoshowtype`** | La dimension [Afficher le type](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/show-type) des services de streaming multimédia. | varchar(255) |
-| | **`videostreamtype`** | La dimension [Type de flux](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/dimensions/stream-type) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`video`** | La dimension [Contenu](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoad`** | La dimension [Publicité](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoadinpod`** | La dimension [Position de la publicité dans la capsule](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-in-pod-position) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoadlength`** | La dimension [Longueur de la publicité (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-length) des services de streaming multimédia. | entier |
+| **`post_`** | **`videoadname`** | La dimension [Nom de la publicité (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-name) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoadplayername`** | La dimension [Nom du lecteur de publicité](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-player-name) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoadpod`** | La dimension [Capsule publicitaire](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-pod) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoadvertiser`** | La dimension [Annonceur](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/advertiser) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudioalbum`** | La dimension [Album](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/album) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudioartist`** | La dimension [Artiste](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/artist) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudioauthor`** | La dimension [Création](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/author) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudiolabel`** | La dimension [Libellé](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/label) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudiopublisher`** | La dimension [Éditeur](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/publisher) des services de streaming multimédia. | varchar(255) |
+| | **`videoaudiostation`** | La dimension [Station](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/station) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videocampaign`** | La dimension [Identifiant de campagne](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/campaign-id) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videochannel`** | La dimension [Canal de contenu](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videochapter`** | La dimension [Chapitre](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videocontenttype`** | La dimension [Type de contenu](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videodaypart`** | La dimension [Partie de la journée](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoepisode`** | La dimension [Épisode](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videofeedtype`** | La dimension [Type de flux multimédia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videogenre`** | La dimension [Genre](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit, délimitées par une virgule. | text |
+| **`post_`** | **`videolength`** | La dimension [Longueur du contenu (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) des services de streaming multimédia. | Entier |
+| **`post_`** | **`videomvpd`** | La dimension [MVPD](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoname`** | La dimension [Nom du contenu (variable)](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videonetwork`** | La dimension [Réseau](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videopath`** | La dimension [Chemin d’accès au contenu multimédia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path) des services de streaming multimédia. | varchar(100) |
+| **`post_`** | **`videoplayername`** | La dimension [Nom du lecteur de contenu](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoebitrateaverageevar`** | La dimension [Débit moyen](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/average-bitrate) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoebitratechangecountevar`** | La dimension [Modification du débit](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/bitrate-changes) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoebuffercountevar`** | La dimension [Événements de mémoire tampon](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/buffer-events) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoebuffertimeevar`** | La dimension [Durée totale de la mémoire tampon](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/total-buffer-duration) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoedroppedframecountevar`** | La dimension [Images perdues](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/dropped-frames) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoqoeerrorcountevar`** | La dimension [Erreurs](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/errors) des services de streaming multimédia. | varchar(255) |
+| | **`videoqoeextneralerrors`** | La dimension [ID d’erreur externe](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/external-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
+| **`post_`** | **`videoqoeplayersdkerrors`** | La dimension [ID d’erreur du lecteur SDK](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/player-sdk-error-ids) des services de streaming multimédia. Cette dimension autorise plusieurs valeurs dans le même hit. | text |
+| **`post_`** | **`videoqoetimetostartevar`** | La dimension [Temps jusqu’au début](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/time-to-start) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoseason`** | La dimension [Saison](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videosegment`** | La dimension [Segment de contenu](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videosessionid`** | La dimension [ID de session multimédia](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id) Services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoshow`** | La dimension [Afficher](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show) des services de streaming multimédia. | varchar(255) |
+| **`post_`** | **`videoshowtype`** | La dimension [Afficher le type](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type) des services de streaming multimédia. | varchar(255) |
+| | **`videostreamtype`** | La dimension [Type de flux](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type) des services de streaming multimédia. | varchar(255) |
 | **`post_`** | **`visid_high`** | Utilisé en combinaison avec `visid_low` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
 | **`post_`** | **`visid_low`** | Utilisé en combinaison avec `visid_high` pour identifier un visiteur ou une visiteuse de manière unique. | bigint sans signe |
 | | **`visid_new`** | Indicateur pour identifier si le hit contient un identifiant visiteur nouvellement généré. | char(1) |
@@ -307,7 +307,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`visit_ref_domain`** | Basé sur la colonne `visit_referrer`. Le premier domaine référent de la visite. | varchar(100) |
 | | **`visit_ref_type`** | Identifiant numérique, représentant le type de référent du tout premier référent de la visite. Fait référence à la table de recherche `referrer_type.tsv`. | tinyint sans signe |
 | | **`visit_search_engine`** | Identifiant numérique du premier moteur de recherche de la visite. Fait référence à la table de recherche `search_engines.tsv`. | smallint sans signe |
-| | **`visit_start_pagename`** | [&#x200B; Page &#x200B;](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
+| | **`visit_start_pagename`** | [ Page ](/help/components/dimensions/page.md) du premier accès de la visite. | varchar(100) |
 | | **`visit_start_page_url`** | URL du premier accès de la visite. | varchar(255) |
 | | **`visit_start_time_gmt`** | Date et heure (en heure UNIX®) du premier hit de la visite. | int |
 | | **`weekly_visitor`** | Indicateur qui détermine si le hit est un nouveau visiteur ou une nouvelle visiteuse hebdomadaire. | tinyint sans signe |
