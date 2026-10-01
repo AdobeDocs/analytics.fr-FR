@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 71%
@@ -39,7 +39,7 @@ Pour créer de nouveaux domaines et répertoires, procédez comme suit :
 * Configurer des domaines
 * Lier des domaines à des répertoires
 
-Pour obtenir de l’aide[&#128279;](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir  Configuration d’un système d’identités .
+Pour obtenir de l’aide](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html) voir [ Configuration d’un système d’identités .
 
 Si un répertoire a déjà été créé dans une autre organisation par une autre unité opérationnelle ou une autre équipe, suivez les étapes de la section [approbation de répertoire](https://helpx.adobe.com/fr/enterprise/using/set-up-identity.html#Directorytrusting) pour établir le répertoire dans l’organisation que vous utilisez pour Analytics.
 
@@ -49,7 +49,7 @@ Lors de cette procédure, vous serez amené à effectuer les opérations suivant
 
 * Téléchargez une liste de connexion d’utilisateur depuis **[!UICONTROL Analytics]** > **[!UICONTROL Utilisateurs Analytics et Assets]**.
 
-* Téléchargez une liste d’utilisateurs actuels depuis **&#x200B;**&#x200B;> **[!UICONTROL Utilisateurs]**.
+* Téléchargez une liste d’utilisateurs actuels depuis **** > **[!UICONTROL Utilisateurs]**.
 
 * Comparer les listes (rechercher les doublons afin d’éviter d’écraser des données de compte dans Adobe Admin Console).
 * Charger un fichier [!DNL .csv] complet (dans **[!UICONTROL Admin Console]** > **[!UICONTROL Utilisateurs]**) avec les utilisateurs Enterprise ID ou Federated ID dans Adobe Admin Console.
@@ -151,11 +151,11 @@ Si vous devez migrer des comptes d’utilisateur Adobe ID existants vers un Ente
    </tbody> 
    </table>
 
-   Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
+Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
 
-   >[!NOTE]
-   >
-   >D’autres colonnes telles que [!UICONTROL Configurations de produit] et [!UICONTROL Rôles d’administration] peuvent être vides.
+>[!NOTE]
+>
+>D’autres colonnes telles que [!UICONTROL Configurations de produit] et [!UICONTROL Rôles d’administration] peuvent être vides.
 
 1. Chargez le fichier modèle dans l’onglet Utilisateurs d’Adobe Admin Console en cliquant sur **[!UICONTROL Ajouter des utilisateurs par fichier CSV]** (comme indiqué à l’Étape 3).
 1. Dans Analytics, exécutez l’outil de migration (comme décrit dans [Migration des comptes d’utilisateurs Analytics](/help/admin/tools/user-management/user-migration/t-migrate-users.md).

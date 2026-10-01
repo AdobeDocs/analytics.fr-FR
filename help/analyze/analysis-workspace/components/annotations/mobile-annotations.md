@@ -8,35 +8,42 @@ exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
 TQID: https://experienceleague.adobe.com/v-XrDQsKzc7MKVieH-v7P3EBfD37dAgVqSLQFNWQT-Y
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: dee9fe88-97f4-4ee3-915e-9abf8abf2b46
+    internal-label: Project info and settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Insights
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 87%
-
 ---
-
 # Annotations de carte de performance mobile
 
-Vous pouvez afficher les annotations créées dans Analysis Workspace dans les cartes de performance mobiles. Les annotations dans les cartes de performance mobiles vous permettent de partager les nuances et informations des données contextuelles de votre organisation et de vos campagnes.
+Vous pouvez afficher les annotations créées dans Analysis Workspace dans les cartes de performance mobiles. Les annotations dans les cartes de performance mobiles vous permettent de partager des nuances sur les données contextuelles ainsi que des informations sur votre organisation et vos campagnes.
 
 
-## Affichage des annotations dans les cartes de performance mobiles
+## Afficher des annotations dans les cartes de performance mobiles
 
-Pour afficher les annotations dans les cartes de performance mobiles, créez d’abord l’annotation à partir des projets de l’espace de travail ou depuis le menu des composants.
+Pour afficher une annotation dans les cartes de performance mobiles, commencez par la créer à partir des projets Workspace ou du menu des composants.
 
-Pour plus d’informations sur la création d’annotations, consultez [Créer des annotations](create-annotations.md). Les annotations sont désactivées par défaut dans les cartes de performance mobiles et doivent être activées pour chaque carte de performance que vous souhaitez voir figurer dans les cartes de performance mobiles.
+Pour plus d’informations sur la création d’annotations, consultez [Créer des annotations](create-annotations.md). Les annotations sont désactivées par défaut dans les cartes de performance mobiles et doivent être activées pour chaque carte de performance que vous souhaitez afficher.
 
 1. Activez les annotations. Allez à [Activation ou désactivation des annotations](overview.md#turn-annotations-on-or-off) pour les activer.
 
@@ -48,13 +55,13 @@ Pour plus d’informations sur la création d’annotations, consultez [Créer d
 
    Vous avez la possibilité de confirmer que l’option **[!UICONTROL Afficher les annotations]** est sélectionnée dans **[!UICONTROL Projet]** > **[!UICONTROL Informations et paramètres du projet]**.
 
-## Visualiser les annotations dans les cartes de performance mobiles
+## Consulter les annotations dans les cartes de performance mobiles
 
-Lorsque les annotations sont activées, les icônes d’annotation apparaissent dans le créateur de cartes de performance. Les annotations figurent uniquement sur les graphiques et les tableaux dans la vue détaillée. Les annotations ne sont pas visibles lorsque la carte de performance s’affiche sous forme de vignette.
+Lorsque les annotations sont activées, les icônes d’annotation sont visibles dans le Créateur de cartes de performance. Les annotations figurent uniquement sur les graphiques et les tableaux dans la vue détaillée. Les annotations ne sont pas visibles dans la vue principale en mosaïque de la carte de performance.
 
 ![Créateur de cartes de performance mettant en surbrillance les icônes d’annotation.](assets/annotations-scorecard.png)
 
-Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas complètement visualiser ni interagir avec les annotations dans la zone de travail du créateur. Utilisez la **[!UICONTROL prévisualisation]**![PlayCircle](/help/assets/icons/PlayCircle.svg) pour visualiser et interagir avec les annotations telles qu’elles apparaissent dans l’application.
+Lorsque les icônes d’annotation sont visibles, vous ne pouvez pas afficher entièrement les annotations ni interagir avec elles dans la zone de travail du créateur. Utilisez la **[!UICONTROL prévisualisation]**![PlayCircle](/help/assets/icons/PlayCircle.svg) pour visualiser et interagir avec les annotations telles qu’elles apparaissent dans l’application.
 
 Les couleurs d’annotation sont sélectionnées lors de la création de l’annotation dans l’espace de travail. Les annotations en gris indiquent la présence de plusieurs annotations.
 
@@ -96,7 +103,7 @@ When annotations are enabled, annotation icons are visible in the Scorecard Buil
 
  ![](assets/view-annotations.png)
 
-When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **Preview**.
+When annotation icons are visible, you can't fully view or interact with annotations in the builder canvas. Use the Preview mode to view and interact with annotations as they appear in the app ![](/help/assets/icons/Play.svg) **Preview**.
 
 Annotation colors are selected when the annotation is created in workspace. Gray annotations indicated the presence of more than one annotation.
 

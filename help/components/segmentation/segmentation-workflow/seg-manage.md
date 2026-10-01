@@ -6,23 +6,29 @@ exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 TQID: 'https://experienceleague.adobe.com/GkO1lA5ol1y9hs3rUyflyGR-0CwuYo8KYvdEAg-p04Q'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f6053eab-d6c4-429b-b1a9-91ef921d3480
+    internal-label: Segmentation workflow
   - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: '567'
 ht-degree: 16%
-
 ---
-
 # Gérer les segments
 
 
@@ -40,7 +46,7 @@ Vous pouvez [partager](t-seg-share.md), [segment](t-seg-filter.md), [balise](seg
 
 Le gestionnaire de segments comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des segments &#x200B;](assets/segments-manager.png)
+![ Interface des segments ](assets/segments-manager.png)
 
 ### Liste des segments
 
@@ -54,7 +60,7 @@ La liste des segments affiche ➊ tous les segments que vous possédez, les segm
 | **[!UICONTROL Propriétaire]** | Propriétaire du segment. En tant qu’utilisateur, vous ne voyez que les segments que vous possédez ou les annotations qui sont partagées avec vous. |
 | **[!UICONTROL Balises]** | Balises pour ce segment. |
 | **[!UICONTROL Partagé avec]** | Nombre d’individus ou de groupes avec lesquels vous avez partagé le segment. Sélectionnez cette option pour ouvrir la boîte de dialogue **[!UICONTROL Partager le composant]**. Voir [Partager des segments](t-seg-share.md) pour plus d’informations. |
-| **[!UICONTROL Publié]** | Indique si le segment [&#x200B; est publié &#x200B;](seg-publish.md) vers l’expérience client Entreprise. |
+| **[!UICONTROL Publié]** | Indique si le [segment est publié](seg-publish.md) dans CX Enterprise. |
 | **[!UICONTROL Date de modification]** | Date et heure de la dernière modification du segment. |
 
 Utilisez ![Paramètres de colonne](/help/assets/icons/ColumnSetting.svg) pour spécifier les colonnes à afficher.
@@ -100,7 +106,7 @@ The Analytics Segment manager shows you all the segments you own and that have b
 
    Or 
 
-   In an existing report, select the Segments icon ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) in the left navigation, then select **[!UICONTROL Manage]**.
+    In an existing report, select the Segments icon ![](/help/assets/icons/Segmentation.svg) in the left navigation, then select **[!UICONTROL Manage]**.
 
 ## Available actions in the Segment manager
 
@@ -150,6 +156,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=fr) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

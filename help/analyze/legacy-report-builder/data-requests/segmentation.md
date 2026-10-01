@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 988
+source-wordcount: '964'
 ht-degree: 71%
-
 ---
-
 # Gestion des segments
 
 {{legacy-arb}}
@@ -40,20 +45,20 @@ Report Builder dispose d’un panneau de segmentation à l’étape 1 de l’Ass
 >Pour ajouter ou modifier des segments, l’interface de segments du Report Builder lance le Créateur de segments d’Analytics dans une fenêtre Microsoft Internet Explorer. Votre session Report Builder restera active. Les navigateurs autres qu’Internet Explorer ne sont pas pris en charge pour cette opération.
 
 1. Dans le panneau des segments de l’étape 1 de l’Assistant Requête, cliquez sur **[!UICONTROL Ajouter]**.
-1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segment d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](/help/components/segmentation/seg-home.md).
+1. Une fenêtre Internet Explorer se lance et ouvre l’interface du Créateur de segments d’Analytics. Pour plus d’informations sur la création de segments, consultez [Segmentation Analytics](/help/components/segmentation/seg-home.md).
 1. Une fois le segment défini et enregistré, retournez à l’Assistant Requête.
 1. Cliquez sur l’icône Actualiser afin d’actualiser la liste des segments.
 
 >[!IMPORTANT]
 >
->Cette liste est placée en mémoire cache ; le segment nouvellement créé s’affichera uniquement si vous actualisez la page.
+>Cette liste est placée en mémoire cache ; le segment nouvellement créé s’affichera uniquement si vous actualisez la liste.
 
 ## Créer des segments dans le contexte {#section_6DD2C663B2854469AA1075438F907678}
 
-Vous souhaitez peut-être transformer en segments des associations spécifiques de dimensions de rapport. Vous pouvez créer ces segments depuis l’interface du Report Builder. Par exemple, sélectionnez quelques pages depuis une sortie de la requête Page et créez un segment basé sur ces valeurs.
+Vous souhaitez peut-être transformer en segments des associations spécifiques de dimensions de rapport. Vous pouvez créer ces segments depuis l’interface du Report Builder. Par exemple, sélectionnez quelques pages à partir de la sortie de la demande Page et créez un segment basé sur ces valeurs.
 
 1. Sélectionnez les éléments de sortie du rapport que vous souhaitez transformer en segment.
-1. Cliquez avec le bouton droit pour sélectionner **[!UICONTROL Créer un segment dans le contexte dans]** et indiquez le conteneur approprié (Conteneur d’accès, Conteneur de visites, Conteneur de visiteurs).
+1. Cliquez avec le bouton droit pour sélectionner **[!UICONTROL Créer un segment dans le contexte dans]** et indiquez le conteneur approprié (Conteneur de hits, Conteneur de visites, Conteneur de visiteurs).
 
    ![Capture d’écran affichant l’option Créer un segment contextuel dans les options de conteneur sélectionnées et disponibles.](assets/seg_in_context.png)
 
@@ -66,7 +71,7 @@ Vous souhaitez peut-être transformer en segments des associations spécifiques 
 
 ## Recherche et application de segments
 
-Tous les segments qui ont été créés dans Reports &amp; Analytics (désormais en fin de vie), Report Builder ou Data Warehouse apparaissent dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Tous les segments qui ont été créés dans Reports &amp; Analytics (désormais en fin de vie), Report Builder ou Data Warehouse apparaissent dans cette liste de segments. Pour actualiser la liste, cliquez sur l’icône Actualiser ![](/help/assets/icons/Refresh.svg).
 
 Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela inclut les segments séquentiels.
 
@@ -82,25 +87,25 @@ Vous pouvez appliquer un ou plusieurs segments à toute requête donnée. Cela i
 
 ## Filtrer des segments {#filter}
 
-**Filtrer** segments en cliquant sur l’icône Filtrer : ![icône Filtrer](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtrer** segments en cliquant sur l’icône Filtrer : ![icône Filtrer](/help/assets/icons/Filter.svg)
 
 Les filtres disponibles incluent :
 
 | Nom du filtre | Description |
 |---|---|
 | Balises | Permet de filtrer les segments selon des balises spécifiques. Notez que les filtres de type balise utilisent l’opérateur AND. Si vous cochez deux balises, le panneau de droite affiche les segments qui ont été marqués avec **les deux** balises. |
-| Propriétaires | Permet de filtrer les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
+| Propriétaires | Filtre les segments par propriétaire. Notez que les filtres de type propriétaire utilisent l’opérateur OR. Si vous cochez deux propriétaires, le panneau de droite affiche les segments qui sont possédés par **l’un** des propriétaires. |
 | Autres filtres > Uniquement *le nom de la suite de rapports* | Si vous appliquez le filtre « *uniquement le nom de la suite de rapports »* dans le créateur de segments d’Adobe Analytics, puis affichez le filtre avancé dans [!DNL Report Builder], le filtre avancé affichera uniquement le segment de la suite de rapports sélectionnée. |
 | Autres filtres > À moi | Affiche tous les segments que vous possédez. |
 | Autres filtres > Partagés avec moi | Affiche tous les segments que d’autres ont partagés avec vous. |
 | Autres filtres > Favoris | Affiche tous les segments que vous avez marqués comme Favoris. |
 | Autres filtres > Approuvés | Affiche tous les segments officiellement approuvés. |
 
-## Ajouter un contrôle de segments à un classeur {#segment-control}
+## Ajouter un contrôle de segment à un classeur {#segment-control}
 
 L’ajout d’un contrôle de segments vous permet de basculer entre les segments dans un classeur au lieu d’avoir à accéder à l’Assistant Requête.
 
-1. Cliquez sur l’![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) Icône Contrôle en regard de la liste déroulante de segments.
+1. Cliquez sur l’![](/help/assets/icons/Filter.svg) Icône Contrôle en regard de la liste déroulante de segments.
 
 1. Cochez tous les segments que vous souhaitez inclure dans le contrôle de segments ou bien, cochez **[!UICONTROL Sélectionner tout]**.
 
@@ -111,7 +116,7 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
    * Si cette case est cochée, toutes les requêtes qui utilisent ce contrôle sont actualisées.
    * Si elle n’est pas cochée, les paramètres de requête associés sont mis à jour mais les requêtes ne sont pas actualisées.
 
-1. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segments.
+1. Spécifiez l’emplacement de la cellule supérieure gauche du contrôle de segment.
 
 1. Cliquez sur **[!UICONTROL OK]** et le contrôle de segments apparaît à l’emplacement indiqué.
 
@@ -119,7 +124,7 @@ L’ajout d’un contrôle de segments vous permet de basculer entre les segment
 
 ## Actualisation de la liste de segments {#refresh}
 
-Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour actualiser la liste mise en cache de segments.
+Chaque fois que vous ajoutez un nouveau segment ou en modifiez un existant, vous devez cliquer sur l’icône Actualiser ![](/help/assets/icons/Refresh.svg) pour actualiser la liste mise en cache de segments.
 
 ## Gérer les segments à travers les requêtes {#manage}
 
@@ -137,6 +142,6 @@ Dans la version 5.4 du Report Builder, vous pouvez ajouter, supprimer et rempla
    | Option | Description |
    |---|---|
    | Ajouter un segment | Vous permet de choisir un ou plusieurs segments à ajouter à la liste du ou des segments actifs. |
-   | Remplacer les segments | Vous permet de choisir quel(s) segment(s) remplacer par un ou plusieurs segments. |
+   | Remplacer les segments | Vous permet de choisir les segments à remplacer par un ou plusieurs segments. |
    | Remplacer tous les segments par | Vous permet de choisir un ou plusieurs segments à remplacer par le ou les segments actifs. |
    | Supprimer les segments | Vous permet de supprimer les segments des demandes. |
