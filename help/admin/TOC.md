@@ -3,14 +3,12 @@ product: analytics
 audience: admin
 user-guide-title: Guide de lʼadministrateur dʼAnalytics
 breadcrumb-title: Guide de l’administrateur
-user-guide-description: Découvrez les tâches d’administration d’Analytics, telles que la gestion des utilisateurs et des produits dans l’expérience client Enterprise Admin Console, la configuration des suites de rapports, etc.
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+user-guide-description: Découvrez les tâches d’administration d’Analytics, telles que la gestion des utilisateurs et des produits dans CX Enterprise Admin Console, la configuration des suites de rapports, etc.
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 95%
-
 ---
-
 
 # Guide de lʼadministrateur d’Adobe Analytics {#admin}
 
@@ -45,7 +43,7 @@ ht-degree: 95%
         + [Filtres URL internes](tools/manage-rs/edit-settings/general/internal-url-filter-admin.md)
         + [Personnaliser le calendrier](tools/manage-rs/edit-settings/general/custom-calendar.md)
         + Détection de recherche payante {#paid-search-detection}
-          + [Détection de référencement payant - Aperçu](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
+          + [Vue d’ensemble de la détection du référencement payant](tools/manage-rs/edit-settings/general/paid-search-detection/paid-search-detection.md)
           + [Configurer la détection de référencement payant](tools/manage-rs/edit-settings/general/paid-search-detection/t-paid-search-detection.md)
         + Règles de traitement {#processing-rules}
           + [Vue d’ensemble](tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
@@ -63,7 +61,7 @@ ht-degree: 95%
         + [Configuration des horodatages](tools/manage-rs/edit-settings/general/timestamp-configuration.md)
         + Transfert côté serveur {#server-side-forwarding}
           + [Transfert côté serveur - Aperçu](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md)
-          + [Conformité au RGPD et à la directive vie privée et communications électroniques, et transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)
+          + [Conformité au RGPD et au règlement ePrivacy, et transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-gdpr.md)
           + [Conditions requises pour le transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-requirements.md)
           + [Données et référence de code du transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-reference.md)
           + [Comment vérifier l’implémentation du transfert côté serveur](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
@@ -78,11 +76,10 @@ ht-degree: 95%
         + [Classifications des conversions](tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md)
         + Variable de visiteur unique {#unique-visitor-variable}
           + [Définir la variable de visiteur unique](tools/manage-rs/edit-settings/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-          + [Scénario d’utilisation - Extraction d’ID de visiteur](tools/manage-rs/edit-settings/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+          + [Cas d’utilisation - extraction d’ID de visiteur ou visiteuse](tools/manage-rs/edit-settings/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
         + [Événements de succès](tools/manage-rs/edit-settings/conversion-var-admin/c-success-events/success-event.md)
         + [Hiérarchies de classification](tools/manage-rs/edit-settings/conversion-var-admin/classification-hierarchies.md)
         + [Variables de liste](tools/manage-rs/edit-settings/conversion-var-admin/list-var-admin.md)
-        + [eVars de marchandisage](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
       + Canaux marketing {#marketing-channels}
         + [Gestionnaire de canaux marketing](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
         + [Règles de traitement des canaux marketing](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
@@ -141,22 +138,22 @@ ht-degree: 95%
   + Étiquetage de confidentialité {#privacy-labeling}
     + [Vue d’ensemble](tools/privacy-labeling/labeling-overview.md)
     + [Étiquettes relatives à la confidentialité des données pour les composants Analytics](tools/privacy-labeling/labels.md)
-    + [Affichage/gestion des étiquettes de confidentialité de la suite de rapports](tools/privacy-labeling/view-settings.md)
+    + [Affichage et gestion des étiquettes de confidentialité de la suite de rapports](tools/privacy-labeling/view-settings.md)
     + [Bonnes pratiques en matière d’étiquetage](tools/privacy-labeling/best-practices.md)
     + [Exemple d’étiquetage](tools/privacy-labeling/examples.md)
     + [Espaces de noms](tools/privacy-labeling/namespaces.md)
   + Utilisation des appels au serveur {#server-call-usage}
-    + [Utilisation des appels au serveur - Aperçu](tools/server-call-usage/overage-overview.md)
+    + [Vue d’ensemble de l’utilisation des appels au serveur](tools/server-call-usage/overage-overview.md)
     + [Affichage de l’utilisation actuelle des appels au serveur](tools/server-call-usage/server-call-usage-dashboard.md)
-    + [Affichage de l’utilisation des suites de rapports](tools/server-call-usage/report-suite-usage.md)
-    + [Alertes d’utilisation des appels au serveur](tools/server-call-usage/scu-alerts.md)
-    + [FAQ sur l’utilisation des appels au serveur](tools/server-call-usage/overage-faq.md)
-  + Gestion des utilisateurs et utilisatrices et des produits (héritée) {#user-product-management}
-    + [Gestion des utilisateurs et utilisatrices et des produits (héritée)](tools/user-management/user-management.md)
-    + [Gestion des ressources, des expirations et des comptes d’utilisation hérités](tools/user-management/users-assets.md)
+    + [Affichage de l’utilisation de la suite de rapports](tools/server-call-usage/report-suite-usage.md)
+    + [Alertes concernant l’utilisation des appels au serveur](tools/server-call-usage/scu-alerts.md)
+    + [FAQ concernant l’utilisation des appels au serveur](tools/server-call-usage/overage-faq.md)
+  + Gestion des utilisateurs et utilisatrices et des produits (hérité) {#user-product-management}
+    + [Gestion des utilisateurs et utilisatrices et des produits (hérité)](tools/user-management/user-management.md)
+    + [Gérer les comptes, les ressources et les expirations d’utilisateurs et utilisatrices hérités](tools/user-management/users-assets.md)
     + Migrer des utilisateurs et utilisatrices vers Adobe Admin Console {#migrate-users}
       + [Migration des utilisateurs d’Analytics vers l’Admin Console](tools/user-management/user-migration/c-migration-tool.md)
-      + [Migration de comptes d’utilisateurs Analytics sous la forme d’Adobe ID](tools/user-management/user-migration/t-migrate-users.md)
-      + [Migration de comptes d’utilisateurs Analytics sous la forme d’Enterprise ID et de Federated ID](tools/user-management/user-migration/migrate-enterprise.md)
+      + [Migration des comptes utilisateurs Analytics vers des Adobe ID](tools/user-management/user-migration/t-migrate-users.md)
+      + [Migration des comptes d’utilisateurs Analytics avec des Enterprise ID et des ID fédérés](tools/user-management/user-migration/migrate-enterprise.md)
       + [Désactiver les comptes hérités](tools/user-management/user-migration/t-disable-legacy-login.md)
       + [API affectées par la migration](tools/user-management/user-migration/developer.md)

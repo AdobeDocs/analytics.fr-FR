@@ -67,10 +67,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 371cf3de49f5a4a001ae6058e7f6422c23334e39
 workflow-type: tm+mt
-source-wordcount: '4163'
-ht-degree: 78%
+source-wordcount: '4286'
+ht-degree: 75%
 ---
 # Référence des colonnes de données
 
@@ -235,8 +235,8 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | | **`stats_server`** | Inutilisable. Serveur interne d’Adobe qui a traité le hit. | char(30) |
 | **`post_`** | **`s_kwcid`** | Identifiant du mot-clé dans les intégrations Adobe Advertising. | varchar(255) |
 | | **`s_resolution`** | Valeur brute de la résolution de l’écran. Collecté à l’aide de la fonction JavaScript `screen.width x screen.height`. | char(20) |
-| **`post_`** | **`tnt`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests actuellement autorisés. Le format est : `TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`. | text |
-| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Représente tous les tests pour lesquels le hit est qualifié. | text |
+| **`post_`** | **`tnt`** | Utilisée dans les intégrations Adobe Target. Répertorie les activités et expériences Target pour lesquelles le visiteur s’est qualifié. La colonne `post_tnt` conserve les valeurs des accès précédents, comme les eVars. Pour afficher uniquement les activités et les événements de l’accès actuel, utilisez `tnt_action`. Plusieurs entrées sont séparées par des virgules. Chaque entrée utilise le même format que `tnt_action`, mais sans l’identifiant d’événement. | text |
+| **`post_`** | **`tnt_action`** | Utilisée dans les intégrations Adobe Target. Répertorie uniquement les activités et expériences Target pour lesquelles l’accès actuel s’est qualifié, ainsi que les événements associés. Contrairement à `post_tnt`, les valeurs ne persistent pas à partir des accès précédents. Plusieurs entrées sont séparées par des virgules. Chaque entrée utilise l’un des formats suivants :<ul><li>La plupart des activités : `activityID:experienceID:trafficType\|eventID`</li><li>Certaines activités automatisées, telles que le ciblage automatique : `activityID:experienceID:trafficType:algorithmID\|eventID`</li></ul>Les valeurs de l’ID d’algorithme sont internes à Target. Certains événements incluent une valeur, ajoutée en tant que `\|value`. Les identifiants d’événement incluent `0` (entrée d’activité), `1` (visite), `2` (impression) et `32767` (conversion). Si un accès comporte plusieurs événements pour la même activité et la même expérience, chaque événement est une entrée distincte. | text |
 | | **`tnt_instances`** | Utilisée dans les intégrations Adobe Target. Variable d’instances Target. | text |
 | **`post_`** | **`transactionid`** | Identifiant unique dans lequel divers points de données peuvent être chargés ultérieurement par le biais de sources de données. Collecté à l’aide de la variable [`transactionID`](/help/implement/vars/page-vars/transactionid.md). | text |
 | | **`truncated_hit`** | Indicateur signalant que la demande d’image a été tronquée (un accès partiel a été reçu). <br>Y : l’accès a été tronqué ; accès partial reçu <br>N : l’accès n’a pas été tronqué ; accès complet reçu | char(1) |

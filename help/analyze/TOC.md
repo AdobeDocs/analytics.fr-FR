@@ -5,13 +5,11 @@ user-guide-title: Guide sur les outils Analytics
 breadcrumb-title: Guide des outils
 user-guide-description: Découvrez comment utiliser les outils Analytics, notamment Analysis Workspace, les tableaux de bord Analytics, Report Builder, Report Builder hérité et Activity Map.
 index: true
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
-
+source-wordcount: '892'
+ht-degree: 99%
 ---
-
 # Guide sur les outils Adobe Analytics {#analyze}
 
 + [Guide sur les outils Analytics](home.md)
@@ -22,7 +20,7 @@ ht-degree: 100%
   + [Prise en main (par rôle)](get-started/get-started-by-role.md)
   + [Présentation de l’interface Analytics](get-started/analytics-interface.md)
   + [Cas d’utilisation](get-started/use-cases.md)
-  + [Quel outil Adobe Analytics dois-je utiliser ?](get-started/which-analytics-tool.md)
+  + [Quel outil Adobe Analytics dois-je utiliser ?](get-started/which-analytics-tool.md)
   + [Configuration requise et comparaison des produits Analytics](get-started/analytics-product-comparison.md)
   + [Configuration requise](get-started/sys-reqs.md)
 + [Page de destination](landing.md)
@@ -34,6 +32,7 @@ ht-degree: 100%
     + [Créer des projets](analysis-workspace/build-workspace-project/create-projects.md)
     + [Ouvrir des projets](analysis-workspace/build-workspace-project/open-projects.md)
     + [Enregistrer des projets](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc}[Utiliser les résultats mis en cache](analysis-workspace/build-workspace-project/cached-results.md)
     + [Table des matières](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Dossiers dans Workspace {#workspace-folders}
       + [Vue d’ensemble](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
@@ -129,9 +128,9 @@ ht-degree: 100%
     + [Analytics for Target](analysis-workspace/c-panels/a4t-panel.md)
     + [Attribution](analysis-workspace/c-panels/attribution.md)
     + [Tableau à structure libre](analysis-workspace/c-panels/freeform-panel.md)
-    + [Audience moyenne par minute de média](analysis-workspace/c-panels/average-minute-audience-panel.md)
+    + [Audience moyenne par minute pour les médias](analysis-workspace/c-panels/average-minute-audience-panel.md)
     + [Visites simultanées de médias](analysis-workspace/c-panels/media-concurrent-viewers.md)
-    + [Temps de lecture de média](analysis-workspace/c-panels/media-playback-time-spent.md)
+    + [Temps passé en lecture de médias](analysis-workspace/c-panels/media-playback-time-spent.md)
     + [Élément suivant ou précédent](analysis-workspace/c-panels/next-previous.md)
     + [Résumé de la page](analysis-workspace/c-panels/page-summary.md)
     + [Aperçu rapide](analysis-workspace/c-panels/quickinsight.md)
@@ -195,18 +194,18 @@ ht-degree: 100%
   + [Barre d’outils du Report Builder](legacy-report-builder/reportbuilder-toolbar.md)
   + Requêtes de données {#data-requests}
     + [Requêtes de données - Assistant Requête : Étape 1](legacy-report-builder/data-requests/data-requests.md)
-    + [Création d’une requête de données](legacy-report-builder/data-requests/t-create-a-data-request.md)
+    + [Création d’une demande de données](legacy-report-builder/data-requests/t-create-a-data-request.md)
     + Suites de rapports {#report-suites}
       + [Sélectionnez une suite de rapports](legacy-report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-      + [Sélectionnez une suite de rapports à partir d’une requête existante dans Excel.](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
-      + [Localisation d’un identifiant de suite de rapports à l’aide d’Excel](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
+      + [Sélectionner une suite de rapports à partir d’une demande existante dans Excel](legacy-report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+      + [Utiliser Excel pour localiser un identifiant de suite de rapports](legacy-report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
     + [Gestion des segments](legacy-report-builder/data-requests/segmentation.md)
     + Types de rapports {#report-types}
       + [Types de rapports - Vue d’ensemble](legacy-report-builder/data-requests/c-report-types/select-report-types.md)
-      + [Filtrage d’un rapport de cheminement à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/path-filter.md)
+      + [Filtrer un rapport de chemin à l’aide de l’Assistant de demande](legacy-report-builder/data-requests/c-report-types/path-filter.md)
       + [Filtrage d’un rapport sur les abandons à l’aide de l’Assistant Requête](legacy-report-builder/data-requests/c-report-types/fallout-filter.md)
       + [Filtrage des rapports Chemin en ajoutant des requêtes dépendantes](legacy-report-builder/data-requests/c-report-types/create-toppath-filter.md)
-      + [Sélection d’un type de rapport](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
+      + [Sélectionner un type de rapport](legacy-report-builder/data-requests/c-report-types/t-select-report-type.md)
     + [Importation de rapports marqués d’un signet et de mini-rapports de tableau de bord](legacy-report-builder/data-requests/import-bookmarked.md)
     + Périodes {#date-ranges}
       + [Définitions de l’Assistant Requête - Dates préconfigurées](legacy-report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
@@ -217,7 +216,7 @@ ht-degree: 100%
       + [Rapports en temps réel](legacy-report-builder/data-requests/configuring-report-dates/real-time.md)
       + [Configuration d’une requête en temps réel](legacy-report-builder/data-requests/configuring-report-dates/t-real-time.md)
       + Expressions de dates personnalisées {#customized-date-expressions}
-        + [Expressions de dates personnalisées - Aperçu](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
+        + [Expressions de date personnalisées - Vue d’ensemble](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md)
         + [Abréviations des dates](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/date-abbreviations.md)
         + [Dates de début ou de fin individuelles](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/individual-starting-or-ending-dates.md)
         + [Exemples de périodes utilisant des expressions personnalisées](legacy-report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
@@ -232,12 +231,12 @@ ht-degree: 100%
       + [Mesures et dimensions - Aperçu](legacy-report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
       + [Ajout de mesures et de dimensions](legacy-report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
       + [Mesures calculées](legacy-report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
-      + [Association de mesures de trafic et de commerce dans la même requête](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+      + [Association de mesures de trafic et de commerce dans la même demande](legacy-report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
       + [Autorisations d’accès utilisateur pour les dimensions et les mesures](legacy-report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
       + [Modification des mesures - Définition des champs](legacy-report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
       + [Attributs du client](legacy-report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
     + [Détection des anomalies](legacy-report-builder/layout/anomaly-detection.md)
-    + [Configuration d’une requête de détection des anomalies](legacy-report-builder/layout/t-anomaly.md)
+    + [Configuration d’une demande de détection des anomalies](legacy-report-builder/layout/t-anomaly.md)
     + [Mise en forme de la date](legacy-report-builder/layout/format-the-data.md)
     + [Mise en forme des en-têtes d’affichage](legacy-report-builder/layout/t-format-display-headers.md)
     + [Masquage ou affichage des en-têtes](legacy-report-builder/layout/hide-or-show-headers.md)
@@ -253,7 +252,7 @@ ht-degree: 100%
       + [Filtres spécifiques](legacy-report-builder/layout/c-filter-dimensions/t-specific-filters.md)
       + [Filtres enregistrés](legacy-report-builder/layout/c-filter-dimensions/saved-filters.md)
   + Gérer des requêtes {#manage-requests}
-    + [Gestion des requêtes - Définitions](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
+    + [Gérer les demandes - Définitions](legacy-report-builder/manage-requests/r-arb-manage-requests.md)
     + [Messages de diagnostic](legacy-report-builder/manage-requests/diagnostic-messages.md)
     + [Tri croissant ou décroissant](legacy-report-builder/manage-requests/sort-ascending-or-descending.md)
     + [Éléments de feuilles de calcul protégés](legacy-report-builder/manage-requests/protected-worksheet-elements.md)
@@ -269,7 +268,7 @@ ht-degree: 100%
       + [Copie de requêtes adjacentes](legacy-report-builder/manage-requests/c-copy-requests/copy-adjacent-requests.md)
       + [Copie de feuilles de calcul](legacy-report-builder/manage-requests/c-copy-requests/t-copy-worksheets.md)
       + [Copie de requêtes et de feuilles de calcul entre des classeurs](legacy-report-builder/manage-requests/c-copy-requests/t-copy-requests-and-worksheets-between-workbooks.md)
-      + [Création de plusieurs copies d’une requête](legacy-report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
+      + [Créer plusieurs copies d’une demande](legacy-report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
       + [Copie de requêtes référentielles](legacy-report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
     + [Enregistrement d’un classeur avec requêtes](legacy-report-builder/manage-requests/save-a-workbook-with-requests.md)
     + [Définition d’une mise en forme conditionnelle](legacy-report-builder/manage-requests/specify-conditional-formatting.md)
@@ -283,11 +282,11 @@ ht-degree: 100%
     + [Téléchargement d’un classeur](legacy-report-builder/workbook-library/t-download-a-workbook.md)
     + [Verrouillez/déverrouillez des classeurs](legacy-report-builder/workbook-library/protect-wb.md)
     + [Planification de classeurs prenant en charge les macros](legacy-report-builder/workbook-library/schedule-macro-wb.md)
-  + Publier sur Power BI à l’aide de Report Builder version 5.5 {#publish-powerbi}
-    + [Publication sur Power BI - Aperçu](legacy-report-builder/c-publish-power-bi/power-bi.md)
+  + Publier sur Power BI avec Report Builder 5.5 {#publish-powerbi}
+    + [Publier sur Power BI - Vue d’ensemble](legacy-report-builder/c-publish-power-bi/power-bi.md)
     + [Limitations et spécifications](legacy-report-builder/c-publish-power-bi/specifications-limits.md)
     + [Importation manuelle de données dans Power BI](legacy-report-builder/c-publish-power-bi/bi-manually-import-data.md)
-    + [Extraction des éléments publiés dans Power BI Desktop](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
+    + [Importer les ressources publiées dans Power BI Bureau](legacy-report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
     + [Bonnes pratiques](legacy-report-builder/c-publish-power-bi/bi-best-practices.md)
     + [Dépannage de l’intégration de Power BI](legacy-report-builder/c-publish-power-bi/troubleshooting.md)
     + [Packs de contenu Adobe Analytics pour Power BI](legacy-report-builder/c-publish-power-bi/integration-power-bi.md)
@@ -305,10 +304,10 @@ ht-degree: 100%
   + [Résolution des problèmes](activity-map/troubleshooting.md)
   + [FAQ](activity-map/faq.md)
 + Tableaux de bord Adobe Analytics {#mobapp}
-  + [Tableaux de bord Adobe Analytics - Vue d’ensemble](mobile-app/home.md)
+  + [Tableaux de bord Adobe Analytics - Vue d’ensemble](mobile-app/home.md)
   + [Présentation du curateur](mobile-app/curator.md)
   + [Création dʼune carte de performance mobile](mobile-app/create-scorecard.md)
-  + [Préparation des utilisateurs en charge de lʼexécution à lʼutilisation des tableaux de bord](mobile-app/set-up-execs.md)
-  + [Guide pour une prise en main rapide destiné aux utilisateurs en charge de l’exécution](mobile-app/executive.md)
+  + [Configurer les cadres dirigeants pour utiliser les tableaux de bord](mobile-app/set-up-execs.md)
+  + [Guide de démarrage rapide pour les cadres dirigeants](mobile-app/executive.md)
 + [Labs](labs.md)
 

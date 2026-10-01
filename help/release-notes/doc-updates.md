@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '7522'
-ht-degree: 92%
+source-wordcount: '7553'
+ht-degree: 91%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
 
@@ -77,6 +77,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | --- | --- |
 | **Septembre 2026** | |
 | Comparaison de la zone de travail de parcours sur les flèches et les abandons | Mise à jour du paramètre [!UICONTROL Comparer à] dans [Configurer une visualisation de zone de travail de Parcours &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) afin d’afficher le pourcentage de changement entre les périodes sur chaque nœud, flèche et abandon du parcours. |
+| eVars de marchandisage | Refonte et consolidation de la documentation des variables de marchandisage dans les composants appropriés :<ul><li>[Dimension eVar (marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide des composants</li><li>Variable [eVar (marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’implémentation</li><li>[Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur</li></ul> |
 | Nouvelles actions de raccourci de redimensionnement | Les nouveaux raccourcis clavier d’Analysis Workspace vous permettent désormais de [redimensionner un panneau ou une visualisation](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) qu’il soit plus large, plus étroit, plus grand ou plus court. |
 | [API de collecte de données &#x200B;](https://developer.adobe.com/analytics-collection-apis/) | Nouveau référentiel de développeur qui regroupe et modernise les stratégies de collecte de données pour Adobe Analytics sans utiliser AppMeasurement ou les balises. |
 | **août 2026** | |
@@ -317,7 +318,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | 5 août 2021 | Mise à jour de la documentation sur les classifications au sujet des [modèles](/help/components/classifications/importer/c-download-saint-data.md), de l’[importation du navigateur](/help/components/classifications/importer/browser-import.md) et de l’[exportation du navigateur](/help/components/classifications/importer/browser-export.md) afin d’indiquer les options non disponibles pour les suites de rapports activées pour la nouvelle architecture de classification. |
 | 2 août 2021 | Mise à jour de plusieurs pages pour refléter le changement de nom d’[Adobe Experience Platform Launch](/help/implement/launch/overview.md). |
 | **Juillet 2021** |  |
-| 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md). |
+| 23 juillet 2021 | Nouvelle discussion approfondie sur les [eVars de marchandisage](/help/components/dimensions/evar-merchandising.md). |
 | 15 juillet 2021 | Ajout d’une nouvelle documentation sur la nouvelle [page de destination d’Adobe Analytics](/help/analyze/landing.md). |
 | **Juin 2021** |  |
 | 15 juin 2021 | Mise à jour des [Bonnes pratiques relatives aux canaux marketing](/help/components/c-marketing-channels/mchannel-best-practices.md). |

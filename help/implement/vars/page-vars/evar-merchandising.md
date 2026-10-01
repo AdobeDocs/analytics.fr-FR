@@ -29,20 +29,25 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 29%
 ---
 # eVar (marchandisage)
 
 >[!BEGINSHADEBOX]
 
-*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVars (dimensions de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants.*
+*Cette page d’aide décrit comment implémenter des eVars de marchandisage. Pour plus d’informations sur le fonctionnement des eVars de marchandisage en tant que dimension, consultez [eVar (Dimension de marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide d’utilisation Composants*.
 
 >[!ENDSHADEBOX]
 
-Pour obtenir des informations détaillées sur le fonctionnement des eVars de marchandisage, consultez la page [eVars de marchandisage et méthodes de recherche de produit](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
+Les eVars de marchandisage lient une valeur à des produits individuels, de sorte que les événements de succès impliquant chaque produit soient crédités à la valeur liée à ce produit. Vous pouvez définir la valeur de l’une des deux façons suivantes :
+
+* **[!UICONTROL Syntaxe du produit]** : définissez la valeur de chaque produit dans la variable [`products`](products.md).
+* **[!UICONTROL Syntaxe de la variable de conversion]** : définissez la valeur dans l’eVar lui-même. La valeur se lie aux produits sur un accès contenant un événement de liaison.
+
+Pour connaître le fonctionnement de la liaison, de l’attribution et de l’expiration, consultez [eVar (dimension de marchandisage)](/help/components/dimensions/evar-merchandising.md).
 
 ## Configurer des eVars dans les paramètres de la suite de rapports
 
@@ -52,9 +57,21 @@ Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer l�
 >
 >Une configuration incorrecte des eVars de marchandisage entraîne des valeurs inattendues ou une perte de données pour la variable. Veillez à ce qu’elles soient correctement configurées pour votre implémentation.
 
+## Choisir une syntaxe
+
+Utilisez [!UICONTROL &#x200B; Syntaxe du produit &#x200B;] lorsque la valeur de marchandisage est disponible au moment où vous définissez la variable de `products` ou lorsque les produits d’un même accès ont besoin de valeurs différentes. Utilisez [!UICONTROL &#x200B; Syntaxe de la variable de conversion &#x200B;] lorsque la valeur est connue avant le produit, par exemple le terme de recherche ou la campagne interne qui a amené le visiteur au produit. Pour une comparaison complète[&#128279;](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work) consultez la section  Fonctionnement de la liaison et de l’affectation .
+
 ## Mise en œuvre à l’aide de la syntaxe du produit
 
-Lorsque le paramètre « Syntaxe du produit » est activé, la catégorie de marchandisage est directement remplie dans la variable `products`. La sélection et la définition d’un événement de liaison ne sont donc pas requises. Il est vivement conseillé d’utiliser cette méthode, à moins que la valeur ne soit pas disponible pour être définie dans la variable `products` lorsque l’événement de succès se produit.
+Lorsque la [!UICONTROL syntaxe du produit] est activée, la valeur de marchandisage est définie directement dans la variable `products`, de sorte que les événements de liaison ne sont pas utilisés. Les eVars de marchandisage se trouvent dans le dernier segment de chaque produit :
+
+```js
+s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
+```
+
+Délimitez plusieurs eVars de marchandisage sur le même produit avec une barre verticale (`|`). Les espaces réservés vides pour la quantité, le chiffre d’affaires et les événements sont requis même si vous ne les utilisez pas. Sans eux, la valeur eVar est ignorée.
+
+La valeur est liée au produit sur cet accès. Le remplacement d’une liaison existante par une valeur ultérieure dépend du paramètre [!UICONTROL Allocation]. Voir [Fonctionnement de la liaison et de l’affectation](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -63,11 +80,9 @@ s.products = ";Example product;;;;eVar1=Example merchandising value";
 // An example single product with product syntax
 s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 
-// Tie a merchandising eVar to a different values on two different products
+// Tie a merchandising eVar to different values on two different products
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
-
-La valeur pour `eVar1` est affectée au produit. Tous les événements de succès suivants qui impliquent ce produit sont crédités à la valeur eVar.
 
 ### Syntaxe de produit utilisant le SDK Web
 
@@ -113,13 +128,27 @@ L’exemple suivant illustre un seul [produit](products.md) utilisant plusieurs 
 
 L’exemple d’objet ci-dessus serait envoyé à Adobe Analytics en tant que `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), le marchandisage eVar utilise `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` syntaxe AppMeasurement suivante.
+Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les eVars de marchandisage de syntaxe de produit sont définies dans `data.__adobe.analytics.products`, en utilisant la même syntaxe que la variable de `products` AppMeasurement. Équivalent de l’objet de données de l’exemple XDM ci-dessus :
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "products": ";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"
+    }
+  }
+}
+```
 
 ## Mise en œuvre à l’aide de la syntaxe de variable de conversion
 
-La syntaxe de la variable de conversion est utilisée lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page ne contient aucune information contextuelle sur le canal de marchandisage ou la méthode de recherche. Dans ce cas, vous devez définir la variable de merchandising avant d’arriver à la page produit et la valeur persiste jusqu’à l’événement de liaison.
+Utilisez [!UICONTROL &#x200B; Syntaxe de la variable de conversion &#x200B;] lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page de produit ne comporte aucun contexte du canal de marchandisage ou de la méthode de recherche. Dans ce cas, définissez l’eVar de marchandisage sur ou avant la page sur laquelle l’événement de liaison se produit. La valeur persiste jusqu’à son expiration ou jusqu’à ce qu’elle soit remplacée par une nouvelle valeur.
 
-Lorsque l’événement de liaison sélectionné en cours de configuration se produit, la valeur persistante de l’eVar est associée au produit. Par exemple, si `prodView` est spécifié en tant qu’événement de liaison, la catégorie de marchandisage n’est liée à la liste des produits en cours qu’au moment où l’événement se produit. Seuls les événements de liaison ultérieurs pourront mettre à jour une eVar de marchandisage qui a déjà été affectée à un produit.
+Lorsqu’un accès contient à la fois la variable `products` et un [!UICONTROL événement de liaison de marchandisage] sélectionné, la valeur actuelle d’eVar se lie à chaque produit de cet accès. Définir eVar avec un produit sans événement de liaison ne lie pas la valeur. Le remplacement d’une liaison existante par une liaison ultérieure dépend du paramètre [!UICONTROL Allocation]. Voir [Fonctionnement de la liaison et de l’affectation](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
+
+Pour obtenir un exemple qui définit plusieurs eVars de méthode de recherche de produit à la fois, consultez [Bonne pratique : méthodes de recherche de produit](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods).
+
+L’exemple suivant définit une eVar de marchandisage avant l’événement de liaison :
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -130,14 +159,16 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-La valeur `"Aviary"` pour `eVar1` est affectée au produit `"Canary"`. Tous les événements de succès ultérieurs qui impliquent ce produit sont crédités à `"Canary"`. De plus, la valeur actuelle de la variable de marchandisage sera associée à tous les produits ultérieurs, jusqu’à ce que l’une des conditions suivantes soit remplie :
+Si [!UICONTROL Événement d’affichage du produit] est un événement de liaison, la valeur `"Aviary"` pour `eVar1` est liée au `"Canary"` du produit. Les événements de succès suivants impliquant ce produit sont crédités à `"Aviary"`. La valeur `"Aviary"` se lie également aux produits lors des accès ultérieurs qui contiennent un événement de liaison, jusqu’à ce que l’une des conditions suivantes soit remplie :
 
-* L’eVar expire (en fonction du paramètre « Expire après »).
+* L’eVar arrive à expiration (en fonction du paramètre [!UICONTROL Expire après]).
 * L’eVar de marchandisage est remplacée par une nouvelle valeur.
 
 ### Syntaxe des variables de conversion utilisant le SDK Web
 
-Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la syntaxe fonctionne de la même manière que l’implémentation d’autres [eVars](evar.md) et [events](events/events-overview.md). La mise en miroir XDM de l’exemple ci-dessus ressemblerait à ce qui suit :
+Si vous utilisez l’objet [**XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la syntaxe fonctionne de la même manière que l’implémentation d’autres [eVars](evar.md) et [events](events/events-overview.md). Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), la syntaxe suit AppMeasurement.
+
+La mise en miroir XDM de l’exemple AppMeasurement ci-dessus se présenterait comme suit.
 
 Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
 
@@ -168,7 +199,7 @@ Définissez l’événement de liaison et les valeurs de la chaîne des produits
 ]
 ```
 
-Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-mapping.md), les objets de données reflétant l’exemple ci-dessus ressembleraient à ce qui suit :
+Les objets de données reflétant l’exemple d’AppMeasurement ci-dessus ressembleraient à ce qui suit.
 
 Définissez l’eVar sur le même appel d’événement ou l’appel d’événement précédent :
 
@@ -194,3 +225,4 @@ Définissez l’événement de liaison et les valeurs de la chaîne des produits
   }
 }
 ```
+
