@@ -51,7 +51,7 @@ Les eVars de marchandisage ne fonctionnent qu’avec la variable [`products`](/h
 
 >[!TIP]
 >
->Pour lier des valeurs persistantes à une dimension autre que des produits, pensez à utiliser la [[!UICONTROL Liaison de dimensions]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) dans Customer Journey Analytics.
+>Pour lier des valeurs persistantes à une dimension autre que des produits, pensez à utiliser la [[!UICONTROL Liaison de dimensions]](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) dans Customer Journey Analytics.
 
 ## Pourquoi utiliser des eVars de marchandisage ?
 
