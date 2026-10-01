@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2047'
 ht-degree: 89%
 ---
 # Partager des projets {#share-projects}
@@ -96,7 +96,7 @@ Lorsque vous partagez un rôle de projet spécifique avec des utilisateurs et ut
 
 * Dans Adobe Analytics, les groupes sont définis par profils de produit dans l’Admin Console [Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=fr). Les administrateurs et administratrices peuvent partager des projets avec n’importe quel groupe, y compris « Tous ». Les personnes ne disposant pas de droit d’administration peuvent partager des projets avec des groupes dont elles sont membres, à l’exception de « Tous ».
 
-* Si un utilisateur ou une utilisatrice reçoit plusieurs rôles, le rôle le plus élevé s’applique. Cela peut se produire si la personne est ajoutée à la fois en tant qu’individu et en tant que membre d’un groupe. Par exemple, si une personne reçoit le rôle **[!UICONTROL Modifier l’original]** en tant que personne individuelle et le rôle **[!UICONTROL Lecture seule]** en tant que personne membre d’un groupe, elle recevra une expérience de projet **[!UICONTROL Modifier l’original]**.
+* Si un utilisateur ou une utilisatrice reçoit plusieurs rôles, le rôle le plus élevé s’applique. Cela peut se produire si la personne est ajouté à la fois en tant que personne individuelle et en tant que membre d’un groupe. Par exemple, si une personne reçoit le rôle **[!UICONTROL Modifier l’original]** en tant que personne individuelle et le rôle **[!UICONTROL Lecture seule]** en tant que personne membre d’un groupe, elle recevra une expérience de projet **[!UICONTROL Modifier l’original]**.
 
 * Les administrateurs et administratrices se voyant attribuer un rôle **[!UICONTROL Modifier la copie]** ou **[!UICONTROL Lecture seule]** bénéficient de ces expériences limitées lorsqu’ils ouvrent un projet. Une personne chargée de l’administration peut remplacer son rôle pour **[!UICONTROL Modifier l’original]** en partageant le projet avec elle-même, puis en accordant le rôle **Modifier**, comme décrit dans la procédure suivante.
 
@@ -222,13 +222,13 @@ Pour partager un projet Analysis Workspace avec des personnes qui n’ont pas a
 
      * Si cette option est activée et grisée, votre administrateur ou administratrice Analytics requiert l’authentification CX Enterprise pour toute personne accédant aux projets Analysis Workspace.
 
-1. En regard du champ **[!UICONTROL Partager avec tout le monde (pas de connexion nécessaire)]**, cliquez sur l’icône **Copier le lien** ![icône Copier le lien](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) pour copier le lien dans le presse-papiers de votre système.
+1. En regard du champ **[!UICONTROL Partager avec tout le monde (pas de connexion nécessaire)]**, cliquez sur l’icône **Copier le lien** ![icône Copier le lien](/help/assets/icons/Link.svg) pour copier le lien dans le presse-papiers de votre système.
 
 1. Partagez le lien avec les personnes que vous souhaitez voir accéder au projet. Par exemple, vous pouvez coller le lien dans un e-mail.
 
    Toute personne avec laquelle vous partagez le lien peut visualiser le projet Analysis Workspace.
 
-1. (Facultatif) Vous pouvez cliquer sur l’icône **Générer un lien** ![&#x200B; icône Générer un lien](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) pour supprimer l’accès des personnes qui ont précédemment reçu un lien vers le projet. Un nouveau lien est généré, que vous pouvez partager avec les personnes que vous souhaitez voir accéder au projet.
+1. (Facultatif) Vous pouvez cliquer sur l’icône **Générer un lien** ![&#x200B; icône Générer un lien](/help/assets/icons/Refresh.svg) pour supprimer l’accès des personnes qui ont précédemment reçu un lien vers le projet. Un nouveau lien est généré, que vous pouvez partager avec les personnes que vous souhaitez voir accéder au projet.
 
 1. Sélectionnez **[!UICONTROL Fermer]** pour fermer la boîte de dialogue de partage. Vos modifications sont automatiquement enregistrées.
 

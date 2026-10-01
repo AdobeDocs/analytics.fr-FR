@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '720'
 ht-degree: 100%
 ---
 # Créer et gérer des modèles
@@ -114,7 +114,7 @@ Les administrateurs et administratrices peuvent renommer, baliser et approuver l
 
    Une liste des modèles d’entreprise s’affiche. Aucun projet standard ne s’affiche sauf ceux épinglés.
 
-   Les modèles d’entreprise peuvent être identifiés par l’![icône de modèles](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) qui précède le nom du modèle.
+   Les modèles d’entreprise peuvent être identifiés par l’![icône de modèles](/help/assets/icons/FileTemplate.svg) qui précède le nom du modèle.
 
    ![Affichage des filtres des modèles d’entreprise](assets/company-templates-filter.png)
 

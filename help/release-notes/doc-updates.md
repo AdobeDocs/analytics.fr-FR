@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7553'
+source-wordcount: '7551'
 ht-degree: 91%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
@@ -223,7 +223,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Mai 2023** | |
 | Documentation des liens profonds (application mobile) | Permet aux utilisateurs et utilisatrices d’envoyer des liens vers des cartes de performance qui les dirigeront directement vers le projet de cartes de performance dans l’application. [En savoir plus](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentation concernant la mise à jour de l’écran d’accueil pour l’application de tableaux de bord Analytics (application mobile) | Le nouvel écran d’accueil mis à jour vous permet d’afficher toutes vos cartes de performances dans une seule liste consolidée. [En savoir plus](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Icônes de spectre | Remplacement des captures d’écran des icônes de l’interface utilisateur dans la documentation par leurs homologues du [Système de conception du spectre d’Adobe](https://spectrum.adobe.com/page/icons/). |
+| Icônes de spectre | Remplacement des captures d&#39;écran des icônes de l&#39;interface utilisateur dans la documentation par leurs références aux icônes réelles dans le [Système de conception du spectre d&#39;](https://spectrum.adobe.com). |
 | Gestionnaire des activités de rapport | Mise à jour de la documentation Beta, en particulier la section sur l’[Affichage de l’activité de création de rapports pour les suites de rapports individuelles](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
 | Vue d’ensemble d’Analysis Workspace | Mise à jour de la [vue d’ensemble d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) pour inclure des informations d’aperçu plus générales et des liens vers le contenu approprié. |
 | Créer des projets | Création d’un article qui explique en détail comment [créer des projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) dans Analysis Workspace. |

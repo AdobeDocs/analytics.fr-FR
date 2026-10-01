@@ -8,29 +8,40 @@ exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Customer engagement
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 908
+source-wordcount: '902'
 ht-degree: 92%
-
 ---
-
 # Paramètres des colonnes
 
 Grâce aux [!UICONTROL paramètres des colonnes], vous pouvez configurer la mise en forme des colonnes, dont certains éléments peuvent être conditionnels.
@@ -43,7 +54,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Paramètres des
 >[!ENDSHADEBOX]
 
 
-Pour accéder aux [!UICONTROL Paramètres des colonnes], sélectionnez ![Paramètres des colonnes](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) dans l’en-tête de colonne.
+Pour accéder aux [!UICONTROL Paramètres des colonnes], sélectionnez ![Paramètres des colonnes](/help/assets/icons/Setting.svg) dans l’en-tête de colonne.
 
 ![Paramètres des colonnes](assets/column-settings.png)
 
@@ -54,7 +65,7 @@ Vous pouvez modifier les paramètres pour plusieurs colonnes à la fois. Sélect
 | --- | --- |
 | **[!UICONTROL Afficher le total]** | Affichez une somme côté client de la colonne. Ce total ne déduplique **pas** les mesures telles que les sessions ou les personnes. |
 | **[!UICONTROL Afficher le total général]** | Affichez une somme côté serveur de la colonne. Le total général déduplique les mesures telles que les sessions ou les personnes. |
-| **[!UICONTROL Afficher les graphiques sparkline]** | Affichez un graphique en courbes dans l’en-tête des colonnes. |
+| **[!UICONTROL Afficher les graphiques sparkline]** | Afficher un graphique linéaire dans l’en-tête de colonne. |
 | **[!UICONTROL Nombre]** | Déterminez si une cellule affiche/masque la valeur numérique pour la mesure. Par exemple, si la mesure est Pages vues, la valeur numérique correspond au nombre de pages vues pour l’élément de ligne. |
 | **[!UICONTROL Percent]** | Déterminez si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne.  Remarque : des pourcentages supérieurs à 100 % sont possibles pour garantir l’exactitude. La limite supérieure peut passer à 1 000 % pour éviter que la largeur des colonnes ne devienne trop grande. |
 | **[!UICONTROL Afficher les anomalies]** | Déterminez si la détection des anomalies est exécutée sur les valeurs de cette colonne. |
@@ -75,10 +86,10 @@ La mise en forme conditionnelle applique la mise en forme aux limites supérieur
 
 | Options de mise en forme conditionnelle | Description |
 | --- | --- |
-| **[!UICONTROL Utiliser des limites en pourcentage]** | Modifiez la plage de limites pour qu’elle soit basée sur des pourcentages plutôt que sur des valeurs absolues. La plage de limites en pourcentage fonctionne avec les mesures qui reposent uniquement sur des pourcentages (comme Taux de rebond) et celles qui reposent sur un nombre et un pourcentage (comme Pages vues). |
+| **[!UICONTROL Utiliser des limites en pourcentage]** | Modifiez la plage de limites pour qu’elle soit basée sur des pourcentages plutôt que sur des valeurs absolues. La plage de limites en pourcentage fonctionne pour les mesures exprimées uniquement en pourcentages (comme Taux de rebond) et celles qui comportent un nombre et un pourcentage (comme Pages vues). |
 | **[!UICONTROL Génération automatique]** | Calculer automatiquement les limites hautes/moyennes/basses en fonction des données. La limite supérieure est la valeur la plus élevée de cette colonne. La limite inférieure est la valeur la plus faible et la valeur moyenne est la moyenne entre les limites supérieure et inférieure. |
 | **[!UICONTROL Personnalisé]** | Attribuez manuellement les valeurs **[!UICONTROL Limite supérieure]**, **[!UICONTROL Milieu]** et **[!UICONTROL Limite inférieure]**. Vous disposez grâce aux limites de la flexibilité nécessaire pour déterminer si la valeur d’une colonne devient bonne, moyenne ou mauvaise. |
-| **[!UICONTROL Palette de mise en forme conditionnelle]** | Appliquez un jeu de couleurs préconfiguré aux cellules. En fonction des quatre modèles de couleurs disponibles que vous sélectionnez, différentes couleurs sont attribuées aux valeurs élevées, aux valeurs intermédiaires et aux valeurs faibles. <br> Le remplacement d’une dimension dans le tableau réinitialise les limites de mise en forme conditionnelle. Le remplacement d’une mesure recalcule les limites de cette colonne (lorsqu’une mesure se trouve sur l’axe des abscisses et une dimension sur l’axe des ordonnées). |
+| **[!UICONTROL Palette de mise en forme conditionnelle]** | Appliquer un ensemble de couleurs préconfiguré aux cellules. En fonction des quatre modèles de couleurs disponibles que vous sélectionnez, différentes couleurs sont attribuées aux valeurs élevées, aux valeurs intermédiaires et aux valeurs faibles. <br> Le remplacement d’une dimension dans le tableau réinitialise les limites de mise en forme conditionnelle. Le remplacement d’une mesure recalcule les limites de cette colonne (lorsqu’une mesure se trouve sur l’axe des abscisses et une dimension sur l’axe des ordonnées). |
 
 ## Utiliser un modèle d’attribution différent du modèle par défaut {#use-non-default-attribution-model}
 

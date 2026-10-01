@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 71%
@@ -151,11 +151,11 @@ Si vous devez migrer des comptes d’utilisateur Adobe ID existants vers un Ente
    </tbody> 
    </table>
 
-   Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
+Pour plus d’informations sur les champs du fichier [!DNL .csv], voir [Format du fichier CSV](https://helpx.adobe.com/fr/enterprise/using/users.html)
 
-   >[!NOTE]
-   >
-   >D’autres colonnes telles que [!UICONTROL Configurations de produit] et [!UICONTROL Rôles d’administration] peuvent être vides.
+>[!NOTE]
+>
+>D’autres colonnes telles que [!UICONTROL Configurations de produit] et [!UICONTROL Rôles d’administration] peuvent être vides.
 
 1. Chargez le fichier modèle dans l’onglet Utilisateurs d’Adobe Admin Console en cliquant sur **[!UICONTROL Ajouter des utilisateurs par fichier CSV]** (comme indiqué à l’Étape 3).
 1. Dans Analytics, exécutez l’outil de migration (comme décrit dans [Migration des comptes d’utilisateurs Analytics](/help/admin/tools/user-management/user-migration/t-migrate-users.md).
