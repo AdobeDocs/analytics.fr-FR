@@ -65,7 +65,7 @@ Avant le passage en caisse, le client recherche des `"winter coat"`, puis ajoute
 
 ![Exemple de manteau](assets/merch-example-coat.png)
 
-Lorsque le visiteur effectue cet achat, le terme de recherche interne `"winter coat"` est crédité pour l’ensemble de la commande, y compris les lunettes, car il s’agit de la valeur la plus récente d’eVar (affectation par défaut de [!UICONTROL  Le dernier ]). Le terme de recherche `"goggles"` ne reçoit aucun crédit, même s’il a conduit à une partie de l’achat :
+Lorsque le visiteur effectue cet achat, le terme de recherche interne `"winter coat"` est crédité pour l’ensemble de la commande, y compris les lunettes, car il s’agit de la valeur la plus récente d’eVar (affectation par défaut de [!UICONTROL &#x200B; Le dernier &#x200B;]). Le terme de recherche `"goggles"` ne reçoit aucun crédit, même s’il a conduit à une partie de l’achat :
 
 | Terme de recherche interne | Recettes |
 | --- | --- |

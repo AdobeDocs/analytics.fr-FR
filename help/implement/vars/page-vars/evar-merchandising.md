@@ -59,7 +59,7 @@ Avant d’utiliser des eVars dans votre mise en œuvre, veillez à configurer l�
 
 ## Choisir une syntaxe
 
-Utilisez [!UICONTROL  Syntaxe du produit ] lorsque la valeur de marchandisage est disponible au moment où vous définissez la variable de `products` ou lorsque les produits d’un même accès ont besoin de valeurs différentes. Utilisez [!UICONTROL  Syntaxe de la variable de conversion ] lorsque la valeur est connue avant le produit, par exemple le terme de recherche ou la campagne interne qui a amené le visiteur au produit. Pour une comparaison complète](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work) consultez la section [ Fonctionnement de la liaison et de l’affectation .
+Utilisez [!UICONTROL &#x200B; Syntaxe du produit &#x200B;] lorsque la valeur de marchandisage est disponible au moment où vous définissez la variable de `products` ou lorsque les produits d’un même accès ont besoin de valeurs différentes. Utilisez [!UICONTROL &#x200B; Syntaxe de la variable de conversion &#x200B;] lorsque la valeur est connue avant le produit, par exemple le terme de recherche ou la campagne interne qui a amené le visiteur au produit. Pour une comparaison complète[&#128279;](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work) consultez la section  Fonctionnement de la liaison et de l’affectation .
 
 ## Mise en œuvre à l’aide de la syntaxe du produit
 
@@ -142,7 +142,7 @@ Si vous utilisez l’[**objet de données**](/help/implement/aep-edge/data-var-m
 
 ## Mise en œuvre à l’aide de la syntaxe de variable de conversion
 
-Utilisez [!UICONTROL  Syntaxe de la variable de conversion ] lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page de produit ne comporte aucun contexte du canal de marchandisage ou de la méthode de recherche. Dans ce cas, définissez l’eVar de marchandisage sur ou avant la page sur laquelle l’événement de liaison se produit. La valeur persiste jusqu’à son expiration ou jusqu’à ce qu’elle soit remplacée par une nouvelle valeur.
+Utilisez [!UICONTROL &#x200B; Syntaxe de la variable de conversion &#x200B;] lorsque la valeur eVar n’est pas disponible pour être définie dans la variable `products`. Ce scénario signifie généralement que votre page de produit ne comporte aucun contexte du canal de marchandisage ou de la méthode de recherche. Dans ce cas, définissez l’eVar de marchandisage sur ou avant la page sur laquelle l’événement de liaison se produit. La valeur persiste jusqu’à son expiration ou jusqu’à ce qu’elle soit remplacée par une nouvelle valeur.
 
 Lorsqu’un accès contient à la fois la variable `products` et un [!UICONTROL événement de liaison de marchandisage] sélectionné, la valeur actuelle d’eVar se lie à chaque produit de cet accès. Définir eVar avec un produit sans événement de liaison ne lie pas la valeur. Le remplacement d’une liaison existante par une liaison ultérieure dépend du paramètre [!UICONTROL Allocation]. Voir [Fonctionnement de la liaison et de l’affectation](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
 
