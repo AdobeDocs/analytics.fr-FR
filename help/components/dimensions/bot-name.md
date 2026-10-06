@@ -31,23 +31,25 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 11%
+source-wordcount: '265'
+ht-degree: 10%
 ---
 # Nom du robot
 
 La [dimension](overview.md) « Nom des robots » affiche les noms des robots détectés à l’aide de [Règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md). Ces règles peuvent être des règles IAB par défaut ou des règles de robots personnalisées que votre organisation configure. Cela s’avère utile lorsque vous souhaitez en savoir plus sur les robots qui visitent votre site ou sur ceux qui génèrent le plus de trafic.
 
-Les accès qui correspondent à [!UICONTROL Règles de robots] sont automatiquement exclus de tous les rapports Analytics, à l’exception de cette dimension, [Occurrences de robots](../metrics/bot-occurrences.md) et [Pages vues de robots](../metrics/bot-page-views.md). Vous pouvez utiliser cette dimension et ces deux mesures pour voir quelles données de robots sont exclues du reste de vos rapports.
+Les accès correspondant à [!UICONTROL Règles de robots] sont automatiquement exclus de tous les rapports Analytics, à l’exception de cette dimension, [Occurrences de robots](../metrics/bot-occurrences.md), [Pages vues de robots](../metrics/bot-page-views.md) et [Occurrences de produits de robots](../metrics/bot-product-occurrences.md). Vous pouvez utiliser cette dimension et ces trois mesures pour voir quelles données de robots sont exclues du reste de vos rapports.
 
 Comme les rapports sur les robots sont séparés du reste des données de votre suite de rapports, seules les dimensions et mesures suivantes sont prises en charge avec cette dimension :
 
 * [Page](page.md)
+* [Produit](product.md) (uniquement avec les [occurrences de produit robot](../metrics/bot-product-occurrences.md))
 * Dimensions temporelles (par exemple, [Jour](day.md), [Semaine](week.md) ou [Mois](month.md))
 * [Occurrences du robot](../metrics/bot-occurrences.md)
 * [Vues de page robot](../metrics/bot-page-views.md)
+* [Occurrences de produits robots](../metrics/bot-product-occurrences.md)
 
 L’utilisation d’une autre dimension ou mesure avec cette dimension ne renvoie pas de données.
 
