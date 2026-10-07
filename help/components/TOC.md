@@ -5,13 +5,11 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 97%
-
 ---
-
 # Guide des composants d’[!DNL Adobe Analytics] {#components}
 
 + [Guide des composants d’Analytics](home.md)
@@ -62,8 +60,8 @@ ht-degree: 97%
   + [Identifiant visiteur Experience Cloud](dimensions/experience-cloud-visitor-id.md)
   + [Canal Première touche](dimensions/first-touch-channel.md)
   + [Détails du canal Première touche](dimensions/first-touch-detail.md)
-  + [Profondeur d’accès](dimensions/hit-depth.md)
-  + [Type d’accès](dimensions/hit-type.md)
+  + [Profondeur du hit](dimensions/hit-depth.md)
+  + [Type de hit](dimensions/hit-type.md)
   + [Heure de la journée](dimensions/hour-of-day.md)
   + [Heure](dimensions/hour.md)
   + [État identifié](dimensions/identified-state.md)
@@ -133,6 +131,7 @@ ht-degree: 97%
   + [Temps moyen passé sur le site](metrics/average-time-on-site.md)
   + [Occurrences du robot](metrics/bot-occurrences.md)
   + [Vues de page robot](metrics/bot-page-views.md)
+  + [Occurrences de produits robots](metrics/bot-product-occurrences.md)
   + [Taux de rebond](metrics/bounce-rate.md)
   + [Rebonds](metrics/bounces.md)
   + [Ajouts au panier](metrics/cart-additions.md)

@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7551'
-ht-degree: 91%
+source-wordcount: '7591'
+ht-degree: 90%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
 
@@ -75,6 +75,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Octobre 2026** | |
+| Mesure des occurrences de produit robot | Ajout de la mesure [Occurrences de produits robots](/help/components/metrics/bot-product-occurrences.md), qui indique le nombre de sous-accès à des chaînes de produit correspondant à des règles de robots. <p>Mise à jour des mesures [Nom du robot](/help/components/dimensions/bot-name.md) et [Occurrences de robot](/help/components/metrics/bot-occurrences.md) pour référencer la nouvelle mesure.</p> |
 | **Septembre 2026** | |
 | Comparaison de la zone de travail de parcours sur les flèches et les abandons | Mise à jour du paramètre [!UICONTROL Comparer à] dans [Configurer une visualisation de zone de travail de Parcours &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) afin d’afficher le pourcentage de changement entre les périodes sur chaque nœud, flèche et abandon du parcours. |
 | eVars de marchandisage | Refonte et consolidation de la documentation des variables de marchandisage dans les composants appropriés :<ul><li>[Dimension eVar (marchandisage)](/help/components/dimensions/evar-merchandising.md) dans le guide des composants</li><li>Variable [eVar (marchandisage)](/help/implement/vars/page-vars/evar-merchandising.md) dans le guide d’implémentation</li><li>[Variables de conversion](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) dans le guide Administrateur</li></ul> |
