@@ -19,15 +19,15 @@ role_v2:
 source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# Utilisation des résultats mis en cache dans les projets Workspace
+# Utiliser des résultats mis en cache dans les projets Workspace
 
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
->title="Utilisation des résultats mis en cache pour un chargement plus rapide"
->abstract="Lorsqu’ils sont activés, les résultats se chargent instantanément pendant 12 heures après la première ouverture d’un projet par un utilisateur ou une utilisatrice ou leur diffusion selon un planning. Quiconque ouvre le projet pendant cette période voit les mêmes résultats, même si les données continuent de circuler en arrière-plan. Pour charger les derniers résultats, actualisez les panneaux individuels ou l’ensemble du projet."
+>title="Utiliser des résultats mis en cache pour un chargement plus rapide"
+>abstract="Lorsqu’ils sont activés, les résultats se chargent instantanément pendant 12 heures après la première ouverture d’un projet par un utilisateur ou une utilisatrice, ou leur diffusion selon un planning. Quiconque ouvre le projet pendant cette période voit les mêmes résultats, même si les données continuent de circuler en arrière-plan. Pour charger les derniers résultats, actualisez les panneaux individuels ou l’ensemble du projet."
 
 {{release-limited-testing}}
 
@@ -55,7 +55,7 @@ Au bout de 12 heures, les résultats mis en cache expirent. Au prochain chargeme
 
 Analysis Workspace met en cache les résultats du projet tel qu’il a été configuré à l’origine, avec ses suites de rapports sélectionnées, les segments appliqués, les périodes, les sélections de listes déroulantes de panneaux, etc. Toutes les personnes qui ouvrent le projet voient ces résultats mis en cache.
 
-Si une personne modifie la configuration du projet lors de l’affichage du projet mis en cache, les résultats se chargent normalement (et non instantanément) et [&#x200B; une nouvelle variation du projet est mise en cache](#project-variations-are-cached-as-the-project-is-modified).
+Si une personne modifie la configuration du projet lors de l’affichage du projet mis en cache, les résultats se chargent normalement (et non instantanément) et [ une nouvelle variation du projet est mise en cache](#project-variations-are-cached-as-the-project-is-modified).
 
 #### Les variations du projet sont mises en cache au fur et à mesure que le projet est modifié
 
@@ -104,7 +104,7 @@ Les résultats mis en cache s’affichent par défaut pour toutes les personnes 
 
 * A accès aux suites de rapports utilisées dans le projet
 
-* Charge une variante du projet déjà mise en cache, par exemple une avec les mêmes segments ou sélections de menus déroulants de panneau (pour plus d’informations, voir [Quels résultats sont mis en cache &#x200B;](#what-results-are-cached))
+* Charge une variante du projet déjà mise en cache, par exemple une avec les mêmes segments ou sélections de menus déroulants de panneau (pour plus d’informations, voir [Quels résultats sont mis en cache ](#what-results-are-cached))
 
 Lors de l’affichage des résultats mis en cache, vous pouvez afficher les données les plus récentes en [actualisant manuellement les résultats](#manually-refresh-results-on-cached-projects).
 
@@ -136,7 +136,7 @@ Toute personne pouvant mettre à jour les paramètres du projet peut activer les
 
 >[!IMPORTANT]
 >
->Les résultats mis en cache peuvent ne pas convenir si vous devez afficher immédiatement les données du jour en cours, les données arrivées tardivement ou les valeurs de classification mises à jour. Avant d’activer ce paramètre, consultez la section [&#x200B; Quand laisser les résultats mis en cache désactivés sur un projet &#x200B;](#when-to-leave-cached-results-disabled-on-a-project).
+>Les résultats mis en cache peuvent ne pas convenir si vous devez afficher immédiatement les données du jour en cours, les données arrivées tardivement ou les valeurs de classification mises à jour. Avant d’activer ce paramètre, consultez la section [ Quand laisser les résultats mis en cache désactivés sur un projet ](#when-to-leave-cached-results-disabled-on-a-project).
 
 Dans le projet Workspace dans lequel vous souhaitez activer les résultats mis en cache pour un chargement plus rapide :
 
