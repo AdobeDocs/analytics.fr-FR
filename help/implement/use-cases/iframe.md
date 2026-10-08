@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Comme pour tout autre code JavaScript, les iFrames ne peuvent communiquer que lorsque les domaines et les protocoles correspondent. Ces exemples ne fonctionnent pas si le contenu de lʼiframe réside sur un domaine différent de celui du parent.
 * Si AppMeasurement réside dans un iframe, la variable [`referrer`](../vars/page-vars/referrer.md) est définie sur lʼURL parente et non sur lʼURL référente réelle. Vous pouvez définir manuellement la variable `referrer` pour résoudre ce problème.
-* [](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) ne reconnaît pas les demandes d’image déclenchées dans les iframes.
+* [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) ne reconnaît pas les demandes d’image déclenchées dans les iframes.
 * Activity Map nʼaffiche pas la carte thermique sur les liens sur lesquels lʼutilisateur a cliqué dans les iFrames. La totalité de lʼiframe est mise en surbrillance à la place.

@@ -139,7 +139,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 Exécutez un test afin de vérifier que le référent, l’URL d’origine (*`s_server`*) et les variables de campagne sont capturés.
 
-Ces variables seront représentées sous la forme des paramètres suivants dans [](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home).
+Ces variables seront représentées sous la forme des paramètres suivants dans [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

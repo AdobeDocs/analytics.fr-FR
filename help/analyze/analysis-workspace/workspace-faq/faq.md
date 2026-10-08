@@ -104,7 +104,7 @@ Si vous avez réussi à créer un rapport Workspace, mais qu’il ne contient au
 * Vérifiez deux fois la suite de rapports et assurez-vous qu’elle contient des données.
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
-* Accédez à votre site web et utilisez [](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) pour vérifier que les données sont collectées.
+* Accédez à votre site web et utilisez [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) pour vérifier que les données sont collectées.
 
 
 +++

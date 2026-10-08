@@ -51,7 +51,7 @@ Une fois que votre bibliothèque de balises est envoyée en production, votre or
 
 Adobe Experience Platform Debugger est une extension qui affiche toutes les balises CX Enterprise présentes sur une page.
 
-1. Installez l’extension pour [](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Installez l’extension pour [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
 3. Cliquez sur l’icône Adobe Experience Platform Debugger dans votre navigateur.
 4. Si tout est correctement implémenté, vous devriez voir le contenu dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe.

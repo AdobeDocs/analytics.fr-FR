@@ -45,7 +45,7 @@ Si vous ne voyez pas de données pour les dimensions Activity Map, utilisez cett
 
 Tout d’abord, assurez-vous qu’AppMeasurement collecte correctement les données Activity Map.
 
-1. Télécharger et installer [](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home).
+1. Télécharger et installer [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home).
 2. Accédez à votre page web, puis cliquez sur un lien.
 3. Lors du chargement de la page suivante, ouvrez le débogueur. Vérifiez que vous voyez les variables de données contextuelles Activity Map prises en sandwich entre `activitymap.` et `.activitymap` :
 
@@ -94,7 +94,7 @@ Interagissez avec les appels à l’aide de l’onglet Réseau de Developer Con
 
 Adobe Experience Platform Debugger :
 
-1. Télécharger et installer [](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
+1. Télécharger et installer [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob).
 1. Accédez à [!UICONTROL Journaux] > [!UICONTROL Edge] > [!UICONTROL Connexion à Edge].
 
 * **L’appel d’interaction ne se déclenche pas dans l’onglet Réseau** : la collecte de données de clics dans un appel de collecte, filtrez avec `"/ee"` ou `"collect?"`.
