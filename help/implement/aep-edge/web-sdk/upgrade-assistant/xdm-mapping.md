@@ -69,7 +69,7 @@ Vous pouvez créer le mappage de l’une des deux façons suivantes :
 
 <!-- markdownlint-enable MD034 -->
 
-Lorsque vous créez un schéma, vous choisissez également si l’assistant de mise à niveau favorise les groupes de champs standard ou personnalisés. Les groupes de champs standard sont définis par Adobe, tandis que les groupes de champs personnalisés sont définis par votre organisation. Voir [Groupe de champs](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) dans la documentation XDM.
+Lorsque vous créez un schéma, vous choisissez également si l’assistant de mise à niveau favorise les groupes de champs standard ou personnalisés. Les groupes de champs standard sont définis par Adobe, tandis que les groupes de champs personnalisés sont définis par votre organisation. Voir [Groupe de champs](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#field-group) dans la documentation XDM.
 
 ## Vérifier le mappage {#review}
 

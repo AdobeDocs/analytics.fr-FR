@@ -79,7 +79,7 @@ L&#39;assistant de mise à niveau requiert l&#39;accès suivant. Contactez l’a
 
 | Type d’accès | Obligatoire |
 | --- | --- |
-| [Autorisations Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
+| [Autorisations Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
 | Accès aux produits | <ul><li>Collecte de données (balises)</li><li>Adobe Analytics</li></ul> |
 | [&#x200B; Droits des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
 
