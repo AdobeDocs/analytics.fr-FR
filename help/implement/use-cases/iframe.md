@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '318'
+ht-degree: 96%
 ---
 # Utilisation d’AppMeasurement avec des iframes
 
@@ -89,5 +89,5 @@ window.top.postMessage("Example page view call","https://example.com");
 
 * Comme pour tout autre code JavaScript, les iFrames ne peuvent communiquer que lorsque les domaines et les protocoles correspondent. Ces exemples ne fonctionnent pas si le contenu de lʼiframe réside sur un domaine différent de celui du parent.
 * Si AppMeasurement réside dans un iframe, la variable [`referrer`](../vars/page-vars/referrer.md) est définie sur lʼURL parente et non sur lʼURL référente réelle. Vous pouvez définir manuellement la variable `referrer` pour résoudre ce problème.
-* Le débogueur Adobe CX Enterprise [&#128279;](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) ne reconnaît pas les demandes d’image déclenchées dans les iframes.
+* [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) ne reconnaît pas les demandes d’image déclenchées dans les iframes.
 * Activity Map nʼaffiche pas la carte thermique sur les liens sur lesquels lʼutilisateur a cliqué dans les iFrames. La totalité de lʼiframe est mise en surbrillance à la place.

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 89%
+source-wordcount: '267'
+ht-degree: 90%
 ---
 # s.dynamicAccountList
 
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Si aucune correspondance n’est trouvée, la suite de rapports par défaut dans `s_account` est utilisée.
 * Si votre page est enregistrée sur le disque dur d’un utilisateur ou traduite à l’aide d’un moteur de traduction web (c’est le cas des pages traduites par Google, par exemple), il est probable que la sélection dynamique de compte ne fonctionne pas.
 * Les règles `dynamicAccountSelection` s’appliquent uniquement à la section de l’URL spécifiée dans `dynamicAccountMatch`.
-* Utilisez le débogueur Adobe CX Enterprise pour tester la suite de rapports de destination.
+* Utilisez Adobe Experience Platform Debugger pour tester la suite de rapports de destination.

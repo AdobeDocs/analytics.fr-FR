@@ -7,35 +7,47 @@ role: Admin
 TQID: https://experienceleague.adobe.com/of-yj9n921yUIoFBPTPQEZjDCJIM0-mYp63w0nQ1x6c
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 2104
+source-wordcount: '2102'
 ht-degree: 93%
-
 ---
-
 # Adobe Analytics et les cookies de navigateur
 
 Ce document explique comment les mesures de prévention du suivi des principaux navigateurs affectent les cookies tiers et propriétaires définis par Adobe Analytics. Il comprend des informations sur le programme ITP (Intelligent Tracking Prevention) d’Apple, ainsi que sur les restrictions de Chrome sur les cookies tiers via l’attribut SameSite.
 
-## Comment les navigateurs ont-ils limité l’utilisation des cookies ?
+## Comment les navigateurs ont-ils limité l’utilisation des cookies ?
 
 >[!NOTE]
 >Les [analyses entre appareils](/help/components/cda/overview.md#cda) et l’[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=fr#comparing-cja-to-traditional-adobe-analytics) peuvent regrouper les cookies à l’aide d’un identifiant personnel, tel qu’un identifiant de connexion haché, si disponible.
@@ -44,9 +56,9 @@ Ce document explique comment les mesures de prévention du suivi des principaux 
 
 Les cookies utilisés dans un contexte tiers sont largement abandonnés. Firefox et Safari ont commencé à bloquer par défaut les cookies tiers à partir de 2019 pour Firefox et de 2020 pour Safari Chrome a annoncé son intention d’arrêter la prise en charge des cookies tiers en 2023. Quand ils arrêteront, les cookies tiers seront inutilisables.
 
-De plus, Chrome ne permet aujourd’hui aux cookies de fonctionner dans un contexte tiers que si l’attribut « SameSite » est défini sur Aucun et que les cookies sont étiquetés comme sécurisés, ce qui signifie qu’ils ne peuvent être utilisés que sur des sites HTTPS. Pour plus d’informations, reportez-vous à la section « [Qu’est-ce que l’attribut de cookie SameSite et comment affecte-t-il Analytics ?](#samesite-effect) »
+De plus, Chrome n’autorise actuellement le fonctionnement des cookies dans un contexte tiers que si l’attribut « SameSite » est défini sur « None » et s’ils sont marqués comme sécurisés, ce qui signifie qu’ils ne peuvent être utilisés que via HTTPS. Pour plus d’informations, reportez-vous à la section « [Qu’est-ce que l’attribut de cookie SameSite et comment affecte-t-il Analytics ?](#samesite-effect) »
 
-#### Quels cookies tiers Adobes sont affectés ?
+#### Quels cookies tiers d’Adobe sont concernés ?
 
 Le service d’identification des visiteurs utilise le cookie « [demdex.net](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) » pour fournir un identifiant persistant pour les visiteurs dans différents domaines client. Le service d’identification Analytics hérité, le cookie « s_vi », est défini comme cookie tiers pour les implémentations n’utilisant pas de domaine de collecte CNAME personnalisé.
 
@@ -68,17 +80,17 @@ Actuellement, les politiques ITP s’appliquent à tous les cookies propriétair
 
 Les politiques d’ITP évoluent fréquemment. Pour connaître les dernières politiques, voir [Prévention du suivi d’Apple dans Webkit](https://webkit.org/tracking-prevention).
 
-#### Quels cookies propriétaires d’Adobe sont affectés ?
+#### Quels cookies propriétaires d’Adobe sont concernés ?
 
 Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les politiques ITP :
 
-* [Les cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque de service de l’identifiant visiteur d’Adobe Experience Cloud.
+* [&#x200B; cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque du service d’identification des visiteurs (ECID) d’Adobe
 * Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
 * Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
 
-#### Quel est l’impact d’ITP sur Safari pour Analytics ?
+#### Quel est l’impact d’ITP sur Safari pour Analytics ?
 
-L’impact des restrictions d’ITP peut varier considérablement en fonction du comportement de vos utilisateurs. Seuls les visiteurs qui utilisent un navigateur affecté par ITP (par exemple, Safari) et qui reviennent après une absence de sept jours sont affectés. Si les visiteurs n’utilisent pas de navigateur ITP ou reviennent dans les sept jours, ils ne sont pas affectés. Il est important de passer en revue vos propres données dans Analytics pour comprendre l’ampleur de l’impact de cette restriction. Pour obtenir des conseils sur la manière de mesurer l’impact d’ITP sur vos sites, consultez « [Comment puis-je déterminer si les modifications de Safari affectent mon entreprise ?](#measure-itp-effect) »
+L’impact des restrictions d’ITP peut varier considérablement en fonction du comportement de vos utilisateurs. Seuls les visiteurs qui utilisent un navigateur affecté par ITP (par exemple, Safari) et qui reviennent après une absence de sept jours sont affectés. Si les visiteurs n’utilisent pas de navigateur soumis à ITP ou reviennent dans les sept jours, ils ne sont pas concernés. Il est important de passer en revue vos propres données dans Analytics pour comprendre l’ampleur de l’impact de cette restriction. Pour obtenir des conseils sur la manière de mesurer l’impact d’ITP sur vos sites, consultez « [Comment puis-je déterminer si les modifications de Safari affectent mon entreprise ?](#measure-itp-effect) »
 
 Si ces restrictions affectent vos données, vous verrez :
 
@@ -111,7 +123,7 @@ Pour plus d’informations, voir [À propos des cookies propriétaires](https://
 
 ## Qu’est-ce que l’attribut de cookie SameSite et comment affecte-t-il les cookies Analytics ? {#samesite-effect}
 
-Avec la sortie du navigateur Chrome 80 en février 2020 (et les versions successives des navigateurs Firefox et Edge), l’attribut de cookie SameSite applique la spécification de trois valeurs différentes qui régissent l’utilisation des cookies dans un contexte tiers :
+Avec la sortie du navigateur Chrome 80 en février 2020 (et les versions successives des navigateurs Firefox et Edge), l’attribut de cookie SameSite applique la spécification de trois valeurs différentes qui déterminent si les cookies peuvent être utilisés dans un contexte tiers :
 
 * `None` : ce paramètre permet l’accès intersite et la transmission de cookies dans un contexte tiers. Pour spécifier cet attribut, vous devez également spécifier `Secure` et toutes les requêtes de navigateur doivent suivre le protocole HTTPS. Par exemple, lorsque vous définissez le cookie, vous associez les valeurs de l’attribut comme suit : `Set-Cookie: example_session=test12; SameSite=None; Secure`. S’ils ne sont pas correctement étiquetés, les cookies sont inutilisables par les navigateurs les plus récents et sont rejetés.
 
@@ -139,7 +151,7 @@ Le tableau suivant résume les attributs SameSite pour les cookies Analytics :
 
 ### Comment mon site peut-il répondre aux exigences de l’attribut SameSite ?
 
-#### Utilisez HTTPS sur toutes les pages de vos sites
+#### Utiliser HTTPS sur toutes les pages de votre site
 
 Vérifiez que votre configuration JavaScript utilise HTTPS pour tous les appels aux services d’Adobe.
 
@@ -151,37 +163,37 @@ Si votre site utilise le service d’identification des visiteurs, le service re
 >
 >Les informations suivantes ne concernent que les sites qui n’utilisent pas le service d’identification des visiteurs.
 
-Si vous avez une implémentation CNAME définie dans le même domaine que votre site Web, alors le cookie est créé dans un contexte de propriétaire et vous n’avez pas besoin d’apporter de modifications.
+Si vous disposez d’une mise en œuvre CNAME configurée sur le même domaine que votre site web, le cookie est créé dans un contexte propriétaire et aucune modification n’est nécessaire.
 
 Cependant, si vous possédez plusieurs domaines et utilisez le même CNAME pour la collecte de données sur tous vos domaines, alors le cookie est traité comme un cookie tiers sur ces autres domaines. Avec la version Chrome 80 ou ultérieure, il n’est plus visible sur ces autres domaines. Pour rendre le comportement plus similaire sur tous les navigateurs, Analytics a défini explicitement la valeur `SameSite` de ce cookie sur `Lax`. Si vous utilisez ce cookie dans un contexte tiers convivial, vous devez définir le cookie avec la valeur `SameSite=None`, ce qui signifie également que vous devez toujours utiliser HTTPS. Si vous ne l’avez pas déjà fait, contactez l’assistance clientèle d’Adobe pour que la valeur SameSite soit modifiée pour vos CNAME sécurisés.
 
-## Comment puis-je déterminer si les modifications de Safari affectent mon entreprise ? {#measure-itp-effect}
+## Comment déterminer si les modifications apportées à Safari ont une incidence sur mon entreprise ? {#measure-itp-effect}
 
 Adobe recommande aux clients de mesurer l’impact au sein de leur propre entreprise avant de modifier la collecte de données. Vous pouvez utiliser Analysis Workspace pour mesurer l’impact de la prévention du suivi ITP sur votre entreprise :
 
 * Mesurez le pourcentage de votre trafic à partir des navigateurs régis par ITP :
 
-   1. Créez un segment pour voir le nombre de visiteurs qui utilisent une plateforme ITP.
+  1. Créez un segment pour voir le nombre de visiteurs qui utilisent une plateforme ITP.
 
-      >[!NOTE]
-      >
-      >Les navigateurs spécifiques affectés par ITP dépendent de si vous utilisiez une implémentation CNAME ou non. Pour plus d’informations, voir « [Chronologie des modifications majeures apportées à la politique ITP](#ITP-timeline) ».
+     >[!NOTE]
+     >
+     >Les navigateurs spécifiquement concernés par ITP dépendent de l’utilisation ou non d’une mise en œuvre CNAME. Pour plus d’informations, voir « [Chronologie des modifications majeures apportées à la politique ITP](#ITP-timeline) ».
 
-      ![Segment pour les visiteurs ITP](/help/technotes/assets/itp-visitor-segment.png)
+     ![Segment pour les visiteurs ITP](/help/technotes/assets/itp-visitor-segment.png)
 
-   2. Appliquez le segment au nombre de visites pour comprendre l’utilisation relative de Safari dans votre base d’utilisateurs. Vous pouvez ainsi créer un tableau de ce type :
+  2. Appliquez le segment au nombre de visites pour comprendre l’utilisation relative de Safari dans votre base d’utilisateurs. Vous pouvez ainsi créer un tableau de ce type :
 
-      ![Pourcentage de visites par visiteurs ITP](/help/technotes/assets/visits-vs-safari-visits.png)
+     ![Pourcentage de visites par visiteurs ITP](/help/technotes/assets/visits-vs-safari-visits.png)
 
 * Mesurez le pourcentage de visiteurs utilisant des navigateurs autres que Safari qui ne reviennent pas dans les sept jours. Si vos visiteurs qui n’utilisent pas Safari reviennent plusieurs fois dans les sept jours, votre trafic Safari peut ne pas être affecté de manière significative.
 
-   1. Créez un segment comme celui-ci pour le trafic qui ne vient pas de Safari.
+  1. Créez un segment comme celui-ci pour le trafic qui ne vient pas de Safari.
 
-      ![Segment pour les visiteurs qui reviennent après sept jours](/help/technotes/assets/visits-after-seven-days.png)
+     ![Segment pour les visiteurs qui reviennent après sept jours](/help/technotes/assets/visits-after-seven-days.png)
 
-   2. Appliquez le segment au nombre de visites pour comprendre l’utilisation relative de Safari dans votre base d’utilisateurs. Vous pouvez ainsi créer un tableau de ce type :
+  2. Appliquez le segment au nombre de visites pour comprendre l’utilisation relative de Safari dans votre base d’utilisateurs. Vous pouvez ainsi créer un tableau de ce type :
 
-      ![Pourcentage de visiteurs qui reviennent après sept jours](/help/technotes/assets/percent-visits-after-seven-days.png)
+     ![Pourcentage de visiteurs qui reviennent après sept jours](/help/technotes/assets/percent-visits-after-seven-days.png)
 
 ### Méthodes d’ajustement des données lors de la création de rapports
 
@@ -197,4 +209,5 @@ Si votre entreprise est affectée par la prévention du suivi ITP, vous pouvez e
 
 >[!MORELIKETHIS]
 >
->[Options pour atténuer l’effet des restrictions des cookies de navigateurImpact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)
+>[Options pour atténuer l’effet des restrictions des cookies de navigateur](cookieless.md)
+>[Impact du nouveau cadre de transparence du suivi des applications d’Apple sur Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=fr)

@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 18%
 ---
 # Identifiant visiteur Experience Cloud
@@ -44,8 +44,8 @@ Cette dimension nécessite une implémentation qui utilise le service d’identi
 
 | Propriété | Valeur |
 | --- | --- |
-| **Variable** | Aucun (défini par le service d’identification des visiteurs d’Experience Cloud) |
-| **Champ Web SDK/XDM** | Aucun (défini par le service Experience Cloud Identity) |
+| **Variable** | Aucun (défini par le service d’identification des visiteurs d’Adobe) |
+| **Champ Web SDK/XDM** | Aucun (défini par le service Experience Platform Identity) |
 | **Paramètre de requête** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Balise XML** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite d’octets** | S.O. |
@@ -53,4 +53,4 @@ Cette dimension nécessite une implémentation qui utilise le service d’identi
 
 ## Éléments de dimension
 
-Les éléments Dimension incluent l’Experience Cloud ID de chaque visiteur.
+Les éléments Dimension incluent l’ECID de chaque visiteur.

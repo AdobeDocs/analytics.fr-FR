@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 63%
+ht-degree: 64%
 ---
 # Mise en œuvre des liens d’exclusion
 
@@ -71,9 +71,9 @@ La page d’exclusion de votre organisation dépend de la valeur de variable [`t
   1. Sur votre serveur web, ouvrez le fichier AppMeasurement.js utilisé sur votre site dans un éditeur de code ou de texte.
   1. Notez la valeur de la variable `trackingServer`.
 
-* À l’aide du débogueur Adobe CX Enterprise [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=fr) :
+* Utilisation de [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) :
   1. Accédez à votre site à l’aide du navigateur Chrome.
-  1. Ouvrez CX Enterprise Debugger, puis accédez à l’onglet [!UICONTROL Network].
+  1. Ouvrez Adobe Experience Platform Debugger, puis accédez à l’onglet [!UICONTROL Réseau].
   1. Notez la valeur [!UICONTROL Request URL - Hostname].
 
 Une fois que vous avez trouvé le domaine `trackingServer` de votre mise en œuvre, ajoutez le chemin `/optout.html` à la fin. Par exemple :

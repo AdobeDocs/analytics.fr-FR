@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 93%
+source-wordcount: '601'
+ht-degree: 91%
 ---
 # Questions fréquentes
 
@@ -104,7 +104,7 @@ Si vous avez réussi à créer un rapport Workspace, mais qu’il ne contient au
 * Vérifiez deux fois la suite de rapports et assurez-vous qu’elle contient des données.
 * Si vous avez appliqué un segment dans votre rapport, il se peut que les critères de segment ne correspondent à aucune donnée. Essayez de supprimer le segment ou d’ajuster la définition du segment.
 * Vérifiez la période dans le coin supérieur droit et assurez-vous qu’elle est définie sur la valeur attendue.
-* Accédez à votre site Web et utilisez [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=fr) pour vérifier que la collecte des données s’effectue.
+* Accédez à votre site web et utilisez [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) pour vérifier que les données sont collectées.
 
 
 +++
