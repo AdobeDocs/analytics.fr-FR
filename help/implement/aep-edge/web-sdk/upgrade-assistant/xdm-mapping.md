@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 3%
 ---
 # Mappage XDM
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Le SDK Web envoie des données à l’aide des champs [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) de sorte que chaque variable Analytics que vous transférez à partir de la [vérification de la suite de rapports](rs-verification.md) nécessite un champ correspondant dans un schéma XDM. Au cours de cette étape, vous choisissez un schéma et mappez vos variables à ses champs.
+Le SDK Web envoie des données à l’aide des champs [Modèle de données d’expérience (XDM)](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/home) de sorte que chaque variable Analytics que vous transférez à partir de la [préparation du mappeur](mapper-prep.md) nécessite un champ correspondant dans un schéma XDM. Au cours de cette étape, vous choisissez un schéma et mappez vos variables à ses champs.
 
 ## Choisir un schéma {#schema}
 
@@ -69,7 +69,7 @@ Vous pouvez créer le mappage de l’une des deux façons suivantes :
 
 <!-- markdownlint-enable MD034 -->
 
-Lorsque vous créez un schéma, vous choisissez également si l’assistant de mise à niveau favorise les groupes de champs standard ou personnalisés. Les groupes de champs standard sont définis par Adobe, tandis que les groupes de champs personnalisés sont définis par votre organisation. Voir [Groupe de champs](https://experienceleague.adobe.com/fr/docs/experience-platform/xdm/schema/composition#field-group) dans la documentation XDM.
+Lorsque vous créez un schéma, vous choisissez également si l’assistant de mise à niveau favorise les groupes de champs standard ou personnalisés. Les groupes de champs standard sont définis par Adobe, tandis que les groupes de champs personnalisés sont définis par votre organisation. Voir [Groupe de champs](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) dans la documentation XDM.
 
 ## Vérifier le mappage {#review}
 

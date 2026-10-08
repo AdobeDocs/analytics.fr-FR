@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 92%
+source-wordcount: '458'
+ht-degree: 93%
 ---
 
 # Guide de mise en œuvre Adobe Analytics {#implementation}
@@ -148,7 +148,7 @@ ht-degree: 92%
       + [Gestion des migrations](aep-edge/web-sdk/upgrade-assistant/manager.md)
       + [Sélection de composant](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [Résultats de l’audit](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
-      + [Vérification de la suite de rapports](aep-edge/web-sdk/upgrade-assistant/rs-verification.md)
+      + [Préparation du mappeur](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [Mappage XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
       + [Implémentation de Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Révision finale](aep-edge/web-sdk/upgrade-assistant/final-review.md)

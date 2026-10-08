@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Assistant de mise à niveau de Web SDK
@@ -54,7 +54,7 @@ L’assistant de mise à niveau vous guide tout au long des étapes suivantes, c
 
 1. **[Sélection de composant](component-selection.md)** : sélectionnez les règles, les éléments de données et les extensions à inclure dans la migration.
 1. **[Résultats d’audit](audit-findings.md)** : consultez les recommandations de nettoyage facultatives pour les composants que vous avez sélectionnés.
-1. **[Vérification de la suite de rapports](rs-verification.md)** : examinez les variables Analytics dans vos suites de rapports et choisissez celles à reporter.
+1. **[Préparation du mappeur](mapper-prep.md)** : passez en revue les variables Analytics dans vos suites de rapports et choisissez celles à reporter.
 1. **[Mappage XDM](xdm-mapping.md)** : mappez vos variables Analytics aux champs d’un schéma XDM.
 1. **[Implémentation de Web SDK](web-sdk-implementation.md)** : passez en revue les actions de Web SDK que l’assistant de mise à niveau ajoute à vos règles.
 1. **[Révision finale](final-review.md)** : sélectionnez un sandbox Experience Platform, vérifiez les éléments créés par la migration et finalisez la migration.
@@ -69,7 +69,7 @@ Chaque étape configure une partie de la migration et vous pouvez revenir aux é
 
 Avant de créer une migration, vérifiez que vous disposez des éléments suivants :
 
-* Autorisations [&#x200B; requises par &#x200B;](#permissions)’assistant de mise à niveau.
+* Autorisations [ requises par ](#permissions)’assistant de mise à niveau.
 * Propriété de balises qui utilise l’extension Adobe Analytics.
 * Bibliothèque dans cette propriété qui contient l’implémentation à migrer. La bibliothèque peut être dans n’importe quel état, y compris publiée. Voir [Bibliothèques](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) dans le guide d’utilisation des balises.
 
@@ -79,8 +79,8 @@ L&#39;assistant de mise à niveau requiert l&#39;accès suivant. Contactez l’a
 
 | Type d’accès | Obligatoire |
 | --- | --- |
-| [Autorisations Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
+| [Autorisations Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
 | Accès aux produits | <ul><li>Collecte de données (balises)</li><li>Adobe Analytics</li></ul> |
-| [&#x200B; Droits des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
+| [ Droits des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
 
 Lorsque vous êtes prêt, [créez une migration](manager.md#create).
