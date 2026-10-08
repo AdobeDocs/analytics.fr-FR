@@ -1,50 +1,60 @@
 ---
-title: Validation de la mise en œuvre d’un développement et publication en production
-description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
+title: Valider une mise en œuvre de développement et la publier en production
+description: Découvrez comment utiliser les balises Adobe Experience Platform pour déployer Adobe Analytics dans votre environnement de production.
 feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 65%
-
+source-wordcount: '631'
+ht-degree: 66%
 ---
+# Valider une mise en œuvre de développement et la publier en production
 
-# Validation de la mise en œuvre d’un développement et publication en production
-
-Une fois que votre bibliothèque de balises est envoyée en production, votre organisation peut commencer à utiliser Adobe Analytics pour extraire des rapports de base.
+Une fois que votre bibliothèque de balises est envoyée en production, votre organisation peut commencer à utiliser Adobe Analytics pour générer des rapports de base.
 
 ## Conditions préalables
 
 [Déployez votre mise en œuvre d’Analytics dans votre environnement de développement](deploy-dev.md) : une mise en œuvre d’Analytics doit être publiée dans votre environnement de développement pour suivre cette page.
 
-## Validez votre implémentation de développement à l’aide du débogueur CX Enterprise.
+## Validation de l’implémentation de développement à l’aide d’Adobe Experience Platform Debugger
 
-CX Enterprise debugger est une extension qui affiche toutes les balises CX Enterprise présentes sur une page.
+Adobe Experience Platform Debugger est une extension qui affiche toutes les balises CX Enterprise présentes sur une page.
 
-1. Installez l’extension pour [&#128279;](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
+1. Installez l’extension pour [](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) ou Firefox.
 2. Accédez à votre site web de développement, sur lequel vous avez implémenté les balises.
-3. Cliquez sur l’icône d’Adobe CX Enterprise debugger dans votre navigateur.
-4. Si tout est correctement implémenté, le contenu doit s’afficher dans Adobe Analytics, dans les balises et dans le service d’identification des visiteurs d’Adobe Experience Cloud.
+3. Cliquez sur l’icône Adobe Experience Platform Debugger dans votre navigateur.
+4. Si tout est correctement implémenté, vous devriez voir le contenu dans Adobe Analytics, les balises et le service d’identification des visiteurs Adobe.
 
 ## Déployez votre mise en œuvre de développement vers l’évaluation/la production
 
@@ -61,11 +71,11 @@ Une fois que vous avez validé que vous voyez des données, vous pouvez pousser 
 1. Accédez à l’onglet Environnements, puis cliquez sur **[!UICONTROL Environnement de production]**.
 1. Copiez le code d’installation de production et fournissez-le aux propriétaires de votre site web. Demandez-leur de mettre en œuvre ce code dans l’environnement de production de votre site.
 
-## Validation de votre mise en œuvre de production
+## Valider votre mise en œuvre en environnement de production
 
-Confirmez que vous voyez des données sur la version en direct de votre site et commencez la collecte officielle des données pour Adobe Analytics.
+Confirmez que vous voyez des données sur la version en direct de votre site et commencez la collecte de données officielle pour Adobe Analytics.
 
-1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code des balises en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez Adobe CX Enterprise debugger.
+1. Une fois que vous avez confirmé auprès des propriétaires de votre site web qu’ils ont envoyé le code des balises en production, accédez à la page d’accueil de votre site web dans Chrome et ouvrez Adobe Experience Platform Debugger.
 2. Si tout fonctionne correctement, vous devriez voir des données similaires à vos tests dans votre environnement de développement. À ce stade, vous collectez maintenant des données sur votre site et vous pouvez maintenant commencer à utiliser Adobe Analytics pour la création de rapports.
 
 ## Résolution des problèmes
@@ -81,7 +91,7 @@ Sur votre site, ouvrez la console de développement du navigateur (généralemen
 
 ## Étapes suivantes
 
-Maintenant qu’une implémentation de base est configurée, votre rôle au sein de votre organisation peut influencer le chemin sur lequel vous souhaitez davantage d’informations :
+Maintenant qu’une mise en œuvre de base est configurée, votre rôle au sein de votre organisation peut influencer le chemin sur lequel vous souhaitez en apprendre davantage :
 
 * [Création d’un document de conception de solution](../prepare/solution-design.md) : planifier l’utilisation des variables personnalisées, puis les intégrez à votre mise en œuvre
 * [Prise en main de l’utilisation d’Analysis Workspace](/help/analyze/analysis-workspace/home.md) : passer directement à Adobe Analytics à l’aide de la fonctionnalité phare de l’outil.

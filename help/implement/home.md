@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 83%
+ht-degree: 82%
 ---
 # Mise en œuvre d’Adobe Analytics
 
@@ -61,15 +61,15 @@ Pour votre **site Web**, les méthodes de mise en œuvre suivantes sont disponib
 
 * **Extension SDK Web** : la méthode normalisée et recommandée pour mettre en œuvre Adobe Analytics pour les nouveaux clients et les nouvelles clientes. Ajoutez l’**extension SDK Web d’Adobe Experience Platform** dans les **balises** de collecte de données Adobe Experience Platform, puis placez une balise de chargement sur chaque page. La balise envoie des données au **réseau Edge** d’Adobe Experience Platform, qui transfère ces données vers Adobe Analytics.
   Extension ![Web SDK](./assets/websdk-extension-implementation.png)
-  Voir [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md). pour des informations supplémentaires.
+  Voir [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Adobe Experience Platform Web SDK ](./aep-edge/overview.md). pour des informations supplémentaires.
 
 * **SDK Web** : si vous ne souhaitez pas utiliser la collecte de données d’Adobe Experience Platform, vous pouvez charger manuellement les bibliothèques du SDK Web sur votre site. Référencez la bibliothèque du SDK Web (`alloy.js`) sur chaque page et envoyez les appels de suivi de votre choix au **réseau Edge** d’Adobe Experience Platform dans un format adapté à votre organisation. Edge Network transfère ces données à Adobe Analytics.
   ![Web SDK](./assets/websdk-implementation.png)
-  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de Adobe Experience Platform Web SDK &#x200B;](./aep-edge/overview.md).
+  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de Adobe Experience Platform Web SDK ](./aep-edge/overview.md).
 
 * **Extension Analytics** : ajoutez l’**extension Adobe Analytics** dans les **balises** de collecte de données Adobe Experience Platform, puis placez une balise de chargement sur chaque page. La balise envoie des données directement à Adobe Analytics. Utilisez cette méthode de mise en œuvre si vous souhaitez profiter de la commodité des balises sans utiliser l’infrastructure Edge Network.
   Extension ![Adobe Analytics](./assets/analytics-extension-implementation.png)
-  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Analytics &#x200B;](launch/overview.md).
+  Pour plus d’informations, consultez [Comment mettre en œuvre Adobe Analytics à l’aide de l’extension Analytics ](launch/overview.md).
 
 * **Code JavaScript hérité** : méthode manuelle historique pour implémenter Adobe Analytics. Référencez la bibliothèque AppMeasurement (`AppMeasurement.js`) sur chaque page, puis définissez les paramètres et variables dans JavaScript.
   ![Comment mettre en œuvre Adobe Analytics à l’aide de l’ancien JavaScript](./assets/appmeasurement-implementation.png)
@@ -118,7 +118,7 @@ Pour votre **application mobile**, les méthodes d’implémentation suivantes s
 ## Principaux articles sur la mise en œuvre d’Analytics
 
 * [Prendre en charge une implémentation Adobe Analytics existante](/help/implement/prepare/existing-implementation.md)
-* [Adobe Debugger](validate/debugger.md)
+* [Outils de débogage](validate/debugging-tools.md)
 * [Création d’une propriété de balise dans Experience Platform](launch/create-analytics-property.md)
 * [Mises à jour d’AppMeasurement](appmeasurement-updates.md)
 * [Tutoriel sur la configuration d’Adobe Analytics avec Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics.html?lang=fr)
@@ -127,7 +127,7 @@ Pour votre **application mobile**, les méthodes d’implémentation suivantes s
 
 ## Principales ressources Analytics
 
-* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Analytics?lang=fr#support)
+* [Contactez l&#39;Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Analytics?lang=fr#support)
 * [Communauté Adobe Analytics sur Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=fr)
 * [Ressources Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=fr)
 * [Dernières notes de mise à jour](../release-notes/latest.md)

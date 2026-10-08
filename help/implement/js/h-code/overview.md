@@ -24,9 +24,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '393'
 ht-degree: 92%
 ---
 # Vue d’ensemble de la mise en œuvre JavaScript du code H
@@ -51,7 +51,7 @@ Vous devez avoir accès à vos serveurs d’hébergement pour mettre en œuvre c
    >
    >Le code H exige que le script `s_code.js` soit appelé dans la balise `<body>`. Il s’agit d’une méthode différente des autres méthodes de mise en œuvre, dont la plupart nécessitent des références de script dans la balise `<head>`.
 1. **Définissez des variables spécifiques à chaque page** : des variables individuelles doivent être définies pour chaque page, telles que le nom de page ou les eVars. Les variables individuelles sont généralement définies avec une balise `<script>` intégrée sur chaque page.
-1. **Utiliser le débogueur pour vérifier la collecte de données** : téléchargez et installez le débogueur [CX Enterprise](../../validate/debugger.md) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
+1. **Utilisez le débogueur pour vérifier la collecte de données** : téléchargez et installez [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) pour vous assurer que les données sont envoyées à Adobe et que les variables de page sont correctement définies.
 
 ## Mise en cache
 
