@@ -60,7 +60,7 @@ La page **[!UICONTROL Migrations]** est le point de départ de l’assistant de 
 
 <!-- markdownlint-enable MD034 -->
 
-Avant de créer une migration, assurez-vous de respecter les [ conditions préalables ](overview.md#prerequisites).
+Avant de créer une migration, assurez-vous de respecter les [&#x200B; conditions préalables &#x200B;](overview.md#prerequisites).
 
 1. Sur la page **[!UICONTROL Migrations]**, sélectionnez **[!UICONTROL Nouveau]**.
 1. Saisissez un nom pour la migration et, éventuellement, une description.
