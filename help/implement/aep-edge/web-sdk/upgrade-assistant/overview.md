@@ -69,7 +69,7 @@ Chaque étape configure une partie de la migration et vous pouvez revenir aux é
 
 Avant de créer une migration, vérifiez que vous disposez des éléments suivants :
 
-* Autorisations [ requises par ](#permissions)’assistant de mise à niveau.
+* Autorisations [&#x200B; requises par &#x200B;](#permissions)’assistant de mise à niveau.
 * Propriété de balises qui utilise l’extension Adobe Analytics.
 * Bibliothèque dans cette propriété qui contient l’implémentation à migrer. La bibliothèque peut être dans n’importe quel état, y compris publiée. Voir [Bibliothèques](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) dans le guide d’utilisation des balises.
 
@@ -81,6 +81,6 @@ L&#39;assistant de mise à niveau requiert l&#39;accès suivant. Contactez l’a
 | --- | --- |
 | [Autorisations Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
 | Accès aux produits | <ul><li>Collecte de données (balises)</li><li>Adobe Analytics</li></ul> |
-| [ Droits des balises ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
+| [&#x200B; Droits des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
 
 Lorsque vous êtes prêt, [créez une migration](manager.md#create).
