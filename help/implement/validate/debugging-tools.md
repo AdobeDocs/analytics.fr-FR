@@ -66,10 +66,10 @@ Analytics et les débogueurs de balises reconnaissent les technologies d’analy
 
 | Outil | Disponibilité | Utile pour | Considérations |
 | --- | --- | --- | --- |
-| **[](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home)** | Extension de navigateur | Déboguer les implémentations de Adobe Experience Platform et de CX Enterprise, y compris Adobe Analytics, les balises, les couches de données et Experience Platform Web SDK | Outil fourni par Adobe axé sur les technologies Adobe |
-| **[Omnibug ](https://omnibug.io)** | Navigateurs basés sur Chromium et Firefox | Décodage d’Adobe Analytics, d’Experience Platform Web SDK, des balises Adobe et des requêtes de nombreux autres fournisseurs d’analyse et de marketing | Utile pour les implémentations contenant des technologies de plusieurs fournisseurs |
+| **[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home)** | Extension de navigateur | Déboguer les implémentations de Adobe Experience Platform et de CX Enterprise, y compris Adobe Analytics, les balises, les couches de données et Experience Platform Web SDK | Outil fourni par Adobe axé sur les technologies Adobe |
+| **[Omnibug &#x200B;](https://omnibug.io)** | Navigateurs basés sur Chromium et Firefox | Décodage d’Adobe Analytics, d’Experience Platform Web SDK, des balises Adobe et des requêtes de nombreux autres fournisseurs d’analyse et de marketing | Utile pour les implémentations contenant des technologies de plusieurs fournisseurs |
 | **[ObservePoint Debugger](https://www.observepoint.com/solutions/observepoint-debugger/)** | Chrome et Edge | Inspection et décodage des balises d’analyse, de marketing et de mesure, y compris des requêtes Adobe Analytics | Débogueur basé sur un navigateur ; ObservePoint propose également des produits distincts de validation et d’implémentation automatisée |
-| **[](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home)** | Application web dans CX Enterprise | Inspecter et valider les événements des implémentations de Mobile SDK et voir comment Edge Network a traité les événements | Outil fourni par Adobe ; connectez votre application à une session Assurance pour afficher ses événements. |
+| **[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home)** | Application web dans CX Enterprise | Inspecter et valider les événements des implémentations de Mobile SDK et voir comment Edge Network a traité les événements | Outil fourni par Adobe ; connectez votre application à une session Assurance pour afficher ses événements. |
 
 ## Outils de développement de navigateur
 
@@ -85,7 +85,7 @@ L’inspection HTTPS nécessite généralement la configuration du client pour q
 | --- | --- |
 | **[Charles](https://www.charlesproxy.com/)** | Inspection du navigateur, de l’application, de l’appareil mobile et d’autre trafic HTTP(S) |
 | **[Fiddler Partout](https://www.telerik.com/fiddler/fiddler-everywhere)** | Capture et inspection du trafic HTTP(S) entre les applications et les appareils. Distinct de l’ancien produit Fiddler Classic. |
-| **[Proxyman ](https://proxyman.com/)** | Inspection et modification du trafic HTTP(S) provenant des navigateurs, des applications et des appareils mobiles |
+| **[Proxyman &#x200B;](https://proxyman.com/)** | Inspection et modification du trafic HTTP(S) provenant des navigateurs, des applications et des appareils mobiles |
 | **[boîte à outils HTTP](https://httptoolkit.com/)** | Inspection du trafic provenant des applications, des API, des environnements de développement et des appareils mobiles, avec des workflows orientés vers le débogage des applications et des API |
 | **[mitmproxy](https://www.mitmproxy.org/)** | Interception, inspection et modification HTTP(S) scriptable via des interfaces de ligne de commande et web. Convient mieux aux utilisateurs qui maîtrisent les workflows de ligne de commande. |
 

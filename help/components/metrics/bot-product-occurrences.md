@@ -28,7 +28,7 @@ ht-degree: 5%
 ---
 # Occurrences de produits robots
 
-La mesure « Occurrences de produits robots » ](overview.md) indique le nombre de sous-accès correspondant aux [règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).[
+La mesure « Occurrences de produits robots » [&#128279;](overview.md) indique le nombre de sous-accès correspondant aux [règles de robots](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md).
 
 Comme les rapports sur les robots sont séparés du reste des données de votre suite de rapports, cette mesure ne fonctionne qu’avec les dimensions suivantes :
 
