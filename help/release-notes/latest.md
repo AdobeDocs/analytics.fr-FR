@@ -39,9 +39,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
+source-git-commit: 2fc50d801b70ee14c66725cec554b57cd117c8ee
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '967'
 ht-degree: 53%
 ---
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre 2026)
@@ -54,20 +54,20 @@ Ces notes de mise à jour couvrent la période de publication d’octobre 2026. 
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Autorisation en lecture seule pour le serveur MCP Adobe Analytics**<br/> Les administrateurs peuvent désormais donner aux utilisateurs et utilisatrices un accès en lecture seule au serveur MCP Adobe Analytics. Le nouvel élément d’autorisation [!UICONTROL MCP Read Only] permet aux utilisateurs et utilisatrices d’accéder à tous les outils en lecture seule, sans leur permettre de créer des projets, des segments ou des mesures calculées.<p>L’élément d’autorisation [!UICONTROL Accès MCP] existant est renommé [!UICONTROL Accès complet MCP]. Les utilisateurs et utilisatrices bénéficiant de cette autorisation conservent l’accès à tous les outils, y compris ceux qui créent, modifient ou suppriment des composants.</p><p>Pour plus d’informations, voir [Serveur Adobe Analytics MCP](https://developer.adobe.com/analytics-mcp/docs/aa/).</p> | | 6 Octobre 2026 |
+| **Autorisation en lecture seule pour le serveur MCP Adobe Analytics**<br/> Les administrateurs peuvent désormais donner aux utilisateurs et utilisatrices un accès en lecture seule au serveur MCP Adobe Analytics. Le nouvel élément d’autorisation [!UICONTROL Accès en lecture seule MCP] donne aux utilisateurs et utilisatrices l’accès à tous les outils en lecture seule, sans leur permettre de créer des projets, des segments ou des mesures calculées.<p>L’élément d’autorisation [!UICONTROL Accès MCP] existant est renommé [!UICONTROL Accès complet MCP]. Les utilisateurs et utilisatrices bénéficiant de cette autorisation conservent l’accès à tous les outils, y compris ceux qui créent, modifient ou suppriment des composants.</p><p>Pour plus d’informations, voir [Serveur Adobe Analytics MCP](https://developer.adobe.com/analytics-mcp/docs/aa/).</p> | | 6 Octobre 2026 |
 | **Générer automatiquement des descriptions de composant** <br/>Vous pouvez désormais générer automatiquement des descriptions pour les dimensions, les mesures, les mesures calculées, les segments et les périodes. Cela permet aux utilisateurs de Workspace de savoir quels composants utiliser, en particulier dans les organisations qui disposent de bibliothèques de composants volumineuses. <p>Vous pouvez générer une description pour un seul composant ou générer des descriptions pour de nombreux composants en même temps.</p> <p>(Lien vers la documentation à suivre.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 Octobre 2026 |
 | **Intégration de**<br/> connectez Adobe Brand Visibility aux données Adobe Analytics de votre entreprise afin de mesurer la manière dont les découvertes pilotées par l’IA se traduisent par un engagement réel sur le site web et des résultats commerciaux.<p>(Lien vers la documentation à suivre.)</p> | | Octobre 2026 |
 | **CX Enterprise Coworker : analyser les données d’Adobe Analytics dans le Module de conversation des collègues** <br/>Le Module de conversation d’Adobe CX Enterprise Coworker peut désormais effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données de vos suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.<p>(Lien vers la documentation à suivre.)</p> | 2 Octobre 2026 | À confirmer<p>(Initialement prévu pour le 25 septembre 2026)</p> |
 
 ### Correctifs dans Adobe Analytics
 
-**&#x200B;**&#x200B;: AN-494609, AN-493182
-**&#x200B;**&#x200B;: AN-495340, AN-494789, AN-493307, AN-468900
+**** : AN-494609, AN-493182
+**** : AN-495340, AN-494789, AN-493307, AN-468900
 **Classifications** : AN-498043, AN-496619, AN-496468, AN-496217, AN-496133, AN-495567, AN-494651, AN-494345, AN-494312, AN-494261, AN-493645, AN-493507, AN-493336, AN-492869, AN-492812, AN-492751, AN-492750, AN-492741, AN-491032, AN-490802 490796 467849
 **Flux de données et Data Warehouse** : AN-494937, AN-493065, AN-489796, AN-479109
 **Migration** : AN-489850, AN-468014
 **Exports** : AN-494337, AN-486563
-**&#x200B;**&#x200B;: AN-496602, AN-494224, AN-493737, AN-493508, AN-493505, AN-492806, AN-468981, AN-454376
+**** : AN-496602, AN-494224, AN-493737, AN-493508, AN-493505, AN-492806, AN-468981, AN-454376
 **Reporting** : AN-493637, AN-461260
 **Suites de rapports** : AN-496773, AN-495227, AN-494981, AN-494372, AN-494370, AN-493629
 **Rapports planifiés** : AN-491103
