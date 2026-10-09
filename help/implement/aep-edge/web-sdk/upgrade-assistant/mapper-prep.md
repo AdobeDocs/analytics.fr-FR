@@ -1,5 +1,5 @@
 ---
-title: Vérification des suites de rapports dans l’assistant de mise à niveau de Web SDK
+title: Préparation du mappeur dans l’assistant de mise à niveau de Web SDK
 description: Examinez les variables Analytics dans vos suites de rapports et choisissez celles à transférer dans le mappage XDM.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '507'
 ht-degree: 0%
 ---
-# Vérification de la suite de rapports
+# Préparation du mappeur
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Vérification de la suite de rapports"
+>id="aa_upgradeassistant_mapperprep"
+>title="Préparation du mappeur"
 >abstract="Examinez les variables Analytics que votre propriété de balises envoie à chaque suite de rapports. Les variables que vous sélectionnez ici sont transférées vers le mappage XDM. Utilisez les onglets pour rechercher des données récentes, trouver des variables en double et comparer les paramètres entre les suites de rapports."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Si votre propriété de balises envoie des données à plusieurs suites de rappo
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Actualiser les données d’une suite de rapports"
 >abstract="Vérifie à nouveau les suites de rapports liées à cette propriété de balises, y compris leurs paramètres de variable et les données récentes, puis exécute à nouveau l’analyse de variable. Si l’assistant de mise à niveau n’a pas encore trouvé de suite de rapports, il les recherche d’abord dans la propriété des balises. Vos sélections et décisions sont conservées."
 

@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # Occurrences de produits robots
@@ -33,7 +33,6 @@ La mesure « Occurrences de produits robots » [&#128279;](overview.md) indique 
 Comme les rapports sur les robots sont séparés du reste des données de votre suite de rapports, cette mesure ne fonctionne qu’avec les dimensions suivantes :
 
 * [Nom du robot](../dimensions/bot-name.md)
-* [Product](../dimensions/product.md)
 * Dimensions temporelles (par exemple, [Jour](../dimensions/day.md), [Semaine](../dimensions/week.md) ou [Mois](../dimensions/month.md))
 
 L’utilisation d’une autre dimension avec cette mesure ne renvoie pas de données.

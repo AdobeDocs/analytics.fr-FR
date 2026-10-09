@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '534'
 ht-degree: 3%
 ---
 # Assistant de mise à niveau de Web SDK
@@ -54,7 +54,7 @@ L’assistant de mise à niveau vous guide tout au long des étapes suivantes, c
 
 1. **[Sélection de composant](component-selection.md)** : sélectionnez les règles, les éléments de données et les extensions à inclure dans la migration.
 1. **[Résultats d’audit](audit-findings.md)** : consultez les recommandations de nettoyage facultatives pour les composants que vous avez sélectionnés.
-1. **[Vérification de la suite de rapports](rs-verification.md)** : examinez les variables Analytics dans vos suites de rapports et choisissez celles à reporter.
+1. **[Préparation du mappeur](mapper-prep.md)** : passez en revue les variables Analytics dans vos suites de rapports et choisissez celles à reporter.
 1. **[Mappage XDM](xdm-mapping.md)** : mappez vos variables Analytics aux champs d’un schéma XDM.
 1. **[Implémentation de Web SDK](web-sdk-implementation.md)** : passez en revue les actions de Web SDK que l’assistant de mise à niveau ajoute à vos règles.
 1. **[Révision finale](final-review.md)** : sélectionnez un sandbox Experience Platform, vérifiez les éléments créés par la migration et finalisez la migration.

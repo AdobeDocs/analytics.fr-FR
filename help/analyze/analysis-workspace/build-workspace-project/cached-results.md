@@ -10,24 +10,26 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1322'
-ht-degree: 0%
+ht-degree: 5%
 ---
 
-# Utilisation des résultats mis en cache dans les projets Workspace
+# Utiliser des résultats mis en cache dans les projets Workspace
 
 >[!CONTEXTUALHELP]
 >id="aa_project_cached_results"
->title="Utilisation des résultats mis en cache pour un chargement plus rapide"
->abstract="Lorsqu’ils sont activés, les résultats se chargent instantanément pendant 12 heures après la première ouverture d’un projet par un utilisateur ou une utilisatrice ou leur diffusion selon un planning. Quiconque ouvre le projet pendant cette période voit les mêmes résultats, même si les données continuent de circuler en arrière-plan. Pour charger les derniers résultats, actualisez les panneaux individuels ou l’ensemble du projet."
+>title="Utiliser des résultats mis en cache pour un chargement plus rapide"
+>abstract="Lorsqu’ils sont activés, les résultats se chargent instantanément pendant 12 heures après la première ouverture d’un projet par un utilisateur ou une utilisatrice, ou leur diffusion selon un planning. Quiconque ouvre le projet pendant cette période voit les mêmes résultats, même si les données continuent de circuler en arrière-plan. Pour charger les derniers résultats, actualisez les panneaux individuels ou l’ensemble du projet."
 
 {{release-limited-testing}}
 
