@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 3%
@@ -64,10 +66,10 @@ Analytics et les débogueurs de balises reconnaissent les technologies d’analy
 
 | Outil | Disponibilité | Utile pour | Considérations |
 | --- | --- | --- | --- |
-| **[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home)** | Extension de navigateur | Déboguer les implémentations de Adobe Experience Platform et de CX Enterprise, y compris Adobe Analytics, les balises, les couches de données et Experience Platform Web SDK | Outil fourni par Adobe axé sur les technologies Adobe |
-| **[Omnibug &#x200B;](https://omnibug.io)** | Navigateurs basés sur Chromium et Firefox | Décodage d’Adobe Analytics, d’Experience Platform Web SDK, des balises Adobe et des requêtes de nombreux autres fournisseurs d’analyse et de marketing | Utile pour les implémentations contenant des technologies de plusieurs fournisseurs |
+| **[](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home)** | Extension de navigateur | Déboguer les implémentations de Adobe Experience Platform et de CX Enterprise, y compris Adobe Analytics, les balises, les couches de données et Experience Platform Web SDK | Outil fourni par Adobe axé sur les technologies Adobe |
+| **[Omnibug ](https://omnibug.io)** | Navigateurs basés sur Chromium et Firefox | Décodage d’Adobe Analytics, d’Experience Platform Web SDK, des balises Adobe et des requêtes de nombreux autres fournisseurs d’analyse et de marketing | Utile pour les implémentations contenant des technologies de plusieurs fournisseurs |
 | **[ObservePoint Debugger](https://www.observepoint.com/solutions/observepoint-debugger/)** | Chrome et Edge | Inspection et décodage des balises d’analyse, de marketing et de mesure, y compris des requêtes Adobe Analytics | Débogueur basé sur un navigateur ; ObservePoint propose également des produits distincts de validation et d’implémentation automatisée |
-| **[&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home)** | Application web dans CX Enterprise | Inspecter et valider les événements des implémentations de Mobile SDK et voir comment Edge Network a traité les événements | Outil fourni par Adobe ; connectez votre application à une session Assurance pour afficher ses événements. |
+| **[](https://experienceleague.adobe.com/fr/docs/experience-platform/assurance/home)** | Application web dans CX Enterprise | Inspecter et valider les événements des implémentations de Mobile SDK et voir comment Edge Network a traité les événements | Outil fourni par Adobe ; connectez votre application à une session Assurance pour afficher ses événements. |
 
 ## Outils de développement de navigateur
 
@@ -83,7 +85,7 @@ L’inspection HTTPS nécessite généralement la configuration du client pour q
 | --- | --- |
 | **[Charles](https://www.charlesproxy.com/)** | Inspection du navigateur, de l’application, de l’appareil mobile et d’autre trafic HTTP(S) |
 | **[Fiddler Partout](https://www.telerik.com/fiddler/fiddler-everywhere)** | Capture et inspection du trafic HTTP(S) entre les applications et les appareils. Distinct de l’ancien produit Fiddler Classic. |
-| **[Proxyman &#x200B;](https://proxyman.com/)** | Inspection et modification du trafic HTTP(S) provenant des navigateurs, des applications et des appareils mobiles |
+| **[Proxyman ](https://proxyman.com/)** | Inspection et modification du trafic HTTP(S) provenant des navigateurs, des applications et des appareils mobiles |
 | **[boîte à outils HTTP](https://httptoolkit.com/)** | Inspection du trafic provenant des applications, des API, des environnements de développement et des appareils mobiles, avec des workflows orientés vers le débogage des applications et des API |
 | **[mitmproxy](https://www.mitmproxy.org/)** | Interception, inspection et modification HTTP(S) scriptable via des interfaces de ligne de commande et web. Convient mieux aux utilisateurs qui maîtrisent les workflows de ligne de commande. |
 
@@ -113,4 +115,4 @@ Lorsqu’une page quitte l’application, le navigateur peut annuler les requêt
 
 Une demande annulée ne signifie pas nécessairement que des données ont été perdues. Le navigateur a peut-être envoyé la requête complète et cessé d’attendre uniquement la réponse. Les outils de développement de navigateur ne peuvent généralement pas afficher la différence, mais un proxy de débogage HTTP peut l’afficher.
 
-Les requêtes envoyées avec `navigator.sendBeacon()` ne sont pas annulées lors de la navigation. AppMeasurement utilise des `sendBeacon` pour les liens de sortie et chaque fois que le [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) est activé. Le Web SDK l’utilise pour les événements envoyés avec [`documentUnloading`](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/js/commands/sendevent/documentunloading). Si les demandes de suivi des liens sont fréquemment annulées, utilisez ces options.
+Les requêtes envoyées avec `navigator.sendBeacon()` ne sont pas annulées lors de la navigation. AppMeasurement utilise des `sendBeacon` pour les liens de sortie et chaque fois que le [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) est activé. Le Web SDK l’utilise pour les événements envoyés avec [`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading). Si les demandes de suivi des liens sont fréquemment annulées, utilisez ces options.

@@ -15,6 +15,8 @@ feature_v2:
     internal-label: Integrations
   - id: 57d3d944-b7a8-5380-92a1-556c210375c3
     internal-label: Audience Analytics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
     internal-label: Audience Manager integration
@@ -23,7 +25,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 50%
@@ -47,7 +49,7 @@ Dans Analysis Workspace, les segments Adobe Audience Manager apparaissent sous l
 
 1. Accédez à **[!UICONTROL Workspace]** et sélectionnez le panneau **[!UICONTROL Comparaison des segments]** dans le rail de gauche.
 
-1. Recherchez [!UICONTROL &#x200B; Nom de l’audience] dans le menu **[!UICONTROL Composant]**.
+1. Recherchez [!UICONTROL  Nom de l’audience] dans le menu **[!UICONTROL Composant]**.
 
 1. Ouvrez [!UICONTROL Nom d’audience] pour faire apparaître les éléments de dimension associés.
 1. Faites glisser les audiences à comparer dans le créateur Comparaison des segments.

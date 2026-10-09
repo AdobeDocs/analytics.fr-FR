@@ -11,6 +11,8 @@ product_v2:
 feature_v2:
   - id: 57d3d944-b7a8-5380-92a1-556c210375c3
     internal-label: Audience Analytics
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
     internal-label: Audience Manager integration
@@ -26,7 +28,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 29%
@@ -57,7 +59,7 @@ Elles ne s’appliquent pas à l’envoi de données Adobe Analytics à Adobe Au
 
 +++ Comment créer une destination Analytics dans Audience Manager ?
 
-Voir [&#x200B; Configuration d’une destination Analytics dans Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr) ».
+Voir [ Configuration d’une destination Analytics dans Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=fr) ».
 
 +++
 
@@ -127,7 +129,7 @@ Les contrôles de confidentialité de Adobe Audience Manager entre la source de 
 
 +++ Pourquoi est-ce que je vois « Limite d’audience atteinte » dans mon rapport Analytics ? (Remarque : ceci sera également représenté sous la forme ID d’audience = -1 et `::max_audiences_exceeded::` dans Data Warehouse)
 
-Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est qualifié, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les 150 segments qualifiés les plus récemment **&#x200B;**&#x200B;sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
+Par défaut, l’intégration d’Audience Analytics pour Adobe Audience Manager envoie à Analytics tous les segments pour lesquels un visiteur est qualifié, par accès. Si un visiteur appartient à plus de 150 segments Adobe Audience Manager sur un seul accès, les 150 segments qualifiés les plus récemment **** sont envoyés à Analytics, tandis que la liste restante est tronquée. Un indicateur supplémentaire signifiant que la liste de segments a été tronquée est envoyé à Analytics. Celui-ci s’affiche sous la forme de la mention « Limite d’audience atteinte » dans la dimension Nom d’audience et de « -1 » dans la dimension ID d’audience.
 
 Il est peu probable qu’un visiteur soit admissible pour plus de 150 segments au cours d’un hit particulier, mais cela peut se produire dans un nombre réduit de cas. Si la mention « Limite d’audience atteinte » apparaît dans vos rapports, vous avez deux possibilités :
 
@@ -163,7 +165,7 @@ Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redire
 
 +++ Pourquoi le nombre de visiteurs du segment est-il différent entre Audience Manager et Analytics ?
 
-Voir [&#x200B; Différences entre les nombres de visiteurs &#x200B;](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
+Voir [ Différences entre les nombres de visiteurs ](/help/integrate/c-audience-analytics/visitor-count-reconciliation.md).
 
 +++
 
