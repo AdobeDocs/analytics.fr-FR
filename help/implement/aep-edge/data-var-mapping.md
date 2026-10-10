@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c7bf23667e8dad862d73106345c08047039e945a
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 77%
+source-wordcount: '645'
+ht-degree: 66%
 ---
 # Mappage des champs d’objet de données à Adobe Analytics
 
 Le tableau suivant montre le champ d’objet de données que Adobe Experience Platform Edge Network mappe automatiquement dans Adobe Analytics. Si vous utilisez ces chemins de champ d’objet de données, aucune configuration supplémentaire n’est nécessaire pour envoyer des données à Adobe Analytics.
 
-L’utilisation de ces champs est recommandée si vous envisagez d’utiliser Customer Journey Analytics à l’avenir. Cette méthode de mise en œuvre permet à votre entreprise d’envoyer des données à Adobe à l’aide du SDK web sans se conformer à un schéma XDM. Lorsque votre organisation est prête à envoyer des données à Adobe Experience Platform, vous pouvez utiliser [Mappage de train de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/data-prep#mapping) pour pointer les champs d’objet de données vers leurs champs XDM respectifs.
+L’utilisation de ces champs est recommandée si vous envisagez de passer à Customer Journey Analytics à l’avenir. Cette méthode de mise en œuvre permet à votre entreprise d’envoyer des données à Adobe Analytics à l’aide de Web SDK sans se conformer à un schéma XDM. Ces mappages s’appliquent uniquement à Adobe Analytics. Lorsque votre organisation est prête à envoyer des données à Adobe Experience Platform, utilisez [Mappage de flux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/data-prep#mapping) pour mapper les champs d’objet de données aux champs de votre schéma XDM.
 
 ## Priorités des valeurs
 

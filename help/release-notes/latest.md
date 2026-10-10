@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
+source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 53%
+source-wordcount: '974'
+ht-degree: 52%
 ---
 # Notes de mise à jour actuelles d’Adobe Analytics (octobre 2026)
 
@@ -54,7 +54,7 @@ Ces notes de mise à jour couvrent la période de publication d’octobre 2026. 
 
 | Fonctionnalité et description | [Le déploiement commence](releases.md) | [Disponibilité générale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Autorisation en lecture seule pour le serveur MCP Adobe Analytics**<br/> Les administrateurs peuvent désormais donner aux utilisateurs et utilisatrices un accès en lecture seule au serveur MCP Adobe Analytics. Le nouvel élément d’autorisation [!UICONTROL MCP Read Only] permet aux utilisateurs et utilisatrices d’accéder à tous les outils en lecture seule, sans leur permettre de créer des projets, des segments ou des mesures calculées.<p>L’élément d’autorisation [!UICONTROL Accès MCP] existant est renommé [!UICONTROL Accès complet MCP]. Les utilisateurs et utilisatrices bénéficiant de cette autorisation conservent l’accès à tous les outils, y compris ceux qui créent, modifient ou suppriment des composants.</p><p>Pour plus d’informations, voir [Serveur Adobe Analytics MCP](https://developer.adobe.com/analytics-mcp/docs/aa/).</p> | | 6 Octobre 2026 |
+| **Autorisation en lecture seule pour le serveur MCP Adobe Analytics**<br/> Les administrateurs peuvent désormais donner aux utilisateurs et utilisatrices un accès en lecture seule au serveur MCP Adobe Analytics. Le nouvel élément d’autorisation [!UICONTROL Accès en lecture seule MCP] donne aux utilisateurs et utilisatrices l’accès à tous les outils en lecture seule, sans leur permettre de créer des projets, des segments ou des mesures calculées.<p>L’élément d’autorisation [!UICONTROL Accès MCP] existant est renommé [!UICONTROL Accès complet MCP]. Les utilisateurs et utilisatrices bénéficiant de cette autorisation conservent l’accès à tous les outils, y compris ceux qui créent, modifient ou suppriment des composants.</p><p>Pour plus d’informations, consultez [Configuration des autorisations](https://developer.adobe.com/analytics-mcp/docs/guides/permissions) dans la documentation du serveur MCP Adobe Analytics.</p> | | 6 Octobre 2026 |
 | **Générer automatiquement des descriptions de composant** <br/>Vous pouvez désormais générer automatiquement des descriptions pour les dimensions, les mesures, les mesures calculées, les segments et les périodes. Cela permet aux utilisateurs de Workspace de savoir quels composants utiliser, en particulier dans les organisations qui disposent de bibliothèques de composants volumineuses. <p>Vous pouvez générer une description pour un seul composant ou générer des descriptions pour de nombreux composants en même temps.</p> <p>(Lien vers la documentation à suivre.)<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 Octobre 2026 |
 | **Intégration de**<br/> connectez Adobe Brand Visibility aux données Adobe Analytics de votre entreprise afin de mesurer la manière dont les découvertes pilotées par l’IA se traduisent par un engagement réel sur le site web et des résultats commerciaux.<p>(Lien vers la documentation à suivre.)</p> | | Octobre 2026 |
 | **CX Enterprise Coworker : analyser les données d’Adobe Analytics dans le Module de conversation des collègues** <br/>Le Module de conversation d’Adobe CX Enterprise Coworker peut désormais effectuer une analyse avancée des données, auparavant possible uniquement dans Analysis Workspace. Le Module de conversation avec les collègues accède aux données de vos suites de rapports Adobe Analytics, ce qui vous permet d’explorer ces données et d’obtenir des réponses aux invites en langage naturel.<p>(Lien vers la documentation à suivre.)</p> | 2 Octobre 2026 | À confirmer<p>(Initialement prévu pour le 25 septembre 2026)</p> |
