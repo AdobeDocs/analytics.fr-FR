@@ -53,7 +53,7 @@ La sélection des composants est la première étape d’une migration. Utilisez
 
 L’assistant de mise à niveau organise les composants de votre propriété de balises dans les onglets **[!UICONTROL Règles]**, **[!UICONTROL Éléments de données]** et **[!UICONTROL Extensions]**. Chaque onglet répertorie tous les composants de la propriété de ce type, en fonction de l’instantané de la bibliothèque pris par l’assistant de mise à niveau lorsque vous [avez créé la migration](manager.md#create). Par défaut, seuls les composants qui contribuent activement à votre implémentation d’Adobe Analytics sont sélectionnés. Vous pouvez sélectionner ou effacer n’importe quel composant.
 
-La colonne **[!UICONTROL Publié]** indique si chaque composant fait partie de la bibliothèque que vous avez sélectionnée. Les composants qui ne font pas partie de la bibliothèque existent dans la propriété des balises, mais pas dans cette bibliothèque. Pour filtrer la liste selon ce critère, utilisez le filtre ****.
+La colonne **[!UICONTROL Publié]** indique si chaque composant fait partie de la bibliothèque que vous avez sélectionnée. Les composants qui ne font pas partie de la bibliothèque existent dans la propriété des balises, mais pas dans cette bibliothèque. Pour filtrer la liste selon ce critère, utilisez le filtre **&#x200B;**.
 
 Vous pouvez inclure des composants qui ne sont pas liés à Adobe Analytics, tels que des composants pour Adobe Target, Adobe Audience Manager ou des extensions tierces, mais l’assistant de mise à niveau ne les convertit pas dans le SDK Web.
 
