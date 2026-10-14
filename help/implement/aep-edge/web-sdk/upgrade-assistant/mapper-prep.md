@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 0%
+ht-degree: 18%
 ---
 # Préparation du mappeur
 
@@ -82,7 +82,7 @@ Si votre propriété de balises envoie des données à plusieurs suites de rappo
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
 >title="Actualiser les données d’une suite de rapports"
->abstract="Vérifie à nouveau les suites de rapports liées à cette propriété de balises, y compris leurs paramètres de variable et les données récentes, puis exécute à nouveau l’analyse de variable. Si l’assistant de mise à niveau n’a pas encore trouvé de suite de rapports, il les recherche d’abord dans la propriété des balises. Vos sélections et décisions sont conservées."
+>abstract="Revérifie les suites de rapports liées à cette propriété de balises, y compris leurs paramètres de variable et les données récentes, puis réexécute l’analyse de variable. Si l’assistant de mise à niveau n’a pas encore trouvé de suite de rapports, il les recherche d’abord dans la propriété des balises. Vos sélections et décisions sont conservées."
 
 <!-- markdownlint-enable MD034 -->
 
