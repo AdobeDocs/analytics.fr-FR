@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 11%
+source-wordcount: '477'
+ht-degree: 8%
 ---
 # Prise en charge des composants dans Data Warehouse
 
@@ -66,9 +66,9 @@ Les dimensions suivantes ne sont pas disponibles dans les segments ou les rappor
 * [[!UICONTROL Recherche payante]](/help/components/dimensions/paid-search.md)
 * [[!UICONTROL Visites de page unique]](/help/components/dimensions/single-page-visits.md)
 * [[!UICONTROL Suivi du motif de désinscription]](/help/components/dimensions/tracking-opt-out-reason.md)
-* [[!UICONTROL &#x200B; États américains &#x200B;]](/help/components/dimensions/us-states.md)
+* [[!UICONTROL  États américains ]](/help/components/dimensions/us-states.md)
 
-Certaines dimensions sont disponibles dans une requête Data Warehouse, mais ne peuvent pas être utilisées dans un segment. Voir [Compatibilité des segments &#x200B;](segment-compatibility.md) pour plus d’informations.
+Certaines dimensions sont disponibles dans une requête Data Warehouse, mais ne peuvent pas être utilisées dans un segment. Voir [Compatibilité des segments ](segment-compatibility.md) pour plus d’informations.
 
 ## Dimensions avec un formatage de date non standard
 
@@ -88,6 +88,15 @@ Les valeurs de date sont générées au format `1YYMMDDHHMM` :
 * **Month** : basé sur zéro. Janvier = `00`, février = `01`, ..., décembre = `11`.
 
 Par exemple, si le champ Semaine de la période affiche `1260901`, l’année est 1900 + 126 = **2026** et le mois est 09 = **Octobre**.
+
+## Dimensions de classification dans Data Warehouse {#classifications}
+
+{{release-limited-testing-section}}
+
+Les rapports Data Warehouse obtiennent les données de classification directement à partir de [jeux de classifications](/help/components/classifications/sets/overview.md). Par conséquent, les dimensions de classification dans les rapports Data Warehouse peuvent différer des mêmes dimensions dans Analysis Workspace :
+
+* **Les valeurs de classification supprimées apparaissent vides** : lorsque vous supprimez des données de classification d’un ensemble de classifications, les rapports Data Warehouse affichent une valeur vide pour cette classification. Pour savoir comment supprimer des données de classification, voir [Formats de fichiers d’ensemble de classifications](/help/components/classifications/sets/data-files.md).
+* **Plusieurs valeurs de classification peuvent apparaître lorsque Analysis Workspace en affiche une (peu fréquent)** : dans des cas peu courants, Analysis Workspace présente plusieurs valeurs de classification différentes comme une seule valeur. Data Warehouse affiche chacune de ces valeurs. Par conséquent, les valeurs de classification peuvent parfois différer entre Data Warehouse et Analysis Workspace.
 
 ## Mesures définies différemment dans Data Warehouse
 
