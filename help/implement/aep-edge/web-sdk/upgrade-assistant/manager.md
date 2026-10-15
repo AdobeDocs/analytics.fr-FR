@@ -38,20 +38,20 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 0%
+ht-degree: 23%
 ---
-# Gestion des migrations
+# Gérer les migrations
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="Migrations"
->abstract="Chaque migration met à niveau l’implémentation d’Adobe Analytics dans une propriété de balises vers le SDK web. Ouvrez une migration pour continuer là où vous vous êtes arrêté, ou sélectionnez « Nouveau » pour en démarrer une."
+>abstract="Chaque migration met à niveau l’implémentation d’Adobe Analytics dans une propriété de balises vers le SDK web. Ouvrez une migration pour continuer votre progression, ou sélectionnez « Nouveau » pour en démarrer une."
 
 La page **[!UICONTROL Migrations]** est le point de départ de l’assistant de mise à niveau de Web SDK. Il répertorie les migrations de votre organisation, y compris la progression et le statut de chaque migration, ainsi que son auteur. Utilisez cette page pour créer une migration ou pour ouvrir une migration existante.
 
-## Création d’une migration {#create}
+## Créer une migration {#create}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"

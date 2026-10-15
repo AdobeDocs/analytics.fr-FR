@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 0%
+ht-degree: 13%
 ---
 # Révision finale
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_finalreview"
 >title="Révision finale"
->abstract="Sélectionnez le sandbox Experience Platform à utiliser, puis passez en revue tout ce que cette migration crée ou modifie. Rien ne change tant que vous n’avez pas terminé la migration. Lorsque vous le finalisez, l’assistant de mise à niveau crée tout en même temps, ajoute les modifications de balises à une nouvelle bibliothèque et effectue cette migration en lecture seule. Vous publiez ensuite cette bibliothèque vous-même en production."
+>abstract="Sélectionnez le sandbox Experience Platform à utiliser, puis passez en revue tout ce que cette migration crée ou modifie. Rien ne change tant que vous n’avez pas terminé la migration. Lorsque vous la finalisez, l’assistant de mise à niveau crée tout en même temps, ajoute les modifications de balises à une nouvelle bibliothèque et effectue cette migration en lecture seule. Vous publiez ensuite cette bibliothèque vous-même en production."
 
 <!-- markdownlint-enable MD034 -->
 

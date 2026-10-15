@@ -38,16 +38,16 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 21%
 ---
-# Sélection de composant
+# Sélection de composants
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection"
->title="Sélection de composant"
->abstract="Choisissez les règles, les éléments de données et les extensions à inclure dans cette migration. Les composants qui contribuent activement à votre implémentation d’Adobe Analytics sont sélectionnés par défaut. Les étapes suivantes ne fonctionnent qu’avec les composants que vous sélectionnez ici."
+>title="Sélection de composants"
+>abstract="Choisissez les règles, les éléments de données et les extensions à inclure dans cette migration. Les composants qui contribuent activement à votre implémentation d’Adobe Analytics sont sélectionnés par défaut. Les étapes suivantes ne fonctionnent qu’avec les composants que vous sélectionnez ici."
 
 La sélection des composants est la première étape d’une migration. Utilisez-le pour choisir les règles, éléments de données et extensions de votre propriété de balises à inclure dans la migration.
 
@@ -59,7 +59,7 @@ Vous pouvez inclure des composants qui ne sont pas liés à Adobe Analytics, tel
 
 Les composants que vous sélectionnez déterminent les étapes suivantes qui fonctionnent. Par exemple, vous pouvez inclure des éléments de données auxquels rien ne fait référence afin que [les résultats de l’audit](audit-findings.md) puissent les marquer pour nettoyage.
 
-## Affichage des détails du composant {#details}
+## Afficher les détails du composant {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
@@ -69,7 +69,7 @@ Les composants que vous sélectionnez déterminent les étapes suivantes qui fon
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
 >title="Utilisation d’Analytics"
->abstract="Variables Adobe Analytics auxquelles ce composant est affecté, regroupées par type de variable."
+>abstract="Variables Adobe Analytics auxquelles ce composant est affecté, regroupées par type de variable."
 
 <!-- markdownlint-enable MD034 -->
 
