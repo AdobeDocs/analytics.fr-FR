@@ -7,26 +7,34 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 15%
-
+source-wordcount: '753'
+ht-degree: 11%
 ---
-
 # trackingServerSecure
 
 La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasurement pour envoyer des données à Adobe via HTTPS. Si cette variable n’est pas correctement définie, votre mise en œuvre peut entraîner une perte de données.
@@ -34,8 +42,6 @@ La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasure
 >[!NOTE]
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) est une variante retirée de cette variable. Il a spécifié le domaine pour les données envoyées via HTTP ; avec la prévalence de HTTPS, utilisez plutôt `trackingServerSecure`. Si `s.trackingServerSecure` n’est pas renseigné, AppMeasurement revient à la valeur `s.trackingServer`.
-
-Avant le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home) (`VisitorAPI.js`), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’identification des visiteurs dans toutes les implémentations lorsque cela est possible.
 
 ## Domaine Edge utilisant l’extension Web SDK
 
@@ -54,7 +60,7 @@ Voir [Configurer l’extension Adobe Experience Platform Web SDK](https://experi
 
 ## Domaine Edge implémentant manuellement le SDK Web
 
-Configurez le SDK à l’aide de [`edgeDomain`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/edgedomain). Le champ est une chaîne qui détermine le domaine vers lequel envoyer des données.
+Configurez le SDK à l’aide de [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Le champ est une chaîne qui détermine le domaine vers lequel envoyer des données.
 
 ```json
 alloy("configure", {
@@ -68,7 +74,7 @@ alloy("configure", {
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Sélectionnez la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+1. Accédez à l’onglet [!UICONTROL  Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi SSL].
 
 Si ce champ n’est pas renseigné, la valeur par défaut est celle indiquée dans [!UICONTROL Serveur de suivi]. Si [!UICONTROL Serveur de suivi SSL] et [!UICONTROL Serveur de suivi] sont tous deux vides, la valeur par défaut est `[rsid].data.adobedc.net`.
@@ -78,44 +84,30 @@ Si ce champ n’est pas renseigné, la valeur par défaut est celle indiquée da
 La variable `s.trackingServerSecure` est une chaîne qui contient le domaine pour envoyer des données à Adobe. Il s’agit uniquement du domaine ; omettez le protocole, le chemin, le port et les barres obliques. Si cette variable est vide, elle utilise la valeur de la variable `s.trackingServer`. Si les champs `s.trackingServerSecure` et `s.trackingServer` sont vides, la valeur par défaut est `[rsid].2o7.net`.
 
 ```js
-// Example value when participating in the Adobe-managed certificate program
+// Example value when using a first-party domain
 s.trackingServerSecure = "data.example.com";
 
-// Example value sending data directly to Adobe
+// Example value when using a third-party domain
 s.trackingServerSecure = "example.data.adobedc.net";
 ```
 
 ## Considérations relatives à la détermination de la valeur de `trackingServerSecure`
 
-La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de plusieurs facteurs :
+La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de la manière dont votre organisation envoie les données à Adobe :
 
-* Votre participation au programme de certificat géré par Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Si le service d’identification des visiteurs [Adobe est implémenté et correctement configuré](https://experienceleague.adobe.com/fr/docs/id-service/using/home)
+* **Si votre organisation utilise un domaine propriétaire** par exemple par le biais du [programme de certificat géré par Adobe](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert) d’un [certificat géré par le client](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) ou d’un [réseau de diffusion de contenu (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), définissez la valeur sur ce domaine. Par exemple : `data.example.com`.
+* **Si votre organisation utilise un domaine tiers** définissez la valeur sur votre sous-domaine d’ID client de `data.adobedc.net`. Par exemple : `example.data.adobedc.net`.
 
-**Si votre entreprise participe au programme de certificat géré par Adobe**, définissez la valeur sur le domaine propriétaire sélectionné lors de la configuration du certificat. En règle générale, cette valeur est un sous-domaine détenu par votre organisation. Par exemple : `data.example.com`. Les enregistrements CNAME de votre organisation redirigent ces données vers Adobe.
+Voir [Choisir un domaine de collecte de données](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) dans le guide d’interface et d’administration de CX Enterprise pour obtenir des détails sur chaque option, y compris sur la recherche de votre identifiant client.
 
-**Si vous ne participez pas au programme de certificat**, définissez la valeur sur un sous-domaine de `data.adobedc.net`. Adobe recommande d’utiliser l’identifiant de société de votre organisation par souci de cohérence. Par exemple : `example.data.adobedc.net`. Procédez comme suit pour déterminer l’ID de votre société :
-
-1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
-1. N’importe où dans l’interface CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
-1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
-1. Développez l’organisation IMS souhaitée.
-1. Recherchez le champ **[!UICONTROL Client]**. Cette valeur est le sous-domaine de `data.adobedc.net` recommandé à utiliser.
-
->[!NOTE]
->
->N’utilisez aucun sous-domaine plus profond que `example.data.adobedc.net`. Par exemple, `custom.example.data.adobedc.net` n’est pas un serveur de suivi valide.
-
-Les implémentations plus anciennes peuvent avoir des valeurs telles que `sc.omtrdc.net` ou `2o7.net`. Ceux-ci étaient principalement utilisés dans les versions précédentes d’Adobe Analytics et sont toujours valides.
-
-Adobe recommande vivement de conserver ces informations dans un [&#x200B; document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
+Adobe recommande vivement de conserver ces informations dans un [ document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
 
 ## Ramifications de la non-utilisation du service d’identification des visiteurs ou du service Experience Platform Identity
 
 Adobe recommande vivement d’utiliser l’ECID comme principale forme d’identité du visiteur dans toutes les implémentations. La collecte des ECID peut être implémentée de plusieurs manières différentes, en fonction du type d’implémentation :
 
-* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Pour plus d’informations, voir [Implémentation du service d’identification des visiteurs pour Analytics](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/setup-analytics).
-* Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service d’identification des visiteurs. Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
+* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Pour plus d’informations, voir [Implémentation du service d’identification des visiteurs pour Analytics](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/setup-analytics).
+* Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service d’identification des visiteurs. Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
 * Les implémentations utilisant n’importe quel format de Web SDK (`alloy.js` ou l’extension de balise Web SDK) incluent automatiquement Experience Platform Identity Service. Aucune configuration n’est requise au-delà de la définition de la valeur `edgeDomain` .
 
 **Si votre implémentation n’utilise pas d’ECID** tenez compte des impacts suivants sur votre implémentation :
