@@ -66,9 +66,9 @@ Les dimensions suivantes ne sont pas disponibles dans les segments ou les rappor
 * [[!UICONTROL Recherche payante]](/help/components/dimensions/paid-search.md)
 * [[!UICONTROL Visites de page unique]](/help/components/dimensions/single-page-visits.md)
 * [[!UICONTROL Suivi du motif de désinscription]](/help/components/dimensions/tracking-opt-out-reason.md)
-* [[!UICONTROL  États américains ]](/help/components/dimensions/us-states.md)
+* [[!UICONTROL &#x200B; États américains &#x200B;]](/help/components/dimensions/us-states.md)
 
-Certaines dimensions sont disponibles dans une requête Data Warehouse, mais ne peuvent pas être utilisées dans un segment. Voir [Compatibilité des segments ](segment-compatibility.md) pour plus d’informations.
+Certaines dimensions sont disponibles dans une requête Data Warehouse, mais ne peuvent pas être utilisées dans un segment. Voir [Compatibilité des segments &#x200B;](segment-compatibility.md) pour plus d’informations.
 
 ## Dimensions avec un formatage de date non standard
 
