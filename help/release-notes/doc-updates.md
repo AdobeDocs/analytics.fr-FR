@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7621'
 ht-degree: 90%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
@@ -76,6 +76,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Octobre 2026** | |
+| Collecte de données via un réseau CDN | Ajout de [Routage de la collecte de données via un réseau CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) à l’interface CX Enterprise et au guide d’administration. |
 | Mesure des occurrences de produit robot | Ajout de la mesure [Occurrences de produits robots](/help/components/metrics/bot-product-occurrences.md), qui indique le nombre de sous-accès à des chaînes de produit correspondant à des règles de robots. <p>Mise à jour des mesures [Nom du robot](/help/components/dimensions/bot-name.md) et [Occurrences de robot](/help/components/metrics/bot-occurrences.md) pour référencer la nouvelle mesure.</p> |
 | **Septembre 2026** | |
 | Comparaison de la zone de travail de parcours sur les flèches et les abandons | Mise à jour du paramètre [!UICONTROL Comparer à] dans [Configurer une visualisation de zone de travail de Parcours &#x200B;](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) afin d’afficher le pourcentage de changement entre les périodes sur chaque nœud, flèche et abandon du parcours. |

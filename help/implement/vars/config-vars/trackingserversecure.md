@@ -7,26 +7,34 @@ role: Admin, Developer
 TQID: https://experienceleague.adobe.com/8-M-5apvXuUfQyxdd4Es8Lr5LkgXPK2UNHrhpTzT8xE
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: df312454-73c4-43f6-a90e-18f5043f074c
+    internal-label: Tags
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Data collection
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 15%
-
+source-wordcount: '753'
+ht-degree: 11%
 ---
-
 # trackingServerSecure
 
 La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasurement pour envoyer des données à Adobe via HTTPS. Si cette variable n’est pas correctement définie, votre mise en œuvre peut entraîner une perte de données.
@@ -34,8 +42,6 @@ La variable `trackingServerSecure` détermine le domaine utilisé par AppMeasure
 >[!NOTE]
 >
 >[`trackingServer`](configuration-variables.md#retired-configuration-variables) est une variante retirée de cette variable. Il a spécifié le domaine pour les données envoyées via HTTP ; avec la prévalence de HTTPS, utilisez plutôt `trackingServerSecure`. Si `s.trackingServerSecure` n’est pas renseigné, AppMeasurement revient à la valeur `s.trackingServer`.
-
-Avant le service d’identification des visiteurs Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home) (`VisitorAPI.js`), cette variable déterminait également où les cookies tiers étaient définis. Adobe recommande vivement d’utiliser le service d’identification des visiteurs dans toutes les implémentations lorsque cela est possible.
 
 ## Domaine Edge utilisant l’extension Web SDK
 
@@ -78,35 +84,21 @@ Si ce champ n’est pas renseigné, la valeur par défaut est celle indiquée da
 La variable `s.trackingServerSecure` est une chaîne qui contient le domaine pour envoyer des données à Adobe. Il s’agit uniquement du domaine ; omettez le protocole, le chemin, le port et les barres obliques. Si cette variable est vide, elle utilise la valeur de la variable `s.trackingServer`. Si les champs `s.trackingServerSecure` et `s.trackingServer` sont vides, la valeur par défaut est `[rsid].2o7.net`.
 
 ```js
-// Example value when participating in the Adobe-managed certificate program
+// Example value when using a first-party domain
 s.trackingServerSecure = "data.example.com";
 
-// Example value sending data directly to Adobe
+// Example value when using a third-party domain
 s.trackingServerSecure = "example.data.adobedc.net";
 ```
 
 ## Considérations relatives à la détermination de la valeur de `trackingServerSecure`
 
-La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de plusieurs facteurs :
+La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépend de la manière dont votre organisation envoie les données à Adobe :
 
-* Votre participation au programme de certificat géré par Adobe [&#128279;](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Si le service d’identification des visiteurs [Adobe est implémenté et correctement configuré](https://experienceleague.adobe.com/fr/docs/id-service/using/home)
+* **Si votre organisation utilise un domaine propriétaire** par exemple par le biais du [programme de certificat géré par Adobe](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/adobe-managed-cert) d’un [certificat géré par le client](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) ou d’un [réseau de diffusion de contenu (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), définissez la valeur sur ce domaine. Par exemple : `data.example.com`.
+* **Si votre organisation utilise un domaine tiers** définissez la valeur sur votre sous-domaine d’ID client de `data.adobedc.net`. Par exemple : `example.data.adobedc.net`.
 
-**Si votre entreprise participe au programme de certificat géré par Adobe**, définissez la valeur sur le domaine propriétaire sélectionné lors de la configuration du certificat. En règle générale, cette valeur est un sous-domaine détenu par votre organisation. Par exemple : `data.example.com`. Les enregistrements CNAME de votre organisation redirigent ces données vers Adobe.
-
-**Si vous ne participez pas au programme de certificat**, définissez la valeur sur un sous-domaine de `data.adobedc.net`. Adobe recommande d’utiliser l’identifiant de société de votre organisation par souci de cohérence. Par exemple : `example.data.adobedc.net`. Procédez comme suit pour déterminer l’ID de votre société :
-
-1. Connectez-vous à [Adobe CX Enterprise](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
-1. N’importe où dans l’interface CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
-1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
-1. Développez l’organisation IMS souhaitée.
-1. Recherchez le champ **[!UICONTROL Client]**. Cette valeur est le sous-domaine de `data.adobedc.net` recommandé à utiliser.
-
->[!NOTE]
->
->N’utilisez aucun sous-domaine plus profond que `example.data.adobedc.net`. Par exemple, `custom.example.data.adobedc.net` n’est pas un serveur de suivi valide.
-
-Les implémentations plus anciennes peuvent avoir des valeurs telles que `sc.omtrdc.net` ou `2o7.net`. Ceux-ci étaient principalement utilisés dans les versions précédentes d’Adobe Analytics et sont toujours valides.
+Voir [Choisir un domaine de collecte de données](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) dans le guide d’interface et d’administration de CX Enterprise pour obtenir des détails sur chaque option, y compris sur la recherche de votre identifiant client.
 
 Adobe recommande vivement de conserver ces informations dans un [&#x200B; document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
 
