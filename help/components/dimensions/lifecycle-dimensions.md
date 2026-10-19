@@ -41,9 +41,9 @@ ht-degree: 8%
 | **[!UICONTROL Nom de l’appareil (SDK)]** | Nom de l’appareil collecté par SDK. | `a.DeviceName` |
 | **[!UICONTROL Version du système d’exploitation (SDK)]** | Nom et version du système d’exploitation collectés par SDK. | `a.OSVersion` |
 | **[!UICONTROL Résolution (SDK)]** | Résolution de l’écran de l’appareil en pixels, exprimée en largeur x hauteur. | `a.Resolution` |
-| Source d’acquisition ]****[!UICONTROL  | Référent d’origine pour une campagne d’acquisition d’application, telle qu’une newsletter ou un réseau de médias sociaux. | `a.referrer.campaign.source` |
+| Source d’acquisition **&#x200B;**&#x200B;| Référent d’origine pour une campagne d’acquisition d’application, telle qu’une newsletter ou un réseau de médias sociaux. | `a.referrer.campaign.source` |
 | **[!UICONTROL ID de l’application]** | Nom et version de l’application, au format `AppName BundleVersion (app version code)`. Par exemple : `MyAppName 1.1(1)`. | `a.AppID` |
-| Medium d’acquisition ]****[!UICONTROL  | Support marketing pour une campagne d’acquisition d’application, telle qu’une bannière ou un e-mail. | `a.referrer.campaign.medium` |
+| Medium d’acquisition **&#x200B;**&#x200B;| Support marketing pour une campagne d’acquisition d’application, telle qu’une bannière ou un e-mail. | `a.referrer.campaign.medium` |
 | **[!UICONTROL Terme d’acquisition]** | Mots-clés payants ou autres termes associés à une campagne d’acquisition d’application. | `a.referrer.campaign.term` |
 | **[!UICONTROL Contenu d’acquisition]** | Nom ou ID du contenu qui affichait le lien d’acquisition de l’application. | `a.referrer.campaign.content` |
 | **[!UICONTROL Nom de l’acquisition]** | Nom de la campagne d’acquisition de l’application. | `a.referrer.campaign.name` |
@@ -69,7 +69,7 @@ ht-degree: 8%
 >
 >Certaines de ces dimensions sont renseignées par des méthodes dans l’ancien Mobile Services SDK (4.x), qui n’est plus pris en charge. Adobe Experience Platform Mobile SDK ne les renseigne pas automatiquement :
 >
->* **Dimensions d’acquisition** ([!UICONTROL Acquisition Source], [!UICONTROL Medium], [!UICONTROL Term], [!UICONTROL Content] et [!UICONTROL Name]) : renseigné par Acquisition d’application mobile, que le [ ](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/comparison/) de SDK mobile ne prend pas en charge.
+>* **Dimensions d’acquisition** ([!UICONTROL Acquisition Source], [!UICONTROL Medium], [!UICONTROL Term], [!UICONTROL Content] et [!UICONTROL Name]) : renseigné par Acquisition d’application mobile, que le [&#x200B; &#x200B;](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/comparison/) de SDK mobile ne prend pas en charge.
 >* **[!UICONTROL Emplacement] dimensions et [!UICONTROL Distance par rapport au centre du point ciblé]** : renseigné par la méthode de `trackLocation` 4.x. Le SDK mobile remplace cette méthode par l’extension [Places](https://developer.adobe.com/client-sdks/solution/places/), qui renseigne [!UICONTROL Nom du point ciblé] et [!UICONTROL ID du point ciblé].
 >* **[!UICONTROL Valeur de durée de vie (evar)]** : renseignée par la méthode `trackLifetimeValueIncrease` 4.x.
 >* **Dimensions de balise** ([!UICONTROL Balise majeure], [!UICONTROL Mineure], [!UICONTROL UUID] et [!UICONTROL Proximité]) : renseignée par la méthode 4.x `trackBeacon`. Pour envoyer des données de balise avec Mobile SDK, voir [Balises de tracking](https://developer.adobe.com/client-sdks/solution/adobe-analytics/track-beacon/).
