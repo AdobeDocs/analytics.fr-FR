@@ -26,7 +26,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours &#x200B;](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;de cet article._
+_Cet article présente la visualisation de la zone de travail de Parcours dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Voir [Configurer une visualisation de la zone de travail de Parcours ](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) pour la version _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Voir [Vue d’ensemble de la zone de travail de parcours](/help/analyze/analysis
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="Comparer les pourcentages"
->abstract="Compare le pourcentage de changement sur chaque nœud, flèche et abandon dans le parcours entre la période actuelle et la période de comparaison sélectionnée, en fonction de la mesure principale. Lorsque cette option est désactivée, le pourcentage de la valeur brute s’affiche au lieu du pourcentage de modification."
+>abstract="Compare le pourcentage de modification de chaque nœud, flèche et abandon du parcours entre la période actuelle et la période de comparaison sélectionnée, en fonction de la mesure principale. Lorsque cette option est désactivée, le pourcentage de la valeur brute s’affiche au lieu du pourcentage de modification."
 
 <!-- markdownlint-enable MD034 -->
 
