@@ -74,7 +74,7 @@ Le panneau Analytics for Target vous permet d’analyser vos activités et expé
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [panneau Analytics for Target](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
