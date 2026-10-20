@@ -76,7 +76,7 @@ L’en-tête de ce panneau contient les paramètres suivants :
 * **[!UICONTROL Afficher les paramètres]** : ouvre un menu pour les paramètres que vous pouvez modifier (icône d’engrenage) :
   * **[!UICONTROL Settings]** : ouvre le [Settings](settings.md) de l’extension.
   * **[!UICONTROL Aide]** : ouvre la documentation sur Experience League (cette page).
-  * **[!UICONTROL Communauté]** : ouvre la [communauté Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=fr).
+  * **[!UICONTROL Communauté]** : ouvre la [communauté Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=fr&lang=fr).
   * **[!UICONTROL À propos]** : affiche la version de l’extension.
   * **[!UICONTROL Déconnexion]** : vous déconnecte de l’extension, ce qui vous oblige à vous reconnecter.
 * **[!UICONTROL Quitter Activity Map]** : ferme tous les recouvrements de l’extension (icône X).
