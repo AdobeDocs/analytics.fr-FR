@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 100%
+source-wordcount: '892'
+ht-degree: 61%
 ---
 # Accessibilité dans Analysis Workspace
 
@@ -79,6 +79,47 @@ La navigation dans [!UICONTROL Analysis Workspace] s’effectue de haut en bas e
 1. Appuyez sur **[!UICONTROL Entrée]** pour le sélectionner.
 1. Utilisez les touches de direction pour accéder à la zone où vous souhaitez déposer le composant.
 1. Appuyez sur **[!UICONTROL Entrée]** pour déposer le composant.
+
+### Navigation au clavier pour les colonnes du tableau {#table-columns}
+
+Vous pouvez redimensionner et réorganiser les colonnes d’un tableau à l’aide du clavier. Les mêmes touches fonctionnent sous macOS et Windows.
+
+#### Redimensionner les colonnes {#resize-columns}
+
+Vous pouvez redimensionner les colonnes des tableaux à structure libre et des tableaux de cohortes à l’aide du séparateur de redimensionnement des colonnes, qui est la limite entre deux en-têtes de colonne.
+
+1. Appuyez sur la touche de **[!UICONTROL Tab]** jusqu’à ce qu’un séparateur de redimensionnement de colonne ait le focus.
+
+   Instructions pour redimensionner l’affichage lorsque le séparateur a le focus. Les lecteurs d’écran annoncent ces instructions et la largeur actuelle de la colonne en pourcentage.
+
+1. Utilisez les clés suivantes pour redimensionner la colonne. Une colonne ne peut pas être redimensionnée au-delà de sa largeur minimale ou maximale.
+
+   | Clé | Action |
+   | --- | --- |
+   | **[!UICONTROL Flèche Gauche]** | Réduisez la colonne à gauche du séparateur de 10 pixels. |
+   | **[!UICONTROL Flèche Droite]** | Élargissez de 10 pixels la colonne située à gauche du séparateur. |
+   | **[!UICONTROL Enter]** | Réinitialise la largeur de la colonne. |
+
+#### Réorganiser les colonnes {#rearrange-columns}
+
+Dans un tableau à structure libre que vous pouvez modifier, vous pouvez déplacer une colonne vers la gauche ou la droite à l’aide du menu **[!UICONTROL Réorganiser]** dans l’en-tête de colonne.
+
+1. Appuyez sur **[!UICONTROL Tab]** jusqu’à ce que le bouton **[!UICONTROL Réorganiser]** de l’en-tête de colonne ait le focus.
+1. Appuyez sur **[!UICONTROL Entrée]**, **[!UICONTROL Espace]** ou **[!UICONTROL Flèche vers le bas]** pour ouvrir le menu.
+1. Sélectionnez **[!UICONTROL Déplacer la colonne vers la gauche]** ou **[!UICONTROL Déplacer la colonne vers la droite]**.
+
+   Pour fermer le menu sans déplacer la colonne, appuyez sur **[!UICONTROL Échap]**. Le focus revient au bouton **[!UICONTROL Réorganiser]**.
+
+   Après avoir déplacé une colonne, les lecteurs d’écran annoncent le nom de la colonne et sa nouvelle position au sein de son groupe.
+
+Tenez compte des points suivants lors de la réorganisation des colonnes à l’aide du clavier :
+
+* Une colonne ne se déplace qu’au sein de son groupe de colonnes frères, qui sont les colonnes au même niveau sous le même en-tête parent. Vous ne pouvez pas utiliser le clavier pour déplacer une colonne dans un autre groupe ou pour copier une colonne.
+* Lorsque vous déplacez un en-tête parent, ses colonnes et filtres imbriqués se déplacent avec lui.
+* L’option **[!UICONTROL Déplacer la colonne vers la gauche]** est désactivée pour la première colonne d’un groupe. L’option **[!UICONTROL Déplacer la colonne vers la droite]** est désactivée pour la dernière colonne d’un groupe.
+* Le bouton **[!UICONTROL Réorganiser]** n’est disponible que pour les colonnes que vous pouvez également réorganiser en les faisant glisser. Il n’est pas disponible pour :
+  * Tables en lecture seule ou tables avec interactions désactivées.
+  * Colonnes de dates dans les tableaux de cohortes.
 
 ### Raccourcis clavier (touches de raccourci)
 
