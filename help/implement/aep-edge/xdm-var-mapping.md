@@ -84,7 +84,7 @@ Vous trouverez les mises à jour précédentes de ce tableau dans la section [hi
 | `xdm.environment.browserDetails.acceptLanguage` | Permet de définir la dimension [Langue](/help/components/dimensions/language.md). |
 | `xdm.environment.browserDetails.cookiesEnabled` | Définit la dimension [Prise en charge des cookies](/help/components/dimensions/cookie-support.md). Les valeurs valides sont les suivantes : `Y` (le navigateur accepte les cookies) et `N` (le navigateur rejette les cookies). |
 | `xdm.environment.browserDetails.javaEnabled` | Définit la dimension [Compatible Java](/help/components/dimensions/java-enabled.md). Les valeurs valides sont les suivantes : `Y` (Java est activé) et `N` (Java est désactivé). |
-| `xdm.environment.browserDetails.javaScriptVersion` | Définit la dimension [Version de ](/help/components/dimensions/javascript-version.md). |
+| `xdm.environment.browserDetails.javaScriptVersion` | Définit la dimension [Version de &#x200B;](/help/components/dimensions/javascript-version.md). |
 | `xdm.environment.browserDetails.userAgent` | Utilisé comme méthode d’identification [visiteur unique](/help/components/metrics/unique-visitors.md) de secours. Généralement renseignée à l’aide de l’en-tête de requête HTTP `User-Agent`. Vous pouvez associer ce champ à une eVar si vous souhaitez l’utiliser dans des rapports. |
 | `xdm.environment.browserDetails.viewportHeight` | Définit la dimension [Hauteur du navigateur](/help/components/dimensions/browser-height.md). |
 | `xdm.environment.browserDetails.viewportWidth` | Définit la dimension [Largeur du navigateur](/help/components/dimensions/browser-width.md). |
