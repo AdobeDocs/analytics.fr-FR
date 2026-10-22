@@ -5,9 +5,9 @@ user-guide-title: Guide des composants d’Analytics
 breadcrumb-title: Guide des composants
 user-guide-description: Gérez les données à l’aide de composants tels que les segments, mesures calculées, suites de rapports virtuelles, canaux marketing et classifications. En savoir plus sur les analyses entre appareils.
 nudge: red
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: a68e13c9232ef8d975fd1256168a0addf677f5ac
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '782'
 ht-degree: 97%
 ---
 # Guide des composants d’[!DNL Adobe Analytics] {#components}
@@ -67,6 +67,7 @@ ht-degree: 97%
   + [État identifié](dimensions/identified-state.md)
   + [Adresse IP](dimensions/ip-address.md)
   + [Compatible Java](dimensions/java-enabled.md)
+  + [Version de JavaScript](dimensions/javascript-version.md)
   + [Langue](dimensions/language.md)
   + [Canal Dernière touche](dimensions/last-touch-channel.md)
   + [Détails du canal Dernière touche](dimensions/last-touch-detail.md)
