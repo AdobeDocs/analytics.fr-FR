@@ -8,26 +8,35 @@ exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 TQID: https://experienceleague.adobe.com/x5ln-HzjHf2kK-mmCJxoLHxbkzox7BpN2i-G5-oAsc8
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 727
+source-wordcount: '727'
 ht-degree: 92%
-
 ---
-
 # Carte {#map}
 
 <!-- markdownlint-disable MD034 -->
@@ -70,10 +79,10 @@ _Cet article présente la visualisation des cartes dans_ ![AdobeAnalytics](/help
 
 La visualisation ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Carte]** dans Analysis Workspace
 
-* permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ;
-* est pratique pour identifier et comparer les données de mesure de différentes régions géographiques ;
-* peut prendre en charge 2 sources de données : la latitude et la longitude à partir de l’utilisation mobile ou la dimension géographique à partir de l’utilisation du web ;
-* prend en charge l’export au format PDF ;
+* permet de créer une carte visuelle de n’importe quelle mesure (y compris les mesures calculées) ;
+* est pratique pour identifier et comparer les données de mesure entre différentes zones géographiques ;
+* peut prendre en charge 2 sources de données : la latitude et la longitude à partir de l’utilisation mobile ou la dimension géographique pour une utilisation sur le Web ;
+* prend en charge l’exportation au format PDF ;
 * tire parti de WebGL pour l’affichage des graphiques. Si vos pilotes graphiques ne prennent pas en charge le rendu WebGL, il se peut que vous deviez les mettre à jour.
 
 
@@ -91,11 +100,11 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualisation C
    ![Configuration de la carte](assets/map-configuration.png){width="50%"}
 
 1. Dans les listes déroulantes, sélectionnez une mesure. Faites glisser une mesure depuis la liste des mesures (mesures calculées comprises).
-1. Spécifiez la source de données à partir de laquelle le tracé doit être effectué. Cette boîte de dialogue apparaît uniquement si le suivi de l’emplacement est activé pour les données des applications mobiles.
+1. Spécifiez la source de données à partir de laquelle le tracé doit être effectué. Cette boîte de dialogue s’affiche uniquement si le suivi de l’emplacement est activé pour les données d’application mobile.
 
    | Source | Description |
    | --- | --- |
-   | **[!UICONTROL Lat/Long pour applications mobiles]** | Cette option représente les données des applications mobiles. Cette option apparaît uniquement si vous l’avez activée pour votre suite de rapports sous [!UICONTROL Analytics] > [!UICONTROL Administration] > [!UICONTROL Suites de rapports] > (sélectionnez la suite de rapports) > [!UICONTROL Modifier les paramètres] > [!UICONTROL Gestion mobile] > [!UICONTROL Activer le suivi de l’emplacement]. Ces paramètres sont ceux par défaut (si le suivi de l’emplacement est activé). |
+   | **[!UICONTROL Lat/Long pour applications mobiles]** | Cette option représente les données d’application mobile. Cette option apparaît uniquement si vous l’avez activée pour votre suite de rapports sous [!UICONTROL Analytics] > [!UICONTROL Administration] > [!UICONTROL Suites de rapports] > (sélectionnez la suite de rapports) > [!UICONTROL Modifier les paramètres] > [!UICONTROL Gestion mobile] > [!UICONTROL Activer le suivi de l’emplacement]. Ces paramètres sont ceux par défaut (si le suivi de l’emplacement est activé). |
    | **[!UICONTROL Dimension géographique]** | Cette option représente les données de segmentation géographique relatives à l’emplacement du visiteur sur la base de son adresse IP. Ces données sont transformées en [!UICONTROL pays], [!UICONTROL région] et [!UICONTROL ville]. Notez toutefois qu’elles ne vont pas jusqu’au niveau de la DMA ou du code postal. Cette dimension est activée pour pratiquement toutes les suites de rapports. Si ce n’est pas le cas pour la vôtre, contactez l’assistance clientèle Adobe pour faire activer les rapports géographiques. |
 
 1. Sélectionnez la **[!UICONTROL Version]**.
