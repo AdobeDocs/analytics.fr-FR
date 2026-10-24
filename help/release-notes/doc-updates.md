@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
+source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
-source-wordcount: '7653'
-ht-degree: 90%
+source-wordcount: '7701'
+ht-degree: 89%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
 
@@ -76,6 +76,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | Fonctionnalité | Description |
 | --- | --- |
 | **Octobre 2026** | |
+| Verrouiller la sélection pour les visualisations | Restructuré [Gérer les sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) pour séparer la configuration des paramètres de source de données du verrouillage de la sélection. Elle a également expliqué comment fonctionne la [sélection de verrouillage](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) lorsqu’une visualisation est verrouillée sur des lignes dans un tableau à structure libre, y compris ce qui se produit lorsque des lignes de répartition verrouillées ne se trouvent plus dans le tableau. |
 | Navigation au clavier pour les colonnes du tableau | Documentation sur la [redimensionnement](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) et [réorganisation](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) des colonnes de tableau dans Analysis Workspace à l’aide du clavier, y compris les commentaires du lecteur d’écran. Ajout également d’une section [Actions de colonne de tableau](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) aux touches de raccourci. |
 | Collecte de données via un réseau CDN | Ajout de [Routage de la collecte de données via un réseau CDN](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cdn) à l’interface CX Enterprise et au guide d’administration. |
 | Mesure des occurrences de produit robot | Ajout de la mesure [Occurrences de produits robots](/help/components/metrics/bot-product-occurrences.md), qui indique le nombre de sous-accès à des chaînes de produit correspondant à des règles de robots. <p>Mise à jour des mesures [Nom du robot](/help/components/dimensions/bot-name.md) et [Occurrences de robot](/help/components/metrics/bot-occurrences.md) pour référencer la nouvelle mesure.</p> |
