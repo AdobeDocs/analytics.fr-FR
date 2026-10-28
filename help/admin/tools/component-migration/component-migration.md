@@ -49,7 +49,7 @@ Le processus de migration comprend :
 >
 >Vous pouvez également effectuer la migration à l’aide de l’une des méthodes suivantes. Les utilisateurs avec l’autorisation [!UICONTROL Migration des composants] peuvent utiliser ces méthodes même s’ils ne sont pas administrateurs.<!-- FLAG: Non-admin access with the Component migration permission, for both the APIs and Coworker, is from SME Scott Tomko (October 2026). The intro says only administrators can migrate in the user interface, but analytics-tools.md says the Component migration permission grants access to Admin > All admin > Component migration. Confirm which is correct. -->
 >
->* Les API d’Adobe Analytics Pour plus d’informations, consultez les [API ](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Toutes les définitions d’API sont disponibles dans le menu déroulant **[!UICONTROL Sélectionner une définition]**.
+>* Les API d’Adobe Analytics Pour plus d’informations, consultez les [API &#x200B;](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Toutes les définitions d’API sont disponibles dans le menu déroulant **[!UICONTROL Sélectionner une définition]**.
 >
 >* Adobe CX Enterprise Coworker. Pour plus d’informations, consultez [Migration de projets Adobe Analytics vers Customer Journey Analytics avec un collègue](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja) dans la documentation d’Adobe CX Enterprise Coworker.
 
@@ -60,7 +60,7 @@ Avant de migrer des projets vers Customer Journey Analytics :
 
 * En savoir plus sur la migration des projets dans [Préparez la migration des composants et des projets d’Adobe Analytics vers Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
 
-* Effectuez un [inventaire ](/help/admin/tools/analytics-inventory.md) à l’aide de l’outil disponible pour les administrateurs et administratrices Analytics.
+* Effectuez un [inventaire &#x200B;](/help/admin/tools/analytics-inventory.md) à l’aide de l’outil disponible pour les administrateurs et administratrices Analytics.
 
 ## Migration de projets Adobe Analytics vers Customer Journey Analytics
 

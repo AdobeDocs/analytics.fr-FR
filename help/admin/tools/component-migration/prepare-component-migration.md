@@ -46,7 +46,7 @@ Avant que vos projets et leurs composants associés ne soient prêts à migrer, 
 
    >[!NOTE]
    >
-   >  Lorsque vous utilisez le SDK Web pour ingérer des données, tous les champs de schéma doivent être mappés manuellement. (Pour plus d’informations sur le processus de mappage, voir [ Migration de composants et de projets d’Adobe Analytics vers Customer Journey Analytics ](/help/admin/tools/component-migration/component-migration.md))
+   >  Lorsque vous utilisez le SDK Web pour ingérer des données, tous les champs de schéma doivent être mappés manuellement. (Pour plus d’informations sur le processus de mappage, voir [&#x200B; Migration de composants et de projets d’Adobe Analytics vers Customer Journey Analytics &#x200B;](/help/admin/tools/component-migration/component-migration.md))
 
 
    * Pour utiliser le connecteur source Adobe Analytics, vous devez effectuer les opérations suivantes :
@@ -141,7 +141,7 @@ Supprimez ces éléments du projet Adobe Analytics avant de migrer le projet ver
 
 <!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
 
-Les panneaux qui utilisent une [ suite de rapports virtuelle ](/help/components/vrs/vrs-about.md) ne peuvent pas être migrés. Assurez-vous que chaque panneau du projet utilise une suite de rapports de base.
+Les panneaux qui utilisent une [&#x200B; suite de rapports virtuelle &#x200B;](/help/components/vrs/vrs-about.md) ne peuvent pas être migrés. Assurez-vous que chaque panneau du projet utilise une suite de rapports de base.
 
 ## En tant qu’organisation, décidez de la manière de mapper les composants
 
