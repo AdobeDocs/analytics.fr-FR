@@ -24,9 +24,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '632'
 ht-degree: 16%
 ---
 # Gérer les segments
@@ -46,7 +46,7 @@ Vous pouvez [partager](t-seg-share.md), [segment](t-seg-filter.md), [balise](seg
 
 Le gestionnaire de segments comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des segments &#x200B;](assets/segments-manager.png)
+![ Interface des segments ](assets/segments-manager.png)
 
 ### Liste des segments
 
@@ -79,6 +79,7 @@ Vous pouvez agir sur les segments à l’aide de la barre d’actions ➋. La ba
 | ![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Renommer]** | Renommez un seul segment sélectionné. Lorsque cette option est sélectionnée, vous pouvez renommer le segment en ligne. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approuver]** | Valider les segments sélectionnés. Voir [Approuver les segments](seg-approve.md) pour plus d’informations. |
 | ![Copier](/help/assets/icons/Copy.svg) **[!UICONTROL Copier]** | Copiez le segment sélectionné. Les nouveaux segments sont créés avec les mêmes nom et suffixe `(Copy)`. |
+| ![AI](/help/assets/icons/AI.svg) **[!UICONTROL générer des descriptions]** | <p>Générer des descriptions pour les segments sélectionnés, en remplaçant les descriptions existantes.</p><p>Pour éviter de remplacer des descriptions existantes, commencez par [filtrer](#filter-panel) la liste pour afficher uniquement les segments sans description (dans le filtre, sous [!UICONTROL **Autres filtres**], sélectionnez [!UICONTROL **Description manquante**]).</p><p>Il vous est demandé de confirmer. Les requêtes volumineuses s’exécutent en arrière-plan et vous recevez une notification lorsqu’elles se terminent.</p><p>Pour plus d’informations, voir [Générer automatiquement des descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Exporter au format CSV]** | Exportez les segments vers un fichier `Segments List.csv`. |
 
 ### Barre de filtres actifs
@@ -156,6 +157,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=fr) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

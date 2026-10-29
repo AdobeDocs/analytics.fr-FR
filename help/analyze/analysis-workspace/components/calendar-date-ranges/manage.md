@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 29%
+source-wordcount: '673'
+ht-degree: 27%
 ---
 # Gestion des périodes
 
@@ -38,7 +38,7 @@ Vous pouvez partager, filtrer, baliser, approuver, copier, partager et supprimer
 
 Le gestionnaire de périodes comporte les éléments d’interface suivants :
 
-![&#x200B; Interface des périodes &#x200B;](assets/date-ranges-manager.png)
+![ Interface des périodes ](assets/date-ranges-manager.png)
 
 ### Liste des périodes
 
@@ -71,6 +71,7 @@ Vous pouvez agir sur les périodes à l’aide de la barre d’actions ➋. La b
 | ![Modifier](/help/assets/icons/Edit.svg) | **[!UICONTROL Renommer]** | Renommez une seule période sélectionnée. Lorsque cette option est sélectionnée, vous pouvez renommer la période en ligne. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approuver]** | Valider les périodes sélectionnées. |
 | ![Copier](/help/assets/icons/Copy.svg) | **[!UICONTROL Copier]** | Copiez les périodes sélectionnées. De nouvelles périodes sont créées avec le même nom et le même suffixe (Copier). |
+| ![AI](/help/assets/icons/AI.svg) | **[!UICONTROL Générer des descriptions]** | <p>Générer des descriptions pour les périodes sélectionnées, en remplaçant les descriptions existantes.</p><p>Pour éviter de remplacer des descriptions existantes, commencez par [filtrer](#filter-panel) la liste pour afficher uniquement les périodes sans description (dans le filtre, sous [!UICONTROL **Autres filtres**], sélectionnez [!UICONTROL **Description manquante**]).</p><p>Il vous est demandé de confirmer. Les requêtes volumineuses s’exécutent en arrière-plan et vous recevez une notification lorsqu’elles se terminent.</p><p>Pour plus d’informations, voir [Générer automatiquement des descriptions](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![Fichier CSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Exporter dans un fichier CSV]** | Exportez les périodes sélectionnées dans un fichier `Date ranges List.csv`. |
 
 ### Barre de filtres actifs
@@ -107,7 +108,7 @@ Vous pouvez modifier une période de deux manières :
 
 * Dans un projet Workspace, utilisez l’icône [Informations sur le composant](/help/analyze/analysis-workspace/components/use-components-in-workspace.md#component-info).
 
-* Dans la liste [[!UICONTROL Périodes] , choisissez &#x200B;](#date-ranges-list) titre de la période.
+* Dans la liste [[!UICONTROL Périodes] , choisissez ](#date-ranges-list) titre de la période.
 
 Vous utilisez le [créateur de périodes](create.md#date-range-builder) pour modifier la période.
 

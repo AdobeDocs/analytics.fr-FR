@@ -33,13 +33,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 408
-ht-degree: 100%
-
+source-wordcount: '463'
+ht-degree: 88%
 ---
-
 # Créer des projets {#create-projects}
 
 
@@ -105,8 +103,8 @@ Les paramètres incluent :
 | Personne propriétaire | Nom de la personne propriétaire du projet. |
 | Dernière modification | Date de la dernière modification du projet. |
 | Balises | Répertorie les balises appliquées à un projet afin de faciliter la catégorisation. |
-| Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. |
-| Comptage des instances répétées | Spécifie si les instances répétées sont comptabilisées dans les rapports. Remarque : ce paramètre ne s’applique pas aux visualisations de flux ou d’abandons. |
+| Description | Une description est utile pour clarifier l’objet d’un projet. Double-cliquez dessus pour la modifier. <p>Pour qu’Adobe génère une description pour vous, sélectionnez **[!UICONTROL Générer la description]** au-dessus du champ de description. Adobe analyse plusieurs panneaux du projet et les résume dans une description. Les descriptions générées incluent le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]** et peuvent être modifiées. Cette option nécessite que votre entreprise accepte certains termes juridiques d’IA générative.</p> |
+| Comptage des instances répétées | Spécifie si les instances répétées sont comptabilisées dans les rapports. Remarque : ce paramètre ne s’applique pas aux visualisations Flux ou Abandon. |
 | Affichage des annotations | Spécifie si les annotations s’affichent pour ce projet ou non. |
 | [Palette de couleurs du projet](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Vous pouvez modifier la palette de couleurs catégoriques utilisée dans Workspace en choisissant parmi les palettes prêtes à l’emploi qui ont été optimisées pour le daltonisme ou en spécifiant votre palette personnalisée. Cette fonction affecte de nombreux éléments dans Workspace, y compris la plupart des visualisations. |
 | [Densité d’affichage](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Vous permet de voir plus de données sur l’écran en réduisant l’espacement vertical du panneau de gauche, des tableaux à structure libre et des tableaux de cohortes. |
