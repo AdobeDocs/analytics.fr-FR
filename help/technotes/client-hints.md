@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 76%
@@ -50,7 +50,7 @@ Google divise les indications du client Agent-utilisateur en deux catégories :
 
 Le 2 mars 2023, des indications du client ont été intégrées au processus de recherche d’appareils Analytics. Cette modification s’applique à la fois aux implémentations AppMeasurement et Web SDK.
 
-Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 ## Questions fréquentes
 
@@ -160,7 +160,7 @@ Non. Les indications du client ne peuvent être collectées que par le biais d�
 
 +++**Comment inclure des données d’indication du client lors de l’utilisation de l’envoi d’API ?**
 
-Consultez la documentation pour les inclure via l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+Consultez la documentation pour les inclure via l’[API Bulk Data Insertion](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 
@@ -178,7 +178,7 @@ Voir [documentation sur les schémas](https://github.com/adobe/xdm/blob/master/c
 
 +++**Le transfert côté serveur de Adobe Audience Manager prendra-t-il en charge les indications du client ?** 
 
-Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [&#x200B; vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
+Oui. Les indications du client seront incluses dans les données transférées à Adobe Audience Manager. Notez que Adobe Audience Manager nécessite la collecte d’indications à entropie élevée pour préserver toutes les fonctionnalités. Si vous utilisez le transfert côté serveur [ vers Adobe Audience Manager](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) vous pouvez ensuite activer la collecte d’indications à entropie élevée.
 
 +++
 

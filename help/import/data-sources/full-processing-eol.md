@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
@@ -47,7 +47,7 @@ Le 25 mars 2021, Adobe a empêché la création de nouvelles connexions de sourc
 * L’insertion de données en bloc dispose de fonctionnalités de validation des données et de gestion des erreurs, ce qui supprime certaines tâches administratives liées à l’envoi de données d’accès.
 * L’insertion de données en bloc prend en charge plusieurs méthodes d’identification des identifiants visiteur.
 * L’insertion de données en bloc comporte d’autres champs obligatoires : une colonne d’identification des visiteurs, un `pageName` (ou l’équivalent d’un lien), un `reportSuiteID`, un `timestamp` et un `userAgent`.
-* Pour garantir la continuité et l’attribution des visiteurs, l’insertion de données en bloc nécessite que les lignes des fichiers soient triées par ordre chronologique. Voir [Groupes de visiteurs](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) pour en savoir plus sur l’ordre de l’activité Visiteur dans les fichiers.
+* Pour garantir la continuité et l’attribution des visiteurs, l’insertion de données en bloc nécessite que les lignes des fichiers soient triées par ordre chronologique. Voir [Groupes de visiteurs](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) pour en savoir plus sur l’ordre de l’activité Visiteur dans les fichiers.
 * L’insertion de données en bloc nécessite que les fichiers soient compressés en .csv au format .gzip.
 * BDIA utilise `timestamp` au lieu de `date`.
 
@@ -58,7 +58,7 @@ Les variables suivantes ont été introduites dans la section Insertion de donn�
 * **`aamlh`** : indicateur d’emplacement Adobe Audience Manager.
 * **`contextData.key`** : [variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`** : variables du service d’identification des visiteurs. Inclut `id`, `authState` et `isMCSeed`.
-* **`hints`** : variables [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=fr). Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
+* **`hints`** : variables [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html). Inclut `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` et `wow64`.
 * **`ipaddress`** : la dimension [adresse IP](/help/components/dimensions/ip-address.md).
 * **`language`** : la dimension [Langue](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`** : [Variables de liste](/help/implement/vars/page-vars/list.md).

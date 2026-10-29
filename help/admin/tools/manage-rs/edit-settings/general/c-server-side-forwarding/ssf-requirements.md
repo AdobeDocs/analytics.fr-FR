@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 74%
@@ -62,5 +62,5 @@ Le transfert côté serveur requiert la version 1.5 (ou plus récente) des bibl
 
 Tout outil qui surveille les requêtes HTTP émises par un navigateur peut afficher le numéro de version de votre code AppMeasurement et d’API Visiteur. La bibliothèque `AppMeasurement_Module_AudienceManagement.js` ne contient ni ne renvoie un ID de version. Les exemples suivants montrent à quoi ressemblent les ID de version pour les codes `AppMeasurement.js` et `VisitorAPI.js`.
 
-* `AppMeasurement.js` : la version apparaît dans l’URL de la requête après le type de réponse, par exemple `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Outils de débogage](/help/implement/validate/debugging-tools.md) qui décodent les requêtes peuvent utiliser un libellé différent, mais la valeur suit toujours le modèle `JS-X.X.X`, où `X` correspond à un numéro de version.
+* `AppMeasurement.js` : la version apparaît dans l’URL de la requête après le type de réponse, par exemple `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Outils de débogage](/help/implement/validate/debugging.md) qui décodent les requêtes peuvent utiliser un libellé différent, mais la valeur suit toujours le modèle `JS-X.X.X`, où `X` correspond à un numéro de version.
 * `VisitorAPI.js` : recherchez le paramètre `d_visid_ver`. Il vous montrera le service d’ID de visiteur comme ceci : `d_visid_ver: 1.5.5`. Le code VisitorAPI antérieur à la version 1.5.2 n’incluait pas de numéro de version. Vous utilisez probablement une bibliothèque de code plus ancienne (et devez la mettre à niveau) si les résultats de la surveillance ne renvoient pas de numéro de version.

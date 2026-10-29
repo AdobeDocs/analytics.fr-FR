@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guide de mise en œuvre Analytics
 breadcrumb-title: Guide de mise en œuvre
 user-guide-description: Découvrez comment mettre en œuvre Adobe Analytics. Personnalisez les données collectées pour tirer le meilleur parti des données Analytics.
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 93%
+source-wordcount: '460'
+ht-degree: 95%
 ---
 
 # Guide de mise en œuvre Adobe Analytics {#implementation}
@@ -145,12 +145,12 @@ ht-degree: 93%
     + [Présentation du SDK web](aep-edge/web-sdk/overview.md)
     + Assistant de mise à niveau {#upgrade-assistant}
       + [Présentation de l’assistant de mise à niveau](aep-edge/web-sdk/upgrade-assistant/overview.md)
-      + [Gestion des migrations](aep-edge/web-sdk/upgrade-assistant/manager.md)
-      + [Sélection de composant](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
+      + [Gérer les migrations](aep-edge/web-sdk/upgrade-assistant/manager.md)
+      + [Sélection de composants](aep-edge/web-sdk/upgrade-assistant/component-selection.md)
       + [Résultats de l’audit](aep-edge/web-sdk/upgrade-assistant/audit-findings.md)
       + [Préparation du mappeur](aep-edge/web-sdk/upgrade-assistant/mapper-prep.md)
       + [Mappage XDM](aep-edge/web-sdk/upgrade-assistant/xdm-mapping.md)
-      + [Implémentation de Web SDK](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
+      + [Implémentation du SDK web](aep-edge/web-sdk/upgrade-assistant/web-sdk-implementation.md)
       + [Révision finale](aep-edge/web-sdk/upgrade-assistant/final-review.md)
     + [Migrer vers le SDK web à l’aide de balises](aep-edge/web-sdk/analytics-extension-to-web-sdk.md)
     + [Migrer vers le SDK web à l’aide de JavaScript](aep-edge/web-sdk/appmeasurement-to-web-sdk.md)
@@ -191,7 +191,7 @@ ht-degree: 93%
   + [Utilisation d’AppMeasurement avec des iFrames](use-cases/iframe.md)
   + [Workflow du suivi de campagne](use-cases/campaign-tracking.md)
 + Valider votre mise en œuvre {#validate}
-  + [Outils de débogage](validate/debugging-tools.md)
+  + [Collecte de données Debug Analytics](validate/debugging.md)
   + [Collisions de hachage](validate/hash-collisions.md)
 + [Questions fréquentes](faq.md)
 + Réviser votre mise en œuvre {#review}
