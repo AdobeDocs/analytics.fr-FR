@@ -108,7 +108,7 @@ Sélectionnez un emplacement pour savoir comment y générer des descriptions.
 | --- | --- | --- | --- |
 | [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>Dimensions</li><li>Mesures</li><li>Mesures calculées</li><li>Segments</li><li>Périodes</li></ul> | Oui | Oui |
 | [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) | Segments | Oui | Non |
-| [ Gestionnaire de segments ](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | Segments | Non | Oui |
+| [&#x200B; Gestionnaire de segments &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | Segments | Non | Oui |
 | [Créateur de mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) | Mesures calculées | Oui | Non |
 | [Gestionnaire de mesures calculées](/help/components/calculated-metrics/workflow/cm-manager.md#action-bar) | Mesures calculées | Non | Oui |
 | [Créateur de périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/create.md#date-range-builder) | Périodes | Oui | Non |
