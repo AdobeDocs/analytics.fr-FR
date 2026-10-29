@@ -68,7 +68,7 @@ Voici les types de visualisation disponibles dans Analysis Workspace :
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barres empilées horizontales](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Visualisation Barres horizontales empilées affichant des barres horizontales représentant plusieurs valeurs pour une ou plusieurs mesures. |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Résumé des mesures clés](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Une visualisation Résumé des mesures clés combine les visualisations Ligne, Synthèse des modifications et Synthèse des chiffres. |
 | ![GraphTrend](/help/assets/icons/GraphTrend.svg) | [Ligne](/help/analyze/analysis-workspace/visualizations/line.md) | Une visualisation Ligne représente les mesures à l’aide d’une ligne afin de montrer l’évolution des valeurs sur une période donnée. Un graphique en courbes utilise le temps le long de lʼaxe X. |
-| ![ Globe ](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
+| ![&#x200B; Globe &#x200B;](/help/assets/icons/Globe.svg) | [Carte](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | Permet de créer un mappage visuel de n’importe quelle mesure (y compris les mesures calculées) |
 | ![Nuage de points](/help/assets/icons/GraphScatter.svg) | [Dispersion](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | Une visualisation Graphique de dispersion illustre la relation entre des éléments de dimension et trois mesures au maximum. |
 | ![PageRule](/help/assets/icons/PageRule.svg) | [En-tête de section](section-header.md) | Pour identifier et articuler des sections dans un panneau. |
 | ![DéplacementHautBas](/help/assets/icons/MoveUpDown.svg) | [Résumé des changements](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | Une visualisation Synthèse des modifications affiche la modification entre les cellules sélectionnées sous la forme d’un grand nombre ou d’un pourcentage. |
@@ -135,7 +135,7 @@ Vous pouvez gérer une visualisation en pointant la souris sur la visualisation 
 * Pour afficher une visualisation réduite, sélectionnez ![ChevronLeft](/help/assets/icons/ChevronLeft.svg).
 * Pour supprimer une visualisation, sélectionnez ![CrossSize400](/help/assets/icons/CrossSize400.svg). Pour annuler, sélectionnez **[!UICONTROL Modifier]** > **[!UICONTROL Annuler]** (**[!UICONTROL *cmd+z *]**|**[!UICONTROL * ctrl+z *]**).
 * Pour rétablir la hauteur par défaut d’une visualisation, sélectionnez ![ImageResize](/help/assets/icons/Resize.svg).
-* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![ Déplacer ](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
+* Pour déplacer une visualisation dans un panneau, faites-la glisser et déposez-la chaque fois qu’une ![&#x200B; Déplacer &#x200B;](/help/assets/icons/Move.svg) est visible (généralement lorsque vous passez la souris sur l’en-tête).
 
 
 ## Légende
@@ -205,7 +205,7 @@ La disponibilité des paramètres de visualisation dépend de la visualisation. 
 | **[!UICONTROL Pourcentages]** | Affichez les valeurs en pourcentages. |
 | **[!UICONTROL Empilé à 100 %]** | Transformez le graphique en une visualisation empilée à 100 %.  Applicable uniquement pour une visualisation empilée sous forme de surface, barre et barre horizontale. |
 | **[!UICONTROL Légende visible]** | Affichez le texte de la légende. |
-| **[!UICONTROL Libellés concis]** | Raccourcissez les libellés de légende pour vous concentrer sur les informations qui différencient une étiquette d’une autre. Les noms de mesure, de segment, d’élément de dimension et de période qui apparaissent dans chaque libellé sont supprimés. Ce paramètre est disponible uniquement lorsque l’option **[!UICONTROL Légende visible]** est sélectionnée et est désactivée par défaut. Pour plus d’informations, voir [ Étiquettes concises ](#concise-labels). |
+| **[!UICONTROL Libellés concis]** | Raccourcissez les libellés de légende pour vous concentrer sur les informations qui différencient une étiquette d’une autre. Les noms de mesure, de segment, d’élément de dimension et de période qui apparaissent dans chaque libellé sont supprimés. Ce paramètre est disponible uniquement lorsque l’option **[!UICONTROL Légende visible]** est sélectionnée et est désactivée par défaut. Pour plus d’informations, voir [&#x200B; Étiquettes concises &#x200B;](#concise-labels). |
 | **[!UICONTROL Nombre max d’éléments]** | Limitez le nombre d’éléments affichés dans une visualisation. Lorsque cette option est sélectionnée, définissez le nombre maximal d’éléments. |
 | **[!UICONTROL Afficher les annotations]** | Affichez les annotations effectuées pour cette visualisation. |
 | **[!UICONTROL Masquer le titre]** | Masquez le titre de la visualisation. |
