@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 74%
+source-wordcount: '2128'
+ht-degree: 73%
 ---
 # Créer des segments
 
@@ -68,7 +68,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    | **[!UICONTROL Suite de rapports]** | Vous pouvez sélectionner la suite de rapports du segment. |
    | **[!UICONTROL Segment de projet uniquement]** | Zone d’informations expliquant que le segment n’est visible que dans le projet dans lequel il est créé. Et que le segment n’est pas ajouté à votre liste de composants. Activez **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]** pour modifier ce paramètre. Cette zone d’informations n’est visible que lorsque vous créez un [segment rapide](seg-quick.md) et transformez le segment rapide en segment standard à l’aide de l’option **[!UICONTROL Ouvrir le créateur]** dans l’interface [!UICONTROL Segment rapide]. |
    | **[!UICONTROL Titre]** ![Requis](/help/assets/icons/Required.svg) | Nommez le segment, par exemple `Last month mobile visitors`. |
-   | **[!UICONTROL Description]** | Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`. |
+   | **[!UICONTROL Description]** | <p>Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`.</p><p>Pour qu’Adobe génère une description pour vous, sélectionnez **[!UICONTROL Générer la description]**. Cette option n’est pas disponible tant que vous n’avez pas créé la définition de segment.</p><p>Les descriptions générées incluent le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]** et vous pouvez les modifier une fois qu’elles ont été générées. Pour plus d’informations, voir [&#x200B; Générer automatiquement des descriptions &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Balises]** | Organisez le segment en créant ou en appliquant une ou plusieurs balises. Commencez à saisir une expression pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
    | **[!UICONTROL Définition]** ![Obligatoire](/help/assets/icons/Required.svg) | Définissez votre segment à l’aide du [créateur de définitions](#definition-builder). |
 

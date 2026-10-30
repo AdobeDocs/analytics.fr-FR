@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 66%
+source-wordcount: '516'
+ht-degree: 59%
 ---
 # Valider une mise en œuvre de développement et la publier en production
 
@@ -80,14 +80,7 @@ Confirmez que vous voyez des données sur la version en direct de votre site et 
 
 ## Résolution des problèmes
 
-**Aucune donnée n’apparaît dans le débogueur**.
-
-Sur votre site, ouvrez la console de développement du navigateur (généralement F12). Examinez le code source de la page et assurez-vous que les conditions suivantes sont remplies :
-
-* Il n’y a aucune erreur JavaScript dans la console. Consultez les propriétaires du site web de votre organisation pour vous assurer que toutes les erreurs JS sont résolues.
-* Le code d’en-tête est correctement mis en œuvre : assurez-vous que le code d’en-tête se trouve à l’intérieur de la balise `<head>` et que le fichier existe.
-* La bibliothèque AppMeasurement existe : accédez directement à la source JS pour vous assurer que le fichier JS contient du code. Dans le cas contraire, assurez-vous que chaque environnement est créé et que la bibliothèque est publiée dans son environnement respectif.
-* Extensions interférentes : certaines extensions, telles que les bloqueurs d’annonces publicitaires, peuvent empêcher les demandes d’image de se déclencher. Désactivez toutes les extensions qui peuvent empêcher l’envoi de données à Adobe.
+Si aucune donnée Analytics n’apparaît dans le débogueur ou si les données ne sont pas celles attendues, reportez-vous à la section [Déboguer la collecte de données Analytics](../validate/debugging.md#appmeasurement).
 
 ## Étapes suivantes
 

@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 98%
@@ -57,7 +57,7 @@ Les baisses de trafic sont classées dans deux sections : données partielles e
 
 ### Causes possibles de données partiellement manquantes ou de diminution du trafic
 
-* **Modifications de l’implémentation** : utilisez un [outil de débogage](/help/implement/validate/debugging-tools.md) pour vérifier que les dimensions souhaitées fonctionnent.
+* **Modifications de l’implémentation** : utilisez un [outil de débogage](/help/implement/validate/debugging.md) pour vérifier que les dimensions souhaitées fonctionnent.
 * **Diminution du trafic référent** : si une bannière publicitaire populaire ou un hyperlien sur un autre site est supprimé, cela peut entraîner une diminution spectaculaire du trafic. Déterminez la tendance de la dimension [Domaines référents](/help/components/dimensions/referring-domain.md) avant et après la baisse pour approfondir la recherche.
 * **Problèmes de performance du site** : une mauvaise répartition du trafic par des équilibreurs de charge ou des problèmes de serveur hébergeant le site peut contribuer à une diminution des rapports Analytics. Collaborez avec l’équipe de l’entreprise chargée de gérer l’intégrité et l’état du site afin d’examiner les éventuels problèmes de performance.
 * **Modifications du classement des référencements naturels** : le trafic peut éventuellement diminuer si un autre site supprime votre classement de référencement naturel pour certains de vos mots-clés. Cette diminution peut être particulièrement évidente si le site ne figure plus sur la première page des résultats de recherche. Déterminez la tendance de la dimension [Moteurs de recherche](/help/components/dimensions/search-engine.md) pour approfondir la recherche.
