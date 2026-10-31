@@ -38,7 +38,7 @@ ht-degree: 2%
 
 Cet article explique les éléments à vérifier lorsque vous déboguez des données envoyées à Adobe Analytics. Recherchez votre méthode d’implémentation dans le tableau suivant et suivez sa section. Si vous recherchez des données de rapport inattendues, commencez par [Comparer des requêtes avec des rapports](#reports).
 
-Pour connaître les étapes et les outils qui s’appliquent à toutes les collectes de données Adobe, comme la capture des requêtes réseau, l’activation de la journalisation du débogage et l’enquête sur les requêtes annulées, voir [Débogage et dépannage de la collecte de données](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/overview).
+Pour connaître les étapes et les outils qui s’appliquent à toutes les collectes de données Adobe, comme la capture des requêtes réseau, l’activation de la journalisation du débogage et l’enquête sur les requêtes annulées, voir [Débogage et dépannage de la collecte de données](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/debugging/overview).
 
 | Méthode de mise en œuvre | Où voir les données reçues par Analytics | Instructions |
 | --- | --- | --- |
@@ -51,12 +51,12 @@ Pour connaître les étapes et les outils qui s’appliquent à toutes les colle
 
 ### Rechercher la requête {#appmeasurement-find}
 
-[Capturez les requêtes réseau](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#web) et filtrez les `/b/ss/`. Les débogueurs de balises tels qu’Adobe Experience Platform Debugger identifient et décodent ces requêtes pour vous.
+[Capturez les requêtes réseau](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/debugging/inspect-requests#web) et filtrez les `/b/ss/`. Les débogueurs de balises tels qu’Adobe Experience Platform Debugger identifient et décodent ces requêtes pour vous.
 
 Si aucune requête `/b/ss/` n’apparaît :
 
 * Recherchez les erreurs JavaScript dans la console du navigateur.
-* Si vous utilisez l’extension de balise Analytics, vérifiez que le code incorporé de balise se trouve dans l’élément `<head>` de la page et que votre bibliothèque est publiée dans l’environnement que vous testez. [Mode de débogage des balises](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/logging) indique si la règle qui envoie l’accès a été déclenchée.
+* Si vous utilisez l’extension de balise Analytics, vérifiez que le code incorporé de balise se trouve dans l’élément `<head>` de la page et que votre bibliothèque est publiée dans l’environnement que vous testez. [Mode de débogage des balises](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/debugging/logging) indique si la règle qui envoie l’accès a été déclenchée.
 * Si vous hébergez vous-même AppMeasurement, ouvrez directement l’URL de la bibliothèque pour confirmer que le fichier se charge et contient du code.
 * Désactivez les extensions de navigateur, telles que les bloqueurs d’annonces publicitaires, qui peuvent empêcher l’envoi de requêtes.
 * Debugger ne reconnaît pas les requêtes envoyées depuis un iframe. Utilisez plutôt les outils de développement du navigateur . Voir [Utilisation d’AppMeasurement avec des iFrames](../use-cases/iframe.md).
@@ -73,20 +73,20 @@ Si les valeurs sont présentes, mais incorrectes, consultez [Dépannage de l’i
 
 Une réponse `2xx` confirme uniquement que le serveur de collecte de données a reçu la requête, et non que l’accès a été enregistré. Avec le type de réponse par défaut, une requête peut renvoyer un succès même lorsque l’accès est ignoré. Une réponse `302` à la première demande d’un nouveau visiteur est attendue. Voir [Codes de réponse HTTP](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting#http-response-codes).
 
-AppMeasurement envoie avec `navigator.sendBeacon()` les demandes de lien de sortie et toutes les demandes lorsqu’[`useBeacon`](../vars/config-vars/usebeacon.md) est activé. Les outils de développement peuvent étiqueter ces requêtes comme annulées même lorsque le navigateur les a envoyées. Pour plus d&#39;informations, consultez la section [Demandes abandonnées](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
+AppMeasurement envoie avec `navigator.sendBeacon()` les demandes de lien de sortie et toutes les demandes lorsqu’[`useBeacon`](../vars/config-vars/usebeacon.md) est activé. Les outils de développement peuvent étiqueter ces requêtes comme annulées même lorsque le navigateur les a envoyées. Pour plus d&#39;informations, consultez la section [Demandes abandonnées](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/debugging/inspect-requests#aborted-requests).
 
 ## SDK web {#web-sdk}
 
 ### Rechercher la requête {#web-sdk-find}
 
-Avec Web SDK, le navigateur envoie les événements à Edge Network plutôt que directement à Analytics, de sorte que vous ne voyez pas de requête `/b/ss/`. [Inspectez la requête Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) et confirmez les éléments suivants :
+Avec Web SDK, le navigateur envoie les événements à Edge Network plutôt que directement à Analytics, de sorte que vous ne voyez pas de requête `/b/ss/`. [Inspectez la requête Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) et confirmez les éléments suivants :
 
 * Le paramètre `configId` correspond à un flux de données pour lequel le service [Adobe Analytics](https://experienceleague.adobe.com/fr/docs/experience-platform/datastreams/configure#analytics) est activé avec les suites de rapports attendues.
 * La payload est qualifiée de page vue ou d’événement de lien. Analytics ignore les payloads qui ne contiennent ni détails de page, ni type d’interaction web. Voir [Types d’événements Edge Network dans Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Vérifier ce qu’Analytics a reçu {#web-sdk-contents}
 
-Démarrez une [Edge Trace](https://experienceleague.adobe.com/en/docs/experience-platform/debugger/edge-trace) et reproduisez l’action. Recherchez la ligne commençant par **[!UICONTROL Mappage automatique Analytics]**, puis développez `mappedQueryParams` et l’identifiant de la suite de rapports en dessous.
+Démarrez une [Edge Trace](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/edge-trace) et reproduisez l’action. Recherchez la ligne commençant par **[!UICONTROL Mappage automatique Analytics]**, puis développez `mappedQueryParams` et l’identifiant de la suite de rapports en dessous.
 
 * **Variables** : les valeurs mappées utilisent les mêmes noms de paramètres de requête que les requêtes AppMeasurement, parfois sous une forme abrégée, comme `gn` pour le nom de page et `pl` pour les produits. Voir [Mappage des champs d’objet XDM](../aep-edge/xdm-var-mapping.md) et [Mappage des champs d’objet de données](../aep-edge/data-var-mapping.md).
 * **Données contextuelles** : les champs XDM qui ne sont pas mappés à une variable Analytics apparaissent comme des données contextuelles avec le préfixe `c.a.x.`. Utilisez des [règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour les affecter à des variables.
