@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 76%
+source-wordcount: '871'
+ht-degree: 47%
 ---
 # Type de référent
 
@@ -50,7 +50,7 @@ Adobe dérive cette dimension du [référent](referrer.md) de chaque accès, en 
 
 Les éléments de dimension comprennent le type de référent du hit. Les valeurs spécifiques incluent les éléments suivants :
 
-* **Tapé/Marqué** : le hit ne contient aucune donnée de référent.
+* **Tapé/Marqué** : le hit ne contient aucune donnée de référent. Cette valeur inclut les visites des [outils d’IA conversationnelle qui ouvrent des liens sans référent](#include-ai-traffic-that-has-no-referrer).
 * **Moteurs de recherche** : le référent provient d’un moteur de recherche reconnu comprenant une chaîne de requête de mot-clé.
 * **Outils d’IA conversationnelle** : le référent provient d’un outil d’IA conversationnelle reconnu.
 * **Réseaux sociaux** : les données de référent appartiennent à un réseau social reconnu par Adobe.
@@ -60,6 +60,10 @@ Les éléments de dimension comprennent le type de référent du hit. Les valeur
 * **E-mail** : le référent est issu d’une URL avec un protocole `imap://` ou `mail://`. Ne comprend pas les services de messagerie en ligne, car ils utilisent généralement le protocole `https://`.
 
 ### Outils d’IA dédiée à la conversation
+
+>[!IMPORTANT]
+>
+>Cette valeur inclut uniquement les visites qui ont un référent de la liste suivante. Certains outils d’IA conversationnelle, tels que le ChatGPT, n’envoient pas de référent lorsqu’ils ouvrent des liens, de sorte que leurs visites ne sont pas incluses. Pour plus d’informations, voir [Inclure le trafic IA qui n’a pas de référent](#include-ai-traffic-that-has-no-referrer).
 
 La liste suivante fait référence à la table de recherche « Outils d’IA dédiée aux conversations » utilisée par Adobe. Adobe fournit cette liste aux clients d’Adobe Analytics. Si vous souhaitez recommander à Adobe d’ajouter un domaine à cette liste, demandez à un délégué d’assistance de votre entreprise de contacter l’assistance clientèle.
 
@@ -84,6 +88,18 @@ La liste suivante fait référence à la table de recherche « Outils d’IA dé
 * `https://chat.mistral.ai`
 * `https://meta.ai`
 * `https://you.com`
+
+#### Inclure le trafic d’IA sans référent
+
+Certains outils d’IA conversationnelle, dont le ChatGPT, ouvrent les liens sans envoyer de référent. Adobe signale ces visites sous « Typed/Bookmarked » au lieu de « Outils d’IA dédiée à la conversation ». Les outils d’IA peuvent modifier la manière dont ils ouvrent les liens à tout moment. Si le trafic de vos « outils d’IA dédiée à la conversation » diminue, un outil peut avoir arrêté d’envoyer un référent. Cette baisse ne signifie pas qu’Adobe Analytics a perdu des données.
+
+Au lieu d’un référent, certains de ces outils ajoutent un paramètre de chaîne de requête UTM aux liens qu’ils ouvrent, comme `utm_source=chatgpt.com` ou `utm_source=perplexity`. Pour obtenir un décompte plus complet du trafic provenant des outils d’IA conversationnelle, utilisez le paramètre UTM avec la valeur « Outils d’IA conversationnelle » :
+
+* **Capturer le paramètre UTM dans une variable** : définissez une eVar sur la valeur `utm_source` de l’URL de la page de destination. Utilisez le plug-in [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md), le paramètre d’URL apparaît dans l’extension Web SDK ou Adobe Analytics, ou une [ règle de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-use-cases.md) qui lit le paramètre de chaîne de requête.
+* **Créer un canal marketing pour les outils d’IA** : créez une [règle de traitement des canaux marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) qui correspond si l’une de ses conditions est vraie. Ajoutez la condition **[!UICONTROL Le référent est l’IA conversationnelle]** et une condition de `utm_source` **[!UICONTROL Paramètre de chaîne de requête]** pour chaque valeur que les outils d’IA utilisent, par exemple `chatgpt.com` ou `perplexity`.
+* **Création d’un segment** : créez un [segment](/help/components/segmentation/seg-overview.md) qui correspond à « Type de référent » est égal à « Outils d’IA dédiée à la conversation » ou votre eVar UTM contient une valeur que les outils d’IA utilisent. Comme la dimension [URL de la page](page-url.md) comprend des chaînes de requête, vous pouvez également faire correspondre l’URL de la page contient des `utm_source=chatgpt.com`. Cette option fonctionne sans modification de l’implémentation.
+
+Certains outils d’IA n’envoient ni référent ni paramètre UTM. Vous ne pouvez pas identifier le trafic provenant de ces outils comme du trafic d’IA.
 
 ### Réseaux sociaux
 
