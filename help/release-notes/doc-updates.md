@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7701'
-ht-degree: 89%
+source-wordcount: '7790'
+ht-degree: 88%
 ---
 # Mises à jour de la documentation technique pour Adobe Analytics
 
@@ -75,6 +75,8 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 
 | Fonctionnalité | Description |
 | --- | --- |
+| **Novembre 2026** | |
+| Inclure le trafic d’IA sans référent | Certains outils d’IA, dont le ChatGPT, ouvrent les liens sans envoyer de référent, de sorte que le type de référent « Outils d’IA dédiée à la conversation » ne comptabilise pas ces visites. La documentation l’explique maintenant et indique comment créer des rapports sur ce trafic :<ul><li>Ajout d’une section sur l’[utilisation des paramètres UTM](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) pour capturer le trafic IA qui n’a pas de référent.</li><li>Ajout d’une note sur ce comportement à la section [&#x200B; Outils d’IA dédiée aux conversations &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools) de la dimension « Type de référent ».</li><li>Ajout d’une note sur ce comportement à [Analyser le trafic à partir des outils d’IA conversationnelle](/help/technotes/ai-traffic.md).</li></ul> |
 | **Octobre 2026** | |
 | Verrouiller la sélection pour les visualisations | Restructuré [Gérer les sources de données](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) pour séparer la configuration des paramètres de source de données du verrouillage de la sélection. Elle a également expliqué comment fonctionne la [sélection de verrouillage](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) lorsqu’une visualisation est verrouillée sur des lignes dans un tableau à structure libre, y compris ce qui se produit lorsque des lignes de répartition verrouillées ne se trouvent plus dans le tableau. |
 | Navigation au clavier pour les colonnes du tableau | Documentation sur la [redimensionnement](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) et [réorganisation](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) des colonnes de tableau dans Analysis Workspace à l’aide du clavier, y compris les commentaires du lecteur d’écran. Ajout également d’une section [Actions de colonne de tableau](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions) aux touches de raccourci. |
@@ -94,7 +96,7 @@ Mises à jour du contenu de la documentation Adobe Analytics depuis janvier 20
 | **Mai 2026** | |
 | Dimensions et mesures Streaming Media | Mises à jour importantes de la documentation sur les médias en flux continu. Les liens vers des exemples incluent [dimensions principales des services de streaming multimédia](/help/components/dimensions/sm-core.md) et [mesures principales des services de streaming multimédia](/help/components/metrics/sm-core.md). |
 | **Mars 2026** | |
-| Répartition d’un panneau | Restructuration de la documentation autour de la [zone de dépôt pour un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) afin de prendre en charge la nouvelle fonctionnalité de [répartition](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| d’un panneau | Restructuration de la documentation autour de la [zone de dépôt pour un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) afin de prendre en charge la nouvelle fonctionnalité de [&#128279;](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | Identification de l’option par défaut pour l’obscurcissement des adresses IP pour les nouvelles suites de rapports | Ajout d’informations indiquant que **Supprimer l’adresse IP** est l’option par défaut [obscurcissement d’adresse IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) pour les nouvelles suites de rapports. |
 | Révision de l’ordre de traitement | Améliorations significatives de l’[ordre de traitement dans Adobe Analytics](/help/technotes/processing-order.md). |
 | Intégration d’Adobe Advertising | Ajouts de dimensions et de mesures d’intégration Adobe Advertising, y compris l’[AMO ID](/help/components/dimensions/amo-id.md). |

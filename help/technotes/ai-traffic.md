@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 2%
-
+source-wordcount: '681'
+ht-degree: 0%
 ---
-
 # Analyse du trafic à partir des outils d’IA conversationnelle
 
 Adobe Analytics fournit des outils permettant d’analyser le trafic d’IA sur votre site web.
@@ -72,9 +70,11 @@ Vous pouvez utiliser la dimension de type Référent dans Analysis Workspace pou
 
 * Workflows de l’agence
 
-La dimension Type de référent comprend l’élément de dimension [&#x200B; Outils d’IA dédiée à la conversation &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension comprend une liste prédéfinie de chatbots d’IA.
+La dimension Type de référent comprend l’élément de dimension [&#x200B; Outils d’IA dédiée à la conversation &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension inclut uniquement les visites qui ont un référent provenant d’une liste prédéfinie de chatbots d’IA.
 
-Pour plus d’informations, voir [&#x200B; Type de référent &#x200B;](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Certains outils d’IA conversationnelle, tels que le ChatGPT, n’envoient pas de référent lorsqu’ils ouvrent des liens. Leurs visites ne sont donc pas incluses dans cet élément de dimension. Pour plus d’informations, voir [Inclure le trafic IA qui n’a pas de référent](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Analyse du trafic d’IA à l’aide de la détection des robots
 
