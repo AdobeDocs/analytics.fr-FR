@@ -25,11 +25,11 @@ ht-degree: 28%
 ---
 # Personnes avec un identifiant Experience Cloud
 
-« Personnes avec un Experience Cloud ID » est une mesure [Analyses entre appareils](../cda/overview.md) qui indique le nombre de [personnes](people.md) qui ont été identifiées par Adobe à l’aide du [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview).
+« Personnes avec un Experience Cloud ID » est une mesure [Analyses entre appareils](../cda/overview.md) qui indique le nombre de [personnes](people.md) qui ont été identifiées par Adobe à l’aide du [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/overview).
 
 ## Méthode de calcul de cette mesure
 
-Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Compte tenu de chaque [Personnes](people.md) (identifiées ou non), cette [mesure](overview.md) augmente si l’accès contient la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Vous pouvez créer la mesure calculée `[People with ECID] ÷ [People]` pour obtenir le pourcentage de visiteurs sur votre site à l’aide du service d’identification.
 

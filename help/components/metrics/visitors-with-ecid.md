@@ -34,7 +34,7 @@ ht-degree: 23%
 ---
 # Visiteurs avec un Experience Cloud ID
 
-La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide de l’[Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
+La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide de l’[Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/overview)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] �
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Déboguer la configuration ECID
 
