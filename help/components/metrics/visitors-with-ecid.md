@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # Visiteurs avec un Experience Cloud ID
 
-La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide du [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [Service d’identification Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
+La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide de l’[Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/overview)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), m
 
 ## Déboguer la configuration ECID
 
-La mesure « [!UICONTROL &#x200B; Visiteurs avec un ID Experience Cloud &#x200B;] » peut s’avérer utile pour résoudre les problèmes d’intégration de CX Enterprise ou identifier les zones de votre site dans lesquelles le service d’identification des visiteurs ou le service d’identification Experience Platform n’est pas déployé.
+La mesure « [!UICONTROL &#x200B; Visiteurs avec un ID Experience Cloud &#x200B;] » peut s’avérer utile pour résoudre les problèmes d’intégration de CX Enterprise ou identifier les zones de votre site dans lesquelles le service d’identification des visiteurs ou le SDK Web n’est pas déployé.
 
 Faites glisser « [!UICONTROL &#x200B; Visiteurs avec un Experience Cloud ID &#x200B;] » côte à côte avec les visiteurs uniques pour les comparer :
 

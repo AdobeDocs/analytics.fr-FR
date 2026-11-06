@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 92%
 ---
 # Affichage/gestion de l’étiquetage de confidentialité pour la gouvernance des données
@@ -79,7 +79,7 @@ Si vous souhaitez appliquer les mêmes paramètres de confidentialité des donn�
 
    >[!IMPORTANT]
    >
-   >Gardez à l’esprit que toutes les suites de rapports que vous sélectionnez doivent être mappées à votre organisation CX Enterprise.
+   >Gardez à l’esprit que toutes les suites de rapports que vous sélectionnez doivent être mappées à votre organisation Adobe.
 
    Lorsque vous copiez les étiquettes pour une variable ou un groupe de variables dans une autre suite de rapports, la copie a lieu sur la variable se trouvant à la même position dans la suite de rapports de destination. Pour les composants standard, les variables de liste et les événements de succès, les étiquettes sont copiées dans la variable portant le **même nom** dans la suite de rapports de destination.
 

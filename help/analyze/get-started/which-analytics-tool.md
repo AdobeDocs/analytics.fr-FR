@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 97%
+source-wordcount: '1170'
+ht-degree: 95%
 ---
 # Quel outil Adobe Analytics dois-je utiliser ?
 
@@ -123,7 +123,7 @@ L’**[API Data Insertion (héritée)](/help/import/c-data-insertion-api/c-data-
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** doit être utilisé :
 
-* Pour accéder à des variables autrement masquées dans l’interface utilisateur (adresse IP, Experience Cloud ID, identifiant visiteur Analytics, URL de page)
+* Pour accéder à des variables autrement masquées dans l’interface utilisateur (adresse IP, ECID, identifiant visiteur Analytics, URL de page)
 * Pour accéder à des données plus granulaires que l’interface utilisateur (affichage de tableau dénormalisé)
 * Pour télécharger des données dans un format adapté à un tableau croisé dynamique
 * Si le client souhaite saisir des données Adobe dans un outil de visualisation de données tiers (légèrement résumées et pas au niveau du hit)

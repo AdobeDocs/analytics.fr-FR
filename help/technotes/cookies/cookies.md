@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Adobe Analytics et les cookies de navigateur
@@ -84,7 +84,7 @@ Les politiques d’ITP évoluent fréquemment. Pour connaître les dernières po
 
 Tous les cookies propriétaires définis par Adobe et les bibliothèques JavaScript associées sont affectés par les politiques ITP :
 
-* [&#x200B; cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque du service d’identification des visiteurs (ECID) d’Adobe
+* [&#x200B; cookies « AMCV »](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=fr) définis par la bibliothèque du service d’identification des visiteurs Adobe
 * Le cookie hérité d’Analytics [« s_vi »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics) lorsqu’il est configuré avec la collecte de données propriétaires à l’aide d’un CNAME
 * Le cookie hérité d’Analytics [« s_fid »](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics), qui est le cookie de secours utilisé lorsque « s_vi » ne peut pas être défini
 

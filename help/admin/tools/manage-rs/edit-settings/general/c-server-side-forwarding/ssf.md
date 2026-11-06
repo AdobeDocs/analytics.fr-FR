@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 84%
+source-wordcount: '888'
+ht-degree: 77%
 ---
 # Transfert côté serveur - Aperçu
 
@@ -59,14 +59,14 @@ Le transfert côté serveur améliore la collecte de données car :
 
 Pour comprendre où se situe votre organisation en termes d’implémentation du transfert côté serveur, suivez les étapes de validation suivantes :
 
-## ![image step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Vérifiez l’implémentation du service ECID
+## ![step1_icon.png image](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Vérifier la mise en œuvre du service d’identification des visiteurs
 
-Vérifiez si le service Experience Cloud ID (ECID) est implémenté en examinant la [demande de suivi Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=fr).
+Vérifiez que le service d’identification des visiteurs est mis en œuvre en examinant la [requête de suivi Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=fr).
 
-Dans l’onglet Requête, vérifiez qu’une valeur ECID est en cours de définition. Cela vous indique que le Service d’identités est correctement implémenté, ce qui est une condition requise du transfert côté serveur.
+Dans l’onglet Requête , vérifiez qu’une valeur ECID est définie. Cela vous indique que le service d’identification des visiteurs est correctement mis en œuvre, ce qui est un prérequis pour le transfert côté serveur.
 
 * Si vous voyez une valeur ECID, passez à l’étape 2.
-* Si vous ne voyez pas de valeur ECID, [implémentez Identity Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) avant de passer à l’étape 2.
+* Si vous ne voyez pas de valeur ECID, [mettez en œuvre le service d’identification des visiteurs](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=fr) avant de passer à l’étape 2.
 
 ## ![image step2_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Vérification de la version de l’implémentation du transfert côté serveur
 

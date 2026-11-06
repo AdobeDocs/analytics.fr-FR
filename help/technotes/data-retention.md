@@ -33,9 +33,9 @@ topic_v2:
     internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '616'
 ht-degree: 92%
 ---
 # Politique de conservation des données
@@ -63,7 +63,7 @@ Le délai prévu par votre politique de conservation des données dépassé, Ado
 
 ## Afficher/gérer la politique actuelle de conservation des données
 
-La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation CX Enterprise et si une politique de conservation des données est en place pour cette suite de rapports.
+La boîte de dialogue Gouvernance des données dans Outils d’[!UICONTROL administration] donne un aperçu des suites de rapports qui ont été configurées pour la gouvernance des données. Elle indique également si elles ont été associées à une organisation Adobe et si une politique de conservation des données est en place pour cette suite de rapports.
 
 ## Questions fréquentes
 

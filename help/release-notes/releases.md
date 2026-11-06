@@ -20,10 +20,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 90%
 ---
 # Mises à jour des fonctionnalités Adobe Analytics
 
@@ -35,9 +35,9 @@ Les versions d’Adobe Analytics suivent un modèle de diffusion continue, ce q
 
 * **Tests limités** : la mise à jour par étapes commence par un test réalisé par les utilisateurs et utilisatrices internes d’Adobe. Elle est ensuite mise à la disposition d’un petit groupe de comptes clients afin de s’assurer que la fonctionnalité répond aux besoins et aux attentes des clients.
 
-* **Début du déploiement** : le déploiement d’une mise à jour par phases commence par la phase Tests limités. La version passe à une disponibilité de 0 % à 100 % pour les clients et clientes en quelques mois. Le déploiement par phases se produit au niveau de l’organisation CX Enterprise, de sorte que tous les personnes autorisées d’une même organisation bénéficient de la même expérience.
+* **Début du déploiement** : le déploiement d’une mise à jour par phases commence par la phase Tests limités. La version passe à une disponibilité de 0 % à 100 % pour les clients et clientes en quelques mois. Le déploiement échelonné se produit au niveau de l’organisation Adobe, de sorte que tous les utilisateurs autorisés d’une organisation bénéficient de la même expérience.
 
-* **Disponibilité générale** : la fonctionnalité est disponible pour 100 % des organisations CX Enterprise autorisées et la mise à jour est terminée.
+* **Disponibilité générale (GA, General Availability)** : la fonctionnalité est disponible pour 100 % des organisations éligibles et sa publication est terminée.
 
 Pour chaque version de fonctionnalité, la chronologie entre le début du déploiement et la disponibilité générale peut varier. L’objectif est que les versions soient courtes, afin qu’une fonctionnalité atteigne la GA dans un délai de 2 mois à compter du début du déploiement.
 

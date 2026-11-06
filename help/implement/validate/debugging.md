@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1048'
 ht-degree: 2%
 ---
 # Collecte de données Debug Analytics
@@ -94,7 +94,7 @@ Démarrez une [Edge Trace](https://experienceleague.adobe.com/fr/docs/experience
 
 ### Traitement des chèques {#web-sdk-processing}
 
-Dans la session Assurance ouverte par Edge Trace, recherchez des `hitdebugger` dans les événements. Ces événements utilisent l’`com.adobe.analytics.hitdebugger` du fournisseur et leurs payloads affichent des valeurs après le traitement d’Analytics, telles que l’Experience Cloud ID (`mcvisId`) et `pageName`.
+Dans la session Assurance ouverte par Edge Trace, recherchez des `hitdebugger` dans les événements. Ces événements utilisent l’`com.adobe.analytics.hitdebugger` du fournisseur et leurs payloads affichent des valeurs après le traitement d’Analytics, telles que l’ECID (`mcvisId`) et l’`pageName`.
 
 Pour une présentation guidée, voir [Configuration d’Adobe Analytics avec Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/fr/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics).
 

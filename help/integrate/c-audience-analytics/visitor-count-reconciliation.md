@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 44%
+source-wordcount: '306'
+ht-degree: 40%
 ---
 # Différences entre les nombres de visiteurs
 
@@ -46,11 +46,11 @@ Les mesures du visiteur sont les suivantes :
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population totale de segments</a> </p> </td> 
-   <td colname="col3"> <p>Nombre d’appareils (Experience Cloud ID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td> 
+   <td colname="col3"> <p>Nombre d’appareils (ECID) qui étaient membres de votre segment pendant la période de recherche en amont. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=fr"  > Adobe Audience Manager : population de segments en temps réel</a> </p> </td> 
-   <td colname="col3"> <p>Nombre d’appareils (Experience Cloud ID) qui étaient membres de votre segment et qui ont atteint vos propriétés pendant la période de recherche en amont. </p> </td> 
+   <td colname="col3"> <p>Nombre d’appareils (ECID) qui étaient membres de votre segment et qui ont atteint vos propriétés pendant la période de recherche en amont. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics : visiteurs uniques </p> </td> 
@@ -58,7 +58,7 @@ Les mesures du visiteur sont les suivantes :
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics : Visiteurs avec un Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Affiche le nombre de visiteurs uniques avec un Experience Cloud ID qui ont atteint vos propriétés pendant la période de création de rapports. </p> </td> 
+   <td colname="col3"> <p>Affiche le nombre de visiteurs uniques avec un ECID qui ont atteint vos propriétés pendant la période de rapport. </p> </td>
   </tr> 
  </tbody> 
 </table>

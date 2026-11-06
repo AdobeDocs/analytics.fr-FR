@@ -1,6 +1,6 @@
 ---
 description: Les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide supplémentaire pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
-title: Configurer les utilisateurs en charge de l’exécution avec l’application
+title: Configurer les cadres dirigeants dans l’application
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
@@ -28,26 +28,24 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '754'
 ht-degree: 96%
-
 ---
-
 # Configurer les utilisateurs en charge de l’exécution avec l’application
 
-Dans certains cas, les utilisateurs en charge de l’exécution peuvent avoir besoin d’aide pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
+Dans certains cas, les cadres dirigeants peuvent avoir besoin d’une aide supplémentaire pour accéder à l’application et l’utiliser. Cette section fournit des informations pour vous aider à apporter cette aide.
 
 ## Vérifiez que les utilisateurs de l’application ont accès à Adobe Analytics
 
-1. Configurez de nouveaux utilisateurs dans l’[CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
+1. Configurez de nouveaux utilisateurs dans [CX Enterprise Admin Console](/help/admin/admin-console/permissions/product-profile.md).
 
 1. Avant de pouvoir partager des cartes de performance, vous devez accorder aux utilisateurs de lʼapplication les autorisations nécessaires pour accéder aux composants de la carte de performance (tels quʼAnalysis Workspace, les suites de rapports sur lesquelles les cartes de performance sont basées, ainsi que les segments, les mesures et les dimensions).
 
 ## Configuration requise pour les utilisateurs de lʼapplication
 
-Pour vous assurer que les utilisateurs en charge de lʼexécution ont accès à vos cartes de performance dans lʼapplication, vérifiez les éléments suivants :
+Pour vous assurer que les cadres dirigeants ont accès à vos cartes de performance dans l’application, vérifiez les éléments suivants :
 
 * Les spécifications minimales en matière de systèmes d’exploitation mobile sur leurs appareils sont la version 10 ou ultérieure d’iOS ou la version 4.4 (KitKat) ou ultérieure d’Android.
 * Ils possèdent des identifiants de connexion valides à Adobe Analytics.
@@ -74,17 +72,17 @@ Une fois l’application téléchargée et installée, les utilisateurs en charg
 
 ## Aider les utilisateurs en charge de lʼexécution à accéder à votre carte de performance
 
-1. Demandez aux utilisateurs en charge de lʼexécution de se connecter à lʼapplication.
+1. Demandez aux cadres dirigeants de se connecter à l’application.
 
-   Lʼécran **[!UICONTROL Choisir une société]** sʼaffiche. Cet écran répertorie les entreprises connectées auxquelles l’utilisateur en charge de l’exécution appartient.
+   Lʼécran **[!UICONTROL Choisir une société]** sʼaffiche. Cet écran répertorie les organisations de connexion auxquelles le cadre dirigeant appartient.
 
-1. Demandez-leur d’appuyer sur le nom de la société de connexion ou de l’organisation CX Enterprise qui s’applique à la carte de performance que vous avez partagée.
+1. Demandez-leur d’appuyer sur le nom de la société de connexion ou de l’organisation Adobe qui s’applique à la carte de performance que vous avez partagée.
 
    La liste des Cartes de performance affiche alors toutes les cartes de performance partagées avec la personne en charge de lʼexécution pour cette société de connexion.
 
 1. Enfin, demandez-leur de trier cette liste selon la **[!UICONTROL Modification la plus récente]**, le cas échéant.
 
-1. Il ne leur reste plus quʼà appuyer sur le nom de la Carte de performance pour lʼafficher.
+1. Demandez-lui d’appuyer sur le nom de la carte de performance pour l’afficher.
 
    ![Choisissez une entreprise](assets/accesscard.png)
 
@@ -99,12 +97,12 @@ Expliquez à lʼutilisateur en charge de lʼexécution comment les mosaïques ap
 
 Informations supplémentaires sur les mosaïques :
 
-* La granularité des graphiques sparkline dépend de la longueur de la période :
-* Une tendance horaire s’affiche pour les plages d’une journée.
-  * Une tendance quotidienne s’affiche pour les plages comprises entre une journée et un an.
+* La granularité des graphiques sparkline dépend de la durée de la période :
+* Une journée affiche une tendance horaire.
+  * Une période de plus d’une journée et de moins d’un an affiche une tendance quotidienne.
   * Une tendance hebdomadaire s’affiche pour les plages supérieures à un an.
   * La formule de modification de la valeur de pourcentage est calculée de la manière suivante : total de la mesure (période en cours) - total de la mesure (période de comparaison)/total de la mesure (période de comparaison).
-  * Vous pouvez tirer l’écran vers le bas pour actualiser la Fiche d’évaluation.
+  * Vous pouvez tirer l’écran vers le bas pour actualiser la carte de performance.
 
 
 1. Appuyez sur une mosaïque pour afficher comment fonctionne une répartition détaillée sur la mosaïque.
@@ -115,7 +113,7 @@ Informations supplémentaires sur les mosaïques :
 
    * Un tableau est inclus pour afficher les données des dimensions ajoutées à la mosaïque. Appuyez sur la flèche vers le bas pour sélectionner les dimensions. Si aucune dimension n’a été ajoutée à la mosaïque, le tableau affiche les données de graphique.
 
-1. Pour modifier les périodes de votre carte de performance, appuyez sur l’en-tête de date et sélectionnez la combinaison de période de comparaison et de période principale que vous voulez afficher.
+1. Pour modifier les périodes de votre carte de performance, appuyez sur l’en-tête de date et sélectionnez la combinaison de période principale et de période de comparaison que vous souhaitez afficher.
 
    ![Modifier les dates](assets/changedate.png)
 
@@ -131,11 +129,11 @@ Si l’utilisateur en charge de l’exécution se connecte et qu’un message s�
 
 ![Rien n’a été partagé](assets/nothing.png)
 
-* L’utilisateur en charge de l’exécution peut avoir sélectionné la mauvaise instance Analytics, ou
-* La carte de performance peut ne pas avoir été partagée avec l’utilisateur en charge de l’exécution.
+* Le cadre dirigeant peut avoir sélectionné la mauvaise instance Analytics, ou
+* Le tableau de bord peut ne pas avoir été partagé avec le cadre dirigeant.
 
 Vérifiez que l’utilisateur en charge de l’exécution peut se connecter à la bonne instance Adobe Analytics et que la carte de performance a bien été partagée.
 
 >[!IMPORTANT]
 >
->Depuis octobre 2020, Adobe déploie progressivement une série d’améliorations destinées à optimiser les performances de l’application « Tableaux de bord Adobe Analytics ». Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les fiches d’évaluation avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures maximum dans un compte de stockage cloud public Microsoft Azure sécurisé. Veuillez contacter l’équipe chargée de votre compte Adobe si vous souhaitez vous désabonner de ces fonctionnalités d’amélioration des performances.
+>Depuis octobre 2020, Adobe déploie progressivement une série d’améliorations destinées à optimiser les performances de l’application « Tableaux de bord Adobe Analytics ». Ces améliorations portent principalement sur la mise en cache des données Analytics historiques utilisées pour remplir les fiches d’évaluation avec des dates (à l’exception du jour en cours). Ces données seront mises en cache pendant 24 heures maximum dans un compte de stockage cloud public Microsoft Azure sécurisé. Veuillez contacter votre équipe Adobe en charge de votre compte si vous souhaitez vous désinscrire de ces fonctionnalités d’amélioration des performances.

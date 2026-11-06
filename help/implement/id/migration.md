@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Considérations relatives à la migration du service d’identification des visiteurs pour Adobe Analytics
 
 Si votre entreprise prévoit de passer au service d’identification des visiteurs avec une implémentation Analytics existante, certains sujets importants doivent être pris en compte. Ces considérations vous permettent de conserver l’intégrité de l’identification des visiteurs et de comprendre comment le service d’identification des visiteurs fonctionne en présence d’une implémentation Analytics existante.
 
 >[!TIP]
 >
->Cette page s’applique uniquement aux implémentations d’extension AppMeasurement ou Analytics existantes et ajoute le service d’identification des visiteurs ou effectue une mise à niveau vers une implémentation de Web SDK. En d’autres termes, votre implémentation utilise un Analytics ID hérité (`aid`) et se dirige vers l’utilisation d’un ECID (`mid`). Toutes les implémentations de Web SDK utilisent [Experience Platform Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), qui utilise par défaut un ECID (`mid`).
+>Cette page s’applique uniquement aux implémentations d’extension AppMeasurement ou Analytics existantes et ajoute le service d’identification des visiteurs ou effectue une mise à niveau vers une implémentation de Web SDK. En d’autres termes, votre implémentation utilise un Analytics ID hérité (`aid`) et se dirige vers l’utilisation d’un ECID (`mid`). Toutes les implémentations de Web SDK utilisent l’[identité Edge Network](https://experienceleague.adobe.com/fr/docs/experience-platform/collection/identity/overview), qui utilise par défaut un ECID (`mid`).
 
 ## Interface du service d’identification des visiteurs avec les cookies des visiteurs Analytics hérités
 

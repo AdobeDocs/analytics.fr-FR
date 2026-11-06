@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 32%
+source-wordcount: '1438'
+ht-degree: 31%
 ---
 # Publier des segments {#publish-segments}
 
@@ -68,7 +68,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 ## Conditions préalables
 
 * Assurez-vous que la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Dans le cas contraire, vous ne pouvez pas le publier dans CX Enterprise.
-* Assurez-vous que votre entreprise utilise des Experience Cloud ID.
+* Assurez-vous que votre entreprise utilise des ECID.
 * Avant de pouvoir publier des segments, votre administrateur doit affecter l’autorisation [!UICONTROL Publication de segments] à un profil de produit dans l’[Admin Console](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/admin-tool-experience-cloud) et vous ajouter au profil de produit.
 
 ## Considérations
@@ -166,7 +166,7 @@ L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du ch
 
 Dans Adobe Audience Manager, la liste des visiteurs avec des ECID pour un segment donné est évaluée tandis qu’Analytics partage des segments avec CX Enterprise.
 
-1. Dans Audience Manager, accédez à **[!UICONTROL Données d’audience]** > **[!UICONTROL Caractéristiques]** > **[!UICONTROL Caractéristiques Analytics]**. Un dossier apparaît pour chaque suite de rapports Analytics mappée à votre organisation CX Enterprise. Ces dossiers (pour les Caractéristiques, Segments et Sources de données) sont créés lorsque le service principal Profils et audiences/personnes est lancé ou mis en service.
+1. Dans Audience Manager, accédez à **[!UICONTROL Données d’audience]** > **[!UICONTROL Caractéristiques]** > **[!UICONTROL Caractéristiques Analytics]**. Un dossier apparaît pour chaque suite de rapports Analytics mappée à votre organisation Adobe. Ces dossiers (pour les Caractéristiques, Segments et Sources de données) sont créés lorsque le service principal Profils et audiences/personnes est lancé ou mis en service.
 1. Sélectionnez le dossier de la suite de rapports dans laquelle vous avez précédemment créé le segment que vous souhaitez partager avec Audience Manager. Le segment/l’audience que vous avez créé s’affiche. Lorsque vous partagez un segment, 2 choses se produisent dans Audience Manager :
    * Une caractéristique est créée, tout d’abord sans contenir de données. Environ 8 heures après la publication du segment dans [!DNL Analytics], la liste des ECID est intégrée et partagée avec Audience Manager et d’autres solutions CX Enterprise.
 

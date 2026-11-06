@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 99%
+source-wordcount: '559'
+ht-degree: 98%
 ---
 # Données et référence de code du transfert côté serveur
 
@@ -50,7 +50,7 @@ Les paramètres dotés du préfixe `d_*` identifient des paires clé-valeur spé
 | `d_rs` | (Défini à l’aide du transfert côté serveur hérité/basé sur un serveur de suivi) <br>Défini sur les suites de rapports transmises avec le hit à Analytics. |
 | `d_dst_filter` | (Défini à l’aide du transfert côté serveur basé sur une suite de rapports) <br>Défini sur les ID de suite de rapports transmises avec le hit à Analytics. |
 | `d_dst` | Définit `d_dst=1`  <br>si la demande envoyée à Analytics s’attend à ce que du contenu relatif à la destination soit renvoyé au client. |
-| `d_mid` | Experience Cloud ID transmis à Analytics. |
+| `d_mid` | ECID transmis à Analytics. |
 
 ## En-têtes HTTP {#section_0549705E76004F9585224AEF872066C0}
 

@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 64%
 ---
 # Conditions requises pour le transfert côté serveur
 
@@ -48,7 +48,7 @@ Le transfert côté serveur fonctionne avec [Analytics](https://www.adobe.com/fr
 
 ## Conditions requises du service
 
-Le transfert côté serveur nécessite le [service d’identité](https://experienceleague.adobe.com/fr/docs/id-service/using/home). Identity Service fournit un identifiant universel qui identifie les visiteurs du site dans toutes les solutions de CX Enterprise. Vous devez mettre en œuvre le service d’identités pour que le transfert côté serveur fonctionne.
+Le transfert côté serveur nécessite le service [Visitor ID](https://experienceleague.adobe.com/fr/docs/id-service/using/home). Le service d’identification des visiteurs fournit un identifiant universel qui identifie les visiteurs du site dans toutes les solutions de CX Enterprise. Vous devez mettre en œuvre le service d’identification des visiteurs avant que le transfert côté serveur ne fonctionne.
 
 ## Versions du code
 
@@ -60,7 +60,7 @@ Le transfert côté serveur requiert la version 1.5 (ou plus récente) des bibl
 
 ### Déterminer la version de votre bibliothèque de code
 
-Tout outil qui surveille les requêtes HTTP émises par un navigateur peut afficher le numéro de version de votre code AppMeasurement et d’API Visiteur. La bibliothèque `AppMeasurement_Module_AudienceManagement.js` ne contient ni ne renvoie un ID de version. Les exemples suivants montrent à quoi ressemblent les ID de version pour les codes `AppMeasurement.js` et `VisitorAPI.js`.
+Tout outil qui surveille les requêtes HTTP émises par un navigateur peut afficher le numéro de version de votre code AppMeasurement et VisitorAPI. La bibliothèque `AppMeasurement_Module_AudienceManagement.js` ne contient ni ne renvoie un ID de version. Les exemples suivants montrent à quoi ressemblent les ID de version pour les codes `AppMeasurement.js` et `VisitorAPI.js`.
 
 * `AppMeasurement.js` : la version apparaît dans l’URL de la requête après le type de réponse, par exemple `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Outils de débogage](/help/implement/validate/debugging.md) qui décodent les requêtes peuvent utiliser un libellé différent, mais la valeur suit toujours le modèle `JS-X.X.X`, où `X` correspond à un numéro de version.
-* `VisitorAPI.js` : recherchez le paramètre `d_visid_ver`. Il vous montrera le service d’ID de visiteur comme ceci : `d_visid_ver: 1.5.5`. Le code VisitorAPI antérieur à la version 1.5.2 n’incluait pas de numéro de version. Vous utilisez probablement une bibliothèque de code plus ancienne (et devez la mettre à niveau) si les résultats de la surveillance ne renvoient pas de numéro de version.
+* `VisitorAPI.js` : recherchez le paramètre `d_visid_ver`. Le service d’identification des visiteurs s’affiche comme suit : `d_visid_ver: 1.5.5`. Le code VisitorAPI antérieur à la version 1.5.2 n’incluait pas de numéro de version. Vous utilisez probablement une bibliothèque de code plus ancienne (et devez la mettre à niveau) si les résultats de la surveillance ne renvoient pas de numéro de version.

@@ -1,6 +1,6 @@
 ---
 description: L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
-title: Affichage de l’utilisation des suites de rapports
+title: Afficher l’utilisation des suites de rapports
 feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
@@ -22,14 +22,12 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 82%
-
+source-wordcount: '432'
+ht-degree: 83%
 ---
-
-# Affichage de l’utilisation des suites de rapports
+# Afficher l’utilisation des suites de rapports
 
 L’onglet Suite de rapports d’utilisation fournit des données d’utilisation du serveur pour chaque suite de rapports pour toutes les sociétés de connexion associées à la société de facturation, pour la période d’utilisation actuelle.
 
@@ -37,12 +35,12 @@ L’onglet Suite de rapports d’utilisation fournit des données d’utilisatio
 
 >[!IMPORTANT]
 >
->Si une suite de rapports n’est pas liée à une organisation CX Enterprise, ses données d’utilisation ne sont pas reflétées dans ce tableau de bord. En outre, un identifiant de facturation peut être lié à plusieurs organisations d’entreprise CX ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation.
+>Si une suite de rapports n’est pas liée à une organisation Adobe, ses données d’utilisation ne sont pas reflétées dans ce tableau de bord. En outre, un identifiant de facturation peut être lié à plusieurs organisations. Il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation.
 
-Le tableau de bord de la suite de rapports d’utilisation :
+Le tableau de bord de la suite de rapports d’utilisation
 
-* Affiche l&#39;utilisation des appels au serveur de la période d&#39;utilisation actuelle (Tous les appels, Principal, Secondaire, Principal mobile, Secondaire mobile) pour chaque suite de rapports de votre organisation CX Enterprise.
-* affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur ;
+* Affiche l’utilisation des appels au serveur de la période d’utilisation actuelle (Tous les appels, Principal, Secondaire, Principal mobile, Secondaire mobile) pour chaque suite de rapports de votre organisation.
+* Affiche le pourcentage de l’utilisation générale par catégories d’appels au serveur.
 * est mis à jour quotidiennement ;
 * est téléchargeable ;
 * vous permet d’accéder à l’interface utilisateur de la **[!UICONTROL Gestion des alertes]**.
@@ -64,7 +62,7 @@ Le tableau de bord de la suite de rapports d’utilisation :
 
 ## Télécharger le rapport d’utilisation {#download}
 
-Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le rapport est téléchargé au format .cvs.
+Cette option vous permet de télécharger les données d’utilisation actuelles, ainsi que les données de périodes antérieures (en remontant jusqu’à janvier 2015). Le fichier de rapport est téléchargé au format .csv.
 
 1. Sélectionnez au moins une suite de rapports.
 1. Cliquez sur **[!UICONTROL Télécharger un rapport]**.
@@ -75,13 +73,13 @@ Cette option vous permet de télécharger les données d’utilisation actuelles
 |--- |--- |
 | Nom de fichier | Nom codé en dur : rapport d’utilisation `day and time of report creation.csv` |
 | Suites de rapports incluses | Toutes les suites de rapports que vous avez sélectionnées sur la page du rapport d’utilisation du serveur sont incluses dans cette liste. |
-| Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Principal secondaire. |
-| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une période spécifique.  Pour définir une période personnalisée, indiquez le début de la période et la fin de la période. <br>**Remarque :** vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015 </br>. |
+| Types d’appels inclus | Spécifiez n’importe quelle combinaison entre : Tous les appels (par défaut), Principal, Secondaire, Principal mobile, Secondaire mobile. |
+| Période | Vous pouvez sélectionner la période d’utilisation actuelle ou indiquer une plage personnalisée.  Pour une plage personnalisée, indiquez le début et la fin de la plage. <br>**Remarque :** vous ne pouvez pas télécharger des données d’utilisation antérieures à janvier 2015 </br>. |
 
 {style="table-layout:auto"}
 
 1. Cliquez sur **[!UICONTROL Télécharger]**.
 
-Voici une capture d’écran de ce à quoi ressemble le fichier .csv téléchargé. Il comprend une colonne pour l’identifiant de la suite de rapports. L’identifiant de la suite de rapports spécifie un ID unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
+Voici une copie d’écran montrant à quoi ressemble le fichier CSV (valeurs séparées par des virgules) téléchargé. Il comprend une colonne pour l’identifiant de suite de rapports. L’identifiant de suite de rapports spécifie un identifiant unique pouvant uniquement contenir des caractères alphanumériques. Cet identifiant ne peut pas être modifié après la création d’une suite de rapports.
 
 ![](/help/admin/tools/server-call-usage/assets/download-usage.png)

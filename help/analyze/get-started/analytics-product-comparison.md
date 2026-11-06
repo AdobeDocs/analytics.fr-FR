@@ -46,24 +46,22 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Configuration requise et comparaison des produits Analytics
 
-Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Report Builder, Data Warehouse, Data Feeds and Analytics API 2.0.
+Cette page contient une comparaison de divers produits Adobe Analytics : Analysis Workspace, Report Builder, Data Warehouse, Data Feeds et Analytics API 2.0.
 
 Pour plus d’informations sur le produit Adobe Analytics à utiliser, voir [Quel outil Adobe Analytics dois-je utiliser ?](/help/analyze/get-started/which-analytics-tool.md).
 
 | Nom du produit et lien d’aide | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Report Builder](/help/analyze/report-builder/rb-overview.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md) | [API Analytics 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|
 | **Méthode d’accès** | [Navigateur](/help/analyze/get-started/sys-reqs.md) | [MS Excel pour Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Configuration via le navigateur. [En savoir plus](/help/analyze/get-started/sys-reqs.md) | Configuration via le navigateur. [En savoir plus](/help/export/analytics-data-feed/data-feed-overview.md) | Outils de l’API RESTful. Connectez-vous à l’aide des informations d’identification Adobe Developer. [En savoir plus](https://developer.adobe.com/analytics-apis/docs/2.0/) |
-| **Granularité des données** | Agrégé | Agrégé | Agrégé | Accès | Agrégé |
-| **Experience Cloud ID (ECID) disponible** | Non | Non | Oui | Oui | Non |
+| **Granularité des données** | Agrégé | Agrégé | Agrégé | Hit | Agrégé |
+| **ECID disponible** | Non | Non | Oui | Oui | Non |
 | **Horodatage disponible** | Non | Non | Non | Oui | Non |
 | **Niveau de traitement** | Traitement complet | Traitement complet avec [rapport en temps réel](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) distinct | Traitement complet | Traitement complet | Traitement complet |
 | **Données de filtrage des robots d’administration incluses** <br> [En savoir plus](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | Non | Oui - Rapport de robot distinct | Non | Non | Non |

@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1119'
 ht-degree: 29%
 ---
 # Questions fréquentes
@@ -155,7 +155,7 @@ Oui. Dans la configuration de la destination Adobe Audience Manager, seules les 
 
 +++ Pourquoi ne puis-je pas activer certaines suites de rapports pour SSF dans Analytics Admin ?
 
-Seules les suites mappées à votre organisation CX Enterprise peuvent être activées.
+Seules les suites mappées à votre organisation Adobe peuvent être activées.
 
 Pour plus de questions fréquentes sur ce sujet, consultez la [FAQ sur la redirection côté serveur](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
