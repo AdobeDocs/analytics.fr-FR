@@ -39,4 +39,4 @@ Puisque l’identité Edge Network est ancrée de manière native dans l’exten
 
 >[!NOTE]
 >
->N’incluez pas l’extension de balise du service d’identification des visiteurs si vous utilisez l’extension de balise Web SDK. L’extension du service d’identification des visiteurs n’est nécessaire que si vous utilisez l’extension [](analytics-extension.md).
+>N’incluez pas l’extension de balise du service d’identification des visiteurs si vous utilisez l’extension de balise Web SDK. L’extension du service d’identification des visiteurs n’est nécessaire que si vous utilisez l’extension [&#128279;](analytics-extension.md).

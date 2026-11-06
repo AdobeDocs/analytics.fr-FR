@@ -102,8 +102,8 @@ Pour une présentation guidée, voir [Configuration d’Adobe Analytics avec Ado
 
 Un accès qui atteint Analytics n’apparaît pas immédiatement dans les rapports et les valeurs signalées peuvent différer des valeurs de la requête :
 
-* **Latence** : les données complètes apparaissent généralement dans les rapports environ deux heures après leur collecte. Certaines données, telles que les accès horodatés, peuvent prendre plus de temps. Voir [ Disponibilité et latence des données ](/help/technotes/latency.md).
-* **Traitement** : les règles de traitement, les règles VISTA, les règles de robots et d’autres étapes de traitement peuvent modifier ou exclure des valeurs après la collecte. Voir [ Ordre de traitement des données dans Adobe Analytics](/help/technotes/processing-order.md). Les données post-traitées d’Assurance affichent le résultat du traitement d’un accès individuel.
+* **Latence** : les données complètes apparaissent généralement dans les rapports environ deux heures après leur collecte. Certaines données, telles que les accès horodatés, peuvent prendre plus de temps. Voir [&#x200B; Disponibilité et latence des données &#x200B;](/help/technotes/latency.md).
+* **Traitement** : les règles de traitement, les règles VISTA, les règles de robots et d’autres étapes de traitement peuvent modifier ou exclure des valeurs après la collecte. Voir [&#x200B; Ordre de traitement des données dans Adobe Analytics](/help/technotes/processing-order.md). Les données post-traitées d’Assurance affichent le résultat du traitement d’un accès individuel.
 * **Suite de rapports** : vérifiez que vous affichez la même suite de rapports que celle ciblée par la requête ou le flux de données.
 * **Valeurs inattendues** : si une dimension affiche des pics ou des valeurs inattendus, consultez [Collisions de hachage](hash-collisions.md).
 

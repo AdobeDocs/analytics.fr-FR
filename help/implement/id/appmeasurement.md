@@ -47,7 +47,7 @@ Assurez-vous d’être préparé avec les éléments suivants :
 * Un développement [identifiant de suite de rapports](/help/admin/tools/manage-rs/new-rs/new-report-suite.md).
 * Le domaine Edge souhaité pour [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * Votre identifiant de l’organisation IMS :
-  1. Connectez-vous à [](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+  1. Connectez-vous à [&#128279;](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
   1. N’importe où dans l’interface de CX Enterprise, appuyez sur `[Cmd]` + `[I]` (iOS) ou `[Ctrl]` + `[I]` (Windows).
   1. Un **[!UICONTROL Débogueur de données utilisateur]** s’affiche. Sélectionnez l’onglet **[!UICONTROL Organisations affectées]**.
   1. Développez l’organisation IMS souhaitée.
