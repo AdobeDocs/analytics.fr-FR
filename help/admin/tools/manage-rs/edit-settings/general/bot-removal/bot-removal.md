@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 56%
+source-wordcount: '778'
+ht-degree: 48%
 ---
 # Suppression de robots dans Adobe Analytics
 
@@ -54,9 +54,9 @@ Pour plus d’informations, voir [Comprendre et configurer les règles de robots
 
 En outre, comme les robots se transforment rapidement, Adobe propose plusieurs autres fonctionnalités performantes qui, lorsqu’elles sont combinées correctement et régulièrement, peuvent contribuer à venir à bout de ces ennemis de la qualité des données. Ces fonctionnalités sont les suivantes : service d’identification des visiteurs, segmentation, Data Warehouse, attributs du client et suites de rapports virtuelles. Voici un aperçu de la manière dont vous pouvez utiliser ces outils.
 
-### Étape 1 : transférer l’Experience Cloud ID de vos visiteurs dans un nouvel ID déclaré
+### Étape 1 : transmettre l’ECID de vos visiteurs dans un nouvel identifiant déclaré {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-Pour commencer, créez un nouvel ID déclaré dans le [Service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr). Transmettez l’Experience Cloud ID de votre visiteur à ce nouvel ID déclaré. Cela peut s’effectuer rapidement et facilement à l’aide des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr). Utilisons le nom « ECID » pour l’ID déclaré.
+Pour commencer, créez un nouvel ID déclaré dans le [Service principal People](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr). Transmettez l’ECID de votre visiteur à ce nouvel ID déclaré. Cela peut s’effectuer rapidement et facilement à l’aide des [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=fr). Utilisons le nom « ECID » pour l’ID déclaré.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Maintenant que l’ECID de votre visiteur est transmis dans un ID déclaré, vou
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### Étape 3 : exporter tous les [!DNL Experience Cloud IDs] du segment via Data Warehouse
+### Étape 3 : exporter tous les [!DNL ECIDs] du segment via Data Warehouse {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à utiliser Data Warehouse pour extraire tous les Experience Cloud ID associés à ce segment. La copie d’écran montre comment vous devez configurer votre demande [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) :
+Maintenant que vous avez identifié les robots à l’aide de segments, l’étape suivante consiste à utiliser Data Warehouse pour extraire tous les ECID associés à ce segment. La copie d’écran montre comment vous devez configurer votre demande [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) :
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -111,7 +111,7 @@ Définissez au moins un rappel mensuel pour identifier et filtrer les nouveaux r
 
 >[!MORELIKETHIS]
 >
->* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=fr)
->* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=fr)
->* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=fr)
+>* [Meilleur Blocage Des Robots (Partie 1) : Principes De Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Meilleur blocage des robots (partie 2) : identification des robots et utilisation de CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Meilleur Blocage Des Robots (Partie 3) : Le Gouverneur D’Accès](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 32%
+source-wordcount: '1438'
+ht-degree: 31%
 ---
 # Publier des segments {#publish-segments}
 
@@ -56,7 +56,7 @@ Vous pouvez publier des segments Analytics sur CX Enterprise en moins de 8 heure
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -68,14 +68,14 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Publication de 
 ## Conditions préalables
 
 * Assurez-vous que la suite de rapports dans laquelle vous enregistrez ce segment est [activée pour CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). Dans le cas contraire, vous ne pouvez pas le publier dans CX Enterprise.
-* Assurez-vous que votre entreprise utilise des Experience Cloud ID.
+* Assurez-vous que votre entreprise utilise des ECID.
 * Avant de pouvoir publier des segments, votre administrateur doit affecter l’autorisation [!UICONTROL Publication de segments] à un profil de produit dans l’[Admin Console](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/admin-tool-experience-cloud) et vous ajouter au profil de produit.
 
 ## Considérations
 
 * **Limites de suites de rapports** : vous pouvez publier jusqu’à 75 segments par suite de rapports. Cette limite est appliquée. Si 75 segments ont déjà été publiés, vous ne pouvez pas en publier d’autres tant que vous n’avez pas annulé la publication de suffisamment de segments pour arriver sous le seuil de 75 segments.
 * **Limites d’appartenance** : les audiences partagées avec CX Enterprise à partir d’Adobe Analytics ne peuvent pas dépasser 20 millions de membres uniques.
-* **Confidentialité des données** : les audiences ne sont pas filtrées d’après l’état d’authentification d’un visiteur. Un visiteur peut être en mesure de parcourir votre site dans des états non authentifiés et authentifiés. Les actions qui se produisent lorsqu’un visiteur n’est pas authentifié peuvent toujours entraîner l’inclusion d’un visiteur dans une audience. Consultez [Confidentialité de &#x200B;](https://www.adobe.com/fr/privacy/experience-cloud.html) pour comprendre toutes les implications du partage d&#39;audience en matière de confidentialité.
+* **Confidentialité des données** : les audiences ne sont pas filtrées d’après l’état d’authentification d’un visiteur. Un visiteur peut être en mesure de parcourir votre site dans des états non authentifiés et authentifiés. Les actions qui se produisent lorsqu’un visiteur n’est pas authentifié peuvent toujours entraîner l’inclusion d’un visiteur dans une audience. Consultez [Confidentialité de ](https://www.adobe.com/fr/privacy/experience-cloud.html) pour comprendre toutes les implications du partage d&#39;audience en matière de confidentialité.
 * Pour plus d’informations sur les **différences entre les segments dans [!DNL Adobe Analytics] et Audience Manager**, voir [Présentation des segments dans Analytics et Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Journal de publication des segments
@@ -142,7 +142,7 @@ Les captures d’écran suivantes vous montrent comment récupérer l’UUID Ado
 
 ### Méthode 1 : utilisation d’Adobe Experience Platform Debugger
 
-1. Téléchargez et installez [&#128279;](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) dans la boutique en ligne Chrome.
+1. Téléchargez et installez [](https://experienceleague.adobe.com/fr/docs/experience-platform/debugger/home) dans la boutique en ligne Chrome.
 1. Ouvrez le débogueur lors du chargement d’une page.
 1. Faites défiler jusqu’à la section Audience Manager et recherchez l’UUID Adobe Audience Manager défini sur la page du navigateur active
 (`35721780439475290181087231320657663953` dans l’exemple ci-dessous)
@@ -153,20 +153,20 @@ Les captures d’écran suivantes vous montrent comment récupérer l’UUID Ado
 
 1. Ouvrir Chrome Developer Tools avant le chargement d’une page
 1. Chargez la page et ouvrez Applications > Cookies. L’UUID Adobe Audience Manager doit être défini dans le tiers
-Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
+Cookie Demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) dans l&#39;exemple ci-dessous). Le champ demdex est l’UUID Adobe Audience Manager défini
 dans le navigateur (`35721780439475290181087231320657663953` dans l’exemple ci-dessous).
 
    ![Chrome Developer Tools](assets/devtools.png)
 
 ## Utiliser la [!UICONTROL visionneuse du profil du visiteur] d’Audience Manager
 
-L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/fr/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
+L’UUID Adobe Audience Manager du navigateur est défini par défaut lors du chargement de la [!UICONTROL visionneuse du profil du visiteur]. Si vous vérifiez la réalisation des caractéristiques pour d’autres utilisateurs, saisissez un UUID dans le champ UUID et cliquez sur [!UICONTROL Actualiser]. Consultez [Visionneuse du profil du visiteur](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer) pour plus d’informations.
 
 ## Affichage des caractéristiques du segment dans Audience Manager
 
 Dans Adobe Audience Manager, la liste des visiteurs avec des ECID pour un segment donné est évaluée tandis qu’Analytics partage des segments avec CX Enterprise.
 
-1. Dans Audience Manager, accédez à **[!UICONTROL Données d’audience]** > **[!UICONTROL Caractéristiques]** > **[!UICONTROL Caractéristiques Analytics]**. Un dossier apparaît pour chaque suite de rapports Analytics mappée à votre organisation CX Enterprise. Ces dossiers (pour les Caractéristiques, Segments et Sources de données) sont créés lorsque le service principal Profils et audiences/personnes est lancé ou mis en service.
+1. Dans Audience Manager, accédez à **[!UICONTROL Données d’audience]** > **[!UICONTROL Caractéristiques]** > **[!UICONTROL Caractéristiques Analytics]**. Un dossier apparaît pour chaque suite de rapports Analytics mappée à votre organisation Adobe. Ces dossiers (pour les Caractéristiques, Segments et Sources de données) sont créés lorsque le service principal Profils et audiences/personnes est lancé ou mis en service.
 1. Sélectionnez le dossier de la suite de rapports dans laquelle vous avez précédemment créé le segment que vous souhaitez partager avec Audience Manager. Le segment/l’audience que vous avez créé s’affiche. Lorsque vous partagez un segment, 2 choses se produisent dans Audience Manager :
    * Une caractéristique est créée, tout d’abord sans contenir de données. Environ 8 heures après la publication du segment dans [!DNL Analytics], la liste des ECID est intégrée et partagée avec Audience Manager et d’autres solutions CX Enterprise.
 

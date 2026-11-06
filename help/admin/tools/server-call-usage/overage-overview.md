@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 77%
 ---
 # Utilisation de l’appel au serveur
@@ -69,7 +69,7 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de facturation (ID de facturation) </p> </td> 
-   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un ID de facturation utilisé uniquement pour identifier le client de facturation. Un identifiant de facturation peut être lié à plusieurs organisations CX Enterprise ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation. </p> </td> 
+   <td colname="col2"> <p>L’entité légale qui sera facturée pour les appels au serveur. Par exemple : adobe.com. Chaque société de facturation possède un identifiant de facturation utilisé pour identifier de manière unique le client ou la cliente pour la facturation. Un identifiant de facturation peut être lié à plusieurs organisations Adobe ; il n’existe pas toujours de relation 1:1 entre une organisation et un identifiant de facturation. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Société de connexion </p> </td> 
@@ -82,7 +82,7 @@ Les termes suivants sont importants pour comprendre l’utilisation des appels a
     </ul> <p>Remarque : les données de l’utilisation de l’appel au serveur pour <u>toutes</u> les suites de rapports d’une société de facturation sont visibles par tous les utilisateurs disposant d’une <a href="/help/admin/admin-console/permissions/analytics-tools.md">permission</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organisation CX Enterprise </p> </td> 
+   <td colname="col1"> <p>Organisation Adobe </p> </td> 
    <td colname="col2"> <p>Une organisation est l’entité qui permet à un administrateur de configurer des groupes et des utilisateurs, et de contrôler l’authentification unique dans CX Enterprise. L’organisation fonctionne comme une société de connexion qui couvre tous les produits et solutions CX Enterprise. </p> <p>La plupart du temps, une organisation désigne votre nom de société. Cependant, une société peut avoir plusieurs organisations. </p> </td> 
   </tr> 
   <tr> 

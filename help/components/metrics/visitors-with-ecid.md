@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 25%
+source-wordcount: '381'
+ht-degree: 23%
 ---
 # Visiteurs avec un Experience Cloud ID
 
-La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide du [Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [Service d’identification Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
+La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] » indique le nombre de visiteurs uniques qui ont été identifiés par Adobe avec un ECID (à l’aide de l’[Service d’identification des visiteurs](https://experienceleague.adobe.com/fr/docs/id-service/using/home) ou [SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview)). Cette mesure est utile pour la comparaison avec la mesure [Visiteurs uniques](unique-visitors.md) afin de s’assurer que la majorité des visiteurs de votre site utilise un ECID. Si une grande partie des visiteurs n’utilise pas cet identifiant, cela peut indiquer un problème dans votre implémentation.
 
 >[!NOTE]
 >
@@ -42,22 +42,22 @@ La [mesure](overview.md) « [!UICONTROL Visiteurs avec un Experience Cloud ID] �
 
 ## Méthode de calcul de cette mesure
 
-Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/fr/docs/core-services/interface/data-collection/cookies/analytics)).
+Cette mesure est basée sur la mesure [Visiteurs uniques](unique-visitors.md), mais ne comprend que les individus identifiés à l’aide de la chaîne de requête `mid` (basée sur le cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Déboguer la configuration ECID
 
-La mesure « [!UICONTROL &#x200B; Visiteurs avec un ID Experience Cloud &#x200B;] » peut s’avérer utile pour résoudre les problèmes d’intégration de CX Enterprise ou identifier les zones de votre site dans lesquelles le service d’identification des visiteurs ou le service d’identification Experience Platform n’est pas déployé.
+La mesure « [!UICONTROL  Visiteurs avec un ID Experience Cloud ] » peut s’avérer utile pour résoudre les problèmes d’intégration de CX Enterprise ou identifier les zones de votre site dans lesquelles le service d’identification des visiteurs ou le SDK Web n’est pas déployé.
 
-Faites glisser « [!UICONTROL &#x200B; Visiteurs avec un Experience Cloud ID &#x200B;] » côte à côte avec les visiteurs uniques pour les comparer :
+Faites glisser « [!UICONTROL  Visiteurs avec un Experience Cloud ID ] » côte à côte avec les visiteurs uniques pour les comparer :
 
 ![Comparaison avec les visiteurs uniques](assets/metric-mcvid1.png)
 
-Dans cet exemple, notez que chaque page comporte le même nombre de « [!UICONTROL Visiteurs uniques] » que « [!UICONTROL Visiteurs avec un Experience Cloud ID] ». Cependant, le nombre total de « [!UICONTROL &#x200B; Visiteurs uniques &#x200B;] » est supérieur au nombre total de « [!UICONTROL &#x200B; Visiteurs avec un Experience Cloud ID &#x200B;] ». Vous pouvez créer une [mesure calculée](../calculated-metrics/cm-overview.md) pour déterminer les pages qui n’utilisent pas d’ECID à l’aide de la définition suivante :
+Dans cet exemple, notez que chaque page comporte le même nombre de « [!UICONTROL Visiteurs uniques] » que « [!UICONTROL Visiteurs avec un Experience Cloud ID] ». Cependant, le nombre total de « [!UICONTROL  Visiteurs uniques ] » est supérieur au nombre total de « [!UICONTROL  Visiteurs avec un Experience Cloud ID ] ». Vous pouvez créer une [mesure calculée](../calculated-metrics/cm-overview.md) pour déterminer les pages qui n’utilisent pas d’ECID à l’aide de la définition suivante :
 
 ![Définition de la mesure calculée](assets/metric-mcvid2.png)
 
 En ajoutant la mesure calculée au rapport, vous pouvez trier le rapport Pages afin que les pages comportant le plus grand nombre de visiteurs sans ECID soient affichées :
 
-![&#x200B; Pages sans ECID &#x200B;](assets/metric-mcvid3.png)
+![ Pages sans ECID ](assets/metric-mcvid3.png)
 
 Notez que les éléments de dimension « Aperçu rapide du produit » ne sont pas correctement implémentés avec un ECID. Vous pouvez collaborer avec les équipes appropriées de votre entreprise pour mettre à jour ces pages le plus rapidement possible. Vous pouvez créer un rapport similaire avec n’importe quel type de dimension, tel que [Type de navigateur](../dimensions/browser-type.md), [Section du site](../dimensions/site-section.md) ou n’importe quelle [eVar](../dimensions/evar.md).

@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 96%
-
+source-wordcount: '777'
+ht-degree: 95%
 ---
-
 # Mesures calculées par défaut
 
 Adobe Analytics fournit diverses mesures calculées pour couvrir les cas d’utilisation les plus courants. Ces mesures calculées sont disponibles par défaut dans Analysis Workspace.
@@ -44,7 +42,7 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 >
 >Vous pouvez effectuer les opérations suivantes :
 >
-> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/fr/docs/media-analytics/using/reporting/calculated-metrics)
+> * Ajouter des mesures calculées par défaut pour les services de médias en streaming, comme décrit dans [Mesures calculées](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
 > * Créez des mesures calculées personnalisées à partir de mesures existantes, comme décrit dans la section [Mesures calculées et mesures calculées avancées](/help/components/calculated-metrics/cm-overview.md).
 >
 
@@ -62,31 +60,31 @@ Voici une liste de chaque mesure calculée fournie par Adobe, avec sa fonction p
 | Utilisateurs et utilisatrices d’application | Nombre total d’utilisateurs et d’utilisatrices d’une application mobile | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
 | Durée de session moyenne (mobile) | Temps moyen passé par les visiteurs et visiteuses sur le site au cours d’une seule session. | Vide |
 | Temps moyen passé sur le site | Temps moyen qu’un visiteur ou une visiteuse passe sur le site avant de le quitter. | `[Average Time Spent on Site (Seconds)]` |
-| Taux de rebond | Rapport entre les visites qui contenaient exactement un accès et le nombre de visites sur cette page. Cette mesure peut vous aider à identifier les éléments de dimension présentant le taux de rebond le plus élevé ou à afficher le taux de rebond total agrégé de votre site au fil du temps. | `[Bounces] / [Entries]` |
-| Ratio de pages robot vues | Rapport entre le nombre de pages robot vues et le nombre total de pages vues. | `[Bot Page Views] / [Page Views]` |
-| Vitesse du contenu | Vitesse à laquelle le nouveau contenu est créé et publié sur le site et la rapidité avec laquelle il génère de l’engagement client. | `[Page Views] / [Visits]` |
+| Taux de rebond | Rapport entre les visites qui contenaient exactement un hit et le nombre de visites sur cette page. Cette mesure peut vous aider à identifier les éléments de dimension présentant le taux de rebond le plus élevé ou à afficher le taux de rebond total agrégé de votre site au fil du temps. | `[Bounces] / [Entries]` |
+| Ratio de pages vues par des robots | Rapport entre le nombre de pages vues par des robots et le nombre total de pages vues. | `[Bot Page Views] / [Page Views]` |
+| Vitesse du contenu | Vitesse à laquelle du nouveau contenu est créé et publié sur le site et rapidité avec laquelle il génère une intercation client. | `[Page Views] / [Visits]` |
 | Taux de conversion | Pourcentage de visiteurs et visiteuses qui ont effectué l’action souhaitée (un achat, par exemple). | `[Orders] / [Visits]` |
 | Taux d’entrée | Pourcentage de visiteurs et visiteuses qui sont entrés sur le site sur une page donnée, par rapport au nombre total de sessions sur le site. | `[Entries] / [Visits]` |
-| Nombre estimé de visiteurs et visiteuses uniques (ITP 2.1) | Pour les visiteurs et visiteuses ITP (utilisateurs et utilisatrices sur les navigateurs Safari), divisez les visiteurs et visiteuses uniques par 2 ou moins. Cette mesure calculée suppose que vous avez défini les cookies à l’aide de code JavaScript côté client (et non à l’aide d’une implémentation CNAME). Les implémentations qui définissent des cookies à l’aide de JavaScript côté client ont été affectées à partir d’ITP 2.1. Voir [&#x200B; Prévention intelligente du suivi &#x200B;](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) pour plus d’informations. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Couverture Experience Cloud ID | Pourcentage de visiteurs et de visiteuses qui disposent d’un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Visiteurs uniques estimés (ITP 2.1) | Pour les visiteurs ITP (utilisateurs de navigateurs Safari), divisez les Visiteurs uniques par 2 ou moins. Cette mesure calculée suppose que vous avez défini des cookies à l’aide de JavaScript côté client (et non à l’aide d’une mise en œuvre CNAME). Les implémentations qui définissent des cookies à l’aide de JavaScript côté client ont été affectées à partir d’ITP 2.1. Voir [ Prévention intelligente du suivi ](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) pour plus d’informations. | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Couverture de l’ID Experience Cloud | Pourcentage de visiteurs et visiteuses qui ont un ECID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Taux de sortie | Pourcentage de visiteurs et visiteuses qui quittent le site après avoir consulté une page particulière. | `[Exits] / [Visits]` |
-| ITP 2.1 Visiteurs et visiteuses uniques/Visiteurs et visiteuses uniques | Pourcentage de visiteurs et visiteuses uniques utilisant un navigateur affecté par les limitations de cookies ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
+| Visiteurs uniques ITP 2.1 / Visiteurs uniques | Pourcentage de visiteurs uniques utilisant un navigateur affecté par les restrictions relatives aux cookies ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Aide à la commande | Nombre de fois qu’un canal ou une source a contribué au parcours d’un client ou d’une cliente vers l’achat, mais n’a pas abouti à l’achat final. | `[Orders (Visit Participation)] - [Orders]` |
 | Commandes/Visites | Pourcentage de visites sur le site qui ont abouti à une transaction. | `[Orders] / [Visits]` |
-| Commandes/Visiteur ou visiteuse | Nombre moyen de commandes ou de transactions générées par chaque visiteur ou visiteuse du site. | `[Orders] / [Unique Visitors]` |
-| Pages vues/Nombre estimé de visiteurs ou de visiteuses uniques (ITP 2.1) | Nombre moyen de pages vues pour le nombre estimé de visiteurs et visiteuses uniques (ITP 2.1). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors (metric) with Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Pages vues/Visiteur ou visiteuse unique | Nombre moyen de pages vues pour chaque visiteur ou visiteuse unique sur le site. | `[Page Views] / [Unique Visitors]` |
-| Pages vues/Visites | Nombre moyen de pages vues par un utilisateur ou une utilisatrice au cours d’une seule visite sur le site. | `[Page Views] / [Visits]` |
+| Commandes/Visiteur ou visiteuse | Nombre moyen de commandes ou de transactions générées par chaque visiteur du site. | `[Orders] / [Unique Visitors]` |
+| Pages vues / Visiteurs uniques estimés (ITP 2.1) | Nombre moyen de pages vues pour les visiteurs uniques estimés (ITP 2.1). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors (metric) with Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
+| Pages vues / Visiteur unique | Nombre moyen de pages vues pour chaque visiteur unique sur le site. | `[Page Views] / [Unique Visitors]` |
+| Pages vues / Visites | Nombre moyen de pages vues par un utilisateur ou une utilisatrice au cours d’une seule visite sur le site. | `[Page Views] / [Visits]` |
 | Vitesse de la page | Nombre de pages vues supplémentaires généré par un élément de contenu. Cette mesure peut vous aider à déterminer quel contenu génère un engagement supplémentaire. | `[Page Views] / [Visits]` |
-| Actualisations/Pages vues | Pourcentage de pages vues ayant entraîné un rechargement ou une actualisation de la page. | `[Reloads] / [Page Views]` |
+| Actualisations/Pages vues | Pourcentage de pages vues ayant donné lieu à un rechargement ou à une actualisation de la page. | `[Reloads] / [Page Views]` |
 | Recettes/Commande | Montant moyen des revenus générés par chaque transaction ou commande effectuée sur le site. | `[Revenue] / [Orders]` |
 | Recettes/Visites | Montant moyen des revenus générés par une seule visite sur le site. | `[Revenue] / [Visits]` |
-| Recettes/Visiteur ou visiteuse | Montant moyen des revenus générés par chaque personne visitant le site. | `[Revenue] / [Unique Visitors]` |
+| Recettes/Visiteur ou visiteuse | Montant moyen des revenus générés par chaque visiteur du site. | `[Revenue] / [Unique Visitors]` |
 | Vues d’état | Nombre de vues des différents états ou écrans de l’application. | `[Mobile App Users] (segment)`<br>`[Page Views] (metric)` |
 | Temps passé/Utilisateur ou utilisatrice (état) | Temps que le visiteur moyen ou la visiteuse moyenne passe dans un état particulier sur le site. | `[Mobile App Users] (segment)`<br>`[Time Spent per Visitor (Seconds)] (metric)` |
-| Visiteurs et visiteuses uniques/Visiteurs et visiteuses uniques qui reviennent après 7 jours | Pourcentage de visiteurs et visiteuses uniques qui reviennent après une période de 7 jours ou plus. | `[Unique Visitors metric with Users returning after 7 days segment] / [Unique Visitors]` |
+| Visiteurs uniques / Visiteurs uniques revenant après 7 jours | Pourcentage de visiteurs uniques qui reviennent après une période de 7 jours ou plus. | `[Unique Visitors metric with Users returning after 7 days segment] / [Unique Visitors]` |
 | Utilisateurs et utilisatrices (mobile) | Nombre total d’utilisateurs et d’utilisatrices d’une application mobile | `[Mobile App Users] (segment)`<br>`[Unique Visitors] (metric)` |
-| Visites/Visiteur ou visiteuse | Nombre moyen de visites qu’un visiteur ou une visiteuse unique effectue sur le site. | `[Visits] / [Unique Visitors]` |
+| Visites/Visiteur ou visiteuse | Nombre moyen de visites qu’un visiteur unique effectue sur le site. | `[Visits] / [Unique Visitors]` |
 | Taux de rebond pondéré | Fonction | `IF([Visits] > PERCENTILE([Visits]), [Bounce Rate], 0)` |
 
 {style="table-layout:auto"}

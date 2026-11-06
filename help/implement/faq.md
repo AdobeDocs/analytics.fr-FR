@@ -40,18 +40,18 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 92%
 ---
 # FAQ sur la mise en œuvre d’Analytics
 
 Questions fréquemment posées sur la mise en œuvre et liens vers d’autres informations.
 
-## Quelle est la différence entre l’identifiant visiteur Experience Cloud et l’identifiant visiteur Analytics ?
+## Quelle est la différence entre l’ECID et l’identifiant visiteur Analytics ? {#what-is-the-difference-between-the-experience-cloud-visitor-id-and-analytics-visitor-id}
 
-Identity Service attribue un identifiant unique et persistant qui peut être partagé entre d’autres solutions dans CX Enterprise. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs d’Experience Cloud dans votre mise en œuvre.
+Identity Service attribue un identifiant unique et persistant qui peut être partagé entre d’autres solutions dans CX Enterprise. L’identifiant visiteur Analytics est utilisé uniquement par Analytics. Adobe recommande d’utiliser le service d’identification des visiteurs dans votre implémentation.
 
 ## Comment mettre en œuvre le suivi vidéo Heartbeat ?
 

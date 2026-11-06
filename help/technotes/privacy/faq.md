@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 86%
 ---
 # FAQ sur la confidentialité dans Adobe Analytics
@@ -87,11 +87,11 @@ Pour plus d’informations sur les étiquettes de gouvernance des données, voir
 
 Généralement, les clients et clientes Analytics configurent des suites de rapports de test pour vérifier ses fonctionnalités avant sa commercialisation. Les sites web ou applications de préproduction envoient des données à ces suites de rapports de test, de développement ou d’assurance qualité afin d’évaluer le fonctionnement du code avant sa mise en production et avant l’envoi du trafic réel aux suites de rapports de production.
 
-Toutefois, avec une configuration normale, le traitement des requêtes en vertu du RGPD ne peut pas être testé sur ces suites de rapports de test avant d’appliquer les requêtes aux suites de rapports de production. En effet, une demande d’accès à des informations personnelles est automatiquement appliquée à toutes les suites de rapports dans l’organisation CX Enterprise, qui correspond souvent à toutes les suites de rapports pour votre société.
+Toutefois, avec une configuration standard, le traitement des demandes en vertu du RGPD ne peut pas être testé sur ces suites de rapports de test avant d’appliquer les demandes aux suites de rapports de production. En effet, une demande d’accès à des informations personnelles est automatiquement appliquée à toutes les suites de rapports dans l’organisation Adobe, qui correspond souvent à toutes les suites de rapports pour votre société.
 
-Néanmoins, il existe certaines façons de tester votre traitement des informations personnelles avant de l’appliquer à toutes vos suites de rapports :
+Il existe toutefois plusieurs façons de tester le traitement de la confidentialité des données avant de l’appliquer à toutes vos suites de rapports :
 
-* Une option consiste à configurer une organisation CX Enterprise distincte qui ne contient que des suites de rapports de test. Ensuite, utilisez cette organisation CX Enterprise pour vos tests de confidentialité des données et votre organisation CX Enterprise habituelle pour le traitement réel de la confidentialité des données.
+* Une option consiste à configurer une organisation distincte qui ne contient que des suites de rapports de test. Utilisez ensuite cette organisation pour vos tests relatifs à la Confidentialité des données et votre organisation normale pour le traitement réel de la Confidentialité des données.
 
 * Une autre option consiste à attribuer des espaces de noms différents aux ID dans vos suites de rapports de test par rapport à ceux qui figurent dans vos suites de rapports de production. Par exemple, vous pouvez ajouter le préfixe « qa- » à chaque espace de noms dans vos suites de rapports de test. Lorsque vous soumettez vos demandes relatives à la Confidentialité des données avec uniquement des espaces de noms comportant le préfixe qa, ces demandes ne sont exécutées que par rapport à vos suites de rapports de test. Ensuite, lorsque vous soumettez vos demandes sans le préfixe qa, elles seront appliquées à vos suites de rapports de production. **Il s’agit de l’approche recommandée, sauf si vous utilisez les espaces de noms `visitorId`, AAID, ECID ou `customVisitorId`. Ces espaces de noms sont codés en dur et vous ne pouvez pas spécifier d’autres noms dans vos suites de rapports de test.**
 

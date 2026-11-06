@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Considérations relatives à la migration du service d’identification des visiteurs pour Adobe Analytics
 
 Si votre entreprise prévoit de passer au service d’identification des visiteurs avec une implémentation Analytics existante, certains sujets importants doivent être pris en compte. Ces considérations vous permettent de conserver l’intégrité de l’identification des visiteurs et de comprendre comment le service d’identification des visiteurs fonctionne en présence d’une implémentation Analytics existante.
 
 >[!TIP]
 >
->Cette page s’applique uniquement aux implémentations d’extension AppMeasurement ou Analytics existantes et ajoute le service d’identification des visiteurs ou effectue une mise à niveau vers une implémentation de Web SDK. En d’autres termes, votre implémentation utilise un Analytics ID hérité (`aid`) et se dirige vers l’utilisation d’un ECID (`mid`). Toutes les implémentations de Web SDK utilisent [Experience Platform Identity Service](https://experienceleague.adobe.com/fr/docs/experience-platform/identity/home), qui utilise par défaut un ECID (`mid`).
+>Cette page s’applique uniquement aux implémentations d’extension AppMeasurement ou Analytics existantes et ajoute le service d’identification des visiteurs ou effectue une mise à niveau vers une implémentation de Web SDK. En d’autres termes, votre implémentation utilise un Analytics ID hérité (`aid`) et se dirige vers l’utilisation d’un ECID (`mid`). Toutes les implémentations de Web SDK utilisent l’[identité Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview), qui utilise par défaut un ECID (`mid`).
 
 ## Interface du service d’identification des visiteurs avec les cookies des visiteurs Analytics hérités
 
@@ -51,14 +49,14 @@ AppMeasurement ayant sa propre méthode héritée pour identifier les visiteurs,
 
 Si plusieurs implémentations envoient des données à la même suite de rapports et que vous ne pouvez mettre en œuvre le service d’identification des visiteurs que sur certaines implémentations, Adobe recommande de configurer un délai de grâce. Par exemple, si la section d’assistance de votre site est gérée par une solution de balisage distincte, il se peut que le service d’identification des visiteurs soit déployé sur le reste de votre site avant la section d’assistance. Sans période de grâce, les nouveaux visiteurs qui consultent la section d’assistance reçoivent un identifiant visiteur Analytics hérité, ce qui entraîne le comptage de deux visiteurs distincts. Avec une période de grâce, le service d’identification des visiteurs émet à la fois un ECID (`mid`) et un identifiant visiteur Analytics hérité (`aid`) afin que les zones de votre site sans le service d’identification des visiteurs restent cohérentes en identifiant les visiteurs.
 
-Si vous coordonnez le déploiement du service d’identification des visiteurs dans toutes les zones de votre site, vous n’avez pas besoin de période de grâce. Pour configurer une période de grâce, contactez l’[Assistance clientèle &#x200B;](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html). Les périodes de grâce peuvent être configurées pour une durée maximale de 180 jours et peuvent être renouvelées. Adobe recommande d’interrompre la période de grâce une fois que l’ensemble de votre propriété est configurée pour utiliser le service d’identification des visiteurs.
+Si vous coordonnez le déploiement du service d’identification des visiteurs dans toutes les zones de votre site, vous n’avez pas besoin de période de grâce. Pour configurer une période de grâce, contactez l’[Assistance clientèle ](https://helpx.adobe.com/fr/marketing-cloud/contact-support.html). Les périodes de grâce peuvent être configurées pour une durée maximale de 180 jours et peuvent être renouvelées. Adobe recommande d’interrompre la période de grâce une fois que l’ensemble de votre propriété est configurée pour utiliser le service d’identification des visiteurs.
 
 ## Suivi inter-domaines
 
 Certaines implémentations d’identifiant visiteur Analytics héritées peuvent utiliser des « cookies tiers conviviaux », où deux domaines partagent le même cookie visiteur sur un domaine commun tel que `data.example.com`. Comme les cookies tiers conviviaux sont toujours des cookies tiers, de nombreux navigateurs modernes les rejettent, ce qui fait qu’Analytics s’appuie sur un identifiant de secours (`fid`) pour l’identification des visiteurs. Le passage au service d’identification des visiteurs permet à tous les domaines de définir le cookie `AMCV` dans un contexte propriétaire, ce qui augmente leur viabilité pour conserver un identifiant visiteur.
 
-Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/intro/cookies)), il est souvent rejeté par les navigateurs modernes. `demdex`Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre l’ECID (`mid`) d’un visiteur entre les domaines que vous possédez.
+Bien que le service d’identification des visiteurs tente de définir un cookie tiers pour le suivi inter-domaines (le cookie ](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), il est souvent rejeté par les navigateurs modernes. [`demdex`Envisagez d’utiliser la méthode [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) pour transmettre l’ECID (`mid`) d’un visiteur entre les domaines que vous possédez.
 
 ## Tracking côté serveur
 
-Vous pouvez appeler [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/getmcvid) pour obtenir l’ECID (`mid`) et [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/fr/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) pour obtenir l’Analytics ID hérité (`aid`). Adobe recommande de vérifier les deux pour conserver la logique d’identification des visiteurs.
+Vous pouvez appeler [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) pour obtenir l’ECID (`mid`) et [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) pour obtenir l’Analytics ID hérité (`aid`). Adobe recommande de vérifier les deux pour conserver la logique d’identification des visiteurs.

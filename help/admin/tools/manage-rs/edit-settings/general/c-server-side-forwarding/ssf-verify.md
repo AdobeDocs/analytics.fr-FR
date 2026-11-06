@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '247'
+ht-degree: 70%
 ---
 # Comment vérifier la mise en œuvre du transfert côté serveur
 
@@ -50,7 +50,7 @@ Pour vérifier le statut du transfert côté serveur :
 
 >[!CAUTION]
 >
->Si la réponse contient la paire valeur/clé `"status":"SUCCESS"` ou une image 2 x 2, le transfert côté serveur * n’est pas* configuré correctement. Assurez-vous que le Service d’identités est correctement déployé, que vous avez déployé le module App Measurement, que la suite de rapports applicable a été mappée à l’ID dʼorganisation appropriée et que le transfert côté serveur a été activé dans les outils d’administration Analytics.
+>Si la réponse contient la paire valeur/clé `"status":"SUCCESS"` ou une image 2 x 2, le transfert côté serveur * n’est pas* configuré correctement. Assurez-vous que le service d’identification des visiteurs est correctement déployé, que vous avez déployé le module de mesure des applications, que la suite de rapports applicable a été mappée sur l’ID d’organisation correct et que le transfert côté serveur a été activé dans les outils d’administration Analytics.
 
 >[!MORELIKETHIS]
 >

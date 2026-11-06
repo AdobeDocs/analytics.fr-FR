@@ -20,13 +20,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 185
+source-wordcount: '185'
 ht-degree: 60%
-
 ---
-
 # Désactiver les comptes hérités
 
 Découvrez comment désactiver les comptes hérités pour les utilisateurs d’Analytics.
@@ -35,13 +33,13 @@ Une fois que vos utilisateurs ont migré de l’ancien système de gestion des u
 
 1. Ouvrez l’outil de migration dans **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Migration de l’ID utilisateur]**.
 1. Dans la section [!DNL User Information], localisez le domaine contenant les utilisateurs que vous souhaitez utiliser, puis cliquez sur **[!UICONTROL Sélectionner les utilisateurs]**.
-1. Sélectionnez les utilisateurs pour lesquels vous souhaitez désactiver les comptes hérités.
+1. Sélectionnez les utilisateurs ou utilisatrices dont vous souhaitez désactiver les connexions héritées.
 
    ![](/help/admin/tools/user-management/user-migration/assets/user-info.png)
 
-   Les utilisateurs éligibles auront l’état *`Migrated`* sous la colonne État de migration. Vous ne pouvez pas désactiver le compte hérité d’un utilisateur tant qu’il n’a pas été migré.
+   Les utilisateurs éligibles auront l’état *`Migrated`* sous la colonne État de migration. Vous ne pouvez pas désactiver la connexion héritée d’un utilisateur ou d’une utilisatrice tant qu’il ou elle n’a pas été migré(e).
 1. Cliquez sur **[!UICONTROL Désactiver le compte hérité]**, puis sur **[!UICONTROL Terminé]**.
 
    Désactiver le compte hérité indique lequel de vos utilisateurs peut continuer à utiliser ses nom d’utilisateur et mot de passe [!DNL my.omniture.com] hérités.
 
-   Vous ne pouvez pas désactiver les comptes hérités d’un utilisateur qui doit encore être migré. Une fois désactivé, l’utilisateur doit utiliser son Experience Cloud ID pour se connecter et accéder à Analytics.
+   Vous ne pouvez pas désactiver les connexions héritées d’un utilisateur ou d’une utilisatrice qui doit encore être migré(e). Une fois désactivé, l’utilisateur doit utiliser ses informations d’identification CX Enterprise pour se connecter et accéder à Analytics.
