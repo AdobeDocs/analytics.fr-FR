@@ -20,17 +20,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 64%
+source-wordcount: '445'
+ht-degree: 58%
 ---
 # Bonnes pratiques en matière dʼattribution
 
 Le choix du modèle dʼattribution approprié pour votre organisation dépend de plusieurs critères. Cet article explore une méthodologie ainsi que quelques bonnes pratiques générales :
 
 * [Analyse exploratoire](#exploratory-analysis)
-* [Attributions basées sur des règles](#rule-base-attribution)
+* [Attribution basée sur des règles](#rule-based-attribution)
 * [Utiliser l’attribution algorithmique](#use-algorithmic-attribution)
 
 ## Analyse exploratoire
@@ -44,11 +44,11 @@ Cette phase consiste dʼabord à comprendre le comportement client et à défini
 * La proportion ou répartition de ces comportements.
 
 Par exemple, si 50 % des clients empruntent 3 canaux avant la conversion, y a-t-il une interaction entre ces 3 canaux ?
-Vous pouvez ensuite effectuer une analyse du haut et du bas du funnel pour approfondir votre compréhension.
+Pour mieux comprendre, effectuez une analyse des funnel supérieures et inférieures.
 
 ### Analyse de lʼentonnoir supérieur
 
-Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est d’accroître la notoriété de la marque. Vous pouvez utiliser le modèle d’attribution [&#x200B; Décroissance temporelle &#x200B;](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
+Les analyses en entonnoir supérieur étudient les canaux utilisés pour faire connaître la marque ou le produit. Par exemple, lʼobjectif de la plupart des publicités télévisées est d’accroître la notoriété de la marque. Utilisez le modèle d’attribution [&#x200B; Décroissance temporelle &#x200B;](/help/analyze/analysis-workspace/attribution/models.md), car les gens finiront par oublier votre publicité TV au fil du temps.
 
 ### Analyse de lʼentonnoir inférieur
 
@@ -62,15 +62,19 @@ Cette étape a pour but de valider vos hypothèses.
 
 Supposons que votre hypothèse soit la suivante : « *Mon canal Première touche a plus d’impact sur la conversion que mon canal Dernière touche.* »
 
-Dans ce cas, vous utiliserez alors le [modèle d’attribution en forme de J inversé](/help/analyze/analysis-workspace/attribution/models.md) pour tester cette hypothèse. Ce modèle accorde 60 % du crédit au premier point de contact.
+Dans ce cas, utilisez le [modèle d’attribution en forme de J inversé](/help/analyze/analysis-workspace/attribution/models.md) pour tester cette hypothèse. Ce modèle accorde 60 % du crédit au premier point de contact.
 
 **Exemple 2**
 
-Supposons que votre hypothèse soit la suivante : *« Dans un secteur spécifique (comme l’industrie du voyage), la fenêtre d’attribution est de 60 ou 90 jours, et non de 30 jours, car les clients font beaucoup de recherches avant d’acheter un produit* ».
+Supposons que votre hypothèse soit la suivante : *« Dans le secteur du voyage, la fenêtre d’attribution est de 60 ou 90 jours, et non de 30, car les clients font beaucoup de recherches avant d’acheter »*
 
-Dans ce cas, vous pouvez modifier votre [intervalle de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md) à 90 jours.
+Dans ce cas, remplacez votre [intervalle de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md) par 90 jours.
 
 ## Utiliser l’attribution algorithmique
+
+>[!NOTE]
+>
+>Vous devez disposer du package **&#x200B;**&#x200B;pour utiliser l’attribution algorithmique. Contactez votre administrateur si vous ne savez pas quel package Adobe Analytics vous avez.
 
 Si vous ne disposez pas encore d’un modèle d’attribution qui fournit des réponses satisfaisantes à toutes vos questions, vous pouvez utiliser l’[attribution algorithmique](/help/analyze/analysis-workspace/attribution/algorithmic.md). Comme il est très difficile de valider un grand nombre d’hypothèses et de combinaisons possibles, l’attribution algorithmique utilise des algorithmes intégrés pour répartir le crédit entre les éléments de dimension.
 
