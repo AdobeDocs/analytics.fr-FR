@@ -28,7 +28,7 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->Vous devez disposer du package **** pour utiliser la fonctionnalité décrite dans cette section. Contactez votre administrateur si vous ne savez pas quel package Adobe Analytics vous avez.
+>Vous devez disposer du package **&#x200B;**&#x200B;pour utiliser la fonctionnalité décrite dans cette section. Contactez votre administrateur si vous ne savez pas quel package Adobe Analytics vous avez.
 
 Le [modèle d’attribution](models.md) algorithmique dans Analysis Workspace diffère des autres modèles dans la mesure où il utilise des techniques statistiques pour répartir le crédit entre les éléments de dimension dans votre rapport ou tableau à structure libre. Comme tous les autres modèles d’attribution d’Analysis Workspace, l’attribution algorithmique peut être utilisée sur n’importe quelle dimension ou mesure. L’attribution algorithmique prend en charge une segmentation et des répartitions illimitées et distribue 100 % des conversions à une ou plusieurs dimensions du tableau (également appelée attribution « partielle »).
 
