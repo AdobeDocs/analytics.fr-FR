@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 73%
+source-wordcount: '2120'
+ht-degree: 72%
 ---
 # Créer des segments
 
@@ -68,7 +68,7 @@ La boîte de dialogue du **[!UICONTROL Créateur de segments]** permet de créer
    | **[!UICONTROL Suite de rapports]** | Vous pouvez sélectionner la suite de rapports du segment. |
    | **[!UICONTROL Segment de projet uniquement]** | Zone d’informations expliquant que le segment n’est visible que dans le projet dans lequel il est créé. Et que le segment n’est pas ajouté à votre liste de composants. Activez **[!UICONTROL Rendre ce segment disponible pour tous vos projets et l’ajouter à votre liste de composants]** pour modifier ce paramètre. Cette zone d’informations n’est visible que lorsque vous créez un [segment rapide](seg-quick.md) et transformez le segment rapide en segment standard à l’aide de l’option **[!UICONTROL Ouvrir le créateur]** dans l’interface [!UICONTROL Segment rapide]. |
    | **[!UICONTROL Titre]** ![Requis](/help/assets/icons/Required.svg) | Nommez le segment, par exemple `Last month mobile visitors`. |
-   | **[!UICONTROL Description]** | <p>Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`.</p><p>Pour qu’Adobe génère une description pour vous, sélectionnez **[!UICONTROL Générer la description]**. Cette option n’est pas disponible tant que vous n’avez pas créé la définition de segment.</p><p>Les descriptions générées incluent le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]** et vous pouvez les modifier une fois qu’elles ont été générées. Pour plus d’informations, voir [&#x200B; Générer automatiquement des descriptions &#x200B;](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
+   | **[!UICONTROL Description]** | <p>Fournissez une description du segment, par exemple `Segment to define the mobile customers for the last month`.</p><p>Pour qu’Adobe génère une description pour vous, sélectionnez **[!UICONTROL Générer la description]**. Cette option n’est pas disponible tant que vous n’avez pas créé la définition de segment.</p><p>Les descriptions générées incluent le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]** et vous pouvez les modifier une fois qu’elles ont été générées. Pour plus d’informations, voir [ Générer automatiquement des descriptions ](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
    | **[!UICONTROL Balises]** | Organisez le segment en créant ou en appliquant une ou plusieurs balises. Commencez à saisir une expression pour rechercher les balises existantes que vous pouvez sélectionner. Ou appuyez sur **[!UICONTROL ENTRÉE]** pour ajouter une nouvelle balise. Sélectionnez ![CrossSize75](/help/assets/icons/CrossSize75.svg) pour supprimer une étiquette. |
    | **[!UICONTROL Définition]** ![Obligatoire](/help/assets/icons/Required.svg) | Définissez votre segment à l’aide du [créateur de définitions](#definition-builder). |
 
@@ -94,6 +94,10 @@ Vous pouvez configurer le type et la portée de votre définition :
 
 Vous pourrez toujours modifier ces paramètres ultérieurement.
 
+>[!NOTE]
+>
+>L’interface du créateur de segments ne prend pas en charge toutes les définitions de segment créées via l’[API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment). Le chargement de cette page peut échouer ou générer des erreurs pour ces segments.
+
 ### Composants
 
 Une partie essentielle de la création de votre définition de segment consiste à utiliser des dimensions, des mesures, des segments existants et des périodes. Tous ces composants sont disponibles à partir du panneau des composants dans le créateur de segments.
@@ -104,7 +108,7 @@ Pour ajouter un composant :
 
 1. Faites glisser et déposez un composant du panneau Composants sur **[!UICONTROL Faire glisser et déposer ici les mesures, les segments et/ou les dimensions]**.
    * Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) dans la barre des composants pour rechercher des composants spécifiques.
-   * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, &#x200B;](/help/assets/icons/Segmentation.svg)Calendar **&#x200B;**&#x200B;DateRange![&#x200B; et &#x200B;](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![&#x200B; &#x200B;](/help/assets/icons/Layer.svg) **&#x200B;**. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
+   * Vous pouvez utiliser ![Filtre](/help/assets/icons/Filter.svg) dans la barre de composants pour filtrer les composants ![Coche](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approuvé]**, ![Étoile](/help/assets/icons/Star.svg) **[!UICONTROL Favoris]**, ![DataDimension](/help/assets/icons2/DataDimension.svg)Dimensions **[!UICONTROL ,]** Event![Metrics](/help/assets/icons/Event.svg), **[!UICONTROL Segmentation]** Segments![, ](/help/assets/icons/Segmentation.svg)Calendar **** DateRange![ et ](/help/assets/icons/Calendar.svg)Layer **[!UICONTROL Products]** ![ ](/help/assets/icons/Layer.svg) ****. Vous pouvez également filtrer selon les balises ![Libellé](/help/assets/icons/Label.svg).
 1. Spécifiez les détails du composant. Par exemple, sélectionnez une valeur dans **[!UICONTROL Sélectionner la valeur]**. Ou saisissez une valeur. Le contenu et la manière dont vous pouvez spécifier une ou plusieurs valeurs dépendent du composant et de l’opérateur.
 
 1. (Facultatif) Activez l’option pour [!UICONTROL **Limiter les résultats à la période du rapport**].
@@ -115,7 +119,6 @@ Pour ajouter un composant :
 
    Cette option s’affiche uniquement lorsque [!UICONTROL **Personne**] est sélectionné comme portée (conteneur) de votre définition dans le menu déroulant **[!UICONTROL Inclure]** ou **[!UICONTROL Exclure]**.
 
-   **REMARQUE** : cette fonctionnalité est en phase de test limité de la publication et peut ne pas encore être disponible dans votre environnement. Cette note sera supprimée lorsque la fonctionnalité sera disponible. Pour plus d’informations sur le processus de publication de Customer Journey Analytics, consultez [Versions des fonctionnalités Adobe Analytics](/help/release-notes/releases.md).
 
 1. (Facultatif) Modifiez l’opérateur par défaut. Par exemple, de **[!UICONTROL égal]** à **[!UICONTROL égal à n’importe lequel]**. Consultez [Opérateurs](../seg-reference/seg-operators.md) pour une présentation détaillée des opérateurs disponibles.
 
@@ -140,7 +143,7 @@ Vous pouvez regrouper plusieurs composants dans un ou plusieurs conteneurs et d�
 * Pour ajouter un autre composant au conteneur, faites glisser un composant du panneau des composants et déposez-le dans le conteneur. Utilisez la ligne d’insertion bleue comme guide.
 * Pour ajouter un autre composant à l’extérieur du conteneur, faites glisser un composant depuis le panneau des composants à l’extérieur du conteneur, mais à l’intérieur du conteneur de définition principal. Utilisez la ligne d’insertion bleue comme guide.
 * Pour modifier la logique des composants, des conteneurs ou de leurs combinaisons, sélectionnez les **[!UICONTROL Et]**, **[!UICONTROL Ou]**, **[!UICONTROL Alors]** appropriés. Lorsque vous sélectionnez **[!UICONTROL Alors]**, vous transformez le segment en segment séquentiel. Consultez [Créer un segment séquentiel](seg-sequential-build.md) pour plus d’informations.
-* Pour changer le niveau du conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]**, ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]**, ![Utilisateur](/help/assets/icons/User.svg)**[!UICONTROL Visitors]** ou ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)Products **&#x200B;**.
+* Pour changer le niveau du conteneur, sélectionnez ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Accès]**, ![Visite](/help/assets/icons/Visit.svg) **[!UICONTROL Visites]**, ![Utilisateur](/help/assets/icons/User.svg)**[!UICONTROL Visitors]** ou ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)Products ****.
 
 Vous pouvez utiliser ![Paramètre](/help/assets/icons/Setting.svg) dans un conteneur pour les actions suivantes :
 
@@ -165,7 +168,7 @@ Vous pouvez créer des segments qui contiennent des périodes dynamiques. Vous p
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans les segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Périodes flottantes dans les segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -288,7 +291,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to CX Enterprise. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to CX Enterprise. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -349,7 +352,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
