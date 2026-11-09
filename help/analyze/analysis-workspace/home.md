@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Vue d’ensemble d’Analysis Workspace {#analysis-workspace-overview}
 
@@ -54,7 +54,7 @@ Analysis Workspace vous permet de créer rapidement des analyses pour recueilli
 
 >[!BEGINSHADEBOX]
 
-Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble d’Analysis Workspace](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
+Voir la vidéo de démonstration ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Vue d’ensemble d’Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Les principales fonctionnalités d’Analysis Workspace sont disponibles via le 
 
 ## Menu
 
-La plupart des fonctionnalités d’Analysis Workspace sont disponibles par glisser-déposer et par le biais des menus contextuels dans les panneaux, les visualisations et les composants.
+La plupart des fonctionnalités d’Analysis Workspace sont disponibles par glisser-déposer, et par le biais de menus contextuels dans les panneaux, les visualisations et les composants.
 
 Les fonctionnalités sont également disponibles par le biais du menu Workspace et des raccourcis clavier. Les raccourcis clavier varient en fonction du système d’exploitation sur lequel votre navigateur s’exécute. Consultez les tableaux ci-dessous pour une vue d’ensemble.
 
@@ -173,7 +173,7 @@ Synchronisez les visualisations pour contrôler quelle table de données ou quel
 
 Pour commencer à utiliser Analysis Workspace :
 
-1. Connectez-vous à [&#128279;](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
+1. Connectez-vous à [](https://experience.adobe.com) à l’aide de vos informations d’identification Adobe ID.
 1. Sélectionnez **[!UICONTROL Customer Journey Analytics]** dans le sélecteur d’applications ![App](/help/assets/icons/Apps.svg) en haut à droite de l’interface.
 1. La page **[!UICONTROL Projets]** d’Analysis Workspace s’affiche par défaut. Si un projet spécifique a été sélectionné pour vous ou si vous avez récemment travaillé sur un projet, ce projet s’affiche par défaut.
 
@@ -194,4 +194,4 @@ Une fois que vous avez terminé de créer le projet et que celui-ci collecte des
 ## Ressources supplémentaires {#resources}
 
 - Adobe propose des centaines de [tutoriels de formation vidéo Analytics](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/overview).
-- Voir les [notes de mise à jour de &#x200B;](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current) pour obtenir des mises à jour sur les nouvelles fonctionnalités.
+- Voir les [notes de mise à jour de ](https://experienceleague.adobe.com/fr/docs/release-notes/experience-cloud/current) pour obtenir des mises à jour sur les nouvelles fonctionnalités.

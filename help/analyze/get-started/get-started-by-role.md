@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # Prise en main destinée aux administrateurs et administratrices, analystes, utilisateurs et utilisatrices finaux et développeurs et développeuses
 
 Toute organisation possède en général les quatre types d’utilisateurs et d’utilisatrices d’Adobe Analytics suivants :
@@ -122,8 +120,8 @@ Pour plus d’informations sur les méthodes disponibles, consultez la section [
 
 | | Méthodes de mise en œuvre |
 |---------|---------|
-| **Sites web** | <ul><li>Extension SDK Web (recommandé)</li><li>SDK Web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
-| **Applications mobiles** | <ul><li>Extension SDK Mobile (recommandé)</li><li>Extension Analytics</li></ul> |
+| **Sites web** | <ul><li>Extension SDK web (recommandée)</li><li>SDK Web</li><li>Extension Analytics</li><li>Code JavaScript hérité</li></ul> |
+| **Applications mobiles** | <ul><li>Extension SDK mobile (recommandée)</li><li>Extension Analytics</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -134,15 +132,15 @@ Les administrateurs et administratrices d’Analytics doivent effectuer les tâc
 | Tâche | Utilisation prévue | Informations supplémentaires |
 |---------|----------|---------|
 | Définir les rôles d’administration | Adobe Analytics prend en charge différents types d’administrateurs et d’administratrices | [Rôles d’administrateur ou d’administratrice dans Adobe Analytics](/help/admin/admin-console/admin-roles-in-analytics.md) |
-| Définir les autorisations | Les administrateurs et administratrices d’Analytics doivent affecter des profils de produit dans l’Admin Console pour Adobe Analytics, les outils de suites de rapports et les outils Analytics. | [Autorisations Analytics dans l’Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) |
+| Définir les autorisations | Les personnes chargées de l’administration d’Analytics doivent attribuer des profils de produit dans Admin Console pour Adobe Analytics, les outils de suites de rapports et les outils Analytics. | [Autorisations Analytics dans l’Admin Console](/help/admin/admin-console/permissions/analytics-tools.md) |
 | Configurer des suites de rapports et définir des paramètres pour votre entreprise | Une suite de rapports est un ensemble de données utilisé par Adobe Analytics pour générer des rapports.<p>Les administrateurs et les administratrices peuvent également configurer des [suites de rapports virtuelles](/help/components/vrs/vrs-about.md) pour segmenter davantage les données.</p> | <ul><li>[Création d’une suite de rapports](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[Vue d’ensemble des paramètres d’entreprise](/help/admin/tools/company/c-company-settings.md)</li></ul> |
 | Importer des données | Les sources de données Adobe Analytics permettent d’importer des données en ligne et hors ligne supplémentaires pour la création de rapports. | [Vue d’ensemble des sources de données](/help/import/data-sources/overview.md) |
 | Classer les données avec des classifications | Les classifications vous permettent de classer les données afin de tirer pleinement parti des variables et d’inclure plus de contenu dans une seule variable. | [Présentation des classifications](/help/components/classifications/classifications-overview.md) |
-| Gérer les composants | Utilisez le dictionnaire de données et les zones de gestion de chaque type de composant pour définir les composants disponibles dans votre mise en œuvre d’Analytics, ainsi que ceux qui sont approuvés pour votre organisation.<p>Effectuez un suivi régulier afin de vous assurer que les composants sont utilisés à bon escient au sein de votre organisation. </p> | <ul><li>[Vue d’ensemble du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestionnaire de mesures calculées](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gérer les segments](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
+| Gérer les composants | Utilisez le dictionnaire de données et les zones de gestion de chaque type de composant pour définir les composants disponibles dans votre mise en œuvre d’Analytics, ainsi que ceux qui sont approuvés pour votre organisation.<p>Cette activité doit être menée en continu afin de garantir une utilisation efficace des composants au sein de votre organisation. </p> | <ul><li>[Vue d’ensemble du dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestionnaire de mesures calculées](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gérer les segments](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Création de périodes personnalisées](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Détection des anomalies | La détection des anomalies met à votre disposition une méthode statistique pour déterminer la modification d’une mesure donnée par rapport à des données antérieures. | [Vue d’ensemble de la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Analyse des contributions | L’analyse des contributions détecte les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de certaines mesures à l’échelle des segments d’audience convergents. | [Vue d’ensemble de l’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Segmentation Analytics | Permet de créer, de gérer, de partager et d’appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités Analytics, d’Adobe CX Enterprise, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
-| Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion des données qui permet de créer des profils d’audience uniques à partir d’intégrations de données de première partie, de seconde partie (partenaire) et de tierce partie. | [Présentation d’Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
+| Analyse des contributions | L’analyse de contribution permet de découvrir des tendances cachées dans vos données afin d’expliquer les anomalies statistiques et d’identifier les corrélations à l’origine d’actions inattendues des clients, de valeurs hors limites et de pics ou de baisses soudains des mesures sélectionnées dans des segments d’audience convergents. | [Vue d’ensemble de l’analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
+| Segmentation Analytics | Permet de créer, de gérer, de partager et d’appliquer des segments d’audience puissants et ciblés à vos rapports à l’aide des fonctionnalités Analytics, de Adobe CX Enterprise, d’Adobe Target et d’autres produits Adobe intégrés. | [Segmentation Analytics](/help/components/segmentation/seg-home.md) |
+| Publier des audiences sur Audience Manager | Adobe Audience Manager est une puissante plateforme de gestion des données qui permet de créer des profils d’audience uniques à partir d’intégrations de données propriétaires, secondaires (partenaires) et tierces. | [Présentation d’Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Intégrations | Vous pouvez afficher des informations provenant d’autres applications dans Adobe Analytics. <p>Voici quelques intégrations courantes :</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/fr/docs/media-analytics/using/media-overview">Services de streaming multimédia</a></li> | [Intégration d’Analytics](/help/integrate/home.md) |
 
 {style="table-layout:auto"}
@@ -156,26 +154,26 @@ Les administrateurs et les administratrices d’Analytics disposent des fonction
 | Tâche | Utilisation prévue | Informations supplémentaires |
 |---------|----------|---------|
 | Gestionnaire des activités de rapport | Le gestionnaire des activités de rapport vous permet d’afficher la capacité de création de rapports pour chaque suite de rapports de votre organisation. Il vous offre une visibilité détaillée sur la consommation de rapports et vous permet de diagnostiquer et de résoudre facilement les problèmes de capacité pendant les heures de pointe de la création de rapports. | [Gestionnaire des activités de rapport](/help/admin/tools/reporting-activity-manager/reporting-activity.md) |
-| Utilisation de l’appel au serveur | Un appel au serveur, nommé également « Accès » ou « Demande d’image », est une instance dans laquelle des données sont envoyées vers les serveurs Adobe pour traitement. Le tableau de bord Utilisation de l’appel au serveur est disponible pour suivre les données relatives à votre consommation d’appels au serveur et les comparer avec votre limite contractuelle. Vous pouvez configurer des alertes pour éviter les dépassements. | [Vue d’ensemble de l’utilisation de l’appel au serveur](/help/admin/tools/server-call-usage/overage-overview.md) |
+| Utilisation de l’appel au serveur | Un appel au serveur, également appelé « hit » ou « demande d’image », correspond à une instance au cours de laquelle des données sont envoyées aux serveurs Adobe à des fins de traitement. Le tableau de bord Utilisation de l’appel au serveur est disponible pour suivre les données relatives à votre consommation d’appels au serveur et les comparer avec votre limite contractuelle. Vous pouvez configurer des alertes pour éviter les dépassements. | [Vue d’ensemble de l’utilisation de l’appel au serveur](/help/admin/tools/server-call-usage/overage-overview.md) |
 | Fichiers journaux | Fichiers journaux permettant de savoir quand se connectent les utilisateurs et les utilisatrices, leur utilisation, l’accès, les suites de rapports et les changements d’administration. | [Journaux](/help/admin/tools/logs.md) |
 
 {style="table-layout:auto"}
 
 ## Prise en main pour les analystes
 
-Même si Adobe Analytics permet à toutes les personnes membres d’une organisation d’obtenir des informations exploitables sur le comportement de la clientèle sur les différents sites web et applications, Adobe Analytics est avant tout destiné aux analystes de données.
+Même si Adobe Analytics permet à tous les membres d’une organisation d’obtenir des informations exploitables sur le comportement client sur les sites web et dans les applications, Adobe Analytics est conçu avant tout pour les analystes de données.
 
 Vous trouverez ci-dessous les principales tâches et fonctionnalités conçues pour permettre aux analystes de tirer pleinement parti d’Adobe Analytics et d’Analysis Workspace.
 
 | Fonctionnalité | Utilisation prévue | Informations supplémentaires |
 |---------|----------|---------|
 | Créer et partager des projets dans Analysis Workspace | Analysis Workspace est un outil de navigation flexible qui vous permet de créer rapidement des analyses et de partager des informations. L’interface par glisser-déposer vous permet de concevoir votre analyse, d’ajouter des visualisations pour donner vie aux données, de traiter un jeu de données, de partager et de planifier des projets avec toute personne de votre organisation.<p>Les analystes de données sont des personnes souvent chargées de créer des projets dans Analysis Workspace pour les utilisateurs et les utilisatrices de leur organisation.</p><p>Une fois les projets créés, les analystes partagent ces projets avec les [utilisateurs et utilisatrices finaux](#end-users) (qui ne sont pas des analystes) de leur organisation qui ont sollicité les données et participent à leur compréhension et interprétation.</p> | <ul><li>[Création de projets](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)</li><li>[Partage de projets](/help/analyze/analysis-workspace/curate-share/share-projects.md)</li></ul> |
-| Attribution | Les analystes peuvent personnaliser la manière dont les éléments de dimension reçoivent du crédit pour les événements de succès en utilisant divers modèles d’attribution et intervalles de recherche en amont dans Analysis Workspace.<p>Les modèles d’attribution linéaire accordent le même crédit à chaque point de contact menant à une conversion, tandis que Première touche accorde un crédit complet au premier point de contact. De nombreux autres modèles d’attribution sont disponibles, y compris le modèle algorithmique, qui utilise des techniques statistiques pour déterminer de manière dynamique la distribution optimale du crédit. </p> | [Modèles d’attribution et fenêtres de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md) |
+| Attribution | Les analystes peuvent personnaliser la manière dont les éléments de dimension reçoivent du crédit pour les événements de succès en utilisant divers modèles d’attribution et intervalles de recherche en amont dans Analysis Workspace.<p>Les modèles d’attribution linéaire accordent le même crédit à chaque point de contact menant à une conversion, tandis que Première touche accorde un crédit complet au premier point de contact. De nombreux autres modèles d’attribution sont disponibles, y compris le modèle algorithmique, qui utilise des techniques statistiques pour déterminer de manière dynamique la répartition optimale du crédit. </p> | [Modèles d’attribution et fenêtres de recherche en amont](/help/analyze/analysis-workspace/attribution/models.md) |
 | Détection des anomalies | Dans Analysis Workspace, la modélisation statistique détecte automatiquement des tendances inattendues dans vos données en analysant les mesures et en établissant des plages de valeurs inférieure, supérieure et attendue. En cas de pic ou de creux inattendu, le système vous en avertit par le biais du rapport. | [Vue d’ensemble de la détection des anomalies](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
-| Analyse des contributions | Analysis Workspace permet de détecter les comportements latents au sein de vos données qui expliquent les anomalies statistiques et identifie les corrélations sous-jacentes aux actions inattendues des clientes et des clients, aux valeurs hors limites et aux pics et creux soudains de mesures à l’échelle des segments d’audience. | [Analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) dans [Détection des anomalies - Vue d’ensemble](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
+| Analyse des contributions | Utilisez Analysis Workspace pour découvrir des tendances cachées dans vos données afin d’expliquer les anomalies statistiques et d’identifier les corrélations à l’origine d’actions inattendues des clients, de valeurs hors limites et de pics ou de baisses soudains des mesures dans les différents segments d’audience. | [Analyse des contributions](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) dans [Détection des anomalies - Vue d’ensemble](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Alertes | Créez et gérez des alertes en fonction des anomalies de données et des alertes « empilées », qui regroupent plusieurs mesures dans une seule alerte. | [Vue d’ensemble des alertes](/help/components/alerts/alerts-overview.md) |
 | Exportation de données | Data Warehouse et les flux de données vous permettent d’exporter des données vers différents espaces de stockage, tels que Google Cloud Platform, Azure RBAC, Azure SAS et Amazon S3. | [Guide d’exportation Analytics](/help/export/home.md) |
-| Activity Map | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à er l’engagement de l’audience de vos pages web.<p>Activity Map vous permet de configurer différents affichages afin d’identifier visuellement l’accélération de l’activité des clients, de quantifier les initiatives de marketing et d’agir sur les besoins et les comportements d’audience.</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
+| Activity Map | Activity Map est une application Adobe Analytics conçue pour établir un classement de l’activité des liens à l’aide de superpositions visuelles et pour fournir un tableau de bord d’analyses en temps réel visant à surveiller l’engagement de l’audience de vos pages web.<p>Activity Map vous permet de configurer différentes vues afin d’identifier visuellement l’accélération de l’activité des clients, de quantifier les initiatives de marketing, et d’agir sur les besoins et les comportements de l’audience.</p> | [Activity Map](/help/analyze/activity-map/overview.md) |
 | Report Builder | Le Report Builder est un complément pour Microsoft Excel. Report Builder vous permet de créer des demandes personnalisées à partir des données Adobe Analytics insérées dans vos feuilles de calcul Excel. Ces demandes peuvent référencer des cellules de manière dynamique dans votre feuille de calcul. Vous pouvez, en outre, mettre à jour et personnaliser la manière dont le Report Builder présente les données. | [Report Builder](/help/analyze/report-builder/rb-overview.md) |
 
 <!-- * Realtime reporting? -->
@@ -190,13 +188,13 @@ En général, les personnes membres d’une organisation qui souhaitent en savoi
 
 Dans l’idéal, elles travaillent de concert avec les [analystes](#analysts) au sein d’une organisation pour :
 
-1. définir les modalités des analyses en expliquant à l’analyste ce qu’elles souhaitent connaître sur la clientèle ;
+1. définir les exigences relatives aux analyses en expliquant à l’analyste ce qu’elles souhaitent apprendre sur les clients ;
 
-1. examiner les analyses pour s’assurer qu’elles répondent aux objectifs ;
+1. vérifier les analyses pour s’assurer qu’elles répondent aux objectifs ;
 
-1. discuter des données obtenues dans les analyses ;
+1. discuter des données obtenues grâce aux analyses ;
 
-1. modifier les analyses selon les besoins au fil du temps ;
+1. modifier les analyses au fil du temps et selon les besoins ;
 
 ### créer des analyses dans Analysis Workspace
 

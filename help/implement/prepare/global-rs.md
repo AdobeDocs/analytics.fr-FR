@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # Considérations relatives aux suites de rapports globales
 
@@ -66,7 +66,7 @@ Dans la plupart des cas, Adobe recommande de mettre en œuvre une suite de rappo
 * **Pas besoin de plusieurs suites de rapports :** toutes les données peuvent être collectées dans une seule suite de rapports. Il est donc moins probable qu’un développeur envoie par erreur des données à la mauvaise suite de rapports.
 * **Pas besoin de cumuls :** les cumuls sont une fonctionnalité relativement ancienne qui agrège quotidiennement les données de chaque suite de rapports. L’agrégation ne déduplique pas les données relatives aux visites ou aux visiteurs, ce qui peut entraîner des valeurs artificiellement élevées. Voir [Cumuls](../../admin/tools/manage-rs/rollup-report-suite.md) dans le guide d’utilisation destiné à l’administrateur pour plus d’informations.
 * **Gagnez du temps :** les projets Workspace, les classifications, les segments et les mesures calculées sont liés à la même suite de rapports globale. Les administrateurs passent moins de temps à gérer ces composants et la gouvernance des données.
-* **Attribution inter-marques plus précise :** si un visiteur commence sur un site, puis clique sur un autre de vos sites avant de déclencher un événement de succès, l’attribution est collectée avec précision. Par exemple, un visiteur clique sur un lien de recherche payante et accède au site A. Il clique ensuite sur un lien vers le site B, puis effectue un achat. Une suite de rapports globale réattribue correctement cet achat au référencement payant.
+* **Attribution inter-marques plus précise :** si un visiteur commence sur un site, puis clique sur un autre de vos sites avant de déclencher un événement de succès, l’attribution est collectée avec précision. Par exemple, un visiteur clique sur un lien de référencement payant et accède au site A. Il clique ensuite sur un lien vers le site B, puis effectue un achat. Une suite de rapports globale réattribue correctement cet achat au référencement payant.
 * **Mise en œuvre simplifiée :** puisque toutes les marques/tous les sites envoient des données dans la même suite de rapports, vos mises en œuvre sur chaque site sont alignées. Cette gouvernance appliquée garantit qu’une dimension ou une mesure spécifique est enregistrée dans la même eVar ou le même événement. Les administrateurs, les testeurs, les propriétaires de la gestion des balises et les analystes bénéficient de cette simplification.
 
 >[!NOTE]
@@ -86,7 +86,7 @@ Suivez les instructions générales suivantes pour comprendre le processus de mi
    >Assurez-vous que toute variable personnalisée donnée est utilisée de manière similaire dans les domaines. N’utilisez pas la même eVar ou le même événement à des fins différentes sur vos sites.
 1. Assurez-vous que chaque domaine comporte une couche de données pour simplifier la collecte des données. Les données peuvent toujours être collectées sans couche de données, mais la fiabilité et la longévité de votre mise en œuvre diminuent, en particulier lors de la refonte de votre site.
 1. Utilisez des balises dans Adobe Experience Platform pour implémenter Analytics. Les différents sites nécessiteront probablement différents éléments de données. Utilisez des règles spécifiques à chaque domaine pour vous assurer que chaque élément de données est correctement renseigné, puis affectez ces éléments de données à leurs eVars et événements respectifs. Reportez-vous à la [présentation des balises](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr).
-1. Incluez le service d’identification des visiteurs [&#128279;](https://experienceleague.adobe.com/fr/docs/id-service/using/home) et utilisez la fonction [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=fr). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs passent d’un domaine à un autre en cliquant sur un lien.
+1. Incluez le service d’identification des visiteurs [](https://experienceleague.adobe.com/fr/docs/id-service/using/home) et utilisez la fonction [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=fr). Cette fonction fusionne les données des visiteurs lorsque les utilisateurs passent d’un domaine à un autre en cliquant sur un lien.
 
 ## Modification d’une mise en œuvre existante avec une suite de rapports globale
 

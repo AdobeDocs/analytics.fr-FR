@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -10,7 +10,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->L’ancien Report Builder arrive en fin de vie en juin 2026. À compter du 1er juillet 2026, les classeurs planifiés à l’aide de l’ancien Report Builder ne seront plus distribués. <ul><li>Vous avez jusqu’au 12 août 2026 pour migrer vos classeurs de l’ancien Report Builder vers le nouveau Report Builder. Pour plus d’informations, consultez [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) .</li><li>Avec la fin de vie des API d’Adobe Analytics 1.4, l’ancien complément Report Builder ne pourra plus être téléchargé.</li><li>Après le 12 août 2026, les clients disposant de classeurs nécessitant une migration devront contacter le service clientèle pour obtenir les classeurs d’origine. Ces classeurs devront être migrés comme indiqué dans la section [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) rationalisé est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web. Il peut être utilisé avec Adobe Analytics et Customer Journey Analytics. Les exportations planifiées vers un serveur FTP et Power BI ne sont plus prises en charge dans Report Builder. Les clients qui utilisent ces fonctionnalités dans l’ancienne version de Report Builder doivent utiliser une [&#x200B; destination cloud pour l’exportation &#x200B;](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) dans Report Builder.
+>L’ancien Report Builder arrive en fin de vie en juin 2026. À compter du 1er juillet 2026, les classeurs planifiés à l’aide de l’ancien Report Builder ne seront plus distribués. <ul><li>Vous avez jusqu’au 12 août 2026 pour migrer vos classeurs de l’ancien Report Builder vers le nouveau Report Builder. Pour plus d’informations, consultez [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) .</li><li>Avec la fin de vie des API d’Adobe Analytics 1.4, l’ancien complément Report Builder ne pourra plus être téléchargé.</li><li>Après le 12 août 2026, les clients disposant de classeurs nécessitant une migration devront contacter le service clientèle pour obtenir les classeurs d’origine. Ces classeurs devront être migrés comme indiqué dans la section [Conversion de vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md).</li></ul> Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) rationalisé est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web. Il peut être utilisé avec Adobe Analytics et Customer Journey Analytics. Les exportations planifiées vers un serveur FTP et Power BI ne sont plus prises en charge dans Report Builder. Les clients qui utilisent ces fonctionnalités dans l’ancienne version de Report Builder doivent utiliser une [ destination cloud pour l’exportation ](/help/analyze/report-builder/report-builder-export.md#schedule-workbooks-by-exporting-to-cloud-destinations) dans Report Builder.
 
 
 ## Report Builder hérité {#legacy-arb-old}
@@ -20,7 +20,7 @@ ht-degree: 93%
 >Un nouveau [Report Builder](/help/analyze/report-builder/rb-overview.md) rationalisé est disponible depuis le 16 octobre 2024. Ce Report Builder est pris en charge sur macOS, Windows et les navigateurs web. Il peut être utilisé avec Adobe Analytics et Customer Journey Analytics.
 >Cette version héritée du module complémentaire Report Builder fonctionne toujours. Vous pouvez [convertir vos classeurs hérités](/help/analyze/report-builder/convert-workbooks.md) vers le nouveau Report Builder.
 
-## Annonce de fin de vie de Reports & Analytics {#ra-eol}
+## Annonce de fin de vie de Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -99,7 +99,7 @@ Un conteneur d’attribution définit la portée souhaitée pour l’attribution
 * **Visite** : examine les conversions à partir de la portée du conteneur de visites. Lorsque l’option **[!UICONTROL Visite]** est sélectionnée, l’[intervalle de recherche en amont Attribution](#atribution-lookback-window) est automatiquement défini sur **[!UICONTROL Intervalle de rapport]** et ne peut pas être modifié.
 * **Visiteur ou visiteuse** : examine les conversions à partir de la portée du conteneur de visiteurs ou visiteuses.
 
-## Intervalle de recherche en amont des attributions {#attribution-lookback-window}
+## Intervalle de recherche en amont d’attribution {#attribution-lookback-window}
 
 Un intervalle de recherche en amont est la durée pendant laquelle une conversion doit faire une recherche en amont pour inclure des points de contact. Si un élément de dimension est défini en dehors de l’intervalle de recherche en amont, la valeur n’est incluse dans aucun calcul d’attribution.
 
@@ -165,7 +165,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 | Suite de rapports | Description |
 |---|---|
-| ![Suite de rapports](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** vous permet de filtrer les suites de rapports. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les suites de rapports* pour rechercher les suites de rapports à utiliser pour le filtrage.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau des filtres.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre d’autres suites sélectionnées (si une ou plusieurs autres suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre d’autres suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : Le nombre d’éléments associés à la suite de rapports spécifique</li></ul></li></ul> |
+| ![Suite de rapports](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** permet de filtrer les suites de rapports. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les suites de rapports* pour rechercher les suites de rapports à utiliser pour le filtrage.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau des filtres.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre d’autres suites sélectionnées (si une ou plusieurs autres suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre d’autres suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : Le nombre d’éléments associés à la suite de rapports spécifique</li></ul></li></ul> |
 
 ## Section Filtre de statut activé {#enabledstatusfiltersection}
 

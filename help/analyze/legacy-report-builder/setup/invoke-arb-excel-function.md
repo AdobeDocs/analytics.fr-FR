@@ -19,13 +19,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 503
+source-wordcount: '502'
 ht-degree: 23%
-
 ---
-
 # Utilisation des fonctions Report Builder avec Microsoft Excel
 
 {{legacy-arb}}
@@ -42,13 +40,13 @@ Le tableau suivant répertorie les fonctions exposées.
 
 | Nom de la fonction | Type | Description |
 |:---| --- | ---|
-| AsyncRefreshAll() | string | Actualise toutes les requêtes du Report Builder présentes dans un classeur. |
+| AsyncRefreshAll() | string | Actualise toutes les requêtes Report Builder présentes dans un classeur. |
 | AsyncRefreshRange(string rangeAddressInA1Format) | string | Actualise toutes les requêtes Report Builder présentes dans l’adresse de plage de cellules spécifiée (une expression de chaîne représentant une plage de cellules au format A1, par exemple « Sheet1!A2:A10 »). |
 | AsyncRefreshRangeAltTextParam() | string | Actualise toutes les requêtes du Report Builder présentes dans la plage de cellules spécifiée qui est transférée par l’intermédiaire du Texte de remplacement du Contrôle de formulaire MS. |
 | AsyncRefreshActiveWorksheet() | string | Actualise toutes les requêtes du Report Builder présentes dans la feuille de calcul active. |
 | AsyncRefreshWorksheet(string worksheetName) | string | Actualise toutes les requêtes du Report Builder présentes dans la feuille de calcul indiquée (le nom de la feuille de calcul tel qu’il s’affiche dans l’onglet). |
 | AsyncRefreshWorksheetAltTextParam(); | string | Actualise toutes les requêtes du Report Builder présentes dans le nom de feuille de calcul spécifique qui a été transféré par l’intermédiaire du Texte de remplacement du Contrôle de formulaire MS. |
-| chaîne GetLastRunStatus() | string | Renvoie une chaîne qui décrit le statut de la dernière exécution. |
+| GetLastRunStatus() | string | Renvoie une chaîne qui décrit le statut de la dernière exécution. |
 
 Pour accéder aux fonctions Report Builder, accédez à **[!UICONTROL Formules]** > **[!UICONTROL Insérer une fonction]**. Utilisez le champ de recherche pour rechercher une fonction ou sélectionnez une catégorie pour répertorier les fonctions de cette catégorie.
 

@@ -25,20 +25,18 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '832'
 ht-degree: 24%
-
 ---
-
 # Cas d’utilisation des règles de traitement
 
 Les applications de la manière dont vous pouvez utiliser les règles de traitement dans votre organisation sont nombreuses. Les sections suivantes décrivent certaines des façons les plus courantes de les utiliser à votre avantage.
 
 +++Copier une variable de données contextuelles dans une eVar
 
-Les règles de traitement sont utilisées pour déplacer les valeurs de [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) vers [Props](/help/components/dimensions/prop.md) et [eVars](/help/components/dimensions/evar.md). Sans règles de traitement, les variables de données contextuelles n’ont aucun sens et ne renseignent des données dans aucun rapport dans Analytics.
+Les règles de traitement sont utilisées pour déplacer les valeurs de [Variables de données contextuelles](/help/implement/vars/page-vars/contextdata.md) vers [Props](/help/components/dimensions/prop.md) et [eVars](/help/components/dimensions/evar.md). Sans règles de traitement, les variables de données contextuelles n’ont aucun sens et ne renseignent aucun rapport dans Adobe Analytics.
 
 La liste [!UICONTROL Variables contextuelles] contient toutes les variables qui ont été envoyées à la suite de rapports au cours des 30 derniers jours. Si vous connaissez le nom de la variable de données contextuelles mais que vous ne l’avez pas envoyée à la suite de rapports actuelle, vous pouvez l’ajouter manuellement :
 
@@ -114,14 +112,14 @@ Les événements peuvent être définis en fonction de n’importe quelle condit
 
 | Jeu de règles | Valeur |
 | --- | --- |
-| Condition | Si [!UICONTROL &#x200B; Nom De La Page &#x200B;] Est Égal À « Présentation Du Produit » |
+| Condition | Si [!UICONTROL  Nom De La Page ] Est Égal À « Présentation Du Produit » |
 | Action | [!UICONTROL Définir l’événement] [!UICONTROL Consultations de produit] sur [!UICONTROL Valeur personnalisée] `1` |
 
 ![Capture d’écran de l’interface des règles de traitement affichant un événement défini de manière conditionnelle](assets/set-product-view-event.png)
 
 +++
 
-+++Ajouter une sous-catégorie en concaténant le nom de page et de catégorie
++++Ajouter une sous-catégorie en concaténant la catégorie et le nom de page
 
 Vous pouvez utiliser l’option de concaténation pour renseigner des valeurs en en combinant d’autres.
 
@@ -149,7 +147,7 @@ Adobe recommande d’utiliser l’option de correspondance la plus restrictive p
 
 +++
 
-+++Supprimer un événement d’un accès
++++Supprimer un événement d’un hit
 
 Vous pouvez supprimer ou ignorer un événement spécifique d’un accès à l’aide des règles de traitement sans modifier votre implémentation. Si vous définissez l’événement sur une valeur personnalisée `0`, l’événement n’est pas comptabilisé.
 
@@ -157,6 +155,6 @@ Vous pouvez supprimer ou ignorer un événement spécifique d’un accès à l�
 | Condition | Aucune (toujours exécuter) |
 | Action | [!UICONTROL Définir l’événement] Event1 sur [!UICONTROL Valeur personnalisée] `0` |
 
-![Copie d’écran de l’interface des règles de traitement affichant la fonction pour supprimer un événement](assets/remove_event.png)
+![Capture d’écran de l’interface des règles de traitement montrant comment supprimer un événement](assets/remove_event.png)
 
 +++

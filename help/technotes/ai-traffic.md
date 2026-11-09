@@ -24,7 +24,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -70,7 +70,7 @@ Vous pouvez utiliser la dimension de type Référent dans Analysis Workspace pou
 
 * Workflows de l’agence
 
-La dimension Type de référent comprend l’élément de dimension [&#x200B; Outils d’IA dédiée à la conversation &#x200B;](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension inclut uniquement les visites qui ont un référent provenant d’une liste prédéfinie de chatbots d’IA.
+La dimension Type de référent comprend l’élément de dimension [ Outils d’IA dédiée à la conversation ](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Cet élément de dimension inclut uniquement les visites qui ont un référent provenant d’une liste prédéfinie de chatbots d’IA.
 
 >[!IMPORTANT]
 >
