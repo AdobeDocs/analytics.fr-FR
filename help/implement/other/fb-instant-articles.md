@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 94%
+ht-degree: 93%
 ---
 # Mise en œuvre avec des Instant Articles de Facebook
 
@@ -48,7 +48,7 @@ Le workflow global pour la mise en œuvre d’Adobe Analytics est le suivant :
 1. Créez une page `stats.html`. Codez cette page pour extraire les paramètres de chaîne de requête de l’URL et affecter chaque paramètre à une variable Analytics.
 1. Hébergez la page `stats.html` sur votre serveur web.
 1. Mettez en œuvre Analytics sur l’article Instant Facebook en référençant le fichier `stats.html` dans un iframe.
-1. Incluez les paramètres de chaîne de requête dans l’attribut `src` d’iframe.
+1. Incluez les paramètres de chaîne de requête dans l’attribut iframe `src`
 
 ### Étape 1 : créez une page `stats.html`
 

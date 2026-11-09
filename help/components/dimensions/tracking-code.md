@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 88%
+source-wordcount: '624'
+ht-degree: 84%
 ---
 # Code de suivi
 
@@ -88,7 +88,7 @@ Les canaux marketing ont un délai d’expiration glissant de 30 jours pour l�
 3. Trois semaines plus tard, il revient sans code de suivi ou canal marketing, puis quitte à nouveau le site.
 4. Au bout de deux semaines supplémentaires (cinq semaines après sa première visite), il revient sans code de suivi ou canal marketing, puis effectue un achat.
 
-L’utilisateur a finalement effectué un achat au-delà de 30 jours, mais n’a jamais été inactif pendant plus de 30 jours. Dans ce cas, le chiffre d’affaires est attribué au canal marketing Codes de suivi, mais pas à la dimension autonome Code de suivi elle-même.
+L’utilisateur a finalement effectué un achat au-delà de 30 jours, mais n’a jamais été inactif pendant plus de 30 jours. Dans ce cas, le chiffre d’affaires attribué au canal marketing Codes de suivi s’affiche, mais pas pour la dimension Code de suivi elle-même.
 
 
 

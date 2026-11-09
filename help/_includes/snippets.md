@@ -1,5 +1,5 @@
 ---
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3238'
 ht-degree: 93%
@@ -99,7 +99,7 @@ Un conteneur d’attribution définit la portée souhaitée pour l’attribution
 * **Visite** : examine les conversions à partir de la portée du conteneur de visites. Lorsque l’option **[!UICONTROL Visite]** est sélectionnée, l’[intervalle de recherche en amont Attribution](#atribution-lookback-window) est automatiquement défini sur **[!UICONTROL Intervalle de rapport]** et ne peut pas être modifié.
 * **Visiteur ou visiteuse** : examine les conversions à partir de la portée du conteneur de visiteurs ou visiteuses.
 
-## Intervalle de recherche en amont des attributions {#attribution-lookback-window}
+## Intervalle de recherche en amont d’attribution {#attribution-lookback-window}
 
 Un intervalle de recherche en amont est la durée pendant laquelle une conversion doit faire une recherche en amont pour inclure des points de contact. Si un élément de dimension est défini en dehors de l’intervalle de recherche en amont, la valeur n’est incluse dans aucun calcul d’attribution.
 
@@ -165,7 +165,7 @@ Utilisez les informations suivantes pour choisir la visualisation qui répond le
 
 | Suite de rapports | Description |
 |---|---|
-| ![Suite de rapports](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** vous permet de filtrer les suites de rapports. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les suites de rapports* pour rechercher les suites de rapports à utiliser pour le filtrage.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau des filtres.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre d’autres suites sélectionnées (si une ou plusieurs autres suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre d’autres suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : Le nombre d’éléments associés à la suite de rapports spécifique</li></ul></li></ul> |
+| ![Suite de rapports](/help/assets/filter-reportsuite.png){width="300"} | La section **[!UICONTROL Suite de rapports]** permet de filtrer les suites de rapports. <ul><li>Vous pouvez utiliser ![Rechercher](/help/assets/icons/Search.svg) *Rechercher dans les suites de rapports* pour rechercher les suites de rapports à utiliser pour le filtrage.</li><li>Vous pouvez sélectionner plusieurs suites de rapports. Les suites de rapports disponibles dépendent des sélections effectuées dans d’autres sections du panneau des filtres.</li><li>Les chiffres indiquent ce qui suit :<ul><li>**(2)** : nombre d’autres suites sélectionnées (si une ou plusieurs autres suites de rapports sont sélectionnées).</li><li>**3︎⃣** : nombre d’autres suites de rapports disponibles pour les éléments résultant du filtre actuel.</li><li>4︎⃣ : Le nombre d’éléments associés à la suite de rapports spécifique</li></ul></li></ul> |
 
 ## Section Filtre de statut activé {#enabledstatusfiltersection}
 

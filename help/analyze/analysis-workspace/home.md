@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1422'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Vue d’ensemble d’Analysis Workspace {#analysis-workspace-overview}
 
@@ -86,7 +86,7 @@ Les principales fonctionnalités d’Analysis Workspace sont disponibles via le 
 
 ## Menu
 
-La plupart des fonctionnalités d’Analysis Workspace sont disponibles par glisser-déposer et par le biais des menus contextuels dans les panneaux, les visualisations et les composants.
+La plupart des fonctionnalités d’Analysis Workspace sont disponibles par glisser-déposer, et par le biais de menus contextuels dans les panneaux, les visualisations et les composants.
 
 Les fonctionnalités sont également disponibles par le biais du menu Workspace et des raccourcis clavier. Les raccourcis clavier varient en fonction du système d’exploitation sur lequel votre navigateur s’exécute. Consultez les tableaux ci-dessous pour une vue d’ensemble.
 

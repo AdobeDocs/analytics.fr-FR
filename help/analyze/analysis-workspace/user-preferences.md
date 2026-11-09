@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3534'
-ht-degree: 93%
+ht-degree: 92%
 ---
 # Préférences de l’utilisateur ou de l’utilisatrice
 
@@ -198,13 +198,13 @@ Cliquez sur les titres des sections liées pour plus d’informations et de cont
 | | Afficher les totaux généraux | Ce total représente tous les hits qui ont été collectés. Il est parfois appelé *total de la suite de rapports*. Lorsqu’un segment est appliqué au niveau du panneau ou dans le tableau à structure libre, ce total s’ajuste pour refléter tous les hits qui correspondent aux critères de segment. Le total général n’est pas pris en charge pour les tableaux ou les répartitions avec des [lignes statiques](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Afficher les graphiques sparkline | Afficher ou masquer les graphiques en courbes au bas du graphique. Lorsqu’elle est masquée, la légende ne fait plus référence visuellement aux lignes. |
 | | Nombre | Détermine si une cellule affiche ou masque la valeur numérique pour la mesure. Par exemple, si la mesure est Pages vues, la valeur numérique correspond au nombre de pages vues pour l’élément de ligne. |
-| | Pourcentage | Détermine si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne.  Note : pour plus de précision, les pourcentages supérieurs à 100 % sont parfois affichés. La limite supérieure est portée à 1 000 % afin que les colonnes puissent atteindre des largeurs très importantes. |
+| | Pourcentage | Détermine si une cellule affiche/masque la valeur de pourcentage pour la mesure. Par exemple, si la mesure est Pages vues, la valeur de pourcentage correspond au nombre de pages vues pour l’élément de ligne, divisé par le nombre total de pages vues pour la colonne.  Note : Pour être plus précis : les pourcentages supérieurs à 100 % sont parfois affichés. La limite supérieure est portée à 1 000 % afin que les colonnes puissent atteindre des largeurs très importantes. |
 | | Afficher les anomalies | Détermine si la détection des anomalies est exécutée sur les valeurs de cette colonne. |
 | | Interpréter zéro comme n’étant pas une valeur | Pour les cellules dont la valeur est 0, détermine s’il convient d’afficher un 0 ou une cellule vierge. Ce paramètre est utile lorsque vous examinez les données pour chaque jour d’un mois et que certains jours n’ont pas encore eu lieu.  Des cellules vierges peuvent être affichées au lieu de 0 pour les dates futures. Les graphiques respectent également ce paramètre (c’est-à-dire qu’ils n’affichent pas une ligne ou une barre avec des valeurs 0 lorsque ce paramètre est activé). |
 | | Arrière-plan | Détermine si une cellule affiche/masque toute la mise en forme de cellule, y compris le graphique en barres et la mise en forme conditionnelle. <ul><li>Graphique en barres</li> Graphique en barres horizontales représentant la valeur de la cellule par rapport au total de la colonne. <li>Mise en forme conditionnelle</li>Pour plus d’informations sur la mise en forme conditionnelle, consultez « Mise en forme conditionnelle » dans [Paramètres de colonne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md).</ul> |
 | | Aperçu de la cellule | Aperçu de l’aspect de chaque cellule après application des options de mise en forme actuellement sélectionnées. |
 | **[Ligne](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
-| | Répartition par position | Sélectionnez cette option si vous souhaitez que la répartition conserve la position de l’élément plutôt que l’élément lui-même. Pour plus d’informations sur les répartitions, consultez [Répartition des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
+| | Répartition par position | Sélectionnez cette option si vous souhaitez que la répartition conserve la position de l’élément plutôt que l’élément lui-même. Pour plus d’informations sur les ventilations, consultez [Ventilations des dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md). |
 | | Calcul du pourcentage | <ul><li>Colonne</li><li>Ligne</li></ul> |
 | | Totaux des colonnes (lignes statiques uniquement) | <ul><li>Afficher la somme des lignes : affiche la somme des éléments de ligne. </li><li>Afficher le total général : affiche la somme dédupliquée des lignes.</li></ul> |
 

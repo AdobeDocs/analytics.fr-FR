@@ -24,14 +24,12 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 563
+source-wordcount: '563'
 ht-degree: 27%
-
 ---
-
-# Gestion des requêtes - Définitions
+# Gérer les demandes - Définitions
 
 {{legacy-arb}}
 
@@ -79,7 +77,7 @@ Le [!UICONTROL Gestionnaire de requêtes] s’affiche lorsque vous cliquez sur l
   </tr> 
   <tr> 
    <td colname="col1"> <p> Dernière exécution </p> </td> 
-   <td colname="col2"> <p>Précise la date de la dernière exécution de la requête par le Report Builder. Un message de diagnostic s’affiche également dans ce tableau dans la colonne <span class="wintitle">Dernière exécution</span>, le cas échéant. </p> </td> 
+   <td colname="col2"> <p>Précise la date de la dernière exécution de la demande par Report Builder. Un message de diagnostic s’affiche également dans ce tableau dans la colonne <span class="wintitle">Dernière exécution</span>, le cas échéant. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ajouter </p> </td> 

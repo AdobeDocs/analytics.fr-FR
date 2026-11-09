@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: '822'
 ht-degree: 4%
-
 ---
-
 # Règles de traitement des canaux marketing
 
 _Cette page fait référence aux règles de traitement qui attribuent un canal marketing à un accès. Voir [Règles de traitement](../general/processing-rules/pr-overview.md) pour la fonctionnalité qui vous permet d’ajuster la manière dont les données sont collectées._
@@ -102,6 +100,6 @@ Les options suivantes sont disponibles lors de la définition des conditions de 
 
 Les **variables de conversion** vous permettent de spécifier un eVar personnalisé, un opérateur correspondant et une valeur à rechercher.
 
-| Condition de variable de conversion | Description |
+| Condition de variable de conversation | Description |
 |---|---|
 | **eVar 1-250** | La dimension [&#128279;](/help/components/dimensions/evar.md) associée. |

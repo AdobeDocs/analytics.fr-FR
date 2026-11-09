@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Vous pouvez comparer n’importe quelle mesure de la période de l’événement
 2. Cliquez avec le bouton droit sur la période, puis cliquez sur **[!UICONTROL Ajouter une colonne de période]** > **[!UICONTROL Période personnalisée à cette période]**.
    * Pour une comparaison semaine par semaine, sélectionnez l’intervalle de l’événement moins 7 jours. Assurez-vous que les jours de la semaine entre l’événement et cette période sont alignés.
    * Pour une comparaison mois par mois, sélectionnez la plage de l’événement du mois dernier. Vous pouvez également sélectionner la plage de l’événement moins 28 jours si vous souhaitez aligner les jours de la semaine.
-   * Pour une comparaison d’une année sur l’autre, sélectionnez la plage de l’événement l’année dernière.
+   * Pour une comparaison d’une année sur l’autre, sélectionnez la plage de l’événement de l’année dernière.
 3. Lorsque vous sélectionnez la période souhaitée, elle est ajoutée à votre tableau à structure libre. Vous pouvez effectuer un clic droit et ajouter autant de périodes que vous le souhaitez pour les comparer.
 
    ![Tendances alignées sur la date](assets/date_aligned_trends.png)

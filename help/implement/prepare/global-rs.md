@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 95%
+ht-degree: 92%
 ---
 # Considérations relatives aux suites de rapports globales
 
@@ -66,7 +66,7 @@ Dans la plupart des cas, Adobe recommande de mettre en œuvre une suite de rappo
 * **Pas besoin de plusieurs suites de rapports :** toutes les données peuvent être collectées dans une seule suite de rapports. Il est donc moins probable qu’un développeur envoie par erreur des données à la mauvaise suite de rapports.
 * **Pas besoin de cumuls :** les cumuls sont une fonctionnalité relativement ancienne qui agrège quotidiennement les données de chaque suite de rapports. L’agrégation ne déduplique pas les données relatives aux visites ou aux visiteurs, ce qui peut entraîner des valeurs artificiellement élevées. Voir [Cumuls](../../admin/tools/manage-rs/rollup-report-suite.md) dans le guide d’utilisation destiné à l’administrateur pour plus d’informations.
 * **Gagnez du temps :** les projets Workspace, les classifications, les segments et les mesures calculées sont liés à la même suite de rapports globale. Les administrateurs passent moins de temps à gérer ces composants et la gouvernance des données.
-* **Attribution inter-marques plus précise :** si un visiteur commence sur un site, puis clique sur un autre de vos sites avant de déclencher un événement de succès, l’attribution est collectée avec précision. Par exemple, un visiteur clique sur un lien de recherche payante et accède au site A. Il clique ensuite sur un lien vers le site B, puis effectue un achat. Une suite de rapports globale réattribue correctement cet achat au référencement payant.
+* **Attribution inter-marques plus précise :** si un visiteur commence sur un site, puis clique sur un autre de vos sites avant de déclencher un événement de succès, l’attribution est collectée avec précision. Par exemple, un visiteur clique sur un lien de référencement payant et accède au site A. Il clique ensuite sur un lien vers le site B, puis effectue un achat. Une suite de rapports globale réattribue correctement cet achat au référencement payant.
 * **Mise en œuvre simplifiée :** puisque toutes les marques/tous les sites envoient des données dans la même suite de rapports, vos mises en œuvre sur chaque site sont alignées. Cette gouvernance appliquée garantit qu’une dimension ou une mesure spécifique est enregistrée dans la même eVar ou le même événement. Les administrateurs, les testeurs, les propriétaires de la gestion des balises et les analystes bénéficient de cette simplification.
 
 >[!NOTE]

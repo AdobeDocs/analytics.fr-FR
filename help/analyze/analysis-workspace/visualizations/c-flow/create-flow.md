@@ -30,34 +30,32 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1691
-ht-degree: 88%
-
+source-wordcount: '1703'
+ht-degree: 87%
 ---
-
 # Configurer une visualisation de flux {#configure-a-flow-visualization}
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_startswith"
 >title="Commence par"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_contains"
 >title="Contient"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_endswith"
 >title="Se termine par"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_pathingdimension"
 >title="Dimension du cheminement"
->abstract="Sélectionnez une dimension à utiliser comme chemin d’accès ou de sortie du composant sélectionné."
+>abstract="Sélectionnez une dimension à utiliser pour le chemin menant au composant sélectionné ou partant de celui-ci."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_container"
@@ -82,17 +80,17 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_numberofcolumns"
 >title="Nombre de colonnes"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_itemsexpandedpercolumn"
 >title="Éléments développés par colonne"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 >[!CONTEXTUALHELP]
 >id="workspace_flow_resettoupdate"
 >title="Réinitialiser pour mettre à jour"
->abstract="Ce champ peut uniquement être défini dans la version initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
+>abstract="Ce champ peut uniquement être défini lors de la création initiale. Pour mettre à jour ce champ, sélectionnez **[!UICONTROL Réinitialiser]** pour créer une visualisation Flux."
 
 
 Les visualisations de flux vous aident à comprendre le parcours provenant d’un événement de conversion spécifique sur votre site web ou votre application. Ou menant à un événement de conversion spécifique. La visualisation trace un chemin d’accès à travers vos dimensions (et éléments de dimension) ou mesures.
@@ -104,7 +102,7 @@ Vous pouvez configurer le début ou la fin du chemin qui vous intéresse. Vous p
 
 1. Ajoutez une visualisation ![GraphPathing](/help/assets/icons/GraphPathing.svg) **[!UICONTROL Flux]**. Voir [Ajouter une visualisation à un panneau](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
 
-1. Ancrez votre visualisation de flux à l’aide de l’une des options suivantes :
+1. Utilisez l’une des options suivantes pour ancrer votre visualisation Flux :
 
    * [!UICONTROL **Commence par**] (mesures, dimensions ou éléments) ou
    * [!UICONTROL **Contient**] (dimensions ou éléments) ou
@@ -129,7 +127,7 @@ Vous pouvez configurer le début ou la fin du chemin qui vous intéresse. Vous p
 
    | Paramètre | Description |
    | --- | --- |
-   | **[!UICONTROL Développer les étiquettes]** | Habituellement, les étiquettes sur les éléments de flux sont tronquées pour gagner de l’espace à l’écran, mais vous pouvez afficher l’étiquette complète en cochant cette case.  Valeur par défaut = non coché. |
+   | **[!UICONTROL Développer les étiquettes]** | En règle générale, les libellés des éléments de la visualisation Flux sont tronqués afin d’économiser de l’espace à l’écran, mais vous pouvez afficher le libellé complet en cochant cette case.  Valeur par défaut = non coché. |
    | **[!UICONTROL Inclure des instances de répétition]** | Les visualisations Flux sont basées sur des instances d’une dimension. Ce paramètre vous donne la possibilité d’inclure ou d’exclure des instances de répétition, telles que des actualisations de page. Toutefois, les répétitions ne peuvent pas être supprimées des visualisations Flux qui incluent des dimensions à valeurs multiples, comme des listVars, listProps, s.product, eVars de marchandisage, etc. <p>Par défaut, cette option est désactivée.</p> |
    | **[!UICONTROL Limiter à la première/dernière occurrence]** | Limitez les chemins à ceux qui commencent ou se terminent par la première ou la dernière occurrence d’une dimension, d’un élément ou d’une mesure. Voir [Limiter à la première/dernière occurrence](#example-scenario-for-limit-to-firstlast-occurrence) pour obtenir une explication plus détaillée. |
    | **[!UICONTROL Nombre de colonnes]** | Nombre de colonnes souhaité dans le diagramme de flux. Vous pouvez spéficier 5 colonnes maximum. |
@@ -158,7 +156,7 @@ Supposons que vous souhaitiez tracer le chemin suivi par les utilisateurs et uti
 
 Un résumé de la configuration Flux s’affiche en haut des visualisations. Les tracés dans le diagramme sont proportionnels. Les tracés plus épais sont ceux pour lesquels l’activité est la plus intense.
 
-![Exemple de sortie de flux montrant Se termine par des visites, la dimension de cheminement : Page et le conteneur de flux : Visiteurs et visiteuses.](assets/flow-output.png)
+![Exemple de sortie de flux montrant les fins avec des visites, la dimension de cheminement : Page et le conteneur de flux : Visiteurs.](assets/flow-output.png)
 
 Pour approfondir l’analyse des données, vous disposez de plusieurs options :
 
@@ -193,7 +191,7 @@ Utilisez un menu contextuel sur n’importe quel nœud de la visualisation Flux 
 
 | Option | Description |
 |--- |--- |
-| **[!UICONTROL Se concentrer sur ce nœud]** | Fait la mise au point sur le nœud sélectionné. Le nœud d’intérêt s’affiche au centre du diagramme Flux. |
+| **[!UICONTROL Se concentrer sur ce nœud]** | Fait la mise au point sur le nœud sélectionné. Le nœud sélectionné s’affiche au centre du diagramme Flux. |
 | **[!UICONTROL Recommencer]** | Vous renvoie au créateur de diagrammes à structure libre, dans lequel vous pouvez créer un autre diagramme de flux. |
 | **[!UICONTROL Créer un filtre pour ce chemin]** | Création d’un filtre. Cette sélection vous redirige vers le créateur de filtres, dans lequel vous pouvez configurer le nouveau filtre. |
 | **[!UICONTROL Répartition]** | Permet de ventiler le nœud d’après les dimensions, les mesures ou le temps disponibles. |
@@ -201,7 +199,7 @@ Utilisez un menu contextuel sur n’importe quel nœud de la visualisation Flux 
 | **[!UICONTROL Exclure un élément]** ou **[!UICONTROL Restaurer les éléments exclus]** | Supprime un nœud donné de la colonne et le transforme automatiquement en filtre en haut de la colonne. Pour restaurer l’élément exclu, sélectionnez **[!UICONTROL Restaurer un élément exclu]** dans le menu contextuel. Vous pouvez également ouvrir le filtre en haut de la colonne et supprimer le rectangle contenant l’élément que vous venez d’exclure. |
 | **[!UICONTROL Tendance]** | Permet de créer un diagramme de tendance pour le nœud. |
 | **[!UICONTROL Afficher la colonne suivante]**/**[!UICONTROL Afficher la colonne précédente]** | Affiche la colonne suivante (à droite) ou précédente (à gauche) de la visualisation. |
-| **[!UICONTROL Masquer la colonne]**&#x200B;n | Masque la colonne sélectionnée dans la visualisation. |
+| **[!UICONTROL Masquer la colonne]** | Masque la colonne sélectionnée dans la visualisation. |
 | **[!UICONTROL Développer toute la colonne]** | Permet de développer une colonne pour afficher tous les nœuds. Par défaut, seuls les cinq premiers nœuds sont présentés. |
 | **[!UICONTROL Créer une audience à partir de la sélection]** | Crée une audience en fonction de la colonne sélectionnée. |
 | **[!UICONTROL Réduire toute la colonne]** | Permet de masquer tous les nœuds d’une colonne. |

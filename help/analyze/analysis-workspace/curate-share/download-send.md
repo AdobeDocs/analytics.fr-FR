@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 25%
+source-wordcount: '1130'
+ht-degree: 24%
 ---
 # Téléchargement de projets et de données
 
@@ -49,7 +49,7 @@ D’autres méthodes d’exportation de données Adobe Analytics sont décrites 
 
 ## Télécharger un projet sous la forme d’un fichier PDF ou CSV
 
-![Menu déroulant Projet avec les options Télécharger au format CSV et Télécharger au format PDF mises en surbrillance.](assets/download-project.png)
+![Menu déroulant Projet avec les options Télécharger le CSV et Télécharger le PDF mises en surbrillance.](assets/download-project.png)
 
 ### Télécharger un projet sous forme de fichier PDF
 
@@ -154,7 +154,7 @@ Si vous demandez plusieurs téléchargements à la fois, vous recevez une notifi
 
 | Question | Réponse |
 | --- | --- |
-| Pourquoi mon PDF téléchargé ne comprend-il qu’une seule page ? | La fonctionnalité [Télécharger PDF](#download-as-csv-or-pdf) ne pagine pas les PDF téléchargés. |
+| Pourquoi mon PDF téléchargé ne comporte-t-il qu’une seule page ? | La fonctionnalité [Télécharger PDF](#download-as-csv-or-pdf) ne pagine pas les PDF téléchargés. |
 | Puis-je exporter plus de 50 000 éléments avec l’option **[!UICONTROL Télécharger les éléments au format CSV]** ? | Bien que chaque téléchargement puisse contenir jusquʼà 50 000 éléments de dimension, vous pouvez modifier le tri de votre tableau pour récupérer des éléments à traîne longue ou appliquer un filtre pour télécharger des éléments plus spécifiques. |
 | À quoi sert l’option **[!UICONTROL Copier la visualisation]** ? | Contrairement à [!UICONTROL **Copier les données dans le presse-papiers**] ou [!UICONTROL **Copier la sélection dans le presse-papiers**], l’option de menu contextuel **[!UICONTROL Copier la visualisation]** n’est pas une option d’exportation. Cette option vous permet de [copier une visualisation](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) ou [copier un panneau](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) d’un emplacement de Workspace à un autre. Par exemple, d’un panneau à un autre dans le même projet, ou d’un projet à un autre. |
 

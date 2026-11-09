@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 4%
@@ -59,7 +59,7 @@ Le tableau se compose des colonnes suivantes :
   - Sélectionnez les colonnes à afficher.
   - Sélectionnez **[!UICONTROL Appliquer]**.
 
-Lorsque vous sélectionnez un ou plusieurs comptes publicitaires, une barre d’actions bleue, basée sur le statut des comptes sélectionnés, vous permet d’![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Renommer]**, ![Actualiser](/help/assets/icons/Refresh.svg) **[!UICONTROL Mapper des suites de rapports]**, ![Lire](/help/assets/icons/Play.svg)Activer **[!UICONTROL ou]** Pause![Pause](/help/assets/icons/Pause.svg) **&#x200B;**&#x200B;vos comptes publicitaires.
+Lorsque vous sélectionnez un ou plusieurs comptes publicitaires, une barre d’actions bleue, basée sur le statut des comptes sélectionnés, vous permet d’![Modifier](/help/assets/icons/Edit.svg) **[!UICONTROL Renommer]**, ![Actualiser](/help/assets/icons/Refresh.svg) **[!UICONTROL Mapper des suites de rapports]**, ![Lire](/help/assets/icons/Play.svg) **[!UICONTROL Activer]** ou ![Pause](/help/assets/icons/Pause.svg)Pause **&#x200B;**&#x200B;vos comptes publicitaires.
 
 ## Créer un compte publicitaire
 

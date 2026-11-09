@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2637'
 ht-degree: 1%
@@ -256,4 +256,4 @@ Cette section est destinée à un examen interne et doit être supprimée avant 
 
 ## Intégration sortante
 
-Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d’informations sur l’intégration sortante.
+Ce guide ne couvre que l’intégration de la Visibilité des marques entrante, qui ajoute des données de trafic de robots et d’agents automatisés à une suite de rapports Analytics. La documentation d’intégration publiée décrit également une direction sortante, dans laquelle les données de performances Analytics sont mises à la disposition de Brand Visibility dans le produit Brand Visibility. Cette orientation n&#39;entre pas dans le cadre du présent guide. Consultez la documentation de la Visibilité des marques [&#128279;](https://experienceleague.adobe.com/fr/docs/brand-visibility/using/resources/adobe-analytics-integration) pour plus d&#39;informations sur l&#39;intégration sortante.

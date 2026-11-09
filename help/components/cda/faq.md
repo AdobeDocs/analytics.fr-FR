@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1728'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # Questions fréquentes
 
@@ -59,7 +59,7 @@ Vous pouvez utiliser une visualisation de [!UICONTROL flux] avec la dimension Ty
 
 1. Connectez-vous à Adobe Analytics et créez un projet Workspace vide.
 2. Cliquez sur l’onglet Visualisations sur la gauche, puis faites glisser une visualisation de flux vers la zone de travail sur la droite.
-3. Cliquez sur l’onglet Composants sur la gauche, puis faites glisser la dimension « Type d’appareil mobile » vers l’emplacement central intitulé « Dimension ou élément ».
+3. Cliquez sur l’onglet Composants à gauche, puis faites glisser la dimension « Type d’appareil mobile » vers l’emplacement central intitulé « Dimension ou élément ».
 4. Ce rapport de flux est interactif. Cliquez sur l’une des valeurs pour développer les flux vers les pages suivantes ou précédentes. Utilisez le menu contextuel pour développer ou réduire des colonnes. Il est également possible d’utiliser différentes dimensions dans le même rapport de flux.
 
 +++
@@ -134,7 +134,7 @@ Oui. Analysis Workspace utilise l’API 2.0 pour demander des données aux ser
 
 1. Lors de la connexion à Analysis Workspace, accédez à [!UICONTROL Aide] > [!UICONTROL Activer le débogueur].
 2. Cliquez sur l’icône de débogage dans le panneau de votre choix, puis sélectionnez la visualisation souhaitée et l’heure de la requête.
-3. Recherchez la demande JSON, que vous pouvez utiliser dans votre appel d’API à Adobe.
+3. Recherchez la demande JSON, que vous pouvez utiliser dans votre appel API à Adobe.
 
 +++
 
