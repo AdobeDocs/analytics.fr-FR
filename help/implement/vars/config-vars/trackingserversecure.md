@@ -74,7 +74,7 @@ alloy("configure", {
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Sélectionnez la propriété de balise de votre choix.
-1. Accédez à l’onglet [!UICONTROL  Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
+1. Accédez à l’onglet [!UICONTROL &#x200B; Extensions] puis sélectionnez le bouton **[!UICONTROL Configurer]** sous Adobe Analytics.
 1. Développez l’accordéon [!UICONTROL Général], qui affiche le champ [!UICONTROL Serveur de suivi SSL].
 
 Si ce champ n’est pas renseigné, la valeur par défaut est celle indiquée dans [!UICONTROL Serveur de suivi]. Si [!UICONTROL Serveur de suivi SSL] et [!UICONTROL Serveur de suivi] sont tous deux vides, la valeur par défaut est `[rsid].data.adobedc.net`.
@@ -100,13 +100,13 @@ La valeur que vous utilisez pour `trackingServerSecure` (ou `edgeDomain`) dépen
 
 Voir [Choisir un domaine de collecte de données](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) dans le guide d’interface et d’administration de CX Enterprise pour obtenir des détails sur chaque option, y compris sur la recherche de votre identifiant client.
 
-Adobe recommande vivement de conserver ces informations dans un [ document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
+Adobe recommande vivement de conserver ces informations dans un [&#x200B; document de conception de solution](../../prepare/solution-design.md) afin d’assurer la cohérence au sein de votre entreprise.
 
 ## Ramifications de la non-utilisation du service d’identification des visiteurs ou de Web SDK {#ramifications-for-not-using-the-visitor-id-service-or-experience-platform-identity-service}
 
 Adobe recommande vivement d’utiliser l’ECID comme principale forme d’identité du visiteur dans toutes les implémentations. La collecte des ECID peut être implémentée de plusieurs manières différentes, en fonction du type d’implémentation :
 
-* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Voir [ Identification des visiteurs à l’aide d’AppMeasurement](/help/implement/id/appmeasurement.md) pour plus d’informations.
+* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](/help/implement/id/appmeasurement.md) pour plus d’informations.
 * Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service d’identification des visiteurs. Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
 * Les implémentations utilisant n’importe quel format de Web SDK (`alloy.js` ou l’extension de balise Web SDK) incluent automatiquement l’identité Edge Network. Aucune configuration n’est requise au-delà de la définition de la valeur `edgeDomain` .
 
