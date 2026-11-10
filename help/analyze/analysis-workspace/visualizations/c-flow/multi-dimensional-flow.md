@@ -25,26 +25,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 95%
-
 ---
-
 # Flux interdimensionnels
 
 Un flux interdimensionnel vous permet d’examiner les chemins d’accès pour les utilisateurs et utilisatrices sur plusieurs dimensions.
-
-<!-- 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
--->
 
 Cet article montre comment utiliser ce flux pour deux cas d’utilisation : les interactions et les événements d’applications mobiles, et la manière dont les campagnes génèrent des visites web.
 
@@ -56,11 +44,11 @@ La dimension [!UICONTROL Nom de l’écran] est utilisée dans cet exemple de fl
 
 Pour explorer l’interaction entre les écrans et les types d’événement (tels que l’ajout au panier, les achats, etc.) dans cette application, effectuez un glisser-déposer de la dimension **[!UICONTROL Types d’événement]** :
 
-* En plus de toute étape disponible dans le flux, pour remplacer cette dimension, procédez comme suit :
+* Au-dessus de n’importe quelle étape disponible du flux, pour remplacer cette dimension :
 
   ![Flux présentant la dimension Page placée dans plusieurs zones.](assets/flowapp-replace.png)
 
-* En dehors de la visualisation de flux actuelle, pour ajouter la dimension, procédez comme suit :
+* En dehors de la visualisation de flux actuelle, pour ajouter la dimension :
 
   ![Flux affichant la dimension Page placée dans l’espace blanc à la fin.](assets/flowapp-add.png)
 
@@ -68,9 +56,9 @@ La visualisation de flux ci-dessous montre le résultat de l’ajout de la dimen
 
 ![Flux affichant les résultats de la dimension Page en haut de la liste.](assets/flowapp-result.png)
 
-## Génération de visites web par les campagnes
+## Comment les campagnes génèrent des visites sur le site web
 
-Vous souhaitez analyser les campagnes qui génèrent des visites sur le site web. Vous créez une visualisation de flux avec la dimension **[!UICONTROL Nom de la campagne]**.
+Vous souhaitez déterminer quelles campagnes génèrent des visites sur le site web. Vous créez une visualisation de flux avec la dimension **[!UICONTROL Nom de la campagne]**.
 
 ![Dimension du nom de la campagne web de flux](assets/flowweb.png)
 
