@@ -86,4 +86,4 @@ Une fois la migration terminée, déplacez la nouvelle bibliothèque dans le flu
 1. Envoyez la bibliothèque pour approbation et testez-la dans votre environnement d’évaluation.
 1. Approuvez la bibliothèque et publiez-la en production.
 
-Voir [Flux de publication](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) dans le guide d’utilisation des balises.
+Voir [Flux de publication](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/publishing-flow) dans le guide d’utilisation des balises.

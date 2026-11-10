@@ -30,8 +30,8 @@ ht-degree: 28%
 ---
 # Ressources de sécurité d’Adobe Analytics
 
-Adobe suit des processus et des contrôles de sécurité établis pour se conformer aux normes, réglementations et certifications acceptées du secteur. Consultez [Sécurité d’](https://www.adobe.com/trust/security.html) pour plus d’informations sur les pratiques de sécurité d’Adobe à l’échelle de l’entreprise.
+Adobe suit des processus et des contrôles de sécurité établis pour se conformer aux normes, réglementations et certifications acceptées du secteur. Consultez [Sécurité d’](https://www.adobe.com/fr/trust/security.html) pour plus d’informations sur les pratiques de sécurité d’Adobe à l’échelle de l’entreprise.
 
 Vous trouverez des informations sur les pratiques spécifiques à Adobe Analytics dans la présentation de la sécurité d’[Adobe Analytics](https://www.adobe.com/content/dam/cc/fr/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf). Il décrit les processus suivis en matière d’architecture, d’authentification, de centres de données, de réseau et de personnel.
 
-Consultez le [Programme de rebond pour les bogues &#x200B;](https://www.adobe.com/trust/security/bug-bounty.html) si vous détectez une vulnérabilité pour créer un rapport sur l’un des produits Adobe, y compris Adobe Analytics.
+Consultez le [Programme de rebond pour les bogues &#x200B;](https://www.adobe.com/fr/trust/security/bug-bounty.html) si vous détectez une vulnérabilité pour créer un rapport sur l’un des produits Adobe, y compris Adobe Analytics.
