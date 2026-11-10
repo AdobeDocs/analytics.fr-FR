@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '734'
+ht-degree: 12%
 ---
 # trackingServerSecure
 
@@ -106,7 +106,7 @@ Adobe recommande vivement de conserver ces informations dans un [&#x200B; docume
 
 Adobe recommande vivement d’utiliser l’ECID comme principale forme d’identité du visiteur dans toutes les implémentations. La collecte des ECID peut être implémentée de plusieurs manières différentes, en fonction du type d’implémentation :
 
-* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Pour plus d’informations, voir [Implémentation du service d’identification des visiteurs pour Analytics](https://experienceleague.adobe.com/fr/docs/id-service/using/implementation/setup-analytics).
+* Les implémentations AppMeasurement manuelles utilisent `VisitorAPI.js` et appellent la méthode `getInstance` . Voir [&#x200B; Identification des visiteurs à l’aide d’AppMeasurement](/help/implement/id/appmeasurement.md) pour plus d’informations.
 * Les implémentations qui utilisent l’extension de balise Adobe Analytics utilisent l’extension de balise [[!UICONTROL Service Experience Cloud ID]](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/id-service/overview), qui met en œuvre le service d’identification des visiteurs. Une fois ajouté, aucune configuration supplémentaire n’est nécessaire.
 * Les implémentations utilisant n’importe quel format de Web SDK (`alloy.js` ou l’extension de balise Web SDK) incluent automatiquement l’identité Edge Network. Aucune configuration n’est requise au-delà de la définition de la valeur `edgeDomain` .
 

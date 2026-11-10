@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 5%
 ---
 # Collisions de hachage
@@ -64,7 +64,7 @@ Les collisions de hachage ne peuvent pas être entièrement éliminées, mais le
 * **Modifier la période** : les tableaux de hachage changent tous les mois. Si la période s’étend sur un autre mois, chaque valeur peut avoir des hachages différents qui ne sont pas en conflit. Il s’agit généralement du moyen le plus rapide d’effacer une anomalie visible d’un rapport spécifique.
 * **Réduire le nombre de valeurs uniques** : vous pouvez ajuster votre implémentation ou utiliser les [Règles de traitement](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) pour réduire le nombre de valeurs uniques qu’une dimension collecte. Par exemple, si votre dimension collecte une URL, vous pouvez supprimer les chaînes de requête ou le protocole.
 * **Utiliser [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) ou [Flux de données](/help/export/analytics-data-feed/data-feed-overview.md)** : ces outils ne reposent pas sur des tables de hachage.
-* **Déplacer vers [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr)** : Customer Journey Analytics n’a pas de couche de hachage et [aucune limite de cardinalité sur les dimensions](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Envisagez de passer à ce produit si des collisions de hachage ou un [[!UICONTROL Faible trafic]](/help/technotes/low-traffic.md) affectent fréquemment vos rapports.
+* **Déplacer vers [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=fr)** : Customer Journey Analytics n’a pas de couche de hachage et [aucune limite de cardinalité sur les dimensions](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-components/dimensions/high-cardinality). Envisagez de passer à ce produit si des collisions de hachage ou un [[!UICONTROL Faible trafic]](/help/technotes/low-traffic.md) affectent fréquemment vos rapports.
 
 >[!MORELIKETHIS]
 >

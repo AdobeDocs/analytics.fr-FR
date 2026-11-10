@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 3%
 ---
 # Assistant de mise à niveau de Web SDK
@@ -71,7 +71,7 @@ Avant de créer une migration, vérifiez que vous disposez des éléments suivan
 
 * Autorisations [&#x200B; requises par &#x200B;](#permissions)’assistant de mise à niveau.
 * Propriété de balises qui utilise l’extension Adobe Analytics.
-* Bibliothèque dans cette propriété qui contient l’implémentation à migrer. La bibliothèque peut être dans n’importe quel état, y compris publiée. Voir [Bibliothèques](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) dans le guide d’utilisation des balises.
+* Bibliothèque dans cette propriété qui contient l’implémentation à migrer. La bibliothèque peut être dans n’importe quel état, y compris publiée. Voir [Bibliothèques](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/publish/libraries) dans le guide d’utilisation des balises.
 
 ### Autorisations {#permissions}
 
@@ -81,6 +81,6 @@ L&#39;assistant de mise à niveau requiert l&#39;accès suivant. Contactez l’a
 | --- | --- |
 | [Autorisations Experience Platform](https://experienceleague.adobe.com/fr/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL Affichage des schémas]</li><li>[!UICONTROL Gestion des schémas]</li><li>[!UICONTROL Affichage des jeux de données]</li><li>[!UICONTROL Gestion des jeux de données]</li><li>[!UICONTROL Affichage des espaces de noms d’identité]</li></ul> |
 | Accès aux produits | <ul><li>Collecte de données (balises)</li><li>Adobe Analytics</li></ul> |
-| [&#x200B; Droits des balises &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Gérer les propriétés] |
+| [&#x200B; Droits des balises &#x200B;](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Gérer les propriétés] |
 
 Lorsque vous êtes prêt, [créez une migration](manager.md#create).
