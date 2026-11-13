@@ -45,7 +45,7 @@ Une fois que votre organisation a établi et implémenté une couche de données
 
 Les [éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr) sont des composants dans la collecte de données Adobe Experience Platform que vous pouvez utiliser dans l’ensemble de l’outil. Vous pouvez attribuer des valeurs de variable dans l’extension Adobe Analytics à l’aide d’éléments de données.
 
-Les étapes suivantes utilisent l’[extension de la couche de données client Adobe](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), qui doit être installée dans votre propriété de balise.
+Les étapes suivantes utilisent l’[extension de la couche de données client Adobe](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/client-data-layer/overview), qui doit être installée dans votre propriété de balise.
 
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
 1. Sélectionnez la propriété de balise de votre choix.
