@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1434
+source-wordcount: '1475'
 ht-degree: 9%
-
 ---
-
 # Migration d’AppMeasurement vers le SDK Web
 
 Ce chemin d’implémentation implique une approche de migration méthodique pour passer d’une implémentation d’AppMeasurement à une implémentation de bibliothèque JavaScript Web SDK. D’autres chemins d’implémentation sont abordés sur des pages distinctes :
@@ -47,12 +45,12 @@ L’utilisation de cette approche de migration présente à la fois des avantage
 
 | Avantages | Inconvénients |
 | --- | --- |
-| <ul><li>**Utilise votre implémentation existante** : bien que cette approche nécessite quelques modifications d’implémentation, l’implémentation ne part pas de zéro. Vous pouvez utiliser votre couche de données et votre code existants avec un minimum de modifications de la logique d’implémentation.</li><li>**Ne nécessite pas de schéma** : pour cette étape de la migration vers le Web SDK, vous n’avez pas besoin de schéma XDM. Vous pouvez plutôt renseigner l’objet `data` , qui envoie directement les données à Adobe Analytics. Une fois la migration vers Web SDK terminée, vous pouvez créer un schéma pour votre organisation et utiliser le mappage des flux de données pour renseigner les champs XDM applicables. Si un schéma était requis à cette étape du processus de migration, votre organisation serait forcée d’utiliser un schéma XDM Adobe Analytics. L’utilisation de ce schéma rend plus difficile, pour votre organisation, l’utilisation de votre propre schéma à l’avenir.</li></ul> | <ul><li>**Les modifications d’implémentation nécessitent l’intervention d’un développeur** : si vous souhaitez apporter des modifications à votre implémentation de Web SDK, vous devez collaborer avec votre équipe de développement pour modifier le code sur votre site. L’approche qui [migre vers l’extension de balise Web SDK](analytics-extension-to-web-sdk.md) évite cet inconvénient.</li><li>**Dette technique d’implémentation** : étant donné que cette approche utilise une forme modifiée de votre implémentation existante, il peut être plus difficile de suivre la logique d’implémentation et d’effectuer des modifications à l’avenir si nécessaire.</li><li>**Nécessite un mappage pour l’envoi de données à Platform** : lorsque votre organisation est prête à utiliser Customer Journey Analytics, vous devez envoyer des données à un jeu de données dans Adobe Experience Platform. Cette action nécessite que chaque champ de l’objet `data` soit une entrée dans l’outil de mappage de flux de données qui l’affecte à un champ de schéma XDM. Le mappage ne doit être effectué qu’une seule fois pour ce workflow, ce qui évite toute modification de l’implémentation. Cependant, il s’agit d’une étape supplémentaire qui n’est pas requise lors de l’envoi de données dans un objet XDM.</li></ul> |
+| <ul><li>**Utilise votre implémentation existante** : bien que cette approche nécessite quelques modifications d’implémentation, l’implémentation ne part pas de zéro. Vous pouvez utiliser votre couche de données et votre code existants avec un minimum de modifications de la logique d’implémentation.</li><li>**Ne nécessite pas de schéma** : à cette étape de la migration vers le Web SDK, vous n’avez pas besoin de schéma XDM. Vous pouvez plutôt renseigner l’objet `data`, qui envoie directement les données à Adobe Analytics. Une fois la migration vers Web SDK terminée, vous pouvez créer un schéma pour votre organisation et utiliser le mappage des flux de données pour renseigner les champs XDM applicables. Si un schéma était requis à cette étape du processus de migration, votre organisation serait forcée d’utiliser un schéma XDM Adobe Analytics. L’utilisation de ce schéma rend plus difficile, pour votre organisation, l’utilisation de votre propre schéma à l’avenir.</li></ul> | <ul><li>**Les modifications d’implémentation nécessitent l’intervention d’un développeur** : si vous souhaitez apporter des modifications à votre implémentation de Web SDK, vous devez collaborer avec votre équipe de développement pour modifier le code sur votre site. L’approche qui [&#x200B; migre vers l’extension de balise Web SDK](analytics-extension-to-web-sdk.md) évite cet inconvénient.</li><li>**Dette technique d’implémentation** : étant donné que cette approche utilise une forme modifiée de votre implémentation existante, il peut être plus difficile de suivre la logique d’implémentation et d’effectuer des modifications à l’avenir si nécessaire.</li><li>**Nécessite un mappage pour l’envoi de données à Platform** : lorsque votre organisation est prête à utiliser Customer Journey Analytics, vous devez envoyer des données à un jeu de données dans Adobe Experience Platform. Cette action nécessite que chaque champ de l’objet `data` soit une entrée dans l’outil de mappage de flux de données qui l’affecte à un champ de schéma XDM. Avec ce workflow, le mappage ne doit être effectué qu’une seule fois et ne nécessite aucune modification de la mise en œuvre. Cependant, il s’agit d’une étape supplémentaire qui n’est pas requise lors de l’envoi de données dans un objet XDM.</li></ul> |
 
 Adobe recommande de suivre ce chemin d’implémentation dans les scénarios suivants :
 
 * Vous disposez déjà d’une implémentation utilisant la bibliothèque JavaScript Adobe Analytics AppMeasurement. Si vous disposez d’une implémentation utilisant l’extension de balise Adobe Analytics, suivez [Migration de l’extension de balise Adobe Analytics vers l’extension de balise Web SDK](analytics-extension-to-web-sdk.md) à la place.
-* Vous avez l’intention d’utiliser Customer Journey Analytics à l’avenir, mais vous ne souhaitez pas remplacer votre implémentation Analytics par une implémentation de SDK Web à partir de zéro. Le remplacement de votre implémentation à partir de zéro sur le Web SDK nécessite le plus d’efforts, mais offre également l’architecture d’implémentation à long terme la plus viable. Si votre entreprise est prête à passer par une implémentation propre de Web SDK, consultez [Ingestion de données via le SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
+* Vous avez l’intention d’utiliser Customer Journey Analytics à l’avenir, mais vous ne souhaitez pas remplacer votre implémentation Analytics par une implémentation de SDK Web à partir de zéro. Le remplacement de votre implémentation à partir de zéro sur le Web SDK nécessite le plus d’efforts, mais offre également l’architecture d’implémentation à long terme la plus viable. Si votre entreprise est prête à passer par une implémentation propre de Web SDK, consultez [Ingérer des données via le SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
 
 ## Étapes requises pour migrer vers Web SDK
 
@@ -68,7 +66,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
+1. Dans le menu déroulant Service, sélectionnez **[!UICONTROL Adobe Analytics]**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
@@ -77,20 +75,20 @@ Votre flux de données est maintenant prêt à recevoir et à transmettre des do
 
 +++
 
-+++**2. Installez la bibliothèque JavaScript de Web SDK**
++++**2. Installation de la bibliothèque JavaScript Web SDK**
 
 Référencez la dernière version de `alloy.js` afin que ses appels de méthode puissent être utilisés. Voir [Installer le SDK Web à l’aide de la bibliothèque JavaScript](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/install/library) pour plus d’informations et connaître les blocs de code à utiliser.
 
 +++
 
-+++**3. Configurez le SDK Web**
++++**3. Configurer le SDK Web**
 
 Configurez votre implémentation pour pointer vers le flux de données créé à l’étape précédente à l’aide de la commande Web SDK [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview). La commande `configure` doit être définie sur chaque page afin que vous puissiez l’inclure avec le code d’installation de la bibliothèque.
 
-Utilisez les propriétés [`datastreamId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/datastreamid) et [`orgId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande `configure` de Web SDK :
+Utilisez les propriétés [`datastreamId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/datastreamid) et [`orgId`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/orgid) dans la commande Web SDK `configure` :
 
-* Définissez la `datastreamId` sur l’identifiant du flux de données récupéré à l’étape précédente.
-* Définissez le `orgId` sur l’organisation IMS de votre organisation.
+* Définissez `datastreamId` sur l’identifiant de flux de données récupéré à l’étape précédente.
+* Définissez `orgId` sur l’organisation IMS de votre organisation.
 
 ```js
 alloy("configure", {
@@ -99,15 +97,15 @@ alloy("configure", {
 });
 ```
 
-Vous pouvez éventuellement définir d’autres propriétés dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview) en fonction des exigences d’implémentation de votre entreprise.
+Vous pouvez éventuellement définir d’autres propriétés dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview) en fonction des exigences d’implémentation de votre organisation.
 
 +++
 
-+++**4. Mettez à jour la logique de code pour utiliser une payload JSON**
++++**4. Mettre à jour la logique de code pour utiliser une payload JSON**
 
-Modifiez votre implémentation Analytics de sorte qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Le fait d’avoir une [&#x200B; couche de données &#x200B;](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs.
+Modifiez votre implémentation Analytics afin qu’elle ne repose pas sur `AppMeasurement.js` ou l’objet `s`. Au lieu de cela, définissez des variables dans un objet JavaScript correctement formaté, qui est converti en objet JSON lorsqu’il est envoyé à Adobe. Disposer d’une [couche de données](../../prepare/data-layer.md) sur votre site est extrêmement utile lors de la définition de valeurs, car vous pouvez continuer à référencer ces mêmes valeurs. Si votre site utilise la couche de données client Adobe, consultez [Envoyer des données de la couche de données client Adobe avec le SDK Web](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) pour savoir comment lire les valeurs de la couche de données lorsque vous appelez `sendEvent`.
 
-Pour envoyer des données à Adobe Analytics, la payload de Web SDK doit utiliser `data.__adobe.analytics` avec toutes les variables d’analyse définies dans cet objet. Les variables au sein de cet objet partagent des noms et des formats identiques à leurs équivalents de variables AppMeasurement. Par exemple, si vous définissez la variable `products`, ne la divisez pas en objets individuels comme vous le feriez avec XDM. Au lieu de cela, incluez-le en tant que chaîne, exactement comme si vous définissiez la variable `s.products` :
+Pour envoyer des données à Adobe Analytics, la payload de Web SDK doit utiliser `data.__adobe.analytics` avec toutes les variables d’analyse définies dans cet objet. Les variables au sein de cet objet partagent des noms et des formats identiques à leurs équivalents de variables AppMeasurement. Par exemple, si vous définissez la variable `products`, ne la divisez pas en objets individuels comme vous le feriez avec XDM. Au lieu de cela, incluez-la comme une chaîne, c’est-à-dire si vous définissez la variable `s.products` :
 
 ```json
 {
@@ -138,11 +136,11 @@ var dataObj = {data:{__adobe:{analytics:{...a}}}};
 
 +++
 
-+++**5. Appels de méthode de mise à jour pour utiliser le SDK Web**
++++**5. Mettre à jour les appels de méthode pour utiliser le SDK Web**
 
 Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functions/t-method.md) et [`s.tl()`](../../vars/functions/tl-method.md), en les remplaçant par la commande [`sendEvent`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/sendevent/overview). Trois scénarios sont à prendre en compte :
 
-* **Suivi des pages vues** : remplacez l’appel de suivi des pages vues par la commande `sendEvent` de Web SDK :
+* **Suivi des pages vues** : remplacez l’appel de suivi des pages vues par la commande Web SDK `sendEvent` :
 
   ```js
   // If your current implementation has this line of code:
@@ -152,7 +150,7 @@ Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functi
   alloy("sendEvent", dataObj);
   ```
 
-* **Suivi automatique des liens** : la propriété de configuration [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activée par défaut. Il définit automatiquement les variables de suivi des liens appropriées pour envoyer des données à Adobe Analytics. Si vous souhaitez désactiver le suivi automatique des liens, définissez cette propriété sur `false` dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Suivi automatique des liens** : la propriété de configuration [`clickCollectionEnabled`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) est activée par défaut. Il définit automatiquement les variables de suivi des liens appropriées pour envoyer des données à Adobe Analytics. Pour désactiver le suivi automatique des liens, définissez cette propriété sur `false` dans la commande [`configure`](https://experienceleague.adobe.com/fr/docs/experience-platform/web-sdk/commands/configure/overview).
 
 * **Suivi manuel des liens** : le SDK Web ne dispose pas de commandes distinctes entre les appels pageview et non-pageview. Fournissez cette distinction dans l’objet de payload.
 
@@ -169,11 +167,11 @@ Mettez à jour toutes les instances où vous appelez [`s.t()`](../../vars/functi
 
 +++
 
-+++**6. Validez et publiez les modifications**
++++**6. Valider et publier les modifications**
 
-Une fois que vous avez supprimé toutes les références à AppMeasurement et à l’objet `s`, publiez vos modifications dans votre environnement de développement afin de vérifier que la nouvelle implémentation fonctionne. Une fois que vous avez validé que tout fonctionne correctement, vous pouvez publier vos mises à jour en production.
+Une fois que vous avez supprimé toutes les références à AppMeasurement et à l’objet `s`, publiez vos modifications dans votre environnement de développement pour vérifier que la nouvelle implémentation fonctionne. Une fois que vous avez validé que tout fonctionne correctement, vous pouvez publier vos mises à jour en production.
 
-Si la migration est correcte, `AppMeasurement.js` n’est plus nécessaire sur votre site et toutes les références à ce script peuvent être supprimées.
+Si la migration est correcte, `AppMeasurement.js` n&#39;est plus nécessaire sur votre site et toutes les références à ce script peuvent être supprimées.
 
 +++
 

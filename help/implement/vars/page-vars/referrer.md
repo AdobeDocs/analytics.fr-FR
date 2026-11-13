@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 85%
+source-wordcount: '318'
+ht-degree: 78%
 ---
 # referrer
 
@@ -48,7 +48,7 @@ Le référent est mappé sur les variables suivantes :
 * [Objet XDM](/help/implement/aep-edge/xdm-var-mapping.md) : `xdm.web.webReferrer.URL`
 * [Objet de données](/help/implement/aep-edge/data-var-mapping.md) : `data.__adobe.analytics.referrer`
 
-Le SDK Web inclut automatiquement des `web.webReferrer.URL` sur chaque événement envoyé, le cas échéant.
+Le SDK Web inclut automatiquement `web.webReferrer.URL` sur chaque événement envoyé, si disponible.
 
 ## Référent utilisant l’extension Adobe Analytics
 
@@ -71,10 +71,10 @@ La variable `s.referrer` est une chaîne contenant l’URL de la page précéden
 s.referrer = "https://example.com";
 ```
 
-Si vous utilisez la `digitalData` [couche de données](../../prepare/data-layer.md) :
+Si vous utilisez la couche de données client [Adobe](../../prepare/data-layer.md), lisez la valeur avec `getState()`. Voir [Lire la couche de données avec AppMeasurement](../../prepare/data-layer.md#appmeasurement) pour savoir quand l’appeler.
 
 ```js
-s.referrer = digitalData.page.pageInfo.referringURL;
+s.referrer = adobeDataLayer.getState("page.referrer");
 ```
 
 >[!CAUTION]

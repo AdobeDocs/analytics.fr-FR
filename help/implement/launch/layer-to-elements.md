@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 93%
+source-wordcount: '407'
+ht-degree: 46%
 ---
 # Mise en correspondance des objets de couche de données avec les éléments de données
 
@@ -45,17 +45,25 @@ Une fois que votre organisation a établi et implémenté une couche de données
 
 Les [éléments de données](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=fr) sont des composants dans la collecte de données Adobe Experience Platform que vous pouvez utiliser dans l’ensemble de l’outil. Vous pouvez attribuer des valeurs de variable dans l’extension Adobe Analytics à l’aide d’éléments de données.
 
+Les étapes suivantes utilisent l’[extension de la couche de données client Adobe](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/client-data-layer/overview), qui doit être installée dans votre propriété de balise.
+
 1. Connectez-vous à [la collecte de données Adobe Experience Platform](https://experience.adobe.com/data-collection) à l’aide de vos identifiants Adobe ID.
-1. Cliquez sur la propriété de balise de votre choix.
-1. Cliquez sur l’onglet **[!UICONTROL Éléments de données]**, puis sur **[!UICONTROL Ajouter un élément de données]**.
+1. Sélectionnez la propriété de balise de votre choix.
+1. Sélectionnez l’onglet **[!UICONTROL Éléments de données]**, puis sélectionnez **[!UICONTROL Ajouter un élément de données]**.
 
    ![Création d’un élément de données](assets/createelement.png)
 
-1. Saisissez un nom pour votre élément de données. Il peut s’agir d’un libellé simple qui correspond à une variable JavaScript dans la couche de données dont vous souhaitez effectuer le suivi.
-1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Core]**.
-1. Dans la liste déroulante **[!UICONTROL Type d’élément de données]**, sélectionnez **[!UICONTROL Variable JavaScript]**. Un champ de texte s’affiche à droite et vous permet de saisir la variable JavaScript à faire correspondre à cet élément de données.
-1. Saisissez la variable JavaScript souhaitée, généralement dans votre couche de données. Par exemple, si la couche de données de votre entreprise correspond étroitement à la pratique recommandée par Adobe, une valeur `digitalData.page.pageInfo.pageName` peut être indiquée. Vous pouvez utiliser la console de votre navigateur pour valider la syntaxe et les valeurs des variables JavaScript.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Saisissez un nom pour votre élément de données, tel que `Page name`.
+1. Dans la liste déroulante **[!UICONTROL Extension]**, sélectionnez **[!UICONTROL Couche de données client Adobe]**.
+1. Dans la liste déroulante **[!UICONTROL Type d’élément de données]**, sélectionnez **[!UICONTROL État calculé de la couche de données]**.
+1. Sous **[!UICONTROL Valeur renvoyée]**, sélectionnez **[!UICONTROL Chemin spécifique]**, puis saisissez le chemin d’accès à la valeur dans votre couche de données, tel que `page.name`. Pour valider un chemin d’accès, exécutez `adobeDataLayer.getState("page.name")` dans la console de votre navigateur.
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
+
+Utilisez ces éléments de données dans les règles que déclenche l’événement **[!UICONTROL Push de la couche de données]** de l’extension, de sorte que la couche de données ait chargé et contienne les données de la notification push. Voir [Types d’éléments de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+
+### Couches de données basées sur des objets {#object-based}
+
+Si votre couche de données est un objet JavaScript, tel qu’un objet CEDDL `digitalData`, utilisez plutôt le type d’élément de données **[!UICONTROL Variable JavaScript]** à partir de l’extension **[!UICONTROL Core]**. Saisissez le chemin d’accès à la valeur, par exemple `digitalData.page.pageInfo.pageName`. Ce type d’élément de données ne peut pas lire la couche de données client Adobe, qui stocke ses données dans un état calculé au lieu de dans les propriétés d’objet.
 
 ## Étapes suivantes
 

@@ -26,18 +26,16 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 7%
-
+source-wordcount: '1728'
+ht-degree: 8%
 ---
-
 # Migration de l’extension de balise Adobe Analytics vers l’extension de balise Web SDK
 
 Ce chemin d’implémentation implique une approche de migration méthodique pour passer de l’extension de balise Adobe Analytics à l’extension de balise Web SDK. D’autres chemins d’implémentation sont abordés sur des pages distinctes :
 
-* [Bibliothèque JavaScript AppMeasurement vers Web SDK &#x200B;](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous supprimez manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacez par la bibliothèque JavaScript Web SDK (`alloy.js`).
+* [Bibliothèque JavaScript AppMeasurement vers Web SDK](appmeasurement-to-web-sdk.md) : approche fluide et méthodique de la migration vers Web SDK, sauf qu’elle n’utilise pas de balises. Au lieu de cela, vous supprimez manuellement la bibliothèque de collecte de données Adobe Analytics (`AppMeasurement.js`) et la remplacez par la bibliothèque JavaScript Web SDK (`alloy.js`).
 * [Extension de balise Web SDK](web-sdk-tag-extension.md) : nouvelle installation de Web SDK dans laquelle vous gérez l’implémentation à l’aide de balises dans la collecte de données Adobe Experience Platform. Le groupe de champs Adobe Analytics ExperienceEvent, qui comprend des variables Analytics standard à inclure dans votre schéma XDM, est nécessaire.
 * [Bibliothèque Web SDK JavaScript](web-sdk-javascript-library.md) : nouvelle installation de Web SDK à l’aide de la bibliothèque Web SDK JavaScript (`alloy.js`). Gérez la mise en œuvre vous-même au lieu d’utiliser l’interface utilisateur des balises. Le groupe de champs Adobe Analytics ExperienceEvent, qui comprend des variables Analytics standard à inclure dans votre schéma XDM, est nécessaire.
 
@@ -47,12 +45,12 @@ L’utilisation de cette approche de migration présente à la fois des avantage
 
 | Avantages | Inconvénients |
 | --- | --- |
-| <ul><li>**Aucune modification de code sur votre site** : puisque des balises sont déjà installées dans votre implémentation, toutes les mises à jour de migration peuvent être effectuées dans l’interface des balises.</li><li>**Utilise votre implémentation existante** : cette approche ne nécessite pas de nouvelle implémentation. Bien qu’il nécessite de nouvelles actions de règle, vous pouvez réutiliser vos éléments de données et conditions de règle existants avec un minimum de modifications.</li><li>**Ne nécessite pas de schéma** : pour cette étape de la migration vers le Web SDK, vous n’avez pas besoin de schéma XDM. Vous pouvez plutôt renseigner l’objet `data` , qui envoie directement les données à Adobe Analytics. Une fois la migration vers Web SDK terminée, vous pouvez créer un schéma pour votre organisation et utiliser le mappage des flux de données pour renseigner les champs XDM applicables. Si un schéma était requis à cette étape du processus de migration, votre organisation serait forcée d’utiliser un schéma XDM Adobe Analytics. L’utilisation de ce schéma rend plus difficile, pour votre organisation, l’utilisation de votre propre schéma à l’avenir.</li></ul> | <ul><li>**Dette technique d’implémentation** : étant donné que cette approche utilise une forme modifiée de votre implémentation existante, il peut être plus difficile de suivre la logique d’implémentation et d’effectuer des modifications si nécessaire. Le code personnalisé peut être particulièrement difficile à déboguer.</li><li>**Nécessite un mappage pour l’envoi de données à Platform** : lorsque votre organisation est prête à utiliser Customer Journey Analytics, vous devez envoyer des données à un jeu de données dans Adobe Experience Platform. Cette action nécessite que chaque champ de l’objet `data` soit une entrée dans l’outil de mappage de flux de données qui l’affecte à un champ de schéma XDM. Le mappage ne doit être effectué qu’une seule fois pour ce workflow, ce qui évite toute modification de l’implémentation. Cependant, il s’agit d’une étape supplémentaire qui n’est pas requise lors de l’envoi de données dans un objet XDM.</li></ul> |
+| <ul><li>**Aucune modification de code sur votre site** : puisque des balises sont déjà installées dans votre implémentation, toutes les mises à jour de migration peuvent être effectuées dans l’interface des balises.</li><li>**Utilise votre implémentation existante** : cette approche ne nécessite pas de nouvelle implémentation. Bien qu’il nécessite de nouvelles actions de règle, vous pouvez réutiliser vos éléments de données et conditions de règle existants avec un minimum de modifications.</li><li>**Ne nécessite pas de schéma** : à cette étape de la migration vers le Web SDK, vous n’avez pas besoin de schéma XDM. Vous pouvez plutôt renseigner l’objet `data`, qui envoie directement les données à Adobe Analytics. Une fois la migration vers Web SDK terminée, vous pouvez créer un schéma pour votre organisation et utiliser le mappage des flux de données pour renseigner les champs XDM applicables. Si un schéma était requis à cette étape du processus de migration, votre organisation serait forcée d’utiliser un schéma XDM Adobe Analytics. L’utilisation de ce schéma rend plus difficile, pour votre organisation, l’utilisation de votre propre schéma à l’avenir.</li></ul> | <ul><li>**Dette technique d’implémentation** : étant donné que cette approche utilise une forme modifiée de votre implémentation existante, il peut être plus difficile de suivre la logique d’implémentation et d’effectuer des modifications si nécessaire. Le code personnalisé peut être particulièrement difficile à déboguer.</li><li>**Nécessite un mappage pour l’envoi de données à Platform** : lorsque votre organisation est prête à utiliser Customer Journey Analytics, vous devez envoyer des données à un jeu de données dans Adobe Experience Platform. Cette action nécessite que chaque champ de l’objet `data` soit une entrée dans l’outil de mappage de flux de données qui l’affecte à un champ de schéma XDM. Avec ce workflow, le mappage ne doit être effectué qu’une seule fois et ne nécessite aucune modification de la mise en œuvre. Cependant, il s’agit d’une étape supplémentaire qui n’est pas requise lors de l’envoi de données dans un objet XDM.</li></ul> |
 
 Adobe recommande de suivre ce chemin d’implémentation dans les scénarios suivants :
 
-* Vous disposez déjà d’une implémentation utilisant l’extension de balise Adobe Analytics. Si vous disposez d’une implémentation utilisant AppMeasurement, suivez [Migration d’AppMeasurement vers le SDK Web](appmeasurement-to-web-sdk.md) à la place.
-* Vous avez l’intention d’utiliser Customer Journey Analytics à l’avenir, mais vous ne souhaitez pas remplacer votre implémentation Analytics par une implémentation de SDK Web à partir de zéro. Le remplacement de votre implémentation à partir de zéro sur le Web SDK nécessite le plus d’efforts, mais offre également l’architecture d’implémentation à long terme la plus viable. Si votre entreprise est prête à passer par une implémentation propre de Web SDK, consultez [Ingestion de données via le SDK web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
+* Vous disposez déjà d’une implémentation utilisant l’extension de balise Adobe Analytics. Si vous disposez d’une implémentation utilisant AppMeasurement, suivez [Migrer d’AppMeasurement vers le SDK Web](appmeasurement-to-web-sdk.md) à la place.
+* Vous avez l’intention d’utiliser Customer Journey Analytics à l’avenir, mais vous ne souhaitez pas remplacer votre implémentation Analytics par une implémentation de SDK Web à partir de zéro. Le remplacement de votre implémentation à partir de zéro sur le Web SDK nécessite le plus d’efforts, mais offre également l’architecture d’implémentation à long terme la plus viable. Si votre entreprise est prête à passer par une implémentation propre de Web SDK, consultez [Ingérer des données via le SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk) dans le guide d’utilisation de Customer Journey Analytics.
 
 ## Étapes requises pour migrer vers Web SDK
 
@@ -68,7 +66,7 @@ Créez un flux de données dans la collecte de données Adobe Experience Platfor
 1. Sélectionnez **[!UICONTROL Nouveau flux de données]**.
 1. Saisissez le nom souhaité, puis sélectionnez **[!UICONTROL Enregistrer]**.
 1. Une fois le flux de données créé, sélectionnez **[!UICONTROL Ajouter un service]**.
-1. Dans le menu déroulant Service, sélectionnez **&#x200B;**.
+1. Dans le menu déroulant Service, sélectionnez **[!UICONTROL Adobe Analytics]**.
 1. Saisissez le même identifiant de suite de rapports que le site auquel vous envoyez actuellement des données d’analyse. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![Ajouter un service Adobe Analytics](assets/datastream-rsid.png) {style="border:1px solid lightslategray"}
@@ -77,7 +75,7 @@ Votre flux de données est maintenant prêt à recevoir et à transmettre des do
 
 +++
 
-+++**2. Ajoutez l’extension Web SDK à la propriété de balise**
++++**2. Ajoutez l’extension Web SDK à votre propriété de balise**
 
 Cette section prépare votre balise pour l’essentiel de la migration effectuée à l’étape suivante.
 
@@ -99,20 +97,20 @@ Le SDK Web est désormais installé sur la propriété de balise.
 
 +++
 
-+++**3. Créez un élément de données d’objet de données**
++++**3. Créer un élément de données d’objet de données**
 
 L’élément de données d’objet de données fournit un cadre intuitif pour configurer une payload que le SDK Web utilise pour envoyer à un flux de données. La plupart des règles que vous mettez à jour à l’étape suivante interagissent avec cet élément de données.
 
 1. Dans le volet de navigation de gauche de l’interface des balises, sélectionnez **[!UICONTROL Éléments de données]**.
-1. Sélectionnez **[!UICONTROL Ajouter un élément de données]**
+1. Sélectionner **[!UICONTROL Ajouter Un Élément De Données]**
 1. Définissez les paramètres suivants pour l’élément de données :
-   * [!UICONTROL Nom] : tout ce que vous souhaitez, tel que « Couche de données » ou « Objet de données ».
-   * [!UICONTROL Extension] : [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Type d’élément de données] : [!UICONTROL Variable]
+   * [!UICONTROL Nom] : tout ce que vous souhaitez, tel que « Objet de données »
+   * [!UICONTROL Extension] : [!UICONTROL SDK web Adobe Experience Platform]
+   * [!UICONTROL Type D’Élément De Données] : [!UICONTROL Variable]
    * Les cases à cocher peuvent rester en l’état
 1. Sur la droite, sélectionnez les paramètres suivants :
-   * Bouton radio de propriété : [!UICONTROL Data]
-   * Solution : 
+   * Bouton radio de propriété : [!UICONTROL Données]
+   * Solution : [!UICONTROL Adobe Analytics]
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 ![Créer un élément de données](assets/create-data-element.png) {style="border:1px solid lightslategray"}
@@ -129,27 +127,27 @@ Cette étape contient l’essentiel de l’effort requis pour migrer vers Web SD
 1. Sélectionnez une règle à modifier.
 1. Sélectionnez l’action **[!UICONTROL Adobe Analytics - Définir les variables]**
 1. Notez toutes les variables Analytics définies dans cette règle. Incluez les variables définies dans les menus déroulants et les variables définies dans le code personnalisé.
-1. Modifiez la [!UICONTROL Configuration de l’action] pour les paramètres suivants :
-   * [!UICONTROL Extension] : [!UICONTROL Adobe Experience Platform Web SDK]
-   * [!UICONTROL Type d’action] : Mettre à jour la variable
+1. Modifiez la [!UICONTROL Configuration de l&#39;action] sur les paramètres suivants :
+   * [!UICONTROL Extension] : [!UICONTROL SDK web Adobe Experience Platform]
+   * [!UICONTROL Type d&#39;action] : mettre à jour la variable
 1. Assurez-vous que votre objet de données est sélectionné dans la liste déroulante de droite.
 1. Définissez les variables Analytics sur leurs mêmes valeurs respectives telles qu’elles ont été configurées dans l’extension Analytics.
    * Les variables définies dans l’interface des balises peuvent être traduites directement en valeurs identiques.
-   * Les variables de chaîne définies dans le code personnalisé nécessitent des ajustements minimaux. Au lieu d’utiliser l’objet `s`, utilisez `data.__adobe.analytics` à la place. Par exemple, `s.eVar1` se traduirait par `data.__adobe.analytics.eVar1`.
+   * Les variables de chaîne définies dans le code personnalisé nécessitent des ajustements minimaux. Au lieu d’utiliser l’objet `s`, utilisez `data.__adobe.analytics`. Par exemple, `s.eVar1` serait traduit en `data.__adobe.analytics.eVar1`.
    * Les variables de configuration Analytics et les appels de méthode dans le code personnalisé peuvent nécessiter une logique d’implémentation modifiée. Voir chaque [variable](/help/implement/vars/overview.md) respective pour déterminer comment obtenir son équivalent à l’aide de Web SDK.
-1. Une fois toute la logique des règles répliquée à l’aide de l’extension Web SDK, sélectionnez **[!UICONTROL Conserver les modifications]**.
-1. Répétez ces étapes pour chaque configuration d’action qui utilise l’extension Adobe Analytics pour définir des valeurs. Cette étape comprend à la fois des variables définies à l’aide de l’interface des balises et des variables définies à l’aide de code personnalisé. Les blocs de code personnalisé ne peuvent pas référencer l’objet `s` où que ce soit.
+1. Une fois que toute la logique des règles est répliquée à l’aide de l’extension Web SDK, sélectionnez **[!UICONTROL Conserver les modifications]**.
+1. Répétez ces étapes pour chaque configuration d’action qui utilise l’extension Adobe Analytics pour définir des valeurs. Cette étape comprend à la fois des variables définies à l’aide de l’interface des balises et des variables définies à l’aide de code personnalisé. Les blocs de code personnalisé ne peuvent référencer l&#39;objet `s` nulle part.
 
-Les étapes ci-dessus s’appliquent uniquement aux règles qui définissent des valeurs. Les étapes suivantes remplacent toutes les actions qui utilisent l’[!UICONTROL Configuration de l’action] [!UICONTROL Envoyer la balise].
+Les étapes ci-dessus s’appliquent uniquement aux règles qui définissent des valeurs. Les étapes suivantes remplacent toutes les actions qui utilisent la [!UICONTROL configuration de l’action] [!UICONTROL Envoyer la balise].
 
 1. Sélectionnez une règle qui envoie une balise.
 1. Sélectionnez l’action **[!UICONTROL Adobe Analytics - Envoyer la balise]**.
 1. Notez la valeur actuelle du bouton radio [!UICONTROL Tracking] à droite ([`s.t()`](../../vars/functions/t-method.md) ou [`s.tl()`](../../vars/functions/tl-method.md)).
-1. Modifiez la [!UICONTROL Configuration de l’action] pour les paramètres suivants :
-   * [!UICONTROL Extension] : [!UICONTROL Adobe Experience Platform Web SDK]
+1. Modifiez la [!UICONTROL Configuration de l&#39;action] sur les paramètres suivants :
+   * [!UICONTROL Extension] : [!UICONTROL SDK web Adobe Experience Platform]
    * [!UICONTROL Type d’action] : [!UICONTROL Envoyer l’événement]
 1. Sur la droite, modifiez les paramètres d’action comme suit :
-   * [!UICONTROL Type] : par `s.t()`, utilisez **[!UICONTROL Pages vues de détails sur la page web]**. Par `s.tl()`, utilisez **[!UICONTROL Clics sur les liens d’interaction web]**. Si vous utilisez [`s.tl()`](../../vars/functions/tl-method.md), vous devez également inclure les champs suivants dans votre objet de données. Ces champs sont répertoriés sous [!UICONTROL Propriétés supplémentaires] lors de l’exécution de la configuration d’action [!UICONTROL Mettre à jour la variable] :
+   * [!UICONTROL Type] : pour `s.t()`, utilisez **[!UICONTROL Vues de page Web Webpagedetails]**. Pour `s.tl()`, utilisez **[!UICONTROL Clics sur les liens d&#39;interaction web]**. Si vous utilisez [`s.tl()`](../../vars/functions/tl-method.md), vous devez également inclure les champs suivants dans votre objet de données. Ces champs sont répertoriés sous [!UICONTROL Propriétés supplémentaires] lors de l’exécution de la configuration d’action [!UICONTROL Mettre à jour la variable] :
      * [Nom du lien](../../vars/functions/tl-method.md)
      * [Type de lien](../../vars/functions/tl-method.md)
      * [URL du lien](../../vars/config-vars/linkurl.md)
@@ -158,14 +156,14 @@ Les étapes ci-dessus s’appliquent uniquement aux règles qui définissent des
 
 +++
 
-+++**5. Publiez les règles mises à jour**
++++**5. Publier les règles mises à jour**
 
 La publication des règles mises à jour suit le même workflow que toute autre modification de votre configuration de balises.
 
 1. Dans le volet de navigation de gauche de l’interface des balises, sélectionnez **[!UICONTROL Flux de publication]**.
 1. Sélectionnez **[!UICONTROL Ajouter une bibliothèque]**.
 1. Attribuez un nom à cette validation de balise, par exemple « Mettre à niveau vers Web SDK ».
-1. Sélectionnez **[!UICONTROL Ajouter toutes les ressources modifiées]**.
+1. Sélectionnez **[!UICONTROL Ajouter Toutes Les Ressources Modifiées]**.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 1. Le workflow de publication affiche un point orange, indiquant qu’il est en cours de création. Une fois le point vert affiché, vos modifications sont disponibles dans votre environnement de développement.
 1. Testez les modifications apportées à votre environnement de développement pour vous assurer que toutes les règles se déclenchent correctement et que l’objet de données est renseigné avec les valeurs attendues.
@@ -175,13 +173,13 @@ La publication des règles mises à jour suit le même workflow que toute autre 
 
 +++
 
-+++**6. Désactivez l’extension Analytics**
++++**6. Désactiver l’extension Analytics**
 
 Une fois que votre implémentation de balise est entièrement sur le Web SDK, vous pouvez désactiver l’extension Adobe Analytics.
 
 1. Dans le volet de navigation de gauche de l’interface des balises, sélectionnez **[!UICONTROL Extensions]**.
-1. Recherchez et sélectionnez l’extension . Sur la droite, sélectionnez **[!UICONTROL Désactiver]**.
-1. Suivez le même workflow de publication ci-dessus pour publier la suppression de l’extension .
+1. Recherchez et sélectionnez l’extension [!UICONTROL Adobe Analytics]. Sur la droite, sélectionnez **[!UICONTROL Désactiver]**.
+1. Suivez le même workflow de publication ci-dessus pour publier la suppression de l’extension [!UICONTROL Adobe Analytics].
 1. Une fois l’extension désactivée en production, vous pouvez la désinstaller entièrement. Sélectionnez l’extension, sélectionnez le menu à trois points sur la droite, puis sélectionnez **[!UICONTROL Désinstaller]**.
 1. Suivez le même workflow de publication ci-dessus pour publier ces modifications en production.
 
