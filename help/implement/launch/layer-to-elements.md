@@ -59,7 +59,7 @@ Les étapes suivantes utilisent l’[extension de la couche de données client A
 1. Sous **[!UICONTROL Valeur renvoyée]**, sélectionnez **[!UICONTROL Chemin spécifique]**, puis saisissez le chemin d’accès à la valeur dans votre couche de données, tel que `page.name`. Pour valider un chemin d’accès, exécutez `adobeDataLayer.getState("page.name")` dans la console de votre navigateur.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
 
-Utilisez ces éléments de données dans les règles que déclenche l’événement **[!UICONTROL Push de la couche de données]** de l’extension, de sorte que la couche de données ait chargé et contienne les données de la notification push. Voir [Types d’éléments de données](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+Utilisez ces éléments de données dans les règles que déclenche l’événement **[!UICONTROL Push de la couche de données]** de l’extension, de sorte que la couche de données ait chargé et contienne les données de la notification push. Voir [Types d’éléments de données](https://experienceleague.adobe.com/fr/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
 
 ### Couches de données basées sur des objets {#object-based}
 
