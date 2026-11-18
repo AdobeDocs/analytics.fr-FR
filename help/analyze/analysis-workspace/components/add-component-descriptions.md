@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 20%
@@ -54,7 +54,7 @@ Vous pouvez ajouter des descriptions aux composants dans une suite de rapports.
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ajouter des descriptions de composant](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -69,25 +69,23 @@ Pour obtenir des informations générales sur le dictionnaire de données, voir 
 
 >[!MORELIKETHIS]
 >
->[Paramètres des composants : rapport](/help/components/vrs/vrs-components.md)
+>[Paramètres des composants de rapport](/help/components/vrs/vrs-components.md)
 >[Entrées du composant Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >
 
 ## Génération automatique de descriptions
-
-{{release-limited-testing-section}}
 
 Au lieu d’écrire chaque description manuellement, Adobe Analytics peut utiliser l’IA générative pour écrire des descriptions pour vous. Vous pouvez générer une description pour un seul composant ou générer des descriptions pour de nombreux composants en même temps.
 
 Descriptions générées :
 
 * Ne contiennent pas plus de 3 phrases.
-* Terminez par le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]** afin que les utilisateurs et utilisatrices sachent que la description a été générée.
+* Terminez par le texte **[!UICONTROL Généré par Adobe à l’aide de l’IA]**, afin que les utilisateurs sachent que la description a été générée.
 * Modifiables une fois qu’ils ont été générés.
 
 ### Conditions préalables
 
-Avant de pouvoir générer des descriptions, votre entreprise doit accepter certains termes juridiques d’IA générative. Si votre entreprise n’a pas accepté ces conditions, l’option permettant de générer des descriptions est grisée. Sélectionnez l’icône d’information ![Infos](/help/assets/icons/InfoOutline.svg) en regard de l’option pour savoir comment activer la fonctionnalité, ou contactez l’administrateur ou l’administratrice de votre organisation ou l’équipe du compte Adobe.
+Avant de pouvoir générer des descriptions, votre entreprise doit accepter certains termes juridiques d’IA générative. Si votre entreprise n’a pas accepté ces conditions, l’option permettant de générer des descriptions est grisée. Sélectionnez l’icône d’information ![Info](/help/assets/icons/InfoOutline.svg) en regard de l’option pour savoir comment activer la fonctionnalité, ou contactez l’équipe de l’administrateur ou administratrice de votre organisation ou l’équipe du compte Adobe.
 
 ### Comment sont générées les descriptions ?
 
@@ -106,12 +104,12 @@ Sélectionnez un emplacement pour savoir comment y générer des descriptions.
 
 | Emplacement | Composants pris en charge | Un seul composant | Composants multiples |
 | --- | --- | --- | --- |
-| [Dictionnaire de données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>Dimensions</li><li>Mesures</li><li>Mesures calculées</li><li>Segments</li><li>Périodes</li></ul> | Oui | Oui |
+| [Dictionnaire De Données](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md) | <ul><li>Dimensions</li><li>Mesures</li><li>Mesures calculées</li><li>Segments</li><li>Périodes</li></ul> | Oui | Oui |
 | [Créateur de segments](/help/components/segmentation/segmentation-workflow/seg-build.md) | Segments | Oui | Non |
-| [&#x200B; Gestionnaire de segments &#x200B;](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | Segments | Non | Oui |
+| [Gestionnaire de segments](/help/components/segmentation/segmentation-workflow/seg-manage.md#action-bar) | Segments | Non | Oui |
 | [Créateur de mesures calculées](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md) | Mesures calculées | Oui | Non |
 | [Gestionnaire de mesures calculées](/help/components/calculated-metrics/workflow/cm-manager.md#action-bar) | Mesures calculées | Non | Oui |
 | [Créateur de périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/create.md#date-range-builder) | Périodes | Oui | Non |
-| [Gestionnaire de périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/manage.md#action-bar) | Périodes | Non | Oui |
+| [Gestionnaire des périodes](/help/analyze/analysis-workspace/components/calendar-date-ranges/manage.md#action-bar) | Périodes | Non | Oui |
 
 {style="table-layout:auto"}
