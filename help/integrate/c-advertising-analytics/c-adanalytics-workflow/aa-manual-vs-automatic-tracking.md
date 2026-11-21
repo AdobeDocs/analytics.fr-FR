@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 584
+source-wordcount: '588'
 ht-degree: 29%
-
 ---
-
 # Type de tracking
 
 Le type de suivi détermine la manière dont l’implémentation d’Adobe Analytics suit les données de votre moteur de recherche. Ce type de suivi est une étape obligatoire pour compléter correctement les données Adobe Analytics avec les données du moteur de recherche.
@@ -48,16 +46,16 @@ Here is a video overview of how to implement the Advertising Analytics tracking 
 
 Deux modes de suivi sont pris en charge : [!UICONTROL Auto] et [!UICONTROL Manuel].
 
-## [!UICONTROL Suivi automatique] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
+## [!UICONTROL Suivi Automatique] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
 Le suivi [!UICONTROL automatique] permet au moteur Adobe Advertising de décider comment les données du moteur de recherche doivent être traitées. Le suivi automatique est l’approche la plus simple, mais peut ne pas aboutir au jeu de données le mieux intégré.
 
-Par conséquent, vous devez cocher une case d’accusé de réception lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre de compte.
+Par conséquent, vous devez cocher une case d&#39;accusé de réception lorsque vous sélectionnez **[!UICONTROL Auto]** avant de pouvoir enregistrer le paramètre de compte.
 
 Notez que pour configurer un compte de moteur de recherche avec le type **[!UICONTROL Auto]**, vous devez effectuer les actions suivantes :
 
-* Le paramètre et la valeur `s_kwcid` sont ajoutés aux modèles de suivi de compte ou aux URL de page de destination dans le compte en cours d’ajout. Ce paramètre et cette valeur sont insérés à la fin de l’URL. Une action supplémentaire peut être requise de votre part si votre serveur web nécessite une certaine paire de `key=value` à la fin de l’URL. Ou une mise à jour pour prendre en charge toute nouvelle paire de `key=value` dans l’URL. Il est de votre responsabilité de vous assurer que les paramètres d’URL ajoutés persistent correctement sur la page de destination finale.
-* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Par exemple, un caractère spécial commun est `+`, qui est utilisé dans les mots-clés « Modification de la correspondance large ».
+* Le paramètre et la valeur `s_kwcid` sont ajoutés aux modèles de suivi de compte ou aux URL de page de destination dans le compte en cours d’ajout. Ce paramètre et cette valeur sont insérés à la fin de l’URL. Une action supplémentaire peut être requise de votre part si votre serveur web nécessite une certaine paire `key=value` à la fin de l’URL. Ou une mise à jour pour prendre en charge toute nouvelle paire `key=value` dans l’URL. Il est de votre responsabilité de vous assurer que les paramètres d’URL ajoutés persistent correctement sur la page de destination finale.
+* De plus, les mots-clés peuvent être insérés dans l’URL d’entrée avec la valeur `s_kwcid`. S’ils contiennent des caractères spéciaux ou des symboles, veuillez vérifier que votre serveur web prend en charge ces caractères. Par exemple, un caractère spécial commun est `+`, qui est utilisé dans les mots-clés « Broad Match Modified ».
 
 >[!IMPORTANT]
 >
@@ -69,11 +67,11 @@ Le suivi manuel vous permet de spécifier comment le processus d’intégration 
 
 ### Ajout d’un suivi manuel au compte Google {#section_41C1EB1AEB034544A5BC291F53C05C67}
 
-La chaîne qui doit être ajoutée au compte Google est affichée ci-dessous. Vous devez ajouter la chaîne à tous vos modèles de suivi utilisés dans l’ensemble de vos comptes.
+La chaîne qui doit être ajoutée au compte Google est affichée ci-dessous. Vous devez ajouter la chaîne à l’ensemble des modèles de suivi utilisés dans votre compte.
 
 >[!IMPORTANT]
 >
->La valeur *`<Advertising Analytics ID>`* (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir la chaîne d’identifiant de compte spécifique à partir de l’écran du compte sous la section [!UICONTROL Tracking].
+>La valeur *`<Advertising Analytics ID>`* (en **gras** ci-dessous) est générique et **doit être remplacée par une chaîne spécifique à votre ID de compte**. Vous pouvez obtenir la chaîne d’identifiant de votre compte spécifique à partir de l’écran du compte sous la section [!UICONTROL Tracking].
 
 **Chaîne de suivi pour les campagnes :**
 
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Code de suivi de la campagne Google Ads](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 Exemples de codes de suivi dans divers formats de modèles de suivi :
 
@@ -118,7 +116,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 ### Ajout d’un suivi manuel au compte Microsoft Advertising {#section_094F8ACA493C4D65B1F54A695558EBF2}
 
-La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est affichée ci-dessous. Vous devez ajouter la chaîne à tous les suffixes d’URL finaux utilisés dans l’ensemble de vos comptes.
+La chaîne qui doit être ajoutée à votre compte Microsoft Advertising est affichée ci-dessous. Vous devez ajouter la chaîne à l’ensemble des suffixes d’URL finale utilisés dans votre compte.
 
 >[!IMPORTANT]
 >
