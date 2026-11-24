@@ -49,12 +49,12 @@ ht-degree: 69%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Panneau de comparaison des segments"
->abstract="Comparez rapidement deux segments parmi tous les points de données pour trouver automatiquement des différences pertinentes.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un segment** : le premier segment que vous souhaitez analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
+>abstract="Comparez rapidement deux segments parmi tous les points de données pour trouver automatiquement des différences pertinentes.<br/><br/>**Paramètres **<br/>**Ajouter un segment** : le premier segment que vous souhaitez analyser.<br/>**Comparer à** : le second segment en fonction duquel vous souhaitez effectuer la comparaison. Il est automatiquement renseigné avec *Tous les autres* (l’inverse de votre premier segment). Si vous le souhaitez, vous pouvez le remplacer *Tous les autres* par un autre segment.<br/>**Paramètres avancés** : la possibilité d’exclure des composants de l’analyse dans la comparaison des segments."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Comparaison des segments dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -63,7 +63,7 @@ Le panneau Comparaison des segments détecte les différences les plus important
 
 >[!BEGINSHADEBOX]
 
-Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://experienceleague.adobe.com/fr/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
+Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} pour une vidéo de démonstration.
 
 >[!ENDSHADEBOX]
 
@@ -73,7 +73,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des
 
 Pour utiliser un panneau **[!UICONTROL Comparaison de segments]** :
 
-1. Créez un panneau **[!UICONTROL Comparaison des segments]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](../panels.md#create-a-panel).
+1. Créez un panneau **[!UICONTROL Comparaison de segments]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](../panels.md#create-a-panel).
 
 1. Spécifiez l’[entrée](#panel-input) du panneau.
 
@@ -107,7 +107,7 @@ Une fois qu’Adobe Analytics a terminé l’analyse des deux segments souhaité
 | **[!UICONTROL Taille et chevauchement]** | Illustre au moyen d’une visualisation [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) les tailles comparatives de chaque segment sélectionné et la façon dont les segments se chevauchent les uns les autres. |
 | **[!UICONTROL Visiteurs et visiteuses uniques pour le premier segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le premier segment (dans l’exemple Visites sur une seule page) |
 | **[!UICONTROL Visiteurs et visiteuses uniques pour le deuxième segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le deuxième segment (dans l’exemple Premières visites) |
-| **[!UICONTROL Principales mesures par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
+| **[!UICONTROL Mesures principales par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
 | **[!UICONTROL Mesure dans le temps par segment]** | Visualisation [Graphique en courbes](/help/analyze/analysis-workspace/visualizations/line.md) présentant les mesures au fil du temps pour les segments sélectionnés. |
 | **[!UICONTROL Principaux éléments de dimension par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) présentant les éléments de dimension mixtes pour les segments sélectionnés. |
 | **[!UICONTROL Éléments de dimension par segment]** | Visualisation [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) présentant les éléments de dimension par segment. |

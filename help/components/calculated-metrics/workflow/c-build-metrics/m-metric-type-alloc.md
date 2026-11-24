@@ -27,17 +27,15 @@ topic_v2:
     internal-label: Customer engagement
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 615
+source-wordcount: '615'
 ht-degree: 100%
-
 ---
-
 # Type de mesure et attribution {#metric-type-attribution}
 
 Vous pouvez configurer le type de mesure et le [modèle d’attribution](#attribution-models) pour une mesure dans une définition de mesure calculée.
 
 1. Sélectionnez ![Paramètre](/help/assets/icons/Setting.svg) dans le composant de mesure.
-1. Dans la boîte de dialogue contextuelle, réalisez les actions suivantes :
+1. Dans la boîte de dialogue contextuelle :
 
    ![Type de mesure et attribution](assets/cm-type-alloc.png)
 
@@ -50,16 +48,16 @@ Vous pouvez configurer le type de mesure et le [modèle d’attribution](#attrib
 
    * Spécifiez **[!UICONTROL Attribution]**.
 
-      1. Vous pouvez effectuer l’une des actions suivantes :
+     1. Vous pouvez effectuer l’une des actions suivantes :
 
-         * Désactivez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]** pour utiliser le modèle d’attribution de colonne par défaut, à savoir Dernière touche, avec un intervalle de recherche en amont de 30 jours.
-         * Activez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]**. Dans la boîte de dialogue **[!UICONTROL Modèle d’attribution de colonne]**,
+        * Désactivez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]** pour utiliser le modèle d’attribution de colonne par défaut, à savoir Dernière touche, avec un intervalle de recherche en amont de 30 jours.
+        * Activez **[!UICONTROL Utiliser un modèle d’attribution différent du modèle par défaut]**. Dans la boîte de dialogue **[!UICONTROL Modèle d’attribution de colonne]**,
 
-            * sélectionnez un **[!UICONTROL Modèle]** parmi les [modèles d’attribution](#attribution-models).
-            * sélectionnez un **[!UICONTROL Conteneur]** parmi les options de [conteneur](#container).
-            * sélectionnez un **[!UICONTROL Intervalle de recherche en amont]** dans les options d’[intervalle de recherche en amont](#lookback-window). Si vous sélectionnez **[!UICONTROL Durée personnalisée]**, vous pouvez définir la période avec un granularité allant de **[!UICONTROL minute(s)]** à **[!UICONTROL trimestre(s)]**.
+          * sélectionnez un **[!UICONTROL Modèle]** parmi les [modèles d’attribution](#attribution-models).
+          * sélectionnez un **[!UICONTROL Conteneur]** parmi les options de [conteneur](#container).
+          * sélectionnez un **[!UICONTROL Intervalle de recherche en amont]** dans les options d’[intervalle de recherche en amont](#lookback-window). Si vous sélectionnez **[!UICONTROL Durée personnalisée]**, vous pouvez définir la période avec un granularité allant de **[!UICONTROL minute(s)]** à **[!UICONTROL trimestre(s)]**.
 
-      1. Sélectionnez **[!UICONTROL Appliquer]** pour appliquer le modèle d’attribution différent du modèle par défaut. Sélectionnez Annuler pour annuler.
+     1. Sélectionnez **[!UICONTROL Appliquer]** pour appliquer le modèle d’attribution différent du modèle par défaut. Sélectionner Annuler pour annuler.
 
      Si vous avez déjà défini un modèle d’attribution différent du modèle par défaut, sélectionnez **[!UICONTROL Modifier]** pour modifier la sélection.
 
@@ -71,12 +69,12 @@ Consultez [Exemple](#example) pour un exemple d’utilisation d’un modèle d�
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_nondefaultattributionmodel"
 >title="Utilisation d’un modèle d’attribution différent du modèle par défaut"
->abstract="Activez un modèle d’attribution autre que celui par défaut pour la mesure sélectionnée."
+>abstract="Activer un modèle d’attribution autre que celui par défaut pour la mesure sélectionnée."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attributionmodel"
 >title="Modèle"
->abstract="Sélectionnez un modèle d’attribution pour la mesure."
+>abstract="Sélectionner un modèle d’attribution pour la mesure."
 
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_lasttouch"
@@ -161,7 +159,7 @@ Consultez [Exemple](#example) pour un exemple d’utilisation d’un modèle d�
 >[!CONTEXTUALHELP]
 >id="components_calculatedmetrics_attribution_container"
 >title="Conteneur"
->abstract="Sélectionnez un conteneur pour définir la portée souhaitée pour l’attribution."
+>abstract="Sélectionner un conteneur pour définir la portée souhaitée pour l’attribution."
 
 {{attribution-container}}
 

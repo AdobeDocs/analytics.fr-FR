@@ -46,14 +46,14 @@ ht-degree: 87%
 >[!CONTEXTUALHELP]
 >id="workspace_pagesummary_panel"
 >title="Panneau Synthèse de la page"
->abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres &#x200B;**<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
+>abstract="Consultez rapidement des mesures générales ainsi que le mouvement vers et depuis une page spécifique.<br/><br/>**Paramètres **<br/>**Ajouter un élément de dimension de page** : ouvrez le rail de composants, recherchez la dimension Page et développez-la en cliquant sur la carotte pour afficher les éléments de dimension. Ensuite, faites glisser et déposez la page spécifique que vous souhaitez découvrir dans le créateur. Une fois que vous avez fait glisser et déposé l’élément de dimension, le rapport est automatiquement renseigné avec des informations clés sur la page."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Résumé de la page dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Il n’existe aucun panneau équivalent dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ Vous pouvez configurer le panneau [!UICONTROL Synthèse de la page] à l’aide 
 
 | Entrée | Description |
 | --- | --- |
-| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. Par exemple, **[!UICONTROL accueil]** pour explorer les statistiques de la page d’accueil. Utilisez le menu déroulant pour sélectionner une page ou commencez à saisir (par exemple, `home`) pour rechercher rapidement des pages. |
+| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. Par exemple, **[!UICONTROL accueil]** pour explorer les statistiques pour la page d’accueil. Utilisez le menu déroulant pour sélectionner une page ou commencez à saisir (par exemple `home`) pour rechercher rapidement des pages. |
 
 {style="table-layout:auto"}
 
