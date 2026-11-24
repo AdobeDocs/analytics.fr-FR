@@ -86,7 +86,7 @@ Vous pouvez configurer le panneau [!UICONTROL Synthèse de la page] à l’aide 
 
 | Entrée | Description |
 | --- | --- |
-| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. Par exemple, **[!UICONTROL accueil]** pour explorer les statistiques de la page d’accueil. Utilisez le menu déroulant pour sélectionner une page ou commencez à saisir (par exemple, `home`) pour rechercher rapidement des pages. |
+| **[!UICONTROL Page]** | Sélectionnez une dimension de page pour laquelle vous souhaitez explorer les statistiques clés. Par exemple, **[!UICONTROL accueil]** pour explorer les statistiques pour la page d’accueil. Utilisez le menu déroulant pour sélectionner une page ou commencez à saisir (par exemple `home`) pour rechercher rapidement des pages. |
 
 {style="table-layout:auto"}
 

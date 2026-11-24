@@ -65,7 +65,7 @@ ht-degree: 94%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consultez [Panneau Expérimentation](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) pour plus d’informations sur la comparaison de différentes expériences utilisateur, variantes de marketing ou de messagerie dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Cet article présente le panneau Analytics for Target dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consultez le [panneau Expérimentation](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) pour plus d’informations sur la comparaison de différentes expériences utilisateur, variantes de marketing ou de messagerie dans_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 

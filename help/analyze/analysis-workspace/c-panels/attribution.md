@@ -61,7 +61,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le panneau Attribution dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article décrit le panneau Attribution dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Panneau Attribution](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/panels/attribution) pour la_ ![version de CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -96,7 +96,7 @@ Vous pouvez configurer le panneau Attribution à l’aide des paramètres d’en
 
    ![Fenêtre du panneau Attribution présentant plusieurs dimensions et mesures sélectionnées.](assets/attribution-panel.png)
 
-1. Sélectionnez un ou plusieurs [modèles d’attribution](#attribution-models) parmi **[!UICONTROL Modèles inclus]**, le [conteneur](#container) parmi **[!UICONTROL Conteneur]** et un [intervalle de recherche en amont](#lookback-window) parmi **[!UICONTROL Intervalle de recherche en amont]** que vous souhaitez utiliser à des fins de comparaison.
+1. Sélectionnez un ou plusieurs [modèles d’attribution](#attribution-models) parmi **[!UICONTROL Modèles inclus]**, le [conteneur](#container) parmi **[!UICONTROL Conteneur]** et un [intervalle de recherche en amont](#lookback-window) parmi **[!UICONTROL intervalle de recherche en amont]** que vous souhaitez utiliser à des fins de comparaison.
 
 1. Sélectionnez **[!UICONTROL Créer]** pour créer les visualisations dans le panneau.
 

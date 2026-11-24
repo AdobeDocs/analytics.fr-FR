@@ -73,7 +73,7 @@ Voir ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Comparaison des
 
 Pour utiliser un panneau **[!UICONTROL Comparaison de segments]** :
 
-1. Créez un panneau **[!UICONTROL Comparaison des segments]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](../panels.md#create-a-panel).
+1. Créez un panneau **[!UICONTROL Comparaison de segments]**. Pour plus d’informations sur la création d’un panneau, consultez [Créer un panneau](../panels.md#create-a-panel).
 
 1. Spécifiez l’[entrée](#panel-input) du panneau.
 
@@ -107,7 +107,7 @@ Une fois qu’Adobe Analytics a terminé l’analyse des deux segments souhaité
 | **[!UICONTROL Taille et chevauchement]** | Illustre au moyen d’une visualisation [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) les tailles comparatives de chaque segment sélectionné et la façon dont les segments se chevauchent les uns les autres. |
 | **[!UICONTROL Visiteurs et visiteuses uniques pour le premier segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le premier segment (dans l’exemple Visites sur une seule page) |
 | **[!UICONTROL Visiteurs et visiteuses uniques pour le deuxième segment]** | Une visualisation [Synthèse des chiffres](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) présentant les visiteurs uniques pour le deuxième segment (dans l’exemple Premières visites) |
-| **[!UICONTROL Principales mesures par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
+| **[!UICONTROL Mesures principales par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) affichant les principales mesures pour les segments sélectionnés. |
 | **[!UICONTROL Mesure dans le temps par segment]** | Visualisation [Graphique en courbes](/help/analyze/analysis-workspace/visualizations/line.md) présentant les mesures au fil du temps pour les segments sélectionnés. |
 | **[!UICONTROL Principaux éléments de dimension par rapport aux segments]** | [Tableau à structure libre](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) présentant les éléments de dimension mixtes pour les segments sélectionnés. |
 | **[!UICONTROL Éléments de dimension par segment]** | Visualisation [Barre horizontale](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) présentant les éléments de dimension par segment. |

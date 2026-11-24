@@ -46,7 +46,7 @@ ht-degree: 80%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente la visualisation des flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article documente la visualisation de flux dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Flux](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/flow/flow) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 

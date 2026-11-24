@@ -61,7 +61,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Cet article présente le tableau de cohortes dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau de cohortes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
+_Cet article documente le tableau de cohortes dans_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Voir [Tableau de cohortes](https://experienceleague.adobe.com/fr/docs/analytics-platform/using/cja-workspace/visualizations/cohort-table/cohort-analysis) pour la version_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** de cet article._
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Exemples d’utilisation de la [!UICONTROL Table de cohorte] :
 * Sachez reconnaître quand terminer un essai ou une offre pour en optimiser la valeur.
 * Trouvez des idées de tests AB dans des domaines tels que la tarification, le chemin de mise à niveau, etc.
 
-[!UICONTROL Tableau de cohorte] est disponible pour tous les clients Adobe Analytics disposant de droits d’accès à [!UICONTROL Analysis Workspace].
+[!UICONTROL Le tableau de cohortes] est disponible pour tous les clients Adobe Analytics disposant de droits d’accès à [!UICONTROL Analysis Workspace].
 
 
 >[!BEGINSHADEBOX]
